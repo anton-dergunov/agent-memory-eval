@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+
+# Downloaded datasets and model-call caches: regenerable, and large.
+data/
+.cache/
+
+# Personal working notes. Never published with the repository.
+private/
