@@ -58,6 +58,21 @@ root. Each notebook costs a few cents to run. See
 [notebooks/README.md](notebooks/README.md) for how the `.py` and `.ipynb` files
 are paired.
 
+### Reading on a tablet
+
+The notebooks are saved with their outputs, so they can be read without running
+anything. [lectern](https://github.com/anton-dergunov/lectern) serves them as
+pages laid out for a tablet:
+
+```bash
+lectern serve
+```
+
+run in the repository root, then open the address it prints (for example
+`http://<your-mac>.local:8642/`) on the tablet. For the rare time a cell has to
+be run from the tablet, `lectern lab notebooks` starts JupyterLab behind its
+password.
+
 ## Layout
 
 | Path | Contents |
