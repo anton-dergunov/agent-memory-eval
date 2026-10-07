@@ -1,0 +1,9 @@
+# Every .ipynb in this repo is paired with a percent-format script next to it.
+#
+# Recording the pairing here rather than in each notebook's metadata means a
+# newly created notebook is paired from the moment it exists: `jupytext --sync`
+# (the .vscode tasks) works on it with no hand-editing of the .ipynb JSON.
+#
+# Without a pairing, `--sync` does not fail — it warns and exits 0, so the task
+# appears to succeed while writing nothing.
+formats = "ipynb,.nb.py:percent"

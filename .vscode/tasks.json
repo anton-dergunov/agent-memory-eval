@@ -1,0 +1,49 @@
+{
+  // Both tasks are meant to be run with the NOTEBOOK focused in the editor —
+  // that is where the work happens, and it keeps ${file} unambiguous.
+  //
+  // Each one passes --check-source-is-newer, which makes jupytext refuse the
+  // sync instead of silently discarding whichever side it considers older.
+  // Without that flag a sync quietly keeps the newer file and throws the other
+  // one's edits away.
+  //
+  // Both rely on the pairing declared in jupytext.toml at the repo root. If a
+  // notebook is not paired, `--sync` warns and exits 0 — the task reports
+  // success and writes nothing — so a task that seems to do nothing means the
+  // pairing was not picked up, not that the sync failed.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "jupytext: notebook → .nb.py  (hand off to Claude)",
+      "detail": "Write the focused notebook's cells out to its paired .nb.py. Fails if the .nb.py is newer, which means it holds work you have not pulled back yet.",
+      "type": "shell",
+      "command": "jupytext",
+      "args": ["--sync", "--check-source-is-newer", "${file}"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "revealProblems": "onProblem",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
+      "label": "jupytext: .nb.py → notebook  (pull Claude's edits back)",
+      "detail": "Read the paired .nb.py back into the focused notebook, keeping its outputs. Fails if the notebook is newer, which means you have edited it since handing off.",
+      "type": "shell",
+      "command": "jupytext",
+      "args": [
+        "--sync",
+        "--check-source-is-newer",
+        "${fileDirname}/${fileBasenameNoExtension}.nb.py"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "silent",
+        "revealProblems": "onProblem",
+        "panel": "shared",
+        "clear": true
+      }
+    }
+  ]
+}

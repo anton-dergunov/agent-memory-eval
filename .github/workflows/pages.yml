@@ -1,0 +1,47 @@
+name: Render notebooks to Pages
+
+# The committed notebooks already contain their outputs, so this only converts
+# them to HTML — nothing is executed and no API keys are needed.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      # Pinned to a tag, so the site only changes its look when this line does.
+      # Title, description and what to leave out are in lectern.toml.
+      - name: Render notebooks
+        run: uvx --from "git+https://github.com/anton-dergunov/lectern@v0.2.0" lectern build . -o _site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -12,14 +12,14 @@ repository.
 The post has two halves:
 
 1. **Mechanism.** One short conversation, in which a user changes their mind, run
-   through each system with every model call shown. The four intuition notebooks
-   already do this.
+   through each system with every model call shown. The four notebooks already
+   do this.
 2. **Evidence.** A small experiment on a public benchmark that checks whether what
-   the notebooks show on eight turns also holds on real data.
+   the notebooks show on one short conversation also holds on real data.
 
 The post is written by hand from these materials. The notebooks stay separate as
 intuition material and are not converted into the post. The experiment is plain
-Python under `experiments/`, not a notebook.
+Python under `src/`, not a notebook.
 
 ## Why this post is worth writing
 
@@ -220,8 +220,9 @@ because altering its ingestion means measuring a different system.
 Things that will change these numbers:
 
 - Graphiti's cost grows with the size of the graph.
-- The Graphiti and Letta notebooks currently run on OpenAI (`gpt-5.4-mini`), not
-  Gemini. Either move them to Gemini or price them separately.
+- All four notebooks run on Gemini (`gemini-3.1-flash-lite`), on a free tier
+  that allows 15 requests a minute. The experiment will need a paid tier or a
+  different route to the model.
 - Cache every model call on disk, keyed on the full request, so a re-run after a
   bug fix costs nothing for the arms that did not change.
 
@@ -269,23 +270,17 @@ These come from mistakes already made once elsewhere.
 
 ## Stages
 
-1. **Clean the copied notebooks.**
-   - They contain links into another repository's design documents (`../docs/...`)
-     and that project's labels (`M7`, `M9`, `E4`, "ACI"). Remove or rewrite each
-     one so the notebooks stand alone.
-   - Rename the kernel and the package (`aci-notebooks`) to match this repository.
-   - Read each notebook once for anything that should not be public before the
-     first push.
-   - Decide whether the `.ipynb` files with outputs are committed. Rendered outputs
-     let a reader follow along on GitHub without an API key, which argues for
-     committing them here.
+1. **Clean the copied notebooks.** Done. The notebooks stand alone, run on one
+   model set in `notebooks/config.py`, and are committed as `.ipynb` with their
+   outputs so a reader can follow along without an API key.
 2. **Add the three missing arms as notebooks or small modules:** full context,
    plain retrieval, textual memory. Run each on the same three sessions.
-3. **Make the labels honest.** The Honcho and Letta notebooks drive the vendors'
-   prompts from local code and do not run the vendors' servers. Either run the real
+3. **Make the labels honest.** The Honcho, Letta and Zep/Graphiti notebooks drive
+   the vendors' prompts from local code and do not run the vendors' servers or
+   libraries. Either run the real
    systems in the experiment or label the arms "Honcho-style" and "Letta-style"
    everywhere.
-4. **Build the experiment under `experiments/`:** a loader for LongMemEval, the
+4. **Build the experiment under `src/`:** a loader for LongMemEval, the
    trimming with a fixed seed, one adapter per arm behind a common interface
    (ingest a session with its timestamp, answer a question at a date), the judge,
    the call cache and the cost ledger.
@@ -317,10 +312,8 @@ Stages 1 to 3 need almost no API spend. Stages 5 and 6 are where the budget goes
 
 ## Open decisions
 
-- Whether to run the real Honcho and Letta servers or keep the local
-  re-implementations with honest labels.
-- Whether Graphiti moves to Gemini or stays on OpenAI with separate pricing.
+- Whether to run the real Honcho, Letta and Graphiti in the experiment or keep
+  the local re-implementations with honest labels.
 - Whether to add the 30 single-session-preference questions. They are closer to
   personalisation, but they have one evidence session and no revision.
-- Whether the `.ipynb` outputs are committed.
 - The final repository name and whether it is public from the start.

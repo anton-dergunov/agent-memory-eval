@@ -21,9 +21,10 @@ shows this more clearly than a benchmark table does.
 
 Open with one concrete, surprising result, before any architecture.
 
-- Candidate: the user changes their mind, and the temporal graph leaves the old
-  fact open, having spent roughly ten times the model calls of the simpler
-  system (19 against 2 in the notebooks).
+- Candidate: the user changes their mind, and the temporal graph closes the old
+  fact correctly. Then its default search returns the closed fact and not the one
+  that replaced it, having spent eighteen times the model calls of the simpler
+  system (36 against 2 in the notebooks).
 - Then the question the post answers: what does each system actually do with a
   conversation, and what does that cost?
 
@@ -73,7 +74,7 @@ record shown.
 
 Notes for these sections:
 
-- **Honcho and Letta are re-implementations.** The notebooks drive the vendors'
+- **Honcho, Letta and Zep/Graphiti are re-implementations.** The notebooks drive the vendors'
   published prompts and tool definitions from local code. Say so plainly, or run
   the real servers.
 - **Textual memory versus Letta.** Same family, different writer. In Letta the
@@ -156,7 +157,7 @@ Prefer the vendors' own documentation where it exists.
 
 ### 6. The experiment
 
-Does the eight-turn intuition hold on real data?
+Does the intuition from one short conversation hold on real data?
 
 - LongMemEval, the knowledge-update questions: the user states a fact and later
   revises it.

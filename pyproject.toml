@@ -1,0 +1,22 @@
+[project]
+name = "agent-memory-eval"
+version = "0.1.0"
+description = "How LLM agent memory systems work, traced call by call"
+requires-python = ">=3.11"
+dependencies = [
+    "mem0ai>=0.1.100",
+    # Only its prompts and constants are imported; the Zep/Graphiti notebook
+    # re-implements the pipeline around them and needs no graph database.
+    "graphiti-core>=0.30",
+    "google-genai>=1.0",
+    "python-dotenv>=1.0",
+    "ipykernel>=6.29",
+    "jupytext>=1.16",
+    "nbconvert>=7.16",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "graphviz>=0.20",
+]
+
+[tool.setuptools]
+py-modules = []

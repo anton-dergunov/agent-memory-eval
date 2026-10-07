@@ -1,9 +1,27 @@
 .DS_Store
+
+# Jupytext pairs.
+#
+# The .ipynb is the version in git, outputs and all, because the outputs are
+# the point of these notebooks. The paired script is generated from it on
+# demand and is never committed. The `.nb.py` suffix lets this one line ignore
+# it without touching ordinary Python files, which are tracked normally.
+*.nb.py
+
+# Secrets
+.env
+
+# Rendered site (built by CI, and locally for previewing)
+_site/
+
+# Environments and caches
 .venv/
 __pycache__/
 *.pyc
-.env
 .ipynb_checkpoints/
+
+# Notebook run artifacts
+.mem0-run/
 
 # Downloaded datasets and model-call caches: regenerable, and large.
 data/
@@ -11,5 +29,4 @@ data/
 
 # Personal working notes. Never published with the repository.
 private/
-
-notebooks/
+*.egg-info/
