@@ -180,3 +180,62 @@ The other six wrong answers:
   `finish_reason=content_filter` and no message while the agent was reading the
   history (the question is about a named book), and Letta stops on such a
   reply. It is counted as wrong.
+
+## Graphiti: the update mostly arrives, and the dates decide (12 wrong of 67)
+
+Re-run with one episode per message, Graphiti scores 82% (71–89%), up from
+18% with 8,000-character episodes, in line with Mem0 and Honcho's dialectic
+chat. It is still the most expensive system by far: 720 model calls and 2.3
+million input tokens per question ($0.64), against 10–40 calls for the others.
+The graph holds about 319 edges per question, and closes 4.8 of them as
+superseded (0.2 before the fix).
+
+| Cause | answers |
+|---|---|
+| Update never extracted | 5: `5c40ec5b`, `a2f3aa27`, `affe2881`, `c6853660`, `f685340e` |
+| Update extracted, then the dates or invalidation went wrong | 2: `9ea5eabc`, `945e3d21` |
+| Update extracted in a different form, not delivered as the answer needs | 2: `59524333`, `c4ea545c` |
+| Delivered; the answer combined, computed or hedged wrongly | 3: `2133c1b5`, `4d6b87c8`, `7401057b` |
+
+**Never extracted (5).** As with Mem0, revisions mentioned in passing: the
+graph keeps "has spotted 27 different bird species in their local park" with
+no later count (32), "consumes one cup of dark roast coffee in the morning"
+with no later increase, "plays tennis with friends on a weekly basis" with no
+change to every other week, "has 1250 followers" with no 1,300, and only the
+first meeting with Alex.
+
+**The temporal model works against the answer (2).** These are the failures
+specific to a dated graph, and the most interesting ones for the post:
+
+- `9ea5eabc` (*"Where did I go on my most recent family trip?"*, Paris).
+  Graphiti dates a fact by when it became true, not when it was said. "Visited
+  Paris with family last month", said in May, became an edge valid from
+  2023-04-01; "a recent family trip to Hawaii" became an edge valid from
+  2023-05-26, the day it was mentioned. Comparing those dates, Graphiti closed
+  the Paris edge as superseded by Hawaii ("valid from 2023-04-01 until
+  2023-05-26 [superseded]"), and the answer, reading the validity windows as
+  instructed, picked Hawaii. Every other system answered Paris.
+- `945e3d21` (yoga for anxiety, twice → three times a week). The old value was
+  stored as two near-duplicate edges. The update closed one ("practices yoga
+  twice a week to help relax and focus … [superseded]") and left the other
+  ("twice a week to feel grounded … on days when experiencing anxiety")
+  current; the new edge says the three classes are "to help clear their head",
+  so the answer kept twice a week for anxiety.
+
+**Extracted in another form (2).** `59524333`: the change to 6 pm became "has
+a gym commitment at 6:00 pm on Tuesday", next to the unchanged Monday,
+Wednesday and Friday sessions, so the answer kept 7 pm. `c4ea545c` (*"Do I go
+to the gym more frequently than I did previously?"*): only the new schedule is
+in the graph, so there is nothing to compare it with.
+
+**Delivered, answered wrongly (3).** `2133c1b5` computes six months from the
+studio apartment's first mention although "has been living in Harajuku for 3
+months" was delivered; `4d6b87c8` adds two planned titles to the 25 on the
+list (27); `7401057b` gets both the one-night and two-night facts and answers
+with advice on checking the points balance.
+
+Graphiti misses none of the dataset questions from cause A; it is the only arm
+that answers `618f13b2` with the key's "six" (its edges for the two same-day
+statements carry the order Graphiti inferred, not the session order). Its old value
+is still presented as current in 14 of 67 questions (21%), the lowest of the
+memory systems after textual memory.
