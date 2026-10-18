@@ -1,10 +1,10 @@
 # Findings: why the answers were wrong
 
 Hand-written, from reading every wrong answer in
-[failures.md](failures.md) (generated) next to its result file. Covers the six
-arms whose runs are final: full context, retrieval, textual memory, Mem0 and
-Honcho's two read paths, 39 wrong answers out of 402. Graphiti and Letta are
-added when their re-runs finish.
+[failures.md](failures.md) (generated) next to its result file. The first part
+covers full context, retrieval, textual memory, Mem0 and Honcho's two read
+paths (39 wrong answers out of 402); Letta and Graphiti, re-run with the
+ingestion fixed, have their own sections below.
 
 With 2 to 11 failures per arm these are illustrations of mechanisms, not
 rates. A mechanism is worth reporting when it recurs, or when it is specific
@@ -123,3 +123,60 @@ start. The facts are right; the profile's phrasing invites the subtraction.
 | Mem0 | 618f13b2, 852ce960, e66b632c | 07741c44, 59524333, 71315a70, a2f3aa27, f685340e | f9e8c073, dad224aa | eace081b | |
 | Honcho chat | 618f13b2 | 42ec0761 | 6a1eabeb, 945e3d21 | 0ddfec37, 1cea1afa, 4d6b87c8, 830ce83f, dad224aa | |
 | Honcho repr | 618f13b2, e66b632c | 42ec0761, 41698283 | | ba61f0b9 | |
+
+## Letta: the agent appends, and does not replace (21 wrong of 67)
+
+Re-run with one agent step per user message, Letta scores 69% (57–78%), up
+from 58% when whole sessions were sent at once, and still clearly below the
+other memory systems. Fifteen of its 21 wrong answers are "update never
+stored", and on 14 of those 15 questions at least three of the five other
+arms checked answer correctly (the exception is `618f13b2`, the dataset
+question every arm misses).
+
+The mechanism is visible in the memory blocks. While reading a history the
+agent edits its `human` block about ten times per question: on average 8.2
+`memory_insert` calls and 1.4 `memory_replace` calls (plus 12
+`conversation_search` calls). It writes the first value down and, when the
+revision arrives later in passing, adds nothing or adds an unrelated detail:
+
+| Question | reference | what the `human` block says | edits while reading |
+|---|---|---|---|
+| `06db6396` projects since starting painting classes | 5 | "has completed 4 projects so far" | 7 inserts, 0 replaces |
+| `1cea1afa` Instagram followers now | 600 | "recently hit 500 followers on Instagram" | 7 inserts, 0 replaces |
+| `4b24c848` tops bought from H&M | five | "recently bought three tops there" | 9 inserts, 0 replaces |
+| `cc5ded98` daily coding time | about two hours | "practicing Python coding for one hour daily" | 3 inserts, 0 replaces |
+
+At question time the agent trusts its block: it makes 2.3 searches on
+average, and answers "4 projects", "500 followers", "three tops", "one hour".
+The 46 questions where the agent used `memory_replace` at least once score
+36/46 (78%); the 20 where it only appended score 10/20 (50%). The block
+holds the old value as current in 16 of 66 questions.
+
+This is the design working as specified: in Letta the model decides what to
+remember and when to revise it, so the memory is exactly as good as the
+model's judgement of "this replaces something I wrote earlier". With
+`gemini-3.1-flash-lite` in that seat, revisions mentioned in passing are often
+missed. (In the trace of `06db6396` made while testing the fix, the same agent
+did call `memory_replace` and answered 5; across runs the outcome depends on
+that one decision.)
+
+Three of the fifteen show the same gap from the other side: with nothing
+written down and no search hit, the agent says it has no record (`dad224aa`,
+`db467c8c`, and `a2f3aa27`, which adds "I don't have access to your Instagram").
+
+The other six wrong answers:
+
+- `eace081b` (Hawaii): names Oahu correctly, then reads "where am I planning to
+  stay" as a hotel and says it has none on record, the same misreading as
+  Mem0's answer.
+- `6071bd76` (French press): quotes the June ratio and turns the question back
+  to the user instead of saying it changed.
+- `0f05491a` (Starbucks Gold): the agent answers from its own knowledge that
+  the Gold tier no longer exists, rather than from the conversation (120 stars).
+- `50635ada` (previous United status): says it has no record of the status
+  before Premier Gold, one of the questions about an earlier value.
+- `e66b632c`: the dataset question from cause A.
+- `184da446`: no answer. In four separate builds Vertex returned a reply with
+  `finish_reason=content_filter` and no message while the agent was reading the
+  history (the question is about a named book), and Letta stops on such a
+  reply. It is counted as wrong.
