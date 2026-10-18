@@ -155,7 +155,10 @@ def client():
 
 
 TRANSIENT = ("429", "500", "502", "503", "504", "RESOURCE_EXHAUSTED", "UNAVAILABLE",
-             "DEADLINE_EXCEEDED", "high demand", "overloaded")
+             "DEADLINE_EXCEEDED", "high demand", "overloaded",
+             # Connection drops on the way to Vertex.
+             "disconnected", "RemoteProtocolError", "ConnectError", "Connection reset",
+             "timed out", "ReadTimeout")
 
 
 def with_retry(call, attempts: int = 6):

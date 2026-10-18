@@ -45,34 +45,45 @@ def build(split: str, arm_name: str, limit: int | None = None, reverse: bool = F
             q = data.question(qid, full_history=full)
             started = time.time()
             print(f"[{arm_name}] {n}/{len(ids)} {qid}: {len(q.sessions)} sessions", flush=True)
-            with llm.tagged(split=split, arm=arm_name, qid=qid):
-                with llm.tagged(phase="write"):
-                    arm.reset(q)
-                    for session in q.sessions:
-                        arm.ingest(session)
-                    arm.finish()
-                written = time.time()
-                with llm.tagged(phase="read"):
-                    reads = arm.reads(q)
-                dump = arm.dump()
-                for name, read in reads.items():
-                    with llm.tagged(arm=name, phase="answer"):
-                        answer = read.answer if read.answer is not None else arm.answer(q, read.context)
-                    out = {"qid": qid, "arm": name, "split": split, "question": q.question,
-                           "reference": q.answer, "question_date": f"{q.date:%Y-%m-%d %H:%M}",
-                           "sessions": [{"id": s.id, "date": f"{s.date:%Y-%m-%d %H:%M}",
-                                         "evidence": s.evidence} for s in q.sessions],
-                           "context": read.context, "answer": answer, "dump": dump,
-                           "extra": read.extra, "settings": arm.settings(),
-                           "seconds": {"write": round(written - started, 1),
-                                       "total": round(time.time() - started, 1)}}
-                    path = result_path(split, name, qid)
-                    path.parent.mkdir(parents=True, exist_ok=True)
-                    path.write_text(json.dumps(out, indent=1, ensure_ascii=False))
-            print(f"[{arm_name}] {qid} done in {time.time() - started:.0f}s; "
-                  f"spent so far ${llm.spent():.2f}", flush=True)
+            try:
+                _build_one(split, arm, arm_name, q, started)
+            except llm.BudgetExceeded:
+                raise
+            except Exception:  # noqa: BLE001 - retried on the next run
+                traceback.print_exc()
+                print(f"[{arm_name}] {qid} FAILED; it will be retried on the next run", flush=True)
     finally:
         arm.close()
+
+
+def _build_one(split: str, arm, arm_name: str, q, started: float) -> None:
+    qid = q.qid
+    with llm.tagged(split=split, arm=arm_name, qid=qid):
+        with llm.tagged(phase="write"):
+            arm.reset(q)
+            for session in q.sessions:
+                arm.ingest(session)
+            arm.finish()
+        written = time.time()
+        with llm.tagged(phase="read"):
+            reads = arm.reads(q)
+        dump = arm.dump()
+        for name, read in reads.items():
+            with llm.tagged(arm=name, phase="answer"):
+                answer = read.answer if read.answer is not None else arm.answer(q, read.context)
+            out = {"qid": qid, "arm": name, "split": split, "question": q.question,
+                   "reference": q.answer, "question_date": f"{q.date:%Y-%m-%d %H:%M}",
+                   "sessions": [{"id": s.id, "date": f"{s.date:%Y-%m-%d %H:%M}",
+                                 "evidence": s.evidence} for s in q.sessions],
+                   "context": read.context, "answer": answer, "dump": dump,
+                   "extra": read.extra, "settings": arm.settings(),
+                   "seconds": {"write": round(written - started, 1),
+                               "total": round(time.time() - started, 1)}}
+            path = result_path(split, name, qid)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps(out, indent=1, ensure_ascii=False))
+    print(f"[{arm_name}] {qid} done in {time.time() - started:.0f}s; "
+          f"spent so far ${llm.spent():.2f}", flush=True)
 
 
 def main(argv=None) -> int:

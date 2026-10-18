@@ -111,7 +111,7 @@ def test_report_tables(tmp_path):
     root.mkdir(parents=True)
     for i, ok in enumerate([True, False]):
         (root / f"q{i}.json").write_text(json.dumps({
-            "qid": f"q{i}", "judge": {"correct": ok}, "dump": None,
+            "qid": f"q{i}", "judge": {"correct": ok}, "dump": None, "context": "ctx", "answer": "a",
             "probe": {"delivered": {"new_present": True}, "stale": {"gave_old": not ok}}}))
     llm.record("gemini-3.1-flash-lite", 1000, 100,
                tags={"split": "pilot", "arm": "full-context", "qid": "q0", "phase": "answer"})

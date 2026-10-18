@@ -83,9 +83,19 @@ def score_split(split: str, arms: list[str] | None = None, workers: int = 8) -> 
     for qid in sorted({p.stem for _, p in paths}):
         with llm.tagged(split=split, arm="_facts", qid=qid, phase="probe"):
             facts(split, qid)
+    failed = 0
     with ThreadPoolExecutor(workers) as pool:
-        for future in [pool.submit(_score_one, split, arm, path) for arm, path in paths]:
-            future.result()
+        futures = {pool.submit(_score_one, split, arm, path): path for arm, path in paths}
+        for future, path in futures.items():
+            try:
+                future.result()
+            except llm.BudgetExceeded:
+                raise
+            except Exception as exc:  # noqa: BLE001 - scored on the next run
+                failed += 1
+                print(f"[score] FAILED {path}: {type(exc).__name__}: {str(exc)[:200]}", flush=True)
+    if failed:
+        print(f"[score] {failed} results not scored; run score again", flush=True)
 
 
 def _score_one(split: str, arm: str, path) -> None:
