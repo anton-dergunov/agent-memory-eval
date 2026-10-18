@@ -129,7 +129,12 @@ class Handler(BaseHTTPRequestHandler):
         cache_hit = reply is not None
         if not cache_hit:
             reply = self._forward(payload)
-        usage = reply.get("usage") or {}
+        # Vertex sometimes sends null token counts (seen on a reply that was
+        # only a tool call); OpenAI's schema says integers, and Letta rejects null.
+        usage = reply.setdefault("usage", {}) or {}
+        for field in ("prompt_tokens", "completion_tokens", "total_tokens"):
+            usage[field] = int(usage.get(field) or 0)
+        reply["usage"] = usage
         choices = reply.get("choices") or [{}]
         finish = choices[0].get("finish_reason")
         thinking = int((usage.get("completion_tokens_details") or {}).get("reasoning_tokens") or 0)

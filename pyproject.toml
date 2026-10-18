@@ -34,7 +34,8 @@ experiment = [
     "honcho-ai==2.6.0",
     "graphiti-core[google-genai]==0.31.1",
     "neo4j==6.4.1",
-    "letta-client==1.12.1",
+    # The client released with the last Letta Python server (0.16.8, infra/letta).
+    "letta-client==1.11.0",
     "pytest>=8.0",
 ]
 
