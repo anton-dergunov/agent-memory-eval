@@ -68,6 +68,46 @@ def outcome(r: dict) -> str:
     return "delivered, other error"
 
 
+def system_stats(arm: str, rows: list[dict]) -> dict:
+    """A few numbers that say what the system did, from each result's `extra`
+    and `dump`."""
+    n = max(1, len(rows))
+    mean = lambda key: sum((r.get("extra") or {}).get(key, 0) for r in rows) / n  # noqa: E731
+    out = {}
+    if arm == "mem0":
+        out = {"facts stored": f"{mean('stored'):.0f}", "facts returned": f"{mean('retrieved'):.0f}",
+               "unparsed extraction replies": f"{mean('parse_failures'):.2f}"}
+    elif arm == "graphiti":
+        out = {"edges": f"{mean('edges'):.0f}", "edges closed (superseded)": f"{mean('invalidated'):.1f}",
+               "episodes": f"{mean('episodes'):.0f}", "failed episodes": f"{mean('episode_failures'):.2f}",
+               "facts returned": f"{mean('retrieved'):.0f}"}
+    elif arm.startswith("honcho"):
+        levels = defaultdict(int)
+        for r in rows:
+            for line in (r.get("dump") or "").splitlines():
+                if line.startswith("- ["):
+                    levels[line[3:line.index("]")]] += 1
+        out = {f"{level} conclusions": f"{count / n:.0f}" for level, count in sorted(levels.items())}
+        out["context tokens"] = f"{sum(len(r['context']) for r in rows) / n / 4:.0f}"
+    elif arm == "letta":
+        empty = sum(1 for r in rows if "<human>\n\n</human>" in (r.get("dump") or "")
+                    or "<human>\n</human>" in (r.get("dump") or ""))
+        out = {"human block chars": f"{sum(_human_chars(r.get('dump') or '') for r in rows) / n:.0f}",
+               "questions with an empty human block": f"{empty}/{len(rows)}",
+               "tool calls while answering": f"{sum(len((r.get('extra') or {}).get('tool_calls', [])) for r in rows) / n:.1f}",
+               "no reply": f"{sum(1 for r in rows if r['answer'] == '(no reply)')}/{len(rows)}"}
+    elif arm == "textual":
+        out = {"profile tokens": f"{sum(len(r['context']) for r in rows) / n / 4:.0f}"}
+    elif arm in ("retrieval", "full-context"):
+        out = {"context tokens": f"{sum(len(r['context']) for r in rows) / n / 4:,.0f}"}
+    return out
+
+
+def _human_chars(dump: str) -> int:
+    start, end = dump.find("<human>"), dump.find("</human>")
+    return max(0, end - start - len("<human>") - 2) if start >= 0 and end > start else 0
+
+
 def report(split: str) -> str:
     results = load(split)
     calls = ledger(split)
@@ -117,6 +157,12 @@ def report(split: str) -> str:
         lines.append(f"| {arm} | {by_phase['write'] / n:.4f} | {by_phase['read'] / n:.4f} | "
                      f"{by_phase['answer'] / n:.4f} | {total / n:.4f} | {write_calls / n:.1f} | "
                      f"{write_tokens / n:,.0f} |")
+
+    lines += ["", "### What each system stored and returned (mean per question)", ""]
+    for arm, rows in results.items():
+        stats = system_stats(arm, rows)
+        if stats:
+            lines.append(f"- **{arm}**: " + "; ".join(f"{k} {v}" for k, v in stats.items()))
 
     pairs = [(r["judge"]["correct"], r["judge_check"]["correct"])
              for rows in results.values() for r in rows if "judge_check" in r]
