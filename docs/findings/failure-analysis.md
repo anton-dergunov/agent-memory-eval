@@ -236,7 +236,7 @@ with advice on checking the points balance.
 
 Graphiti misses none of the dataset questions from cause A; it is the only arm
 that answers `618f13b2` with the key's "six", and by luck: of the ten facts
-retrieved, eight are the assistant's cleaning tips, and only "wore their new
+retrieved, seven are the assistant's cleaning tips, and only "wore their new
 black Converse six times" reached the answer, not the later "four". Its old value
 is still presented as current in 14 of 67 questions (21%), the lowest of the
 memory systems after textual memory.
