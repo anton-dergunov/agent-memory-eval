@@ -106,10 +106,10 @@ mean a hotel and said there was no information.
 
 ## E. Arithmetic over dated values in the profile (3)
 
-Specific to textual memory. Its rewrite keeps a running state with dates
-("collection of 17 postcards as of August; 25 as of November"), and the
-answering model then treats a question about a total as a question about the
-change: `01493427` answers 25 − 17 = 8 (key 25), `5831f84d` answers
+Specific to textual memory. Its rewrite keeps a running state with its history
+("The user has 25 postcards in their collection as of 2023-11-30 (up from 17
+items reported on 2023-08-11)"), and the answering model then treats a
+question about a total as a question about the change: `01493427` answers 25 − 17 = 8 (key 25), `5831f84d` answers
 15 − 12 = 3 (key 15). `2133c1b5` counts the months in Harajuku from the wrong
 start. The facts are right; the profile's phrasing invites the subtraction.
 

@@ -16,8 +16,8 @@ decisions behind it are in [tasks/blog-post-plan.md](tasks/blog-post-plan.md).
 | `mem0` | an extraction pipeline | mem0ai 2.2.1 (real library) | `search()` defaults |
 | `honcho-chat` | a background reasoner | Honcho v3.3.0 (real server) | the dialectic agent |
 | `honcho-repr` | the same store | the same server | `representation()` retrieval, no model |
-| `graphiti` | a pipeline into a dated graph | graphiti-core 0.31.1 on Neo4j 5.26 (real library) | `search()` defaults |
-| `letta` | the answering agent, with tools | Letta 0.16.8 (real server, its last Python release) | the agent answers itself |
+| `graphiti` | a pipeline into a dated graph, one episode per message | graphiti-core 0.31.1 on Neo4j 5.26 (real library) | `search()` defaults |
+| `letta` | the answering agent, with tools, one step per user message | Letta 0.16.8 (real server, its last Python release) | the agent answers itself |
 
 Every system runs on the same models, on Vertex AI:
 
@@ -72,6 +72,21 @@ ARMS="full-context retrieval textual mem0" scripts/run-split.sh full
 `MEMEVAL_BUDGET_USD` (default 45) stops every model call once the ledger shows
 that much spent. Runs are resumable: finished questions are skipped, and a
 repeated model call is served from `.cache/llm`.
+
+- `--shard i/n` builds every n-th question of an arm, so several processes can
+  share a slow arm (the Graphiti re-run used five; each Letta process needs its
+  own proxy port, `MEMEVAL_LETTA_PROXY_PORT`).
+- Every chat request and reply, cache hits included, is appended to
+  `.cache/calls/`. `MEMEVAL_CACHE_ONLY=1` replays a finished run from the cache
+  and fails on any miss instead of paying, which rebuilds those logs for free;
+  `MEMEVAL_RESULTS_DIR` and `MEMEVAL_LEDGER_DIR` send a replay's results and
+  ledger elsewhere.
+- `python -m memeval.findings` rebuilds the tables behind the write-up
+  (`docs/findings/`) from the result files.
+- The first main run fed Graphiti 8,000-character episodes and Letta whole
+  sessions in one request; both are kept in `results/main/graphiti-chunk` and
+  `letta-batch` and can be reproduced with `MEMEVAL_GRAPHITI_EPISODES=chunk`
+  and `MEMEVAL_LETTA_INGEST=batch`.
 
 ## What is measured
 

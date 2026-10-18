@@ -389,34 +389,45 @@ All numbers and the design are in the plan. The limits to state: trimmed
 history, one question type, 67 questions, one model, and no comparison
 with published LongMemEval results.
 
-**Measured** (17 October 2026; tables, worked examples and the full-history run
-in [experiment-results.md](../experiment-results.md)):
+**Measured** (17–18 October 2026; tables, failure analysis and the
+full-history run in [experiment-results.md](../experiment-results.md) and
+[findings/](../findings/)):
 
 - Accuracy on 67 questions, 10-session history: full context 90%, retrieval
   97%, textual memory 93%, Mem0 84%, Honcho 87% (dialectic chat) and 93%
-  (representation), Graphiti 18%, Letta 58%. Six arms overlap; only Graphiti
-  and Letta are clearly apart. Judges agree on 95 of 96.
-- The trimmed history is in the regime where full context wins: memory can only
-  lose. Plain retrieval over raw turns lost nothing, at a fifth of the tokens.
-  Full context's errors are the model answering with the old value although
-  the new one is in the prompt.
-- Most loss is at write time, as HaluMem would predict: "stored but not
-  delivered" is almost empty for every arm; "update never stored" is 45 of
-  Graphiti's 55 wrong answers and 22 of Letta's 28.
-- Nobody resolves the conflict at write time, and with dates on every item it
-  mostly does not matter: the old value is still stored as current in 25 of
-  Mem0's stores and 42 of Honcho's, and when both values reach the model with
-  dates it picks the newer one (51 of 53 for Honcho's representation).
-- Graphiti: about 57 edges from 10 sessions, 0.2 closed as superseded per
-  question; the update is an aside and never becomes an edge. 121 model calls
-  per question, eight times the next system.
-- Letta: the agent left its `human` block empty after 43 of 67 histories and
-  answers by `conversation_search`, which on the self-hosted server is a
-  literal SQL substring match. Its score is the same with or without a filled
-  block.
-- Cost per question (system only): full context $0.007, retrieval $0.002,
-  textual $0.022, Mem0 $0.040, Honcho $0.030, Letta $0.029, Graphiti $0.238.
-- Full history: FULL_HISTORY_SUMMARY
+  (representation), Graphiti 82%, Letta 69%. Seven arms overlap; only Letta is
+  clearly below. Judges agree on 118 of 120.
+- **How a system is fed decides whether it remembers.** Graphiti scored 18%
+  with sessions cut into 8,000-character episodes (its extraction prompts are
+  written for one message, and it adds ten previous episodes as context) and
+  82% with one episode per message. Letta scored 58% when each session arrived
+  in one request (its agent mostly took no turn) and 69% with one turn per user
+  message. Nothing failed loudly in either broken run.
+- **The differences that are large are cost and weight.** Per question:
+  retrieval $0.002, full context $0.007, textual $0.022, Honcho $0.029, Mem0
+  $0.040, Letta $0.13, Graphiti $0.64 (720 model calls). Graphiti and Honcho
+  need servers; textual memory and retrieval need none.
+- The trimmed history is the regime where full context is close to its
+  ceiling. Plain retrieval over raw turns lost nothing, at a fifth of the
+  tokens.
+- **Nobody resolves the conflict at write time, and with dates it mostly does
+  not matter.** The old value is still stored as current in 37% of Mem0's
+  stores, 64% of Honcho's and 21% of Graphiti's; when both values reach the
+  model with dates it picks the newer one about nine times in ten.
+- Most loss is at write time (HaluMem's finding): "update never stored" is 5
+  of Mem0's 11 wrong answers, 5 of Graphiti's 12, 15 of Letta's 21.
+- System-specific failures, each with a worked example: Honcho's dialectic
+  agent refuses to choose between two dated values (5 of its 9 errors); Mem0
+  adds two kept values (3 + 5 = 8); textual memory's "25 (up from 17)" lines
+  invite subtraction; Graphiti's event-time dating closed the newer fact
+  (Paris, said later, dated earlier); Letta's agent appends and rarely
+  replaces (78% when it replaced at least once, 50% when it only appended).
+- Three questions are flawed (12 of 39 wrong answers among the simpler arms).
+- Full history (25 questions, ~124,000 tokens): full context 92% → 84%,
+  retrieval 100% → 96%, textual 96% → 92%, Mem0 84% → 84%. Full context slips
+  (the new value in the prompt, the old one in the answer) but does not
+  collapse, unlike GPT-4o in the paper. Write cost grows with the history
+  (textual 13×, Mem0 4.5×); retrieval's does not.
 
 Published findings that bear on the design **[paper]**:
 

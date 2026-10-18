@@ -56,22 +56,26 @@ facts.
 tokens), `gemini-3.1-flash-lite` in every seat, `gemini-3.1-pro-preview` as
 judge. Not comparable to published LongMemEval results.
 
-| Arm | Accuracy | 95% interval | Cost per question | Where wrong answers were lost |
-|---|--:|---|--:|---|
-| Full context | 90% | 80%–95% | $0.007 | the model answered with the old value (5 of 7) |
-| Retrieval (BM25 over raw turns) | 97% | 90%–99% | $0.002 | |
-| Textual memory | 93% | 84%–97% | $0.022 | |
-| Mem0 | 84% | 73%–91% | $0.040 | update never stored (6 of 11) |
-| Honcho, dialectic chat | 87% | 76%–93% | $0.030 | |
-| Honcho, representation | 93% | 84%–97% | $0.028 | |
-| Graphiti | 18% | 11%–29% | $0.238 | update never stored (45 of 55) |
-| Letta | 58% | 46%–69% | $0.029 | update never stored or never found (22 of 28) |
+| Arm | Accuracy | 95% interval | Cost per question | Model calls to write |
+|---|--:|---|--:|--:|
+| Full context | 90% | 80%–95% | $0.007 | 0 |
+| Retrieval (BM25 over raw turns) | 97% | 90%–99% | $0.002 | 0 |
+| Textual memory | 93% | 84%–97% | $0.022 | 10 |
+| Mem0 | 84% | 73%–91% | $0.040 | 10 |
+| Honcho, dialectic chat | 87% | 76%–93% | $0.029 | 38 |
+| Honcho, representation | 93% | 84%–97% | $0.028 | 38 |
+| Graphiti | 82% | 71%–89% | $0.640 | 720 |
+| Letta | 69% | 57%–78% | $0.132 | 81 |
 
-On a history this short every memory system can only lose to reading the whole
-thing, and most lose little. The two that lose a lot lose at write time: the
-update never makes it into memory. The analysis, one worked example per system
-and the full-history run are in
-[docs/experiment-results.md](docs/experiment-results.md); how to run it is in
+On a history this short most memory systems lose little against reading the
+whole thing, and what separates them is cost: Graphiti spends 30 times what
+textual memory spends. How a system is fed matters as much as which system it
+is: Graphiti scored 18% and Letta 58% until the conversation was handed to
+them the way they were built for (one message per episode; one agent turn
+per user message). Letta still trails because its agent appends to its memory
+and rarely replaces the old value. The analysis, the failure breakdown and the
+full-history run are in [docs/experiment-results.md](docs/experiment-results.md),
+with the tables in [docs/findings/](docs/findings/); how to run it is in
 [docs/experiment.md](docs/experiment.md).
 
 ## Running the notebooks

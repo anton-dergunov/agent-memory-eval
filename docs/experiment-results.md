@@ -1,200 +1,240 @@
 # The LongMemEval experiment: results
 
-What the experiment found, with one worked example per system. How it was run
-is in [experiment.md](experiment.md); the generated tables are in
-[results/main/report.md](../results/main/report.md) and
-[results/full/report.md](../results/full/report.md), and every number below can
-be traced to a file under `results/`.
+What the experiment found. How it was run is in [experiment.md](experiment.md).
+The numbers come from three generated or hand-written companions:
 
-Runs: 17 October 2026. 67 knowledge-update questions (the 72 without
-abstention, minus 5 pilot questions used for checking), history trimmed to both
-evidence sessions plus 8 distractors, about 28,000 tokens. One model,
+- [findings/tables.md](findings/tables.md): every table below, rebuilt from the
+  result files by `python -m memeval.findings`;
+- [findings/failures.md](findings/failures.md): every wrong answer, with the
+  answer text and the arms that share it;
+- [findings/failure-analysis.md](findings/failure-analysis.md): every wrong
+  answer read and sorted by cause.
+
+Every number can be traced to `results/<split>/<arm>/<qid>.json` and the call
+ledgers saved next to them. The raw model calls (requests and replies) are
+archived in claude-cloud, `03-agent-memory-eval-longmemeval/saved/raw-calls/`.
+
+Runs: 17–18 October 2026. 67 knowledge-update questions (the 72 without
+abstention, minus 5 pilot questions used for checking), each history trimmed
+to both evidence sessions plus 8 distractors, about 28,000 tokens; then 25 of
+them again with the whole history, about 124,000 tokens. One model,
 `gemini-3.1-flash-lite`, in every seat; `gemini-3.1-pro-preview` as judge.
 
 **These numbers are not comparable to published LongMemEval results.** The
 history is trimmed, there is one question type, and the models differ.
 
-## Accuracy
+## Accuracy, cost and time
 
-| Arm | Accuracy (n = 67) | 95% interval | Cost per question |
-|---|--:|---|--:|
-| full-context | 90% | 80%–95% | $0.007 |
-| retrieval (BM25, top 10 rounds) | 97% | 90%–99% | $0.002 |
-| textual memory | 93% | 84%–97% | $0.022 |
-| Mem0 | 84% | 73%–91% | $0.040 |
-| Honcho, dialectic chat | 87% | 76%–93% | $0.030 |
-| Honcho, representation | 93% | 84%–97% | $0.028 |
-| Graphiti | 18% | 11%–29% | $0.238 |
-| Letta | 58% | 46%–69% | $0.029 |
+| Arm | Accuracy (n = 67) | 95% interval | USD per question | model calls to write | seconds to write | servers |
+|---|--:|---|--:|--:|--:|---|
+| full context | 90% | 80%–95% | 0.007 | 0 | 0 | none |
+| retrieval (BM25, top 10 rounds) | 97% | 90%–99% | 0.002 | 0 | 0 | none |
+| textual memory | 93% | 84%–97% | 0.022 | 10 | 27 | none |
+| Mem0 | 84% | 73%–91% | 0.040 | 10 | 38 | none |
+| Honcho, dialectic chat | 87% | 76%–93% | 0.029 | 38 | 115 | API, deriver, Postgres, Redis |
+| Honcho, representation | 93% | 84%–97% | 0.028 | 38 | 115 | (the same) |
+| Graphiti | 82% | 71%–89% | 0.640 | 720 | 839 | Neo4j |
+| Letta | 69% | 57%–78% | 0.132 | 81 | 379 | Letta server, Postgres |
 
-Cost per question is what the system spent on writing, reading and answering,
-measured from the call ledger; judging and probes are extra and the same for
-every arm.
+Cost is what the system spent writing, reading and answering, from the call
+ledger; judging and probes are extra and the same for every arm. The judges
+agree: `gemini-3.1-pro-preview` and `gemini-3.8-flash` gave the same verdict on
+118 of 120 answers judged by both.
 
-With 67 questions only large gaps mean anything. Six arms sit between 84% and
-97% with overlapping intervals; the ordering among them is not a result. Two
-arms are clearly apart: Graphiti and Letta.
+With 67 questions only large gaps mean anything. Seven arms sit between 82%
+and 97% with overlapping intervals, and the order among them is not a result.
+Letta is the one arm clearly below. Between the arms that work, the
+differences that are large are cost and weight: Graphiti spends about 30
+times what textual memory spends and over 300 times what plain retrieval
+spends, for no gain in accuracy here.
 
-The judges agree: `gemini-3.1-pro-preview` and `gemini-3.8-flash` gave the same
-verdict on 95 of 96 answers judged by both.
+## 1. How a system is fed decides whether it remembers
 
-## In this regime, memory can only lose
+The first runs of Graphiti and Letta scored 18% and 58%. Neither number was
+about the systems; both were about how the conversation was handed to them.
 
-At 28,000 tokens the whole history fits in the answering model's context, so
-full context is close to its ceiling. Every memory system here is doing a job
-the model did not need done, and the question is how much each one loses.
+| Arm | how it was fed | accuracy | update never stored | calls to write | USD per question |
+|---|---|--:|--:|--:|--:|
+| Graphiti | sessions cut into episodes of up to 8,000 characters | 18% | 45 | 121 | 0.24 |
+| Graphiti | one episode per message, as Graphiti's own examples do | 82% | 5 | 720 | 0.64 |
+| Letta | each session in one request, ending on an assistant message | 58% | 22 | 11 | 0.03 |
+| Letta | one agent step per user message | 69% | 15 | 81 | 0.13 |
 
-Plain retrieval over raw turns lost nothing: 65 of 67, above full context, with
-a fifth of the tokens. Full context's seven errors are answer-model errors. In
-five of them the new value was in the prompt and the model answered with the old
-one, for example quoting a $350,000 mortgage pre-approval and adding "in a later
-conversation on November 30, 2023, you mentioned $400,000". A shorter context
-made that mistake rarer, not more common.
+**Graphiti** extracts entities and facts from each episode with prompts written
+for one message from a named speaker ("Jordan: we just moved to Denver…"),
+which tell the model to skip generic activities and, "when in doubt, do not
+extract". It also adds the previous ten episodes as context. With
+8,000-character episodes every extraction prompt carried 60,000–80,000
+characters, mostly the assistant's long answers, and the model returned two
+or three entities. In a traced example the update "I just finished my 5th
+project since starting painting classes" was in the prompt; the model
+extracted `assistant` and `bold colors`, so no fact about projects existed to
+update. With one message per episode the same sentence produced the entities
+`user`, `painting project` and `painting classes` and the edge "The user has
+completed their 5th project since they began attending painting classes".
 
-The [full-history run](#what-trimming-hid) is what moves the experiment out of
-this regime.
+**Letta**'s agent decides what to remember during its own turn. Sent a whole
+session at once, ending on an assistant message, it had nothing to answer and
+in most sessions took no step at all: in a trace, 6 of 10 sessions produced
+nothing and only the first produced a memory edit, and the `human` block stayed empty after 43 of 67
+histories. One step per user message gives it a turn after every message; it
+then edits its memory about ten times per history.
 
-## Where answers were lost
+Neither fix changes a setting of either system; both make the input look like
+the input each system was built for. The contract is not written down in
+either API, nothing fails when it is broken, and the price of keeping it is
+real: Graphiti's correct run costs 2.7 times the broken one, Letta's 4.6
+times.
 
-The probes (`gemini-3.8-flash`) check, for every question, whether the new value
-is in the store, whether it reached the answering model, and whether the
-answer gave the old value. Every wrong answer is put in the first category that
-explains it:
+## 2. What memory looks like after an update
 
-| Arm | correct | update never stored | stored, not delivered | delivered, answered old value | delivered, other error | wrong, unclassified |
+The probes read the whole memory and the context given to the answer, for
+every question:
+
+| Arm | new value stored | old value still stored | old value still current | both values delivered | correct when both delivered | context given to the answer (tokens) |
 |---|--:|--:|--:|--:|--:|--:|
-| full-context | 60 | n/a | n/a | 5 | 1 | 1 |
-| retrieval | 65 | n/a | 0 | 2 | 0 | 0 |
-| textual | 62 | 1 | 0 | 1 | 3 | 0 |
-| Mem0 | 56 | 6 | 0 | 2 | 2 | 1 |
-| Honcho chat | 58 | 1 | 1 | 2 | 4 | 0 |
-| Honcho repr | 62 | 2 | 0 | 1 | 1 | 1 |
-| Graphiti | 12 | **45** | 0 | 0 | 1 | 9 |
-| Letta | 39 | **22** | 0 | 0 | 0 | 6 |
+| full context | n/a | n/a | n/a | 58 | 52/58 | 27,890 |
+| retrieval | n/a | n/a | n/a | 54 | 52/54 | 5,761 |
+| textual memory | 85% | 64% | 7% | 39 | 37/39 | 1,513 |
+| Mem0 | 78% | 81% | 37% | 45 | 41/45 | 930 |
+| Honcho chat | 82% | 81% | 64% | 39 | 33/39 | 77 |
+| Honcho repr | 82% | 81% | 64% | 53 | 51/53 | 935 |
+| Graphiti | 78% | 70% | 21% | 39 | 37/39 | 284 |
+| Letta | 42% | 33% | 24% | 15 | 12/15 | 884 |
 
-Three things stand out.
+Three readings:
 
-1. **Loss is at write time.** Every arm that loses more than a handful of
-   answers loses them because the update never made it into memory. "Stored but
-   not delivered" is almost empty: on a 10-session history every read path finds
-   what was written. (This is what trimming was expected to do; see below.)
-2. **Nobody resolves the conflict at write time, and it mostly does not
-   matter.** The old value was still stored, and still presented as current,
-   in 25 of Mem0's 67 stores and 42 of Honcho's. When both values reached the
-   answering model with their dates, the answer picked the newer one 51 times
-   out of 53 for Honcho's representation, 41 of 45 for Mem0 and 37 of 39 for
-   textual memory. Dates on every stored item are what make this work, which is
-   why the experiment passes the session dates into every system.
-3. **The two systems that let a model decide what is worth keeping lose the
-   most.** Graphiti's extraction and Letta's agent both run on
-   `gemini-3.1-flash-lite` here. In both designs the model's judgement is the
-   memory policy, so a stronger model would change these two rows the most.
+- **Almost nobody resolves the conflict at write time, and with dates it
+  mostly does not matter.** Mem0 keeps the old value as a current fact in a
+  third of the questions, Honcho in two thirds; Graphiti, the system built to
+  close superseded facts, still presents the old one as current in a fifth.
+  When both values reach the answering model with their dates, it picks the
+  newer one about nine times in ten (51 of 53 for Honcho's representation).
+- **The systems that overwrite keep less, not better.** Textual memory
+  rewrites its profile and keeps the old value as current in only 7% of
+  questions, at the cost of occasionally dropping a detail. Letta's agent
+  writes the first value and rarely replaces it (8.2 inserts and 1.4 replaces
+  per question): its memory holds the new value in only 42% of questions, and
+  most of its losses are answered straight from that stale block.
+- **The amount delivered differs by a factor of 360** between Honcho's
+  dialectic summary (77 tokens) and full context (27,890), with accuracy
+  within the same interval.
 
-## One example per system
+## 3. Asking for the current value or an earlier one
 
-**Full context: the answer model ignores the update.** *"How many followers do
-I have on Instagram now?"* (reference: 1,300.) The whole history is in the
-prompt. The model reads "nearing 1300 followers" from the later session and
-answers that, as of May 25 the user "was nearing 1300 followers", which the
-judge marks wrong. The data is there; the reading is cautious.
+Eight questions ask for an earlier value ("What was my *previous* frequent
+flyer status?"), three for both. The expectation was that systems which
+overwrite would lose the earlier value:
 
-**Retrieval: one of two misses.** *"What was the amount I was pre-approved for
-when I got my mortgage from Wells Fargo?"* (reference: $400,000.) Both sessions
-are retrieved; the model takes "pre-approved for" to mean the first figure and
-answers $350,000. Full context gives the same answer. This is the question's
-wording as much as the system.
+| Arm | current value (56) | earlier value (8) | both (3) |
+|---|--:|--:|--:|
+| full context | 50 | 7 | 3 |
+| retrieval | 54 | 8 | 3 |
+| textual memory | 52 | 7 | 3 |
+| Mem0 | 48 | 6 | 2 |
+| Honcho chat | 48 | 7 | 3 |
+| Honcho repr | 52 | 7 | 3 |
+| Graphiti | 46 | 8 | 1 |
+| Letta | 39 | 6 | 1 |
 
-**Textual memory: the update is an aside, and the rewrite drops it.** *"Where
-do I initially keep my old sneakers?"* (reference: under my bed.) The profile is
-rewritten in full after every session and keeps "The user owns a collection of
-footwear, including sneakers, dress shoes, and boots", but not where they are
-kept. The same rewrite gets the Instagram question right: the profile says
-"The user maintains an Instagram account with approximately 1,300 followers, as
-of 2023-05-25".
+It does not show here. Textual memory, which rewrites its profile, answers 7
+of the 8, and its rewrites often keep the history in the line itself ("15 …
+as of 2023-09-30; previously 12 as of 2023-08-11"). Eight questions are too
+few to measure a difference of this kind; the table is reported because the
+question was asked, not because it separates the systems.
 
-**Mem0: both facts kept, both delivered, added up.** *"How many sessions of the
-bereavement support group did I attend?"* (reference: five.) Mem0 stores "User
-attended three sessions of a bereavement support group (from a chat on
-2023-05-11)" and "User attended five sessions … last year (from a chat on
-2023-10-30)". Its update step treated the second as a new fact rather than a
-replacement, both come back from `search()`, and the answering model adds them:
-"3 + 5 = 8".
+## 4. Why the answers were wrong
 
-**Honcho: the dialectic agent hedges where the raw conclusions do not.**
-*"How many Instagram followers do I currently have?"* (reference: 600.)
-Honcho's deriver stored both "user reached 500 followers on Instagram during the
-week of May 20, 2023" and "user has 600 followers on Instagram as of
-2023-05-28" as explicit, dated conclusions. Given those conclusions directly
-(`honcho-repr`), the answer is 600. The dialectic agent (`honcho-chat`) also
-finds 600, but phrases it as "you had 600 followers as of May 28 … I cannot
-provide your current follower count", and the answer built on it is marked
-wrong. Over the run the agent's summary costs a little more than the raw
-conclusions and scores a little lower (87% against 93%); the difference is
-inside the interval.
+Reading every wrong answer (details in
+[findings/failure-analysis.md](findings/failure-analysis.md)):
 
-**Graphiti: the update is never extracted.** *"How many projects have I
-completed since starting painting classes?"* (reference: 5.) The graph holds
-"The user has completed 4 painting projects since they began taking painting
-classes (valid since 2023-08-16)". The later session's mention of a fifth
-project never became an edge, so nothing was invalidated and the answer is 4.
-This is the typical Graphiti failure here: about 57 edges per question from 20
-episodes, 0.2 edges closed as superseded per question, and the new value absent
-from the graph in 45 of 67 questions. It is also the most expensive arm by far,
-121 model calls and 900,000 input tokens per question, eight times the next
-system.
+- **Three questions are flawed.** They account for 12 of the 39 wrong answers
+  among full context, retrieval, textual memory, Mem0 and Honcho. In one
+  (`618f13b2`) two sessions on the same day say six and then four, and the key
+  says six; every one of those arms answers four.
+- **Losing the update at write time** is the common failure of the systems
+  with a write step: 5 of Mem0's 11 wrong answers, 5 of Graphiti's 12, 15 of
+  Letta's 21. Typically the revision was mentioned in passing ("By the way, I
+  just finished my 5th project since starting painting classes").
+- **Honcho's dialectic agent refuses to choose.** Five of its nine wrong
+  answers decline to pick between two dated values ("there is conflicting
+  information… clarification is required"). Given the same conclusions
+  directly, the representation path answers; this is most of the six-point gap
+  between the two.
+- **Mem0 adds instead of replacing.** "Attended three sessions" and "attended
+  five sessions" come back as two facts, and the answer is 3 + 5 = 8.
+- **Textual memory invites subtraction.** Its profile records running counts
+  with their history ("The user has 25 postcards in their collection as of
+  2023-11-30 (up from 17 items reported on 2023-08-11)"), and the answer to
+  "how many new postcards have I added" becomes 25 − 17 = 8 (the key: 25).
+- **Graphiti's dates can close the wrong fact.** It dates a fact by when it
+  became true, not when it was said. "Visited Paris with family last month",
+  said in May, became valid from April 1; "a recent family trip to Hawaii"
+  became valid from the day it was mentioned, May 26. Graphiti closed Paris as
+  superseded by Hawaii, and the answer followed the graph. Every other system
+  answered Paris.
+- **Letta remembers what it wrote down.** "Has completed 4 projects so far",
+  "recently hit 500 followers", "recently bought three tops": the first value,
+  never replaced, answered from the block without a search. Questions where the
+  agent used `memory_replace` at least once score 78%, those where it only
+  appended 50%.
+- **One Letta question could not be built.** In four builds Vertex returned
+  `finish_reason=content_filter` with no message while the agent read a
+  history about a named book, and Letta stops on such a reply. It is counted
+  as wrong.
 
-**Letta: an empty memory block and a substring search.** *"How many engineers
-do I lead when I just started my new role as Senior Software Engineer? How many
-engineers do I lead now?"* (reference: 4, then 5.) After ten sessions the
-agent's `human` block is still empty; it was empty after 43 of the 67 histories.
-To answer, the agent calls `conversation_search` fifty times ("lead engineers",
-"Senior Software Engineer role", "engineer team" …) and gets "No results found"
-for most of them, then gives no reply. In the self-hosted server
-`conversation_search` is a SQL `ILIKE` match on the literal query unless
-Turbopuffer (a hosted service) is configured, so a query has to appear verbatim
-in a message to find it. Letta's correct answers come from searches that happen
-to match: it scores the same with an empty `human` block (25 of 43) as with a
-filled one (14 of 24).
+## 5. What trimming hid: the full history
 
-## Cost
+The same 25 questions with all ~48 sessions, for the four arms cheap enough
+to run on 124,000-token histories:
 
-Mean per question, from the ledger (USD):
+| Arm | accuracy, 10 sessions | accuracy, full history | context tokens | USD per question, 10 → full |
+|---|--:|--:|---|---|
+| full context | 92% | 84% | 27,677 → 123,631 | 0.007 → 0.028 |
+| retrieval | 100% | 96% | 5,825 → 5,881 | 0.002 → 0.002 |
+| textual memory | 96% | 92% | 1,515 → 5,567 | 0.022 → 0.277 |
+| Mem0 | 84% | 84% | 919 → 910 | 0.040 → 0.181 |
 
-| Arm | write | read | answer | total | model calls at write | input tokens at write |
-|---|--:|--:|--:|--:|--:|--:|
-| full-context | – | – | 0.0065 | 0.0065 | 0 | 0 |
-| retrieval | – | – | 0.0017 | 0.0017 | 0 | 0 |
-| textual | 0.0212 | – | 0.0007 | 0.0219 | 10 | 34,269 |
-| Mem0 | 0.0389 | – | 0.0006 | 0.0395 | 10 | 116,073 |
-| Honcho chat | 0.0278 | 0.0014 | 0.0003 | 0.0296 | 39 | 71,732 |
-| Honcho repr | 0.0274 | – | 0.0007 | 0.0281 | 38 | 70,661 |
-| Graphiti | 0.2375 | – | 0.0004 | 0.2380 | 121 | 897,212 |
-| Letta | 0.0249 | 0.0039 | – | 0.0288 | 11 | 51,712 |
-
-Letta's answer is its own reply, so its answering cost is counted as read.
-
-Total spend on Vertex for the whole experiment, smoke tests included: see
-[the last section](#reproducing-it).
-
-## What trimming hid
-
-FULL_HISTORY_PLACEHOLDER
+- **Full context slips, it does not collapse.** All four of its errors on the
+  full history are the new value in the prompt and the old one in the answer
+  (for example 27:12 instead of the later 25:50). On 25 questions the drop
+  from 92% to 84% is two answers and inside the interval; the paper's GPT-4o
+  fell from 0.87 to 0.61 on the same histories. A model that reads 124,000
+  tokens well removes most of the capacity argument for memory on this
+  benchmark.
+- **The cost of memory grows with the history at write time.** Textual memory
+  costs 13 times more per question on the full history (one rewrite per
+  session, of a growing profile), Mem0 4.5 times; retrieval costs the same,
+  because it does nothing until asked. Read-time context stays flat for every
+  memory system.
 
 ## Limits
 
-- Trimmed history, one question type, 67 questions, one model in every seat.
+- Trimmed history for the main run, one question type, 67 questions, one
+  model in every seat. In Graphiti's extraction and Letta's agent the model's
+  judgement is the memory policy; a stronger model would change those two
+  rows most.
 - Each fact is stated once and revised once. A system whose value is inferring
   patterns from repetition (Honcho's claim) has nothing to work on here.
 - Every system runs at its library defaults, with the exceptions listed at the
   top of each arm's module in `src/memeval/arms/` and in each result's
-  `settings`.
-- Letta is its last Python server release, 0.16.8, self-hosted, so its
-  conversation search is the SQL fallback described above.
-- One run per arm at temperature 0. Repeated model calls are served from the
-  cache, so a re-run reproduces these numbers exactly; a fresh run without the
-  cache may differ by a few answers.
+  `settings`. Graphiti and Letta were re-run once with their ingestion fixed;
+  the first runs are kept as `graphiti-chunk` and `letta-batch`.
+- Letta is its last Python server release, 0.16.8, self-hosted: its
+  `conversation_search` is a literal SQL substring match unless Turbopuffer, a
+  hosted service, is configured.
+- The probes take the reference answer as "the new value"; for the 11 questions
+  that ask for an earlier value or both, "new value stored" means "the value
+  asked for was stored".
+- One run per arm at temperature 0 (Letta's agent at its own default). Repeated
+  model calls are served from the cache: replaying full context, retrieval and
+  textual memory from the cache reproduces all 201 answers byte for byte.
 - No vendor took part, and none was asked to tune its system.
 
 ## Reproducing it
 
-REPRO_PLACEHOLDER
+Total Vertex spend for the whole experiment, smoke tests and both Graphiti and
+Letta runs included: about $99 (main run $82, full-history run $13, pilot
+$2.63, traces and checks the rest). With the committed cache (`.cache/llm`, in
+the claude-cloud state archive), re-running the committed results costs
+nothing; see [experiment.md](experiment.md) for the commands.

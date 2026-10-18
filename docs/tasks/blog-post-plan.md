@@ -178,7 +178,7 @@ results. State this next to every number.
 |---|---|---|---|---|
 | Pilot | 5 | 10 sessions | all | Replace the cost estimates with measured ones |
 | Main | 67 (all the rest, fixed seed) | 10 sessions | all | The comparison |
-| Full history | FULL_N of the 67 | all ~48 sessions | cheap arms only | Measure what trimming hid |
+| Full history | 25 of the 67 | all ~48 sessions | cheap arms only | Measure what trimming hid |
 
 The full-history run is what turns the trimming from an assumption into a
 measurement. The cheap arms are full context, plain retrieval, Mem0 and textual
@@ -190,8 +190,8 @@ a ranking, and the post does not name a winner.
 
 ### Cost
 
-**Measured** (main run, 17 October 2026). Model: `gemini-3.1-flash-lite`, at
-$0.25 per million input tokens and $1.50 per million output tokens.
+**Measured** (17–18 October 2026). Model: `gemini-3.1-flash-lite`, at $0.25
+per million input tokens and $1.50 per million output tokens.
 
 | Arm | Per question, 10 sessions | Estimated before the pilot |
 |---|--:|--:|
@@ -199,23 +199,27 @@ $0.25 per million input tokens and $1.50 per million output tokens.
 | Plain retrieval | $0.002 | about $0.01 |
 | Textual memory | $0.022 | about $0.02 |
 | Mem0 | $0.040 | about $0.02 |
-| Honcho (real server, both read paths) | $0.030 | about $0.04 |
-| Letta (real server) | $0.029 | about $0.06 |
-| Graphiti (real library) | $0.238 | about $0.30 |
-| Judge and probes | $0.063 (all arms) | |
-| **All arms, scored** | **about $0.43** | **about $0.45** |
+| Honcho (real server, both read paths) | $0.029 | about $0.04 |
+| Letta (real server, one agent step per user message) | $0.132 | about $0.06 |
+| Graphiti (real library, one episode per message) | $0.640 | about $0.30 |
+| Judge and probes | about $0.08 (all arms) | |
+| **All arms, scored** | **about $0.95** | **about $0.45** |
 
 | Run | Measured cost |
 |---|--:|
 | Pilot, 5 questions | $2.63 |
-| Main, 67 questions | $28.78 |
-| Full history, FULL_N questions, cheap arms | $FULL_COST |
-| **Total, with smoke tests** | **$TOTAL_COST** |
+| Main, 67 questions (with the first Graphiti and Letta runs, $0.24 and $0.03 per question, kept for comparison) | $81.97 |
+| Full history, 25 questions, cheap arms | $13.26 |
+| Traces and checks | $1.10 |
+| **Total** | **$98.97** |
 
-The estimates held to within a factor of two for every arm. Graphiti is still
-most of the bill: 121 model calls and about 900,000 input tokens per question.
-The run used Vertex AI (paid), not the free tier; every call is cached on disk,
-so a re-run of the committed results costs nothing.
+The estimates held for the simple arms. Graphiti and Letta cost two to four
+times the estimate once they were fed the way they were built for: Graphiti
+with one episode per message makes 720 model calls and reads 2.3 million input
+tokens per question. The first runs, with sessions cut into large episodes or
+sent in one request, were cheap and broken (18% and 58%). The run used Vertex
+AI (paid), not the free tier; every call is cached on disk, so a re-run of the
+committed results costs nothing.
 
 ### What to measure
 
@@ -291,9 +295,10 @@ Stages 1 to 3 need almost no API spend. Stages 5 and 6 are where the budget goes
 - One post, not one per system. Cut most of the notebook material; the notebooks
   stay in the repository for readers who want it.
 - Open with a failure that surprises, not with architecture. A candidate, now
-  measured: the temporal graph never extracts the update in 45 of 67 questions,
-  at 121 model calls per question against textual memory's 10, and scores 18%
-  where plain retrieval over raw turns scores 97%.
+  measured: the same temporal graph scores 18% or 82% depending only on how
+  the conversation is cut into episodes, and the working version makes 720
+  model calls per question to match what plain retrieval over raw turns does
+  with none (97%).
 - Show real prompts and real stored records.
 - Give each system one thing it does well and one failure.
 - Put the full-context baseline in the first results table.
