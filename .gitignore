@@ -36,3 +36,6 @@ vendor/
 
 # Run logs
 results/*/_logs/
+
+# Written by the Letta server into its working directory at startup
+openapi_letta.json
