@@ -171,15 +171,17 @@ TRANSIENT = ("429", "500", "502", "503", "504", "RESOURCE_EXHAUSTED", "UNAVAILAB
              "timed out", "ReadTimeout")
 
 
-def with_retry(call, attempts: int = 6):
-    """Retry rate limits and server errors with jittered backoff."""
+def with_retry(call, attempts: int = 12):
+    """Retry rate limits and server errors with jittered backoff, for up to
+    about 15 minutes: with several arms running in parallel, rate limits can
+    last minutes, and a call given up on loses part of a system's memory."""
     for attempt in range(attempts):
         try:
             return call()
         except Exception as error:  # noqa: BLE001
             if attempt == attempts - 1 or not any(t in str(error) for t in TRANSIENT):
                 raise
-            time.sleep(min(60.0, 2.0 ** attempt) * (1 + random.random()))
+            time.sleep(min(120.0, 2.0 ** attempt) * (1 + random.random()))
 
 
 @dataclass

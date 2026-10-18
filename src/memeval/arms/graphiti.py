@@ -55,14 +55,14 @@ def _jsonable(value):
     return value if isinstance(value, (str, int, float, bool, type(None))) else repr(value)
 
 
-async def _retry(call, attempts: int = 6):
+async def _retry(call, attempts: int = 12):
     for attempt in range(attempts):
         try:
             return await call()
         except Exception as error:  # noqa: BLE001
             if attempt == attempts - 1 or not any(t in str(error) for t in llm.TRANSIENT):
                 raise
-            await asyncio.sleep(min(60.0, 2.0 ** attempt) * (1 + random.random()))
+            await asyncio.sleep(min(120.0, 2.0 ** attempt) * (1 + random.random()))
 
 
 class _Models:
@@ -192,6 +192,12 @@ class GraphitiArm(Arm):
             except Exception as exc:  # noqa: BLE001 - counted, and printed
                 self.failures += 1
                 print(f"  graphiti: episode failed ({type(exc).__name__}: {str(exc)[:200]})")
+
+    def finish(self) -> None:
+        # A lost episode is a hole in the graph: fail the question so the next
+        # run builds it again, rather than report a damaged memory.
+        if self.failures:
+            raise RuntimeError(f"{self.failures} of {self.episodes + self.failures} episodes failed")
 
     def _edges(self) -> list[dict]:
         records, _, _ = self.loop.run_until_complete(self.graphiti.driver.execute_query(
