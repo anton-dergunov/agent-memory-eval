@@ -8,7 +8,14 @@ The numbers come from three generated or hand-written companions:
 - [findings/failures.md](findings/failures.md): every wrong answer, with the
   answer text and the arms that share it;
 - [findings/failure-analysis.md](findings/failure-analysis.md): every wrong
-  answer read and sorted by cause.
+  answer read and sorted by cause;
+- one account per system, following each wrong answer through the model calls
+  and saying how the right ones were reached:
+  [Letta](findings/letta.md), [Graphiti](findings/graphiti.md),
+  [Mem0](findings/mem0.md), [Honcho](findings/honcho.md),
+  [textual memory](findings/textual.md),
+  [full context](findings/full-context.md) and
+  [retrieval](findings/retrieval.md).
 
 Every number can be traced to `results/<split>/<arm>/<qid>.json` and the call
 ledgers saved next to them. The raw model calls (requests and replies) are
@@ -112,10 +119,12 @@ Three readings:
   newer one about nine times in ten (51 of 53 for Honcho's representation).
 - **The systems that overwrite keep less, not better.** Textual memory
   rewrites its profile and keeps the old value as current in only 7% of
-  questions, at the cost of occasionally dropping a detail. Letta's agent
-  writes the first value and rarely replaces it (8.2 inserts and 1.4 replaces
-  per question): its memory holds the new value in only 42% of questions, and
-  most of its losses are answered straight from that stale block.
+  questions, at the cost of occasionally dropping a detail. Letta's memory
+  holds the new value in only 42% of questions. Its agent writes about ten
+  times per history, but at the message carrying the revision it recorded the
+  new value in only 31 of 64 questions, and when the value is missing its
+  search rarely finds the message again
+  ([findings/letta.md](findings/letta.md)).
 - **The amount delivered differs by a factor of 360** between Honcho's
   dialectic summary (77 tokens) and full context (27,890), with accuracy
   within the same interval.
@@ -145,15 +154,16 @@ question was asked, not because it separates the systems.
 
 ## 4. Why the answers were wrong
 
-Reading every wrong answer (details in
-[findings/failure-analysis.md](findings/failure-analysis.md)):
+Reading every wrong answer (overview in
+[findings/failure-analysis.md](findings/failure-analysis.md), one file per
+system next to it):
 
 - **Three questions are flawed.** They account for 12 of the 39 wrong answers
   among full context, retrieval, textual memory, Mem0 and Honcho. In one
   (`618f13b2`) two sessions on the same day say six and then four, and the key
   says six; every one of those arms answers four.
 - **Losing the update at write time** is the common failure of the systems
-  with a write step: 5 of Mem0's 11 wrong answers, 5 of Graphiti's 12, 15 of
+  with a write step: 4 of Mem0's 11 wrong answers, 6 of Graphiti's 12, 14 of
   Letta's 21. Typically the revision was mentioned in passing ("By the way, I
   just finished my 5th project since starting painting classes").
 - **Honcho's dialectic agent refuses to choose.** Five of its nine wrong
@@ -168,16 +178,22 @@ Reading every wrong answer (details in
   2023-11-30 (up from 17 items reported on 2023-08-11)"), and the answer to
   "how many new postcards have I added" becomes 25 − 17 = 8 (the key: 25).
 - **Graphiti's dates can close the wrong fact.** It dates a fact by when it
-  became true, not when it was said. "Visited Paris with family last month",
-  said in May, became valid from April 1; "a recent family trip to Hawaii"
+  became true, not when it was said. "The user visited Paris with their family
+  last month", said in May, became valid from April 1; "a recent family trip to Hawaii"
   became valid from the day it was mentioned, May 26. Graphiti closed Paris as
   superseded by Hawaii, and the answer followed the graph. Every other system
   answered Paris.
-- **Letta remembers what it wrote down.** "Has completed 4 projects so far",
-  "recently hit 500 followers", "recently bought three tops": the first value,
-  never replaced, answered from the block without a search. Questions where the
-  agent used `memory_replace` at least once score 78%, those where it only
-  appended 50%.
+- **Letta's agent notices the revision and does not write it down.** "By the
+  way, I just checked and I'm now at 600 followers" drew "Congratulations on
+  hitting 600 followers!" and no memory edit; 18 revisions went that way.
+  Inserting the new value worked as well as replacing the old one (11 of 12
+  correct, against 16 of 19), so the loss is not appending instead of
+  replacing; it is not writing at all. The fallback cannot recover it: the
+  self-hosted server's `conversation_search` is a phrase match that returns the
+  five newest matches, and 97 of the agent's 146 searches at answer time
+  returned nothing. In six wrong answers the block still held the first value
+  ("has completed 4 projects so far") and the agent answered from it after its
+  searches came back empty.
 - **One Letta question could not be built.** In four builds Vertex returned
   `finish_reason=content_filter` with no message while the agent read a
   history about a named book, and Letta stops on such a reply. It is counted

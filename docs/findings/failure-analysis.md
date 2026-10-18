@@ -6,6 +6,13 @@ covers full context, retrieval, textual memory, Mem0 and Honcho's two read
 paths (39 wrong answers out of 402); Letta and Graphiti, re-run with the
 ingestion fixed, have their own sections below.
 
+This is the overview. Each system has its own, more detailed account, which
+follows every wrong answer through the model calls and also says how the right
+answers were reached: [letta.md](letta.md), [graphiti.md](graphiti.md),
+[mem0.md](mem0.md), [honcho.md](honcho.md), [textual.md](textual.md),
+[full-context.md](full-context.md) and [retrieval.md](retrieval.md). Where
+those accounts reclassified an answer, the counts here follow them.
+
 With 2 to 11 failures per arm these are illustrations of mechanisms, not
 rates. A mechanism is worth reporting when it recurs, or when it is specific
 to how one system stores or reads memory.
@@ -15,9 +22,9 @@ to how one system stores or reads memory.
 | Cause | full-context | retrieval | textual | Mem0 | Honcho chat | Honcho repr | total |
 |---|--:|--:|--:|--:|--:|--:|--:|
 | A. The question or its answer key is at fault | 3 | 2 | 1 | 3 | 1 | 2 | 12 |
-| B. The update was never written to memory | – | – | 1 | 5 | 1 | 2 | 9 |
-| C. Both values reached the model; it chose or combined wrongly | 3 | 0 | 0 | 2 | 2 | 0 | 7 |
-| D. The value reached the model; it declined to answer | 1 | 0 | 0 | 1 | 5 | 1 | 8 |
+| B. The update was never written to memory | – | – | 1 | 4 | 1 | 1 | 7 |
+| C. Both values reached the model; it chose or combined wrongly | 4 | 0 | 0 | 3 | 2 | 1 | 10 |
+| D. The value reached the model; it declined to answer | 0 | 0 | 0 | 1 | 5 | 1 | 7 |
 | E. Arithmetic over dated values in a profile | 0 | 0 | 3 | 0 | 0 | 0 | 3 |
 | **wrong answers** | **7** | **2** | **5** | **11** | **9** | **5** | **39** |
 
@@ -46,40 +53,46 @@ arms, and in each the dataset is at least as much at fault as the systems:
 Leaving these three out moves every arm up by a few points and changes no
 conclusion. The post should say they exist rather than quietly drop them.
 
-## B. The update was never written (9 answers)
+## B. The update was never written (7 answers)
 
 The loss the knowledge-update questions are designed to find. Mem0 has the
-most (5 of its 11), each a revision mentioned in passing that the extraction
-step did not turn into a fact, or turned into a fact without the new value:
+most (4 of its 11), each a revision mentioned in passing that the extraction
+step did not turn into a fact:
 
-- `a2f3aa27` (Instagram, 1,250 → "nearing 1,300"): Mem0 stored both "has 1250
-  followers" and "is nearing 1300 followers" from the same session; the
-  answer kept 1,250.
 - `71315a70` (sculpture hours, 5–6 → 10–12), `59524333` (gym, 7 pm → 6 pm),
   `f685340e` (tennis, weekly → every other week): the later sessions'
   revision is not among the stored facts at all.
+- `07741c44` (where the old sneakers were first kept): the earlier location,
+  which the question asks for, was never stored.
 
 Honcho's deriver missed `42ec0761` (the user later says they *have* a spare
-screwdriver; both read paths answer no) and `41698283` for the
-representation (the 70–200 mm lens is stored without its purchase date, so
-the 50 mm "recent acquisition" wins). Textual memory dropped one aside
-(`07741c44`, where the sneakers are kept).
+screwdriver; both read paths answer no). Textual memory dropped one aside
+(`07741c44`, the same question).
 
-## C. Both values delivered, and the model chose or combined them wrongly (7)
+## C. Both values delivered, and the model chose or combined them wrongly (10)
 
 The answering model had the old and the new value with dates and still got
-it wrong. Two patterns:
+it wrong. Four patterns:
 
 - **Combining instead of replacing.** Mem0's `f9e8c073`: "attended three
   sessions" and "attended five sessions … last year" come back as two facts,
   and the answer adds them: 3 + 5 = 8.
+- **Nothing to order them by.** Mem0's `a2f3aa27` (Instagram, 1,250 →
+  "close to 1300"): both facts were stored, from two sessions on the same day,
+  and Mem0 dates memories by day, so both carry 2023-05-25; the answer kept
+  1,250. Full context's `a2f3aa27` took the later statement but kept the
+  user's hedge ("you were nearing 1300 followers"), which the judge did not
+  accept for 1300.
+- **Picking by wording.** Honcho representation's `41698283`: the 50 mm lens
+  was stored as a "recent acquisition" and the "new 70-200mm zoom lens" as
+  plain ownership, and the answer took the lens called recent.
 - **Splitting hairs to keep the old value.** Honcho chat's `6a1eabeb`: 25:50
-  is "your general personal best for a 5K, not specifically the charity
-  event", so it keeps 27:12. `945e3d21`: three times a week is "for
-  work-related stress, not anxiety". Full context's `7401057b` and
+  is "your general personal best for a 5K run, not specifically the charity
+  event", so it keeps 27:12. `945e3d21`: three times a week "is associated
+  with 'work-related stress,' not anxiety". Full context's `7401057b` and
   `830ce83f` reason their way back to the first statement.
 
-## D. The value was delivered, and the model declined to answer (8)
+## D. The value was delivered, and the model declined to answer (7)
 
 The most system-specific pattern here: **five of Honcho chat's nine wrong
 answers are refusals**, all on questions where both values reached the
@@ -110,76 +123,63 @@ Specific to textual memory. Its rewrite keeps a running state with its history
 ("The user has 25 postcards in their collection as of 2023-11-30 (up from 17
 items reported on 2023-08-11)"), and the answering model then treats a
 question about a total as a question about the change: `01493427` answers 25 − 17 = 8 (key 25), `5831f84d` answers
-15 − 12 = 3 (key 15). `2133c1b5` counts the months in Harajuku from the wrong
-start. The facts are right; the profile's phrasing invites the subtraction.
+15 − 12 = 3 (key 15). The facts are right; the profile's phrasing invites the
+subtraction. In `2133c1b5` the rewrite did the arithmetic itself: it counted
+seven months from its own March start date, labelled that as current, and kept
+the user's "3 months" as the previous value.
 
 ## Per-answer assignments
 
 | Arm | A | B | C | D | E |
 |---|---|---|---|---|---|
-| full-context | 618f13b2, 852ce960, e66b632c | | 7401057b, 830ce83f, ba61f0b9 | a2f3aa27 | |
+| full-context | 618f13b2, 852ce960, e66b632c | | 7401057b, 830ce83f, ba61f0b9, a2f3aa27 | | |
 | retrieval | 618f13b2, 852ce960 | | | | |
 | textual | 618f13b2 | 07741c44 | | | 01493427, 5831f84d, 2133c1b5 |
-| Mem0 | 618f13b2, 852ce960, e66b632c | 07741c44, 59524333, 71315a70, a2f3aa27, f685340e | f9e8c073, dad224aa | eace081b | |
+| Mem0 | 618f13b2, 852ce960, e66b632c | 07741c44, 59524333, 71315a70, f685340e | f9e8c073, dad224aa, a2f3aa27 | eace081b | |
 | Honcho chat | 618f13b2 | 42ec0761 | 6a1eabeb, 945e3d21 | 0ddfec37, 1cea1afa, 4d6b87c8, 830ce83f, dad224aa | |
-| Honcho repr | 618f13b2, e66b632c | 42ec0761, 41698283 | | ba61f0b9 | |
+| Honcho repr | 618f13b2, e66b632c | 42ec0761 | 41698283 | ba61f0b9 | |
 
-## Letta: the agent appends, and does not replace (21 wrong of 67)
+## Letta: the revision is not written, and the search cannot find it (21 wrong of 67)
 
 Re-run with one agent step per user message, Letta scores 69% (57–78%), up
 from 58% when whole sessions were sent at once, and still clearly below the
-other memory systems. Fifteen of its 21 wrong answers are "update never
-stored", and on 14 of those 15 questions at least three of the five other
-arms checked answer correctly (the exception is `618f13b2`, the dataset
-question every arm misses).
+other memory systems. The question-by-question account, from the logged model
+calls, is in [letta.md](letta.md); in short, three failures in a row:
 
-The mechanism is visible in the memory blocks. While reading a history the
-agent edits its `human` block about ten times per question: on average 8.2
-`memory_insert` calls and 1.4 `memory_replace` calls (plus 12
-`conversation_search` calls). It writes the first value down and, when the
-revision arrives later in passing, adds nothing or adds an unrelated detail:
+1. **The revision is not written down.** At the user message carrying the new
+   value, the agent recorded it in 31 of 64 questions. Inserting it worked as
+   well as replacing (11 of 12 correct against 16 of 19), so the problem is not
+   appending instead of replacing: in the other 33 it made no edit for the new
+   value, and in 18 of those its own reply named it ("Congratulations on
+   hitting 600 followers!").
+2. **The search cannot find what was not written.** On a self-hosted Letta
+   0.16.8, `conversation_search` is a literal phrase match returning the five
+   newest matches. The agent searches with paraphrases ("painting projects
+   completed"), and 97 of its 146 searches at answer time returned nothing;
+   short queries match, but the question itself, the agent's replies and the
+   echoes of its memory edits fill the five places.
+3. **A stale block is trusted.** In six wrong answers the block still held the
+   first value ("has completed 4 projects so far", "recently hit 500 followers
+   on Instagram", "recently bought three tops there"), the searches came back
+   empty, and the agent answered from the block.
 
-| Question | reference | what the `human` block says | edits while reading |
-|---|---|---|---|
-| `06db6396` projects since starting painting classes | 5 | "has completed 4 projects so far" | 7 inserts, 0 replaces |
-| `1cea1afa` Instagram followers now | 600 | "recently hit 500 followers on Instagram" | 7 inserts, 0 replaces |
-| `4b24c848` tops bought from H&M | five | "recently bought three tops there" | 9 inserts, 0 replaces |
-| `cc5ded98` daily coding time | about two hours | "practicing Python coding for one hour daily" | 3 inserts, 0 replaces |
+| Cause | answers |
+|---|---|
+| Revision never written; the block held the earlier value | 6: `06db6396`, `1cea1afa`, `4b24c848`, `cc5ded98`, `ce6d2d27`, `ed4ddc30` |
+| Revision never written; nothing usable in the block or the search | 5: `26bdc477`, `6a27ffc2`, `a2f3aa27`, `dad224aa`, `db467c8c` |
+| Revision never written; a search returned it, the answer did not use it | 3: `41698283`, `6071bd76`, `f685340e` |
+| The agent replaced the earlier value the question asks for | 2: `031748ae`, `50635ada` |
+| The agent answered from its own knowledge (`0f05491a`, Starbucks Gold) | 1 |
+| The agent misread "where am I planning to stay" as a hotel (`eace081b`) | 1 |
+| The question or its key is flawed | 2: `618f13b2`, `e66b632c` |
+| No answer: the provider's content filter stopped the build (`184da446`) | 1 |
 
-At question time the agent trusts its block: it makes 2.3 searches on
-average, and answers "4 projects", "500 followers", "three tops", "one hour".
-The 46 questions where the agent used `memory_replace` at least once score
-36/46 (78%); the 20 where it only appended score 10/20 (50%). The block
-holds the old value as current in 16 of 66 questions.
-
-This is the design working as specified: in Letta the model decides what to
-remember and when to revise it, so the memory is exactly as good as the
-model's judgement of "this replaces something I wrote earlier". With
-`gemini-3.1-flash-lite` in that seat, revisions mentioned in passing are often
-missed. (In the trace of `06db6396` made while testing the fix, the same agent
-did call `memory_replace` and answered 5; across runs the outcome depends on
-that one decision.)
-
-Three of the fifteen show the same gap from the other side: with nothing
-written down and no search hit, the agent says it has no record (`dad224aa`,
-`db467c8c`, and `a2f3aa27`, which adds "I don't have access to your Instagram").
-
-The other six wrong answers:
-
-- `eace081b` (Hawaii): names Oahu correctly, then reads "where am I planning to
-  stay" as a hotel and says it has none on record, the same misreading as
-  Mem0's answer.
-- `6071bd76` (French press): quotes the June ratio and turns the question back
-  to the user instead of saying it changed.
-- `0f05491a` (Starbucks Gold): the agent answers from its own knowledge that
-  the Gold tier no longer exists, rather than from the conversation (120 stars).
-- `50635ada` (previous United status): says it has no record of the status
-  before Premier Gold, one of the questions about an earlier value.
-- `e66b632c`: the dataset question from cause A.
-- `184da446`: no answer. In four separate builds Vertex returned a reply with
-  `finish_reason=content_filter` and no message while the agent was reading the
-  history (the question is about a named book), and Letta stops on such a
-  reply. It is counted as wrong.
+The probe counts 15 wrong answers with the value asked for not stored; the
+call-level count of 14 differs because the probe also counts `031748ae` (the
+earlier value overwritten) and `618f13b2` (the key's value), and misses
+`6071bd76` (it found no old value to check). The questions where the agent used `memory_replace` at least once
+score 36/46 (78%) and those where it only appended 10/20 (50%), but that split
+tracks how actively the agent wrote, not the kind of edit.
 
 ## Graphiti: the update mostly arrives, and the dates decide (12 wrong of 67)
 
@@ -192,28 +192,30 @@ superseded (0.2 before the fix).
 
 | Cause | answers |
 |---|---|
-| Update never extracted | 5: `5c40ec5b`, `a2f3aa27`, `affe2881`, `c6853660`, `f685340e` |
+| Update never extracted | 6: `5c40ec5b`, `a2f3aa27`, `affe2881`, `c4ea545c`, `c6853660`, `f685340e` |
 | Update extracted, then the dates or invalidation went wrong | 2: `9ea5eabc`, `945e3d21` |
-| Update extracted in a different form, not delivered as the answer needs | 2: `59524333`, `c4ea545c` |
+| Update extracted in a form that does not contradict the old fact | 1: `59524333` |
 | Delivered; the answer combined, computed or hedged wrongly | 3: `2133c1b5`, `4d6b87c8`, `7401057b` |
 
-**Never extracted (5).** As with Mem0, revisions mentioned in passing: the
+**Never extracted (6).** As with Mem0, revisions mentioned in passing: the
 graph keeps "has spotted 27 different bird species in their local park" with
 no later count (32), "consumes one cup of dark roast coffee in the morning"
 with no later increase, "plays tennis with friends on a weekly basis" with no
-change to every other week, "has 1250 followers" with no 1,300, and only the
-first meeting with Alex.
+change to every other week, "has 1250 followers" with no 1,300, only the
+first meeting with Alex, and the old gym schedule (Tuesdays, Thursdays and
+Saturdays) with no "four times a week", so `c4ea545c` (*"Do I go to the gym
+more frequently than I did previously?"*) had nothing to compare.
 
 **The temporal model works against the answer (2).** These are the failures
 specific to a dated graph, and the most interesting ones for the post:
 
 - `9ea5eabc` (*"Where did I go on my most recent family trip?"*, Paris).
-  Graphiti dates a fact by when it became true, not when it was said. "Visited
-  Paris with family last month", said in May, became an edge valid from
+  Graphiti dates a fact by when it became true, not when it was said. "The user
+  visited Paris with their family last month", said in May, became an edge valid from
   2023-04-01; "a recent family trip to Hawaii" became an edge valid from
   2023-05-26, the day it was mentioned. Comparing those dates, Graphiti closed
-  the Paris edge as superseded by Hawaii ("valid from 2023-04-01 until
-  2023-05-26 [superseded]"), and the answer, reading the validity windows as
+  the Paris edge as superseded by Hawaii ("(valid from 2023-04-01 until
+  2023-05-26) [superseded]"), and the answer, reading the validity windows as
   instructed, picked Hawaii. Every other system answered Paris.
 - `945e3d21` (yoga for anxiety, twice → three times a week). The old value was
   stored as two near-duplicate edges. The update closed one ("practices yoga
@@ -222,11 +224,9 @@ specific to a dated graph, and the most interesting ones for the post:
   current; the new edge says the three classes are "to help clear their head",
   so the answer kept twice a week for anxiety.
 
-**Extracted in another form (2).** `59524333`: the change to 6 pm became "has
+**Extracted in another form (1).** `59524333`: the change to 6 pm became "has
 a gym commitment at 6:00 pm on Tuesday", next to the unchanged Monday,
-Wednesday and Friday sessions, so the answer kept 7 pm. `c4ea545c` (*"Do I go
-to the gym more frequently than I did previously?"*): only the new schedule is
-in the graph, so there is nothing to compare it with.
+Wednesday and Friday sessions, so the answer kept 7 pm.
 
 **Delivered, answered wrongly (3).** `2133c1b5` computes six months from the
 studio apartment's first mention although "has been living in Harajuku for 3

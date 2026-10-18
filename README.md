@@ -72,8 +72,8 @@ whole thing, and what separates them is cost: Graphiti spends 30 times what
 textual memory spends. How a system is fed matters as much as which system it
 is: Graphiti scored 18% and Letta 58% until the conversation was handed to
 them the way they were built for (one message per episode; one agent turn
-per user message). Letta still trails because its agent appends to its memory
-and rarely replaces the old value. The analysis, the failure breakdown and the
+per user message). Letta still trails because its agent often notices a revision
+without writing it down, and its search rarely finds the message again. The analysis, the failure breakdown and the
 full-history run are in [docs/experiment-results.md](docs/experiment-results.md),
 with the tables in [docs/findings/](docs/findings/); how to run it is in
 [docs/experiment.md](docs/experiment.md).

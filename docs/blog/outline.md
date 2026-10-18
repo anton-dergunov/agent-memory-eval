@@ -414,14 +414,15 @@ full-history run in [experiment-results.md](../experiment-results.md) and
   not matter.** The old value is still stored as current in 37% of Mem0's
   stores, 64% of Honcho's and 21% of Graphiti's; when both values reach the
   model with dates it picks the newer one about nine times in ten.
-- Most loss is at write time (HaluMem's finding): "update never stored" is 5
-  of Mem0's 11 wrong answers, 5 of Graphiti's 12, 15 of Letta's 21.
+- Most loss is at write time (HaluMem's finding): "update never stored" is 4
+  of Mem0's 11 wrong answers, 6 of Graphiti's 12, 14 of Letta's 21.
 - System-specific failures, each with a worked example: Honcho's dialectic
   agent refuses to choose between two dated values (5 of its 9 errors); Mem0
   adds two kept values (3 + 5 = 8); textual memory's "25 (up from 17)" lines
   invite subtraction; Graphiti's event-time dating closed the newer fact
-  (Paris, said later, dated earlier); Letta's agent appends and rarely
-  replaces (78% when it replaced at least once, 50% when it only appended).
+  (Paris, said later, dated earlier); Letta's agent congratulates the user on
+  the revision and does not write it down (18 times), and its phrase-match
+  search cannot find it again (97 of 146 searches at answer time empty).
 - Three questions are flawed (12 of 39 wrong answers among the simpler arms).
 - Full history (25 questions, ~124,000 tokens): full context 92% → 84%,
   retrieval 100% → 96%, textual 96% → 92%, Mem0 84% → 84%. Full context slips
