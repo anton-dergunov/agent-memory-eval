@@ -12,7 +12,7 @@ The numbers come from three generated or hand-written companions:
 
 Every number can be traced to `results/<split>/<arm>/<qid>.json` and the call
 ledgers saved next to them. The raw model calls (requests and replies) are
-archived in claude-cloud, `03-agent-memory-eval-longmemeval/saved/raw-calls/`.
+kept, but not published with the repository.
 
 Runs: 17–18 October 2026. 67 knowledge-update questions (the 72 without
 abstention, minus 5 pilot questions used for checking), each history trimmed
@@ -235,6 +235,8 @@ to run on 124,000-token histories:
 
 Total Vertex spend for the whole experiment, smoke tests and both Graphiti and
 Letta runs included: about $99 (main run $82, full-history run $13, pilot
-$2.63, traces and checks the rest). With the committed cache (`.cache/llm`, in
-the claude-cloud state archive), re-running the committed results costs
-nothing; see [experiment.md](experiment.md) for the commands.
+$2.63, traces and checks the rest). Rebuilding every table from the committed
+results costs nothing (`python -m memeval.findings`, no model calls). The reply
+cache (`.cache/llm`) is not published, so re-running the systems themselves
+costs about that much again; see [experiment.md](experiment.md) for the
+commands.
