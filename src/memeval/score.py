@@ -83,6 +83,9 @@ def score_split(split: str, arms: list[str] | None = None, workers: int = 8) -> 
     for qid in sorted({p.stem for _, p in paths}):
         with llm.tagged(split=split, arm="_facts", qid=qid, phase="probe"):
             facts(split, qid)
+    # Load the dataset once here: its cache is not locked, and eight threads
+    # that each miss it parse the 277 MB file eight times over (9 GB).
+    data.load_raw()
     failed = 0
     with ThreadPoolExecutor(workers) as pool:
         futures = {pool.submit(_score_one, split, arm, path): path for arm, path in paths}
