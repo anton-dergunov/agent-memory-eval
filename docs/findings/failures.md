@@ -4,7 +4,7 @@
 
 ## 4. Every wrong answer
 
-Arms counted: full-context, retrieval, textual, mem0, honcho-chat, honcho-repr. A question most arms miss points at the question or its answer key as much as at the systems; a question one arm misses points at that arm.
+Arms counted: full-context, retrieval, textual, mem0, honcho-chat, honcho-repr, graphiti, letta. A question most arms miss points at the question or its answer key as much as at the systems; a question one arm misses points at that arm.
 
 | Question | reference | old value (probe) | arms wrong |
 |---|---|---|---|
@@ -91,3 +91,9 @@ Arms counted: full-context, retrieval, textual, mem0, honcho-chat, honcho-repr. 
 - `618f13b2` *How many times have I worn my new black Converse Chuck Taylor All Star sneakers?* Reference: six. Lost: delivered, answered old value. Shared with 5 other arm(s). Answer ends: "… the second entry is more specific about the model name and was recorded later in the day, it is the most accurate record provided in the history. 3. **Conclusion:** Based on the most specific entry in the history logs, you have worn your new black Converse Chuck Taylor All Star sneakers four times."
 - `ba61f0b9` *How many women are on the team led by my former manager Rachel?* Reference: 6. Lost: delivered, other error. Shared with 1 other arm(s). Answer ends: "… Because the user has provided two different figures for the same team, there is no single definitive answer based on the provided history. **Conclusion:** The information provided is contradictory. The user has stated at different times that there were either 5 or 6 women on the team led by Rachel."
 - `e66b632c` *What was my previous personal best time for the charity 5K run?* Reference: 27 minutes and 45 seconds. Lost: wrong, unclassified. Shared with 2 other arm(s). Answer ends: "…utes and 30 seconds. * Given the explicit statement regarding the "previous personal best time" in the history logs, the record indicates that your previous personal best was 26 minutes and 30 seconds. **Answer:** Your previous personal best time for the charity 5K run was 26 minutes and 30 seconds."
+
+#### graphiti (0 wrong)
+
+
+#### letta (0 wrong)
+

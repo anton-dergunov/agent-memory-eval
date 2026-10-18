@@ -14,7 +14,9 @@ Main run: 67 knowledge-update questions, 10 sessions each. Generated from the re
 | mem0 | 67 | 84% | 73%–91% | 0.0395 | 10 | 38 | none (local Qdrant files) |
 | honcho-chat | 67 | 87% | 76%–93% | 0.0291 | 38 | 115 | Honcho API + deriver, Postgres, Redis |
 | honcho-repr | 67 | 93% | 84%–97% | 0.0281 | 38 | 115 | Honcho API + deriver, Postgres, Redis |
+| graphiti | 0 | – | 0%–0% | 0.0000 | 0 | 0 | Neo4j |
 | graphiti-chunk | 67 | 18% | 11%–29% | 0.2380 | 121 | 145 | Neo4j |
+| letta | 0 | – | 0%–0% | 0.0000 | 0 | 0 | Letta server, Postgres |
 | letta-batch | 67 | 58% | 46%–69% | 0.0288 | 11 | 43 | Letta server, Postgres |
 
 ## 1. How a system is fed decides whether it remembers
@@ -36,7 +38,9 @@ Share of questions. *Stored* columns read the whole memory; *delivered* columns 
 | mem0 | 78% | 81% | 37% | 78% | 76% | 45 | 41/45 | 930 |
 | honcho-chat | 82% | 81% | 64% | 82% | 60% | 39 | 33/39 | 77 |
 | honcho-repr | 82% | 81% | 64% | 84% | 81% | 53 | 51/53 | 935 |
+| graphiti | – | – | – | – | – | 0 | 0/0 | 0 |
 | graphiti-chunk | 19% | 25% | 22% | 19% | 25% | 3 | 2/3 | 292 |
+| letta | – | – | – | – | – | 0 | 0/0 | 0 |
 | letta-batch | 1% | 1% | 1% | 54% | 16% | 5 | 5/5 | 1,074 |
 
 ## 3. Asking for the current value or an earlier one
@@ -51,23 +55,25 @@ Hand-labelled from the question text: 8 questions ask for an earlier value (0774
 | mem0 | 48/56 | 6/8 | 2/3 |
 | honcho-chat | 48/56 | 7/8 | 3/3 |
 | honcho-repr | 52/56 | 7/8 | 3/3 |
+| graphiti | 0/0 | 0/0 | 0/0 |
 | graphiti-chunk | 11/56 | 1/8 | 0/3 |
+| letta | 0/0 | 0/0 | 0/0 |
 | letta-batch | 37/56 | 1/8 | 1/3 |
 
 ## Accuracy, cost and time (full)
 
 | Arm | n | Accuracy | 95% interval | USD per question (system) | model calls to write | seconds to write | servers needed |
 |---|--:|--:|---|--:|--:|--:|---|
-| full-context | 10 | 90% | 60%–98% | 0.0274 | 0 | 0 | none |
-| retrieval | 10 | 90% | 60%–98% | 0.0018 | 0 | 0 | none |
-| textual | 10 | 100% | 72%–100% | 0.3031 | 52 | 325 | none |
-| mem0 | 10 | 90% | 60%–98% | 0.1816 | 48 | 165 | none (local Qdrant files) |
+| full-context | 25 | 84% | 65%–94% | 0.0275 | 0 | 0 | none |
+| retrieval | 25 | 96% | 80%–99% | 0.0016 | 0 | 0 | none |
+| textual | 25 | 92% | 75%–98% | 0.2773 | 59 | 312 | none |
+| mem0 | 25 | 84% | 65%–94% | 0.1806 | 51 | 195 | none (local Qdrant files) |
 
 ## Full history against the trimmed history (same questions)
 
 | Arm | n | accuracy, 10 sessions | accuracy, full history | context tokens, 10 | context tokens, full | USD per question, 10 | USD per question, full |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| full-context | 10 | 90% | 90% | 27,318 | 123,201 | 0.0064 | 0.0274 |
-| retrieval | 10 | 100% | 90% | 6,025 | 6,138 | 0.0016 | 0.0018 |
-| textual | 10 | 100% | 100% | 1,579 | 6,242 | 0.0221 | 0.3031 |
-| mem0 | 10 | 90% | 90% | 966 | 901 | 0.0394 | 0.1816 |
+| full-context | 25 | 92% | 84% | 27,677 | 123,631 | 0.0065 | 0.0275 |
+| retrieval | 25 | 100% | 96% | 5,825 | 5,881 | 0.0016 | 0.0016 |
+| textual | 25 | 96% | 92% | 1,515 | 5,567 | 0.0218 | 0.2773 |
+| mem0 | 25 | 84% | 84% | 919 | 910 | 0.0396 | 0.1806 |
