@@ -28,10 +28,15 @@ def result_path(split: str, arm: str, qid: str) -> Path:
     return config.RESULTS_DIR / split / arm / f"{qid}.json"
 
 
-def build(split: str, arm_name: str, limit: int | None = None, reverse: bool = False) -> None:
+def build(split: str, arm_name: str, limit: int | None = None, reverse: bool = False,
+          shard: str | None = None) -> None:
     from .arms import build as build_arm
 
     ids = data.split(split)[:limit]
+    if shard:
+        # "i/n": every n-th question from the i-th, so n processes split the work.
+        i, n = (int(x) for x in shard.split("/"))
+        ids = ids[i - 1::n]
     if reverse:
         # A second process for a slow arm works from the other end of the list.
         ids = ids[::-1]
@@ -94,6 +99,8 @@ def main(argv=None) -> int:
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--reverse", action="store_true",
                     help="work through the questions from the last one backwards")
+    ap.add_argument("--shard", default=None,
+                    help="i/n: build only every n-th question starting at the i-th (1-based)")
     args = ap.parse_args(argv)
     config.ensure_credentials()
 
@@ -101,7 +108,7 @@ def main(argv=None) -> int:
         failed = []
         for arm in args.arms or []:
             try:
-                build(args.split, arm, args.limit, args.reverse)
+                build(args.split, arm, args.limit, args.reverse, args.shard)
             except llm.BudgetExceeded as exc:
                 print(f"STOPPED: {exc}")
                 return 2

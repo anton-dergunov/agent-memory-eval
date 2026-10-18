@@ -34,7 +34,8 @@ from .. import config, proxy
 from ..data import Question, Session
 from .base import Arm, Read
 
-PROXY_PORT = 8101
+# One proxy per process; a second process sets its own port.
+PROXY_PORT = int(os.environ.get("MEMEVAL_LETTA_PROXY_PORT", "8101"))
 # letta/personas/examples/memgpt_starter.txt in Letta 0.16.8 (Apache-2.0).
 PERSONA = ("The following is a blank slate starter persona, I need to expand this to develop "
            "my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.")

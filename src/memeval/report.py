@@ -13,7 +13,7 @@ from collections import defaultdict
 from . import config
 
 ORDER = ["full-context", "retrieval", "textual", "mem0", "honcho-chat", "honcho-repr",
-         "graphiti", "letta"]
+         "graphiti", "graphiti-chunk", "letta", "letta-batch"]
 
 
 def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
@@ -77,7 +77,7 @@ def system_stats(arm: str, rows: list[dict]) -> dict:
     if arm == "mem0":
         out = {"facts stored": f"{mean('stored'):.0f}", "facts returned": f"{mean('retrieved'):.0f}",
                "unparsed extraction replies": f"{mean('parse_failures'):.2f}"}
-    elif arm == "graphiti":
+    elif arm.startswith("graphiti"):
         out = {"edges": f"{mean('edges'):.0f}", "edges closed (superseded)": f"{mean('invalidated'):.1f}",
                "episodes": f"{mean('episodes'):.0f}", "failed episodes": f"{mean('episode_failures'):.2f}",
                "facts returned": f"{mean('retrieved'):.0f}"}
@@ -89,7 +89,7 @@ def system_stats(arm: str, rows: list[dict]) -> dict:
                     levels[line[3:line.index("]")]] += 1
         out = {f"{level} conclusions": f"{count / n:.0f}" for level, count in sorted(levels.items())}
         out["context tokens"] = f"{sum(len(r['context']) for r in rows) / n / 4:.0f}"
-    elif arm == "letta":
+    elif arm.startswith("letta"):
         empty = sum(1 for r in rows if "<human>\n\n</human>" in (r.get("dump") or "")
                     or "<human>\n</human>" in (r.get("dump") or ""))
         out = {"human block chars": f"{sum(_human_chars(r.get('dump') or '') for r in rows) / n:.0f}",

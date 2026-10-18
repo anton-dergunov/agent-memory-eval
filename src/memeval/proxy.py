@@ -129,6 +129,12 @@ class Handler(BaseHTTPRequestHandler):
         cache_hit = reply is not None
         if not cache_hit:
             reply = self._forward(payload)
+            # Vertex occasionally returns a choice with no message at all, which
+            # Letta rejects outright; ask again (twice at most).
+            for _ in range(2):
+                if (reply.get("choices") or [{}])[0].get("message") is not None:
+                    break
+                reply = self._forward(payload)
         # Vertex sometimes sends null token counts (seen on a reply that was
         # only a tool call); OpenAI's schema says integers, and Letta rejects null.
         usage = reply.setdefault("usage", {}) or {}
