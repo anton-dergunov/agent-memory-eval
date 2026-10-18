@@ -33,6 +33,8 @@ from . import config
 # global rather than a context variable, so the proxy's request threads see it
 # too; one runner process works on one question of one arm at a time.
 TAGS: dict = {}
+# Scoring runs on worker threads, each with its own tags.
+_local = threading.local()
 _lock = threading.Lock()
 _spent_cache = {"at": 0.0, "usd": 0.0}
 
@@ -46,7 +48,17 @@ class EmptyReply(RuntimeError):
 
 
 @contextlib.contextmanager
-def tagged(**tags):
+def tagged(local: bool = False, **tags):
+    """Tag the calls made inside the block. `local=True` tags only this
+    thread's calls, for work spread over threads."""
+    if local:
+        saved_local = getattr(_local, "tags", None)
+        _local.tags = {**(saved_local or TAGS), **tags}
+        try:
+            yield
+        finally:
+            _local.tags = saved_local
+        return
     saved = dict(TAGS)
     TAGS.update(tags)
     try:
@@ -72,7 +84,8 @@ def record(model: str, input_tokens: int, output_tokens: int, *, cached_tokens: 
             "model": model.removeprefix("google/"), "input_tokens": input_tokens,
             "cached_tokens": cached_tokens, "output_tokens": output_tokens,
             "thinking_tokens": thinking_tokens, "finish": finish, "cache_hit": cache_hit,
-            "usd": round(usd, 8), **(tags if tags is not None else TAGS)}
+            "usd": round(usd, 8),
+            **(tags if tags is not None else (getattr(_local, "tags", None) or TAGS))}
     with _lock, open(_ledger_file(), "a") as fh:
         fh.write(json.dumps(line) + "\n")
     _spent_cache["usd"] += usd
@@ -129,12 +142,15 @@ _client = None
 
 
 def client():
+    """One shared client. Created under a lock: two threads racing here each
+    built one, and the discarded client closed its connection mid-request."""
     global _client
-    if _client is None:
-        from google import genai
+    with _lock:
+        if _client is None:
+            from google import genai
 
-        config.ensure_credentials()
-        _client = genai.Client(vertexai=True, project=config.project(), location=config.LOCATION)
+            config.ensure_credentials()
+            _client = genai.Client(vertexai=True, project=config.project(), location=config.LOCATION)
     return _client
 
 

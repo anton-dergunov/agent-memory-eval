@@ -33,3 +33,6 @@ private/
 
 # Servers the experiment builds from source (infra/*/up.sh)
 vendor/
+
+# Run logs
+results/*/_logs/

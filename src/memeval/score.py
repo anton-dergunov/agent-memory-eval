@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor
 
 from . import config, data, llm, prompts
 
@@ -74,30 +75,39 @@ def probe(result: dict, fact: dict) -> dict:
     return out
 
 
-def score_split(split: str, arms: list[str] | None = None) -> None:
+def score_split(split: str, arms: list[str] | None = None, workers: int = 8) -> None:
     root = config.RESULTS_DIR / split
     arms = arms or sorted(p.name for p in root.iterdir() if p.is_dir() and not p.name.startswith("_"))
+    paths = [(arm, path) for arm in arms for path in sorted((root / arm).glob("*.json"))]
+    # The old values first, once per question, so threads do not race for them.
+    for qid in sorted({p.stem for _, p in paths}):
+        with llm.tagged(split=split, arm="_facts", qid=qid, phase="probe"):
+            facts(split, qid)
+    with ThreadPoolExecutor(workers) as pool:
+        for future in [pool.submit(_score_one, split, arm, path) for arm, path in paths]:
+            future.result()
+
+
+def _score_one(split: str, arm: str, path) -> None:
     calibration = set(data.split("pilot")) | set(data.split("main")[:CALIBRATION])
-    for arm in arms:
-        for path in sorted((root / arm).glob("*.json")):
-            result = json.loads(path.read_text())
-            qid = result["qid"]
-            changed = False
-            with llm.tagged(split=split, arm=arm, qid=qid, phase="judge"):
-                if "judge" not in result:
-                    result["judge"] = {"model": config.JUDGE_MODEL,
-                                       "correct": judge(result["question"], result["reference"],
-                                                        result["answer"], config.JUDGE_MODEL)}
-                    changed = True
-                if qid in calibration and "judge_check" not in result:
-                    result["judge_check"] = {"model": config.PROBE_MODEL,
-                                             "correct": judge(result["question"], result["reference"],
-                                                              result["answer"], config.PROBE_MODEL)}
-                    changed = True
-            with llm.tagged(split=split, arm=arm, qid=qid, phase="probe"):
-                if "probe" not in result:
-                    result["probe"] = probe(result, facts(split, qid))
-                    changed = True
-            if changed:
-                path.write_text(json.dumps(result, indent=1, ensure_ascii=False))
-            print(f"[score] {arm} {qid} correct={result['judge']['correct']}", flush=True)
+    result = json.loads(path.read_text())
+    qid = result["qid"]
+    changed = False
+    with llm.tagged(local=True, split=split, arm=arm, qid=qid, phase="judge"):
+        if "judge" not in result:
+            result["judge"] = {"model": config.JUDGE_MODEL,
+                               "correct": judge(result["question"], result["reference"],
+                                                result["answer"], config.JUDGE_MODEL)}
+            changed = True
+        if qid in calibration and "judge_check" not in result:
+            result["judge_check"] = {"model": config.PROBE_MODEL,
+                                     "correct": judge(result["question"], result["reference"],
+                                                      result["answer"], config.PROBE_MODEL)}
+            changed = True
+    with llm.tagged(local=True, split=split, arm=arm, qid=qid, phase="probe"):
+        if "probe" not in result:
+            result["probe"] = probe(result, facts(split, qid))
+            changed = True
+    if changed:
+        path.write_text(json.dumps(result, indent=1, ensure_ascii=False))
+    print(f"[score] {arm} {qid} correct={result['judge']['correct']}", flush=True)

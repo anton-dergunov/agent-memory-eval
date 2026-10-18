@@ -66,7 +66,9 @@ Memory contents:
 {memory}
 
 Answer with JSON:
-{{"new_present": <true if the memory states the new value anywhere>,
+{{"new_present": <true if the memory states the new value anywhere, or states \
+facts from which it follows directly (for example a count and a later \
+addition to it)>,
   "old_present": <true if the memory states the old value anywhere>,
   "old_as_current": <true if the memory presents the old value as still \
 current, i.e. it is not marked as replaced, superseded, ended or past and the \
@@ -85,7 +87,8 @@ Text given to the assistant:
 {context}
 
 Answer with JSON:
-{{"new_present": <true if the text states the new value>,
+{{"new_present": <true if the text states the new value, or states facts from \
+which it follows directly (for example a count and a later addition to it)>,
   "old_present": <true if the text states the old value>}}"""
 
 STALE = """\

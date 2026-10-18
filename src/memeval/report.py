@@ -35,12 +35,20 @@ def load(split: str) -> dict[str, list[dict]]:
 
 
 def ledger(split: str) -> list[dict]:
+    """This split's model calls. Read from the live ledger and saved next to
+    the results, so the cost tables can be rebuilt from the committed files."""
+    saved = config.RESULTS_DIR / split / "ledger.jsonl"
     rows = []
-    for path in config.LEDGER_DIR.glob("calls-*.jsonl"):
+    for path in sorted(config.LEDGER_DIR.glob("calls-*.jsonl")):
         for raw in path.read_text().splitlines():
             row = json.loads(raw)
             if row.get("split") == split:
                 rows.append(row)
+    if rows:
+        saved.parent.mkdir(parents=True, exist_ok=True)
+        saved.write_text("".join(json.dumps(r) + "\n" for r in sorted(rows, key=lambda r: r["at"])))
+    elif saved.exists():
+        rows = [json.loads(raw) for raw in saved.read_text().splitlines()]
     return rows
 
 
