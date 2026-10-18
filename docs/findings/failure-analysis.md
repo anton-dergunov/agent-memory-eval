@@ -235,7 +235,8 @@ list (27); `7401057b` gets both the one-night and two-night facts and answers
 with advice on checking the points balance.
 
 Graphiti misses none of the dataset questions from cause A; it is the only arm
-that answers `618f13b2` with the key's "six" (its edges for the two same-day
-statements carry the order Graphiti inferred, not the session order). Its old value
+that answers `618f13b2` with the key's "six", and by luck: of the ten facts
+retrieved, eight are the assistant's cleaning tips, and only "wore their new
+black Converse six times" reached the answer, not the later "four". Its old value
 is still presented as current in 14 of 67 questions (21%), the lowest of the
 memory systems after textual memory.
