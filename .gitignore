@@ -30,3 +30,6 @@ data/
 # Personal working notes. Never published with the repository.
 private/
 *.egg-info/
+
+# Servers the experiment builds from source (infra/*/up.sh)
+vendor/

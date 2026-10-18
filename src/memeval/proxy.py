@@ -21,6 +21,11 @@ cheaper.
   `google/gemini-3.1-flash-lite`.
 * Replies cut off at the output cap are not cached, and their finish reason
   goes into the ledger, so truncation can be counted per system.
+* **Thought signatures are put back.** Gemini 3 attaches a signature to every
+  tool call it makes and rejects the next request if the call comes back
+  without it. OpenAI-style clients (Honcho, Letta) do not know the field and
+  drop it, so every agentic loop failed on its second step. The proxy
+  remembers each signature by tool-call id and restores it.
 
 Bound to localhost: it forwards anything it receives to a billed endpoint.
 """
@@ -36,6 +41,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from . import config, llm
 
 _servers: dict[int, ThreadingHTTPServer] = {}
+_signatures: dict[str, dict] = {}  # tool-call id -> Gemini's extra_content
 _credentials = None
 _auth_lock = threading.Lock()
 
@@ -116,6 +122,7 @@ class Handler(BaseHTTPRequestHandler):
             payload["model"] = f"google/{model}"
         stream = bool(payload.pop("stream", False))
         payload.pop("stream_options", None)
+        _restore_signatures(payload)
         # Fields that do not change the reply stay out of the cache key.
         key = llm.cache_key("chat", {k: v for k, v in payload.items() if k not in ("user", "metadata")})
         reply = llm.cache_get(key)
@@ -130,6 +137,9 @@ class Handler(BaseHTTPRequestHandler):
         llm.record(payload["model"], int(usage.get("prompt_tokens") or 0), visible + thinking,
                    thinking_tokens=thinking, finish=finish, cache_hit=cache_hit)
         message = choices[0].get("message") or {}
+        for call in message.get("tool_calls") or []:
+            if call.get("id") and call.get("extra_content"):
+                _signatures[call["id"]] = call["extra_content"]
         if not cache_hit and finish != "length" and (message.get("content") or message.get("tool_calls")):
             llm.cache_put(key, reply)
         if stream:
@@ -170,6 +180,13 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
+
+
+def _restore_signatures(payload: dict) -> None:
+    for message in payload.get("messages") or []:
+        for call in message.get("tool_calls") or []:
+            if not call.get("extra_content") and call.get("id") in _signatures:
+                call["extra_content"] = _signatures[call["id"]]
 
 
 def start(port: int = 0, host: str = "127.0.0.1") -> str:
