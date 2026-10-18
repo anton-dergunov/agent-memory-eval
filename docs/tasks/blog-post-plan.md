@@ -177,54 +177,45 @@ results. State this next to every number.
 | Run | Questions | History | Arms | Purpose |
 |---|---|---|---|---|
 | Pilot | 5 | 10 sessions | all | Replace the cost estimates with measured ones |
-| Main | 50 (fixed seed) | 10 sessions | all | The comparison |
-| Full history | 25 of the 50 | all 48 sessions | cheap arms only | Measure what trimming hid |
+| Main | 67 (all the rest, fixed seed) | 10 sessions | all | The comparison |
+| Full history | FULL_N of the 67 | all ~48 sessions | cheap arms only | Measure what trimming hid |
 
 The full-history run is what turns the trimming from an assumption into a
 measurement. The cheap arms are full context, plain retrieval, Mem0 and textual
 memory.
 
-With 50 yes/no questions the 95% interval is about ±14 points. Only large gaps
+With 67 yes/no questions the 95% interval is about ±8 to ±12 points. Only large gaps
 mean anything. The output is therefore a failure breakdown and a cost table, not
 a ranking, and the post does not name a winner.
 
 ### Cost
 
-Model: `gemini-3.1-flash-lite`, at $0.25 per million input tokens and $1.50 per
-million output tokens (checked October 2026). These figures are extrapolated from
-the call ledgers in the notebooks and could be wrong by a factor of two, which is
-what the pilot is for.
+**Measured** (main run, 17 October 2026). Model: `gemini-3.1-flash-lite`, at
+$0.25 per million input tokens and $1.50 per million output tokens.
 
-| Arm | Per question, 10 sessions |
-|---|---|
-| Full context, plain retrieval, answers and judge | about $0.01 |
-| Mem0 | about $0.02 |
-| Textual memory | about $0.02 |
-| Honcho-style | about $0.04 |
-| Letta-style | about $0.06 |
-| Graphiti | about $0.30 |
-| **All arms** | **about $0.45** |
+| Arm | Per question, 10 sessions | Estimated before the pilot |
+|---|--:|--:|
+| Full context | $0.007 | about $0.01 |
+| Plain retrieval | $0.002 | about $0.01 |
+| Textual memory | $0.022 | about $0.02 |
+| Mem0 | $0.040 | about $0.02 |
+| Honcho (real server, both read paths) | $0.030 | about $0.04 |
+| Letta (real server) | $0.029 | about $0.06 |
+| Graphiti (real library) | $0.238 | about $0.30 |
+| Judge and probes | $0.063 (all arms) | |
+| **All arms, scored** | **about $0.43** | **about $0.45** |
 
-| Run | Estimated cost |
-|---|---|
-| Pilot, 5 questions | about $2 |
-| Main, 50 questions | about $22 |
-| Full history, 25 questions, cheap arms | about $5 |
-| **Total** | **about $30** |
+| Run | Measured cost |
+|---|--:|
+| Pilot, 5 questions | $2.63 |
+| Main, 67 questions | $28.78 |
+| Full history, FULL_N questions, cheap arms | $FULL_COST |
+| **Total, with smoke tests** | **$TOTAL_COST** |
 
-Ways to spend less: 30 questions in the main run brings it to about $13, and
-there is a realistic floor of about $10. Graphiti is roughly three quarters of
-the bill. Reduce the number of questions before changing how Graphiti ingests,
-because altering its ingestion means measuring a different system.
-
-Things that will change these numbers:
-
-- Graphiti's cost grows with the size of the graph.
-- All four notebooks run on Gemini (`gemini-3.1-flash-lite`), on a free tier
-  that allows 15 requests a minute. The experiment will need a paid tier or a
-  different route to the model.
-- Cache every model call on disk, keyed on the full request, so a re-run after a
-  bug fix costs nothing for the arms that did not change.
+The estimates held to within a factor of two for every arm. Graphiti is still
+most of the bill: 121 model calls and about 900,000 input tokens per question.
+The run used Vertex AI (paid), not the free tier; every call is cached on disk,
+so a re-run of the committed results costs nothing.
 
 ### What to measure
 
@@ -263,7 +254,7 @@ These come from mistakes already made once elsewhere.
 - **Never let a truncated or empty model reply count as an answer.** Detect it and
   retry.
 - **Tune on questions that are not in the reported set.** Use the pilot questions
-  or a separate handful, and keep the 50 untouched.
+  or a separate handful, and keep the 67 untouched.
 - **Give each system a fair configuration.** Record every setting. Where a default
   was changed, say why.
 - **Report the baselines first.** If full context wins, that is the finding.
@@ -273,21 +264,21 @@ These come from mistakes already made once elsewhere.
 1. **Clean the copied notebooks.** Done. The notebooks stand alone, run on one
    model set in `notebooks/config.py`, and are committed as `.ipynb` with their
    outputs so a reader can follow along without an API key.
-2. **Add the three missing arms as notebooks or small modules:** full context,
+2. **Done, as modules in the experiment.** Add the three missing arms as notebooks or small modules: full context,
    plain retrieval, textual memory. Run each on the same three sessions.
-3. **Make the labels honest.** The Honcho, Letta and Zep/Graphiti notebooks drive
+3. **Done: the experiment runs the real systems.** Make the labels honest. The Honcho, Letta and Zep/Graphiti notebooks drive
    the vendors' prompts from local code and do not run the vendors' servers or
    libraries. Either run the real
    systems in the experiment or label the arms "Honcho-style" and "Letta-style"
    everywhere.
-4. **Build the experiment under `src/`:** a loader for LongMemEval, the
+4. **Done** (`src/memeval`). Build the experiment under `src/`: a loader for LongMemEval, the
    trimming with a fixed seed, one adapter per arm behind a common interface
    (ingest a session with its timestamp, answer a question at a date), the judge,
    the call cache and the cost ledger.
-5. **Pilot** on 5 questions. Replace the cost table above with measured numbers
+5. **Done.** Pilot on 5 questions. Replace the cost table above with measured numbers
    and fix the size of the main run.
-6. **Main run and full-history run.**
-7. **Error analysis.** Read the failures and sort them into the measures above.
+6. **Done.** Main run and full-history run.
+7. **Done** ([experiment-results.md](../experiment-results.md)). Error analysis. Read the failures and sort them into the measures above.
    Pick one worked example per system.
 8. **Write the post.**
 9. **Finish the repository:** README results section, committed result files,
@@ -299,21 +290,23 @@ Stages 1 to 3 need almost no API spend. Stages 5 and 6 are where the budget goes
 
 - One post, not one per system. Cut most of the notebook material; the notebooks
   stay in the repository for readers who want it.
-- Open with a failure that surprises, not with architecture. A candidate: the
-  temporal graph leaves a superseded fact open, at roughly ten times the model
-  calls of the simpler system.
+- Open with a failure that surprises, not with architecture. A candidate, now
+  measured: the temporal graph never extracts the update in 45 of 67 questions,
+  at 121 model calls per question against textual memory's 10, and scores 18%
+  where plain retrieval over raw turns scores 97%.
 - Show real prompts and real stored records.
 - Give each system one thing it does well and one failure.
 - Put the full-context baseline in the first results table.
 - End with a decision guide: when a text file is enough, when to add retrieval,
   when a graph earns its cost.
-- State the limits: trimmed history, one question type, 50 questions, one model.
+- State the limits: trimmed history, one question type, 67 questions, one model.
 - Do not name a winner.
 
 ## Open decisions
 
-- Whether to run the real Honcho, Letta and Graphiti in the experiment or keep
-  the local re-implementations with honest labels.
+- ~~Whether to run the real Honcho, Letta and Graphiti in the experiment.~~
+  Decided: the experiment runs the real systems (Letta as its last Python
+  server, 0.16.8); the notebooks stay re-implementations with honest labels.
 - Whether to add the 30 single-session-preference questions. They are closer to
   personalisation, but they have one evidence session and no revision.
 - The final repository name and whether it is public from the start.

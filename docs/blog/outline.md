@@ -386,8 +386,37 @@ Does the intuition from one short conversation hold on real data?
 - What trimming the history changed, shown by the full-history run.
 
 All numbers and the design are in the plan. The limits to state: trimmed
-history, one question type, about 50 questions, one model, and no comparison
+history, one question type, 67 questions, one model, and no comparison
 with published LongMemEval results.
+
+**Measured** (17 October 2026; tables, worked examples and the full-history run
+in [experiment-results.md](../experiment-results.md)):
+
+- Accuracy on 67 questions, 10-session history: full context 90%, retrieval
+  97%, textual memory 93%, Mem0 84%, Honcho 87% (dialectic chat) and 93%
+  (representation), Graphiti 18%, Letta 58%. Six arms overlap; only Graphiti
+  and Letta are clearly apart. Judges agree on 95 of 96.
+- The trimmed history is in the regime where full context wins: memory can only
+  lose. Plain retrieval over raw turns lost nothing, at a fifth of the tokens.
+  Full context's errors are the model answering with the old value although
+  the new one is in the prompt.
+- Most loss is at write time, as HaluMem would predict: "stored but not
+  delivered" is almost empty for every arm; "update never stored" is 45 of
+  Graphiti's 55 wrong answers and 22 of Letta's 28.
+- Nobody resolves the conflict at write time, and with dates on every item it
+  mostly does not matter: the old value is still stored as current in 25 of
+  Mem0's stores and 42 of Honcho's, and when both values reach the model with
+  dates it picks the newer one (51 of 53 for Honcho's representation).
+- Graphiti: about 57 edges from 10 sessions, 0.2 closed as superseded per
+  question; the update is an aside and never becomes an edge. 121 model calls
+  per question, eight times the next system.
+- Letta: the agent left its `human` block empty after 43 of 67 histories and
+  answers by `conversation_search`, which on the self-hosted server is a
+  literal SQL substring match. Its score is the same with or without a filled
+  block.
+- Cost per question (system only): full context $0.007, retrieval $0.002,
+  textual $0.022, Mem0 $0.040, Honcho $0.030, Letta $0.029, Graphiti $0.238.
+- Full history: FULL_HISTORY_SUMMARY
 
 Published findings that bear on the design **[paper]**:
 

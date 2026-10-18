@@ -12,8 +12,9 @@ a larger scale on the knowledge-update questions of
 [LongMemEval](https://arxiv.org/abs/2410.10813).
 
 **Status: work in progress.** The notebooks run today. The benchmark experiment
-and the write-up are planned in
-[docs/tasks/blog-post-plan.md](docs/tasks/blog-post-plan.md).
+has run; its results are below and in
+[docs/experiment-results.md](docs/experiment-results.md). The write-up is planned
+in [docs/tasks/blog-post-plan.md](docs/tasks/blog-post-plan.md).
 
 ## Systems covered
 
@@ -26,12 +27,14 @@ memory?
 | A pipeline, into a dated graph | Zep / Graphiti | [zep-graphiti](notebooks/zep-graphiti.ipynb) | Graphiti's prompts, driven by local code |
 | The agent itself | Letta (MemGPT) | [letta](notebooks/letta.ipynb) | Letta's prompts and tool descriptions, driven by local code |
 | A background reasoner | Honcho | [honcho](notebooks/honcho.ipynb) | our prompts, written from Honcho's published definitions |
-| A background rewriter of one text file | Textual memory | planned | |
-| Nobody | Full context; plain retrieval over raw turns | planned | |
+| A background rewriter of one text file | Textual memory | experiment only | our code, about 50 lines |
+| Nobody | Full context; plain retrieval over raw turns | experiment only | our code |
 
-Three of the four are re-implementations made so that every step can be read.
-Each notebook says at the top what it takes from the original system and what it
-leaves out.
+Three of the four notebooks are re-implementations made so that every step can
+be read. Each notebook says at the top what it takes from the original system
+and what it leaves out. The experiment runs the real systems: Mem0 2.2.1,
+Graphiti 0.31.1 on Neo4j, Honcho v3.3.0 and Letta 0.16.8, all on the same
+model.
 
 ## What each notebook shows
 
@@ -46,6 +49,30 @@ facts.
 2. **Revise.** What happens to the old fact when a new one contradicts it.
 3. **Read.** What a new session gets back, and whether the answer changes.
 4. **Cost.** Model calls and tokens for the same two sessions.
+
+## Results on LongMemEval
+
+67 knowledge-update questions, history trimmed to 10 sessions (about 28,000
+tokens), `gemini-3.1-flash-lite` in every seat, `gemini-3.1-pro-preview` as
+judge. Not comparable to published LongMemEval results.
+
+| Arm | Accuracy | 95% interval | Cost per question | Where wrong answers were lost |
+|---|--:|---|--:|---|
+| Full context | 90% | 80%–95% | $0.007 | the model answered with the old value (5 of 7) |
+| Retrieval (BM25 over raw turns) | 97% | 90%–99% | $0.002 | |
+| Textual memory | 93% | 84%–97% | $0.022 | |
+| Mem0 | 84% | 73%–91% | $0.040 | update never stored (6 of 11) |
+| Honcho, dialectic chat | 87% | 76%–93% | $0.030 | |
+| Honcho, representation | 93% | 84%–97% | $0.028 | |
+| Graphiti | 18% | 11%–29% | $0.238 | update never stored (45 of 55) |
+| Letta | 58% | 46%–69% | $0.029 | update never stored or never found (22 of 28) |
+
+On a history this short every memory system can only lose to reading the whole
+thing, and most lose little. The two that lose a lot lose at write time: the
+update never makes it into memory. The analysis, one worked example per system
+and the full-history run are in
+[docs/experiment-results.md](docs/experiment-results.md); how to run it is in
+[docs/experiment.md](docs/experiment.md).
 
 ## Running the notebooks
 
@@ -117,7 +144,10 @@ lectern build . -o _site --clean && open _site/index.html
 | Path | Contents |
 |---|---|
 | [notebooks/](notebooks/) | One notebook per system, `config.py` for the models, `letta_source.py` for fetching Letta's prompts |
-| `src/` | The LongMemEval experiment, as plain Python (planned) |
+| [src/memeval/](src/memeval/) | The LongMemEval experiment: data, model calls, one module per arm, judge, report |
+| [infra/](infra/) | Scripts that start the Honcho, Neo4j and Letta servers |
+| [results/](results/) | Every result of the pilot, main and full-history runs, with the call ledgers |
+| [docs/](docs/) | [experiment.md](docs/experiment.md) (how it runs), [experiment-results.md](docs/experiment-results.md) (what it found) |
 | [docs/tasks/](docs/tasks/) | The plan from these notebooks to the finished post |
 | [docs/blog/](docs/blog/) | The outline of the post, with the material collected for it |
 | [docs/history/](docs/history/) | The original project idea, with notes on how it aged |
