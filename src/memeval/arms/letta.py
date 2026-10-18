@@ -51,7 +51,9 @@ PERSONA = ("The following is a blank slate starter persona, I need to expand thi
 # deliberately about nothing any question asks.
 PERSONA_INSTRUCTED = PERSONA + (
     "\n\nHow I keep my memory of the user:\n"
-    "- Every message starts with its date. I write that date on each fact I save about the user.\n"
+    "- Every user message starts with its date in square brackets, for example "
+    "[2024-01-15 09:30]. I write that date on each fact I save about the user, never the "
+    "server's time shown on tool results or in my system prompt.\n"
     "- When the user mentions a new value for something already in my memory (a count, a time, "
     "a place, a status), even in passing, I update that line at once with memory_replace and keep "
     "the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; "

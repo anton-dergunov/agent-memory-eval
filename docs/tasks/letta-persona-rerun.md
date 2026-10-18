@@ -117,7 +117,11 @@ for q in ["06db6396", "1cea1afa", "cc5ded98"]:
 EOF
 ```
 
-Go on if the `human` block now has the new value with dates. If it does not,
+Go on if the `human` block now has the new value with dates, and the dates are
+the history's (2023), not the server's (the day of the run): every tool result
+Letta returns carries the server's time, and the first pilot's agent dated one
+whole history with it. That pilot, before the persona named the bracketed
+date, is kept in `results/main/_letta-persona-pilot-v1/`. If the new value is missing,
 the persona is not being followed and the full run is not worth $9: stop
 there, and bring the pilot back for a look.
 

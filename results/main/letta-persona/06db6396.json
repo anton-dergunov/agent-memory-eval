@@ -1,0 +1,130 @@
+{
+ "qid": "06db6396",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many projects have I completed since starting painting classes?",
+ "reference": "5",
+ "question_date": "2023-11-08 09:08",
+ "sessions": [
+  {
+   "id": "6be54739_2",
+   "date": "2023-07-21 21:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467198",
+   "date": "2023-08-05 19:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_1",
+   "date": "2023-08-16 09:37",
+   "evidence": true
+  },
+  {
+   "id": "5bd9f1e6_1",
+   "date": "2023-08-20 21:15",
+   "evidence": false
+  },
+  {
+   "id": "35038174_4",
+   "date": "2023-09-17 02:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_167372",
+   "date": "2023-09-18 08:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_2",
+   "date": "2023-10-09 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_416015",
+   "date": "2023-10-18 11:50",
+   "evidence": false
+  },
+  {
+   "id": "3dcf1e0b_2",
+   "date": "2023-10-19 07:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2LYzasI_0",
+   "date": "2023-11-01 20:36",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Reads The Economist during daily commute (2023-07-21)\n- Reads The New York Times every Sunday (2023-07-21)\n- Interested in politics and environmental issues (2023-07-21)\n- Listens to \"The Daily\" (NYT) during workouts (2023-07-21)\n- Setting up a small art studio in spare bedroom (2023-10-09; earlier considering, 2023-08-16)\n- Sister has a birthday next month (2023-08-16)\n- Completed 5 painting projects since starting classes (2023-10-09; earlier 4, 2023-08-16)\n- Currently working on a sunset scene for sister's birthday (2023-08-16)\n- Follows several inspiring artists on Instagram (2023-08-16)\n- Turned 32 on July 15, 2023 (2023-08-20)\n- Interested in learning Data Science (2023-08-20)\n- Interested in learning Data Visualization (2023-08-20)\n- Having battery life issues with laptop, considering replacement (2023-09-17)\n- Tried calibrating battery and checking for wear (2023-09-17)\n- Considering upgrading RAM due to performance issues with multiple programs (2023-09-17)\n- Using external hard drive (purchased from Best Buy with a birthday gift card from sister) for file backups and transfers (2023-09-17)\n- Planning to run a half-marathon in three months (2023-10-19)\n- Bought new running shoes from Nike outlet (2023-10-19)\n- Recently got a new pair of running shoes from the outlet store where I bought my shoes, and I'm really happy with them (2023-10-19)\n- Doing yoga at home 3 times a week (2023-10-19)\n- Old yoga mat is slippery, looking for a better one (2023-10-19)\n- Planning a beach trip next month (2023-10-19)\n- Needs a new snorkeling mask (old one is scratched) (2023-10-19)\n- Lost favorite water bottle at Red Rock Canyon during a hike (2023-10-05)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every message starts with its date. I write that date on each fact I save about the user.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You have completed 5 painting projects since starting your classes (recorded on 2023-10-09).",
+ "dump": "<human>\n\n- Reads The Economist during daily commute (2023-07-21)\n- Reads The New York Times every Sunday (2023-07-21)\n- Interested in politics and environmental issues (2023-07-21)\n- Listens to \"The Daily\" (NYT) during workouts (2023-07-21)\n- Setting up a small art studio in spare bedroom (2023-10-09; earlier considering, 2023-08-16)\n- Sister has a birthday next month (2023-08-16)\n- Completed 5 painting projects since starting classes (2023-10-09; earlier 4, 2023-08-16)\n- Currently working on a sunset scene for sister's birthday (2023-08-16)\n- Follows several inspiring artists on Instagram (2023-08-16)\n- Turned 32 on July 15, 2023 (2023-08-20)\n- Interested in learning Data Science (2023-08-20)\n- Interested in learning Data Visualization (2023-08-20)\n- Having battery life issues with laptop, considering replacement (2023-09-17)\n- Tried calibrating battery and checking for wear (2023-09-17)\n- Considering upgrading RAM due to performance issues with multiple programs (2023-09-17)\n- Using external hard drive (purchased from Best Buy with a birthday gift card from sister) for file backups and transfers (2023-09-17)\n- Planning to run a half-marathon in three months (2023-10-19)\n- Bought new running shoes from Nike outlet (2023-10-19)\n- Recently got a new pair of running shoes from the outlet store where I bought my shoes, and I'm really happy with them (2023-10-19)\n- Doing yoga at home 3 times a week (2023-10-19)\n- Old yoga mat is slippery, looking for a better one (2023-10-19)\n- Planning a beach trip next month (2023-10-19)\n- Needs a new snorkeling mask (old one is scratched) (2023-10-19)\n- Lost favorite water bottle at Red Rock Canyon during a hike (2023-10-05)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every message starts with its date. I write that date on each fact I save about the user.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"painting projects\"})"
+  ],
+  "blocks_chars": 2501,
+  "write_steps": 52,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 579.4,
+  "total": 583.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}
