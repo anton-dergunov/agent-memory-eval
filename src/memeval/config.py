@@ -42,7 +42,7 @@ LEDGER_DIR = Path(os.environ.get("MEMEVAL_LEDGER_DIR", REPO / ".cache" / "ledger
 CALLS_DIR = Path(os.environ.get("MEMEVAL_CALLS_DIR", REPO / ".cache" / "calls"))
 DATA_FILE = REPO / "data" / "longmemeval_s_cleaned.json"
 DATA_SHA256 = "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442"
-RESULTS_DIR = REPO / "results"
+RESULTS_DIR = Path(os.environ.get("MEMEVAL_RESULTS_DIR", REPO / "results"))
 
 # Every model call stops once the ledger shows this much spent, across all
 # processes. A run is resumable, so stopping costs nothing but time.

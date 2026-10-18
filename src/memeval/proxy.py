@@ -93,7 +93,6 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(400, {"error": {"message": "body is not JSON"}})
         suffix = self.path.split("/v1", 1)[-1] if "/v1" in self.path else self.path
         try:
-            llm.check_budget()
             if suffix.startswith("/embeddings"):
                 return self._embeddings(payload)
             if suffix.startswith("/chat/completions"):
@@ -128,6 +127,7 @@ class Handler(BaseHTTPRequestHandler):
         reply = llm.cache_get(key)
         cache_hit = reply is not None
         if not cache_hit:
+            llm.check_budget()
             reply = self._forward(payload)
             # Vertex occasionally returns a choice with no message at all, which
             # Letta rejects outright; ask again (twice at most).

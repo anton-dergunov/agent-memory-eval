@@ -117,6 +117,11 @@ def spent() -> float:
 
 
 def check_budget() -> None:
+    """Called before every paid model call (a cache miss)."""
+    if os.environ.get("MEMEVAL_CACHE_ONLY"):
+        # Replaying a run from the cache, e.g. to log its calls: a miss means
+        # the run would differ, so stop rather than pay for a new reply.
+        raise BudgetExceeded("MEMEVAL_CACHE_ONLY is set and this call is not in the cache")
     if spent() >= config.BUDGET_USD:
         raise BudgetExceeded(f"spent ${spent():.2f} of the ${config.BUDGET_USD:.2f} budget; "
                              f"raise MEMEVAL_BUDGET_USD to continue")
