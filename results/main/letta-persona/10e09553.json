@@ -1,0 +1,120 @@
+{
+ "qid": "10e09553",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+ "reference": "7",
+ "question_date": "2023-12-06 11:18",
+ "sessions": [
+  {
+   "id": "sharegpt_d4Csa8p_0",
+   "date": "2023-07-23 05:30",
+   "evidence": false
+  },
+  {
+   "id": "2d58d2d2",
+   "date": "2023-08-08 16:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_1",
+   "date": "2023-08-11 03:49",
+   "evidence": true
+  },
+  {
+   "id": "7d1f5395",
+   "date": "2023-08-13 10:26",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IZ5NgqD_0",
+   "date": "2023-09-20 05:22",
+   "evidence": false
+  },
+  {
+   "id": "e5f785de",
+   "date": "2023-09-22 13:37",
+   "evidence": false
+  },
+  {
+   "id": "58ab5fc5",
+   "date": "2023-10-04 13:50",
+   "evidence": false
+  },
+  {
+   "id": "238fac70_1",
+   "date": "2023-11-12 05:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_2",
+   "date": "2023-11-30 00:28",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jEOqeWh_0",
+   "date": "2023-12-01 01:05",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nStarted Hatha yoga about 6 weeks ago [2023-08-08]. Has since tried Hatha, Vinyasa flow, and Restorative yoga [2023-08-08].\nInterested in doing a yoga teacher training (YTT) program in the future to deepen practice and share passion with others [2023-08-08].\nCaught 7 largemouth bass at Lake Michigan with Alex [2023-07-10]. Also caught 9 largemouth bass at Lake Michigan with Alex near Waukegan harbor on 7/22/2023 [2023-11-30].\nInterested in buying a deer hunting tree stand [2023-08-11].\nPaternal grandparents live in Orlando, FL [2023-08-13].\nMaternal grandparents' 50th wedding anniversary was June 17th [2023-08-13].\nLives in the same area as maternal grandparents (the area is implied to be Orlando/Winter Park based on recent conversation) [2023-08-13].\nVisited New York City in May 2023 and enjoyed trying new restaurants. Interested in trying Korean skincare brands like Innisfree [2023-09-22].\nDined at a Michelin-starred restaurant in NYC in May 2023, costing around $200 per person, and found it worth it [2023-09-22].\nWent on a weekend trip to NYC with friends in May 2023. Visited Fifth Avenue and browsed luxury stores but only purchased souvenirs [2023-09-22].\nStarted a new job in March 2023. Currently balancing the desire for luxury items as a reward for the job with the need to be more practical [2023-09-22].\nHas a puppy named Rocky and takes him to training classes on Saturday mornings [2023-10-04].\nHas a pet named Luna and needs to brush her teeth daily [2023-10-04].\nLikes to reserve Sundays for relaxation and errands [2023-10-04].\nStarted using Habitica to track daily tasks like brushing Luna's teeth [2023-10-04].\nPlans to scoop Luna's litter box daily and perform a full clean every 7-10 days [2023-10-04].\nPlanning a movie night to enjoy the new 50-inch 4K TV [2023-11-12]\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:25:45.863753+00:00', 'time_ago': '1s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-06 11:18] How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?'}, {'timestamp': '2026-10-18T17:25:38.273362+00:00', 'time_ago': '9s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"Yes, I absolutely remember! You mentioned that you and Alex had a fantastic day out at the Waukegan harbor area on July 22nd, pulling in 9 largemouth bass using spinnerbaits and plastic worms. That was clearly a successful trip!\\n\\nIt sounds like you're really leaning into the preparation phase for this hunting trip, just like you did for your fishing outings. That proactive approach—researching strategies and tactics—usually pays off in the field. \\n\\nAre you finding any particular hunting strategies or tactics in those videos that seem like they'll work well for Alex's property? I'd love to hear what you've learned!\"}, {'timestamp': '2026-10-18T17:25:36.801551+00:00', 'time_ago': '10s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-30 00:28] I'm planning to try out some of those deer calls during our next hunting trip. By the way, speaking of hunting, I've been watching some YouTube videos on deer hunting strategies and tactics, just like I did before our last fishing trip to Lake Michigan. Remember that trip when we caught 9 largemouth bass with Alex?\"}]}",
+ "answer": "Based on my memory, you caught 7 largemouth bass on that earlier fishing trip with Alex at Lake Michigan [2023-07-10].",
+ "dump": "<human>\n\nStarted Hatha yoga about 6 weeks ago [2023-08-08]. Has since tried Hatha, Vinyasa flow, and Restorative yoga [2023-08-08].\nInterested in doing a yoga teacher training (YTT) program in the future to deepen practice and share passion with others [2023-08-08].\nCaught 7 largemouth bass at Lake Michigan with Alex [2023-07-10]. Also caught 9 largemouth bass at Lake Michigan with Alex near Waukegan harbor on 7/22/2023 [2023-11-30].\nInterested in buying a deer hunting tree stand [2023-08-11].\nPaternal grandparents live in Orlando, FL [2023-08-13].\nMaternal grandparents' 50th wedding anniversary was June 17th [2023-08-13].\nLives in the same area as maternal grandparents (the area is implied to be Orlando/Winter Park based on recent conversation) [2023-08-13].\nVisited New York City in May 2023 and enjoyed trying new restaurants. Interested in trying Korean skincare brands like Innisfree [2023-09-22].\nDined at a Michelin-starred restaurant in NYC in May 2023, costing around $200 per person, and found it worth it [2023-09-22].\nWent on a weekend trip to NYC with friends in May 2023. Visited Fifth Avenue and browsed luxury stores but only purchased souvenirs [2023-09-22].\nStarted a new job in March 2023. Currently balancing the desire for luxury items as a reward for the job with the need to be more practical [2023-09-22].\nHas a puppy named Rocky and takes him to training classes on Saturday mornings [2023-10-04].\nHas a pet named Luna and needs to brush her teeth daily [2023-10-04].\nLikes to reserve Sundays for relaxation and errands [2023-10-04].\nStarted using Habitica to track daily tasks like brushing Luna's teeth [2023-10-04].\nPlans to scoop Luna's litter box daily and perform a full clean every 7-10 days [2023-10-04].\nPlanning a movie night to enjoy the new 50-inch 4K TV [2023-11-12]\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"largemouth bass Lake Michigan\"})",
+   "conversation_search({\"query\": \"bass\"})"
+  ],
+  "blocks_chars": 2756,
+  "write_steps": 47,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 217.2,
+  "total": 222.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

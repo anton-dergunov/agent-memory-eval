@@ -1,0 +1,129 @@
+{
+ "qid": "c7dc5443",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What is my current record in the recreational volleyball league?",
+ "reference": "5-2",
+ "question_date": "2023-07-21 20:30",
+ "sessions": [
+  {
+   "id": "705b5399_1",
+   "date": "2023-05-27 01:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_oSemQhs_0",
+   "date": "2023-06-16 04:31",
+   "evidence": false
+  },
+  {
+   "id": "c2fb8e86_2",
+   "date": "2023-06-16 04:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_0cdbca92_1",
+   "date": "2023-06-16 12:33",
+   "evidence": true
+  },
+  {
+   "id": "8a355b36_1",
+   "date": "2023-06-17 09:15",
+   "evidence": false
+  },
+  {
+   "id": "e6b6353d",
+   "date": "2023-06-17 22:31",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6cz1Sq6_264",
+   "date": "2023-06-28 19:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_51967",
+   "date": "2023-06-28 20:16",
+   "evidence": false
+  },
+  {
+   "id": "answer_0cdbca92_2",
+   "date": "2023-06-30 14:20",
+   "evidence": true
+  },
+  {
+   "id": "6b8e8bb3_1",
+   "date": "2023-07-10 19:09",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Struggling with impulse purchases on luxury items due to following fashion influencers on Instagram (2023-05-27)\n- Planning to use Spendee to track finances, specifically for luxury spending (2023-05-27)\n- Implementing a \"feelings journal\" to track emotions and spending triggers (2023-05-27)\n- Adopting exercise and meditation as alternative stress/boredom relief (2023-05-27)\n- Commitment to a 24-hour waiting period for all non-essential purchases (2023-05-27)\n- Open to discussing financial habits with friends/family for support (2023-05-27)\n- Intends to celebrate small wins to maintain motivation (2023-05-27)\n- Improving Spanish skills; watching shows with subtitles; completing two lessons per week in an online Spanish course (2023-06-16)\n- Planning to participate in a triathlon in the fall (2023-06-16)\n- Currently playing in a volleyball league; record is 5-2 (2023-06-30; earlier 3-2, 2023-06-16)\n- Current exercise: mix of cardio/strength at gym, volleyball, soccer (2023-06-16)\n- Swimming: can do laps, but slow pace (2023-06-16)\n- Cycling: no bike yet, planning to get one (2023-06-16)\n- Running: limited experience, recent 5K in 32:15 (2023-06-16)\n- Triathlon goal: Sprint triathlon in 12 weeks; focus on swim and bike skills (2023-06-16)\n- Concerns: Balancing triathlon training with existing volleyball (weeknights) and soccer (Sundays) schedule (2023-06-16)\n- Needs: Prioritization of workouts and help adjusting schedule (2023-06-16)\n- Considering organizing a recreational basketball league at the office (2023-06-16)\n- Got engaged to Alex; changed name to Eve Rachel Lee (2023-06-17)\n- Need a way to track name change updates across various accounts (2023-06-17)\n- Replaced old bike's chain and cassette on 2023-02-01, which improved performance (2023-06-17)\n- Concerned about potential skin damage from frequent hand sanitizer use (2023-06-28)\n- Has a niece (2023-07-10)\n- Currently using almond milk and protein powder for nutrition (2023-07-10)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:09:05.236189+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-07-21 20:30] What is my current record in the recreational volleyball league?'}]}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:09:05.236189+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-07-21 20:30] What is my current record in the recreational volleyball league?'}]}",
+ "answer": "According to the information I have in my memory, your record in the recreational volleyball league was 5-2 as of June 30, 2023.",
+ "dump": "<human>\n\n- Struggling with impulse purchases on luxury items due to following fashion influencers on Instagram (2023-05-27)\n- Planning to use Spendee to track finances, specifically for luxury spending (2023-05-27)\n- Implementing a \"feelings journal\" to track emotions and spending triggers (2023-05-27)\n- Adopting exercise and meditation as alternative stress/boredom relief (2023-05-27)\n- Commitment to a 24-hour waiting period for all non-essential purchases (2023-05-27)\n- Open to discussing financial habits with friends/family for support (2023-05-27)\n- Intends to celebrate small wins to maintain motivation (2023-05-27)\n- Improving Spanish skills; watching shows with subtitles; completing two lessons per week in an online Spanish course (2023-06-16)\n- Planning to participate in a triathlon in the fall (2023-06-16)\n- Currently playing in a volleyball league; record is 5-2 (2023-06-30; earlier 3-2, 2023-06-16)\n- Current exercise: mix of cardio/strength at gym, volleyball, soccer (2023-06-16)\n- Swimming: can do laps, but slow pace (2023-06-16)\n- Cycling: no bike yet, planning to get one (2023-06-16)\n- Running: limited experience, recent 5K in 32:15 (2023-06-16)\n- Triathlon goal: Sprint triathlon in 12 weeks; focus on swim and bike skills (2023-06-16)\n- Concerns: Balancing triathlon training with existing volleyball (weeknights) and soccer (Sundays) schedule (2023-06-16)\n- Needs: Prioritization of workouts and help adjusting schedule (2023-06-16)\n- Considering organizing a recreational basketball league at the office (2023-06-16)\n- Got engaged to Alex; changed name to Eve Rachel Lee (2023-06-17)\n- Need a way to track name change updates across various accounts (2023-06-17)\n- Replaced old bike's chain and cassette on 2023-02-01, which improved performance (2023-06-17)\n- Concerned about potential skin damage from frequent hand sanitizer use (2023-06-28)\n- Has a niece (2023-07-10)\n- Currently using almond milk and protein powder for nutrition (2023-07-10)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"volleyball record\"})",
+   "conversation_search({\"query\": \"volleyball\"})",
+   "conversation_search({\"query\": \"record\"})"
+  ],
+  "blocks_chars": 2924,
+  "write_steps": 55,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 251.0,
+  "total": 258.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

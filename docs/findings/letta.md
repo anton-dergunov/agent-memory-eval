@@ -1,9 +1,11 @@
-# Letta: why it scores lowest
+# Letta: why it scores lowest, and what a persona changes
 
 Hand-written, from the recorded model calls of the Letta run in
 `results/main/letta/` (one agent step per user message), read next to the
 LongMemEval histories and the source of the Letta server that ran them
-(0.16.8). Every request the agent sent and every reply it got was logged: the
+(0.16.8), and of a re-run with three lines added to the agent's persona
+(`results/main/letta-persona/`, in [its own section](#the-persona-re-run-letta-persona)).
+Every request the agent sent and every reply it got was logged: the
 messages it was shown, the memory edits it made with their arguments, what each
 tool returned, and the reply it wrote. That makes it possible to say, for each
 question, what the agent did at the moment the revised fact arrived.
@@ -59,6 +61,14 @@ The 21 wrong answers, by cause:
 
 In 14 of the 21 the revision was never in memory (the first three rows); in
 each of those the search was the only way back to it, and it failed.
+
+**The agent had been told none of this, and telling it fixes most of it.** A
+re-run with three lines in the persona block (date every fact, update the line
+when a value changes and keep the earlier one, search with one or two words)
+answers 60 of 67 (90%, 80–95%), level with the other memory systems. At the
+revision message it now writes the new value in 57 of 64 questions, against 31.
+Of its seven wrong answers, one is a lost update. The details are in
+[the persona re-run](#the-persona-re-run-letta-persona).
 
 ## How Letta ran here
 
@@ -686,6 +696,234 @@ So writing memory helps Letta when the agent writes the revision and hurts it
 when it writes only the first value: an empty block sends it to the history,
 a stale block stops it there.
 
+## The persona re-run (`letta-persona`)
+
+The agent was told nothing about keeping facts current. Its persona was
+Letta's blank starter text, while textual memory's prompt has an explicit rule
+for keeping the earlier value. The persona block is the part of Letta its
+users are expected to write, so the re-run changes only that block: the
+starter text plus three lines, one per link of the chain above.
+
+> How I keep my memory of the user:
+> - Every user message starts with its date in square brackets, for example
+>   [2024-01-15 09:30]. I write that date on each fact I save about the user,
+>   never the server's time shown on tool results or in my system prompt.
+> - When the user mentions a new value for something already in my memory (a
+>   count, a time, a place, a status), even in passing, I update that line at
+>   once with memory_replace and keep the earlier value with its date, for
+>   example "has 4 herb plants on the balcony (2024-03-02; earlier 2,
+>   2024-01-15)".
+> - When the user asks about themselves, I check my memory and also search
+>   past messages. The search matches my query word for word, so I search with
+>   one or two distinctive words, not a whole phrase.
+
+The example is about nothing any question asks. Everything else is the same
+as in the `letta` run: the model, Letta's temperature of 1.0, the server, one
+agent step per user message. The first pilot's persona said only "every
+message starts with its date", and the agent dated one whole history with the
+server's date (October 2026), which every tool result carries; that pilot is
+kept in `results/main/_letta-persona-pilot-v1/`, and the wording above names
+the bracketed date instead.
+
+| | letta | letta-persona |
+|---|--:|--:|
+| correct | 46 of 67 (69%, 57–78%) | 60 of 67 (90%, 80–95%) |
+| new value written at the revision message | 31 of 64 | 57 of 64 |
+| new value stored at the end (probe) | 42% | 79% |
+| old value still presented as current (probe) | 24% | 9% |
+| old value still stored (probe) | 33% | 66% |
+| memory edits while reading a history | 9.4 | 15.5 |
+| USD per question | 0.132 | 0.152 |
+
+The old value is stored more often because the agent now keeps it in the
+line, as the persona asks ("earlier 500, 2023-05-27"), and presents it as
+current less often. The whole run, both pilots included, cost $10.68.
+
+### The write side
+
+| At the message with the revision, the agent… | letta | | letta-persona | |
+|---|--:|--:|--:|--:|
+| | questions | correct | questions | correct |
+| replaced the old text with one containing the new value | 19 | 16 | 46 | 44 |
+| inserted a new line with the new value | 12 | 11 | 11 | 10 |
+| edited memory, but not with the new value | 2 | 2 | 2 | 1 |
+| searched the history and edited nothing | 12 | 4 | 1 | 1 |
+| made no tool call at all | 19 | 12 | 4 | 2 |
+| (no such message: both statements are in one session) | 2 | 1 | 2 | 2 |
+
+The revision mentioned in passing is now written. The five messages of the
+earlier table, and what the agent did with them this time:
+
+| Question | the revision, as the user said it | the agent's edit at that message |
+|---|---|---|
+| `06db6396` | "By the way, I just finished my 5th project since starting painting classes" | inserted "Completed 5th painting project (2023-10-09)." |
+| `1cea1afa` | "By the way, I just checked and I'm now at 600 followers" | replaced with "Reached 600 followers (2023-05-28; earlier 500, 2023-05-27)." |
+| `4b24c848` | "By the way, I've already got five tops from H&M so far" | replaced the line with "Bought 3 tops from H&M [2023-08-11]" and "Has 5 tops from H&M [2023-09-30; earlier 3, 2023-08-11]" |
+| `cc5ded98` | "By the way, I've been dedicating about two hours each day to coding exercises" | replaced with "Dedicates 2 hours per day to coding (2023-05-29; earlier 1 hour, 2023-05-20)." |
+| `ed4ddc30` | "we've got 20 dozen stocked up in the fridge right now" | replaced with "Has 20 dozen eggs in the fridge (2023-03-15; earlier 30 dozen, 2023-01-11)" |
+
+Revisions the agent named in its reply without writing them down fell from 18
+to 2 (`9ea5eabc`, below, and `b01defab`, which a search rescued). The agent
+edits more: 851 inserts and 189 replaces over the 66 complete histories (12.9
+and 2.9 per question, against 8.2 and 1.4). Twenty-four edits failed, against
+11. Seven of the failures are calls to `memory_search`, a tool the agent does
+not have. The `human` block ends at about 1,590 characters, against 1,320.
+
+**Dates.** All but three of the 1,068 lines in the final `human` blocks carry
+a date. Every date is from the history (2022–2023) and none is the server's.
+Of the 1,042 edits that wrote text, 904 added the date of the message being
+read. 75 lines name an earlier value, against 14.
+
+### The read side
+
+At answer time the agent searched in 65 questions, 151 searches in all, 71 of
+which returned nothing (47%, against 66%). It now searches with short queries:
+74 one-word queries and 9 of four words or more, against 22 and 52. The search
+matters less, though, because the block now holds the answer:
+
+| What the answer had to work with | letta | | letta-persona | |
+|---|--:|--:|--:|--:|
+| | questions | correct | questions | correct |
+| the memory block held the value asked for | 36 | 31 | 59 | 57 |
+| the block did not; a search returned it | 17 | 14 | 4 | 3 |
+| neither | 13 | 1 | 3 | 0 |
+| no memory: build stopped by the provider's content filter | 1 | 0 | 1 | 0 |
+
+Writing more also makes the history harder to search, as described in
+[the read side](#2-the-read-side-why-the-search-does-not-find-what-was-not-written):
+every edit stores a tool message that repeats the whole block, and those
+messages take the five places. The one revision that was neither written nor
+found was lost that way.
+
+### Every wrong answer
+
+| Cause | answers | questions |
+|---|--:|---|
+| Revision never written; the search returned only echoes of the agent's own edits | 1 | `9ea5eabc` |
+| Revision written as a dated plan, not as the new frequency | 1 | `f685340e` |
+| Memory held both values with dates; the answer reasoned wrongly | 2 | `5c40ec5b`, `6071bd76` |
+| The agent changed a count on the user's stated intention | 1 | `4d6b87c8` |
+| The question or its key is flawed | 1 | `618f13b2` |
+| No answer: the provider's content filter stopped the build | 1 | `184da446` |
+
+#### `9ea5eabc` — "Where did I go on my most recent family trip?" (Paris)
+
+- **2023-05-26, message 2:** "…my recent family trip to Hawaii…" Inserted:
+  "The user recently went on a family trip to Hawaii where they enjoyed
+  snorkeling together but felt constrained by a tight schedule".
+- **2023-05-28, message 5:** "Since I've been thinking about my recent family
+  trip to Paris…" Reply: "Paris with family and Tokyo solo are going to be two
+  vastly different 'operating systems'…" No tool call.
+- **Answer time:** "family trip", empty. Rebuilt from the log, the five newest
+  messages containing "family trip" are the question and four echoes of
+  memory edits, each holding the Hawaii line. The server drops those after the
+  limit. In the `letta` run, with fewer edits, the same query returned the
+  Paris message. Answer: "your most recent family trip was to Hawaii".
+- Other arms: 6 of 7 correct (Graphiti closed the wrong fact).
+
+#### `f685340e` — "How often do I play tennis with my friends at the local park previously? How often do I play now?" (weekly, now every other week)
+
+- **2023-03-11:** "…my own weekly tennis sessions with friends." Inserted
+  "Plays tennis weekly with friends (2023-03-11)."
+- **2023-07-30:** "…this Sunday, like we do every other week." The agent
+  inserted "Tennis session scheduled for this Sunday, July 30, 2023, at the
+  local park (2023-07-30)", then made six replaces on the two session lines
+  (the last two deleting duplicates). It did not touch the "weekly" line.
+- **Answer time:** "tennis" and "play tennis" returned the July message.
+  Answer: "you play tennis… **every other week**… you have consistently
+  maintained this schedule for some time (it was first noted in your memory on
+  March 11, 2023), so there hasn't been a change in frequency". The block
+  said weekly and the search said every other week; the answer reported only
+  the newer value and denied that it had changed.
+- Other arms: 5 of 7 correct.
+
+#### `5c40ec5b` — "How many times have I met up with Alex from Germany?" (twice)
+
+- The block held "Met Alex from Germany at a music festival…", "Met up with
+  Alex from Germany twice since their first festival meeting (2023-09-30)" and
+  "Planning to meet up with Alex for a third time during their upcoming trip
+  to Berlin".
+- Answer: "you have met up with Alex from Germany three times. You initially
+  met him at a music festival, and then… twice more". The agent counted the
+  festival, prompted by its own "third time". In the `letta` run one line said
+  "have met up twice since then", and the answer was twice.
+- Other arms: 6 of 7 correct.
+
+#### `6071bd76` — "…did I switch to more water per tablespoon of coffee, or less?" (less: 5 ounces)
+
+- The block held exactly the answer: "Uses 1 tbsp of coffee per 5 oz of water
+  in a French press (2023-06-30; earlier 1 tbsp per 6 oz, 2023-02-11)".
+  In the `letta` run the February value was never written.
+- Answer: "You switched to **more water per tablespoon of coffee**.
+  Previously… 6 ounces… later… 5 ounces. Therefore, you are now using less
+  water for the same amount of coffee, or conversely, more water per
+  tablespoon of coffee". The facts are right and the conclusion contradicts
+  them.
+- Other arms: all correct.
+
+#### `4d6b87c8` — "How many titles are currently on my to-watch list?" (25)
+
+- **2023-05-22, message 2:** "…currently 25". Replaced: "Has a to-watch list of
+  25 titles (2023-05-22; earlier 20, 2023-05-20)."
+- **Three messages later:** "I'm definitely going to add 'Amistad' and 'Hotel
+  Rwanda' to my to-watch list." Replaced: "Has a to-watch list of 27 titles
+  (2023-05-22; earlier 25, 2023-05-22)."
+- Answer: "You have 27 titles on your to-watch list". The persona's "update
+  that line at once" was followed for a plan, not a fact. Other arms: 5 of 7
+  correct.
+
+#### `618f13b2` and `184da446`
+
+As before. In `618f13b2` the agent kept the later statement of the same day
+("4 times") and answered four, as every arm but Graphiti does; the key says
+six. In `184da446` all five builds stopped with `finish_reason=content_filter`
+at the same distractor message (the request for Bible verses), and the
+question is counted as wrong with no answer.
+
+### Answers that changed against `letta`
+
+| letta → letta-persona | questions |
+|---|--:|
+| correct → correct | 43 |
+| wrong → correct | 17 |
+| correct → wrong | 3 |
+| wrong → wrong | 4 |
+
+The previous re-run churned in both directions (16 gained, 9 lost). This one
+moves mostly one way, and most of the gains can be traced to a line of the
+persona:
+
+| Question | why `letta` was wrong | what `letta-persona` did | the persona explains it? |
+|---|---|---|---|
+| `06db6396`, `1cea1afa`, `4b24c848`, `cc5ded98`, `ce6d2d27`, `ed4ddc30` | revision never written; answered from the stale block | wrote the revision at the message, with the earlier value | yes, the second line |
+| `26bdc477`, `6a27ffc2`, `a2f3aa27`, `dad224aa`, `db467c8c` | revision never written; nothing found | wrote it at the message ("Parents have lived with them in the US for nine months (2023-10-20; earlier 6 months, 2023-07-16)") | yes, the second line |
+| `41698283` | revision never written; the search found it, the block disagreed | wrote "Has a 70-200mm zoom lens (2023-08-30)" next to the dated 50mm line | yes, the second line and the dates |
+| `031748ae`, `50635ada` | replaced the earlier value that the question asks for | replaced and kept it: "…5 engineers… (2023-10-24; earlier 4 engineers, 2023-05-11)", "…Premier Gold status (2023-05-30; earlier Premier Silver, 2022-09-16)" | yes, "keep the earlier value" |
+| `e66b632c` | flawed key (asks the "previous" best; the history calls 26:30 previous) | kept both dated lines and answered "your original personal best… was 27:45. More recently… 26:30" | partly: the dated lines let it give both |
+| `0f05491a` | answered from its own knowledge of Starbucks tiers, against 120 in its block | answered 120 from the block | no: the block was much the same, and a trace of the first run also answered 120 |
+| `eace081b` | read "where am I planning to stay" as a hotel | led with Oahu, still noting no hotel | no: the same memory, a different reply at temperature 1.0 |
+| `4d6b87c8` (lost) | | counted an intention as an update (25 → 27) | yes, against it |
+| `9ea5eabc` (lost) | (correct: the search found Paris) | the same unwritten revision; more edits, so more echoes crowded the search | indirectly |
+| `5c40ec5b` (lost) | (correct) | counted the first meeting with the two meetups | no |
+
+The four that are wrong in both runs are wrong for different reasons in each,
+except the two that no memory policy can fix (`618f13b2`'s key and
+`184da446`'s content filter).
+
+So 14 of the 17 gains follow from what the persona asked for, and the first
+link of the chain (the revision noticed and not written) has nearly gone.
+Most of what is left happens at answer time, with the right lines in the
+block.
+
+**How far this goes.** The persona was written after reading this analysis of
+these same 67 questions, so 90% is not a held-out score. The three lines are
+general (date facts, update them, search with short words), and nothing in
+them names a question. Still, the `letta` row measures Letta as shipped, and
+this row measures what a user who writes its persona block can get. It is one
+run at temperature 1.0, so the accuracy of each run moves by a few answers.
+The write-side measure, 57 of 64 revisions written against 31, depends
+little on single answers.
+
 ## What would change the outcome
 
 What the logs support, not a tuned configuration:
@@ -700,10 +938,14 @@ What the logs support, not a tuned configuration:
   in the Turbopuffer client rather than taken from the agent's embedding
   settings, so every other seat would stay on Gemini and this one would not. With a search that ranks by meaning over
   all messages, most of the 14 would likely have been found, as the first run
-  found several of them.
+  found several of them. Once the block holds the revision the search matters
+  less: in the persona re-run 4 answers depended on it, and it still lost one
+  revision to the echoes of the agent's own edits.
 - **An instruction to revise.** Nothing in the prompt asks the agent to check
   new statements against what it wrote. It noticed 18 revisions in its replies
-  and wrote none of them.
+  and wrote none of them. Tested in [the persona re-run](#the-persona-re-run-letta-persona):
+  three lines in the persona raised the revisions written at the message from
+  31 to 57 of 64, and the score from 69% to 90%.
 - **The model.** The agent's memory policy is the model's judgement at
   temperature 1.0. The trace runs of `06db6396` and `0f05491a` came out
   differently from the scored run with the same history. A stronger model
@@ -718,7 +960,11 @@ What the logs support, not a tuned configuration:
   are close, not exact.
 - The classification of each write (which edit recorded the new value) was
   made with a pattern per question and checked by reading every wrong answer
-  and every correct one.
+  and every correct one. For the persona re-run the patterns were widened for
+  its wording ("5th painting project", "episode 50", "5 oz", "10 lbs"), and the
+  edit at every revision message was read.
+- The persona was written after this analysis, on the same 67 questions; see
+  "How far this goes" in its section.
 - The trimmed histories hold about ten sessions. With the whole history (~48
   sessions) the search problem would grow: more of the agent's own replies
   compete for the same five places.

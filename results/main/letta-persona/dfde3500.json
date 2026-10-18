@@ -1,0 +1,133 @@
+{
+ "qid": "dfde3500",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+ "reference": "Wednesday",
+ "question_date": "2023-06-20 14:46",
+ "sessions": [
+  {
+   "id": "sharegpt_aDTlaiq_10",
+   "date": "2023-05-06 09:30",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_1",
+   "date": "2023-05-20 09:33",
+   "evidence": true
+  },
+  {
+   "id": "ad1c7ac6",
+   "date": "2023-05-25 06:53",
+   "evidence": false
+  },
+  {
+   "id": "ebe3b6bf_7",
+   "date": "2023-05-25 20:43",
+   "evidence": false
+  },
+  {
+   "id": "5c18cb32_2",
+   "date": "2023-05-27 16:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_2",
+   "date": "2023-05-28 05:19",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_435909",
+   "date": "2023-05-28 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_315184",
+   "date": "2023-05-30 22:18",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_92761",
+   "date": "2023-05-31 01:42",
+   "evidence": false
+  },
+  {
+   "id": "59c704ad_1",
+   "date": "2023-06-11 21:43",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Runs a lead generation company (2023-05-06)\n- Meets Maria (a Spanish tutor) for language exchange every Thursday evening (2023-05-28; earlier Wednesday, 2023-05-28; earlier Juan, 2023-05-20)\n- Interested in local theater (acting, workshops, auditions) (2023-05-25)\n- Currently enjoys watching \"The Crown\" and \"The Office\" on Netflix (2023-05-25)\n- Currently listening to indie and alternative playlists on Spotify (2023-05-25)\n- Uses laptop on home Wi-Fi for Netflix (2023-05-25)\n- Recently discovered and enjoys listening to Phoebe Bridgers (2023-05-25)\n- Planning a trip to Colombia (2023-05-28)\n- Excited to start using Artboards in Adobe Photoshop for website design (2023-05-28)\n- Interested in Cheers trivia (2023-05-30)\n- Enjoys Pale Waves and Glass Animals (2023-06-11)\n- Met Jesse Rutherford (lead singer of The Neighbourhood) after a show at The Fillmore (2023-06-11)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T17:31:01.216137+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-20 14:46] What day of the week did I meet with my previous language exchange tutor Juan?'}, {'timestamp': '2026-10-18T17:30:51.125710+00:00', 'time_ago': '12s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That\\'s an awesome goal! The Bay Area has such a vibrant live music scene, so you\\'re in the perfect place to keep that streak going.\\n\\nSince you like The Neighbourhood, indie-pop, and the atmospheric vibe, here are a few venues and festivals you should definitely keep on your radar:\\n\\n### Must-Visit Venues\\n*   **The Independent (San Francisco):** This is arguably one of the best mid-sized venues in the city. It’s intimate, the sound is fantastic, and they consistently book incredible indie and alternative acts. It’s the kind of place where you’re close enough to the stage to really feel the music.\\n*   **The Fox Theater (Oakland):** It’s a bit of a trek if you\\'re in SF, but it is absolutely worth it. It’s a stunning, restored historic theater with great acoustics and a really cool atmosphere. It often hosts bigger indie tours that might be too large for smaller clubs.\\n*   **Great American Music Hall (San Francisco):** Another historic gem. It has a beautiful, old-world vibe and a great balcony. It\\'s a wonderful spot for more moody or singer-songwriter-style indie shows.\\n*   **Rickshaw Stop (San Francisco):** If you really want to discover the \"next big thing,\" this is the spot. It’s a smaller, more intimate venue that hosts many up-and-coming bands on their way up.\\n\\n### Festivals & Events to Watch\\n*   **Outside Lands (Golden Gate Park, SF):** You’ve likely heard of it, but it’s the biggest music festival in the city. It’s a massive production, but the curation is always top-notch, blending huge headliners with a really strong undercard of indie favorites.\\n*   **Noise Pop Festival:** This happens annually (usually in February) and spans multiple venues across the Bay Area. It is a dream for indie music fans—it’s essentially a city-wide takeover of smaller venues featuring emerging talent. It’s the best way to hit that \"one concert a month\" goal in just a few days!\\n*   **Stern Grove Festival (San Francisco):** This is a unique summer concert series that is **free** and held in a natural amphitheater in the trees. It’s an amazing community experience and a great way to catch live music in a very relaxed, outdoor setting.\\n\\n**Pro-tip:** Follow these venues on social media or sign up for their newsletters—they often announce shows before they hit the general ticket sites.\\n\\nSince you\\'re looking for new festivals, have you ever been to a multi-day camping festival, or do you prefer the city-based ones where you can head home at the end of the night? And how are those language exchanges with Maria coming along—have you picked up enough Spanish to maybe help you navigate a festival or travel in Colombia yet?'}]}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:31:01.216137+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-20 14:46] What day of the week did I meet with my previous language exchange tutor Juan?'}]}\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T17:31:01.216137+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-20 14:46] What day of the week did I meet with my previous language exchange tutor Juan?'}]}",
+ "answer": "Based on the information in your memory, you met with your previous language exchange tutor Juan on Wednesdays (as noted in the `human` memory block: \"Meets Maria (a Spanish tutor) for language exchange every Thursday evening (2023-05-28; earlier Wednesday, 2023-05-28; earlier Juan, 2023-05-20)\").",
+ "dump": "<human>\n\n- Runs a lead generation company (2023-05-06)\n- Meets Maria (a Spanish tutor) for language exchange every Thursday evening (2023-05-28; earlier Wednesday, 2023-05-28; earlier Juan, 2023-05-20)\n- Interested in local theater (acting, workshops, auditions) (2023-05-25)\n- Currently enjoys watching \"The Crown\" and \"The Office\" on Netflix (2023-05-25)\n- Currently listening to indie and alternative playlists on Spotify (2023-05-25)\n- Uses laptop on home Wi-Fi for Netflix (2023-05-25)\n- Recently discovered and enjoys listening to Phoebe Bridgers (2023-05-25)\n- Planning a trip to Colombia (2023-05-28)\n- Excited to start using Artboards in Adobe Photoshop for website design (2023-05-28)\n- Interested in Cheers trivia (2023-05-30)\n- Enjoys Pale Waves and Glass Animals (2023-06-11)\n- Met Jesse Rutherford (lead singer of The Neighbourhood) after a show at The Fillmore (2023-06-11)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Juan\"})",
+   "conversation_search({\"query\": \"language exchange\"})",
+   "conversation_search({\"query\": \"Juan\"})",
+   "conversation_search({\"query\": \"tutor\"})"
+  ],
+  "blocks_chars": 1830,
+  "write_steps": 50,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 216.1,
+  "total": 223.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "qid": "9ea5eabc",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "Where did I go on my most recent family trip?",
+ "reference": "Paris",
+ "question_date": "2023-06-08 10:33",
+ "sessions": [
+  {
+   "id": "ultrachat_40916",
+   "date": "2023-05-11 08:01",
+   "evidence": false
+  },
+  {
+   "id": "a9a88764",
+   "date": "2023-05-12 03:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_HJhlusD_32",
+   "date": "2023-05-26 02:39",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7jGo66i_151",
+   "date": "2023-05-26 15:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_0Qembb9_0",
+   "date": "2023-05-26 20:34",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_1",
+   "date": "2023-05-26 23:01",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_296728",
+   "date": "2023-05-27 04:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_2",
+   "date": "2023-05-28 04:55",
+   "evidence": true
+  },
+  {
+   "id": "66cffcc7",
+   "date": "2023-05-28 16:48",
+   "evidence": false
+  },
+  {
+   "id": "14f0a8ed_2",
+   "date": "2023-05-28 17:41",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- The user is concerned about the amount of data collected about them and wonders if privacy can ever be fully protected [2023-05-11 08:01]\n- The user drives a 2018 Mustang GT and is interested in track performance/auto racing [2023-05-12 03:33]\n- The user is in the Speed Dome area [2023-05-12 03:33]\n- The user placed 3rd in the amateur category at the Turbocharged event at Speed Dome track [2023-05-12 03:33]\n- The user has already installed performance tires and tuned the suspension [2023-05-12 03:33]\n- The user is planning to attend a track day at Riverside Speedway on January 15th [2023-05-12 03:33]\n- The user attended a workshop on throttle control and braking techniques prior to the Turbocharged event, which they found very helpful for acceleration and cornering [2023-05-12 03:33]\n- The user is developing a project called #Endgame which features a 7-year referral system, a custom tax structure with a 20% standard sell tax (10% if referred), and various systems like 'Battle Royal Champion' and 'Algorithmic Chart Management' [2023-05-26 02:39]\n- The #Endgame project includes a 'Dynamic Whale Tax' ranging from 1% to 10% on large sell orders, which is used to purchase reward tokens for the community [2023-05-26 02:39]\n- The user recently went on a family trip to Hawaii where they enjoyed snorkeling together but felt constrained by a tight schedule [2023-05-26 23:01]\n- The user is planning a solo trip to Tokyo, interested in unique and off-the-beaten-path experiences [2023-05-28 04:55]\n- The user attended Sunday mass at St. Mary's Church on March 12th, where they heard a sermon by Father John on forgiveness and ran into their friend Rachel [2023-05-28 16:48]\n- The user bought a new swim cap and goggles from Speedo [2023-05-28 17:41]\n- The user is located in the 95123 zip code [2023-05-28 17:41]\n- The user is interested in lap swimming, ideally in a 25-yard pool, and prefers morning sessions [2023-05-28 17:41]\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].",
+ "answer": "Based on your memory records, your most recent family trip was to Hawaii, where you enjoyed snorkeling together, though you felt a bit constrained by a tight schedule [2023-05-26 23:01].",
+ "dump": "<human>\n\n- The user is concerned about the amount of data collected about them and wonders if privacy can ever be fully protected [2023-05-11 08:01]\n- The user drives a 2018 Mustang GT and is interested in track performance/auto racing [2023-05-12 03:33]\n- The user is in the Speed Dome area [2023-05-12 03:33]\n- The user placed 3rd in the amateur category at the Turbocharged event at Speed Dome track [2023-05-12 03:33]\n- The user has already installed performance tires and tuned the suspension [2023-05-12 03:33]\n- The user is planning to attend a track day at Riverside Speedway on January 15th [2023-05-12 03:33]\n- The user attended a workshop on throttle control and braking techniques prior to the Turbocharged event, which they found very helpful for acceleration and cornering [2023-05-12 03:33]\n- The user is developing a project called #Endgame which features a 7-year referral system, a custom tax structure with a 20% standard sell tax (10% if referred), and various systems like 'Battle Royal Champion' and 'Algorithmic Chart Management' [2023-05-26 02:39]\n- The #Endgame project includes a 'Dynamic Whale Tax' ranging from 1% to 10% on large sell orders, which is used to purchase reward tokens for the community [2023-05-26 02:39]\n- The user recently went on a family trip to Hawaii where they enjoyed snorkeling together but felt constrained by a tight schedule [2023-05-26 23:01]\n- The user is planning a solo trip to Tokyo, interested in unique and off-the-beaten-path experiences [2023-05-28 04:55]\n- The user attended Sunday mass at St. Mary's Church on March 12th, where they heard a sermon by Father John on forgiveness and ran into their friend Rachel [2023-05-28 16:48]\n- The user bought a new swim cap and goggles from Speedo [2023-05-28 17:41]\n- The user is located in the 95123 zip code [2023-05-28 17:41]\n- The user is interested in lap swimming, ideally in a 25-yard pool, and prefers morning sessions [2023-05-28 17:41]\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"family trip\"})",
+   "memory_search({\"query\": \"Hawaii\"})"
+  ],
+  "blocks_chars": 2893,
+  "write_steps": 57,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 276.7,
+  "total": 282.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

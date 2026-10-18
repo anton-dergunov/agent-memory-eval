@@ -18,6 +18,7 @@ Main run: 67 knowledge-update questions, 10 sessions each. Generated from the re
 | graphiti-chunk | 67 | 18% | 11%–29% | 0.2380 | 121 | 145 | Neo4j |
 | letta | 67 | 69% | 57%–78% | 0.1324 | 81 | 379 | Letta server, Postgres |
 | letta-batch | 67 | 58% | 46%–69% | 0.0288 | 11 | 43 | Letta server, Postgres |
+| letta-persona | 67 | 90% | 80%–95% | 0.1518 | 88 | 265 | Letta server, Postgres |
 
 ## 1. How a system is fed decides whether it remembers
 
@@ -27,6 +28,7 @@ Main run: 67 knowledge-update questions, 10 sessions each. Generated from the re
 | graphiti | one episode per message (Graphiti's own examples) | 82% | 5 | 720 | 2,345,801 | 0.640 | 107 episodes, 319 edges, 4.8 closed as superseded |
 | letta-batch | each session in one request, ending on an assistant message | 58% | 22 | 11 | 51,712 | 0.029 | human block empty in 43/67 |
 | letta | one agent step per user message | 69% | 15 | 81 | 325,687 | 0.132 | human block empty in 0/67; 9.4 memory edits while reading the history |
+| letta-persona | one agent step per user message; persona asks it to keep facts current | 90% | 3 | 88 | 398,307 | 0.152 | human block empty in 0/67; 15.5 memory edits while reading the history |
 
 ## 2. What memory looks like after an update
 
@@ -44,6 +46,7 @@ Share of questions. *Stored* columns read the whole memory; *delivered* columns 
 | graphiti-chunk | 19% | 25% | 22% | 19% | 25% | 3 | 2/3 | 292 |
 | letta | 42% | 33% | 24% | 63% | 36% | 15 | 12/15 | 884 |
 | letta-batch | 1% | 1% | 1% | 54% | 16% | 5 | 5/5 | 1,074 |
+| letta-persona | 79% | 66% | 9% | 82% | 67% | 43 | 42/43 | 1,288 |
 
 ## 3. Asking for the current value or an earlier one
 
@@ -61,6 +64,7 @@ Hand-labelled from the question text: 8 questions ask for an earlier value (0774
 | graphiti-chunk | 11/56 | 1/8 | 0/3 |
 | letta | 39/56 | 6/8 | 1/3 |
 | letta-batch | 37/56 | 1/8 | 1/3 |
+| letta-persona | 50/56 | 8/8 | 2/3 |
 
 ## Accuracy, cost and time (full)
 

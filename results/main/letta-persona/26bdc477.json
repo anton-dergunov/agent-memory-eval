@@ -1,0 +1,167 @@
+{
+ "qid": "26bdc477",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many trips have I taken my Canon EOS 80D camera on?",
+ "reference": "five",
+ "question_date": "2023-06-06 18:27",
+ "sessions": [
+  {
+   "id": "a223e307",
+   "date": "2023-03-03 02:59",
+   "evidence": false
+  },
+  {
+   "id": "2d79c1c3_2",
+   "date": "2023-03-05 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_350893",
+   "date": "2023-03-16 01:52",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_1",
+   "date": "2023-03-16 19:05",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_hMokVUA_39",
+   "date": "2023-03-18 14:10",
+   "evidence": false
+  },
+  {
+   "id": "dce08529_1",
+   "date": "2023-05-04 21:39",
+   "evidence": false
+  },
+  {
+   "id": "201d188a_4",
+   "date": "2023-05-19 15:50",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_2",
+   "date": "2023-05-30 00:43",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_438698",
+   "date": "2023-06-01 00:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pRBsKdE_5",
+   "date": "2023-06-03 07:50",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nCoupons used:\n- [2023-03-03 02:59] Walmart: 20% off (saved $12 on a $60 bill), used on 2023-02-25. Received via email.\n- [2023-03-03 02:59] Target: $5 off purchase of $25 or more, used on 2023-02-28 (Tuesday).\n- [2023-03-03 02:59] ShopRite: $1 off a jar of pasta sauce (digital coupon via loyalty card), used on 2023-02-26 (Sunday).\n- [2023-03-05 06:10] Has Asics Gel-Kayano 28 shoes; noticed reduced knee pain compared to Brooks Ghost 13.\n- [2023-03-16 19:05] Uses a Canon EOS 80D camera.\n- [2023-03-16 19:05] Loves travel photography; has taken their Canon 80D to Yellowstone, Yosemite, and the Grand Canyon.\n- [2023-03-16 19:05] Using Adobe Creative Cloud for professional photography and editing (Lightroom/Photoshop); uses Google Photos for personal photo backups.\n- [2023-05-19 15:50] Went on a charity bike ride organized by the local cycling club.\n- [2023-05-19 15:50] The charity bike ride raised money for the local children's hospital.\n- [2023-05-30 00:43] Planning a trip to Zion National Park.\n- [2023-05-30 00:43] Has taken the Canon EOS 80D on five trips (earlier: three trips as of 2023-03-16).\n- [2023-05-30 00:43] Interested in recommendations for a camera bag that can fit their camera gear (Canon 80D + new camera strap).\n- [2023-05-30 00:43] Considering the Lowepro ProTactic 450 AW for their gear.\n- [2023-05-30 00:43] Interested in the Really Right Stuff (RRS) tripod; questioning if it's worth the investment.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on our past conversations, you have taken your Canon EOS 80D camera on five trips (as of 2023-05-30).",
+ "dump": "<human>\n\nCoupons used:\n- [2023-03-03 02:59] Walmart: 20% off (saved $12 on a $60 bill), used on 2023-02-25. Received via email.\n- [2023-03-03 02:59] Target: $5 off purchase of $25 or more, used on 2023-02-28 (Tuesday).\n- [2023-03-03 02:59] ShopRite: $1 off a jar of pasta sauce (digital coupon via loyalty card), used on 2023-02-26 (Sunday).\n- [2023-03-05 06:10] Has Asics Gel-Kayano 28 shoes; noticed reduced knee pain compared to Brooks Ghost 13.\n- [2023-03-16 19:05] Uses a Canon EOS 80D camera.\n- [2023-03-16 19:05] Loves travel photography; has taken their Canon 80D to Yellowstone, Yosemite, and the Grand Canyon.\n- [2023-03-16 19:05] Using Adobe Creative Cloud for professional photography and editing (Lightroom/Photoshop); uses Google Photos for personal photo backups.\n- [2023-05-19 15:50] Went on a charity bike ride organized by the local cycling club.\n- [2023-05-19 15:50] The charity bike ride raised money for the local children's hospital.\n- [2023-05-30 00:43] Planning a trip to Zion National Park.\n- [2023-05-30 00:43] Has taken the Canon EOS 80D on five trips (earlier: three trips as of 2023-03-16).\n- [2023-05-30 00:43] Interested in recommendations for a camera bag that can fit their camera gear (Canon 80D + new camera strap).\n- [2023-05-30 00:43] Considering the Lowepro ProTactic 450 AW for their gear.\n- [2023-05-30 00:43] Interested in the Really Right Stuff (RRS) tripod; questioning if it's worth the investment.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Canon EOS 80D trips\"})",
+   "conversation_search({\"query\": \"Canon 80D trips\"})"
+  ],
+  "blocks_chars": 2384,
+  "write_steps": 55,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 389.8,
+  "total": 396.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

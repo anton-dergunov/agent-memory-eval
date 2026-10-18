@@ -1,0 +1,127 @@
+{
+ "qid": "945e3d21",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How often do I attend yoga classes to help with my anxiety?",
+ "reference": "Three times a week.",
+ "question_date": "2023-12-14 06:32",
+ "sessions": [
+  {
+   "id": "sharegpt_2Kis6fZ_45",
+   "date": "2023-07-27 20:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_1",
+   "date": "2023-08-11 05:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_WjW4qki_0",
+   "date": "2023-08-22 03:09",
+   "evidence": false
+  },
+  {
+   "id": "a2053427_1",
+   "date": "2023-09-30 20:16",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_2",
+   "date": "2023-11-30 03:29",
+   "evidence": true
+  },
+  {
+   "id": "be1fa010",
+   "date": "2023-12-01 06:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_y0L1CPT_9",
+   "date": "2023-12-01 11:56",
+   "evidence": false
+  },
+  {
+   "id": "9bbd38a6",
+   "date": "2023-12-02 07:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_oTnUt5N_15",
+   "date": "2023-12-05 22:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_zn81iL6_9",
+   "date": "2023-12-11 09:00",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\nLavalette Miller (born July 3, 1878, in Hagerstown, Maryland; died March 5, 1967, in Lexington, North Carolina); parents were Joseph Miller and Florence Tice (2023-07-27).\nJoseph Miller (parent of Lavalette Miller) born August 17, 1848, in Barboursville, Cabell, Virginia; died February 22, 1921, in Huntington, Wayne, West Virginia; was a lawyer (2023-07-27).\nEliza Gardner (mother of Joseph Miller, born approx 1820 in VA or WV) was the daughter of Marie Therese Raison de la Geneste and Joseph Gardner. She was of mixed-race descent. Married William Mueller (German immigrant) in 1843, had son Joseph Miller (the lawyer), later divorced and married Samuel Gardner (2023-07-27).\nPractices yoga three times a week for relaxation and focus (2023-11-30; earlier twice a week, 2023-08-11).\nPlanning to start an e-commerce platform for sustainable fashion (2023-09-30).\nFollower count on Instagram is increasing steadily, averaging about 10 new followers per week, driven by posts about a recent hiking trip to Yosemite (2023-12-01).\nSuccessfully posted a skincare routine video on TikTok (2023-12-01).\nCalls grandparents every Sunday (2023-12-02).\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-18T16:56:34.564011+00:00', 'time_ago': '1s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-14 06:32] How often do I attend yoga classes to help with my anxiety?'}]}",
+ "answer": "According to your records, you practice yoga three times a week for relaxation and focus (2023-11-30).",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\nLavalette Miller (born July 3, 1878, in Hagerstown, Maryland; died March 5, 1967, in Lexington, North Carolina); parents were Joseph Miller and Florence Tice (2023-07-27).\nJoseph Miller (parent of Lavalette Miller) born August 17, 1848, in Barboursville, Cabell, Virginia; died February 22, 1921, in Huntington, Wayne, West Virginia; was a lawyer (2023-07-27).\nEliza Gardner (mother of Joseph Miller, born approx 1820 in VA or WV) was the daughter of Marie Therese Raison de la Geneste and Joseph Gardner. She was of mixed-race descent. Married William Mueller (German immigrant) in 1843, had son Joseph Miller (the lawyer), later divorced and married Samuel Gardner (2023-07-27).\nPractices yoga three times a week for relaxation and focus (2023-11-30; earlier twice a week, 2023-08-11).\nPlanning to start an e-commerce platform for sustainable fashion (2023-09-30).\nFollower count on Instagram is increasing steadily, averaging about 10 new followers per week, driven by posts about a recent hiking trip to Yosemite (2023-12-01).\nSuccessfully posted a skincare routine video on TikTok (2023-12-01).\nCalls grandparents every Sunday (2023-12-02).\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"yoga anxiety\"})",
+   "conversation_search({\"query\": \"yoga\"})"
+  ],
+  "blocks_chars": 2096,
+  "write_steps": 47,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 229.1,
+  "total": 234.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

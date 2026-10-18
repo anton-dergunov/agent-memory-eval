@@ -1,0 +1,127 @@
+{
+ "qid": "e61a7584",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How long have I had my cat, Luna?",
+ "reference": "9 months",
+ "question_date": "2023-11-30 12:46",
+ "sessions": [
+  {
+   "id": "21c6c41d",
+   "date": "2023-07-27 04:05",
+   "evidence": false
+  },
+  {
+   "id": "6a4b4b7e_2",
+   "date": "2023-07-30 21:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_f25c32f5_1",
+   "date": "2023-08-11 16:53",
+   "evidence": true
+  },
+  {
+   "id": "18a06652_4",
+   "date": "2023-09-12 00:49",
+   "evidence": false
+  },
+  {
+   "id": "e1416816_2",
+   "date": "2023-09-13 13:57",
+   "evidence": false
+  },
+  {
+   "id": "a59a9a13",
+   "date": "2023-11-27 16:30",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_124247",
+   "date": "2023-11-30 02:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_f25c32f5_2",
+   "date": "2023-11-30 10:31",
+   "evidence": true
+  },
+  {
+   "id": "40f07f4a_2",
+   "date": "2023-11-30 13:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Ee752j6_0",
+   "date": "2023-11-30 19:43",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Sells handmade candles, soaps, and jewelry at market events (2023-07-27)\n- Spent $50 on a gift card for mom's spa for her anniversary (2023-07-30)\n- Spent $50 on a silver necklace for sister's birthday (2023-06, noted 2023-07-30)\n- Spent $40 ($25 utensils, $15 cookbook) for Rachel's housewarming gift (2023-07-30)\n- Spent $85 ($75 Lego set, $10 t-shirt) for nephew's birthday (2023-07-30)\n- Spent $150 ($100 crystal vase, $50 restaurant gift card) for brother's wedding (2023-07-30)\n- Spent $15 on a get-well gift (fruit and flowers) for neighbor (2023-07-30)\n- Has a cat named Luna (2023-08-11)\n- Attended a full-day entrepreneurship conference at a downtown hotel in November 2022 (2023-09-12)\n- Interested in offering online marketing services to small businesses (2023-09-12)\n- Attended an online marketing webinar last month (August 2023) (2023-09-12)\n- Attended a lecture series on sustainable living at the library in January 2023 (2023-09-12)\n- Interested in collaborating with people met at the sustainable living lecture series to expand marketing services (2023-09-12)\n- Planning a new blog focused on sustainable living and vegan recipes (2023-09-13)\n- Plans to create a user-generated content section on the blog for readers to share their own vegan recipes (2023-09-13)\n- Thinking of starting an herb garden in pots on the patio (2023-11-27)\n- Has been planning garden for 3 weeks (2023-11-27)\n- Researching companion planting and crop rotation (2023-11-27)\n- Interested in making own compost tea (2023-11-27)\n- Has been saving food scraps and coffee grounds in a bucket (2023-11-27)\n- Considering turning the compost pile this weekend (2023-11-27)\n- Struggling with staying motivated for exercise despite trying various goals and enjoyable activities (2023-11-30)\n- Has had her cat Luna for 9 months (2023-11-30)\n- Keeps cat active by rotating toys weekly and using a cat tree (2023-11-30)\n- Interested in the limitations of AI-powered adaptive learning systems, specifically how algorithmic bias perpetuates educational inequalities (2023-11-30)\n- Interested in how adaptive learning systems exacerbate educational inequalities through unequal access to devices, internet, and digital literacy (2023-11-30)\n- Interested in the importance of teacher training and support for the effective implementation of adaptive learning systems (2023-11-30)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You have had Luna for 9 months (as of 2023-11-30).",
+ "dump": "<human>\n\n- Sells handmade candles, soaps, and jewelry at market events (2023-07-27)\n- Spent $50 on a gift card for mom's spa for her anniversary (2023-07-30)\n- Spent $50 on a silver necklace for sister's birthday (2023-06, noted 2023-07-30)\n- Spent $40 ($25 utensils, $15 cookbook) for Rachel's housewarming gift (2023-07-30)\n- Spent $85 ($75 Lego set, $10 t-shirt) for nephew's birthday (2023-07-30)\n- Spent $150 ($100 crystal vase, $50 restaurant gift card) for brother's wedding (2023-07-30)\n- Spent $15 on a get-well gift (fruit and flowers) for neighbor (2023-07-30)\n- Has a cat named Luna (2023-08-11)\n- Attended a full-day entrepreneurship conference at a downtown hotel in November 2022 (2023-09-12)\n- Interested in offering online marketing services to small businesses (2023-09-12)\n- Attended an online marketing webinar last month (August 2023) (2023-09-12)\n- Attended a lecture series on sustainable living at the library in January 2023 (2023-09-12)\n- Interested in collaborating with people met at the sustainable living lecture series to expand marketing services (2023-09-12)\n- Planning a new blog focused on sustainable living and vegan recipes (2023-09-13)\n- Plans to create a user-generated content section on the blog for readers to share their own vegan recipes (2023-09-13)\n- Thinking of starting an herb garden in pots on the patio (2023-11-27)\n- Has been planning garden for 3 weeks (2023-11-27)\n- Researching companion planting and crop rotation (2023-11-27)\n- Interested in making own compost tea (2023-11-27)\n- Has been saving food scraps and coffee grounds in a bucket (2023-11-27)\n- Considering turning the compost pile this weekend (2023-11-27)\n- Struggling with staying motivated for exercise despite trying various goals and enjoyable activities (2023-11-30)\n- Has had her cat Luna for 9 months (2023-11-30)\n- Keeps cat active by rotating toys weekly and using a cat tree (2023-11-30)\n- Interested in the limitations of AI-powered adaptive learning systems, specifically how algorithmic bias perpetuates educational inequalities (2023-11-30)\n- Interested in how adaptive learning systems exacerbate educational inequalities through unequal access to devices, internet, and digital literacy (2023-11-30)\n- Interested in the importance of teacher training and support for the effective implementation of adaptive learning systems (2023-11-30)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Luna\"})"
+  ],
+  "blocks_chars": 3314,
+  "write_steps": 55,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 268.2,
+  "total": 272.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

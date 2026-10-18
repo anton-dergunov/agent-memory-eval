@@ -1,0 +1,116 @@
+{
+ "qid": "59524333",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What time do I usually go to the gym?",
+ "reference": "6:00 pm",
+ "question_date": "2023-06-06 16:35",
+ "sessions": [
+  {
+   "id": "sharegpt_Clr6oyu_0",
+   "date": "2023-01-20 19:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_1",
+   "date": "2023-02-11 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_493944",
+   "date": "2023-02-26 03:13",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_NYFuCmY_0",
+   "date": "2023-03-01 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_5FHWj0a_0",
+   "date": "2023-03-18 20:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_F1pXfP0_0",
+   "date": "2023-04-18 07:42",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_150151",
+   "date": "2023-05-23 10:33",
+   "evidence": false
+  },
+  {
+   "id": "e4882e09_5",
+   "date": "2023-05-24 22:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_2",
+   "date": "2023-05-30 07:52",
+   "evidence": true
+  },
+  {
+   "id": "08921633",
+   "date": "2023-05-30 20:42",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Interested in creating a YouTube tutorial on how to install Minecraft mods (2023-01-20).\n- Working on a video hook: \"Do you want to experience the game in the best way imaginable? Do you want tools that your favorite YouTubers are using? Or do you simply want to...\" (2023-01-20).\n- Needs thumbnail ideas for a Minecraft modding tutorial (2023-01-20).\n- Needs an explanation of \"what are mods?\" for the video (2023-01-20).\n- Needs an explanation of \"how to find mods\" for the video (2023-01-20).\n- Prefers Todoist for task management (2023-02-11).\n- Gym schedule: Mondays, Wednesdays, and Fridays at 6:00 pm (2023-05-30; earlier 7:00 pm, 2023-02-11).\n- Interested in themes of Mark's Gospel, specifically the portrayal of Jesus' authority over sickness/death and the historical context of the Gospel's writing (2023-05-23).\n- Camera model: Canon EOS 5D Mark IV (2023-05-24).\n- Replaced broken dresser with a new one from IKEA, assembled on March 12, 2023 (2023-05-30).\n</human>\n\nTool results while answering:\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T16:52:05.016146+00:00', 'time_ago': '42s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"That sounds like a solid plan. Tuesday at 2:00 pm gives you plenty of breathing room before your 6:00 pm gym time.\\n\\nI've updated my notes to reflect that your gym schedule has shifted to 6:00 pm. Do you need any help drafting an email to the client to confirm this time, or are you all set to get that scheduled?\"}]}",
+ "answer": "Based on your current information, you usually go to the gym on Mondays, Wednesdays, and Fridays at 6:00 pm.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Interested in creating a YouTube tutorial on how to install Minecraft mods (2023-01-20).\n- Working on a video hook: \"Do you want to experience the game in the best way imaginable? Do you want tools that your favorite YouTubers are using? Or do you simply want to...\" (2023-01-20).\n- Needs thumbnail ideas for a Minecraft modding tutorial (2023-01-20).\n- Needs an explanation of \"what are mods?\" for the video (2023-01-20).\n- Needs an explanation of \"how to find mods\" for the video (2023-01-20).\n- Prefers Todoist for task management (2023-02-11).\n- Gym schedule: Mondays, Wednesdays, and Fridays at 6:00 pm (2023-05-30; earlier 7:00 pm, 2023-02-11).\n- Interested in themes of Mark's Gospel, specifically the portrayal of Jesus' authority over sickness/death and the historical context of the Gospel's writing (2023-05-23).\n- Camera model: Canon EOS 5D Mark IV (2023-05-24).\n- Replaced broken dresser with a new one from IKEA, assembled on March 12, 2023 (2023-05-30).\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"gym\"})"
+  ],
+  "blocks_chars": 1921,
+  "write_steps": 48,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 247.2,
+  "total": 253.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -396,13 +396,18 @@ full-history run in [experiment-results.md](../experiment-results.md) and
 - Accuracy on 67 questions, 10-session history: full context 90%, retrieval
   97%, textual memory 93%, Mem0 84%, Honcho 87% (dialectic chat) and 93%
   (representation), Graphiti 82%, Letta 69%. Seven arms overlap; only Letta is
-  clearly below. Judges agree on 118 of 120.
+  clearly below. Judges agree on 130 of 132.
 - **How a system is fed decides whether it remembers.** Graphiti scored 18%
   with sessions cut into 8,000-character episodes (its extraction prompts are
   written for one message, and it adds ten previous episodes as context) and
   82% with one episode per message. Letta scored 58% when each session arrived
   in one request (its agent mostly took no turn) and 69% with one turn per user
   message. Nothing failed loudly in either broken run.
+- **Telling Letta's agent what to do with a revision fixes most of it.** Three
+  lines in the persona block (date facts, update the line and keep the earlier
+  value, search with one or two words) raise the revisions written at the
+  message from 31 to 57 of 64 and the score from 69% to 90%. The persona was
+  written after reading the failures, on the same questions.
 - **The differences that are large are cost and weight.** Per question:
   retrieval $0.002, full context $0.007, textual $0.022, Honcho $0.029, Mem0
   $0.040, Letta $0.13, Graphiti $0.64 (720 model calls). Graphiti and Honcho

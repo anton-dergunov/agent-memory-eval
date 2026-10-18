@@ -1,0 +1,126 @@
+{
+ "qid": "b01defab",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+ "reference": "Yes",
+ "question_date": "2023-04-12 06:37",
+ "sessions": [
+  {
+   "id": "answer_8c0712af_1",
+   "date": "2023-01-21 15:05",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_8ns7j9U_0",
+   "date": "2023-01-29 15:16",
+   "evidence": false
+  },
+  {
+   "id": "fc69fd44_7",
+   "date": "2023-02-04 19:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_A8RUQVi_0",
+   "date": "2023-02-07 23:11",
+   "evidence": false
+  },
+  {
+   "id": "36f96326_1",
+   "date": "2023-02-20 04:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_YcpcK2K_18",
+   "date": "2023-02-24 05:46",
+   "evidence": false
+  },
+  {
+   "id": "936b0969_2",
+   "date": "2023-03-14 12:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_207469",
+   "date": "2023-03-21 12:10",
+   "evidence": false
+  },
+  {
+   "id": "answer_8c0712af_2",
+   "date": "2023-03-30 01:14",
+   "evidence": true
+  },
+  {
+   "id": "d75869af",
+   "date": "2023-03-30 23:12",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Enjoying mythology-inspired books (2023-01-21)\n- Planning to read: \"The Poppy War\" next (2023-01-21)\n- Planning to return to: \"The Nightingale\" by Kristin Hannah later (2023-01-21)\n- Book club member (2023-01-21)\n- Interested in a physical reading journal (2023-01-21)\n- Real estate promoter in Gili Meno (2023-01-29)\n- Developing a 40-villa beachfront resort on 4 hectares (2023-01-29)\n- Replaced old mattress in April 2022, which improved sleep quality (2023-02-04)\n- Currently working on a mathematical formula for pro-rata fair food allocation for 5 animals (A1-A5), considering undefined minimum (Li) and maximum (Mi) thresholds (2023-02-07)\n- Interested in error coin collecting and specifically looking into rare error coins (2023-02-20)\n- Received asylum approval after an 18-month wait (2023-03-14)\n- Interested in ORR employment and job training services (2023-03-14)\n- Interested in the ORR Microenterprise Development program for self-employment (2023-03-14)\n- Enjoys listening to audiobooks during morning runs (2023-03-30)\n- Coworker's name is Rachel (2023-03-30)\n- Added anacharis and java moss to freshwater tank (2023-03-30)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:23:35.553408+00:00', 'time_ago': '30s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is such a beautiful and insightful way to put it. You\\'ve hit on exactly what makes *The Nightingale* so enduring: it balances the crushing weight of those harsh realities with an incredible, unyielding spirit of resilience.\\n\\nThe bond between Vianne and Isabelle is the heart of the book, isn\\'t it? It’s fascinating to watch how they start from such different places—Isabelle with her impulsive, fiery rebellion, and Vianne with her quiet, protective pragmatism—and how, as the war forces them to adapt, their paths eventually converge in a way that respects both forms of courage. It’s a wonderful reminder that there isn\\'t just one way to be brave.\\n\\nI also love how you mentioned the focus on the \"daily struggles and sacrifices of ordinary people.\" Too often, historical fiction focuses only on the battlefield, but the domestic front—the act of simply trying to survive, feed a family, and keep humanity alive under such terrifying circumstances—is often where the most profound stories are hidden.\\n\\nSince you enjoyed that aspect, I suspect you will love *The Alice Network*. It similarly features women navigating the \"unseen\" side of war, operating in the shadows where their sacrifices are just as vital, though perhaps less publicized.\\n\\nDo you think that focus on the \"ordinary\" person’s experience will be a theme you look for in your future reads, or are you hoping to branch out into other sub-genres of historical fiction next?'}, {'timestamp': '2026-10-18T17:23:33.459333+00:00', 'time_ago': '32s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-03-30 01:14] I loved \"The Nightingale\"! Yes, the ending was emotional, but it was also a perfect conclusion to the story. I think what resonated with me the most was the sisterly bond between Vianne and Isabelle. The way they supported each other, despite their differences, was so powerful. And the way the novel highlighted the daily struggles and sacrifices of ordinary people during wartime was eye-opening.\\n\\nI also appreciated how the novel didn\\'t shy away from the harsh realities of war, but still managed to convey a sense of hope and resilience. It\\'s a truly unforgettable read.'}]}",
+ "answer": "Yes, you finished reading *The Nightingale*! You mentioned on March 30, 2023, that you loved the book, found the ending emotional but perfect, and really resonated with the sisterly bond between Vianne and Isabelle.",
+ "dump": "<human>\n\n- Enjoying mythology-inspired books (2023-01-21)\n- Planning to read: \"The Poppy War\" next (2023-01-21)\n- Planning to return to: \"The Nightingale\" by Kristin Hannah later (2023-01-21)\n- Book club member (2023-01-21)\n- Interested in a physical reading journal (2023-01-21)\n- Real estate promoter in Gili Meno (2023-01-29)\n- Developing a 40-villa beachfront resort on 4 hectares (2023-01-29)\n- Replaced old mattress in April 2022, which improved sleep quality (2023-02-04)\n- Currently working on a mathematical formula for pro-rata fair food allocation for 5 animals (A1-A5), considering undefined minimum (Li) and maximum (Mi) thresholds (2023-02-07)\n- Interested in error coin collecting and specifically looking into rare error coins (2023-02-20)\n- Received asylum approval after an 18-month wait (2023-03-14)\n- Interested in ORR employment and job training services (2023-03-14)\n- Interested in the ORR Microenterprise Development program for self-employment (2023-03-14)\n- Enjoys listening to audiobooks during morning runs (2023-03-30)\n- Coworker's name is Rachel (2023-03-30)\n- Added anacharis and java moss to freshwater tank (2023-03-30)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Nightingale\"})"
+  ],
+  "blocks_chars": 2094,
+  "write_steps": 53,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 259.5,
+  "total": 264.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

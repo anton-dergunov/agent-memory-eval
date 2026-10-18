@@ -1,0 +1,134 @@
+{
+ "qid": "07741c44",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "Where do I initially keep my old sneakers?",
+ "reference": "under my bed",
+ "question_date": "2023-11-30 23:52",
+ "sessions": [
+  {
+   "id": "ultrachat_319134",
+   "date": "2023-07-25 07:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_1",
+   "date": "2023-08-11 02:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_113757",
+   "date": "2023-08-20 06:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_CEWG2XW_0",
+   "date": "2023-09-06 08:19",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mUiNDhv_0",
+   "date": "2023-10-10 09:54",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_200168",
+   "date": "2023-10-26 19:12",
+   "evidence": false
+  },
+  {
+   "id": "aa71db11_1",
+   "date": "2023-11-11 14:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_2",
+   "date": "2023-11-30 11:44",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_370246",
+   "date": "2023-11-30 16:06",
+   "evidence": false
+  },
+  {
+   "id": "01d22d4d",
+   "date": "2023-11-30 23:04",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n[2023-07-25 07:26] The user and I discussed The Good Shepherd, exploring its themes of redemption, the protagonist's lack of agency, and its portrayal of the intelligence world. The user expressed sympathy for Edward Wilson.\n[2023-08-11 02:40] Is interested in Teva and Merrell sandals. Currently storing old sneakers under the bed, which have developed an odor.\n[2023-08-11 02:42] Plans to take old sneakers to the cobbler this weekend for polishing and conditioning.\n[2023-08-11 02:44] Plans to donate old dress shoes to a local charity thrift store this Saturday.\n[2023-08-11 02:46] Is planning to inventory their shoe collection to declutter, specifically looking for rarely worn pairs in their closet.\n[2023-08-20 06:00] Loves Super Mario 64, considering it their favorite Mario game.\n[2023-11-11 14:45] Plans to start a spin class routine on Friday evenings. Feels more energized on Mondays due to extra sleep on Sundays; considers a specific Monday wake-up time typical for their energy levels.\n[2023-11-11 14:45] Also plans to take walks during lunch breaks on Wednesdays and Thursdays and is looking for ideas to make them more engaging, such as podcasts.\n[2023-11-11 14:45] Seeking podcast or audiobook recommendations that are 30-45 minutes long for lunch break walks.\n[2023-11-11 14:45] Interested in \"How I Built This\" podcast; enjoys stories about entrepreneurship and successful companies.\n[2023-11-11 14:45] Recently had a cooking disaster on a Saturday morning, which led to a long-overdue kitchen cabinet reorganization. Plans to start \"How I Built This\" with the Airbnb episode.\n[2023-11-30 11:44] Looking for durable sandal brands/stores with better quality straps. Planning to declutter closet/shoe rack and get rid of old sneakers this weekend.\n[2023-11-30 23:04] Recently replaced their mountain bike's front wheel after a minor accident; considering upgrading road bike wheels to carbon fiber. Owns three bikes: a road bike, a mountain bike, and a commuter bike, all of which are used regularly.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].",
+ "answer": "[2023-11-30 23:55] You initially keep your old sneakers under your bed.",
+ "dump": "<human>\n\n[2023-07-25 07:26] The user and I discussed The Good Shepherd, exploring its themes of redemption, the protagonist's lack of agency, and its portrayal of the intelligence world. The user expressed sympathy for Edward Wilson.\n[2023-08-11 02:40] Is interested in Teva and Merrell sandals. Currently storing old sneakers under the bed, which have developed an odor.\n[2023-08-11 02:42] Plans to take old sneakers to the cobbler this weekend for polishing and conditioning.\n[2023-08-11 02:44] Plans to donate old dress shoes to a local charity thrift store this Saturday.\n[2023-08-11 02:46] Is planning to inventory their shoe collection to declutter, specifically looking for rarely worn pairs in their closet.\n[2023-08-20 06:00] Loves Super Mario 64, considering it their favorite Mario game.\n[2023-11-11 14:45] Plans to start a spin class routine on Friday evenings. Feels more energized on Mondays due to extra sleep on Sundays; considers a specific Monday wake-up time typical for their energy levels.\n[2023-11-11 14:45] Also plans to take walks during lunch breaks on Wednesdays and Thursdays and is looking for ideas to make them more engaging, such as podcasts.\n[2023-11-11 14:45] Seeking podcast or audiobook recommendations that are 30-45 minutes long for lunch break walks.\n[2023-11-11 14:45] Interested in \"How I Built This\" podcast; enjoys stories about entrepreneurship and successful companies.\n[2023-11-11 14:45] Recently had a cooking disaster on a Saturday morning, which led to a long-overdue kitchen cabinet reorganization. Plans to start \"How I Built This\" with the Airbnb episode.\n[2023-11-30 11:44] Looking for durable sandal brands/stores with better quality straps. Planning to declutter closet/shoe rack and get rid of old sneakers this weekend.\n[2023-11-30 23:04] Recently replaced their mountain bike's front wheel after a minor accident; considering upgrading road bike wheels to carbon fiber. Owns three bikes: a road bike, a mountain bike, and a commuter bike, all of which are used regularly.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"sneakers\"})",
+   "memory_search({\"query\": \"sneakers\"})"
+  ],
+  "blocks_chars": 2970,
+  "write_steps": 50,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 247.5,
+  "total": 262.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

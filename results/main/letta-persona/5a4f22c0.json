@@ -1,0 +1,126 @@
+{
+ "qid": "5a4f22c0",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+ "reference": "TechCorp",
+ "question_date": "2023-06-21 13:02",
+ "sessions": [
+  {
+   "id": "78eda063_2",
+   "date": "2023-05-23 07:41",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yJMgmG3_0",
+   "date": "2023-05-23 10:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_1",
+   "date": "2023-05-23 20:06",
+   "evidence": true
+  },
+  {
+   "id": "af778ece_1",
+   "date": "2023-05-24 05:16",
+   "evidence": false
+  },
+  {
+   "id": "c3f945f3_1",
+   "date": "2023-05-24 16:00",
+   "evidence": false
+  },
+  {
+   "id": "a1c1739c_3",
+   "date": "2023-05-24 19:18",
+   "evidence": false
+  },
+  {
+   "id": "acb77ba4",
+   "date": "2023-05-25 16:42",
+   "evidence": false
+  },
+  {
+   "id": "88841f27_2",
+   "date": "2023-05-25 20:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dh8qvty_0",
+   "date": "2023-05-25 22:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_2",
+   "date": "2023-05-26 20:48",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-05-23 07:41] Wants to start watercolor painting, considering a still-life setup like the one in the park. Recently organized painting supplies and cleaned workspace. Looking for recommendations for a watercolor palette with built-in cups and new brush brands. Interested in starting with a smaller set of Escoda Perla brushes. (Updated 2023-05-24 20:05: Purchased Madewell ankle boots for 40% off during President's Day sale and has been wearing them nonstop.)\n[2023-05-23 20:15] Met old colleague Rachel at TechConnect conference (Feb 10-11). Needs to catch up.\n[2023-05-23 20:25] Met Jason (CEO of StartupX) at TechConnect conference (Feb 10-11). Needs to follow up regarding potential collaboration.\n[2023-05-23 20:30] Met Alex (founder of edtech startup) at WeWork startup mixer. Needs to add to spreadsheet.\n[2023-05-23 20:40] Met friend David at WeWork startup mixer; he introduced me to Google colleagues. Needs to add to spreadsheet.\n[2023-05-23 20:50] Met Tom (marketing expert) at chamber of commerce speed networking; offered feedback on startup's marketing strategy. Needs to add to spreadsheet.\n[2023-05-24 05:16] Recently acquired a 1920s-era Leica camera and is seeking advice on storing and preserving antique cameras.\n[2023-05-24 05:16] Completed a vintage Star Wars action figure set (finished on 2023-05-03).\n[2023-05-24 05:16] Looking for recommendations for high-quality display cases for Star Wars action figures that provide protection from dust and UV fading.\n[2023-05-24 05:16] Planning a photoshoot for collectibles (Star Wars figures and antique cameras) and is looking for tips on photography techniques and equipment recommendations.\n[2023-05-24 05:16] Exploring creative themes for a photoshoot combining Star Wars action figures and antique cameras, such as a dioramas.\n[2023-05-24 05:16] Planning a photoshoot for Star Wars figures and antique cameras; seeking suggestions for props and accessories to add depth and narrative to the scenes.\n[2023-05-24 16:00] Planning to add new herbs to the garden. Interested in companion plants for basil, mint, and cilantro.\n[2023-06-05 16:00] Attended a gardening workshop at the community center in the first week of June; learned about composting and creating natural fertilizer.\n[2023-05-24 16:00] Looking for flower recommendations to attract bees and butterflies, similar to how marigolds did.\n[2023-05-24 16:00] Planning to expand vegetable bed and add new tomato varieties. Looking for disease/pest-resistant heirloom or hybrid recommendations.\n[2023-05-24 16:00] Asking for tips on maintaining a healthy compost pile and a list of materials to avoid.\n[2023-05-24 16:00] Asking if eggshells are safe to add to a compost pile.\n[2023-05-24 19:40] Looking for recommendations for a good denim jacket.\n[2023-05-24 20:00] Has a birthday gift card for Everlane and is hoping to use it on a new denim jacket.\n[2023-05-25 16:42] Loved recent family trip to Hawaii (last month) and is considering going back to the Big Island.\n[2023-05-25 20:20] Acquired a set of sculpting tools (modeling tools, wire cutter, sculpting mat) and is eager to experiment with eco-friendly sculpting techniques.\n[2023-05-26 20:48] Planning to reach out to Rachel (old colleague from previous company, now at TechCorp) to catch up. Currently exploring marketing resources and experts for startup, alongside feedback offered by Tom.\n[2023-05-26 20:48] Interested in learning about latest AI and machine learning trends; seeking recommendations for online courses or webinars similar to Dr. Maria Hernandez's Women in Tech presentation.\n[2023-05-26 20:48] Planning to reach out to Dr. Maria Hernandez again. Interested in AI applications in education; seeking recommendations for AI-powered edtech startups/companies.\n[2023-05-26 20:48] Planning to reach out to Alex (founder of edtech startup) again to learn about his startup and explore potential collaboration opportunities.\n[2023-05-26 20:48] Attending weekly BNI networking meetings. Exchanging pitch feedback and marketing insights with Jack. Seeking online resources/tools to improve elevator pitch.\n</human>\n\nTool results while answering:\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T17:13:43.156283+00:00', 'time_ago': '8s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"You're very welcome! That sounds like a solid plan. Being clear about your intentions while remaining open to hearing his perspective is a great way to build a genuine professional relationship. I'm sure Alex will appreciate your approach.\\n\\nGood luck with reaching out to him, as well as to Rachel and Dr. Hernandez! If you need help refining your messages to them, looking up more specific resources, or just want to chat about how those conversations go, I'm here. \\n\\nHave a wonderful time catching up with everyone—it sounds like a productive and exciting week for you!\"}, {'timestamp': '2026-10-18T17:13:39.909245+00:00', 'time_ago': '11s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That sounds like a perfect next step. Given your shared passion for education, reaching out to Alex is a natural way to foster a meaningful professional connection.\\n\\nSince you are looking to explore collaboration, keep it open-ended and low-pressure. Something like this might work well:\\n\\n***\\n\\n**Subject:** Great meeting you at the WeWork mixer / Catching up on EdTech\\n\\n\"Hi Alex,\\n\\nIt was great meeting you at the WeWork startup mixer recently! I really enjoyed our conversation about our shared passion for education.\\n\\nI’ve been doing some deeper exploration into AI applications within the EdTech space lately, and I’d love to learn more about what you’re building at your startup. If you have some time in the next couple of weeks, I’d love to grab a coffee or hop on a quick call to catch up and see if there might be any potential for collaboration or just to share notes on the industry.\\n\\nNo pressure at all, but let me know if you might be open to it.\\n\\nBest,\\n[Your Name]\"\\n\\n***\\n\\nWould you like me to help you draft similar reach-out messages for Rachel or Dr. Hernandez, or is there anything else you\\'d like to prepare for these conversations?'}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:13:51.046935+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-21 13:02] What company is Rachel, an old colleague from my previous company, currently working at?'}, {'timestamp': '2026-10-18T17:13:19.210144+00:00', 'time_ago': '35s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-26 20:48] I'm looking for some advice on marketing strategies for my startup. I recently met Tom, a marketing expert, and he offered to provide feedback on my marketing strategy. Do you know any other resources or experts in the field that could help me? By the way, speaking of networking, I was just thinking about catching up with Rachel, an old colleague from my previous company, who's currently at TechCorp.\"}, {'timestamp': '2026-10-18T17:09:56.697604+00:00', 'time_ago': '3m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-23 20:06] I think this template is a good starting point. I\\'ll start filling it out. By the way, I met Rachel, an old colleague from my previous company, at the TechConnect conference on February 10th and 11th. I should catch up with her soon. Do you think I should add a column for \"Company\" to track the companies my contacts are working at?'}]}",
+ "answer": "According to our past conversation, Rachel is currently working at TechCorp.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-05-23 07:41] Wants to start watercolor painting, considering a still-life setup like the one in the park. Recently organized painting supplies and cleaned workspace. Looking for recommendations for a watercolor palette with built-in cups and new brush brands. Interested in starting with a smaller set of Escoda Perla brushes. (Updated 2023-05-24 20:05: Purchased Madewell ankle boots for 40% off during President's Day sale and has been wearing them nonstop.)\n[2023-05-23 20:15] Met old colleague Rachel at TechConnect conference (Feb 10-11). Needs to catch up.\n[2023-05-23 20:25] Met Jason (CEO of StartupX) at TechConnect conference (Feb 10-11). Needs to follow up regarding potential collaboration.\n[2023-05-23 20:30] Met Alex (founder of edtech startup) at WeWork startup mixer. Needs to add to spreadsheet.\n[2023-05-23 20:40] Met friend David at WeWork startup mixer; he introduced me to Google colleagues. Needs to add to spreadsheet.\n[2023-05-23 20:50] Met Tom (marketing expert) at chamber of commerce speed networking; offered feedback on startup's marketing strategy. Needs to add to spreadsheet.\n[2023-05-24 05:16] Recently acquired a 1920s-era Leica camera and is seeking advice on storing and preserving antique cameras.\n[2023-05-24 05:16] Completed a vintage Star Wars action figure set (finished on 2023-05-03).\n[2023-05-24 05:16] Looking for recommendations for high-quality display cases for Star Wars action figures that provide protection from dust and UV fading.\n[2023-05-24 05:16] Planning a photoshoot for collectibles (Star Wars figures and antique cameras) and is looking for tips on photography techniques and equipment recommendations.\n[2023-05-24 05:16] Exploring creative themes for a photoshoot combining Star Wars action figures and antique cameras, such as a dioramas.\n[2023-05-24 05:16] Planning a photoshoot for Star Wars figures and antique cameras; seeking suggestions for props and accessories to add depth and narrative to the scenes.\n[2023-05-24 16:00] Planning to add new herbs to the garden. Interested in companion plants for basil, mint, and cilantro.\n[2023-06-05 16:00] Attended a gardening workshop at the community center in the first week of June; learned about composting and creating natural fertilizer.\n[2023-05-24 16:00] Looking for flower recommendations to attract bees and butterflies, similar to how marigolds did.\n[2023-05-24 16:00] Planning to expand vegetable bed and add new tomato varieties. Looking for disease/pest-resistant heirloom or hybrid recommendations.\n[2023-05-24 16:00] Asking for tips on maintaining a healthy compost pile and a list of materials to avoid.\n[2023-05-24 16:00] Asking if eggshells are safe to add to a compost pile.\n[2023-05-24 19:40] Looking for recommendations for a good denim jacket.\n[2023-05-24 20:00] Has a birthday gift card for Everlane and is hoping to use it on a new denim jacket.\n[2023-05-25 16:42] Loved recent family trip to Hawaii (last month) and is considering going back to the Big Island.\n[2023-05-25 20:20] Acquired a set of sculpting tools (modeling tools, wire cutter, sculpting mat) and is eager to experiment with eco-friendly sculpting techniques.\n[2023-05-26 20:48] Planning to reach out to Rachel (old colleague from previous company, now at TechCorp) to catch up. Currently exploring marketing resources and experts for startup, alongside feedback offered by Tom.\n[2023-05-26 20:48] Interested in learning about latest AI and machine learning trends; seeking recommendations for online courses or webinars similar to Dr. Maria Hernandez's Women in Tech presentation.\n[2023-05-26 20:48] Planning to reach out to Dr. Maria Hernandez again. Interested in AI applications in education; seeking recommendations for AI-powered edtech startups/companies.\n[2023-05-26 20:48] Planning to reach out to Alex (founder of edtech startup) again to learn about his startup and explore potential collaboration opportunities.\n[2023-05-26 20:48] Attending weekly BNI networking meetings. Exchanging pitch feedback and marketing insights with Jack. Seeking online resources/tools to improve elevator pitch.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Rachel\"})",
+   "conversation_search({\"query\": \"Rachel TechCorp\"})",
+   "conversation_search({\"query\": \"Rachel\", \"roles\": [\"user\"]})"
+  ],
+  "blocks_chars": 5060,
+  "write_steps": 53,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 279.1,
+  "total": 285.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

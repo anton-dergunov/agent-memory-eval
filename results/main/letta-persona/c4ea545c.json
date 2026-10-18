@@ -1,0 +1,117 @@
+{
+ "qid": "c4ea545c",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "Do I go to the gym more frequently than I did previously?",
+ "reference": "Yes",
+ "question_date": "2023-09-01 19:15",
+ "sessions": [
+  {
+   "id": "sharegpt_JJu53iW_0",
+   "date": "2023-05-15 16:13",
+   "evidence": false
+  },
+  {
+   "id": "a2a8e2c9",
+   "date": "2023-05-21 05:58",
+   "evidence": false
+  },
+  {
+   "id": "60fdb334_2",
+   "date": "2023-05-31 21:13",
+   "evidence": false
+  },
+  {
+   "id": "answer_d3bf812b_1",
+   "date": "2023-06-01 09:48",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_369982",
+   "date": "2023-06-06 12:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vAsigme_0",
+   "date": "2023-07-30 09:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_21766",
+   "date": "2023-08-15 03:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_d3bf812b_2",
+   "date": "2023-08-15 20:17",
+   "evidence": true
+  },
+  {
+   "id": "6f8f4c80_1",
+   "date": "2023-08-27 12:36",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_360867",
+   "date": "2023-08-31 23:20",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n[2023-05-15 16:13] The user is knowledgeable about medieval history and corrected me on the content of William of Tyre's \"Deeds Done Beyond the Sea.\"\n[2023-05-21 05:58] Planning a trip to Tokyo, Japan. Booked the trip on Jan 15th, planning to depart on April 1st. Interested in information about the Suica card and visa processing.\n[2023-05-31 21:13] Planning to make homemade popcorn with Korean-inspired flavors, specifically interested in \"Seoulful Spicy\" and \"K-Town BBQ\".\n[2023-06-01 10:15] Gym schedule: Tuesdays, Thursdays, and Saturdays. No workouts on Mondays, Wednesdays, or Fridays.\n[2023-08-15 20:17] Gym frequency updated to four times a week (earlier 3, 2023-06-01).\n[2023-08-15 20:17] Enjoys reading, finished last book on Aug 12. Interested in book recommendations.\n[2023-08-27 12:36] Interested in contemporary literature, particularly books exploring diversity and representation. Attended a panel discussion with authors Nicola Yoon, Angie Thomas, and Jason Reynolds.\n[2023-08-27 12:36] Enjoys author readings, recently saw Emma Taylor, author of \"The Whispering Walls\", and was impressed by her reading style. Interested in how the verse format amplifies emotional impact in literature.\n[2023-08-27 12:36] Plans to read \"The Brief Wondrous Life of Oscar Wao\" by Junot Díaz. Starting a book journal to track books read and author encounters.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "Yes, you do! According to your memory, you currently go to the gym four times a week. This is an increase from when you first established your gym schedule, which was three times a week as of June 1, 2023.",
+ "dump": "<human>\n\n[2023-05-15 16:13] The user is knowledgeable about medieval history and corrected me on the content of William of Tyre's \"Deeds Done Beyond the Sea.\"\n[2023-05-21 05:58] Planning a trip to Tokyo, Japan. Booked the trip on Jan 15th, planning to depart on April 1st. Interested in information about the Suica card and visa processing.\n[2023-05-31 21:13] Planning to make homemade popcorn with Korean-inspired flavors, specifically interested in \"Seoulful Spicy\" and \"K-Town BBQ\".\n[2023-06-01 10:15] Gym schedule: Tuesdays, Thursdays, and Saturdays. No workouts on Mondays, Wednesdays, or Fridays.\n[2023-08-15 20:17] Gym frequency updated to four times a week (earlier 3, 2023-06-01).\n[2023-08-15 20:17] Enjoys reading, finished last book on Aug 12. Interested in book recommendations.\n[2023-08-27 12:36] Interested in contemporary literature, particularly books exploring diversity and representation. Attended a panel discussion with authors Nicola Yoon, Angie Thomas, and Jason Reynolds.\n[2023-08-27 12:36] Enjoys author readings, recently saw Emma Taylor, author of \"The Whispering Walls\", and was impressed by her reading style. Interested in how the verse format amplifies emotional impact in literature.\n[2023-08-27 12:36] Plans to read \"The Brief Wondrous Life of Oscar Wao\" by Junot Díaz. Starting a book journal to track books read and author encounters.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"gym\"})"
+  ],
+  "blocks_chars": 2311,
+  "write_steps": 55,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 239.2,
+  "total": 243.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

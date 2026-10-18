@@ -1,0 +1,145 @@
+{
+ "qid": "6a1eabeb",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What was my personal best time in the charity 5K run?",
+ "reference": "25 minutes and 50 seconds (or 25:50)",
+ "question_date": "2023-06-25 13:22",
+ "sessions": [
+  {
+   "id": "6387e969",
+   "date": "2023-04-23 08:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_hcxvWC6_0",
+   "date": "2023-05-07 00:43",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_9ApEWXK_0",
+   "date": "2023-05-07 06:52",
+   "evidence": false
+  },
+  {
+   "id": "f3d43a12_2",
+   "date": "2023-05-15 17:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_a25d4a91_1",
+   "date": "2023-05-23 13:01",
+   "evidence": true
+  },
+  {
+   "id": "d8cc8b5c_5",
+   "date": "2023-05-23 23:20",
+   "evidence": false
+  },
+  {
+   "id": "5b71808d",
+   "date": "2023-05-30 06:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_a25d4a91_2",
+   "date": "2023-05-30 13:53",
+   "evidence": true
+  },
+  {
+   "id": "86b8dc6e",
+   "date": "2023-05-30 18:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_AScF7Wc_0",
+   "date": "2023-05-30 19:15",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nIs interested in seeing Broadway-style shows in both Paris and Rome (2023-04-23).\nInterested in unique historical sites/museums in Paris, similar in impact to the USS Arizona Memorial (2023-04-23).\nInterested in learning about the French Resistance in Paris (2023-04-23).\nInterested in traditional French restaurants in Paris with seasonal focus and a cozy atmosphere (2023-04-23).\nInterested in wine bars/shops in Paris with a good selection of French wines (2023-04-23).\nHas a cat named Whiskers (2023-05-15).\nWhiskers had a follow-up appointment about a month ago for an ear infection and was given a clean bill of health (2023-05-15).\nWhiskers has been having issues with inconsistent litter box usage (2023-05-15).\nPlays soccer with coworkers every two weeks (2023-05-23).\nRan a personal best in a 5K with a time of 25:50 (2023-05-30; earlier 27:12, 2023-05-23).\nRecently scored a goal in a recreational soccer game (2023-05-23).\nIs preparing for a tennis tournament (2023-05-30; earlier 2023-05-06, 2023-05-23).\nIs planning a garden-themed surprise birthday party for their grandmother, to be held in their backyard (2023-05-23).\nIs creating a photo album or scrapbook for their grandmother's birthday as part of their surprise gift (2023-05-23).\nHas documentation related to an asylum application, including approval letter, medical exam results, and background checks (2023-05-30).\nReceived asylum approval letter on 2023-02-20 (2023-05-30).\nCurrently taking English classes at the LINC program, but is looking for more advanced language courses (2023-05-30). Interested in finding a new job (2023-05-30).\nStarted English classes at the LINC program in November 2020 and is currently at level 5 (2023-05-30). Teacher is Mrs. Patel. Has made friends in the class, including a person from Syria who is going through a similar experience (2023-05-30).\nHas a motorcycle and needs to replace the brake pads (2023-05-30).\nLast had car waxed in February 2023 (2023-05-30). Needs to service car's air conditioning system (2023-05-30).\nTook motorcycle out of storage in late April 2023 (2023-05-30). Test-drove new cars the weekend of May 27-28, 2023 (2023-05-30).\nConsidering selling their current SUV (2023-05-30).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T16:36:32.481043+00:00', 'time_ago': '1m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 13:53] I'm getting ready for a charity 5K run and I was wondering if you could give me some tips on how to improve my endurance. By the way, I'm hoping to beat my personal best time this time around.\"}, {'timestamp': '2026-10-18T16:36:03.683570+00:00', 'time_ago': '1m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 13:53] I'm training for another charity 5K run coming up and I was wondering if you could give me some tips on how to improve my endurance. By the way, I'm hoping to beat my personal best time of 25:50 this time around.\"}, {'timestamp': '2026-10-18T16:34:48.034700+00:00', 'time_ago': '2m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-23 13:01] That's really helpful, thanks! I've been doing some running lately, and I'm happy to say that I recently set a personal best time in a charity 5K run with a time of 27:12. Do you have any tips on how to improve my running technique to make me more efficient and effective on the soccer field?\"}]}",
+ "answer": "[2023-06-25 13:25] Your personal best time in a 5K run is 25:50, which you achieved on May 30, 2023 (prior to that, your personal best was 27:12, set on May 23, 2023).",
+ "dump": "<human>\n\nIs interested in seeing Broadway-style shows in both Paris and Rome (2023-04-23).\nInterested in unique historical sites/museums in Paris, similar in impact to the USS Arizona Memorial (2023-04-23).\nInterested in learning about the French Resistance in Paris (2023-04-23).\nInterested in traditional French restaurants in Paris with seasonal focus and a cozy atmosphere (2023-04-23).\nInterested in wine bars/shops in Paris with a good selection of French wines (2023-04-23).\nHas a cat named Whiskers (2023-05-15).\nWhiskers had a follow-up appointment about a month ago for an ear infection and was given a clean bill of health (2023-05-15).\nWhiskers has been having issues with inconsistent litter box usage (2023-05-15).\nPlays soccer with coworkers every two weeks (2023-05-23).\nRan a personal best in a 5K with a time of 25:50 (2023-05-30; earlier 27:12, 2023-05-23).\nRecently scored a goal in a recreational soccer game (2023-05-23).\nIs preparing for a tennis tournament (2023-05-30; earlier 2023-05-06, 2023-05-23).\nIs planning a garden-themed surprise birthday party for their grandmother, to be held in their backyard (2023-05-23).\nIs creating a photo album or scrapbook for their grandmother's birthday as part of their surprise gift (2023-05-23).\nHas documentation related to an asylum application, including approval letter, medical exam results, and background checks (2023-05-30).\nReceived asylum approval letter on 2023-02-20 (2023-05-30).\nCurrently taking English classes at the LINC program, but is looking for more advanced language courses (2023-05-30). Interested in finding a new job (2023-05-30).\nStarted English classes at the LINC program in November 2020 and is currently at level 5 (2023-05-30). Teacher is Mrs. Patel. Has made friends in the class, including a person from Syria who is going through a similar experience (2023-05-30).\nHas a motorcycle and needs to replace the brake pads (2023-05-30).\nLast had car waxed in February 2023 (2023-05-30). Needs to service car's air conditioning system (2023-05-30).\nTook motorcycle out of storage in late April 2023 (2023-05-30). Test-drove new cars the weekend of May 27-28, 2023 (2023-05-30).\nConsidering selling their current SUV (2023-05-30).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"5K run\"})"
+  ],
+  "blocks_chars": 3166,
+  "write_steps": 57,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 293.3,
+  "total": 296.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

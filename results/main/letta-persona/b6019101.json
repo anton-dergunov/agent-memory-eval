@@ -1,0 +1,116 @@
+{
+ "qid": "b6019101",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many MCU films did I watch in the last 3 months?",
+ "reference": "5",
+ "question_date": "2023-06-17 16:20",
+ "sessions": [
+  {
+   "id": "3ea07188_1",
+   "date": "2023-04-22 11:57",
+   "evidence": false
+  },
+  {
+   "id": "df6970d8",
+   "date": "2023-04-28 14:26",
+   "evidence": false
+  },
+  {
+   "id": "43a8152b_1",
+   "date": "2023-05-03 21:21",
+   "evidence": false
+  },
+  {
+   "id": "9bd36386",
+   "date": "2023-05-08 22:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_204275",
+   "date": "2023-05-10 12:23",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_106975",
+   "date": "2023-05-11 01:38",
+   "evidence": false
+  },
+  {
+   "id": "ac089c83_4",
+   "date": "2023-05-18 20:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_67074b4b_1",
+   "date": "2023-05-20 04:54",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_338597",
+   "date": "2023-05-21 20:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_67074b4b_2",
+   "date": "2023-05-29 02:47",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\n- Has a mom's old diamond ring they are thinking of getting appraised (2023-04-22).\n- Lost a favorite silver necklace with a small pendant at a friend's place on January 10th (2023-04-22).\n- Considering buying a new necklace to replace the lost one (2023-04-22).\n- Eyeing a gold chain belt on Amazon (2023-04-22).\n- Owns dangling silver hoops with small crystals, bought on February 2nd (2023-04-22).\n- Interested in adding Dixit to their board game collection (2023-04-28).\n- Working on creating a unique branded hashtag for their personal wellness brand (2023-05-03).\n- Boyfriend is Alex (2023-05-08).\n- Recently returned from a trip to Napa Valley with Alex (2023-05-08).\n- Considering moving in with Alex soon (2023-05-08).\n- Recently celebrated 30th birthday with a surprise party (2023-05-08).\n- Interested in the Chianti region for a trip (2023-05-08).\n- A teacher interested in auditory learning strategies for their classroom (2023-05-11).\n- Attended a friend's master's degree graduation party on April 23rd, 2022 (2023-05-18).\n- Watched 12 films in the last 3 months, including 5 MCU films (2023-05-29; earlier 4 MCU films in the last 3 months, 2023-05-20).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T16:48:13.800700+00:00', 'time_ago': '21s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-29 02:47] I'm planning a movie marathon with my family over the upcoming long weekend and I want to include some classic movies from my childhood. Can you give me some suggestions on what to watch? By the way, I've been on a roll with movies lately - I've watched 12 films in the last 3 months, including 5 MCU films, which is a lot for me!\"}]}",
+ "answer": "[2023-06-17 16:20] Based on our conversation from May 29th, you mentioned that you had watched 5 MCU films in the last 3 months.",
+ "dump": "<human>\n\n- Has a mom's old diamond ring they are thinking of getting appraised (2023-04-22).\n- Lost a favorite silver necklace with a small pendant at a friend's place on January 10th (2023-04-22).\n- Considering buying a new necklace to replace the lost one (2023-04-22).\n- Eyeing a gold chain belt on Amazon (2023-04-22).\n- Owns dangling silver hoops with small crystals, bought on February 2nd (2023-04-22).\n- Interested in adding Dixit to their board game collection (2023-04-28).\n- Working on creating a unique branded hashtag for their personal wellness brand (2023-05-03).\n- Boyfriend is Alex (2023-05-08).\n- Recently returned from a trip to Napa Valley with Alex (2023-05-08).\n- Considering moving in with Alex soon (2023-05-08).\n- Recently celebrated 30th birthday with a surprise party (2023-05-08).\n- Interested in the Chianti region for a trip (2023-05-08).\n- A teacher interested in auditory learning strategies for their classroom (2023-05-11).\n- Attended a friend's master's degree graduation party on April 23rd, 2022 (2023-05-18).\n- Watched 12 films in the last 3 months, including 5 MCU films (2023-05-29; earlier 4 MCU films in the last 3 months, 2023-05-20).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"MCU\"})"
+  ],
+  "blocks_chars": 2119,
+  "write_steps": 57,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 304.5,
+  "total": 307.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

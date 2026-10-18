@@ -42,15 +42,18 @@ history is trimmed, there is one question type, and the models differ.
 | Honcho, representation | 93% | 84%–97% | 0.028 | 38 | 115 | (the same) |
 | Graphiti | 82% | 71%–89% | 0.640 | 720 | 839 | Neo4j |
 | Letta | 69% | 57%–78% | 0.132 | 81 | 379 | Letta server, Postgres |
+| Letta, persona that keeps facts current | 90% | 80%–95% | 0.152 | 88 | 265 | (the same) |
 
 Cost is what the system spent writing, reading and answering, from the call
 ledger; judging and probes are extra and the same for every arm. The judges
 agree: `gemini-3.1-pro-preview` and `gemini-3.8-flash` gave the same verdict on
-118 of 120 answers judged by both.
+130 of 132 answers judged by both.
 
 With 67 questions only large gaps mean anything. Seven arms sit between 82%
 and 97% with overlapping intervals, and the order among them is not a result.
-Letta is the one arm clearly below. Between the arms that work, the
+Letta at its defaults is the one arm clearly below. With three lines added to
+its persona block, the part of Letta its users are meant to write, it scores
+90% and joins the others (point 4 and [findings/letta.md](findings/letta.md)). Between the arms that work, the
 differences that are large are cost and weight: Graphiti spends about 30
 times what textual memory spends and over 300 times what plain retrieval
 spends, for no gain in accuracy here.
@@ -66,6 +69,7 @@ about the systems; both were about how the conversation was handed to them.
 | Graphiti | one episode per message, as Graphiti's own examples do | 82% | 5 | 720 | 0.64 |
 | Letta | each session in one request, ending on an assistant message | 58% | 22 | 11 | 0.03 |
 | Letta | one agent step per user message | 69% | 15 | 81 | 0.13 |
+| Letta | the same, with a persona that asks it to keep facts current | 90% | 3 | 88 | 0.15 |
 
 **Graphiti** extracts entities and facts from each episode with prompts written
 for one message from a named speaker ("Jordan: we just moved to Denver…"),
@@ -108,6 +112,7 @@ every question:
 | Honcho repr | 82% | 81% | 64% | 53 | 51/53 | 935 |
 | Graphiti | 78% | 70% | 21% | 39 | 37/39 | 284 |
 | Letta | 42% | 33% | 24% | 15 | 12/15 | 884 |
+| Letta, persona | 79% | 66% | 9% | 43 | 42/43 | 1,288 |
 
 Three readings:
 
@@ -124,7 +129,11 @@ Three readings:
   times per history, but at the message carrying the revision it recorded the
   new value in only 31 of 64 questions, and when the value is missing its
   search rarely finds the message again
-  ([findings/letta.md](findings/letta.md)).
+  ([findings/letta.md](findings/letta.md)). Asked in its persona to update
+  the line and keep the earlier value with its date, it writes 57 of 64
+  revisions and holds the new value in 79% of questions. It also keeps the old
+  value in the line more often (66%) while presenting it as current less
+  often (9%).
 - **The amount delivered differs by a factor of 360** between Honcho's
   dialectic summary (77 tokens) and full context (27,890), with accuracy
   within the same interval.
@@ -145,6 +154,7 @@ overwrite would lose the earlier value:
 | Honcho repr | 52 | 7 | 3 |
 | Graphiti | 46 | 8 | 1 |
 | Letta | 39 | 6 | 1 |
+| Letta, persona | 50 | 8 | 2 |
 
 It does not show here. Textual memory, which rewrites its profile, answers 7
 of the 8, and its rewrites often keep the history in the line itself ("15 …
@@ -194,6 +204,17 @@ system next to it):
   returned nothing. In six wrong answers the block still held the first value
   ("has completed 4 projects so far") and the agent answered from it after its
   searches came back empty.
+- **Telling Letta's agent fixes most of it.** The persona had been Letta's
+  blank starter text. Three lines added to it (write the message's date on
+  every fact, update the line when a value changes and keep the earlier one,
+  search with one or two words) raised the revisions written at the message
+  from 31 to 57 of 64 and the score from 69% to 90%. Fourteen of the 17
+  answers it gained can be traced to those lines. Of its seven wrong answers
+  one is a lost update. Two had the right dated lines and reasoned wrongly at
+  answer time ("you switched to more water… you are now using less water"),
+  and one is a plan counted as a fact: "I'm definitely going to add" two
+  films turned 25 titles into 27. The persona was written after reading
+  these failures on the same questions, so 90% is not a held-out score.
 - **One Letta question could not be built.** In four builds Vertex returned
   `finish_reason=content_filter` with no message while the agent read a
   history about a named book, and Letta stops on such a reply. It is counted
@@ -229,13 +250,16 @@ to run on 124,000-token histories:
 - Trimmed history for the main run, one question type, 67 questions, one
   model in every seat. In Graphiti's extraction and Letta's agent the model's
   judgement is the memory policy; a stronger model would change those two
-  rows most.
+  rows most. For Letta the persona moved the row further than feeding it
+  correctly did (69% → 90%, against 58% → 69%).
 - Each fact is stated once and revised once. A system whose value is inferring
   patterns from repetition (Honcho's claim) has nothing to work on here.
 - Every system runs at its library defaults, with the exceptions listed at the
   top of each arm's module in `src/memeval/arms/` and in each result's
   `settings`. Graphiti and Letta were re-run once with their ingestion fixed;
-  the first runs are kept as `graphiti-chunk` and `letta-batch`.
+  the first runs are kept as `graphiti-chunk` and `letta-batch`. Letta was
+  run a third time with an instructed persona (`letta-persona`), as its own
+  row; no other arm was re-run with a changed prompt.
 - Letta is its last Python server release, 0.16.8, self-hosted: its
   `conversation_search` is a literal SQL substring match unless Turbopuffer, a
   hosted service, is configured.
@@ -249,9 +273,9 @@ to run on 124,000-token histories:
 
 ## Reproducing it
 
-Total Vertex spend for the whole experiment, smoke tests and both Graphiti and
-Letta runs included: about $99 (main run $82, full-history run $13, pilot
-$2.63, traces and checks the rest). Rebuilding every table from the committed
+Total Vertex spend for the whole experiment, smoke tests and every Graphiti
+and Letta run included: about $110 (main run $93, of which the Letta persona
+run $10.68; full-history run $13; pilot $2.63; traces and checks the rest). Rebuilding every table from the committed
 results costs nothing (`python -m memeval.findings`, no model calls). The reply
 cache (`.cache/llm`) is not published, so re-running the systems themselves
 costs about that much again; see [experiment.md](experiment.md) for the

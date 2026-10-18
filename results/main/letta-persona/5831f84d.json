@@ -1,0 +1,128 @@
+{
+ "qid": "5831f84d",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many Crash Course videos have I watched in the past few weeks?",
+ "reference": "15",
+ "question_date": "2023-10-05 05:19",
+ "sessions": [
+  {
+   "id": "3e53cff4",
+   "date": "2023-07-15 04:55",
+   "evidence": false
+  },
+  {
+   "id": "5cd46af9_2",
+   "date": "2023-07-19 06:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_1",
+   "date": "2023-08-11 13:55",
+   "evidence": true
+  },
+  {
+   "id": "78e6f9ee",
+   "date": "2023-08-13 14:44",
+   "evidence": false
+  },
+  {
+   "id": "14991eb7_2",
+   "date": "2023-08-22 08:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_462218",
+   "date": "2023-09-08 07:05",
+   "evidence": false
+  },
+  {
+   "id": "83dae08b",
+   "date": "2023-09-12 22:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_2",
+   "date": "2023-09-30 17:18",
+   "evidence": true
+  },
+  {
+   "id": "0df54428_4",
+   "date": "2023-09-30 19:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ofljChm_78",
+   "date": "2023-10-05 19:51",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Has been doing a 30-minute daily cleaning routine for about 3 weeks (2023-07-15).\n- Reports that the routine has made a huge difference in productivity and energy levels (2023-07-15).\n- Has a bottle of BBQ sauce from a Texas vendor that is a current go-to (2023-07-19).\n- Has been experimenting with making BBQ sauce from scratch (2023-07-19).\n- Has been learning about cloud computing (2023-08-11).\n- Has watched 15 Crash Course videos in the past few weeks (2023-09-30; earlier 12, 2023-08-11).\n- Enjoys listening to the \"How I Built This\" podcast and finds entrepreneurial stories inspiring (2023-08-11).\n- Planning to get an AWS Certified Cloud Practitioner certification to support a planned project (2023-08-11).\n- Has taken a Python programming course on edX (2023-08-11).\n- Interested in learning about machine learning with Python (2023-08-11).\n- Dedicating three hours every weekend to a short story collection, started in July 2023 (2023-08-13).\n- Participates in a social media writing community that provides weekly prompts and exercises (2023-08-13).\n- Keeps a writing journal to track progress and brainstorm ideas (2023-08-13).\n- Interested in learning more about their cultural heritage, specifically the state of Punjab, India (2023-08-22).\n- Purchased a grey velvet sectional sofa from West Elm (2023-09-12).\n- Inherited a collection of rare stamps from their uncle, including an 1855 British Guiana 1c Magenta (2023-09-30).\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You have watched 15 Crash Course videos in the past few weeks (as of 2023-09-30).",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Has been doing a 30-minute daily cleaning routine for about 3 weeks (2023-07-15).\n- Reports that the routine has made a huge difference in productivity and energy levels (2023-07-15).\n- Has a bottle of BBQ sauce from a Texas vendor that is a current go-to (2023-07-19).\n- Has been experimenting with making BBQ sauce from scratch (2023-07-19).\n- Has been learning about cloud computing (2023-08-11).\n- Has watched 15 Crash Course videos in the past few weeks (2023-09-30; earlier 12, 2023-08-11).\n- Enjoys listening to the \"How I Built This\" podcast and finds entrepreneurial stories inspiring (2023-08-11).\n- Planning to get an AWS Certified Cloud Practitioner certification to support a planned project (2023-08-11).\n- Has taken a Python programming course on edX (2023-08-11).\n- Interested in learning about machine learning with Python (2023-08-11).\n- Dedicating three hours every weekend to a short story collection, started in July 2023 (2023-08-13).\n- Participates in a social media writing community that provides weekly prompts and exercises (2023-08-13).\n- Keeps a writing journal to track progress and brainstorm ideas (2023-08-13).\n- Interested in learning more about their cultural heritage, specifically the state of Punjab, India (2023-08-22).\n- Purchased a grey velvet sectional sofa from West Elm (2023-09-12).\n- Inherited a collection of rare stamps from their uncle, including an 1855 British Guiana 1c Magenta (2023-09-30).\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Crash Course videos\"})"
+  ],
+  "blocks_chars": 2396,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 265.4,
+  "total": 269.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

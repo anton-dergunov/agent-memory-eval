@@ -1,0 +1,136 @@
+{
+ "qid": "603deb26",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+ "reference": "10",
+ "question_date": "2023-12-05 02:37",
+ "sessions": [
+  {
+   "id": "37f66729",
+   "date": "2023-08-04 04:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_1",
+   "date": "2023-08-11 17:11",
+   "evidence": true
+  },
+  {
+   "id": "58e5adf2",
+   "date": "2023-08-12 03:22",
+   "evidence": false
+  },
+  {
+   "id": "feb5f98a_2",
+   "date": "2023-08-16 06:11",
+   "evidence": false
+  },
+  {
+   "id": "5e867c2f_2",
+   "date": "2023-08-27 17:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_69476",
+   "date": "2023-09-23 08:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_408354",
+   "date": "2023-10-01 22:47",
+   "evidence": false
+  },
+  {
+   "id": "d05d6391_3",
+   "date": "2023-10-22 11:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_etklNfN_11",
+   "date": "2023-11-23 23:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_2",
+   "date": "2023-11-30 01:59",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-08-04] Uses keywords and folders to organize their photo library. Currently seeking advice on more efficient organization methods.\n[2023-08-04] Starting a seasonal photography project by visiting a specific natural location (forest or wetland) regularly. Also considering adding a street photography or wildlife/nature theme. Seeking tips on staying motivated and committed.\n[2023-08-11] Enjoys experimenting with gin brands, currently favoring Hendrick's. Looking for summer cocktail recipes featuring fresh garden herbs.\n[2023-08-11] Interested in experimenting with lavender in cocktails. Currently experimenting with Negroni recipes using Hendrick's gin.\n[2023-11-30] Has made a Negroni 10 times (taught by Emma, using Hendrick's and Carpano Antica; earlier 5, 2023-08-11). Looking for bitter liqueur alternatives to Campari.\n[2023-08-11] Interested in experimenting with different citrus fruits in cocktails, specifically looking for pairings with gin and lavender.\n[2023-08-12] Recently ordered a beginner's fly fishing kit after watching YouTube videos. \n[2023-08-12] Caught a dozen trout on Lake Tahoe about three weekends ago with a friend; included a 3-pound trout caught using a silver lure.\n[2023-08-12] Considering entering a fishing tournament at Joe's Tackle on Main St. next month.\n[2023-08-16] Planning a job transition to a senior role (Content Marketing Strategist or Digital Marketing Consultant). Seeking to emphasize adaptability, workload management (specifically handling an extra 10 hours/week during peak seasons), and expertise in social media management/analytics.\n[2023-08-27] Recently gained 10 followers in the last month due to consistent posting and relevant hashtags on Instagram.\n[2023-08-27] Received 237 likes and 34 comments on a recent hiking photo using #hikingadventures.\n[2023-09-23] Interested in using literature and movies as educational tools to promote respectful behavior among students.\n[2023-10-01] Planning to go scuba diving for the first time in South America.\n[2023-10-22] Volunteered at a \"Fireworks Festival\" charity event, raising over $5,000 for a local children's hospital. Successfully sought donations from local businesses for this event.\n[2023-11-30] Interested in learning how to infuse spirits with flavors like lavender and grapefruit for cocktails.\n[2023-11-30] Interested in infusing gin with cucumber and mint for a Cucumber Gimlet style cocktail.\n[2023-11-30] Recently hosted a dinner party and served a Cranberry Sparkler. Looking for more classic cocktail recommendations.\n[2023-11-30] Interested in trying Pimm's Cup and Bee's Knees. Looking for tips on making honey syrup for cocktails.\n</human>\n\nTool results while answering:\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T19:26:40.091390+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-05 02:37] How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?'}, {'timestamp': '2026-10-18T19:26:38.975546+00:00', 'time_ago': '3s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'It sounds like you\\'re building a fantastic collection of gin-based skills! Since you’re enjoying the Hendrick\\'s—which, as you know, has that signature cucumber and rose profile—and you\\'ve already mastered the Negroni and are planning for the Bee\\'s Knees and Pimm\\'s Cup, here are three more gin classics that will really let that Hendrick\\'s shine:\\n\\n### 1. The Southside\\nIf you like the sound of your cucumber and mint infusion, this is the perfect cocktail to use it in. Think of it as a \"gin mojito.\" It is remarkably crisp, clean, and refreshing.\\n*   **The Vibe:** Sophisticated and incredibly easy-drinking.\\n*   **Classic Profile:** Gin, fresh lime juice, simple syrup, and a generous amount of fresh mint.\\n*   **Why it works:** The brightness of the lime and the herbaceous punch of the mint highlight the botanical notes in the Hendrick\\'s perfectly.\\n\\n### 2. The Clover Club\\nThis is a pre-Prohibition classic that is visually striking and has a beautiful, silky texture.\\n*   **The Vibe:** Elegant and slightly fruity.\\n*   **Classic Profile:** Gin, lemon juice, raspberry syrup (or fresh muddled raspberries), and an egg white.\\n*   **Why it works:** The egg white creates a luscious, frothy foam that carries the delicate floral and fruity flavors to the palate. It’s a bit of a \"showstopper\" for a dinner party!\\n\\n### 3. The Tom Collins\\nDon\\'t let its simplicity fool you; a well-made Tom Collins is one of the most refreshing drinks in existence. \\n*   **The Vibe:** Light, sparkling, and perfect for warm weather or as a starter.\\n*   **Classic Profile:** Gin, fresh lemon juice, simple syrup, topped with club soda.\\n*   **Why it works:** It’s a tall, effervescent drink that acts like a canvas for your botanicals. If you use your **grapefruit-infused gin** here, it becomes an incredibly elevated citrus experience.\\n\\n**A quick thought on your Hendrick\\'s:** Since you mentioned you\\'re experimenting with different gins, keep an eye out for \"Navy Strength\" gins if you want something that stands up even bolder in a drink like a Negroni, or \"Old Tom\" gins if you want to lean into that slightly sweeter, historical flavor profile for something like the Martinez.\\n\\nOut of the Southside, Clover Club, or Tom Collins, which one feels like the best \"next challenge\" for your home bar?'}, {'timestamp': '2026-10-18T19:26:36.149974+00:00', 'time_ago': '6s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-30 01:59] I'm excited to try out the Bee's Knees with my homemade honey syrup. I've also been experimenting with different types of gin, and I recently picked up a bottle of Hendrick's gin, which I'm really enjoying. By the way, speaking of gin, I've tried making a Negroni at home 10 times now since my friend Emma showed me how to make it. Do you have any recommendations for other gin-based cocktails that I should try making?\"}]}",
+ "answer": "According to our records, you have made a Negroni at home 10 times since your friend Emma taught you how to make it (as of November 30, 2023).",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-08-04] Uses keywords and folders to organize their photo library. Currently seeking advice on more efficient organization methods.\n[2023-08-04] Starting a seasonal photography project by visiting a specific natural location (forest or wetland) regularly. Also considering adding a street photography or wildlife/nature theme. Seeking tips on staying motivated and committed.\n[2023-08-11] Enjoys experimenting with gin brands, currently favoring Hendrick's. Looking for summer cocktail recipes featuring fresh garden herbs.\n[2023-08-11] Interested in experimenting with lavender in cocktails. Currently experimenting with Negroni recipes using Hendrick's gin.\n[2023-11-30] Has made a Negroni 10 times (taught by Emma, using Hendrick's and Carpano Antica; earlier 5, 2023-08-11). Looking for bitter liqueur alternatives to Campari.\n[2023-08-11] Interested in experimenting with different citrus fruits in cocktails, specifically looking for pairings with gin and lavender.\n[2023-08-12] Recently ordered a beginner's fly fishing kit after watching YouTube videos. \n[2023-08-12] Caught a dozen trout on Lake Tahoe about three weekends ago with a friend; included a 3-pound trout caught using a silver lure.\n[2023-08-12] Considering entering a fishing tournament at Joe's Tackle on Main St. next month.\n[2023-08-16] Planning a job transition to a senior role (Content Marketing Strategist or Digital Marketing Consultant). Seeking to emphasize adaptability, workload management (specifically handling an extra 10 hours/week during peak seasons), and expertise in social media management/analytics.\n[2023-08-27] Recently gained 10 followers in the last month due to consistent posting and relevant hashtags on Instagram.\n[2023-08-27] Received 237 likes and 34 comments on a recent hiking photo using #hikingadventures.\n[2023-09-23] Interested in using literature and movies as educational tools to promote respectful behavior among students.\n[2023-10-01] Planning to go scuba diving for the first time in South America.\n[2023-10-22] Volunteered at a \"Fireworks Festival\" charity event, raising over $5,000 for a local children's hospital. Successfully sought donations from local businesses for this event.\n[2023-11-30] Interested in learning how to infuse spirits with flavors like lavender and grapefruit for cocktails.\n[2023-11-30] Interested in infusing gin with cucumber and mint for a Cucumber Gimlet style cocktail.\n[2023-11-30] Recently hosted a dinner party and served a Cranberry Sparkler. Looking for more classic cocktail recommendations.\n[2023-11-30] Interested in trying Pimm's Cup and Bee's Knees. Looking for tips on making honey syrup for cocktails.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "memory_search({\"query\": \"Negroni\"})",
+   "conversation_search({\"query\": \"Negroni\"})"
+  ],
+  "blocks_chars": 3617,
+  "write_steps": 53,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 247.2,
+  "total": 253.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

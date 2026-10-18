@@ -1,0 +1,143 @@
+{
+ "qid": "7401057b",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many free night's stays can I redeem at any Hilton property with my accumulated points?",
+ "reference": "Two",
+ "question_date": "2023-06-16 09:50",
+ "sessions": [
+  {
+   "id": "sharegpt_6fTnCnw_37",
+   "date": "2023-05-11 12:57",
+   "evidence": false
+  },
+  {
+   "id": "answer_94650bfa_1",
+   "date": "2023-05-29 16:25",
+   "evidence": true
+  },
+  {
+   "id": "1450ffad",
+   "date": "2023-05-30 03:45",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_385162",
+   "date": "2023-05-30 08:44",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BKG9Nyc_0",
+   "date": "2023-05-30 10:06",
+   "evidence": false
+  },
+  {
+   "id": "answer_94650bfa_2",
+   "date": "2023-05-30 12:28",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_435909",
+   "date": "2023-05-30 12:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_392050",
+   "date": "2023-05-30 17:31",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Fi5UpOu_38",
+   "date": "2023-06-04 05:55",
+   "evidence": false
+  },
+  {
+   "id": "4cb33063",
+   "date": "2023-06-14 05:35",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-05-11 12:57] Interested in linguistics and the structure of language, specifically morphological typologies like analytic vs. synthetic languages.\n[2023-05-29 16:25] Has accumulated enough points for two free night's stays at any Hilton property (2023-05-30; earlier one free night, 2023-05-29). Planning a weekend getaway to the Category 5 Hilton Lake Las Vegas Resort.\n[2023-05-30 08:30] Planning a solo trip to Europe (Paris, Rome, Barcelona) next spring. Added a detour to the French Riviera (staying in Nice for a few days) before heading to Rome. Interested in scenic train routes, stops along the way, day trips from Nice, tips for exploring Nice's Old Town (Vieux Nice), Castle Hill (Colline du Château), and the Promenade des Anglais.\n[2023-05-30 12:28] Planning a trip to Paris in November. Budget for hotels is $200-300/night; prefers central location, fitness center, and breakfast included. Interested in rooms with an Eiffel Tower view.\n[2023-05-30 09:22] Concerned about the environmental impact and sustainability of using synthetic materials in quilting.\n[2023-06-14 05:35] Owns a Pearl Export series drum set and is considering selling it.\n[2023-06-14 05:35] Plays guitar and owns a Fender Stratocaster.\n[2023-06-14 05:35] Interested in taking up the ukulele.\n[2023-06-14 05:35] Lives in a dry climate and is considering a humidifier for their guitar.\n[2023-06-14 05:35] Interested in getting an old harmonica serviced.\n[2023-06-14 05:35] Plans to use Joe Filisko's harmonica repair service.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on our previous conversation on May 29, 2023, you have accumulated enough points for two free nights' stays at any Hilton property.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-05-11 12:57] Interested in linguistics and the structure of language, specifically morphological typologies like analytic vs. synthetic languages.\n[2023-05-29 16:25] Has accumulated enough points for two free night's stays at any Hilton property (2023-05-30; earlier one free night, 2023-05-29). Planning a weekend getaway to the Category 5 Hilton Lake Las Vegas Resort.\n[2023-05-30 08:30] Planning a solo trip to Europe (Paris, Rome, Barcelona) next spring. Added a detour to the French Riviera (staying in Nice for a few days) before heading to Rome. Interested in scenic train routes, stops along the way, day trips from Nice, tips for exploring Nice's Old Town (Vieux Nice), Castle Hill (Colline du Château), and the Promenade des Anglais.\n[2023-05-30 12:28] Planning a trip to Paris in November. Budget for hotels is $200-300/night; prefers central location, fitness center, and breakfast included. Interested in rooms with an Eiffel Tower view.\n[2023-05-30 09:22] Concerned about the environmental impact and sustainability of using synthetic materials in quilting.\n[2023-06-14 05:35] Owns a Pearl Export series drum set and is considering selling it.\n[2023-06-14 05:35] Plays guitar and owns a Fender Stratocaster.\n[2023-06-14 05:35] Interested in taking up the ukulele.\n[2023-06-14 05:35] Lives in a dry climate and is considering a humidifier for their guitar.\n[2023-06-14 05:35] Interested in getting an old harmonica serviced.\n[2023-06-14 05:35] Plans to use Joe Filisko's harmonica repair service.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Hilton\"})"
+  ],
+  "blocks_chars": 2466,
+  "write_steps": 48,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 303.8,
+  "total": 315.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

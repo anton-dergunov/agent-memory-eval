@@ -1,0 +1,145 @@
+{
+ "qid": "72e3ee87",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many episodes of the Science series have I completed on Crash Course?",
+ "reference": "50",
+ "question_date": "2023-06-27 19:26",
+ "sessions": [
+  {
+   "id": "ultrachat_221658",
+   "date": "2023-05-11 23:18",
+   "evidence": false
+  },
+  {
+   "id": "080a4000_2",
+   "date": "2023-05-12 13:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_d7de9a6a_1",
+   "date": "2023-05-24 01:00",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_sD1RDN4_0",
+   "date": "2023-05-25 06:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_421360",
+   "date": "2023-05-26 13:35",
+   "evidence": false
+  },
+  {
+   "id": "bbc9bf73",
+   "date": "2023-05-27 00:55",
+   "evidence": false
+  },
+  {
+   "id": "f5fd3cc4_1",
+   "date": "2023-05-27 15:20",
+   "evidence": false
+  },
+  {
+   "id": "1c1f5ccc_4",
+   "date": "2023-05-28 02:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_d7de9a6a_2",
+   "date": "2023-05-29 03:31",
+   "evidence": true
+  },
+  {
+   "id": "6f2c01fc_1",
+   "date": "2023-05-29 17:54",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\nAttended a colleague's son's graduation party on 2023-06-27. (2023-05-12; earlier Attended a colleague's son's graduation party on 2023-06-27. (2023-05-12))\nMentoring an intern, Rachel. Attending her graduation on 2023-08-10. (2023-05-12)\nCurrently watching Crash Course Science series, on episode 50. (2023-05-29; earlier 10, 2023-05-24)\nWakes up at 7:30 AM, goes to bed at 11:30 PM. (2023-05-27; earlier 2023-05-24)\nWork hours: 9:00 AM - 5:30 PM. (2023-05-24)\nWakes up at 7:30 AM, goes to bed at 11:30 PM. (2023-05-27; earlier 2023-05-24)\nWork hours: 9:00 AM - 5:30 PM. (2023-05-24)\nMorning priorities: Exercise, breakfast, and getting ready for work. (2023-05-27)\nReading list: Finished \"Sapiens\", currently reading \"The Power of Habit\". (2023-05-24)\nInterested in learning Adobe Photoshop and Illustrator. (2023-05-24)\nInterested in taking a Data Science with Python course. (2023-05-24)\nGardening for about 3 months, currently planning to grow carrots and marigolds (for nematode control). (2023-05-27)\nInterested in Indian history and culture, specifically planning to read \"The Wonder That Was India\" and \"The Hindus: An Alternative History\", and watch \"The Story of India\" documentary. (2023-05-28)\nInterested in the history and evolution of Indian music, and the key figures who shaped its development. (2023-05-28)\nInterested in learning linear algebra. (2023-05-29)\nInterested in learning Spanish, currently using Duolingo and looking for supplements. (2023-05-29)\nPlanning to apply the 4 Laws of Behavior Change to a morning exercise routine. (2023-05-29)\n</human>\n\nTool results while answering:\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T16:05:40.294818+00:00', 'time_ago': '46s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'I\\'m always ready to jump into whatever topic is sparking your curiosity! Since you’ve been doing such a great job building out your learning plans, we could take things in a few different directions:\\n\\n1.  **Deep Dive into a Topic:** Since you’re currently on episode 50 of *Crash Course Science*, if there was a particular branch of science (like Biology, Chemistry, or Physics) that really grabbed your interest, we could talk about that. Or, we could discuss a specific concept that has come up in your Data Science course that you want to demystify.\\n2.  **Spanish Practice:** We could try a \"mini-lesson\" where we practice a bit of Spanish. I can give you a topic or a short scenario, and we can go back and forth in Spanish—a low-pressure way to get you using the words you\\'re learning!\\n3.  **Refining Your \"System\":** With so many new learning goals, it can sometimes be hard to manage the time. We could brainstorm ways to integrate your new study goals into your existing daily routine (like your morning priorities or the time before bed) so it feels manageable rather than overwhelming.\\n4.  **Explore Something Entirely New:** If you want a break from the intense learning mode, we could chat about your gardening plans, your interest in Indian history, or even swap book recommendations based on your current reading list.\\n\\nWhat feels most appealing to you right now? I\\'m happy to follow your lead!'}]}\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T16:06:21.404205+00:00', 'time_ago': '13s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-27 19:26] How many episodes of the Science series have I completed on Crash Course?'}]}\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T16:06:21.404205+00:00', 'time_ago': '14s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-27 19:26] How many episodes of the Science series have I completed on Crash Course?'}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T16:05:33.429188+00:00', 'time_ago': '1m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-29 03:31] I think I'll start with SpanishDict and then move on to Coursera's Spanish for Beginners course. By the way, I've been watching Crash Course's Science series, and I just completed 50 episodes - it's been really helpful in understanding the basics of science.\"}]}",
+ "answer": "You have completed 50 episodes of the *Crash Course Science* series.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\nAttended a colleague's son's graduation party on 2023-06-27. (2023-05-12; earlier Attended a colleague's son's graduation party on 2023-06-27. (2023-05-12))\nMentoring an intern, Rachel. Attending her graduation on 2023-08-10. (2023-05-12)\nCurrently watching Crash Course Science series, on episode 50. (2023-05-29; earlier 10, 2023-05-24)\nWakes up at 7:30 AM, goes to bed at 11:30 PM. (2023-05-27; earlier 2023-05-24)\nWork hours: 9:00 AM - 5:30 PM. (2023-05-24)\nWakes up at 7:30 AM, goes to bed at 11:30 PM. (2023-05-27; earlier 2023-05-24)\nWork hours: 9:00 AM - 5:30 PM. (2023-05-24)\nMorning priorities: Exercise, breakfast, and getting ready for work. (2023-05-27)\nReading list: Finished \"Sapiens\", currently reading \"The Power of Habit\". (2023-05-24)\nInterested in learning Adobe Photoshop and Illustrator. (2023-05-24)\nInterested in taking a Data Science with Python course. (2023-05-24)\nGardening for about 3 months, currently planning to grow carrots and marigolds (for nematode control). (2023-05-27)\nInterested in Indian history and culture, specifically planning to read \"The Wonder That Was India\" and \"The Hindus: An Alternative History\", and watch \"The Story of India\" documentary. (2023-05-28)\nInterested in the history and evolution of Indian music, and the key figures who shaped its development. (2023-05-28)\nInterested in learning linear algebra. (2023-05-29)\nInterested in learning Spanish, currently using Duolingo and looking for supplements. (2023-05-29)\nPlanning to apply the 4 Laws of Behavior Change to a morning exercise routine. (2023-05-29)\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Crash Course Science\"})",
+   "conversation_search({\"query\": \"Crash Course\"})",
+   "conversation_search({\"query\": \"episode\"})",
+   "conversation_search({\"query\": \"50\"})",
+   "conversation_search({\"query\": \"watching\"})"
+  ],
+  "blocks_chars": 2518,
+  "write_steps": 52,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 301.0,
+  "total": 331.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

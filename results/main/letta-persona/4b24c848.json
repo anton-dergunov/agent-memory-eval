@@ -1,0 +1,132 @@
+{
+ "qid": "4b24c848",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many tops have I bought from H&M so far?",
+ "reference": "five",
+ "question_date": "2023-10-20 08:09",
+ "sessions": [
+  {
+   "id": "sharegpt_yK69lIT_0",
+   "date": "2023-07-15 13:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_2cec623b_1",
+   "date": "2023-08-11 03:18",
+   "evidence": true
+  },
+  {
+   "id": "f5245daf_2",
+   "date": "2023-08-13 17:19",
+   "evidence": false
+  },
+  {
+   "id": "94f0d575_1",
+   "date": "2023-08-19 20:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_244540",
+   "date": "2023-08-20 14:53",
+   "evidence": false
+  },
+  {
+   "id": "9786d553",
+   "date": "2023-08-24 16:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_234135",
+   "date": "2023-08-26 21:17",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_209858",
+   "date": "2023-09-14 15:33",
+   "evidence": false
+  },
+  {
+   "id": "4555584c_2",
+   "date": "2023-09-17 13:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_2cec623b_2",
+   "date": "2023-09-30 06:40",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Bought 3 tops from H&M [2023-08-11]\n- Has 5 tops from H&M [2023-09-30; earlier 3, 2023-08-11]\n- Loves H&M's summer collection [2023-08-11]\n- Interested in visiting 'The Vault', a new thrift store near their work [2023-08-11]\n- Visited 'The Vault' once and was impressed with the selection [2023-08-11]\n- Interested in natural language processing (NLP) [2023-08-13]\n- Father has a Master's degree in Computer Science from the University of Illinois at Urbana-Champaign [2023-08-13]\n- Family of tech enthusiasts [2023-08-13]\n- Planning a trip to Disneyland with family [2023-08-19]\n- Enjoyed exclusive \"Summer Nights\" fireworks event (June 15th-16th) at Disney California Adventure Park [2023-08-19; earlier: Enjoyed \"Summer Nights\" fireworks at Disney California Adventure Park, 2023-08-19]\n- Stayed at the Grand Californian Hotel, which feels like it's inside Disney California Adventure Park [2023-08-19; earlier: Stayed at a hotel located within Disney California Adventure Park, 2023-08-19]\n- Interested in the political activism of the band 'The Association' [2023-08-20]\n- Started listening to podcasts around mid-July 2023 [2023-08-24]\n- Interested in learning about topics they are unfamiliar with, specifically entrepreneurship, history, and science [2023-08-24]\n- Prefers conversational, interview-style podcasts where experts share their experiences and insights [2023-08-24]\n- Listens to \"The Daily\" during morning workouts [2023-08-24]\n- Interested in Fulani culture and its emphasis on respecting nature [2023-08-26]\n- Enjoys podcasts and audiobooks [2023-09-17]\n- Likes \"The Power\" by Naomi Alderman [2023-09-17]\n- Likes \"How I Built This\" podcast [2023-09-17]\n</human>\n\nTool results while answering:\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-18T16:48:22.874549+00:00', 'time_ago': '16s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That sounds like a fun weekend plan! It\\'s great to hear you\\'re enjoying your H&M tops—five is a solid collection to build on.\\n\\nSince I don\\'t have real-time access to the current circulars or specific local mall promotions for this weekend, I recommend checking the H&M and Sephora websites or their mobile apps directly. They usually have a \"Sales\" or \"Offers\" section where you can filter by your local store. \\n\\nAre you looking for anything specific at Sephora, or just browsing to see what\\'s new?'}]}",
+ "answer": "You have bought 5 tops from H&M so far.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Bought 3 tops from H&M [2023-08-11]\n- Has 5 tops from H&M [2023-09-30; earlier 3, 2023-08-11]\n- Loves H&M's summer collection [2023-08-11]\n- Interested in visiting 'The Vault', a new thrift store near their work [2023-08-11]\n- Visited 'The Vault' once and was impressed with the selection [2023-08-11]\n- Interested in natural language processing (NLP) [2023-08-13]\n- Father has a Master's degree in Computer Science from the University of Illinois at Urbana-Champaign [2023-08-13]\n- Family of tech enthusiasts [2023-08-13]\n- Planning a trip to Disneyland with family [2023-08-19]\n- Enjoyed exclusive \"Summer Nights\" fireworks event (June 15th-16th) at Disney California Adventure Park [2023-08-19; earlier: Enjoyed \"Summer Nights\" fireworks at Disney California Adventure Park, 2023-08-19]\n- Stayed at the Grand Californian Hotel, which feels like it's inside Disney California Adventure Park [2023-08-19; earlier: Stayed at a hotel located within Disney California Adventure Park, 2023-08-19]\n- Interested in the political activism of the band 'The Association' [2023-08-20]\n- Started listening to podcasts around mid-July 2023 [2023-08-24]\n- Interested in learning about topics they are unfamiliar with, specifically entrepreneurship, history, and science [2023-08-24]\n- Prefers conversational, interview-style podcasts where experts share their experiences and insights [2023-08-24]\n- Listens to \"The Daily\" during morning workouts [2023-08-24]\n- Interested in Fulani culture and its emphasis on respecting nature [2023-08-26]\n- Enjoys podcasts and audiobooks [2023-09-17]\n- Likes \"The Power\" by Naomi Alderman [2023-09-17]\n- Likes \"How I Built This\" podcast [2023-09-17]\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"H&M tops\"})"
+  ],
+  "blocks_chars": 2627,
+  "write_steps": 47,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 216.9,
+  "total": 220.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

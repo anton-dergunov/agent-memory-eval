@@ -12,6 +12,7 @@
 | graphiti-chunk | 67 | 18% | 11%–29% |
 | letta | 67 | 69% | 57%–78% |
 | letta-batch | 67 | 58% | 46%–69% |
+| letta-persona | 67 | 90% | 80%–95% |
 
 ### Where answers were lost
 
@@ -27,6 +28,7 @@
 | graphiti-chunk | 12 | 45 | 0 | 0 | 1 | 9 | 15 | 17 |
 | letta | 46 | 15 | 0 | 0 | 2 | 4 | 16 | 24 |
 | letta-batch | 39 | 22 | 0 | 0 | 0 | 6 | 1 | 11 |
+| letta-persona | 60 | 3 | 0 | 0 | 2 | 2 | 6 | 45 |
 
 ### Cost per question (USD, mean)
 
@@ -42,6 +44,7 @@
 | graphiti-chunk | 0.2375 | 0.0000 | 0.0004 | 0.2380 | 120.6 | 897,212 |
 | letta | 0.1298 | 0.0026 | 0.0000 | 0.1324 | 81.2 | 325,687 |
 | letta-batch | 0.0249 | 0.0039 | 0.0000 | 0.0288 | 10.8 | 51,712 |
+| letta-persona | 0.1482 | 0.0036 | 0.0000 | 0.1518 | 87.8 | 398,307 |
 
 ### What each system stored and returned (mean per question)
 
@@ -55,7 +58,8 @@
 - **graphiti-chunk**: edges 57; edges closed (superseded) 0.2; episodes 20; failed episodes 0.00; facts returned 10
 - **letta**: human block chars 1322; questions with an empty human block 0/67; tool calls while answering 2.3; no reply 0/67
 - **letta-batch**: human block chars 109; questions with an empty human block 43/67; tool calls while answering 3.4; no reply 1/67
+- **letta-persona**: human block chars 1586; questions with an empty human block 0/67; tool calls while answering 2.5; no reply 0/67
 
-Judge agreement (gemini-3.1-pro-preview vs gemini-3.8-flash): 118/120 (98%).
+Judge agreement (gemini-3.1-pro-preview vs gemini-3.8-flash): 130/132 (98%).
 
-Spent on this split: $81.97 (of which judging and probes $5.66).
+Spent on this split: $92.66 (of which judging and probes $6.17).

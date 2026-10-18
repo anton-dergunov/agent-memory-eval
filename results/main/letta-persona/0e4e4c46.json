@@ -1,0 +1,124 @@
+{
+ "qid": "0e4e4c46",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What is my current highest score in Ticket to Ride?",
+ "reference": "132 points",
+ "question_date": "2023-06-10 16:46",
+ "sessions": [
+  {
+   "id": "e82ce7cd_3",
+   "date": "2023-04-28 20:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_1",
+   "date": "2023-05-23 03:08",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_97515",
+   "date": "2023-05-23 18:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_puvUs0e_0",
+   "date": "2023-05-24 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_59250",
+   "date": "2023-05-24 09:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_198964",
+   "date": "2023-05-24 18:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Wi7Op1u_39",
+   "date": "2023-05-25 00:38",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhPNTAJ_0",
+   "date": "2023-05-25 07:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_iUc80a8_0",
+   "date": "2023-05-25 10:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_2",
+   "date": "2023-05-25 22:16",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\n[2023-04-28] Plays basketball on Thursday evenings with friends Tom and Alex. Enjoys playing but not watching professional basketball. Plans to pair Chicken Cacciatore with roasted broccoli and garlic and herb roasted potatoes. Wants advice on preventing soreness after sports. Prefers energy bars and trail mix for snacks; dislikes jerky; finds sandwiches/wraps inconvenient for basketball. Looking for affordable energy bar suggestions.\n[2023-05-23] Loves Ticket to Ride; personal best score is 132 points (earlier 124, 2023-05-23). Interested in Carcassonne.\n[2023-05-24] Aiming to grow a beauty YouTube channel to 10,000 subscribers and 40,000 watch hours in 3 months (earlier goal: 1,000 subscribers, 2023-05-24).\n[2023-05-25] Planning to host another game night and looking for game suggestions similar to Ticket to Ride.\n[2023-05-25] Interested in playing the Nordic Kingdoms in Scythe, with a focus on structure building and resource trading.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].",
+ "answer": "Your current personal best score in Ticket to Ride is 132 points (recorded on 2023-05-23).",
+ "dump": "<human>\n\n[2023-04-28] Plays basketball on Thursday evenings with friends Tom and Alex. Enjoys playing but not watching professional basketball. Plans to pair Chicken Cacciatore with roasted broccoli and garlic and herb roasted potatoes. Wants advice on preventing soreness after sports. Prefers energy bars and trail mix for snacks; dislikes jerky; finds sandwiches/wraps inconvenient for basketball. Looking for affordable energy bar suggestions.\n[2023-05-23] Loves Ticket to Ride; personal best score is 132 points (earlier 124, 2023-05-23). Interested in Carcassonne.\n[2023-05-24] Aiming to grow a beauty YouTube channel to 10,000 subscribers and 40,000 watch hours in 3 months (earlier goal: 1,000 subscribers, 2023-05-24).\n[2023-05-25] Planning to host another game night and looking for game suggestions similar to Ticket to Ride.\n[2023-05-25] Interested in playing the Nordic Kingdoms in Scythe, with a focus on structure building and resource trading.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Ticket to Ride score\"})",
+   "memory_search({\"query\": \"Ticket to Ride\"})"
+  ],
+  "blocks_chars": 1901,
+  "write_steps": 40,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 205.6,
+  "total": 211.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "qid": "dad224aa",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What time do I wake up on Saturday mornings?",
+ "reference": "7:30 am",
+ "question_date": "2023-06-24 03:58",
+ "sessions": [
+  {
+   "id": "ultrachat_236936",
+   "date": "2023-05-23 09:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_1",
+   "date": "2023-05-23 14:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_Jb45xGp_0",
+   "date": "2023-05-23 17:54",
+   "evidence": false
+  },
+  {
+   "id": "91e581ad_1",
+   "date": "2023-05-25 20:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_13",
+   "date": "2023-05-25 20:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2Qvu6BM_34",
+   "date": "2023-05-26 15:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_2",
+   "date": "2023-05-27 02:31",
+   "evidence": true
+  },
+  {
+   "id": "3dcbca49",
+   "date": "2023-05-27 05:24",
+   "evidence": false
+  },
+  {
+   "id": "496a03ee",
+   "date": "2023-05-27 07:18",
+   "evidence": false
+  },
+  {
+   "id": "b971ed75_3",
+   "date": "2023-05-27 21:55",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user is interested in local infrastructure and flooding issues (2023-05-23).\nThe user was relieved to find their local government has flood prevention plans (2023-05-23).\nThe user wakes up around 7:30 am on weekends (2023-05-27; earlier 8:30 am, 2023-05-23).\nThe user does a 30-minute jog on Saturdays (2023-05-23).\nThe user is starting a new Sunday morning routine of 30 minutes of yoga/stretching, followed by breakfast and meal prep (2023-05-23).\nThe user is interested in reading \"The Lean Startup\" by Eric Ries to learn about building successful startups (2023-05-23).\nThe user likes French, Napa, and Rhone wines, prefers red, and is interested in vintage advice for these regions (2023-05-23).\nThe user is interested in specific vineyard/bottle recommendations for Cote Rotie, Hermitage, and Crozes-Hermitage (2023-05-23).\nThe user is also interested in Bordeaux wine recommendations (2023-05-23).\nThe user is looking for additional Bordeaux recommendations under $300 (2023-05-23).\nThe user is interested in good vintages for the specific Bordeaux recommendations provided (Saint-Julien, Pessac-Léognan, and Margaux) (2023-05-23).\nThe user is interested in good Bordeaux vintages between 1995 and 2008 (2023-05-23).\nThe user wants vintage recommendations (1995-2008) for the specific Bordeaux estates previously mentioned (Château Canon, Château La Conseillante, Château Léoville-Barton, Château Haut-Bailly, etc.) (2023-05-23).\nThe user has been living in their new apartment since October 15, 2022 (2023-05-25).\nThe user turned 30 recently (2023-05-25).\nThe user prefers a modern and minimalist interior design style (2023-05-25).\nThe user's apartment is 700 sq ft, one-bedroom, and open-plan (2023-05-25).\nThe user's preferred color palette is neutral (beige, gray, white) (2023-05-25).\nThe user wants to emphasize natural light (2023-05-25).\nThe user has a budget of $2,000–$3,000 for decorating (2023-05-25).\nThe user wants their home to reflect a new, more serious chapter in their life as they turn 30 (2023-05-25).\nThe user is interested in incorporating personal mementos from their marathon and triathlon accomplishments into their decor (2023-05-25).\nThe user has decided to use a medal display rack and custom stylized marathon route artwork as part of their interior decor (2023-05-25).\nThe user wants to incorporate specific 21st-century life skills (Critical Thinking, Adaptability, Digital Literacy, Collaborative Problem Solving, and Emotional Intelligence) into their copy (2023-05-26).\nThe user wants a list of essential work, life, and technical skills categorized for a new tradesperson, an entrepreneur, and a leader (2023-05-26).\nThe user lives in a downtown area (2023-05-27).\nThe user is interested in watching The Umbrella Academy (2023-05-27).\nThe user attended the Austin Film Festival from October 22nd to 29th, 2022, and attended a world premiere of the comedy feature \"The Present\" which won the Audience Award for Narrative Feature (2023-05-27).\nThe user is planning a 7-day plank challenge on Instagram to document their daily progress (2023-05-27).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You wake up around 7:30 am on Saturday mornings (2023-05-27; earlier 8:30 am, 2023-05-23).",
+ "dump": "<human>\n\nThe user is interested in local infrastructure and flooding issues (2023-05-23).\nThe user was relieved to find their local government has flood prevention plans (2023-05-23).\nThe user wakes up around 7:30 am on weekends (2023-05-27; earlier 8:30 am, 2023-05-23).\nThe user does a 30-minute jog on Saturdays (2023-05-23).\nThe user is starting a new Sunday morning routine of 30 minutes of yoga/stretching, followed by breakfast and meal prep (2023-05-23).\nThe user is interested in reading \"The Lean Startup\" by Eric Ries to learn about building successful startups (2023-05-23).\nThe user likes French, Napa, and Rhone wines, prefers red, and is interested in vintage advice for these regions (2023-05-23).\nThe user is interested in specific vineyard/bottle recommendations for Cote Rotie, Hermitage, and Crozes-Hermitage (2023-05-23).\nThe user is also interested in Bordeaux wine recommendations (2023-05-23).\nThe user is looking for additional Bordeaux recommendations under $300 (2023-05-23).\nThe user is interested in good vintages for the specific Bordeaux recommendations provided (Saint-Julien, Pessac-Léognan, and Margaux) (2023-05-23).\nThe user is interested in good Bordeaux vintages between 1995 and 2008 (2023-05-23).\nThe user wants vintage recommendations (1995-2008) for the specific Bordeaux estates previously mentioned (Château Canon, Château La Conseillante, Château Léoville-Barton, Château Haut-Bailly, etc.) (2023-05-23).\nThe user has been living in their new apartment since October 15, 2022 (2023-05-25).\nThe user turned 30 recently (2023-05-25).\nThe user prefers a modern and minimalist interior design style (2023-05-25).\nThe user's apartment is 700 sq ft, one-bedroom, and open-plan (2023-05-25).\nThe user's preferred color palette is neutral (beige, gray, white) (2023-05-25).\nThe user wants to emphasize natural light (2023-05-25).\nThe user has a budget of $2,000–$3,000 for decorating (2023-05-25).\nThe user wants their home to reflect a new, more serious chapter in their life as they turn 30 (2023-05-25).\nThe user is interested in incorporating personal mementos from their marathon and triathlon accomplishments into their decor (2023-05-25).\nThe user has decided to use a medal display rack and custom stylized marathon route artwork as part of their interior decor (2023-05-25).\nThe user wants to incorporate specific 21st-century life skills (Critical Thinking, Adaptability, Digital Literacy, Collaborative Problem Solving, and Emotional Intelligence) into their copy (2023-05-26).\nThe user wants a list of essential work, life, and technical skills categorized for a new tradesperson, an entrepreneur, and a leader (2023-05-26).\nThe user lives in a downtown area (2023-05-27).\nThe user is interested in watching The Umbrella Academy (2023-05-27).\nThe user attended the Austin Film Festival from October 22nd to 29th, 2022, and attended a world premiere of the comedy feature \"The Present\" which won the Audience Award for Narrative Feature (2023-05-27).\nThe user is planning a 7-day plank challenge on Instagram to document their daily progress (2023-05-27).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"wake up Saturday\"})"
+  ],
+  "blocks_chars": 4045,
+  "write_steps": 60,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 401.4,
+  "total": 405.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

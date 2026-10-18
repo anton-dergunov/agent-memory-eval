@@ -1,0 +1,134 @@
+{
+ "qid": "6aeb4375",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many Korean restaurants have I tried in my city?",
+ "reference": "four",
+ "question_date": "2023-10-22 15:38",
+ "sessions": [
+  {
+   "id": "sharegpt_I5HWvry_0",
+   "date": "2023-07-12 02:43",
+   "evidence": false
+  },
+  {
+   "id": "c625cff4_3",
+   "date": "2023-07-14 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MD0BL69_53",
+   "date": "2023-07-16 13:37",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FkabWXV_105",
+   "date": "2023-07-25 21:34",
+   "evidence": false
+  },
+  {
+   "id": "26f9a255_2",
+   "date": "2023-07-30 13:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_wbbH6cZ_0",
+   "date": "2023-08-08 23:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MWlvrvZ_0",
+   "date": "2023-08-09 22:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_1",
+   "date": "2023-08-11 09:09",
+   "evidence": true
+  },
+  {
+   "id": "29621a34",
+   "date": "2023-08-11 09:38",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_2",
+   "date": "2023-09-30 15:06",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\n- User interested in SharePoint, network shares, content sources. (2023-07-12)\n- User struggling with sleep, inconsistent schedule; readying at 11:15 PM, bedtime 11:45 PM. (2023-07-14)\n- User desires consistent, brief reading routine; struggles with engrossing books, late nights. (2023-07-14)\n- User prefers physical books, avoids blue light, considers pre-bed screen-free hour. (2023-07-14)\n- John, Jack split roles: John handles tactical, strategic plan; Jack manages individual, Brazilian, key players: diet, wine-free, gym-attending, emotional, relational support, focused, match-ready. (2023-07-16)\n- User creates hypothetical, alternate, historic 1982 Italy-Brazil match scenario; Brazil, winning. (2023-07-16)\n- User looking for datasets for practicing data analysis with Python. (2023-07-30)\n- Expecting or recently had a baby girl (2023-08-09). Interested in Korean names and their Hanja counterparts (2023-08-09).\n- Seeking more Korean girl name suggestions with Hanja (2023-08-09).\n- Requested even more Korean girl name suggestions with Hanja (2023-08-09).\n- Interested in blending Korean naming styles with characters from Chinese romantic novels for a Taiwanese baby (2023-08-09).\n- Last name is Ko (柯) (2023-08-09). Requested 10 baby girl name suggestions blending Korean and Chinese novel influences (2023-08-09).\n- Recently visited three Korean restaurants: one with great bibimbap, one with spicy kimchi stew, and one with a unique sweet potato noodle Japchae. (2023-08-11)\n- Interested in popular music festivals around the world. (2023-08-11)\n- Visited four Korean restaurants total as of (2023-09-30).\n- Planning a dinner party with Korean BBQ, Middle Eastern falafel, and Indian dishes (samosas, saag aloo) (2023-09-30).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T16:16:00.415723+00:00', 'time_ago': '42s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-09-30 15:06] I think I'll go with kimchi and bokkeumbap. By the way, have you tried any good Korean restaurants in my city lately? I've tried four different ones so far, and I'm always looking for new recommendations.\"}]}",
+ "answer": "Based on our conversation on September 30, 2023, you mentioned that you had tried four different Korean restaurants in your city up to that point.",
+ "dump": "<human>\n\n- User interested in SharePoint, network shares, content sources. (2023-07-12)\n- User struggling with sleep, inconsistent schedule; readying at 11:15 PM, bedtime 11:45 PM. (2023-07-14)\n- User desires consistent, brief reading routine; struggles with engrossing books, late nights. (2023-07-14)\n- User prefers physical books, avoids blue light, considers pre-bed screen-free hour. (2023-07-14)\n- John, Jack split roles: John handles tactical, strategic plan; Jack manages individual, Brazilian, key players: diet, wine-free, gym-attending, emotional, relational support, focused, match-ready. (2023-07-16)\n- User creates hypothetical, alternate, historic 1982 Italy-Brazil match scenario; Brazil, winning. (2023-07-16)\n- User looking for datasets for practicing data analysis with Python. (2023-07-30)\n- Expecting or recently had a baby girl (2023-08-09). Interested in Korean names and their Hanja counterparts (2023-08-09).\n- Seeking more Korean girl name suggestions with Hanja (2023-08-09).\n- Requested even more Korean girl name suggestions with Hanja (2023-08-09).\n- Interested in blending Korean naming styles with characters from Chinese romantic novels for a Taiwanese baby (2023-08-09).\n- Last name is Ko (柯) (2023-08-09). Requested 10 baby girl name suggestions blending Korean and Chinese novel influences (2023-08-09).\n- Recently visited three Korean restaurants: one with great bibimbap, one with spicy kimchi stew, and one with a unique sweet potato noodle Japchae. (2023-08-11)\n- Interested in popular music festivals around the world. (2023-08-11)\n- Visited four Korean restaurants total as of (2023-09-30).\n- Planning a dinner party with Korean BBQ, Middle Eastern falafel, and Indian dishes (samosas, saag aloo) (2023-09-30).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Korean restaurants\"})"
+  ],
+  "blocks_chars": 2694,
+  "write_steps": 53,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 286.2,
+  "total": 295.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

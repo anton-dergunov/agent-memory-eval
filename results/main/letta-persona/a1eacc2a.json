@@ -1,0 +1,130 @@
+{
+ "qid": "a1eacc2a",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many short stories have I written since I started writing regularly?",
+ "reference": "seven",
+ "question_date": "2023-06-20 17:03",
+ "sessions": [
+  {
+   "id": "sharegpt_TBa5HKM_0",
+   "date": "2023-04-25 16:51",
+   "evidence": false
+  },
+  {
+   "id": "fde0ca18",
+   "date": "2023-05-05 09:39",
+   "evidence": false
+  },
+  {
+   "id": "20d6c376_2",
+   "date": "2023-05-07 04:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_269248",
+   "date": "2023-05-20 04:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_1",
+   "date": "2023-05-23 18:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_87674",
+   "date": "2023-05-23 23:10",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_50429",
+   "date": "2023-05-25 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_2",
+   "date": "2023-05-30 08:43",
+   "evidence": true
+  },
+  {
+   "id": "09438306_2",
+   "date": "2023-06-09 09:30",
+   "evidence": false
+  },
+  {
+   "id": "521255f7_2",
+   "date": "2023-06-16 20:47",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Is 32 years old (2023-05-05).\n- Recently started contributing to a company 401(k) (2023-05-05).\n- Interested in career development, finance (specifically investing and retirement planning), and personal growth (2023-05-05).\n- Recently hiked to the top of Vernal Falls (13 miles round trip) (2023-05-07).\n- Planning to hike Four Mile Trail in Yosemite; likes early starts and plans to bring a portable coffee maker (2023-05-07).\n- Interested in film, specifically the history and preservation of classic cinema as popularized by The Criterion Collection (2023-05-20).\n- Has written seven short stories since beginning to write regularly (2023-05-30; earlier 4, 2023-05-23).\n- Interested in traveling to Japan, specifically interested in visiting Yakushima and Tottori (2023-05-25).\n- Has been having to get creative with their commute lately, including an Uber that cost $20 when they didn't have access to their car (2023-06-09).\n- Decided to use Citymapper to track their commute, find efficient routes, and encourage more walking (2023-06-09).\n- Interested in poetry and has written a short poem they are proud of (2023-06-16).\n- Attended a writing workshop at a local community center and found it helpful; looking for more workshops or conferences (2023-06-16).\n- Interested in joining online writing communities and forums for connection, feedback, and motivation (2023-06-16).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T19:30:18.257677+00:00', 'time_ago': '28s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is wonderful to hear! A month of consistent writing is a great milestone, and aiming for 500 words a week sounds like a very healthy and sustainable pace. It’s exciting that you’re feeling good about how it’s shaping up.\\n\\nWriter’s block is something almost every writer faces, but I’ve found a few techniques that help me—and might help you—get through those sticky spots.\\n\\n### Brainstorming Techniques\\n*   **The \"What If\" Game:** Ask yourself simple \"what if\" questions that challenge the current situation of your characters. *What if someone unexpected walked into the room? What if the character lost their phone right now? What if they suddenly remembered something they’d been suppressing?*\\n*   **Change the Sensory Perspective:** Sometimes we get stuck because we’re only focused on the dialogue or the plot. Try grounding the scene in sensory details. Focus on what your character smells, hears, or feels physically in the room. Often, describing the environment can spark a new action or reaction.\\n*   **Interview Your Character:** If you feel stuck, step out of the narrative and \"interview\" your character. Ask them, \"Why are you doing this?\" or \"What are you most afraid of right now?\" Writing their answers (even just a few sentences) can often clarify their motivation and give you the next step.\\n\\n### Overcoming Writer’s Block\\n*   **The \"Placeholder\" Method:** If you’re stuck on a specific sentence or a bridge between scenes, don\\'t let it stop you. Write something like `[THEY HAVE A HEATED CONVERSATION ABOUT THE MONEY AND EVENTUALLY LEAVE]` and then jump to the next scene you’re excited about writing. You can come back and fill in the details later.\\n*   **The 10-Minute Timer:** Tell yourself you will write for just 10 minutes—anything at all, even gibberish or a rough summary—and that you are allowed to stop after that. The pressure of \"writing a perfect scene\" is usually what causes the block; lowering the stakes to just \"getting words on the page\" often breaks the tension.\\n*   **Change Your Environment:** If you’ve been writing in the same spot, change it. Go to a park, a different room, or a café. A change in scenery can shift your perspective and get your creative gears turning.\\n\\nHow has the story been going so far? If you feel comfortable sharing a little about where the characters are right now, I\\'d be happy to help you brainstorm some specific \"what if\" scenarios for them!\\n\\n*Memory update: Recorded your progress—you have written seven short stories as of May 30th, and now you are working on a new one that you\\'ve been developing for about a month (2023-06-16).*'}]}",
+ "answer": "You have written seven short stories as of May 30th (2023-05-30). You were working on a new one as of June 16th—are you still working on that one, or has it since become your eighth?",
+ "dump": "<human>\n\n- Is 32 years old (2023-05-05).\n- Recently started contributing to a company 401(k) (2023-05-05).\n- Interested in career development, finance (specifically investing and retirement planning), and personal growth (2023-05-05).\n- Recently hiked to the top of Vernal Falls (13 miles round trip) (2023-05-07).\n- Planning to hike Four Mile Trail in Yosemite; likes early starts and plans to bring a portable coffee maker (2023-05-07).\n- Interested in film, specifically the history and preservation of classic cinema as popularized by The Criterion Collection (2023-05-20).\n- Has written seven short stories since beginning to write regularly (2023-05-30; earlier 4, 2023-05-23).\n- Interested in traveling to Japan, specifically interested in visiting Yakushima and Tottori (2023-05-25).\n- Has been having to get creative with their commute lately, including an Uber that cost $20 when they didn't have access to their car (2023-06-09).\n- Decided to use Citymapper to track their commute, find efficient routes, and encourage more walking (2023-06-09).\n- Interested in poetry and has written a short poem they are proud of (2023-06-16).\n- Attended a writing workshop at a local community center and found it helpful; looking for more workshops or conferences (2023-06-16).\n- Interested in joining online writing communities and forums for connection, feedback, and motivation (2023-06-16).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"short stories\"})"
+  ],
+  "blocks_chars": 2335,
+  "write_steps": 54,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 239.4,
+  "total": 244.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "qid": "c6853660",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+ "reference": "You increased the limit (from one cup to two cups)",
+ "question_date": "2023-06-11 21:37",
+ "sessions": [
+  {
+   "id": "answer_626e93c4_1",
+   "date": "2023-05-25 12:35",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_MhyIwuj_11",
+   "date": "2023-05-26 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_626e93c4_2",
+   "date": "2023-05-26 19:25",
+   "evidence": true
+  },
+  {
+   "id": "e9ce6ef0",
+   "date": "2023-05-28 11:33",
+   "evidence": false
+  },
+  {
+   "id": "cf6f69a1",
+   "date": "2023-06-02 09:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vvCtAZS_0",
+   "date": "2023-06-03 05:57",
+   "evidence": false
+  },
+  {
+   "id": "c592e82c_2",
+   "date": "2023-06-03 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_435535",
+   "date": "2023-06-05 21:41",
+   "evidence": false
+  },
+  {
+   "id": "997bf2fb",
+   "date": "2023-06-06 06:06",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84322",
+   "date": "2023-06-09 00:06",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\n[2023-05-28 11:33] Ross Lake Resort contact info: Phone (206) 386-4437; Email info@rosslakeresort.com.\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n- When assisting with complex tasks like creating frameworks or checklists, I should first clarify the scope or domain, then propose a draft based on best practices, and iterate based on user feedback.\n[2023-06-03 06:10] I am helping the user brainstorm a comprehensive leave management system. I need to guide them through defining the requirements and features.\n</persona>\n\n<human>\n\n[2023-05-25 12:35] Switched to a darker roast coffee.\n[2023-05-25 12:35] Drinks just two cups of coffee in the morning to feel more focused (2023-05-26; earlier one cup, 2023-05-25).\n[2023-05-25 12:35] Uses a French press and is considering a drip coffee maker (2023-05-26; earlier used French press, considering switching back to drip).\n[2023-05-25 12:35] Interested in getting a milk frother for lattes; looking for something easy to use and clean.\n[2023-05-25 12:35] Currently struggling with foam, looking for a milk frother.\n[2023-05-25 12:35] Looking for sweetener recommendations that dissolve well and don't have the aftertaste of stevia (2023-05-26; earlier looking for sweetener recommendations that dissolve well and don't have the aftertaste of stevia, 2023-05-25).\n[2023-05-25 12:35] Focusing on a more intentional morning routine; prefers reading, checking emails, or spending time outside rather than phone scrolling.\n[2023-05-25 12:35] Trying to avoid phone rabbit holes (lost 20 minutes to YouTube yesterday).\n[2023-06-02 09:14] Ate at Bella Vita and loved the Spaghetti Carbonara. Interested in making it at home.\n[2023-06-02 09:14] Interested in making homemade Kimchi.\n[2023-06-03 14:45] Planning a trip to Tokyo in late November; leaning towards staying in a quiet part of Shinjuku.\n[2023-06-06 06:06] Has watched 12 movies in the last 3 months, with 4 of them being Marvel Cinematic Universe films (earlier 43 hours and 12 minutes in the last 3 months, 2023-06-06).\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T16:06:15.790466+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-11 21:37] Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?'}]}",
+ "answer": "You most recently **increased** your coffee consumption. \n\nAccording to your records, you switched from drinking one cup in the morning (on 2023-05-25) to two cups (on 2023-05-26).",
+ "dump": "<persona>\n[2023-05-28 11:33] Ross Lake Resort contact info: Phone (206) 386-4437; Email info@rosslakeresort.com.\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n- When assisting with complex tasks like creating frameworks or checklists, I should first clarify the scope or domain, then propose a draft based on best practices, and iterate based on user feedback.\n[2023-06-03 06:10] I am helping the user brainstorm a comprehensive leave management system. I need to guide them through defining the requirements and features.\n</persona>\n\n<human>\n\n[2023-05-25 12:35] Switched to a darker roast coffee.\n[2023-05-25 12:35] Drinks just two cups of coffee in the morning to feel more focused (2023-05-26; earlier one cup, 2023-05-25).\n[2023-05-25 12:35] Uses a French press and is considering a drip coffee maker (2023-05-26; earlier used French press, considering switching back to drip).\n[2023-05-25 12:35] Interested in getting a milk frother for lattes; looking for something easy to use and clean.\n[2023-05-25 12:35] Currently struggling with foam, looking for a milk frother.\n[2023-05-25 12:35] Looking for sweetener recommendations that dissolve well and don't have the aftertaste of stevia (2023-05-26; earlier looking for sweetener recommendations that dissolve well and don't have the aftertaste of stevia, 2023-05-25).\n[2023-05-25 12:35] Focusing on a more intentional morning routine; prefers reading, checking emails, or spending time outside rather than phone scrolling.\n[2023-05-25 12:35] Trying to avoid phone rabbit holes (lost 20 minutes to YouTube yesterday).\n[2023-06-02 09:14] Ate at Bella Vita and loved the Spaghetti Carbonara. Interested in making it at home.\n[2023-06-02 09:14] Interested in making homemade Kimchi.\n[2023-06-03 14:45] Planning a trip to Tokyo in late November; leaning towards staying in a quiet part of Shinjuku.\n[2023-06-06 06:06] Has watched 12 movies in the last 3 months, with 4 of them being Marvel Cinematic Universe films (earlier 43 hours and 12 minutes in the last 3 months, 2023-06-06).\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"coffee\"})",
+   "conversation_search({\"query\": \"cups\"})"
+  ],
+  "blocks_chars": 2905,
+  "write_steps": 55,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 325.2,
+  "total": 334.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

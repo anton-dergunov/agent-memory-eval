@@ -1,0 +1,133 @@
+{
+ "qid": "0f05491a",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+ "reference": 120,
+ "question_date": "2023-08-01 22:29",
+ "sessions": [
+  {
+   "id": "answer_d6d2eba8_1",
+   "date": "2023-07-11 00:07",
+   "evidence": true
+  },
+  {
+   "id": "1b205d70_2",
+   "date": "2023-07-11 13:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_cfz0d02_36",
+   "date": "2023-07-14 13:56",
+   "evidence": false
+  },
+  {
+   "id": "057cbbc4_1",
+   "date": "2023-07-17 00:41",
+   "evidence": false
+  },
+  {
+   "id": "6024b009_1",
+   "date": "2023-07-20 12:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_224967",
+   "date": "2023-07-22 01:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_447033",
+   "date": "2023-07-23 18:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_rDNsXPP_0",
+   "date": "2023-07-29 18:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6d2eba8_2",
+   "date": "2023-07-30 02:08",
+   "evidence": true
+  },
+  {
+   "id": "ca93550b_1",
+   "date": "2023-08-01 07:00",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Enjoys coffee daily (2023-07-11).\n- Uses Starbucks Rewards app (2023-07-11).\n- Believes Starbucks Rewards Gold status is reached at 120 stars (2023-07-30; earlier 125, 2023-07-11).\n- Plans to try \"Our Missing Hearts\" by Celeste Ng (2023-07-11).\n- Interested in exploring new restaurants in the area (2023-07-11).\n- Met a grocery store employee who works at a local restaurant and intends to visit (2023-07-11).\n- Living in Shimokitazawa (2023-07-17).\n- Working in Shibuya (2023-07-17).\n- Looking for ramen recommendations in Shibuya (2023-07-17).\n- Looking for quiet cafe recommendations in Shimokitazawa for work/reading (2023-07-17).\n- Interested in healthy, zero-waste toppings for yogurt parfaits (2023-07-20).\n- Has a large bag of bulk almonds from Costco (2023-07-20).\n- Appreciated the personal social commentary in Beyoncé's \"Lemonade\" (2023-07-23).\n- Diagnosed with bronchitis, currently recovering from a lingering cough despite taking antibiotics (2023-08-01).\n- Had a benign mole removed from left forearm on January 20th (2023-08-01).\n- Received a flu shot in July 2023 (2023-08-01).\n- Received an HPV vaccine booster in July 2023 (2023-08-01).\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].",
+ "answer": "Based on your Starbucks Rewards app information, you need 120 stars to reach Gold status (as of 2023-07-30; previously 125, 2023-07-11).",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Enjoys coffee daily (2023-07-11).\n- Uses Starbucks Rewards app (2023-07-11).\n- Believes Starbucks Rewards Gold status is reached at 120 stars (2023-07-30; earlier 125, 2023-07-11).\n- Plans to try \"Our Missing Hearts\" by Celeste Ng (2023-07-11).\n- Interested in exploring new restaurants in the area (2023-07-11).\n- Met a grocery store employee who works at a local restaurant and intends to visit (2023-07-11).\n- Living in Shimokitazawa (2023-07-17).\n- Working in Shibuya (2023-07-17).\n- Looking for ramen recommendations in Shibuya (2023-07-17).\n- Looking for quiet cafe recommendations in Shimokitazawa for work/reading (2023-07-17).\n- Interested in healthy, zero-waste toppings for yogurt parfaits (2023-07-20).\n- Has a large bag of bulk almonds from Costco (2023-07-20).\n- Appreciated the personal social commentary in Beyoncé's \"Lemonade\" (2023-07-23).\n- Diagnosed with bronchitis, currently recovering from a lingering cough despite taking antibiotics (2023-08-01).\n- Had a benign mole removed from left forearm on January 20th (2023-08-01).\n- Received a flu shot in July 2023 (2023-08-01).\n- Received an HPV vaccine booster in July 2023 (2023-08-01).\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Starbucks Rewards Gold\"})",
+   "memory_search({\"query\": \"Starbucks Rewards Gold\"})"
+  ],
+  "blocks_chars": 2110,
+  "write_steps": 51,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 320.3,
+  "total": 326.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

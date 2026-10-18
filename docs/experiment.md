@@ -18,6 +18,7 @@ decisions behind it are in [tasks/blog-post-plan.md](tasks/blog-post-plan.md).
 | `honcho-repr` | the same store | the same server | `representation()` retrieval, no model |
 | `graphiti` | a pipeline into a dated graph, one episode per message | graphiti-core 0.31.1 on Neo4j 5.26 (real library) | `search()` defaults |
 | `letta` | the answering agent, with tools, one step per user message | Letta 0.16.8 (real server, its last Python release) | the agent answers itself |
+| `letta-persona` | the same agent, with three lines in its persona on keeping facts current | the same | the agent answers itself |
 
 Every system runs on the same models, on Vertex AI:
 
@@ -86,7 +87,9 @@ repeated model call is served from `.cache/llm`.
 - The first main run fed Graphiti 8,000-character episodes and Letta whole
   sessions in one request; both are kept in `results/main/graphiti-chunk` and
   `letta-batch` and can be reproduced with `MEMEVAL_GRAPHITI_EPISODES=chunk`
-  and `MEMEVAL_LETTA_INGEST=batch`.
+  and `MEMEVAL_LETTA_INGEST=batch`. `letta-persona` is an arm of its own
+  (`LettaPersonaArm`); how it was run is in
+  [tasks/letta-persona-rerun.md](tasks/letta-persona-rerun.md).
 
 ## What is measured
 

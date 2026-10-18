@@ -1,0 +1,125 @@
+{
+ "qid": "1cea1afa",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many Instagram followers do I currently have?",
+ "reference": "600",
+ "question_date": "2023-06-14 13:43",
+ "sessions": [
+  {
+   "id": "answer_79c395a9_1",
+   "date": "2023-05-27 07:39",
+   "evidence": true
+  },
+  {
+   "id": "e06c6d99_5",
+   "date": "2023-05-27 07:54",
+   "evidence": false
+  },
+  {
+   "id": "b86848e2_2",
+   "date": "2023-05-27 11:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_51727",
+   "date": "2023-05-28 02:21",
+   "evidence": false
+  },
+  {
+   "id": "a126eeab_1",
+   "date": "2023-05-28 03:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_468681",
+   "date": "2023-05-28 07:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_82739",
+   "date": "2023-05-28 11:40",
+   "evidence": false
+  },
+  {
+   "id": "e131bcd4",
+   "date": "2023-05-28 15:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_GYN9yoM_0",
+   "date": "2023-05-28 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_79c395a9_2",
+   "date": "2023-05-28 22:57",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nReached 600 followers on Instagram on 2023-05-28 (earlier 500, 2023-05-20). Interested in growing social media presence.\nHas a cat named Luna who is popular with followers. Is a writer working on a manuscript. (2023-05-27)\nInterested in incorporating home strength training with household items, as a supplement to the gym routine. (2023-05-27)\nConcerned about laptop battery life; often works on the go. (2023-05-27)\nInterested in trying various outdoor activities to boost mood and energy. (2023-05-28)\nInstructor's name is Rachel. (2023-05-28)\nConsidering buying a JBL Flip 4 speaker for home dance practice. (2023-05-28)\nInterested in buying a Dell XPS 13. (2023-05-28)\nWorking at Floating Solar, an EPC/system supplier company for floating solar plants. Interested in creating a project roadmap for internal sales use. (2023-05-28)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every message starts with its date. I write that date on each fact I save about the user.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T15:09:34.081263+00:00', 'time_ago': '1s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is a perfect announcement! It’s warm, clear, and gives your followers exactly what they need to participate.\\n\\nA couple of quick final thoughts before you post:\\n\\n*   **Mention the Time:** If you have a specific time in mind (e.g., \"Starting at 10 AM EST tomorrow\"), it helps build that sense of occasion. If you prefer to be flexible, that is totally fine too!\\n*   **Visuals:** Since you are talking about your writing process and freelancing, maybe use a nice photo of your favorite writing spot or your notebook as the background for this announcement story. It helps set the \"vibe\" before you even start the Q&A.\\n\\nYou’re all set to launch. This is a brilliant way to deepen your connection with your audience. I’m excited to hear how it goes—don\\'t forget to come back and let me know which questions were your favorites to answer!'}, {'timestamp': '2026-10-18T15:09:32.495689+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-28 22:57] I\\'m going to post a quick update on my Instagram Story to remind my followers about the Q&A session tomorrow. Here\\'s what I\\'ll say:\\n\\n\"Hey everyone! 🙋\\u200d♀️ Just a quick reminder that I\\'ll be hosting a Q&A session in my Instagram Story tomorrow! 🤔 Ask me anything about my writing process, freelancing, or anything else you\\'re curious about. 📝 Use the \"Question Sticker\" to submit your questions, and I\\'ll do my best to answer as many as I can. 🙏 Thanks for participating, and I\\'m looking forward to chatting with you all tomorrow! 😊 #QandAwith[YourName] #WritingCommunity #FreelanceLife\"'}, {'timestamp': '2026-10-18T15:09:31.685465+00:00', 'time_ago': '4s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That sounds like a perfectly balanced strategy! Addressing common themes is a pro move—it saves you time and ensures your followers get the most impactful information. And providing resources for the questions you can\\'t answer (like linking to a favorite writing tool or a book that helped you) is a great way to build trust and authority.\\n\\nYou’ve got a solid roadmap now:\\n1.  **Tease** the event today.\\n2.  **Launch** with the Question Sticker tomorrow, using a clear theme (writing/freelancing).\\n3.  **Curate** the best questions to answer.\\n4.  **Engage** by thanking your community and sharing additional resources.\\n\\nYou are going to do great! It sounds like you\\'re well on your way to hitting your next follower milestone.\\n\\nIf you ever need help drafting the \"final wrap-up\" post, or if you want to brainstorm that branded hashtag more, just let me know. Good luck with the Q&A—I\\'m sure Luna will be a great co-host in spirit (or in photos)!'}, {'timestamp': '2026-10-18T15:09:29.901021+00:00', 'time_ago': '6s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-28 22:57] I think I'll answer a selection of questions and address common themes. I'll also provide additional resources if I can't answer every question. I'll make sure to communicate with my followers and set expectations. Thanks for the advice!\"}]}",
+ "answer": "According to my records, you reached 600 followers on Instagram on May 28, 2023. I don't have any updates on your follower count since that date.",
+ "dump": "<human>\n\nReached 600 followers on Instagram on 2023-05-28 (earlier 500, 2023-05-20). Interested in growing social media presence.\nHas a cat named Luna who is popular with followers. Is a writer working on a manuscript. (2023-05-27)\nInterested in incorporating home strength training with household items, as a supplement to the gym routine. (2023-05-27)\nConcerned about laptop battery life; often works on the go. (2023-05-27)\nInterested in trying various outdoor activities to boost mood and energy. (2023-05-28)\nInstructor's name is Rachel. (2023-05-28)\nConsidering buying a JBL Flip 4 speaker for home dance practice. (2023-05-28)\nInterested in buying a Dell XPS 13. (2023-05-28)\nWorking at Floating Solar, an EPC/system supplier company for floating solar plants. Interested in creating a project roadmap for internal sales use. (2023-05-28)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every message starts with its date. I write that date on each fact I save about the user.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"followers\"})"
+  ],
+  "blocks_chars": 1661,
+  "write_steps": 54,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 230.8,
+  "total": 233.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

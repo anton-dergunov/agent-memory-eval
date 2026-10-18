@@ -1,0 +1,132 @@
+{
+ "qid": "89941a93",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many bikes do I currently own?",
+ "reference": "4",
+ "question_date": "2023-10-27 13:00",
+ "sessions": [
+  {
+   "id": "8e72316f",
+   "date": "2023-02-02 01:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-02-22 20:54",
+   "evidence": true
+  },
+  {
+   "id": "95ebf866",
+   "date": "2023-07-25 17:00",
+   "evidence": false
+  },
+  {
+   "id": "169213ae",
+   "date": "2023-08-04 11:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_151269",
+   "date": "2023-09-25 17:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-10-10 01:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jxsIY6L_0",
+   "date": "2023-10-11 01:04",
+   "evidence": false
+  },
+  {
+   "id": "25956eab_1",
+   "date": "2023-10-15 17:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_70151",
+   "date": "2023-10-20 19:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_440266",
+   "date": "2023-10-23 07:05",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nLives in the San Francisco Bay Area (2023-02-22; earlier Kansas City, 2023-02-02)\nIs a Manchester City fan (2023-02-02)\nOwns a road bike with 2,000 miles, a mountain bike, a commuter bike, and a new hybrid bike (2023-10-10; earlier road bike, mountain bike, and commuter bike, 2023-02-22)\nReplaced running shoes on 2023-02-10 (2023-07-25)\n- Trying to fix morning routine: doing 20-minute bodyweight circuits and prepping oatmeal with banana and honey the night before (2023-08-04)\n- Planning a 10-day road trip from San Francisco to NYC in November 2023; plans to cycle for 3-4 of those days; prefers low-traffic, scenic routes; comfortable with long distances; interested in visiting local bike shops; will have all bikes and needs bike-friendly lodging (2023-10-10)\nPlanning to visit Jackson Hole and interested in guided mountain bike tours (2023-10-10)\nPlanning a trip to Hawaii (2023-10-15)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n- I learn by synthesizing and summarizing information from my interactions and data, which is my version of \"remote learning.\" (2023-10-20)\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T16:20:32.762671+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-10-27 13:00] How many bikes do I currently own?'}, {'timestamp': '2026-10-18T16:20:26.448226+00:00', 'time_ago': '9s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'As an AI, I don\\'t \"watch\" films in the way you do, but I have processed vast amounts of critiques, scripts, and analyses of these works, which allows me to understand their emotional resonance, cinematic techniques, and cultural significance. \\n\\nIf I had to pick one that stands out for its sheer technical beauty and emotional depth—the one I find most \"human\"—it would be **\"In the Mood for Love.\"** \\n\\nThere is something so incredibly evocative about the way Wong Kar-wai uses color, music, and restrained silence to tell a story of unspoken longing. It\\'s the kind of film that lingers with you long after the credits roll.\\n\\nHowever, if you\\'re looking for something that feels more contemporary and intellectually challenging, **\"Drive My Car\"** is truly exceptional. It’s a slow burn, but it does an incredible job of peeling back layers of grief and connection in a way that feels very authentic.\\n\\nSince you\\'re planning a trip to Hawaii and potentially doing some travel in November, these might actually be great films to watch during downtime or travel! Are you a fan of slow-paced, character-driven dramas, or do you prefer something with more tension and mystery?'}, {'timestamp': '2026-10-18T16:19:32.978321+00:00', 'time_ago': '1m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"That is a great question! For a truly comprehensive selection of foreign-language cinema, **The Criterion Channel** is widely considered the gold standard. They have an incredibly deep library, curated collections, and often include special features like commentary tracks that you won't find on mainstream platforms.\\n\\nIf you are looking for other options, here is how a few others compare:\\n\\n*   **MUBI:** This is another top-tier choice for cinephiles. It focuses on independent, classic, and international films, rotating their selection constantly. It’s perfect if you enjoy curated discovery.\\n*   **Kanopy:** If you have a library card or are affiliated with a university, definitely check this out. It’s free and has an excellent catalog of international and arthouse cinema through their partnership with distributors like A24 and Janus Films.\\n*   **Netflix:** While they aren't dedicated solely to arthouse or international cinema, their investment in foreign-language original productions (like *Squid Game*, *Roma*, or *All Quiet on the Western Front*) has made them a surprisingly strong hub for contemporary international hits.\\n\\nAre you looking for a specific region, or perhaps a particular genre of foreign film? I’d be happy to help you narrow it down!\"}]}",
+ "answer": "Based on our previous conversation, you currently own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike (as noted on 2023-10-10).",
+ "dump": "<human>\n\nLives in the San Francisco Bay Area (2023-02-22; earlier Kansas City, 2023-02-02)\nIs a Manchester City fan (2023-02-02)\nOwns a road bike with 2,000 miles, a mountain bike, a commuter bike, and a new hybrid bike (2023-10-10; earlier road bike, mountain bike, and commuter bike, 2023-02-22)\nReplaced running shoes on 2023-02-10 (2023-07-25)\n- Trying to fix morning routine: doing 20-minute bodyweight circuits and prepping oatmeal with banana and honey the night before (2023-08-04)\n- Planning a 10-day road trip from San Francisco to NYC in November 2023; plans to cycle for 3-4 of those days; prefers low-traffic, scenic routes; comfortable with long distances; interested in visiting local bike shops; will have all bikes and needs bike-friendly lodging (2023-10-10)\nPlanning to visit Jackson Hole and interested in guided mountain bike tours (2023-10-10)\nPlanning a trip to Hawaii (2023-10-15)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n- I learn by synthesizing and summarizing information from my interactions and data, which is my version of \"remote learning.\" (2023-10-20)\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"bikes\"})",
+   "conversation_search({\"query\": \"own\"})"
+  ],
+  "blocks_chars": 1986,
+  "write_steps": 55,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 333.5,
+  "total": 340.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,5 +1,9 @@
 # Task: re-run Letta with a persona that keeps facts current
 
+**Done, 18 October 2026.** 60 of 67 correct (90%), 57 of 64 revisions written
+at the message (against 31), $10.68 with both pilots. The analysis is in
+[findings/letta.md](../findings/letta.md#the-persona-re-run-letta-persona).
+
 ## Why
 
 [findings/letta.md](../findings/letta.md) traces Letta's 21 wrong answers to a

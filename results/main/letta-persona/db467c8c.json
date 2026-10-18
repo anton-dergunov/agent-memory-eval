@@ -1,0 +1,126 @@
+{
+ "qid": "db467c8c",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How long have my parents been staying with me in the US?",
+ "reference": "nine months",
+ "question_date": "2023-10-22 09:15",
+ "sessions": [
+  {
+   "id": "sharegpt_wrN9uUo_53",
+   "date": "2023-06-23 06:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_165276",
+   "date": "2023-07-08 02:17",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ocf8Lud_39",
+   "date": "2023-07-11 23:49",
+   "evidence": false
+  },
+  {
+   "id": "76967d22",
+   "date": "2023-07-16 03:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_1",
+   "date": "2023-07-16 07:07",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_48690",
+   "date": "2023-07-20 20:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_497634",
+   "date": "2023-09-21 19:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_2",
+   "date": "2023-10-20 00:00",
+   "evidence": true
+  },
+  {
+   "id": "16ebc8f8_1",
+   "date": "2023-10-20 04:34",
+   "evidence": false
+  },
+  {
+   "id": "08693f68_1",
+   "date": "2023-10-20 12:15",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-07-16 03:28] Used to live in NYC and is planning a trip back.\n[2023-07-16 03:28] Lived in the West Village, NYC. Interested in marketing industry networking events and conferences.\n[2023-07-16 03:28] Marketing specialist with ~9 months of experience. Interested in staying up-to-date with industry trends.\n[2023-07-16 03:28] Considering a career transition into the non-profit sector. Seeking advice on networking with professionals in that field.\n[2023-07-16 03:28] Used to live in NYC and is planning a trip back.\n[2023-07-16 03:28] Lived in the West Village, NYC. Interested in marketing industry networking events and conferences.\n[2023-07-16 03:28] Marketing specialist with ~9 months of experience. Interested in staying up-to-date with industry trends.\n[2023-07-16 03:28] Considering a career transition into the non-profit sector. Seeking advice on networking with professionals in that field.\n[2023-10-20 00:00] Parents have lived with them in the US for nine months (2023-10-20; earlier 6 months, 2023-07-16) and help with chores, cooking, and taking English classes.\n[2023-10-20 04:34] Interested in learning more about cooking techniques and recipes; asked for recommendations for cooking classes or online resources.\n[2023-10-20 12:20] Currently working on improving salsa side-to-side shimmies for Zumba classes, with a goal to master them by the following Tuesday.\n[2023-10-20 12:45] Planning to try a spinning class for the first time next month, encouraged by friend Emily. Considering switching up the usual Tuesday Zumba routine to incorporate this new activity.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on my records, your parents have been staying with you in the US for nine months as of October 20, 2023. Prior to that, they had been staying with you for six months as of July 16, 2023.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-07-16 03:28] Used to live in NYC and is planning a trip back.\n[2023-07-16 03:28] Lived in the West Village, NYC. Interested in marketing industry networking events and conferences.\n[2023-07-16 03:28] Marketing specialist with ~9 months of experience. Interested in staying up-to-date with industry trends.\n[2023-07-16 03:28] Considering a career transition into the non-profit sector. Seeking advice on networking with professionals in that field.\n[2023-07-16 03:28] Used to live in NYC and is planning a trip back.\n[2023-07-16 03:28] Lived in the West Village, NYC. Interested in marketing industry networking events and conferences.\n[2023-07-16 03:28] Marketing specialist with ~9 months of experience. Interested in staying up-to-date with industry trends.\n[2023-07-16 03:28] Considering a career transition into the non-profit sector. Seeking advice on networking with professionals in that field.\n[2023-10-20 00:00] Parents have lived with them in the US for nine months (2023-10-20; earlier 6 months, 2023-07-16) and help with chores, cooking, and taking English classes.\n[2023-10-20 04:34] Interested in learning more about cooking techniques and recipes; asked for recommendations for cooking classes or online resources.\n[2023-10-20 12:20] Currently working on improving salsa side-to-side shimmies for Zumba classes, with a goal to master them by the following Tuesday.\n[2023-10-20 12:45] Planning to try a spinning class for the first time next month, encouraged by friend Emily. Considering switching up the usual Tuesday Zumba routine to incorporate this new activity.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"parents staying\"})"
+  ],
+  "blocks_chars": 2538,
+  "write_steps": 49,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 233.9,
+  "total": 237.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

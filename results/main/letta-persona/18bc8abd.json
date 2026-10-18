@@ -1,0 +1,122 @@
+{
+ "qid": "18bc8abd",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What brand of BBQ sauce am I currently obsessed with?",
+ "reference": "Kansas City Masterpiece",
+ "question_date": "2023-07-15 07:37",
+ "sessions": [
+  {
+   "id": "ultrachat_225891",
+   "date": "2023-03-25 13:37",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_528423",
+   "date": "2023-03-31 23:20",
+   "evidence": false
+  },
+  {
+   "id": "9f9384ed_1",
+   "date": "2023-04-03 10:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_570209",
+   "date": "2023-04-05 12:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_1",
+   "date": "2023-04-16 02:28",
+   "evidence": true
+  },
+  {
+   "id": "aed8cf17_2",
+   "date": "2023-05-12 11:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_25205",
+   "date": "2023-06-07 19:12",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_452189",
+   "date": "2023-06-15 22:14",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_290148",
+   "date": "2023-06-18 06:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_2",
+   "date": "2023-06-30 05:15",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Started therapy (2023-04-03)\n- Interested in 4-7-8 breathing and Headspace for stress management (2023-04-03)\n- Interested in resources for processing emotions and grief (2023-04-03)\n- Planning to attend Festival de la Sierra Gorda (2023-04-05)\n- Planning a backyard BBQ with brisket and ribs (2023-04-16)\n- Plans to use Post Oak wood chips for smoking brisket (2023-04-16)\n- Recently acquired a Weber gas grill for weeknight dinners (2023-06-30)\n- Loves Kansas City Masterpiece BBQ sauce (2023-06-30; earlier Sweet Baby Ray's, 2023-04-16)\n- Interested in auto racing and track events (2023-05-12)\n- Recently completed 10 laps at Speed Demon Racing Track with an 85mph average (2023-05-12)\n- Performed engine maintenance: replaced spark plugs with NGK (2023-05-12)\n- Had dyno test at Performance Garage: 240 horsepower (2023-05-12)\n</human>\n\nTool results while answering:\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T16:12:06.890612+00:00', 'time_ago': '5s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-30 05:15] I'm thinking of serving my BBQ pulled pork on a bun with some coleslaw and pickles. Do you have any recommendations for a good BBQ sauce to serve with it? Currently, my favourite is Kansas City Masterpiece BBQ sauce, but I'm open to trying other options.\"}, {'timestamp': '2026-10-18T16:11:59.051818+00:00', 'time_ago': '13s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'Since you\\'ll have your Weber gas grill fired up, it’s the perfect time to elevate those classic backyard staples! Here are a few ways to take your burgers and hot dogs to the next level:\\n\\n### Elevating Your Burgers\\nInstead of a standard patty, try these twists:\\n\\n*   **The \"Flavor-Bomb\" Patty:** Mix your ground beef (go for 80/20 lean-to-fat ratio) with finely minced shallots, a splash of Worcestershire sauce, and a teaspoon of smoked paprika. For an extra punch, stuff a small cube of blue cheese or cheddar right into the center of the patty before sealing it.\\n*   **Unique Toppings:**\\n    *   **The \"Crunch\":** Crispy fried onions or even crushed potato chips add a fantastic texture contrast.\\n    *   **The \"Sweet & Savory\":** A slice of melted brie topped with fig jam is surprisingly sophisticated and pairs beautifully with beef.\\n    *   **The \"Shortcut\":** Use some of that **Kansas City Masterpiece BBQ sauce** as a glaze for the last minute of grilling—it creates a sticky, delicious crust.\\n    *   **Pickled Everything:** Besides red onions, try pickled jalapeños or even thin slices of pickled green tomatoes.\\n\\n### Upgrading Your Hot Dogs\\nHot dogs don\\'t have to be basic. Try these preparations:\\n\\n*   **The \"Spiral Cut\":** This is a game-changer. Take a skewer, insert it through the dog, and use a knife to cut a spiral around the skewer from end to end. When you grill it, the edges get incredibly crispy and caramelized, and the spirals act like little \"pockets\" to hold your condiments.\\n*   **Creative Toppings:**\\n    *   **The \"Elote\" Dog:** Top your hot dog with grilled corn kernels, cotija cheese, a drizzle of lime crema, and a sprinkle of chili-lime seasoning (like Tajín).\\n    *   **The \"Bacon-Wrapped\":** Wrap the hot dog in a thin strip of bacon and secure with a toothpick before grilling. The bacon fat bastes the dog as it cooks.\\n    *   **The \"Asian-Fusion\":** Top with spicy kimchi or a quick slaw made with sesame oil and soy sauce.\\n\\n### General Grilling Tip for Burgers & Dogs:\\n*   **Don\\'t Over-Flip:** Let the meat form a good crust before you try to move it. If it’s sticking to the grate, it’s usually not ready to be flipped yet.\\n*   **Toast Your Buns:** Never skip this! A light brushing of butter or mayo on the inside of the buns and a quick toast on the grill adds a layer of texture that keeps the bun from getting soggy.\\n\\nSince you\\'re planning on a big menu with brisket, burgers, and dogs, you\\'re going to be a busy pitmaster! Are you thinking of doing a \"topping bar\" where people can assemble their own, or do you have a specific \"signature\" style in mind?'}, {'timestamp': '2026-10-18T16:11:50.065987+00:00', 'time_ago': '22s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'Smoked brisket is so rich and flavorful, so you definitely want sides that provide a nice contrast—think bright, acidic, and crunchy! Here are a few suggestions to round out your BBQ:\\n\\n### Sides that Pair Perfectly with Brisket\\n*   **Pickled Red Onions & Jalapeños:** These are essential. The sharp acidity cuts right through the fatty brisket.\\n*   **Cornbread:** A classic. You can add a little bit of honey or jalapeño to yours to make it special.\\n*   **Baked Beans:** A staple. You can kick them up by adding some of those smoked brisket trimmings or a bit of your favorite BBQ sauce.\\n*   **Potato Salad:** ",
+ "answer": "You are currently obsessed with Kansas City Masterpiece BBQ sauce!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Started therapy (2023-04-03)\n- Interested in 4-7-8 breathing and Headspace for stress management (2023-04-03)\n- Interested in resources for processing emotions and grief (2023-04-03)\n- Planning to attend Festival de la Sierra Gorda (2023-04-05)\n- Planning a backyard BBQ with brisket and ribs (2023-04-16)\n- Plans to use Post Oak wood chips for smoking brisket (2023-04-16)\n- Recently acquired a Weber gas grill for weeknight dinners (2023-06-30)\n- Loves Kansas City Masterpiece BBQ sauce (2023-06-30; earlier Sweet Baby Ray's, 2023-04-16)\n- Interested in auto racing and track events (2023-05-12)\n- Recently completed 10 laps at Speed Demon Racing Track with an 85mph average (2023-05-12)\n- Performed engine maintenance: replaced spark plugs with NGK (2023-05-12)\n- Had dyno test at Performance Garage: 240 horsepower (2023-05-12)\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"BBQ sauce\"})"
+  ],
+  "blocks_chars": 1784,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 327.5,
+  "total": 334.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

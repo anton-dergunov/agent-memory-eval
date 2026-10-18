@@ -1,0 +1,141 @@
+{
+ "qid": "08e075c7",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How long have I been using my Fitbit Charge 3?",
+ "reference": "9 months",
+ "question_date": "2023-09-04 17:07",
+ "sessions": [
+  {
+   "id": "25b3e36c_1",
+   "date": "2023-06-01 00:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_1",
+   "date": "2023-06-18 00:59",
+   "evidence": true
+  },
+  {
+   "id": "f7344cf4",
+   "date": "2023-06-30 22:55",
+   "evidence": false
+  },
+  {
+   "id": "a8ef396f_2",
+   "date": "2023-07-16 07:55",
+   "evidence": false
+  },
+  {
+   "id": "ae77c245",
+   "date": "2023-08-04 00:36",
+   "evidence": false
+  },
+  {
+   "id": "242eab28_2",
+   "date": "2023-08-05 06:23",
+   "evidence": false
+  },
+  {
+   "id": "77827bdf",
+   "date": "2023-08-12 18:01",
+   "evidence": false
+  },
+  {
+   "id": "a5808e7d_1",
+   "date": "2023-08-22 11:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_2",
+   "date": "2023-09-02 01:13",
+   "evidence": true
+  },
+  {
+   "id": "9037e55b",
+   "date": "2023-09-02 22:40",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Owns a smartwatch (purchased for <$249.99 on 2023-06-01)\n- Planning to track workouts more closely (2023-06-01)\n- Interested in tracking nutrition (2023-06-01)\n- Interested in sleep tracking and analysis (2023-06-01)\n- Considering purchasing a Fitbit Inspire HR for sleep tracking (2023-06-01)\n- Has been using a Fitbit Charge 3 for 9 months (2023-09-02; earlier 6 months, 2023-06-18)\n- Having issues with knees during yoga (2023-06-18)\n- Interested in a thicker yoga mat (2023-06-18)\n- Considering the Hugger Mugger ParaMat (2023-06-18)\n- Decided on the Hugger Mugger ParaMat (2023-06-18)\n- Lives in Kansas City, Missouri (2023-06-30)\n- Interested in Formula 1; learning about technical aspects and history (2023-06-30); planning a Formula 1 viewing party (2023-06-30)\n- Recently received Limited Edition Disney Princess doll set (pre-ordered from Amazon in Feb 2023) (2023-07-16)\n- Recently acquired a 1950s-era Rolleiflex camera (2023-07-16)\n- Interested in the value of a rare 1990s Spiderman action figure (original packaging, worn) and vintage cameras (2023-07-16)\n- Owns a 1960s-era Canon rangefinder (inherited from grandfather, mint condition) (2023-07-16)\n- Recently took a road trip to Yellowstone with family (2023-08-04)\n- Drove 2,500 miles over 7 days on the Yellowstone road trip (2023-08-04)\n- Drove to San Francisco last weekend (2023-08-04)\n- Planning a ski vacation to Colorado for later this winter (2023-08-05)\n- Considering using travel rewards points for a flight (2023-08-05)\n- Interested in ski-specialized agencies: Ski.com and Mountain Travel Sobek (2023-08-05)\n- Used Expedia for a last-minute Boston trip last month (2023-08-05)\n- Considering staying in Breckenridge for ski vacation (2023-08-05)\n- Never skied before; will need lessons and equipment rentals (2023-08-05)\n- In the process of buying a home and moving (2023-08-12)\n- Owns a baby grand piano that needs to be moved (2023-08-12)\n- Interested in learning Facebook Ads and Google Ads (2023-08-22)\n- Considering Trello or Asana for project management (2023-09-02)\n- Business name: CreativeSpark Marketing (2023-09-02)\n- Started business 3 months ago (2023-09-02)\n- Prioritizing ease of use and scalability for PM tool (2023-09-02)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n\n- Owns a smartwatch (purchased for <$249.99 on 2023-06-01)\n- Planning to track workouts more closely (2023-06-01)\n- Interested in tracking nutrition (2023-06-01)\n- Interested in sleep tracking and analysis (2023-06-01)\n- Considering purchasing a Fitbit Inspire HR for sleep tracking (2023-06-01)\n- Has been using a Fitbit Charge 3 for 9 months (2023-09-02; earlier 6 months, 2023-06-18)\n- Having issues with knees during yoga (2023-06-18)\n- Interested in a thicker yoga mat (2023-06-18)\n- Considering the Hugger Mugger ParaMat (2023-06-18)\n- Decided on the Hugger Mugger ParaMat (2023-06-18)\n- Lives in Kansas City, Missouri (2023-06-30)\n- Interested in Formula 1; learning about technical aspects and history (2023-06-30); planning a Formula 1 viewing party (2023-06-30)\n- Recently received Limited Edition Disney Princess doll set (pre-ordered from Amazon in Feb 2023) (2023-07-16)\n- Recently acquired a 1950s-era Rolleiflex camera (2023-07-16)\n- Interested in the value of a rare 1990s Spiderman action figure (original packaging, worn) and vintage cameras (2023-07-16)\n- Owns a 1960s-era Canon rangefinder (inherited from grandfather, mint condition) (2023-07-16)\n- Recently took a road trip to Yellowstone with family (2023-08-04)\n- Drove 2,500 miles over 7 days on the Yellowstone road trip (2023-08-04)\n- Drove to San Francisco last weekend (2023-08-04)\n- Planning a ski vacation to Colorado for later this winter (2023-08-05)\n- Considering using travel rewards points for a flight (2023-08-05)\n- Interested in ski-specialized agencies: Ski.com and Mountain Travel Sobek (2023-08-05)\n- Used Expedia for a last-minute Boston trip last month (2023-08-05)\n- Considering staying in Breckenridge for ski vacation (2023-08-05)\n- Never skied before; will need lessons and equipment rentals (2023-08-05)\n- In the process of buying a home and moving (2023-08-12)\n- Owns a baby grand piano that needs to be moved (2023-08-12)\n- Interested in learning Facebook Ads and Google Ads (2023-08-22)\n- Considering Trello or Asana for project management (2023-09-02)\n- Business name: CreativeSpark Marketing (2023-09-02)\n- Started business 3 months ago (2023-09-02)\n- Prioritizing ease of use and scalability for PM tool (2023-09-02)",
+ "answer": "According to my records, you have been using your Fitbit Charge 3 for 9 months as of September 2, 2023.",
+ "dump": "<human>\n\n- Owns a smartwatch (purchased for <$249.99 on 2023-06-01)\n- Planning to track workouts more closely (2023-06-01)\n- Interested in tracking nutrition (2023-06-01)\n- Interested in sleep tracking and analysis (2023-06-01)\n- Considering purchasing a Fitbit Inspire HR for sleep tracking (2023-06-01)\n- Has been using a Fitbit Charge 3 for 9 months (2023-09-02; earlier 6 months, 2023-06-18)\n- Having issues with knees during yoga (2023-06-18)\n- Interested in a thicker yoga mat (2023-06-18)\n- Considering the Hugger Mugger ParaMat (2023-06-18)\n- Decided on the Hugger Mugger ParaMat (2023-06-18)\n- Lives in Kansas City, Missouri (2023-06-30)\n- Interested in Formula 1; learning about technical aspects and history (2023-06-30); planning a Formula 1 viewing party (2023-06-30)\n- Recently received Limited Edition Disney Princess doll set (pre-ordered from Amazon in Feb 2023) (2023-07-16)\n- Recently acquired a 1950s-era Rolleiflex camera (2023-07-16)\n- Interested in the value of a rare 1990s Spiderman action figure (original packaging, worn) and vintage cameras (2023-07-16)\n- Owns a 1960s-era Canon rangefinder (inherited from grandfather, mint condition) (2023-07-16)\n- Recently took a road trip to Yellowstone with family (2023-08-04)\n- Drove 2,500 miles over 7 days on the Yellowstone road trip (2023-08-04)\n- Drove to San Francisco last weekend (2023-08-04)\n- Planning a ski vacation to Colorado for later this winter (2023-08-05)\n- Considering using travel rewards points for a flight (2023-08-05)\n- Interested in ski-specialized agencies: Ski.com and Mountain Travel Sobek (2023-08-05)\n- Used Expedia for a last-minute Boston trip last month (2023-08-05)\n- Considering staying in Breckenridge for ski vacation (2023-08-05)\n- Never skied before; will need lessons and equipment rentals (2023-08-05)\n- In the process of buying a home and moving (2023-08-12)\n- Owns a baby grand piano that needs to be moved (2023-08-12)\n- Interested in learning Facebook Ads and Google Ads (2023-08-22)\n- Considering Trello or Asana for project management (2023-09-02)\n- Business name: CreativeSpark Marketing (2023-09-02)\n- Started business 3 months ago (2023-09-02)\n- Prioritizing ease of use and scalability for PM tool (2023-09-02)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Fitbit Charge 3\"})",
+   "memory_replace({\"label\": \"human\", \"new_string\": \"- Has been using a Fitbit Charge 3 for 9 months (2023-09-02; earlier 6 months, 2023-06-18)\", \"old_string\": \"- Has been using a Fitbit Charge 3 for 9 months (2023-09-02; earlier 6 months, 2023-06-18)\"})"
+  ],
+  "blocks_chars": 3172,
+  "write_steps": 60,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 327.3,
+  "total": 333.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

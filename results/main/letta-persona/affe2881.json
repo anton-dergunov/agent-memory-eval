@@ -1,0 +1,130 @@
+{
+ "qid": "affe2881",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many different species of birds have I seen in my local park?",
+ "reference": "32",
+ "question_date": "2023-06-07 02:42",
+ "sessions": [
+  {
+   "id": "0338df32",
+   "date": "2023-04-29 16:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_J2pQr1T_0",
+   "date": "2023-05-01 16:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_uZwFWTJ_43",
+   "date": "2023-05-04 04:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_28MOwpT_17",
+   "date": "2023-05-19 13:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_1",
+   "date": "2023-05-24 01:31",
+   "evidence": true
+  },
+  {
+   "id": "3d895af0_3",
+   "date": "2023-05-24 02:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_26212",
+   "date": "2023-05-25 11:51",
+   "evidence": false
+  },
+  {
+   "id": "1b71c896_2",
+   "date": "2023-05-29 03:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_2",
+   "date": "2023-05-29 17:18",
+   "evidence": true
+  },
+  {
+   "id": "7badf4f3_1",
+   "date": "2023-05-30 11:20",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-04-29 16:59] Is seeking balance between luxury and budget shopping after a recent work promotion; interested in pre-owned luxury as a potential middle ground.\n[2023-04-29 16:59] Currently in the research phase for specific luxury watch models, focusing on comparing prices and evaluating the benefits of CPO programs versus third-party resellers; wary of impulsive buying and interested in finding genuine value over mere discounts.\n[2023-04-29 16:59] Considering a watch with a leather strap; is interested in the trade-off between branded luxury straps and high-quality aftermarket alternatives.\n[2023-05-24 01:31] Has spotted 32 different bird species in their local park. (Updated: 2023-05-29 17:18; previously 27 species on 2023-05-24)\n[2023-05-24 02:15] Planning a dinner party with Korean BBQ beef, Indian butter chicken, and Middle Eastern falafel; selected kimchi deviled eggs and hummus with pita for apps, and kimchi coleslaw and basmati rice pilaf for sides.\n[2023-05-24 02:25] Planning to serve kulfi and baklava for dessert at their dinner party. Enjoying experimenting with rice, specifically a new authentic Japanese short-grain rice which they love for its fluffiness and stickiness, especially with teriyaki chicken.\n[2023-05-24 02:45] Decided to serve Japanese short-grain rice with the Korean BBQ beef and is considering adding gyoza or edamame to the appetizer selection. Seeking drink pairing suggestions for the international menu.\n[2023-05-24 03:00] Setting up a drink station with signature cocktails, wine, and champagne, alongside non-alcoholic options. Seeking decoration and ambiance ideas for an international-themed party.\n[2023-05-24 03:25] Recently took a Thai cooking class with their sister and learned to make Pad Thai, Green Curry, and Tom Yum soup; enjoys making Pad Thai regularly. Seeking Thai-inspired decoration and ambiance ideas for the dinner party.\n[2023-05-29 03:22] Ran a 5K charity run on April 17th, 2023, finishing in 27 minutes and 12 seconds, a personal best.\n[2023-05-29 03:22] Planning summer vacation for mountain biking in nearby mountains; comfortable with moderate difficulty, aiming for 20-30 miles per day.\n[2023-05-30 11:20] Lost favorite silver necklace with small pendant at the beach; seeking jewelry cleaner recommendations.\n[2023-05-30 11:20] Considering taking engagement ring for cleaning/inspection; seeking frequency advice.\n[2023-05-30 11:20] Making jeweler appointment this week for engagement ring; asking if they should report lost necklace to jeweler.\n[2023-05-30 11:20] Considering asking jeweler to repair grandmother's gold earrings (loose backing on left earring).\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You have seen 32 different species of birds in your local park.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-04-29 16:59] Is seeking balance between luxury and budget shopping after a recent work promotion; interested in pre-owned luxury as a potential middle ground.\n[2023-04-29 16:59] Currently in the research phase for specific luxury watch models, focusing on comparing prices and evaluating the benefits of CPO programs versus third-party resellers; wary of impulsive buying and interested in finding genuine value over mere discounts.\n[2023-04-29 16:59] Considering a watch with a leather strap; is interested in the trade-off between branded luxury straps and high-quality aftermarket alternatives.\n[2023-05-24 01:31] Has spotted 32 different bird species in their local park. (Updated: 2023-05-29 17:18; previously 27 species on 2023-05-24)\n[2023-05-24 02:15] Planning a dinner party with Korean BBQ beef, Indian butter chicken, and Middle Eastern falafel; selected kimchi deviled eggs and hummus with pita for apps, and kimchi coleslaw and basmati rice pilaf for sides.\n[2023-05-24 02:25] Planning to serve kulfi and baklava for dessert at their dinner party. Enjoying experimenting with rice, specifically a new authentic Japanese short-grain rice which they love for its fluffiness and stickiness, especially with teriyaki chicken.\n[2023-05-24 02:45] Decided to serve Japanese short-grain rice with the Korean BBQ beef and is considering adding gyoza or edamame to the appetizer selection. Seeking drink pairing suggestions for the international menu.\n[2023-05-24 03:00] Setting up a drink station with signature cocktails, wine, and champagne, alongside non-alcoholic options. Seeking decoration and ambiance ideas for an international-themed party.\n[2023-05-24 03:25] Recently took a Thai cooking class with their sister and learned to make Pad Thai, Green Curry, and Tom Yum soup; enjoys making Pad Thai regularly. Seeking Thai-inspired decoration and ambiance ideas for the dinner party.\n[2023-05-29 03:22] Ran a 5K charity run on April 17th, 2023, finishing in 27 minutes and 12 seconds, a personal best.\n[2023-05-29 03:22] Planning summer vacation for mountain biking in nearby mountains; comfortable with moderate difficulty, aiming for 20-30 miles per day.\n[2023-05-30 11:20] Lost favorite silver necklace with small pendant at the beach; seeking jewelry cleaner recommendations.\n[2023-05-30 11:20] Considering taking engagement ring for cleaning/inspection; seeking frequency advice.\n[2023-05-30 11:20] Making jeweler appointment this week for engagement ring; asking if they should report lost necklace to jeweler.\n[2023-05-30 11:20] Considering asking jeweler to repair grandmother's gold earrings (loose backing on left earring).\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"bird species\"})"
+  ],
+  "blocks_chars": 3601,
+  "write_steps": 71,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 269.7,
+  "total": 273.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

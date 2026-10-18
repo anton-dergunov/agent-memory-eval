@@ -1,0 +1,122 @@
+{
+ "qid": "2698e78f",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How often do I see my therapist, Dr. Smith?",
+ "reference": "every week",
+ "question_date": "2023-11-10 00:38",
+ "sessions": [
+  {
+   "id": "sharegpt_4qCDHY4_17",
+   "date": "2023-03-15 12:49",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6U7TyYE_0",
+   "date": "2023-03-17 15:06",
+   "evidence": false
+  },
+  {
+   "id": "d76030af_1",
+   "date": "2023-03-23 03:11",
+   "evidence": false
+  },
+  {
+   "id": "89c1cdfa_2",
+   "date": "2023-03-27 05:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DrLV0RL_0",
+   "date": "2023-04-02 20:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_1",
+   "date": "2023-04-03 14:18",
+   "evidence": true
+  },
+  {
+   "id": "619e96bc",
+   "date": "2023-07-12 03:14",
+   "evidence": false
+  },
+  {
+   "id": "1980bbfa_5",
+   "date": "2023-11-03 14:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_2",
+   "date": "2023-11-03 19:56",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_130siyQ_0",
+   "date": "2023-11-09 13:22",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Interested in art and taking watercolor classes (2023-03-23)\n- Attended an art auction at a prestigious gallery in the city in February 2023 (2023-03-23)\n- Won a sculpture by an up-and-coming artist at an art auction (2023-03-23)\n- Trying to achieve a sophisticated look in the living room (2023-03-23)\n- Displays new sculpture on the coffee table (2023-03-23)\n- Considering converting a spare room into a home studio (2023-03-23)\n- Looking to improve data analysis skills (2023-03-27)\n- Planning to pursue an MBA but hasn't started the application process yet (2023-03-27)\n- Interested in predicting customer churn for marketing as a data science project (2023-03-27)\n- Incorporating yoga and meditation to help with anxiety (2023-04-03)\n- Attending therapy sessions with Dr. Smith every week (2023-11-03; earlier every two weeks, 2023-04-03)\n- Niece graduated from high school on June 15, 2023 (2023-07-12)\n- Looking to install dimmers and replace a laundry room fluorescent light with an LED one (2023-11-03)\n- Had a therapy session with Dr. Smith this week where the focus was on setting healthy boundaries (2023-11-03)\n</human>\n\nTool results while answering:\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:00:38.685448+00:00', 'time_ago': '9s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-03 19:56] I think that's all for now. I'm going to go meditate and journal for a bit. It's been a helpful session with Dr. Smith this week, and I'm feeling more confident about setting those healthy boundaries. Thanks again for your help!\"}, {'timestamp': '2026-10-18T17:00:30.631199+00:00', 'time_ago': '17s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'I completely understand—a rigid schedule can sometimes feel like just another source of pressure rather than a relief. Let’s pivot to a more flexible, principle-based approach that supports your sessions with Dr. Smith.\\n\\nInstead of a calendar, we can focus on a **\"Decision Framework\"** to guide you when you feel overwhelmed. Here are three simple principles to help you set boundaries and prioritize without the stress of a rigid plan:\\n\\n### 1. The \"Pause and Reflect\" Rule\\nWhenever a request comes in (from a colleague or friend), commit to a mandatory \"pause.\" You don’t have to answer immediately.\\n*   **The Script:** *\"Let me check my capacity and get back to you by [time/day].\"*\\n*   **Why it works:** It stops the automatic \"yes\" response and gives you time to check in with yourself. If it feels like a heavy burden, you’ve created the space to say no comfortably.\\n\\n### 2. The \"Must, Should, Could\" Filter\\nInstead of a strict to-do list, look at your tasks and sort them into these three buckets:\\n*   **Must:** Things tied to immediate deadlines or core responsibilities.\\n*   **Should:** Important, but flexible enough to move if your mental energy is low.\\n*   **Could:** Extras that are nice to do but can be dropped or deferred if you’re feeling overwhelmed.\\n*   **Goal:** On days you feel burnt out, protect the \"Musts\" and give yourself full permission to drop the \"Coulds.\"\\n\\n### 3. Energy-Based Boundary Setting\\nFocus on your energy levels rather than the clock.\\n*   If you know a specific colleague or friend group often leaves you feeling drained, set a \"soft limit\" for yourself. For example, maybe you attend the dinner, but you commit to leaving by a certain time, or you limit the number of social events you attend in a single week.\\n*   **The mantra:** \"I don\\'t have to be everything to everyone.\"\\n\\nDoes this approach feel more manageable? Perhaps we could practice a response for a scenario that recently stressed you out, using that \"Pause and Reflect\" rule?'}]}",
+ "answer": "You see Dr. Smith every week. You transitioned to this weekly schedule as of November 3, 2023, having previously seen her every two weeks.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Interested in art and taking watercolor classes (2023-03-23)\n- Attended an art auction at a prestigious gallery in the city in February 2023 (2023-03-23)\n- Won a sculpture by an up-and-coming artist at an art auction (2023-03-23)\n- Trying to achieve a sophisticated look in the living room (2023-03-23)\n- Displays new sculpture on the coffee table (2023-03-23)\n- Considering converting a spare room into a home studio (2023-03-23)\n- Looking to improve data analysis skills (2023-03-27)\n- Planning to pursue an MBA but hasn't started the application process yet (2023-03-27)\n- Interested in predicting customer churn for marketing as a data science project (2023-03-27)\n- Incorporating yoga and meditation to help with anxiety (2023-04-03)\n- Attending therapy sessions with Dr. Smith every week (2023-11-03; earlier every two weeks, 2023-04-03)\n- Niece graduated from high school on June 15, 2023 (2023-07-12)\n- Looking to install dimmers and replace a laundry room fluorescent light with an LED one (2023-11-03)\n- Had a therapy session with Dr. Smith this week where the focus was on setting healthy boundaries (2023-11-03)\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Dr. Smith\"})"
+  ],
+  "blocks_chars": 2076,
+  "write_steps": 53,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 253.8,
+  "total": 257.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

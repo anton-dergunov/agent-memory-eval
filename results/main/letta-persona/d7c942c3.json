@@ -1,0 +1,126 @@
+{
+ "qid": "d7c942c3",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "Is my mom using the same grocery list method as me?",
+ "reference": "Yes.",
+ "question_date": "2023-05-14 09:58",
+ "sessions": [
+  {
+   "id": "answer_eecb10d9_1",
+   "date": "2023-03-11 12:42",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_mz7Bb7a_0",
+   "date": "2023-03-20 09:59",
+   "evidence": false
+  },
+  {
+   "id": "89f71a1b",
+   "date": "2023-03-25 19:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_552063",
+   "date": "2023-03-31 13:47",
+   "evidence": false
+  },
+  {
+   "id": "4e70b8fd",
+   "date": "2023-04-04 16:36",
+   "evidence": false
+  },
+  {
+   "id": "ddf0f116_3",
+   "date": "2023-04-06 04:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1ISfZDn_0",
+   "date": "2023-04-10 22:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_104389",
+   "date": "2023-04-23 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_eecb10d9_2",
+   "date": "2023-04-30 20:09",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_1MKqbAt_0",
+   "date": "2023-05-09 02:30",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Uses a new grocery list app to track ingredients; it's a lifesaver (2023-03-11; earlier \"Uses a grocery list app to track ingredients\", 2023-03-11).\n- Interested in music and independent artists (2023-03-31).\n- Takes the 7:15 am train from Oakdale station (2023-04-04).\n- Flew from Dallas to Chicago on 2023-01-20, experienced a weather delay but enjoyed the Admirals Club lounge (2023-04-06).\n- Considering a flight to Denver or Las Vegas; has a $200 birthday voucher from aunt (2023-04-06).\n- Planning to use a Southwest Airlines voucher (2023-04-06).\n- Considering using miles for a business class flight to London on British Airways; wonders if one-way is possible (2023-04-06).\n- Considering applying for a United Airlines credit card for bonus miles; wondering if they can be combined with existing miles (2023-04-06).\n- Interested in United Airlines in-flight meal options for Chicago to Los Angeles flights (2023-04-06).\n- Mom is now using the same grocery list app, so they share lists (2023-04-30).\n- Adding onions, bell peppers, and olive oil to grocery list (2023-04-30).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:29:39.508717+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-14 09:58] Is my mom using the same grocery list method as me?'}, {'timestamp': '2026-10-18T17:29:31.683236+00:00', 'time_ago': '9s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"That sounds like a fantastic choice! Brown butter and sage is such a classic, comforting pairing—it really elevates the cauliflower gnocchi.\\n\\nSince you're heading to the store, don't forget to add **fresh sage** to your grocery list as well!\\n\\nHere’s a quick tip for that sauce: \\n*   Once you’ve pan-fried your gnocchi until they are golden and crispy, push them to the side of the pan. \\n*   Add your butter and let it melt until it starts to foam and turn a golden-brown color (keep an eye on it, it happens fast!). \\n*   Toss in the fresh sage leaves—they will crisp up instantly in the butter. \\n*   Toss everything together to coat the gnocchi, maybe add a little sprinkle of parmesan or red pepper flakes if you like, and you're done.\\n\\nI hope it turns out delicious! Let me know if you decide to share that recipe with your mom, too. Enjoy your cooking tonight!\"}, {'timestamp': '2026-10-18T17:29:22.481484+00:00', 'time_ago': '19s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"That's such a great idea! Sharing a grocery list with your mom sounds super convenient—it really takes the guesswork out of household shopping.\\n\\nYou're very welcome for the fajita tips! I'm glad I could help you get organized for tonight. Enjoy your dinner, and have a lovely evening!\"}]}",
+ "answer": "Yes, she is! According to my records from April 30, 2023, your mom started using the same grocery list app as you, and you two have been sharing lists since then.",
+ "dump": "<human>\n\n- Uses a new grocery list app to track ingredients; it's a lifesaver (2023-03-11; earlier \"Uses a grocery list app to track ingredients\", 2023-03-11).\n- Interested in music and independent artists (2023-03-31).\n- Takes the 7:15 am train from Oakdale station (2023-04-04).\n- Flew from Dallas to Chicago on 2023-01-20, experienced a weather delay but enjoyed the Admirals Club lounge (2023-04-06).\n- Considering a flight to Denver or Las Vegas; has a $200 birthday voucher from aunt (2023-04-06).\n- Planning to use a Southwest Airlines voucher (2023-04-06).\n- Considering using miles for a business class flight to London on British Airways; wonders if one-way is possible (2023-04-06).\n- Considering applying for a United Airlines credit card for bonus miles; wondering if they can be combined with existing miles (2023-04-06).\n- Interested in United Airlines in-flight meal options for Chicago to Los Angeles flights (2023-04-06).\n- Mom is now using the same grocery list app, so they share lists (2023-04-30).\n- Adding onions, bell peppers, and olive oil to grocery list (2023-04-30).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"mom grocery\"})",
+   "conversation_search({\"query\": \"grocery list\"})"
+  ],
+  "blocks_chars": 2036,
+  "write_steps": 52,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 228.7,
+  "total": 233.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

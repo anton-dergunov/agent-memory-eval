@@ -1,0 +1,129 @@
+{
+ "qid": "ce6d2d27",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What day of the week do I take a cocktail-making class?",
+ "reference": "Friday",
+ "question_date": "2023-07-15 22:19",
+ "sessions": [
+  {
+   "id": "answer_73540165_1",
+   "date": "2023-06-16 13:26",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_72kPQPm_11",
+   "date": "2023-06-19 09:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1uSOnON_25",
+   "date": "2023-06-27 22:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_227355",
+   "date": "2023-06-30 15:34",
+   "evidence": false
+  },
+  {
+   "id": "cd92ac85_1",
+   "date": "2023-06-30 16:18",
+   "evidence": false
+  },
+  {
+   "id": "answer_73540165_2",
+   "date": "2023-06-30 22:49",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504309",
+   "date": "2023-07-05 17:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_306593",
+   "date": "2023-07-05 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_WQctw3k_0",
+   "date": "2023-07-06 07:34",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_206676",
+   "date": "2023-07-12 09:35",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Planning a dinner party menu with grilled jerk chicken with mango salsa, grilled asparagus, and roasted sweet potatoes (2023-06-16; earlier quinoa, 2023-06-16).\n- Loves experimenting with jerk seasoning (2023-06-16).\n- Has a cocktail-making class coming up this Friday (2023-06-30; earlier Thursday, 2023-06-16).\n- Familiar with Bruno Latour's work (2023-06-19).\n- Has a lot of mango at home and wants to incorporate it into recipes (2023-06-30).\n- Enjoys experimenting with basil in cocktails (2023-06-30).\n- Prefers roasting watermelon to intensify its sweetness (2023-06-30).\n- Favorite tequila is Avion Silver (2023-06-30).\n- Interested in experimenting with grapefruit juice in cocktails (2023-06-30).\n- Plans to try Paloma and Tequila Sour recipes during a cocktail-making class this Friday (2023-06-30).\n- Starting a podcast with Matt called \"After the wire\" focused on early-stage founder challenges, emphasizing substance over hype (2023-07-06).\n- Values how \"Into the Woods\" highlights that every character has their own personal journey and struggles, reinforcing the importance of considering different perspectives in relationships (2023-07-12).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:04:48.785894+00:00', 'time_ago': '1s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-07-15 22:19] What day of the week do I take a cocktail-making class?'}]}",
+ "answer": "Looking at my notes, you have a cocktail-making class coming up this Friday (2023-06-30).",
+ "dump": "<human>\n\n- Planning a dinner party menu with grilled jerk chicken with mango salsa, grilled asparagus, and roasted sweet potatoes (2023-06-16; earlier quinoa, 2023-06-16).\n- Loves experimenting with jerk seasoning (2023-06-16).\n- Has a cocktail-making class coming up this Friday (2023-06-30; earlier Thursday, 2023-06-16).\n- Familiar with Bruno Latour's work (2023-06-19).\n- Has a lot of mango at home and wants to incorporate it into recipes (2023-06-30).\n- Enjoys experimenting with basil in cocktails (2023-06-30).\n- Prefers roasting watermelon to intensify its sweetness (2023-06-30).\n- Favorite tequila is Avion Silver (2023-06-30).\n- Interested in experimenting with grapefruit juice in cocktails (2023-06-30).\n- Plans to try Paloma and Tequila Sour recipes during a cocktail-making class this Friday (2023-06-30).\n- Starting a podcast with Matt called \"After the wire\" focused on early-stage founder challenges, emphasizing substance over hype (2023-07-06).\n- Values how \"Into the Woods\" highlights that every character has their own personal journey and struggles, reinforcing the importance of considering different perspectives in relationships (2023-07-12).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"cocktail-making class\"})",
+   "conversation_search({\"query\": \"cocktail-making\"})"
+  ],
+  "blocks_chars": 2111,
+  "write_steps": 49,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 245.7,
+  "total": 250.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

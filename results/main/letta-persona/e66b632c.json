@@ -1,0 +1,128 @@
+{
+ "qid": "e66b632c",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What was my previous personal best time for the charity 5K run?",
+ "reference": "27 minutes and 45 seconds",
+ "question_date": "2023-08-25 05:19",
+ "sessions": [
+  {
+   "id": "answer_ac0140ce_1",
+   "date": "2023-04-11 13:31",
+   "evidence": true
+  },
+  {
+   "id": "4f51038b",
+   "date": "2023-04-14 21:55",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_TlAbjNp_7",
+   "date": "2023-04-21 05:48",
+   "evidence": false
+  },
+  {
+   "id": "1185691f_1",
+   "date": "2023-05-27 05:40",
+   "evidence": false
+  },
+  {
+   "id": "49b1d93f_2",
+   "date": "2023-06-04 02:16",
+   "evidence": false
+  },
+  {
+   "id": "84098c1b",
+   "date": "2023-06-14 07:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436858",
+   "date": "2023-06-18 06:47",
+   "evidence": false
+  },
+  {
+   "id": "49b1d93f_1",
+   "date": "2023-06-25 05:25",
+   "evidence": false
+  },
+  {
+   "id": "9b820206",
+   "date": "2023-06-27 19:40",
+   "evidence": false
+  },
+  {
+   "id": "answer_ac0140ce_2",
+   "date": "2023-07-30 18:30",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-04-11] Wants to create a balanced weekly schedule for soccer, cycling, yoga, and triathlon training.\n[2023-04-11] Training for a sprint triathlon on June 24th. \n[2023-04-11] Recently completed a charity 5K run with a PB of 27:45.\n[2023-07-30] Beat 5K PB by 1.5 minutes (new time approx 26:15). Wait, actually 26:30.\n[2023-04-11] Fitness levels: Yoga (intermediate), Cycling (intermediate), Swimming (beginner), Running (advanced).\n[2023-04-11] Weekly availability: Weekdays 7-9 am, Weekends 8 am-12 pm.\n[2023-04-11] Training requirements: Yoga (2x 45m), Cycling (1x 2h), Soccer (1x 1.5h), Triathlon training (3x, weekend focus), 1 rest day.\n[2023-04-11] Looking for a 20-mile cycling route with moderate hills for a group ride.\n[2023-04-11] Cycling route requirements: 20 miles, start/end at the local park (same as the charity 5K), secondary roads (low traffic), 500-1000ft elevation gain, rolling + some steep hills, scenic views, bike-friendly infrastructure.\n[2023-04-11] Interested in purchasing a bike computer/GPS device for tracking rides.\n[2023-04-14] Started switching to more sustainable products about three months ago. Changes made: bamboo toothbrush, reusable bags, beeswax wraps, stainless steel straws. Currently looking for an eco-friendly laundry detergent.\n[2023-04-14] Considering switching to a refillable stainless steel water bottle to reduce plastic waste.\n[2023-05-27] Planning to repaint bathroom walls a soft blue-gray this weekend.\n[2023-05-27] Looking to reorganize the under-sink bathroom cabinet for better efficiency.\n[2023-06-04] Spent $410 total on gifts: $80 for nephew (clothes), $200 for grandma (comfort items and snacks), $100 for brother (coffee maker), $30 for coworker Rachel (mug and chocolates).\n[2023-06-14] Considering selling some inherited antiques and looking for guidance on the appraisal and selling process.\n[2023-06-14] Considering restoring a 1920s Elgin pocket watch (grandfather's) to pass down as a family heirloom; looking for advice on finding a reputable restorer.\n[2023-06-25] Spent $150 on a silver necklace from Tiffany's for sister's birthday.\n[2023-06-25] Spent $120 on personalized photo albums from Shutterfly for grandma.\n[2023-06-25] Spent $50 at Target on baby shower gifts for a friend yesterday.\n[2023-06-27] Recently started playing tennis with coworker Rachel at the community center.\n[2023-06-27] Recently decided on a Fitbit Charge 3 for fitness tracking.\n[2023-07-30] Lives in Oakdale.\n[2023-07-30] Considering signing up for a 10K run in a few months.\n[2023-07-30] 10K running plan: 12 weeks, sub-55 min goal (approx 8:50/mile pace needed), currently runs 3x/week (2 short, 1 long), 9:30/mile base pace, prefers morning runs, open to speed work and hill repeats.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T17:28:32.604718+00:00', 'time_ago': '1s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-08-25 05:19] What was my previous personal best time for the charity 5K run?'}, {'timestamp': '2026-10-18T17:28:28.023397+00:00', 'time_ago': '6s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-07-30 18:30] I'm ready to take on the challenge! Let's adjust the training plan to incorporate the more aggressive pace and volume you suggested. I'm excited to see how my body responds to the increased intensity. Thanks for taking my 5K performance into account and creating a more personalized plan for me!\"}, {'timestamp': '2026-10-18T17:28:26.847783+00:00', 'time_ago': '7s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is an excellent point, and thank you for the correction on your time! A 5K time of 26:30 is a great indicator of your fitness level.\\n\\nYour 5K performance is actually a very positive sign for your 10K goal. In running, we often use a \"race equivalence\" calculation to see what that 5K time suggests for other distances. Based on a 26:30 5K, your current fitness levels already point toward being able to comfortably complete a 10K in the 54:30 to 55:30 range.\\n\\n**Here is how this factors into your training:**\\n\\n1.  **Your Sub-55 Goal is Realistic:** You aren\\'t just \"reaching\" for a sub-55; you are training to solidify a pace you are already close to achieving. This means you don\\'t need to force an overly aggressive training load, which helps reduce the risk of injury.\\n2.  **Focus on Endurance:** Since your speed is already strong for the 5K, the biggest \"gap\" to bridge for the 10K is simply maintaining that efficiency for twice the distance. This is why the \"Long Run\" in the schedule I provided is so crucial—it will train your body to handle the fatigue that sets in after the 5K mark.\\n3.  **Efficiency over Force:** Instead of trying to dramatically increase your top-end speed, your training will focus on \"lactate threshold\" workouts (the tempo runs). This teaches your body to stay relaxed at that 8:50/mile pace for 6.2 miles rather than just 3.1 miles.\\n\\n**Should you adjust your expectations?**\\nI’d say you should keep your target as sub-55 minutes, but because you\\'re already hitting these numbers, you might find that after the first 4 weeks of training, you feel confident enough to aim even a little higher—perhaps closer to the 53-minute mark!\\n\\nHow does that change in perspective feel? Does it make you feel more confident heading into the first week of training?'}]}",
+ "answer": "Based on our previous conversations, your original personal best for the charity 5K run was 27:45.\n\nMore recently, on July 30th, 2023, you updated me that you had actually beaten that time, setting a new PB of 26:30.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-04-11] Wants to create a balanced weekly schedule for soccer, cycling, yoga, and triathlon training.\n[2023-04-11] Training for a sprint triathlon on June 24th. \n[2023-04-11] Recently completed a charity 5K run with a PB of 27:45.\n[2023-07-30] Beat 5K PB by 1.5 minutes (new time approx 26:15). Wait, actually 26:30.\n[2023-04-11] Fitness levels: Yoga (intermediate), Cycling (intermediate), Swimming (beginner), Running (advanced).\n[2023-04-11] Weekly availability: Weekdays 7-9 am, Weekends 8 am-12 pm.\n[2023-04-11] Training requirements: Yoga (2x 45m), Cycling (1x 2h), Soccer (1x 1.5h), Triathlon training (3x, weekend focus), 1 rest day.\n[2023-04-11] Looking for a 20-mile cycling route with moderate hills for a group ride.\n[2023-04-11] Cycling route requirements: 20 miles, start/end at the local park (same as the charity 5K), secondary roads (low traffic), 500-1000ft elevation gain, rolling + some steep hills, scenic views, bike-friendly infrastructure.\n[2023-04-11] Interested in purchasing a bike computer/GPS device for tracking rides.\n[2023-04-14] Started switching to more sustainable products about three months ago. Changes made: bamboo toothbrush, reusable bags, beeswax wraps, stainless steel straws. Currently looking for an eco-friendly laundry detergent.\n[2023-04-14] Considering switching to a refillable stainless steel water bottle to reduce plastic waste.\n[2023-05-27] Planning to repaint bathroom walls a soft blue-gray this weekend.\n[2023-05-27] Looking to reorganize the under-sink bathroom cabinet for better efficiency.\n[2023-06-04] Spent $410 total on gifts: $80 for nephew (clothes), $200 for grandma (comfort items and snacks), $100 for brother (coffee maker), $30 for coworker Rachel (mug and chocolates).\n[2023-06-14] Considering selling some inherited antiques and looking for guidance on the appraisal and selling process.\n[2023-06-14] Considering restoring a 1920s Elgin pocket watch (grandfather's) to pass down as a family heirloom; looking for advice on finding a reputable restorer.\n[2023-06-25] Spent $150 on a silver necklace from Tiffany's for sister's birthday.\n[2023-06-25] Spent $120 on personalized photo albums from Shutterfly for grandma.\n[2023-06-25] Spent $50 at Target on baby shower gifts for a friend yesterday.\n[2023-06-27] Recently started playing tennis with coworker Rachel at the community center.\n[2023-06-27] Recently decided on a Fitbit Charge 3 for fitness tracking.\n[2023-07-30] Lives in Oakdale.\n[2023-07-30] Considering signing up for a 10K run in a few months.\n[2023-07-30] 10K running plan: 12 weeks, sub-55 min goal (approx 8:50/mile pace needed), currently runs 3x/week (2 short, 1 long), 9:30/mile base pace, prefers morning runs, open to speed work and hill repeats.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"5K PB\"})",
+   "conversation_search({\"query\": \"5K\"})"
+  ],
+  "blocks_chars": 3697,
+  "write_steps": 55,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 268.2,
+  "total": 273.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

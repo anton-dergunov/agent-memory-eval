@@ -1,0 +1,89 @@
+{
+ "qid": "184da446",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+ "reference": "220",
+ "question_date": "2023-06-17 04:02",
+ "sessions": [
+  {
+   "id": "answer_e2f4f947_1",
+   "date": "2023-05-20 21:24",
+   "evidence": true
+  },
+  {
+   "id": "82a89303",
+   "date": "2023-05-20 21:43",
+   "evidence": false
+  },
+  {
+   "id": "e5f08e40",
+   "date": "2023-05-21 06:32",
+   "evidence": false
+  },
+  {
+   "id": "67d1de46_2",
+   "date": "2023-05-23 08:55",
+   "evidence": false
+  },
+  {
+   "id": "ae56bcf1_1",
+   "date": "2023-05-23 19:18",
+   "evidence": false
+  },
+  {
+   "id": "928eb5fe_2",
+   "date": "2023-05-25 19:08",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84199",
+   "date": "2023-05-28 11:59",
+   "evidence": false
+  },
+  {
+   "id": "d3110bd5_2",
+   "date": "2023-05-28 23:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_e2f4f947_2",
+   "date": "2023-05-29 09:12",
+   "evidence": true
+  },
+  {
+   "id": "59115228",
+   "date": "2023-05-29 11:49",
+   "evidence": false
+  }
+ ],
+ "context": "",
+ "answer": "(no answer: the build was blocked by the provider's content filter)",
+ "dump": "",
+ "extra": {
+  "error": "content_filter",
+  "note": "Vertex returned finish_reason=content_filter with no message while the Letta agent was reading the history, in 4 separate builds (once at 02:18 UTC, then three retries between 04:00 and 04:25 UTC); Letta rejects such a reply and the build stops. Counted as a wrong answer."
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 0,
+  "total": 0
+ },
+ "judge": {
+  "model": "none (no answer)",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no memory: the build did not complete (provider content filter)"
+ }
+}

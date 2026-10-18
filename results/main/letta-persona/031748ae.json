@@ -1,0 +1,136 @@
+{
+ "qid": "031748ae",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+ "reference": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+ "question_date": "2023-11-10 04:20",
+ "sessions": [
+  {
+   "id": "answer_8748f791_1",
+   "date": "2023-05-11 02:02",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_362770",
+   "date": "2023-06-15 22:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_472644",
+   "date": "2023-10-24 03:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_8748f791_2",
+   "date": "2023-10-24 13:53",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_pPNVaqR_0",
+   "date": "2023-10-25 21:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LaG73Rk_0",
+   "date": "2023-10-28 10:47",
+   "evidence": false
+  },
+  {
+   "id": "b70ac29f_1",
+   "date": "2023-11-02 08:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_556006",
+   "date": "2023-11-03 04:35",
+   "evidence": false
+  },
+  {
+   "id": "6a747f2e",
+   "date": "2023-11-05 03:33",
+   "evidence": false
+  },
+  {
+   "id": "bd3880f4",
+   "date": "2023-11-05 21:53",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Leads a team of 5 engineers in their new role as Senior Software Engineer (2023-10-24; earlier 4 engineers, 2023-05-11)\n- Planning a team outing for 6 people (2023-10-24)\n- Based in the San Francisco Bay Area (2023-10-24)\n- Likes outdoor games for team outings, specifically giant Jenga (2023-05-11)\n- Planning to contact Samantha about a Corporate Team Building Package for 6 (2023-05-11)\n- Loves trying unique desserts and is specifically looking for bakery recommendations in Amsterdam (2023-06-15)\n- Trying to cut back on gluten (2023-06-15)\n- Interested in vegan desserts in addition to gluten-free options (2023-06-15)\n- Friend: Amanda Van West (2023-10-28)\n- Friend: Sarah (2023-11-02)\n- Sister: Emily (2023-11-02)\n- Packed 7 shirts for Chicago, only wore 3 (2023-11-05)\n- Currently located in 92109 zip code (2023-11-05)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:15:18.994778+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-11-10 04:20] How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?'}]}",
+ "answer": "When you first started your new role as a Senior Software Engineer, you led 4 engineers (2023-05-11). You currently lead a team of 5 engineers (2023-10-24).",
+ "dump": "<human>\n\n- Leads a team of 5 engineers in their new role as Senior Software Engineer (2023-10-24; earlier 4 engineers, 2023-05-11)\n- Planning a team outing for 6 people (2023-10-24)\n- Based in the San Francisco Bay Area (2023-10-24)\n- Likes outdoor games for team outings, specifically giant Jenga (2023-05-11)\n- Planning to contact Samantha about a Corporate Team Building Package for 6 (2023-05-11)\n- Loves trying unique desserts and is specifically looking for bakery recommendations in Amsterdam (2023-06-15)\n- Trying to cut back on gluten (2023-06-15)\n- Interested in vegan desserts in addition to gluten-free options (2023-06-15)\n- Friend: Amanda Van West (2023-10-28)\n- Friend: Sarah (2023-11-02)\n- Sister: Emily (2023-11-02)\n- Packed 7 shirts for Chicago, only wore 3 (2023-11-05)\n- Currently located in 92109 zip code (2023-11-05)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Senior Software Engineer\"})",
+   "conversation_search({\"query\": \"engineers\"})"
+  ],
+  "blocks_chars": 1781,
+  "write_steps": 54,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 255.8,
+  "total": 262.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

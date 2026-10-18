@@ -1,0 +1,144 @@
+{
+ "qid": "830ce83f",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "Where did Rachel move to after her recent relocation?",
+ "reference": "the suburbs",
+ "question_date": "2023-06-13 15:15",
+ "sessions": [
+  {
+   "id": "8425ea3e",
+   "date": "2023-05-01 13:17",
+   "evidence": false
+  },
+  {
+   "id": "ad5a7d50_2",
+   "date": "2023-05-09 08:55",
+   "evidence": false
+  },
+  {
+   "id": "020149a5_1",
+   "date": "2023-05-12 02:28",
+   "evidence": false
+  },
+  {
+   "id": "8d77be9a_2",
+   "date": "2023-05-16 17:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_hamCWCF_0",
+   "date": "2023-05-24 01:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_rtjWwY6_0",
+   "date": "2023-05-24 05:00",
+   "evidence": false
+  },
+  {
+   "id": "answer_0b1a0942_1",
+   "date": "2023-05-24 22:23",
+   "evidence": true
+  },
+  {
+   "id": "dfbda5e9",
+   "date": "2023-05-26 20:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_0b1a0942_2",
+   "date": "2023-05-27 04:45",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_pAbhbob_0",
+   "date": "2023-05-27 18:15",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Enjoys cooking Italian dishes, has been cooking at home more frequently for about 3 months (2023-05-01)\n- Italian food has become a staple in their kitchen (2023-05-01)\n- Wants to make authentic Italian dishes and is willing to hunt for ingredients like guanciale or pancetta (2023-05-01)\n- Currently checking out cookbooks from the library, including \"The Essentials of Classic Italian Cooking\" and \"Jerusalem: A Cookbook\" (2023-05-01)\n- Interested in experimenting with grains like bulgur and farro (2023-05-01)\n- Made a big batch of chili con carne for meal prep (2023-05-09; earlier 2023-05-09)\n- Interested in a Southwestern Chicken Pasta Salad with chipotle ranch (2023-05-09)\n- Currently experimenting with cooking techniques like braising and roasting (2023-05-09)\n- Interested in Spotify's \"Beast Mode\" playlist for workouts (2023-05-12)\n- Plans to start Kayla Itsines' HIIT workouts (2023-05-12)\n- Plans to start with \"BBG HIIT Core Blast\" (2023-05-12)\n- Planning to start marathon training (2023-05-16)\n- Ran a 10km 'Charity Run' organized by the 'Heart Foundation' in November (2023-05-16)\n- Lives in Orlando, Florida (2023-05-26; earlier Springfield, 2023-05-16)\n- Prefers flat, scenic, low-traffic running routes (2023-05-16)\n- Planning to try the Lake Springfield Trail (2023-05-16)\n- Plans to run early in the morning (2023-05-16)\n- Planning to visit Augie's Front Burner for a post-run breakfast (2023-05-16)\n- Friend Rachel moved back to the suburbs (2023-05-27; earlier Chicago, 2023-05-24)\n- Grandparents live in Orlando, Florida (2023-05-26)\n- Maternal grandparents' 50th wedding anniversary was on June 17th (2023-05-26)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T16:33:53.100026+00:00', 'time_ago': '9s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'It sounds like you\\'re starting to get a real vision for this trip! Since you\\'re the one planning it with your friends, the \"plan\" is really up to you, but I can definitely help you map out a balanced itinerary that blends relaxation, your love for active adventures, and perhaps a little bit of local exploration.\\n\\nHere’s a suggestion for how you might structure a few days in and around Fort Myers Beach:\\n\\n### **Day 1: Settle in & Soak it Up**\\n*   **Morning:** Arrive and get settled at the Outrigger. Ease into the \"island time\" vibe with a long walk on the beach.\\n*   **Afternoon:** Spend the afternoon just lounging. Since the Outrigger is right there, you can easily go back and forth from the pool to the sand. \\n*   **Evening:** Enjoy a relaxed dinner at the resort\\'s Deckside Tiki Bar to watch the sunset—it’s a classic Fort Myers Beach experience.\\n\\n### **Day 2: The Active Morning**\\n*   **Early Morning:** This is your time to shine! Get out there for that early morning paddleboarding session while the water is like glass. You could explore the calm areas near the resort or look into a tour that takes you into the nearby mangrove tunnels.\\n*   **Afternoon:** After a morning on the water, you might be ready for something a bit more low-key. You could head into the \"Times Square\" area for a casual lunch.\\n*   **Evening:** If you have a kitchenette, maybe this is the night you pick up some fresh local ingredients (maybe some Gulf shrimp?) to make a simple, fresh meal back at your room, or head out to a local spot for some fresh seafood.\\n\\n### **Day 3: Explore the Surroundings**\\n*   **Day Trip:** If you and your friends get the itch to explore beyond the island, you have some great options:\\n    *   **Lovers Key State Park:** It’s just south of the beach and is famous for being incredibly pristine and quiet. It’s perfect for nature lovers, with lots of trails and great spots for kayaking or more paddleboarding.\\n    *   **Sanibel Island:** Just a short drive away, Sanibel is famous for its world-class shelling and the J.N. \"Ding\" Darling National Wildlife Refuge. It’s very laid-back, scenic, and has a different, more natural feel than the beach town itself.\\n\\n**A thought for your planning:** Since you mentioned your friend Rachel is joining and you’re into experimenting with cooking, would you be interested in finding a local farmers market or a nice grocery store to grab some ingredients for a \"group feast\" one evening?\\n\\nDoes that kind of mix sound like the balance you’re looking for, or would you and your friends prefer to spend the entire trip just focusing on the beach and paddleboarding?'}, {'timestamp': '2026-10-18T16:33:46.762904+00:00', 'time_ago': '15s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That\\'s a great decision! Staying right on Fort Myers Beach will make it so easy to just walk out to the sand, especially for those early morning paddleboarding sessions.\\n\\nSince you\\'re planning a trip with friends and looking for good amenities, here are a few spots that are highly regarded for their location and comfort:\\n\\n*   **Pink Shell Beach Resort & Marina:** This is one of the most popular resorts in the area. It’s located at the quieter, northern tip of the island, so you get incredible views. They have multiple pools, beach access, on-site dining, and even their own marina, which is perfect if you want to rent water sports equipment (like kayaks or paddleboards) without having to drive anywhere. It feels very like a proper resort getaway.\\n*   **DiamondHead Beach Resort:** This one is more towards the center of the island. Every room is a suite, which is great when you\\'re traveling with friends because you get that extra space. It’s right on the beach, and the pool area is lovely. It’s als\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['conversation_search', 'memory_insert', 'memory_replace'].\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T16:34:01.772693+00:00', 'time_ago': '5s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-13 15:15] Where did Rachel move to after her recent relocation?'}, {'timestamp': '2026-10-18T16:33:53.100026+00:00', 'time_ago': '14s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'It sounds like you\\'re starting to get a real vision for this trip! Since you\\'re the one planning it with your friends, the \"plan\" is really up to you, but I can definitely help you map out a balanced itinerary that blends relaxation, your love for active adventures, and perhaps a little bit of local exploration.\\n\\nHere’s a suggestion for how you might structure a few days in and around Fort Myers Beach:\\n\\n### **Day 1: Settle in & Soak it Up**\\n*   **Morning:** Arrive and get settled at the Outrigger. Ease into the \"island time\" vibe with a long walk on the beach.\\n*   **Afternoon:** Spend the afternoon just lounging. Since the Outrigger is right there, you can easily go back and forth from the pool to the sand. \\n*   **Evening:** Enjoy a relaxed dinner at the resort\\'s Deckside Tiki Bar to watch the sunset—it’s a classic Fort Myers Beach experience.\\n\\n### **Day 2: The Active Morning**\\n*   **Early Morning:** This is your time to shine! Get out there for that early morning paddleboarding session while the water is like glass. You could explore the calm areas near the resort or look into a tour that takes you into the nearby mangrove tunnels.\\n*   **Afternoon:** After a morning on the water, you might be ready for something a bit more low-key. You could head into the \"Times Square\" area for a casual lunch.\\n*   **Evening:** If you have a kitchenette, maybe this is the night you pick up some fresh local ingredients (maybe some Gulf shrimp?) to make a simple, fresh meal back at your room, or head out to a local spot for some fresh seafood.\\n\\n### **Day 3: Explore the Surroundings**\\n*   **Day Trip:** If you and your friends get the itch to explore beyond the island, you have some great options:\\n    *   **Lovers Key State Park:** It’s just south of the beach and is famous for being incredibly pristine and quiet. It’s perfect for nature lovers, with lots of trails and great spots for kayaking or more paddleboarding.\\n    *   **Sanibel Island:** Just a short drive away, Sanibel is famous for its world-class shelling and the J.N. \"Ding\" Darling National Wildlife Refuge. It’s very laid-back, scenic, and has a different, more natural feel than the beach town itself.\\n\\n**A thought for your planning:** Since you mentioned your friend Rachel is joining and you’re into experimenting with cooking, would you be interested in finding a local farmers market or a nice grocery store to grab some ingredients for a \"group feast\" one evening?\\n\\nDoes that kind of mix sound like the balance you’re looking for, or would you and your friends prefer to spend the entire trip just focusing on the beach and paddleboarding?'}]}",
+ "answer": "According to our records, your friend Rachel moved back to the suburbs.",
+ "dump": "<human>\n\n- Enjoys cooking Italian dishes, has been cooking at home more frequently for about 3 months (2023-05-01)\n- Italian food has become a staple in their kitchen (2023-05-01)\n- Wants to make authentic Italian dishes and is willing to hunt for ingredients like guanciale or pancetta (2023-05-01)\n- Currently checking out cookbooks from the library, including \"The Essentials of Classic Italian Cooking\" and \"Jerusalem: A Cookbook\" (2023-05-01)\n- Interested in experimenting with grains like bulgur and farro (2023-05-01)\n- Made a big batch of chili con carne for meal prep (2023-05-09; earlier 2023-05-09)\n- Interested in a Southwestern Chicken Pasta Salad with chipotle ranch (2023-05-09)\n- Currently experimenting with cooking techniques like braising and roasting (2023-05-09)\n- Interested in Spotify's \"Beast Mode\" playlist for workouts (2023-05-12)\n- Plans to start Kayla Itsines' HIIT workouts (2023-05-12)\n- Plans to start with \"BBG HIIT Core Blast\" (2023-05-12)\n- Planning to start marathon training (2023-05-16)\n- Ran a 10km 'Charity Run' organized by the 'Heart Foundation' in November (2023-05-16)\n- Lives in Orlando, Florida (2023-05-26; earlier Springfield, 2023-05-16)\n- Prefers flat, scenic, low-traffic running routes (2023-05-16)\n- Planning to try the Lake Springfield Trail (2023-05-16)\n- Plans to run early in the morning (2023-05-16)\n- Planning to visit Augie's Front Burner for a post-run breakfast (2023-05-16)\n- Friend Rachel moved back to the suburbs (2023-05-27; earlier Chicago, 2023-05-24)\n- Grandparents live in Orlando, Florida (2023-05-26)\n- Maternal grandparents' 50th wedding anniversary was on June 17th (2023-05-26)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Rachel\"})",
+   "memory_search({\"query\": \"Rachel\"})",
+   "conversation_search({\"query\": \"Rachel moved\"})",
+   "conversation_search({\"query\": \"Rachel\"})"
+  ],
+  "blocks_chars": 2595,
+  "write_steps": 60,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 262.0,
+  "total": 270.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

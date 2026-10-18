@@ -1,0 +1,121 @@
+{
+ "qid": "5c40ec5b",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many times have I met up with Alex from Germany?",
+ "reference": "We've met up twice.",
+ "question_date": "2023-10-30 13:39",
+ "sessions": [
+  {
+   "id": "156988fe",
+   "date": "2023-07-12 13:46",
+   "evidence": false
+  },
+  {
+   "id": "ff2fd48c",
+   "date": "2023-07-14 00:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_117952",
+   "date": "2023-07-21 10:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_1cb52d0a_1",
+   "date": "2023-08-11 08:32",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_545683",
+   "date": "2023-08-14 06:21",
+   "evidence": false
+  },
+  {
+   "id": "be050ab3_2",
+   "date": "2023-08-15 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_e6daAMu_0",
+   "date": "2023-08-28 17:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_271436",
+   "date": "2023-09-14 04:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dBQwSJX_0",
+   "date": "2023-09-22 07:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_1cb52d0a_2",
+   "date": "2023-09-30 12:23",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Has been sculpting for about a month (2023-07-12)\n- Has had their beginner sculpting kit for about 3 weeks (2023-07-12)\n- Lives closer to work now (2023-07-14)\n- Has a short daily commute (2023-07-14)\n- Has a go-to coffee spot near their apartment for working on emails (2023-07-14)\n- Has been taking daily walks for about 3 weeks (2023-07-14)\n- Has recently started doing yoga again (2023-07-14)\n- Met Alex from Germany at a music festival; they bonded over indie rock music and are planning to meet up when he visits the city for work (2023-08-11)\n- Met up with Alex from Germany twice since their first festival meeting (2023-09-30)\n- Planning to meet up with Alex for a third time during their upcoming trip to Berlin (2023-09-30)\n- Currently in the final stages of buying a home with partner Alex (2023-08-15)\n- Started the home buying research and prioritization process 6 weeks ago (2023-08-15)\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on the information stored in your memory, you have met up with Alex from Germany three times.\n\nYou initially met him at a music festival, and then you mentioned meeting up with him twice more as of September 30, 2023. You were also planning to meet for a third time during your trip to Berlin.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Has been sculpting for about a month (2023-07-12)\n- Has had their beginner sculpting kit for about 3 weeks (2023-07-12)\n- Lives closer to work now (2023-07-14)\n- Has a short daily commute (2023-07-14)\n- Has a go-to coffee spot near their apartment for working on emails (2023-07-14)\n- Has been taking daily walks for about 3 weeks (2023-07-14)\n- Has recently started doing yoga again (2023-07-14)\n- Met Alex from Germany at a music festival; they bonded over indie rock music and are planning to meet up when he visits the city for work (2023-08-11)\n- Met up with Alex from Germany twice since their first festival meeting (2023-09-30)\n- Planning to meet up with Alex for a third time during their upcoming trip to Berlin (2023-09-30)\n- Currently in the final stages of buying a home with partner Alex (2023-08-15)\n- Started the home buying research and prioritization process 6 weeks ago (2023-08-15)\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Alex Germany\"})"
+  ],
+  "blocks_chars": 1854,
+  "write_steps": 49,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 213.3,
+  "total": 217.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

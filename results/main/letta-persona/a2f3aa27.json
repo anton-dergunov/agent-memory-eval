@@ -1,0 +1,125 @@
+{
+ "qid": "a2f3aa27",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many followers do I have on Instagram now?",
+ "reference": 1300,
+ "question_date": "2023-06-15 23:26",
+ "sessions": [
+  {
+   "id": "ultrachat_59277",
+   "date": "2023-05-04 10:47",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_181699",
+   "date": "2023-05-25 03:46",
+   "evidence": false
+  },
+  {
+   "id": "b4f28f96_1",
+   "date": "2023-05-25 04:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_5126c02d_1",
+   "date": "2023-05-25 05:26",
+   "evidence": true
+  },
+  {
+   "id": "answer_5126c02d_2",
+   "date": "2023-05-25 09:28",
+   "evidence": true
+  },
+  {
+   "id": "b65f51fb_5",
+   "date": "2023-05-25 15:40",
+   "evidence": false
+  },
+  {
+   "id": "98c6946f_1",
+   "date": "2023-05-25 15:56",
+   "evidence": false
+  },
+  {
+   "id": "57bf4122_1",
+   "date": "2023-05-25 19:24",
+   "evidence": false
+  },
+  {
+   "id": "39709ef6_2",
+   "date": "2023-06-05 22:13",
+   "evidence": false
+  },
+  {
+   "id": "74ef19f0_1",
+   "date": "2023-06-08 20:21",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nMoving to Edinburgh for a master's in Computer Science at the University of Edinburgh in May 2023. Found a flat share in Marchmont. Plans to use the Airlink 100 bus for airport transfer to Haymarket Station. (2023-05-25)\nCurrently has 1300 Instagram followers (2023-05-25; earlier 1250, 2023-05-25).\nTransitioning to a new last name (new email set up 2023-02-12). (2023-05-25)\nCurrently working on a 1/16 scale WWII German soldier. Interested in painting historical uniforms and equipment, and looking for specific Vallejo paint recommendations. (2023-05-25)\nStarted using a spreadsheet to track online orders, spending, categories, and shipping reliability (2023-05-25).\nArrived in NYC from Kenya on June 15, 2023. (2023-06-05) - *Correction: User is in NYC, not Edinburgh.*\nBought a new smart TV for less than $700 (original price $700) (2023-06-08).\nLooking for a soundbar with a wireless subwoofer, budget $300-$400, for movies and TV shows in a medium-sized room (2023-06-08).\nChoosing the Sonos Beam with Wireless Subwoofer (2023-06-08).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n\nMoving to Edinburgh for a master's in Computer Science at the University of Edinburgh in May 2023. Found a flat share in Marchmont. Plans to use the Airlink 100 bus for airport transfer to Haymarket Station. (2023-05-25)\nCurrently has 1300 Instagram followers (2023-05-25; earlier 1250, 2023-05-25).\nTransitioning to a new last name (new email set up 2023-02-12). (2023-05-25)\nCurrently working on a 1/16 scale WWII German soldier. Interested in painting historical uniforms and equipment, and looking for specific Vallejo paint recommendations. (2023-05-25)\nStarted using a spreadsheet to track online orders, spending, categories, and shipping reliability (2023-05-25).\nArrived in NYC from Kenya on June 15, 2023. (2023-06-05) - *Correction: User is in NYC, not Edinburgh.*\nBought a new smart TV for less than $700 (original price $700) (2023-06-08).\nLooking for a soundbar with a wireless subwoofer, budget $300-$400, for movies and TV shows in a medium-sized room (2023-06-08).\nChoosing the Sonos Beam with Wireless Subwoofer (2023-06-08).",
+ "answer": "According to my records, you had 1300 followers on Instagram as of May 25, 2023. Do you know if that number has changed since then?",
+ "dump": "<human>\n\nMoving to Edinburgh for a master's in Computer Science at the University of Edinburgh in May 2023. Found a flat share in Marchmont. Plans to use the Airlink 100 bus for airport transfer to Haymarket Station. (2023-05-25)\nCurrently has 1300 Instagram followers (2023-05-25; earlier 1250, 2023-05-25).\nTransitioning to a new last name (new email set up 2023-02-12). (2023-05-25)\nCurrently working on a 1/16 scale WWII German soldier. Interested in painting historical uniforms and equipment, and looking for specific Vallejo paint recommendations. (2023-05-25)\nStarted using a spreadsheet to track online orders, spending, categories, and shipping reliability (2023-05-25).\nArrived in NYC from Kenya on June 15, 2023. (2023-06-05) - *Correction: User is in NYC, not Edinburgh.*\nBought a new smart TV for less than $700 (original price $700) (2023-06-08).\nLooking for a soundbar with a wireless subwoofer, budget $300-$400, for movies and TV shows in a medium-sized room (2023-06-08).\nChoosing the Sonos Beam with Wireless Subwoofer (2023-06-08).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Instagram followers\"})",
+   "memory_replace({\"label\": \"human\", \"new_string\": \"Currently has 1300 Instagram followers (2023-05-25; earlier 1250, 2023-05-25).\", \"old_string\": \"Currently has 1300 Instagram followers (2023-05-25; earlier 1250, 2023-05-25).\"})"
+  ],
+  "blocks_chars": 1994,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 289.9,
+  "total": 294.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

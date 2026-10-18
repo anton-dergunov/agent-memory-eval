@@ -181,6 +181,25 @@ earlier value overwritten) and `618f13b2` (the key's value), and misses
 score 36/46 (78%) and those where it only appended 10/20 (50%), but that split
 tracks how actively the agent wrote, not the kind of edit.
 
+**With an instructed persona (`letta-persona`, 7 wrong of 67).** The agent's
+persona had been Letta's blank starter text. Three lines added to it (write
+the message's date on every fact, update the line when a value changes and
+keep the earlier value, search with one or two words) raise the revisions
+written at the message from 31 to 57 of 64, and the score to 90% (80–95%).
+The seven left:
+
+| Cause | answers |
+|---|---|
+| Revision never written; the search returned only echoes of the agent's own edits | 1: `9ea5eabc` |
+| Revision written as a dated plan, not as the new frequency | 1: `f685340e` |
+| Both values in memory with dates; the answer reasoned wrongly | 2: `5c40ec5b` (counted the first meeting too), `6071bd76` (5 oz after 6 oz called "more water") |
+| A stated intention ("I'm definitely going to add…") written as an update, 25 → 27 | 1: `4d6b87c8` |
+| The question or its key is flawed | 1: `618f13b2` |
+| No answer: the provider's content filter stopped the build | 1: `184da446` |
+
+The persona was written after this analysis, on the same questions; see
+[letta.md](letta.md#the-persona-re-run-letta-persona).
+
 ## Graphiti: the update mostly arrives, and the dates decide (12 wrong of 67)
 
 Re-run with one episode per message, Graphiti scores 82% (71–89%), up from

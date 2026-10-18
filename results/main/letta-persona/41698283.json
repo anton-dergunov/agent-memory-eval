@@ -1,0 +1,148 @@
+{
+ "qid": "41698283",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What type of camera lens did I purchase most recently?",
+ "reference": "a 70-200mm zoom lens",
+ "question_date": "2023-09-21 08:41",
+ "sessions": [
+  {
+   "id": "a68db5db_1",
+   "date": "2023-02-18 02:10",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FOYwfdK_0",
+   "date": "2023-02-23 19:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_u80Un0X_0",
+   "date": "2023-02-26 00:32",
+   "evidence": false
+  },
+  {
+   "id": "answer_c7ddc051_1",
+   "date": "2023-03-11 03:12",
+   "evidence": true
+  },
+  {
+   "id": "28e948f5",
+   "date": "2023-03-23 23:17",
+   "evidence": false
+  },
+  {
+   "id": "47a2bd5a_1",
+   "date": "2023-04-09 09:44",
+   "evidence": false
+  },
+  {
+   "id": "5fb7fd18_1",
+   "date": "2023-04-28 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_VKI7cuJ_0",
+   "date": "2023-06-26 03:12",
+   "evidence": false
+  },
+  {
+   "id": "7439f497_2",
+   "date": "2023-08-02 14:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_c7ddc051_2",
+   "date": "2023-08-30 14:23",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nLikes fresh berries and is interested in food pairings. Inspired by a conversation with a jam maker at a farmer's market on a Saturday morning (2023-02-04; 2 weeks before 2023-02-18).\nMet a personal trainer at the gym a few days ago (2023-02-15 or 2023-02-16; before 2023-02-18). Interested in building meaningful relationships with new acquaintances.\nMet a woman at a networking event last month (January 2023; before 2023-02-18). She provided valuable professional insights and resources. Wants to express gratitude.\nRecently got a 50mm prime lens and it is working out great (2023-03-11). Using a Nikon D5600 (2023-03-11). Currently having issues with an 18-55mm kit lens and has been relying on manual focus (2023-03-11). Interest in portrait and low-light photography (2023-03-11).\nInterested in a remote shutter release for the Nikon D5600 (2023-03-11).\nRecently went through a divorce and changed name from Emily Wilson (formerly married to John Wilson) to Emily Rose Thompson (2023-03-23).\nOwns a Honda Civic (2023-04-09). Recently achieved 60 miles at 18.5 mph on a road bike (2023-04-09). Interested in bike rack recommendations for the Civic.\nRecently purchased a Kryptonite U-Lock for bike security (2023-04-09).\nRides a Trek Emonda (2023-04-09). Participating in an upcoming 40-mile charity ride (2023-04-09).\nRecently made a sourdough loaf and used Bob's Red Mill bread flour for the first time (2023-04-28). Interested in achieving a lighter, airier crumb in sourdough bread (2023-04-28).\nPlanning a trip to Tokyo DisneySea in December for \"Christmas Fantasy\" (2023-08-02). Loves the \"Indiana Jones Adventure\" at DisneySea and has ridden it 5 times (2023-08-02).\nInterested in \"Christmas Fantasy\" popcorn and \"Santa's Little Helper Dog\" hot dog (2023-08-02).\nExcited for \"Believe! Sea of Dreams\" Nighttime Show (2023-08-02).\nConsidering a visit to the \"Haunted House\" attraction at Universal Studios Japan during the winter (2023-08-02).\nVisited USJ before, enjoyed the \"Mummy's Revenge\" during a Halloween event (2023-08-02).\nInterested in winter-themed merchandise at USJ (2023-08-02).\nHas a 70-200mm zoom lens (2023-08-30). Considering a new tripod, interested in comparing Gitzo and Really Right Stuff (2023-08-30).\nHas remote flash triggers from a workshop (2023-08-30). Asking about the relationship between tripod weight and stability, and features for tripod heads (2023-08-30).\nConsidering upgrading from a Nikon D5600 to a full-frame camera (Nikon Z6 or Canon EOS R). Asking if it's worth the investment for image quality (2023-08-30).\nConsidering a new camera bag: Lowepro ProTactic 450 AW or Think Tank Urban Disguise 40L (2023-08-30). Asking for a comparison (2023-08-30).\nDecided to get the Think Tank Urban Disguise 40L for street and travel photography (2023-08-30). Loving the results from the 70-200mm lens, especially recent park shots (2023-08-30).\nConsidering a wide-angle lens (14-24mm or 16-35mm) to complement the 70-200mm lens for landscapes and cityscapes (2023-08-30).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T17:10:34.929458+00:00', 'time_ago': '2s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is an excellent idea and a natural next step! You\\'re essentially building a classic \"pro trio\" (Wide-Angle, Mid-Range, and Telephoto), and having a wide lens to go along with your 70-200mm will give you incredible creative range.\\n\\nChoosing between a 14-24mm and a 16-35mm really comes down to what you prioritize more:\\n\\n### 14-24mm (The Ultra-Wide Specialist)\\n*   **Best for:** Massive sweeping landscapes, tight architecture interiors, and getting that dramatic, exaggerated perspective where the foreground looms large.\\n*   **The Look:** It’s a very specific, \"epic\" look. It forces you to get physically very close to your subject to make it pop.\\n*   **Consideration:** Because the front element is usually bulbous (making it hard to use standard circular screw-on filters like polarizers or ND filters), you often need specialized, bulky filter holder systems.\\n\\n### 16-35mm (The Versatile Workhorse)\\n*   **Best for:** A broader range of everyday shooting. 35mm is a fantastic \"street\" focal length, so this lens can double as a travel/walk-around lens.\\n*   **The Look:** It’s wider than normal but maintains a more \"natural\" perspective compared to the ultra-wide 14mm.\\n*   **Consideration:** It’s usually much easier to use with standard circular filters, which is a huge plus for landscape photographers who rely on polarizers to cut glare or ND filters for long exposures.\\n\\n### My Thoughts on your Setup\\nSince you mentioned you\\'re interested in the **Nikon Z6** (full-frame) as a potential upgrade, keep in mind:\\n\\n*   If you stick with Nikon, the native Z-mount wide-angle lenses are absolutely spectacular, even more so than their F-mount predecessors. \\n*   If you primarily shoot landscapes, the **14-24mm** will give you that \"wow\" factor you can\\'t get any other way.\\n*   If you want a more flexible travel lens that you can leave on your camera all day, the **16-35mm** (or the Z-mount 14-30mm f/4, which is compact and takes standard filters) is much more practical.\\n\\nGiven how much you enjoy street and travel photography, would you prefer a lens that can do double duty as a walk-around, or do you have a specific landscape project in mind where you know you\\'ll need the widest view possible?'}, {'timestamp': '2026-10-18T17:10:30.498763+00:00', 'time_ago': '7s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-30 14:23] Actually, I've been thinking about getting a wide-angle lens, maybe something like a 14-24mm or a 16-35mm. I've heard they're great for capturing sweeping landscapes and cityscapes, and I think they would complement my 70-200mm zoom lens nicely. What do you think?\"}, {'timestamp': '2026-10-18T17:10:28.998299+00:00', 'time_ago': '8s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That sounds like a great choice! The Think Tank Urban Disguise 40L is a fantastic bag, and its low profile is perfect for capturing candid moments in street and travel photography without drawing unnecessary attention.\\n\\nIt’s really exciting to hear that the 70-200mm is producing such great results for you in the park. That lens really excels at isolating subjects from a busy background, which is perfect for capturing candid details, wildlife, or even just some beautiful environmental portraits while you\\'re out and about. There\\'s nothing quite like that \"aha!\" moment when you look back at your shots and see the sharpness and compression you were aiming for.\\n\\nSince you\\'ve got your bag sorted, are you planning to take your gear out on any more photography-focused trips or outings soon? And were any of those recent park shots captured using your new flash triggers, or were you relying on natural light?'}]}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T17:10:34.929458+00:00', 'time_ago': '3s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is an excellent idea and a natural next step! You\\'re essentially building a classic \"pro trio\" (Wide-Angle, Mid-Range, and Telephoto), and having a wide lens to go along with your 70-200mm will give you incredible creative range.\\n\\nChoosing between a 14-24mm and a 16-35mm really comes down to what you prioritize more:\\n\\n### 14-24mm (The Ultra-Wide Specialist)\\n*   **Best for:** Massive sweeping landscapes, tight architecture interiors, and getting that dramatic, exaggerated perspective where the foreground looms large.\\n*   **The Look:** It’s a very specific, \"epic\" look. It forces you to get physically very close to your subject to make it pop.\\n*   **Consideration:** Because the front element is usually bulbous (making it hard to use standard circular screw-on filters like polarizers or ND filters), you often need specialized, bulky filter holder systems.\\n\\n### 16-35mm (The Versatile Workhorse)\\n*   **Best for:** A broader range of everyday shooting. 35mm is a fantastic \"street\" focal length, so this lens can double as a travel/walk-around lens.\\n*   **The Look:** It’s wider than normal but maintains a more \"natural\" perspective compared to the ultra-wide 14mm.\\n*   **Consideration:** It’s usually much easier to use with standard circular filters, which is a huge plus for landscape photographers who rely on polarizers to cut glare or ND filters for long exposures.\\n\\n### My Thoughts on your Setup\\nSince you mentioned you\\'re interested in the **Nikon Z6** (full-frame) as a potential upgrade, keep in mind:\\n\\n*   If you stick with Nikon, the native Z-mount wide-angle lenses are absolutely spectacular, even more so than their F-mount predecessors. \\n*   If you primarily shoot landscapes, the **14-24mm** will give you that \"wow\" factor you can\\'t get any other way.\\n*   If you want a more flexible travel lens that you can leave on your camera all day, the **16-35mm** (or the Z-mount 14-30mm f/4, which is compact and takes standard filters) is much more practical.\\n\\nGiven how much you enjoy street and travel photography, would you prefer a lens that can do double duty as a walk-around, or do you have a specific landscape project in mind where you know you\\'ll need the widest view possible?'}, {'timestamp': '2026-10-18T17:10:30.498763+00:00', 'time_ago': '8s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-30 14:23] Actually, I've been thinking about getting a wide-angle lens, maybe something like a 14-24mm or a 16-35mm. I've heard they're great for capturing sweeping landscapes and cityscapes, and I think they would complement my 70-200mm zoom lens nicely. What do you think?\"}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T17:10:36.624119+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-09-21 08:41] What type of camera lens did I purchase most recently?'}, {'timestamp': '2026-10-18T17:10:34.929458+00:00', 'time_ago': '6s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is an excellent idea and a natural next step! You\\'re essentially building a classic \"pro trio\" (Wide-Angle, Mid-Range, and Telephoto), and having a wide lens to go along with your 70-200mm will give you incredible creative range.\\n\\nChoosing between a 14-24mm and a 16-35mm really comes down to what you prioritize more:\\n\\n### 14-24mm (The Ultra-Wide Specialist)\\n*   **Best for:** Massive sweeping landscapes, tight architecture interiors, and getting that dramatic, exaggerated perspective where the foreground looms large.\\n*   **The Look:** It’s a very specific, \"epic\" look. It forces you to get physically very close to your subject to make it pop.\\n*   **Consideration:** Because the front element is usually bulbous (making it hard to use standard circular screw-on filters like polarizers or ND filters), you often need specialized, bulky filter holder systems.\\n\\n### 16-35mm (The Versatile Workhorse)\\n*   **Best for:** A broader range of everyday shooting. 35mm is a fantastic \"street\" focal length, so this lens can double as a travel/walk-around lens.\\n*   **The Look:** It’s wider than normal but maintains a more \"natural\" perspective compared to the ultra-wide 14mm.\\n*   **Consideration:** It’s usually much easier to use with standard circular filters, which is a huge plus for landscape photographers who rely on polarizers to cut glare or ND filters for long exposures.\\n\\n### My Thoughts on your Setup\\nSince you mentioned you\\'re interested in the **Nikon Z6** (full-frame) as a potential upgrade, keep in mind:\\n\\n*   If you stick with Nikon, the native Z-mount wide-angle lenses are absolutely spectacular, even more so than their F-mount predecessors. \\n*   If you primarily shoot landscapes, the **14-24mm** will give you that \"wow\" factor you can\\'t get any other way.\\n*   If you want a more flexible travel lens that you can leave on your camera all day, the **16-35mm** (or the Z-mount 14-30mm f/4, which is compact and takes standard filters) is much more practical.\\n\\nGiven how much you enjoy street and travel photography, would you prefer a lens that can do double duty as a walk-around, or do you have a specific landscape project in mind where you know you\\'ll need the widest view possible?'}]}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-18T17:10:34.929458+00:00', 'time_ago': '7s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is an excellent idea and a natural next step! You\\'re essentially building a classic \"pro trio\" (Wide-Angle, Mid-Range, and Telephoto), and having a wide lens to go along with your 70-200mm will give you incredible creative range.\\n\\nChoosing between a 14-24mm and a 16-35mm really comes down to what you prioritize more:\\n\\n### 14-24mm (The Ultra-Wide Specialist)\\n*   **Best for:** Massive sweeping landscapes, tight architecture interiors, and getting that dramatic, exaggerated perspective where the foreground looms large.\\n*   **The Look:** It’s a very specific, \"epic\" look. It forces you to get physically very close to your subject to make it pop.\\n*   **Consideration:** Because the front element is usually bulbous (making it hard to use standard circular screw-on filters like polarizers or ND filters), you often need specialized, bulky filter holder systems.\\n\\n### 16-35mm (The Versatile Workhorse)\\n*   **Best for:** A broader range of everyday shooting. 35mm is a fantastic \"street\" focal length, so this lens can double as a travel/walk-around lens.\\n*   **The Look:** It’s wider than normal but maintains a more \"natural\" perspective compared to the ultra-wide 14mm.\\n*   **Consideration:** It’s usually much easier to use with standard circular filters, which is a huge plus for landscape photographers who rely on polarizers to cut glare or ND filters for long exposures.\\n\\n### My Thoughts on your Setup\\nSince you mentioned you\\'re interested in the **Nikon Z6** (full-frame) as a potential upgrade, keep in mind:\\n\\n*   If you stick with Nikon, the native Z-mount wide-angle lenses are absolutely spectacular, even more so than their F-mount predecessors. \\n*   If you primarily shoot landscapes, the **14-24mm** will give you that \"wow\" factor you can\\'t get any other way.\\n*   If you want a more flexible travel lens that you can leave on your camera all day, the **16-35mm** (or the Z-mount 14-30mm f/4, which is compact and takes standard filters) is much more practical.\\n\\nGiven how much you enjoy street and travel photography, would you prefer a lens that can do double duty as a walk-around, or do you have a specific landscape project in mind where you know you\\'ll need the widest view possible?'}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-18T17:10:36.624119+00:00', 'time_ago': '8s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-09-21 08:41] What type of camera lens did I purchase most recently?'}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T17:10:30.498763+00:00', 'time_ago': '19s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-30 14:23] Actually, I've been thinking about getting a wide-angle lens, maybe something like a 14-24mm or a 16-35mm. I've heard they're great for capturing sweeping landscapes and cityscapes, and I think they would complement my 70-200mm zoom lens nicely. What do you think?\"}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T17:10:23.300006+00:00', 'time_ago': '36s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That\\'s an interesting comparison! You are looking at two very different philosophies of camera carry. Both are excellent, but they serve different purposes. Given your interest in portraits and potential move to a larger full-frame kit with that 70-200mm, here is how they stack up:\\n\\n### Lowepro ProTactic 450 AW (The Rugged Workhorse)\\n*   **Design:** This is a tactical-style backpack designed for serious, all-day carrying. It’s built to take a beating.\\n*   **Accessibility:** The best feature is the \"all-access\" design—you can access your gear from the top, both sides, and the full back panel. This is incredibly helpful when you need to swap lenses or grab your camera quickly during a shoot.\\n*   **Pros:** It’s extremely protective and customizable with its MOLLE-style exterior, which allows you to attach pouches, tripod holders, or water bottle holders to the outside. It’s perfect if you are hiking, going to a location shoot, or moving through crowded areas where you want everything on your back.\\n*   **Consideration:** It has a very technical, \"gear-head\" aesthetic. If you’re trying to blend in at a wedding or a professional event, it screams \"I have expensive camera gear.\"\\n\\n### Think Tank Urban Disguise 40L (The Professional Discreet)\\n*   **Design:** As the name suggests, this is a shoulder bag designed to look like a professional business bag. It\\'s meant to \"disguise\" the fact that you’re carrying a full kit.\\n*   **Accessibility:** Being a shoulder bag, it offers rapid, single-motion access. You just slide it around your hip, unzip, and you\\'re ready to go.\\n*   **Pros:** It looks very professional and understated, making it ideal for street photography, weddings, or corporate environments where you don\\'t want to draw attention to your gear. It’s also significantly more comfortable to navigate in narrow spaces (like aisles on a plane or crowded city streets) compared to a bulky backpack.\\n*   **Consideration:** Because it’s a shoulder bag, carrying a heavy kit (like a potential future full-frame body + a 70-200mm) for a full day can put a lot of strain on one shoulder and your back.\\n\\n### My Recommendation\\n*   **Choose the Lowepro ProTactic 450 AW** if you are planning to travel, hike, or carry your full-frame kit for long periods. The back-panel accessibility is a dream for organizing your 70-200mm, flashes, and multiple lenses, and the weight distribution of a backpack is far healthier for your spine if you\\'re carrying a heavy load.\\n*   **Choose the Think Tank Urban Disguise 40L** if you primarily shoot in urban environments, weddings, or professional settings where you want to look like a \"regular person\" rather than a photographer with a tactical rig.\\n\\nGiven that you are building out your portrait kit, do you anticipate needing to carry a laptop or tablet for on-site editing? That might also tip the scales, as both bags handle mobile devices differently.'}]}",
+ "answer": "Based on our previous conversations, you most recently added a **70-200mm zoom lens** to your collection (which you've been loving for park and portrait shots), and you have been considering adding a wide-angle lens (like a 14-24mm or 16-35mm) to complete your \"pro trio.\"\n\nLooking back at your history, your lens journey includes:\n*   **18-55mm kit lens:** You mentioned having issues with this and relying on manual focus as of March 2023.\n*   **50mm prime lens:** You mentioned getting this in March 2023.\n*   **70-200mm zoom lens:** You mentioned having this as of August 2023.\n\nDoes that align with your records?",
+ "dump": "<human>\n\nLikes fresh berries and is interested in food pairings. Inspired by a conversation with a jam maker at a farmer's market on a Saturday morning (2023-02-04; 2 weeks before 2023-02-18).\nMet a personal trainer at the gym a few days ago (2023-02-15 or 2023-02-16; before 2023-02-18). Interested in building meaningful relationships with new acquaintances.\nMet a woman at a networking event last month (January 2023; before 2023-02-18). She provided valuable professional insights and resources. Wants to express gratitude.\nRecently got a 50mm prime lens and it is working out great (2023-03-11). Using a Nikon D5600 (2023-03-11). Currently having issues with an 18-55mm kit lens and has been relying on manual focus (2023-03-11). Interest in portrait and low-light photography (2023-03-11).\nInterested in a remote shutter release for the Nikon D5600 (2023-03-11).\nRecently went through a divorce and changed name from Emily Wilson (formerly married to John Wilson) to Emily Rose Thompson (2023-03-23).\nOwns a Honda Civic (2023-04-09). Recently achieved 60 miles at 18.5 mph on a road bike (2023-04-09). Interested in bike rack recommendations for the Civic.\nRecently purchased a Kryptonite U-Lock for bike security (2023-04-09).\nRides a Trek Emonda (2023-04-09). Participating in an upcoming 40-mile charity ride (2023-04-09).\nRecently made a sourdough loaf and used Bob's Red Mill bread flour for the first time (2023-04-28). Interested in achieving a lighter, airier crumb in sourdough bread (2023-04-28).\nPlanning a trip to Tokyo DisneySea in December for \"Christmas Fantasy\" (2023-08-02). Loves the \"Indiana Jones Adventure\" at DisneySea and has ridden it 5 times (2023-08-02).\nInterested in \"Christmas Fantasy\" popcorn and \"Santa's Little Helper Dog\" hot dog (2023-08-02).\nExcited for \"Believe! Sea of Dreams\" Nighttime Show (2023-08-02).\nConsidering a visit to the \"Haunted House\" attraction at Universal Studios Japan during the winter (2023-08-02).\nVisited USJ before, enjoyed the \"Mummy's Revenge\" during a Halloween event (2023-08-02).\nInterested in winter-themed merchandise at USJ (2023-08-02).\nHas a 70-200mm zoom lens (2023-08-30). Considering a new tripod, interested in comparing Gitzo and Really Right Stuff (2023-08-30).\nHas remote flash triggers from a workshop (2023-08-30). Asking about the relationship between tripod weight and stability, and features for tripod heads (2023-08-30).\nConsidering upgrading from a Nikon D5600 to a full-frame camera (Nikon Z6 or Canon EOS R). Asking if it's worth the investment for image quality (2023-08-30).\nConsidering a new camera bag: Lowepro ProTactic 450 AW or Think Tank Urban Disguise 40L (2023-08-30). Asking for a comparison (2023-08-30).\nDecided to get the Think Tank Urban Disguise 40L for street and travel photography (2023-08-30). Loving the results from the 70-200mm lens, especially recent park shots (2023-08-30).\nConsidering a wide-angle lens (14-24mm or 16-35mm) to complement the 70-200mm lens for landscapes and cityscapes (2023-08-30).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"lens\"})",
+   "conversation_search({\"query\": \"70-200mm\"})",
+   "conversation_search({\"query\": \"purchased\"})",
+   "conversation_search({\"query\": \"lens\"})",
+   "conversation_search({\"query\": \"70-200mm\", \"start_date\": \"2023-08-01\"})",
+   "conversation_search({\"query\": \"50mm prime lens\", \"start_date\": \"2023-03-01\"})",
+   "conversation_search({\"query\": \"lens\", \"start_date\": \"2023-03-01\"})",
+   "conversation_search({\"query\": \"50mm\"})",
+   "conversation_search({\"query\": \"prime\"})",
+   "conversation_search({\"query\": \"70-200mm\", \"start_date\": \"2023-08-01\"})",
+   "conversation_search({\"query\": \"zoom\"})",
+   "conversation_search({\"query\": \"18-55mm\"})",
+   "conversation_search({\"query\": \"Nikon\"})",
+   "conversation_search({\"query\": \"lens\", \"start_date\": \"2023-01-01\"})",
+   "conversation_search({\"query\": \"photography\"})",
+   "conversation_search({\"query\": \"50mm\"})",
+   "conversation_search({\"query\": \"camera\"})",
+   "conversation_search({\"query\": \"kit\"})"
+  ],
+  "blocks_chars": 3961,
+  "write_steps": 50,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 265.7,
+  "total": 292.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "qid": "9bbe84a2",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+ "reference": "level 100",
+ "question_date": "2023-10-08 15:29",
+ "sessions": [
+  {
+   "id": "d3941533_1",
+   "date": "2023-05-27 10:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_c6a0c6c2_1",
+   "date": "2023-06-16 04:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_200580",
+   "date": "2023-07-05 14:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pvqY6bN_13",
+   "date": "2023-07-30 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_c6a0c6c2_2",
+   "date": "2023-09-30 12:45",
+   "evidence": true
+  },
+  {
+   "id": "cd81a69b",
+   "date": "2023-10-01 16:48",
+   "evidence": false
+  },
+  {
+   "id": "1b26bdd5_6",
+   "date": "2023-10-01 20:22",
+   "evidence": false
+  },
+  {
+   "id": "e697b2dd_3",
+   "date": "2023-10-02 07:10",
+   "evidence": false
+  },
+  {
+   "id": "ff0bb7fd_2",
+   "date": "2023-10-03 22:25",
+   "evidence": false
+  },
+  {
+   "id": "92b1f663_2",
+   "date": "2023-10-06 08:47",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Is taking yoga classes 3 times a week (2023-05-27)\n- Started taking yoga to help with stress and flexibility (2023-05-27)\n- Has dance classes on Fridays (2023-05-27)\n- Started a new job recently (2023-05-27)\n- Enjoys exploring their new neighborhood on weekends (2023-05-27)\n- Enjoys downward-facing dog and child's pose to stretch hamstrings and relax back (2023-05-27)\n- Prefers evening yoga to feel relaxed and centered after work and commuting (2023-05-27)\n- Finds it challenging to find time/energy for yoga on busy work days (2023-05-27)\n- Has discovered that even 10-15 minute sessions make a big difference (2023-05-27)\n- Commits to practicing at least a few times a week (2023-05-27)\n- Schedules yoga into their daily routine as an important appointment (2023-05-27)\n- Plays Apex Legends frequently (2023-06-16)\n- Goal: Reach level 150 in Apex Legends before the end of 2023 (2023-09-30; earlier level 100, 2023-06-16)\n- Wants to improve aim in Apex Legends to reach level 100 goal (2023-06-16)\n- Recently visited Yosemite (2023-10-01)\n- Owns a Sony FE 24-70mm f/2.8 GM lens (acquired 2023-02-10)\n- Visited Los Angeles for a friend's birthday on June 15, 2023 (2023-10-01)\n- Visited the Hamptons with friends for a beach weekend on June 5, 2023 (2023-10-01)\n- Visited Denver, Colorado for a family vacation for 5 days from May 1 to May 5, 2023 (2023-10-01)\n- Attended a music festival in Philadelphia on April 24, 2023 (2023-10-01)\n- Had a job interview in Washington D.C. on April 10, 2023 (2023-10-01)\n- Owns a dog named Max (2023-10-02)\n- Owns a cat named Lola (2023-10-02)\n- Bought a 3-month supply of flea and tick prevention medication for Lola for $25 (2023-10-02)\n- Struggles with self-doubt and imposter syndrome while writing, often telling themselves \"This is terrible, I'm not a real writer\" (2023-10-03)\n- Interested in trying sheet masks for hydration and brightening (2023-10-06)\n- Plans to purchase Laneige Water Bank Moisturizing Gel Cream (travel-sized) and 2 sheet masks (2023-10-06)\n</human>\n\nTool results while answering:\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "Your previous goal for your Apex Legends level was to reach level 100 before you updated it to reach level 150.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Is taking yoga classes 3 times a week (2023-05-27)\n- Started taking yoga to help with stress and flexibility (2023-05-27)\n- Has dance classes on Fridays (2023-05-27)\n- Started a new job recently (2023-05-27)\n- Enjoys exploring their new neighborhood on weekends (2023-05-27)\n- Enjoys downward-facing dog and child's pose to stretch hamstrings and relax back (2023-05-27)\n- Prefers evening yoga to feel relaxed and centered after work and commuting (2023-05-27)\n- Finds it challenging to find time/energy for yoga on busy work days (2023-05-27)\n- Has discovered that even 10-15 minute sessions make a big difference (2023-05-27)\n- Commits to practicing at least a few times a week (2023-05-27)\n- Schedules yoga into their daily routine as an important appointment (2023-05-27)\n- Plays Apex Legends frequently (2023-06-16)\n- Goal: Reach level 150 in Apex Legends before the end of 2023 (2023-09-30; earlier level 100, 2023-06-16)\n- Wants to improve aim in Apex Legends to reach level 100 goal (2023-06-16)\n- Recently visited Yosemite (2023-10-01)\n- Owns a Sony FE 24-70mm f/2.8 GM lens (acquired 2023-02-10)\n- Visited Los Angeles for a friend's birthday on June 15, 2023 (2023-10-01)\n- Visited the Hamptons with friends for a beach weekend on June 5, 2023 (2023-10-01)\n- Visited Denver, Colorado for a family vacation for 5 days from May 1 to May 5, 2023 (2023-10-01)\n- Attended a music festival in Philadelphia on April 24, 2023 (2023-10-01)\n- Had a job interview in Washington D.C. on April 10, 2023 (2023-10-01)\n- Owns a dog named Max (2023-10-02)\n- Owns a cat named Lola (2023-10-02)\n- Bought a 3-month supply of flea and tick prevention medication for Lola for $25 (2023-10-02)\n- Struggles with self-doubt and imposter syndrome while writing, often telling themselves \"This is terrible, I'm not a real writer\" (2023-10-03)\n- Interested in trying sheet masks for hydration and brightening (2023-10-06)\n- Plans to purchase Laneige Water Bank Moisturizing Gel Cream (travel-sized) and 2 sheet masks (2023-10-06)\n</human>",
+ "extra": {
+  "tool_calls": [
+   "memory_search({\"query\": \"Apex Legends level\"})",
+   "conversation_search({\"query\": \"Apex Legends level goal\"})",
+   "conversation_search({\"query\": \"Apex Legends level 100\"})"
+  ],
+  "blocks_chars": 2964,
+  "write_steps": 54,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 237.4,
+  "total": 243.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

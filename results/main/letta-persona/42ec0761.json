@@ -1,0 +1,128 @@
+{
+ "qid": "42ec0761",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "Do I have a spare screwdriver for opening up my laptop?",
+ "reference": "Yes",
+ "question_date": "2023-08-31 00:39",
+ "sessions": [
+  {
+   "id": "6fb15dce_1",
+   "date": "2023-07-14 23:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_566635",
+   "date": "2023-07-17 11:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_17542",
+   "date": "2023-07-27 01:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_S0mG9La_54",
+   "date": "2023-07-29 07:45",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_251342",
+   "date": "2023-07-30 00:26",
+   "evidence": false
+  },
+  {
+   "id": "53acd215",
+   "date": "2023-07-31 19:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7HWLFTq_11",
+   "date": "2023-08-03 06:23",
+   "evidence": false
+  },
+  {
+   "id": "7746ba1b_2",
+   "date": "2023-08-08 04:15",
+   "evidence": false
+  },
+  {
+   "id": "answer_e3892371_1",
+   "date": "2023-08-11 07:22",
+   "evidence": true
+  },
+  {
+   "id": "answer_e3892371_2",
+   "date": "2023-08-15 13:22",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n[2023-07-29] The blast was caused by Tiamat (a black hole entity), releasing subatomic particles similar to an EMP. It destroyed cities east of the Rocky Mountains, west of New York, and north of Houston. Cities outside this zone experienced temporary tech/computer issues but were repaired within days or weeks. The zone pulsates, expanding and contracting by a few miles over years, while gradually growing by several meters each year.\n</persona>\n\n<human>\n\nWakes up at 7:30 AM to meditate for 10 minutes before getting ready for work (2023-07-14).\nFeels more calm and focused due to morning meditation; most productive between 9:30 AM and 12:00 PM (2023-07-14).\nEnjoys drinking cider (2023-07-30).\nSpending a lot of time at home lately to recharge and focus on hobbies (2023-07-31).\nThinking a lot about societal expectations lately, especially from family (2023-07-31).\nFeeling pressure from family to get married and start a family, feeling that they view being single as incomplete (2023-07-31).\nHas been spending a lot of time alone, focusing on self and hobbies for a few weeks (2023-07-31).\nPurchased a new plot of land near the beach for a vacation home (2023-08-08).\nInterested in coastal-style landscaping with natural materials (bluestone/flagstone) and low-maintenance succulents (2023-08-08).\nInterested in using natural fabrics like linen/canvas and other beach-inspired textiles for outdoor decor (2023-08-08).\nUpgraded Google storage plan to 100 GB (2023-08-11).\nHas a spare precision screwdriver for electronics, found while organizing their computer desk (2023-08-15).\n</human>\n\nTool results while answering:\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T20:14:46.719951+00:00', 'time_ago': '11s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-15 13:22] I actually have a spare screwdriver that I picked up when I organized my computer desk a while back, so I'm all set there. Now, about that cable organizer... I think I'll go with the Anker one, it seems like it'll fit nicely in my bag.\"}, {'timestamp': '2026-10-18T20:14:45.913434+00:00', 'time_ago': '12s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-08-15 13:22] Based on our last conversation on August 11th, you mentioned that you had misplaced that small screwdriver and needed to pick one up. It sounds like you haven\\'t had a chance to grab a replacement yet!\\n\\nSince you\\'re planning to clean your fans soon, it’s definitely worth adding \"precision screwdriver set\" to your shopping list. If you\\'re buying a new one, look for an **iFixit kit** or a similar **precision screwdriver set** (often labeled for electronics/eyeglasses)—they usually have a variety of bits that will cover most laptop screws, which can be surprisingly specific depending on the brand.\\n\\nDo you know what kind of screws your laptop uses? Some require specific Torx or Pentalobe bits, so having a multi-bit set is usually the safest bet.'}]}",
+ "answer": "Yes, you do! You mentioned on August 15th that you found a spare precision screwdriver for electronics while organizing your computer desk. That should be perfect for opening up your laptop.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n[2023-07-29] The blast was caused by Tiamat (a black hole entity), releasing subatomic particles similar to an EMP. It destroyed cities east of the Rocky Mountains, west of New York, and north of Houston. Cities outside this zone experienced temporary tech/computer issues but were repaired within days or weeks. The zone pulsates, expanding and contracting by a few miles over years, while gradually growing by several meters each year.\n</persona>\n\n<human>\n\nWakes up at 7:30 AM to meditate for 10 minutes before getting ready for work (2023-07-14).\nFeels more calm and focused due to morning meditation; most productive between 9:30 AM and 12:00 PM (2023-07-14).\nEnjoys drinking cider (2023-07-30).\nSpending a lot of time at home lately to recharge and focus on hobbies (2023-07-31).\nThinking a lot about societal expectations lately, especially from family (2023-07-31).\nFeeling pressure from family to get married and start a family, feeling that they view being single as incomplete (2023-07-31).\nHas been spending a lot of time alone, focusing on self and hobbies for a few weeks (2023-07-31).\nPurchased a new plot of land near the beach for a vacation home (2023-08-08).\nInterested in coastal-style landscaping with natural materials (bluestone/flagstone) and low-maintenance succulents (2023-08-08).\nInterested in using natural fabrics like linen/canvas and other beach-inspired textiles for outdoor decor (2023-08-08).\nUpgraded Google storage plan to 100 GB (2023-08-11).\nHas a spare precision screwdriver for electronics, found while organizing their computer desk (2023-08-15).\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"screwdriver\"})"
+  ],
+  "blocks_chars": 2517,
+  "write_steps": 58,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 247.5,
+  "total": 250.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

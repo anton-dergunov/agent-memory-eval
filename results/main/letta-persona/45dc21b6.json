@@ -1,0 +1,128 @@
+{
+ "qid": "45dc21b6",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many of Emma's recipes have I tried out?",
+ "reference": "3",
+ "question_date": "2023-06-16 17:33",
+ "sessions": [
+  {
+   "id": "b7f69a7d_2",
+   "date": "2023-05-10 06:12",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BVfC7JV_0",
+   "date": "2023-05-19 15:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yZ6yXnQ_0",
+   "date": "2023-05-19 16:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhK5G9o_0",
+   "date": "2023-05-20 08:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_1",
+   "date": "2023-05-29 04:51",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_169242",
+   "date": "2023-05-29 07:04",
+   "evidence": false
+  },
+  {
+   "id": "7caf3391_2",
+   "date": "2023-05-30 00:59",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467365",
+   "date": "2023-05-30 04:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_2",
+   "date": "2023-05-30 06:32",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_gGriMhQ_91",
+   "date": "2023-05-30 07:25",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-05-10 06:12] Has been active on Instagram lately and received 23 comments on their posts (earlier 23, 2023-05-10).\n[2023-05-20 08:31] Requested categorization of words including America, American, coal, vote, business.\n[2023-05-29 04:51] Loving Emma's recipes on her channel, has tried three of them (2023-05-30; earlier two, 2023-05-29).\n[2023-05-29 04:51] Interested in vlogging, looking for camera suggestions.\n[2023-05-29 04:51] Considering the Google Pixel 6 for vlogging, inspired by an Unbox Therapy review.\n[2023-05-29 04:51] Enjoys watching tech reviews from Unbox Therapy, JerryRigEverything, and Marques Brownlee for informed purchasing decisions.\n[2023-05-29 04:51] Interested in AI/ML, electric vehicles, and sustainable energy. Enjoys YouTube channels on history, travel, and ASMR.\n[2023-05-29 07:04] Interested in watching classic NFL Monday Night Football games, and I've recommended resources like NFL Throwback on YouTube, NFL+, and NFL Films documentaries.\n[2023-05-30 00:59] Interested in learning about backyard birds; recently observed Blue Jays in a nest. Planning to set up a bird feeder for them and looking for advice on maintenance and pest prevention. Interested in attracting migrating hummingbirds and creating a hummingbird garden.\n[2023-05-30 07:25] Interested in starting late-night Twitch livestreams and is developing storyboard ideas for the experience.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T16:56:28.350434+00:00', 'time_ago': '1s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-16 17:33] How many of Emma's recipes have I tried out?\"}, {'timestamp': '2026-10-18T16:55:45.969299+00:00', 'time_ago': '44s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'Spain and Italy are both fantastic choices! You\\'re going to love the history, the architecture, and the incredible landscapes—which will be perfect for your vlogging plans. It\\'s so great to hear you\\'ve tried three of Emma\\'s recipes now; it sounds like you\\'re really enjoying that culinary journey!\\n\\nHere are some tips specific to those beautiful countries:\\n\\n### Spain\\n*   **Dining Timing:** Spaniards eat much later than in many other parts of the world. Lunch is usually between 2:00 PM and 4:00 PM, and dinner often doesn\\'t start until 9:00 PM or later. Plan your meals accordingly to avoid showing up at a restaurant during their \"siesta\" gap!\\n*   **Tapas Culture:** While some tapas have meat or cheese, it\\'s very easy to find vegan-friendly options like *pan con tomate* (bread with tomato and olive oil), *patatas bravas* (fried potatoes with a spicy sauce—just ask to ensure the sauce is vegan), or *pimientos de Padrón* (blistered peppers).\\n*   **Vegan Spots:** Cities like Barcelona and Madrid have incredible, thriving vegan scenes. Check out apps like **HappyCow**—it is essentially the gold standard for finding vegan restaurants globally and will be your best friend in both Spain and Italy.\\n\\n### Italy\\n*   **The \"Menu del Giorno\":** Look for smaller, family-run trattorias. They often have a daily menu that relies on seasonal, fresh vegetables. Even if they aren\\'t fully vegan, they are usually very happy to prepare a pasta dish with just garlic, oil, and fresh garden vegetables if you ask.\\n*   **Pizza Marinara:** This is the ultimate \"accidentally vegan\" Italian classic. It\\'s tomato sauce, garlic, oregano, and olive oil (no cheese). It\\'s simple, authentic, and delicious.\\n*   **Language Tip:** Learning to say \"Non mangio prodotti animali\" (I don\\'t eat animal products) can be very helpful, though most people in major Italian cities speak English well.\\n\\n### General Advice for Both\\n*   **Regional Trains:** Both countries have fantastic train systems (like the Renfe in Spain and Trenitalia in Italy). Booking your tickets in advance online can save you a ton of money compared to buying them at the station on the day of travel.\\n*   **Market Hauls:** Since you like cooking, visiting local food markets is a must. You can grab fresh local produce, crusty bread, and olives, which makes for a beautiful, inexpensive, and very local vegan picnic.\\n\\n**Since you\\'re planning to vlog this trip,** have you thought about what kind of stories you want to capture? Are you leaning more toward architectural/history vlogs, or are you hoping to create a \"foodie\" travel series? I\\'d love to hear your vision!'}]}",
+ "answer": "According to our records, you have tried three of Emma's recipes!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2023-05-10 06:12] Has been active on Instagram lately and received 23 comments on their posts (earlier 23, 2023-05-10).\n[2023-05-20 08:31] Requested categorization of words including America, American, coal, vote, business.\n[2023-05-29 04:51] Loving Emma's recipes on her channel, has tried three of them (2023-05-30; earlier two, 2023-05-29).\n[2023-05-29 04:51] Interested in vlogging, looking for camera suggestions.\n[2023-05-29 04:51] Considering the Google Pixel 6 for vlogging, inspired by an Unbox Therapy review.\n[2023-05-29 04:51] Enjoys watching tech reviews from Unbox Therapy, JerryRigEverything, and Marques Brownlee for informed purchasing decisions.\n[2023-05-29 04:51] Interested in AI/ML, electric vehicles, and sustainable energy. Enjoys YouTube channels on history, travel, and ASMR.\n[2023-05-29 07:04] Interested in watching classic NFL Monday Night Football games, and I've recommended resources like NFL Throwback on YouTube, NFL+, and NFL Films documentaries.\n[2023-05-30 00:59] Interested in learning about backyard birds; recently observed Blue Jays in a nest. Planning to set up a bird feeder for them and looking for advice on maintenance and pest prevention. Interested in attracting migrating hummingbirds and creating a hummingbird garden.\n[2023-05-30 07:25] Interested in starting late-night Twitch livestreams and is developing storyboard ideas for the experience.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Emma recipes\"})",
+   "conversation_search({\"query\": \"Emma\"})"
+  ],
+  "blocks_chars": 2346,
+  "write_steps": 47,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 216.3,
+  "total": 222.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

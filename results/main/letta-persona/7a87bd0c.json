@@ -1,0 +1,135 @@
+{
+ "qid": "7a87bd0c",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How long have I been sticking to my daily tidying routine?",
+ "reference": "4 weeks",
+ "question_date": "2023-09-30 23:15",
+ "sessions": [
+  {
+   "id": "answer_d08a934d_1",
+   "date": "2023-06-11 22:24",
+   "evidence": true
+  },
+  {
+   "id": "c15dadce_2",
+   "date": "2023-06-12 01:45",
+   "evidence": false
+  },
+  {
+   "id": "6414f676_5",
+   "date": "2023-06-27 11:24",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_r2CWKoi_7",
+   "date": "2023-07-30 23:55",
+   "evidence": false
+  },
+  {
+   "id": "37a9680a_2",
+   "date": "2023-08-05 11:50",
+   "evidence": false
+  },
+  {
+   "id": "9aaeecbf",
+   "date": "2023-08-26 05:15",
+   "evidence": false
+  },
+  {
+   "id": "b98914c6_2",
+   "date": "2023-09-19 12:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fnuLBKl_83",
+   "date": "2023-09-30 05:11",
+   "evidence": false
+  },
+  {
+   "id": "answer_d08a934d_2",
+   "date": "2023-09-30 17:52",
+   "evidence": true
+  },
+  {
+   "id": "55a59bc9_4",
+   "date": "2023-09-30 22:59",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Has a daily tidying routine that they have been doing for 4 weeks (2023-09-30; earlier 3 weeks, 2023-06-11)\n- Planning to organize the garage by starting with tools, sports equipment, and old furniture (2023-06-11)\n- Planning to get rid of an old, unused desk that is taking up space in the garage (2023-06-11)\n- Planning to convert the space freed by the old desk into a dedicated workstation for their daily tidying routine (2023-06-11)\n- Plans to use stackable bins and labels for garage organization (2023-06-11)\n- Keeps specialized cleaning tools like a cordless vacuum and microfiber mop, and uses an all-natural cleaning brand (2023-06-11)\n- Cousin Michael and his wife Sophia have adopted a baby girl named Ava from China (2023-06-12)\n- Visited Napa Valley for wine tastings approximately 5 weeks ago (2023-06-27)\n- Has travel photos from Hawaii, Yosemite, San Francisco, and Disney World (2023-06-27)\n- Planning to create separate folders for a solo trip to San Francisco and a family trip to Disney World (2023-06-27)\n- Prefers photo naming convention: YYYYMMDD_TripName_Location_Description (2023-06-27)\n- Became a naturalized US citizen in July 2023 (2023-08-05)\n- Currently preparing for their own citizenship application (2023-09-19)\n- Has been living in limbo for over a year regarding their residency status (2023-09-19)\n- NOTE: There is a discrepancy in memory regarding the user's status; they mention being a naturalized citizen in one entry but now express they are in limbo waiting to apply (2023-09-19)\n- Spent the weekend organizing kitchen utensil drawer and found duplicate items (2023-08-26)\n- Replaced the light fixture above the kitchen island (2023-08-26)\n- Planning a deer hunting trip to the Sierra National Forest in early November (2023-09-30)\n- Planning to scout areas near the San Joaquin River for deer hunting (2023-09-30)\n- Booked a guided duck hunting trip for mid-January (2023-09-30)\n- Son named Jack (2023-09-30)\n- Recently took Jack to a local park's fishing derby and they both caught catfish (2023-09-30)\n- Interested in involving children in hunting and fishing and making it a fun experience (2023-09-30)\n- Daughter named Emily (2023-09-30)\n- Planning to take Emily to a nearby pond on Sundays to practice casting and learn about fish species and habitats (2023-09-30)\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You have been sticking to your daily tidying routine for 4 weeks now.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n- Has a daily tidying routine that they have been doing for 4 weeks (2023-09-30; earlier 3 weeks, 2023-06-11)\n- Planning to organize the garage by starting with tools, sports equipment, and old furniture (2023-06-11)\n- Planning to get rid of an old, unused desk that is taking up space in the garage (2023-06-11)\n- Planning to convert the space freed by the old desk into a dedicated workstation for their daily tidying routine (2023-06-11)\n- Plans to use stackable bins and labels for garage organization (2023-06-11)\n- Keeps specialized cleaning tools like a cordless vacuum and microfiber mop, and uses an all-natural cleaning brand (2023-06-11)\n- Cousin Michael and his wife Sophia have adopted a baby girl named Ava from China (2023-06-12)\n- Visited Napa Valley for wine tastings approximately 5 weeks ago (2023-06-27)\n- Has travel photos from Hawaii, Yosemite, San Francisco, and Disney World (2023-06-27)\n- Planning to create separate folders for a solo trip to San Francisco and a family trip to Disney World (2023-06-27)\n- Prefers photo naming convention: YYYYMMDD_TripName_Location_Description (2023-06-27)\n- Became a naturalized US citizen in July 2023 (2023-08-05)\n- Currently preparing for their own citizenship application (2023-09-19)\n- Has been living in limbo for over a year regarding their residency status (2023-09-19)\n- NOTE: There is a discrepancy in memory regarding the user's status; they mention being a naturalized citizen in one entry but now express they are in limbo waiting to apply (2023-09-19)\n- Spent the weekend organizing kitchen utensil drawer and found duplicate items (2023-08-26)\n- Replaced the light fixture above the kitchen island (2023-08-26)\n- Planning a deer hunting trip to the Sierra National Forest in early November (2023-09-30)\n- Planning to scout areas near the San Joaquin River for deer hunting (2023-09-30)\n- Booked a guided duck hunting trip for mid-January (2023-09-30)\n- Son named Jack (2023-09-30)\n- Recently took Jack to a local park's fishing derby and they both caught catfish (2023-09-30)\n- Interested in involving children in hunting and fishing and making it a fun experience (2023-09-30)\n- Daughter named Emily (2023-09-30)\n- Planning to take Emily to a nearby pond on Sundays to practice casting and learn about fish species and habitats (2023-09-30)\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"tidying routine\"})"
+  ],
+  "blocks_chars": 3268,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 327.0,
+  "total": 330.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

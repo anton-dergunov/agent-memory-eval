@@ -1,0 +1,129 @@
+{
+ "qid": "cc5ded98",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How much time do I dedicate to coding exercises each day?",
+ "reference": "about two hours",
+ "question_date": "2023-06-13 01:30",
+ "sessions": [
+  {
+   "id": "ultrachat_361535",
+   "date": "2023-05-20 06:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_1",
+   "date": "2023-05-20 09:04",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_221540",
+   "date": "2023-05-21 10:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_110794",
+   "date": "2023-05-22 21:07",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pyK55Br_11",
+   "date": "2023-05-25 07:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_2",
+   "date": "2023-05-29 01:53",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_245905",
+   "date": "2023-06-05 11:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_176513",
+   "date": "2023-06-05 15:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_393019",
+   "date": "2023-06-10 02:03",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_YyyF8MF_0",
+   "date": "2023-06-12 13:21",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nInterested in fitness and exploring recreation options at Boston College (2026-10-18)\nUses Habitica and WakaTime for coding tracking, practices Pomodoro technique (2026-10-18)\nDedicates ~2 hours daily to coding exercises in Python (2026-10-18; earlier ~1 hour, 2026-10-18)\nUses Pluralsight for Python tutorials (2026-10-18)\nPlanning to log challenges, concepts, and skills as they are completed (2026-10-18)\nGoals: Complete personal projects (web scraper, chatbot), contribute to open-source, and collaborate with other developers (2026-10-18)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every message starts with its date. I write that date on each fact I save about the user.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-18T15:12:58.801375+00:00', 'time_ago': '1s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-13 01:30] How much time do I dedicate to coding exercises each day?'}]}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-18T15:11:57.456567+00:00', 'time_ago': '1m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'It truly is one of the most powerful portrayals of friendship and mentorship in literature. That bond transcends the battlefield; it speaks to the idea that no matter how capable we are individually, we often need that external clarity—that \"voice of reason\"—to help us see the bigger picture when we are deep in the trenches of our own challenges.\\n\\nIt’s interesting to think about that dynamic in the context of your own goals. When you hit a roadblock in your Python projects or encounter a particularly tricky concept on Pluralsight, how do you find that perspective? Does the structured approach you have with Habitica and WakaTime help you maintain that focus, or do you find yourself needing to step back and look at the \"big picture\" to regain your momentum?'}]}",
+ "answer": "Based on our current memory records (as of 2026-10-18), you dedicate approximately **2 hours** daily to your Python coding exercises.\n\nIt’s worth noting that you previously spent about 1 hour daily on these exercises, so it's great to see that commitment growing!",
+ "dump": "<human>\n\nInterested in fitness and exploring recreation options at Boston College (2026-10-18)\nUses Habitica and WakaTime for coding tracking, practices Pomodoro technique (2026-10-18)\nDedicates ~2 hours daily to coding exercises in Python (2026-10-18; earlier ~1 hour, 2026-10-18)\nUses Pluralsight for Python tutorials (2026-10-18)\nPlanning to log challenges, concepts, and skills as they are completed (2026-10-18)\nGoals: Complete personal projects (web scraper, chatbot), contribute to open-source, and collaborate with other developers (2026-10-18)\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every message starts with its date. I write that date on each fact I save about the user.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"coding exercises\"})",
+   "conversation_search({\"query\": \"coding\"})",
+   "conversation_search({\"query\": \"Python\"})"
+  ],
+  "blocks_chars": 1368,
+  "write_steps": 49,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 200.6,
+  "total": 206.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

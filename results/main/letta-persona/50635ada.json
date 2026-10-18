@@ -1,0 +1,123 @@
+{
+ "qid": "50635ada",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+ "reference": "Premier Silver",
+ "question_date": "2023-06-29 04:09",
+ "sessions": [
+  {
+   "id": "ultrachat_363516",
+   "date": "2022-09-01 15:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_49611",
+   "date": "2022-09-03 01:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_512425",
+   "date": "2022-09-06 09:05",
+   "evidence": false
+  },
+  {
+   "id": "dcbd175f_2",
+   "date": "2022-09-10 04:58",
+   "evidence": false
+  },
+  {
+   "id": "answer_dcd74827_1",
+   "date": "2022-09-16 17:22",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_234704",
+   "date": "2022-10-27 12:43",
+   "evidence": false
+  },
+  {
+   "id": "42bcee92_2",
+   "date": "2022-11-09 21:26",
+   "evidence": false
+  },
+  {
+   "id": "2e53911b_1",
+   "date": "2023-02-03 04:40",
+   "evidence": false
+  },
+  {
+   "id": "b6f35f3a_1",
+   "date": "2023-04-20 05:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_dcd74827_2",
+   "date": "2023-05-30 08:58",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2022-09-01 15:26] The user is interested in solar-powered irrigation systems and their effectiveness at reducing fossil fuel reliance in agriculture.\n[2022-09-03 01:21] The user is contemplating the societal risks of over-reliance on machines and automation, specifically regarding potential loss of human agency, societal resilience, and structural shifts in the economy.\n[2022-09-10 04:58] The user has two goats named Luna and Leo. Their vet is Dr. Thompson.\n[2022-09-10 04:58] The user rotates Luna and Leo's pasture every week for fresh grass and water access.\n[2022-09-10 04:58] The user is preparing for Luna and Leo's vet visit, which includes microchipping.\n[2022-09-10 04:58] The user has a horse named Comet.\n[2022-09-10 04:58] The user has goats and needs organic feed from Tractor Supply Co. They cleaned the enclosure and replaced bedding with fresh straw last weekend.\n[2022-09-16 17:22] The user has 20,000 miles on United Airlines and has achieved Premier Gold status (2023-05-30; earlier Premier Silver, 2022-09-16).\n[2023-05-30 08:58] Looking for flights from IAD to SFO, budget around $400, interested in non-stop flights.\n[2022-11-09 21:26] Participated in the \"Run Disney\" 5K at Disneyland on 2022-10-08 and finished in under 35 minutes. Planning to run another 5K soon.\n[2022-11-09 21:26] Interested in planning another trip to Disneyland and looking for attraction/experience recommendations.\n[2023-02-03 04:40] Recently purchased a designer handbag from Neiman Marcus; neutral color, intends to use for work and casual daily use. Style is a mix of classic and trendy.\n[2023-02-03 04:40] Interested in \"Casual Chic\" outfits; likes mid-range brands like Banana Republic and J.Crew.\n[2023-04-20 05:37] Attended high school reunion about a month ago (March 2023); feeling reflective about the passage of time.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n\n[2022-09-01 15:26] The user is interested in solar-powered irrigation systems and their effectiveness at reducing fossil fuel reliance in agriculture.\n[2022-09-03 01:21] The user is contemplating the societal risks of over-reliance on machines and automation, specifically regarding potential loss of human agency, societal resilience, and structural shifts in the economy.\n[2022-09-10 04:58] The user has two goats named Luna and Leo. Their vet is Dr. Thompson.\n[2022-09-10 04:58] The user rotates Luna and Leo's pasture every week for fresh grass and water access.\n[2022-09-10 04:58] The user is preparing for Luna and Leo's vet visit, which includes microchipping.\n[2022-09-10 04:58] The user has a horse named Comet.\n[2022-09-10 04:58] The user has goats and needs organic feed from Tractor Supply Co. They cleaned the enclosure and replaced bedding with fresh straw last weekend.\n[2022-09-16 17:22] The user has 20,000 miles on United Airlines and has achieved Premier Gold status (2023-05-30; earlier Premier Silver, 2022-09-16).\n[2023-05-30 08:58] Looking for flights from IAD to SFO, budget around $400, interested in non-stop flights.\n[2022-11-09 21:26] Participated in the \"Run Disney\" 5K at Disneyland on 2022-10-08 and finished in under 35 minutes. Planning to run another 5K soon.\n[2022-11-09 21:26] Interested in planning another trip to Disneyland and looking for attraction/experience recommendations.\n[2023-02-03 04:40] Recently purchased a designer handbag from Neiman Marcus; neutral color, intends to use for work and casual daily use. Style is a mix of classic and trendy.\n[2023-02-03 04:40] Interested in \"Casual Chic\" outfits; likes mid-range brands like Banana Republic and J.Crew.\n[2023-04-20 05:37] Attended high school reunion about a month ago (March 2023); feeling reflective about the passage of time.",
+ "answer": "Your previous frequent flyer status on United Airlines was Premier Silver.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\n<human>\n\n[2022-09-01 15:26] The user is interested in solar-powered irrigation systems and their effectiveness at reducing fossil fuel reliance in agriculture.\n[2022-09-03 01:21] The user is contemplating the societal risks of over-reliance on machines and automation, specifically regarding potential loss of human agency, societal resilience, and structural shifts in the economy.\n[2022-09-10 04:58] The user has two goats named Luna and Leo. Their vet is Dr. Thompson.\n[2022-09-10 04:58] The user rotates Luna and Leo's pasture every week for fresh grass and water access.\n[2022-09-10 04:58] The user is preparing for Luna and Leo's vet visit, which includes microchipping.\n[2022-09-10 04:58] The user has a horse named Comet.\n[2022-09-10 04:58] The user has goats and needs organic feed from Tractor Supply Co. They cleaned the enclosure and replaced bedding with fresh straw last weekend.\n[2022-09-16 17:22] The user has 20,000 miles on United Airlines and has achieved Premier Gold status (2023-05-30; earlier Premier Silver, 2022-09-16).\n[2023-05-30 08:58] Looking for flights from IAD to SFO, budget around $400, interested in non-stop flights.\n[2022-11-09 21:26] Participated in the \"Run Disney\" 5K at Disneyland on 2022-10-08 and finished in under 35 minutes. Planning to run another 5K soon.\n[2022-11-09 21:26] Interested in planning another trip to Disneyland and looking for attraction/experience recommendations.\n[2023-02-03 04:40] Recently purchased a designer handbag from Neiman Marcus; neutral color, intends to use for work and casual daily use. Style is a mix of classic and trendy.\n[2023-02-03 04:40] Interested in \"Casual Chic\" outfits; likes mid-range brands like Banana Republic and J.Crew.\n[2023-04-20 05:37] Attended high school reunion about a month ago (March 2023); feeling reflective about the passage of time.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"United Airlines status\"})",
+   "memory_replace({\"label\": \"human\", \"new_string\": \"[2022-09-16 17:22] The user has 20,000 miles on United Airlines and has achieved Premier Gold status (2023-05-30; earlier Premier Silver, 2022-09-16).\", \"old_string\": \"[2022-09-16 17:22] The user has 20,000 miles on United Airlines and has achieved Premier Gold status (2023-05-30; earlier Premier Silver, 2022-09-16).\"})"
+  ],
+  "blocks_chars": 2782,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 294.3,
+  "total": 300.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

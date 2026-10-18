@@ -1,0 +1,130 @@
+{
+ "qid": "4d6b87c8",
+ "arm": "letta-persona",
+ "split": "main",
+ "question": "How many titles are currently on my to-watch list?",
+ "reference": "25",
+ "question_date": "2023-06-03 15:47",
+ "sessions": [
+  {
+   "id": "ultrachat_121715",
+   "date": "2023-05-01 21:59",
+   "evidence": false
+  },
+  {
+   "id": "5fc83435_1",
+   "date": "2023-05-15 20:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mmYyki5_0",
+   "date": "2023-05-17 11:19",
+   "evidence": false
+  },
+  {
+   "id": "d87e86f6_1",
+   "date": "2023-05-17 22:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_1",
+   "date": "2023-05-20 10:19",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cu7TYt7_57",
+   "date": "2023-05-20 17:03",
+   "evidence": false
+  },
+  {
+   "id": "85da7827",
+   "date": "2023-05-21 06:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_2",
+   "date": "2023-05-22 03:27",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_361817",
+   "date": "2023-05-22 08:42",
+   "evidence": false
+  },
+  {
+   "id": "5c85023a_1",
+   "date": "2023-05-29 06:30",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Prefers gaming mice with precision and customizability for FPS games (2023-05-01).\n- Interested in the Logitech G502 HERO gaming mouse (2023-05-01).\n- Takes dance classes at a studio reached by bike (2023-05-15).\n- Opting for an 18mm shackle U-lock for added bike security (2023-05-15).\n- Interested in creating a Bitcoin trading bot (2023-05-17).\n- Saw Lucy Dacus at the Troubadour a few months ago (2023-05-17).\n- Has a to-watch list of 27 titles (2023-05-22; earlier 25, 2023-05-22).\n- Planning to watch \"The Haunting of Hill House\", \"Victoria\", and \"The Last Kingdom\" (2023-05-20).\n- Interested in cryptology and the history of code-breaking (2023-05-20).\n- Making candles with herbal scents like lavender and chamomile (2023-05-21).\n- Struggles with staying off the phone before bed (2023-05-22).\n- Interested in Antarctica and planning a trip there (2023-05-29).\n- Interested in learning more about climate change (2023-05-29; earlier interest based on a New Yorker article incorrectly dated to March 15th, 2023-05-29).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You have 27 titles on your to-watch list (2023-05-22).",
+ "dump": "<human>\n\n- Prefers gaming mice with precision and customizability for FPS games (2023-05-01).\n- Interested in the Logitech G502 HERO gaming mouse (2023-05-01).\n- Takes dance classes at a studio reached by bike (2023-05-15).\n- Opting for an 18mm shackle U-lock for added bike security (2023-05-15).\n- Interested in creating a Bitcoin trading bot (2023-05-17).\n- Saw Lucy Dacus at the Troubadour a few months ago (2023-05-17).\n- Has a to-watch list of 27 titles (2023-05-22; earlier 25, 2023-05-22).\n- Planning to watch \"The Haunting of Hill House\", \"Victoria\", and \"The Last Kingdom\" (2023-05-20).\n- Interested in cryptology and the history of code-breaking (2023-05-20).\n- Making candles with herbal scents like lavender and chamomile (2023-05-21).\n- Struggles with staying off the phone before bed (2023-05-22).\n- Interested in Antarctica and planning a trip there (2023-05-29).\n- Interested in learning more about climate change (2023-05-29; earlier interest based on a New Yorker article incorrectly dated to March 15th, 2023-05-29).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n\nHow I keep my memory of the user:\n- Every user message starts with its date in square brackets, for example [2024-01-15 09:30]. I write that date on each fact I save about the user, never the server's time shown on tool results or in my system prompt.\n- When the user mentions a new value for something already in my memory (a count, a time, a place, a status), even in passing, I update that line at once with memory_replace and keep the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; earlier 2, 2024-01-15)\".\n- When the user asks about themselves, I check my memory and also search past messages. The search matches my query word for word, so I search with one or two distinctive words, not a whole phrase.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"to-watch list\"})"
+  ],
+  "blocks_chars": 1978,
+  "write_steps": 59,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter + memory instructions (PERSONA_INSTRUCTED), human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 326.2,
+  "total": 330.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}
