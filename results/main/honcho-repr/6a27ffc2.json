@@ -1,0 +1,96 @@
+{
+ "qid": "6a27ffc2",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many videos of Corey Schafer's Python programming series have I completed so far?",
+ "reference": "30",
+ "question_date": "2023-06-09 01:44",
+ "sessions": [
+  {
+   "id": "sharegpt_y1IBjYa_0",
+   "date": "2023-04-24 05:03",
+   "evidence": false
+  },
+  {
+   "id": "ae00973d_5",
+   "date": "2023-04-26 23:25",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_169777",
+   "date": "2023-05-08 10:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_87812",
+   "date": "2023-05-09 14:23",
+   "evidence": false
+  },
+  {
+   "id": "f684ac4c_3",
+   "date": "2023-05-24 03:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_1",
+   "date": "2023-05-24 18:34",
+   "evidence": true
+  },
+  {
+   "id": "6ae451d1_2",
+   "date": "2023-05-24 23:56",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_2",
+   "date": "2023-05-26 00:03",
+   "evidence": true
+  },
+  {
+   "id": "4604bc73_3",
+   "date": "2023-05-26 04:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_505209",
+   "date": "2023-06-03 21:16",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-24 18:36:00] user has completed 20 videos of Corey Schafer's Python programming series.\n[2023-05-24 18:36:00] user is watching Corey Schafer's Python programming series on YouTube.\n[2023-05-26 00:05:00] user has been preparing to study NLP by watching Corey Schafer's Python video series.\n[2023-05-26 00:05:00] user has completed 30 videos of Corey Schafer's Python series as of 2023-05-26.\n[2023-05-26 00:05:00] user intends to take the DataCamp 'Natural Language Processing with Python' course.\n[2023-05-26 00:13:00] user has completed 30 videos of Corey Schafer's Python series.\n[2023-05-26 00:13:00] user intends to apply Python skills to NLP tasks.\n[2023-05-26 04:28:00] user binge-watched \"Schitt's Creek\" on Netflix.\n[2023-05-26 04:32:00] user listens to \"The Book of Mormon\" soundtrack.\n[2023-05-26 04:32:00] user has been listening to musical theater soundtracks recently.\n[2023-05-26 04:32:00] user listens to musical theater soundtracks during their commute.\n[2023-05-26 04:34:00] user has an interest in the themes and art world commentary present in the film The Square.\n[2023-05-26 04:36:00] user enjoyed the way 'Schitt's Creek' addressed the themes of identity and class with humor and wit.\n[2023-05-26 04:36:00] user is interested in the themes of identity and class in the television show 'Schitt's Creek'.\n[2023-06-03 21:20:00] user is interested in examples of airlines that have successfully implemented sustainable aviation fuel.\n[2023-06-03 21:20:00] user is interested in the ways major airlines are implementing sustainable aviation fuel.\n[2023-06-03 21:20:00] user views the implementation of sustainable aviation fuel by major airlines like KLM as a positive step towards sustainable operations.\n[2023-06-03 21:20:00] user is interested in whether other airlines will follow KLM's lead in implementing sustainable aviation fuel.\n[2023-06-03 21:24:00] user believes it is not worth investing in sustainable aviation fuel if it causes environmental impacts beyond CO2 emissions.\n[2023-06-03 21:24:00] user advocates for radical changes rather than band-aid solutions to combat climate change.\n[2023-06-03 21:24:00] user is skeptical about the environmental benefits of sustainable aviation fuel.\n\n## Deductive Observations\n\n[2023-06-03 21:24:00] user has a critical view of incremental environmental efforts, preferring systemic change over technological \"band-aid\" solutions.\n   Premises:\n   - user is skeptical about the environmental benefits of sustainable aviation fuel.\n   - user advocates for radical changes rather than band-aid solutions to combat climate change.\n\n[2023-06-03 21:24:00] user is an avid fan of musical theater.\n   Premises:\n   - user listens to musical theater soundtracks during their commute.\n   - user watches musicals like \"Hamilton\" and listens to \"The Book of Mormon\", \"Dear Evan Hansen\", and \"In the Heights\".\n\n\n## Inductive Observations\n\n **Pattern** [high]: user has a strong interest in musical theater and regularly listens to soundtracks from musicals during their commute.\n   **Type**: preference\n   **Sources**:\n   - user listens to musical theater soundtracks during their commute.\n   - user listens to \"The Book of Mormon\" soundtrack.\n   - user has been listening to musical theater soundtracks recently.\n   - user listens to \"Dear Evan Hansen\" soundtrack.\n   - user is seeking information regarding the soundtracks for \"In the Heights\" and \"Dear Evan Hansen\".\n   - ... and 1 more\n\n **Pattern** [medium]: user prefers radical or systemic solutions over incremental technological fixes when addressing environmental issues.\n   **Type**: tendency\n   **Sources**:\n   - user is skeptical about the environmental benefits of sustainable aviation fuel.\n   - user advocates for radical changes rather than band-aid solutions to combat climate change.\n   - user has a critical view of incremental environmental efforts, preferring systemic change over technological \"band-aid\" solutions.\n\n",
+ "answer": "To determine how many videos of Corey Schafer's Python programming series you have completed, I will follow these steps:\n\n**Step 1: Extract relevant information from the history**\n*   [2023-05-24 18:36:00]: \"user has completed 20 videos of Corey Schafer's Python programming series.\"\n*   [2023-05-26 00:05:00]: \"user has completed 30 videos of Corey Schafer's Python series as of 2023-05-26.\"\n*   [2023-05-26 00:13:00]: \"user has completed 30 videos of Corey Schafer's Python series.\"\n\n**Step 2: Reason over the information**\n*   The records show an initial count of 20 videos completed on May 24th.\n*   The most recent and consistent records from May 26th indicate that the total number of completed videos reached 30.\n*   There are no subsequent entries in the provided history indicating that you watched any additional videos after May 26th.\n\n**Answer:**\nYou have completed 30 videos of Corey Schafer's Python programming series.",
+ "dump": "- [explicit] user intends to experiment with different types of film.\n- [explicit] user is interested in learning how to develop black and white film.\n- [explicit] user is currently learning how to operate a 1960s film camera.\n- [explicit] user is seeking resources to understand the characteristics of different film types.\n- [explicit] user owns a 1960s film camera purchased at an estate sale.\n- [explicit] user has an interest in photography.\n- [explicit] user is interested in finding photography books or zines focused on film photography and the aesthetic of the 1960s.\n- [explicit] user collects stamps.\n- [explicit] user collects vinyl records.\n- [explicit] user looks for textures, colors, and compositions in photography that evoke a sense of timelessness.\n- [explicit] user believes that interests in vinyl records and stamp collecting influence their approach to photography.\n- [explicit] user finds the process of loading a film camera, advancing the roll, and waiting for the results to be tactile.\n- [explicit] user shoots with film photography.\n- [explicit] user enjoys the process of creating physical objects.\n- [explicit] user is drawn to the nostalgia and history behind objects.\n- [explicit] user appreciates the aesthetic of different eras, including 1960s photography, vinyl records, and stamps.\n- [explicit] user is drawn to the tactile nature of vinyl records and stamp collecting.\n- [explicit] user admires the work of Diane Arbus.\n- [explicit] user is a photographer.\n- [explicit] user develops their own film at home.\n- [explicit] user admires the work of Garry Winogrand.\n- [explicit] user shoots with Ilford HP5 Plus 400 film.\n- [explicit] user admires the work of Lee Friedlander.\n- [explicit] user captures street scenes.\n- [explicit] user recently acquired a 1960s film camera.\n- [explicit] user captures landscapes.\n- [explicit] user captures portraits of friends and family.\n- [explicit] user practices still life photography of vintage items including old cameras and records.\n- [explicit] user is interested in knowing how to verify the legitimacy of a phone call that claims to be from their bank.\n- [explicit] user is interested in the effectiveness of Maryland's all-payer healthcare system in controlling healthcare costs.\n- [explicit] user is interested in whether other states are considering the implementation of policies similar to Maryland's all-payer healthcare system.\n- [explicit] user was previously unaware that Maryland operates an all-payer healthcare system.\n- [explicit] user is interested in healthcare-related policies enacted by Maryland's House of Delegates.\n- [explicit] user is an author interested in fantasy world-building.\n- [explicit] user believes that the assistant has more creativity than user.\n- [explicit] user does not have time to do world-building for their story.\n- [explicit] user requested the assistant to perform all world-building for their story.\n- [explicit] user plays board games with friends and family.\n- [explicit] user is interested in playing the board game Mysterium with a group.\n- [explicit] user is interested in playing the board game Deception: Murder in Hong Kong with a group.\n- [explicit] user has played the board game Carcassonne.\n- [explicit] user has played the board game Ticket to Ride.\n- [explicit] user enjoyed playing the board game Codenames.\n- [explicit] user is looking for strategic and complex board game recommendations.\n- [explicit] user has previously played the board game Codenames.\n- [explicit] user started playing the board game Dixit with family during the holidays.\n- [explicit] user likes the concept of building a mosaic in board games.\n- [explicit] user believes 7 Wonders would be fun to play with a group.\n- [explicit] user wants more information about Azul.\n- [explicit] user has heard of Pandemic Legacy.\n- [explicit] user is interested in 7 Wonders.\n- [explicit] user has heard of Scythe.\n- [explicit] user wants more information about Brass: Birmingham.\n- [explicit] user believes Terraforming Mars would be fun to play with a group.\n- [explicit] user is interested in Terraforming Mars.\n- [explicit] user likes the concept of managing industries in board games.\n- [explicit] user intends to teach Azul to family and friends.\n- [explicit] user intends to play Azul.\n- [explicit] user has an interest in art and design.\n- [explicit] user intends to purchase the board game Azul for family game night.\n- [explicit] user has a sister who does not enjoy strategy games.\n- [explicit] user is interested in using spaCy for a text analysis and sentiment analysis project.\n- [explicit] user is working on a project involving text analysis and sentiment analysis.\n- [explicit] user has completed 20 videos of Corey Schafer's Python programming series.\n- [explicit] user is watching Corey Schafer's Python programming series on YouTube.\n- [explicit] user is working on a project involving NLP.\n- [explicit] user is interested in learning how to use spaCy for sentiment analysis.\n- [explicit] user is interested in learning about spaCy's language models.\n- [explicit] user wants to learn more about the word embeddings generated by SpaCy's language models.\n- [explicit] user wants to know how SpaCy's language model word embeddings are used for sentiment analysis.\n- [explicit] user wants to know how SpaCy's language model word embeddings compare to Word2Vec and GloVe embedding techniques.\n- [explicit] user wants to know how to extract features from word embeddings for sentiment analysis\n- [explicit] user wants tips on which features are most useful for sentiment analysis\n- [explicit] user wants examples of how to extract features from word embeddings for sentiment analysis\n- [explicit] user wants to know how to use sentence embeddings or word embedding averages to train a machine learning classifier for sentiment analysis.\n- [explicit] user attended a live concert by the band Glass Animals on May 24, 2023.\n- [explicit] user listens to music during their daily commute.\n- [explicit] user has been listening to the album Dawn FM by The Weeknd.\n- [explicit] user seeks tips on how to curate a good playlist.\n- [explicit] user creates playlists on Apple Music.\n- [explicit] user intends to check out the Indie Radio playlist on Spotify.\n- [explicit] user's playlist \"Winter Vibes\" features a mix of chill electronic tracks, indie-folk ballads, and atmospheric soundscapes.\n- [explicit] user is creating a playlist titled \"Winter Vibes\".\n- [explicit] user is curating the \"Winter Vibes\" playlist to create a relaxing and calming mood for the winter season.\n- [explicit] user recently attended a live show by Glass Animals at the local arena.\n- [explicit] user is interested in indie-folk music.\n- [explicit] user has been listening to a lot of Arlo Parks lately.\n- [explicit] user has been listening to a lot of The Lumineers lately.\n- [explicit] user intends to apply NLP to a project.\n- [explicit] user intends to take the DataCamp 'Natural Language Processing with Python' course.\n- [explicit] user has completed 30 videos of Corey Schafer's Python series as of 2023-05-26.\n- [explicit] user has been preparing to study NLP by watching Corey Schafer's Python video series.\n- [explicit] user needs assistance with setting up a project environment for NLP tasks, including installing libraries and tools.\n- [explicit] user intends to set up a project environment for NLP tasks.\n- [explicit] user is seeking recommendations for popular datasets for NLP tasks, specifically for text classification, sentiment analysis, and topic modeling.\n- [explicit] user is working on an NLP project.\n- [explicit] user is considering building a sentiment analysis model using the IMDB or Amazon reviews datasets as a starting project.\n- [explicit] user intends to use NLP for text analysis and sentiment analysis.\n- [explicit] user is considering exploring topic modeling as an NLP technique after gaining a grasp of sentiment analysis.\n- [explicit] user is considering exploring named entity recognition as an NLP technique after gaining a grasp of sentiment analysis.\n- [explicit] user is interested in applying NLP to their own project for text analysis and sentiment analysis.\n- [explicit] user has completed 30 videos of Corey Schafer's Python series.\n- [explicit] user intends to apply Python skills to NLP tasks.\n- [explicit] user is planning to start an NLP project using sentiment analysis on IMDB or Amazon reviews.\n- [explicit] user is interested in the musicals \"In the Heights\" and \"Dear Evan Hansen\".\n- [explicit] user watched \"Hamilton\" on Disney+.\n- [explicit] user is inquiring about the availability of soundtracks for \"In the Heights\" and \"Dear Evan Hansen\" on music streaming platforms like Spotify.\n- [explicit] user binge-watched \"Schitt's Creek\" on Netflix.\n- [explicit] user is seeking information regarding the soundtracks for \"In the Heights\" and \"Dear Evan Hansen\".\n- [explicit] user listens to \"The Book of Mormon\" soundtrack.\n- [explicit] user plans to re-watch the movie \"Parasite\".\n- [explicit] user has been listening to musical theater soundtracks recently.\n- [explicit] user listens to musical theater soundtracks during their commute.\n- [explicit] user listens to \"Dear Evan Hansen\" soundtrack.\n- [explicit] user has an interest in the themes and art world commentary present in the film The Square.\n- [explicit] user enjoyed the way 'Schitt's Creek' addressed the themes of identity and class with humor and wit.\n- [explicit] user is interested in the themes of identity and class in the television show 'Schitt's Creek'.\n- [explicit] user views the implementation of sustainable aviation fuel by major airlines like KLM as a positive step towards sustainable operations.\n- [explicit] user is interested in examples of airlines that have successfully implemented sustainable aviation fuel.\n- [explicit] user is interested in the ways major airlines are implementing sustainable aviation fuel.\n- [explicit] user is interested in whether other airlines will follow KLM's lead in implementing sustainable aviation fuel.\n- [explicit] user advocates for radical changes rather than band-aid solutions to combat climate change.\n- [explicit] user is skeptical about the environmental benefits of sustainable aviation fuel.\n- [explicit] user believes it is not worth investing in sustainable aviation fuel if it causes environmental impacts beyond CO2 emissions.\n- [deductive] user has a critical view of incremental environmental efforts, preferring systemic change over technological \"band-aid\" solutions.\n- [deductive] user is an avid fan of musical theater.\n- [inductive] user prefers radical or systemic solutions over incremental technological fixes when addressing environmental issues.\n- [inductive] user has a strong interest in musical theater and regularly listens to soundtracks from musicals during their commute.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 100.3,
+  "total": 104.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

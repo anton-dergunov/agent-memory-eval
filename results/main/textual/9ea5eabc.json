@@ -1,0 +1,91 @@
+{
+ "qid": "9ea5eabc",
+ "arm": "textual",
+ "split": "main",
+ "question": "Where did I go on my most recent family trip?",
+ "reference": "Paris",
+ "question_date": "2023-06-08 10:33",
+ "sessions": [
+  {
+   "id": "ultrachat_40916",
+   "date": "2023-05-11 08:01",
+   "evidence": false
+  },
+  {
+   "id": "a9a88764",
+   "date": "2023-05-12 03:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_HJhlusD_32",
+   "date": "2023-05-26 02:39",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7jGo66i_151",
+   "date": "2023-05-26 15:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_0Qembb9_0",
+   "date": "2023-05-26 20:34",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_1",
+   "date": "2023-05-26 23:01",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_296728",
+   "date": "2023-05-27 04:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_2",
+   "date": "2023-05-28 04:55",
+   "evidence": true
+  },
+  {
+   "id": "66cffcc7",
+   "date": "2023-05-28 16:48",
+   "evidence": false
+  },
+  {
+   "id": "14f0a8ed_2",
+   "date": "2023-05-28 17:41",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user is concerned about the erosion of personal privacy in the modern digital age.\n*   The user owns a 2018 Mustang GT.\n*   The user is an amateur racing enthusiast who participates in track days and autocross events.\n*   The user placed 3rd in the amateur category at an event referred to as the \"Turbocharged event\" at the \"Speed Dome\" racing track.\n*   The user is actively involved in the \"#Endgame\" cryptocurrency project, specifically focusing on the technical and economic structure of its treasury, referral, and tax systems.\n*   The user has a strong interest in historical and theological analysis, specifically regarding the history of the Papacy and its alignment with the teachings of Jesus Christ.\n*   The user is a regular churchgoer; on 2023-03-12, they attended Sunday mass at St. Mary's Church, where they heard a sermon on forgiveness by Father John and encountered an old friend named Rachel.\n*   The user volunteered at a food drive at their church in April 2023.\n*   The user has an interest in data analysis and statistical modeling, specifically regarding power-law distributions like Zipf's law.\n*   The user is proficient in or learning to use R for data analysis.\n*   The user enjoys traveling; they recently took a family trip to Hawaii (snorkeling) and a family trip to Paris in April 2023.\n*   The user has an interest in the intersection of technology and sports performance, specifically regarding rugby.\n*   The user resides in the 95123 zip code area (San Jose, CA).\n*   The user recently purchased new swimming gear, specifically a swim cap and goggles from Speedo (as of 2023-05-27).\n\n### Preferences and habits\n*   The user values the balance between individual privacy and collective security.\n*   The user is skeptical and wary of the extent to which personal data is collected by governments and corporations without explicit knowledge or consent.\n*   The user is proactive about vehicle performance, having already installed performance tires and tuned the suspension on their Mustang GT.\n*   The user values professional instruction, having previously attended a workshop on throttle control and braking techniques led by a professional racing driver.\n*   The user is interested in further technical upgrades for their vehicle, specifically considering brake pads and cooling system improvements.\n*   The user is analytical regarding financial systems, stating that \"the numbers speak to me,\" and is interested in sustainable long-term growth models for crypto tokens.\n*   The user prefers transparent, community-driven decision-making processes regarding financial infrastructure.\n*   The user prefers direct, honest, and non-canned responses from the assistant, emphasizing a desire for truth-seeking and critical evaluation of institutional history.\n*   The user prefers quantitative and programmatic approaches to verifying hypotheses (e.g., using R to test for Zipf's law).\n*   The user values personal autonomy while traveling and has expressed a desire to balance family bonding with solo exploration.\n*   The user is interested in culinary experiences and plans to incorporate food tours and cooking classes into future travel.\n*   The user is interested in visiting Japan for its food culture and unique experiences.\n*   The user is curious about the application of data-driven technologies (GPS, video analysis, AI, impact sensors) in professional sports.\n*   The user is budget-conscious for solo travel, specifically targeting accommodation in the $30–$50 per night range for their upcoming Tokyo trip.\n*   The user is interested in community involvement and is considering joining a church choir or music program to meet new people and contribute to their community.\n*   The user prefers to exercise early in the day (morning sessions).\n*   The user is interested in lap swimming and is specifically looking for facilities with 25-yard pools.\n\n### Ongoing situations and plans\n*   The user is actively contemplating the future of privacy and whether it is possible to maintain personal boundaries in an increasingly data-driven, monitored society.\n*   The user is planning to attend a track day at \"Riverside Speedway\" on 2024-01-15.\n*   The user is researching or considering additional modifications to their Mustang GT to improve track performance.\n*   The user is promoting and refining the \"#Endgame\" project, which includes a 7-year referral system, a treasury management system for token stability, and a \"Dynamic Whale Tax\" mechanism.\n*   The user is working toward a long-term goal for the #Endgame project to transition to a \"zero tax\" structure as infrastructure matures.\n*   The user is critically evaluating religious and political institutions, specifically questioning the legitimacy of the Papacy based on historical actions and biblical teachings.\n*   The user is analyzing settlement size distributions to determine if they adhere to Zipf's law.\n*   The user is planning a solo trip to Tokyo, Japan, and is researching affordable accommodation (hostels, guesthouses, capsule hotels) and unique, off-the-beaten-path experiences.\n*   The user is interested in organizing or participating in future food drives at their church.\n*   The user is currently evaluating a \"Swim Membership\" at Bay Club West Valley in San Jose for morning lap swimming.\n*   The user is exploring options for kickboxing classes in the San Jose area.\n\n### Changes over time\n*   Travel history: The user visited Paris with their family in April 2023 (confirmed 2023-05-28).\n*   Fitness habits: The user has begun incorporating swimming into their fitness routine as of 2023-05-28.",
+ "answer": "To determine where you went on your most recent family trip, I will follow these steps:\n\n**Step 1: Extract relevant information from the provided facts.**\n*   Under \"Personal facts\": \"The user recently took a family trip to Hawaii (snorkeling) and a family trip to Paris in April 2023.\"\n*   Under \"Changes over time\": \"Travel history: The user visited Paris with their family in April 2023 (confirmed 2023-05-28).\"\n\n**Step 2: Reason over the information.**\n*   The facts mention two family trips: one to Hawaii and one to Paris.\n*   The trip to Paris is explicitly dated to April 2023.\n*   Comparing the two, the Paris trip is the most recent family trip mentioned in the records.\n\n**Answer:**\nYou went to **Paris** on your most recent family trip (in April 2023).",
+ "dump": "### Personal facts\n*   The user is concerned about the erosion of personal privacy in the modern digital age.\n*   The user owns a 2018 Mustang GT.\n*   The user is an amateur racing enthusiast who participates in track days and autocross events.\n*   The user placed 3rd in the amateur category at an event referred to as the \"Turbocharged event\" at the \"Speed Dome\" racing track.\n*   The user is actively involved in the \"#Endgame\" cryptocurrency project, specifically focusing on the technical and economic structure of its treasury, referral, and tax systems.\n*   The user has a strong interest in historical and theological analysis, specifically regarding the history of the Papacy and its alignment with the teachings of Jesus Christ.\n*   The user is a regular churchgoer; on 2023-03-12, they attended Sunday mass at St. Mary's Church, where they heard a sermon on forgiveness by Father John and encountered an old friend named Rachel.\n*   The user volunteered at a food drive at their church in April 2023.\n*   The user has an interest in data analysis and statistical modeling, specifically regarding power-law distributions like Zipf's law.\n*   The user is proficient in or learning to use R for data analysis.\n*   The user enjoys traveling; they recently took a family trip to Hawaii (snorkeling) and a family trip to Paris in April 2023.\n*   The user has an interest in the intersection of technology and sports performance, specifically regarding rugby.\n*   The user resides in the 95123 zip code area (San Jose, CA).\n*   The user recently purchased new swimming gear, specifically a swim cap and goggles from Speedo (as of 2023-05-27).\n\n### Preferences and habits\n*   The user values the balance between individual privacy and collective security.\n*   The user is skeptical and wary of the extent to which personal data is collected by governments and corporations without explicit knowledge or consent.\n*   The user is proactive about vehicle performance, having already installed performance tires and tuned the suspension on their Mustang GT.\n*   The user values professional instruction, having previously attended a workshop on throttle control and braking techniques led by a professional racing driver.\n*   The user is interested in further technical upgrades for their vehicle, specifically considering brake pads and cooling system improvements.\n*   The user is analytical regarding financial systems, stating that \"the numbers speak to me,\" and is interested in sustainable long-term growth models for crypto tokens.\n*   The user prefers transparent, community-driven decision-making processes regarding financial infrastructure.\n*   The user prefers direct, honest, and non-canned responses from the assistant, emphasizing a desire for truth-seeking and critical evaluation of institutional history.\n*   The user prefers quantitative and programmatic approaches to verifying hypotheses (e.g., using R to test for Zipf's law).\n*   The user values personal autonomy while traveling and has expressed a desire to balance family bonding with solo exploration.\n*   The user is interested in culinary experiences and plans to incorporate food tours and cooking classes into future travel.\n*   The user is interested in visiting Japan for its food culture and unique experiences.\n*   The user is curious about the application of data-driven technologies (GPS, video analysis, AI, impact sensors) in professional sports.\n*   The user is budget-conscious for solo travel, specifically targeting accommodation in the $30–$50 per night range for their upcoming Tokyo trip.\n*   The user is interested in community involvement and is considering joining a church choir or music program to meet new people and contribute to their community.\n*   The user prefers to exercise early in the day (morning sessions).\n*   The user is interested in lap swimming and is specifically looking for facilities with 25-yard pools.\n\n### Ongoing situations and plans\n*   The user is actively contemplating the future of privacy and whether it is possible to maintain personal boundaries in an increasingly data-driven, monitored society.\n*   The user is planning to attend a track day at \"Riverside Speedway\" on 2024-01-15.\n*   The user is researching or considering additional modifications to their Mustang GT to improve track performance.\n*   The user is promoting and refining the \"#Endgame\" project, which includes a 7-year referral system, a treasury management system for token stability, and a \"Dynamic Whale Tax\" mechanism.\n*   The user is working toward a long-term goal for the #Endgame project to transition to a \"zero tax\" structure as infrastructure matures.\n*   The user is critically evaluating religious and political institutions, specifically questioning the legitimacy of the Papacy based on historical actions and biblical teachings.\n*   The user is analyzing settlement size distributions to determine if they adhere to Zipf's law.\n*   The user is planning a solo trip to Tokyo, Japan, and is researching affordable accommodation (hostels, guesthouses, capsule hotels) and unique, off-the-beaten-path experiences.\n*   The user is interested in organizing or participating in future food drives at their church.\n*   The user is currently evaluating a \"Swim Membership\" at Bay Club West Valley in San Jose for morning lap swimming.\n*   The user is exploring options for kickboxing classes in the San Jose area.\n\n### Changes over time\n*   Travel history: The user visited Paris with their family in April 2023 (confirmed 2023-05-28).\n*   Fitness habits: The user has begun incorporating swimming into their fitness routine as of 2023-05-28.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 23.0,
+  "total": 24.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

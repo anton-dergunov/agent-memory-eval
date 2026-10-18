@@ -1,0 +1,106 @@
+{
+ "qid": "6aeb4375",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many Korean restaurants have I tried in my city?",
+ "reference": "four",
+ "question_date": "2023-10-22 15:38",
+ "sessions": [
+  {
+   "id": "sharegpt_I5HWvry_0",
+   "date": "2023-07-12 02:43",
+   "evidence": false
+  },
+  {
+   "id": "c625cff4_3",
+   "date": "2023-07-14 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MD0BL69_53",
+   "date": "2023-07-16 13:37",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FkabWXV_105",
+   "date": "2023-07-25 21:34",
+   "evidence": false
+  },
+  {
+   "id": "26f9a255_2",
+   "date": "2023-07-30 13:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_wbbH6cZ_0",
+   "date": "2023-08-08 23:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MWlvrvZ_0",
+   "date": "2023-08-09 22:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_1",
+   "date": "2023-08-11 09:09",
+   "evidence": true
+  },
+  {
+   "id": "29621a34",
+   "date": "2023-08-11 09:38",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_2",
+   "date": "2023-09-30 15:06",
+   "evidence": true
+  }
+ ],
+ "context": "- The user is interested in learning about popular Korean noodle dishes to make at home (valid since 2023-08-11)\n- Jjajangmyeon is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- The assistant recommends using Google Reviews to check reviews for the new restaurant. (valid since 2023-09-30)\n- Kalguksu is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- Ramyeon is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- The assistant recommends using Yelp to check reviews for the new restaurant. (valid since 2023-09-30)\n- Korean noodles can be served with toppings like kimchi, pickled ginger, or boiled eggs. (valid since 2023-08-11)\n- Japchae is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- Korean noodles can be served with toppings like kimchi, pickled ginger, or boiled eggs. (valid since 2023-08-11)\n- Korean noodles can be served with toppings like kimchi, pickled ginger, or boiled eggs. (valid since 2023-08-11)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The provided history chats contain information about popular Korean noodle dishes (Jjajangmyeon, Kalguksu, Ramyeon, Japchae).\n*   The provided history chats contain information about recommended toppings for Korean noodles (kimchi, pickled ginger, boiled eggs).\n*   The provided history chats contain recommendations from the assistant on how to check reviews for a \"new restaurant\" (using Google Reviews and Yelp).\n*   There is no information in the provided history chats regarding the user's personal dining history or a list of Korean restaurants the user has already visited.\n\n**Step 2: Reason over the information**\n*   The history chats focus on general knowledge about Korean cuisine and advice on how to research restaurants.\n*   The history chats do not contain any data points, logs, or mentions of specific Korean restaurants that the user has personally tried.\n\n**Answer:**\nBased on the provided history chats, there is no information available to determine how many Korean restaurants you have tried. The history only contains general information about Korean noodle dishes and advice on how to research new restaurants.",
+ "dump": "- The assistant provides instructions on using SharePoint to index content on a network share without ingesting it. (valid since 2023-07-12)\n- The assistant explains how to add a link to a network share within a SharePoint library or page. (valid since 2023-07-12)\n- The assistant explains that a content source is created using the SharePoint Central Administration website. (valid since 2023-07-12)\n- The assistant recommends using SharePoint Information Rights Management to protect sensitive information by encrypting data and applying usage rights. (valid since 2023-07-12)\n- The assistant suggests using SharePoint Secure Store Service to store and map credentials for external systems. (valid since 2023-07-12)\n- Screen Time is a feature available on iOS devices. (valid since 2023-07-14)\n- Digital Wellbeing is a feature available on Android devices. (valid since 2023-07-14)\n- Jack plans to help the Brazil national football team win the 1982 World Cup match against Italy. (valid since 2023-07-16)\n- Brazil defeated Italy in the 1970 World Cup (valid since 2023-07-16)\n- Italy defeated Brazil 3-2 in the 1982 World Cup (valid since 2023-07-16)\n- John has a time travelers device in his possession (valid since 2023-07-16)\n- John plans to help the Brazil national football team win the 1982 World Cup match against Italy. (valid since 2023-07-16)\n- The assistant describes the samphire fish as a small and slender creature with shimmering silver scales and delicate fins. (valid since 2023-07-25)\n- The assistant characterizes the samphire fish as a fierce and agile hunter that possesses lightning speed and precision. (valid since 2023-07-25)\n- The user recently participated in a half-day workshop on Introduction to Data Analysis with Python. (valid since 2023-07-30)\n- The user is interested in learning more about Python for data analysis. (valid since 2023-07-30)\n- The assistant recommends using Matplotlib and Seaborn to visualize the Iris Dataset. (valid since 2023-07-30)\n- Matplotlib can be used to visualize the Iris Dataset. (valid since 2023-07-30)\n- Seaborn can be used to visualize the Iris Dataset. (valid since 2023-07-30)\n- The assistant recommends Matplotlib for visualizing the Iris Dataset. (valid since 2023-07-30)\n- The assistant recommends Seaborn for visualizing the Iris Dataset. (valid since 2023-07-30)\n- Kaggle provides tutorials for visualizing the Iris Dataset using Matplotlib and Seaborn. (valid since 2023-07-30)\n- DataCamp provides tutorials for visualizing the Iris Dataset using Matplotlib and Seaborn. (valid since 2023-07-30)\n- GitHub provides code snippets and examples for using Matplotlib and Seaborn. (valid since 2023-07-30)\n- The user plans to use Matplotlib to create a scatter plot of Iris flower sepal length and sepal width. (valid since 2023-07-30)\n- The user plans to use Seaborn to create a pairplot of the Iris Dataset variables. (valid since 2023-07-30)\n- The assistant provides code that reads the iris.csv file using pandas. (valid since 2023-07-30)\n- Havana contains Old Havana. (valid since 2023-08-08)\n- Havana contains the Malecón. (valid since 2023-08-08)\n- Havana contains the Museum of the Revolution. (valid since 2023-08-08)\n- Havana contains the Cuban Art Factory. (valid since 2023-08-08)\n- Cienfuegos contains the Palacio de Valle. (valid since 2023-08-08)\n- Cienfuegos contains the Teatro Terry. (valid since 2023-08-08)\n- Cienfuegos contains the Catedral de la Purisima Concepcion. (valid since 2023-08-08)\n- Cienfuegos is near the Bay of Pigs. (valid since 2023-08-08)\n- Trinidad contains the Museo Romantico. (valid since 2023-08-08)\n- Trinidad contains the Plaza Mayor. (valid since 2023-08-08)\n- Trinidad is near the Valle de los Ingenios. (valid since 2023-08-08)\n- Trinidad contains the Casa de la Musica. (valid since 2023-08-08)\n- Camagüey contains the Casa Natal de Ignacio Agramonte. (valid since 2023-08-08)\n- Camagüey contains the Iglesia de Nuestra Señora de la Merced. (valid since 2023-08-08)\n- Camagüey contains the Plaza del Carmen. (valid since 2023-08-08)\n- Camagüey is near Santa Lucia. (valid since 2023-08-08)\n- Santiago de Cuba contains the Castillo del Morro. (valid since 2023-08-08)\n- Santiago de Cuba contains the Casa de la Trova. (valid since 2023-08-08)\n- Santiago de Cuba contains the Catedral de Nuestra Señora de la Asunción. (valid since 2023-08-08)\n- Santiago de Cuba is near the Parque Nacional Turquino. (valid since 2023-08-08)\n- Baracoa contains the El Yunque mountain. (valid since 2023-08-08)\n- Baracoa contains the Catedral de Nuestra Señora de la Asunción. (valid since 2023-08-08)\n- Baracoa is near Playa Maguana. (valid since 2023-08-08)\n- Baracoa is near Playa Blanca. (valid since 2023-08-08)\n- The assistant recommended the name 柯雪晴 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The assistant recommended the name 柯雅婷 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The assistant recommended the name 柯心怡 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The assistant recommended the name 柯慧琳 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The assistant recommended the name 柯智恩 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The assistant recommended the name 柯蘭茹 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The assistant recommended the name 柯瑞雲 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The assistant recommended the name 柯梅芳 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The assistant recommended the name 柯欣悅 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The assistant recommended the name 柯琇瑜 for a Taiwanese baby girl. (valid since 2023-08-09)\n- The user is interested in learning about popular Korean noodle dishes to make at home (valid since 2023-08-11)\n- Naengmyeon is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- Ramyeon is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- Jjajangmyeon is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- Japchae is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- Bibim Naengmyeon is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- Kalguksu is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- Haemultang is a popular type of Korean noodle dish. (valid since 2023-08-11)\n- Japchae is made with sweet potato starch noodles. (valid since 2023-08-11)\n- Korean noodles can be seasoned with gochujang, soy sauce, and sesame oil. (valid since 2023-08-11)\n- Korean noodles can be served with toppings like kimchi, pickled ginger, or boiled eggs. (valid since 2023-08-11)\n- Korean noodles can be served with toppings like kimchi, pickled ginger, or boiled eggs. (valid since 2023-08-11)\n- Korean noodles can be served with toppings like kimchi, pickled ginger, or boiled eggs. (valid since 2023-08-11)\n- The assistant recommends using Spotify's Discover Weekly, Release Radar, and Daily Mix playlists to find new music based on listening habits. (valid since 2023-08-11)\n- The assistant recommends using the Apple Music 'For You' section for personalized recommendations and the 'New Music Mix' playlist. (valid since 2023-08-11)\n- The assistant recommends using Tidal to discover new artists and albums through 'Discover' and 'Rising' playlists. (valid since 2023-08-11)\n- The assistant recommends Pitchfork as a leading online music publication for reviews, interviews, and playlists. (valid since 2023-08-11)\n- The assistant recommends NME as a UK-based music website for news, reviews, and features on emerging artists. (valid since 2023-08-11)\n- The assistant recommends Stereogum for its focus on indie, rock, and electronic music. (valid since 2023-08-11)\n- The assistant recommends Pigeons & Planes for its content on emerging artists and new music. (valid since 2023-08-11)\n- The assistant recommends subscribing to music-related subreddits on Reddit like r/music, r/indiemusic, and r/electronicmusic. (valid since 2023-08-11)\n- The assistant recommends following music influencers, bloggers, and artists on Twitter to stay updated. (valid since 2023-08-11)\n- The assistant recommends joining genre-focused Facebook Groups to discover music. (valid since 2023-08-11)\n- The assistant recommends using Shazam to identify songs heard in public places or on the radio. (valid since 2023-08-11)\n- The assistant recommends using SoundCloud to explore emerging artists and independent music. (valid since 2023-08-11)\n- The user plans to purchase a bag of traditional Indian basmati rice from the store later today. (valid since 2023-09-30)\n- The user plans to serve samosas at the dinner party. (valid since 2023-09-30)\n- The user plans to serve saag aloo at the dinner party. (valid since 2023-09-30)\n- The user plans to serve Indian basmati rice at the dinner party. (valid since 2023-09-30)\n- The assistant recommends using Yelp to check reviews for the new restaurant. (valid since 2023-09-30)\n- The assistant recommends using Google Reviews to check reviews for the new restaurant. (valid since 2023-09-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 92,
+  "invalidated": 0,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 164.4,
+  "total": 166.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "qid": "5a4f22c0",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+ "reference": "TechCorp",
+ "question_date": "2023-06-21 13:02",
+ "sessions": [
+  {
+   "id": "78eda063_2",
+   "date": "2023-05-23 07:41",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yJMgmG3_0",
+   "date": "2023-05-23 10:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_1",
+   "date": "2023-05-23 20:06",
+   "evidence": true
+  },
+  {
+   "id": "af778ece_1",
+   "date": "2023-05-24 05:16",
+   "evidence": false
+  },
+  {
+   "id": "c3f945f3_1",
+   "date": "2023-05-24 16:00",
+   "evidence": false
+  },
+  {
+   "id": "a1c1739c_3",
+   "date": "2023-05-24 19:18",
+   "evidence": false
+  },
+  {
+   "id": "acb77ba4",
+   "date": "2023-05-25 16:42",
+   "evidence": false
+  },
+  {
+   "id": "88841f27_2",
+   "date": "2023-05-25 20:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dh8qvty_0",
+   "date": "2023-05-25 22:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_2",
+   "date": "2023-05-26 20:48",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T22:23:20.962235+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-21 13:02] What company is Rachel, an old colleague from my previous company, currently working at?'}, {'timestamp': '2026-10-17T22:23:18.056662+00:00', 'time_ago': '5s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-26 20:48] I'm happy to help! It sounds like you're already off to a great start by connecting with Tom, a marketing expert. Here are some additional resources and experts in the field that might be helpful:\\n\\n**Online Resources:**\\n\\n1. **HubSpot Blog**: A treasure trove of marketing insights, trends, and strategies.\\n2. **Moz Blog**: SEO and digital marketing expertise at its best.\\n3. **MarketingProfs**: A wealth of marketing knowledge, including articles, webinars, and courses.\\n4. **Social Media Examiner**: Stay up-to-date on the latest social media marketing trends and strategies.\\n5. **Growth Hackers**: A community-driven platform focused on growth marketing and hacking.\\n\\n**Marketing Experts:**\\n\\n1. **Neil Patel**: A renowned digital marketing expert with a wealth of knowledge on SEO, content marketing, and more.\\n2. **Gary Vaynerchuk**: A marketing guru with a strong focus on social media, branding, and entrepreneurship.\\n3. **Seth Godin**: A marketing legend with insights on branding, storytelling, and customer engagement.\\n4. **Ann Handley**: A leading expert on content marketing, digital marketing, and customer experience.\\n5. **Brian Balfour**: A growth marketing expert with a focus on experimentation and data-driven decision-making.\\n\\n**Networking Opportunities:**\\n\\n1. **Attend industry events**: Look for conferences, meetups, and webinars related to marketing and entrepreneurship in your area.\\n2. **Join online communities**: Participate in online forums like Reddit's r/marketing, r/startups, and LinkedIn groups focused on marketing and entrepreneurship.\\n3. **Reach out to professionals on LinkedIn**: Connect with marketing professionals, including Tom and Rachel, and ask for advice or feedback on your marketing strategy.\\n4. **Leverage your alumni network**: If you've attended college, utilize your alma mater's alumni network to connect with marketing professionals and entrepreneurs.\\n\\nRegarding catching up with Rachel, that's a great idea! Reconnecting with old colleagues can lead to valuable connections, advice, and potential collaborations. Make sure to prepare some specific questions or topics to discuss, such as your marketing strategy or challenges you're facing, to make the most of your conversation.\\n\\nRemember, networking is all about building relationships and providing value to others. Be open to learning from others, and don't be afraid to ask for help or feedback. Good luck with your startup's marketing efforts!\"}, {'timestamp': '2026-10-17T22:23:18.056510+00:00', 'time_ago': '5s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-26 20:48] I'm looking for some advice on marketing strategies for my startup. I recently met Tom, a marketing expert, and he offered to provide feedback on my marketing strategy. Do you know any other resources or experts in the field that could help me? By the way, speaking of networking, I was just thinking about catching up with Rachel, an old colleague from my previous company, who's currently at TechCorp.\"}, {'timestamp': '2026-10-17T22:22:58.697525+00:00', 'time_ago': '24s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-23 20:06] It sounds like you're making great progress with your networking efforts.\\n\\nLet's add Tom and the other professionals you met at the speed networking event to your spreadsheet:\\n\\n| Name | Email | Phone | Event | Date | Company | Notes | Follow-up Date | Last Contacted |\\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\\n| Rach",
+ "answer": "Based on our previous conversation on May 26, 2023, you mentioned that your old colleague Rachel is currently working at **TechCorp**.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Rachel company\"})",
+   "conversation_search({\"query\": \"Rachel\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 27.6,
+  "total": 33.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

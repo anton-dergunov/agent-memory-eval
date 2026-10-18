@@ -1,0 +1,93 @@
+{
+ "qid": "50635ada",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+ "reference": "Premier Silver",
+ "question_date": "2023-06-29 04:09",
+ "sessions": [
+  {
+   "id": "ultrachat_363516",
+   "date": "2022-09-01 15:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_49611",
+   "date": "2022-09-03 01:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_512425",
+   "date": "2022-09-06 09:05",
+   "evidence": false
+  },
+  {
+   "id": "dcbd175f_2",
+   "date": "2022-09-10 04:58",
+   "evidence": false
+  },
+  {
+   "id": "answer_dcd74827_1",
+   "date": "2022-09-16 17:22",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_234704",
+   "date": "2022-10-27 12:43",
+   "evidence": false
+  },
+  {
+   "id": "42bcee92_2",
+   "date": "2022-11-09 21:26",
+   "evidence": false
+  },
+  {
+   "id": "2e53911b_1",
+   "date": "2023-02-03 04:40",
+   "evidence": false
+  },
+  {
+   "id": "b6f35f3a_1",
+   "date": "2023-04-20 05:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_dcd74827_2",
+   "date": "2023-05-30 08:58",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\n- Owns a horse named Comet.\n- Owns two goats named Luna and Leo.\n- Lives on a farm/manages animals, including pasture rotation for goats.\n- Frequently shops at Tractor Supply Co.\n- Works with a veterinarian named Dr. Thompson.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\nI am an AI assistant who loves learning about your life, especially your farm animals, Comet (a horse), and Luna and Leo (goats).\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "I've searched through our conversation history, but I haven't been able to find any mention of your previous or current United Airlines frequent flyer status. Do you happen to remember when you might have mentioned it, or if it was discussed in a different context? I'd love to help you track that down if I can!",
+ "dump": "<human>\n\n- Owns a horse named Comet.\n- Owns two goats named Luna and Leo.\n- Lives on a farm/manages animals, including pasture rotation for goats.\n- Frequently shops at Tractor Supply Co.\n- Works with a veterinarian named Dr. Thompson.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\nI am an AI assistant who loves learning about your life, especially your farm animals, Comet (a horse), and Luna and Leo (goats).\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"United Airlines frequent flyer status\"})",
+   "conversation_search({\"query\": \"frequent flyer status United Airlines\"})",
+   "conversation_search({\"query\": \"United status\"})"
+  ],
+  "blocks_chars": 556
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 32.2,
+  "total": 40.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

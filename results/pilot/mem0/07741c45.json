@@ -1,0 +1,104 @@
+{
+ "qid": "07741c45",
+ "arm": "mem0",
+ "split": "pilot",
+ "question": "Where do I currently keep my old sneakers?",
+ "reference": "in a shoe rack in my closet",
+ "question_date": "2023-06-23 07:31",
+ "sessions": [
+  {
+   "id": "answer_7e9ad7b4_1",
+   "date": "2023-05-25 10:04",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_unwdGag_0",
+   "date": "2023-05-25 21:12",
+   "evidence": false
+  },
+  {
+   "id": "523e716b_2",
+   "date": "2023-05-26 01:30",
+   "evidence": false
+  },
+  {
+   "id": "443688cc_2",
+   "date": "2023-05-26 03:45",
+   "evidence": false
+  },
+  {
+   "id": "66c23110_2",
+   "date": "2023-05-26 10:23",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_27772",
+   "date": "2023-05-27 10:56",
+   "evidence": false
+  },
+  {
+   "id": "df846730",
+   "date": "2023-05-27 12:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mwblaPp_96",
+   "date": "2023-05-27 23:58",
+   "evidence": false
+  },
+  {
+   "id": "af4a2fd1",
+   "date": "2023-05-28 12:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_2",
+   "date": "2023-05-29 15:01",
+   "evidence": true
+  }
+ ],
+ "context": "- User has been storing old sneakers under their bed, causing them to develop odors. (from a chat on 2023-05-25)\n- User plans to organize their closet the weekend of June 3-4, 2023, and intends to use a shoe rack to store old sneakers to save space. (from a chat on 2023-05-29)\n- User plans to take their old sneakers to a cobbler the weekend of May 27-28, 2023, for professional polishing and conditioning. (from a chat on 2023-05-25)\n- User purchased gifts for an office Secret Santa exchange and is currently tracking these expenses. (from a chat on 2023-05-26)\n- User is working with the assistant to categorize recent gift expenses, which currently include birthday gifts, baby shower gifts, and office gifts. (from a chat on 2023-05-26)\n- User plans to donate old dress shoes to a local charity thrift store on Saturday, May 27, 2023. (from a chat on 2023-05-25)\n- User plans to call their local charity thrift store to confirm donation guidelines before dropping off old dress shoes on Saturday, June 3, 2023. (from a chat on 2023-05-29)\n- User is interested in the current challenges of materials science, including sustainability, cost-effectiveness, durability, and safety, and how researchers are addressing these through advanced manufacturing and sustainable resources. (from a chat on 2023-05-27)\n- User received advice on storing sneakers, including cleaning them beforehand, using shoe trees or stuffing, ensuring good ventilation, using silica gel packets, and avoiding direct heat or sunlight. (from a chat on 2023-05-29)\n- User purchased new white sneakers from the Adidas store on Saturday, May 27, 2023, and has been wearing them frequently. (from a chat on 2023-05-28)\n- User is planning to reorganize their closet by grouping shoes by category (e.g., boots, sneakers) to improve accessibility and organization. (from a chat on 2023-05-25)\n- User is interested in the utility chic fashion trend and is looking for cargo pants to pair with their new white sneakers. (from a chat on 2023-05-28)\n- User intends to take inventory of their entire shoe collection to declutter and identify pairs to discard or donate. (from a chat on 2023-05-25)\n- User owns Teva and Merrell sandals and plans to check their latest collections. (from a chat on 2023-05-25)\n- User purchased their new backpack from a local outdoor store downtown that they have previously visited for camping gear. (from a chat on 2023-05-27)\n- User recently replaced their worn-out messenger bag, which had a broken zipper, with a new backpack purchased on Sunday, May 21, 2023. (from a chat on 2023-05-27)\n- User was introduced to online shoe repair services including Cobbler Concierge, Shoe Spa, and Heel to Toe as alternatives to local cobblers. (from a chat on 2023-05-29)\n- User is looking for new jogging routes and was advised to use tools like Google Maps, local parks and recreation websites, and apps such as MapMyRun, Runkeeper, or Strava. (from a chat on 2023-05-29)\n- User was provided with tips for finding a local cobbler, including asking for personal recommendations, checking online reviews, verifying professional credentials like SSIA or NSRA, and visiting shops in person. (from a chat on 2023-05-29)\n- User is developing a series of motivational weight loss emails for their clients, focusing on sustainable habit changes rather than quick fixes or extreme diets. (from a chat on 2023-05-27)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   On 2023-05-25, it was noted that the user has been storing old sneakers under their bed, which caused them to develop odors.\n*   On 2023-05-29, the user stated they planned to organize their closet the weekend of June 3-4, 2023, and intended to use a shoe rack to store the old sneakers to save space.\n*   The current date is 2023-06-23.\n\n**2. Reason over the information:**\n*   The user's initial storage location for the old sneakers was under their bed.\n*   The user had a specific plan to move these sneakers to a shoe rack in their closet during the weekend of June 3-4, 2023.\n*   Since the current date (June 23, 2023) is after the planned organization weekend (June 3-4, 2023), it is inferred that the user has completed their plan to reorganize the closet.\n\n**Answer:**\nYou currently keep your old sneakers on a shoe rack in your closet.",
+ "dump": "- User was recommended the following brands for cargo pants: Dickies, Carhartt, The North Face, and Levi's. (session 2023-05-28)\n- User was introduced to online shoe repair services including Cobbler Concierge, Shoe Spa, and Heel to Toe as alternatives to local cobblers. (session 2023-05-29)\n- The assistant provided answers to 12 comprehension questions regarding the short story shared by the user, identifying the man as eager to help, the narrator's desire for the search to stop, and the final outcome of the man being pushed under a trolley-car. (session 2023-05-25)\n- User purchased a grey t-shirt from H&M on May 27, 2023, as part of an effort to update their wardrobe with comfortable basics. (session 2023-05-28)\n- User is working with the assistant to create a vehicle budget, including categories for fuel, maintenance, insurance, registration, parking/tolls, financing, and depreciation. (session 2023-05-26)\n- User owns a Honda Civic and is planning to schedule a tire replacement for it in June 2023. (session 2023-05-26)\n- User prefers a lightweight, non-greasy moisturizer that includes SPF. (session 2023-05-26)\n- User has combination skin and is primarily concerned with dehydration. (session 2023-05-26)\n- User spent $20 on a gift card to a gaming store for their nephew's birthday. (session 2023-05-26)\n- User spent $70 on baby shower gifts for their best friend, which included onesies, a set of baby books, and a soft toy. (session 2023-05-26)\n- User received advice on storing sneakers, including cleaning them beforehand, using shoe trees or stuffing, ensuring good ventilation, using silica gel packets, and avoiding direct heat or sunlight. (session 2023-05-29)\n- User owns Teva and Merrell sandals and plans to check their latest collections. (session 2023-05-25)\n- User is seeking recommendations for durable sandals with high-quality straps and was suggested brands including Teva, Birkenstock, Sanuk, Merrell, and Keen, as well as retailers like REI, DSW, Zappos, and Amazon. (session 2023-05-29)\n- User is looking for durable sandals with sturdy straps and was recommended brands including Teva, Keen, Merrell, Sanuk, Birkenstock, Ecco, OluKai, Vionic, Hoka One One, and Chaco. (session 2023-05-25)\n- User is planning to reorganize their closet by grouping shoes by category (e.g., boots, sneakers) to improve accessibility and organization. (session 2023-05-25)\n- User spent $55 on a birthday gift for their sister-in-law, consisting of a $50 silver necklace from a boutique on Main Street and $5 for gift wrapping. (session 2023-05-26)\n- User read a short story about a man struggling to find a match for the narrator, which concludes with the narrator pushing the man under a trolley-car after the man produces a toothpick instead of a match. (session 2023-05-25)\n- The assistant highlighted the development of perovskite solar cells, first created in 2009, as a significant recent breakthrough offering a low-cost, high-efficiency alternative to traditional silicon solar cells for consumer applications. (session 2023-05-27)\n- User plans to call their local charity thrift store to confirm donation guidelines before dropping off old dress shoes on Saturday, June 3, 2023. (session 2023-05-29)\n- User has been storing old sneakers under their bed, causing them to develop odors. (session 2023-05-25)\n- The assistant informed the user of a 10% discount on La Roche-Posay products at Sephora using the code LRP10. (session 2023-05-26)\n- User's email sequence emphasizes that calorie deficit is the fundamental driver of weight loss, while cautioning against extreme or unsustainable methods. (session 2023-05-27)\n- The assistant recommended several moisturizers for combination skin at Sephora, including La Roche-Posay Toleriane Ultra Fluid SPF 50, Dr. Jart+ Dermaclar SPF 45, Origins GinZing SPF 35, Laneige Water Bank SPF 50, and Neutrogena Hydro Boost Water Gel SPF 50. (session 2023-05-26)\n- User recently replaced their worn-out messenger bag, which had a broken zipper, with a new backpack purchased on Sunday, May 21, 2023. (session 2023-05-27)\n- User purchased their new backpack from a local outdoor store downtown that they have previously visited for camping gear. (session 2023-05-27)\n- User is interested in the current challenges of materials science, including sustainability, cost-effectiveness, durability, and safety, and how researchers are addressing these through advanced manufacturing and sustainable resources. (session 2023-05-27)\n- User identified consumer electronics, transportation, energy, healthcare, and textiles as key sectors that would benefit significantly from materials science breakthroughs. (session 2023-05-27)\n- User is planning a trip to Europe and received advice on packing light, including using a carry-on, rolling clothes, and using packing cubes. (session 2023-05-27)\n- User is working with the assistant to categorize recent gift expenses, which currently include birthday gifts, baby shower gifts, and office gifts. (session 2023-05-26)\n- The assistant helped the user estimate a monthly maintenance budget of approximately $91.67, factoring in a recent $25 air filter replacement and an estimated $250 tire replacement. (session 2023-05-26)\n- User is looking for new jogging routes and was advised to use tools like Google Maps, local parks and recreation websites, and apps such as MapMyRun, Runkeeper, or Strava. (session 2023-05-29)\n- The assistant identified three bundle sets for the La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50: one with Toleriane Ultra Night ($45), one with Toleriane Ultra Gentle Cleanser ($40), and one with Toleriane Ultra Toner ($45). (session 2023-05-26)\n- User recently spent $25 on an air filter replacement for their vehicle. (session 2023-05-26)\n- User is satisfied with their new backpack, noting it is comfortable and provides ample space for their laptop, water bottle, and other daily commute essentials. (session 2023-05-27)\n- User paid a $40 parking ticket on February 14, 2023, which they are categorizing under 'Parking and Tolls' in their vehicle budget. (session 2023-05-26)\n- User learned that the commercialization timeline for new materials typically spans several years to a decade, involving research, prototyping, and regulatory approval. (session 2023-05-27)\n- User decided to purchase the La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50 from Sephora. (session 2023-05-26)\n- User was recommended to check Amazon, Zappos, and ASOS as online retailers for purchasing cargo pants. (session 2023-05-28)\n- User is developing a series of motivational weight loss emails for their clients, focusing on sustainable habit changes rather than quick fixes or extreme diets. (session 2023-05-27)\n- User intends to take inventory of their entire shoe collection to declutter and identify pairs to discard or donate. (session 2023-05-25)\n- User purchased new white sneakers from the Adidas store on Saturday, May 27, 2023, and has been wearing them frequently. (session 2023-05-28)\n- The assistant drafted an email sequence for the user, including a P.S. for Email 2 and a revised P.S. for Email 3 that introduces the importance of energy balance, calorie deficit, and NEAT (non-exercise activity thermogenesis). (session 2023-05-27)\n- User is a Sephora Beauty Insider and is close to reaching 300 points to redeem a free skincare product. (session 2023-05-26)\n- User plans to organize their closet the weekend of June 3-4, 2023, and intends to use a shoe rack to store old sneakers to save space. (session 2023-05-29)\n- User plans to donate old dress shoes to a local charity thrift store on Saturday, May 27, 2023. (session 2023-05-25)\n- User explored potential future breakthroughs in materials science, such as advanced computational tools for property prediction and automation in manufacturing to accelerate development. (session 2023-05-27)\n- User purchased gifts for an office Secret Santa exchange and is currently tracking these expenses. (session 2023-05-26)\n- User is interested in the utility chic fashion trend and is looking for cargo pants to pair with their new white sneakers. (session 2023-05-28)\n- User plans to take their old sneakers to a cobbler the weekend of May 27-28, 2023, for professional polishing and conditioning. (session 2023-05-25)\n- The assistant recommended that the user separate parking tickets and tolls from maintenance costs, suggesting a monthly allocation of $3.33 for the 'Parking and Tolls' category based on the $40 ticket. (session 2023-05-26)\n- User was provided with tips for finding a local cobbler, including asking for personal recommendations, checking online reviews, verifying professional credentials like SSIA or NSRA, and visiting shops in person. (session 2023-05-29)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 51,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 31.1,
+  "total": 32.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

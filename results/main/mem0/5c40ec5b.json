@@ -1,0 +1,100 @@
+{
+ "qid": "5c40ec5b",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many times have I met up with Alex from Germany?",
+ "reference": "We've met up twice.",
+ "question_date": "2023-10-30 13:39",
+ "sessions": [
+  {
+   "id": "156988fe",
+   "date": "2023-07-12 13:46",
+   "evidence": false
+  },
+  {
+   "id": "ff2fd48c",
+   "date": "2023-07-14 00:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_117952",
+   "date": "2023-07-21 10:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_1cb52d0a_1",
+   "date": "2023-08-11 08:32",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_545683",
+   "date": "2023-08-14 06:21",
+   "evidence": false
+  },
+  {
+   "id": "be050ab3_2",
+   "date": "2023-08-15 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_e6daAMu_0",
+   "date": "2023-08-28 17:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_271436",
+   "date": "2023-09-14 04:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dBQwSJX_0",
+   "date": "2023-09-22 07:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_1cb52d0a_2",
+   "date": "2023-09-30 12:23",
+   "evidence": true
+  }
+ ],
+ "context": "- User is planning a trip to Berlin, Germany, and intends to meet up with their friend Alex, whom they have met twice before. (from a chat on 2023-09-30)\n- User met a man named Alex from Germany at a music festival a few weeks before August 11, 2023, and they bonded over a shared love of indie rock music. (from a chat on 2023-08-11)\n- User and Alex are planning to meet up in the user's city soon when Alex visits for work. (from a chat on 2023-08-11)\n- User was recommended cafes (The Barn, Five Elephant, Kaffee Burger), bars (Schleusenkrug, Das Hotel, Würgeengel), and beer gardens (Golgatha, Schleusenkrug) in Kreuzberg for meeting their friend Alex. (from a chat on 2023-09-30)\n- User plans to ask Alex about his favorite indie rock bands to bond over music and potentially attend a concert together during his visit. (from a chat on 2023-08-11)\n- User is in the process of buying a home with their partner Alex, a process that began around July 4, 2023. (from a chat on 2023-08-15)\n- User was recommended the following indie rock venues in Berlin: Berghain, Columbiahalle, Festsaal Kreuzberg, Kantine am Berghain, and Musik & Frieden. (from a chat on 2023-09-30)\n- User was recommended the following record stores in Berlin for lo-fi and garage rock: Dussmann das KulturKaufhaus, Bis Aufs Messer, CoreTex Records, and Raum 15. (from a chat on 2023-09-30)\n- User was recommended music blogs (Berlin Music Week, Klangkommando, Nothing But Hope And Passion, The Quietus) and zines (Zabriskie Point, The Leuchtet, Kreuzberg Musik) to follow the Berlin music scene. (from a chat on 2023-09-30)\n- User recently attended a book reading by a local author and discussed classic literature with a retired English teacher named John. (from a chat on 2023-08-11)\n- User is interested in the lo-fi and garage rock music scene and is seeking recommendations for venues, record stores, and local bands in Berlin. (from a chat on 2023-09-30)\n- User was recommended local Berlin labels Späti Palace, Kreuzkölln Records, and Tape Tektoniks, as well as local bands Die Nerven, Gurr, and Klangstof. (from a chat on 2023-09-30)\n- User was recommended the following live music venues in the Kreuzberg neighborhood of Berlin: SO36, Schokoladen, Kantine am Berghain, Lido, Badehaus Szimpla, Urban Spree, and Monarch. (from a chat on 2023-09-30)\n- User was informed that many vocational schools in North Rhine-Westphalia offer internships and industry placement opportunities for students to gain hands-on experience and network with professionals. (from a chat on 2023-09-22)\n- User started taking daily walks about three weeks ago, around June 23, 2023, to explore their new neighborhood. (from a chat on 2023-07-14)\n- User is interested in the educational and vocational systems of North Rhine-Westphalia, specifically regarding their impact on the workforce, economy, and opportunities for international students. (from a chat on 2023-09-14)\n- User has a go-to coffee shop near their new apartment where they regularly catch up on emails in the morning. (from a chat on 2023-07-14)\n- Notable success stories from North Rhine-Westphalia vocational programs include Tim Kröger (robotics engineer at KUKA), Tanja Laub (founder of Tinkerbots), and Philipp Kalweit (founder of Lofrix). (from a chat on 2023-09-14)\n- User is specifically interested in the robotics field within North Rhine-Westphalia's vocational education system. (from a chat on 2023-09-14)\n- Vocational schools in North Rhine-Westphalia frequently offer internships, industry placements, and apprenticeship opportunities through partnerships with local companies, supported by the state's 'Vocational Qualification Pact'. (from a chat on 2023-09-14)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-09-30: \"User is planning a trip to Berlin, Germany, and intends to meet up with their friend Alex, whom they have met twice before.\"\n*   From the chat on 2023-08-11: \"User met a man named Alex from Germany at a music festival a few weeks before August 11, 2023...\"\n*   From the chat on 2023-08-11: \"User and Alex are planning to meet up in the user's city soon when Alex visits for work.\"\n\n**2. Reason over the information:**\n*   The chat from 2023-09-30 explicitly states that the user has met their friend Alex \"twice before.\"\n*   While there are other mentions of an \"Alex\" (such as a partner the user is buying a home with), the specific context of the friend from Germany whom the user met at a music festival and is planning to see in Berlin aligns with the explicit count provided in the September 30th chat.\n\n**Answer:**\nYou have met up with Alex from Germany two times.",
+ "dump": "- User was recommended cafes (The Barn, Five Elephant, Kaffee Burger), bars (Schleusenkrug, Das Hotel, Würgeengel), and beer gardens (Golgatha, Schleusenkrug) in Kreuzberg for meeting their friend Alex. (session 2023-09-30)\n- User was recommended music blogs (Berlin Music Week, Klangkommando, Nothing But Hope And Passion, The Quietus) and zines (Zabriskie Point, The Leuchtet, Kreuzberg Musik) to follow the Berlin music scene. (session 2023-09-30)\n- User was provided with resources for learning polymer clay and wax sculpting, including 'The Complete Book of Polymer Clay' by Sue Heaser and 'Wax Modeling and Casting' by Robert D. Smith. (session 2023-07-12)\n- User has a shorter daily commute since moving closer to work, which has significantly increased their daily energy levels. (session 2023-07-14)\n- User is interested in transitioning from air-dry clay to experimenting with polymer clay and wax for future projects. (session 2023-07-12)\n- User is interested in the lo-fi and garage rock music scene and is seeking recommendations for venues, record stores, and local bands in Berlin. (session 2023-09-30)\n- User has a go-to coffee shop near their new apartment where they regularly catch up on emails in the morning. (session 2023-07-14)\n- User was provided with a comprehensive closing checklist, including steps for financing, inspections, title work, insurance, utilities, and final move preparations. (session 2023-08-15)\n- User was provided with resources to share with their employer regarding workplace mindfulness, including Mindful.org, Harvard Business Review articles, Forbes articles, and American Psychological Association research. (session 2023-07-21)\n- User is working on a project to improve LLM tool-use capabilities by combining methodologies from 'Context-faithful prompt' (Zhou et al., 2023) and 'ReAct' (Yao et al., 2023). (session 2023-08-28)\n- User recently moved to a new apartment and is using Sortly and Planner 5D to help with organization and home design. (session 2023-07-14)\n- User was recommended online resources for beginner-friendly sculpting including Sculpture Tutor, Craftsy, Skillshare, New Masters Academy, and Sculpting Academy. (session 2023-07-12)\n- User has been sculpting for approximately one month as of July 2023 and has been using a beginner's sculpting kit for three weeks. (session 2023-07-12)\n- User was recommended indie rock artists including Tame Impala, Arctic Monkeys, The Black Keys, Florence + The Machine, Bon Iver, The 1975, Vampire Weekend, St. Vincent, The National, and Local Natives. (session 2023-08-11)\n- User is specifically interested in the robotics field within North Rhine-Westphalia's vocational education system. (session 2023-09-14)\n- User plans to start a walking journal to track their routes, progress, and interesting observations from their daily walks. (session 2023-07-14)\n- User was recommended the following vocational schools in North Rhine-Westphalia for robotics programs: Berufskolleg für Technik (Siegen), Robert-Bosch-Berufskolleg (Dortmund), Friedrich-List-Berufskolleg (Düsseldorf), and Berufskolleg des Kreises Heinsberg (Geilenkirchen). (session 2023-09-14)\n- User was recommended the following indie rock venues in Berlin: Berghain, Columbiahalle, Festsaal Kreuzberg, Kantine am Berghain, and Musik & Frieden. (session 2023-09-30)\n- Assistant provided a framework for combining Context-faithful prompting and ReAct, which involves formulating opinionated questions, including counterfactual examples, selecting demonstration action items, and providing natural language 'thought' instructions to guide tool usage. (session 2023-08-28)\n- User was guided on the final walk-through inspection, which should occur a day or two before closing to verify agreed-upon repairs, property condition, and functionality of systems. (session 2023-08-15)\n- User is interested in reading 'The Particular Sadness of Lemon Cake' by Aimee Bender as an introduction to the magical realism genre. (session 2023-08-11)\n- User is interested in advocating for workplace mindfulness and meditation programs to help manage their own stress levels and improve overall well-being. (session 2023-07-21)\n- User was recommended the following live music venues in the Kreuzberg neighborhood of Berlin: SO36, Schokoladen, Kantine am Berghain, Lido, Badehaus Szimpla, Urban Spree, and Monarch. (session 2023-09-30)\n- User plans to ask Alex about his favorite indie rock bands to bond over music and potentially attend a concert together during his visit. (session 2023-08-11)\n- User is interested in the evolution of dance styles and wonders what new forms of dance will emerge in the future. (session 2023-08-14)\n- User is interested in reading indie fiction and was recommended titles including 'The Particular Sadness of Lemon Cake' by Aimee Bender, 'The First Fifteen Lives of Harry August' by Claire North, and 'The City & The City' by China Miéville. (session 2023-08-11)\n- User is currently working on a life-sized cat sculpture and is seeking techniques to achieve realistic fur textures. (session 2023-07-12)\n- User considers classical ballet to be the most beautiful form of dance. (session 2023-08-14)\n- User was recommended resources for fur texturing including 'The Art of Animal Sculpture' by Dan Gheno, 'Sculpting Animals: A Complete Guide' by John Raynes, and tutorials by Stan Prokopenko and Sculpture Tutor. (session 2023-07-12)\n- User is interested in the robotics field and was recommended the Berufskolleg für Technik (BfT) in Siegen, which offers a mechatronics program covering robotics, electronics, and mechanical engineering. (session 2023-09-22)\n- User was recommended local Berlin labels Späti Palace, Kreuzkölln Records, and Tape Tektoniks, as well as local bands Die Nerven, Gurr, and Klangstof. (session 2023-09-30)\n- User is interested in the educational and vocational systems of North Rhine-Westphalia, specifically regarding their impact on the workforce, economy, and opportunities for international students. (session 2023-09-14)\n- User has already locked in their interest rate for their home mortgage. (session 2023-08-15)\n- User does not have the resources to train an LLM and is focusing on prompt engineering frameworks instead. (session 2023-08-28)\n- User recently attended a book reading by a local author and discussed classic literature with a retired English teacher named John. (session 2023-08-11)\n- Vocational schools in North Rhine-Westphalia frequently offer internships, industry placements, and apprenticeship opportunities through partnerships with local companies, supported by the state's 'Vocational Qualification Pact'. (session 2023-09-14)\n- User was recommended several mindfulness and meditation techniques suitable for the workplace, including breathing exercises, body scan meditation, walking meditation, mindful listening, and taking mindful breaks. (session 2023-07-21)\n- User was recommended detail-oriented tool sets and brands including Kemper, Loew-Cornell micro-tools, Foredom detail carver's kits, Micro-Mark, and NSI. (session 2023-07-12)\n- User received a home inspection report around August 8, 2023, identifying minor issues with the plumbing and electrical systems of the new home. (session 2023-08-15)\n- User is planning a trip to Berlin, Germany, and intends to meet up with their friend Alex, whom they have met twice before. (session 2023-09-30)\n- User was recommended online stores for sculpting supplies including Dick Blick Art Materials, Amazon, Sculpture Supply House, The Compleat Sculptor, Clay-King, Hobby Lobby, and Michaels. (session 2023-07-12)\n- User and Alex are planning to meet up in the user's city soon when Alex visits for work. (session 2023-08-11)\n- User met a man named Alex from Germany at a music festival a few weeks before August 11, 2023, and they bonded over a shared love of indie rock music. (session 2023-08-11)\n- Notable success stories from North Rhine-Westphalia vocational programs include Tim Kröger (robotics engineer at KUKA), Tanja Laub (founder of Tinkerbots), and Philipp Kalweit (founder of Lofrix). (session 2023-09-14)\n- User was provided with a breakdown of typical closing documents, including the Closing Disclosure, Deed, Mortgage, Promissory Note, and Settlement Statement, with advice to review all terms carefully before signing. (session 2023-08-15)\n- User was advised that for minor inspection issues, they can request repairs, closing credits, or a sale price reduction, with typical credits ranging from 1% to 3% of the purchase price. (session 2023-08-15)\n- User is in the process of buying a home with their partner Alex, a process that began around July 4, 2023. (session 2023-08-15)\n- User was recommended the following record stores in Berlin for lo-fi and garage rock: Dussmann das KulturKaufhaus, Bis Aufs Messer, CoreTex Records, and Raum 15. (session 2023-09-30)\n- User has recently returned to practicing yoga and is planning to incorporate outdoor sessions in local parks. (session 2023-07-14)\n- User was informed that many vocational schools in North Rhine-Westphalia offer internships and industry placement opportunities for students to gain hands-on experience and network with professionals. (session 2023-09-22)\n- User was explained the impact of interest rates and loan terms on monthly PITI payments and total costs over the life of a loan. (session 2023-08-15)\n- User started taking daily walks about three weeks ago, around June 23, 2023, to explore their new neighborhood. (session 2023-07-14)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 52,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 33.1,
+  "total": 34.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

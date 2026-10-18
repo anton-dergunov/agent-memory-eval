@@ -1,0 +1,124 @@
+{
+ "qid": "71315a70",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many hours have I spent on my abstract ocean sculpture?",
+ "reference": "10-12 hours",
+ "question_date": "2023-06-18 19:47",
+ "sessions": [
+  {
+   "id": "37d634c0_1",
+   "date": "2023-05-13 12:11",
+   "evidence": false
+  },
+  {
+   "id": "answer_c44b9df4_1",
+   "date": "2023-06-11 03:51",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_ZUxBndS_26",
+   "date": "2023-06-11 08:02",
+   "evidence": false
+  },
+  {
+   "id": "6028dbf9",
+   "date": "2023-06-12 17:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_QFmKhh1_17",
+   "date": "2023-06-12 22:37",
+   "evidence": false
+  },
+  {
+   "id": "bcd5c30f_1",
+   "date": "2023-06-14 06:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_VLn3Y3v_0",
+   "date": "2023-06-16 17:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_I6xL7Th_0",
+   "date": "2023-06-17 01:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_c44b9df4_2",
+   "date": "2023-06-17 09:26",
+   "evidence": true
+  },
+  {
+   "id": "41743aae_1",
+   "date": "2023-06-18 03:50",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user enjoys morning walks or jogs on weekends and wants to make them a regular part of their routine. They are looking for motivation to exercise consistently on weekends.\nThe user plans to schedule their exercise routine for Saturday and Sunday mornings, followed by reading time. They are now looking for tips on how to meal prep for the week ahead on Sundays.\nThe user's ancestry, according to an AncestryDNA test, is 35% Irish, 25% Italian, 20% English, and 20% German. They were particularly surprised by the 25% Italian result.\nThe user has Italian ancestry and is interested in the Campania and Apulia regions, with a specific fascination for the Amalfi Coast.\nThe user is interested in using fabric to create textures in clay sculptures, specifically for a sunset-themed piece.\nThe user is currently taking a French language course at Sorbonne University to improve their language skills.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T03:24:43.047490+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-18 19:47] How many hours have I spent on my abstract ocean sculpture?'}, {'timestamp': '2026-10-18T03:24:01.501358+00:00', 'time_ago': '44s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-17 09:26] I've already spent 10-12 hours on my abstract ocean sculpture, and I'm excited to explore new techniques and materials for my next piece. I think I'll try incorporating some found ocean objects, like sea glass or beach stones, into my next sculpture. Thanks for the tips and ideas!\"}]}",
+ "answer": "You mentioned yesterday, on June 17th, that you had already spent 10-12 hours on your abstract ocean sculpture.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user enjoys morning walks or jogs on weekends and wants to make them a regular part of their routine. They are looking for motivation to exercise consistently on weekends.\nThe user plans to schedule their exercise routine for Saturday and Sunday mornings, followed by reading time. They are now looking for tips on how to meal prep for the week ahead on Sundays.\nThe user's ancestry, according to an AncestryDNA test, is 35% Irish, 25% Italian, 20% English, and 20% German. They were particularly surprised by the 25% Italian result.\nThe user has Italian ancestry and is interested in the Campania and Apulia regions, with a specific fascination for the Amalfi Coast.\nThe user is interested in using fabric to create textures in clay sculptures, specifically for a sunset-themed piece.\nThe user is currently taking a French language course at Sorbonne University to improve their language skills.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"hours abstract ocean sculpture\"})",
+   "conversation_search({\"query\": \"sculpture\"})"
+  ],
+  "blocks_chars": 1100,
+  "write_steps": 48,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 320.6,
+  "total": 328.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

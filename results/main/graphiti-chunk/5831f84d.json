@@ -1,0 +1,102 @@
+{
+ "qid": "5831f84d",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many Crash Course videos have I watched in the past few weeks?",
+ "reference": "15",
+ "question_date": "2023-10-05 05:19",
+ "sessions": [
+  {
+   "id": "3e53cff4",
+   "date": "2023-07-15 04:55",
+   "evidence": false
+  },
+  {
+   "id": "5cd46af9_2",
+   "date": "2023-07-19 06:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_1",
+   "date": "2023-08-11 13:55",
+   "evidence": true
+  },
+  {
+   "id": "78e6f9ee",
+   "date": "2023-08-13 14:44",
+   "evidence": false
+  },
+  {
+   "id": "14991eb7_2",
+   "date": "2023-08-22 08:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_462218",
+   "date": "2023-09-08 07:05",
+   "evidence": false
+  },
+  {
+   "id": "83dae08b",
+   "date": "2023-09-12 22:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_2",
+   "date": "2023-09-30 17:18",
+   "evidence": true
+  },
+  {
+   "id": "0df54428_4",
+   "date": "2023-09-30 19:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ofljChm_78",
+   "date": "2023-10-05 19:51",
+   "evidence": false
+  }
+ ],
+ "context": "- The user has already taken a Python programming course on edX. (valid since 2023-08-11)\n- user has maintained a daily cleaning routine for 3 weeks (valid since 2023-07-15)\n- The user has taken a Python programming course. (valid since 2023-08-11)\n- The user is interested in learning more about machine learning. (valid since 2023-08-11)\n- The user attended a BBQ festival in the city. (valid since 2023-07-19)\n- The user is studying machine learning and NLP by engaging with communities like Kaggle and Reddit. (valid since 2023-09-30)\n- The user's dad is from the state of Punjab in India. (valid since 2023-08-22)\n- The user is studying NLP and machine learning by engaging with communities like Kaggle and Reddit. (valid since 2023-09-30)\n- The assistant supports the user's growth and learning in the field of NLP. (valid since 2023-09-30)\n- The assistant supports the user's growth and learning in the field of machine learning. (valid since 2023-09-30)",
+ "answer": "**Answer (step by step):**\n\n1.  **Extract relevant information:** I have reviewed all the provided history facts regarding your activities, interests, and learning progress. The facts mention:\n    *   Completion of a Python programming course on edX.\n    *   Maintenance of a daily cleaning routine.\n    *   Attendance at a BBQ festival.\n    *   Current studies in machine learning and NLP via Kaggle and Reddit.\n    *   Family background (dad from Punjab, India).\n    *   The assistant's support for your learning in NLP and machine learning.\n\n2.  **Reason over the information:** I have scanned the provided history for any mention of \"Crash Course\" videos or any specific count of videos watched. None of the provided facts contain information regarding \"Crash Course\" videos.\n\n3.  **Conclusion:** Based on the provided history, there is no information available to determine how many Crash Course videos you have watched.",
+ "dump": "- The user plans to use Habitica to track habits and tasks. (valid since 2023-07-15)\n- The user intends to create a custom habit in Habitica for the one-touch rule to track and improve productivity. (valid since 2023-07-15)\n- user uses Habitica to track progress and stay motivated with the one-touch rule and daily cleaning routine (valid since 2023-07-15)\n- user applies the one-touch rule to simple tasks like putting away dirty dishes and responding to simple emails (valid since 2023-07-15)\n- user plans to manage digital files by taking action on each file once (valid since 2023-07-15)\n- assistant recommends the 4-box method for dealing with digital files and documents (valid since 2023-07-15)\n- user creates a Someday folder to keep track of items that do not require immediate attention (valid since 2023-07-15)\n- user has maintained a daily cleaning routine for 3 weeks (valid since 2023-07-15)\n- The user attended a BBQ festival in the city. (valid since 2023-07-19)\n- The BBQ festival featured a vendor from Texas. (valid since 2023-07-19)\n- A vendor from Texas served slow-smoked brisket at the BBQ festival. (valid since 2023-07-19)\n- assistant recommends playing Lawn Twister at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends playing Cornhole at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends playing Giant Jenga at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends playing Badminton at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends playing Volleyball at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends organizing a Water Balloon Toss at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends organizing a Lawn Scavenger Hunt at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends playing an Outdoor Movie Trailer at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends setting up a DIY Photo Booth at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends hosting a Grill-Off Competition at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends organizing a BBQ Sauce Tasting at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends holding a Watermelon Eating Contest at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends playing horseshoes at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends playing ladder toss at a backyard BBQ party (valid since 2023-07-19)\n- assistant recommends playing KanJam at a backyard BBQ party (valid since 2023-07-19)\n- Hickory is a strong, sweet, and smoky wood, whereas Applewood is a fruity, sweet, and mild wood. (valid since 2023-07-19)\n- Oak is an earthy, mellow, and slightly sweet wood, while Mesquite is a strong, earthy, and bitter wood. (valid since 2023-07-19)\n- Both Cherrywood and Applewood are classified as fruity, sweet, and mild wood types for smoking. (valid since 2023-07-19)\n- The user has already taken a Python programming course on edX. (valid since 2023-08-11)\n- The user has taken a Python programming course. (valid since 2023-08-11)\n- The user is interested in learning more about machine learning. (valid since 2023-08-11)\n- Reinforcement Learning with Python by DataCamp utilizes the library Gym (valid since 2023-08-11)\n- Reinforcement Learning with Python by DataCamp utilizes the library Baselines (valid since 2023-08-11)\n- TensorFlow Agents is recommended by the assistant for building reinforcement learning agents (valid since 2023-08-11)\n- PyTorch Generative Models is recommended by the assistant as a collection of implementations for various generative models (valid since 2023-08-11)\n- user uses the park as a writing environment (valid since 2023-08-13)\n- The user maintains a writing journal to track progress and brainstorm ideas for their writing project, which they discussed with the assistant. (valid since 2023-08-13)\n- The user's dad is from the state of Punjab in India. (valid since 2023-08-22)\n- Punjab is a northern state located in India. (valid since 2023-08-22)\n- Sarson Ka Saag is traditionally served with Makki Di Roti in Punjabi cuisine. (valid since 2023-08-22)\n- The user owns a grey velvet sectional sofa from West Elm. (valid since 2023-09-12)\n- The user is considering purchasing a sisal rug with a natural, earthy tone to pair with their grey velvet sofa. (valid since 2023-09-12)\n- West Elm sells sisal rugs in natural, earthy tones. (valid since 2023-09-12)\n- Crate & Barrel sells sisal rugs with natural, earthy tones and patterns. (valid since 2023-09-12)\n- Pottery Barn sells sisal rugs in natural, earthy tones with a range of sizes and custom options. (valid since 2023-09-12)\n- Serena & Lily sells high-quality sisal rugs in natural, earthy tones. (valid since 2023-09-12)\n- AllModern sells sisal rugs in natural, earthy tones. (valid since 2023-09-12)\n- Wayfair sells a vast selection of sisal rugs. (valid since 2023-09-12)\n- Rugs USA sells a wide range of sisal rugs in natural, earthy tones. (valid since 2023-09-12)\n- West Elm sells throw pillows. (valid since 2023-09-12)\n- Crate & Barrel sells throw pillows. (valid since 2023-09-12)\n- Pottery Barn sells throw pillows. (valid since 2023-09-12)\n- AllModern sells throw pillows. (valid since 2023-09-12)\n- Wayfair sells throw pillows. (valid since 2023-09-12)\n- Etsy sells unique, handmade throw pillows. (valid since 2023-09-12)\n- West Elm sells decorative items. (valid since 2023-09-12)\n- Crate & Barrel sells decorative items. (valid since 2023-09-12)\n- Pottery Barn sells decorative items. (valid since 2023-09-12)\n- AllModern sells decorative items. (valid since 2023-09-12)\n- Wayfair sells decorative items. (valid since 2023-09-12)\n- Etsy sells unique, handmade decorative items. (valid since 2023-09-12)\n- Chairish sells vintage or second-hand decorative items. (valid since 2023-09-12)\n- The user is interested in using the transformers library by Hugging Face for text classification tasks. (valid since 2023-09-30)\n- The transformers library is developed by Hugging Face. (valid since 2023-09-30)\n- The user engages with Kaggle to learn from others, get feedback on projects, and stay up-to-date with machine learning and NLP developments. (valid since 2023-09-30)\n- The user engages with Reddit to learn from others, get feedback on projects, and stay up-to-date with machine learning and NLP developments. (valid since 2023-09-30)\n- The user is studying NLP and machine learning by engaging with communities like Kaggle and Reddit. (valid since 2023-09-30)\n- The user is studying machine learning and NLP by engaging with communities like Kaggle and Reddit. (valid since 2023-09-30)\n- The assistant encourages the user to engage with the online community Kaggle for machine learning and NLP. (valid since 2023-09-30)\n- The assistant encourages the user to engage with the online community Reddit for machine learning and NLP. (valid since 2023-09-30)\n- The assistant supports the user's growth and learning in the field of NLP. (valid since 2023-09-30)\n- The assistant supports the user's growth and learning in the field of machine learning. (valid since 2023-09-30)\n- A dealer can purchase or facilitate the sale of stamps, involving steps like appraisal and negotiation, often without the standard commission fees found at auction houses. (valid since 2023-09-30)\n- The assistant recommends eBay as an online marketplace for selling stamps to collectors. (valid since 2023-09-30)\n- The assistant recommends Etsy as an online marketplace for selling stamps to collectors. (valid since 2023-09-30)\n- The assistant recommends Apfelbaum Inc. as an online marketplace for selling stamps to collectors. (valid since 2023-09-30)\n- The assistant recommends StampCenter as an online marketplace for selling stamps to collectors. (valid since 2023-09-30)\n- The assistant recommends Delcampe as an online marketplace for selling stamps to collectors. (valid since 2023-09-30)\n- The assistant recommends StampWorld as an online marketplace for selling stamps to collectors. (valid since 2023-09-30)\n- The assistant recommends HipStamp as an online marketplace for selling stamps to collectors. (valid since 2023-09-30)\n- The assistant provides the complete JavaScript code for a card-based arithmetic game, including functions for setting up listeners, handling clicks, and generating random numbers. (valid since 2023-10-05)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 82,
+  "invalidated": 0,
+  "episodes": 22,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 168.3,
+  "total": 169.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

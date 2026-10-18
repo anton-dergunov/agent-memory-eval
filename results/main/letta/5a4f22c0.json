@@ -1,0 +1,118 @@
+{
+ "qid": "5a4f22c0",
+ "arm": "letta",
+ "split": "main",
+ "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+ "reference": "TechCorp",
+ "question_date": "2023-06-21 13:02",
+ "sessions": [
+  {
+   "id": "78eda063_2",
+   "date": "2023-05-23 07:41",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yJMgmG3_0",
+   "date": "2023-05-23 10:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_1",
+   "date": "2023-05-23 20:06",
+   "evidence": true
+  },
+  {
+   "id": "af778ece_1",
+   "date": "2023-05-24 05:16",
+   "evidence": false
+  },
+  {
+   "id": "c3f945f3_1",
+   "date": "2023-05-24 16:00",
+   "evidence": false
+  },
+  {
+   "id": "a1c1739c_3",
+   "date": "2023-05-24 19:18",
+   "evidence": false
+  },
+  {
+   "id": "acb77ba4",
+   "date": "2023-05-25 16:42",
+   "evidence": false
+  },
+  {
+   "id": "88841f27_2",
+   "date": "2023-05-25 20:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dh8qvty_0",
+   "date": "2023-05-25 22:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_2",
+   "date": "2023-05-26 20:48",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\n- Interested in watercolor painting.\n- Organizing painting supplies and workspace.\n- Looking for advice on watercolor brushes.\n\n- Recently met: Rachel (old colleague).\n- Event: TechConnect conference, February 10th-11th.\n- Action: Catch up soon.\n\n- Recently met: Jason (CEO of StartupX).\n- Event: TechConnect conference.\n- Action: Follow up regarding potential collaboration.\n\n- Recently met: Alex (founder of a new edtech startup).\n- Event: Startup mixer at WeWork.\n\n- Recently met: David (friend).\n- Event: Startup mixer at WeWork.\n- Note: Introduced to colleagues from Google.\n\n- Recently met: Tom (marketing expert).\n- Event: Speed networking event (Chamber of Commerce).\n- Note: Offered feedback on startup's marketing strategy.\n- Collector: Antique cameras (including a 1920s-era Leica).\n- Collector: Vintage Star Wars action figures (set completed around early May 2023).\n- Gardening: Planning to add new herbs to the garden.\n- Interests: Companion planting (specifically for basil, mint, and cilantro).\n- Event: Gardening workshop at the community center, first week of June 2023.\n- Knowledge: Learned about composting and creating natural fertilizer.\n- Gardening: Interested in adding pollinator-friendly flowers (attracting bees and butterflies).\n- Success: Marigolds are already successful in the garden.\n- Gardening: Expanding vegetable bed.\n- Interests: Looking for disease/pest-resistant heirloom or hybrid tomato varieties.\n- Gardening: Interested in maintenance tips for compost piles and materials to avoid.\n- Gardening: Clarified that eggshells are safe to compost and beneficial for the garden.\n- Fashion: Looking for a good denim jacket.\n- Fashion: Scored 40% off ankle boots from Madewell during their President's Day sale; wearing them nonstop.\n- Interests: Interested in trying traditional Hawaiian dishes like laulau and kalua pig.\n- Interested in AI in education (EdTech).\n- Wants to follow up with Dr. Maria Hernandez (met at Women in Tech webinar).\n- Member of BNI (networking group).\n- Working on improving elevator pitch with help from Jack (a fellow member).\n- Providing Jack with digital marketing insights in exchange.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T03:43:29.353630+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-21 13:02] What company is Rachel, an old colleague from my previous company, currently working at?'}, {'timestamp': '2026-10-18T03:43:17.682411+00:00', 'time_ago': '14s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'You\\'re very welcome! That sounds like a solid plan. Being clear about your intentions while remaining curious will definitely help build a stronger, more authentic connection with him.\\n\\nI\\'m here whenever you\\'re ready to prep for that conversation or if you want to practice your \"elevator pitch\" before you meet. Good luck with the outreach—I\\'m sure he\\'ll appreciate the thoughtful approach!\\n\\nIs there anything else you\\'d like to tackle or prepare for today? Perhaps some notes for your catch-up with Rachel, or maybe some more gardening research?'}]}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T03:43:29.353630+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-21 13:02] What company is Rachel, an old colleague from my previous company, currently working at?'}, {'timestamp': '2026-10-18T03:43:17.682411+00:00', 'time_ago': '16s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'You\\'re very welcome! That sounds like a solid plan. Being clear about your intentions while remaining curious will definitely help build a stronger, more authentic connection with him.\\n\\nI\\'m here whenever you\\'re ready to prep for that conversation or if you want to practice your \"elevator pitch\" before you meet. Good luck with the outreach—I\\'m sure he\\'ll appreciate the thoughtful approach!\\n\\nIs there anything else you\\'d like to tackle or prepare for today? Perhaps some notes for your catch-up with Rachel, or maybe some more gardening research?'}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T03:42:54.382929+00:00', 'time_ago': '43s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That\\'s a wonderful idea to catch up with Rachel! It sounds like you\\'ve been doing some great networking lately—between meeting Tom, Rachel, and your recent connections at the Startup mixer and the TechConnect conference, you\\'re building a strong circle.\\n\\nSince you\\'re looking to bolster your marketing strategy beyond Tom\\'s expert feedback, here are a few avenues you might consider:\\n\\n### 1. Leverage Your Network\\n*   **Ask for Introductions:** Since you\\'ve met various people at industry events (like the TechConnect conference and the Startup mixer), don\\'t hesitate to reach out to them. Even if they aren\\'t marketing experts, they might have worked with agencies or consultants they trust.\\n*   **Reconnect with Colleagues:** When you catch up with Rachel, see if her current team at TechCorp has any marketing processes or resources they recommend—even just understanding their perspective could be valuable.\\n\\n### 2. Startup-Focused Resources\\n*   **GrowthHackers:** This is a fantastic community-driven platform specifically for growth marketing. It’s full of case studies and discussions from other startups.\\n*   **Marketing Podcasts/Blogs:** Subscribing to focused resources like *The Marketing School* (by Neil Patel and Eric Siu) or reading blogs like *HubSpot’s Marketing Blog* can keep you updated on current trends tailored for businesses of your size.\\n*   **SCORE:** If you are in the U.S., SCORE offers free mentorship from experienced business professionals. You can often find mentors with specific expertise in marketing.\\n\\n### 3. Niche Communities\\n*   **Indie Hackers:** This is a great community for early-stage startup founders to share their \"marketing experiments\" and get honest feedback from peers who are likely in the same boat as you.\\n*   **LinkedIn Groups:** Look for groups specifically for \"Startup Marketing\" or \"Growth Marketing.\" Often, you can find high-quality advice there by asking specific questions.\\n\\n### A quick question for you:\\nWhat kind of startup are you working on? Knowing your industry or your current target audience might help me point you toward more specific marketing channels or resources!\\n\\nAlso, how are the gardening plans coming along for June? I imagine the marigolds are looking great!'}]}",
+ "answer": "It looks like Rachel is currently working at **TechCorp**. I found that mentioned in our recent conversation when we were discussing networking and marketing resources!",
+ "dump": "<human>\n\n- Interested in watercolor painting.\n- Organizing painting supplies and workspace.\n- Looking for advice on watercolor brushes.\n\n- Recently met: Rachel (old colleague).\n- Event: TechConnect conference, February 10th-11th.\n- Action: Catch up soon.\n\n- Recently met: Jason (CEO of StartupX).\n- Event: TechConnect conference.\n- Action: Follow up regarding potential collaboration.\n\n- Recently met: Alex (founder of a new edtech startup).\n- Event: Startup mixer at WeWork.\n\n- Recently met: David (friend).\n- Event: Startup mixer at WeWork.\n- Note: Introduced to colleagues from Google.\n\n- Recently met: Tom (marketing expert).\n- Event: Speed networking event (Chamber of Commerce).\n- Note: Offered feedback on startup's marketing strategy.\n- Collector: Antique cameras (including a 1920s-era Leica).\n- Collector: Vintage Star Wars action figures (set completed around early May 2023).\n- Gardening: Planning to add new herbs to the garden.\n- Interests: Companion planting (specifically for basil, mint, and cilantro).\n- Event: Gardening workshop at the community center, first week of June 2023.\n- Knowledge: Learned about composting and creating natural fertilizer.\n- Gardening: Interested in adding pollinator-friendly flowers (attracting bees and butterflies).\n- Success: Marigolds are already successful in the garden.\n- Gardening: Expanding vegetable bed.\n- Interests: Looking for disease/pest-resistant heirloom or hybrid tomato varieties.\n- Gardening: Interested in maintenance tips for compost piles and materials to avoid.\n- Gardening: Clarified that eggshells are safe to compost and beneficial for the garden.\n- Fashion: Looking for a good denim jacket.\n- Fashion: Scored 40% off ankle boots from Madewell during their President's Day sale; wearing them nonstop.\n- Interests: Interested in trying traditional Hawaiian dishes like laulau and kalua pig.\n- Interested in AI in education (EdTech).\n- Wants to follow up with Dr. Maria Hernandez (met at Women in Tech webinar).\n- Member of BNI (networking group).\n- Working on improving elevator pitch with help from Jack (a fellow member).\n- Providing Jack with digital marketing insights in exchange.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Rachel company\"})",
+   "conversation_search({\"query\": \"Rachel\"})",
+   "conversation_search({\"query\": \"Rachel\", \"start_date\": \"2023-01-01\"})",
+   "conversation_search({\"query\": \"TechConnect Rachel\"})",
+   "conversation_search({\"query\": \"TechConnect\"})"
+  ],
+  "blocks_chars": 2350,
+  "write_steps": 53,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 369.9,
+  "total": 383.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

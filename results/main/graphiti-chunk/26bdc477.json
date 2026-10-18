@@ -1,0 +1,106 @@
+{
+ "qid": "26bdc477",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many trips have I taken my Canon EOS 80D camera on?",
+ "reference": "five",
+ "question_date": "2023-06-06 18:27",
+ "sessions": [
+  {
+   "id": "a223e307",
+   "date": "2023-03-03 02:59",
+   "evidence": false
+  },
+  {
+   "id": "2d79c1c3_2",
+   "date": "2023-03-05 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_350893",
+   "date": "2023-03-16 01:52",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_1",
+   "date": "2023-03-16 19:05",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_hMokVUA_39",
+   "date": "2023-03-18 14:10",
+   "evidence": false
+  },
+  {
+   "id": "dce08529_1",
+   "date": "2023-05-04 21:39",
+   "evidence": false
+  },
+  {
+   "id": "201d188a_4",
+   "date": "2023-05-19 15:50",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_2",
+   "date": "2023-05-30 00:43",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_438698",
+   "date": "2023-06-01 00:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pRBsKdE_5",
+   "date": "2023-06-03 07:50",
+   "evidence": false
+  }
+ ],
+ "context": "- The user is considering purchasing a Lowepro ProTactic 450 AW camera bag. (valid since 2023-05-30)\n- Adobe Creative Cloud offers the app Adobe Camera Raw to help users streamline their workflow. (valid since 2023-03-16)\n- The user will use Adobe Creative Cloud for their professional photography work (valid since 2023-03-16)\n- eBay is a third-party marketplace that offers lens caps for the Canon EF-S 18-135mm f/3.5-5.6 IS USM lens. (valid since 2023-03-16)\n- The user owns Asics Gel-Kayano 28 shoes. (valid since 2023-03-05)\n- Rakuten is a third-party marketplace that offers lens caps for the Canon EF-S 18-135mm f/3.5-5.6 IS USM lens. (valid since 2023-03-16)\n- Amazon is an authorized dealer where users can find lens caps for the Canon EF-S 18-135mm f/3.5-5.6 IS USM lens. (valid since 2023-03-16)\n- The user has been experimenting with Lightroom and likes the results (valid since 2023-03-16)\n- Adorama is an authorized dealer where users can find lens caps for the Canon EF-S 18-135mm f/3.5-5.6 IS USM lens. (valid since 2023-03-16)\n- The user keeps using Google Photos for their personal shots (valid since 2023-03-16)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:**\n   - I have reviewed all the provided history facts regarding the user's photography equipment, software usage, and shopping considerations.\n   - The facts mention the user's interest in a Lowepro ProTactic 450 AW bag, the use of Adobe Creative Cloud and Lightroom, the use of Google Photos, the ownership of Asics Gel-Kayano 28 shoes, and sources for Canon EF-S 18-135mm lens caps.\n\n2. **Reason over the information:**\n   - I have scanned the provided history for any mention of the \"Canon EOS 80D\" camera. While the facts mention a specific lens (Canon EF-S 18-135mm), there is no mention of the camera body itself.\n   - Furthermore, there is no information in the provided history regarding any trips taken by the user or the usage frequency of their camera equipment.\n\n3. **Conclusion:**\n   - Based on the provided facts, there is no information available to determine how many trips the user has taken their Canon EOS 80D camera on.",
+ "dump": "- The user used a ShopRite digital coupon on their ShopRite loyalty card on Sunday, February 26, 2023. (valid since 2023-02-26)\n- The assistant updated the date used for the ShopRite digital coupon to Sunday. (valid since 2023-03-03)\n- The user owns Asics Gel-Kayano 28 shoes. (valid since 2023-03-05)\n- The user previously used Brooks Ghost 13 shoes. (valid since 2023-03-05)\n- The assistant recommends Injinji Trail Midweight Mini-Crew socks for the user's Asics Gel-Kayano 28 shoes. (valid since 2023-03-05)\n- The assistant recommends Darn Tough Light Hiker Crew socks for the user's Asics Gel-Kayano 28 shoes. (valid since 2023-03-05)\n- The assistant recommends Smartwool PhD Outdoor Light Crew socks for the user's Asics Gel-Kayano 28 shoes. (valid since 2023-03-05)\n- The assistant recommends Feetures High Performance Crew socks for the user's Asics Gel-Kayano 28 shoes. (valid since 2023-03-05)\n- The assistant recommends Balega Blister Resistant Quarter socks for the user's Asics Gel-Kayano 28 shoes. (valid since 2023-03-05)\n- The assistant suggests the user use MapMyRun for finding new running routes. (valid since 2023-03-05)\n- The assistant suggests the user use Runkeeper for finding new running routes. (valid since 2023-03-05)\n- The assistant suggests the user use Strava for finding new running routes. (valid since 2023-03-05)\n- The assistant suggests the user use AllTrails for finding new running routes. (valid since 2023-03-05)\n- The assistant suggests the user use Trailforks for finding new running routes. (valid since 2023-03-05)\n- The assistant suggests the user use Hiking Project for finding new running routes. (valid since 2023-03-05)\n- The assistant recommends oatmeal as a pre-run snack for sustained energy. (valid since 2023-03-05)\n- The assistant recommends whole-grain toast as a pre-run snack for sustained energy. (valid since 2023-03-05)\n- The assistant recommends bananas as a pre-run snack for sustained energy. (valid since 2023-03-05)\n- The assistant recommends berries as a pre-run snack for sustained energy. (valid since 2023-03-05)\n- The assistant recommends nuts as a pre-run protein source. (valid since 2023-03-05)\n- The assistant recommends seeds as a pre-run protein source. (valid since 2023-03-05)\n- The assistant recommends eggs as a pre-run protein source. (valid since 2023-03-05)\n- The assistant recommends Greek yogurt as a pre-run protein source. (valid since 2023-03-05)\n- The assistant recommends watermelon as a hydrating food for pre-run nutrition. (valid since 2023-03-05)\n- The assistant recommends cucumbers as a hydrating food for pre-run nutrition. (valid since 2023-03-05)\n- The assistant recommends celery as a hydrating food for pre-run nutrition. (valid since 2023-03-05)\n- The assistant recommends sports drinks for replenishing electrolytes. (valid since 2023-03-05)\n- The assistant recommends coconut water for replenishing electrolytes. (valid since 2023-03-05)\n- The assistant recommends energy gels for a quick energy boost during runs over an hour. (valid since 2023-03-05)\n- The assistant recommends chews for a quick energy boost during runs over an hour. (valid since 2023-03-05)\n- The assistant recommends electrolyte supplements for post-run recovery. (valid since 2023-03-05)\n- The assistant suggests banana with peanut butter as an effective pre-run snack. (valid since 2023-03-05)\n- The assistant suggests an energy bar with electrolytes as an effective pre-run snack. (valid since 2023-03-05)\n- The assistant suggests yogurt with honey and granola as an effective pre-run snack. (valid since 2023-03-05)\n- The assistant suggests yogurt with honey and granola as an effective pre-run snack. (valid since 2023-03-05)\n- The assistant suggests avocado toast with eggs as an effective pre-run snack. (valid since 2023-03-05)\n- The assistant advises the user that acting quickly and decisively in the moment is important, but a well-developed, proactive crisis management plan is still essential to ensure an effective response. (valid since 2023-03-16)\n- The assistant recommends that smaller businesses use free crisis management plan resources provided by the Federal Emergency Management Agency. (valid since 2023-03-16)\n- The user will use Adobe Creative Cloud for their professional photography work (valid since 2023-03-16)\n- The user keeps using Google Photos for their personal shots (valid since 2023-03-16)\n- The user has been experimenting with Lightroom and likes the results (valid since 2023-03-16)\n- The user has been experimenting with Photoshop and likes the results (valid since 2023-03-16)\n- Adobe Creative Cloud integrates with Lightroom to assist with photography work. (valid since 2023-03-16)\n- Adobe Creative Cloud integrates with Photoshop to assist with photography work. (valid since 2023-03-16)\n- Adobe Creative Cloud offers the app Adobe Bridge to help users streamline their workflow. (valid since 2023-03-16)\n- Adobe Creative Cloud offers the app Adobe Camera Raw to help users streamline their workflow. (valid since 2023-03-16)\n- Adobe Creative Cloud offers the app Adobe Premiere Pro for users interested in video editing. (valid since 2023-03-16)\n- Adobe Creative Cloud provides access to tutorials, workshops, and online courses via the Adobe Learn platform. (valid since 2023-03-16)\n- B&H Photo is an authorized dealer where users can find lens caps for the Canon EF-S 18-135mm f/3.5-5.6 IS USM lens. (valid since 2023-03-16)\n- Adorama is an authorized dealer where users can find lens caps for the Canon EF-S 18-135mm f/3.5-5.6 IS USM lens. (valid since 2023-03-16)\n- Amazon is an authorized dealer where users can find lens caps for the Canon EF-S 18-135mm f/3.5-5.6 IS USM lens. (valid since 2023-03-16)\n- eBay is a third-party marketplace that offers lens caps for the Canon EF-S 18-135mm f/3.5-5.6 IS USM lens. (valid since 2023-03-16)\n- Rakuten is a third-party marketplace that offers lens caps for the Canon EF-S 18-135mm f/3.5-5.6 IS USM lens. (valid since 2023-03-16)\n- Yitzhak Rabin served as a military officer in the Israeli Defense Forces during the time of the Altalena affair (valid since 2023-03-18)\n- Yitzhak Rabin was involved as a military officer in the conflict during the Altalena affair (valid since 2023-03-18)\n- David Ben-Gurion led the Israeli government during the Altalena affair (valid since 2023-03-18)\n- The Irgun was a militant organization involved in a conflict with the Israeli government during the Altalena affair (valid since 2023-03-18)\n- The ship Altalena was the central object of the conflict in the Altalena affair (valid since 2023-03-18)\n- The user plans to use the Eisenhower Matrix to prioritize their daily tasks. (valid since 2023-05-04)\n- The user plans to try out the Strava app for planning bike routes. (valid since 2023-05-19)\n- The user plans to try out the MapMyRide app for planning bike routes. (valid since 2023-05-19)\n- The user participated in a charity bike ride today. (valid since 2023-05-19)\n- The charity bike ride was organized by the local cycling club. (valid since 2023-05-19)\n- The charity bike ride raised money for the local children's hospital. (valid since 2023-05-19)\n- The assistant recommends that the user use Strava's route builder to plan their 20-mile scenic bike route. (valid since 2023-05-19)\n- The user plans to create a 20-mile route using Strava's route builder. (valid since 2023-05-19)\n- The assistant has knowledge of Lee Filters as a reputable manufacturer of high-quality square graduated ND filters and filter holder systems. (valid since 2023-05-30)\n- The user is considering purchasing a Lowepro ProTactic 450 AW camera bag. (valid since 2023-05-30)\n- The assistant describes Really Right Stuff as a highly regarded brand that produces high-end, professional-grade tripods like the TVC-34L and TVC-44L. (valid since 2023-05-30)\n- The Really Right Stuff tripod models include the high-end TVC-34L. (valid since 2023-05-30)\n- The Really Right Stuff tripod models include the high-end TVC-44L. (valid since 2023-05-30)\n- The user agrees with the assistant that high costs for education and student loan debt create significant stress and that investment in education is necessary for fair success. (valid since 2023-06-01)\n- FCI should consider factors like potential risks and sustainability when deciding whether to support the loan initiative for rural water systems. (valid since 2023-06-03)\n- FCI should support the initiative of using revenue-backed loans to finance the Agua Clara program (valid since 2023-06-03)\n- FCI must ensure that the interest rate and loan term of the revenue-backed loans are feasible for the community water board (valid since 2023-06-03)\n- Yitzhak Rabin served as the Prime Minister of Israel from 1974 to 1977 and again from 1992 until 1995 (valid until 1995-01-01) [superseded]",
+ "extra": {
+  "retrieved": 10,
+  "edges": 76,
+  "invalidated": 1,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 158.1,
+  "total": 159.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

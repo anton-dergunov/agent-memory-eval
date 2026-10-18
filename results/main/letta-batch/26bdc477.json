@@ -1,0 +1,109 @@
+{
+ "qid": "26bdc477",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many trips have I taken my Canon EOS 80D camera on?",
+ "reference": "five",
+ "question_date": "2023-06-06 18:27",
+ "sessions": [
+  {
+   "id": "a223e307",
+   "date": "2023-03-03 02:59",
+   "evidence": false
+  },
+  {
+   "id": "2d79c1c3_2",
+   "date": "2023-03-05 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_350893",
+   "date": "2023-03-16 01:52",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_1",
+   "date": "2023-03-16 19:05",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_hMokVUA_39",
+   "date": "2023-03-18 14:10",
+   "evidence": false
+  },
+  {
+   "id": "dce08529_1",
+   "date": "2023-05-04 21:39",
+   "evidence": false
+  },
+  {
+   "id": "201d188a_4",
+   "date": "2023-05-19 15:50",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_2",
+   "date": "2023-05-30 00:43",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_438698",
+   "date": "2023-06-01 00:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pRBsKdE_5",
+   "date": "2023-06-03 07:50",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user owns a Canon EOS 80D camera and an 18-135mm kit lens (67mm filter thread). They enjoy outdoor and adventure photography, having visited Yellowstone, Yosemite, and the Grand Canyon. They have decided to use Adobe Creative Cloud for professional photo editing and storage, while keeping Google Photos for personal storage. They currently use a Lowepro backpack for their gear.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "It looks like I don't have a specific record of the total number of trips you've taken with your Canon EOS 80D.\n\nI know from our history that you've used it to photograph Yellowstone, Yosemite, and the Grand Canyon, but I don't have a consolidated count of your trips. Would you like to tell me more about your recent adventures so I can keep better track of them for you?",
+ "dump": "<human>\n\nThe user owns a Canon EOS 80D camera and an 18-135mm kit lens (67mm filter thread). They enjoy outdoor and adventure photography, having visited Yellowstone, Yosemite, and the Grand Canyon. They have decided to use Adobe Creative Cloud for professional photo editing and storage, while keeping Google Photos for personal storage. They currently use a Lowepro backpack for their gear.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Canon EOS 80D trips\"})",
+   "conversation_search({\"query\": \"Yellowstone Yosemite Grand Canyon\"})",
+   "conversation_search({\"query\": \"camera trips\"})"
+  ],
+  "blocks_chars": 583
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 32.7,
+  "total": 39.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

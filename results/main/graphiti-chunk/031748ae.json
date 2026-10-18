@@ -1,0 +1,102 @@
+{
+ "qid": "031748ae",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+ "reference": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+ "question_date": "2023-11-10 04:20",
+ "sessions": [
+  {
+   "id": "answer_8748f791_1",
+   "date": "2023-05-11 02:02",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_362770",
+   "date": "2023-06-15 22:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_472644",
+   "date": "2023-10-24 03:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_8748f791_2",
+   "date": "2023-10-24 13:53",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_pPNVaqR_0",
+   "date": "2023-10-25 21:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LaG73Rk_0",
+   "date": "2023-10-28 10:47",
+   "evidence": false
+  },
+  {
+   "id": "b70ac29f_1",
+   "date": "2023-11-02 08:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_556006",
+   "date": "2023-11-03 04:35",
+   "evidence": false
+  },
+  {
+   "id": "6a747f2e",
+   "date": "2023-11-05 03:33",
+   "evidence": false
+  },
+  {
+   "id": "bd3880f4",
+   "date": "2023-11-05 21:53",
+   "evidence": false
+  }
+ ],
+ "context": "- The assistant recommends versatile flats such as loafers, ballet flats, or slip-ons as a packing option. (valid since 2023-11-05)\n- The assistant created a scenario involving a team leader named John who struggles with workload and deadline management for a feedback practice exercise. (valid since 2023-10-25)\n- The assistant recommends The Meets as a restaurant in Amsterdam that offers dairy-free and vegan desserts, such as vegan banana bread. (valid since 2023-06-15)\n- The assistant designed a three and a half hour workshop for middle managers based on the fundamentals of the book The Coaching Habit. (valid since 2023-10-25)\n- La Jolla Recreation Center's volleyball league allows individuals to sign up as free agents. (valid since 2023-11-05)\n- The user invited their manager, Rachel, to attend the team outing. (valid since 2023-05-11)\n- The assistant recommends Heavenly Cupcakes as a vegan cupcake shop in Amsterdam that offers various vegan cupcake flavors. (valid since 2023-06-15)\n- The user is interested in inquiring about the Corporate Team Building Package for their team of 6 people. (valid since 2023-05-11)\n- The assistant recommends Stach as a supermarket chain in Amsterdam that offers vegan muffins, vegan bars, and vegan cakes. (valid since 2023-06-15)\n- The user is interested in booking the Corporate Team Building Package for their team of 5 people. (valid since 2023-05-11)",
+ "answer": "**Answer (step by step):**\n\n**1. Extract relevant information:**\n*   I have reviewed the provided history chats.\n*   The history chats contain information regarding:\n    *   Packing recommendations (flats).\n    *   A feedback practice exercise involving a team leader named John.\n    *   Restaurant/bakery recommendations in Amsterdam (The Meets, Heavenly Cupcakes, Stach).\n    *   A workshop design based on *The Coaching Habit*.\n    *   Volleyball league information for La Jolla Recreation Center.\n    *   Team outing invitations and Corporate Team Building Package inquiries for teams of 5 or 6 people.\n\n**2. Reason over the information:**\n*   The provided history chats do not contain any information regarding your professional role, your transition to a Senior Software Engineer position, or the number of engineers you lead.\n\n**Conclusion:**\nBased on the provided history, there is no information available to answer how many engineers you lead, either when you started your role or currently.",
+ "dump": "- Wes Anderson directed the 2001 drama-comedy The Royal Tenenbaums. (valid since 2001-01-01)\n- Wes Anderson directed the 2004 film The Life Aquatic with Steve Zissou. (valid since 2004-01-01)\n- Wes Anderson directed the 2012 coming-of-age film Moonrise Kingdom. (valid since 2012-01-01)\n- The user plans to contact Samantha to discuss the Corporate Team Building Package for a group of 6 people. (valid since 2023-05-11)\n- The user is interested in inquiring about the Corporate Team Building Package for their team of 6 people. (valid since 2023-05-11)\n- The user plans to contact Samantha to discuss the Corporate Team Building Package. (valid since 2023-05-11)\n- The user plans to host a team outing at City View Rooftop. (valid since 2023-05-11)\n- The user invited their manager, Rachel, to attend the team outing. (valid since 2023-05-11)\n- The user is interested in booking the Corporate Team Building Package for their team of 5 people. (valid since 2023-05-11)\n- The assistant recommends Vegabond as an organic market and cafe in Amsterdam that offers vegan pastries, cakes, and sweet treats. (valid since 2023-06-15)\n- The assistant recommends The Meets as a restaurant in Amsterdam that offers dairy-free and vegan desserts, such as vegan banana bread. (valid since 2023-06-15)\n- The assistant recommends Koffie ende Koeck as a plant-based bakery and cafe in Amsterdam that offers vegan cakes, pastries, and other desserts. (valid since 2023-06-15)\n- The assistant recommends Willem Pie as a specialty pie shop in Amsterdam that offers vegan chocolate pie, vegan apple crumble pie, and vegan quiches. (valid since 2023-06-15)\n- The assistant recommends Heavenly Cupcakes as a vegan cupcake shop in Amsterdam that offers various vegan cupcake flavors. (valid since 2023-06-15)\n- The assistant recommends Stach as a supermarket chain in Amsterdam that offers vegan muffins, vegan bars, and vegan cakes. (valid since 2023-06-15)\n- The assistant recommends Vegan Junk Food Bar as a vegan fast-food restaurant chain in Amsterdam that offers vegan brownies, vegan cookie dough, and vegan milkshakes. (valid since 2023-06-15)\n- The user plans to visit Mount Tamalpais State Park for a team hike. (valid since 2023-10-24)\n- The assistant suggested planning a scavenger hunt for the team's hike at Mount Tamalpais State Park. (valid since 2023-10-24)\n- The scavenger hunt will take place at Mount Tamalpais State Park. (valid since 2023-10-24)\n- The assistant designed a three and a half hour workshop for middle managers based on the fundamentals of the book The Coaching Habit. (valid since 2023-10-25)\n- The assistant created a scenario involving a team leader named John who struggles with workload and deadline management for a feedback practice exercise. (valid since 2023-10-25)\n- The user visited the Impressionist exhibit at the Metropolitan Museum of Art with their friend Sarah on the Saturday prior to November 2, 2023. (valid since 2023-10-28)\n- The user attended the Impressionist exhibit at the Metropolitan Museum of Art on the Saturday prior to November 2, 2023. (valid since 2023-10-28)\n- The user admired the Claude Monet collection at the Impressionist exhibit at the Metropolitan Museum of Art. (valid since 2023-10-28)\n- Amanda Van West is referred to by the gangster-style nickname Amanda 'The Westside Whisperer' Van Hooch, Queen of the Speakeasy and Gin-Running Racket (valid since 2023-10-28)\n- The Impressionist exhibit is located at the Metropolitan Museum of Art. (valid since 2023-11-02)\n- The Metropolitan Museum of Art has a collection of paintings by Pierre-Auguste Renoir, including Dance at Le Moulin de la Galette and The Bathers. (valid since 2023-11-02)\n- The Metropolitan Museum of Art has a collection of paintings by Camille Pissarro, including Avenue de l'Opera, Paris and Red Roofs. (valid since 2023-11-02)\n- The Metropolitan Museum of Art has a collection of paintings by Mary Cassatt, including The Child's Bath and Little Girl in a Blue Armchair. (valid since 2023-11-02)\n- The Metropolitan Museum of Art has a collection of paintings by Edgar Degas, including Dancer at the Barre and The Bellelli Family. (valid since 2023-11-02)\n- The American Museum of Natural History contains the Hall of Saurischian Dinosaurs, which features an Apatosaurus and a Tyrannosaurus rex. (valid since 2023-11-02)\n- The American Museum of Natural History contains the Hall of Ornithischian Dinosaurs, which features a Stegosaurus, a Triceratops, and a Velociraptor. (valid since 2023-11-02)\n- The American Museum of Natural History contains the Hall of Vertebrate Origins, which features early dinosaurs like Eoraptor and Herrerasaurus. (valid since 2023-11-02)\n- The American Museum of Natural History contains the Dinosaur Fossil Prep Lab, which showcases the fossil preparation process. (valid since 2023-11-02)\n- The United States and China have vastly different approaches to governance and outcomes, with the United States founded on individual liberty and China on a more collective vision of society. (valid since 2023-11-03)\n- The user packed 7 shirts for their previous trip to Chicago. (valid since 2023-11-05)\n- The assistant recommends packing comfortable walking shoes like sneakers or walking shoes with arch support for exploring Seattle. (valid since 2023-11-05)\n- The assistant recommends packing water-resistant shoes to prepare for Seattle's rainy weather. (valid since 2023-11-05)\n- The assistant recommends versatile flats such as loafers, ballet flats, or slip-ons as a packing option. (valid since 2023-11-05)\n- The assistant advises wearing heavy or bulky hiking boots on the plane to save space in luggage. (valid since 2023-11-05)\n- The assistant suggests using waterproofing spray to protect shoes against rain in Seattle. (valid since 2023-11-05)\n- The La Jolla Recreation Center offers a volleyball league that includes adult co-ed and women's divisions. (valid since 2023-11-05)\n- The La Jolla Recreation Center operates a co-ed adult volleyball league for participants aged 18 and older. (valid since 2023-11-05)\n- La Jolla Recreation Center's volleyball league allows individuals to sign up as free agents. (valid since 2023-11-05)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 44,
+  "invalidated": 0,
+  "episodes": 16,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 147.2,
+  "total": 148.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

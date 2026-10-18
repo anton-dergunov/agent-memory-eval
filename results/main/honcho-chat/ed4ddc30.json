@@ -1,0 +1,96 @@
+{
+ "qid": "ed4ddc30",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+ "reference": "20",
+ "question_date": "2023-03-16 14:24",
+ "sessions": [
+  {
+   "id": "ultrachat_342966",
+   "date": "2022-12-26 00:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_1",
+   "date": "2023-01-11 23:15",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_28013",
+   "date": "2023-01-23 04:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fwY67m3_0",
+   "date": "2023-02-19 17:20",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_421094",
+   "date": "2023-02-26 16:09",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_76206",
+   "date": "2023-03-01 01:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436945",
+   "date": "2023-03-06 11:49",
+   "evidence": false
+  },
+  {
+   "id": "63c75b13_2",
+   "date": "2023-03-08 19:55",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_35Datf2_27",
+   "date": "2023-03-09 19:42",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_2",
+   "date": "2023-03-15 08:18",
+   "evidence": true
+  }
+ ],
+ "context": "Based on the information in our records, you currently have **20 dozen eggs** stored in your refrigerator.\n\nThis information is the most recent update, documented on March 15, 2023. While an earlier entry from January 11, 2023, noted a stock of 30 dozen eggs, the March 15 update confirms the current count as 20 dozen in connection with your plans to prepare a quiche for dinner.",
+ "answer": "**Step 1: Extract relevant information**\n*   According to the records, the most recent update regarding the egg stock was documented on March 15, 2023.\n*   This update confirms that there are 20 dozen eggs currently stored in the refrigerator.\n*   An earlier entry from January 11, 2023, mentioned 30 dozen eggs, but this has been superseded by the March 15 update.\n\n**Step 2: Reason over the information**\n*   The current date is March 16, 2023.\n*   Since the most recent update occurred on March 15, 2023, and no further changes have been recorded since that time, the count of 20 dozen remains the valid current stock.\n\n**Answer:**\nWe currently have 20 dozen eggs stocked up in our refrigerator.",
+ "dump": "- [explicit] user perceives natural selection as potentially pointless if it results in harmful traits or extinction.\n- [explicit] user is interested in the process of evolution through natural selection.\n- [explicit] user questions whether natural selection always results in positive changes for a species.\n- [explicit] user has 30 dozen eggs stocked in the fridge.\n- [explicit] user has fresh eggs.\n- [explicit] user has goat milk.\n- [explicit] user wants to make cheese.\n- [explicit] user identifies as a beginner at making cheese.\n- [explicit] user possesses 30 dozen eggs.\n- [explicit] user has access to goat milk.\n- [explicit] user intends to start making cheese with a fresh chevre recipe.\n- [explicit] user has fresh goat milk.\n- [explicit] user has a large stock of milk stored in the refrigerator.\n- [explicit] user is a beginner at cheese making.\n- [explicit] user is seeking simple cheese recipes.\n- [explicit] user intends to make cheese with goat milk.\n- [explicit] user plans to make the goat milk ricotta recipe as a beginner project.\n- [explicit] user is interested in knowing what factors to consider when choosing bread.\n- [explicit] user is interested in knowing if freezing bread increases its shelf life.\n- [explicit] user is interested in how the type of bread affects its durability.\n- [explicit] user was previously unaware that bread crust thickness affects its durability.\n- [explicit] user is interested in knowing if freezing bread affects its quality.\n- [explicit] user is interested in selecting bread that has a longer shelf life.\n- [explicit] user is able to communicate in both English and French.\n- [explicit] user is interested in the year that Pakistan won its first Olympic gold medal in field hockey.\n- [explicit] user has a child who has ADHD.\n- [explicit] user's child is going to start middle school next year.\n- [explicit] user finds it difficult to remain calm and collected during instances of workplace harassment or bullying.\n- [explicit] user is seeking advice on how to manage emotions during workplace harassment or bullying situations.\n- [explicit] user is interested in communication techniques for conflicts involving power imbalances, such as workplace harassment or bullying.\n- [explicit] user intends to use the suggested assertive communication phrases in future situations involving power imbalances.\n- [explicit] user is interested in learning about spa services available on cruise ships.\n- [explicit] user is considering the value of cruise ship spa services relative to their cost.\n- [explicit] user is interested in avoiding seasickness on a cruise.\n- [explicit] user is seeking recommendations for effective motion sickness medication for cruises.\n- [explicit] user is seeking recommendations for popular spa treatments on cruise ships.\n- [explicit] user is interested in activities to do onboard a cruise ship.\n- [explicit] user enjoys winter sports like skiing.\n- [explicit] user is interested in hiking.\n- [explicit] user successfully skied down a beginner's slope without falling on January 17th, 2023.\n- [explicit] user is planning to start hiking on shorter trails.\n- [explicit] user plans to gradually transition to more challenging hiking trails.\n- [explicit] user is seeking recommendations for easy hiking trails near their current location.\n- [explicit] user lives about an hour's walk from a park.\n- [explicit] user is interested in trails that feature scenic views, a lake, or a stream.\n- [explicit] user takes morning walks in a park to enjoy fall foliage.\n- [explicit] user prefers to hike on a loop trail that is 2 to 3 miles in length.\n- [explicit] user intends to hike the Ridgeview Loop Trail.\n- [explicit] user is interested in seeing the scenic views on the Ridgeview Loop Trail.\n- [explicit] user is interested in seeing the lake on the Ridgeview Loop Trail.\n- [explicit] user is interested in learning about apps that currently offer networking opportunities for job seekers.\n- [explicit] user is inquiring about the growth in popularity of the ZipRecruiter job board app.\n- [explicit] user is interested in examples of networking opportunities for a job board app.\n- [explicit] user is interested in learning more about the employer branding tools available on ZipRecruiter.\n- [explicit] user intends to prepare quiche for dinner.\n- [explicit] user owns a coop.\n- [explicit] user has 20 dozen eggs currently stored in a fridge.\n- [explicit] user decided to prepare a spinach and feta variation of quiche.\n- [explicit] user considers themselves a beginner at making cheese.\n- [explicit] user possesses goat milk.\n- [explicit] user owns goats named Billy and Nibbles.\n- [explicit] user intends to make cheese.\n- [explicit] user owns a goat farm.\n- [explicit] user has issues with mites and flies in the chicken coop.\n- [explicit] user keeps chickens.\n- [explicit] user owns a chicken coop\n- [explicit] user is planning to build a fence around the chicken coop\n- [explicit] user wants to protect chickens from predators, specifically raccoons and foxes\n- [explicit] user owns or manages a farm.\n- [explicit] user is considering keeping bees to assist with pollination on the farm.\n- [explicit] user plans to start building a predator-proof fence for a chicken coop this coming weekend.\n- [deductive] user is engaged in animal husbandry.\n- [deductive] user is an agricultural producer.\n- [inductive] user is deeply involved in poultry husbandry, including managing health issues like mites and predators, and utilizes the farm's produce in cooking.\n- [inductive] user engages in active, hands-on farm management and improvement projects, such as building security structures for livestock and exploring new agricultural practices like beekeeping.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 130.6,
+  "total": 141.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

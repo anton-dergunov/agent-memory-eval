@@ -1,0 +1,100 @@
+{
+ "qid": "89941a93",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How many bikes do I currently own?",
+ "reference": "4",
+ "question_date": "2023-10-27 13:00",
+ "sessions": [
+  {
+   "id": "8e72316f",
+   "date": "2023-02-02 01:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-02-22 20:54",
+   "evidence": true
+  },
+  {
+   "id": "95ebf866",
+   "date": "2023-07-25 17:00",
+   "evidence": false
+  },
+  {
+   "id": "169213ae",
+   "date": "2023-08-04 11:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_151269",
+   "date": "2023-09-25 17:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-10-10 01:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jxsIY6L_0",
+   "date": "2023-10-11 01:04",
+   "evidence": false
+  },
+  {
+   "id": "25956eab_1",
+   "date": "2023-10-15 17:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_70151",
+   "date": "2023-10-20 19:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_440266",
+   "date": "2023-10-23 07:05",
+   "evidence": false
+  }
+ ],
+ "context": "Based on the most recent information in your history (dated October 10, 2023), you own **four** bikes.\n\nTo ensure accuracy, I have deduplicated your records:\n\n| Bike Type | Distinguishing Detail | Source Date |\n| :--- | :--- | :--- |\n| **Commuter Bike** | Used for daily commutes | 2023-10-10 |\n| **Road Bike** | Used for long rides | 2023-10-10 |\n| **Mountain Bike** | Used for trail rides | 2023-10-10 |\n| **Hybrid Bike** | Equipped with platform pedals; recently acquired | 2023-10-10 |\n\nWhile you previously owned three bikes as of February 2023, your records from October 10, 2023, explicitly state that you own four bikes and were planning a trip with all four.",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The most recent records provided are dated October 10, 2023.\n*   These records explicitly state that you own **four** bikes.\n*   The specific bikes listed are: a Commuter Bike, a Road Bike, a Mountain Bike, and a Hybrid Bike.\n*   There is no information provided between October 10, 2023, and the current date (October 27, 2023) indicating that any bikes were sold, lost, or acquired.\n\n**2. Reason over the information:**\n*   Since the last confirmed count on October 10, 2023, was four bikes, and no subsequent changes to your inventory have been recorded, the count remains the same.\n\n**Answer:**\nYou currently own **four** bikes.",
+ "dump": "- [explicit] user is comfortable with longer cycling distances.\n- [explicit] user wants to cycle for at least 3 to 4 days during the trip.\n- [explicit] user is driving from San Francisco to New York City.\n- [explicit] user prefers cycling routes with scenic views.\n- [explicit] user intends to bring a road bike on the trip.\n- [explicit] user has approximately 10 days for the road trip.\n- [explicit] user prefers cycling routes with low traffic.\n- [explicit] user wants to visit bike shops along the route to explore local cycling scenes.\n- [explicit] user is planning a road trip for November 2023.\n- [explicit] user requires accommodations with bike storage.\n- [explicit] user is planning a 10-day road trip.\n- [explicit] user owns a commuter bike.\n- [explicit] user owns a mountain bike.\n- [explicit] user plans to book accommodations with bike storage in advance for their trip.\n- [explicit] user intends to bring four bikes on their road trip.\n- [explicit] user owns a road bike.\n- [explicit] user owns four bikes.\n- [explicit] user owns a new bike computer.\n- [explicit] user recently acquired a new hybrid bike.\n- [explicit] user tracks their cycling progress on Strava.\n- [explicit] user is interested in joining a guided mountain bike tour in Jackson Hole, Wyoming.\n- [explicit] user is planning a trip with four bikes.\n- [explicit] user recently acquired a new pair of cycling shoes with clipless pedals.\n- [explicit] user reports that clipless pedals have improved user's pedaling efficiency.\n- [explicit] user has experienced difficulty adjusting to clipless pedals.\n- [explicit] user owns a hybrid bike equipped with platform pedals.\n- [explicit] user is planning an upcoming trip.\n- [explicit] user expects approximately 10 people to attend the fantasy football draft party.\n- [explicit] user is interested in learning how to set up a squares pool for the fantasy football draft party.\n- [explicit] user is located in Kansas City.\n- [explicit] user is planning a fantasy football draft party with friends.\n- [explicit] user wants to include non-fantasy-football-specific sports trivia questions at the draft party.\n- [explicit] user is inviting friends who are not interested in fantasy football to the draft party.\n- [explicit] user plans to include Manchester City-specific trivia questions at a party.\n- [explicit] user plans to include Premier League and European football trivia questions at a party.\n- [explicit] user is a fan of Manchester City.\n- [explicit] user is planning a 50-mile bike ride for the weekend of February 25-26, 2023.\n- [explicit] user is considering upgrading their road bike to carbon fiber wheels.\n- [explicit] user resides in the San Francisco Bay Area.\n- [explicit] user owns a road bike.\n- [explicit] user owns a mountain bike.\n- [explicit] user is planning to do a century ride soon.\n- [explicit] user owns a commuter bike.\n- [explicit] user has ridden 2,000 miles on their current road bike.\n- [explicit] user uses a mountain bike for trail rides.\n- [explicit] user uses a road bike for long rides on weekends.\n- [explicit] user is planning to use a road bike for a century ride.\n- [explicit] user owns three bikes.\n- [explicit] user uses a commuter bike for daily commutes.\n- [explicit] user participates in long rides on weekends\n- [explicit] user is currently using their phone's GPS for cycling.\n- [explicit] user is considering purchasing a dedicated bike computer or GPS device.\n- [explicit] user has ridden 2,000 miles on their current bike wheels.\n- [explicit] user is considering purchasing new running shoes.\n- [explicit] user is seeking information on when to replace running shoes.\n- [explicit] user is looking for new yoga mats with better grip.\n- [explicit] user is looking for a new swim cap.\n- [explicit] user purchased a new pair of Nike running shoes from a local sports store.\n- [explicit] user's current swim cap is stretched out and falls off during flip turns.\n- [explicit] user replaced their running shoes on February 10, 2023.\n- [explicit] user intends to check out the Manduka eKO SuperLite yoga mat.\n- [explicit] user is inquiring about potential sales or discounts for Speedo and TYR swim caps.\n- [explicit] user intends to check Speedo and TYR brand swim caps.\n- [explicit] user is interested in swim caps that have anti-fog coating or UV protection.\n- [explicit] user plans to visit Speedo and TYR's websites to search for swim caps with anti-fog coating and UV protection.\n- [explicit] user experiences difficulty with getting out of bed after waking up.\n- [explicit] user struggles with establishing a morning routine.\n- [explicit] user has a consistent wake-up time of 6:30 am.\n- [explicit] user frequently hits the snooze button.\n- [explicit] user has previously attempted some methods to stop hitting the snooze button.\n- [explicit] user has a 20-minute window for a morning workout routine.\n- [explicit] user has chosen to perform the bodyweight circuit workout.\n- [explicit] user is seeking advice on how to integrate breakfast into their schedule after completing a workout.\n- [explicit] user has significant prior experience with performing push-ups.\n- [explicit] user has significant prior experience with performing squats.\n- [explicit] user eats oatmeal with banana and honey for breakfast.\n- [explicit] user plans to prepare breakfast the night before to save time.\n- [explicit] user is interested in examples of social democrat parties responding to criticism.\n- [explicit] user believes that flexibility in social democrat parties is essential for progress in a changing world.\n- [explicit] user feels hope that progress is always possible due to the evolution of social democrat parties.\n- [explicit] user requested real-world examples of the C-I-A Triad.\n- [explicit] user is interested in the definition of a digital signature.\n- [explicit] user requested an explanation of the C-I-A Triad using simple terms and examples.\n- [explicit] user requested a real-world example of a digital signature.\n- [explicit] user requested a verification flow of a digital signature between a user and a verifier.\n- [explicit] user is interested in the C-I-A Triad in cybersecurity.\n- [explicit] user is interested in understanding the threats of interception, interruption, modification, and fabrication in computing systems.\n- [explicit] user is requesting explanations and real-world examples for the concepts of control and countermeasure.\n- [explicit] user wants an explanation of exhaustive or brute-force attacks with real examples.\n- [explicit] user wants an explanation of defeating concealment with real examples.\n- [explicit] user wants an explanation of guessing with real examples.\n- [explicit] user wants an explanation of inferring likely passwords or answers with real examples.\n- [explicit] user wants an explanation of rainbow tables with real examples.\n- [explicit] user wants an explanation of dictionary attacks with real examples.\n- [explicit] user is planning a trip to Hawaii.\n- [explicit] user is looking for direct flights from LAX to HNL.\n- [explicit] user expects to receive priority boarding, extra baggage allowance, and airport lounge access as perks of their Alaska Airlines MVP Gold status.\n- [explicit] user has been accumulating points on a Chase Sapphire credit card.\n- [explicit] user intends to redeem Chase Sapphire points for a flight to Hawaii later in 2023.\n- [explicit] user is inquiring whether Alaska Airlines operates direct flights from LAX to HNL.\n- [explicit] user has achieved MVP Gold status with Alaska Airlines.\n- [explicit] user reached Alaska Airlines MVP Gold status due to increased travel frequency in the quarter prior to October 2023.\n- [explicit] user has been considering Hawaiian Airlines for their flight to Hawaii.\n- [explicit] user intends to transfer Chase Sapphire points to the British Airways Executive Club to book an award flight on Alaska Airlines.\n- [explicit] user possesses Chase Sapphire points.\n- [explicit] user intends to prioritize flying with Alaska Airlines for the trip to Hawaii.\n- [explicit] user is interested in hotels near Waikiki Beach.\n- [explicit] user is planning to book a hotel in Honolulu.\n- [explicit] user is interested in learning why The Royal Hawaiian, a Luxury Collection Resort is considered iconic.\n- [explicit] user is interested in learning about the history of The Royal Hawaiian, a Luxury Collection Resort.\n- [explicit] user uses video conferencing tools for attending meetings and classes while at home.\n- [explicit] user has personally found video conferencing tools to be a game-changer for distance learning.\n- [explicit] user found video conferencing tools to be a lifesaver during the pandemic.\n- [explicit] user intends to add 'Portrait of a Lady on Fire' to their watchlist.\n- [explicit] user is interested in exploring more foreign films.\n- [deductive] user is an experienced traveler who utilizes loyalty programs to enhance their travel experience.\n- [deductive] user values travel rewards programs and strategic points redemption for travel expenses.\n- [deductive] user is interested in cinematography or art-house cinema.\n- [inductive] user shows an appreciation for integrating technology to facilitate remote interactions, specifically valuing video conferencing tools.\n- [inductive] user consistently conducts detailed research when planning trips, specifically regarding flight logistics and accommodation history.\n- [inductive] user proactively utilizes travel loyalty programs and strategic points redemption (specifically Chase Sapphire) to fund and plan travel experiences.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 103.5,
+  "total": 106.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "qid": "9ea5eabc",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "Where did I go on my most recent family trip?",
+ "reference": "Paris",
+ "question_date": "2023-06-08 10:33",
+ "sessions": [
+  {
+   "id": "ultrachat_40916",
+   "date": "2023-05-11 08:01",
+   "evidence": false
+  },
+  {
+   "id": "a9a88764",
+   "date": "2023-05-12 03:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_HJhlusD_32",
+   "date": "2023-05-26 02:39",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7jGo66i_151",
+   "date": "2023-05-26 15:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_0Qembb9_0",
+   "date": "2023-05-26 20:34",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_1",
+   "date": "2023-05-26 23:01",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_296728",
+   "date": "2023-05-27 04:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_2",
+   "date": "2023-05-28 04:55",
+   "evidence": true
+  },
+  {
+   "id": "66cffcc7",
+   "date": "2023-05-28 16:48",
+   "evidence": false
+  },
+  {
+   "id": "14f0a8ed_2",
+   "date": "2023-05-28 17:41",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T16:09:39.520061+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-28 04:55] What a great idea! Comparing and contrasting your experiences traveling with family versus solo can be a fascinating reflection. I'd be happy to help you explore the differences and similarities between your two trips.\\n\\n**Family Trip to Paris:**\\n\\n* **Pros:**\\n\\t+ Shared experiences and memories with loved ones\\n\\t+ Someone to share the planning and decision-making responsibilities\\n\\t+ A sense of security and comfort with familiar company\\n\\t+ Opportunities for quality time with family members\\n* **Cons:**\\n\\t+ Compromises on itinerary and activities to accommodate everyone's interests\\n\\t+ Limited alone time or personal space\\n\\t+ Potential for conflicts or disagreements within the group\\n\\t+ More complex logistics and planning required\\n\\n**Solo Trip to Tokyo:**\\n\\n* **Pros:**\\n\\t+ Total freedom to create your own itinerary and schedule\\n\\t+ Opportunity to explore personal interests and passions without compromise\\n\\t+ Time for self-reflection and personal growth\\n\\t+ Meeting new people and making solo travel connections\\n* **Cons:**\\n\\t+ No one to share experiences or memories with immediately\\n\\t+ Full responsibility for planning and decision-making\\n\\t+ Potential for feelings of loneliness or isolation\\n\\t+ Higher risk of scams or safety concerns\\n\\nNow, let's compare and contrast the two experiences:\\n\\n* **Planning:** With family, you had to consider everyone's opinions and preferences, while solo, you have complete control over the itinerary.\\n* **Pace:** Family travel often requires a more leisurely pace to accommodate everyone's needs, whereas solo travel allows for a more flexible and spontaneous pace.\\n* **Interactions:** With family, you had built-in companionship and social interaction, whereas solo, you'll need to make an effort to meet new people or engage with locals.\\n* **Personal growth:** Both types of travel can offer opportunities for personal growth, but solo travel often pushes you out of your comfort zone and forces you to be more self-reliant.\\n\\nReflecting on your experiences, you might realize that:\\n\\n* You enjoyed the social aspect of family travel, but also appreciated the independence of solo travel.\\n* You learned to appreciate the flexibility and spontaneity of solo travel, but also valued the shared experiences with family.\\n* You discovered new aspects of yourself and your travel style through both experiences.\\n\\nRemember, there's no right or wrong way to travel. Both family and solo travel have their unique benefits and challenges. The key is to find what works best for you and your personal preferences.\\n\\nNow, go forth and plan your next adventure, whether it's with family or solo!\"}, {'timestamp': '2026-10-17T16:09:39.520047+00:00', 'time_ago': '10s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-28 04:55] I'm so excited to explore all these hidden gems in Tokyo! Since I've been thinking about my recent family trip to Paris, I was wondering if you could help me compare and contrast my experiences traveling with family versus solo.\"}, {'timestamp': '2026-10-17T16:09:39.519975+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-28 04:55] Paris is a wonderful choice! The City of Light is always a great idea for a family trip. Since you\\'ve already been there recently, I\\'ll assume you have a good sense of the city\\'s layout and popular attractions. Here are some specific tips to enhance your next family trip to Paris:\\n\\n1. **Visit iconic landmarks at the right time**: Consider visiting popular attractions like the Eiffel Tower, Notre-Dame, and the Louvre Museum during less busy times, such as early morning or late evening. This will help avoid long lines and crowds.\\n2. **Explore beyond the t",
+ "answer": "Your most recent family trip was to Paris.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"family trip\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 30.7,
+  "total": 35.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

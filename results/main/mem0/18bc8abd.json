@@ -1,0 +1,104 @@
+{
+ "qid": "18bc8abd",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What brand of BBQ sauce am I currently obsessed with?",
+ "reference": "Kansas City Masterpiece",
+ "question_date": "2023-07-15 07:37",
+ "sessions": [
+  {
+   "id": "ultrachat_225891",
+   "date": "2023-03-25 13:37",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_528423",
+   "date": "2023-03-31 23:20",
+   "evidence": false
+  },
+  {
+   "id": "9f9384ed_1",
+   "date": "2023-04-03 10:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_570209",
+   "date": "2023-04-05 12:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_1",
+   "date": "2023-04-16 02:28",
+   "evidence": true
+  },
+  {
+   "id": "aed8cf17_2",
+   "date": "2023-05-12 11:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_25205",
+   "date": "2023-06-07 19:12",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_452189",
+   "date": "2023-06-15 22:14",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_290148",
+   "date": "2023-06-18 06:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_2",
+   "date": "2023-06-30 05:15",
+   "evidence": true
+  }
+ ],
+ "context": "- User's favorite BBQ sauce is Sweet Baby Ray's, which they intend to serve with their ribs. (from a chat on 2023-04-16)\n- User is currently obsessed with Kansas City Masterpiece BBQ sauce for their ribs. (from a chat on 2023-06-30)\n- User plans to serve pulled pork on buns with coleslaw and pickles and was recommended Sweet Baby Ray's, Franklin Barbecue, Bone Suckin', Stubb's, and Dinosaur Bar-B-Que sauces as alternatives to Kansas City Masterpiece. (from a chat on 2023-06-30)\n- User is planning another backyard BBQ and is interested in tips for smoking brisket, including using a Weber gas grill for quick weeknight dinners. (from a chat on 2023-06-30)\n- User is planning to host a backyard BBQ and requested side dish recommendations to pair with ribs and brisket. (from a chat on 2023-04-16)\n- User plans to make mac and cheese as a side dish for their upcoming BBQ, as it is a favorite of theirs and their friends. (from a chat on 2023-04-16)\n- User intends to grill pineapple for their BBQ, inspired by a friend named Emily who brought it to their birthday party. (from a chat on 2023-06-30)\n- User is interested in the long-term implications of brand partnerships in major sports leagues, specifically regarding fan engagement, revenue generation, and potential risks like reputational damage. (from a chat on 2023-03-25)\n- User chose Killer Hogs BBQ Rub to complement their brisket and ribs. (from a chat on 2023-04-16)\n- Assistant identified the 2017 NFL and Papa John's partnership as a negative example where the brand CEO's public criticism of player protests led to the league cutting ties in February 2018. (from a chat on 2023-03-25)\n- Assistant advised upgrading brake fluid when installing new brake pads, recommending DOT 4 or 5.1 ratings and brands like Castrol SRF, Motul RBF 660, AP Racing PRF 660, or Brembo HTX. (from a chat on 2023-05-12)\n- Assistant explained that league-wide brand partnerships can negatively impact athletes by pressuring them to use specific equipment or footwear that may not fit properly, potentially hindering performance or causing injury. (from a chat on 2023-03-25)\n- User was recommended to use apple, cherry, hickory, or pecan wood for smoking pulled pork, while avoiding stronger woods like mesquite or oak. (from a chat on 2023-06-30)\n- User plans to use post oak wood chips for their smoked brisket to achieve a classic Texas-style flavor. (from a chat on 2023-04-16)\n- User enjoys spicy food and was recommended salsa roja, salsa verde, habanero salsa, and chile de árbol salsa to try in Querétaro. (from a chat on 2023-04-05)\n- User decided to use the 'Low and Slow Smoked Brisket' recipe, which involves smoking at 225°F (110°C) and using a dry rub. (from a chat on 2023-04-16)\n- User received tips for elevating burgers and hot dogs, including gourmet toppings like bacon jam, caramelized onions, and international-inspired flavor profiles. (from a chat on 2023-06-30)\n- Assistant provided a guide on smoker setup for low and slow brisket, recommending a temperature of 225°F, the use of a water pan, and monitoring internal temperature with a meat thermometer. (from a chat on 2023-04-16)\n- User was recommended Hawaiian Gold or Smooth Cayenne pineapple varieties for grilling due to their sweetness and firm texture. (from a chat on 2023-06-30)\n- User intends to trim excess fat and remove the silver skin from their brisket to improve tenderness before applying the rub. (from a chat on 2023-04-16)",
+ "answer": "**Step 1: Extract relevant information**\n*   From the chat on 2023-04-16: The user mentioned Sweet Baby Ray's was their favorite BBQ sauce for ribs.\n*   From the chat on 2023-06-30: The user stated they are \"currently obsessed with Kansas City Masterpiece BBQ sauce for their ribs.\"\n*   From the same chat on 2023-06-30: The user was provided with alternatives to Kansas City Masterpiece, confirming it is the current preference.\n\n**Step 2: Reason over the information**\nWhile the user previously favored Sweet Baby Ray's (as of April 2023), the most recent information from June 30, 2023, explicitly states that the user's current obsession is Kansas City Masterpiece BBQ sauce.\n\n**Answer:**\nYou are currently obsessed with **Kansas City Masterpiece** BBQ sauce.",
+ "dump": "- Assistant cited the 2019 WNBA and AT&T partnership as a positive example of leveraging a platform to promote women's basketball and gender equality through initiatives like 'AT&T Dream In Black'. (session 2023-03-25)\n- Assistant noted the 2014 Los Angeles Clippers controversy involving Donald Sterling, where sponsor CarMax distanced itself from the team due to the owner's racist remarks. (session 2023-03-25)\n- User is planning another backyard BBQ and is interested in tips for smoking brisket, including using a Weber gas grill for quick weeknight dinners. (session 2023-06-30)\n- User started seeing a therapist on April 3, 2023, to focus on mental health and processing emotions. (session 2023-04-03)\n- User plans to attend the Festival de la Sierra Gorda in Jalpan de Serra, Querétaro, to purchase Otomi embroidery textiles and Talavera pottery. (session 2023-04-05)\n- User plans to make mac and cheese as a side dish for their upcoming BBQ, as it is a favorite of theirs and their friends. (session 2023-04-16)\n- Assistant outlined criteria for selecting a professional tuner, including reputation, vehicle-specific experience, and the use of data-driven tuning methods like ECU reflashing. (session 2023-05-12)\n- User received tips for elevating burgers and hot dogs, including gourmet toppings like bacon jam, caramelized onions, and international-inspired flavor profiles. (session 2023-06-30)\n- User plans to use post oak wood chips for their smoked brisket to achieve a classic Texas-style flavor. (session 2023-04-16)\n- The Eiffel Tower has 674 stairs to the second level and a total of 1,665 stairs to the third level, though public access via stairs is only permitted up to the second level, requiring an elevator for the final ascent. (session 2023-03-31)\n- Assistant provided a guide on smoker setup for low and slow brisket, recommending a temperature of 225°F, the use of a water pan, and monitoring internal temperature with a meat thermometer. (session 2023-04-16)\n- Assistant recommended several taco spots in Querétaro: Taquería El Tópico (historic center), Tacos El Pata (San Pedrito), Tacos La Poblanita (Juriquilla), Tacos Don Gume (Colinas del Cimatario), and Taquería El Infiernito (Los Arcos). (session 2023-04-05)\n- User plans to use the Headspace app for meditation sessions 3-4 times a week in the morning after waking up to start the day positively. (session 2023-04-03)\n- User was recommended Hawaiian Gold or Smooth Cayenne pineapple varieties for grilling due to their sweetness and firm texture. (session 2023-06-30)\n- User decided to use the 'Low and Slow Smoked Brisket' recipe, which involves smoking at 225°F (110°C) and using a dry rub. (session 2023-04-16)\n- User learned that lung cancer treatment success and prognosis depend on the stage at diagnosis, with Stages I and II being more treatable than Stages III and IV. (session 2023-06-18)\n- User decided against trying escamoles (ant larvae) and prefers to stick to traditional Mexican dishes like tacos and enchiladas. (session 2023-04-05)\n- User has read 'The Illustrated Man' by Ray Bradbury and was deeply absorbed by how the stories portrayed the human condition and emotions within a futuristic setting. (session 2023-06-15)\n- Assistant identified the 2017 NFL and Papa John's partnership as a negative example where the brand CEO's public criticism of player protests led to the league cutting ties in February 2018. (session 2023-03-25)\n- User was introduced to modern lung cancer treatment developments including immunotherapy, targeted therapy, liquid biopsies, minimally invasive surgery, and combination therapies. (session 2023-06-18)\n- User plans to serve pulled pork on buns with coleslaw and pickles and was recommended Sweet Baby Ray's, Franklin Barbecue, Bone Suckin', Stubb's, and Dinosaur Bar-B-Que sauces as alternatives to Kansas City Masterpiece. (session 2023-06-30)\n- User is planning to participate in another auto racing event and is seeking advice on suspension upgrades to improve handling and reduce lap times. (session 2023-05-12)\n- User is interested in sustainability initiatives and eco-friendly practices at music festivals, such as recycling, composting, water conservation, solar-powered stages, and green transportation. (session 2023-06-07)\n- User was informed that smoking is the primary risk factor for lung cancer, accounting for 85% of cases, and that risk can be minimized by quitting smoking, avoiding secondhand smoke, testing for radon, and maintaining a healthy lifestyle. (session 2023-06-18)\n- User previously experienced a slight engine misfire during their daily commute, which was resolved by replacing the spark plugs with new NGK plugs. (session 2023-05-12)\n- Assistant provided tips for bargaining at markets in Querétaro, including researching prices, starting with a reasonable offer, being friendly, and asking for bundle discounts. (session 2023-04-05)\n- User learned about types of immunotherapy for lung cancer, including checkpoint inhibitors (pembrolizumab, nivolumab, durvalumab, atezolizumab), adoptive T-cell transfer, monoclonal antibodies (bevacizumab), oncolytic virus therapy, and CAR T-cell therapy. (session 2023-06-18)\n- Assistant explained that league-wide brand partnerships can negatively impact athletes by pressuring them to use specific equipment or footwear that may not fit properly, potentially hindering performance or causing injury. (session 2023-03-25)\n- User is planning to host a backyard BBQ and requested side dish recommendations to pair with ribs and brisket. (session 2023-04-16)\n- Assistant advised upgrading brake fluid when installing new brake pads, recommending DOT 4 or 5.1 ratings and brands like Castrol SRF, Motul RBF 660, AP Racing PRF 660, or Brembo HTX. (session 2023-05-12)\n- User chose Killer Hogs BBQ Rub to complement their brisket and ribs. (session 2023-04-16)\n- User enjoys spicy food and was recommended salsa roja, salsa verde, habanero salsa, and chile de árbol salsa to try in Querétaro. (session 2023-04-05)\n- Assistant provided tips for engine performance, including optimizing airflow, using high-octane fuel, verifying spark plug gapping, and performing compression/leak-down tests. (session 2023-05-12)\n- User was provided with an overview of the four stages of lung cancer, ranging from Stage I (confined to the lung) to Stage IV (spread to other organs). (session 2023-06-18)\n- User is currently obsessed with Kansas City Masterpiece BBQ sauce for their ribs. (session 2023-06-30)\n- User finds Ray Bradbury's writing style immersive and emotional, while viewing Isaac Asimov's work as more intellectual and thought-provoking. (session 2023-06-15)\n- Assistant highlighted the NBA's 2015 partnership with Nike as a mutually beneficial example, citing innovative products like 'City Edition' jerseys that connect teams to local communities. (session 2023-03-25)\n- Assistant recommended food spots in Jalpan de Serra for the Festival de la Sierra Gorda: Comedor Javy for barbacoa, Restaurante La Cabaña for escamoles, Mercado de Jalpan for regional snacks, Xilitla Coffee & More, and Quesadillas El Portal in Bucareli. (session 2023-04-05)\n- User participated in a 'Turbocharged Tuesdays' event at the Speed Demon Racing Track on May 12, 2023, completing 10 laps with an average speed of 85mph. (session 2023-05-12)\n- User decided to use the elevator to reach the top of the Eiffel Tower rather than climbing the stairs. (session 2023-03-31)\n- User purchased new brake pads during the 'Winter Tune-Up' event at the Speed Shop earlier in 2023 but has not yet installed them. (session 2023-05-12)\n- User was informed about side effects of immunotherapy (fatigue, inflammation of organs) and targeted therapy (rash, diarrhea, liver enzyme elevation), and that these are managed through supportive medications, steroids, dose adjustments, and lifestyle support. (session 2023-06-18)\n- User previously had a dyno test performed at the 'Tune-Up Saturday' event at the Performance Garage, which showed their car producing 240 horsepower. (session 2023-05-12)\n- User plans to practice 4-7-8 breathing exercises nightly before bed to help with relaxation and sleep, using a phone reminder to maintain consistency. (session 2023-04-03)\n- Assistant identified several eco-friendly music festivals: Glastonbury Festival (UK), Newport Folk Festival (US), Shambhala Music Festival (Canada), Burning Man (US), and Roskilde Festival (Denmark). (session 2023-06-07)\n- Assistant recommended suspension upgrades including stiffer springs, adjustable coilovers, sway bars, upgraded bushings and mounts, alignment adjustments, and lightweight wheels/tires. (session 2023-05-12)\n- User received a comparison of lung cancer treatments: immunotherapy (20-40% response rate in advanced NSCLC), targeted therapy (effective for specific genetic mutations), chemotherapy (30-40% success rate with significant side effects), and radiation therapy (often used palliatively for advanced disease). (session 2023-06-18)\n- User intends to grill pineapple for their BBQ, inspired by a friend named Emily who brought it to their birthday party. (session 2023-06-30)\n- Assistant recommended online mental health resources including NAMI, the American Psychological Association (APA), Mindful.org, Psychology Today, and TED Talks on mental health. (session 2023-04-03)\n- Visiting the Eiffel Tower during the day offers clearer views of landmarks, while visiting at night provides an enchanting view of the city lights and the tower's hourly five-minute sparkling light show. (session 2023-03-31)\n- User was recommended to use apple, cherry, hickory, or pecan wood for smoking pulled pork, while avoiding stronger woods like mesquite or oak. (session 2023-06-30)\n- User is interested in the long-term implications of brand partnerships in major sports leagues, specifically regarding fan engagement, revenue generation, and potential risks like reputational damage. (session 2023-03-25)\n- Assistant recommended books for processing emotions and grief: 'The Body Keeps the Score' by Bessel van der Kolk, 'When Things Fall Apart' by Pema Chödrön, 'The Grief Recovery Handbook' by John W. James and Russell Friedman, 'Mindset' by Carol S. Dweck, and 'The Power of Now' by Eckhart Tolle. (session 2023-04-03)\n- Assistant provided guidance on preparing for a dyno test, emphasizing the importance of vehicle condition, choosing a reputable shop, and ensuring consistent test runs. (session 2023-05-12)\n- User's favorite BBQ sauce is Sweet Baby Ray's, which they intend to serve with their ribs. (session 2023-04-16)\n- User intends to trim excess fat and remove the silver skin from their brisket to improve tenderness before applying the rub. (session 2023-04-16)\n- User is planning a visit to the Eiffel Tower in Paris, France, and is interested in the logistics of reaching the top and the quality of the view. (session 2023-03-31)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 57,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 38.1,
+  "total": 39.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

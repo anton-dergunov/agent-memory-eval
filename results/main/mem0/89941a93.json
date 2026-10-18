@@ -1,0 +1,104 @@
+{
+ "qid": "89941a93",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many bikes do I currently own?",
+ "reference": "4",
+ "question_date": "2023-10-27 13:00",
+ "sessions": [
+  {
+   "id": "8e72316f",
+   "date": "2023-02-02 01:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-02-22 20:54",
+   "evidence": true
+  },
+  {
+   "id": "95ebf866",
+   "date": "2023-07-25 17:00",
+   "evidence": false
+  },
+  {
+   "id": "169213ae",
+   "date": "2023-08-04 11:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_151269",
+   "date": "2023-09-25 17:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-10-10 01:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jxsIY6L_0",
+   "date": "2023-10-11 01:04",
+   "evidence": false
+  },
+  {
+   "id": "25956eab_1",
+   "date": "2023-10-15 17:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_70151",
+   "date": "2023-10-20 19:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_440266",
+   "date": "2023-10-23 07:05",
+   "evidence": false
+  }
+ ],
+ "context": "- User is looking for a new swim cap because their current one is stretched out and slips off during flip turns. (from a chat on 2023-07-25)\n- User owns four bikes: a road bike, a mountain bike, a commuter bike, and a newly purchased hybrid bike. (from a chat on 2023-10-10)\n- User owns three bikes: a road bike, a mountain bike for trail rides, and a commuter bike for daily commutes. (from a chat on 2023-02-22)\n- User was recommended several bike shops and tour operators along their route, including Tahoe City Bikes, Jackson Hole Mountain Resort Bike Park, Mount Rushmore Bike Rentals, Nice Ride Minnesota, and Golden Triangle Bike Rentals. (from a chat on 2023-10-10)\n- User is planning to bring all four of their bikes on their cross-country road trip and is prioritizing accommodations with bike storage. (from a chat on 2023-10-10)\n- User is planning a 50-mile bike ride for the weekend of February 25-26, 2023, and is preparing their road bike. (from a chat on 2023-02-22)\n- User was provided with a 10-day cross-country itinerary from San Francisco to New York City, including specific bike-friendly routes, bike shops, and accommodations with bike storage in Lake Tahoe, Jackson Hole, Mount Rushmore, Minneapolis, and Pittsburgh. (from a chat on 2023-10-10)\n- User has logged 2,000 miles on their road bike and is considering it for an upcoming century ride. (from a chat on 2023-02-22)\n- User is tracking their cycling progress on Strava using a new bike computer. (from a chat on 2023-10-10)\n- User is researching whether to upgrade their road bike wheels to carbon fiber, weighing the benefits of weight reduction and aerodynamics against the high cost and durability concerns. (from a chat on 2023-02-22)\n- User recently started using clipless pedals and cycling shoes, noting improved pedaling efficiency, and is considering whether to use them on their hybrid bike during the trip. (from a chat on 2023-10-10)\n- User was provided with a 10-point maintenance checklist to prepare their road bike for the long trip, including tire, brake, chain, and gear inspections. (from a chat on 2023-10-10)\n- User is looking to transition from using their phone's GPS to a dedicated bike computer or GPS device and was recommended brands including Garmin (Edge series), Wahoo (Elemnt series), and Lezyne (Super GPS). (from a chat on 2023-02-22)\n- User is interested in joining a guided mountain bike tour in Jackson Hole, Wyoming, to explore challenging trails. (from a chat on 2023-10-10)\n- User is planning a 10-day road trip from San Francisco to New York City next month and intends to cycle for 3-4 days of the trip. (from a chat on 2023-10-10)\n- User lives in the San Francisco Bay Area and was recommended several local cycling routes: The Golden Gate Bridge to Sausalito, The Dumbarton Bridge Loop, The San Mateo County Coast, Mount Tamalpais, and The Berkeley Hills. (from a chat on 2023-02-22)\n- User is working on establishing a consistent morning routine and sleep schedule, aiming for 7-9 hours of sleep per night. (from a chat on 2023-08-04)\n- User replaced their running shoes with a new pair of Nikes on February 10, 2023, after finding a deal at a local sports store. (from a chat on 2023-07-25)\n- User is a fan of the Manchester City football club. (from a chat on 2023-02-02)\n- User was provided with four 20-minute morning workout options: HIIT, a bodyweight circuit, a yoga flow, and jump rope. (from a chat on 2023-08-04)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-02-22: The user owned three bikes (a road bike, a mountain bike, and a commuter bike).\n    *   From the chat on 2023-10-10: The user mentions owning four bikes, noting that they have a road bike, a mountain bike, a commuter bike, and a \"newly purchased hybrid bike.\"\n    *   From the chat on 2023-10-10: The user confirms they are planning to bring \"all four of their bikes\" on their upcoming cross-country road trip.\n\n2.  **Reason over the information:**\n    *   The most recent information regarding the user's bike ownership comes from the October 10, 2023, chat, which explicitly states the user owns four bikes following the purchase of a hybrid bike.\n    *   There is no information in the provided history suggesting any bikes have been sold or lost since that date.\n\n**Answer:** You currently own four bikes.",
+ "dump": "- User owns three bikes: a road bike, a mountain bike for trail rides, and a commuter bike for daily commutes. (session 2023-02-22)\n- User is planning a trip to Honolulu, Hawaii, and is researching direct flights from LAX to HNL, with a preference for Hawaiian Airlines. (session 2023-10-15)\n- User was provided with detailed explanations and real-world examples of cybersecurity threats: interception, interruption, modification, and fabrication. (session 2023-10-11)\n- User was provided with a 10-point maintenance checklist to prepare their road bike for the long trip, including tire, brake, chain, and gear inspections. (session 2023-10-10)\n- User was recommended four additional critically acclaimed foreign films on MUBI: 'Bacurau' (Brazil), 'Two of Us' (France), 'The Disciple' (India), and 'Another Round' (Denmark). (session 2023-10-23)\n- User is planning to bring all four of their bikes on their cross-country road trip and is prioritizing accommodations with bike storage. (session 2023-10-10)\n- User recently achieved MVP Gold status with Alaska Airlines due to increased travel frequency, granting them priority boarding, extra baggage allowance, and airport lounge access. (session 2023-10-15)\n- User was provided with a list of recommended yoga mat brands (Lululemon, Manduka, Alo Yoga, Gaiam, Hugger Mugger) and specific models, including the Manduka eKO SuperLite and Lululemon The Mat. (session 2023-07-25)\n- User was provided with an overview of technological advancements in distance learning, including video conferencing, Learning Management Systems (LMS), cloud storage, AI, mobile technology, VR/AR, and machine learning. (session 2023-10-20)\n- User expressed interest in the historical and future adaptability of social democrat parties, viewing their willingness to respond to criticism and evolve as a source of hope for social progress. (session 2023-09-25)\n- User was recommended several bike shops and tour operators along their route, including Tahoe City Bikes, Jackson Hole Mountain Resort Bike Park, Mount Rushmore Bike Rentals, Nice Ride Minnesota, and Golden Triangle Bike Rentals. (session 2023-10-10)\n- User was recommended five foreign films on MUBI: 'Happy as Lazzaro' (Italy), 'Portrait of a Lady on Fire' (France), 'The Wind Will Carry Us' (Iran), 'The Grand Bizarre' (USA/Lebanon), and 'Atlantics' (Senegal/France). (session 2023-10-23)\n- User lives in the San Francisco Bay Area and was recommended several local cycling routes: The Golden Gate Bridge to Sausalito, The Dumbarton Bridge Loop, The San Mateo County Coast, Mount Tamalpais, and The Berkeley Hills. (session 2023-02-22)\n- User is interested in joining a guided mountain bike tour in Jackson Hole, Wyoming, to explore challenging trails. (session 2023-10-10)\n- User is planning a 50-mile bike ride for the weekend of February 25-26, 2023, and is preparing their road bike. (session 2023-02-22)\n- User was provided with explanations of password-related attacks: dictionary attacks, inferring likely passwords, guessing, defeating concealment, brute-force attacks, and rainbow tables. (session 2023-10-11)\n- User added 'Portrait of a Lady on Fire' to their watchlist after learning it won Best Screenplay at the Cannes Film Festival. (session 2023-10-23)\n- User is working on establishing a consistent morning routine and sleep schedule, aiming for 7-9 hours of sleep per night. (session 2023-08-04)\n- User plans to include a mix of general sports, Premier League, European football, and Manchester City-specific trivia questions at their draft party to engage both fantasy football fans and casual sports fans. (session 2023-02-02)\n- User plans to prepare their breakfast of oatmeal with banana and honey the night before to save time and ensure they eat after their morning workout. (session 2023-08-04)\n- User recently started using clipless pedals and cycling shoes, noting improved pedaling efficiency, and is considering whether to use them on their hybrid bike during the trip. (session 2023-10-10)\n- User is researching whether to upgrade their road bike wheels to carbon fiber, weighing the benefits of weight reduction and aerodynamics against the high cost and durability concerns. (session 2023-02-22)\n- User owns four bikes: a road bike, a mountain bike, a commuter bike, and a newly purchased hybrid bike. (session 2023-10-10)\n- User is planning a 10-day road trip from San Francisco to New York City next month and intends to cycle for 3-4 days of the trip. (session 2023-10-10)\n- User was advised on signs to replace running shoes, including mileage (300-500 miles), time (3-6 months), and physical wear or performance decline. (session 2023-07-25)\n- User is tracking their cycling progress on Strava using a new bike computer. (session 2023-10-10)\n- User is planning a fantasy football draft party for 10 people in Kansas City. (session 2023-02-02)\n- User is looking to transition from using their phone's GPS to a dedicated bike computer or GPS device and was recommended brands including Garmin (Edge series), Wahoo (Elemnt series), and Lezyne (Super GPS). (session 2023-02-22)\n- User was provided with definitions and examples of security controls (countermeasures), including administrative, technical, and physical types like two-factor authentication and access control lists. (session 2023-10-11)\n- User is learning about cybersecurity fundamentals, specifically the C-I-A Triad (Confidentiality, Integrity, Availability), digital signature verification flows, and various security threats and attack vectors. (session 2023-10-11)\n- User is looking for a new swim cap because their current one is stretched out and slips off during flip turns. (session 2023-07-25)\n- User has been accumulating points on their Chase Sapphire credit card and intends to redeem them for a flight to Hawaii later in 2023. (session 2023-10-15)\n- User was recommended swim cap brands including Speedo, TYR, SwimCap, Arena, and Finis, with specific details on Speedo and TYR models featuring anti-fog and UV protection. (session 2023-07-25)\n- User was recommended brunch spots in Kansas City that can accommodate a group of 10: The Roasterie Café, The Farmhouse, Eggtc., The Campground, and Urban Table. (session 2023-02-02)\n- User was provided with four 20-minute morning workout options: HIIT, a bodyweight circuit, a yoga flow, and jump rope. (session 2023-08-04)\n- User requested detailed information about The Royal Hawaiian, a Luxury Collection Resort, and was informed about its history as the 'Pink Palace of the Pacific' (opened 1928) and its iconic features like its beachfront location and Aha Aina Luau. (session 2023-10-15)\n- User was provided with a 10-day cross-country itinerary from San Francisco to New York City, including specific bike-friendly routes, bike shops, and accommodations with bike storage in Lake Tahoe, Jackson Hole, Mount Rushmore, Minneapolis, and Pittsburgh. (session 2023-10-10)\n- The assistant identified Learning Management Systems (LMS) as having the greatest impact on the quality of remote education due to their ability to centralize content delivery, progress tracking, and personalized learning strategies. (session 2023-10-20)\n- User replaced their running shoes with a new pair of Nikes on February 10, 2023, after finding a deal at a local sports store. (session 2023-07-25)\n- User decided to purchase the Manduka eKO SuperLite yoga mat, noting its eco-friendly, non-Amazon harvested, biodegradable natural rubber construction. (session 2023-07-25)\n- User is interested in exploring foreign films and was recommended MUBI as a comprehensive streaming service for independent, art house, and international cinema. (session 2023-10-23)\n- User decided to try a 20-minute bodyweight circuit workout in the morning, focusing on push-ups and squats. (session 2023-08-04)\n- User wakes up consistently at 6:30 am but struggles with hitting the snooze button and getting out of bed. (session 2023-08-04)\n- User is interested in staying at a hotel near Waikiki Beach in Honolulu and was provided with a list of luxury, upper-midscale, mid-range, and budget-friendly options. (session 2023-10-15)\n- User was provided with various strategies to break the snooze button habit, including placing the alarm clock across the room and using the '5-second rule'. (session 2023-08-04)\n- User was provided with tips for finding discounts on Speedo and TYR products, such as checking 'Sale' or 'Clearance' sections, signing up for newsletters, and following social media accounts. (session 2023-07-25)\n- User has logged 2,000 miles on their road bike and is considering it for an upcoming century ride. (session 2023-02-22)\n- User plans to research Speedo and TYR swim caps, specifically looking for models with anti-fog coating and UV protection. (session 2023-07-25)\n- User finds video conferencing tools to be a game-changer for distance learning and has personally appreciated their convenience for attending meetings and classes from home during the pandemic. (session 2023-10-20)\n- User is a fan of the Manchester City football club. (session 2023-02-02)\n- User was advised that Alaska Airlines operates 2-3 weekly direct flights from LAX to HNL, and that they can redeem Chase Ultimate Rewards points for these flights by transferring them to partners like British Airways Executive Club or Singapore Airlines KrisFlyer. (session 2023-10-15)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 51,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 32.8,
+  "total": 34.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

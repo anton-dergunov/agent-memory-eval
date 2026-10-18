@@ -1,0 +1,106 @@
+{
+ "qid": "eace081b",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+ "reference": "Oahu",
+ "question_date": "2023-06-06 04:18",
+ "sessions": [
+  {
+   "id": "b3763b6b_2",
+   "date": "2023-05-22 04:06",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_1",
+   "date": "2023-05-22 11:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504859",
+   "date": "2023-05-22 11:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_tny5DVg_5",
+   "date": "2023-05-22 16:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3sbRtMX_24",
+   "date": "2023-05-23 01:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_amiy1W6_0",
+   "date": "2023-05-24 08:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_446917",
+   "date": "2023-05-24 09:30",
+   "evidence": false
+  },
+  {
+   "id": "4d04b866",
+   "date": "2023-05-25 17:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_2",
+   "date": "2023-05-25 18:17",
+   "evidence": true
+  },
+  {
+   "id": "3722ea11_2",
+   "date": "2023-05-25 20:54",
+   "evidence": false
+  }
+ ],
+ "context": "- The user is planning to get performance upgrades for their 2018 Ford Mustang GT. (valid since 2023-05-22)\n- The user stayed at a hotel in Jackson Hole, Wyoming, which offered a view of the Teton Range. (valid since 2023-05-25)\n- Waialae Beach is located in the Hawaii Kai neighborhood. (valid since 2023-05-25)\n- The hotel in Jackson Hole, Wyoming provided a view of the Teton Range. (valid since 2023-05-25)\n- The user visited Grand Teton National Park during their road trip. (valid since 2023-05-25)\n- The assistant recommends that the user conduct online research on Google to find a reputable shop for Mustang performance upgrades. (valid since 2023-05-22)\n- The assistant recommends the Manoa Falls Trail as a hiking trail on Oahu. (valid since 2023-05-25)\n- Kauai Sea Rider offers snorkeling tours to the Na Pali Coast. (valid since 2023-05-22)\n- The assistant recommends that the user conduct online research on Yelp to find a reputable shop for Mustang performance upgrades. (valid since 2023-05-22)\n- Kaimana Beach is located in the Kahala neighborhood. (valid since 2023-05-25)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The provided history chats contain information about the user's 2018 Ford Mustang GT upgrades.\n*   The provided history chats contain information about a past trip to Jackson Hole, Wyoming, and Grand Teton National Park.\n*   The provided history chats contain information about specific locations on Oahu, Hawaii (Waialae Beach in Hawaii Kai, Kaimana Beach in Kahala, and the Manoa Falls Trail).\n*   The provided history chats contain information about a snorkeling tour provider in Kauai (Kauai Sea Rider).\n\n**Step 2: Reason over the information**\n*   I have reviewed all the provided facts regarding the user's history.\n*   While there is information regarding locations in Hawaii (Oahu and Kauai), there is no mention of a \"birthday trip\" or any specific accommodation plans for such a trip in the provided history.\n\n**Conclusion:**\nBased on the provided facts, there is no information available to answer where you are planning to stay for your birthday trip to Hawaii.",
+ "dump": "- The user is planning to get performance upgrades for their 2018 Ford Mustang GT. (valid since 2023-05-22)\n- The assistant recommends that the user conduct online research on Google to find a reputable shop for Mustang performance upgrades. (valid since 2023-05-22)\n- The assistant recommends that the user conduct online research on Yelp to find a reputable shop for Mustang performance upgrades. (valid since 2023-05-22)\n- The assistant recommends that the user conduct online research on Facebook to find a reputable shop for Mustang performance upgrades. (valid since 2023-05-22)\n- The assistant recommends looking for shops certified by the National Institute for Automotive Service Excellence. (valid since 2023-05-22)\n- The assistant recommends looking for shops certified by the Specialty Equipment Market Association. (valid since 2023-05-22)\n- The assistant recommends Roush Performance as a national brand specializing in Mustang performance upgrades. (valid since 2023-05-22)\n- The assistant recommends Steeda Autosports as a national brand specializing in Mustang performance upgrades. (valid since 2023-05-22)\n- The assistant recommends Bama Performance as a national brand specializing in Mustang performance upgrades. (valid since 2023-05-22)\n- The assistant recommends American Muscle as a national brand specializing in Mustang performance upgrades. (valid since 2023-05-22)\n- The assistant identifies Performance Center as a local shop in the user's area specializing in Mustang exhaust and suspension modifications. (valid since 2023-05-22)\n- The assistant identifies Fast Lane Performance as a local shop in the user's area specializing in Mustang exhaust, suspension, and engine tuning. (valid since 2023-05-22)\n- The assistant identifies RPM Motorsports as a local shop in the user's area specializing in Mustang exhaust, suspension, and engine tuning. (valid since 2023-05-22)\n- The assistant identifies GT Performance as a local shop in the user's area specializing in Mustang exhaust, suspension, and engine tuning. (valid since 2023-05-22)\n- The assistant recommends Borla Performance Exhaust as a high-performance exhaust system for the user's Mustang. (valid since 2023-05-22)\n- The assistant recommends Roush Performance Exhaust for improving the performance and sound quality of the user's Mustang. (valid since 2023-05-22)\n- The assistant recommends Ford Performance Exhaust as an in-house brand for upgrading the user's Mustang exhaust. (valid since 2023-05-22)\n- The assistant recommends Koni Shocks to improve the handling and ride quality of the user's Mustang. (valid since 2023-05-22)\n- The assistant recommends Eibach Springs to improve the handling and stance of the user's Mustang. (valid since 2023-05-22)\n- The assistant recommends Bilstein Shocks to improve the handling and ride quality of the user's Mustang. (valid since 2023-05-22)\n- The user owns a 2018 Ford Mustang GT. (valid since 2023-05-22)\n- Mark's Place is a restaurant in Lihue recommended by the assistant for serving traditional Hawaiian dishes like laulau, kalua pig, and poi. (valid since 2023-05-22)\n- Kintaro is an eatery in Lihue recommended by the assistant for its Japanese-Hawaiian fusion cuisine, specifically laulau and kalua pig. (valid since 2023-05-22)\n- Hanalei Gourmet is a family-owned restaurant in Hanalei recommended by the assistant for local flavors like laulau, kalua pig, and fresh seafood. (valid since 2023-05-22)\n- Bar Acuda is a trendy tapas bar in Hanalei recommended by the assistant for its laulau sliders and kalua pig tacos. (valid since 2023-05-22)\n- Kalaheo Café is a restaurant in Kalaheo recommended by the assistant for its laulau omelets and kalua pig hash. (valid since 2023-05-22)\n- Eating House 1849 is a modern Hawaiian restaurant in Kapaa recommended by the assistant for its contemporary takes on laulau and kalua pig. (valid since 2023-05-22)\n- The Fish Hopper is a seafood-focused restaurant in Kapaa recommended by the assistant for serving locally caught fish, laulau, and kalua pig. (valid since 2023-05-22)\n- Na Pali Coast Tours offers snorkeling tours to the Na Pali Coast. (valid since 2023-05-22)\n- Kauai Sea Rider offers snorkeling tours to the Na Pali Coast. (valid since 2023-05-22)\n- Island Adventures Kauai offers snorkeling tours to the Na Pali Coast. (valid since 2023-05-22)\n- Kauai Snorkeling Tours offers snorkeling tours to the Na Pali Coast. (valid since 2023-05-22)\n- Na Pali Coast Tours offers daily snorkeling tours to the Na Pali Coast. (valid since 2023-05-22)\n- The assistant describes the operations of the Red Crescent Society in providing medical assistance, distributing supplies, and training volunteers in disaster zones. (valid since 2023-05-22)\n- The user requested the creation of a Product Brief for the Loyalty Platform release. (valid since 2023-05-22)\n- The user requested the creation of Release Notes for the Loyalty Platform release. (valid since 2023-05-22)\n- The user requested the creation of Internal FAQs for the Loyalty Platform release. (valid since 2023-05-22)\n- The user requested the creation of External FAQs for the Loyalty Platform release. (valid since 2023-05-22)\n- The user requested the creation of User Documentation for the Loyalty Platform release. (valid since 2023-05-22)\n- The user requested the creation of a Newsletter Entry for the Loyalty Platform release. (valid since 2023-05-22)\n- The user requested the creation of an Internal Presentation for the Loyalty Platform release. (valid since 2023-05-22)\n- The Loyalty Platform User Guide provides step-by-step instructions for using the features and functionality of the Loyalty Platform. (valid since 2023-05-22)\n- The assistant created the Loyalty Platform User Guide to assist merchants with using the Loyalty Platform. (valid since 2023-05-22)\n- The assistant recommends using PlantUML code to visualize the attack sequence diagram. (valid since 2023-05-23)\n- The assistant suggests rendering the PlantUML sequence diagram code on the PlantUML Server website. (valid since 2023-05-23)\n- The user is negotiating with the LTA regarding the project's detrainment device. (valid since 2023-05-24)\n- The user stayed at a hotel in Jackson Hole, Wyoming, which offered a view of the Teton Range. (valid since 2023-05-25)\n- The hotel in Jackson Hole, Wyoming provided a view of the Teton Range. (valid since 2023-05-25)\n- The user visited Grand Teton National Park during their road trip. (valid since 2023-05-25)\n- The assistant recommends the Manoa Falls Trail as a hiking trail on Oahu. (valid since 2023-05-25)\n- Kaimana Beach is located in the Kahala neighborhood. (valid since 2023-05-25)\n- Waialae Beach is located in the Hawaii Kai neighborhood. (valid since 2023-05-25)\n- Waialae Beach offers a view of the Ko'olau Mountains. (valid since 2023-05-25)\n- The assistant recommends the KonMari Method as a way to organize a closet by keeping only items that spark joy and organizing by category. (valid since 2023-05-25)\n- The assistant recommends the FlyLady Method as a way to organize a closet by breaking tasks into smaller chunks and creating habits. (valid since 2023-05-25)\n- The assistant recommends the 4-Box Method for sorting closet items into keep, donate, sell, and discard boxes. (valid since 2023-05-25)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 56,
+  "invalidated": 0,
+  "episodes": 17,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 127.2,
+  "total": 128.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

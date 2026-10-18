@@ -1,0 +1,102 @@
+{
+ "qid": "945e3d21",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How often do I attend yoga classes to help with my anxiety?",
+ "reference": "Three times a week.",
+ "question_date": "2023-12-14 06:32",
+ "sessions": [
+  {
+   "id": "sharegpt_2Kis6fZ_45",
+   "date": "2023-07-27 20:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_1",
+   "date": "2023-08-11 05:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_WjW4qki_0",
+   "date": "2023-08-22 03:09",
+   "evidence": false
+  },
+  {
+   "id": "a2053427_1",
+   "date": "2023-09-30 20:16",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_2",
+   "date": "2023-11-30 03:29",
+   "evidence": true
+  },
+  {
+   "id": "be1fa010",
+   "date": "2023-12-01 06:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_y0L1CPT_9",
+   "date": "2023-12-01 11:56",
+   "evidence": false
+  },
+  {
+   "id": "9bbd38a6",
+   "date": "2023-12-02 07:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_oTnUt5N_15",
+   "date": "2023-12-05 22:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_zn81iL6_9",
+   "date": "2023-12-11 09:00",
+   "evidence": false
+  }
+ ],
+ "context": "- The assistant recommends engaging in prenatal yoga as a relaxation technique to help manage mood swings during pregnancy. (valid since 2023-12-11)\n- the user has a yoga practice that helps them feel grounded and centered, especially on days when they are feeling anxious. (valid since 2023-08-11)\n- The user is concerned about the user's brother's anxiety and depression. (valid since 2023-12-02)\n- The assistant recommends drinking ginger tea to help alleviate morning sickness symptoms. (valid since 2023-12-11)\n- The user utilizes meditation to help set intentions and focus on daily goals. (valid since 2023-07-27)\n- The user is asking for reflection exercises to help identify triggers and work through childhood trauma. (valid since 2023-07-27)\n- The user offers to help the user's parents research therapists and counseling services for the user's brother. (valid since 2023-12-02)\n- The assistant recommends Calm for guided meditations and mindfulness exercises on busy days. (valid since 2023-08-11)\n- assistant provides an updated weekly schedule to the user to help them manage their tasks, including report writing and website updates. (valid since 2023-11-30)\n- The assistant recommends Headspace for guided meditations and mindfulness exercises on busy days. (valid since 2023-08-11)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history chats state: \"the user has a yoga practice that helps them feel grounded and centered, especially on days when they are feeling anxious.\" (valid since 2023-08-11)\n*   There is no other mention of yoga frequency or specific class attendance in the provided history.\n\n**Step 2: Reason over the information**\n*   The provided facts confirm that the user engages in a yoga practice to manage anxiety.\n*   However, the information does not specify a frequency (e.g., daily, weekly, or monthly) for these yoga sessions.\n\n**Answer:**\nBased on the provided history, it is mentioned that you have a yoga practice to help you feel grounded and centered when you are feeling anxious, but there is no information regarding how often you attend yoga classes.",
+ "dump": "- Joseph Miller worked for the IRS during the presidency of Grover Cleveland (valid from 1885-03-04 until 1897-03-04) [superseded]\n- The user utilizes meditation to help set intentions and focus on daily goals. (valid since 2023-07-27)\n- The user is requesting journaling prompts to assist in identifying triggers and addressing childhood trauma. (valid since 2023-07-27)\n- The user is asking for reflection exercises to help identify triggers and work through childhood trauma. (valid since 2023-07-27)\n- the user has a yoga practice that helps them feel grounded and centered, especially on days when they are feeling anxious. (valid since 2023-08-11)\n- The assistant recommends Headspace for guided meditations and mindfulness exercises on busy days. (valid since 2023-08-11)\n- The assistant recommends Calm for guided meditations and mindfulness exercises on busy days. (valid since 2023-08-11)\n- The assistant recommends Insight Timer for guided meditations and mindfulness exercises on busy days. (valid since 2023-08-11)\n- The Hempel-Oppenheim model is explained to the user as a framework for scientific explanation that uses general laws and boundary conditions to derive empirical findings. (valid since 2023-08-22)\n- The user is interested in learning about market trends and consumer behavior in the sustainable fashion market. (valid since 2023-09-30)\n- assistant provides guidance and questions for conducting a thorough market analysis for a business plan. (valid since 2023-09-30)\n- market analysis is a crucial part of the business plan. (valid since 2023-09-30)\n- assistant provides an updated weekly schedule to the user to help them manage their tasks, including report writing and website updates. (valid since 2023-11-30)\n- The user is considering collaborating with social media influencers in their niche to increase their followers and engagement. (valid since 2023-12-01)\n- The user utilizes Instagram for their social media activity and is seeking to improve their engagement rates on the platform. (valid since 2023-12-01)\n- The assistant recommends that the user run a giveaway or contest on TikTok to increase engagement and attract new followers. (valid since 2023-12-01)\n- The user's skincare routine video performed well on the TikTok platform. (valid since 2023-12-01)\n- The assistant mentions that the podcast can be shared on popular platforms such as Spotify. (valid since 2023-12-01)\n- The assistant mentions that the podcast can be shared on popular platforms such as Apple Podcasts. (valid since 2023-12-01)\n- The assistant mentions that the podcast can be shared on popular platforms such as Google Podcasts. (valid since 2023-12-01)\n- The user is planning to run a Summer Skincare Essentials giveaway. (valid since 2023-12-01)\n- The Summer Skincare Essentials giveaway involves a partnership with beauty influencers. (valid since 2023-12-01)\n- The Summer Skincare Essentials giveaway offers a skincare set as a prize. (valid since 2023-12-01)\n- The Summer Skincare Essentials giveaway offers outdoor gear as a prize. (valid since 2023-12-01)\n- The assistant suggests using the branded hashtag #SummerSkincareEssentials for the Summer Skincare Essentials giveaway. (valid since 2023-12-01)\n- The user's mother is teaching the user how to make a traditional Indian chicken curry. (valid since 2023-12-02)\n- The user wants to try out variations of the traditional Indian chicken curry they are learning to make. (valid since 2023-12-02)\n- The user is concerned about the user's brother's anxiety and depression. (valid since 2023-12-02)\n- The user plans to have a conversation with the user's parents about the user's brother's need for therapy. (valid since 2023-12-02)\n- The user offers to help the user's parents research therapists and counseling services for the user's brother. (valid since 2023-12-02)\n- The assistant proposes a connection with the user, seeking to discuss potential communication preferences and a possible call. (valid since 2023-12-05)\n- progesterone slows down digestion causing bloating and gas, which the assistant advises can be managed by eating smaller meals, staying hydrated, and increasing fiber intake. (valid since 2023-12-11)\n- The assistant recommends wearing a supportive bra to alleviate breast tenderness during the eighth week of pregnancy. (valid since 2023-12-11)\n- The assistant recommends drinking ginger tea to help alleviate morning sickness symptoms. (valid since 2023-12-11)\n- The assistant recommends engaging in prenatal yoga as a relaxation technique to help manage mood swings during pregnancy. (valid since 2023-12-11)\n- The assistant suggests that vitamin B6 supplements may provide relief for morning sickness during pregnancy. (valid since 2023-12-11)\n- Joseph Mueller was later known as Joseph Miller (date unknown)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 37,
+  "invalidated": 1,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 112.9,
+  "total": 114.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

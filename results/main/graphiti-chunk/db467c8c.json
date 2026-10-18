@@ -1,0 +1,102 @@
+{
+ "qid": "db467c8c",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How long have my parents been staying with me in the US?",
+ "reference": "nine months",
+ "question_date": "2023-10-22 09:15",
+ "sessions": [
+  {
+   "id": "sharegpt_wrN9uUo_53",
+   "date": "2023-06-23 06:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_165276",
+   "date": "2023-07-08 02:17",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ocf8Lud_39",
+   "date": "2023-07-11 23:49",
+   "evidence": false
+  },
+  {
+   "id": "76967d22",
+   "date": "2023-07-16 03:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_1",
+   "date": "2023-07-16 07:07",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_48690",
+   "date": "2023-07-20 20:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_497634",
+   "date": "2023-09-21 19:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_2",
+   "date": "2023-10-20 00:00",
+   "evidence": true
+  },
+  {
+   "id": "16ebc8f8_1",
+   "date": "2023-10-20 04:34",
+   "evidence": false
+  },
+  {
+   "id": "08693f68_1",
+   "date": "2023-10-20 12:15",
+   "evidence": false
+  }
+ ],
+ "context": "- user is asking for advice regarding the financial requirements and whether to include the income or expenses of parents in their green card application (valid since 2023-07-16)\n- The user plans to consult an immigration attorney about green card applications and their parents' visa overstaying issue. (valid since 2023-10-20)\n- The assistant explains that the waiver of inadmissibility process is an option to address the consequences of the parents' visa overstay for the user's green card application. (valid since 2023-10-20)\n- Form I-864 is a legally binding contract submitted to the US government. (valid since 2023-07-16)\n- The user's friend Emily has been raving about the spinning class. (valid since 2023-10-20)\n- The user plans to apply for a green card soon. (valid since 2023-10-20)\n- The USCIS National Customer Service Center can be contacted to track the status of an application. (valid since 2023-07-16)\n- A spinning bike may have a flywheel weighing between 10-40 lbs depending on the intensity of the class. (valid since 2023-10-20)\n- USCIS issues a receipt notice in the form of Form I-797C upon receiving a petition. (valid since 2023-07-16)\n- The Sagrada Familia cathedral is located in Barcelona. (valid since 2023-06-23)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history chats mention that the user is concerned about their parents' \"visa overstaying issue\" in the context of a green card application.\n*   The history chats mention that the user plans to consult an immigration attorney regarding this issue.\n*   There is no information provided in the history chats regarding the specific date the parents arrived in the US or the duration of their stay.\n\n**Step 2: Reason over the information**\n*   While the chats confirm that the parents have overstayed their visas, the provided facts do not contain any specific dates, arrival timelines, or duration metrics regarding the parents' stay.\n\n**Conclusion:**\nBased on the provided history chats, it is not possible to determine how long your parents have been staying with you in the US, as that specific information was not recorded in our previous interactions.",
+ "dump": "- Amy is a young intern who works at the Met (valid since 2023-06-23)\n- Barcelona is a city located in Spain. (valid since 2023-06-23)\n- The Sagrada Familia cathedral was designed by the architect Antoni Gaudí. (valid since 2023-06-23)\n- Park Guell is a public space designed by the architect Antoni Gaudí. (valid since 2023-06-23)\n- The Sagrada Familia cathedral is located in Barcelona. (valid since 2023-06-23)\n- Park Guell is a public space located in Barcelona. (valid since 2023-06-23)\n- La Rambla is a public plaza located in Barcelona. (valid since 2023-06-23)\n- Placa de Catalunya is a public plaza located in Barcelona. (valid since 2023-06-23)\n- El Raval is a neighborhood in Barcelona featuring street art and graffiti murals. (valid since 2023-06-23)\n- Poble Nou is a neighborhood in Barcelona featuring street art and graffiti murals. (valid since 2023-06-23)\n- Visual Studio Code integrates with GitHub Codespaces to provide a cloud-based development environment. (valid since 2023-07-11)\n- GitHub Codespaces is a cloud-based development environment service provided by GitHub. (valid since 2023-07-11)\n- user is asking for advice regarding the financial requirements and whether to include the income or expenses of parents in their green card application (valid since 2023-07-16)\n- Form I-864 is formally known as the Affidavit of Support. (valid since 2023-07-16)\n- Form I-864 is a legally binding contract submitted to the US government. (valid since 2023-07-16)\n- Form I-864 requires applicants to demonstrate an income level of at least 125% of the Federal Poverty Guidelines. (valid since 2023-07-16)\n- USCIS issues a receipt notice in the form of Form I-797C upon receiving a petition. (valid since 2023-07-16)\n- USCIS schedules a biometric services appointment for the applicant. (valid since 2023-07-16)\n- A biometric services appointment is usually held at a USCIS Application Support Center. (valid since 2023-07-16)\n- USCIS issues a Request for Evidence if additional documentation is needed for the application. (valid since 2023-07-16)\n- USCIS requires a medical examination conducted by a designated civil surgeon. (valid since 2023-07-16)\n- The oath ceremony includes the applicant taking the Oath of Allegiance. (valid since 2023-07-16)\n- USCIS mails a green card upon approval of the application. (valid since 2023-07-16)\n- The USCIS National Customer Service Center can be contacted to track the status of an application. (valid since 2023-07-16)\n- The assistant provides advice to the user on actions they can take to fight against racism and discrimination, including educating themselves, speaking out against discriminatory behavior, listening to marginalized voices, engaging in constructive dialogue, and taking action through community involvement. (valid since 2023-09-21)\n- The user plans to apply for a green card soon. (valid since 2023-10-20)\n- The user plans to consult an immigration attorney about green card applications and their parents' visa overstaying issue. (valid since 2023-10-20)\n- The user is planning to take a spinning class at the gym next month. (valid since 2023-10-20)\n- The user attends Zumba classes on Tuesdays. (valid since 2023-10-20)\n- The user's friend Emily has been raving about the spinning class. (valid since 2023-10-20)\n- The assistant explains that the waiver of inadmissibility process is an option to address the consequences of the parents' visa overstay for the user's green card application. (valid since 2023-10-20)\n- Form I-601, the Application for Waiver of Grounds of Inadmissibility, must be filed with U.S. Citizenship and Immigration Services to seek a waiver of inadmissibility. (valid since 2023-10-20)\n- The user is planning to cook a Thai curry this upcoming weekend. (valid since 2023-10-20)\n- The user plans to add bell peppers to their Thai curry recipe for added variety. (valid since 2023-10-20)\n- The user plans to add zucchini to their Thai curry recipe for added variety. (valid since 2023-10-20)\n- The user plans to add shrimp to their Thai curry recipe for added protein. (valid since 2023-10-20)\n- The user plans to add chicken to their Thai curry recipe for added protein. (valid since 2023-10-20)\n- The user plans to experiment with different types of curry paste to give their dish a unique flavor. (valid since 2023-10-20)\n- A spinning bike may have a flywheel weighing between 10-40 lbs depending on the intensity of the class. (valid since 2023-10-20)\n- A spinning class involves using a spinning bike that should be adjusted to fit the user. (valid since 2023-10-20)\n- A spinning class is a great way to complement a Zumba routine by offering a more intense, focused, and low-impact workout. (valid since 2023-10-20)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 41,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 139.7,
+  "total": 141.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

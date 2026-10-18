@@ -1,0 +1,103 @@
+{
+ "qid": "59524333",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "What time do I usually go to the gym?",
+ "reference": "6:00 pm",
+ "question_date": "2023-06-06 16:35",
+ "sessions": [
+  {
+   "id": "sharegpt_Clr6oyu_0",
+   "date": "2023-01-20 19:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_1",
+   "date": "2023-02-11 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_493944",
+   "date": "2023-02-26 03:13",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_NYFuCmY_0",
+   "date": "2023-03-01 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_5FHWj0a_0",
+   "date": "2023-03-18 20:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_F1pXfP0_0",
+   "date": "2023-04-18 07:42",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_150151",
+   "date": "2023-05-23 10:33",
+   "evidence": false
+  },
+  {
+   "id": "e4882e09_5",
+   "date": "2023-05-24 22:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_2",
+   "date": "2023-05-30 07:52",
+   "evidence": true
+  },
+  {
+   "id": "08921633",
+   "date": "2023-05-30 20:42",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in Scandinavian Minimalism.\nThe user recently organized their bedroom and closet.\nThey recently assembled an IKEA dresser with their brother on March 12th.\nThey plan to use woven baskets for storage in their closet.\n</human>\n\nTool results while answering:\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T16:05:19.046644+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 07:52] Tuesday afternoon at 2:00 pm is a great time slot. It's a good idea to schedule the meeting with a buffer before your gym session, so you can wrap up any remaining discussion and still have time to get ready for your workout.\\n\\nTo make the most of your meeting, I'd recommend the following:\\n\\n* Plan to keep the meeting to 60 minutes or less, assuming it's an initial meeting or a casual discussion. This will give you both a chance to chat and get to know each other without feeling rushed.\\n* Prepare an agenda or a list of topics you'd like to discuss, so you can stay focused and ensure you cover all the important points.\\n* Consider sending a brief summary or overview of the meeting to the potential client beforehand, so they know what to expect and can prepare accordingly.\\n\\nBy scheduling the meeting at 2:00 pm, you'll have a nice chunk of time to discuss the important stuff, and still have plenty of time to get to the gym by 6:00 pm.\\n\\nHow does that sound? Is there anything else you'd like to consider or prepare before the meeting?\"}, {'timestamp': '2026-10-17T16:05:19.046624+00:00', 'time_ago': '10s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 07:52] I think Tuesday afternoon at 2:00 pm could work well. I need to make sure I'm done with the meeting before I head to the gym, which is usually at 6:00 pm.\"}, {'timestamp': '2026-10-17T16:05:19.046602+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-30 07:52] With your gym commitments on Mondays, Wednesdays, and Fridays, let\\'s focus on Tuesday and Thursday as potential meeting days.\\n\\nResearch suggests that Tuesday and Thursday are actually great days for meetings, as they tend to be less busy and more productive than Mondays and Fridays. Here are some tips to consider:\\n\\n* Tuesday: Many people tend to tackle their most challenging tasks on Tuesdays, so they might be more focused and receptive to a meeting. Scheduling a meeting on Tuesday morning (around 10:00-11:30 am) can be a good time to catch people when they\\'re still energized and motivated.\\n* Thursday: Thursdays are often considered a \"get things done\" day, as people are wrapping up tasks before the weekend. Scheduling a meeting on Thursday afternoon (around 2:00-3:30 pm) can be a good time to catch people when they\\'re in a productive flow.\\n\\nConsidering your flexibility, I\\'d recommend the following time slots:\\n\\n* Tuesday: 10:00-11:30 am or 2:00-3:30 pm\\n* Thursday: 10:00-11:30 am or 2:00-3:30 pm\\n\\nKeep in mind that these are general suggestions, and the best time for the meeting ultimately depends on the potential client\\'s schedule and preferences. If possible, try to find a time that works for both of you.\\n\\nWhat do you think? Do any of these time slots stand out to you, or would you like to explore other options?'}, {'timestamp': '2026-10-17T16:05:19.046577+00:00', 'time_ago': '10s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 07:52] I'm pretty flexible, but I do have a few commitments already. I usually go to the gym on Mondays, Wednesdays, and Fridays, so I'd prefer to avoid scheduling the meeting during those times. How about we focus on Tuesday or Thursday?\"}, {'timestamp': '2026-10-17T16:04:56.294929+00:00', 'time_ago': '33s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-02-11 07:00] Todoist is a fantastic tool for task management, and setting reminders for your gym sessions is a great way to ensure you stay consistent with your fitness routine.\\n\\nHere\\'s the best way to set reminders for your gym sessions in Todoist:\\n\\n**Method 1: Recurring Task with Reminder**\\n\\n1. Create a new task in Todoist: \"Gym Session\"\\n2. Set the du",
+ "answer": "Based on our previous conversations, you typically go to the gym at 6:00 PM on Mondays, Wednesdays, and Fridays.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in Scandinavian Minimalism.\nThe user recently organized their bedroom and closet.\nThey recently assembled an IKEA dresser with their brother on March 12th.\nThey plan to use woven baskets for storage in their closet.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"gym\"})"
+  ],
+  "blocks_chars": 438
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 34.9,
+  "total": 40.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

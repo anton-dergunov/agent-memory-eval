@@ -1,0 +1,88 @@
+{
+ "qid": "10e09553",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+ "reference": "7",
+ "question_date": "2023-12-06 11:18",
+ "sessions": [
+  {
+   "id": "sharegpt_d4Csa8p_0",
+   "date": "2023-07-23 05:30",
+   "evidence": false
+  },
+  {
+   "id": "2d58d2d2",
+   "date": "2023-08-08 16:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_1",
+   "date": "2023-08-11 03:49",
+   "evidence": true
+  },
+  {
+   "id": "7d1f5395",
+   "date": "2023-08-13 10:26",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IZ5NgqD_0",
+   "date": "2023-09-20 05:22",
+   "evidence": false
+  },
+  {
+   "id": "e5f785de",
+   "date": "2023-09-22 13:37",
+   "evidence": false
+  },
+  {
+   "id": "58ab5fc5",
+   "date": "2023-10-04 13:50",
+   "evidence": false
+  },
+  {
+   "id": "238fac70_1",
+   "date": "2023-11-12 05:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_2",
+   "date": "2023-11-30 00:28",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jEOqeWh_0",
+   "date": "2023-12-01 01:05",
+   "evidence": false
+  }
+ ],
+ "context": "- User caught 7 largemouth bass during a fishing trip to Lake Michigan with Alex on July 10, 2023. (from a chat on 2023-08-11)\n- User successfully caught 9 largemouth bass with Alex at Waukegan harbor on July 22, 2023, using spinnerbaits and plastic worms. (from a chat on 2023-11-30)\n- User is planning a fishing trip to Lake Michigan, specifically targeting the Waukegan harbor area in Illinois. (from a chat on 2023-11-30)\n- Illinois Department of Natural Resources regulations for bass fishing on Lake Michigan include a daily creel limit of 5 bass (minimum 14 inches) and a closed season from May 1 to June 15. (from a chat on 2023-11-30)\n- User was advised that current water temperatures in Lake Michigan near Waukegan are 68°F-72°F and was provided with tips on structural fishing, water clarity, and retrieval variations. (from a chat on 2023-11-30)\n- User is seeking advice on effective lures for largemouth bass fishing and was recommended soft plastics (grubs, worms, lizards), crankbaits, jigs, topwater lures (frogs, poppers), spoons, and spinnerbaits. (from a chat on 2023-08-11)\n- User has recently returned to fishing and hunting and is seeking digital tools to organize trips, log catches, and track progress. (from a chat on 2023-08-11)\n- User is planning to help Alex set up additional tree stands on Alex's property. (from a chat on 2023-11-30)\n- User is experiencing difficulty waking up early enough to attend yoga classes on time and is seeking strategies to establish a consistent morning routine. (from a chat on 2023-08-08)\n- User visited New York City in May 2023 for a weekend trip with friends, where they splurged on a Michelin-starred dinner costing approximately $200 per person. (from a chat on 2023-09-22)\n- User was recommended various apps for fishing (Fishidy, Fishing Buddy, Angler's Log, Navionics) and hunting (HuntStand, OnX Hunt, Hunting Journal), as well as general outdoor apps like Gaia GPS and Cairn. (from a chat on 2023-08-11)\n- During their May 2023 trip to New York City, the user browsed luxury stores on Fifth Avenue, walked by Saks Fifth Avenue, and purchased only a few souvenirs. (from a chat on 2023-09-22)\n- User is 20 years old and planning a week-long trip to Orlando, Florida, in August 2023 to visit their paternal grandparents. (from a chat on 2023-08-13)\n- User was recommended outdoor activities in Orlando including Wekiwa Springs State Park, Lake Eola, and the Winter Park Chain of Lakes. (from a chat on 2023-08-13)\n- User was recommended picnic spots in Winter Park: Central Park, Lake Osceola Park, Ward Park, Kraft Azalea Park, and the Winter Park Chain of Lakes. (from a chat on 2023-08-13)\n- User has a friend with a dog named Bella, and the two dogs had a successful playdate around September 27, 2023. (from a chat on 2023-10-04)\n- User was provided with a list of resources for learning deer hunting strategies, including websites (Deer & Deer Hunting, Field & Stream, QDMA), YouTube channels (The Hunting Beast, Dr. Grant Woods), and books by John E. Phillips and Dave Henderson. (from a chat on 2023-08-11)\n- User has a cat named Luna and has committed to brushing her teeth daily. (from a chat on 2023-10-04)\n- User is planning to purchase a tree stand for deer hunting and was recommended the Summit Treestands Viper SD (climbing), Muddy Outdoors The Nexus (hang-on), and Millennium Treestands M150 (hang-on). (from a chat on 2023-08-11)\n- User was recommended several dog-friendly activities for playdates with Rocky and Bella, including hiking, dog parks, beach days, backyard obstacle courses, and indoor play centers. (from a chat on 2023-10-04)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   The user went on a fishing trip to Lake Michigan with Alex on July 10, 2023.\n    *   The user went on a fishing trip to Waukegan harbor (Lake Michigan) with Alex on July 22, 2023.\n    *   The record for the July 10, 2023, trip states the user caught 7 largemouth bass.\n    *   The record for the July 22, 2023, trip states the user caught 9 largemouth bass.\n\n2.  **Reason over the information:**\n    *   The question asks for the number of bass caught on the trip *earlier* than the July 22, 2023, trip.\n    *   Comparing the dates, July 10, 2023, is the earlier date.\n    *   According to the records, the user caught 7 largemouth bass on the July 10, 2023, trip.\n\n**Answer:** You caught 7 largemouth bass on the earlier fishing trip to Lake Michigan on July 10, 2023.",
+ "dump": "- User was recommended outdoor activities in Orlando including Wekiwa Springs State Park, Lake Eola, and the Winter Park Chain of Lakes. (session 2023-08-13)\n- User was recommended picnic spots in Winter Park: Central Park, Lake Osceola Park, Ward Park, Kraft Azalea Park, and the Winter Park Chain of Lakes. (session 2023-08-13)\n- User requested a revised paneer bhurji recipe scaled for 400g of paneer, which includes 2 onions, 2 tomatoes, 2 green chilies, 2 teaspoons each of ginger and garlic paste, and 4 tablespoons of oil. (session 2023-09-20)\n- User visited New York City in May 2023 for a weekend trip with friends, where they splurged on a Michelin-starred dinner costing approximately $200 per person. (session 2023-09-22)\n- During their May 2023 trip to New York City, the user browsed luxury stores on Fifth Avenue, walked by Saks Fifth Avenue, and purchased only a few souvenirs. (session 2023-09-22)\n- User successfully caught 9 largemouth bass with Alex at Waukegan harbor on July 22, 2023, using spinnerbaits and plastic worms. (session 2023-11-30)\n- User has a cat named Luna and has committed to brushing her teeth daily. (session 2023-10-04)\n- The #ForeverGuilty campaign concept focuses on magnetism and self-love, encouraging people to 'come out of the shadows' and be proud of their identity, with content shot in unexpected locations like vintage stores or underground spots. (session 2023-07-23)\n- User is planning a fishing trip to Lake Michigan, specifically targeting the Waukegan harbor area in Illinois. (session 2023-11-30)\n- User purchased a 50-inch 4K TV from Best Buy on Black Friday for $350. (session 2023-11-12)\n- User was provided with a guide for setting up tree stands, emphasizing tree selection (8-10 inch diameter), safety harnesses, lifelines, and concealment techniques. (session 2023-11-30)\n- User is interested in the historical debate regarding potential cultural contact or influence between ancient Egypt and the Olmec civilization of Mexico. (session 2023-12-01)\n- User is experiencing difficulty waking up early enough to attend yoga classes on time and is seeking strategies to establish a consistent morning routine. (session 2023-08-08)\n- Illinois Department of Natural Resources regulations for bass fishing on Lake Michigan include a daily creel limit of 5 bass (minimum 14 inches) and a closed season from May 1 to June 15. (session 2023-11-30)\n- User established a litter box cleaning schedule for Luna: scooping solid waste daily and changing the litter completely every 7-10 days. (session 2023-10-04)\n- User is actively trying to cut back on luxury shopping and be more practical with their spending, despite feeling they deserve to treat themselves after starting a new job in March 2023. (session 2023-09-22)\n- User is enjoying their new job started in March 2023, finding it an adjustment but appreciating the new challenges, responsibilities, and opportunities to meet new people. (session 2023-09-22)\n- User correctly identified that ancient Egypt (emerging around 3100 BCE) is significantly older than the Olmec civilization (approximately 1400 BCE to 400 BCE). (session 2023-12-01)\n- User was recommended several dog-friendly activities for playdates with Rocky and Bella, including hiking, dog parks, beach days, backyard obstacle courses, and indoor play centers. (session 2023-10-04)\n- User was recommended cultural attractions in Orlando including the Orlando Museum of Art, Albin Polasek Museum & Sculpture Gardens, and the Cornell Fine Arts Museum. (session 2023-08-13)\n- User is 20 years old and planning a week-long trip to Orlando, Florida, in August 2023 to visit their paternal grandparents. (session 2023-08-13)\n- User is interested in pursuing a yoga teacher training program in the future to deepen their practice and share their passion for yoga with others. (session 2023-08-08)\n- User was provided with five Instagram caption options for the Gucci Guilty campaign, all emphasizing the #ForeverGuilty theme, self-love, and the fragrance's bold, spicy profile. (session 2023-07-23)\n- User purchased several video games from GameStop on Black Friday, including the new Call of Duty game at a 20% discount. (session 2023-11-12)\n- User's maternal grandparents celebrated their 50th wedding anniversary on June 17, 2023. (session 2023-08-13)\n- User is planning a surprise birthday brunch for their mother in July and is considering a new bistro that recently opened in their hometown. (session 2023-08-13)\n- User caught 7 largemouth bass during a fishing trip to Lake Michigan with Alex on July 10, 2023. (session 2023-08-11)\n- User is planning to help Alex set up additional tree stands on Alex's property. (session 2023-11-30)\n- User was recommended Cuban restaurants in Orlando: Café Cuba, Tropical Café, Pio Pio, and Havana Grill. (session 2023-08-13)\n- User was provided with suggestions for organizing and labeling multiple gaming stations, including using color-coding, clear signage, and strategic layout planning. (session 2023-11-12)\n- User was recommended online shopping tools and apps to help stay on budget: Rakuten, RetailMeNot, Honey, CamelCamelCamel, Mint, and ThredUp. (session 2023-09-22)\n- User's paternal grandparents in Orlando enjoy outdoor activities, specifically walks and picnics. (session 2023-08-13)\n- User was recommended various deer calls for hunting season, including bleat calls, doe estrus calls, buck grunt calls, rattle calls, and snort-wheeze calls, with advice to use them sparingly. (session 2023-11-30)\n- User has recently returned to fishing and hunting and is seeking digital tools to organize trips, log catches, and track progress. (session 2023-08-11)\n- User has a puppy named Rocky who attends training classes on Saturday mornings. (session 2023-10-04)\n- User is a male model working on a promotional campaign for the Gucci Guilty fragrance collection. (session 2023-07-23)\n- User was recommended NYC restaurants including Carbone, Peter Luger Steak House, Russ & Daughters Cafe, L'Artusi, Attaboy, Xi'an Famous Foods, Serendipity 3, Magnolia Bakery, and Eileen's Special Cheesecake. (session 2023-09-22)\n- User was provided with tips to optimize their gaming experience on their new 4K TV, such as enabling Game Mode, using HDMI 2.1, and adjusting console video output settings. (session 2023-11-12)\n- User has had positive experiences with Neutrogena and CeraVe skincare products and is interested in exploring Korean skincare brands like Innisfree, Benton, CosRX, and Laneige. (session 2023-09-22)\n- User has a friend with a dog named Bella, and the two dogs had a successful playdate around September 27, 2023. (session 2023-10-04)\n- User decided to use the Habitica app to track daily tasks like brushing Luna's teeth and cleaning her litter box. (session 2023-10-04)\n- User was provided with general calibration settings for their new 4K TV, including picture mode, backlight, color temperature, and specific settings for brightness, contrast, and sharpness. (session 2023-11-12)\n- User was provided with recommendations for creating an immersive movie night experience, including TV settings, sound modes, and room preparation tips. (session 2023-11-12)\n- User was recommended budget-friendly skincare brands similar to La Mer, including Neutrogena, CeraVe, L'Oréal Paris, Olay, The Ordinary, Dr. Jart+, and Pixi. (session 2023-09-22)\n- User was provided with a list of resources for learning deer hunting strategies, including websites (Deer & Deer Hunting, Field & Stream, QDMA), YouTube channels (The Hunting Beast, Dr. Grant Woods), and books by John E. Phillips and Dave Henderson. (session 2023-08-11)\n- User is seeking advice on effective lures for largemouth bass fishing and was recommended soft plastics (grubs, worms, lizards), crankbaits, jigs, topwater lures (frogs, poppers), spoons, and spinnerbaits. (session 2023-08-11)\n- User was recommended various apps for fishing (Fishidy, Fishing Buddy, Angler's Log, Navionics) and hunting (HuntStand, OnX Hunt, Hunting Journal), as well as general outdoor apps like Gaia GPS and Cairn. (session 2023-08-11)\n- User requested a recipe for paneer bhurji using store-bought paneer and was provided with a step-by-step guide using 1 cup of crumbled paneer. (session 2023-09-20)\n- User is planning to purchase a tree stand for deer hunting and was recommended the Summit Treestands Viper SD (climbing), Muddy Outdoors The Nexus (hang-on), and Millennium Treestands M150 (hang-on). (session 2023-08-11)\n- Gucci Guilty Pour Homme Eau de Parfum is a Woody Aromatic Spicy fragrance featuring top notes of Rose and Chili Pepper, heart notes of Orange Blossom Absolute, Neroli, and French Lavender, and a base of Patchouli and Cedarwood. (session 2023-07-23)\n- User has been practicing Hatha yoga regularly for about 6 weeks and enjoys it, and is now looking to explore other styles like Yin, Vinyasa, Power, Iyengar, Bikram, Anusara, Kundalini, and Sivananda to improve flexibility and balance. (session 2023-08-08)\n- User was advised that current water temperatures in Lake Michigan near Waukegan are 68°F-72°F and was provided with tips on structural fishing, water clarity, and retrieval variations. (session 2023-11-30)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 52,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 38.3,
+  "total": 64.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

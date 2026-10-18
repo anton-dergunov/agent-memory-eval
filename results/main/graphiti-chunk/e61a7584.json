@@ -1,0 +1,102 @@
+{
+ "qid": "e61a7584",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How long have I had my cat, Luna?",
+ "reference": "9 months",
+ "question_date": "2023-11-30 12:46",
+ "sessions": [
+  {
+   "id": "21c6c41d",
+   "date": "2023-07-27 04:05",
+   "evidence": false
+  },
+  {
+   "id": "6a4b4b7e_2",
+   "date": "2023-07-30 21:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_f25c32f5_1",
+   "date": "2023-08-11 16:53",
+   "evidence": true
+  },
+  {
+   "id": "18a06652_4",
+   "date": "2023-09-12 00:49",
+   "evidence": false
+  },
+  {
+   "id": "e1416816_2",
+   "date": "2023-09-13 13:57",
+   "evidence": false
+  },
+  {
+   "id": "a59a9a13",
+   "date": "2023-11-27 16:30",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_124247",
+   "date": "2023-11-30 02:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_f25c32f5_2",
+   "date": "2023-11-30 10:31",
+   "evidence": true
+  },
+  {
+   "id": "40f07f4a_2",
+   "date": "2023-11-30 13:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Ee752j6_0",
+   "date": "2023-11-30 19:43",
+   "evidence": false
+  }
+ ],
+ "context": "- The user cares for the health and weight of the cat, Luna. (valid since 2023-08-11)\n- The user feeds the cat, Luna, freeze-dried salmon treats. (valid since 2023-08-11)\n- The user brushes the cat, Luna, daily with a new brush. (valid since 2023-08-11)\n- Luna is scheduled for an appointment next Friday, August 18, 2023, to get a microchip (valid since 2023-08-11)\n- Luna will play with the laser pointer (valid since 2023-08-11)\n- Luna will play with the feather teaser (valid since 2023-08-11)\n- Luna is planned to use the Petcube Interactive Wall Toy for play. (valid since 2023-11-30)\n- The assistant recommends registering Luna with the International Committee for Animal Recording for pet recovery services (valid since 2023-08-11)\n- The assistant recommends the Petcube Bites 2 to the user for keeping an eye on Luna. (valid since 2023-11-30)\n- The assistant recommends registering Luna with the American Animal Hospital Association for pet recovery services (valid since 2023-08-11)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   Reviewing the provided history chats, there are entries dated 2023-08-11 and 2023-11-30.\n*   The earliest record regarding Luna is dated 2023-08-11.\n*   There is no information provided in the history chats regarding the date the user first acquired or adopted Luna.\n\n**Step 2: Reason over the information**\n*   While the history shows that the user has been interacting with the assistant about Luna since at least August 11, 2023, the records do not state the specific date Luna joined the user's household.\n*   Because the start date of ownership is not documented in the provided facts, it is impossible to calculate the exact duration of time the user has had the cat.\n\n**Answer:**\nBased on the provided history, there is no information regarding the date you acquired Luna. Therefore, I cannot determine how long you have had her.",
+ "dump": "- The user attended a lecture series on sustainable living at the library in January. (valid since 2023-01-01)\n- The user sells jewelry at their market events. (valid since 2023-07-27)\n- The user is planning to participate in a craft fair taking place next weekend. (valid since 2023-07-27)\n- The user will promote their handmade candles at a craft fair occurring next weekend. (valid since 2023-07-27)\n- The user will promote their soaps at a craft fair occurring next weekend. (valid since 2023-07-27)\n- The user will use Instagram to promote their handmade candles and soaps for an upcoming craft fair. (valid since 2023-07-27)\n- The assistant recommends using Instagram to promote handmade candles and handmade soaps for the upcoming craft fair. (valid since 2023-07-27)\n- The craft fair will feature the seller's handmade candles. (valid since 2023-07-27)\n- The craft fair will feature the seller's handmade soaps. (valid since 2023-07-27)\n- The neighbor received a gift of fresh fruit, which was part of a $15 get-well gift from the supermarket. (valid since 2023-07-30)\n- The neighbor received a gift of flowers, which was part of a $15 get-well gift from the supermarket. (valid since 2023-07-30)\n- Fresh fruit was purchased from the supermarket as part of a $15 get-well gift. (valid since 2023-07-30)\n- Flowers were purchased from the supermarket as part of a $15 get-well gift. (valid since 2023-07-30)\n- The user cares for the health and weight of the cat, Luna. (valid since 2023-08-11)\n- The user brushes the cat, Luna, daily with a new brush. (valid since 2023-08-11)\n- The user feeds the cat, Luna, freeze-dried salmon treats. (valid since 2023-08-11)\n- Luna will play with the laser pointer (valid since 2023-08-11)\n- Luna will play with the feather teaser (valid since 2023-08-11)\n- Luna is scheduled for an appointment next Friday, August 18, 2023, to get a microchip (valid since 2023-08-11)\n- The assistant recommends registering Luna with the International Committee for Animal Recording for pet recovery services (valid since 2023-08-11)\n- The assistant recommends registering Luna with the American Animal Hospital Association for pet recovery services (valid since 2023-08-11)\n- The user is discussing strategies for creating a free resource or guide to help eco-friendly and sustainable product businesses improve their online marketing with the assistant. (valid since 2023-09-12)\n- The assistant provides advice to the user on how to make their educational resource for sustainable businesses more effective and accessible. (valid since 2023-09-12)\n- The assistant advises the user to create a UGC section on their blog to encourage engagement and community building. (valid since 2023-09-13)\n- The user plans to create a UGC section as part of their blog. (valid since 2023-09-13)\n- The user plans to create a simple opt-in form on their blog. (valid since 2023-09-13)\n- The user is considering creating a dedicated email sequence or newsletter for subscribers who have downloaded the vegan meal planning template. (valid since 2023-09-13)\n- The user is considering creating a dedicated email sequence or newsletter for subscribers who have downloaded the vegan meal planning template. (valid since 2023-09-13)\n- The user plans to offer a vegan meal planning template as a free resource on their blog. (valid since 2023-09-13)\n- The assistant advises the user to create a dedicated email sequence or newsletter for subscribers who have downloaded the vegan meal planning template. (valid since 2023-09-13)\n- The user is targeting the vegan meal planning niche through their blog and email communications. (valid since 2023-09-13)\n- The user is planning to start a small herb garden in pots on their patio. (valid since 2023-11-27)\n- The user recently obtained hydrangea cuttings from their neighbor's garden. (valid since 2023-11-27)\n- The hydrangea cuttings originated from the user's neighbor's garden. (valid since 2023-11-27)\n- The user is saving kitchen food scraps in a bucket in the kitchen. (valid since 2023-11-27)\n- The user is saving coffee grounds in a bucket in the kitchen. (valid since 2023-11-27)\n- The user plans to add collected food scraps and coffee grounds to the compost pile soon. (valid since 2023-11-27)\n- The user plans to turn the compost pile this weekend. (valid since 2023-11-27)\n- The user plans to add food scraps to the compost pile this weekend. (valid since 2023-11-27)\n- The user plans to add coffee grounds to the compost pile this weekend. (valid since 2023-11-27)\n- The user utilizes a fitness app to track progress and set goals. (valid since 2023-11-30)\n- The user employs a smartwatch to monitor fitness progress and goal setting. (valid since 2023-11-30)\n- The assistant recommends the Furbo Dog Camera to the user for keeping an eye on Luna. (valid since 2023-11-30)\n- The assistant recommends the Petcube Bites 2 to the user for keeping an eye on Luna. (valid since 2023-11-30)\n- The assistant recommends the Petzi Treat Cam to the user as a camera with a treat dispenser. (valid since 2023-11-30)\n- Luna is planned to use the Petcube Interactive Wall Toy for play. (valid since 2023-11-30)\n- assistant explains that bias in algorithms within AI-powered adaptive learning systems can perpetuate existing educational inequalities related to socioeconomic status or cultural background (valid since 2023-11-30)\n- The assistant explains to the user how over-reliance on adaptive learning systems technology can lead to a lack of human interaction and social skills development. (valid since 2023-11-30)\n- The user asks the assistant for an elaboration on how adaptive learning systems may exacerbate existing educational inequalities regarding access to devices, internet connectivity, and digital literacy. (valid since 2023-11-30)\n- assistant provides the user with information about the importance of teacher training and support for implementing adaptive learning systems (valid since 2023-11-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 50,
+  "invalidated": 0,
+  "episodes": 25,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 132.5,
+  "total": 134.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

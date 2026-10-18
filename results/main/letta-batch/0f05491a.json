@@ -1,0 +1,104 @@
+{
+ "qid": "0f05491a",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+ "reference": 120,
+ "question_date": "2023-08-01 22:29",
+ "sessions": [
+  {
+   "id": "answer_d6d2eba8_1",
+   "date": "2023-07-11 00:07",
+   "evidence": true
+  },
+  {
+   "id": "1b205d70_2",
+   "date": "2023-07-11 13:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_cfz0d02_36",
+   "date": "2023-07-14 13:56",
+   "evidence": false
+  },
+  {
+   "id": "057cbbc4_1",
+   "date": "2023-07-17 00:41",
+   "evidence": false
+  },
+  {
+   "id": "6024b009_1",
+   "date": "2023-07-20 12:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_224967",
+   "date": "2023-07-22 01:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_447033",
+   "date": "2023-07-23 18:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_rDNsXPP_0",
+   "date": "2023-07-29 18:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6d2eba8_2",
+   "date": "2023-07-30 02:08",
+   "evidence": true
+  },
+  {
+   "id": "ca93550b_1",
+   "date": "2023-08-01 07:00",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "As of my last update, Starbucks actually discontinued the \"Gold\" status tier in their rewards program several years ago. \n\nUnder the current Starbucks Rewards program, you generally earn \"Stars\" for your purchases which can be redeemed for various rewards (like free drinks, food, or merchandise) at different star levels, but there is no longer a separate \"Gold\" status tier to achieve. \n\nIf you'd like, I can help you check your current balance or look up the current reward tiers if you have specific questions about what you can redeem!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Starbucks Rewards gold level stars\"})",
+   "conversation_search({\"query\": \"Starbucks Rewards gold\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 29.2,
+  "total": 36.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

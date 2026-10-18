@@ -1,0 +1,102 @@
+{
+ "qid": "07741c44",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Where do I initially keep my old sneakers?",
+ "reference": "under my bed",
+ "question_date": "2023-11-30 23:52",
+ "sessions": [
+  {
+   "id": "ultrachat_319134",
+   "date": "2023-07-25 07:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_1",
+   "date": "2023-08-11 02:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_113757",
+   "date": "2023-08-20 06:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_CEWG2XW_0",
+   "date": "2023-09-06 08:19",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mUiNDhv_0",
+   "date": "2023-10-10 09:54",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_200168",
+   "date": "2023-10-26 19:12",
+   "evidence": false
+  },
+  {
+   "id": "aa71db11_1",
+   "date": "2023-11-11 14:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_2",
+   "date": "2023-11-30 11:44",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_370246",
+   "date": "2023-11-30 16:06",
+   "evidence": false
+  },
+  {
+   "id": "01d22d4d",
+   "date": "2023-11-30 23:04",
+   "evidence": false
+  }
+ ],
+ "context": "- The assistant provides tips on how to keep sneakers clean and fresh while they are being stored. (valid since 2023-11-30)\n- The user is planning to store old sneakers in a shoe rack this weekend, specifically by December 3, 2023. (valid since 2023-11-30)\n- The user plans to organize their shoe collection by type, grouping items like boots and sneakers together. (valid since 2023-08-11)\n- The user plans to donate their old dress shoes to the local charity thrift store this Saturday. (valid since 2023-07-25)\n- The user is planning to take an inventory of their shoe collection to see if there are any pairs to get rid of. (valid since 2023-08-11)\n- The user plans to donate old dress shoes to a local charity thrift store on Saturday, December 2, 2023. (valid since 2023-11-30)\n- The assistant recommends the podcast How I Built This to the user interested in entrepreneurship and success stories behind companies (valid since 2023-11-11)\n- The assistant recommends using a fisheye lens to provide a unique perspective and dramatic effect when photographing old buildings. (valid since 2023-09-06)\n- The assistant advises setting up a camera in a fixed position to create a time-lapse video of an old building. (valid since 2023-09-06)\n- The assistant recommends Sanuk as a durable sandal brand. (valid since 2023-11-30)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The user is planning to store old sneakers in a shoe rack this weekend, specifically by December 3, 2023. (Valid since 2023-11-30)\n\n**2. Reason over the information:**\n*   The user has explicitly stated their plan regarding the storage of their old sneakers.\n*   According to the extracted fact, the designated location for these sneakers is a \"shoe rack.\"\n\n**Answer:**\nYou plan to keep your old sneakers in a shoe rack.",
+ "dump": "- The user questions whether the portrayal of women in The Good Shepherd was accurate, noting a perception that female characters were used as props for the male characters. (valid since 2023-07-25)\n- The Good Shepherd reflects the social and cultural norms of the CIA during the Cold War era, depicting a world that was predominantly male and where women held subordinate roles. (valid since 2023-07-25)\n- The user plans to donate their old dress shoes to the local charity thrift store this Saturday. (valid since 2023-07-25)\n- The user is planning to take an inventory of their shoe collection to see if there are any pairs to get rid of. (valid since 2023-08-11)\n- The user plans to organize their shoe collection by type, grouping items like boots and sneakers together. (valid since 2023-08-11)\n- Mario is a video game franchise developed by Nintendo. (valid since 2023-08-20)\n- The Mario franchise by Nintendo has sold over 689 million copies worldwide as of May 2021. (valid since 2023-08-20)\n- The Call of Duty franchise has sold over 400 million copies worldwide as of May 2021. (valid since 2023-08-20)\n- The Grand Theft Auto franchise has sold over 345 million copies worldwide as of May 2021. (valid since 2023-08-20)\n- The assistant recommends using a wide-angle lens to capture more of a building and its surroundings in a single shot. (valid since 2023-09-06)\n- The assistant suggests creating a time-lapse video by setting up a camera in a fixed position to photograph a building over time. (valid since 2023-09-06)\n- The assistant advises setting up a camera in a fixed position to create a time-lapse video of an old building. (valid since 2023-09-06)\n- The assistant recommends using a fisheye lens to provide a unique perspective and dramatic effect when photographing old buildings. (valid since 2023-09-06)\n- Gail Saltz mentions that researchers use functional MRI to study brain activity while participants recall passionate or romantic love (valid since 2023-10-10)\n- Helen Fisher and Ted Fischer provide insights on romantic love in the script (valid since 2023-10-10)\n- Gail Saltz uses the example of snorting cocaine to explain the neurotransmitter dopamine (valid since 2023-10-10)\n- Martial advocated for social justice issues including immigrant rights, police brutality, and socioeconomic inequality in France. (valid since 2023-10-26)\n- Emmanuel Macron announced measures in France such as increased use of body cameras and training on non-discriminatory practices for police officers following 2020 protests. (valid since 2023-10-26)\n- The assistant recommends the podcast How I Built This to the user interested in entrepreneurship and success stories behind companies (valid since 2023-11-11)\n- Brian Chesky turned the idea of renting air mattresses into the global company Airbnb. (valid since 2023-11-11)\n- Joe Gebbia turned the idea of renting air mattresses into the global company Airbnb. (valid since 2023-11-11)\n- Guy Raz interviews the founders of Airbnb regarding the company's early days and struggles. (valid since 2023-11-11)\n- The assistant provides tips on how to keep sneakers clean and fresh while they are being stored. (valid since 2023-11-30)\n- The user plans to donate old dress shoes to a local charity thrift store on Saturday, December 2, 2023. (valid since 2023-11-30)\n- The user is planning to store old sneakers in a shoe rack this weekend, specifically by December 3, 2023. (valid since 2023-11-30)\n- The assistant recommends Tevas as a durable sandal brand. (valid since 2023-11-30)\n- The assistant recommends Birkenstock as a durable sandal brand. (valid since 2023-11-30)\n- The assistant recommends Sanuk as a durable sandal brand. (valid since 2023-11-30)\n- The assistant recommends Merrell as a durable sandal brand. (valid since 2023-11-30)\n- The assistant recommends Keen as a durable sandal brand. (valid since 2023-11-30)\n- The assistant recommends REI for purchasing durable sandals. (valid since 2023-11-30)\n- The assistant recommends DSW for purchasing durable sandals. (valid since 2023-11-30)\n- The assistant recommends Zappos for purchasing durable sandals. (valid since 2023-11-30)\n- The assistant recommends Amazon for purchasing durable sandals. (valid since 2023-11-30)\n- The Russian Revolution was influenced by the ideology of Marxism. (valid since 2023-11-30)\n- The Russian Revolution was influenced by the ideology of Leninism. (valid since 2023-11-30)\n- The Russian Revolution was influenced by the ideas and traditions of the Narodniks. (valid since 2023-11-30)\n- The Russian Revolution was influenced by the ideas and traditions of the Bolsheviks. (valid since 2023-11-30)\n- The assistant identified the Arab Spring as a recent revolutionary movement. (valid since 2023-11-30)\n- The assistant identified the Occupy Wall Street movement as a recent revolutionary movement. (valid since 2023-11-30)\n- The assistant identified the Yellow vest movement in France as a recent revolutionary movement. (valid since 2023-11-30)\n- The user owns and has been riding a road bike. (valid since 2023-11-30)\n- The user is considering upgrading the wheels of their road bike to carbon fiber road bike wheels for better speed and performance. (valid since 2023-11-30)\n- The assistant encourages the user to participate in the local century ride event. (valid since 2023-11-30)\n- The user has been putting in miles on the road bike to train for the century ride event. (valid since 2023-11-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 45,
+  "invalidated": 0,
+  "episodes": 16,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 118.5,
+  "total": 119.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

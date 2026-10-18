@@ -1,0 +1,134 @@
+{
+ "qid": "dad224aa",
+ "arm": "letta",
+ "split": "main",
+ "question": "What time do I wake up on Saturday mornings?",
+ "reference": "7:30 am",
+ "question_date": "2023-06-24 03:58",
+ "sessions": [
+  {
+   "id": "ultrachat_236936",
+   "date": "2023-05-23 09:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_1",
+   "date": "2023-05-23 14:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_Jb45xGp_0",
+   "date": "2023-05-23 17:54",
+   "evidence": false
+  },
+  {
+   "id": "91e581ad_1",
+   "date": "2023-05-25 20:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_13",
+   "date": "2023-05-25 20:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2Qvu6BM_34",
+   "date": "2023-05-26 15:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_2",
+   "date": "2023-05-27 02:31",
+   "evidence": true
+  },
+  {
+   "id": "3dcbca49",
+   "date": "2023-05-27 05:24",
+   "evidence": false
+  },
+  {
+   "id": "496a03ee",
+   "date": "2023-05-27 07:18",
+   "evidence": false
+  },
+  {
+   "id": "b971ed75_3",
+   "date": "2023-05-27 21:55",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in entrepreneurship and wants to build a habit of reading before bed.\nThe user has a refined taste in Northern Rhône wines, specifically Côtes-Rôtie, Hermitage, and Crozes-Hermitage, and is willing to spend up to $300 per bottle.\nThe user also has a strong interest in Bordeaux wines, in addition to their interest in Northern Rhône and Napa.\nThe user is looking for high-quality Bordeaux wine recommendations under $300 that pair well with Chinese food.\nThe user is interested in older Bordeaux vintages (1995-2008) for their wine collection/dinner pairing.\nThe user wants a vintage breakdown (1995-2008) for specific Bordeaux chateaux: Léoville Barton, Montrose, Lynch-Bages, and Smith Haut Lafitte.\nThe user is interested in high-impact copywriting and specifically requested to integrate the \"21st-century life skills most needed today\" into a persuasive marketing message for a certification program. The key skills to include are: Critical Thinking, Complex Problem Solving, Emotional Intelligence, Digital Fluency, and Adaptability.\nThe user requested a breakdown of life skills in bulleted format, specifically categorized into 'Work', 'Life', and 'Technical' skills for three distinct personas: a new tradesperson, an entrepreneur, and a leader.\nThe user is currently watching 'The Umbrella Academy' and has a good grasp on following complex storylines.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "I'm sorry, I don't seem to have a record of when you typically wake up on Saturday mornings in our conversation history. \n\nIf you'd like, you can tell me, and I'd be happy to keep note of it for you!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in entrepreneurship and wants to build a habit of reading before bed.\nThe user has a refined taste in Northern Rhône wines, specifically Côtes-Rôtie, Hermitage, and Crozes-Hermitage, and is willing to spend up to $300 per bottle.\nThe user also has a strong interest in Bordeaux wines, in addition to their interest in Northern Rhône and Napa.\nThe user is looking for high-quality Bordeaux wine recommendations under $300 that pair well with Chinese food.\nThe user is interested in older Bordeaux vintages (1995-2008) for their wine collection/dinner pairing.\nThe user wants a vintage breakdown (1995-2008) for specific Bordeaux chateaux: Léoville Barton, Montrose, Lynch-Bages, and Smith Haut Lafitte.\nThe user is interested in high-impact copywriting and specifically requested to integrate the \"21st-century life skills most needed today\" into a persuasive marketing message for a certification program. The key skills to include are: Critical Thinking, Complex Problem Solving, Emotional Intelligence, Digital Fluency, and Adaptability.\nThe user requested a breakdown of life skills in bulleted format, specifically categorized into 'Work', 'Life', and 'Technical' skills for three distinct personas: a new tradesperson, an entrepreneur, and a leader.\nThe user is currently watching 'The Umbrella Academy' and has a good grasp on following complex storylines.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"wake up Saturday morning\"})",
+   "conversation_search({\"query\": \"wake up time\"})"
+  ],
+  "blocks_chars": 1585,
+  "write_steps": 60,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 428.7,
+  "total": 437.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

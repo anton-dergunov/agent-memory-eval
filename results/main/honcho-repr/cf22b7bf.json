@@ -1,0 +1,96 @@
+{
+ "qid": "cf22b7bf",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How much weight have I lost since I started going to the gym consistently?",
+ "reference": "10 pounds",
+ "question_date": "2023-06-23 03:15",
+ "sessions": [
+  {
+   "id": "ultrachat_345143",
+   "date": "2023-04-23 18:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_VhAV1pG_0",
+   "date": "2023-05-08 09:19",
+   "evidence": false
+  },
+  {
+   "id": "c8fcdf5a_1",
+   "date": "2023-05-09 21:19",
+   "evidence": false
+  },
+  {
+   "id": "457e26bf",
+   "date": "2023-05-18 20:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_ae3a122b_1",
+   "date": "2023-05-21 12:29",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_324101",
+   "date": "2023-06-08 01:43",
+   "evidence": false
+  },
+  {
+   "id": "8765ab16_2",
+   "date": "2023-06-10 06:02",
+   "evidence": false
+  },
+  {
+   "id": "f906baa7_1",
+   "date": "2023-06-14 15:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_ae3a122b_2",
+   "date": "2023-06-21 05:37",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_130544",
+   "date": "2023-06-21 08:33",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-21 12:31:00] user has burned an average of 2500 calories per week.\n[2023-05-21 12:33:00] user is monitoring calorie burn, distance, and weight loss.\n[2023-05-21 12:33:00] user is tracking progress using a fitness app.\n[2023-05-21 12:37:00] user is working towards a goal weight to be reached by the end of the summer.\n[2023-05-21 12:37:00] user has lost 5 pounds in the month leading up to 2023-05-21.\n[2023-06-21 05:39:00] user has been attending the gym consistently for 3 months.\n[2023-06-21 05:39:00] user has lost 10 pounds since starting to go to the gym 3 months ago.\n[2023-06-21 05:43:00] user wants to perform exercises that target the obliques.\n[2023-06-21 05:45:00] user is trying to increase their flexibility, specifically in their hamstrings and hip flexors.\n[2023-06-21 05:45:00] user intends to try some of the suggested exercises to target their obliques.\n[2023-06-21 05:47:00] user performs yoga and Pilates.\n[2023-06-21 05:47:00] user identifies a need to be more consistent with practicing yoga and Pilates.\n[2023-06-21 08:39:00] user is interested in learning if the Royal Institute of Technology (KTH) has received awards or recognition for its sustainability efforts.\n[2023-06-21 08:39:00] user is interested in the Royal Institute of Technology (KTH) and its efforts to remain relevant and competitive in the tech landscape.\n[2023-06-21 08:39:00] user is interested in the sustainability partnerships the Royal Institute of Technology (KTH) has established with companies and institutions.\n[2023-06-21 08:39:00] user is interested in learning about the specific research centers established by the Royal Institute of Technology (KTH).\n[2023-06-21 08:45:00] user is curious about how KTH ensures its sustainability initiatives make a tangible impact.\n[2023-06-21 08:45:00] user is impressed by universities that take sustainability seriously.\n[2023-06-21 08:45:00] user wants to know if KTH has plans to expand its sustainability partnerships globally.\n[2023-06-21 08:45:00] user is impressed by the sustainability efforts of KTH.\n[2023-06-21 08:45:00] user is asking for examples of other universities that are leading the way in sustainability like KTH.\n\n## Deductive Observations\n\n[2023-06-21 08:45:00] user values sustainability in academic and research institutions.\n   Premises:\n   - user is impressed by the sustainability efforts of KTH.\n   - user is impressed by universities that take sustainability seriously.\n\n[2023-06-21 08:45:00] user is engaged in a regular fitness routine aimed at weight loss, core strength, and flexibility.\n   Premises:\n   - user has been attending the gym consistently for 3 months.\n   - user has lost 10 pounds since starting to go to the gym 3 months ago.\n   - user has been performing planks to strengthen their core.\n   - user has been performing Russian twists to strengthen their core.\n   - user is trying to increase their flexibility, specifically in their hamstrings and hip flexors.\n\n\n## Inductive Observations\n\n **Pattern** [high]: user has a strong and consistent interest in institutional sustainability initiatives, specifically those related to KTH.\n   **Type**: preference\n   **Sources**:\n   - user is curious about how KTH ensures its sustainability initiatives make a tangible impact.\n   - user wants to know if KTH has plans to expand its sustainability partnerships globally.\n   - user is asking for examples of other universities that are leading the way in sustainability like KTH.\n   - user is impressed by universities that take sustainability seriously.\n   - user is impressed by the sustainability efforts of KTH.\n   - ... and 2 more\n\n **Pattern** [medium]: user is proactively engaged in a structured, long-term fitness regimen focused on physical health improvements like core strength, flexibility, and weight management.\n   **Type**: behavior\n   **Sources**:\n   - user has lost 10 pounds since starting to go to the gym 3 months ago.\n   - user has been attending the gym consistently for 3 months.\n   - user has been performing Russian twists to strengthen their core.\n   - user has been performing planks to strengthen their core.\n   - user is trying to increase their flexibility, specifically in their hamstrings and hip flexors.\n\n",
+ "answer": "To answer your question, I will follow these steps:\n\n**Step 1: Extract relevant information**\n*   From the observation dated [2023-06-21 05:39:00]: \"user has been attending the gym consistently for 3 months.\"\n*   From the same observation [2023-06-21 05:39:00]: \"user has lost 10 pounds since starting to go to the gym 3 months ago.\"\n\n**Step 2: Reason over the information**\n*   The user explicitly states that they have been attending the gym consistently for 3 months.\n*   The user explicitly states that the total weight loss achieved during that specific 3-month period of consistent gym attendance is 10 pounds.\n\n**Answer:**\nYou have lost 10 pounds since you started going to the gym consistently 3 months ago.",
+ "dump": "- [explicit] user intends to incorporate Pallof Press and Bird Dog into their workout routine.\n- [explicit] user has burned an average of 2500 calories per week.\n- [explicit] user participates in outdoor activities.\n- [explicit] user is a beginner at running.\n- [explicit] user performs cardio at the gym.\n- [explicit] user aims to run a 10K by the end of the summer.\n- [explicit] user can dedicate 4 to 5 hours per week to training.\n- [explicit] user is planning a workout routine for the month following 2023-05-21.\n- [explicit] user goes on 30-minute walks 3 times a week during lunch breaks.\n- [explicit] user is tracking progress using a fitness app.\n- [explicit] user is concerned about the sudden increase in jogging time during weeks 5-8 of the training plan.\n- [explicit] user feels the proposed 12-week training plan is a good starting point.\n- [explicit] user requested a modification to the training plan to make the progression more gradual.\n- [explicit] user is training for a 10K goal.\n- [explicit] user is monitoring calorie burn, distance, and weight loss.\n- [explicit] user requested tips on how to stay motivated and avoid burnout during training.\n- [explicit] user intends to celebrate small victories during training.\n- [explicit] user is considering finding a running buddy.\n- [explicit] user is seeking advice on how to find a running buddy.\n- [explicit] user finds the revised jogging plan for weeks 5-8 more manageable.\n- [explicit] user intends to avoid pushing themself too hard during training.\n- [explicit] user is seeking general guidelines for water consumption during runs.\n- [explicit] user is working towards a goal weight to be reached by the end of the summer.\n- [explicit] user intends to find a running buddy using online platforms or local running groups.\n- [explicit] user has lost 5 pounds in the month leading up to 2023-05-21.\n- [explicit] user aims to find a running buddy who has a similar fitness level and goal.\n- [explicit] user plans to drink water before and during runs.\n- [explicit] user is considering pursuing a career in journalism, specifically focusing on data journalism and multimedia journalism.\n- [explicit] user consumes news online more frequently than through traditional media like physical newspapers or television.\n- [explicit] user finds online news consumption more convenient than physical newspapers or scheduled television news.\n- [explicit] user is interested in learning about the qualifications, experience, and job opportunities required for a career in journalism.\n- [explicit] user views the digital accessibility of news as a double-edged sword.\n- [explicit] user believes that technology has significantly changed the way news is consumed.\n- [explicit] user believes that digital news accessibility makes it easier for misleading information to spread.\n- [explicit] user questions if there is scientific proof of animals changing from one species to another through evolution.\n- [explicit] user asks if species have been observed changing their DNA in the modern world.\n- [explicit] user questions why evolution is still classified as a theory.\n- [explicit] user questions why the evolution of species is not observed today.\n- [explicit] user is interested in the difference between microevolution and macroevolution.\n- [explicit] user is leaning towards buying a Dell XPS.\n- [explicit] user purchased a Fossil Gen 5 smartwatch from the Fossil website on February 5th, 2023, for approximately $250.\n- [explicit] user uses an Android phone.\n- [explicit] user uses a Fossil Gen 5 smartwatch to receive notifications.\n- [explicit] user is considering purchasing a new laptop.\n- [explicit] user is deciding between a Dell XPS and a MacBook Air.\n- [explicit] user is not tied to the Apple ecosystem.\n- [explicit] user is interested in customizing a laptop to their needs.\n- [explicit] user owns a Fossil Gen 5 smartwatch.\n- [explicit] user owns a Samsung Galaxy S22 Ultra.\n- [explicit] user intends to choose the 4K OLED display option for the Dell XPS 13.\n- [explicit] user uses the Fossil Gen 5 smartwatch to track fitness goals.\n- [explicit] user owns a 10,000mAh power bank purchased from Target on February 25th, 2023.\n- [explicit] user is evaluating the Anker PowerCore 20000 and the Mophie Powerstation XXL portable power banks.\n- [explicit] user is considering purchasing a portable power bank with a capacity of 20,000mAh or more.\n- [explicit] user owns a Dell XPS 13.\n- [explicit] user has been reading reviews and watching comparison videos on YouTube regarding 4K OLED TVs.\n- [explicit] user is considering purchasing a 4K OLED TV from either LG or Sony.\n- [explicit] user plans to visit a Best Buy store during the weekend of May 13-14, 2023 to inspect 4K OLED TVs in person.\n- [explicit] user noted that the Los Angeles Lakers advanced to the conference finals as of May 18, 2023.\n- [explicit] user is a fan of the Los Angeles Lakers.\n- [explicit] user intends to focus on whole grains and fruits for carbo-loading.\n- [explicit] user intends to avoid overeating while carbo-loading.\n- [explicit] user participates in cross-training with basketball and volleyball.\n- [explicit] user practices tennis.\n- [explicit] user lost in the quarterfinals of a local tennis tournament on April 30, 2023.\n- [explicit] user played in a local tennis tournament on April 30, 2023.\n- [explicit] user works with a tennis coach.\n- [explicit] user is working on their backhand slice.\n- [explicit] user believes the explosive leg power developed from tennis sprinting helps with generating power on a bike.\n- [explicit] user is participating in a cycling event taking place on the weekend of May 20-21, 2023.\n- [explicit] user believes their tennis training has improved their overall cardiovascular endurance.\n- [explicit] user reached the quarterfinals in a local tennis tournament.\n- [explicit] user plans to perform light cardio and stretching as a warm-up for the cycling event.\n- [explicit] user is actively working on improving their tennis return game, specifically reaction time and footwork.\n- [explicit] user identified Sarah's strong serve as the reason for the loss in the quarterfinals.\n- [explicit] user plans to perform static stretches as a cool-down routine after the cycling event.\n- [explicit] user was defeated in the quarterfinals of a tennis tournament by a college student named Sarah.\n- [explicit] user admires the discipline and skill possessed by the Beijing Olympics athletes\n- [explicit] user acknowledges the hard work and dedication required for athletes to reach the level of the Beijing Olympics\n- [explicit] user is interested in the Beijing Olympics\n- [explicit] user does not care about the politics surrounding the Beijing Olympics\n- [explicit] user enjoys watching athletes compete in sporting events\n- [explicit] user found the Beijing Olympics to be awe-inspiring\n- [explicit] user plans to propagate plants by taking cuttings.\n- [explicit] user owns 3 plants located in user's bedroom.\n- [explicit] user is seeking advice on maintaining the health of 3 bedroom plants during the summer months.\n- [explicit] user wants to know how to propagate an aloe vera plant.\n- [explicit] user has successfully propagated a spider plant using cuttings.\n- [explicit] user is interested in information regarding the propagation of succulents.\n- [explicit] user has had trouble with aloe vera propagation attempts.\n- [explicit] user is considering propagating a fiddle leaf fig tree.\n- [explicit] user intends to dry the cut ends of aloe vera properly.\n- [explicit] user intends to water aloe vera sparingly.\n- [explicit] user has a fiddle leaf fig tree.\n- [explicit] user is interested in trying air-layering for propagating their fiddle leaf fig tree.\n- [explicit] user wants to ensure the 3 plants in user's bedroom get enough sunlight and water.\n- [explicit] user intends to post videos during the morning.\n- [explicit] user has been posting regularly on Instagram.\n- [explicit] user observes that videos tend to perform better than image posts.\n- [explicit] user observes that morning posts receive more engagement.\n- [explicit] user gained approximately 20 new followers in the first week of an Instagram campaign as of 2023-06-14.\n- [explicit] user is trying to improve Instagram engagement.\n- [explicit] user plans to focus on using attention-grabbing captions.\n- [explicit] user plans to focus on asking for engagement in videos.\n- [explicit] user wants to learn about Instagram Insights and how to use it to improve content.\n- [explicit] user has no prior design experience.\n- [explicit] user intends to try using Canva for design work.\n- [explicit] user wants to know how to adjust content strategy based on data.\n- [explicit] user is interested in learning how to track performance on Instagram.\n- [explicit] user is unsure how to analyze the data provided in Instagram Insights.\n- [explicit] user is requesting an explanation of how to read Instagram Insights metrics and what those metrics mean.\n- [explicit] user gained approximately 20 new followers in the first week of a campaign.\n- [explicit] user is seeking tips for creating eye-catching video thumbnails.\n- [explicit] user has been posting regularly for a while.\n- [explicit] user wants to learn how to track Instagram performance and adjust strategy based on data.\n- [explicit] user has observed that morning posts on Instagram receive more engagement.\n- [explicit] user is interested in using Canva as a design tool.\n- [explicit] user has gained 20 new Instagram followers in one week.\n- [explicit] user has no previous experience with graphic design.\n- [explicit] user performs cardio workouts.\n- [explicit] user has been attending the gym consistently for 3 months.\n- [explicit] user has lost 10 pounds since starting to go to the gym 3 months ago.\n- [explicit] user has been performing Russian twists to strengthen their core.\n- [explicit] user has been performing planks to strengthen their core.\n- [explicit] user wants to perform exercises that target the obliques.\n- [explicit] user intends to try some of the suggested exercises to target their obliques.\n- [explicit] user is trying to increase their flexibility, specifically in their hamstrings and hip flexors.\n- [explicit] user identifies a need to be more consistent with practicing yoga and Pilates.\n- [explicit] user performs yoga and Pilates.\n- [explicit] user is interested in learning if the Royal Institute of Technology (KTH) has received awards or recognition for its sustainability efforts.\n- [explicit] user is interested in the sustainability partnerships the Royal Institute of Technology (KTH) has established with companies and institutions.\n- [explicit] user is interested in the Royal Institute of Technology (KTH) and its efforts to remain relevant and competitive in the tech landscape.\n- [explicit] user is interested in learning about the specific research centers established by the Royal Institute of Technology (KTH).\n- [explicit] user wants to know if KTH has plans to expand its sustainability partnerships globally.\n- [explicit] user is impressed by universities that take sustainability seriously.\n- [explicit] user is impressed by the sustainability efforts of KTH.\n- [explicit] user is curious about how KTH ensures its sustainability initiatives make a tangible impact.\n- [explicit] user is asking for examples of other universities that are leading the way in sustainability like KTH.\n- [deductive] user values sustainability in academic and research institutions.\n- [deductive] user is engaged in a regular fitness routine aimed at weight loss, core strength, and flexibility.\n- [inductive] user is proactively engaged in a structured, long-term fitness regimen focused on physical health improvements like core strength, flexibility, and weight management.\n- [inductive] user has a strong and consistent interest in institutional sustainability initiatives, specifically those related to KTH.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 115.8,
+  "total": 118.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

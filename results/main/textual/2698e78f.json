@@ -1,0 +1,91 @@
+{
+ "qid": "2698e78f",
+ "arm": "textual",
+ "split": "main",
+ "question": "How often do I see my therapist, Dr. Smith?",
+ "reference": "every week",
+ "question_date": "2023-11-10 00:38",
+ "sessions": [
+  {
+   "id": "sharegpt_4qCDHY4_17",
+   "date": "2023-03-15 12:49",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6U7TyYE_0",
+   "date": "2023-03-17 15:06",
+   "evidence": false
+  },
+  {
+   "id": "d76030af_1",
+   "date": "2023-03-23 03:11",
+   "evidence": false
+  },
+  {
+   "id": "89c1cdfa_2",
+   "date": "2023-03-27 05:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DrLV0RL_0",
+   "date": "2023-04-02 20:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_1",
+   "date": "2023-04-03 14:18",
+   "evidence": true
+  },
+  {
+   "id": "619e96bc",
+   "date": "2023-07-12 03:14",
+   "evidence": false
+  },
+  {
+   "id": "1980bbfa_5",
+   "date": "2023-11-03 14:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_2",
+   "date": "2023-11-03 19:56",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_130siyQ_0",
+   "date": "2023-11-09 13:22",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is interested in educational resources and writing guides, specifically those tailored for children aged twelve and under.\n* The user is interested in the creation of children's picture books, including narrative development, visual storytelling, and page-by-page layout planning.\n* The user is an art enthusiast who recently attended a prestigious art auction (February 2023).\n* The user owns a sculpture by an up-and-coming artist, which they purchased at the aforementioned auction and currently display on their coffee table.\n* The user is currently taking art classes at a local studio.\n* The user works in the field of marketing (9:00 AM - 5:00 PM, Monday to Friday).\n* The user is interested in pursuing an MBA and is aware of resources like GMAT Club, MBA Crystal Ball, and Poets & Quants, though they have not yet started the application process (as of 2023-03-27).\n* The user is a content creator interested in producing YouTube video series, specifically focusing on cultural and mythological topics.\n* The user is currently experiencing sleep quality issues and is actively seeking strategies to improve their rest.\n* The user attends therapy sessions with Dr. Smith weekly (Now weekly, since 2023-11-03; previously every two weeks).\n* The user is in a relationship and is currently working on setting healthy boundaries regarding social commitments.\n* The user has a niece who graduated from high school on 2023-06-15.\n* The user enjoys hosting dinner parties; they hosted one in early October 2023 and is planning another for the near future (as of 2023-11-03).\n* The user is currently expanding their professional focus to include B2B SaaS content strategy, specifically targeting C-level executives (as of 2023-11-09).\n\n### Preferences and habits\n* The user prefers flexible, non-rigid planning over strict, hour-by-hour schedules.\n* The user prefers structured, comprehensive information presented in numbered lists.\n* The user values detailed breakdowns of writing genres, including definitions, examples of internal/external conflict, plot structures (rising, peak, falling action), conclusions, and actionable timelines.\n* The user is actively engaged in researching or creating writing curricula or guides.\n* The user utilizes external documents (Google Docs) to organize their work and expects the assistant to reference or analyze these materials.\n* The user is interested in the intersection of creative writing and AI-assisted content generation, specifically requesting AI image prompts for narrative text.\n* The user values sophistication in home decor and is actively curating their living space.\n* The user prefers to start with beginner-friendly but high-quality supplies (e.g., Winsor & Newton Cotman watercolor set) when learning a new medium.\n* The user is interested in sourcing unique and authentic art from online marketplaces like Etsy and Redbubble.\n* The user is interested in advancing their data analysis and machine learning skills, specifically targeting Python libraries like scikit-learn, pandas, and TensorFlow.\n* The user prefers interactive learning platforms like DataCamp and Kaggle for skill development.\n* The user values SEO-optimized content for their digital projects and prefers storytelling formats that are broken down into concise, point-wise segments for audience engagement.\n* The user is prioritizing self-care, specifically yoga, meditation, and journaling, to manage anxiety levels and prevent burnout.\n* The user is actively seeking to assess their current data science skills to identify gaps and prepare for professional certifications.\n* The user prefers a mix of modern design and soft textures (such as soft lamp shades) for their home lighting and decor.\n* The user values personal recommendations from friends and family for home improvement services and is diligent about checking credentials and comparing quotes.\n* The user prefers high-level, expert-driven, and uncommon advice when developing professional content strategies (as of 2023-11-09).\n\n### Ongoing situations and plans\n* The user is working on a project involving a writing guide or curriculum that covers multiple genres (Narrative, Informational, Persuasive, and Poetry).\n* The user is seeking to refine this document to ensure it includes specific components for each genre: definition, conflict examples, plot structure, conclusion, book examples (for children under 11), and a 5-week working timeline/action plan.\n* The user is currently in the process of verifying or expanding the content of their linked document to ensure it meets their specific criteria for children's literature and writing instruction.\n* The user is exploring the practical application of storyboarding and title generation for children's books, as evidenced by their interest in the \"Timmy and Max\" forest adventure story.\n* The user is planning to convert a spare room in their home into a dedicated art studio and is currently researching organizational and functional setups for this space.\n* The user is planning to enroll in the Johns Hopkins University Data Science Specialization on Coursera.\n* The user is planning a capstone project focused on predicting customer churn within their current marketing role, with the goal of developing targeted retention strategies.\n* The user is developing a YouTube video series regarding the influence of Hindu mythology on modern Indian culture and society, specifically focusing on its role in spirituality, religion, art, and pop culture.\n* The user is actively working on setting boundaries with their partner, friends, and colleagues to limit social commitments and protect their personal time for recharging.\n* The user is actively exploring data science certification programs and is currently practicing machine learning techniques using the \"Titanic: Machine Learning from Disaster\" project on Kaggle.\n* The user is planning to improve the lighting in their dining room to create a warmer, more inviting ambiance for future dinner parties.\n* The user is planning to replace the fluorescent light in their laundry room with an LED fixture.\n* The user is actively seeking recommendations from friends and family for electricians or handymen to assist with installing dimmer switches and the laundry room lighting upgrade.\n* The user is implementing a \"Must-Do/Should-Do/Nice-To-Do\" prioritization framework and a weekly review habit to manage their workload and boundaries.\n* The user is developing a content strategy to engage C-level executives in the B2B SaaS sector, focusing on growth challenges, industry disruption, and strategic decision-making (as of 2023-11-09).\n\n### Changes over time\n* Therapy frequency increased from bi-weekly to weekly as of 2023-11-03.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   Under the \"Personal facts\" section, it is stated: \"The user attends therapy sessions with Dr. Smith weekly (Now weekly, since 2023-11-03; previously every two weeks).\"\n    *   Under the \"Changes over time\" section, it is confirmed: \"Therapy frequency increased from bi-weekly to weekly as of 2023-11-03.\"\n\n2.  **Reason over the information:**\n    *   The current date is 2023/11/10.\n    *   Since the change to a weekly schedule occurred on 2023-11-03, and today is 2023/11/10, the current frequency of your therapy sessions is weekly.\n\n**Answer:** You currently see your therapist, Dr. Smith, on a weekly basis.",
+ "dump": "### Personal facts\n* The user is interested in educational resources and writing guides, specifically those tailored for children aged twelve and under.\n* The user is interested in the creation of children's picture books, including narrative development, visual storytelling, and page-by-page layout planning.\n* The user is an art enthusiast who recently attended a prestigious art auction (February 2023).\n* The user owns a sculpture by an up-and-coming artist, which they purchased at the aforementioned auction and currently display on their coffee table.\n* The user is currently taking art classes at a local studio.\n* The user works in the field of marketing (9:00 AM - 5:00 PM, Monday to Friday).\n* The user is interested in pursuing an MBA and is aware of resources like GMAT Club, MBA Crystal Ball, and Poets & Quants, though they have not yet started the application process (as of 2023-03-27).\n* The user is a content creator interested in producing YouTube video series, specifically focusing on cultural and mythological topics.\n* The user is currently experiencing sleep quality issues and is actively seeking strategies to improve their rest.\n* The user attends therapy sessions with Dr. Smith weekly (Now weekly, since 2023-11-03; previously every two weeks).\n* The user is in a relationship and is currently working on setting healthy boundaries regarding social commitments.\n* The user has a niece who graduated from high school on 2023-06-15.\n* The user enjoys hosting dinner parties; they hosted one in early October 2023 and is planning another for the near future (as of 2023-11-03).\n* The user is currently expanding their professional focus to include B2B SaaS content strategy, specifically targeting C-level executives (as of 2023-11-09).\n\n### Preferences and habits\n* The user prefers flexible, non-rigid planning over strict, hour-by-hour schedules.\n* The user prefers structured, comprehensive information presented in numbered lists.\n* The user values detailed breakdowns of writing genres, including definitions, examples of internal/external conflict, plot structures (rising, peak, falling action), conclusions, and actionable timelines.\n* The user is actively engaged in researching or creating writing curricula or guides.\n* The user utilizes external documents (Google Docs) to organize their work and expects the assistant to reference or analyze these materials.\n* The user is interested in the intersection of creative writing and AI-assisted content generation, specifically requesting AI image prompts for narrative text.\n* The user values sophistication in home decor and is actively curating their living space.\n* The user prefers to start with beginner-friendly but high-quality supplies (e.g., Winsor & Newton Cotman watercolor set) when learning a new medium.\n* The user is interested in sourcing unique and authentic art from online marketplaces like Etsy and Redbubble.\n* The user is interested in advancing their data analysis and machine learning skills, specifically targeting Python libraries like scikit-learn, pandas, and TensorFlow.\n* The user prefers interactive learning platforms like DataCamp and Kaggle for skill development.\n* The user values SEO-optimized content for their digital projects and prefers storytelling formats that are broken down into concise, point-wise segments for audience engagement.\n* The user is prioritizing self-care, specifically yoga, meditation, and journaling, to manage anxiety levels and prevent burnout.\n* The user is actively seeking to assess their current data science skills to identify gaps and prepare for professional certifications.\n* The user prefers a mix of modern design and soft textures (such as soft lamp shades) for their home lighting and decor.\n* The user values personal recommendations from friends and family for home improvement services and is diligent about checking credentials and comparing quotes.\n* The user prefers high-level, expert-driven, and uncommon advice when developing professional content strategies (as of 2023-11-09).\n\n### Ongoing situations and plans\n* The user is working on a project involving a writing guide or curriculum that covers multiple genres (Narrative, Informational, Persuasive, and Poetry).\n* The user is seeking to refine this document to ensure it includes specific components for each genre: definition, conflict examples, plot structure, conclusion, book examples (for children under 11), and a 5-week working timeline/action plan.\n* The user is currently in the process of verifying or expanding the content of their linked document to ensure it meets their specific criteria for children's literature and writing instruction.\n* The user is exploring the practical application of storyboarding and title generation for children's books, as evidenced by their interest in the \"Timmy and Max\" forest adventure story.\n* The user is planning to convert a spare room in their home into a dedicated art studio and is currently researching organizational and functional setups for this space.\n* The user is planning to enroll in the Johns Hopkins University Data Science Specialization on Coursera.\n* The user is planning a capstone project focused on predicting customer churn within their current marketing role, with the goal of developing targeted retention strategies.\n* The user is developing a YouTube video series regarding the influence of Hindu mythology on modern Indian culture and society, specifically focusing on its role in spirituality, religion, art, and pop culture.\n* The user is actively working on setting boundaries with their partner, friends, and colleagues to limit social commitments and protect their personal time for recharging.\n* The user is actively exploring data science certification programs and is currently practicing machine learning techniques using the \"Titanic: Machine Learning from Disaster\" project on Kaggle.\n* The user is planning to improve the lighting in their dining room to create a warmer, more inviting ambiance for future dinner parties.\n* The user is planning to replace the fluorescent light in their laundry room with an LED fixture.\n* The user is actively seeking recommendations from friends and family for electricians or handymen to assist with installing dimmer switches and the laundry room lighting upgrade.\n* The user is implementing a \"Must-Do/Should-Do/Nice-To-Do\" prioritization framework and a weekly review habit to manage their workload and boundaries.\n* The user is developing a content strategy to engage C-level executives in the B2B SaaS sector, focusing on growth challenges, industry disruption, and strategic decision-making (as of 2023-11-09).\n\n### Changes over time\n* Therapy frequency increased from bi-weekly to weekly as of 2023-11-03.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 26.5,
+  "total": 27.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

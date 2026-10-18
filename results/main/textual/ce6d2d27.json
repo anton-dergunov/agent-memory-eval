@@ -1,0 +1,91 @@
+{
+ "qid": "ce6d2d27",
+ "arm": "textual",
+ "split": "main",
+ "question": "What day of the week do I take a cocktail-making class?",
+ "reference": "Friday",
+ "question_date": "2023-07-15 22:19",
+ "sessions": [
+  {
+   "id": "answer_73540165_1",
+   "date": "2023-06-16 13:26",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_72kPQPm_11",
+   "date": "2023-06-19 09:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1uSOnON_25",
+   "date": "2023-06-27 22:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_227355",
+   "date": "2023-06-30 15:34",
+   "evidence": false
+  },
+  {
+   "id": "cd92ac85_1",
+   "date": "2023-06-30 16:18",
+   "evidence": false
+  },
+  {
+   "id": "answer_73540165_2",
+   "date": "2023-06-30 22:49",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504309",
+   "date": "2023-07-05 17:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_306593",
+   "date": "2023-07-05 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_WQctw3k_0",
+   "date": "2023-07-06 07:34",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_206676",
+   "date": "2023-07-12 09:35",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is a curious and reflective person who is deeply engaged with their own thoughts, feelings, and the world around them.\n* The user is interested in philosophy, specifically the \"ascent to the Good\" (Plato), aesthetics, and the intersection of philosophy with psychoactive substances.\n* The user has a personal connection to someone named Graham and is interested in the work of philosophers Graham Harman and Bruno Latour.\n* The user is a venture investor who co-invests with a partner named Matt.\n* The user is launching a podcast titled \"After the Wire\" with their co-host, Matt. The podcast focuses on the real-world challenges of early-stage founders, prioritizing substance and building over investment hype.\n* The user consumes cannabis and has recently noted an increased appreciation for details in games while under its influence.\n* The user is interested in the renewable energy sector, specifically regarding gender diversity, the representation of women, and professional development within the industry.\n* The user is interested in aviation safety, specifically regarding the regulatory frameworks, enforcement mechanisms, and historical incidents that shape safety protocols for dangerous flight tests.\n* The user is an enthusiast of mixology and cocktail experimentation, with a specific preference for Avion Silver tequila.\n* The user is a web developer or is actively involved in managing their own website, with a strong commitment to ensuring it is accessible to all users, including those with mobility impairments and dyslexia.\n* The user is interested in progressive politics, specifically social justice, economic equity, and environmental policy, and holds a positive view of Alexandria Ocasio-Cortez’s legislative efforts (as of 2023-07-05).\n* The user is a fan of the musical \"Into the Woods,\" appreciating its blend of fairy tales, its balance of humor with heavy themes, and its aspirational message regarding empathy, selflessness, and the importance of considering individual perspectives in relationships.\n\n### Preferences and habits\n* The user enjoys experimenting with jerk seasoning in their cooking.\n* The user prefers a menu featuring tropical and spicy-sweet flavor profiles.\n* The user values culinary balance, specifically seeking refreshing or creamy contrasts to spicy main courses.\n* The user prefers detailed, elaborate explanations when discussing complex topics.\n* The user is introspective and values self-reflection, often seeking to understand the nature of their own consciousness and perceptions.\n* The user has a Sunday ritual of waking up early to prepare a large batch of rice for the week, which they portion into individual containers.\n* The user is interested in experimenting with spice blends, specifically cumin, coriander, and Middle Eastern blends like ras el hanout.\n* The user enjoys experimenting with fresh herbs, such as basil, in their cocktail recipes.\n* The user prefers roasting fruit (such as watermelon) to enhance sweetness and depth in culinary and drink preparations.\n* The user is proactive about learning and implementing best practices for digital inclusivity, valuing resources like the W3C’s Web Accessibility Initiative (WAI) and WCAG guidelines.\n* The user values recurring \"bits\" or segments in content creation to build a unique show identity, such as asking guests recurring questions to track trends over time.\n* The user enjoys musical theater and appreciates narratives that explore character growth and the complexity of human relationships.\n\n### Ongoing situations and plans\n* **Podcast Development:** The user is currently developing \"After the Wire,\" a podcast for early-stage tech founders and investors. They are working on show outlines, intro/outro scripts, and identifying recurring segments (e.g., \"Pivot Point,\" \"The One That Got Away,\" \"Elevator Pitch Remix,\" \"Founder's Toolbox,\" \"The Crystal Ball,\" and \"Under the Radar\").\n* **Dinner Party Menu:**\n    * **Appetizers:** Grilled pineapple and prosciutto skewers; spicy shrimp ceviche.\n    * **Main Course:** Grilled jerk chicken with mango salsa.\n    * **Sides:** Roasted sweet potatoes.\n    * **Dessert:** Coconut lime panna cotta with a modified, sweeter mango salsa (omitting/reducing jalapeños, adding honey/agave, and potentially mint or basil).\n    * **Cocktails:** Spicy mango margaritas.\n* **Meal Prep:** The user is incorporating a lentil curry recipe into their weekly meal prep routine. They plan to experiment with adding mango (diced or pureed) to the curry for sweetness and texture, and are exploring the use of cumin, coriander, and ras el hanout to enhance the flavor.\n* **Cocktail Experimentation:** The user is actively learning new cocktail recipes and techniques. They are currently planning to experiment with a Watermelon Basil Margarita (using roasted watermelon puree and Avion Silver tequila) and intend to try making a Paloma and a Tequila Sour during their upcoming Friday cocktail class.\n* **Social Dynamics:** The user is navigating social dynamics, specifically expressing a desire to be more positive about an email sent to their acquaintance, Graham.\n* **Professional Development:** The user is researching professional organizations and resources for women in the renewable energy sector, specifically Women in Renewable Energy (WiRE).\n* **Web Development:** The user is currently focused on auditing and improving their website’s accessibility. They are planning to utilize tools like Axe DevTools, WAVE, and the Accessibility Inspector to ensure compliance with keyboard navigation and dyslexia-friendly design standards.\n\n### Changes over time\n* **Podcast Creation:** The user began planning the \"After the Wire\" podcast with Matt as of 2023-07-06.\n* **Side dish selection:** Now planning to serve roasted sweet potatoes with the jerk chicken, since 2023-06-16; previously considering quinoa.\n* **Dinner party status:** The dinner party was planned for a date following June 16, 2023.\n* **Cocktail class status:** The user attends a cocktail-making class on Fridays; they previously attended a class on Thursday, June 22, 2023.\n* **Meal Prep Routine:** The user formalized their Sunday meal prep ritual (rice-based) as of 2023-06-30.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   Under the \"Ongoing situations and plans\" section, it is stated: \"The user attends a cocktail-making class on Fridays.\"\n    *   Under the \"Changes over time\" section, it is noted: \"The user attends a cocktail-making class on Fridays; they previously attended a class on Thursday, June 22, 2023.\"\n\n2.  **Reason over the information:**\n    *   While the user previously attended a class on a Thursday, the current status and established routine indicate that the class is held on Fridays.\n\n3.  **Answer:**\n    *   You take your cocktail-making class on Fridays.",
+ "dump": "### Personal facts\n* The user is a curious and reflective person who is deeply engaged with their own thoughts, feelings, and the world around them.\n* The user is interested in philosophy, specifically the \"ascent to the Good\" (Plato), aesthetics, and the intersection of philosophy with psychoactive substances.\n* The user has a personal connection to someone named Graham and is interested in the work of philosophers Graham Harman and Bruno Latour.\n* The user is a venture investor who co-invests with a partner named Matt.\n* The user is launching a podcast titled \"After the Wire\" with their co-host, Matt. The podcast focuses on the real-world challenges of early-stage founders, prioritizing substance and building over investment hype.\n* The user consumes cannabis and has recently noted an increased appreciation for details in games while under its influence.\n* The user is interested in the renewable energy sector, specifically regarding gender diversity, the representation of women, and professional development within the industry.\n* The user is interested in aviation safety, specifically regarding the regulatory frameworks, enforcement mechanisms, and historical incidents that shape safety protocols for dangerous flight tests.\n* The user is an enthusiast of mixology and cocktail experimentation, with a specific preference for Avion Silver tequila.\n* The user is a web developer or is actively involved in managing their own website, with a strong commitment to ensuring it is accessible to all users, including those with mobility impairments and dyslexia.\n* The user is interested in progressive politics, specifically social justice, economic equity, and environmental policy, and holds a positive view of Alexandria Ocasio-Cortez’s legislative efforts (as of 2023-07-05).\n* The user is a fan of the musical \"Into the Woods,\" appreciating its blend of fairy tales, its balance of humor with heavy themes, and its aspirational message regarding empathy, selflessness, and the importance of considering individual perspectives in relationships.\n\n### Preferences and habits\n* The user enjoys experimenting with jerk seasoning in their cooking.\n* The user prefers a menu featuring tropical and spicy-sweet flavor profiles.\n* The user values culinary balance, specifically seeking refreshing or creamy contrasts to spicy main courses.\n* The user prefers detailed, elaborate explanations when discussing complex topics.\n* The user is introspective and values self-reflection, often seeking to understand the nature of their own consciousness and perceptions.\n* The user has a Sunday ritual of waking up early to prepare a large batch of rice for the week, which they portion into individual containers.\n* The user is interested in experimenting with spice blends, specifically cumin, coriander, and Middle Eastern blends like ras el hanout.\n* The user enjoys experimenting with fresh herbs, such as basil, in their cocktail recipes.\n* The user prefers roasting fruit (such as watermelon) to enhance sweetness and depth in culinary and drink preparations.\n* The user is proactive about learning and implementing best practices for digital inclusivity, valuing resources like the W3C’s Web Accessibility Initiative (WAI) and WCAG guidelines.\n* The user values recurring \"bits\" or segments in content creation to build a unique show identity, such as asking guests recurring questions to track trends over time.\n* The user enjoys musical theater and appreciates narratives that explore character growth and the complexity of human relationships.\n\n### Ongoing situations and plans\n* **Podcast Development:** The user is currently developing \"After the Wire,\" a podcast for early-stage tech founders and investors. They are working on show outlines, intro/outro scripts, and identifying recurring segments (e.g., \"Pivot Point,\" \"The One That Got Away,\" \"Elevator Pitch Remix,\" \"Founder's Toolbox,\" \"The Crystal Ball,\" and \"Under the Radar\").\n* **Dinner Party Menu:**\n    * **Appetizers:** Grilled pineapple and prosciutto skewers; spicy shrimp ceviche.\n    * **Main Course:** Grilled jerk chicken with mango salsa.\n    * **Sides:** Roasted sweet potatoes.\n    * **Dessert:** Coconut lime panna cotta with a modified, sweeter mango salsa (omitting/reducing jalapeños, adding honey/agave, and potentially mint or basil).\n    * **Cocktails:** Spicy mango margaritas.\n* **Meal Prep:** The user is incorporating a lentil curry recipe into their weekly meal prep routine. They plan to experiment with adding mango (diced or pureed) to the curry for sweetness and texture, and are exploring the use of cumin, coriander, and ras el hanout to enhance the flavor.\n* **Cocktail Experimentation:** The user is actively learning new cocktail recipes and techniques. They are currently planning to experiment with a Watermelon Basil Margarita (using roasted watermelon puree and Avion Silver tequila) and intend to try making a Paloma and a Tequila Sour during their upcoming Friday cocktail class.\n* **Social Dynamics:** The user is navigating social dynamics, specifically expressing a desire to be more positive about an email sent to their acquaintance, Graham.\n* **Professional Development:** The user is researching professional organizations and resources for women in the renewable energy sector, specifically Women in Renewable Energy (WiRE).\n* **Web Development:** The user is currently focused on auditing and improving their website’s accessibility. They are planning to utilize tools like Axe DevTools, WAVE, and the Accessibility Inspector to ensure compliance with keyboard navigation and dyslexia-friendly design standards.\n\n### Changes over time\n* **Podcast Creation:** The user began planning the \"After the Wire\" podcast with Matt as of 2023-07-06.\n* **Side dish selection:** Now planning to serve roasted sweet potatoes with the jerk chicken, since 2023-06-16; previously considering quinoa.\n* **Dinner party status:** The dinner party was planned for a date following June 16, 2023.\n* **Cocktail class status:** The user attends a cocktail-making class on Fridays; they previously attended a class on Thursday, June 22, 2023.\n* **Meal Prep Routine:** The user formalized their Sunday meal prep ritual (rice-based) as of 2023-06-30.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 25.1,
+  "total": 26.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

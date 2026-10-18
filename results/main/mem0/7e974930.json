@@ -1,0 +1,100 @@
+{
+ "qid": "7e974930",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+ "reference": "$420",
+ "question_date": "2023-10-26 11:44",
+ "sessions": [
+  {
+   "id": "71f2f490_3",
+   "date": "2023-03-16 13:20",
+   "evidence": false
+  },
+  {
+   "id": "18f48ccb",
+   "date": "2023-03-24 15:24",
+   "evidence": false
+  },
+  {
+   "id": "07b2420e_1",
+   "date": "2023-03-27 14:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_c9f5693c_1",
+   "date": "2023-04-11 00:10",
+   "evidence": true
+  },
+  {
+   "id": "084cba20",
+   "date": "2023-04-25 06:05",
+   "evidence": false
+  },
+  {
+   "id": "8bd5b3c4_1",
+   "date": "2023-05-10 12:22",
+   "evidence": false
+  },
+  {
+   "id": "898ce7a5_1",
+   "date": "2023-08-16 11:09",
+   "evidence": false
+  },
+  {
+   "id": "e1220dda_2",
+   "date": "2023-09-03 11:39",
+   "evidence": false
+  },
+  {
+   "id": "answer_c9f5693c_2",
+   "date": "2023-09-30 15:13",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_439362",
+   "date": "2023-10-07 00:16",
+   "evidence": false
+  }
+ ],
+ "context": "- User earned $420 in sales at the Downtown Farmers Market on their most recent visit prior to September 30, 2023. (from a chat on 2023-09-30)\n- User runs a small business selling artisanal soaps and candles, and has participated in several markets and events in 2023, including the Downtown Farmers Market, Arts and Crafts Fair, Earth Day Market, Mother's Day Market, and a Foodie Festival. (from a chat on 2023-04-11)\n- User is considering expanding their product line to include gift baskets, specifically a 'Downtown Farmers Market' themed basket featuring their best-selling soaps and candles. (from a chat on 2023-04-11)\n- User recently attended a music festival at Merriweather Post Pavilion in Columbia, Maryland, to see The 1975 perform live. (from a chat on 2023-08-16)\n- User is considering expanding their product line to include more artisanal soaps based on recent sales and customer feedback. (from a chat on 2023-09-30)\n- User recently got back into photography after a weekend beach trip with friends around mid-February 2023, which inspired them to pick up the hobby again. (from a chat on 2023-03-27)\n- User was advised to evaluate customer demand, market trends, competitor offerings, production capabilities, and profit margins before expanding their artisanal soap line. (from a chat on 2023-09-30)\n- User was recommended several seafood restaurants near FedExField: The Fish Market, McCormick & Schmick's, Red Lobster, Bonefish Grill, and Phillips Seafood. (from a chat on 2023-08-16)\n- User's gross sales revenue from markets and events between March 18, 2023, and May 20, 2023, totaled $1,280. (from a chat on 2023-04-11)\n- User sells homemade jams, candles, and soaps, with strawberry jam being one of their best-selling flavors. (from a chat on 2023-09-30)\n- User purchased a pair of sparkly shoes for $25 and a t-shirt for $10 from outlet stores as a birthday gift for their niece. (from a chat on 2023-09-03)\n- User attended a Billie Eilish concert at FedExField in Landover, Maryland, around mid-May 2023, where they had floor seats and attended a meet-and-greet with her. (from a chat on 2023-08-16)\n- User decided to order 100 business cards as a starting point for their small business. (from a chat on 2023-04-11)\n- User was recommended music festivals in the D.C. area: All Things Go Fall Classic, Landmark Music Festival, and Sweetlife Festival. (from a chat on 2023-08-16)\n- User enjoyed the Discover Weekly playlist from March 6, 2023, and saved approximately 10 songs from it to their library. (from a chat on 2023-03-16)\n- User was advised to prioritize restocking strawberry jam by considering lead times, seasonal demand, bundle opportunities, and raw material availability. (from a chat on 2023-09-30)\n- User is planning a birthday party for their niece and is looking for budget-friendly, sparkly-themed decorations, activities, and party favors. (from a chat on 2023-09-03)\n- User is a casual cyclist who rides on weekends to enjoy fresh air and exercise, preferring paved or smooth dirt trails within a 30-minute travel distance from their suburban home. (from a chat on 2023-05-10)\n- User is seeking recommendations for energy bars that are low in added sugars and made with wholesome ingredients for their bike rides. (from a chat on 2023-05-10)\n- User recalls Carmella's successful cash-in of her Money in the Bank contract to win the SmackDown Women's Championship as a significant moment in WWE history. (from a chat on 2023-10-07)",
+ "answer": "**Answer (step by step):**\n\n**1. Extract relevant information:**\n*   From the chat on 2023-09-30: \"User earned $420 in sales at the Downtown Farmers Market on their most recent visit prior to September 30, 2023.\"\n\n**2. Reason over the information:**\n*   The question asks for the earnings from the most recent visit to the Downtown Farmers Market.\n*   The provided history explicitly states that the user earned $420 during their most recent visit to that specific market prior to the September 30, 2023, chat. There is no information indicating a visit occurred between September 30, 2023, and the current date (October 26, 2023).\n\n**Conclusion:**\nYou earned $420 at the Downtown Farmers Market on your most recent visit.",
+ "dump": "- User was provided with a comparison of the Thule Evo and Yakima FullBack roof racks, noting differences in installation, modularity, price, and design. (session 2023-04-25)\n- User was recommended the following energy bar brands that prioritize wholesome ingredients and lower added sugar: RXBAR, Clif Bar, LaraBar, Kind Bar, Gu Chomps, Honey Stinger, and Nuun Energy Bars. (session 2023-05-10)\n- User enjoyed the Discover Weekly playlist from March 6, 2023, and saved approximately 10 songs from it to their library. (session 2023-03-16)\n- User was recommended several DIY decoration ideas for the party, including paper flower garlands, tissue paper pompoms, and DIY bunting, all estimated to cost between $2 and $10. (session 2023-09-03)\n- User recently attended a music festival at Merriweather Post Pavilion in Columbia, Maryland, to see The 1975 perform live. (session 2023-08-16)\n- User is considering expanding their product line to include gift baskets, specifically a 'Downtown Farmers Market' themed basket featuring their best-selling soaps and candles. (session 2023-04-11)\n- User was advised to evaluate customer demand, market trends, competitor offerings, production capabilities, and profit margins before expanding their artisanal soap line. (session 2023-09-30)\n- User is training for a sprint triathlon and is actively working to improve their swimming endurance and technique. (session 2023-03-24)\n- User is interested in exploring Julien Baker's music and was recommended her albums 'Sprained Ankle', 'Turn Out the Lights', and the 'Boygenius' EP. (session 2023-03-16)\n- User needs to repair a scratch on the passenger side door of their car caused by their sister. (session 2023-04-25)\n- The Fujifilm X-T30 II battery life is rated for up to 380 frames using the EVF or 440 frames using the LCD, with real-world performance typically between 300-400 frames. (session 2023-03-27)\n- User was recommended various swimming workouts for endurance, including endurance sets, interval training, pyramid workouts, sprint intervals with kicking, and long steady-state swims. (session 2023-03-24)\n- User's car had its last oil change on February 10, 2023. (session 2023-04-25)\n- User decided to order 100 business cards as a starting point for their small business. (session 2023-04-11)\n- User tracks their training progress using a spreadsheet, which has helped them monitor a 5-pound weight loss and a 10 beats per minute decrease in resting heart rate. (session 2023-03-24)\n- User is interested in the Singer-Songwriter and Folk-Influenced genre and was recommended artists including Phoebe Bridgers, Julien Baker, Bon Iver, Fleet Foxes, and Sufjan Stevens. (session 2023-03-16)\n- The Fujifilm X-T30 II is moisture-resistant rather than fully weather-sealed, offering protection against light rain or mist but requiring caution in harsh weather. (session 2023-03-27)\n- User plans to use a small, lightweight, and comfortable backpack to carry essentials like water, snacks, and a basic tool kit during their weekend bike rides. (session 2023-05-10)\n- User runs a small business selling artisanal soaps and candles, and has participated in several markets and events in 2023, including the Downtown Farmers Market, Arts and Crafts Fair, Earth Day Market, Mother's Day Market, and a Foodie Festival. (session 2023-04-11)\n- User was advised that car air filters should generally be replaced every 15,000 to 20,000 miles, depending on driving conditions and manufacturer recommendations. (session 2023-04-25)\n- The Fujifilm X-T30 II features an 'Intelligent Hybrid AF' system with 425 phase-detection points, 0.02-second response time, and advanced AI-based subject tracking. (session 2023-03-27)\n- User is planning to implement a points-based loyalty program with tiers to reward repeat customers, promoting it via social media, email newsletters, and in-store staff mentions. (session 2023-09-30)\n- User sells homemade jams, candles, and soaps, with strawberry jam being one of their best-selling flavors. (session 2023-09-30)\n- User attended the Billie Eilish concert with their best friend, Rachel. (session 2023-08-16)\n- User is interested in exploring the discography of Lucy Dacus and was recommended her albums 'No Burden', 'Historian', and 'Home Video'. (session 2023-03-16)\n- User plans to start cycling again as the weather improves and needs to adjust their bike seat for better comfort. (session 2023-04-25)\n- User is organizing their music library on their computer and Spotify, and is interested in discovering new music. (session 2023-03-16)\n- User is planning a road trip to Maryland and requested restaurant recommendations near FedExField in Landover. (session 2023-08-16)\n- User is a fan of indie-rock and alternative music. (session 2023-08-16)\n- User was recommended to track training metrics using apps like Strava, Swim.com, or Garmin, and to set specific, achievable goals to maintain motivation. (session 2023-03-24)\n- User was provided with DIY party game ideas including a Sparkly Treasure Hunt, glittery obstacle course, and a DIY slime station to fit the party's sparkly theme. (session 2023-09-03)\n- User is a fan of professional wrestling and specifically remembers Edge as one of their favorite wrestlers in 2006. (session 2023-10-07)\n- User was recommended iconic music venues in the D.C. and Maryland area: 9:30 Club, The Fillmore Silver Spring, Rams Head Live!, The Anthem, Merriweather Post Pavilion, The Birchmere, and Union Stage. (session 2023-08-16)\n- User was provided with DIY party favor ideas such as sparkly sugar cookies, homemade glittery playdough, and DIY bath bombs, with estimated costs ranging from $5 to $15. (session 2023-09-03)\n- User is leaning towards purchasing the Fujifilm X-T30 II mirrorless camera due to its compact size and vari-angle touchscreen LCD. (session 2023-03-27)\n- User was recommended music festivals in the D.C. area: All Things Go Fall Classic, Landmark Music Festival, and Sweetlife Festival. (session 2023-08-16)\n- User has been commuting to work by car daily since mid-January 2023, finding it a significant time-saver. (session 2023-04-25)\n- User recalls Carmella's successful cash-in of her Money in the Bank contract to win the SmackDown Women's Championship as a significant moment in WWE history. (session 2023-10-07)\n- User was provided with examples of clues, riddles, and rhymes for a Sparkly Treasure Hunt and suggestions on how to incorporate the niece's birthday gifts (sparkly shoes and t-shirt) into the game. (session 2023-09-03)\n- User is seeking recommendations for energy bars that are low in added sugars and made with wholesome ingredients for their bike rides. (session 2023-05-10)\n- User was advised to prioritize restocking strawberry jam by considering lead times, seasonal demand, bundle opportunities, and raw material availability. (session 2023-09-30)\n- User remembers Seth Rollins' surprise cash-in of his Money in the Bank contract during the main event of WrestleMania 31, which resulted in him winning the WWE World Heavyweight Championship. (session 2023-10-07)\n- User ran a marathon on April 15, 2023, and achieved a personal best time. (session 2023-03-24)\n- User purchased a pair of sparkly shoes for $25 and a t-shirt for $10 from outlet stores as a birthday gift for their niece. (session 2023-09-03)\n- User earned $420 in sales at the Downtown Farmers Market on their most recent visit prior to September 30, 2023. (session 2023-09-30)\n- User was advised to incorporate strength training, drills, and open-water practice to improve their swimming performance for triathlon training. (session 2023-03-24)\n- User attended a Billie Eilish concert at FedExField in Landover, Maryland, around mid-May 2023, where they had floor seats and attended a meet-and-greet with her. (session 2023-08-16)\n- User is a casual cyclist who rides on weekends to enjoy fresh air and exercise, preferring paved or smooth dirt trails within a 30-minute travel distance from their suburban home. (session 2023-05-10)\n- User recently got back into photography after a weekend beach trip with friends around mid-February 2023, which inspired them to pick up the hobby again. (session 2023-03-27)\n- User is interested in exploring Phoebe Bridgers' music and was recommended her albums 'Stranger in the Alps', 'Punisher', and the 'Boygenius' EP. (session 2023-03-16)\n- User is considering expanding their product line to include more artisanal soaps based on recent sales and customer feedback. (session 2023-09-30)\n- User was recommended several seafood restaurants near FedExField: The Fish Market, McCormick & Schmick's, Red Lobster, Bonefish Grill, and Phillips Seafood. (session 2023-08-16)\n- User was recommended organizational tips for their music library, including consistent naming conventions, folder structures, metadata tagging, and using playlists. (session 2023-03-16)\n- User is interested in landscape and nature photography and is looking to upgrade to a mirrorless camera with a budget of approximately $1,500 for the body and a lens. (session 2023-03-27)\n- User was provided with strategies for a loyalty program, including offering sign-up bonuses like welcome points or discounts, and using tier structures like Bronze/Silver/Gold. (session 2023-09-30)\n- User has been practicing yoga twice a week since March 1, 2023, and completed a 30-day yoga challenge throughout April 2023 to aid in recovery and flexibility. (session 2023-03-24)\n- User's gross sales revenue from markets and events between March 18, 2023, and May 20, 2023, totaled $1,280. (session 2023-04-11)\n- User was provided with camera recommendations including the Fujifilm X-T30 II, Fujifilm X-T3, Sony Alpha a6400, and Sony Alpha a7 II, along with details on their respective kit lenses. (session 2023-03-27)\n- User is planning a birthday party for their niece and is looking for budget-friendly, sparkly-themed decorations, activities, and party favors. (session 2023-09-03)\n- User was recommended additional indie-rock venues in D.C.: The Black Cat, DC9, and Rock & Roll Hotel. (session 2023-08-16)\n- User was recommended to integrate yoga into their triathlon training for injury prevention, flexibility, and mental toughness, specifically targeting shoulders, hips, and the IT band. (session 2023-03-24)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 61,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 36.4,
+  "total": 37.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

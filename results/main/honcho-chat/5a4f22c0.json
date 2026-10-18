@@ -1,0 +1,84 @@
+{
+ "qid": "5a4f22c0",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+ "reference": "TechCorp",
+ "question_date": "2023-06-21 13:02",
+ "sessions": [
+  {
+   "id": "78eda063_2",
+   "date": "2023-05-23 07:41",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yJMgmG3_0",
+   "date": "2023-05-23 10:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_1",
+   "date": "2023-05-23 20:06",
+   "evidence": true
+  },
+  {
+   "id": "af778ece_1",
+   "date": "2023-05-24 05:16",
+   "evidence": false
+  },
+  {
+   "id": "c3f945f3_1",
+   "date": "2023-05-24 16:00",
+   "evidence": false
+  },
+  {
+   "id": "a1c1739c_3",
+   "date": "2023-05-24 19:18",
+   "evidence": false
+  },
+  {
+   "id": "acb77ba4",
+   "date": "2023-05-25 16:42",
+   "evidence": false
+  },
+  {
+   "id": "88841f27_2",
+   "date": "2023-05-25 20:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dh8qvty_0",
+   "date": "2023-05-25 22:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_2",
+   "date": "2023-05-26 20:48",
+   "evidence": true
+  }
+ ],
+ "context": "Rachel is currently working at TechCorp.",
+ "answer": "**Step 1: Extract relevant information**\n*   The provided history states: \"Rachel is currently working at TechCorp.\"\n\n**Step 2: Reason over the information**\n*   The question asks for the company where Rachel is currently working.\n*   Based on the extracted fact, Rachel's current employer is TechCorp.\n\n**Answer:**\nRachel is currently working at TechCorp.",
+ "dump": "- [explicit] user organized painting supplies and cleaned their workspace on 2023-05-22.\n- [explicit] user intends to try watercolor painting soon.\n- [explicit] user intends to look into watercolor paper brands Winsor & Newton, Arches, Strathmore, and Canson.\n- [explicit] user is considering buying a new watercolor palette with built-in cups.\n- [explicit] user is interested in painting a still-life.\n- [explicit] user intends to buy a new palette with built-in cups.\n- [explicit] user intends to buy new brushes.\n- [explicit] user has a list of art materials they need to purchase.\n- [explicit] user is considering trying Escoda brushes.\n- [explicit] user is interested in purchasing travel sets or smaller collections of Escoda Perla brushes.\n- [explicit] user is thinking of buying a smaller set of Escoda Perla brushes to start with.\n- [explicit] user identifies as a beginner in watercolor painting.\n- [explicit] user provided the sentence \"Kiel vi fartas? Kiel iras via tago?\" to be identified.\n- [explicit] user wants the assistant to reply only with the language name.\n- [explicit] user wants the assistant to act as a language detector.\n- [explicit] user requested that the assistant provide no explanations or other words in its output.\n- [explicit] user is considering adding a 'Company' column to their contact tracker spreadsheet to track where their contacts are working.\n- [explicit] user wants to organize contacts and reach out to people met at recent events.\n- [explicit] user met Rachel, an old colleague from a previous company, at the TechConnect conference on February 10th and 11th, 2023.\n- [explicit] user wants to create a spreadsheet to track connections and the events where they met them.\n- [explicit] user intends to catch up with Rachel.\n- [explicit] user met Alex, the founder of a startup in the edtech space, at a startup mixer at WeWork.\n- [explicit] user plans to update Jason's contact information in a spreadsheet.\n- [explicit] user plans to add a \"Last Contacted\" column to a contact tracker spreadsheet.\n- [explicit] user met Jason, the CEO of StartupX, at a TechConnect conference.\n- [explicit] user intends to add Alex to a contact tracker spreadsheet.\n- [explicit] user intends to follow up with Jason regarding potential collaboration opportunities.\n- [explicit] user met David at a WeWork startup mixer.\n- [explicit] user met colleagues of David who work at Google.\n- [explicit] user met professionals from various industries at a speed networking event.\n- [explicit] user received an offer from Tom to provide feedback on user's startup's marketing strategy.\n- [explicit] user has a friend named David.\n- [explicit] user met Tom at a speed networking event organized by the local chamber of commerce.\n- [explicit] user attended a speed networking event organized by the local chamber of commerce.\n- [explicit] user describes Tom as a marketing expert.\n- [explicit] user wants display cases for Star Wars action figures that provide protection from dust and fading.\n- [explicit] user owns a Leica camera from the 1920s.\n- [explicit] user owns an antique camera from the 1920s.\n- [explicit] user owns a vintage Star Wars action figure set.\n- [explicit] user is looking for high-quality display cases for Star Wars action figures.\n- [explicit] user completed a vintage Star Wars action figure set on May 3, 2023.\n- [explicit] user is planning to organize a photoshoot for their collectibles.\n- [explicit] user plans to create a Star Wars-themed diorama for a photoshoot.\n- [explicit] user owns Star Wars action figures.\n- [explicit] user is planning a photoshoot involving Star Wars action figures and antique cameras.\n- [explicit] user owns antique cameras.\n- [explicit] user plans to experiment with different lighting setups for a photoshoot of collectibles.\n- [explicit] user plans to experiment with different camera angles for a photoshoot of collectibles.\n- [explicit] user plans to use props and accessories in a photoshoot involving Star Wars action figures and antique cameras.\n- [explicit] user has a garden where user grows basil, mint, and cilantro.\n- [explicit] user attended a gardening workshop at the community center in the first week of June 2023.\n- [explicit] user already has marigold flowers in user's garden.\n- [explicit] user learned about composting and how to create a natural fertilizer at a gardening workshop.\n- [explicit] user is looking for tomato varieties that are resistant to common tomato diseases and pests.\n- [explicit] user is looking for tomato varieties that are either heirloom or hybrid.\n- [explicit] user is planning to expand the vegetable bed.\n- [explicit] user is interested in adding new varieties of tomatoes to the vegetable bed.\n- [explicit] user is interested in learning about composting.\n- [explicit] user attended a gardening workshop at the community center.\n- [explicit] user intends to implement composting tips into user's composting routine.\n- [explicit] user is considering adding eggshells to user's compost pile.\n- [explicit] user has an existing herb garden that includes basil, mint, and cilantro\n- [explicit] user is thinking of expanding their herb garden\n- [explicit] user is interested in fashion advice.\n- [explicit] user recently purchased a pair of ankle boots from Madewell.\n- [explicit] user likes the idea of styling ankle boots with a flowy dress.\n- [explicit] user intends to pair boots with a subtle floral dress and a denim jacket.\n- [explicit] user is looking for recommendations for where to purchase a denim jacket.\n- [explicit] user possesses a birthday gift card from a sister.\n- [explicit] user intends to visit the new Everlane store located in the Westfield mall.\n- [explicit] user intends to use a gift card to purchase a denim jacket from Everlane.\n- [explicit] user values transparent pricing and sustainable fashion practices.\n- [explicit] user wears the Madewell ankle boots frequently.\n- [explicit] user bought the Madewell ankle boots during a President's Day sale.\n- [explicit] user received a 40% discount on the Madewell ankle boots.\n- [explicit] user enjoyed their previous trip to Hawaii.\n- [explicit] user is planning a new trip.\n- [explicit] user visited Hawaii with family in April 2023.\n- [explicit] user is considering returning to Hawaii.\n- [explicit] user is seeking suggestions for activities on the Big Island of Hawaii.\n- [explicit] user is planning to stay in Kailua-Kona.\n- [explicit] user is traveling solo.\n- [explicit] user is looking for accommodations in Kailua-Kona that have a laid-back, local vibe.\n- [explicit] user wants to do coffee farm tours.\n- [explicit] user wants to explore the town of Kailua-Kona.\n- [explicit] user is considering visiting the Hilo Farmers Market on a Saturday.\n- [explicit] user plans to check out the accommodations and coffee farms recommended for Kailua-Kona.\n- [explicit] user is considering taking a day trip to Hilo from Kailua-Kona.\n- [explicit] user plans to take a day trip to Hilo.\n- [explicit] user intends to visit Rainbow Falls.\n- [explicit] user intends to visit the Hilo Farmers Market.\n- [explicit] user intends to eat local Hawaiian specialties such as laulau and kalua pig while visiting Hilo.\n- [explicit] user is seeking recommendations for restaurants in Hilo that serve traditional Hawaiian dishes.\n- [explicit] user has experience using resin.\n- [explicit] user intends to enter a local art competition with a sculpture category.\n- [explicit] user has experience using polymer clay.\n- [explicit] user is seeking inspiration for eco-friendly materials and techniques for sculpture.\n- [explicit] user acquired a wire cutter on 2023-05-25.\n- [explicit] user acquired a sculpting mat on 2023-05-25.\n- [explicit] user acquired a modeling tool set on 2023-05-25.\n- [explicit] user intends to create a sculpture incorporating found objects and recycled materials including plastic bottles and cardboard tubes.\n- [explicit] user is planning to use a combination of plastic bottles and cardboard tubes to create the base structure of a sculpture.\n- [explicit] user intends to combine multiple plastic bottles and cardboard tubes into a single complex structure.\n- [explicit] user is seeking methods to securely connect plastic bottles and cardboard tubes without the use of glue or adhesives.\n- [explicit] user wants to add texture and interest to a sculpture using natural materials like leaves, twigs, or seeds.\n- [explicit] user wants to attach natural materials to a plastic bottle and cardboard tube structure without using glue or adhesives.\n- [explicit] user is creating a sculpture out of plastic bottles and cardboard tubes.\n- [explicit] user is interested in the basic plot of H.P. Lovecraft's 'The Call of Cthulhu'.\n- [explicit] user wants to write their own version of a Lovecraftian horror story.\n- [explicit] user requested assistance to write a short story based on Lovecraftian horror elements.\n- [explicit] user has an old colleague named Rachel who works at TechCorp.\n- [explicit] user attended a webinar hosted by Women in Tech featuring Dr. Maria Hernandez.\n- [explicit] user is interested in learning about trends in AI and machine learning.\n- [explicit] user knows a marketing expert named Tom.\n- [explicit] user has a startup.\n- [explicit] user intends to contact Dr. Maria Hernandez again.\n- [explicit] user is interested in learning about the applications of AI in education.\n- [explicit] user has previously interacted with Dr. Maria Hernandez during a webinar.\n- [explicit] user is seeking information on startups or companies that develop AI-powered educational technology solutions.\n- [explicit] user intends to be clear about their goals during the planned conversation with Alex.\n- [explicit] user has met Alex, who is a founder of a new startup in the edtech space.\n- [explicit] user intends to reach out to Alex to learn more about his startup and explore potential collaboration opportunities.\n- [explicit] user and Alex have a shared passion for education.\n- [explicit] user plans to ask Alex about the problem his startup is trying to solve, the uniqueness of his solution, his startup's current stage and growth plans, the value user can provide, and potential synergies.\n- [explicit] user attends weekly networking meetings organized by BNI.\n- [explicit] user receives feedback on an elevator pitch from a BNI member named Jack.\n- [explicit] user has met entrepreneurs and small business owners at BNI networking meetings.\n- [explicit] user provides Jack with insights on digital marketing.\n- [deductive] user is an entrepreneur, given their possession of a startup and active involvement in business networking.\n- [deductive] user has a professional interest in the edtech sector.\n- [inductive] user consistently engages in professional networking to facilitate business growth and collaboration.\n- [inductive] user proactively prepares for professional meetings by defining clear goals and specific questions.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 121.6,
+  "total": 124.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

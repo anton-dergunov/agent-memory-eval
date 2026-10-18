@@ -1,0 +1,104 @@
+{
+ "qid": "e493bb7c",
+ "arm": "mem0",
+ "split": "pilot",
+ "question": "Where is the painting 'Ethereal Dreams' by Emma Taylor currently hanging?",
+ "reference": "in my bedroom",
+ "question_date": "2023-11-18 19:24",
+ "sessions": [
+  {
+   "id": "ultrachat_363167",
+   "date": "2023-06-18 04:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_1a374afa_1",
+   "date": "2023-07-11 09:13",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_287713",
+   "date": "2023-07-31 17:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_513900",
+   "date": "2023-08-10 11:09",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6cz1Sq6_177",
+   "date": "2023-08-14 09:15",
+   "evidence": false
+  },
+  {
+   "id": "251bd037",
+   "date": "2023-08-26 04:36",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IcXBFnH_5",
+   "date": "2023-09-18 12:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_1a374afa_2",
+   "date": "2023-10-30 16:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_247306",
+   "date": "2023-11-05 12:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LbqrSdB_0",
+   "date": "2023-11-16 16:49",
+   "evidence": false
+  }
+ ],
+ "context": "- User owns a 'Moonlit Ocean' print and a painting titled 'Ethereal Dreams' by Emma Taylor, which they recently moved to their bedroom. (from a chat on 2023-10-30)\n- User owns a painting titled 'Ethereal Dreams' which is displayed above their living room sofa. (from a chat on 2023-07-11)\n- User owns a digital print titled 'Moonlit Ocean' by Jack Harris, which they intend to frame and hang in their bedroom but may temporarily move for their art-themed party. (from a chat on 2023-07-11)\n- User plans to host an art-themed party and is interested in setting up various art stations, including painting, collage, drawing, printmaking, mixed media, digital art, and assemblage. (from a chat on 2023-07-11)\n- User was provided with suggestions for art-themed party stations and materials, including painting, collage, drawing, printmaking, mixed media, digital art, and assemblage. (from a chat on 2023-07-11)\n- User is planning an art project featuring a figure in a dreamlike, misty environment using soft pastel colors, layering, and blending techniques. (from a chat on 2023-10-30)\n- User was recommended contemporary artists James Jean, Ash Thorp, Michael Whelan, Lakis Polycarpou, and Rebecca Louise Law for inspiration. (from a chat on 2023-10-30)\n- User plans to include a corner with art books and magazines, specifically mentioning 'The Artisan Post' and 'Creative Corner' as sources of inspiration for their guests. (from a chat on 2023-07-11)\n- User previously had brunch plans with Rachel on Valentine's Day 2023 that were canceled, and they have been missing each other for weeks. (from a chat on 2023-08-26)\n- User was provided with techniques to suggest movement and flow in art, including using blurred edges, flowing lines, directional brushstrokes, and suggestive gestures. (from a chat on 2023-10-30)\n- User intends to start an art journal and plans to include an art journal creation station as an activity for their upcoming party. (from a chat on 2023-07-11)\n- User was provided with techniques for creating mist or fog in artwork, such as glazing, drybrushing, spray bottle application, and atmospheric perspective. (from a chat on 2023-10-30)\n- User was provided with techniques for blending abstract and figurative art, including using abstracted figures, figure-ground relationships, and mixed media. (from a chat on 2023-10-30)\n- User is seeking inspiration for a new art project and is interested in exploring surrealism and lowbrow art styles. (from a chat on 2023-10-30)\n- User was provided with suggestions for photo booth props and backdrops for their art-themed party, including artistic accessories and creative background designs. (from a chat on 2023-07-11)\n- User plans to reach out to their friend Rachel to reconnect after a period of infrequent contact, intending to suggest a casual coffee meeting. (from a chat on 2023-08-26)\n- User was provided with material suggestions for an art journal station, including various journal types, art supplies, collage materials, and inspiration prompts. (from a chat on 2023-07-11)\n- User was provided with tips for creating a cozy party ambiance, such as using soft lighting, comfortable seating, textiles, music, and scented elements. (from a chat on 2023-07-11)\n- User is experiencing a period of loneliness and is interested in joining a book club or a sports team to meet new people and expand their social circle. (from a chat on 2023-08-26)\n- User plans to attend the Tafwyl and Eisteddfod Genedlaethol Cymru festivals to experience Welsh language and culture. (from a chat on 2023-07-31)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-07-11: The user owned the painting 'Ethereal Dreams' and it was displayed above their living room sofa.\n*   From the chat on 2023-10-30: The user moved the painting 'Ethereal Dreams' by Emma Taylor to their bedroom.\n\n**2. Reason over the information:**\n*   The initial location of the painting was the living room (above the sofa).\n*   The most recent update regarding the location of this specific painting is from the chat on 2023-10-30, which explicitly states that the user moved it to their bedroom.\n\n**Conclusion:**\nThe painting 'Ethereal Dreams' by Emma Taylor is currently hanging in the user's bedroom.",
+ "dump": "- User owns a painting titled 'Ethereal Dreams' which is displayed above their living room sofa. (session 2023-07-11)\n- User owns a digital print titled 'Moonlit Ocean' by Jack Harris, which they intend to frame and hang in their bedroom but may temporarily move for their art-themed party. (session 2023-07-11)\n- User is interested in learning the Welsh language and immersing themselves in the culture of Cardiff. (session 2023-07-31)\n- User is interested in the research centers and laboratories at the United States Military Academy (USMA), specifically the Army Cyber Institute, Combating Terrorism Center, Center for Homeland Defense and Security, Engineering Research Center, and the West Point Laboratory for Laser Energetics. (session 2023-11-05)\n- User owns a 'Moonlit Ocean' print and a painting titled 'Ethereal Dreams' by Emma Taylor, which they recently moved to their bedroom. (session 2023-10-30)\n- Upcoming architectural projects in Dubai include the Dubai Creek Tower, the Museum of the Future, and expansions to the Dubai Water Canal project such as the Bluewaters island. (session 2023-06-18)\n- User was provided with guidance on bracing techniques to protect the spine during activities like lifting, bending, sitting, standing, and exercising. (session 2023-08-14)\n- User was provided with techniques for blending abstract and figurative art, including using abstracted figures, figure-ground relationships, and mixed media. (session 2023-10-30)\n- User plans to attend the Tafwyl and Eisteddfod Genedlaethol Cymru festivals to experience Welsh language and culture. (session 2023-07-31)\n- User expressed a skeptical view of revolutionary movements, characterizing them as destructive and unnecessary, and believes the government is doing fine. (session 2023-08-10)\n- User received tips for learning Welsh, such as starting with basics, using diverse resources, consistent practice, joining language exchange groups, immersing in culture, and maintaining patience. (session 2023-07-31)\n- User was provided with a training outline for staff on implementing the WIOA Title I virtual service delivery policy, covering topics like CalJOBS Eligibility Explorer, coordinated enrollment, and remote service evaluation. (session 2023-09-18)\n- User plans to reach out to their friend Rachel to reconnect after a period of infrequent contact, intending to suggest a casual coffee meeting. (session 2023-08-26)\n- User is interested in the evolution of architecture in Dubai, specifically focusing on trends like sustainability, smart technology integration, and the blending of traditional and modern design elements. (session 2023-06-18)\n- User intends to start an art journal and plans to include an art journal creation station as an activity for their upcoming party. (session 2023-07-11)\n- User was recommended word-based or party games like Taboo, Pictionary, and Deception as alternatives to Codenames. (session 2023-08-26)\n- The West Point Laboratory for Laser Energetics offers research opportunities for students, including a competitive Summer Intern Program for undergraduate and graduate students and an Undergraduate Research Program specifically for USMA cadets. (session 2023-11-05)\n- User is experiencing a period of loneliness and is interested in joining a book club or a sports team to meet new people and expand their social circle. (session 2023-08-26)\n- Dubai's architectural evolution over the last decade includes a focus on energy-efficient sustainable buildings, smart building systems for automation, and iconic skyscrapers like the Cayan Tower and Burj Khalifa. (session 2023-06-18)\n- User is studying for the CISSP (Certified Information Systems Security Professional) exam and requested information on business continuity planning (BCP) and its life cycle as part of the first domain. (session 2023-11-16)\n- User plans to host an art-themed party and is interested in setting up various art stations, including painting, collage, drawing, printmaking, mixed media, digital art, and assemblage. (session 2023-07-11)\n- User was provided with four practical training activities for staff, including role-playing, CalJOBS application practice, remote workshop delivery, and service evaluation exercises. (session 2023-09-18)\n- User is planning an art project featuring a figure in a dreamlike, misty environment using soft pastel colors, layering, and blending techniques. (session 2023-10-30)\n- User was provided with material suggestions for an art journal station, including various journal types, art supplies, collage materials, and inspiration prompts. (session 2023-07-11)\n- The BCP life cycle consists of six key steps: risk assessment, business impact analysis, strategy development, plan development, implementation, and maintenance and testing. (session 2023-11-16)\n- User is implementing a new policy for the Workforce Investment Board of Tulare County regarding virtual service delivery of WIOA Title I Career and Youth Services. (session 2023-09-18)\n- User was recommended the title 'The Power of Spinal Stability' for their book's chapter 9. (session 2023-08-14)\n- User previously had brunch plans with Rachel on Valentine's Day 2023 that were canceled, and they have been missing each other for weeks. (session 2023-08-26)\n- User was recommended several options for adult Welsh language courses in Cardiff, including Cardiff and Vale College, Learn Welsh Cardiff, Coleg y Cymoedd, and Cardiff University. (session 2023-07-31)\n- User was advised to keep the history of canceled plans with Rachel private when meeting new people to avoid appearing unreliable or negative. (session 2023-08-26)\n- The West Point Laboratory for Laser Energetics (WPLE) is a Department of Energy-funded facility at USMA focused on high-energy-density physics, inertial confinement fusion (ICF), and laser-matter interactions. (session 2023-11-05)\n- User plans to include a corner with art books and magazines, specifically mentioning 'The Artisan Post' and 'Creative Corner' as sources of inspiration for their guests. (session 2023-07-11)\n- User was provided with techniques for creating mist or fog in artwork, such as glazing, drybrushing, spray bottle application, and atmospheric perspective. (session 2023-10-30)\n- User was provided with ideas for organizing art books and magazines, such as using stacks, shelves, baskets, and coffee table displays. (session 2023-07-11)\n- User was provided with organizational tips for an art box, including categorizing items, using vertical space, and purging unused supplies. (session 2023-07-11)\n- User was provided with suggestions for photo booth props and backdrops for their art-themed party, including artistic accessories and creative background designs. (session 2023-07-11)\n- User was provided with techniques to suggest movement and flow in art, including using blurred edges, flowing lines, directional brushstrokes, and suggestive gestures. (session 2023-10-30)\n- User was recommended contemporary artists James Jean, Ash Thorp, Michael Whelan, Lakis Polycarpou, and Rebecca Louise Law for inspiration. (session 2023-10-30)\n- Popular sustainable building features in Dubai include integrated solar panels, green roofs for cooling, the use of recycled building materials, energy-efficient LED lighting with motion sensors, and water-saving systems like low-flow fixtures and wastewater recycling. (session 2023-06-18)\n- User was provided with a list of highly regarded Welsh language schools in Cardiff, including Ysgol Glantaf, Ysgol Gyfun Gymraeg Glantaf, Ysgol Gyfun Gymraeg Bro Edern, Ysgol Gyfun Cwm Rhymni, Ysgol Gyfun Gymraeg Plasmawr, Ysgol Gyfun Gymraeg Bro Morgannwg, and Ysgol Gyfun Gymraeg Aberaeron. (session 2023-07-31)\n- User was recommended Welsh language events and venues in Cardiff, including Eisteddfod Genedlaethol Cymru, Tafwyl, the Cardiff and Vale Urdd National Eisteddfod, and Welsh-language theatre productions at Theatr Genedlaethol Cymru, Sherman Theatre, and Chapter Arts Centre. (session 2023-07-31)\n- User was provided with tips for creating a cozy party ambiance, such as using soft lighting, comfortable seating, textiles, music, and scented elements. (session 2023-07-11)\n- User is seeking inspiration for a new art project and is interested in exploring surrealism and lowbrow art styles. (session 2023-10-30)\n- User was provided with a list of core-strengthening exercises to support spinal bracing, including planks, dead bugs, bird dogs, side planks, and hollow body holds. (session 2023-08-14)\n- User expressed a personal goal of becoming a superhero, which prompted a discussion about how the skills and leadership development at USMA could contribute to making a positive impact on the world. (session 2023-11-05)\n- Projects blending modern and traditional styles in Dubai include Al Wasl Plaza at the Expo 2020 site, the Mohammed Bin Rashid Library inspired by traditional mashrabiya, and the Dubai Creek Harbor development. (session 2023-06-18)\n- User was provided with tips for maintaining good posture, such as using ergonomic furniture, sitting and standing correctly, taking movement breaks, using a lumbar roll, and strengthening the core. (session 2023-08-14)\n- User was advised to approach the topic of Rachel's love life with caution, prioritizing her boundaries and focusing on broader life updates instead. (session 2023-08-26)\n- User enjoyed a game night at Alex's house and is looking for board game recommendations similar to Codenames. (session 2023-08-26)\n- User was provided with suggestions for art-themed party stations and materials, including painting, collage, drawing, printmaking, mixed media, digital art, and assemblage. (session 2023-07-11)\n- User intends to share chapter 10 of their original book with the assistant. (session 2023-08-14)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 51,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 41.1,
+  "total": 42.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

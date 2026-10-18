@@ -1,0 +1,121 @@
+{
+ "qid": "18bc8abd",
+ "arm": "letta",
+ "split": "main",
+ "question": "What brand of BBQ sauce am I currently obsessed with?",
+ "reference": "Kansas City Masterpiece",
+ "question_date": "2023-07-15 07:37",
+ "sessions": [
+  {
+   "id": "ultrachat_225891",
+   "date": "2023-03-25 13:37",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_528423",
+   "date": "2023-03-31 23:20",
+   "evidence": false
+  },
+  {
+   "id": "9f9384ed_1",
+   "date": "2023-04-03 10:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_570209",
+   "date": "2023-04-05 12:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_1",
+   "date": "2023-04-16 02:28",
+   "evidence": true
+  },
+  {
+   "id": "aed8cf17_2",
+   "date": "2023-05-12 11:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_25205",
+   "date": "2023-06-07 19:12",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_452189",
+   "date": "2023-06-15 22:14",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_290148",
+   "date": "2023-06-18 06:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_2",
+   "date": "2023-06-30 05:15",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nThe user is starting therapy to focus on mental health, processing emotions, and grief. They are starting a habit of 4-7-8 breathing before bed and morning Headspace meditations. They prefer low-pressure, sustainable habits.\nThey enjoy hosting backyard BBQs and are interested in learning how to smoke brisket. They recently purchased a Weber gas grill for quick weeknights and are a fan of Kansas City Masterpiece BBQ sauce on ribs.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on the information I have in my notes, you are a fan of Kansas City Masterpiece BBQ sauce on your ribs. \n\nHow have your backyard BBQs been going lately? Have you had a chance to try out that new Weber gas grill yet?",
+ "dump": "<human>\n\nThe user is starting therapy to focus on mental health, processing emotions, and grief. They are starting a habit of 4-7-8 breathing before bed and morning Headspace meditations. They prefer low-pressure, sustainable habits.\nThey enjoy hosting backyard BBQs and are interested in learning how to smoke brisket. They recently purchased a Weber gas grill for quick weeknights and are a fan of Kansas City Masterpiece BBQ sauce on ribs.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"BBQ sauce obsessed\"})"
+  ],
+  "blocks_chars": 633,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 401.1,
+  "total": 411.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

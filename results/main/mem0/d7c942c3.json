@@ -1,0 +1,100 @@
+{
+ "qid": "d7c942c3",
+ "arm": "mem0",
+ "split": "main",
+ "question": "Is my mom using the same grocery list method as me?",
+ "reference": "Yes.",
+ "question_date": "2023-05-14 09:58",
+ "sessions": [
+  {
+   "id": "answer_eecb10d9_1",
+   "date": "2023-03-11 12:42",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_mz7Bb7a_0",
+   "date": "2023-03-20 09:59",
+   "evidence": false
+  },
+  {
+   "id": "89f71a1b",
+   "date": "2023-03-25 19:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_552063",
+   "date": "2023-03-31 13:47",
+   "evidence": false
+  },
+  {
+   "id": "4e70b8fd",
+   "date": "2023-04-04 16:36",
+   "evidence": false
+  },
+  {
+   "id": "ddf0f116_3",
+   "date": "2023-04-06 04:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1ISfZDn_0",
+   "date": "2023-04-10 22:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_104389",
+   "date": "2023-04-23 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_eecb10d9_2",
+   "date": "2023-04-30 20:09",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_1MKqbAt_0",
+   "date": "2023-05-09 02:30",
+   "evidence": false
+  }
+ ],
+ "context": "- User and their mother are now both using the same grocery list app to share lists and track shopping needs. (from a chat on 2023-04-30)\n- User is using a new grocery list app to organize ingredients and track purchases, and is encouraging their mother to switch from paper lists to the app. (from a chat on 2023-03-11)\n- User was provided with tips for keeping fresh herbs like cilantro and parsley fresh, including storing them in the refrigerator, using the stem-down method in water, or freezing them for up to 6 months. (from a chat on 2023-04-30)\n- User is planning to make chicken fajitas for dinner on April 30, 2023, and was provided with a recipe involving chicken strips, lime juice, olive oil, garlic, oregano, cumin, paprika, onions, and bell peppers. (from a chat on 2023-04-30)\n- User plans to check their local transit agency's website to research online purchasing options, pricing, and potential discounts for a monthly train pass. (from a chat on 2023-04-04)\n- User takes the 7:15 am train from Oakdale station for their daily commute. (from a chat on 2023-04-04)\n- User plans to try a Brown Butter Sage Sauce recipe for their Trader Joe's cauliflower gnocchi, which includes unsalted butter, fresh sage leaves, and optional Parmesan cheese. (from a chat on 2023-04-30)\n- User enjoys the music of Billie Eilish and Anderson .Paak. (from a chat on 2023-03-31)\n- User was provided with a recipe for homemade cauliflower gnocchi using cauliflower, flour, Parmesan cheese, and egg. (from a chat on 2023-03-11)\n- User is looking to reduce daily commute expenses by cutting back on coffee shop trips and finding a more cost-effective monthly train pass. (from a chat on 2023-04-04)\n- User was provided with a recipe for a simple roasted vegetable medley using ingredients like broccoli, cauliflower, carrots, Brussels sprouts, bell peppers, squash, zucchini, cherry tomatoes, or asparagus. (from a chat on 2023-03-11)\n- User chose to pair their cauliflower gnocchi with a Brown Butter Sage Sauce, for which they were provided a recipe using butter, fresh sage, garlic, and Parmesan. (from a chat on 2023-03-11)\n- User decided to purchase the AmazonBasics Single-Serve Coffee Maker, which was recommended as an affordable option under $50. (from a chat on 2023-04-04)\n- User is attempting to check their network latency to NVIDIA GeForce Now servers by pinging specific hostnames like latencytest.fra02.nvidia.com and latencytest.dub1.nvidia.com. (from a chat on 2023-03-20)\n- User is considering applying for a new credit card that offers bonus miles on United Airlines and wants to combine them with their existing MileagePlus account balance. (from a chat on 2023-04-06)\n- User is interested in dining at Hakkasan at The Fontainebleau Miami Beach and was provided with menu highlights including roasted silver cod, grilled Wagyu ribeye, and various dim sum options. (from a chat on 2023-03-25)\n- User is planning a trip to Miami and is interested in staying at The Fontainebleau Miami Beach, specifically in a Deluxe Oceanfront Room on a high floor (14-17) with a wraparound balcony. (from a chat on 2023-03-25)\n- User is planning a flight from Chicago to Los Angeles and is inquiring about United Airlines' in-flight meal options beyond standard offerings. (from a chat on 2023-04-06)\n- User flew from Dallas to Chicago on January 20, 2023, experienced a flight delay, and spent time at the Admirals Club lounge. (from a chat on 2023-04-06)\n- User is playing Call of Duty Mobile and requested a Cronus Zen script featuring 10 specific mods for an Xbox One controller, including rapid fire, auto sprint, quick scope, auto heal, jump shot, auto reload, auto swap, quick revive, auto mantle, and quick equip. (from a chat on 2023-05-09)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-03-11: The user was using a new grocery list app and was encouraging their mother to switch from paper lists to that app.\n    *   From the chat on 2023-04-30: The user and their mother are now both using the same grocery list app to share lists and track shopping needs.\n\n2.  **Reason over the information:**\n    *   The initial goal was to get the mother to switch from paper lists to the app the user was using.\n    *   The most recent update from April 30, 2023, confirms that they are both currently using the same grocery list app.\n\n**Answer:** Yes, your mother is using the same grocery list method as you; you both use the same grocery list app to share lists and track shopping needs.",
+ "dump": "- User is considering purchasing a coffee grinder to pair with their new coffee maker to improve freshness and flavor, and was advised to look into burr grinders like the Baratza Encore or Cuisinart DBM-8. (session 2023-04-04)\n- Bonus miles earned from a new United Airlines credit card can be combined with an existing MileagePlus account balance if the card is linked to the account. (session 2023-04-06)\n- User is using a new grocery list app to organize ingredients and track purchases, and is encouraging their mother to switch from paper lists to the app. (session 2023-03-11)\n- User was recommended several luxury hotels in Miami with beach views, including The Fontainebleau Miami Beach, The Miami Beach EDITION, The Ritz-Carlton Coconut Grove, The W South Beach, The Confidante Miami Beach, The Setai Miami Beach, and The Diplomat Beach Resort Hollywood. (session 2023-03-25)\n- User is attempting to check their network latency to NVIDIA GeForce Now servers by pinging specific hostnames like latencytest.fra02.nvidia.com and latencytest.dub1.nvidia.com. (session 2023-03-20)\n- User is using a MacBook Pro (Doms-MBP.local) and encountered 'Unknown host' DNS resolution errors when attempting to ping NVIDIA latency test servers. (session 2023-03-20)\n- User was provided with tips for keeping fresh herbs like cilantro and parsley fresh, including storing them in the refrigerator, using the stem-down method in water, or freezing them for up to 6 months. (session 2023-04-30)\n- User is studying the book of James in the Bible and requested detailed, verse-by-verse expositions of James 1:1-27, specifically using the MacArthur NASB Study Bible and the ESV Study Bible by Crossway as primary sources. (session 2023-04-10)\n- User is planning a flight from Chicago to Los Angeles and is inquiring about United Airlines' in-flight meal options beyond standard offerings. (session 2023-04-06)\n- User is planning a dinner party for the weekend of March 11-12, 2023. (session 2023-03-11)\n- User decided to purchase the AmazonBasics Single-Serve Coffee Maker, which was recommended as an affordable option under $50. (session 2023-04-04)\n- The Fontainebleau Miami Beach's Oceanfront Tower features specific corner rooms with wraparound balconies, such as 1416, 1516, 1616 (southeast) and 1417, 1517, 1617 (northeast). (session 2023-03-25)\n- User is interested in dining at Hakkasan at The Fontainebleau Miami Beach and was provided with menu highlights including roasted silver cod, grilled Wagyu ribeye, and various dim sum options. (session 2023-03-25)\n- User flew from Dallas to Chicago on January 20, 2023, experienced a flight delay, and spent time at the Admirals Club lounge. (session 2023-04-06)\n- User requested an upbeat workout playlist and was recommended songs including 'Can't Hold Us' by Macklemore & Ryan Lewis, 'I Gotta Feeling' by Black Eyed Peas, 'Eye of the Tiger' by Survivor, 'Levels' by Avicii, 'Lose Control' by Missy Elliott, 'Starboy' by The Weeknd, 'Titanium' by David Guetta, 'Dangerous Woman' by Ariana Grande, 'Jump' by Van Halen, and 'Uptown Funk' by Mark Ronson. (session 2023-03-31)\n- User and their mother are now both using the same grocery list app to share lists and track shopping needs. (session 2023-04-30)\n- User believes that while technology in film scoring is a double-edged sword, it has ultimately made the art form more exciting and dynamic. (session 2023-04-23)\n- Restaurants at The Fontainebleau Miami Beach offering ocean views include Hakkasan, Scarpetta, and Vida, all of which feature outdoor patio seating. (session 2023-03-25)\n- User decided to make cauliflower gnocchi as a side dish for their dinner party. (session 2023-03-11)\n- User was recommended the following indie-folk/acoustic artists: Phoebe Bridgers, Gregory Alan Isakov, Lucy Dacus, Fleet Foxes, and Iron & Wine. (session 2023-03-31)\n- User chose to pair their cauliflower gnocchi with a Brown Butter Sage Sauce, for which they were provided a recipe using butter, fresh sage, garlic, and Parmesan. (session 2023-03-11)\n- User was provided with a recipe for a simple roasted vegetable medley using ingredients like broccoli, cauliflower, carrots, Brussels sprouts, bell peppers, squash, zucchini, cherry tomatoes, or asparagus. (session 2023-03-11)\n- User is planning a trip to Miami and is interested in staying at The Fontainebleau Miami Beach, specifically in a Deluxe Oceanfront Room on a high floor (14-17) with a wraparound balcony. (session 2023-03-25)\n- User plans to try a Brown Butter Sage Sauce recipe for their Trader Joe's cauliflower gnocchi, which includes unsalted butter, fresh sage leaves, and optional Parmesan cheese. (session 2023-04-30)\n- User is planning to make chicken fajitas for dinner on April 30, 2023, and was provided with a recipe involving chicken strips, lime juice, olive oil, garlic, oregano, cumin, paprika, onions, and bell peppers. (session 2023-04-30)\n- User takes the 7:15 am train from Oakdale station for their daily commute. (session 2023-04-04)\n- User was provided with a 10-mod Cronus Zen script for Call of Duty Mobile designed for an Xbox One controller, covering various gameplay enhancements like weapon handling, movement, and healing. (session 2023-05-09)\n- United Airlines offers a buy-on-board program in Economy and multi-course meal services in premium cabins, with pre-ordering available for premium passengers up to 24 hours before departure. (session 2023-04-06)\n- User plans to roast sweet potatoes and was advised to use high-starch varieties like Russet or Idaho, pat them dry, and use high-heat oils like avocado or grapeseed oil for a crispy exterior. (session 2023-03-11)\n- British Airways allows one-way award redemptions, but they typically require 50-60% more Avios than a round-trip award and are subject to taxes, fees, and limited availability. (session 2023-04-06)\n- User received a $200 airline voucher as a birthday gift from their aunt and is considering using it for a flight to Denver or Las Vegas. (session 2023-04-06)\n- User is considering applying for a new credit card that offers bonus miles on United Airlines and wants to combine them with their existing MileagePlus account balance. (session 2023-04-06)\n- User is currently interested in listening to indie artists with a folky or acoustic sound. (session 2023-03-31)\n- User plans to check their local transit agency's website to research online purchasing options, pricing, and potential discounts for a monthly train pass. (session 2023-04-04)\n- User enjoys the music of Billie Eilish and Anderson .Paak. (session 2023-03-31)\n- User is playing Call of Duty Mobile and requested a Cronus Zen script featuring 10 specific mods for an Xbox One controller, including rapid fire, auto sprint, quick scope, auto heal, jump shot, auto reload, auto swap, quick revive, auto mantle, and quick equip. (session 2023-05-09)\n- User decided to prepare Lemon Garlic Chicken Breast with Roasted Vegetables for their dinner party. (session 2023-03-11)\n- User is considering redeeming frequent flyer miles for a one-way business class ticket to London on British Airways. (session 2023-04-06)\n- User is looking to reduce daily commute expenses by cutting back on coffee shop trips and finding a more cost-effective monthly train pass. (session 2023-04-04)\n- User was advised to troubleshoot 'Unknown host' errors by verifying their internet connection and checking their DNS settings, specifically suggesting public DNS services like Google DNS (8.8.8.8, 8.8.4.4) or Cloudflare DNS (1.1.1.1). (session 2023-03-20)\n- User was provided with a recipe for homemade cauliflower gnocchi using cauliflower, flour, Parmesan cheese, and egg. (session 2023-03-11)\n- Southwest Airlines operates direct flights from Chicago Midway (MDW) to both Denver (DEN) and Las Vegas (LAS). (session 2023-04-06)\n- User is considering flying with Southwest Airlines for their trip to Denver or Las Vegas, as Southwest issued the $200 voucher. (session 2023-04-06)\n- User is interested in the amenities at The Fontainebleau Miami Beach, including private beach access, multiple pools (main, adult-only, Tropicana), and the availability of private beach and VIP pool cabanas. (session 2023-03-25)\n- User cites the Hans Zimmer soundtrack for the film 'Inception' as a prime example of how technology can be used to create unique and innovative film scores. (session 2023-04-23)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 45,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 34.3,
+  "total": 36.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

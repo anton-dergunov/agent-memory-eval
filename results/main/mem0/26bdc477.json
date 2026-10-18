@@ -1,0 +1,104 @@
+{
+ "qid": "26bdc477",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many trips have I taken my Canon EOS 80D camera on?",
+ "reference": "five",
+ "question_date": "2023-06-06 18:27",
+ "sessions": [
+  {
+   "id": "a223e307",
+   "date": "2023-03-03 02:59",
+   "evidence": false
+  },
+  {
+   "id": "2d79c1c3_2",
+   "date": "2023-03-05 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_350893",
+   "date": "2023-03-16 01:52",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_1",
+   "date": "2023-03-16 19:05",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_hMokVUA_39",
+   "date": "2023-03-18 14:10",
+   "evidence": false
+  },
+  {
+   "id": "dce08529_1",
+   "date": "2023-05-04 21:39",
+   "evidence": false
+  },
+  {
+   "id": "201d188a_4",
+   "date": "2023-05-19 15:50",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_2",
+   "date": "2023-05-30 00:43",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_438698",
+   "date": "2023-06-01 00:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pRBsKdE_5",
+   "date": "2023-06-03 07:50",
+   "evidence": false
+  }
+ ],
+ "context": "- User has used their Canon EOS 80D on five trips and considers it a reliable, durable camera. (from a chat on 2023-05-30)\n- User owns a Canon EOS 80D camera and has taken it on trips to Yellowstone, Yosemite, and the Grand Canyon. (from a chat on 2023-03-16)\n- User is considering purchasing a Really Right Stuff TVC-34L tripod and was advised it is compatible with their Canon EOS 80D, requiring a specific camera plate like the B87-80D and a tripod head like the BH-55 ballhead. (from a chat on 2023-03-16)\n- User is planning a trip to Zion National Park and is seeking advice on landscape photography techniques for bright sunlight and high-contrast environments. (from a chat on 2023-05-30)\n- User needs a replacement lens cap for their Canon EF-S 18-135mm f/3.5-5.6 IS USM lens and was advised to verify the 67mm size and compatibility before purchasing from manufacturers or authorized dealers. (from a chat on 2023-03-16)\n- User is looking for a new camera bag to organize their gear and accommodate a recently purchased camera strap. (from a chat on 2023-05-30)\n- User is currently using a Lowepro backpack-style camera bag and is satisfied with its performance. (from a chat on 2023-03-16)\n- User is considering the Lowepro ProTactic 450 AW as their next camera bag. (from a chat on 2023-05-30)\n- User is evaluating whether the Really Right Stuff (RRS) tripod is a worthwhile investment for their photography needs. (from a chat on 2023-05-30)\n- User decided to invest in a Lee Filters square filter system for their landscape photography. (from a chat on 2023-05-30)\n- User decided to use Adobe Creative Cloud for professional photography work and Google Photos for personal photo storage. (from a chat on 2023-03-16)\n- User decided to start with a soft gradation graduated ND filter for their Lee Filters system. (from a chat on 2023-05-30)\n- User was provided with examples of successful crisis management, including Johnson & Johnson's 1982 Tylenol recall, Samsung's 2016 Galaxy Note 7 recall, and Airbnb's 2016 response to discrimination concerns. (from a chat on 2023-03-16)\n- User decided to try Strava and MapMyRide to assist with their bike route planning and tracking. (from a chat on 2023-05-19)\n- User used a $1 off digital coupon for pasta sauce on their ShopRite loyalty card on February 26, 2023. (from a chat on 2023-03-03)\n- User was recommended Strava, MapMyRide, Ride with GPS, and Google Maps as effective tools for cycling route planning and tracking. (from a chat on 2023-05-19)\n- User plans to use Strava's route builder to create a 20-mile route, utilizing the elevation profile to avoid steep hills and adding waypoints for landmarks. (from a chat on 2023-05-19)\n- User recently switched from Brooks Ghost 13 to Asics Gel-Kayano 28 running shoes and has noticed a significant reduction in knee pain. (from a chat on 2023-03-05)\n- User was provided with a framework for crisis management, including risk assessment, team establishment, communication strategies, and regular training. (from a chat on 2023-03-16)\n- User used a $5 off $25 or more coupon at Target on February 28, 2023. (from a chat on 2023-03-03)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-03-16: The user owns a Canon EOS 80D and has taken it on trips to Yellowstone, Yosemite, and the Grand Canyon.\n*   From the chat on 2023-05-30: The user has used their Canon EOS 80D on five trips.\n\n**2. Reason over the information:**\n*   The chat from 2023-03-16 lists three specific locations (Yellowstone, Yosemite, and the Grand Canyon).\n*   The chat from 2023-05-30 provides a definitive count of the total trips taken with the camera to date, stating the user has used it on five trips.\n\n**Conclusion:**\nYou have taken your Canon EOS 80D camera on five trips.",
+ "dump": "- User decided to try Strava and MapMyRide to assist with their bike route planning and tracking. (session 2023-05-19)\n- User was provided with examples of successful crisis management, including Johnson & Johnson's 1982 Tylenol recall, Samsung's 2016 Galaxy Note 7 recall, and Airbnb's 2016 response to discrimination concerns. (session 2023-03-16)\n- User is working on a policy memo regarding the Agua Clara program, which finances low-cost rural water systems in developing countries using open-source technology. (session 2023-06-03)\n- User was recommended to use the Target app (Cartwheel), sign up for email newsletters, check the website, and utilize Target's coupon policy to combine manufacturer coupons with sales. (session 2023-03-03)\n- User plans to use Strava's route builder to create a 20-mile route, utilizing the elevation profile to avoid steep hills and adding waypoints for landmarks. (session 2023-05-19)\n- User owns a Canon EOS 80D camera and has taken it on trips to Yellowstone, Yosemite, and the Grand Canyon. (session 2023-03-16)\n- User believes that social safety nets like unemployment benefits and food assistance are essential for preventing poverty during economic downturns. (session 2023-06-01)\n- User plans to implement the Pomodoro Technique in their morning routine by completing 3-4 cycles of 25 minutes of focused work followed by 5-minute breaks, using a phone app for timing. (session 2023-05-04)\n- User was recommended to load digital coupons to their ShopRite loyalty card, check the website and app, and stack digital coupons with sales to maximize savings. (session 2023-03-03)\n- User is evaluating whether the Really Right Stuff (RRS) tripod is a worthwhile investment for their photography needs. (session 2023-05-30)\n- The Altalena affair in June 1948 was a conflict between the Israeli government, led by David Ben-Gurion, and the Irgun over the ship's cargo of arms, resulting in 16 deaths. (session 2023-03-18)\n- User notes that while grant funding is helpful for rural water projects, it does not significantly impact affordability at small amounts, necessitating more sustainable financing models. (session 2023-06-03)\n- User expresses concern over the high cost of education and the burden of student loan debt, arguing that investing in affordable education is necessary to provide equal opportunities for success. (session 2023-06-01)\n- User was recommended Strava, MapMyRide, Ride with GPS, and Google Maps as effective tools for cycling route planning and tracking. (session 2023-05-19)\n- User used a $1 off digital coupon for pasta sauce on their ShopRite loyalty card on February 26, 2023. (session 2023-03-03)\n- User identified that for every $10,000 in grant funding, the monthly household water bill for the Honduras project decreases by $0.70. (session 2023-06-03)\n- User was recommended to sign up for Walmart's email newsletter, download the Walmart app, check their website, follow social media, and use coupon aggregator sites to find future discounts. (session 2023-03-03)\n- User analyzed a hypothetical Honduras case study for a rural water system loan: total project cost is $346,459, with a monthly household bill of $28.70 based on 237.5 paying households. (session 2023-06-03)\n- User recently switched from Brooks Ghost 13 to Asics Gel-Kayano 28 running shoes and has noticed a significant reduction in knee pain. (session 2023-03-05)\n- User is struggling with anxiety and depression and is actively seeking strategies to manage their daily routine, prioritize tasks, and process emotions. (session 2023-05-04)\n- User currently does most of their running along a lake trail but is looking to explore new routes and trails in their area. (session 2023-03-05)\n- User decided to use Adobe Creative Cloud for professional photography work and Google Photos for personal photo storage. (session 2023-03-16)\n- User is considering the Lowepro ProTactic 450 AW as their next camera bag. (session 2023-05-30)\n- User is considering purchasing a Really Right Stuff TVC-34L tripod and was advised it is compatible with their Canon EOS 80D, requiring a specific camera plate like the B87-80D and a tripod head like the BH-55 ballhead. (session 2023-03-16)\n- Yitzhak Rabin, who served as Prime Minister of Israel from 1974-1977 and 1992-1995, was a military officer in the IDF during the Altalena affair and participated in the military response to the conflict. (session 2023-03-18)\n- User used a $5 off $25 or more coupon at Target on February 28, 2023. (session 2023-03-03)\n- User advocates for universal healthcare, viewing it as a critical measure to prevent financial hardship and bankruptcy caused by medical bills, especially during recessions. (session 2023-06-01)\n- User participated in a charity bike ride organized by their local cycling club on May 19, 2023, which raised money for the local children's hospital. (session 2023-05-19)\n- User is currently using a Lowepro backpack-style camera bag and is satisfied with its performance. (session 2023-03-16)\n- User was recommended the Eisenhower Matrix for task prioritization and the Pomodoro Technique for time management to help reduce stress and overwhelm. (session 2023-05-04)\n- User is planning a trip to Zion National Park and is seeking advice on landscape photography techniques for bright sunlight and high-contrast environments. (session 2023-05-30)\n- User recommends that the World Bank's Finance, Competitiveness & Innovation Global Practice Group (FCI) should only support the revenue-backed loan initiative if they can secure better interest rates and longer loan terms. (session 2023-06-03)\n- User is planning to create their own 20-mile scenic bike routes around their hometown using paved roads. (session 2023-05-19)\n- User used a 20% off Walmart coupon on February 25, 2023, which saved $12 on a $60 bill; the coupon was received via email one week prior. (session 2023-03-03)\n- User is organizing their coupons and discounts and requested assistance in tracking them. (session 2023-03-03)\n- User was advised that smaller businesses can develop cost-effective crisis plans by using free resources like FEMA, leveraging employee expertise, focusing on critical communication protocols, and forming external partnerships. (session 2023-03-16)\n- User has used their Canon EOS 80D on five trips and considers it a reliable, durable camera. (session 2023-05-30)\n- User needs a replacement lens cap for their Canon EF-S 18-135mm f/3.5-5.6 IS USM lens and was advised to verify the 67mm size and compatibility before purchasing from manufacturers or authorized dealers. (session 2023-03-16)\n- User decided to start with a soft gradation graduated ND filter for their Lee Filters system. (session 2023-05-30)\n- User is looking for a new camera bag to organize their gear and accommodate a recently purchased camera strap. (session 2023-05-30)\n- User was recommended the following running sock brands and models to pair with Asics Gel-Kayano 28 shoes: Injinji Trail Midweight Mini-Crew, Darn Tough Light Hiker Crew, Smartwool PhD Outdoor Light Crew, Feetures High Performance Crew, and Balega Blister Resistant Quarter. (session 2023-03-05)\n- User is planning a longer run for the weekend of March 11-12, 2023, and intends to try a new route through a nearby park. (session 2023-03-05)\n- Menachem Begin, who served as Prime Minister of Israel from 1977 to 1983, was the leader of the Irgun and was aboard the Altalena when it arrived in Israel. (session 2023-03-18)\n- User is interested in the principles of corporate crisis management, specifically how companies can develop effective plans and prioritize critical elements when resources are limited. (session 2023-03-16)\n- User was provided with a framework for crisis management, including risk assessment, team establishment, communication strategies, and regular training. (session 2023-03-16)\n- User is working with a therapist named Dr. Smith who has recommended exercises for processing emotions and gaining perspective. (session 2023-05-04)\n- User believes the current loan structure for the Agua Clara program is suboptimal due to high interest rates and short loan terms, which may cause financial distress for community water boards. (session 2023-06-03)\n- User decided to invest in a Lee Filters square filter system for their landscape photography. (session 2023-05-30)\n- User intends to manage distractions during Pomodoro sessions by turning off phone notifications and closing unnecessary computer tabs, and will use breaks for walking, stretching, or meditation. (session 2023-05-04)\n- User was provided with tips for using Strava's Route Builder, including using the elevation profile, adding waypoints, and utilizing the 'Snap to Road' feature. (session 2023-05-19)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 50,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 31.2,
+  "total": 32.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

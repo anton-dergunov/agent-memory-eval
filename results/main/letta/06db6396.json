@@ -1,0 +1,122 @@
+{
+ "qid": "06db6396",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many projects have I completed since starting painting classes?",
+ "reference": "5",
+ "question_date": "2023-11-08 09:08",
+ "sessions": [
+  {
+   "id": "6be54739_2",
+   "date": "2023-07-21 21:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467198",
+   "date": "2023-08-05 19:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_1",
+   "date": "2023-08-16 09:37",
+   "evidence": true
+  },
+  {
+   "id": "5bd9f1e6_1",
+   "date": "2023-08-20 21:15",
+   "evidence": false
+  },
+  {
+   "id": "35038174_4",
+   "date": "2023-09-17 02:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_167372",
+   "date": "2023-09-18 08:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_2",
+   "date": "2023-10-09 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_416015",
+   "date": "2023-10-18 11:50",
+   "evidence": false
+  },
+  {
+   "id": "3dcf1e0b_2",
+   "date": "2023-10-19 07:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2LYzasI_0",
+   "date": "2023-11-01 20:36",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user is highly engaged with current events and politics.\n- They read 'The New York Times' every Sunday and 'The Economist' during their commute.\n- They listen to 'The Daily' (NYT podcast) during workouts.\n- They are particularly interested in the intersection of politics and the environment.\n- They are looking for ways to engage more deeply with these topics, both through reading and active engagement.\n\n- They are an emerging painter who has completed 4 projects so far and is currently working on a sunset scene for their sister's birthday.\n- They are interested in best practices for professional finishing, specifically signing and dating their artwork.\n- Recently turned 32 (July 15th). Believes this age brings maturity and focus to learning new skills.\n- Budget for new monitor: $300-$400.\n- Prefers good all-around monitor for general use, streaming, and video watching (not a gamer).\n- Currently setting up a small studio in their spare bedroom.\n- Recently purchased new running shoes from a Nike outlet store; finds them very comfortable with great cushioning and support.\n- Practices yoga 3 times a week at home. Currently looking for a better grip yoga mat.\n- Lost their favorite water bottle at a picnic area in Red Rock Canyon during a hike two weeks ago. Currently looking for a replacement.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "According to your records, you have completed **4 projects** so far. How is the sunset scene for your sister coming along?",
+ "dump": "<human>\n\nThe user is highly engaged with current events and politics.\n- They read 'The New York Times' every Sunday and 'The Economist' during their commute.\n- They listen to 'The Daily' (NYT podcast) during workouts.\n- They are particularly interested in the intersection of politics and the environment.\n- They are looking for ways to engage more deeply with these topics, both through reading and active engagement.\n\n- They are an emerging painter who has completed 4 projects so far and is currently working on a sunset scene for their sister's birthday.\n- They are interested in best practices for professional finishing, specifically signing and dating their artwork.\n- Recently turned 32 (July 15th). Believes this age brings maturity and focus to learning new skills.\n- Budget for new monitor: $300-$400.\n- Prefers good all-around monitor for general use, streaming, and video watching (not a gamer).\n- Currently setting up a small studio in their spare bedroom.\n- Recently purchased new running shoes from a Nike outlet store; finds them very comfortable with great cushioning and support.\n- Practices yoga 3 times a week at home. Currently looking for a better grip yoga mat.\n- Lost their favorite water bottle at a picnic area in Red Rock Canyon during a hike two weeks ago. Currently looking for a replacement.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"painting projects completed\"})",
+   "conversation_search({\"query\": \"painting classes projects\"})"
+  ],
+  "blocks_chars": 1513,
+  "write_steps": 52,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 354.7,
+  "total": 363.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

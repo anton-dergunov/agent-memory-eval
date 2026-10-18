@@ -1,0 +1,96 @@
+{
+ "qid": "f685340e",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+ "reference": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+ "question_date": "2023-07-31 11:43",
+ "sessions": [
+  {
+   "id": "4a9eb139_2",
+   "date": "2023-03-06 12:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_1",
+   "date": "2023-03-11 18:01",
+   "evidence": true
+  },
+  {
+   "id": "eef7c3fa_1",
+   "date": "2023-03-15 06:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_246155",
+   "date": "2023-04-03 16:32",
+   "evidence": false
+  },
+  {
+   "id": "ee402e51_1",
+   "date": "2023-04-12 15:32",
+   "evidence": false
+  },
+  {
+   "id": "e7dcd5df",
+   "date": "2023-05-30 12:19",
+   "evidence": false
+  },
+  {
+   "id": "e862f726_1",
+   "date": "2023-06-11 14:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_8f85nN2_0",
+   "date": "2023-06-15 19:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_2",
+   "date": "2023-07-30 04:03",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_240679",
+   "date": "2023-07-31 03:19",
+   "evidence": false
+  }
+ ],
+ "context": "Based on our conversation history, your frequency of playing tennis with friends has changed:\n\n*   **Previously:** As of March 2023, you were playing tennis with friends on a **weekly** basis.\n*   **Now:** As of July 2023, you shifted to playing tennis with friends **every other week**.",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   **Previous frequency:** As of March 2023, the frequency was **weekly**.\n*   **Current frequency:** As of July 2023, the frequency is **every other week**.\n\n**Step 2: Reason over the information**\n*   The user asked for the frequency of playing tennis at two distinct points in time based on the provided history.\n*   By comparing the \"Previously\" and \"Now\" data points provided in the history, we can confirm the shift in schedule.\n\n**Answer:**\nPreviously, you played tennis with your friends on a **weekly** basis. Now, as of July 2023, you play tennis with them **every other week**.",
+ "dump": "- [explicit] user is seeking a new yoga class.\n- [explicit] user is doing well with meal prepping.\n- [explicit] user is working on getting back on track with an exercise routine.\n- [explicit] user has been practicing morning yoga classes.\n- [explicit] user has been struggling to establish a consistent wake-up routine.\n- [explicit] user intends to find a new yoga class that takes place early in the morning.\n- [explicit] user missed a usual yoga class on Sunday, March 5, 2023, because user woke up late.\n- [explicit] user is trying to establish a consistent morning routine.\n- [explicit] user aims to wake up at 6:30 am every day, including weekends.\n- [explicit] user is writing a novel.\n- [explicit] user is seeking tips on maintaining focus and avoiding distractions for creative work.\n- [explicit] user identifies writing a novel as a personal project.\n- [explicit] user aims to write at least 500 words per day for the novel.\n- [explicit] user is writing a novel as a personal project.\n- [explicit] user feels sluggish on Tuesdays.\n- [explicit] user has set a daily word count goal of 500 words for writing a novel.\n- [explicit] user has a heavy workload of deadlines on Tuesdays.\n- [explicit] user visited a local park on Sunday, March 5, 2023.\n- [explicit] user is planning to play tennis with friends on Sunday, March 12, 2023, at the local park.\n- [explicit] user decided to purchase Nike Court Flex Tennis Socks.\n- [explicit] user is considering ordering new athletic socks online.\n- [explicit] user owns Nike Air Zoom tennis shoes.\n- [explicit] user plays tennis weekly with friends.\n- [explicit] user is practicing volleys and overheads to improve net game.\n- [explicit] user focuses on forehand and backhand groundstrokes.\n- [explicit] user plays tennis for fun with friends.\n- [explicit] user identifies as a baseline player.\n- [explicit] user is a fan of Roger Federer.\n- [explicit] user finished reading \"The Silent Patient\" by Alex Michaelides on 2023-03-15.\n- [explicit] user is interested in reading psychological thrillers.\n- [explicit] user has previously heard positive information about the books \"Gone Girl\" and \"The Girl on the Train\".\n- [explicit] user is interested in learning more about the psychological thrillers \"The Last Mrs. Parrish\" and \"The Wife Between Us\".\n- [explicit] user has heard that \"The Last Mrs. Parrish\" has a similar vibe to \"The Silent Patient\" in terms of its dark and twisted characters.\n- [explicit] user is interested in the dark humor and social commentary in \"The Last Mrs. Parrish\".\n- [explicit] user would like recommendations for authors similar to Alex Michaelides who write psychological thrillers.\n- [explicit] user is curious about the author's handling of the psychological thriller genre in a debut novel.\n- [explicit] user intends to check for the availability of \"The Last Mrs. Parrish\" as an e-book on Libby.\n- [explicit] user plans to read \"The Last Mrs. Parrish\" next.\n- [explicit] user intends to add Clare Mackintosh to their reading list.\n- [explicit] user intends to add Fiona Barton to their reading list.\n- [explicit] user considers the writing styles of Fiona Barton and Clare Mackintosh to align with that of Alex Michaelides.\n- [explicit] user is interested in reading Fiona Barton.\n- [explicit] user is interested in reading Clare Mackintosh.\n- [explicit] user has not read all of the authors in the provided list.\n- [explicit] user has heard of some of the authors in the provided list.\n- [explicit] user is interested in how language can be used to create more inclusive communication.\n- [explicit] user is interested in how language reflects cultural values and norms.\n- [explicit] user believes that language is a tool for shaping an understanding of the world.\n- [explicit] user wonders how the lack of exact word equivalents affects the ability to express oneself accurately.\n- [explicit] user has observed that certain words do not have exact equivalents in other languages.\n- [explicit] user is interested in Wittgenstein's challenge to the concept of a private language.\n- [explicit] user cites the English word \"awkward\" as an example of a word that lacks an exact translation in several other languages.\n- [explicit] user is interested in how language can assist in understanding cultural differences.\n- [explicit] user observes that the Japanese language has multiple words for \"love\" based on context and intensity.\n- [explicit] user questions if there are inherent limitations in language that affect the ability to understand complex concepts or experiences.\n- [explicit] user thinks it is interesting how language can impact the perception of reality and shape the way people think.\n- [explicit] user spent $40 on canned goods and pantry items at Walmart on 2023-04-11.\n- [explicit] user is aiming for a grocery budget of around $100 per week.\n- [explicit] user bought non-perishable items on sale at Walmart on 2023-04-11.\n- [explicit] user set an original budget of $80 for the Walmart trip on 2023-04-11.\n- [explicit] user spent $30 on produce at Walmart on 2023-04-11.\n- [explicit] user spent $20 on dairy products at Walmart on 2023-04-11.\n- [explicit] user spent the remainder of the $120 total on household essentials and miscellaneous items at Walmart on 2023-04-11.\n- [explicit] user had a mixed experience shopping at ShopRite during the week prior to 2023-04-12.\n- [explicit] user is considering using online grocery shopping.\n- [explicit] user spent $120 at Walmart on 2023-04-11.\n- [explicit] user makes impulse buys while grocery shopping.\n- [explicit] user does not currently have a regular grocery budget.\n- [explicit] user habitually makes a shopping list.\n- [explicit] user is focused on managing a budget.\n- [explicit] user prefers an online grocery store that utilizes eco-friendly packaging or sustainable practices.\n- [explicit] user identifies price as a major concern for online grocery shopping.\n- [explicit] user is seeking an online grocery store with competitive pricing and discounts or promotions.\n- [explicit] user wants to reduce their environmental impact.\n- [explicit] user is trying to reduce food waste.\n- [explicit] user is interested in learning about meal prep and cooking in bulk.\n- [explicit] user currently practices cooking in bulk and freezing individual portions.\n- [explicit] user is trying to save time during the week.\n- [explicit] user considers cooking in bulk and freezing portions as a method to manage a grocery budget and reduce waste.\n- [explicit] user wants to learn more about reducing food waste.\n- [explicit] user wants to learn more about saving time during the week.\n- [explicit] user uses up leftovers to reduce food waste.\n- [explicit] user freezes individual portions to reduce food waste.\n- [explicit] user plans meals to reduce food waste.\n- [explicit] user believes meal planning is a way to stay on top of a grocery budget and reduce waste.\n- [explicit] user has a shorter commute than previously.\n- [explicit] user needs to renew their passport.\n- [explicit] user rejoined their old gym in April 2023.\n- [explicit] user is planning a trip to visit family for the holidays.\n- [explicit] user has been following a regular exercise routine since April 2023.\n- [explicit] user enjoys a shorter commute since moving into their new apartment.\n- [explicit] user moved into a new apartment on May 9, 2023.\n- [explicit] user has been trying to incorporate more walking into their daily routine.\n- [explicit] user has an extra 30 minutes each morning to grab a coffee and catch up on the news.\n- [explicit] user intends to visit Yellowstone National Park.\n- [explicit] user intends to visit the Grand Canyon.\n- [explicit] user is planning to take a road trip to the western United States in the spring of 2024.\n- [explicit] user has started planning a route for a road trip.\n- [explicit] user has started considering the accommodations needed for a road trip.\n- [explicit] user is planning a road trip to visit national parks in the western United States.\n- [explicit] user has recently moved to a new apartment.\n- [explicit] user needs to schedule appointments to complete errands before their trip.\n- [explicit] user needs to purchase gifts.\n- [explicit] user is seeking advice on managing stress and anxiety.\n- [explicit] user started taking a serotonin supplement in mid-June 2023.\n- [explicit] user is taking a serotonin supplement under the recommendation of their doctor to regulate mood.\n- [explicit] user is seeking advice on how to stay motivated and consistent with a meditation practice.\n- [explicit] user has researched mindfulness and meditation.\n- [explicit] user is interested in trying Headspace and Insight Timer apps for meditation.\n- [explicit] user is concerned about finding a quiet space to meditate because of noisy family members.\n- [explicit] user has bookmarked guided meditations on the Insight Timer app focused on anxiety and stress relief.\n- [explicit] user plans to start with the 'Take10' program on the Headspace meditation app.\n- [explicit] user is monitoring the effects of their serotonin supplement.\n- [explicit] user takes a serotonin supplement.\n- [explicit] user has been taking a serotonin supplement for one month.\n- [explicit] user is concerned about potential interactions between their serotonin supplement and meditation.\n- [explicit] user intends to schedule a follow-up appointment with a doctor to discuss the impact of meditation on serotonin levels.\n- [explicit] user plans to start a meditation practice using gentle techniques.\n- [explicit] user plans to discuss potential dosage adjustments for a serotonin supplement with a doctor.\n- [explicit] user intends to monitor their body and mind for adverse effects related to meditation.\n- [explicit] user is asking for the meaning of the phrase 'Ill know'.\n- [explicit] user prefers jogging routes that are 5 miles long.\n- [explicit] user is interested in finding yoga studios near Almaden Lake Park.\n- [explicit] user prefers jogging routes with nice scenery.\n- [explicit] user intends to play tennis with friends at the local park on Sunday, July 30, 2023.\n- [explicit] user plays tennis with friends every other week.\n- [explicit] user prefers jogging routes with minimal traffic.\n- [explicit] user decided to try the Almaden Lake Park Loop for a jog.\n- [explicit] user is located in zip code 95123.\n- [explicit] user plans to incorporate more swimming into their exercise routine.\n- [explicit] user selected CorePower Yoga Almaden as the yoga studio they will try.\n- [explicit] user signed up for swim lessons at the local pool.\n- [explicit] user is currently taking swim lessons.\n- [explicit] user intends to use the tennis bag to carry gear to the local park.\n- [explicit] user is planning to acquire a new tennis bag.\n- [explicit] user has a tennis match or practice session scheduled for Sunday, July 30, 2023.\n- [explicit] user plays tennis.\n- [explicit] user needs a tennis bag with enough capacity for a racket, shoes, and other essentials.\n- [explicit] user is interested in how technology and social media have affected the use of Serbo-Croatian in its region.\n- [explicit] user observes that technology has a dual effect on language.\n- [explicit] user believes that everything changes with time.\n- [explicit] user is interested in whether technology has helped to preserve or change the Serbo-Croatian language over time.\n- [deductive] user resides near or frequents the Almaden area of San Jose.\n- [deductive] user engages in multiple forms of physical activity: tennis, swimming, and jogging.\n- [inductive] user frequently structures their physical activity and social interactions around specific local geographic areas, particularly near Almaden Lake Park.\n- [inductive] user consistently engages in and prioritizes varied forms of physical exercise, including tennis, swimming, and jogging.\n- [inductive] user demonstrates an intellectual interest in the impact of technology and time on cultural and linguistic change.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 106.6,
+  "total": 109.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": true
+  }
+ }
+}

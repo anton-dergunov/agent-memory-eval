@@ -1,0 +1,93 @@
+{
+ "qid": "3ba21379",
+ "arm": "letta",
+ "split": "pilot",
+ "question": "What type of vehicle model am I currently working on?",
+ "reference": "Ford F-150 pickup truck",
+ "question_date": "2023-06-01 05:09",
+ "sessions": [
+  {
+   "id": "answer_cd345582_1",
+   "date": "2023-05-20 15:14",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_525931",
+   "date": "2023-05-26 03:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_cd345582_2",
+   "date": "2023-05-26 04:47",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_QQQAWUd_19",
+   "date": "2023-05-26 06:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_563664",
+   "date": "2023-05-26 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6fho7as_0",
+   "date": "2023-05-26 13:32",
+   "evidence": false
+  },
+  {
+   "id": "0f78155a_1",
+   "date": "2023-05-27 07:12",
+   "evidence": false
+  },
+  {
+   "id": "67620dbc_4",
+   "date": "2023-05-27 17:40",
+   "evidence": false
+  },
+  {
+   "id": "3e19c52e_3",
+   "date": "2023-05-28 04:11",
+   "evidence": false
+  },
+  {
+   "id": "490bb46d_3",
+   "date": "2023-06-01 08:42",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T14:40:28.816650+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-01 05:09] What type of vehicle model am I currently working on?'}, {'timestamp': '2026-10-17T14:40:24.360184+00:00', 'time_ago': '6s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-28 04:11] The Bellagio is a great choice! The fountains show is indeed a must-see in Las Vegas.\\n\\nNow, let's dive into the cost of a 7-day trip to Iceland. Keep in mind that Iceland is known for being an expensive destination, but with some planning, you can make the most of your trip. Here's a rough estimate of costs to help you plan:\\n\\n**Flights:**\\n\\n* Round-trip flights from the US to Reykjavik (KEF) can range from $400-$800, depending on the time of year, departure city, and airline.\\n\\n**Accommodation:**\\n\\n* Budget-friendly options: Hostels and guesthouses can cost between $30-$60 per night (around $210-$420 for 7 nights).\\n* Mid-range options: Hotels and Airbnb apartments can cost between $80-$150 per night (around $560-$1,050 for 7 nights).\\n* Luxury options: High-end hotels and resorts can cost $200-$500 per night (around $1,400-$3,500 for 7 nights).\\n\\n**Food:**\\n\\n* Fast food/street food: $10-$15 per meal\\n* Mid-range restaurants: $20-$30 per meal\\n* Fine dining: $40-$60 per meal\\n* Groceries: $50-$75 per week for basic items\\n\\n** Transportation:**\\n\\n* Renting a car for 7 days can cost around $300-$500, depending on the type of vehicle and rental agency.\\n* Gasoline: around $20-$30 per day\\n* Public transportation: buses and shuttles can cost around $10-$20 per ride\\n\\n**Activities and Entrance Fees:**\\n\\n* Glacier hiking: $150-$250 per person\\n* Northern Lights tour: $50-$100 per person\\n* Blue Lagoon: $50-$100 per person\\n* National parks and attractions: $10-$20 per person\\n\\n**Other expenses:**\\n\\n* Miscellaneous souvenirs, snacks, and other incidentals: $200-$300 per person\\n\\n**Total estimated cost for a 7-day trip to Iceland:**\\n\\n* Budget-friendly: around $1,500-$2,500 per person\\n* Mid-range: around $2,500-$4,000 per person\\n* Luxury: around $4,000-$6,000 per person\\n\\nKeep in mind that these are rough estimates, and your actual costs can vary depending on your travel style, accommodation choices, and activities.\\n\\nTo save money, consider:\\n\\n* Booking flights and accommodations well in advance to get better deals.\\n* Opting for budget-friendly accommodations and dining options.\\n* Renting a car and splitting the cost with travel companions.\\n* Packing snacks and sandwiches for lunch instead of eating out.\\n* Choosing free or low-cost activities, such as exploring Reykjavik's city center or visiting the Geothermal Museum.\\n\\nI hope this helps you plan your trip to Iceland!\"}, {'timestamp': '2026-10-17T14:38:16.017695+00:00', 'time_ago': '2m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-26 04:47] Blending rust effects with the surrounding paint and weathering effects is a crucial step in creating a realistic, seamless appearance. Here are some tips to help you blend your rust effects:\\n\\n**Understanding blending**\\n\\nBlending involves merging the rust effects with the surrounding paint and weathering effects to create a smooth, natural transition. This requires a gentle, subtle approach to avoid creating harsh lines or obvious transitions.\\n\\n**Techniques**\\n\\n1. **Wet blending**: Use a wet brush to blend the rust effects with the surrounding paint. Dip the brush in water or a thinner, and then pick up some rust-colored paint or weathering powder. Gently merge the rust effect with the surrounding paint, feathering the edges to create a smooth transition.\\n2. **Drybrushing**: Use a drybrush to blend the rust effects with the surrounding weathering effects. Dip the brush in a rust-colored weathering powder, and then gently sweep the brush across the model, feather",
+ "answer": "You are currently working on a model of a Ford F-150 pickup truck.",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"vehicle model\", \"start_date\": \"2023-01-01\"})",
+   "conversation_search({\"query\": \"vehicle\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 137.4,
+  "total": 141.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ }
+}

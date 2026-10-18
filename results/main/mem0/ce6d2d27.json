@@ -1,0 +1,100 @@
+{
+ "qid": "ce6d2d27",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What day of the week do I take a cocktail-making class?",
+ "reference": "Friday",
+ "question_date": "2023-07-15 22:19",
+ "sessions": [
+  {
+   "id": "answer_73540165_1",
+   "date": "2023-06-16 13:26",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_72kPQPm_11",
+   "date": "2023-06-19 09:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1uSOnON_25",
+   "date": "2023-06-27 22:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_227355",
+   "date": "2023-06-30 15:34",
+   "evidence": false
+  },
+  {
+   "id": "cd92ac85_1",
+   "date": "2023-06-30 16:18",
+   "evidence": false
+  },
+  {
+   "id": "answer_73540165_2",
+   "date": "2023-06-30 22:49",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504309",
+   "date": "2023-07-05 17:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_306593",
+   "date": "2023-07-05 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_WQctw3k_0",
+   "date": "2023-07-06 07:34",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_206676",
+   "date": "2023-07-12 09:35",
+   "evidence": false
+  }
+ ],
+ "context": "- User is attending a cocktail-making class on Thursday, June 22, 2023. (from a chat on 2023-06-16)\n- User plans to experiment with making a Paloma and a Tequila Sour during their cocktail-making class on Friday, July 7, 2023. (from a chat on 2023-06-30)\n- User was recommended several tequila-based cocktails to try, including Tequila Sunrise, Paloma, Tequila Sour, El Diablo, Cucumber Collins, Tequila Spritz, and Blood Orange Margarita. (from a chat on 2023-06-30)\n- User has a weekly meal prep ritual on Sundays where they wake up early to cook a large batch of rice and portion it into individual containers. (from a chat on 2023-06-30)\n- User is interested in experimenting with grapefruit juice in cocktails, specifically for the Paloma recipe. (from a chat on 2023-06-30)\n- User is planning to incorporate lentil curry into their weekly meal prep routine, potentially adding mango for sweetness and experimenting with cumin, coriander, and ras el hanout for flavor. (from a chat on 2023-06-30)\n- User enjoys experimenting with basil in cocktails and finds it pairs well with tequila. (from a chat on 2023-06-30)\n- User was provided with a recipe for a Watermelon Basil Margarita, including a basil syrup recipe made from water, sugar, and fresh basil leaves. (from a chat on 2023-06-30)\n- User prefers Avion Silver tequila for their homemade margaritas and plans to use it for their Watermelon Basil Margarita. (from a chat on 2023-06-30)\n- User plans to roast watermelon before pureeing it to enhance its natural sweetness for a Watermelon Basil Margarita. (from a chat on 2023-06-30)\n- User selected grilled jerk chicken with mango salsa as the main course for their dinner party, noting they have been experimenting with jerk seasoning. (from a chat on 2023-06-16)\n- User selected coconut lime panna cotta with mango salsa as the dessert for their dinner party. (from a chat on 2023-06-16)\n- User is planning a dinner party menu featuring spicy mango margaritas and has selected grilled pineapple and prosciutto skewers and spicy shrimp ceviche as appetizers. (from a chat on 2023-06-16)\n- User was advised to make a sweeter, less spicy version of mango salsa for the dessert course by omitting jalapeños, increasing mango content, and adding honey or agave nectar. (from a chat on 2023-06-16)\n- User was provided with ideas for recurring podcast segments, such as 'Pivot Point', 'The One That Got Away', 'Elevator Pitch Remix', 'Founder's Toolbox', and 'The Crystal Ball'. (from a chat on 2023-07-06)\n- User is interested in the philosophical exploration of psychoactive substances, specifically seeking information on how philosophers like Plato, Aldous Huxley, Terence McKenna, and Immanuel Kant have viewed their use regarding consciousness, rationality, and morality. (from a chat on 2023-06-19)\n- User learned that major aviation incidents, such as the Boeing 737 Max crashes (2018-2019), the Lion Air crash (2018), and Air France Flight 447 (2009), have historically driven stricter regulations regarding aircraft design, pilot training, and maintenance oversight. (from a chat on 2023-06-30)\n- User finds the creative blending of different fairy tales in 'Into the Woods' to be a unique way to explore themes, and appreciates how the show's humor balances its heavier thematic elements. (from a chat on 2023-07-12)\n- User was advised to maintain long-term website accessibility by staying updated on guidelines, testing on new devices, conducting regular audits, involving users with disabilities in research, and training their development team. (from a chat on 2023-07-05)\n- WiRE provides services including networking events, mentorship programs, career development resources, advocacy, policy support, and research on gender diversity in the renewable energy sector. (from a chat on 2023-06-27)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:**\n   - The history chats mention two cocktail-making class dates:\n     - \"User is attending a cocktail-making class on Thursday, June 22, 2023.\"\n     - \"User plans to experiment with making a Paloma and a Tequila Sour during their cocktail-making class on Friday, July 7, 2023.\"\n\n2. **Reason over the information:**\n   - The user has attended/planned classes on two different days of the week: Thursday (June 22, 2023) and Friday (July 7, 2023).\n\n3. **Conclusion:**\n   - Based on the provided history, you have taken (or planned to take) cocktail-making classes on both **Thursdays** and **Fridays**.",
+ "dump": "- WiRE provides services including networking events, mentorship programs, career development resources, advocacy, policy support, and research on gender diversity in the renewable energy sector. (session 2023-06-27)\n- The target audience for 'After the Wire' includes early-stage tech professionals, venture investors, and individuals interested in the startup ecosystem. (session 2023-07-06)\n- User selected coconut lime panna cotta with mango salsa as the dessert for their dinner party. (session 2023-06-16)\n- User enjoys the music of 'Into the Woods' and still hums the tunes from the show. (session 2023-07-12)\n- User was recommended several tequila-based cocktails to try, including Tequila Sunrise, Paloma, Tequila Sour, El Diablo, Cucumber Collins, Tequila Spritz, and Blood Orange Margarita. (session 2023-06-30)\n- User values the depth added to the themes of 'Into the Woods' by the individual personal journeys and struggles of each character, which reminds them to consider the perspectives of others. (session 2023-07-12)\n- User was advised to make a sweeter, less spicy version of mango salsa for the dessert course by omitting jalapeños, increasing mango content, and adding honey or agave nectar. (session 2023-06-16)\n- User received recommendations for protein sources to pair with rice, including grilled meats (chicken, salmon, burgers), roasted proteins (thighs, shrimp, pork), legumes, eggs, and tofu/tempeh. (session 2023-06-30)\n- User was advised on general web accessibility best practices, including using semantic HTML, providing alt tags for images, ensuring sufficient color contrast, providing transcripts/captions, and testing with assistive technologies. (session 2023-07-05)\n- User was informed that aviation authorities enforce safety through periodic inspections of facilities and aircraft, ongoing performance monitoring, and enforcement actions such as fines or certificate revocation. (session 2023-06-30)\n- Alexandria Ocasio-Cortez's future priorities center on environmental justice, economic justice (including a jobs guarantee and expanded healthcare/education), racial justice (criminal justice reform and affordable housing), and immigrant rights. (session 2023-07-05)\n- User was provided with a comprehensive podcast show outline, intro/outro scripts, and a show description for 'After the Wire' by the assistant. (session 2023-07-06)\n- User is interested in experimenting with grapefruit juice in cocktails, specifically for the Paloma recipe. (session 2023-06-30)\n- User is interested in Women in Renewable Energy (WiRE), a global non-profit network dedicated to advancing gender diversity and supporting women's professional development in the renewable energy industry. (session 2023-06-27)\n- User is starting a podcast called 'After the Wire' with a co-host named Matt, focusing on the real-world challenges of early-stage founders with an emphasis on substance over investment hype. (session 2023-07-06)\n- User is researching the representation and experiences of women and underrepresented groups in the Canadian energy, clean energy, and climate sectors. (session 2023-06-27)\n- User was advised to store spices and herbs in airtight containers in a cool, dark place at room temperature, and to consider freezing them for long-term storage up to 2-3 years. (session 2023-06-30)\n- User is planning a dinner party menu featuring spicy mango margaritas and has selected grilled pineapple and prosciutto skewers and spicy shrimp ceviche as appetizers. (session 2023-06-16)\n- User was provided with a recipe for homemade watermelon puree, including an optional roasting method at 400°F/200°C for 20-30 minutes. (session 2023-06-30)\n- User was provided with a lentil curry recipe serving 4-6 people, including instructions on how to incorporate diced mango or mango puree during the final 5-15 minutes of cooking. (session 2023-06-30)\n- User was advised to maintain long-term website accessibility by staying updated on guidelines, testing on new devices, conducting regular audits, involving users with disabilities in research, and training their development team. (session 2023-07-05)\n- User plans to roast watermelon before pureeing it to enhance its natural sweetness for a Watermelon Basil Margarita. (session 2023-06-30)\n- User was provided with a recipe for a Watermelon Basil Margarita, including a basil syrup recipe made from water, sugar, and fresh basil leaves. (session 2023-06-30)\n- User is curious about the concept of 'ascent to the Good' in Plato's 'Republic' and how the rational part of the soul leads the spirited and appetitive parts toward wisdom and virtue. (session 2023-06-19)\n- User finds the creative blending of different fairy tales in 'Into the Woods' to be a unique way to explore themes, and appreciates how the show's humor balances its heavier thematic elements. (session 2023-07-12)\n- User was provided with 10 unconventional interview questions for founders, such as asking about their company's personality traits or their pre-founder advice. (session 2023-07-06)\n- User was provided with strategies to differentiate their podcast, including segment variety, guest diversity, visual storytelling via YouTube, and interactive audience engagement. (session 2023-07-06)\n- User reported experiencing heightened awareness and an increased appreciation for aspects of a game while under the influence of cannabis, prompting their interest in the philosophical implications of such states. (session 2023-06-19)\n- User was provided with tips for dyslexia-friendly web design, such as using readable fonts (Arial, Verdana), short sentences, audio versions of content, pastel/neutral backgrounds, and avoiding all-caps or dense text blocks. (session 2023-07-05)\n- User plans to initially feature founders they have invested in as podcast guests, with the goal of expanding to other founders to build professional relationships. (session 2023-07-06)\n- User was recommended tools for testing keyboard accessibility, including Accessibility Inspector (Mac), Axe DevTools (browser extension), AChecker, WAVE Web Accessibility Evaluation Tool, and Keyboard Accessibility Checker. (session 2023-07-05)\n- User prefers Avion Silver tequila for their homemade margaritas and plans to use it for their Watermelon Basil Margarita. (session 2023-06-30)\n- User is planning to incorporate lentil curry into their weekly meal prep routine, potentially adding mango for sweetness and experimenting with cumin, coriander, and ras el hanout for flavor. (session 2023-06-30)\n- User learned that major aviation incidents, such as the Boeing 737 Max crashes (2018-2019), the Lion Air crash (2018), and Air France Flight 447 (2009), have historically driven stricter regulations regarding aircraft design, pilot training, and maintenance oversight. (session 2023-06-30)\n- User is attending a cocktail-making class on Thursday, June 22, 2023. (session 2023-06-16)\n- User is interested in the philosophical exploration of psychoactive substances, specifically seeking information on how philosophers like Plato, Aldous Huxley, Terence McKenna, and Immanuel Kant have viewed their use regarding consciousness, rationality, and morality. (session 2023-06-19)\n- User was provided with ideas for recurring podcast segments, such as 'Pivot Point', 'The One That Got Away', 'Elevator Pitch Remix', 'Founder's Toolbox', and 'The Crystal Ball'. (session 2023-07-06)\n- User plans to experiment with making a Paloma and a Tequila Sour during their cocktail-making class on Friday, July 7, 2023. (session 2023-06-30)\n- User selected grilled jerk chicken with mango salsa as the main course for their dinner party, noting they have been experimenting with jerk seasoning. (session 2023-06-16)\n- User decided to serve roasted sweet potatoes as a side dish for the jerk chicken dinner, replacing their initial plan to use quinoa. (session 2023-06-16)\n- User was recommended resources for learning about web accessibility, including the Web Accessibility Initiative (WAI), Web Content Accessibility Guidelines (WCAG), The A11y Project, Accessible360, The Paciello Group, and Accessibil-IT. (session 2023-07-05)\n- User is inquiring about the regulatory framework and safety protocols governing dangerous flight tests, including how aviation authorities like the FAA and EASA enforce compliance. (session 2023-06-30)\n- Alexandria Ocasio-Cortez's legislative progress includes co-sponsoring the Green New Deal resolution, advocating for the Raise the Wage Act (which passed the House in 2019), co-sponsoring the Automatic Voter Registration Act, and proposing the Rent and Mortgage Cancellation Act. (session 2023-07-05)\n- User enjoys experimenting with basil in cocktails and finds it pairs well with tequila. (session 2023-06-30)\n- User appreciates the musical 'Into the Woods' for its portrayal of empathy and selflessness, viewing it as an aspirational work that encourages healthier relationships through teamwork and consideration of others. (session 2023-07-12)\n- User has a weekly meal prep ritual on Sundays where they wake up early to cook a large batch of rice and portion it into individual containers. (session 2023-06-30)\n- User is interested in the political track record of Alexandria Ocasio-Cortez (AOC) regarding social justice and equity, specifically her focus on economic justice, climate change, immigration, and racial justice. (session 2023-07-05)\n- User has a personal connection to someone named Graham and is interested in the philosophical work of Graham Harman and Bruno Latour. (session 2023-06-19)\n- User is a web developer actively working to improve the accessibility of their website for users with mobility impairments, visual impairments, and dyslexia. (session 2023-07-05)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 49,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 69.3,
+  "total": 70.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": true
+  }
+ }
+}

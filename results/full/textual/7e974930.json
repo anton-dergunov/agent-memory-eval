@@ -1,0 +1,276 @@
+{
+ "qid": "7e974930",
+ "arm": "textual",
+ "split": "full",
+ "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+ "reference": "$420",
+ "question_date": "2023-10-26 11:44",
+ "sessions": [
+  {
+   "id": "bf139883",
+   "date": "2023-03-12 21:41",
+   "evidence": false
+  },
+  {
+   "id": "71f2f490_3",
+   "date": "2023-03-16 13:20",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_113430",
+   "date": "2023-03-17 23:59",
+   "evidence": false
+  },
+  {
+   "id": "9b585686",
+   "date": "2023-03-20 05:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_akgyvvO_0",
+   "date": "2023-03-22 05:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_lWLBUhQ_76",
+   "date": "2023-03-22 09:33",
+   "evidence": false
+  },
+  {
+   "id": "18f48ccb",
+   "date": "2023-03-24 15:24",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_SM5D9NQ_0",
+   "date": "2023-03-24 20:14",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_259222",
+   "date": "2023-03-26 03:49",
+   "evidence": false
+  },
+  {
+   "id": "07b2420e_1",
+   "date": "2023-03-27 14:25",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_EuvEEnD_0",
+   "date": "2023-03-27 22:28",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_JuRT16T_0",
+   "date": "2023-03-30 03:07",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LytoRNh_21",
+   "date": "2023-03-31 05:59",
+   "evidence": false
+  },
+  {
+   "id": "5854eebc_1",
+   "date": "2023-04-05 14:52",
+   "evidence": false
+  },
+  {
+   "id": "answer_c9f5693c_1",
+   "date": "2023-04-11 00:10",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_68zFOwB_0",
+   "date": "2023-04-20 06:21",
+   "evidence": false
+  },
+  {
+   "id": "084cba20",
+   "date": "2023-04-25 06:05",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DVhlbLc_0",
+   "date": "2023-05-08 14:26",
+   "evidence": false
+  },
+  {
+   "id": "adc47df1_1",
+   "date": "2023-05-10 08:52",
+   "evidence": false
+  },
+  {
+   "id": "8bd5b3c4_1",
+   "date": "2023-05-10 12:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_OtI4UQU_0",
+   "date": "2023-05-19 13:30",
+   "evidence": false
+  },
+  {
+   "id": "a1e169b1",
+   "date": "2023-05-26 20:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_251049",
+   "date": "2023-05-29 05:39",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_463158",
+   "date": "2023-06-05 22:18",
+   "evidence": false
+  },
+  {
+   "id": "274cecc8_2",
+   "date": "2023-06-21 00:05",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_K5TLB2s_0",
+   "date": "2023-06-26 12:45",
+   "evidence": false
+  },
+  {
+   "id": "118c28ee",
+   "date": "2023-07-18 23:30",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436674",
+   "date": "2023-07-19 08:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_18469",
+   "date": "2023-07-28 03:53",
+   "evidence": false
+  },
+  {
+   "id": "2ad94e57_1",
+   "date": "2023-07-28 18:47",
+   "evidence": false
+  },
+  {
+   "id": "09f165cb_1",
+   "date": "2023-08-04 08:08",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_jSnesqJ_21",
+   "date": "2023-08-06 20:50",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_271314",
+   "date": "2023-08-14 19:36",
+   "evidence": false
+  },
+  {
+   "id": "898ce7a5_1",
+   "date": "2023-08-16 11:09",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_cXkL3cR_77",
+   "date": "2023-08-21 00:41",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_28626",
+   "date": "2023-08-22 13:26",
+   "evidence": false
+  },
+  {
+   "id": "705b5399_3",
+   "date": "2023-08-23 12:12",
+   "evidence": false
+  },
+  {
+   "id": "2cc24b7c_2",
+   "date": "2023-09-03 06:26",
+   "evidence": false
+  },
+  {
+   "id": "e1220dda_2",
+   "date": "2023-09-03 11:39",
+   "evidence": false
+  },
+  {
+   "id": "0a24e95e",
+   "date": "2023-09-07 03:34",
+   "evidence": false
+  },
+  {
+   "id": "e77592b2",
+   "date": "2023-09-11 06:41",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_380252",
+   "date": "2023-09-21 15:42",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_178564",
+   "date": "2023-09-25 22:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_8jC6dT1_33",
+   "date": "2023-09-26 20:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_c9f5693c_2",
+   "date": "2023-09-30 15:13",
+   "evidence": true
+  },
+  {
+   "id": "168fa66e_5",
+   "date": "2023-10-04 19:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_439362",
+   "date": "2023-10-07 00:16",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user has a home office and a guest room.\n*   The user recently rearranged their living room furniture to create a more conversational layout.\n*   The user is actively organizing their music library on their computer and Spotify.\n*   The user has a strong interest in attending live music and comedy shows.\n*   The user is planning a fishing trip to a nearby lake (originally planned for early April 2023).\n*   The user is interested in learning both conventional lure fishing and fly fishing for bass.\n*   The user has an academic or deep intellectual interest in ecocriticism, the intersection of literature and the environment, and the methodologies of interdisciplinary and transdisciplinary scholarship.\n*   The user is interested in the works of Ursula K. Le Guin and Octavia Butler, particularly their exploration of ecological, social, and political themes (Octavia Butler interest added 2023-05-19).\n*   The user is interested in the intersection of landscape architecture and environmental discourse.\n*   **Historical/Maritime Interest:** The user has an interest in the *Fram* ship and the logistics of Arctic expeditions. As of 2023-06-05, the user has developed an interest in medieval military history, specifically the relationship between armor evolution and weapon specialization.\n*   **Creative Writing:** The user is currently engaged in a collaborative roleplay narrative with the assistant, focusing on a story involving the characters MK and Wukong.\n*   **Book Project:** As of 2023-08-21, the user is actively working on a book about grief and healing, including drafting sections such as the copyright page, dedication, acknowledgments, and preface. The user has specifically dedicated this book to their late mother.\n*   **Fitness:** The user is a runner who completed a marathon on 2023-04-15 with a personal best time.\n*   **Triathlon Training:** The user is currently training for a sprint triathlon.\n*   **Health Metrics:** As of 2023-03-24, the user has lost 5 pounds and decreased their resting heart rate by 10 beats per minute through their training regimen.\n*   **Technical Skills:** The user has an interest in web development and layout design. As of 2023-08-06, the user is specifically exploring the integration of machine learning (CNNs and DNNs) into real estate applications using Python, Keras, and TensorFlow.\n*   **Mentoring Interest:** As of 2023-08-22, the user is researching technological tools for mentoring programs.\n*   **Photography:** The user has recently returned to photography as a hobby, inspired by a beach trip taken around mid-February 2023. They are currently researching mirrorless cameras, specifically the Fujifilm X-T30 II.\n*   **Scientific Curiosity:** As of 2023-03-30, the user has shown a keen interest in cosmology, scale, and particle physics. As of 2023-05-29, the user has developed a specific interest in biotechnology, stem cell research, and its applications for treating autoimmune disorders and arthritis.\n*   **Infrastructure Interest:** As of 2023-03-31, the user has shown a specific interest in large-scale Indian infrastructure projects.\n*   **Entertainment Interests:** The user is a fan of the show *Stranger Things* (as of 2023-04-05). They have a growing interest in sci-fi across various media. They are an avid consumer of true-crime content, specifically favoring documentaries and series that emphasize psychological analysis and investigative processes over graphic violence (as of 2023-09-11).\n*   **Sports/Wrestling Interest:** The user follows Olympic history and admires the perseverance and mental strength required for elite athletic performance, specifically citing Michael Phelps as an inspiration (as of 2023-09-21). As of 2023-10-07, the user is a fan of professional wrestling, specifically WWE, and follows the history of the \"Money in the Bank\" contract, with a particular appreciation for Edge and Seth Rollins.\n*   **Gaming:** As of 2023-08-04, the user has expanded their gaming setup, purchasing a 50-inch 4K TV from Best Buy and several games from GameStop.\n*   **Small Business:** The user runs a small business selling homemade jams, artisanal soaps, and candles. As of 2023-04-11, they had generated a gross income of $1,280. As of 2023-09-30, the user earned $420 at the Downtown Farmers Market.\n*   **Statistical/Analytical Interest:** As of 2023-04-20, the user is actively engaging with statistical analysis.\n*   **Transportation:** The user lives in Springfield and commutes from the suburbs to the city center every weekday. As of 2023-07-18, the user commutes via the 7:15 am train from Oakdale station. As of 2023-09-07, the user is actively exploring carpooling options and considering a monthly train pass.\n*   **Sports Interest:** As of 2023-05-08, the user has expressed an interest in soccer-specific training routines.\n*   **Cultural Interests:** As of 2023-05-10, the user has developed a keen interest in Puerto Rican culture, traditions, and music.\n*   **Location:** The user lives in a suburb approximately 20 miles outside of a major city (as of 2023-05-10). As of 2023-08-14, the user is interested in outdoor activities in the Charlottesville area.\n*   **Theme Park Interest:** As of 2023-05-26, the user has visited Disneyland, Knott's Berry Farm, Six Flags Magic Mountain, and Universal Studios Hollywood.\n*   **Family/Personal:** As of 2023-06-21, the user is in a reflective mood following a memorial service for their aunt's husband. As of 2023-08-21, the user is processing the loss of their mother. As of 2023-09-03, the user is planning a birthday party for their niece, who loves \"sparkly\" aesthetics.\n*   **Professional/Marketing Interests:** As of 2023-06-26, the user is interested in SEO optimization and app store ranking strategies.\n*   **Aviation/Safety Interest:** As of 2023-07-19, the user has shown an interest in the training protocols for flight attendants.\n*   **Gardening/Livestock:** As of 2023-07-28, the user is interested in starting a small home greenhouse. As of 2023-10-04, the user keeps a flock of chickens and is actively managing their health and egg production.\n*   **Artistic Interests:** As of 2023-07-28, the user is actively engaged in mixed media art.\n*   **Music Experiences:** The user is a huge fan of Billie Eilish and attended her concert with their best friend, Rachel, approximately three months prior to 2023-08-16. They participated in a meet-and-greet session with her. The user also recently attended a music festival at the Merriweather Post Pavilion in Columbia, Maryland, to see The 1975.\n*   **Financial Habits:** As of 2023-08-23, the user is actively working to curb impulsive luxury spending. As of 2023-09-03, the user has a birthday approaching in a few weeks and has recently made a \"splurge\" purchase at Anthropologie. As of 2023-09-07, the user is actively seeking ways to reduce daily commute costs.\n*   **Career Exploration:** As of 2023-09-25, the user is exploring the requirements for becoming a specialized pharmacist in oncology or geriatrics, though they are currently frustrated by the perceived length and burden of the required residency and certification processes.\n*   **Equipment/Maintenance:** As of 2023-09-26, the user owns a \"klargen\" (a portable electrical light device) and performs their own maintenance on it, including handling tungsten alloy covers and coolant systems.\n\n### Preferences and habits\n*   **Furniture style:** Appreciates modern, sleek aesthetics but is interested in the warmth of reclaimed wood. Currently seeking sustainable and eco-friendly throw pillows for the living room.\n*   **Shopping habits:** Positive experiences with IKEA, West Elm, and Crate & Barrel. As of 2023-08-23, the user is adopting a \"waiting period\" (24-48 hours) for luxury purchases and is interested in setting a structured annual luxury budget.\n*   **Music taste:** Indie Rock, Indie Pop, Alternative, Dream Pop, Chillwave, Synth-Pop, and Singer-Songwriter/Folk. Specific artists include Billie Eilish, The 1975, Boygenius, and many others.\n*   **Fitness Habits:** Tracks training via spreadsheet; incorporates yoga and soccer-specific conditioning.\n*   **Coding Habits:** Prefers clean, responsive design; interested in real estate portals with AI-driven features.\n*   **Photography Preferences:** Prefers landscape and nature photography; budget of ~$1,500.\n*   **Cycling Habits:** Casual rider, prefers paved trails or smooth dirt paths.\n*   **Theme Park Habits:** Prefers premium, immersive VIP experiences.\n*   **Cooking/Dining:** Enjoys comfort food; prefers recipes that can be prepared ahead of time.\n*   **Artistic Habits:** Values the experimental, tactile process of making art.\n*   **Design Preferences:** Prefers clean, modern, professional aesthetics with neutral color palettes.\n*   **Outdoor Preferences:** Interested in hiking and wine tasting in the Charlottesville area.\n*   **Grief Processing:** As of 2023-08-21, the user is utilizing journaling, reflection, and creative writing as tools to process grief.\n*   **Mentoring Evaluation:** Prefers evidence-driven, robust evaluation methods that integrate multiple data sources.\n*   **Digital Habits:** As of 2023-08-23, the user is looking to reduce social media exposure to luxury marketing. As of 2023-09-07, the user is interested in self-improvement literature and is currently reading/listening to *The 7 Habits of Highly Effective People*.\n*   **Sustainability:** As of 2023-09-03, the user has a strong preference for sustainable and eco-friendly home decor.\n*   **Party Planning:** Prefers DIY, budget-friendly, and creative approaches to event planning.\n*   **Commute Habits:** As of 2023-09-07, the user has a routine of arriving at the train station by 7:00 AM to have coffee with a friend.\n*   **True Crime Consumption:** Prefers to stay updated on new content via YouTube subscriptions/notifications, streaming service watchlists, and podcast app alerts.\n*   **Business Strategy:** As of 2023-09-30, the user is planning to implement a points-based loyalty program with tiers and a sign-up bonus, promoted via social media, email, and in-store staff interaction.\n*   **Livestock Care:** As of 2023-10-04, the user prefers proactive, nutritional-based solutions for animal health, including the use of probiotics (yogurt) and fermented grains.\n\n### Ongoing situations and plans\n*   **Road Trip:** The user is planning a road trip to Maryland and is seeking seafood restaurant recommendations near FedExField in Landover.\n*   **Dining/Home Office:** Planning to upgrade dining and office furniture; currently shopping for sustainable throw pillows.\n*   **Music:** Organizing digital music library; seeking recommendations for iconic music venues in the D.C./Maryland area.\n*   **Fishing:** Preparing for a bass fishing trip.\n*   **Creative Writing:** Continuing the MK/Wukong roleplay and writing a book on grief.\n*   **Triathlon:** Training for a sprint triathlon.\n*   **Web Development:** Developing a real estate portal with mortgage calculators and AI valuation.\n*   **Photography:** Planning to purchase a new mirrorless camera system.\n*   **Gaming:** Completing their 4K gaming setup.\n*   **Business:** Expanding product line to include more artisanal soaps and gift baskets; restocking strawberry jam and candle supplies.\n*   **Vehicle:** Researching roof racks and auto body repair for a scratch on the passenger door.\n*   **Theme Park:** Planning to attend Halloween-themed events at local parks.\n*   **Biotech:** Researching stem cell therapies.\n*   **Greenhouse:** Researching requirements for a home greenhouse.\n*   **Artistic:** Experimenting with fabric painting and natural dyeing.\n*   **Mentoring Research:** Investigating the integration of AI-powered chatbots and mobile apps for real-time feedback in mentoring programs.\n*   **Financial Planning:** As of 2023-08-23, the user is planning to implement a formal luxury budget. As of 2023-09-07, the user is evaluating the cost-benefit of a monthly train pass versus carpooling.\n*   **Home Decor:** As of 2023-09-03, the user is researching Fog Linen pillows.\n*   **Niece's Birthday:** Planning a \"sparkly\" themed party for their niece.\n*   **Self-Improvement:** As of 2023-09-07, the user is seeking audiobooks similar to *The 7 Habits of Highly Effective People*.\n*   **True Crime:** Actively seeking new documentary series and podcasts focused on psychological and investigative depth.\n*   **Equipment Repair:** As of 2023-09-26, the user is troubleshooting a coolant leak in their \"klargen\" device.\n*   **Chicken Flock:** As of 2023-10-04, the user is troubleshooting a decline in egg production by reviewing feed labels, adding oyster shells for calcium, and introducing probiotics (yogurt) and fermented oats to the flock's diet.\n\n### Changes over time\n*   **Maintenance concerns:** As of 2023-03-12, user feels more comfortable with reclaimed wood maintenance.\n*   **Commute:** As of 2023-07-18, shifted focus to reducing commute expenses via train passes and home-brewing coffee. As of 2023-09-07, the user is actively investigating carpooling and monthly pass options to further optimize commute costs.\n*   **Art Supplies:** As of 2023-07-28, reorganized and donated duplicate art supplies.\n*   **Gaming:** As of 2023-08-04, expanded home entertainment setup.\n*   **Technical Focus:** As of 2023-08-06, expanded web development focus to include Python-based machine learning.\n*   **Personal Focus:** As of 2023-08-21, the user has shifted focus toward memorializing their mother through a book project.\n*   **Professional Interest:** As of 2023-08-22, the user has begun exploring the intersection of technology and organizational development (mentoring programs).\n*   **Financial Strategy:** As of 2023-08-23, the user has shifted toward a more disciplined approach to luxury spending and is actively optimizing everyday expenses through digital tools.\n*   **True Crime Interests:** As of 2023-09-11, the user has refined their interest in true crime to prioritize psychological and investigative depth over graphic content.\n*   **Career Outlook:** As of 2023-09-25, the user has expressed significant frustration regarding the formal requirements for pharmacy specialization, viewing them as potentially excessive or burdensome.\n*   **Business Operations:** As of 2023-09-30, the user is actively expanding their product line and formalizing customer retention strategies (loyalty program).\n*   **Livestock Management:** As of 2023-10-04, the user has shifted from general coop maintenance to specific nutritional intervention for their chicken flock.\n*   **Entertainment Interests:** As of 2023-10-07, the user has explicitly identified as a fan of WWE and historical wrestling moments, specifically regarding the Money in the Bank contract.",
+ "answer": "**Answer (step by step):**\n\n1.  **Extract relevant information:**\n    *   Under the \"Small Business\" section of the provided facts, it states: \"As of 2023-09-30, the user earned $420 at the Downtown Farmers Market.\"\n\n2.  **Reason over the information:**\n    *   The question asks for the earnings from the most recent visit to the Downtown Farmers Market.\n    *   The provided history explicitly records the earnings from the visit on 2023-09-30 as $420.\n    *   There are no subsequent entries in the provided facts indicating a later visit to the Downtown Farmers Market.\n\n3.  **Conclusion:**\n    *   You earned $420 at the Downtown Farmers Market on your most recent visit.",
+ "dump": "### Personal facts\n*   The user has a home office and a guest room.\n*   The user recently rearranged their living room furniture to create a more conversational layout.\n*   The user is actively organizing their music library on their computer and Spotify.\n*   The user has a strong interest in attending live music and comedy shows.\n*   The user is planning a fishing trip to a nearby lake (originally planned for early April 2023).\n*   The user is interested in learning both conventional lure fishing and fly fishing for bass.\n*   The user has an academic or deep intellectual interest in ecocriticism, the intersection of literature and the environment, and the methodologies of interdisciplinary and transdisciplinary scholarship.\n*   The user is interested in the works of Ursula K. Le Guin and Octavia Butler, particularly their exploration of ecological, social, and political themes (Octavia Butler interest added 2023-05-19).\n*   The user is interested in the intersection of landscape architecture and environmental discourse.\n*   **Historical/Maritime Interest:** The user has an interest in the *Fram* ship and the logistics of Arctic expeditions. As of 2023-06-05, the user has developed an interest in medieval military history, specifically the relationship between armor evolution and weapon specialization.\n*   **Creative Writing:** The user is currently engaged in a collaborative roleplay narrative with the assistant, focusing on a story involving the characters MK and Wukong.\n*   **Book Project:** As of 2023-08-21, the user is actively working on a book about grief and healing, including drafting sections such as the copyright page, dedication, acknowledgments, and preface. The user has specifically dedicated this book to their late mother.\n*   **Fitness:** The user is a runner who completed a marathon on 2023-04-15 with a personal best time.\n*   **Triathlon Training:** The user is currently training for a sprint triathlon.\n*   **Health Metrics:** As of 2023-03-24, the user has lost 5 pounds and decreased their resting heart rate by 10 beats per minute through their training regimen.\n*   **Technical Skills:** The user has an interest in web development and layout design. As of 2023-08-06, the user is specifically exploring the integration of machine learning (CNNs and DNNs) into real estate applications using Python, Keras, and TensorFlow.\n*   **Mentoring Interest:** As of 2023-08-22, the user is researching technological tools for mentoring programs.\n*   **Photography:** The user has recently returned to photography as a hobby, inspired by a beach trip taken around mid-February 2023. They are currently researching mirrorless cameras, specifically the Fujifilm X-T30 II.\n*   **Scientific Curiosity:** As of 2023-03-30, the user has shown a keen interest in cosmology, scale, and particle physics. As of 2023-05-29, the user has developed a specific interest in biotechnology, stem cell research, and its applications for treating autoimmune disorders and arthritis.\n*   **Infrastructure Interest:** As of 2023-03-31, the user has shown a specific interest in large-scale Indian infrastructure projects.\n*   **Entertainment Interests:** The user is a fan of the show *Stranger Things* (as of 2023-04-05). They have a growing interest in sci-fi across various media. They are an avid consumer of true-crime content, specifically favoring documentaries and series that emphasize psychological analysis and investigative processes over graphic violence (as of 2023-09-11).\n*   **Sports/Wrestling Interest:** The user follows Olympic history and admires the perseverance and mental strength required for elite athletic performance, specifically citing Michael Phelps as an inspiration (as of 2023-09-21). As of 2023-10-07, the user is a fan of professional wrestling, specifically WWE, and follows the history of the \"Money in the Bank\" contract, with a particular appreciation for Edge and Seth Rollins.\n*   **Gaming:** As of 2023-08-04, the user has expanded their gaming setup, purchasing a 50-inch 4K TV from Best Buy and several games from GameStop.\n*   **Small Business:** The user runs a small business selling homemade jams, artisanal soaps, and candles. As of 2023-04-11, they had generated a gross income of $1,280. As of 2023-09-30, the user earned $420 at the Downtown Farmers Market.\n*   **Statistical/Analytical Interest:** As of 2023-04-20, the user is actively engaging with statistical analysis.\n*   **Transportation:** The user lives in Springfield and commutes from the suburbs to the city center every weekday. As of 2023-07-18, the user commutes via the 7:15 am train from Oakdale station. As of 2023-09-07, the user is actively exploring carpooling options and considering a monthly train pass.\n*   **Sports Interest:** As of 2023-05-08, the user has expressed an interest in soccer-specific training routines.\n*   **Cultural Interests:** As of 2023-05-10, the user has developed a keen interest in Puerto Rican culture, traditions, and music.\n*   **Location:** The user lives in a suburb approximately 20 miles outside of a major city (as of 2023-05-10). As of 2023-08-14, the user is interested in outdoor activities in the Charlottesville area.\n*   **Theme Park Interest:** As of 2023-05-26, the user has visited Disneyland, Knott's Berry Farm, Six Flags Magic Mountain, and Universal Studios Hollywood.\n*   **Family/Personal:** As of 2023-06-21, the user is in a reflective mood following a memorial service for their aunt's husband. As of 2023-08-21, the user is processing the loss of their mother. As of 2023-09-03, the user is planning a birthday party for their niece, who loves \"sparkly\" aesthetics.\n*   **Professional/Marketing Interests:** As of 2023-06-26, the user is interested in SEO optimization and app store ranking strategies.\n*   **Aviation/Safety Interest:** As of 2023-07-19, the user has shown an interest in the training protocols for flight attendants.\n*   **Gardening/Livestock:** As of 2023-07-28, the user is interested in starting a small home greenhouse. As of 2023-10-04, the user keeps a flock of chickens and is actively managing their health and egg production.\n*   **Artistic Interests:** As of 2023-07-28, the user is actively engaged in mixed media art.\n*   **Music Experiences:** The user is a huge fan of Billie Eilish and attended her concert with their best friend, Rachel, approximately three months prior to 2023-08-16. They participated in a meet-and-greet session with her. The user also recently attended a music festival at the Merriweather Post Pavilion in Columbia, Maryland, to see The 1975.\n*   **Financial Habits:** As of 2023-08-23, the user is actively working to curb impulsive luxury spending. As of 2023-09-03, the user has a birthday approaching in a few weeks and has recently made a \"splurge\" purchase at Anthropologie. As of 2023-09-07, the user is actively seeking ways to reduce daily commute costs.\n*   **Career Exploration:** As of 2023-09-25, the user is exploring the requirements for becoming a specialized pharmacist in oncology or geriatrics, though they are currently frustrated by the perceived length and burden of the required residency and certification processes.\n*   **Equipment/Maintenance:** As of 2023-09-26, the user owns a \"klargen\" (a portable electrical light device) and performs their own maintenance on it, including handling tungsten alloy covers and coolant systems.\n\n### Preferences and habits\n*   **Furniture style:** Appreciates modern, sleek aesthetics but is interested in the warmth of reclaimed wood. Currently seeking sustainable and eco-friendly throw pillows for the living room.\n*   **Shopping habits:** Positive experiences with IKEA, West Elm, and Crate & Barrel. As of 2023-08-23, the user is adopting a \"waiting period\" (24-48 hours) for luxury purchases and is interested in setting a structured annual luxury budget.\n*   **Music taste:** Indie Rock, Indie Pop, Alternative, Dream Pop, Chillwave, Synth-Pop, and Singer-Songwriter/Folk. Specific artists include Billie Eilish, The 1975, Boygenius, and many others.\n*   **Fitness Habits:** Tracks training via spreadsheet; incorporates yoga and soccer-specific conditioning.\n*   **Coding Habits:** Prefers clean, responsive design; interested in real estate portals with AI-driven features.\n*   **Photography Preferences:** Prefers landscape and nature photography; budget of ~$1,500.\n*   **Cycling Habits:** Casual rider, prefers paved trails or smooth dirt paths.\n*   **Theme Park Habits:** Prefers premium, immersive VIP experiences.\n*   **Cooking/Dining:** Enjoys comfort food; prefers recipes that can be prepared ahead of time.\n*   **Artistic Habits:** Values the experimental, tactile process of making art.\n*   **Design Preferences:** Prefers clean, modern, professional aesthetics with neutral color palettes.\n*   **Outdoor Preferences:** Interested in hiking and wine tasting in the Charlottesville area.\n*   **Grief Processing:** As of 2023-08-21, the user is utilizing journaling, reflection, and creative writing as tools to process grief.\n*   **Mentoring Evaluation:** Prefers evidence-driven, robust evaluation methods that integrate multiple data sources.\n*   **Digital Habits:** As of 2023-08-23, the user is looking to reduce social media exposure to luxury marketing. As of 2023-09-07, the user is interested in self-improvement literature and is currently reading/listening to *The 7 Habits of Highly Effective People*.\n*   **Sustainability:** As of 2023-09-03, the user has a strong preference for sustainable and eco-friendly home decor.\n*   **Party Planning:** Prefers DIY, budget-friendly, and creative approaches to event planning.\n*   **Commute Habits:** As of 2023-09-07, the user has a routine of arriving at the train station by 7:00 AM to have coffee with a friend.\n*   **True Crime Consumption:** Prefers to stay updated on new content via YouTube subscriptions/notifications, streaming service watchlists, and podcast app alerts.\n*   **Business Strategy:** As of 2023-09-30, the user is planning to implement a points-based loyalty program with tiers and a sign-up bonus, promoted via social media, email, and in-store staff interaction.\n*   **Livestock Care:** As of 2023-10-04, the user prefers proactive, nutritional-based solutions for animal health, including the use of probiotics (yogurt) and fermented grains.\n\n### Ongoing situations and plans\n*   **Road Trip:** The user is planning a road trip to Maryland and is seeking seafood restaurant recommendations near FedExField in Landover.\n*   **Dining/Home Office:** Planning to upgrade dining and office furniture; currently shopping for sustainable throw pillows.\n*   **Music:** Organizing digital music library; seeking recommendations for iconic music venues in the D.C./Maryland area.\n*   **Fishing:** Preparing for a bass fishing trip.\n*   **Creative Writing:** Continuing the MK/Wukong roleplay and writing a book on grief.\n*   **Triathlon:** Training for a sprint triathlon.\n*   **Web Development:** Developing a real estate portal with mortgage calculators and AI valuation.\n*   **Photography:** Planning to purchase a new mirrorless camera system.\n*   **Gaming:** Completing their 4K gaming setup.\n*   **Business:** Expanding product line to include more artisanal soaps and gift baskets; restocking strawberry jam and candle supplies.\n*   **Vehicle:** Researching roof racks and auto body repair for a scratch on the passenger door.\n*   **Theme Park:** Planning to attend Halloween-themed events at local parks.\n*   **Biotech:** Researching stem cell therapies.\n*   **Greenhouse:** Researching requirements for a home greenhouse.\n*   **Artistic:** Experimenting with fabric painting and natural dyeing.\n*   **Mentoring Research:** Investigating the integration of AI-powered chatbots and mobile apps for real-time feedback in mentoring programs.\n*   **Financial Planning:** As of 2023-08-23, the user is planning to implement a formal luxury budget. As of 2023-09-07, the user is evaluating the cost-benefit of a monthly train pass versus carpooling.\n*   **Home Decor:** As of 2023-09-03, the user is researching Fog Linen pillows.\n*   **Niece's Birthday:** Planning a \"sparkly\" themed party for their niece.\n*   **Self-Improvement:** As of 2023-09-07, the user is seeking audiobooks similar to *The 7 Habits of Highly Effective People*.\n*   **True Crime:** Actively seeking new documentary series and podcasts focused on psychological and investigative depth.\n*   **Equipment Repair:** As of 2023-09-26, the user is troubleshooting a coolant leak in their \"klargen\" device.\n*   **Chicken Flock:** As of 2023-10-04, the user is troubleshooting a decline in egg production by reviewing feed labels, adding oyster shells for calcium, and introducing probiotics (yogurt) and fermented oats to the flock's diet.\n\n### Changes over time\n*   **Maintenance concerns:** As of 2023-03-12, user feels more comfortable with reclaimed wood maintenance.\n*   **Commute:** As of 2023-07-18, shifted focus to reducing commute expenses via train passes and home-brewing coffee. As of 2023-09-07, the user is actively investigating carpooling and monthly pass options to further optimize commute costs.\n*   **Art Supplies:** As of 2023-07-28, reorganized and donated duplicate art supplies.\n*   **Gaming:** As of 2023-08-04, expanded home entertainment setup.\n*   **Technical Focus:** As of 2023-08-06, expanded web development focus to include Python-based machine learning.\n*   **Personal Focus:** As of 2023-08-21, the user has shifted focus toward memorializing their mother through a book project.\n*   **Professional Interest:** As of 2023-08-22, the user has begun exploring the intersection of technology and organizational development (mentoring programs).\n*   **Financial Strategy:** As of 2023-08-23, the user has shifted toward a more disciplined approach to luxury spending and is actively optimizing everyday expenses through digital tools.\n*   **True Crime Interests:** As of 2023-09-11, the user has refined their interest in true crime to prioritize psychological and investigative depth over graphic content.\n*   **Career Outlook:** As of 2023-09-25, the user has expressed significant frustration regarding the formal requirements for pharmacy specialization, viewing them as potentially excessive or burdensome.\n*   **Business Operations:** As of 2023-09-30, the user is actively expanding their product line and formalizing customer retention strategies (loyalty program).\n*   **Livestock Management:** As of 2023-10-04, the user has shifted from general coop maintenance to specific nutritional intervention for their chicken flock.\n*   **Entertainment Interests:** As of 2023-10-07, the user has explicitly identified as a fan of WWE and historical wrestling moments, specifically regarding the Money in the Bank contract.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 363.9,
+  "total": 363.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "qid": "dad224aa",
+ "arm": "textual",
+ "split": "main",
+ "question": "What time do I wake up on Saturday mornings?",
+ "reference": "7:30 am",
+ "question_date": "2023-06-24 03:58",
+ "sessions": [
+  {
+   "id": "ultrachat_236936",
+   "date": "2023-05-23 09:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_1",
+   "date": "2023-05-23 14:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_Jb45xGp_0",
+   "date": "2023-05-23 17:54",
+   "evidence": false
+  },
+  {
+   "id": "91e581ad_1",
+   "date": "2023-05-25 20:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_13",
+   "date": "2023-05-25 20:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2Qvu6BM_34",
+   "date": "2023-05-26 15:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_2",
+   "date": "2023-05-27 02:31",
+   "evidence": true
+  },
+  {
+   "id": "3dcbca49",
+   "date": "2023-05-27 05:24",
+   "evidence": false
+  },
+  {
+   "id": "496a03ee",
+   "date": "2023-05-27 07:18",
+   "evidence": false
+  },
+  {
+   "id": "b971ed75_3",
+   "date": "2023-05-27 21:55",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user is 30 years old (as of 2023-05-25).\n*   The user is concerned about flood risks in their local area.\n*   The user has successfully located their local government's website and confirmed that there are existing plans for flood prevention and management.\n*   The user works at a desk during the week.\n*   The user is interested in entrepreneurship and is beginning to read \"The Lean Startup\" by Eric Ries.\n*   The user is a wine enthusiast with a preference for red wines, specifically medium to full-bodied French wines (Rhône Valley and Bordeaux) and Napa Valley wines.\n*   The user has a budget of up to US$300 per bottle for wine.\n*   The user lives in a 700 sq ft, one-bedroom, open-plan apartment in a downtown area.\n*   The user has lived in their current apartment since October 15, 2022.\n*   The user is an athlete who has completed a marathon and a triathlon.\n*   The user has an interest in photography and visual aesthetics, specifically exploring different photo styles like \"High Fashion\" and \"1980s editorial\" for creative inspiration.\n*   The user is interested in copywriting and marketing, specifically utilizing high-impact, persuasive messaging styles (e.g., Joe Coleman-style copy).\n*   The user is a fan of the sci-fi/fantasy genre and enjoys complex, character-driven narratives similar to *Stranger Things*.\n*   The user attended the Austin Film Festival (October 22–29, 2022).\n*   The user is actively searching for the title of a comedy feature film they saw at the Austin Film Festival, which won the Audience Award for Narrative Feature; they recall it having a strong ensemble cast, witty dialogue, and a light-hearted tone.\n*   The user is active on Instagram, focusing on fitness and travel content.\n*   The user has observed a positive correlation between consistent posting and follower growth (e.g., gaining 20 followers during a previous challenge).\n\n### Preferences and habits\n*   The user prefers to take proactive steps to stay informed about local infrastructure and safety initiatives.\n*   The user utilizes online search engines as their primary method for gathering information about local government and community issues.\n*   The user prefers to sleep in later on weekends.\n*   The user is establishing a consistent weekend morning routine:\n    *   Saturdays: Wakes up at 7:30 am (since 2023-05-27). Performs a 30-minute jog, preceded by a cup of coffee.\n    *   Sundays: Wakes up at 8:30 am, performs a 30-minute yoga or stretching routine, eats a quick breakfast, and conducts meal prep for the week.\n*   The user is establishing a nightly reading habit, aiming for 30 minutes before bed.\n*   The user enjoys pairing wine with their meals, including Chinese cuisine.\n*   The user’s interior design style is modern and minimalist.\n*   The user prefers a neutral color palette (beige, gray, and white).\n*   The user values natural light and wants to maximize it in their living space.\n*   The user appreciates detailed descriptions of visual textures and clothing styles, showing an interest in the nuances of fashion and photography composition.\n*   The user prefers concise, punchy, and effective language in professional communication and marketing copy.\n*   The user values precise terminology, specifically preferring phrases like \"staying current with technology\" over \"mastering technology.\"\n*   The user prefers to jog without earbuds to maintain situational awareness and focus on their surroundings.\n*   The user is confident in their ability to follow complex storylines and ensemble casts in television series without needing to take notes.\n*   The user enjoys comedy films characterized by strong ensemble casts, witty dialogue, and light-hearted or clever tones.\n*   The user maintains a casual and motivational tone in their social media presence.\n\n### Ongoing situations and plans\n*   The user is currently monitoring local flood prevention measures to ensure their property and safety are protected.\n*   The user is actively working on building and launching startup projects and intends to apply the principles from \"The Lean Startup\" to these endeavors.\n*   The user is focused on building consistent morning and evening routines to improve productivity and well-being.\n*   The user is actively seeking recommendations for high-quality red wines (Bordeaux, Rhône, and Napa) within a $300 price point, including research into specific vintages.\n*   The user is decorating their apartment with a budget of $2,000–$3,000.\n*   The user is planning to commission a custom, stylized illustration of their marathon route via Upwork to display in their home.\n*   The user plans to install a medal display rack to showcase their marathon and triathlon achievements.\n*   The user is exploring professional development and community-building strategies, specifically focusing on marketing messaging for skilled trades, entrepreneurship, and leadership.\n*   The user is researching flat, shaded jogging routes in their downtown area using online tools and looking for public water fountains along these paths.\n*   The user plans to watch *The Umbrella Academy* and *Locke & Key* on Netflix.\n*   The user is exploring recent comedy film releases (past 5–10 years) that feature ensemble casts and witty dialogue.\n*   The user is planning a 7-day \"plank challenge\" on Instagram to engage their audience.\n*   The user is creating a Facebook group to centralize the plank challenge, facilitate community interaction, and share daily updates and motivation.\n*   The user plans to reach out to new followers to invite them to participate in the plank challenge.\n\n### Changes over time\n*   Saturday wake-up time changed from 8:30 am to 7:30 am as of 2023-05-27.",
+ "answer": "To determine your Saturday morning wake-up time, I have analyzed the provided facts as follows:\n\n**Step 1: Extract relevant information**\n*   Under the \"Preferences and habits\" section, it is noted that you are establishing a consistent weekend morning routine.\n*   Specifically, for Saturdays, the facts state: \"Wakes up at 7:30 am (since 2023-05-27).\"\n*   Under the \"Changes over time\" section, it is confirmed: \"Saturday wake-up time changed from 8:30 am to 7:30 am as of 2023-05-27.\"\n\n**Step 2: Reason over the information**\n*   The current date is 2023/06/24.\n*   Since the change to a 7:30 am wake-up time occurred on 2023-05-27, and that date has already passed, the new routine is currently in effect.\n\n**Answer:**\nYou wake up at 7:30 am on Saturday mornings.",
+ "dump": "### Personal facts\n*   The user is 30 years old (as of 2023-05-25).\n*   The user is concerned about flood risks in their local area.\n*   The user has successfully located their local government's website and confirmed that there are existing plans for flood prevention and management.\n*   The user works at a desk during the week.\n*   The user is interested in entrepreneurship and is beginning to read \"The Lean Startup\" by Eric Ries.\n*   The user is a wine enthusiast with a preference for red wines, specifically medium to full-bodied French wines (Rhône Valley and Bordeaux) and Napa Valley wines.\n*   The user has a budget of up to US$300 per bottle for wine.\n*   The user lives in a 700 sq ft, one-bedroom, open-plan apartment in a downtown area.\n*   The user has lived in their current apartment since October 15, 2022.\n*   The user is an athlete who has completed a marathon and a triathlon.\n*   The user has an interest in photography and visual aesthetics, specifically exploring different photo styles like \"High Fashion\" and \"1980s editorial\" for creative inspiration.\n*   The user is interested in copywriting and marketing, specifically utilizing high-impact, persuasive messaging styles (e.g., Joe Coleman-style copy).\n*   The user is a fan of the sci-fi/fantasy genre and enjoys complex, character-driven narratives similar to *Stranger Things*.\n*   The user attended the Austin Film Festival (October 22–29, 2022).\n*   The user is actively searching for the title of a comedy feature film they saw at the Austin Film Festival, which won the Audience Award for Narrative Feature; they recall it having a strong ensemble cast, witty dialogue, and a light-hearted tone.\n*   The user is active on Instagram, focusing on fitness and travel content.\n*   The user has observed a positive correlation between consistent posting and follower growth (e.g., gaining 20 followers during a previous challenge).\n\n### Preferences and habits\n*   The user prefers to take proactive steps to stay informed about local infrastructure and safety initiatives.\n*   The user utilizes online search engines as their primary method for gathering information about local government and community issues.\n*   The user prefers to sleep in later on weekends.\n*   The user is establishing a consistent weekend morning routine:\n    *   Saturdays: Wakes up at 7:30 am (since 2023-05-27). Performs a 30-minute jog, preceded by a cup of coffee.\n    *   Sundays: Wakes up at 8:30 am, performs a 30-minute yoga or stretching routine, eats a quick breakfast, and conducts meal prep for the week.\n*   The user is establishing a nightly reading habit, aiming for 30 minutes before bed.\n*   The user enjoys pairing wine with their meals, including Chinese cuisine.\n*   The user’s interior design style is modern and minimalist.\n*   The user prefers a neutral color palette (beige, gray, and white).\n*   The user values natural light and wants to maximize it in their living space.\n*   The user appreciates detailed descriptions of visual textures and clothing styles, showing an interest in the nuances of fashion and photography composition.\n*   The user prefers concise, punchy, and effective language in professional communication and marketing copy.\n*   The user values precise terminology, specifically preferring phrases like \"staying current with technology\" over \"mastering technology.\"\n*   The user prefers to jog without earbuds to maintain situational awareness and focus on their surroundings.\n*   The user is confident in their ability to follow complex storylines and ensemble casts in television series without needing to take notes.\n*   The user enjoys comedy films characterized by strong ensemble casts, witty dialogue, and light-hearted or clever tones.\n*   The user maintains a casual and motivational tone in their social media presence.\n\n### Ongoing situations and plans\n*   The user is currently monitoring local flood prevention measures to ensure their property and safety are protected.\n*   The user is actively working on building and launching startup projects and intends to apply the principles from \"The Lean Startup\" to these endeavors.\n*   The user is focused on building consistent morning and evening routines to improve productivity and well-being.\n*   The user is actively seeking recommendations for high-quality red wines (Bordeaux, Rhône, and Napa) within a $300 price point, including research into specific vintages.\n*   The user is decorating their apartment with a budget of $2,000–$3,000.\n*   The user is planning to commission a custom, stylized illustration of their marathon route via Upwork to display in their home.\n*   The user plans to install a medal display rack to showcase their marathon and triathlon achievements.\n*   The user is exploring professional development and community-building strategies, specifically focusing on marketing messaging for skilled trades, entrepreneurship, and leadership.\n*   The user is researching flat, shaded jogging routes in their downtown area using online tools and looking for public water fountains along these paths.\n*   The user plans to watch *The Umbrella Academy* and *Locke & Key* on Netflix.\n*   The user is exploring recent comedy film releases (past 5–10 years) that feature ensemble casts and witty dialogue.\n*   The user is planning a 7-day \"plank challenge\" on Instagram to engage their audience.\n*   The user is creating a Facebook group to centralize the plank challenge, facilitate community interaction, and share daily updates and motivation.\n*   The user plans to reach out to new followers to invite them to participate in the plank challenge.\n\n### Changes over time\n*   Saturday wake-up time changed from 8:30 am to 7:30 am as of 2023-05-27.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 25.0,
+  "total": 26.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

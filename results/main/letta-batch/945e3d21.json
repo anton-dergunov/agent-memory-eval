@@ -1,0 +1,104 @@
+{
+ "qid": "945e3d21",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How often do I attend yoga classes to help with my anxiety?",
+ "reference": "Three times a week.",
+ "question_date": "2023-12-14 06:32",
+ "sessions": [
+  {
+   "id": "sharegpt_2Kis6fZ_45",
+   "date": "2023-07-27 20:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_1",
+   "date": "2023-08-11 05:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_WjW4qki_0",
+   "date": "2023-08-22 03:09",
+   "evidence": false
+  },
+  {
+   "id": "a2053427_1",
+   "date": "2023-09-30 20:16",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_2",
+   "date": "2023-11-30 03:29",
+   "evidence": true
+  },
+  {
+   "id": "be1fa010",
+   "date": "2023-12-01 06:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_y0L1CPT_9",
+   "date": "2023-12-01 11:56",
+   "evidence": false
+  },
+  {
+   "id": "9bbd38a6",
+   "date": "2023-12-02 07:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_oTnUt5N_15",
+   "date": "2023-12-05 22:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_zn81iL6_9",
+   "date": "2023-12-11 09:00",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T16:07:53.383612+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-14 06:32] How often do I attend yoga classes to help with my anxiety?'}, {'timestamp': '2026-10-17T16:07:49.978379+00:00', 'time_ago': '6s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-11 09:00] III. Physical and Emotional Changes at Eight Weeks Pregnant\\n-----------------------------------------------------------\\n\\n### a. Physical Changes\\n\\nDuring the eighth week of pregnancy, expectant mothers may experience various physical changes. Some common symptoms include:\\n\\n1. Morning sickness: Nausea and vomiting are common during early pregnancy, usually starting around the sixth week and lasting until the 12th week or longer. Eating dry crackers or sipping ginger tea can help alleviate symptoms.\\n2. Fatigue: Hormonal changes and increased blood volume can cause tiredness and fatigue. Regular napping and maintaining a consistent sleep schedule can help.\\n3. Breast tenderness: Hormonal fluctuations may cause breast swelling and tenderness. Applying warm or cold compresses can provide relief.\\n4. Increased urination: As the uterus grows, it puts pressure on the bladder, leading to more frequent urination. Avoiding fluids before bedtime may help reduce nighttime trips to the bathroom.\\n5. Bloating and gas: The hormone progesterone can slow down digestion, resulting in bloating and gas. Probiotics and light physical activity may alleviate symptoms.\\n6. Constipation: Slower digestion can also lead to constipation. Consuming prunes or prune juice can help promote regular bowel movements.\\n7. Food cravings and aversions: Hormonal changes can affect taste preferences and cause specific food cravings or aversions. Listening to the body and making healthy choices can help satisfy cravings while maintaining a balanced diet.\\n\\n### b. Emotional Changes\\n\\nExpectant mothers may also experience emotional changes during the eighth week of pregnancy. These can include:\\n\\n1. Mood swings: Hormonal fluctuations can cause mood swings, irritability, and feelings of sadness or anxiety. Engaging in relaxation techniques, such as deep breathing, meditation, or prenatal yoga, can help manage mood swings.\\n2. Stress and worry: Pregnant women might worry about their baby\\'s health, changes in their body, and the challenges of parenthood. Joining a prenatal class or support group can provide reassurance and helpful information.\\n3. Body image concerns: Physical changes can lead to self-consciousness about body image. Focusing on the miracle of pregnancy and nurturing a healthy self-image can help expectant mothers embrace their changing bodies.\\n4. Excitement: Expectant mothers may feel excitement about their growing baby and the journey ahead. Documenting pregnancy milestones and preparing the nursery can help channel positive emotions.\\n\\n### c. Managing Symptoms\\n\\nThere are several ways to manage the physical and emotional changes experienced during the eighth week of pregnancy:\\n\\n1. Morning sickness: Eating smaller, more frequent meals, and avoiding spicy or greasy foods can help. Ginger and vitamin B6 supplements may also provide relief.\\n2. Fatigue: Prioritizing rest, maintaining a healthy diet, and engaging in light exercise can help combat fatigue.\\n3. Breast tenderness: Wearing a comfortable, supportive bra may alleviate discomfort.\\n4. Increased urination: Avoiding caffeine and drinking enough water can help with bladder control.\\n5. Bloating, gas, and constipation: Eating smaller meals, staying hydrated, and increasing fiber intake can help with digestive issues.\\n6. Emotional support: Talking to a partner, friends, or a mental health professional can help manage emotional changes. Practicing self-care and setting aside time for relaxation can also promote emotional well-being.\\n\\nPlease confirm if you would like me",
+ "answer": "Based on our previous conversations, you attend yoga classes three times a week—specifically on **Tuesday, Thursday, and Friday**.",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"yoga anxiety\"})",
+   "conversation_search({\"query\": \"yoga\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 29.6,
+  "total": 36.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

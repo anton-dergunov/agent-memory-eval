@@ -1,0 +1,102 @@
+{
+ "qid": "7a87bd0c",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How long have I been sticking to my daily tidying routine?",
+ "reference": "4 weeks",
+ "question_date": "2023-09-30 23:15",
+ "sessions": [
+  {
+   "id": "answer_d08a934d_1",
+   "date": "2023-06-11 22:24",
+   "evidence": true
+  },
+  {
+   "id": "c15dadce_2",
+   "date": "2023-06-12 01:45",
+   "evidence": false
+  },
+  {
+   "id": "6414f676_5",
+   "date": "2023-06-27 11:24",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_r2CWKoi_7",
+   "date": "2023-07-30 23:55",
+   "evidence": false
+  },
+  {
+   "id": "37a9680a_2",
+   "date": "2023-08-05 11:50",
+   "evidence": false
+  },
+  {
+   "id": "9aaeecbf",
+   "date": "2023-08-26 05:15",
+   "evidence": false
+  },
+  {
+   "id": "b98914c6_2",
+   "date": "2023-09-19 12:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fnuLBKl_83",
+   "date": "2023-09-30 05:11",
+   "evidence": false
+  },
+  {
+   "id": "answer_d08a934d_2",
+   "date": "2023-09-30 17:52",
+   "evidence": true
+  },
+  {
+   "id": "55a59bc9_4",
+   "date": "2023-09-30 22:59",
+   "evidence": false
+  }
+ ],
+ "context": "- The user plans to keep dusters at the new workstation for their daily tidying routine. (valid since 2023-06-11)\n- The user regularly uses a microfiber mop for their daily tidying routine. (valid since 2023-06-11)\n- The user regularly uses a cordless vacuum for their daily tidying routine. (valid since 2023-06-11)\n- The user plans to keep disinfectants at the new workstation for their daily tidying routine. (valid since 2023-06-11)\n- The user plans to keep all-purpose cleaners at the new workstation for their daily tidying routine. (valid since 2023-06-11)\n- The user plans to keep paper towels at the new workstation for their daily tidying routine. (valid since 2023-06-11)\n- The user plans to use stackable bins to keep the garage organized and easy to navigate. (valid since 2023-06-11)\n- The user plans to clean out the garage over the upcoming weekend. (valid since 2023-09-30)\n- The user plans to use labels to keep the garage items organized and easy to find. (valid since 2023-06-11)\n- The user plans to organize storage bins while cleaning out the garage. (valid since 2023-09-30)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The facts state that the user has been using a microfiber mop and a cordless vacuum for their daily tidying routine since 2023-06-11.\n*   The facts also state that the user has been planning to keep specific supplies (dusters, disinfectants, all-purpose cleaners, and paper towels) at the new workstation for their daily tidying routine since 2023-06-11.\n*   The current date is 2023-09-30.\n\n**Step 2: Reason over the information**\n*   The routine was established and active as of June 11, 2023.\n*   To calculate the duration from June 11, 2023, to September 30, 2023:\n    *   June 11 to July 11: 1 month\n    *   July 11 to August 11: 1 month\n    *   August 11 to September 11: 1 month\n    *   September 11 to September 30: 19 days\n*   Total duration: 3 months and 19 days.\n\n**Answer:**\nYou have been sticking to your daily tidying routine for 3 months and 19 days.",
+ "dump": "- The user plans to start purging and organizing their cluttered tools in their garage. (valid since 2023-06-11)\n- The user plans to start purging and organizing their cluttered sports equipment in their garage. (valid since 2023-06-11)\n- The user intends to get rid of some old furniture that is taking up space in their garage. (valid since 2023-06-11)\n- The user plans to keep all-purpose cleaners at the new workstation for their daily tidying routine. (valid since 2023-06-11)\n- The user plans to keep disinfectants at the new workstation for their daily tidying routine. (valid since 2023-06-11)\n- The user plans to keep dusters at the new workstation for their daily tidying routine. (valid since 2023-06-11)\n- The user plans to keep paper towels at the new workstation for their daily tidying routine. (valid since 2023-06-11)\n- The user regularly uses a cordless vacuum for their daily tidying routine. (valid since 2023-06-11)\n- The user regularly uses a microfiber mop for their daily tidying routine. (valid since 2023-06-11)\n- The user plans to use stackable bins to keep the garage organized and easy to navigate. (valid since 2023-06-11)\n- The user plans to use labels to keep the garage items organized and easy to find. (valid since 2023-06-11)\n- The assistant recommends Sterilite bins for general storage in the garage organization project. (valid since 2023-06-11)\n- The assistant recommends Rubbermaid bins for general storage in the garage organization project. (valid since 2023-06-11)\n- The assistant recommends DYMO label makers for easy labeling in the garage organization project. (valid since 2023-06-11)\n- The assistant recommends Avery adhesive labels for easy labeling in the garage organization project. (valid since 2023-06-11)\n- The assistant recommends Scotch adhesive labels for easy labeling in the garage organization project. (valid since 2023-06-11)\n- The assistant describes plastic bins as durable and easy to clean for the garage organization project. (valid since 2023-06-11)\n- The assistant describes metal bins as industrial-looking and great for heavy-duty storage in the garage organization project. (valid since 2023-06-11)\n- The assistant recommends Brother label makers for easy labeling in the garage organization project. (valid since 2023-06-11)\n- The user plans to use the Passport to Ava game at the baby shower. (valid since 2023-06-12)\n- The user is interested in finding traditional Chinese baby girl gifts for the new baby. (valid since 2023-06-12)\n- The invitations are designed for the baby shower celebrating Ava's adoption journey. (valid since 2023-06-12)\n- The invitations use a traditional Chinese-inspired design. (valid since 2023-06-12)\n- The invitations incorporate a red and gold color scheme. (valid since 2023-06-12)\n- The invitations feature Chinese characters. (valid since 2023-06-12)\n- The invitations incorporate a stylized dragon motif. (valid since 2023-06-12)\n- The invitations incorporate a phoenix motif. (valid since 2023-06-12)\n- The invitations can use a custom illustration for a unique feel. (valid since 2023-06-12)\n- The invitations can feature a watercolor design. (valid since 2023-06-12)\n- The invitations can feature a watercolor design of a cherry blossom tree. (valid since 2023-06-12)\n- The invitations can include a picture of Ava. (valid since 2023-06-12)\n- Michael and Sophia are the parents adopting Ava. (valid since 2023-06-12)\n- The user is planning a baby shower for Ava, an adopted baby girl. (valid since 2023-06-12)\n- Michael is an adoptive parent of baby Ava. (valid since 2023-06-12)\n- Sophia is an adoptive parent of baby Ava. (valid since 2023-06-12)\n- The user visited Napa Valley about 5 weeks ago for a weekend getaway. (valid since 2023-06-27)\n- The user went wine tasting at Castello di Amorosa. (valid since 2023-06-27)\n- The user went on a road trip to Yosemite. (valid since 2023-06-27)\n- Half Dome is visible from Glacier Point in Yosemite. (valid since 2023-06-27)\n- assistant advises the user to create a logical organization system for travel photos using top-level folders, trip folders, albums, and keywords (valid since 2023-06-27)\n- The user account is associated with the authentication attempt. (valid since 2023-07-30)\n- The assistant recommends NordVPN Teams as a tool for monitoring and analyzing VPN traffic. (valid since 2023-07-30)\n- The assistant recommends Wireshark as a free and open-source network protocol analyzer for capturing and analyzing VPN traffic. (valid since 2023-07-30)\n- The assistant recommends OpenVPN Access Server as a VPN solution with built-in monitoring and logging capabilities. (valid since 2023-07-30)\n- The user wants to find cultural events or festivals in their neighborhood that celebrate Italian heritage. (valid since 2023-08-05)\n- The user wants to find cultural events or festivals in their neighborhood that celebrate Polish heritage. (valid since 2023-08-05)\n- The user's friend is in the process of applying for Italian citizenship. (valid since 2023-08-05)\n- The user's friend recommended hiring a lawyer who specializes in Italian immigration law for the citizenship application process. (valid since 2023-08-05)\n- The user is considering hiring a lawyer who specializes in Italian immigration law to assist with their citizenship application. (valid since 2023-08-05)\n- The user is applying for Italian citizenship. (valid since 2023-08-05)\n- The user is looking to adjust the oven temperature for their cake recipe because it was overcooked. (valid since 2023-08-26)\n- The user plans to adjust the oven temperature to achieve the perfect cake texture. (valid since 2023-08-26)\n- The assistant provides recommendations for kitchen island lighting. (valid since 2023-08-26)\n- The assistant recommends Lumens as a popular brand for modern and stylish lighting fixtures. (valid since 2023-08-26)\n- The assistant recommends Halo as a brand that provides high-quality, energy-efficient lighting solutions. (valid since 2023-08-26)\n- The assistant recommends Kichler for offering a variety of lighting styles, from traditional to modern. (valid since 2023-08-26)\n- The assistant recommends Sea Gull Lighting for specializing in energy-efficient lighting solutions. (valid since 2023-08-26)\n- The assistant recommends Feiss for offering a range of lighting styles, from traditional to modern, with a focus on quality and craftsmanship. (valid since 2023-08-26)\n- The assistant provides guidance on the English language requirement for the citizenship application and methods for demonstrating proficiency. (valid since 2023-09-19)\n- A USCIS officer reviews the US citizenship application and asks questions about personal information, immigration history, and eligibility. (valid since 2023-09-19)\n- If the application is approved, the USCIS officer administers the Oath of Allegiance. (valid since 2023-09-19)\n- The USCIS officer provides instructions for receiving the naturalization certificate after the interview. (valid since 2023-09-19)\n- Form N-400 is the official application for naturalization and the US citizenship application. (valid since 2023-09-19)\n- The user requested to structure a presentation for Cafe24 YouTube Shopping using a specific slide format. (valid since 2023-09-30)\n- Cafe24 proposes YouTube Shopping as an e-commerce solution to help SMEs and startups sell products through the YouTube platform. (valid since 2023-09-30)\n- The user plans to clean out the garage over the upcoming weekend. (valid since 2023-09-30)\n- The user plans to organize storage bins while cleaning out the garage. (valid since 2023-09-30)\n- The user plans to use a label maker to label all shelves in the garage. (valid since 2023-09-30)\n- The assistant recommends the DYMO LabelWriter series for its well-known reputation, featuring wireless and Bluetooth options. (valid since 2023-09-30)\n- The assistant recommends the Labelmaster brand as a budget-friendly option known for durability and ease of use. (valid since 2023-09-30)\n- The assistant recommends the Epson LabelWorks series for its advanced features like color printing and wireless connectivity. (valid since 2023-09-30)\n- user is planning a deer hunting trip to the Sierra National Forest in early November. (valid since 2023-09-30)\n- The user plans to take Emily to the nearby pond on Sundays to practice casting and teach her about different types of fish. (valid since 2023-09-30)\n- The assistant recommends the National Geographic Kids Ultimate Fish Guide for Emily. (valid since 2023-09-30)\n- The assistant recommends the Peterson Field Guide for Young Naturalists: Fish for Emily. (valid since 2023-09-30)\n- The assistant recommends Fishes of North America as a resource for learning about fish. (valid since 2023-09-30)\n- The assistant recommends the Kid's Guide to Fish for Emily. (valid since 2023-09-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 77,
+  "invalidated": 0,
+  "episodes": 26,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 178.5,
+  "total": 180.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

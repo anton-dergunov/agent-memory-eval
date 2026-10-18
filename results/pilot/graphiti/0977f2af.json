@@ -1,0 +1,94 @@
+{
+ "qid": "0977f2af",
+ "arm": "graphiti",
+ "split": "pilot",
+ "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+ "reference": "Instant Pot",
+ "question_date": "2023-05-31 07:54",
+ "sessions": [
+  {
+   "id": "497cd65d",
+   "date": "2023-04-22 04:35",
+   "evidence": false
+  },
+  {
+   "id": "b3642bd9_3",
+   "date": "2023-04-22 23:57",
+   "evidence": false
+  },
+  {
+   "id": "e0bfe67a_2",
+   "date": "2023-05-02 02:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_211475",
+   "date": "2023-05-04 10:32",
+   "evidence": false
+  },
+  {
+   "id": "cbf48918_1",
+   "date": "2023-05-06 18:30",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vncOfEw_0",
+   "date": "2023-05-09 23:46",
+   "evidence": false
+  },
+  {
+   "id": "e7989082_2",
+   "date": "2023-05-21 00:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_3bf5b73b_1",
+   "date": "2023-05-21 05:48",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_qDHHlQO_27",
+   "date": "2023-05-21 14:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_3bf5b73b_2",
+   "date": "2023-05-21 22:54",
+   "evidence": true
+  }
+ ],
+ "context": "- Frozen sweet potato fries can be reheated in an Air Fryer at 400°F (200°C) for 5-7 minutes. (valid since 2023-05-21)\n- The user is planning to make a Korean Chicken Stew using an Instant Pot. (valid since 2023-05-21)\n- Sweet potato fries should be placed on a baking sheet lined with parchment paper to freeze them before transfer to freezer bags. (valid since 2023-05-21)\n- The assistant suggests refrigerating sweet potato fries in a glass or plastic container for up to 3 days. (valid since 2023-05-21)\n- The user is considering using Yummly for meal planning and grocery shopping assistance. (valid since 2023-04-22)\n- The user plans to make a smoothie using almond milk and frozen fruit for dessert. (valid since 2023-05-02)\n- The assistant recommends storing sweet potato fries in an airtight container like a paper bag, cardboard box, or a container with a paper towel-lined lid for short-term storage. (valid since 2023-05-21)\n- Frozen sweet potato fries can be reheated in an oven at 400°F (200°C) for 10-15 minutes. (valid since 2023-05-21)\n- The assistant recommends using the calf raise machine at the gym. (valid since 2023-05-06)\n- The user is considering using Plan to Eat for meal planning and grocery shopping assistance. (valid since 2023-04-22)",
+ "answer": "To determine what kitchen gadget you invested in, let's look at the provided history:\n\n**Step 1: Extract relevant information**\n*   The history mentions: \"The user is planning to make a Korean Chicken Stew using an **Instant Pot**.\" (valid since 2023-05-21)\n*   The history mentions: \"Frozen sweet potato fries can be reheated in an **Air Fryer**...\" (valid since 2023-05-21)\n*   There is no mention of any other kitchen appliances or gadgets in the provided history logs.\n\n**Step 2: Reason over the information**\n*   The history confirms you are using an Instant Pot for your Korean Chicken Stew.\n*   Since the Instant Pot is the only other kitchen gadget mentioned in the context of your cooking plans, and the question asks for a gadget you invested in before the Air Fryer, the Instant Pot is the identified item.\n\n**Answer:**\nYou invested in an **Instant Pot**.",
+ "dump": "- Freddie Freeman won the NL MVP award last season. (valid since 2022-01-01)\n- The user owns brown loafers and is seeking recommendations for a suitable shoe polish. (valid since 2023-04-22)\n- The assistant recommends the Jason Markk Shoe Cleaning Kit for cleaning and protecting shoes. (valid since 2023-04-22)\n- The assistant recommends the Sneaker Cleaner Kit by Crep Protect for cleaning tough shoe stains and dirt. (valid since 2023-04-22)\n- The assistant recommends the Shoe MGK Shoe Cleaning Kit for cleaning a variety of shoe materials like leather, suede, and nubuck. (valid since 2023-04-22)\n- The assistant recommends the Kiwi Shoe Cleaning Kit as a reliable and easy-to-use option. (valid since 2023-04-22)\n- The assistant recommends using shoe trees to maintain the shape of shoes and prevent creasing. (valid since 2023-04-22)\n- The assistant recommends using shoe stretchers to maintain the shape of shoes and prevent creasing. (valid since 2023-04-22)\n- The assistant recommends using shoe racks to keep shoes organized. (valid since 2023-04-22)\n- The assistant recommends using shelves to keep shoes organized. (valid since 2023-04-22)\n- The assistant recommends using shoe cleaning cloths for quick cleanups and touch-ups. (valid since 2023-04-22)\n- The assistant recommends using shoe cleaning wipes for quick cleanups and touch-ups. (valid since 2023-04-22)\n- The assistant recommends using shoe deodorizers to keep shoes smelling fresh and clean. (valid since 2023-04-22)\n- The assistant recommends using shoe fresheners to keep shoes smelling fresh and clean. (valid since 2023-04-22)\n- The user is considering using Plan to Eat for meal planning and grocery shopping assistance. (valid since 2023-04-22)\n- The user is considering using Yummly for meal planning and grocery shopping assistance. (valid since 2023-04-22)\n- assistant recommends Plan to Eat as a meal planning app that offers a 30-day free trial followed by a monthly or annual subscription (valid since 2023-04-22)\n- assistant recommends Yummly as a meal planning app that is free with optional premium features (valid since 2023-04-22)\n- The user has leftover almond milk from their Instacart delivery today. (valid since 2023-05-02)\n- The user plans to make a smoothie using almond milk and frozen fruit for dessert. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie contains 1 cup of frozen mixed berries. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie contains 1/2 cup of almond milk. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie can include 1 tablespoon of optional honey. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie can include 1/2 teaspoon of optional vanilla extract. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie uses ice cubes as needed for consistency. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie is prepared using a blender on high speed. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie can be customized with a banana for added creaminess. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie can be customized with a handful of spinach for a green smoothie. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie can be customized with a handful of kale for a green smoothie. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie can be customized with a scoop of protein powder for a post-workout smoothie. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie can be customized with frozen mango for a tropical twist. (valid since 2023-05-02)\n- The Frozen Berry Bliss Smoothie can be customized with frozen pineapple for a tropical twist. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe contains 1-2 cups of diced cooked chicken breast. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe contains 1/2 cup of diced celery. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe contains 1/2 cup of diced red onion. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe contains 1/4 cup of mayonnaise. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe contains 1 tablespoon of Dijon mustard. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe contains 1 teaspoon of chopped fresh dill. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe can be served on whole grain bread. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe can be customized with diced apple for a sweet and crunchy twist. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe can be customized with grapes for a sweet and crunchy twist. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe can be customized with chopped walnuts for added crunch. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe can be customized with chopped pecans for added crunch. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe can be customized with a sprinkle of paprika for a smoky kick. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe can be customized with a sprinkle of cayenne pepper for a smoky kick. (valid since 2023-05-02)\n- The Classic Chicken Salad Recipe can be customized with a squeeze of fresh lemon juice for extra brightness. (valid since 2023-05-02)\n- The assistant recommends ESPN for sports analytics information about Freddie Freeman. (valid since 2023-05-04)\n- The assistant recommends Baseball-Reference for sports analytics information about Freddie Freeman. (valid since 2023-05-04)\n- The assistant recommends MLB.com for sports analytics information about Freddie Freeman. (valid since 2023-05-04)\n- The user has incorporated strength exercises targeting their core and legs into their fitness routine. (valid since 2023-05-06)\n- The assistant recommends planks, Russian twists, leg raises, and side planks to target the user's core for improved running efficiency and endurance (valid since 2023-05-06)\n- The assistant recommends squats, lunges, deadlifts, calf raises, and glute bridges to target the user's legs for improved running efficiency and endurance (valid since 2023-05-06)\n- The assistant recommends performing squats as a bodyweight strength exercise. (valid since 2023-05-06)\n- The assistant recommends performing lunges as a bodyweight strength exercise. (valid since 2023-05-06)\n- The assistant recommends performing the plank exercise to strengthen the core. (valid since 2023-05-06)\n- The assistant recommends performing calf raises to improve leg strength. (valid since 2023-05-06)\n- The assistant recommends performing glute bridges to strengthen the glutes and core. (valid since 2023-05-06)\n- The assistant recommends performing banded squats using a resistance band. (valid since 2023-05-06)\n- The assistant recommends performing banded lunges using a resistance band. (valid since 2023-05-06)\n- The assistant recommends performing banded leg curls using a resistance band. (valid since 2023-05-06)\n- The assistant recommends performing banded calf raises using a resistance band. (valid since 2023-05-06)\n- The assistant recommends using the leg press machine at the gym for leg strength. (valid since 2023-05-06)\n- The assistant recommends using the leg extension machine for strength training. (valid since 2023-05-06)\n- The assistant recommends using the leg curl machine for leg training. (valid since 2023-05-06)\n- The assistant recommends using the calf raise machine at the gym. (valid since 2023-05-06)\n- The assistant suggests Russian twists to target the core for running efficiency. (valid since 2023-05-06)\n- The assistant suggests leg raises to target the core for running efficiency. (valid since 2023-05-06)\n- The assistant suggests deadlifts to strengthen the legs and core for runners. (valid since 2023-05-06)\n- The assistant suggests step-ups to target legs and improve running efficiency. (valid since 2023-05-06)\n- The Thermal Crustacean is a lifeform that lives around the hot mineral springs. (valid since 2023-05-21)\n- The Sulfur-Eating Mollusk is a lifeform that lives around the hot mineral springs. (valid since 2023-05-21)\n- The Mineral-Shell Crab is a lifeform that lives around the hot mineral springs. (valid since 2023-05-21)\n- The Boiling-Pool Snail is a lifeform that lives around the hot mineral springs. (valid since 2023-05-21)\n- The Steam-Vent Shrimp is a lifeform that lives around the hot mineral springs. (valid since 2023-05-21)\n- The Thermal Wader is a megafauna that lives around the hot mineral springs. (valid since 2023-05-21)\n- The Silica-Plated Newt is a megafauna that lives around the hot mineral springs. (valid since 2023-05-21)\n- The assistant provides information on how to purchase a $10 gift card online from coffee shop websites, in-person at coffee shops, through online gift card marketplaces, or as e-gift cards. (valid since 2023-05-21)\n- The assistant mentions that Starbucks offers online gift card purchases with mail-to options. (valid since 2023-05-21)\n- The assistant suggests Amazon as an online gift card marketplace to purchase gift cards and have them mailed. (valid since 2023-05-21)\n- The assistant suggests GiftCards.com as an online gift card marketplace to purchase gift cards and have them mailed. (valid since 2023-05-21)\n- The assistant suggests Raise as an online gift card marketplace to purchase gift cards and have them mailed. (valid since 2023-05-21)\n- The user is planning to make a Korean Chicken Stew using an Instant Pot. (valid since 2023-05-21)\n- The assistant provides a recipe for Korean Chicken Stew, also known as Jjimdak. (valid since 2023-05-21)\n- The Thermophilic Snail lives on the tidally-heated forest moon of Xylophia-IV-e. (valid since 2023-05-21)\n- The Spring Shrimp lives on the tidally-heated forest moon of Xylophia-IV-e. (valid since 2023-05-21)\n- Heat-Tolerant Algae lives on the tidally-heated forest moon of Xylophia-IV-e. (valid since 2023-05-21)\n- The Geothermal Worm lives on the tidally-heated forest moon of Xylophia-IV-e. (valid since 2023-05-21)\n- The Spring Grazer lives on the tidally-heated forest moon of Xylophia-IV-e. (valid since 2023-05-21)\n- The Geyser Gazer lives on the tidally-heated forest moon of Xylophia-IV-e. (valid since 2023-05-21)\n- The Sulfur Sifter lives on the tidally-heated forest moon of Xylophia-IV-e. (valid since 2023-05-21)\n- The Geyser Gazer preys on the Thermophilic Snail. (valid since 2023-05-21)\n- The Geyser Gazer preys on the Spring Shrimp. (valid since 2023-05-21)\n- The user is asking about the best way to store leftovers from the Cuban Black Bean and Rice Bowl. (valid since 2023-05-21)\n- The assistant recommends storing sweet potato fries in an airtight container like a paper bag, cardboard box, or a container with a paper towel-lined lid for short-term storage. (valid since 2023-05-21)\n- The assistant suggests refrigerating sweet potato fries in a glass or plastic container for up to 3 days. (valid since 2023-05-21)\n- Sweet potato fries should be placed on a baking sheet lined with parchment paper to freeze them before transfer to freezer bags. (valid since 2023-05-21)\n- Frozen sweet potato fries can be reheated in an oven at 400°F (200°C) for 10-15 minutes. (valid since 2023-05-21)\n- Frozen sweet potato fries can be reheated in an Air Fryer at 400°F (200°C) for 5-7 minutes. (valid since 2023-05-21)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 98,
+  "invalidated": 0,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 170.1,
+  "total": 171.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "qid": "a1eacc2a",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many short stories have I written since I started writing regularly?",
+ "reference": "seven",
+ "question_date": "2023-06-20 17:03",
+ "sessions": [
+  {
+   "id": "sharegpt_TBa5HKM_0",
+   "date": "2023-04-25 16:51",
+   "evidence": false
+  },
+  {
+   "id": "fde0ca18",
+   "date": "2023-05-05 09:39",
+   "evidence": false
+  },
+  {
+   "id": "20d6c376_2",
+   "date": "2023-05-07 04:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_269248",
+   "date": "2023-05-20 04:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_1",
+   "date": "2023-05-23 18:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_87674",
+   "date": "2023-05-23 23:10",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_50429",
+   "date": "2023-05-25 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_2",
+   "date": "2023-05-30 08:43",
+   "evidence": true
+  },
+  {
+   "id": "09438306_2",
+   "date": "2023-06-09 09:30",
+   "evidence": false
+  },
+  {
+   "id": "521255f7_2",
+   "date": "2023-06-16 20:47",
+   "evidence": false
+  }
+ ],
+ "context": "- User has been writing regularly for three months and has completed seven short stories during this period. (from a chat on 2023-05-30)\n- User has written four short stories since they began writing regularly and is interested in setting a monthly goal to maintain momentum. (from a chat on 2023-05-23)\n- User has been working on a short story for one month, aiming for a writing pace of 500 words per week. (from a chat on 2023-06-16)\n- Assistant suggested a monthly goal of six to eight short stories for the user to maintain their current writing momentum. (from a chat on 2023-05-23)\n- User is working on multiple writing projects including short stories, a journal, and a memoir, and is seeking organizational strategies to manage them effectively. (from a chat on 2023-05-23)\n- User is writing a memoir about their writing journey and plans to focus on the therapeutic benefits of writing, starting with a chapter titled 'The Spark' that describes their Sunday morning writing routine. (from a chat on 2023-05-30)\n- User is planning to start a writing group with friends to share work and receive feedback, and received advice on maintaining productivity, such as setting clear goals, establishing a schedule, and using a critique format. (from a chat on 2023-05-30)\n- User is 32 years old and has recently started contributing to their company's 401(k) plan, currently at a 10% contribution rate. (from a chat on 2023-05-05)\n- User recently attended a writing workshop at a local community center and found it helpful for improving their writing skills. (from a chat on 2023-06-16)\n- User is experimenting with various writing styles and formats, including poetry and scriptwriting. (from a chat on 2023-06-16)\n- User is actively participating in online writing groups, which they find valuable for accountability, motivation, and receiving feedback on their work. (from a chat on 2023-06-16)\n- User is developing a story concept set in a mysterious library with a central theme of 'discovery' and is incorporating sentient books as a supernatural element. (from a chat on 2023-05-23)\n- Assistant recommended online writing communities and forums such as NaNoWriMo, Writing.com, Absolute Write, Critique Circle, The Write Practice, Scribophile, and various Reddit communities. (from a chat on 2023-06-16)\n- Assistant provided organizational tips for writers, including using a writing calendar, project folders, note-taking systems, color-coding, and project management tools like Trello, Asana, or Scrivener. (from a chat on 2023-05-23)\n- User is interested in experimenting with non-linear narrative structures in their writing and was recommended authors including David Mitchell, Jennifer Egan, Michael Ondaatje, Don DeLillo, Thomas Pynchon, Italo Calvino, Kazuo Ishiguro, Toni Morrison, Gabriel Garcia Marquez, and James Joyce. (from a chat on 2023-05-30)\n- Assistant provided brainstorming techniques for overcoming writer's block, including free writing, mind mapping, 'what-if' questions, character interviews, and changing environments. (from a chat on 2023-06-16)\n- Assistant proposed several ways to integrate sentient books into the user's library story, including direct communication, intuitive connections, empathic resonance, or book whispering. (from a chat on 2023-05-23)\n- Assistant recommended using prompts or themes from sources like Writing.com, Reddit's r/WritingPrompts, or Flash Fiction Day to generate ideas and overcome writer's block. (from a chat on 2023-05-23)\n- User is interested in exploring classic and landmark films popularized by The Criterion Collection, including titles like 'The Seven Samurai', 'Breathless', 'The 400 Blows', 'The Rules of the Game', 'Persona', 'Tokyo Story', 'Rashomon', 'The Seventh Seal', and 'The Night of the Hunter'. (from a chat on 2023-05-20)\n- Assistant provided a guide for submitting poetry to literary magazines, including research resources like Duotrope and Submittable, and advice on preparing submissions and cover letters. (from a chat on 2023-06-16)",
+ "answer": "**Answer (step by step):**\n\n**1. Extract relevant information:**\n*   From the chat on 2023-05-23: The user stated they had written four short stories since they began writing regularly.\n*   From the chat on 2023-05-30: The user stated they have been writing regularly for three months and have completed seven short stories during this period.\n\n**2. Reason over the information:**\n*   The information from 2023-05-30 provides the most recent and comprehensive count of the user's progress over the three-month period of regular writing.\n*   While the user had written four stories by May 23rd, the update on May 30th confirms that the total count of completed short stories during this three-month period of regular writing is seven.\n\n**Answer:**\nYou have written seven short stories since you started writing regularly.",
+ "dump": "- User was advised on the differences between traditional and Roth IRAs, specifically regarding tax treatment of contributions and withdrawals, RMDs, and income eligibility limits. (session 2023-05-05)\n- User is writing a memoir about their writing journey and plans to focus on the therapeutic benefits of writing, starting with a chapter titled 'The Spark' that describes their Sunday morning writing routine. (session 2023-05-30)\n- Assistant provided brainstorming techniques for overcoming writer's block, including free writing, mind mapping, 'what-if' questions, character interviews, and changing environments. (session 2023-06-16)\n- Assistant recommended several scenic hiking trails with waterfalls, including options in Yosemite, Zion, Mount Rainier, Grand Canyon, and North Cascades National Parks. (session 2023-05-07)\n- Assistant provided the current monthly Muni pass pricing for San Francisco: Adult ($96), Youth ($76), Senior ($36), Disabled ($36), and Low-Income ($76). (session 2023-06-09)\n- User was informed that for the 2023 tax year, the combined contribution limit for traditional and Roth IRAs is $6,000 for those under 50, with specific income-based phase-outs for deductibility and eligibility. (session 2023-05-05)\n- User is interested in experimenting with non-linear narrative structures in their writing and was recommended authors including David Mitchell, Jennifer Egan, Michael Ondaatje, Don DeLillo, Thomas Pynchon, Italo Calvino, Kazuo Ishiguro, Toni Morrison, Gabriel Garcia Marquez, and James Joyce. (session 2023-05-30)\n- User is working on multiple writing projects including short stories, a journal, and a memoir, and is seeking organizational strategies to manage them effectively. (session 2023-05-23)\n- User recently attended a writing workshop at a local community center and found it helpful for improving their writing skills. (session 2023-06-16)\n- User plans to increase their daily physical activity by getting off the bus one stop early and walking the remainder of the way to work. (session 2023-06-09)\n- User received guidance on retirement planning at age 32, emphasizing the importance of maximizing 401(k) employer matches, diversifying investments, and considering both traditional and Roth IRAs. (session 2023-05-05)\n- User is planning to start a writing group with friends to share work and receive feedback, and received advice on maintaining productivity, such as setting clear goals, establishing a schedule, and using a critique format. (session 2023-05-30)\n- User was recommended specific courses for investing and retirement planning, including Investopedia Academy's Investing 101, Coursera's Investment Management Specialization, and The Financial Diet's Retirement 101. (session 2023-05-05)\n- User is actively participating in online writing groups, which they find valuable for accountability, motivation, and receiving feedback on their work. (session 2023-06-16)\n- Assistant identified key scenic stops on the Four Mile Trail: Union Point, Columbia Rock, Sunrise Point, and Glacier Point. (session 2023-05-07)\n- User has been working on a short story for one month, aiming for a writing pace of 500 words per week. (session 2023-06-16)\n- Assistant provided a comparison between the Four Mile Trail to Glacier Point and the Mist Trail to Vernal Falls, noting that both are strenuous with similar elevation gain per mile. (session 2023-05-07)\n- User is interested in the role of computer science in biomedicine, specifically regarding computational modeling of biological systems, precision medicine, and the potential for future disease cures. (session 2023-05-23)\n- User was introduced to classic foreign films popularized by The Criterion Collection in the US, including 'Paris, Texas', 'La Grande Illusion', 'Yojimbo', 'Come and See', 'Jules and Jim', and 'Red Desert'. (session 2023-05-20)\n- Assistant recommended online writing communities and forums such as NaNoWriMo, Writing.com, Absolute Write, Critique Circle, The Write Practice, Scribophile, and various Reddit communities. (session 2023-06-16)\n- User is interested in the role of public funding in promoting media freedom and the right to freedom of speech. (session 2023-04-25)\n- User has decided to use hiking boots with good traction and trekking poles for the Four Mile Trail, opting against crampons or microspikes unless trail conditions necessitate them. (session 2023-05-07)\n- User has been writing regularly for three months and has completed seven short stories during this period. (session 2023-05-30)\n- User has written four short stories since they began writing regularly and is interested in setting a monthly goal to maintain momentum. (session 2023-05-23)\n- User has added the Sapporo Snow Festival and the Gion Matsuri in Kyoto to their travel bucket list. (session 2023-05-25)\n- User plans to hike the Four Mile Trail in the early morning to avoid crowds, aiming to reach Glacier Point for sunrise. (session 2023-05-07)\n- User is experimenting with various writing styles and formats, including poetry and scriptwriting. (session 2023-06-16)\n- User was provided with strategies for allocating retirement contributions, such as using a fixed amount or a percentage of income, and integrating 401(k) contributions into an overall savings plan. (session 2023-05-05)\n- User decided to use the Citymapper app to track their daily commute, optimize their route, and monitor the time saved by walking from the bus stop to their office. (session 2023-06-09)\n- Assistant provided organizational tips for writers, including using a writing calendar, project folders, note-taking systems, color-coding, and project management tools like Trello, Asana, or Scrivener. (session 2023-05-23)\n- User is considering purchasing a monthly Muni pass in San Francisco to save money on commuting, noting that a single Uber ride recently cost them $20. (session 2023-06-09)\n- Assistant outlined industry-standard scriptwriting formats (screenplay, play, teleplay), recommended software (Final Draft, Celtx, Fade In), and provided guidelines on structure, font, and margins. (session 2023-06-16)\n- Assistant recommended off-the-beaten-path Japanese destinations: Yakushima (ancient cedar forests), Kanazawa (samurai district), Nikko (shrines and waterfalls), Aomori (cherry blossoms and festivals), and Tottori (sand dunes and hot springs). (session 2023-05-25)\n- User was provided with a list of job search websites including Indeed, LinkedIn, Glassdoor, Monster, ZipRecruiter, CareerBuilder, USAJOBS, Angellist, We Work Remotely, and Idealist. (session 2023-05-05)\n- User is 32 years old and has recently started contributing to their company's 401(k) plan, currently at a 10% contribution rate. (session 2023-05-05)\n- Public funds can support media freedom by providing financial resources to independent media outlets, establishing legal protections for journalists, and funding research and advocacy for media diversity and literacy. (session 2023-04-25)\n- Assistant suggested a monthly goal of six to eight short stories for the user to maintain their current writing momentum. (session 2023-05-23)\n- User was recommended online learning platforms such as Coursera, Udemy, edX, LinkedIn Learning, Skillshare, Pluralsight, and FutureLearn for career development and personal growth. (session 2023-05-05)\n- User was recommended several lesser-known films within The Criterion Collection to explore, specifically 'The Battle of Algiers' (1966), 'A Brighter Summer Day' (1991), 'The Ascent' (1977), 'Black Narcissus' (1947), and 'The Exterminating Angel' (1962). (session 2023-05-20)\n- Assistant provided a guide for submitting poetry to literary magazines, including research resources like Duotrope and Submittable, and advice on preparing submissions and cover letters. (session 2023-06-16)\n- User is planning a new hiking trip and is interested in the Four Mile Trail to Glacier Point in Yosemite National Park, which is a 9.6-mile round-trip hike with 3,200 feet of elevation gain. (session 2023-05-07)\n- User recently completed a 13-mile hike to the top of Vernal Falls and found it to be an amazing experience. (session 2023-05-07)\n- User is developing a story concept set in a mysterious library with a central theme of 'discovery' and is incorporating sentient books as a supernatural element. (session 2023-05-23)\n- Assistant noted that while personalized medicine is a rapidly growing field, its widespread adoption as a standard of care faces challenges including high costs, accessibility, data privacy concerns, and regulatory hurdles. (session 2023-05-23)\n- User is interested in exploring classic and landmark films popularized by The Criterion Collection, including titles like 'The Seven Samurai', 'Breathless', 'The 400 Blows', 'The Rules of the Game', 'Persona', 'Tokyo Story', 'Rashomon', 'The Seventh Seal', and 'The Night of the Hunter'. (session 2023-05-20)\n- Assistant recommended using prompts or themes from sources like Writing.com, Reddit's r/WritingPrompts, or Flash Fiction Day to generate ideas and overcome writer's block. (session 2023-05-23)\n- User is interested in visiting Japan and has added Yakushima and Tottori to their travel list after receiving recommendations for off-the-beaten-path destinations. (session 2023-05-25)\n- User lives in San Francisco and commutes to work daily using the Muni bus system. (session 2023-06-09)\n- Assistant identified precision medicine, CRISPR gene-editing technology, and AI-driven data analysis as key evolving technologies currently shaping the future of biomedical research. (session 2023-05-23)\n- User intends to bring a portable coffee maker to enjoy at Glacier Point during sunrise. (session 2023-05-07)\n- Assistant explained that computer science has been utilized in biomedicine since the early 1960s, becoming essential in recent decades due to increased computing power, large biological datasets, and advancements in AI and machine learning. (session 2023-05-23)\n- Assistant recommended notable Japanese festivals: Sapporo Snow Festival (February), Kawagoe Matsuri (October), Gion Matsuri (Kyoto), Takayama Matsuri (spring/fall), and Danjiri Matsuri (October). (session 2023-05-25)\n- Assistant proposed several ways to integrate sentient books into the user's library story, including direct communication, intuitive connections, empathic resonance, or book whispering. (session 2023-05-23)\n- User is exploring job search resources and is interested in upskilling or reskilling through online courses, seminars, and conferences. (session 2023-05-05)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 54,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 35.6,
+  "total": 36.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

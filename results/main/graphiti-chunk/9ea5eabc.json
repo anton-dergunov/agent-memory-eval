@@ -1,0 +1,102 @@
+{
+ "qid": "9ea5eabc",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Where did I go on my most recent family trip?",
+ "reference": "Paris",
+ "question_date": "2023-06-08 10:33",
+ "sessions": [
+  {
+   "id": "ultrachat_40916",
+   "date": "2023-05-11 08:01",
+   "evidence": false
+  },
+  {
+   "id": "a9a88764",
+   "date": "2023-05-12 03:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_HJhlusD_32",
+   "date": "2023-05-26 02:39",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7jGo66i_151",
+   "date": "2023-05-26 15:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_0Qembb9_0",
+   "date": "2023-05-26 20:34",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_1",
+   "date": "2023-05-26 23:01",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_296728",
+   "date": "2023-05-27 04:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_2",
+   "date": "2023-05-28 04:55",
+   "evidence": true
+  },
+  {
+   "id": "66cffcc7",
+   "date": "2023-05-28 16:48",
+   "evidence": false
+  },
+  {
+   "id": "14f0a8ed_2",
+   "date": "2023-05-28 17:41",
+   "evidence": false
+  }
+ ],
+ "context": "- The user attended the Turbocharged event where they participated in a workshop on throttle control and braking techniques. (valid since 2023-05-12)\n- The user is planning a solo trip to visit the city of Tokyo. (valid since 2023-05-28)\n- The user has installed new performance tires on their Mustang. (valid since 2023-05-12)\n- The assistant recommends using Booking.com to compare prices and find deals on accommodations. (valid since 2023-05-28)\n- The user owns a Mustang. (valid since 2023-05-12)\n- The user is considering upgrading the brake pads on their Mustang. (valid since 2023-05-12)\n- The assistant recommends using Airbnb to compare prices and find deals on accommodations. (valid since 2023-05-28)\n- The user is planning to attend a track day at the Riverside Speedway on January 15th. (valid since 2023-05-12)\n- The user is considering upgrading the cooling system on their Mustang. (valid since 2023-05-12)\n- The user owns new Speedo goggles. (valid since 2023-05-27)",
+ "answer": "**Answer (step by step):**\n\n1.  **Extract relevant information:**\n    *   The user attended the \"Turbocharged\" event (workshop on throttle control and braking).\n    *   The user is planning a solo trip to Tokyo.\n    *   The user owns a Mustang with new performance tires.\n    *   The user is planning to attend a track day at Riverside Speedway on January 15th.\n    *   The user owns new Speedo goggles.\n\n2.  **Reason over the information:**\n    *   I have reviewed all the provided facts regarding the user's activities, travel plans, and possessions.\n    *   The facts mention a planned solo trip to Tokyo and attendance at a \"Turbocharged\" event and a future track day.\n    *   There is no information provided in the history chats regarding a \"family trip\" or any past trips taken with family.\n\n3.  **Conclusion:**\n    *   Based on the provided history, there is no information available to answer where the user went on their most recent family trip.",
+ "dump": "- Cambridge Analytica harvested data from millions of Facebook users in 2018 without their knowledge or consent (valid since 2018-01-01)\n- Facebook failed to provide adequate oversight and action in preventing the data breach by Cambridge Analytica in 2018 (valid since 2018-01-01)\n- The user is planning to attend a track day at the Riverside Speedway on January 15th. (valid since 2023-05-12)\n- The user owns a Mustang. (valid since 2023-05-12)\n- The user has installed new performance tires on their Mustang. (valid since 2023-05-12)\n- The user used their Mustang with suspension and tire modifications during the Turbocharged event. (valid since 2023-05-12)\n- The user is considering upgrading the brake pads on their Mustang. (valid since 2023-05-12)\n- The user is considering upgrading the cooling system on their Mustang. (valid since 2023-05-12)\n- The user attended the Turbocharged event where they participated in a workshop on throttle control and braking techniques. (valid since 2023-05-12)\n- The Dynamic Whale Tax applies a percentage ranging from 1% to 10% to purchases of reward tokens made by a user. (valid since 2023-05-26)\n- The Dynamic Whale Tax system is designed to incentivize larger transactions and support the liquidity and stability of the Endgame ecosystem by allocating 1% to 10% of transaction values to reward tokens. (valid since 2023-05-26)\n- #Endgame aims to transition towards a zero tax structure for the Endgame ecosystem as infrastructure develops through community collaboration. (valid since 2023-05-26)\n- The papacy is a major institution within the Catholic Church. (valid since 2023-05-26)\n- The papacy has failed to follow the teachings and principles of Jesus Christ due to its historical involvement in persecution. (valid since 2023-05-26)\n- The Bible contains the teachings of Jesus Christ, including his command to love enemies. (valid since 2023-05-26)\n- The assistant provides a script written in R to check if a distribution of settlement sizes follows Zipf's law. (valid since 2023-05-26)\n- ggplot2 is a library used in R for plotting data. (valid since 2023-05-26)\n- scales is a library used in R. (valid since 2023-05-26)\n- The assistant references a file named settlement_sizes.csv for data input in the R script. (valid since 2023-05-26)\n- The assistant explains that R-squared is a common metric to determine if a distribution follows Zipf's law. (valid since 2023-05-26)\n- The user has heard of the Bumble BFF app as a way to meet new people while traveling solo. (valid since 2023-05-26)\n- The user has heard of the Meetup app as a way to meet new people while traveling solo. (valid since 2023-05-26)\n- Sushi is a traditional and fresh dish available in Japan. (valid since 2023-05-26)\n- Ramen is a popular noodle soup dish available in Japan. (valid since 2023-05-26)\n- Yakitori consists of grilled chicken skewers found in Japan. (valid since 2023-05-26)\n- Tempura is a dish of lightly battered and fried seafood or vegetables available in Japan. (valid since 2023-05-26)\n- Udon is a Japanese dish consisting of thick, chewy noodles served hot or cold. (valid since 2023-05-26)\n- Tonkatsu is a breaded and deep-fried pork cutlet available in Japan. (valid since 2023-05-26)\n- Bento is a boxed meal served in Japan containing rice, fish or meat, and vegetables. (valid since 2023-05-26)\n- Onigiri are triangular-shaped rice balls available as a snack in Japan. (valid since 2023-05-26)\n- Mochi is a traditional Japanese soft, chewy rice cake. (valid since 2023-05-26)\n- Matcha sweets are popular flavored treats found in Japan. (valid since 2023-05-26)\n- Tsukiji Fish Market is a seafood-focused market located in Tokyo, Japan. (valid since 2023-05-26)\n- Dotonbori is a street food and culinary district located in Osaka, Japan. (valid since 2023-05-26)\n- Shinjuku's Omoide Yokocho is an alleyway filled with small bars and restaurants located in Tokyo, Japan. (valid since 2023-05-26)\n- Fukuoka's Yatai are food stalls found in the city of Fukuoka, Japan. (valid since 2023-05-26)\n- Green tea, including matcha or sencha, is a traditional drink offered in Japan. (valid since 2023-05-26)\n- Sake is a traditional Japanese rice wine offered in Japan. (valid since 2023-05-26)\n- Umeshu is a sweet, plum-flavored liqueur found in Japan. (valid since 2023-05-26)\n- The user owns a new Speedo swim cap. (valid since 2023-05-27)\n- The user owns new Speedo goggles. (valid since 2023-05-27)\n- The user is planning a solo trip to visit the city of Tokyo. (valid since 2023-05-28)\n- Nui.Tokyo Central Hostel is located in Tokyo. (valid since 2023-05-28)\n- Sakura Hotel Ikebukuro is located in Tokyo. (valid since 2023-05-28)\n- Book and Bed Tokyo is located in Tokyo. (valid since 2023-05-28)\n- Guest House Ninja is located in Tokyo. (valid since 2023-05-28)\n- Tokyo Guest House is located in Tokyo. (valid since 2023-05-28)\n- Sakura Guest House is located in Tokyo. (valid since 2023-05-28)\n- Remm Akihabara Hotel is located in Tokyo. (valid since 2023-05-28)\n- Imano Tokyo Hostel is located in Tokyo. (valid since 2023-05-28)\n- Toyoko Inn is located in Tokyo. (valid since 2023-05-28)\n- Nine Hours Shinjuku-North is located in the Shinjuku neighborhood. (valid since 2023-05-28)\n- Capsule Hotel Anshin Oyado Shinjuku is located in the Shinjuku neighborhood. (valid since 2023-05-28)\n- The assistant recommends using Booking.com to compare prices and find deals on accommodations. (valid since 2023-05-28)\n- The assistant recommends using Hostelworld to compare prices and find deals on accommodations. (valid since 2023-05-28)\n- The assistant recommends using Airbnb to compare prices and find deals on accommodations. (valid since 2023-05-28)\n- The user was impressed by the solo performance of Emily during the offertory hymn at church. (valid since 2023-05-28)\n- The user can check the Eventbrite online event calendar to find out what events are happening in their area. (valid since 2023-05-28)\n- The user can check the Meetup online event calendar to find out what events are happening in their area. (valid since 2023-05-28)\n- The user can check the Facebook Events online event calendar to find out what events are happening in their area. (valid since 2023-05-28)\n- The user can perform a Google search for phrases like events near me to find what is happening in their area. (valid since 2023-05-28)\n- The user is excited to try out the lap swimming sessions at Bay Club West Valley. (valid since 2023-05-28)\n- The user considers UFC GYM San Jose as an alternative gym for kickboxing classes. (valid since 2023-05-28)\n- The user considers CKO Kickboxing San Jose as an alternative gym for kickboxing classes. (valid since 2023-05-28)\n- The user considers 9Round Fitness San Jose as an alternative gym for kickboxing classes. (valid since 2023-05-28)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 65,
+  "invalidated": 0,
+  "episodes": 17,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 126.9,
+  "total": 128.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

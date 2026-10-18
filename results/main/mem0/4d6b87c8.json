@@ -1,0 +1,104 @@
+{
+ "qid": "4d6b87c8",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many titles are currently on my to-watch list?",
+ "reference": "25",
+ "question_date": "2023-06-03 15:47",
+ "sessions": [
+  {
+   "id": "ultrachat_121715",
+   "date": "2023-05-01 21:59",
+   "evidence": false
+  },
+  {
+   "id": "5fc83435_1",
+   "date": "2023-05-15 20:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mmYyki5_0",
+   "date": "2023-05-17 11:19",
+   "evidence": false
+  },
+  {
+   "id": "d87e86f6_1",
+   "date": "2023-05-17 22:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_1",
+   "date": "2023-05-20 10:19",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cu7TYt7_57",
+   "date": "2023-05-20 17:03",
+   "evidence": false
+  },
+  {
+   "id": "85da7827",
+   "date": "2023-05-21 06:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_2",
+   "date": "2023-05-22 03:27",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_361817",
+   "date": "2023-05-22 08:42",
+   "evidence": false
+  },
+  {
+   "id": "5c85023a_1",
+   "date": "2023-05-29 06:30",
+   "evidence": false
+  }
+ ],
+ "context": "- User is looking for new Netflix shows and has a long to-watch list of 20 titles. (from a chat on 2023-05-20)\n- User has a to-watch list of 25 titles and is looking for help organizing them by genre or theme. (from a chat on 2023-05-22)\n- User decided to start watching 'Victoria' and 'The Last Kingdom' as their next historical dramas, adding 'Poldark', 'Outlander', 'Medici: Masters of Florence', and 'The White Queen' to their future watchlist. (from a chat on 2023-05-20)\n- User decided to watch 'The Haunting of Hill House' and plans to watch one or two episodes per week. (from a chat on 2023-05-20)\n- User was recommended a list of historical drama movies including 'The King's Speech', 'The Young Victoria', 'Elizabeth', 'Shakespeare in Love', 'Atonement', 'The Duchess', 'The New World', 'The Other Boleyn Girl', 'Marie Antoinette', 'Gosford Park', 'The Remains of the Day', and 'The Duellists'. (from a chat on 2023-05-22)\n- User is interested in 'The OA' but plans to watch it after finishing 'The Haunting of Hill House'. (from a chat on 2023-05-20)\n- User is interested in social justice and human rights, and plans to watch 'Amistad' and 'Hotel Rwanda'. (from a chat on 2023-05-22)\n- User was recommended historical dramas focusing on non-royal figures, including 'Schindler's List', '12 Years a Slave', 'The Pianist', 'The Book Thief', 'Hidden Figures', 'The Imitation Game', 'The Iron Lady', 'Coal Miner's Daughter', 'Gandhi', 'The Motorcycle Diaries', 'The Way Back', and 'Defiance'. (from a chat on 2023-05-22)\n- User was provided with additional historical drama recommendations including 'Poldark', 'Outlander', 'Medici: Masters of Florence', and 'The White Queen'. (from a chat on 2023-05-20)\n- User was recommended movies and series exploring social justice and human rights, including 'Amistad', 'Glory', 'Hotel Rwanda', 'The Color Purple', 'Milk', 'Selma', 'The Killing Fields', 'Dead Man Walking', 'Roots', 'The Underground Railroad', 'When They See Us', 'The Good Fight', and 'The Americans'. (from a chat on 2023-05-22)\n- User is interested in historical dramas, specifically those focusing on non-royal figures or ordinary people living through significant historical events. (from a chat on 2023-05-22)\n- User enjoys complex, atmospheric shows that balance character development with plot progression. (from a chat on 2023-05-20)\n- User was recommended documentaries on social justice and human rights, including 'The Act of Killing', 'The Cove', 'Super Size Me', 'The Invisible War', 'The Square', 'Blackfish', 'The Look of Silence', 'Citizenfour', 'The Hunting Ground', and '13th'. (from a chat on 2023-05-22)\n- User was recommended climate change documentaries including 'Before the Flood' (2016), 'Chasing Coral' (2017), and 'Climate Change: The Facts' (2019). (from a chat on 2023-05-29)\n- User was recommended Netflix shows similar to 'Stranger Things' ('The Haunting of Hill House', 'The OA', 'Locke & Key', 'The Umbrella Academy') and 'The Crown' ('Victoria', 'Outlander', 'The Last Kingdom', 'Medici: Masters of Florence'). (from a chat on 2023-05-20)\n- User is interested in using herbal-scented candles (lavender, chamomile, lemon balm, bergamot, or clary sage) to complement their floral display. (from a chat on 2023-05-21)\n- User is preparing to sell handmade jewelry and candles at the upcoming Summer Solstice Night Market. (from a chat on 2023-05-21)\n- User is seeking ways to relieve muscle tension and improve sleep quality, specifically planning to try warm baths, gentle stretching, and the 4-7-8 breathing technique before bed. (from a chat on 2023-05-22)\n- User has started biking to dance classes on Saturday afternoons and is seeking advice on safety and comfort accessories. (from a chat on 2023-05-15)\n- User was recommended various bike accessories for safety (helmet, lights, reflective gear, bell), comfort (saddle, gloves, water bottle, padded shorts), and practicality (rack, lock, pump, tools). (from a chat on 2023-05-15)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-05-20: The user mentioned having a to-watch list of 20 titles.\n    *   From the chat on 2023-05-22: The user mentioned having a to-watch list of 25 titles.\n\n2.  **Reason over the information:**\n    *   The information from 2023-05-22 is the most recent update regarding the size of the user's to-watch list.\n    *   The user explicitly stated in the 2023-05-22 chat that they have a to-watch list of 25 titles.\n\n3.  **Conclusion:**\n    *   There are currently 25 titles on your to-watch list.",
+ "dump": "- User is considering a social media promotion where customers receive a discount for sharing a post about their Summer Solstice Bundle to increase brand visibility. (session 2023-05-21)\n- User was recommended historical dramas focusing on non-royal figures, including 'Schindler's List', '12 Years a Slave', 'The Pianist', 'The Book Thief', 'Hidden Figures', 'The Imitation Game', 'The Iron Lady', 'Coal Miner's Daughter', 'Gandhi', 'The Motorcycle Diaries', 'The Way Back', and 'Defiance'. (session 2023-05-22)\n- The Logitech G502 HERO features an ergonomic design with rubber side grips and a matte finish intended to reduce fatigue during long gaming sessions, though personal comfort varies by hand size and grip style. (session 2023-05-01)\n- User explored the effectiveness of Native American code talkers during WWII, learning that their success relied on specialized, non-direct translation codes that remain difficult for modern linguists to decipher without specific contextual knowledge. (session 2023-05-20)\n- User received advice for improving sleep hygiene, including establishing a consistent routine, limiting stimulants, creating a cool/dark/quiet environment, avoiding screens, and considering mindfulness or melatonin. (session 2023-05-22)\n- User enjoys complex, atmospheric shows that balance character development with plot progression. (session 2023-05-20)\n- User is leaning towards purchasing the Logitech G502 HERO and is concerned about its comfort during extended gaming sessions. (session 2023-05-01)\n- User was recommended the Razer DeathAdder Elite, Logitech G502 HERO, Corsair Dark Core RGB/SE, and SteelSeries Rival 600 as gaming mice suitable for FPS games with precision and customization features. (session 2023-05-01)\n- User learned that the Enigma M3, introduced in 1938, was fully compatible with the Enigma I, allowing for interoperability between the two machines when using the same key settings. (session 2023-05-20)\n- User attended a Billie Eilish concert recently and is interested in strategies for securing good spots in general admission sections, such as arriving early and knowing the venue layout. (session 2023-05-17)\n- User is planning a trip to Antarctica and is researching reputable tour operators, including Hurtigruten Expeditions, Quark Expeditions, Silversea Expeditions, Ponant, Oceanwide Expeditions, Aurora Expeditions, One Ocean Expeditions, Lindblad Expeditions, Crystal Cruises, and Poseidon Expeditions. (session 2023-05-29)\n- User is planning to purchase an 18mm shackle U-lock to protect their bike, as they have invested significantly in it. (session 2023-05-15)\n- User was advised to use LA Weekly's Music Section, KCRW's Events Calendar, and the LA Times' Music Section to stay updated on the local indie and alternative music scene. (session 2023-05-17)\n- User was recommended Netflix shows similar to 'Stranger Things' ('The Haunting of Hill House', 'The OA', 'Locke & Key', 'The Umbrella Academy') and 'The Crown' ('Victoria', 'Outlander', 'The Last Kingdom', 'Medici: Masters of Florence'). (session 2023-05-20)\n- User was recommended books on climate change including 'The Uninhabitable Earth' by David Wallace-Wells, 'This Changes Everything' by Naomi Klein, 'The Sixth Extinction' by Elizabeth Kolbert, and 'Coral Reefs and Climate Change' by Stephen Palumbi. (session 2023-05-29)\n- User was recommended indie and alternative-focused festivals in the LA area, including Just Like Heaven, Desert Daze, Camp Flog Gnaw, Sound and Fury, and the Summer Concert Series at The Observatory. (session 2023-05-17)\n- User was recommended reputable bike lock brands including Abus, Kryptonite, OnGuard, TiGr, and Hiplok, with specific high-security 18mm shackle models like the Abus Granit X 540, Kryptonite New York Fahgettaboudit, OnGuard Beast 8013, TiGr Lock 18, and Hiplok D1000. (session 2023-05-15)\n- User was recommended documentaries on social justice and human rights, including 'The Act of Killing', 'The Cove', 'Super Size Me', 'The Invisible War', 'The Square', 'Blackfish', 'The Look of Silence', 'Citizenfour', 'The Hunting Ground', and '13th'. (session 2023-05-22)\n- User is interested in 'The OA' but plans to watch it after finishing 'The Haunting of Hill House'. (session 2023-05-20)\n- User was taught four breathing techniques for relaxation: Deep Breathing, 4-7-8 breathing, Alternate nostril breathing, and Box breathing. (session 2023-05-22)\n- User was provided with additional historical drama recommendations including 'Poldark', 'Outlander', 'Medici: Masters of Florence', and 'The White Queen'. (session 2023-05-20)\n- If the Larsen C ice shelf collapses, the Bawden Glacier's flow rate could increase by 10-50%, potentially contributing an additional 1-26 cm of sea-level rise over the next century. (session 2023-05-29)\n- User was recommended several artists similar to Phoebe Bridgers, including Julien Baker ('Turn Out the Lights'), Lucy Dacus ('Historian'), Courtney Barnett ('Tell Me How You Really Feel'), Soccer Mommy ('Clean'), Vagabon ('Vagabon'), Adrianne Lenker ('abysskiss'), Sharon Van Etten ('Remind Me Tomorrow'), Weyes Blood ('Titanic Rising'), Snail Mail ('Lush'), and Torres ('Silver Tongue'). (session 2023-05-17)\n- User has previously attended the Outside Lands music festival in San Francisco and is looking for similar festivals in the Los Angeles area, specifically those focusing on indie and alternative genres. (session 2023-05-17)\n- User was provided with general guidelines for muscle tension relief, including massage, warm baths (15-30 minutes), gentle stretching, exercise, yoga, heat/cold therapy, acupuncture, and sleep. (session 2023-05-22)\n- User decided to watch 'The Haunting of Hill House' and plans to watch one or two episodes per week. (session 2023-05-20)\n- User plays FPS games and is looking for a gaming mouse that offers both precision and customizability to adapt to their playstyle. (session 2023-05-01)\n- User was recommended high-quality essential oil suppliers: Mountain Rose Herbs, Eden's Garden, Plant Therapy, and The Essential Oil Wizardry. (session 2023-05-21)\n- User learned that the Enigma I (Wehrmacht Enigma) was the most widely deployed German cipher machine during WWII, typically using three rotors, though later versions and the M3 model incorporated four. (session 2023-05-20)\n- User was recommended several gaming mouse brands with warranty and support information: Razer (2-year), Logitech (2-year), Corsair (2-year), SteelSeries (1-year), ROCCAT (2-year), HyperX (2-year), ASUS (2-year), and Finalmouse (1-year). (session 2023-05-01)\n- User was provided with a Python example of a simple Bitcoin trading bot using the ccxt library to connect to the Bitmex exchange, featuring fixed stop-loss and take-profit parameters. (session 2023-05-17)\n- User has a to-watch list of 25 titles and is looking for help organizing them by genre or theme. (session 2023-05-22)\n- User has started biking to dance classes on Saturday afternoons and is seeking advice on safety and comfort accessories. (session 2023-05-15)\n- The Bawden Glacier is a fast-flowing glacier (up to 1 km/year) located behind the Larsen C ice shelf, which acts as a stabilizing 'brake' on its flow. (session 2023-05-29)\n- User is interested in the history and principles of cryptography, specifically the evolution from traditional cipher machines like the Enigma and SIGABA to modern block ciphers. (session 2023-05-20)\n- User was recommended various bike accessories for safety (helmet, lights, reflective gear, bell), comfort (saddle, gloves, water bottle, padded shorts), and practicality (rack, lock, pump, tools). (session 2023-05-15)\n- User was recommended a list of historical drama movies including 'The King's Speech', 'The Young Victoria', 'Elizabeth', 'Shakespeare in Love', 'Atonement', 'The Duchess', 'The New World', 'The Other Boleyn Girl', 'Marie Antoinette', 'Gosford Park', 'The Remains of the Day', and 'The Duellists'. (session 2023-05-22)\n- User is researching gaming mouse brands that offer extended warranties and reliable after-sales support. (session 2023-05-01)\n- User decided to start watching 'Victoria' and 'The Last Kingdom' as their next historical dramas, adding 'Poldark', 'Outlander', 'Medici: Masters of Florence', and 'The White Queen' to their future watchlist. (session 2023-05-20)\n- User is interested in climate change and specifically its impact on Antarctica, including the Larsen C ice shelf and the Bawden Glacier. (session 2023-05-29)\n- User is a fan of Phoebe Bridgers and recently saw her perform live at the Greek Theatre in Los Angeles while opening for The National, attending the concert with their coworker Rachel. (session 2023-05-17)\n- User is planning a 'Summer Solstice Bundle' promotion featuring a candle, jewelry, and a small potted plant, and was advised on the pros and cons of fixed versus tiered discount structures. (session 2023-05-21)\n- User was recommended music festivals in or near Los Angeles, including Coachella, Arroyo Seco Weekend, FYF Fest, LA Music Festival, KCRW's Apogee Festival, Once Upon a Time in LA, and This Ain't No Picnic. (session 2023-05-17)\n- User is interested in social justice and human rights, and plans to watch 'Amistad' and 'Hotel Rwanda'. (session 2023-05-22)\n- User is interested in using herbal-scented candles (lavender, chamomile, lemon balm, bergamot, or clary sage) to complement their floral display. (session 2023-05-21)\n- User was provided with display tips for their market stall, including using a unified theme, layering with risers, incorporating lighting, textiles, and greenery, and creating a focal point. (session 2023-05-21)\n- User is seeking ways to relieve muscle tension and improve sleep quality, specifically planning to try warm baths, gentle stretching, and the 4-7-8 breathing technique before bed. (session 2023-05-22)\n- User is interested in historical dramas, specifically those focusing on non-royal figures or ordinary people living through significant historical events. (session 2023-05-22)\n- User was advised on keeping fresh flowers in their display by choosing hardy varieties like roses or carnations, using floral preservatives, maintaining hydration, and securing arrangements with wire or tape. (session 2023-05-21)\n- User is looking for new Netflix shows and has a long to-watch list of 20 titles. (session 2023-05-20)\n- User struggles with phone usage before bed and was advised to set boundaries, charge the phone outside the bedroom, use apps like Forest or Freedom, and replace scrolling with activities like reading, bathing, or journaling. (session 2023-05-22)\n- User was recommended movies and series exploring social justice and human rights, including 'Amistad', 'Glory', 'Hotel Rwanda', 'The Color Purple', 'Milk', 'Selma', 'The Killing Fields', 'Dead Man Walking', 'Roots', 'The Underground Railroad', 'When They See Us', 'The Good Fight', and 'The Americans'. (session 2023-05-22)\n- User was recommended climate change documentaries including 'Before the Flood' (2016), 'Chasing Coral' (2017), and 'Climate Change: The Facts' (2019). (session 2023-05-29)\n- User was recommended five inspiration board themes for their market display: Rustic Chic, Boho Luxe, Whimsical Woodland, Coastal Vibes, and Vintage Glam. (session 2023-05-21)\n- User was recommended several Los Angeles music venues including The Wiltern, The Hollywood Palladium, The Fonda Theatre, The El Rey Theatre, The Echo, The Regent Theater, The Troubadour, The Observatory, The Novo Theater, and The Hotel Cafe. (session 2023-05-17)\n- User is preparing to sell handmade jewelry and candles at the upcoming Summer Solstice Night Market. (session 2023-05-21)\n- User is learning bot trading through a 10-week structured course provided by the assistant, covering topics from basics and system setup to advanced strategies, risk management, and trading psychology. (session 2023-05-17)\n- User has attended concerts at the Greek Theatre, the Los Angeles Forum, and the Troubadour, where they saw Lucy Dacus perform a few months prior to May 2023. (session 2023-05-17)\n- User is considering the Abus Granit X 540 U-lock for its high security and 18mm shackle, and confirmed its suitability for locking to bike racks and street signs. (session 2023-05-15)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 59,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 41.1,
+  "total": 42.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

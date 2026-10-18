@@ -1,0 +1,142 @@
+{
+ "qid": "5831f84d",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many Crash Course videos have I watched in the past few weeks?",
+ "reference": "15",
+ "question_date": "2023-10-05 05:19",
+ "sessions": [
+  {
+   "id": "3e53cff4",
+   "date": "2023-07-15 04:55",
+   "evidence": false
+  },
+  {
+   "id": "5cd46af9_2",
+   "date": "2023-07-19 06:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_1",
+   "date": "2023-08-11 13:55",
+   "evidence": true
+  },
+  {
+   "id": "78e6f9ee",
+   "date": "2023-08-13 14:44",
+   "evidence": false
+  },
+  {
+   "id": "14991eb7_2",
+   "date": "2023-08-22 08:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_462218",
+   "date": "2023-09-08 07:05",
+   "evidence": false
+  },
+  {
+   "id": "83dae08b",
+   "date": "2023-09-12 22:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_2",
+   "date": "2023-09-30 17:18",
+   "evidence": true
+  },
+  {
+   "id": "0df54428_4",
+   "date": "2023-09-30 19:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ofljChm_78",
+   "date": "2023-10-05 19:51",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n- Is currently using a daily 30-minute cleaning routine, which they have maintained for 3 weeks and find it helpful for their productivity and energy.\n- Plans to use Habitica to manage tasks, including daily and weekly cleaning.\n- Interested in using the \"one-touch rule\" as a custom habit in Habitica.\n- Plans to start a project on AWS.\n- Currently studying for the AWS Certified Cloud Practitioner exam.\n- Interested in reading \"All the Light We Cannot See\" by Anthony Doerr.\n- Writing a short story collection centered on themes of childhood memories and family, inspired by personal experiences.\n- Stays motivated by participating in a writing community on social media that provides weekly writing prompts and exercises.\n- Prefers writing in the park, finding the fresh air and quiet environment helpful for focus.\n- Keeps a writing journal to track progress and brainstorm ideas.\n- Has identified that they are more creative and fluid in the mornings, and aims to prioritize writing sessions during that time.\n- Interested in learning about deep learning and its applications in NLP.\n- Currently exploring deep learning frameworks and attention mechanisms.\n- Specifically interested in using the Hugging Face Transformers library for text classification tasks.\n- Actively engages with online communities like Kaggle and Reddit to learn from others, get project feedback, stay updated on NLP/ML, and connect with potential collaborators.\n</human>\n\nTool results while answering:\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T03:07:53.173363+00:00', 'time_ago': '2m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is an impressive learning streak! Watching 15 Crash Course videos in just a few weeks is a great way to build momentum—they are fantastic at making complex topics accessible and engaging. \\n\\nSince you\\'re looking to dive into Natural Language Processing (NLP), here are a few highly recommended resources that cater to different learning styles:\\n\\n### Highly Recommended Courses\\n*   **[Natural Language Processing Specialization (DeepLearning.AI on Coursera)](https://www.coursera.org/specializations/natural-language-processing):** This is excellent if you have some background in Python and machine learning. It covers everything from basic sentiment analysis to advanced transformer models.\\n*   **[NLP Course by Hugging Face](https://huggingface.co/learn/nlp-course):** This is an incredible, hands-on, and free resource. It focuses on the modern \"Transformers\" ecosystem and is perfect if you want to get into building real applications quickly.\\n*   **[Stanford CS224N: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/):** This is a gold standard university course. All lectures are available on YouTube for free. It is mathematically rigorous and offers a very deep understanding of the fundamentals.\\n\\n### For a More Casual Introduction\\n*   **[Crash Course AI](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNI32J_rQ3QU3W7G7b-f-3R):** Since you\\'ve already been enjoying the Crash Course style, this series provides a great high-level overview of artificial intelligence, including segments on language processing. It\\'s a perfect \"bridge\" before diving into the heavier technical material.\\n\\n### A Quick Tip\\nGiven that you\\'re also currently studying for your AWS Certified Cloud Practitioner exam, you might eventually find it interesting to look at **Amazon SageMaker**. It’s a tool on AWS that makes it very easy to build, train, and deploy NLP models, which would nicely bridge your two current interests!\\n\\nDo you have any specific goals with NLP, like building a chatbot or analyzing text for your writing projects, or are you just exploring the field for now?'}, {'timestamp': '2026-10-18T03:07:22.390340+00:00', 'time_ago': '3m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-09-30 17:18] I'm trying to learn more about natural language processing, can you recommend some online resources or courses that cover this topic? By the way, I've been on a learning streak lately, having watched 15 Crash Course videos in the past few weeks.\"}, {'timestamp': '2026-10-18T03:04:46.498021+00:00', 'time_ago': '5m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is fantastic news! Finishing your 12th Crash Course video—especially in Computer Science—is a huge milestone. Those foundational videos are excellent for cementing the \"why\" behind what you\\'re learning in your AWS and Machine Learning studies.\\n\\nIt sounds like you\\'ve really found a great rhythm for balancing your learning goals with your personal routines. It’s impressive to see how you\\'re connecting the dots between those broad CS concepts and your specific goals in cloud and AI.\\n\\nSince you\\'ve made such great progress, I\\'m curious:\\n\\n*   **How are you feeling about your AWS study plan?** Are you still planning to do the Cloud Practitioner certification, or has your dive into Machine Learning shifted your interest toward AWS\\'s data/AI-specific services?\\n*   **The \"One-Touch\" Habit:** Have you had a chance to test out the \"one-touch rule\" in Habitica yet? I\\'d love to hear if it’s helping you stay on top of things during your busy study sessions!\\n\\nKeep up that incredible momentum—you’re doing great work!'}, {'timestamp': '2026-10-18T03:04:44.361213+00:00', 'time_ago': '5m ago', 'role': 'user', 'rele",
+ "answer": "You mentioned on September 30, 2023, that you had watched 15 Crash Course videos in the past few weeks. It sounds like you've been on a fantastic learning streak!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n- Is currently using a daily 30-minute cleaning routine, which they have maintained for 3 weeks and find it helpful for their productivity and energy.\n- Plans to use Habitica to manage tasks, including daily and weekly cleaning.\n- Interested in using the \"one-touch rule\" as a custom habit in Habitica.\n- Plans to start a project on AWS.\n- Currently studying for the AWS Certified Cloud Practitioner exam.\n- Interested in reading \"All the Light We Cannot See\" by Anthony Doerr.\n- Writing a short story collection centered on themes of childhood memories and family, inspired by personal experiences.\n- Stays motivated by participating in a writing community on social media that provides weekly writing prompts and exercises.\n- Prefers writing in the park, finding the fresh air and quiet environment helpful for focus.\n- Keeps a writing journal to track progress and brainstorm ideas.\n- Has identified that they are more creative and fluid in the mornings, and aims to prioritize writing sessions during that time.\n- Interested in learning about deep learning and its applications in NLP.\n- Currently exploring deep learning frameworks and attention mechanisms.\n- Specifically interested in using the Hugging Face Transformers library for text classification tasks.\n- Actively engages with online communities like Kaggle and Reddit to learn from others, get project feedback, stay updated on NLP/ML, and connect with potential collaborators.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Crash Course\", \"start_date\": \"2023-09-14\"})"
+  ],
+  "blocks_chars": 1642,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 474.6,
+  "total": 480.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

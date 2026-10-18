@@ -1,0 +1,132 @@
+{
+ "qid": "7e974930",
+ "arm": "letta",
+ "split": "main",
+ "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+ "reference": "$420",
+ "question_date": "2023-10-26 11:44",
+ "sessions": [
+  {
+   "id": "71f2f490_3",
+   "date": "2023-03-16 13:20",
+   "evidence": false
+  },
+  {
+   "id": "18f48ccb",
+   "date": "2023-03-24 15:24",
+   "evidence": false
+  },
+  {
+   "id": "07b2420e_1",
+   "date": "2023-03-27 14:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_c9f5693c_1",
+   "date": "2023-04-11 00:10",
+   "evidence": true
+  },
+  {
+   "id": "084cba20",
+   "date": "2023-04-25 06:05",
+   "evidence": false
+  },
+  {
+   "id": "8bd5b3c4_1",
+   "date": "2023-05-10 12:22",
+   "evidence": false
+  },
+  {
+   "id": "898ce7a5_1",
+   "date": "2023-08-16 11:09",
+   "evidence": false
+  },
+  {
+   "id": "e1220dda_2",
+   "date": "2023-09-03 11:39",
+   "evidence": false
+  },
+  {
+   "id": "answer_c9f5693c_2",
+   "date": "2023-09-30 15:13",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_439362",
+   "date": "2023-10-07 00:16",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user is passionate about music and is currently organizing their library across their computer and Spotify. They enjoyed their Spotify Discover Weekly playlist from last Monday (March 13th, 2023) and saved about 10 songs from it.\nThe user is training for a sprint triathlon and has a strong background in running, having finished a marathon on April 15th (2023) with a personal best.\nThe user completed a 30-day yoga challenge in April (2023) and has been practicing yoga consistently twice a week since March 1st, finding it very helpful for recovery and flexibility.\nThe user is interested in landscape and nature photography. They are looking to buy a camera and lens for around $1,500. They are not concerned about size/weight (used to DSLRs), and while weather sealing would be nice, it's not required.\nThe user decided they are fine with the battery life of the X-T30 II. They are curious about whether the X-T30 II is weather-sealed. They enjoyed taking sunset photos at the beach 6 weeks ago and plan to take their new camera on more outdoor adventures.\n\nThe user runs a small business and participates in various markets and events. They provided a list of recent earnings (as of April 11th, 2023):\n- March 18th: Downtown Farmers Market, $220\n- March 25th: Arts and Crafts Fair, $85\n- April 1st: Earth Day Market, $25\n- May 6th: Downtown Farmers Market, $350\n- May 13th: Mother's Day Market, $200\n- May 20th: Foodie Festival, $400\nThe user is looking into vehicle maintenance, specifically checking the last date of their oil change and when to replace their air filter.\nThe user's car had an oil change on February 10th, 2023. They are looking for recommendations for auto body shops to repair a scratch on the passenger side door.\nThe user went to a Billie Eilish concert at FedExField with their friend Rachel about 3 months ago (May 2023), including a meet-and-greet. They are planning a road trip to Maryland and are looking for events at FedExField.\nThe user is a big fan of indie-rock and alternative music. They recently attended a music festival at Merriweather Post Pavilion in Columbia, MD, to see The 1975, which they found \"mind-blowing.\" They noted it almost rained, but held off until the end.\nThe user recently attended the Foodie Festival (September 2023) and cleared out some of their old stock. They are now working on inventory management for upcoming events and big orders.\nThe user sells homemade jams (including best-selling strawberry), candles, and soaps. They are currently restocking supplies.\nThe user recently earned $420 at the Downtown Farmers Market (September 2023). They are interested in setting up a loyalty program for their customers.\nThe user is planning to promote their loyalty program via social media, email newsletters, and in-store signage, and is training staff to encourage sign-ups at checkout. They are considering expanding their artisanal soap line based on recent sales and feedback.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on our previous conversations, you earned **$420** at the Downtown Farmers Market during your most recent visit in September 2023.",
+ "dump": "<human>\n\nThe user is passionate about music and is currently organizing their library across their computer and Spotify. They enjoyed their Spotify Discover Weekly playlist from last Monday (March 13th, 2023) and saved about 10 songs from it.\nThe user is training for a sprint triathlon and has a strong background in running, having finished a marathon on April 15th (2023) with a personal best.\nThe user completed a 30-day yoga challenge in April (2023) and has been practicing yoga consistently twice a week since March 1st, finding it very helpful for recovery and flexibility.\nThe user is interested in landscape and nature photography. They are looking to buy a camera and lens for around $1,500. They are not concerned about size/weight (used to DSLRs), and while weather sealing would be nice, it's not required.\nThe user decided they are fine with the battery life of the X-T30 II. They are curious about whether the X-T30 II is weather-sealed. They enjoyed taking sunset photos at the beach 6 weeks ago and plan to take their new camera on more outdoor adventures.\n\nThe user runs a small business and participates in various markets and events. They provided a list of recent earnings (as of April 11th, 2023):\n- March 18th: Downtown Farmers Market, $220\n- March 25th: Arts and Crafts Fair, $85\n- April 1st: Earth Day Market, $25\n- May 6th: Downtown Farmers Market, $350\n- May 13th: Mother's Day Market, $200\n- May 20th: Foodie Festival, $400\nThe user is looking into vehicle maintenance, specifically checking the last date of their oil change and when to replace their air filter.\nThe user's car had an oil change on February 10th, 2023. They are looking for recommendations for auto body shops to repair a scratch on the passenger side door.\nThe user went to a Billie Eilish concert at FedExField with their friend Rachel about 3 months ago (May 2023), including a meet-and-greet. They are planning a road trip to Maryland and are looking for events at FedExField.\nThe user is a big fan of indie-rock and alternative music. They recently attended a music festival at Merriweather Post Pavilion in Columbia, MD, to see The 1975, which they found \"mind-blowing.\" They noted it almost rained, but held off until the end.\nThe user recently attended the Foodie Festival (September 2023) and cleared out some of their old stock. They are now working on inventory management for upcoming events and big orders.\nThe user sells homemade jams (including best-selling strawberry), candles, and soaps. They are currently restocking supplies.\nThe user recently earned $420 at the Downtown Farmers Market (September 2023). They are interested in setting up a loyalty program for their customers.\nThe user is planning to promote their loyalty program via social media, email newsletters, and in-store signage, and is training staff to encourage sign-ups at checkout. They are considering expanding their artisanal soap line based on recent sales and feedback.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Downtown Farmers Market earnings September 2023\"})",
+   "conversation_search({\"query\": \"Downtown Farmers Market earnings\"})"
+  ],
+  "blocks_chars": 3148,
+  "write_steps": 59,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 421.4,
+  "total": 430.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

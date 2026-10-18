@@ -1,0 +1,102 @@
+{
+ "qid": "6a27ffc2",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many videos of Corey Schafer's Python programming series have I completed so far?",
+ "reference": "30",
+ "question_date": "2023-06-09 01:44",
+ "sessions": [
+  {
+   "id": "sharegpt_y1IBjYa_0",
+   "date": "2023-04-24 05:03",
+   "evidence": false
+  },
+  {
+   "id": "ae00973d_5",
+   "date": "2023-04-26 23:25",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_169777",
+   "date": "2023-05-08 10:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_87812",
+   "date": "2023-05-09 14:23",
+   "evidence": false
+  },
+  {
+   "id": "f684ac4c_3",
+   "date": "2023-05-24 03:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_1",
+   "date": "2023-05-24 18:34",
+   "evidence": true
+  },
+  {
+   "id": "6ae451d1_2",
+   "date": "2023-05-24 23:56",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_2",
+   "date": "2023-05-26 00:03",
+   "evidence": true
+  },
+  {
+   "id": "4604bc73_3",
+   "date": "2023-05-26 04:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_505209",
+   "date": "2023-06-03 21:16",
+   "evidence": false
+  }
+ ],
+ "context": "- The user has completed 30 videos of Corey Schafer's Python series. (valid since 2023-05-26)\n- The user is using the Python series to prepare for applying Python skills to NLP tasks. (valid since 2023-05-26)\n- The assistant provides advice to the user on how to verify if a call claiming to be from their bank is legitimate. (valid since 2023-04-24)\n- The user plans to take the NLP course from DataCamp. (valid since 2023-05-26)\n- The Rose family navigates their new life in the town of Schitt's Creek. (valid since 2023-05-26)\n- The user is familiar with the game Scythe. (valid since 2023-05-24)\n- The assistant provides information about the themes of identity and class in the show Schitt's Creek. (valid since 2023-05-26)\n- The user is familiar with the game Pandemic Legacy. (valid since 2023-05-24)\n- The National Governors Association published a report in 2019 evaluating the effectiveness of Maryland's all-payer healthcare system. (valid since 2019-01-01)\n- spaCy's language models are compared to Word2Vec in terms of word embedding generation and usage for sentiment analysis. (valid since 2023-05-24)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   From the history chats: \"The user has completed 30 videos of Corey Schafer's Python series. (valid since 2023-05-26)\"\n\n**Step 2: Reason over the information**\n*   The record states that as of May 26, 2023, the user had completed 30 videos.\n*   There is no subsequent information in the provided history indicating that the user has watched additional videos since that date.\n*   Therefore, based on the available records, the total number of videos completed is 30.\n\n**Answer:**\nYou have completed 30 videos of Corey Schafer's Python programming series.",
+ "dump": "- The National Governors Association published a report in 2019 evaluating the effectiveness of Maryland's all-payer healthcare system. (valid since 2019-01-01)\n- The assistant provides advice to the user on how to verify if a call claiming to be from their bank is legitimate. (valid since 2023-04-24)\n- The user has been interested in photography for a while. (valid since 2023-04-26)\n- The user collects vinyl records. (valid since 2023-04-26)\n- The user collects stamps. (valid since 2023-04-26)\n- The user is interested in photography books that focus on film photography and the 1960s aesthetic. (valid since 2023-04-26)\n- The user is interested in zines that focus on film photography and the 1960s aesthetic. (valid since 2023-04-26)\n- The user is using Ilford HP5 Plus 400 film for their photography. (valid since 2023-04-26)\n- The user collects vintage cameras. (valid since 2023-04-26)\n- The user collects vintage records. (valid since 2023-04-26)\n- The assistant recommends Ilford HP5 Plus 400 as a versatile and flexible film choice. (valid since 2023-04-26)\n- Maryland implements an all-payer healthcare system to control healthcare costs and improve care quality. (valid since 2023-05-08)\n- Vermont has implemented a global budgeting model to control hospital expenditure costs. (valid since 2023-05-08)\n- Massachusetts has implemented an accountable care organization model within its Medicaid program. (valid since 2023-05-08)\n- Oregon is experimenting with value-based payment models that link healthcare payments to quality outcomes and cost savings. (valid since 2023-05-08)\n- The user is familiar with the game Pandemic Legacy. (valid since 2023-05-24)\n- The user is familiar with the game Scythe. (valid since 2023-05-24)\n- The user is interested in learning more about the board game Terraforming Mars. (valid since 2023-05-24)\n- The user is interested in learning more about the board game 7 Wonders. (valid since 2023-05-24)\n- The user is interested in learning more about the board game Azul, specifically its mosaic building aspect. (valid since 2023-05-24)\n- The user is interested in learning more about the board game Brass: Birmingham, specifically its industrial management aspect. (valid since 2023-05-24)\n- The assistant intends to introduce the board game Azul to family and friends. (valid since 2023-05-24)\n- The assistant provides music recommendations for the Winter Vibes playlist to help the user curate a selection of relaxing and calming music for the winter season. (valid since 2023-05-24)\n- The assistant recommends using the spaCy library for the user's project. (valid since 2023-05-24)\n- spaCy's language models are compared to Word2Vec in terms of word embedding generation and usage for sentiment analysis. (valid since 2023-05-24)\n- spaCy's language models are compared to GloVe in terms of word embedding generation and usage for sentiment analysis. (valid since 2023-05-24)\n- SpaCy's language models generate word embeddings as a fundamental component for NLP tasks. (valid since 2023-05-24)\n- A machine learning model can be trained using sentence embeddings as features. (valid since 2023-05-24)\n- A machine learning model can be trained using word embedding averages as features. (valid since 2023-05-24)\n- A support vector machine is a suitable classifier for sentiment analysis that can be trained using sentence embeddings. (valid since 2023-05-24)\n- A random forest is a suitable classifier for sentiment analysis that can be trained using sentence embeddings. (valid since 2023-05-24)\n- A neural network is a suitable classifier for sentiment analysis that can be trained using sentence embeddings. (valid since 2023-05-24)\n- A logistic regression model can be trained using word embedding averages as features for sentiment analysis. (valid since 2023-05-24)\n- First Aid Kit is a Swedish folk-pop duo that includes Klara Söderberg. (valid since 2023-05-24)\n- First Aid Kit is a Swedish folk-pop duo that includes Johanna Söderberg. (valid since 2023-05-24)\n- The user plans to take the NLP course from DataCamp. (valid since 2023-05-26)\n- The user is applying NLP to a project. (valid since 2023-05-26)\n- The user is applying sentiment analysis to a project. (valid since 2023-05-26)\n- The user is considering applying named entity recognition to a project. (valid since 2023-05-26)\n- The user is considering applying topic modeling to a project. (valid since 2023-05-26)\n- The user has completed 30 videos of Corey Schafer's Python series. (valid since 2023-05-26)\n- The user is using the Python series to prepare for applying Python skills to NLP tasks. (valid since 2023-05-26)\n- The user plans to re-watch the movie Parasite to catch details they missed the first time. (valid since 2023-05-26)\n- The assistant provides information about the themes of identity and class in the show Schitt's Creek. (valid since 2023-05-26)\n- Eugene Levy co-created the television show Schitt's Creek. (valid since 2023-05-26)\n- Dan Levy co-created the television show Schitt's Creek. (valid since 2023-05-26)\n- The Rose family navigates their new life in the town of Schitt's Creek. (valid since 2023-05-26)\n- David Rose is a character portrayed in the show Schitt's Creek. (valid since 2023-05-26)\n- The assistant recommends sustainable aviation fuel as a key strategy to reduce carbon emissions in the aviation industry in the short to medium term. (valid since 2023-06-03)\n- The assistant identifies electric aircraft as a sustainability measure that can be integrated into broader decarbonization strategies for the aviation industry. (valid since 2023-06-03)\n- The assistant identifies hydrogen-powered aircraft as a sustainability measure that can be integrated into broader decarbonization strategies for the aviation industry. (valid since 2023-06-03)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 51,
+  "invalidated": 0,
+  "episodes": 23,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 141.3,
+  "total": 142.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

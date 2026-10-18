@@ -1,0 +1,130 @@
+{
+ "qid": "618f13b2",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+ "reference": "six",
+ "question_date": "2023-06-18 22:29",
+ "sessions": [
+  {
+   "id": "ultrachat_546105",
+   "date": "2023-05-02 00:38",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_469083",
+   "date": "2023-05-30 05:07",
+   "evidence": false
+  },
+  {
+   "id": "d2366c37",
+   "date": "2023-05-30 12:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_caf5b52e_2",
+   "date": "2023-05-30 17:45",
+   "evidence": true
+  },
+  {
+   "id": "9cea187c_1",
+   "date": "2023-05-30 18:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_558040",
+   "date": "2023-05-30 21:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_caf5b52e_1",
+   "date": "2023-05-30 22:16",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_SaUokxc_63",
+   "date": "2023-06-01 11:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dUIx8DF_0",
+   "date": "2023-06-05 10:13",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_270398",
+   "date": "2023-06-16 22:50",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\nI have had a productive conversation with the user regarding financial fraud prevention. I provided tips on digital hygiene, social engineering, and identity theft, which helped the user feel more confident in their security practices.\n</persona>\n\n<human>\n\nThe user has expressed interest in fraud prevention and security, and has gained confidence in managing these risks after our discussion on May 30, 2023.\nThe user owns brown leather boots that need repair (loose heel) and recently purchased black Converse (worn 4 times). They are interested in shoe maintenance.\nThe user is organizing their shoes by type and then color, and using storage bins for out-of-season footwear. They are considering a shoe tree for their brown leather boots.\nThe user is interested in buying Vans Old Skool sneakers and is asking for my opinion on their comfort and value.\nThe user is sorting their shoes by type and color and loves their black Converse, which they have worn 4 times, including to a birthday party. They are asking for cleaning tips and how to find a local cobbler for their boots.\nThe user also owns white Adidas Superstars and is asking for cleaning advice after they got dirty/scuffed at the gym. They have been manually cleaning them with a toothbrush and soap.\n</human>\n\nTool results while answering:\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-18T02:30:15.225591+00:00', 'time_ago': '1m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'It sounds like your black Converse are becoming a true staple in your wardrobe! It’s the best feeling when a new pair of shoes turns out to be both stylish and comfortable enough to wear to a party and on regular outings. They really are incredibly versatile—the fact that they work well with both jeans and dresses is exactly why they are such a classic.\\n\\nI think your plan to organize by type and then color is going to make your daily routine so much easier. You\\'ll be able to see exactly what you have, which makes grabbing the right pair for an outfit quick and stress-free.\\n\\nSince you\\'ve got a great rotation going between those Converse, the Adidas Superstars, and your boots, you’re well on your way to a very well-maintained collection. Don\\'t forget to look into that cobbler for the boots when you have a moment—getting that heel fixed will make them just as reliable as your sneakers.\\n\\nIs there anything else on your \"to-do\" list for your closet, or does that cover the main organizational goals for now?'}]}\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on our previous conversations, you have worn your black Converse sneakers **4 times**.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\nI have had a productive conversation with the user regarding financial fraud prevention. I provided tips on digital hygiene, social engineering, and identity theft, which helped the user feel more confident in their security practices.\n</persona>\n\n<human>\n\nThe user has expressed interest in fraud prevention and security, and has gained confidence in managing these risks after our discussion on May 30, 2023.\nThe user owns brown leather boots that need repair (loose heel) and recently purchased black Converse (worn 4 times). They are interested in shoe maintenance.\nThe user is organizing their shoes by type and then color, and using storage bins for out-of-season footwear. They are considering a shoe tree for their brown leather boots.\nThe user is interested in buying Vans Old Skool sneakers and is asking for my opinion on their comfort and value.\nThe user is sorting their shoes by type and color and loves their black Converse, which they have worn 4 times, including to a birthday party. They are asking for cleaning tips and how to find a local cobbler for their boots.\nThe user also owns white Adidas Superstars and is asking for cleaning advice after they got dirty/scuffed at the gym. They have been manually cleaning them with a toothbrush and soap.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"black Converse\"})",
+   "conversation_search({\"query\": \"Converse worn\"})"
+  ],
+  "blocks_chars": 1446,
+  "write_steps": 52,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 387.8,
+  "total": 395.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "qid": "3ba21379",
+ "arm": "mem0",
+ "split": "pilot",
+ "question": "What type of vehicle model am I currently working on?",
+ "reference": "Ford F-150 pickup truck",
+ "question_date": "2023-06-01 05:09",
+ "sessions": [
+  {
+   "id": "answer_cd345582_1",
+   "date": "2023-05-20 15:14",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_525931",
+   "date": "2023-05-26 03:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_cd345582_2",
+   "date": "2023-05-26 04:47",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_QQQAWUd_19",
+   "date": "2023-05-26 06:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_563664",
+   "date": "2023-05-26 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6fho7as_0",
+   "date": "2023-05-26 13:32",
+   "evidence": false
+  },
+  {
+   "id": "0f78155a_1",
+   "date": "2023-05-27 07:12",
+   "evidence": false
+  },
+  {
+   "id": "67620dbc_4",
+   "date": "2023-05-27 17:40",
+   "evidence": false
+  },
+  {
+   "id": "3e19c52e_3",
+   "date": "2023-05-28 04:11",
+   "evidence": false
+  },
+  {
+   "id": "490bb46d_3",
+   "date": "2023-06-01 08:42",
+   "evidence": false
+  }
+ ],
+ "context": "- User is currently building a 1/25 scale Ford F-150 pickup truck model, having recently completed their previous project. (from a chat on 2023-05-26)\n- User is currently building a Ford Mustang Shelby GT350R model and is seeking techniques for realistic weathering, engine, transmission, seatbelt, and dashboard detailing. (from a chat on 2023-05-20)\n- User is working with Extron's Global Scripter and requested a Python program to monitor and toggle the mute/unmute state of an Extron IPCP Pro 550 control processor. (from a chat on 2023-05-26)\n- User was advised on specific techniques for weathering the underside of their Ford F-150 model to simulate off-road use, focusing on wheel wells and suspension components using mud splatters and grime. (from a chat on 2023-05-26)\n- User was recommended various weathering techniques for their model car, including using washes for grime, chipping medium for rust, and drybrushing for tire wear. (from a chat on 2023-05-20)\n- User was provided with advanced weathering techniques for their Ford F-150 model, including methods for simulating dust, mud, rust, fading, and oil stains using acrylic paints and weathering powders. (from a chat on 2023-05-26)\n- User plans to use photo-etched metal strips and fabric to create realistic seatbelts for their Ford Mustang Shelby GT350R model. (from a chat on 2023-05-20)\n- User was provided with comprehensive airbrushing techniques for 1/25 scale car models, including preparation, pressure settings (10-20 PSI), nozzle sizes (0.2-0.5 mm), and specific application methods like 'wet-on-wet' and 'feathering'. (from a chat on 2023-05-26)\n- User was provided with advice on applying decals to 1/25 scale models, including the use of decal setting solutions, cutting large decals into sections, and using warm air to help them conform to curved surfaces. (from a chat on 2023-05-26)\n- User was recommended specific rust-colored paints (Vallejo Model Color Rust, Rusty Red, Burnt Iron) and weathering powders (Mig Productions, AK Interactive) to create realistic surface and scale rust effects. (from a chat on 2023-05-26)\n- User was provided with an outline for using linear regression to synthesize FA and ADC maps, with the caveat that it assumes linear relationships and may perform worse than more complex models. (from a chat on 2023-05-26)\n- User was provided with a guide on implementing a U-Net deep learning model for pixel-wise regression to synthesize FA and ADC maps from T1w and T2w images. (from a chat on 2023-05-26)\n- User is using Vallejo paints for their Ford Mustang Shelby GT350R project and is impressed by their color range and quality. (from a chat on 2023-05-20)\n- User was recommended specific Vallejo Metal Color paints for wheels: Steel (77.721), Aluminum (77.722), Dark Aluminum (77.723), and Gunmetal (77.724). (from a chat on 2023-05-20)\n- User recently installed a new security camera in their backyard. (from a chat on 2023-05-27)\n- User is exploring methods to synthesize FA and ADC maps from T1w and T2w structural MRI images, specifically investigating regression techniques. (from a chat on 2023-05-26)\n- User has a golden retriever named Max. (from a chat on 2023-05-27)\n- User is planning a weekend getaway to San Francisco in April 2023 to visit their friend Emily, who has been living there for a few months. (from a chat on 2023-05-28)\n- User is experimenting with IFTTT recipes to automate home tasks and improve energy efficiency. (from a chat on 2023-05-27)\n- User recently upgraded their home office PC to a solid-state drive (SSD) and noted a significant performance improvement. (from a chat on 2023-05-27)",
+ "answer": "**Answer (step by step):**\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-05-26: \"User is currently building a 1/25 scale Ford F-150 pickup truck model, having recently completed their previous project.\"\n    *   From the chat on 2023-05-20: \"User is currently building a Ford Mustang Shelby GT350R model...\"\n    *   The chat on 2023-05-26 clarifies that the user had \"recently completed their previous project\" (referring to the Mustang) before starting the Ford F-150.\n\n2.  **Reason over the information:**\n    *   The user was working on a Ford Mustang Shelby GT350R as of May 20th.\n    *   By May 26th, the user had completed that project and transitioned to building a 1/25 scale Ford F-150 pickup truck.\n    *   As of the current date (June 1st, 2023), there is no information indicating the user has started a new project since the Ford F-150.\n\n**Conclusion:** You are currently working on a 1/25 scale Ford F-150 pickup truck model.",
+ "dump": "- User was provided with advice on applying decals to 1/25 scale models, including the use of decal setting solutions, cutting large decals into sections, and using warm air to help them conform to curved surfaces. (session 2023-05-26)\n- User is working with Extron's Global Scripter and requested a Python program to monitor and toggle the mute/unmute state of an Extron IPCP Pro 550 control processor. (session 2023-05-26)\n- User was recommended several geothermal pools in Iceland: Laugarvatn Fontana, Landmannalaugar, Myvatn Nature Baths, Krauma, and Laugardalslaug. (session 2023-05-28)\n- User was recommended specific Vallejo Metal Color paints for wheels: Steel (77.721), Aluminum (77.722), Dark Aluminum (77.723), and Gunmetal (77.724). (session 2023-05-20)\n- User was recommended several portable power banks for laptop charging, including Anker PowerCore, Mophie Powerstation, Jackery Titan, Eggtronic, and Goal Zero Sherpa. (session 2023-05-27)\n- User was provided with a Python script for the Extron IPCP Pro 550 that uses the extron module to define a mute_status variable and a toggle_mute function, utilizing a while loop to continuously monitor and update the mute state. (session 2023-05-26)\n- User was provided with comprehensive airbrushing techniques for 1/25 scale car models, including preparation, pressure settings (10-20 PSI), nozzle sizes (0.2-0.5 mm), and specific application methods like 'wet-on-wet' and 'feathering'. (session 2023-05-26)\n- User was provided with advanced weathering techniques for their Ford F-150 model, including methods for simulating dust, mud, rust, fading, and oil stains using acrylic paints and weathering powders. (session 2023-05-26)\n- User is planning a weekend getaway to San Francisco in April 2023 to visit their friend Emily, who has been living there for a few months. (session 2023-05-28)\n- User was provided with blending techniques for rust effects, including wet blending, drybrushing, layering, and glazing, to ensure seamless transitions between rust and surrounding paint. (session 2023-05-26)\n- User was recommended to explore The Black Keys' earlier albums 'Rubber Factory' (2004) and 'Magic Potion' (2006) for a more raw, lo-fi sound. (session 2023-06-01)\n- User decided to opt for guided tours for the Golden Circle and South Coast in Iceland due to concerns about driving on narrow and unpredictable roads. (session 2023-05-28)\n- User was recommended indie-folk artists with similar styles to The Lumineers, including Mumford & Sons, The Head and the Heart, Of Monsters and Men, The Decemberists, Fleet Foxes, The Avett Brothers, Iron & Wine, Bon Iver, Lord Huron, and First Aid Kit. (session 2023-05-26)\n- User was recommended several SSD brands for reliability and value, including Samsung (860/970 EVO), Western Digital (Black SN750/Blue SN500), Crucial (MX500/P1), ADATA (XPG SX8200/SU800), and Corsair (Force Series MP510). (session 2023-05-27)\n- User recently switched Max's diet to a grain-free kibble as a one-time purchase. (session 2023-05-27)\n- User decided to start exploring The Black Keys' discography with their 2010 album 'Brothers' based on a recommendation. (session 2023-06-01)\n- User is interested in the indie-folk musical style of The Lumineers, specifically their 2019 album 'III', and enjoys their storytelling-focused lyrics. (session 2023-05-26)\n- Factors considered in U.S. military budget allocation include national security strategies, military readiness and modernization, force structure, troop pay and benefits, operational costs, and research and development funding. (session 2023-05-26)\n- As of 2021, the U.S. military consisted of approximately 1.3 million active-duty personnel, 800,000 National Guard and reserve members, and 750,000 civilian Department of Defense employees. (session 2023-05-26)\n- User received suggestions for organizing a concert memory playlist, including chronological, concert-by-concert, mood-based, or artist-centric approaches. (session 2023-06-01)\n- User recently upgraded their home office PC to a solid-state drive (SSD) and noted a significant performance improvement. (session 2023-05-27)\n- User was provided with a guide on implementing a U-Net deep learning model for pixel-wise regression to synthesize FA and ADC maps from T1w and T2w images. (session 2023-05-26)\n- User is using Vallejo paints for their Ford Mustang Shelby GT350R project and is impressed by their color range and quality. (session 2023-05-20)\n- As of May 2023, the U.S. Army and Marine Corps had announced plans to reduce their active-duty personnel numbers by 2022, though these reductions were intended to be balanced by shifts in other military areas to maintain readiness. (session 2023-05-26)\n- User is considering setting up a home NAS server to store and stream family media content. (session 2023-05-27)\n- User was recommended specific rust-colored paints (Vallejo Model Color Rust, Rusty Red, Burnt Iron) and weathering powders (Mig Productions, AK Interactive) to create realistic surface and scale rust effects. (session 2023-05-26)\n- User is exploring methods to synthesize FA and ADC maps from T1w and T2w structural MRI images, specifically investigating regression techniques. (session 2023-05-26)\n- User reset their router on Thursday, May 25, 2023, and set up a new smart TV on Saturday morning, May 27, 2023. (session 2023-05-27)\n- User recently attended a music festival where they saw The 1975, The Neighbourhood, and Billie Eilish. (session 2023-06-01)\n- User recently installed a new security camera in their backyard. (session 2023-05-27)\n- User was provided with an outline for using Random Forest regression as a non-deep learning machine learning approach to synthesize FA and ADC maps, noting potential limitations in capturing complex relationships. (session 2023-05-26)\n- User purchased a dog bed for Max from PetSmart for $40. (session 2023-05-27)\n- User purchased shampoo for Max from the vet for $10. (session 2023-05-27)\n- User recently traveled to Japan and took a 4-day trip to Las Vegas in late January 2023 with friends Emily and Rachel, where they stayed at the Bellagio and watched the fountain show three times. (session 2023-05-28)\n- User is planning a 7-day trip to Iceland and is leaning towards it over Costa Rica, specifically interested in visiting hot springs like the Blue Lagoon. (session 2023-05-28)\n- User inquired about the U.S. military budget process, which involves the Department of Defense submitting a proposal to the President, followed by congressional committee reviews, hearings, reconciliation, and final presidential signature. (session 2023-05-26)\n- User is currently building a Ford Mustang Shelby GT350R model and is seeking techniques for realistic weathering, engine, transmission, seatbelt, and dashboard detailing. (session 2023-05-20)\n- User purchased a new brush for Max that is effective at reducing shedding. (session 2023-05-27)\n- User was informed that Fleet Foxes and Bon Iver are often noted for their distinctive sounds within the indie-folk genre, with Fleet Foxes known for intricate harmonies and Bon Iver for unconventional instrumentation and vocal processing. (session 2023-05-26)\n- User was recommended bands similar to Arctic Monkeys: The Black Keys, The Strokes, The Libertines, Kasabian, The Vaccines, Bombay Bicycle Club, Circa Waves, and The 1975. (session 2023-06-01)\n- User is experiencing issues with their laptop's battery life and is seeking ways to extend it. (session 2023-05-27)\n- User was provided with an outline for using linear regression to synthesize FA and ADC maps, with the caveat that it assumes linear relationships and may perform worse than more complex models. (session 2023-05-26)\n- User was recommended various weathering techniques for their model car, including using washes for grime, chipping medium for rust, and drybrushing for tire wear. (session 2023-05-20)\n- User purchased a measuring cup for Max's food from a local pet store for $5. (session 2023-05-27)\n- User was provided with a 7-day Iceland itinerary suggestion: Days 1-2 in Reykjavik, Day 3 Golden Circle tour, Day 4 South Coast tour, Day 5 Blue Lagoon, Day 6 additional pools/exploration, and Day 7 departure. (session 2023-05-28)\n- User is experimenting with IFTTT recipes to automate home tasks and improve energy efficiency. (session 2023-05-27)\n- User is currently building a 1/25 scale Ford F-150 pickup truck model, having recently completed their previous project. (session 2023-05-26)\n- User recently attended an Arctic Monkeys concert and received the ticket for free from a friend. (session 2023-06-01)\n- User's proposed 7-day Iceland itinerary includes 2-3 days in Reykjavik, guided tours of the Golden Circle and South Coast, and 1-2 days for visiting the Blue Lagoon and other geothermal pools. (session 2023-05-28)\n- User purchased a stainless steel food bowl for Max from Amazon for $15. (session 2023-05-27)\n- User was advised on specific techniques for weathering the underside of their Ford F-150 model to simulate off-road use, focusing on wheel wells and suspension components using mud splatters and grime. (session 2023-05-26)\n- User has a golden retriever named Max. (session 2023-05-27)\n- User was provided with a list of essential items to pack for a concert, including tickets, ID, cash, a portable charger, a refillable water bottle, earplugs, a small first-aid kit, comfortable shoes, a light jacket, snacks, and a camera. (session 2023-06-01)\n- User plans to use photo-etched metal strips and fabric to create realistic seatbelts for their Ford Mustang Shelby GT350R model. (session 2023-05-20)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 54,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 16.3,
+  "total": 19.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

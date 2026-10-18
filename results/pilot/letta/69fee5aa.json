@@ -1,0 +1,107 @@
+{
+ "qid": "69fee5aa",
+ "arm": "letta",
+ "split": "pilot",
+ "question": "How many pre-1920 American coins do I have in my collection?",
+ "reference": "38",
+ "question_date": "2023-06-09 11:14",
+ "sessions": [
+  {
+   "id": "1126be1e_1",
+   "date": "2023-05-20 04:52",
+   "evidence": false
+  },
+  {
+   "id": "f3881d05",
+   "date": "2023-05-25 16:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_15909",
+   "date": "2023-05-27 15:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6028d6e_1",
+   "date": "2023-05-27 18:09",
+   "evidence": true
+  },
+  {
+   "id": "ef917f63",
+   "date": "2023-05-27 21:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3st3uPn_0",
+   "date": "2023-05-28 03:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6028d6e_2",
+   "date": "2023-05-29 00:54",
+   "evidence": true
+  },
+  {
+   "id": "52498502_2",
+   "date": "2023-05-31 06:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_121551",
+   "date": "2023-06-02 03:48",
+   "evidence": false
+  },
+  {
+   "id": "a554ed79_2",
+   "date": "2023-06-02 19:20",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Visited NYC with friends for 5 days.\n- Planning a return solo trip to NYC.\n- Interested in indie rock and alternative music.\n- Loves visiting music festivals (attended one in Austin, TX in February, stayed in a hostel in the South Congress neighborhood, experienced a secret show).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-17T14:49:53.659363+00:00', 'time_ago': '15s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-29 00:54] I'm looking to learn more about error coins, specifically ones with misprinted dates. Can you tell me about some notable examples, and how I can identify them? By the way, I just added a new coin to my collection of pre-1920 American coins - a 1915-S Barber quarter.\"}, {'timestamp': '2026-10-17T14:49:42.873031+00:00', 'time_ago': '26s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-27 18:09] What a great idea! Organizing your pre-1920 American coins by denomination and mint mark will make for a fascinating display. Proper storage and display are crucial to preserve your coins and showcase them in a visually appealing way. Here are some tips to help you do just that:\\n\\n**Storage:**\\n\\n1. **Coin albums or folders**: Use high-quality, acid-free coin albums or folders specifically designed for storing coins. These will protect your coins from scratches, corrosion, and damage.\\n2. **Coin capsules or slabs**: Consider storing your coins in coin capsules or slabs, which are made of inert materials that won't react with the coins. These can be especially useful for more valuable or sensitive coins.\\n3. **Coin boxes or cases**: Use sturdy, compartmentalized coin boxes or cases to store your coins. Look for ones with individual slots or compartments to keep each coin separate and organized.\\n\\n**Display:**\\n\\n1. **Coin display cases**: Invest in a high-quality coin display case that is specifically designed for showcasing coins. These cases usually have a clear acrylic or glass front, allowing you to view your coins from both sides.\\n2. **Coin display boards**: Create a custom display board using a wooden or acrylic base with coin-sized holes or slots. You can arrange your coins by denomination and mint mark on the board.\\n3. **Shadow boxes**: Use a deep shadow box to create a visually appealing display. You can add a background, such as a map or a historical image, to add context to your coin collection.\\n\\n**Tips for displaying 37 coins:**\\n\\n1. **Group similar coins together**: Divide your coins into groups based on denomination and mint mark. This will make it easier to display and appreciate the variations within each group.\\n2. **Use risers or stands**: Use coin risers or stands to create a multi-level display, adding visual interest and depth to your arrangement.\\n3. **Leave space between coins**: Don't overcrowd your display. Leave enough space between each coin to allow for easy viewing and to prevent the display from looking cluttered.\\n4. **Consider a theme**: Create a theme for your display, such as showcasing coins from a specific time period, mint, or featuring a particular design element.\\n\\n**Additional considerations:**\\n\\n1. **Conservation**: Make sure to handle your coins carefully to avoid damaging them. Wear gloves, and use a soft, clean cloth to handle coins.\\n2. **Environmental control**: Store your coins in a room with a consistent temperature (around 65-70°F/18-21°C) and humidity level (around 50-60%). Avoid direct sunlight, which can cause coins to fade or degrade.\\n3. **Security**: Consider investing in a safe or a secure display case to protect your coins from theft or damage.\\n\\nBy following these tips, you'll be able to create a beautiful and informative display of your pre-1920 American coins. Enjoy showcasing your collection!\"}, {'timestamp': '2026-10-17T14:49:42.873009+00:00', 'time_ago': '26s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-27 18:09] By the way, I was thinking of organizing my pre-1920 American coins by denomination and mint mark. I have a total of 37 coins in that collection, and I think it would be cool to see them all displayed together. Do you have any tips on how to properly store and display them?'}]}",
+ "answer": "Based on our previous conversations, you mentioned on May 27th that you had a total of 37 coins in your pre-1920 American coin collection. \n\nThen, on May 29th, you mentioned adding a new coin—a 1915-S Barber quarter—to that same collection. So, it appears you now have **38** coins in your collection.",
+ "dump": "<human>\n\n- Visited NYC with friends for 5 days.\n- Planning a return solo trip to NYC.\n- Interested in indie rock and alternative music.\n- Loves visiting music festivals (attended one in Austin, TX in February, stayed in a hostel in the South Congress neighborhood, experienced a secret show).\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"pre-1920 American coins\"})"
+  ],
+  "blocks_chars": 483
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 38.9,
+  "total": 43.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

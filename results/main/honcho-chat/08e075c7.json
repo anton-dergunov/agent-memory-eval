@@ -1,0 +1,96 @@
+{
+ "qid": "08e075c7",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How long have I been using my Fitbit Charge 3?",
+ "reference": "9 months",
+ "question_date": "2023-09-04 17:07",
+ "sessions": [
+  {
+   "id": "25b3e36c_1",
+   "date": "2023-06-01 00:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_1",
+   "date": "2023-06-18 00:59",
+   "evidence": true
+  },
+  {
+   "id": "f7344cf4",
+   "date": "2023-06-30 22:55",
+   "evidence": false
+  },
+  {
+   "id": "a8ef396f_2",
+   "date": "2023-07-16 07:55",
+   "evidence": false
+  },
+  {
+   "id": "ae77c245",
+   "date": "2023-08-04 00:36",
+   "evidence": false
+  },
+  {
+   "id": "242eab28_2",
+   "date": "2023-08-05 06:23",
+   "evidence": false
+  },
+  {
+   "id": "77827bdf",
+   "date": "2023-08-12 18:01",
+   "evidence": false
+  },
+  {
+   "id": "a5808e7d_1",
+   "date": "2023-08-22 11:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_2",
+   "date": "2023-09-02 01:13",
+   "evidence": true
+  },
+  {
+   "id": "9037e55b",
+   "date": "2023-09-02 22:40",
+   "evidence": false
+  }
+ ],
+ "context": "As of September 2, 2023, you have been using your Fitbit Charge 3 for 9 months.",
+ "answer": "**Step 1: Extract relevant information**\n*   Fact 1: As of September 2, 2023, you have been using your Fitbit Charge 3 for 9 months.\n*   Fact 2: Current Date is September 4, 2023.\n\n**Step 2: Reason over the information**\n*   The duration of 9 months was calculated up to September 2, 2023.\n*   The current date is September 4, 2023, which is only 2 days after the reference date.\n*   Since 2 days is not enough to constitute an additional month, the duration remains 9 months.\n\n**Answer:**\nYou have been using your Fitbit Charge 3 for 9 months.",
+ "dump": "- [explicit] user's Spiderman action figure is in its original, slightly worn packaging.\n- [explicit] user owns a rare Spiderman action figure from the 1990s.\n- [explicit] user received a Limited Edition Disney Princess doll set via Amazon in July 2023.\n- [explicit] user possesses no certificates of authenticity for the Spiderman action figure.\n- [explicit] user's 1960s-era Canon rangefinder is functional.\n- [explicit] user's Rolleiflex camera does not have any accessories.\n- [explicit] user purchased a 1950s-era Rolleiflex camera at a thrift store.\n- [explicit] user's Rolleiflex camera is a Twin Lens Reflex model in good condition.\n- [explicit] user is decluttering their apartment.\n- [explicit] user pre-ordered their Limited Edition Disney Princess doll set in February 2023.\n- [explicit] user's Spiderman action figure packaging is a window box with a Spiderman logo.\n- [explicit] user's 1960s-era Canon rangefinder is in mint condition.\n- [explicit] user's Spiderman action figure was part of a limited release for a 1990s movie promotion.\n- [explicit] user owns a Limited Edition Disney Princess doll set of five dolls.\n- [explicit] user purchased a Limited Edition Disney Princess doll set as a pre-order.\n- [explicit] user owns multiple vintage cameras collected over the years.\n- [explicit] user purchased a Limited Edition Disney Princess doll set from Amazon in February 2023.\n- [explicit] user identifies the 1960s-era Canon rangefinder as their favorite camera.\n- [explicit] user owns a 1960s-era Canon rangefinder inherited from user's grandfather.\n- [explicit] user owns a Limited Edition Disney Princess doll set that is in its original packaging and in perfect condition.\n- [explicit] user owns a Canon rangefinder camera.\n- [explicit] user intends to list their vintage cameras individually.\n- [explicit] user owns a Rolleiflex camera.\n- [explicit] user plans to research the market to determine a fair price for each camera.\n- [explicit] user is considering getting their cameras professionally appraised before listing them.\n- [explicit] user expresses enjoyment of their new smartwatch.\n- [explicit] user recently acquired a smartwatch.\n- [explicit] user purchased the smartwatch for less than $249.99.\n- [explicit] user is interested in customizing their smartwatch to track specific exercises including push-ups and squats.\n- [explicit] user owns a smartwatch with an original price of $249.99.\n- [explicit] user intends to start tracking workouts more closely.\n- [explicit] user wants to use a nutrition tracking app that integrates with a smartwatch.\n- [explicit] user wants a nutrition tracking app that helps them make healthy choices.\n- [explicit] user is interested in tracking nutrition.\n- [explicit] user owns a smartwatch that is capable of integration with apps.\n- [explicit] user is looking for sleep tracking apps that provide detailed sleep analysis.\n- [explicit] user is interested in obtaining more insights into user's own sleep patterns.\n- [explicit] user wants to monitor their sleep patterns.\n- [explicit] user is considering purchasing a Fitbit Inspire HR fitness tracker.\n- [explicit] user uses a Fitbit Charge 3 to help stay on track with daily steps.\n- [explicit] user wants tips on staying motivated to reach a daily step goal on Sundays.\n- [explicit] user has been trying to get more into yoga.\n- [explicit] user is looking for yoga apps with more variety.\n- [explicit] user has been using a Fitbit Charge 3 for 6 months.\n- [explicit] user has been using YouTube to follow Adriene's yoga videos.\n- [explicit] user is looking for a yoga mat that is both affordable and high quality.\n- [explicit] user is considering purchasing a new yoga mat.\n- [explicit] user has been using their yoga mat for a while\n- [explicit] user is considering the Hugger Mugger ParaMat as an option for a new yoga mat\n- [explicit] user is experiencing knee issues\n- [explicit] user believes a thicker yoga mat would be helpful for their knee issues\n- [explicit] user has knee issues during yoga practice.\n- [explicit] user is considering the Manduka eKO SuperLite yoga mat.\n- [explicit] user expects the Hugger Mugger ParaMat to provide extra cushioning and support for yoga practice.\n- [explicit] user is considering purchasing a yoga strap.\n- [explicit] user has decided to purchase the Hugger Mugger ParaMat.\n- [explicit] user holds a positive opinion of the Hugger Mugger brand and the quality of their mats.\n- [explicit] user experiences knee issues.\n- [explicit] user is planning a fantasy basketball draft with friends.\n- [explicit] user enjoys watching NFL playoffs with friends at sports bars.\n- [explicit] user is thinking of hosting a sports-themed party.\n- [explicit] user lives in Kansas City, Missouri.\n- [explicit] user wants to track multiple sports schedules and scores centrally.\n- [explicit] user attended an NFL playoff game on January 15, 2023.\n- [explicit] user watches the YouTube series Formula 1 Explained to learn about the technical aspects of Formula 1.\n- [explicit] user is learning about Formula 1.\n- [explicit] user is reading articles about Formula 1 history and mechanics.\n- [explicit] user is watching documentaries about Formula 1 history and mechanics.\n- [explicit] user is a Formula 1 fan\n- [explicit] user enjoys the \"Formula 1 Explained\" series on YouTube\n- [explicit] user plans to host a Formula 1 viewing party for the first race of the 2023 season\n- [explicit] user intends to stop overnight in Flagstaff, Arizona, during the road trip to the Grand Canyon.\n- [explicit] user went on a road trip to Yellowstone with family a few weeks prior to 2023-08-04.\n- [explicit] user is planning a road trip to the Grand Canyon with friends over the winter holidays.\n- [explicit] user took a large number of photographs during the road trip to Yellowstone.\n- [explicit] user wants to organize road trip photos into an album or scrapbook.\n- [explicit] user is planning a trip to the Grand Canyon.\n- [explicit] user's Yellowstone road trip lasted 7 days.\n- [explicit] user owns a new GPS device.\n- [explicit] user drove a total of 2,500 miles during the Yellowstone road trip.\n- [explicit] user enjoys music in the genres of classic rock, pop, and country.\n- [explicit] user has taken a road trip to Yellowstone.\n- [explicit] user is traveling with a group of friends.\n- [explicit] user experienced heavy traffic on Highway 101 during the drive to San Francisco.\n- [explicit] user has a group of friends joining the road trip.\n- [explicit] user is planning a road trip to the Grand Canyon.\n- [explicit] user drove to San Francisco on the weekend of July 29-30, 2023.\n- [explicit] user needs to book ski lessons and rent equipment for their vacation.\n- [explicit] user plans to stay in Breckenridge for their ski vacation.\n- [explicit] user plans to use travel rewards credit card points to book a flight.\n- [explicit] user is considering using travel agencies specializing in ski packages, specifically Ski.com and Mountain Travel Sobek.\n- [explicit] user intends to plan a ski vacation to Colorado in winter 2023.\n- [explicit] user has no prior skiing experience.\n- [explicit] user intends to research other agencies specializing in ski packages besides Ski.com and Mountain Travel Sobek.\n- [explicit] user intends to travel to Breckenridge for a ski trip.\n- [explicit] user plans to use Expedia to compare prices and packages for a ski trip.\n- [explicit] user intends to investigate if Expedia offers bundle discounts for booking flights and ski packages together.\n- [explicit] user had a positive past experience booking a last-minute weekend getaway to Boston with friends via Expedia in July 2023.\n- [explicit] user intends to book a flight to Denver International Airport for a trip to Breckenridge.\n- [explicit] user intends to check Expedia's website for bundle discounts and promotional codes to save money on a ski package and flight.\n- [explicit] user intends to book a ski package and a flight to Denver International Airport.\n- [explicit] user intends to check Expedia's website for ski packages that include transportation from the airport to Breckenridge.\n- [explicit] user identifies as a beginner skier.\n- [explicit] user intends to check if Expedia offers ski packages that include ski lessons or guided tours.\n- [explicit] user is traveling to Breckenridge.\n- [explicit] user is planning to research moving companies.\n- [explicit] user is interested in learning about regulations or restrictions for moving large furniture or heavy items in Oakwood.\n- [explicit] user is looking for moving companies in the Oakwood area.\n- [explicit] user owns a baby grand piano.\n- [explicit] user has received pre-approval for a mortgage.\n- [explicit] user has been considering purchasing a home for a while.\n- [explicit] user is seeking recommendations for piano movers in the Oakwood, GA area.\n- [explicit] user is planning to move their baby grand piano.\n- [explicit] user is considering asking the movers about using a piano board or a dolly for the move.\n- [explicit] user has narrow stairs at the new home.\n- [explicit] user is concerned about the movers' ability to safely navigate the stairs with the piano.\n- [explicit] user plans to ask movers about the logistics of moving the piano up the stairs.\n- [explicit] user is moving a piano to a new home.\n- [explicit] user is concerned about the logistics of parking a moving truck at their new house.\n- [explicit] user is planning to move to a new house.\n- [explicit] user is looking to improve skills in data analysis.\n- [explicit] user is looking to improve skills in digital marketing.\n- [explicit] user has taken on more responsibilities.\n- [explicit] user is interested in learning about social media advertising.\n- [explicit] user is looking for online courses or resources focused on Facebook Ads and Google Ads.\n- [explicit] user wants to learn data visualization tools, specifically Tableau.\n- [explicit] user has been taking on more responsibilities since May 2023.\n- [explicit] user has been taking courses to improve digital marketing skills.\n- [explicit] user is preparing for a new product launch.\n- [explicit] user has never led a marketing campaign before.\n- [explicit] user was informed of being considered for a promotion in May 2023.\n- [explicit] user has been taking courses to improve data analysis skills.\n- [explicit] user is new to leading a marketing campaign.\n- [explicit] user has been taking courses in data analysis and digital marketing.\n- [explicit] user wants to learn how to create engaging content that resonates with their target audience.\n- [explicit] user is taking courses in digital marketing.\n- [explicit] user is taking courses in data analysis.\n- [explicit] user has been using the Fitbit Charge 3 for 9 months as of September 2, 2023.\n- [explicit] user has been having issues with sleep quality.\n- [explicit] user uses a Fitbit Charge 3 tracker.\n- [explicit] user has been working on creating a sleep-conducive environment.\n- [explicit] user has been working on establishing a consistent bedtime routine.\n- [explicit] user watches TV shows before bed.\n- [explicit] user experiences neck and shoulder tension from looking at screens.\n- [explicit] user has a consistent bedtime routine.\n- [explicit] user has used a Fitbit Charge 3 for 9 months.\n- [explicit] user uses a portable massage roller to relieve stress and tension.\n- [explicit] user enjoys reading.\n- [explicit] user has a sleep-conducive environment.\n- [explicit] user uses a portable massage roller for muscle recovery after workouts.\n- [explicit] user plans to use a massage roller before reading at bedtime.\n- [explicit] user plans to replace watching TV before bed with reading a book.\n- [explicit] user plans to use a massage roller to loosen up neck and shoulder tension before bed.\n- [explicit] user considers Dan Harris to be one of user's favorite authors.\n- [explicit] user believes Dan Harris's book \"10% Happier\" explores the benefits of meditation and mindfulness in a relatable and accessible way.\n- [explicit] user recently read a book about the benefits of intermittent fasting.\n- [explicit] user is trying intermittent fasting to observe its effects on energy levels and overall health.\n- [explicit] user finds that reading about health and wellness before bed inspires user to make healthier choices and try new habits.\n- [explicit] user finds that reading about health and wellness provides user with new ideas and insights to improve daily life.\n- [explicit] user is a fan of non-fiction books, specifically those related to health and wellness.\n- [explicit] user enjoys reading about mindfulness and meditation.\n- [explicit] user finds that reading about nutrition, fitness, and mindfulness helps user relax and unwind.\n- [explicit] user is looking for recommendations for healthy snack options that are easy to prepare and portable.\n- [explicit] user is trying to stay organized and on top of tasks.\n- [explicit] user is looking for project management tool recommendations for a small business.\n- [explicit] user is interested in integrating project management tools with QuickBooks accounting software.\n- [explicit] user uses QuickBooks for the business CreativeSpark Marketing.\n- [explicit] user has focused on setting up a business plan, website, and infrastructure for CreativeSpark Marketing.\n- [explicit] user started the business CreativeSpark Marketing three months prior to 2023-09-02.\n- [explicit] user wants to implement tools to manage projects and clients for CreativeSpark Marketing.\n- [explicit] user is interested in comparing pricing plans and features of Trello and Asana.\n- [explicit] user wants a tool that is easy to learn.\n- [explicit] user wants a tool that can grow with their business.\n- [explicit] user is deciding between Trello and Asana for project management.\n- [explicit] user prioritizes ease of use and scalability in a project management tool.\n- [explicit] user uses QuickBooks for accounting.\n- [explicit] user owns a business named CreativeSpark Marketing.\n- [explicit] user intends to explore the Trello Gold plan.\n- [explicit] user intends to take a closer look at the Asana Premium plan.\n- [explicit] user uses QuickBooks and other unspecified tools.\n- [explicit] user wants to know how to use the QuickBooks Power-Up to create invoices for a client project.\n- [explicit] user wants to explore how the QuickBooks Power-Up can automate workflows.\n- [explicit] user wants to know how to use the QuickBooks Power-Up to track time for a client project.\n- [deductive] user is an entrepreneur.\n- [deductive] user is a small business owner.\n- [deductive] user manages business finances and client projects.\n- [inductive] user is actively evaluating and learning how to leverage specific tool features (like the QuickBooks Power-Up) to automate and streamline their operational workflows.\n- [inductive] user consistently focuses on integrating and optimizing business management software for their new business, CreativeSpark Marketing, prioritizing scalability and ease of use.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 142.9,
+  "total": 145.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

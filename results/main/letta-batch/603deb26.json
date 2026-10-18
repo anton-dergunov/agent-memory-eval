@@ -1,0 +1,108 @@
+{
+ "qid": "603deb26",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+ "reference": "10",
+ "question_date": "2023-12-05 02:37",
+ "sessions": [
+  {
+   "id": "37f66729",
+   "date": "2023-08-04 04:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_1",
+   "date": "2023-08-11 17:11",
+   "evidence": true
+  },
+  {
+   "id": "58e5adf2",
+   "date": "2023-08-12 03:22",
+   "evidence": false
+  },
+  {
+   "id": "feb5f98a_2",
+   "date": "2023-08-16 06:11",
+   "evidence": false
+  },
+  {
+   "id": "5e867c2f_2",
+   "date": "2023-08-27 17:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_69476",
+   "date": "2023-09-23 08:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_408354",
+   "date": "2023-10-01 22:47",
+   "evidence": false
+  },
+  {
+   "id": "d05d6391_3",
+   "date": "2023-10-22 11:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_etklNfN_11",
+   "date": "2023-11-23 23:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_2",
+   "date": "2023-11-30 01:59",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nThe user is a cocktail enthusiast who enjoys experimenting with gin, specifically Hendrick's, and has practiced making a Negroni 10 times since being taught by their friend Emma. They have recently hosted a dinner party where they served a Cranberry Sparkler.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-17T15:40:57.289134+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-05 02:37] How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?'}, {'timestamp': '2026-10-17T15:40:55.258852+00:00', 'time_ago': '4s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"It's been so wonderful catching up on your cocktail journey! You've clearly developed quite a passion for crafting the perfect drink, and it sounds like your friend Emma set you on a great path—especially with that commitment to perfecting your Negroni.\\n\\nSince you're clearly building a fantastic repertoire, I've updated my notes about you so I can keep track of your progress and preferences.\\n\\nAre you leaning more toward a citrus-forward, botanical, or spirit-forward direction for your next experiment after the Bee's Knees? I'm curious to hear how that homemade honey syrup turns out!\"}, {'timestamp': '2026-10-17T15:40:53.436236+00:00', 'time_ago': '6s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"\\n\\nAnd I just want to note that it's impressive that you've practiced the Negroni 10 times – dedication makes for the perfect cocktail! Consistency is key to mastering the classic cocktails!\\n\\n\"}]}",
+ "answer": "You have practiced making a Negroni 10 times since your friend Emma taught you how to make it! It's impressive to see that kind of dedication to mastering a classic cocktail.",
+ "dump": "<human>\n\nThe user is a cocktail enthusiast who enjoys experimenting with gin, specifically Hendrick's, and has practiced making a Negroni 10 times since being taught by their friend Emma. They have recently hosted a dinner party where they served a Cranberry Sparkler.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Negroni Emma\"})",
+   "conversation_search({\"query\": \"Negroni\"})"
+  ],
+  "blocks_chars": 459
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 36.2,
+  "total": 42.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

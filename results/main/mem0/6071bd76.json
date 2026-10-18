@@ -1,0 +1,88 @@
+{
+ "qid": "6071bd76",
+ "arm": "mem0",
+ "split": "main",
+ "question": "For the coffee-to-water ratio in my French press, did I switch to more water per tablespoon of coffee, or less?",
+ "reference": "You switched to less water (5 ounces) per tablespoon of coffee.",
+ "question_date": "2023-07-30 05:53",
+ "sessions": [
+  {
+   "id": "2c5bc8fd_3",
+   "date": "2023-02-06 22:36",
+   "evidence": false
+  },
+  {
+   "id": "answer_4dac77cb_1",
+   "date": "2023-02-11 11:41",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_56513",
+   "date": "2023-03-14 06:56",
+   "evidence": false
+  },
+  {
+   "id": "answer_4dac77cb_2",
+   "date": "2023-06-30 13:14",
+   "evidence": true
+  },
+  {
+   "id": "fad170b7",
+   "date": "2023-07-04 09:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_224160",
+   "date": "2023-07-11 18:36",
+   "evidence": false
+  },
+  {
+   "id": "f19f8b39_1",
+   "date": "2023-07-17 00:45",
+   "evidence": false
+  },
+  {
+   "id": "4e8b74ca_1",
+   "date": "2023-07-17 16:38",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_574656",
+   "date": "2023-07-25 02:22",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_334948",
+   "date": "2023-07-28 15:41",
+   "evidence": false
+  }
+ ],
+ "context": "- User is experimenting with a French press and has determined that a ratio of 1 tablespoon of coffee to 6 ounces of water is their preferred brewing ratio. (from a chat on 2023-02-11)\n- User has refined their French press brewing ratio to 1 tablespoon of coffee for every 5 ounces of water. (from a chat on 2023-06-30)\n- User was provided with a step-by-step guide for cleaning a French press, including soaking in hot soapy water or a water-vinegar mixture to remove coffee oils. (from a chat on 2023-06-30)\n- User plans to use their new coffee subscription beans in their French press to experiment with citrus-infused flavors. (from a chat on 2023-02-11)\n- User was recommended coffee subscription services including Blue Bottle Coffee, Intelligentsia Coffee, La Colombe Coffee, Angels' Cup, and Bean Box. (from a chat on 2023-02-11)\n- User decided to try Kenyan coffee for their citrus-infused coffee experiments. (from a chat on 2023-02-11)\n- User decided to pair Earl Grey tea with their citrus-infused coffee. (from a chat on 2023-02-11)\n- User was provided with tips for storing coffee beans: use an airtight container, store in a cool dark place at room temperature, use within 2 weeks, or freeze for up to 3-6 months, and grind just before brewing. (from a chat on 2023-02-11)\n- User signed up for a coffee subscription service in January 2023 and received their first shipment of beans on February 10, 2023. (from a chat on 2023-02-11)\n- User is interested in pairing coffee with citrus notes and was recommended Kenyan, Ethiopian Yirgacheffe, Colombian Gesha, Guatemalan Antigua, and Rwanda Bourbon beans. (from a chat on 2023-02-11)\n- User was recommended Earl Grey, Green Tea with Lemon Myrtle, White Peony, Genmaicha, and Lady Grey teas as pairings for citrus-infused coffee. (from a chat on 2023-02-11)\n- User plans to organize their tea cabinet and is considering joining a tea subscription service, specifically looking into Adagio Teas and The Tea Spot. (from a chat on 2023-06-30)\n- User was provided with new customer discount codes for Adagio Teas (WELCOME10, TEA20) and The Tea Spot (TEA15). (from a chat on 2023-06-30)\n- User was provided with a recipe for Creamy Tomato Basil Soup, featuring olive oil, garlic, onion, crushed tomatoes, vegetable broth, heavy cream, fresh basil, salt, and pepper. (from a chat on 2023-03-14)\n- User is planning to try a rose tea introduced by their sister and was recommended pairing it with shortbread cookies, fresh fruit, vanilla or lemon cakes, or chocolate truffles. (from a chat on 2023-06-30)\n- User was provided with a recipe for Chocolate Banana Ice Cream, featuring frozen bananas, unsweetened cocoa powder, honey or maple syrup, vanilla extract, salt, and milk. (from a chat on 2023-03-14)\n- User was provided with a recipe for Classic Spaghetti Carbonara, featuring spaghetti, thick-cut bacon, Parmesan cheese, eggs, olive oil, salt, and pepper. (from a chat on 2023-03-14)\n- User was provided with a 10-step guide for storing tea leaves, emphasizing the use of airtight, dark containers in a cool, dry place away from strong odors. (from a chat on 2023-06-30)\n- User is planning to get several clothing items altered, specifically a silk blouse that is too loose, trousers that are too long, and a leather jacket that is too snug. (from a chat on 2023-07-17)\n- User is interested in relaxing teas similar to chamomile and was recommended lavender, tulsi, rooibos, passionflower, and valerian root teas. (from a chat on 2023-06-30)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   On 2023-02-11, the user's preferred French press ratio was 1 tablespoon of coffee to 6 ounces of water.\n*   On 2023-06-30, the user refined their French press ratio to 1 tablespoon of coffee to 5 ounces of water.\n\n**2. Reason over the information:**\n*   In the first ratio (1:6), there were 6 ounces of water for every tablespoon of coffee.\n*   In the second ratio (1:5), there are 5 ounces of water for every tablespoon of coffee.\n*   Comparing the two, 5 ounces is less than 6 ounces.\n\n**Conclusion:**\nYou switched to **less** water per tablespoon of coffee.",
+ "dump": "- User plans to use their new coffee subscription beans in their French press to experiment with citrus-infused flavors. (session 2023-02-11)\n- User is planning to try a rose tea introduced by their sister and was recommended pairing it with shortbread cookies, fresh fruit, vanilla or lemon cakes, or chocolate truffles. (session 2023-06-30)\n- User is taking cooking classes with their mother and is planning a family dinner for the weekend of February 11-12, 2023. (session 2023-02-06)\n- User is interested in the influence of the political climate in Catalonia on its literature and music, specifically regarding themes of identity, nationalism, and the struggle for independence. (session 2023-07-28)\n- User is planning a dinner party for the weekend of July 8-9, 2023, and intends to serve Japchae, Bulgogi, and grilled steak as an appetizer. (session 2023-07-04)\n- User decided to prepare Korean-Style BBQ Beef Tacos for their family dinner, paired with Cilantro Lime Rice and Quick-Pickled Carrots. (session 2023-02-06)\n- User was provided with a 10-step guide for decluttering and organizing a closet, including sorting items, categorizing by type and color, using storage containers, and implementing a 'one in, one out' policy. (session 2023-07-17)\n- User was provided with a step-by-step guide for cleaning a French press, including soaking in hot soapy water or a water-vinegar mixture to remove coffee oils. (session 2023-06-30)\n- User decided to make Tteok (Korean rice cakes with honey and sesame seeds) as a dessert for their upcoming dinner party. (session 2023-07-04)\n- User is planning to gift Rachel's bridesmaids wine glass pendants, customized picture frames featuring photos from the wedding, and personalized notes, all presented in dark-stained wooden boxes. (session 2023-07-17)\n- User was provided with new customer discount codes for Adagio Teas (WELCOME10, TEA20) and The Tea Spot (TEA15). (session 2023-06-30)\n- User is interested in exploring poetry and was recommended works by Hafez, Rumi, Khalil Gibran, Mahmoud Darwish, and Nizar Qabbani to get started. (session 2023-07-11)\n- User was provided with specific advice for altering a silk blouse, trousers, and a leather jacket, including the importance of bringing reference images and trying on garments during the process. (session 2023-07-17)\n- User is planning to declutter and organize their closet and donate old bags they no longer use. (session 2023-07-17)\n- User was recommended several games for a family game night, including Ticket to Ride, Scattergories, Pictionary, Cranium, and Charades. (session 2023-02-06)\n- User is interested in meeting new, positive people and was recommended attending community events, joining clubs or groups, volunteering, taking classes, and attending networking events. (session 2023-07-25)\n- User was recommended several Korean dishes for their dinner party, including Bibimbap, Jeyuk bokkeum, Japchae, Bulgogi, Kimchi Stew, Galbi, Tteokbokki, and Doenjang Jjigae. (session 2023-07-04)\n- User was advised on long-term strategies for maintaining positive thinking, including daily gratitude, surrounding oneself with positive people, maintaining self-care routines, challenging negative thoughts, setting goals, and practicing mindfulness. (session 2023-07-25)\n- User's niece is interested in cooking and baking, and the user plans to gift her 'The Complete Cookbook for Young Chefs' by America's Test Kitchen. (session 2023-02-06)\n- User plans to create a DIY face mask using honey and avocado as key ingredients for their skin. (session 2023-07-25)\n- User was suggested activities for family game night such as a karaoke contest, movie night, cooking/baking challenge, scavenger hunt, and 'Would You Rather'. (session 2023-02-06)\n- User is interested in improving their cooking skills and plans to explore Rouxbe for virtual cooking classes. (session 2023-03-14)\n- User was recommended the novel 'Patria' by Fernando Aramburu as a work that offers a complex, multi-perspective view on nationalism and separatism in Spain, relevant to the themes of the Catalan political situation. (session 2023-07-28)\n- User is planning to get several clothing items altered, specifically a silk blouse that is too loose, trousers that are too long, and a leather jacket that is too snug. (session 2023-07-17)\n- User was recommended the novel 'On The Line' by Joseph Piqué for its nuanced exploration of national identity and loyalty within a Catalan family. (session 2023-07-28)\n- User was provided with a 10-step guide for storing tea leaves, emphasizing the use of airtight, dark containers in a cool, dry place away from strong odors. (session 2023-06-30)\n- User recently attended their cousin Rachel's wedding at a vineyard, where Rachel wore a lace mermaid gown. (session 2023-07-17)\n- User has recently discovered the depth and umami flavor that shiitake and oyster mushrooms add to their cooking. (session 2023-07-04)\n- User is interested in relaxing teas similar to chamomile and was recommended lavender, tulsi, rooibos, passionflower, and valerian root teas. (session 2023-06-30)\n- User is experimenting with a French press and has determined that a ratio of 1 tablespoon of coffee to 6 ounces of water is their preferred brewing ratio. (session 2023-02-11)\n- User was provided with tips for overcoming negative thinking, including identifying negative thoughts, reframing them, practicing mindfulness, focusing on gratitude, challenging cognitive distortions, and building a support system. (session 2023-07-25)\n- User was provided with tips for choosing a tailor, including asking for referrals, checking online reviews, verifying experience with specific fabrics, reviewing portfolios, and discussing communication and turnaround times. (session 2023-07-17)\n- User was provided with a list of skin-friendly ingredients for DIY face masks: honey (antibacterial/moisturizing), avocado (moisturizing/anti-inflammatory), yogurt (exfoliating), green tea (antioxidant), turmeric (anti-inflammatory), and oatmeal (soothing). (session 2023-07-25)\n- User recently returned from a trip to Paris and purchased several vintage items from a store on the Champs-Élysées, including a black turtleneck sweater, distressed denim jeans, and a high-waisted floral skirt. (session 2023-07-17)\n- User was recommended Earl Grey, Green Tea with Lemon Myrtle, White Peony, Genmaicha, and Lady Grey teas as pairings for citrus-infused coffee. (session 2023-02-11)\n- User was recommended fun self-care activities such as mindful coloring, taking bubble baths, DIY spa days, journaling, and walking in nature. (session 2023-07-25)\n- User enjoys cooking Indian curries and making pasta from scratch, noting the significant difference in flavor and texture compared to store-bought pasta. (session 2023-07-04)\n- User decided to pair Earl Grey tea with their citrus-infused coffee. (session 2023-02-11)\n- User decided to try Kenyan coffee for their citrus-infused coffee experiments. (session 2023-02-11)\n- User was recommended coffee subscription services including Blue Bottle Coffee, Intelligentsia Coffee, La Colombe Coffee, Angels' Cup, and Bean Box. (session 2023-02-11)\n- User has been taking cooking classes for three months, which was inspired by their desire to host impressive dinner parties and explore new flavors. (session 2023-07-04)\n- User was provided with a recipe for Creamy Tomato Basil Soup, featuring olive oil, garlic, onion, crushed tomatoes, vegetable broth, heavy cream, fresh basil, salt, and pepper. (session 2023-03-14)\n- User recently hosted a low-key birthday celebration for their father at home with cake and dinner. (session 2023-02-06)\n- User was provided with tips for storing coffee beans: use an airtight container, store in a cool dark place at room temperature, use within 2 weeks, or freeze for up to 3-6 months, and grind just before brewing. (session 2023-02-11)\n- User signed up for a coffee subscription service in January 2023 and received their first shipment of beans on February 10, 2023. (session 2023-02-11)\n- User was provided with a recipe for Chocolate Banana Ice Cream, featuring frozen bananas, unsweetened cocoa powder, honey or maple syrup, vanilla extract, salt, and milk. (session 2023-03-14)\n- User is actively working on improving their mental wellbeing by incorporating mindfulness, gratitude, physical exercise, and self-care into their daily routine to combat negative thinking patterns. (session 2023-07-25)\n- User has refined their French press brewing ratio to 1 tablespoon of coffee for every 5 ounces of water. (session 2023-06-30)\n- User was recommended the music of Marina Rossell for her poetic and nuanced approach to Catalan identity and politics, and the multimedia art of Francesc Torres for his exploration of history, memory, and identity. (session 2023-07-28)\n- User was provided with a 9-step guide for grilling the perfect steak, including tips on selecting cuts with marbling, bringing meat to room temperature, searing, and resting. (session 2023-07-04)\n- User was provided with a recipe for Classic Spaghetti Carbonara, featuring spaghetti, thick-cut bacon, Parmesan cheese, eggs, olive oil, salt, and pepper. (session 2023-03-14)\n- User is interested in pairing coffee with citrus notes and was recommended Kenyan, Ethiopian Yirgacheffe, Colombian Gesha, Guatemalan Antigua, and Rwanda Bourbon beans. (session 2023-02-11)\n- User plans to organize their tea cabinet and is considering joining a tea subscription service, specifically looking into Adagio Teas and The Tea Spot. (session 2023-06-30)\n- User is looking for inspiration for a belated wedding congratulations card for their friend Emily. (session 2023-07-17)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 54,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 32.7,
+  "total": 34.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

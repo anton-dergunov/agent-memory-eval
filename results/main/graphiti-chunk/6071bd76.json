@@ -1,0 +1,90 @@
+{
+ "qid": "6071bd76",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "For the coffee-to-water ratio in my French press, did I switch to more water per tablespoon of coffee, or less?",
+ "reference": "You switched to less water (5 ounces) per tablespoon of coffee.",
+ "question_date": "2023-07-30 05:53",
+ "sessions": [
+  {
+   "id": "2c5bc8fd_3",
+   "date": "2023-02-06 22:36",
+   "evidence": false
+  },
+  {
+   "id": "answer_4dac77cb_1",
+   "date": "2023-02-11 11:41",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_56513",
+   "date": "2023-03-14 06:56",
+   "evidence": false
+  },
+  {
+   "id": "answer_4dac77cb_2",
+   "date": "2023-06-30 13:14",
+   "evidence": true
+  },
+  {
+   "id": "fad170b7",
+   "date": "2023-07-04 09:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_224160",
+   "date": "2023-07-11 18:36",
+   "evidence": false
+  },
+  {
+   "id": "f19f8b39_1",
+   "date": "2023-07-17 00:45",
+   "evidence": false
+  },
+  {
+   "id": "4e8b74ca_1",
+   "date": "2023-07-17 16:38",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_574656",
+   "date": "2023-07-25 02:22",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_334948",
+   "date": "2023-07-28 15:41",
+   "evidence": false
+  }
+ ],
+ "context": "- The user brews coffee using a French press with a ratio of 1 tablespoon of coffee to every 5 ounces of water. (valid since 2023-06-30)\n- The user plans to use new coffee beans in their French press. (valid since 2023-02-11)\n- The user brews coffee using a French press. (valid since 2023-02-11)\n- The user wants to clean their French press to remove old coffee oils. (valid since 2023-06-30)\n- user cleans the French press by rinsing with hot water, soaking in hot soapy water or a vinegar mixture, scrubbing with a soft brush, and optionally sanitizing with a bleach solution. (valid since 2023-06-30)\n- The user's niece is interested in cooking and baking, leading the user to consider buying her a cookbook for kids. (valid since 2023-02-06)\n- The assistant provides recommendations for ingredients to use in a DIY face mask to benefit the skin (valid since 2023-07-25)\n- user's sister introduced rose tea to the user. (valid since 2023-06-30)\n- The assistant recommends a recipe for Creamy Tomato Basil Soup that serves with croutons or bread. (valid since 2023-03-14)\n- The user is considering buying a cookbook for kids for their niece who has been interested in cooking and baking. (valid since 2023-02-06)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The current coffee-to-water ratio for the French press is 1 tablespoon of coffee to every 5 ounces of water (valid since 2023-06-30).\n*   There is no information provided in the history regarding a previous ratio to compare against.\n\n**2. Reason over the information:**\n*   While the history confirms the current ratio (1 tbsp per 5 oz), it does not contain any record of a prior ratio used by the user. \n*   Because there is no baseline or previous ratio mentioned in the provided facts, it is impossible to determine if the amount of water per tablespoon of coffee has increased or decreased.\n\n**Conclusion:**\nBased on the provided history, it is not possible to answer whether you switched to more or less water, as there is no record of your previous coffee-to-water ratio.",
+ "dump": "- The user is considering buying a cookbook for kids for their niece who has been interested in cooking and baking. (valid since 2023-02-06)\n- The user's niece is interested in cooking and baking, leading the user to consider buying her a cookbook for kids. (valid since 2023-02-06)\n- The assistant recommends the board game Ticket to Ride for a family game night. (valid since 2023-02-06)\n- The assistant suggests playing Scattergories during a family game night. (valid since 2023-02-06)\n- The assistant recommends Pictionary as a fun game for family members of different ages. (valid since 2023-02-06)\n- The assistant suggests the board game Cranium for families to play together. (valid since 2023-02-06)\n- The assistant recommends Charades as an easy-to-play acting game for family game night. (valid since 2023-02-06)\n- The user plans to use new coffee beans in their French press. (valid since 2023-02-11)\n- The user brews coffee using a French press. (valid since 2023-02-11)\n- The assistant recommends a recipe for Creamy Tomato Basil Soup that serves with croutons or bread. (valid since 2023-03-14)\n- The assistant recommends a healthy and delicious recipe for Chocolate Banana Ice Cream. (valid since 2023-03-14)\n- The user brews coffee using a French press with a ratio of 1 tablespoon of coffee to every 5 ounces of water. (valid since 2023-06-30)\n- The user wants to clean their French press to remove old coffee oils. (valid since 2023-06-30)\n- user cleans the French press by rinsing with hot water, soaking in hot soapy water or a vinegar mixture, scrubbing with a soft brush, and optionally sanitizing with a bleach solution. (valid since 2023-06-30)\n- user's sister introduced rose tea to the user. (valid since 2023-06-30)\n- rose tea pairs well with shortbread cookies due to their floral harmony, contrasting textures, and balanced sweetness. (valid since 2023-06-30)\n- The user is planning to host a Korean dinner party next weekend. (valid since 2023-07-04)\n- The Korean dinner party will feature Japchae as a dish. (valid since 2023-07-04)\n- The Korean dinner party will feature Bulgogi as a dish. (valid since 2023-07-04)\n- Indian cuisine includes Indian flatbreads like naan and roti. (valid since 2023-07-04)\n- Naan is a type of Indian flatbread. (valid since 2023-07-04)\n- Roti is a type of Indian flatbread. (valid since 2023-07-04)\n- Khalil Gibran wrote the famous work The Prophet, which has been translated into over 50 languages. (valid since 2023-07-11)\n- The user considers a wine glass pendant as a gift for Rachel's bridesmaids. (valid since 2023-07-17)\n- The user considers a customized picture frame featuring a photo of Rachel and Rachel's bridesmaids as an addition to the gift. (valid since 2023-07-17)\n- The customized picture frame would feature a photo of Rachel and Rachel's bridesmaids from the wedding day. (valid since 2023-07-17)\n- The wine glass pendant is presented inside a wooden box with a rich, dark stain. (valid since 2023-07-17)\n- The customized picture frame is presented inside a wooden box with a rich, dark stain. (valid since 2023-07-17)\n- The customized picture frame would feature a photo of Rachel and Rachel's bridesmaids from the wedding day. (valid since 2023-07-17)\n- user asks assistant for advice on how to declutter and organize a closet. (valid since 2023-07-17)\n- The assistant provides recommendations for ingredients to use in a DIY face mask to benefit the skin (valid since 2023-07-25)\n- Honey is an ingredient recommended for a DIY face mask. (valid since 2023-07-25)\n- Avocado is an ingredient recommended for a DIY face mask. (valid since 2023-07-25)\n- Yogurt is an ingredient recommended for a DIY face mask. (valid since 2023-07-25)\n- Green tea is an ingredient recommended for a DIY face mask. (valid since 2023-07-25)\n- Turmeric is an ingredient recommended for a DIY face mask. (valid since 2023-07-25)\n- Oatmeal is an ingredient recommended for a DIY face mask. (valid since 2023-07-25)\n- The user can use Meetup.com to find groups and clubs to meet new people. (valid since 2023-07-25)\n- Fernando Aramburu is the author of the novel Patria. (valid since 2023-07-28)\n- The novel Patria is set in the Basque region of Spain. (valid since 2023-07-28)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 40,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 120.0,
+  "total": 121.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

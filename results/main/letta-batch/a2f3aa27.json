@@ -1,0 +1,103 @@
+{
+ "qid": "a2f3aa27",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many followers do I have on Instagram now?",
+ "reference": 1300,
+ "question_date": "2023-06-15 23:26",
+ "sessions": [
+  {
+   "id": "ultrachat_59277",
+   "date": "2023-05-04 10:47",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_181699",
+   "date": "2023-05-25 03:46",
+   "evidence": false
+  },
+  {
+   "id": "b4f28f96_1",
+   "date": "2023-05-25 04:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_5126c02d_1",
+   "date": "2023-05-25 05:26",
+   "evidence": true
+  },
+  {
+   "id": "answer_5126c02d_2",
+   "date": "2023-05-25 09:28",
+   "evidence": true
+  },
+  {
+   "id": "b65f51fb_5",
+   "date": "2023-05-25 15:40",
+   "evidence": false
+  },
+  {
+   "id": "98c6946f_1",
+   "date": "2023-05-25 15:56",
+   "evidence": false
+  },
+  {
+   "id": "57bf4122_1",
+   "date": "2023-05-25 19:24",
+   "evidence": false
+  },
+  {
+   "id": "39709ef6_2",
+   "date": "2023-06-05 22:13",
+   "evidence": false
+  },
+  {
+   "id": "74ef19f0_1",
+   "date": "2023-06-08 20:21",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\nThe user is tech-savvy and interested in setting up a home audio system, specifically a Sonos Beam with a wireless subwoofer for their medium-sized room. They enjoy finding good deals and are actively researching the capabilities of the Sonos ecosystem, including app control, TV integration, and sound customization.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "I don't have direct access to your live Instagram account, so I can't check your current follower count for you. \n\nI checked our past conversations to see if you had mentioned it previously, but nothing came up. If you'd like to share how many you have, or if there's anything else I can help you with regarding your home audio setup, just let me know!",
+ "dump": "<human>\nThe user is tech-savvy and interested in setting up a home audio system, specifically a Sonos Beam with a wireless subwoofer for their medium-sized room. They enjoy finding good deals and are actively researching the capabilities of the Sonos ecosystem, including app control, TV integration, and sound customization.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Instagram followers count\"})"
+  ],
+  "blocks_chars": 516
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 31.7,
+  "total": 37.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

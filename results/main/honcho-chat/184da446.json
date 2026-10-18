@@ -1,0 +1,96 @@
+{
+ "qid": "184da446",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+ "reference": "220",
+ "question_date": "2023-06-17 04:02",
+ "sessions": [
+  {
+   "id": "answer_e2f4f947_1",
+   "date": "2023-05-20 21:24",
+   "evidence": true
+  },
+  {
+   "id": "82a89303",
+   "date": "2023-05-20 21:43",
+   "evidence": false
+  },
+  {
+   "id": "e5f08e40",
+   "date": "2023-05-21 06:32",
+   "evidence": false
+  },
+  {
+   "id": "67d1de46_2",
+   "date": "2023-05-23 08:55",
+   "evidence": false
+  },
+  {
+   "id": "ae56bcf1_1",
+   "date": "2023-05-23 19:18",
+   "evidence": false
+  },
+  {
+   "id": "928eb5fe_2",
+   "date": "2023-05-25 19:08",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84199",
+   "date": "2023-05-28 11:59",
+   "evidence": false
+  },
+  {
+   "id": "d3110bd5_2",
+   "date": "2023-05-28 23:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_e2f4f947_2",
+   "date": "2023-05-29 09:12",
+   "evidence": true
+  },
+  {
+   "id": "59115228",
+   "date": "2023-05-29 11:49",
+   "evidence": false
+  }
+ ],
+ "context": "Based on the information in your memory, you have read 220 pages of *A Short History of Nearly Everything*. This was most recently noted on May 29, 2023.",
+ "answer": "**Step 1: Extract relevant information**\n*   According to the history chats, you have read 220 pages of *A Short History of Nearly Everything*.\n*   This information was recorded on May 29, 2023.\n*   There is no subsequent information provided indicating that you have read any additional pages between May 29, 2023, and the current date (June 17, 2023).\n\n**Step 2: Reason over the information**\n*   Since the last recorded update states you have read 220 pages and no further progress has been logged, the total number of pages read remains 220.\n\n**Answer:**\nYou have read 220 pages of *A Short History of Nearly Everything* so far.",
+ "dump": "- [explicit] user is interested in the current state of artificial intelligence in the field of medical diagnosis.\n- [explicit] user is on page 220 of 'A Short History of Nearly Everything' as of 2023-05-29.\n- [explicit] user is interested in learning about renewable energy.\n- [explicit] user is currently taking a Coursera course on machine learning.\n- [explicit] user is interested in the potential of AI in medical diagnosis.\n- [explicit] user has been listening to a podcast called \"The Science Hour\" about AI-powered medical diagnosis.\n- [explicit] user is interested in learning about AI-powered diagnosis of rare diseases.\n- [explicit] user is currently on page 220 of \"A Short History of Nearly Everything\".\n- [explicit] user has finished reading about the discovery of the DNA structure in \"A Short History of Nearly Everything\".\n- [explicit] user is interested in how AI can help diagnose rare genetic disorders.\n- [explicit] user is reading the book \"A Short History of Nearly Everything\".\n- [explicit] user believes that the lack of interpretability and explainability in complex AI models makes it challenging for clinicians to trust their diagnostic results.\n- [explicit] user believes that high-quality, standardized, annotated, and curated data is essential for training effective AI models.\n- [explicit] user proposes that data sharing and collaboration between researchers, clinicians, and patients is necessary to address challenges in AI diagnosis of rare diseases.\n- [explicit] user believes that limited data makes it difficult to develop accurate AI models for diagnosing rare diseases.\n- [explicit] user believes that AI diagnostic models need to be transparent and explainable for clinicians.\n- [explicit] user believes that a major challenge in applying AI to rare disease diagnosis is the lack of available data.\n- [explicit] user identifies data bias, algorithmic fairness, and lack of representation as issues that need to be addressed in AI development.\n- [explicit] user believes that AI systems must be designed and deployed to be equitable, transparent, and fair.\n- [explicit] user believes that AI has the potential to democratize access to healthcare for patients with rare diseases.\n- [explicit] user believes AI can reduce healthcare disparities by providing personalized treatment plans.\n- [explicit] user believes AI-powered diagnostic tools can be deployed in remote or underserved areas to provide access to high-quality diagnostic capabilities.\n- [explicit] user believes AI can enable remote monitoring and telemedicine to allow patients to receive care at home.\n- [explicit] user is reading the book \"A Short History of Nearly Everything\".\n- [explicit] user is on page 200 of \"A Short History of Nearly Everything\" as of May 20, 2023.\n- [explicit] user wants to find online resources or research papers on the use of AI for medical image analysis.\n- [explicit] user is interested in learning about the applications of AI in medical imaging.\n- [explicit] user is interested in learning about AI-powered medical diagnosis.\n- [explicit] user is interested in AI-powered diagnosis systems that use natural language processing for clinical decision support.\n- [explicit] user is interested in the role of AI in medical diagnosis beyond medical imaging.\n- [explicit] user is interested in learning about AI-powered healthcare management.\n- [explicit] user is interested in learning about applications of AI in healthcare beyond diagnosis.\n- [explicit] user is interested in learning about AI-powered patient engagement.\n- [explicit] user is interested in learning about AI-powered personalized medicine.\n- [explicit] user is interested in AI-powered diagnosis systems.\n- [explicit] user is on page 200 of \"A Short History of Nearly Everything\".\n- [explicit] user wants to learn more about the current state of AI in healthcare.\n- [explicit] user is interested in clinical decision support systems that use machine learning and natural language processing.\n- [explicit] user rearranged their kitchen spice cabinet on May 14, 2023.\n- [explicit] user intends to restock oregano and basil.\n- [explicit] user is seeking methods for organizing spices in a kitchen cabinet.\n- [explicit] user plans to make Greek Stuffed Chicken Breasts during the weekend of May 20-21, 2023.\n- [explicit] user is planning meals for the week.\n- [explicit] user needs to replace a non-stick frying pan\n- [explicit] user has been putting off replacing a non-stick frying pan for a long time\n- [explicit] user intends to purchase an All-Clad Non-Stick Frying Pan.\n- [explicit] user owns an Instant Pot.\n- [explicit] user is happy with their Instant Pot.\n- [explicit] user cooked chili in their Instant Pot on the weekend of May 13-14, 2023.\n- [explicit] user is interested in finding recipes for the Slow Cook mode on an Instant Pot.\n- [explicit] user made quinoa and steamed vegetables in an Instant Pot on May 16, 2023.\n- [explicit] user has previously used the Saute function on an Instant Pot.\n- [explicit] user intends to try making yogurt in an Instant Pot during the weekend of May 20, 2023.\n- [explicit] user uses the Saute function on an Instant Pot for cooking vegetables before pressure cooking.\n- [explicit] user uses the Saute function on an Instant Pot for browning meat.\n- [explicit] user has not yet used the Slow Cook mode on an Instant Pot.\n- [explicit] user struggles with feelings of anxiety.\n- [explicit] user seeks inspiration for daily devotions.\n- [explicit] user participates in a Bible study group.\n- [explicit] user has been meaning to establish a daily prayer routine.\n- [explicit] user is seeking a recommendation for a daily devotional or prayer guide to help them maintain a daily prayer routine.\n- [explicit] user is interested in exploring the rosary prayer.\n- [explicit] user wants to incorporate the rosary into a daily prayer routine.\n- [explicit] user wants to know more about the rosary.\n- [explicit] user identifies habit formation as a way to make the rosary a source of comfort.\n- [explicit] user recommends starting with one decade of the rosary per day.\n- [explicit] user provides a revised version of instructions for incorporating the rosary into a daily prayer routine.\n- [explicit] user recommends choosing a consistent time for daily rosary prayer.\n- [explicit] user recommends using a rosary guide or app for reflections, prayers, and meditations.\n- [explicit] user has a question about the differences between types of rosaries, specifically the Dominican rosary and the Franciscan rosary.\n- [explicit] user expressed interest in using Evernote.\n- [explicit] user is trying to get more organized with their daily routine.\n- [explicit] user recently adjusted their wake-up time to 6:30 am.\n- [explicit] user has a 30-minute morning routine that includes meditation and planning out their day.\n- [explicit] user expressed interest in using Todoist.\n- [explicit] user is interested in exploring a consistent bedtime routine.\n- [explicit] user is seeking suggestions for relaxing activities to perform before bed to wind down.\n- [explicit] user is trying to establish a consistent bedtime of 10:30 PM.\n- [explicit] user aims to get at least 7-8 hours of sleep per night.\n- [explicit] user has a new wake-up time of 6:30 AM.\n- [explicit] user intends to incorporate reading into their bedtime routine.\n- [explicit] user has a wake-up time of 6:30 AM.\n- [explicit] user plans to adopt a new wake-up time of 6:30 AM.\n- [explicit] user intends to incorporate reading and journaling into their bedtime routine.\n- [explicit] user plans to adjust their bedtime by 15-minute increments every few days.\n- [explicit] user obtained a Korean-style BBQ sauce recipe from a Facebook group.\n- [explicit] user is planning to host a backyard barbecue.\n- [explicit] user describes ribs grilled by Alex as delicious.\n- [explicit] user ate ribs grilled by a friend named Alex on the weekend of May 20-21, 2023.\n- [explicit] user is looking for new ideas for barbecue sauces.\n- [explicit] user has had trouble in the past with undercooking or overcooking burgers.\n- [explicit] user is a member of a Facebook group.\n- [explicit] user uses the Korean-style BBQ sauce on ribs and grilled vegetables.\n- [explicit] user finds the Korean-style BBQ sauce recipe to be a hit with family.\n- [explicit] user has been experimenting with different types of charcoal.\n- [explicit] user is interested in low and slow cooking, such as for ribs.\n- [explicit] user is interested in making homemade BBQ sauce.\n- [explicit] user has attempted to make BBQ sauce using a combination of ketchup, brown sugar, apple cider vinegar, and spices.\n- [explicit] user is not satisfied with the results of the homemade BBQ sauce recipes they have tried.\n- [explicit] user is experimenting with ingredients to make BBQ sauce.\n- [explicit] user ate multiple helpings of ribs at a backyard barbecue hosted by a friend named Alex during the weekend of May 20-21, 2023.\n- [explicit] user is planning to go to brunch with a friend named Emily.\n- [explicit] user states that Emily is a big fan of avocado toast.\n- [explicit] user is asking for information about gochugaru and its spice level.\n- [explicit] user participated in a gaming session at David's place on 2023-05-25.\n- [explicit] user is interested in trying new and different brunch spots.\n- [explicit] user expresses interest in Korean-Style Avocado Toast.\n- [explicit] user intends to ask Emily about her coffee preferences.\n- [explicit] user intends to ask Emily for her opinion on Korean-Style Avocado Toast.\n- [explicit] user plans to study for certification exams with Alex.\n- [explicit] user is interested in learning about optimal daily protein consumption for muscle growth.\n- [explicit] user is interested in comparing the effectiveness of protein supplements versus whole foods for muscle growth during weightlifting.\n- [explicit] user is interested in learning whether excessive protein intake is harmful to muscle growth.\n- [explicit] user is participating in a weightlifting program.\n- [explicit] user has used Google Maps before.\n- [explicit] user intends to use Google Maps to plan their route.\n- [explicit] user has been walking to their destination around 8:45 AM due to bus delays.\n- [explicit] user has been experiencing crashes with the user's bus app.\n- [explicit] user usually takes the bus for their daily commute.\n- [explicit] user has a recurring meeting at 9 AM on Wednesdays.\n- [explicit] user has considered taking the train on Wednesdays for their commute to ensure they arrive on time for their 9 AM meeting.\n- [explicit] user considers the train to be more reliable than the bus.\n- [explicit] user has a daily commute.\n- [explicit] user is planning to host a painting party.\n- [explicit] user selected the galaxy night sky as the theme for the painting party.\n- [explicit] user has experience with layering and blending painting techniques.\n- [explicit] user is enjoying the painting classes they have been taking for three weeks.\n- [explicit] user has been taking painting classes for three weeks.\n- [explicit] user has decided to have painting party guests start their galaxy background from scratch.\n- [explicit] user plans to play chill, instrumental electronic music during the party.\n- [explicit] user intends to create a relaxed environment where guests feel comfortable and focused on painting.\n- [explicit] user plans to serve veggie sticks with hummus, cheese and crackers, and fruit as snacks.\n- [explicit] user plans to implement a 'People's Choice' award at the painting party.\n- [explicit] user is planning a painting party for 8-10 friends.\n- [explicit] user plans to provide a small token of appreciation to each guest at the painting party.\n- [deductive] user demonstrates an interest in developing artistic proficiency, specifically in painting.\n- [deductive] user possesses creative and social organizational skills, as evidenced by their active planning of a themed painting party for friends.\n- [deductive] user values punctuality for their professional commitments.\n- [inductive] user demonstrates a proactive approach to problem-solving, particularly when it comes to reliability and punctuality in their professional life.\n- [inductive] user is highly detail-oriented and thoughtful when planning social events, frequently incorporating elements to enhance guest experience and atmosphere.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 103.2,
+  "total": 105.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

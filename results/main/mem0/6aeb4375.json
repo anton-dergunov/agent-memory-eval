@@ -1,0 +1,104 @@
+{
+ "qid": "6aeb4375",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many Korean restaurants have I tried in my city?",
+ "reference": "four",
+ "question_date": "2023-10-22 15:38",
+ "sessions": [
+  {
+   "id": "sharegpt_I5HWvry_0",
+   "date": "2023-07-12 02:43",
+   "evidence": false
+  },
+  {
+   "id": "c625cff4_3",
+   "date": "2023-07-14 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MD0BL69_53",
+   "date": "2023-07-16 13:37",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FkabWXV_105",
+   "date": "2023-07-25 21:34",
+   "evidence": false
+  },
+  {
+   "id": "26f9a255_2",
+   "date": "2023-07-30 13:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_wbbH6cZ_0",
+   "date": "2023-08-08 23:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MWlvrvZ_0",
+   "date": "2023-08-09 22:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_1",
+   "date": "2023-08-11 09:09",
+   "evidence": true
+  },
+  {
+   "id": "29621a34",
+   "date": "2023-08-11 09:38",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_2",
+   "date": "2023-09-30 15:06",
+   "evidence": true
+  }
+ ],
+ "context": "- User has tried four different Korean restaurants in their city so far. (from a chat on 2023-09-30)\n- User recently visited three different Korean restaurants, enjoying bibimbap at one, a spicy kimchi stew at another, and a unique version of Japchae with sweet potato noodles at the third. (from a chat on 2023-08-11)\n- User is interested in trying a new Indian restaurant in their neighborhood, specifically to sample their chicken tikka masala. (from a chat on 2023-09-30)\n- User is planning a dinner party featuring a fusion menu of Korean BBQ, Indian, and Middle Eastern dishes. (from a chat on 2023-08-11)\n- User was recommended Korean BBQ dishes for large groups: Bulgogi, Galbi, Dak Galbi, Pork Belly BBQ, and Japchae, along with stews like Sundubu Jjigae and Kimchi Stew. (from a chat on 2023-08-11)\n- User is interested in Korean noodle dishes and was recommended Naengmyeon, Ramyeon, Jjajangmyeon, Japchae, Bibim Naengmyeon, Kalguksu, and Haemultang. (from a chat on 2023-08-11)\n- User is expecting a baby girl and is exploring Korean-style names, specifically looking for options that blend Korean and Chinese romantic novel influences for their Taiwanese baby. (from a chat on 2023-08-09)\n- User decided to serve kimchi and bokkeumbap as side dishes for their Korean-style BBQ beef dinner party. (from a chat on 2023-09-30)\n- User decided to add samosas and saag aloo to their dinner party menu to complement the Korean BBQ beef and Middle Eastern falafel. (from a chat on 2023-09-30)\n- User was recommended Indian dishes for large groups: Chana Masala, Palak Paneer, Samosas, Tandoori Chicken, Vegetable Biryani, Rogan Josh, and Sag Aloo. (from a chat on 2023-08-11)\n- User currently uses authentic Japanese short-grain rice for their cooking but decided to purchase traditional Indian basmati rice for their upcoming dinner party. (from a chat on 2023-09-30)\n- User is interested in indie and alternative music and enjoys bands like Arctic Monkeys and The Neighbourhood. (from a chat on 2023-08-11)\n- User has decided on the family name Ko (柯) for their baby girl and was provided with 10 suggested names incorporating this surname, such as Ko Hsueh-ching (柯雪晴) and Ko Ya-ting (柯雅婷). (from a chat on 2023-08-09)\n- User was recommended Tilda, India Gate, Daawat, Zebra, and Lundberg as brands of basmati rice. (from a chat on 2023-09-30)\n- User plans to make falafel for their dinner party and received tips on achieving a crispy exterior and fluffy interior, including using soaked dry chickpeas and double-frying. (from a chat on 2023-08-11)\n- User is looking for ways to discover new music and break out of a musical rut, and was provided with strategies involving online platforms, music blogs, social media, local scenes, and radio/podcasts. (from a chat on 2023-08-11)\n- User was recommended indie and alternative bands similar to Arctic Monkeys (The Black Keys, The Libertines, Kasabian, The Courteeners, The Vaccines) and The Neighbourhood (Pale Waves, The 1975, Billie Eilish, COIN, Mansionair). (from a chat on 2023-08-11)\n- User was recommended several online courses for Python data analysis, including 'Python for Data Science' by DataCamp, 'Python Data Structures' by University of Michigan, and 'Data Analysis with Python' by IBM. (from a chat on 2023-07-30)\n- User was provided with a one-month Cuba itinerary including Havana, Viñales, Cienfuegos, Trinidad, Camagüey, Santiago de Cuba, and Baracoa, focusing on cultural sites and local experiences. (from a chat on 2023-08-08)\n- User is planning a one-month trip to Cuba, starting and ending in Havana, with a specific preference for visiting small towns and avoiding large resorts or luxury hotels. (from a chat on 2023-08-08)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-09-30: \"User has tried four different Korean restaurants in their city so far.\"\n\n**2. Reason over the information:**\n*   The information explicitly states the total count of Korean restaurants the user has visited in their city as of the most recent update (September 30, 2023). There is no information indicating that the user has visited any additional Korean restaurants between that date and the current date (October 22, 2023).\n\n**Answer:**\nYou have tried four Korean restaurants in your city.",
+ "dump": "- User was recommended Indian dishes for large groups: Chana Masala, Palak Paneer, Samosas, Tandoori Chicken, Vegetable Biryani, Rogan Josh, and Sag Aloo. (session 2023-08-11)\n- User was instructed to create links to network shares in SharePoint libraries by using the 'New' button and selecting 'Link' or 'Shortcut', using the format \\\\server_name\\folder_name. (session 2023-07-12)\n- User has tried four different Korean restaurants in their city so far. (session 2023-09-30)\n- User currently uses authentic Japanese short-grain rice for their cooking but decided to purchase traditional Indian basmati rice for their upcoming dinner party. (session 2023-09-30)\n- User is planning a one-month trip to Cuba, starting and ending in Havana, with a specific preference for visiting small towns and avoiding large resorts or luxury hotels. (session 2023-08-08)\n- User is implementing a 'no screens' rule starting at 10:15 PM each night to improve sleep quality, using phone reminders and an accountability partner to stay on track. (session 2023-07-14)\n- User is interested in trying a new Indian restaurant in their neighborhood, specifically to sample their chicken tikka masala. (session 2023-09-30)\n- User decided to add samosas and saag aloo to their dinner party menu to complement the Korean BBQ beef and Middle Eastern falafel. (session 2023-09-30)\n- User was provided with the steps to create a content source in SharePoint Central Administration, including navigating to the Search Service Application, selecting 'Content Sources', and entering the network share URL in the 'Start Addresses' field. (session 2023-07-12)\n- User is collaborating with the assistant to write a fictional story about a football coach named John and a time traveler named Jack who manipulate the outcomes of historical football matches. (session 2023-07-16)\n- User is a fan of Rex Orange County, particularly the album 'Pony', and is seeking similar artists. (session 2023-08-11)\n- User was recommended Tilda, India Gate, Daawat, Zebra, and Lundberg as brands of basmati rice. (session 2023-09-30)\n- User requested and received verbal portraits and condensed noun-adjective descriptions for a Tang Dynasty ballet dancer, a Tang Dynasty calligrapher, a Tang Dynasty sculptor, and a samphire fish. (session 2023-07-25)\n- User and assistant developed a 30-minute bedtime routine starting at 11:15 PM, consisting of 10 minutes of reading, 5 minutes of relaxation techniques, 5 minutes to get ready for bed, and 5 minutes to settle in. (session 2023-07-14)\n- User enjoys music podcasts that explore the background stories behind songs, specifically citing 'All Songs Considered' and 'Song Exploder' as favorites. (session 2023-08-11)\n- User is expecting a baby girl and is exploring Korean-style names, specifically looking for options that blend Korean and Chinese romantic novel influences for their Taiwanese baby. (session 2023-08-09)\n- User was recommended several online courses for Python data analysis, including 'Python for Data Science' by DataCamp, 'Python Data Structures' by University of Michigan, and 'Data Analysis with Python' by IBM. (session 2023-07-30)\n- User intends to visualize the Iris Dataset by creating a scatter plot of sepal length versus sepal width using Matplotlib and a pairplot of all variables using Seaborn. (session 2023-07-30)\n- User plans to create a dedicated, comfortable space in their bedroom for reading and relaxing to avoid the temptation of using screens before bed. (session 2023-07-14)\n- User decided to serve kimchi and bokkeumbap as side dishes for their Korean-style BBQ beef dinner party. (session 2023-09-30)\n- User was recommended music storytelling podcasts including Pitchfork, NPR Music, KCRW's Morning Becomes Eclectic, The Fader Uncovered, Broken Record, How I Built This, Switched on Pop, Dissect, The Adam Buxton Podcast, The Guardian's Music Podcast, The Strombo Show, and Cocaine and Rhinestones. (session 2023-08-11)\n- User was recommended Korean BBQ dishes for large groups: Bulgogi, Galbi, Dak Galbi, Pork Belly BBQ, and Japchae, along with stews like Sundubu Jjigae and Kimchi Stew. (session 2023-08-11)\n- The user decided to shift the story's focus to the 1982 World Cup match between Brazil and Italy, where Italy originally won 3-2, with the goal of having John and Jack intervene to help Brazil win instead. (session 2023-07-16)\n- User was recommended five methods to restrict access to crawled and indexed content in SharePoint: SharePoint permissions, item-level permissions, Result Sources, Information Rights Management (IRM), and the Secure Store Service (SSS). (session 2023-07-12)\n- User was provided with a one-month Cuba itinerary including Havana, Viñales, Cienfuegos, Trinidad, Camagüey, Santiago de Cuba, and Baracoa, focusing on cultural sites and local experiences. (session 2023-08-08)\n- User was recommended artists similar to Rex Orange County, including (Sandy) Alex G, Yellow Days, Clairo, Omar Apollo, Mxmtoon, Tame Impala, Mac DeMarco, Vagabon, Hatchie, and Girl in Red. (session 2023-08-11)\n- User is struggling with their sleep schedule and has been going to bed around 11:45 PM, which is later than their desired bedtime. (session 2023-07-14)\n- User was provided with sample Python code to create a scatter plot of the Iris Dataset using Matplotlib and a pairplot using Seaborn with species-based coloring. (session 2023-07-30)\n- User was recommended indie and alternative bands similar to Arctic Monkeys (The Black Keys, The Libertines, Kasabian, The Courteeners, The Vaccines) and The Neighbourhood (Pale Waves, The 1975, Billie Eilish, COIN, Mansionair). (session 2023-08-11)\n- User is interested in indie and alternative music and enjoys bands like Arctic Monkeys and The Neighbourhood. (session 2023-08-11)\n- User recently participated in a half-day workshop titled 'Introduction to Data Analysis with Python' and is interested in learning more about data analysis and visualization using Python. (session 2023-07-30)\n- User is interested in Korean noodle dishes and was recommended Naengmyeon, Ramyeon, Jjajangmyeon, Japchae, Bibim Naengmyeon, Kalguksu, and Haemultang. (session 2023-08-11)\n- User decided to use physical books instead of e-books for their bedtime reading to avoid blue light exposure. (session 2023-07-14)\n- User was recommended popular Python libraries for interactive data visualization, including Matplotlib, Seaborn, Plotly, Bokeh, and Altair. (session 2023-07-30)\n- User recently visited three different Korean restaurants, enjoying bibimbap at one, a spicy kimchi stew at another, and a unique version of Japchae with sweet potato noodles at the third. (session 2023-08-11)\n- In the story, John and Jack split their roles: John manages tactical and strategic planning, while Jack uses a time-travel device to influence key players individually, such as ensuring they avoid alcohol, attend the gym, and resolve personal issues to maintain focus. (session 2023-07-16)\n- User is interested in learning about popular music festivals globally and specifically within the UK. (session 2023-08-11)\n- User explored the artistic professions of the Tang Dynasty, including painters, calligraphers, sculptors, potters, and craftsmen, as well as the roles of dancers, musicians, and poets. (session 2023-07-25)\n- User was provided with a list of major music festivals in the UK, categorized by genre including major festivals like Glastonbury, Reading and Leeds, and Isle of Wight, as well as indie, electronic, and special interest festivals. (session 2023-08-11)\n- The user and assistant identified the actual 1970 World Cup final lineup for Brazil and Italy, noting that Brazil won 4-1 on June 21, 1970, at Estadio Azteca. (session 2023-07-16)\n- User has decided on the family name Ko (柯) for their baby girl and was provided with 10 suggested names incorporating this surname, such as Ko Hsueh-ching (柯雪晴) and Ko Ya-ting (柯雅婷). (session 2023-08-09)\n- User is planning a dinner party featuring a fusion menu of Korean BBQ, Indian, and Middle Eastern dishes. (session 2023-08-11)\n- User is looking for ways to discover new music and break out of a musical rut, and was provided with strategies involving online platforms, music blogs, social media, local scenes, and radio/podcasts. (session 2023-08-11)\n- User plans to make falafel for their dinner party and received tips on achieving a crispy exterior and fluffy interior, including using soaked dry chickpeas and double-frying. (session 2023-08-11)\n- User was advised that to index network share content in SharePoint without ingestion, they should create a content source for the network share in the SharePoint Search service application and configure a crawl schedule. (session 2023-07-12)\n- User plans to practice data analysis using beginner-friendly datasets, specifically the Iris Dataset and the Titanic Dataset, using Python libraries Pandas and NumPy. (session 2023-07-30)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 46,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 33.7,
+  "total": 34.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "qid": "0ddfec37",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+ "reference": "15",
+ "question_date": "2024-01-08 09:27",
+ "sessions": [
+  {
+   "id": "sharegpt_P4sav72_0",
+   "date": "2023-07-03 12:38",
+   "evidence": false
+  },
+  {
+   "id": "3422786d_2",
+   "date": "2023-07-07 04:17",
+   "evidence": false
+  },
+  {
+   "id": "60f9246d",
+   "date": "2023-07-09 20:11",
+   "evidence": false
+  },
+  {
+   "id": "answer_a22b654d_1",
+   "date": "2023-07-11 14:38",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cXkL3cR_45",
+   "date": "2023-10-04 08:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_gWIeryu_0",
+   "date": "2023-11-16 07:06",
+   "evidence": false
+  },
+  {
+   "id": "2878574e",
+   "date": "2023-12-09 01:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_GKjb2be_0",
+   "date": "2023-12-22 12:42",
+   "evidence": false
+  },
+  {
+   "id": "answer_a22b654d_2",
+   "date": "2023-12-30 02:28",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_139747",
+   "date": "2024-01-08 13:17",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is a designer or developer involved in creating design systems.\n* The user is proficient in C# .NET development and has an interest in Python and automation scripting.\n* The user is a car enthusiast who owns a modified Honda Civic.\n* The user participates in drag racing events, specifically the \"Turbocharged Tuesday\" series at their local racing circuit.\n* The user achieved a personal best quarter-mile time of 12.8 seconds (as of 2023-07-07).\n* The user is a sports fan who follows the Boston Bruins (NHL) and Manchester City (Premier League).\n* The user enjoys watching the NBA playoffs.\n* The user is an avid collector of various items, including:\n    * Autographed baseballs (35 items as of 2023-12-30; previously 15 items as of 2023-07-11; started collecting in April 2023).\n    * Error coins (recently acquired a 1943 Lincoln Wheat Cent with a copper planchet error).\n    * Vinyl records (with an interest in international/Japanese pressings).\n    * Stamps.\n    * Vintage cameras (including a Leica).\n* The user is currently navigating a period of grief and is actively seeking resources, spiritual guidance, and coping strategies related to the grieving process (as of 2023-10-04).\n* The user is an intellectually curious individual with a strong interest in history, anthropology, and the history of science.\n* The user is an active consumer of educational media, specifically enjoying content that presents complex topics in an engaging and informative manner.\n* The user has expressed an interest in exploring unique, quirky, and antique-focused shopping destinations, specifically in the context of Lichfield, UK (as of 2024-01-08).\n\n### Preferences and habits\n* The user prefers structured, technical documentation for UI components.\n* The user values industry-standard best practices and evidence-based UX design principles.\n* The user is interested in performance automotive modifications, specifically turbocharger upgrades, engine management tuning, and supporting hardware (cooling, fueling, and drivetrain).\n* The user values \"bang for the buck\" when selecting performance parts.\n* The user enjoys hosting social gatherings and is interested in themed party planning, specifically sports-themed events.\n* The user prefers hosting friends at home for game-day viewing parties rather than going to sports bars.\n* The user is proactive in researching niche collector markets and utilizes specialized forums (e.g., Fred Miranda, Rangefinder Forum, Leica Forum, CoinTalk, Coin Community) for buying, selling, and researching high-end gear.\n* The user is interested in structured, chapter-based educational or supportive content regarding emotional well-being and grief management.\n* The user has a practical interest in hardware integration, specifically interfacing software with industrial hardware like Zebra printers using ZPL and TCP/IP protocols.\n* The user is interested in system-level customization, such as creating custom Windows screensavers using C# or Python.\n* The user listens to educational podcasts during their daily commute (e.g., \"How I Built This,\" \"Stuff You Should Know\").\n* The user actively watches educational YouTube channels, specifically citing \"Crash Course,\" \"CGP Grey,\" and \"Vsauce\" as preferred sources for their engaging presentation style.\n* The user is interested in the concept of \"paradigm shifts\" and how they influence scientific and cultural understanding.\n* The user shows a preference for \"quirky\" or unconventional retail experiences (e.g., reclamation yards, antique fairs, or shops housed in unique structures like buses) over traditional shopping centers (as of 2024-01-08).\n\n### Ongoing situations and plans\n* The user is currently working on documentation for an accordion component.\n* The user is working on a C# project involving barcode generation and printing via Zebra printers.\n* The user is exploring methods to create a custom Windows screensaver that plays MP4 files, including investigating C# compilation and Python-based automation (as of 2023-12-22).\n* The user is planning to upgrade their Honda Civic with a Garrett GTX2867R turbocharger.\n* The user intends to seek out a professional, reputable tuner to perform a dyno tune on their vehicle following the turbocharger installation to improve their quarter-mile drag racing times.\n* The user is planning a sports-themed party for friends.\n* The user is planning a Manchester City-themed game-day party at their home, incorporating British-inspired food and blue-themed drinks.\n* The user is planning to attend a stamp show (originally planned for Q4 2023; status as of 2023-12-30).\n* The user is planning to sell parts of their collections, including:\n    * Vintage camera collection (specifically their Leica, considering bundling with lenses/accessories).\n    * Vinyl records (to make space).\n    * Autographed baseballs (to make room for new additions).\n* The user is researching camera lenses for their vintage Leica.\n* The user is researching the value and history of their 1943 Lincoln Wheat Cent error coin.\n* The user is engaging with content related to the \"MOURN\" process and rituals for remembrance as part of their personal grief journey.\n* The user is actively seeking new reading, listening, and viewing materials related to history, anthropology, and the history of science to further their self-education.\n* The user is exploring potential unique shopping locations in Lichfield, specifically showing interest in the Lichfield Antiques & Collectables Fair, the Lichfield Reclamation Yard, and \"The Big Red Bus Shop\" (as of 2024-01-08).\n\n### Changes over time\n* Autographed baseball collection size: Now 35 items, since 2023-12-30; previously 15 items as of 2023-07-11.",
+ "answer": "To answer your question, let's break down the information provided:\n\n**Step 1: Extract relevant information**\n*   **Start date of collection:** April 2023.\n*   **Collection size as of 2023-07-11:** 15 items.\n*   **Timeframe for \"first three months\":** April 2023, May 2023, and June 2023. (July 11th falls just outside the initial three-month window, but the data provided for that date represents the total accumulated during that period).\n\n**Step 2: Reason over the information**\n*   The user started collecting in April 2023.\n*   By July 11, 2023, the user had accumulated 15 autographed baseballs.\n*   Since the collection began in April, the count of 15 items as of July 11th represents the total number of baseballs added during the first three months (April, May, and June).\n\n**Answer:**\nYou added **15** autographed baseballs to your collection in the first three months.",
+ "dump": "### Personal facts\n* The user is a designer or developer involved in creating design systems.\n* The user is proficient in C# .NET development and has an interest in Python and automation scripting.\n* The user is a car enthusiast who owns a modified Honda Civic.\n* The user participates in drag racing events, specifically the \"Turbocharged Tuesday\" series at their local racing circuit.\n* The user achieved a personal best quarter-mile time of 12.8 seconds (as of 2023-07-07).\n* The user is a sports fan who follows the Boston Bruins (NHL) and Manchester City (Premier League).\n* The user enjoys watching the NBA playoffs.\n* The user is an avid collector of various items, including:\n    * Autographed baseballs (35 items as of 2023-12-30; previously 15 items as of 2023-07-11; started collecting in April 2023).\n    * Error coins (recently acquired a 1943 Lincoln Wheat Cent with a copper planchet error).\n    * Vinyl records (with an interest in international/Japanese pressings).\n    * Stamps.\n    * Vintage cameras (including a Leica).\n* The user is currently navigating a period of grief and is actively seeking resources, spiritual guidance, and coping strategies related to the grieving process (as of 2023-10-04).\n* The user is an intellectually curious individual with a strong interest in history, anthropology, and the history of science.\n* The user is an active consumer of educational media, specifically enjoying content that presents complex topics in an engaging and informative manner.\n* The user has expressed an interest in exploring unique, quirky, and antique-focused shopping destinations, specifically in the context of Lichfield, UK (as of 2024-01-08).\n\n### Preferences and habits\n* The user prefers structured, technical documentation for UI components.\n* The user values industry-standard best practices and evidence-based UX design principles.\n* The user is interested in performance automotive modifications, specifically turbocharger upgrades, engine management tuning, and supporting hardware (cooling, fueling, and drivetrain).\n* The user values \"bang for the buck\" when selecting performance parts.\n* The user enjoys hosting social gatherings and is interested in themed party planning, specifically sports-themed events.\n* The user prefers hosting friends at home for game-day viewing parties rather than going to sports bars.\n* The user is proactive in researching niche collector markets and utilizes specialized forums (e.g., Fred Miranda, Rangefinder Forum, Leica Forum, CoinTalk, Coin Community) for buying, selling, and researching high-end gear.\n* The user is interested in structured, chapter-based educational or supportive content regarding emotional well-being and grief management.\n* The user has a practical interest in hardware integration, specifically interfacing software with industrial hardware like Zebra printers using ZPL and TCP/IP protocols.\n* The user is interested in system-level customization, such as creating custom Windows screensavers using C# or Python.\n* The user listens to educational podcasts during their daily commute (e.g., \"How I Built This,\" \"Stuff You Should Know\").\n* The user actively watches educational YouTube channels, specifically citing \"Crash Course,\" \"CGP Grey,\" and \"Vsauce\" as preferred sources for their engaging presentation style.\n* The user is interested in the concept of \"paradigm shifts\" and how they influence scientific and cultural understanding.\n* The user shows a preference for \"quirky\" or unconventional retail experiences (e.g., reclamation yards, antique fairs, or shops housed in unique structures like buses) over traditional shopping centers (as of 2024-01-08).\n\n### Ongoing situations and plans\n* The user is currently working on documentation for an accordion component.\n* The user is working on a C# project involving barcode generation and printing via Zebra printers.\n* The user is exploring methods to create a custom Windows screensaver that plays MP4 files, including investigating C# compilation and Python-based automation (as of 2023-12-22).\n* The user is planning to upgrade their Honda Civic with a Garrett GTX2867R turbocharger.\n* The user intends to seek out a professional, reputable tuner to perform a dyno tune on their vehicle following the turbocharger installation to improve their quarter-mile drag racing times.\n* The user is planning a sports-themed party for friends.\n* The user is planning a Manchester City-themed game-day party at their home, incorporating British-inspired food and blue-themed drinks.\n* The user is planning to attend a stamp show (originally planned for Q4 2023; status as of 2023-12-30).\n* The user is planning to sell parts of their collections, including:\n    * Vintage camera collection (specifically their Leica, considering bundling with lenses/accessories).\n    * Vinyl records (to make space).\n    * Autographed baseballs (to make room for new additions).\n* The user is researching camera lenses for their vintage Leica.\n* The user is researching the value and history of their 1943 Lincoln Wheat Cent error coin.\n* The user is engaging with content related to the \"MOURN\" process and rituals for remembrance as part of their personal grief journey.\n* The user is actively seeking new reading, listening, and viewing materials related to history, anthropology, and the history of science to further their self-education.\n* The user is exploring potential unique shopping locations in Lichfield, specifically showing interest in the Lichfield Antiques & Collectables Fair, the Lichfield Reclamation Yard, and \"The Big Red Bus Shop\" (as of 2024-01-08).\n\n### Changes over time\n* Autographed baseball collection size: Now 35 items, since 2023-12-30; previously 15 items as of 2023-07-11.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 22.4,
+  "total": 23.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": true
+  }
+ }
+}

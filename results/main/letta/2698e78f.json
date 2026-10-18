@@ -1,0 +1,114 @@
+{
+ "qid": "2698e78f",
+ "arm": "letta",
+ "split": "main",
+ "question": "How often do I see my therapist, Dr. Smith?",
+ "reference": "every week",
+ "question_date": "2023-11-10 00:38",
+ "sessions": [
+  {
+   "id": "sharegpt_4qCDHY4_17",
+   "date": "2023-03-15 12:49",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6U7TyYE_0",
+   "date": "2023-03-17 15:06",
+   "evidence": false
+  },
+  {
+   "id": "d76030af_1",
+   "date": "2023-03-23 03:11",
+   "evidence": false
+  },
+  {
+   "id": "89c1cdfa_2",
+   "date": "2023-03-27 05:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DrLV0RL_0",
+   "date": "2023-04-02 20:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_1",
+   "date": "2023-04-03 14:18",
+   "evidence": true
+  },
+  {
+   "id": "619e96bc",
+   "date": "2023-07-12 03:14",
+   "evidence": false
+  },
+  {
+   "id": "1980bbfa_5",
+   "date": "2023-11-03 14:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_2",
+   "date": "2023-11-03 19:56",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_130siyQ_0",
+   "date": "2023-11-09 13:22",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user recently attended an art auction in the city (around February 2023) and purchased a sculpture by an up-and-coming artist. They are interested in watercolor painting, planning to start with a Winsor & Newton Cotman set.\nThe user displays a purchased sculpture on their coffee table, which serves as a conversation piece. They are interested in converting a spare room into a home studio and are seeking tips on how to make it functional and inspiring.\nThe user is exploring online platforms like Etsy and Redbubble to purchase art for their collection and is looking for tips on finding unique, authentic pieces.\nThe user practices yoga and meditation to help manage anxiety. They attend therapy sessions every two weeks with Dr. Smith.\nThe user's niece graduated from high school on June 15, 2023.\nThe user works 9-5, M-F. They have weekly yoga and bi-weekly dinner with friends as regular social commitments. They value meditation and journaling for self-care. They are currently working on setting better boundaries with colleagues and friends to prevent burnout. They see Dr. Smith weekly for therapy. They prefer a general, flexible approach to planning rather than a rigid schedule.\n</human>",
+ "answer": "You currently see Dr. Smith weekly for your therapy sessions.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user recently attended an art auction in the city (around February 2023) and purchased a sculpture by an up-and-coming artist. They are interested in watercolor painting, planning to start with a Winsor & Newton Cotman set.\nThe user displays a purchased sculpture on their coffee table, which serves as a conversation piece. They are interested in converting a spare room into a home studio and are seeking tips on how to make it functional and inspiring.\nThe user is exploring online platforms like Etsy and Redbubble to purchase art for their collection and is looking for tips on finding unique, authentic pieces.\nThe user practices yoga and meditation to help manage anxiety. They attend therapy sessions every two weeks with Dr. Smith.\nThe user's niece graduated from high school on June 15, 2023.\nThe user works 9-5, M-F. They have weekly yoga and bi-weekly dinner with friends as regular social commitments. They value meditation and journaling for self-care. They are currently working on setting better boundaries with colleagues and friends to prevent burnout. They see Dr. Smith weekly for therapy. They prefer a general, flexible approach to planning rather than a rigid schedule.\n</human>",
+ "extra": {
+  "tool_calls": [],
+  "blocks_chars": 1396,
+  "write_steps": 53,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 354.2,
+  "total": 358.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

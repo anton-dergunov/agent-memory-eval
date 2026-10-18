@@ -1,0 +1,96 @@
+{
+ "qid": "830ce83f",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "Where did Rachel move to after her recent relocation?",
+ "reference": "the suburbs",
+ "question_date": "2023-06-13 15:15",
+ "sessions": [
+  {
+   "id": "8425ea3e",
+   "date": "2023-05-01 13:17",
+   "evidence": false
+  },
+  {
+   "id": "ad5a7d50_2",
+   "date": "2023-05-09 08:55",
+   "evidence": false
+  },
+  {
+   "id": "020149a5_1",
+   "date": "2023-05-12 02:28",
+   "evidence": false
+  },
+  {
+   "id": "8d77be9a_2",
+   "date": "2023-05-16 17:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_hamCWCF_0",
+   "date": "2023-05-24 01:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_rtjWwY6_0",
+   "date": "2023-05-24 05:00",
+   "evidence": false
+  },
+  {
+   "id": "answer_0b1a0942_1",
+   "date": "2023-05-24 22:23",
+   "evidence": true
+  },
+  {
+   "id": "dfbda5e9",
+   "date": "2023-05-26 20:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_0b1a0942_2",
+   "date": "2023-05-27 04:45",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_pAbhbob_0",
+   "date": "2023-05-27 18:15",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-24 22:27:00] user has a friend named Rachel who recently moved to a new apartment in a city.\n[2023-05-24 22:27:00] user's friend Rachel lives in Chicago.\n[2023-05-24 22:31:00] user intends to visit a person named Rachel while in Chicago.\n[2023-05-24 22:31:00] user intends to ask Rachel which neighborhood she lives in.\n[2023-05-24 22:33:00] user plans to ask Rachel about her neighborhood in Chicago.\n[2023-05-24 22:33:00] user plans to ask Rachel about her favorite spots in Chicago.\n[2023-05-26 20:24:00] user lives in the same area as their maternal grandparents.\n[2023-05-27 04:49:00] user is interested in paddleboarding.\n[2023-05-27 04:49:00] user is considering Fort Myers Beach for a trip.\n[2023-05-27 04:49:00] user has a friend named Rachel who recently moved to the suburbs.\n[2023-05-27 04:49:00] user prefers beach town locations that are near a major city.\n[2023-05-27 04:53:00] user expresses interest in The Outrigger Beach Resort.\n[2023-05-27 04:53:00] user is interested in hotels or resorts that are close to the beach and have good amenities.\n[2023-05-27 04:53:00] user plans to stay in Fort Myers Beach.\n[2023-05-27 04:53:00] user wants to know if The Outrigger Beach Resort has rooms with a beach view.\n[2023-05-27 04:55:00] user is planning a trip that includes staying at The Outrigger Beach Resort.\n[2023-05-27 04:55:00] user is considering exploring attractions near Fort Myers Beach.\n[2023-05-27 18:17:00] user offers the Pad Krapow dish for lunchtime delivery via Grubhub.\n[2023-05-27 18:17:00] user sells a Pad Krapow dish that is a bestseller.\n[2023-05-27 18:17:00] user targets customers who do not have time to dine in.\n\n## Deductive Observations\n\n[2023-05-27 18:17:00] user enjoys outdoor, active beach-related recreational activities.\n   Premises:\n   - user is interested in paddleboarding.\n   - user is interested in hotels or resorts that are close to the beach and have good amenities.\n\n[2023-05-27 18:17:00] user prefers vacation destinations that balance accessibility and relaxation.\n   Premises:\n   - user prefers beach town locations that are near a major city.\n   - user prefers a relaxed beach town atmosphere.\n   - user prefers beach towns that are easy to reach.\n\n[2023-05-27 18:17:00] user is a restaurateur or business owner who operates a food service business.\n   Premises:\n   - user offers the Pad Krapow dish for lunchtime delivery via Grubhub.\n   - user sells a Pad Krapow dish that is a bestseller.\n   - user targets customers who do not have time to dine in.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user manages food service operations with a focus on convenience and efficiency for customers.\n   **Type**: behavior\n   **Sources**:\n   - user targets customers who do not have time to dine in.\n   - user offers the Pad Krapow dish for lunchtime delivery via Grubhub.\n   - user is a restaurateur or business owner who operates a food service business.\n\n **Pattern** [high]: user prefers beach vacation destinations in Florida that offer a balance of accessibility to major cities and a relaxed atmosphere.\n   **Type**: preference\n   **Sources**:\n   - user prefers beach town locations that are near a major city.\n   - user prefers a relaxed beach town atmosphere.\n   - user prefers beach towns that are easy to reach.\n   - user is interested in visiting beach towns in Florida.\n   - user prefers vacation destinations that balance accessibility and relaxation.\n\n",
+ "answer": "To determine where Rachel moved, let's look at the provided history:\n\n**Step 1: Extract relevant information**\n*   [2023-05-24 22:27:00]: The user has a friend named Rachel who recently moved to a new apartment in a city.\n*   [2023-05-24 22:27:00]: The user's friend Rachel lives in Chicago.\n*   [2023-05-27 04:49:00]: The user has a friend named Rachel who recently moved to the suburbs.\n\n**Step 2: Reason over the information**\n*   The initial records establish that Rachel moved to Chicago.\n*   The later record from May 27th clarifies that her recent move was specifically to the suburbs.\n*   Combining these facts, it can be concluded that Rachel moved to the suburbs of Chicago.\n\n**Answer:**\nRachel moved to the suburbs of Chicago.",
+ "dump": "- [explicit] user is looking for new Italian pasta recipes.\n- [explicit] user intends to try making Fettuccine Alfredo.\n- [explicit] user considers Italian cuisine a staple in their kitchen.\n- [explicit] user identifies Spaghetti Carbonara as a dish that can be tricky to prepare.\n- [explicit] user has been cooking at home more frequently for approximately 3 months.\n- [explicit] user intends to try making Spaghetti Carbonara.\n- [explicit] user is interested in learning about substitutes for guanciale in cooking.\n- [explicit] user has heard that guanciale can be difficult to locate without an Italian market nearby.\n- [explicit] user is seeking recommendations for an Italian cookbook.\n- [explicit] user intends to find guanciale or pancetta for Carbonara.\n- [explicit] user has been experimenting with different Italian dishes for a while.\n- [explicit] user wants to make Carbonara as authentic as possible.\n- [explicit] user is borrowing The Essentials of Classic Italian Cooking from the library.\n- [explicit] user is interested in trying new pasta dishes.\n- [explicit] user is borrowing Jerusalem: A Cookbook from the library.\n- [explicit] user is interested in experimenting with cooking with farro.\n- [explicit] user is interested in experimenting with cooking with bulgur.\n- [explicit] user is interested in learning how to cook bulgur and farro perfectly.\n- [explicit] user wants to try new recipes that incorporate bulgur and farro.\n- [explicit] user ate the chili con carne for lunch and dinner for several days.\n- [explicit] user is interested in chipotle ranch dressing.\n- [explicit] user likes the Southwestern Chicken Pasta Salad recipe suggestion.\n- [explicit] user is interested in pasta salad recipes that are spicy and contain protein.\n- [explicit] user recently made a pasta salad with cherry tomatoes, mozzarella, and basil.\n- [explicit] user made a large batch of chili con carne during the week of May 2, 2023.\n- [explicit] user is looking for new ideas for pasta salads.\n- [explicit] user has been cooking at home frequently recently.\n- [explicit] user is experimenting with different cooking techniques including braising and roasting.\n- [explicit] user is looking for a simple braising recipe for beef or lamb.\n- [explicit] user considers the braised beef short ribs with red wine and mushrooms recipe provided by the assistant a great place to start with braising.\n- [explicit] user found chili con carne to be convenient and tasty.\n- [explicit] user is seeking recommendations for side dishes that pair well with braised short ribs or lamb shanks.\n- [explicit] user prefers side dishes that cut the richness of braised short ribs or lamb shanks.\n- [explicit] user intended to try braising for a while.\n- [explicit] user plans to prepare roasted Brussels sprouts with lemon and garlic as a side dish for braised short ribs.\n- [explicit] user has intended to try roasting Brussels sprouts for a period of time.\n- [explicit] user intends to prepare braised short ribs.\n- [explicit] user intends to prepare roasted Brussels sprouts.\n- [explicit] user is looking for new upbeat workout playlists for high-intensity workouts.\n- [explicit] user is interested in trying the Beast Mode playlist on Spotify.\n- [explicit] user is looking for recommendations for fitness influencers on Instagram who post workout routines that match the Beast Mode playlist.\n- [explicit] user has free time on Sundays.\n- [explicit] user finds HIIT workouts to be quick and effective\n- [explicit] user performs HIIT workouts\n- [explicit] user follows a fitness influencer on Instagram who posts workout videos every week\n- [explicit] user intends to start using HIIT workouts from Kayla Itsines.\n- [explicit] user plans to gradually increase the duration of workout intervals as they build endurance.\n- [explicit] user is interested in trying Kayla Itsines' HIIT workouts.\n- [explicit] user plans to start with shorter workout intervals.\n- [explicit] user is looking for Kayla Itsines HIIT workout recommendations that target the core and legs.\n- [explicit] user intends to start with the BBG HIIT Core Blast workout.\n- [explicit] user lives in Springfield, Illinois.\n- [explicit] user prefers running routes with minimal traffic.\n- [explicit] user prefers flat running routes with scenic views.\n- [explicit] user intends to try the Lake Springfield Trail for an upcoming run.\n- [explicit] user completed a 10-kilometer run during the 'Charity Run' organized by the 'Heart Foundation' in November 2022.\n- [explicit] user is aware of the MapMyRun tool.\n- [explicit] user is planning to start training for a marathon.\n- [explicit] user intends to stay alert during the run.\n- [explicit] user intends to wear reflective clothing during the run.\n- [explicit] user plans to run early in the morning.\n- [explicit] user intends to go to Augie's Front Burner for a post-run breakfast.\n- [explicit] user is developing a concept for a platformer video game titled \"Bald Fury\".\n- [explicit] user wants the levels of \"Bald Fury\" to be set in diverse locations such as city streets, underground caves, and high-tech laboratories.\n- [explicit] user intends to incorporate humor into \"Bald Fury\" through bald-themed puns and one-liners delivered by the protagonist.\n- [explicit] user designed the protagonist of \"Bald Fury\" as a bald man in a suit.\n- [explicit] user plans for the protagonist of \"Bald Fury\" to unlock ability upgrades throughout the game.\n- [explicit] user envisions the protagonist of \"Bald Fury\" using abilities such as headbutting, deflecting projectiles with a shiny head, and unleashing bald energy blasts.\n- [explicit] user defined the goal of \"Bald Fury\" as defeating an evil corporation using a baldness serum to create an army of bald super-soldiers.\n- [explicit] user is interested in the boss characters for a game called \"Bald Fury\".\n- [explicit] user enjoys corned beef.\n- [explicit] user requested a poem about corned beef written in the style of Edgar Allan Poe.\n- [explicit] user requested a poem about corned beef written in the style of a martial drill.\n- [explicit] user requested a poem about corned beef written in the style of the ending to a Harry Potter book.\n- [explicit] user has a friend named Rachel who recently moved to a new apartment in a city.\n- [explicit] user is deciding between a beach town in Florida and a hiking trip in Colorado for a trip.\n- [explicit] user is planning a trip with friends.\n- [explicit] user's friend Rachel lives in Chicago.\n- [explicit] user intends to visit a person named Rachel while in Chicago.\n- [explicit] user intends to ask Rachel which neighborhood she lives in.\n- [explicit] user is planning to visit Chicago.\n- [explicit] user is seeking recommendations for coffee shops or cafes in Chicago.\n- [explicit] user plans to ask Rachel about her neighborhood in Chicago.\n- [explicit] user plans to ask Rachel about her favorite spots in Chicago.\n- [explicit] user is interested in finding outdoor movie nights or concerts in Orlando during user's visit.\n- [explicit] user is planning to spend a week in Orlando with user's paternal grandparents.\n- [explicit] user is 20 years old.\n- [explicit] user's maternal grandparents celebrated their 50th wedding anniversary on June 17th.\n- [explicit] user is interested in a mix of relaxation and cultural activities.\n- [explicit] user's paternal grandparents live in Orlando, Florida.\n- [explicit] user is planning a trip to visit user's paternal grandparents in August.\n- [explicit] user is looking for recommendations for Cuban restaurants in Orlando.\n- [explicit] user is planning a surprise brunch for mother's birthday in July.\n- [explicit] user is planning to spend an afternoon with grandparents.\n- [explicit] user intends to ask siblings to help plan the birthday brunch.\n- [explicit] user lives in the same area as their maternal grandparents.\n- [explicit] user has heard positive feedback regarding the brunch menu and atmosphere of the new bistro downtown.\n- [explicit] user is familiar with the restaurants in the area where they live.\n- [explicit] user notes the new bistro downtown opened a few months before May 2023.\n- [explicit] user is planning to book a table at a new bistro located downtown.\n- [explicit] user is interested in paddleboarding.\n- [explicit] user has a friend named Rachel who recently moved to the suburbs.\n- [explicit] user is planning a trip with friends.\n- [explicit] user has previously visited Miami Beach.\n- [explicit] user prefers beach towns that are easy to reach.\n- [explicit] user prefers a relaxed beach town atmosphere.\n- [explicit] user prefers beach town locations that are near a major city.\n- [explicit] user is interested in visiting beach towns in Florida.\n- [explicit] user is considering Fort Myers Beach for a trip.\n- [explicit] user plans to stay in Fort Myers Beach.\n- [explicit] user wants to know if The Outrigger Beach Resort has rooms with a beach view.\n- [explicit] user is interested in hotels or resorts that are close to the beach and have good amenities.\n- [explicit] user expresses interest in The Outrigger Beach Resort.\n- [explicit] user is considering exploring attractions near Fort Myers Beach.\n- [explicit] user is planning a trip that includes staying at The Outrigger Beach Resort.\n- [explicit] user sells a Pad Krapow dish that is a bestseller.\n- [explicit] user offers the Pad Krapow dish for lunchtime delivery via Grubhub.\n- [explicit] user targets customers who do not have time to dine in.\n- [deductive] user enjoys outdoor, active beach-related recreational activities.\n- [deductive] user prefers vacation destinations that balance accessibility and relaxation.\n- [deductive] user is a restaurateur or business owner who operates a food service business.\n- [inductive] user prefers beach vacation destinations in Florida that offer a balance of accessibility to major cities and a relaxed atmosphere.\n- [inductive] user manages food service operations with a focus on convenience and efficiency for customers.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 124.6,
+  "total": 128.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "qid": "89941a93",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many bikes do I currently own?",
+ "reference": "4",
+ "question_date": "2023-10-27 13:00",
+ "sessions": [
+  {
+   "id": "8e72316f",
+   "date": "2023-02-02 01:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-02-22 20:54",
+   "evidence": true
+  },
+  {
+   "id": "95ebf866",
+   "date": "2023-07-25 17:00",
+   "evidence": false
+  },
+  {
+   "id": "169213ae",
+   "date": "2023-08-04 11:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_151269",
+   "date": "2023-09-25 17:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-10-10 01:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jxsIY6L_0",
+   "date": "2023-10-11 01:04",
+   "evidence": false
+  },
+  {
+   "id": "25956eab_1",
+   "date": "2023-10-15 17:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_70151",
+   "date": "2023-10-20 19:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_440266",
+   "date": "2023-10-23 07:05",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   **Location:** San Francisco Bay Area (since 2023-02-22; previously Kansas City).\n*   **Sports fandom:** Fan of Manchester City (Premier League/European football).\n*   **Cycling profile:** Serious cyclist who owns four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike (acquired prior to 2023-10-10). Has logged at least 2,000 miles on the road bike.\n*   **Running gear:** Replaced running shoes on 2023-02-10 with a new pair of Nike shoes.\n*   **Swimming:** Active swimmer who performs flip turns; currently in the market for a new swim cap.\n*   **Morning routine:** Wakes up at 6:30 am; currently working on breaking the habit of hitting the snooze button.\n*   **Political/Social outlook:** Expresses interest in the evolution of social democratic parties; values flexibility, adaptability, and responsiveness to feedback as essential components for social progress and justice.\n*   **Cycling accessories:** Recently acquired a new bike computer and a new pair of cycling shoes with clipless pedals.\n*   **Technical interests:** Demonstrates a keen interest in cybersecurity concepts (C-I-A Triad, digital signatures, threat vectors, password-cracking techniques) and distance learning technologies.\n*   **Travel/Loyalty:** Holds Chase Sapphire credit card; recently achieved MVP Gold status with Alaska Airlines (as of 2023-10-15).\n*   **Educational perspective:** Values video conferencing tools as a \"game-changer\" for remote learning and meetings, noting their importance during the pandemic.\n*   **Film interests:** Interested in exploring foreign cinema; has adopted MUBI as a preferred streaming service for independent, art-house, and international films.\n\n### Preferences and habits\n*   **Social activities:** Enjoys hosting group events, specifically fantasy football draft parties.\n*   **Inclusivity:** Prefers to plan events that cater to a diverse group of interests, including friends who are not fantasy football fans.\n*   **Entertainment:** Interested in incorporating interactive elements like squares pools and sports-themed trivia into social gatherings.\n*   **Cycling habits:** Regularly performs long rides on weekends, trail rides on the mountain bike, and daily commutes on the commuter bike. Uses Strava to track progress. Recently adopted clipless pedals for improved pedaling efficiency.\n*   **Yoga:** Interested in eco-friendly yoga mats; prefers the Manduka eKO SuperLite model.\n*   **Swimming gear preferences:** Interested in Speedo and TYR brands for swim caps, specifically looking for features like anti-fog coating and UV protection.\n*   **Morning habits:** \n    *   Adopting a 20-minute bodyweight circuit workout (squats, push-ups, lunges, planks, etc.).\n    *   Preparing breakfast (oatmeal with banana and honey) the night before to save time.\n*   **Travel preferences:** Prefers direct flights; interested in utilizing airline loyalty perks (priority boarding, lounge access, extra baggage).\n*   **Film preferences:** Interested in critically acclaimed and award-winning international cinema.\n\n### Ongoing situations and plans\n*   **Road trip:** Planning a 10-day road trip from San Francisco to New York City starting in November 2023.\n    *   **Cycling plans:** Intends to cycle for 3-4 days during the trip.\n    *   **Logistics:** Transporting four bikes; prioritizing accommodations with confirmed bike storage.\n    *   **Jackson Hole:** Planning to join a guided tour to explore challenging mountain bike trails.\n*   **Hawaii trip:** Planning a trip to Honolulu, Hawaii, for later in 2023.\n    *   **Flights:** Intends to fly Alaska Airlines from LAX to HNL; planning to redeem Chase Sapphire points via transfer to British Airways Executive Club (Avios) to book an award flight.\n    *   **Accommodation:** Researching hotels near Waikiki Beach; interested in The Royal Hawaiian, a Luxury Collection Resort.\n*   **Event planning:** Currently planning a fantasy football draft party for a group of approximately 10 people in Kansas City.\n*   **Trivia preparation:** Planning to create a sports trivia game for the party that includes a mix of general sports, NFL, Premier League, and European football questions, with specific questions about Manchester City.\n*   **Cycling goals:** \n    *   Training for a future \"century ride\" (100 miles).\n    *   Researching potential upgrades to carbon fiber wheels for the road bike.\n*   **Shopping:** \n    *   Planning to purchase a Manduka eKO SuperLite yoga mat.\n    *   Researching Speedo and TYR websites for swim caps with anti-fog and UV protection.\n*   **Routine goals:** Implementing strategies to stop hitting the snooze button, including potentially moving the alarm clock across the room or using the \"5-second rule.\"\n*   **Watchlist:** Adding \"Portrait of a Lady on Fire\" to watchlist; interested in exploring other acclaimed foreign films like \"Bacurau,\" \"Two of Us,\" \"The Disciple,\" and \"Another Round.\"\n\n### Changes over time\n*   **Location:** Now San Francisco Bay Area, since 2023-02-22; previously Kansas City.\n*   **Running shoes:** Replaced on 2023-02-10; previously had been putting off the purchase for months.\n*   **Cycling fleet:** Now owns four bikes (added hybrid bike, since 2023-10-10; previously three).\n*   **Cycling navigation:** Now uses a dedicated bike computer (since 2023-10-10; previously used a smartphone).\n*   **Travel status:** Achieved Alaska Airlines MVP Gold status as of 2023-10-15.",
+ "answer": "To determine how many bikes you currently own, I will follow these steps:\n\n**Step 1: Extract relevant information**\n*   Under the \"Cycling profile\" section, it is stated: \"Serious cyclist who owns four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike (acquired prior to 2023-10-10).\"\n*   Under the \"Changes over time\" section, it is confirmed: \"Cycling fleet: Now owns four bikes (added hybrid bike, since 2023-10-10; previously three).\"\n\n**Step 2: Reason over the information**\n*   The records explicitly state that you own four bikes.\n*   The addition of the hybrid bike brought the total count from three to four.\n*   There is no information indicating any bikes have been sold or disposed of since the acquisition of the fourth bike.\n\n**Answer:**\nYou currently own **four** bikes (a road bike, a mountain bike, a commuter bike, and a hybrid bike).",
+ "dump": "### Personal facts\n*   **Location:** San Francisco Bay Area (since 2023-02-22; previously Kansas City).\n*   **Sports fandom:** Fan of Manchester City (Premier League/European football).\n*   **Cycling profile:** Serious cyclist who owns four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike (acquired prior to 2023-10-10). Has logged at least 2,000 miles on the road bike.\n*   **Running gear:** Replaced running shoes on 2023-02-10 with a new pair of Nike shoes.\n*   **Swimming:** Active swimmer who performs flip turns; currently in the market for a new swim cap.\n*   **Morning routine:** Wakes up at 6:30 am; currently working on breaking the habit of hitting the snooze button.\n*   **Political/Social outlook:** Expresses interest in the evolution of social democratic parties; values flexibility, adaptability, and responsiveness to feedback as essential components for social progress and justice.\n*   **Cycling accessories:** Recently acquired a new bike computer and a new pair of cycling shoes with clipless pedals.\n*   **Technical interests:** Demonstrates a keen interest in cybersecurity concepts (C-I-A Triad, digital signatures, threat vectors, password-cracking techniques) and distance learning technologies.\n*   **Travel/Loyalty:** Holds Chase Sapphire credit card; recently achieved MVP Gold status with Alaska Airlines (as of 2023-10-15).\n*   **Educational perspective:** Values video conferencing tools as a \"game-changer\" for remote learning and meetings, noting their importance during the pandemic.\n*   **Film interests:** Interested in exploring foreign cinema; has adopted MUBI as a preferred streaming service for independent, art-house, and international films.\n\n### Preferences and habits\n*   **Social activities:** Enjoys hosting group events, specifically fantasy football draft parties.\n*   **Inclusivity:** Prefers to plan events that cater to a diverse group of interests, including friends who are not fantasy football fans.\n*   **Entertainment:** Interested in incorporating interactive elements like squares pools and sports-themed trivia into social gatherings.\n*   **Cycling habits:** Regularly performs long rides on weekends, trail rides on the mountain bike, and daily commutes on the commuter bike. Uses Strava to track progress. Recently adopted clipless pedals for improved pedaling efficiency.\n*   **Yoga:** Interested in eco-friendly yoga mats; prefers the Manduka eKO SuperLite model.\n*   **Swimming gear preferences:** Interested in Speedo and TYR brands for swim caps, specifically looking for features like anti-fog coating and UV protection.\n*   **Morning habits:** \n    *   Adopting a 20-minute bodyweight circuit workout (squats, push-ups, lunges, planks, etc.).\n    *   Preparing breakfast (oatmeal with banana and honey) the night before to save time.\n*   **Travel preferences:** Prefers direct flights; interested in utilizing airline loyalty perks (priority boarding, lounge access, extra baggage).\n*   **Film preferences:** Interested in critically acclaimed and award-winning international cinema.\n\n### Ongoing situations and plans\n*   **Road trip:** Planning a 10-day road trip from San Francisco to New York City starting in November 2023.\n    *   **Cycling plans:** Intends to cycle for 3-4 days during the trip.\n    *   **Logistics:** Transporting four bikes; prioritizing accommodations with confirmed bike storage.\n    *   **Jackson Hole:** Planning to join a guided tour to explore challenging mountain bike trails.\n*   **Hawaii trip:** Planning a trip to Honolulu, Hawaii, for later in 2023.\n    *   **Flights:** Intends to fly Alaska Airlines from LAX to HNL; planning to redeem Chase Sapphire points via transfer to British Airways Executive Club (Avios) to book an award flight.\n    *   **Accommodation:** Researching hotels near Waikiki Beach; interested in The Royal Hawaiian, a Luxury Collection Resort.\n*   **Event planning:** Currently planning a fantasy football draft party for a group of approximately 10 people in Kansas City.\n*   **Trivia preparation:** Planning to create a sports trivia game for the party that includes a mix of general sports, NFL, Premier League, and European football questions, with specific questions about Manchester City.\n*   **Cycling goals:** \n    *   Training for a future \"century ride\" (100 miles).\n    *   Researching potential upgrades to carbon fiber wheels for the road bike.\n*   **Shopping:** \n    *   Planning to purchase a Manduka eKO SuperLite yoga mat.\n    *   Researching Speedo and TYR websites for swim caps with anti-fog and UV protection.\n*   **Routine goals:** Implementing strategies to stop hitting the snooze button, including potentially moving the alarm clock across the room or using the \"5-second rule.\"\n*   **Watchlist:** Adding \"Portrait of a Lady on Fire\" to watchlist; interested in exploring other acclaimed foreign films like \"Bacurau,\" \"Two of Us,\" \"The Disciple,\" and \"Another Round.\"\n\n### Changes over time\n*   **Location:** Now San Francisco Bay Area, since 2023-02-22; previously Kansas City.\n*   **Running shoes:** Replaced on 2023-02-10; previously had been putting off the purchase for months.\n*   **Cycling fleet:** Now owns four bikes (added hybrid bike, since 2023-10-10; previously three).\n*   **Cycling navigation:** Now uses a dedicated bike computer (since 2023-10-10; previously used a smartphone).\n*   **Travel status:** Achieved Alaska Airlines MVP Gold status as of 2023-10-15.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 26.5,
+  "total": 27.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

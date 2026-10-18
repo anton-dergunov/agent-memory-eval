@@ -1,0 +1,122 @@
+{
+ "qid": "cc5ded98",
+ "arm": "letta",
+ "split": "main",
+ "question": "How much time do I dedicate to coding exercises each day?",
+ "reference": "about two hours",
+ "question_date": "2023-06-13 01:30",
+ "sessions": [
+  {
+   "id": "ultrachat_361535",
+   "date": "2023-05-20 06:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_1",
+   "date": "2023-05-20 09:04",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_221540",
+   "date": "2023-05-21 10:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_110794",
+   "date": "2023-05-22 21:07",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pyK55Br_11",
+   "date": "2023-05-25 07:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_2",
+   "date": "2023-05-29 01:53",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_245905",
+   "date": "2023-06-05 11:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_176513",
+   "date": "2023-06-05 15:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_393019",
+   "date": "2023-06-10 02:03",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_YyyF8MF_0",
+   "date": "2023-06-12 13:21",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nUses Habitica and WakaTime to track coding progress. Uses the Pomodoro Technique to stay focused. Currently building a coding practice habit.\nCurrently practicing Python coding for one hour daily.\nPlans to first build a broad foundation in Python, then specialize in data science and machine learning.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on your current habits, you dedicate **one hour** to Python coding exercises each day.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nUses Habitica and WakaTime to track coding progress. Uses the Pomodoro Technique to stay focused. Currently building a coding practice habit.\nCurrently practicing Python coding for one hour daily.\nPlans to first build a broad foundation in Python, then specialize in data science and machine learning.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"how much time coding exercises each day\"})"
+  ],
+  "blocks_chars": 501,
+  "write_steps": 49,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 315.7,
+  "total": 325.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

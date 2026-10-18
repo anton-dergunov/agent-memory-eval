@@ -1,0 +1,108 @@
+{
+ "qid": "a1eacc2a",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many short stories have I written since I started writing regularly?",
+ "reference": "seven",
+ "question_date": "2023-06-20 17:03",
+ "sessions": [
+  {
+   "id": "sharegpt_TBa5HKM_0",
+   "date": "2023-04-25 16:51",
+   "evidence": false
+  },
+  {
+   "id": "fde0ca18",
+   "date": "2023-05-05 09:39",
+   "evidence": false
+  },
+  {
+   "id": "20d6c376_2",
+   "date": "2023-05-07 04:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_269248",
+   "date": "2023-05-20 04:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_1",
+   "date": "2023-05-23 18:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_87674",
+   "date": "2023-05-23 23:10",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_50429",
+   "date": "2023-05-25 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_2",
+   "date": "2023-05-30 08:43",
+   "evidence": true
+  },
+  {
+   "id": "09438306_2",
+   "date": "2023-06-09 09:30",
+   "evidence": false
+  },
+  {
+   "id": "521255f7_2",
+   "date": "2023-06-16 20:47",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T15:47:00.337378+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-20 17:03] How many short stories have I written since I started writing regularly?'}, {'timestamp': '2026-10-17T15:46:51.639670+00:00', 'time_ago': '11s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-30 08:43] What a great idea! Writing a memoir about your experiences with writing can be a fantastic way to reflect on your growth and progress. Since you\\'ve only been writing for three months, your memoir might be more of a \"mini-memoir\" or a reflective essay, but that\\'s perfectly fine! Here are some ideas for chapters or sections to get you started:\\n\\n1. **The Spark**: Describe the moment that inspired you to start writing regularly. What triggered your desire to write? Was it a particular event, person, or experience?\\n2. **The First Steps**: Recount your early days of writing, including any struggles or triumphs you faced. How did you establish a writing routine, and what challenges did you overcome?\\n3. **The 7-Story Sprint**: Since you\\'ve completed seven short stories in three months, you could dedicate a section to each story. Share the inspiration behind each piece, any challenges you faced while writing, and what you learned from the experience.\\n4. **Lessons Learned**: Reflect on the skills or techniques you\\'ve developed during your three months of writing. What did you learn about character development, plot structure, or writing style? How have you applied these lessons to your writing?\\n5. **The Power of Routine**: Discuss the importance of establishing a writing routine and how it has affected your productivity and creativity. Share tips and strategies for maintaining motivation and staying on track.\\n6. **Overcoming Obstacles**: Write about any obstacles you\\'ve faced during your writing journey, such as self-doubt, writer\\'s block, or time management issues. How did you overcome these challenges, and what did you learn from the experiences?\\n7. **The Role of Feedback**: If you\\'ve shared your work with others or received feedback, discuss the impact it had on your writing. How did you handle constructive criticism, and what did you learn from the feedback?\\n8. **The Writing Community**: If you\\'ve connected with other writers online or in-person, write about the importance of community in your writing journey. How have others supported or inspired you, and what have you learned from them?\\n9. **The Future of My Writing**: Conclude your memoir by reflecting on your goals and aspirations for your writing. What do you hope to achieve in the next three months, six months, or year? How will you continue to grow and develop as a writer?\\n\\nFeel free to add, remove, or modify these sections to fit your vision and writing style. Remember, your memoir is a personal reflection of your experiences, so be honest, authentic, and creative!'}, {'timestamp': '2026-10-17T15:46:51.639563+00:00', 'time_ago': '11s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-30 08:43] Congratulations on your writing progress! Completing seven short stories in three months is a remarkable achievement. Exploring non-linear narrative structures can add depth and complexity to your stories. Here are some book recommendations and authors known for their effective use of non-linear storytelling:\\n\\n1. **David Mitchell**: Mitchell\\'s novels often feature interconnected storylines that jump back and forth in time. Try \"Cloud Atlas\" or \"The Bone Clocks\".\\n2. **Jennifer Egan**: Egan\\'s \"A Visit from the Goon Squad\" is a great example of non-linear storytelling, featuring multiple narratives that intersect and overlap in unexpected ways.\\n3. **Michael Ondaatje**: Ondaatje\\'s \"The English Patient\" is a classic example of non-linear storytelling, weaving together multiple narratives and timelin",
+ "answer": "Since you started writing regularly three months ago, you have completed **7 short stories**. That is a wonderful achievement to have accomplished in such a short amount of time!",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"short stories written\"})",
+   "conversation_search({\"query\": \"short stories\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 28.9,
+  "total": 35.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

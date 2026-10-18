@@ -1,0 +1,96 @@
+{
+ "qid": "dfde3500",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+ "reference": "Wednesday",
+ "question_date": "2023-06-20 14:46",
+ "sessions": [
+  {
+   "id": "sharegpt_aDTlaiq_10",
+   "date": "2023-05-06 09:30",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_1",
+   "date": "2023-05-20 09:33",
+   "evidence": true
+  },
+  {
+   "id": "ad1c7ac6",
+   "date": "2023-05-25 06:53",
+   "evidence": false
+  },
+  {
+   "id": "ebe3b6bf_7",
+   "date": "2023-05-25 20:43",
+   "evidence": false
+  },
+  {
+   "id": "5c18cb32_2",
+   "date": "2023-05-27 16:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_2",
+   "date": "2023-05-28 05:19",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_435909",
+   "date": "2023-05-28 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_315184",
+   "date": "2023-05-30 22:18",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_92761",
+   "date": "2023-05-31 01:42",
+   "evidence": false
+  },
+  {
+   "id": "59c704ad_1",
+   "date": "2023-06-11 21:43",
+   "evidence": false
+  }
+ ],
+ "context": "You met with your previous language exchange tutor, Juan, on Wednesday evenings.",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:** The history chat states, \"You met with your previous language exchange tutor, Juan, on Wednesday evenings.\"\n2. **Reason over the information:** The text explicitly identifies the day of the week for the meetings as Wednesday.\n3. **Answer:** You met with your previous language exchange tutor, Juan, on Wednesdays.",
+ "dump": "- [explicit] user owns a leads generation company.\n- [explicit] user is associated with a company called Renewable Leads.\n- [explicit] user is associated with a company called Liminal Leads.\n- [explicit] user is associated with a company called Renewable Life.\n- [explicit] Liminal Leads is located at 1 Askew Cottages, Beaver Place, Worksop, S80 2ER.\n- [explicit] user is seeking information regarding GDPR and data protection compliance requirements.\n- [explicit] user attends a language exchange class at a local language school.\n- [explicit] Juan helps user with Spanish pronunciation and grammar.\n- [explicit] user is studying Spanish.\n- [explicit] user meets with Juan every Wednesday evening.\n- [explicit] user helps Juan with English vocabulary.\n- [explicit] user usually has dinner plans with friends on Thursdays.\n- [explicit] user has a language exchange class with a Colombian tutor named Juan.\n- [explicit] user wants to get more involved in the local theater scene.\n- [explicit] user attended a musical theater workshop at the community center approximately two weeks before 2023-05-25.\n- [explicit] user has been active in the local theater scene recently.\n- [explicit] user is searching for upcoming auditions or workshops related to local theater.\n- [explicit] user is interested in searching for auditions on Facebook and Twitter.\n- [explicit] user is interested in finding community theater productions and auditions.\n- [explicit] user plans to verify the source of audition postings before attending.\n- [explicit] user is considering reaching out to local directors or producers directly to inquire about upcoming auditions or productions.\n- [explicit] user plans to research production companies before attending auditions.\n- [explicit] user intends to reach out to local directors and producers directly to inquire about upcoming auditions or productions.\n- [explicit] user participated in a musical theater workshop at a community center.\n- [explicit] user has previous experience working with some local directors and producers.\n- [explicit] user has not tried watching Netflix on a different device or network.\n- [explicit] user listens to Phoebe Bridgers on Spotify.\n- [explicit] user is experiencing poor Netflix video quality.\n- [explicit] user has not seen any error messages or codes while experiencing Netflix issues.\n- [explicit] user uses a laptop to watch Netflix.\n- [explicit] user watches The Crown on Netflix.\n- [explicit] user connects their laptop to Netflix using a home Wi-Fi network.\n- [explicit] user watches The Office on Netflix.\n- [explicit] user has had to restart the Netflix app multiple times.\n- [explicit] user explores the Discover Weekly playlist on Spotify.\n- [explicit] user listens to indie and alternative playlists on Spotify.\n- [explicit] user is excited to discover new music.\n- [explicit] user is familiar with the artists Courtney Barnett and Sharon Van Etten.\n- [explicit] user has a Netflix issue to troubleshoot\n- [explicit] user intends to troubleshoot the Netflix issue on a different device connected to the same Wi-Fi network\n- [explicit] user intends to check out the music artists and songs recommended by the assistant\n- [explicit] user is planning a team outing for 10 colleagues.\n- [explicit] user is interested in outdoor games or activities that can fit into a half-day schedule.\n- [explicit] user is concerned about having enough time to organize a full-day event.\n- [explicit] user had a group chat with colleagues involving over 50 messages to plan the outing.\n- [explicit] user prefers the idea of outdoor games for the team outing.\n- [explicit] user thinks the Minute to Win It game sounds fun.\n- [explicit] user considers the Human Bingo game as a potentially better fit for user's team than the Minute to Win It game.\n- [explicit] user prefers a low-key, conversational atmosphere for user's team.\n- [explicit] user is concerned that the Minute to Win It game might be too loud and chaotic for user's team.\n- [explicit] user believes Human Bingo will be a good fit for user's team.\n- [explicit] user and user's team shared over 50 messages in a group chat to finalize details for an outing.\n- [explicit] user wants to capture photos to share on social media and commemorate the team outing.\n- [explicit] user is interested in making user's team outing more memorable and Instagram-worthy.\n- [explicit] user wants to use their group chat to share photos and updates from their team outing.\n- [explicit] user is planning a team outing.\n- [explicit] user has a language exchange session with a tutor named Maria.\n- [explicit] user wants to learn common Spanish phrases for shopping in Colombia.\n- [explicit] user is planning a trip to Colombia.\n- [explicit] user has a meeting with Maria on Thursday, June 1, 2023.\n- [explicit] user is planning to visit the Gold Museum in Bogotá.\n- [explicit] user is interested in knowing if the Gold Museum has exhibits regarding the history of the Spanish conquest.\n- [explicit] user has heard that the Gold Museum is a place to learn about the history of the Spanish conquest.\n- [explicit] user is looking for recommendations for nearby cafes or restaurants for a quick lunch or snack.\n- [explicit] user intends to visit the Plaza de Bolívar after visiting the Gold Museum.\n- [explicit] user plans to explore the streets surrounding the Plaza de Bolívar.\n- [explicit] user plans to purchase a snack at a cafe near the Plaza de Bolívar.\n- [explicit] user is interested in learning more about how to use Adobe Photoshop.\n- [explicit] user intends to create custom graphics and images for a website using Adobe Photoshop.\n- [explicit] user intends to experiment with the Artboards feature in Adobe Photoshop.\n- [explicit] user is seeking methods for developing unique designs.\n- [explicit] user wants to learn Adobe Photoshop.\n- [explicit] user is interested in advice on how to stay creative.\n- [explicit] user is interested in learning behind-the-scenes facts about the Cheers TV show set.\n- [explicit] user was unaware that Kirstie Alley was originally a guest star on the show Cheers.\n- [explicit] user was interested in knowing if any guest stars were considered for a recurring role on the show Cheers.\n- [explicit] user finds the ability of companies to use evaluations to create positive change impressive.\n- [explicit] user is interested in learning about the drawbacks or criticisms of company evaluation systems.\n- [explicit] user is interested in examples of companies that successfully used evaluations to initiate organizational change and improvement.\n- [explicit] user finds it interesting to observe how different companies approach evaluations to drive change.\n- [explicit] user is looking for new indie bands to listen to.\n- [explicit] user attended a concert by The Neighbourhood at the Fillmore in San Francisco during the week of June 4, 2023.\n- [explicit] user is a fan of the band The Neighbourhood.\n- [explicit] user already listens to Pale Waves.\n- [explicit] user already listens to Glass Animals.\n- [explicit] user is looking for music podcasts or YouTube channels to stay up-to-date on indie music releases and trends.\n- [explicit] user uses the Spotify Discover Weekly playlist to find music.\n- [explicit] user is interested in discovering new music festivals and venues\n- [explicit] user has a goal to attend at least one concert per month\n- [explicit] user listens to the Pitchfork podcast\n- [explicit] user resides in or near the Bay Area\n- [explicit] user intends to check out the recommended podcasts and YouTube channels\n- [explicit] user enjoys the Pitchfork podcast\n- [explicit] user listens to the All Songs Considered podcast\n- [explicit] user enjoys the All Songs Considered podcast\n- [explicit] user took a photo with Jesse Rutherford after a concert.\n- [explicit] user is planning to attend a concert at the Fox Theater in Oakland.\n- [explicit] user met the lead singer of The Neighbourhood, Jesse Rutherford, after a concert.\n- [explicit] user listened to The Neighbourhood's album 'I Love You.' on repeat before attending their concert.\n- [deductive] user has a keen interest in live music and music discovery.\n- [deductive] user is a fan of indie music.\n- [inductive] user has a strong personal interest in indie music, actively seeking out new music through discovery platforms like Spotify and media sources such as music podcasts.\n- [inductive] user is highly engaged with the live music scene, maintaining a consistent goal to attend concerts regularly and actively participating in concert-related experiences, such as meeting performers.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 103.4,
+  "total": 105.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

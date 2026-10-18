@@ -1,0 +1,100 @@
+{
+ "qid": "ed4ddc30",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+ "reference": "20",
+ "question_date": "2023-03-16 14:24",
+ "sessions": [
+  {
+   "id": "ultrachat_342966",
+   "date": "2022-12-26 00:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_1",
+   "date": "2023-01-11 23:15",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_28013",
+   "date": "2023-01-23 04:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fwY67m3_0",
+   "date": "2023-02-19 17:20",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_421094",
+   "date": "2023-02-26 16:09",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_76206",
+   "date": "2023-03-01 01:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436945",
+   "date": "2023-03-06 11:49",
+   "evidence": false
+  },
+  {
+   "id": "63c75b13_2",
+   "date": "2023-03-08 19:55",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_35Datf2_27",
+   "date": "2023-03-09 19:42",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_2",
+   "date": "2023-03-15 08:18",
+   "evidence": true
+  }
+ ],
+ "context": "- User has a large surplus of fresh eggs, currently stocking 30 dozen in their refrigerator. (from a chat on 2023-01-11)\n- User has a large surplus of 20 dozen fresh eggs stored in their refrigerator. (from a chat on 2023-03-15)\n- User was advised to store eggs in a cool, dry place (40-50°F), refrigerate below 40°F, store pointed end down, avoid washing before storage, and use a first-in, first-out method to maintain freshness. (from a chat on 2023-03-15)\n- User was provided with a classic egg salad recipe and advised that it can be frozen for up to 3 months to help manage their large egg supply. (from a chat on 2023-01-11)\n- User is interested in using their fresh eggs and goat milk to make breakfast dishes and was provided with eight recipe ideas, including goat milk pancakes, eggs en cocotte, and breakfast strata. (from a chat on 2023-01-11)\n- User plans to make a spinach and feta quiche for dinner using fresh eggs from their coop. (from a chat on 2023-03-15)\n- User plans to start their cheese-making journey with fresh chevre and was provided with storage tips, including keeping it refrigerated and away from strong-smelling foods, as well as freezing instructions for long-term storage. (from a chat on 2023-01-11)\n- User owns goats named Billy and Nibbles and is interested in learning how to make cheese from their milk. (from a chat on 2023-03-15)\n- User plans to build a predator-proof fence around their chicken coop this weekend to protect against raccoons and foxes. (from a chat on 2023-03-15)\n- User is interested in starting beekeeping to assist with pollination on their farm. (from a chat on 2023-03-15)\n- User was informed that freezing bread is an effective way to extend its shelf life by slowing moisture migration, with recommendations to wrap it tightly and consume it within a few days of thawing. (from a chat on 2023-01-23)\n- User decided to start making cheese with their goat milk using a ricotta recipe and was provided with various ways to use it, such as in lasagna, cannoli, ravioli, or cheesecake. (from a chat on 2023-01-11)\n- User is dealing with mite and fly infestations in their chicken coop. (from a chat on 2023-03-15)\n- User learned that breads with higher fat and gluten content generally have a longer shelf life, though artisanal breads may still spoil quickly due to a lack of preservatives. (from a chat on 2023-01-23)\n- User was advised to consider fiber content, nutritional value, taste preferences, price, and freshness indicators when selecting bread. (from a chat on 2023-01-23)\n- User was advised that bread durability is influenced by water, sugar, fat, and gluten content, as well as the presence of preservatives, crust thickness, and texture. (from a chat on 2023-01-23)\n- User was advised to start beekeeping by researching local regulations, joining a beekeeping community, acquiring proper equipment like a hive and protective suit, and starting with one or two hives. (from a chat on 2023-03-15)\n- User was advised to manage coop pests through regular cleaning, using diatomaceous earth or pyrethrin powder for mites, installing screens and fans for flies, and maintaining good ventilation. (from a chat on 2023-03-15)\n- User successfully skied down a beginner's slope without falling on January 17, 2023. (from a chat on 2023-03-08)\n- User was advised to use hardware cloth (1/2 or 1/4 inch mesh), bury the fence 12 inches deep, and ensure it is at least 3 feet high to effectively deter predators. (from a chat on 2023-03-15)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   On 2023-01-11, the user had 30 dozen eggs.\n    *   On 2023-03-15, the user had 20 dozen eggs.\n\n2.  **Reason over the information:**\n    *   The most recent information regarding the user's egg stock is from the chat on 2023-03-15, which states the user has 20 dozen fresh eggs stored in their refrigerator.\n    *   Since today is 2023-03-16, the information from yesterday (2023-03-15) is the most current record available.\n\n3.  **Conclusion:**\n    *   The user currently has 20 dozen eggs stocked in their refrigerator.",
+ "dump": "- User was recommended the Ridgeview Loop Trail, a 2.5-mile loop with 150 feet of elevation gain, featuring scenic views, a stream, and a lake. (session 2023-03-08)\n- User was provided with a list of popular cruise spa treatments, including Swedish, deep-tissue, hot-stone, and aromatherapy massages, as well as facials and body wraps. (session 2023-03-06)\n- User is preparing their child with ADHD for the transition to middle school in the upcoming academic year (starting fall 2023). (session 2023-02-26)\n- Assistant clarified that evolution is influenced by multiple mechanisms beyond natural selection, including genetic drift, mutation, and gene flow, which collectively contribute to Earth's biodiversity. (session 2022-12-26)\n- User is interested in transitioning from winter sports like skiing to spring outdoor activities, specifically hiking. (session 2023-03-08)\n- User learned that breads with higher fat and gluten content generally have a longer shelf life, though artisanal breads may still spoil quickly due to a lack of preservatives. (session 2023-01-23)\n- User was provided with specific assertive phrases to use in power imbalance situations, such as requesting to be heard, setting boundaries on communication style, and focusing on collaborative solutions. (session 2023-03-01)\n- User plans to make a spinach and feta quiche for dinner using fresh eggs from their coop. (session 2023-03-15)\n- User plans to start their cheese-making journey with fresh chevre and was provided with storage tips, including keeping it refrigerated and away from strong-smelling foods, as well as freezing instructions for long-term storage. (session 2023-01-11)\n- User was advised to manage coop pests through regular cleaning, using diatomaceous earth or pyrethrin powder for mites, installing screens and fans for flies, and maintaining good ventilation. (session 2023-03-15)\n- User was recommended various spring outdoor activities including hiking, kayaking, cycling, rock climbing, picnicking, geocaching, birdwatching, disc golf, star gazing, and gardening. (session 2023-03-08)\n- User was advised to use hardware cloth (1/2 or 1/4 inch mesh), bury the fence 12 inches deep, and ensure it is at least 3 feet high to effectively deter predators. (session 2023-03-15)\n- User is planning a cruise and requested advice on avoiding seasickness and recommendations for onboard activities. (session 2023-03-06)\n- User learned that Pakistan has won a total of four Olympic gold medals in field hockey, with victories occurring in 1960, 1968, 1984, and 1992. (session 2023-02-19)\n- User has a child with ADHD and is seeking strategies to support them, particularly regarding school transitions and academic success. (session 2023-02-26)\n- User inquired about the process of evolution through natural selection, its mechanisms, and examples such as peppered moths, Galapagos finches, and antibiotic resistance. (session 2022-12-26)\n- User was advised that bread durability is influenced by water, sugar, fat, and gluten content, as well as the presence of preservatives, crust thickness, and texture. (session 2023-01-23)\n- User is interested in using their fresh eggs and goat milk to make breakfast dishes and was provided with eight recipe ideas, including goat milk pancakes, eggs en cocotte, and breakfast strata. (session 2023-01-11)\n- User was provided with directions to the Ridgeview Loop Trailhead, which is located near the park's visitor center, accessible by walking, driving, or public transit. (session 2023-03-08)\n- Assistant explained that natural selection is a passive, non-conscious process driven by environmental pressures and available genetic variation, rather than a goal-oriented mechanism. (session 2022-12-26)\n- User was advised to store eggs in a cool, dry place (40-50°F), refrigerate below 40°F, store pointed end down, avoid washing before storage, and use a first-in, first-out method to maintain freshness. (session 2023-03-15)\n- User was recommended strategies to avoid seasickness on a cruise, including choosing a mid-ship cabin near the waterline, keeping eyes on the horizon, limiting alcohol, eating light meals, staying hydrated, and consulting a doctor about motion sickness medication. (session 2023-03-06)\n- User was provided with a checklist for touring a middle school with their child, including locating classrooms and lockers, understanding the lunchroom routine, reviewing schedules and school rules, and meeting key staff members. (session 2023-02-26)\n- User was advised on middle school transition strategies, including early discussions, touring the school, meeting staff, developing communication plans, fostering independence, and establishing consistent home routines. (session 2023-02-26)\n- User was provided with general ADHD management tips for parents, including establishing routines, breaking down tasks, encouraging physical activity, and seeking professional support. (session 2023-02-26)\n- User inquired about the value and types of spa services available on cruise ships, including massages, facials, body wraps, and thermal suites. (session 2023-03-06)\n- User was recommended various activities for children with ADHD, such as sports, art, outdoor exploration, organization tasks, mindfulness exercises, and music. (session 2023-02-26)\n- User decided to start making cheese with their goat milk using a ricotta recipe and was provided with various ways to use it, such as in lasagna, cannoli, ravioli, or cheesecake. (session 2023-01-11)\n- User was provided with a beginner-friendly recipe for Chevre goat cheese, including steps for pasteurization, adding cultures and rennet, cutting curds, and draining. (session 2023-03-15)\n- User was informed that freezing bread is an effective way to extend its shelf life by slowing moisture migration, with recommendations to wrap it tightly and consume it within a few days of thawing. (session 2023-01-23)\n- User is interested in starting beekeeping to assist with pollination on their farm. (session 2023-03-15)\n- User successfully skied down a beginner's slope without falling on January 17, 2023. (session 2023-03-08)\n- User is seeking advice on managing communication and emotions when dealing with workplace harassment or bullying situations involving power imbalances. (session 2023-03-01)\n- User was informed that common over-the-counter motion sickness medications include Dramamine and Bonine, though they should consult a doctor or pharmacist before use. (session 2023-03-06)\n- User has a large surplus of fresh eggs, currently stocking 30 dozen in their refrigerator. (session 2023-01-11)\n- User was advised to start beekeeping by researching local regulations, joining a beekeeping community, acquiring proper equipment like a hive and protective suit, and starting with one or two hives. (session 2023-03-15)\n- User was advised on communication techniques for power imbalances, including active listening, empathetic communication, non-judgmental language, collaborative problem-solving, and assertive communication. (session 2023-03-01)\n- User was provided with a comprehensive list of hiking essentials, including proper footwear, moisture-wicking clothing, layering techniques, and safety gear like a first-aid kit, map, and navigation tools. (session 2023-03-08)\n- User was advised to consider fiber content, nutritional value, taste preferences, price, and freshness indicators when selecting bread. (session 2023-01-23)\n- User is dealing with mite and fly infestations in their chicken coop. (session 2023-03-15)\n- User has a large surplus of 20 dozen fresh eggs stored in their refrigerator. (session 2023-03-15)\n- User questioned whether natural selection always results in positive changes for a species, leading to a discussion on how it is a passive process that can sometimes result in harmful traits or extinction. (session 2022-12-26)\n- User expressed skepticism about the purpose of natural selection, perceiving it as potentially pointless if it can lead to negative outcomes. (session 2022-12-26)\n- User was recommended resources for parents of children with ADHD, including Understood.org, CDC's 'Learn the Signs. Act Early.', the ADHD Parenting Coach app, and mindfulness/behavioral apps like Headspace, Calm, Impulse Control, Tally, and Focus. (session 2023-02-26)\n- User plans to build a predator-proof fence around their chicken coop this weekend to protect against raccoons and foxes. (session 2023-03-15)\n- User was provided with a classic egg salad recipe and advised that it can be frozen for up to 3 months to help manage their large egg supply. (session 2023-01-11)\n- User plans to hike in a local park they previously visited for fall foliage walks, which is approximately a one-hour walk from their home. (session 2023-03-08)\n- Assistant detailed ZipRecruiter's employer branding tools, which include company profiles, employer reviews, customized job listing branding, video job descriptions, and employee testimonials to help companies attract talent. (session 2023-03-09)\n- User was advised on emotional management strategies for workplace harassment, including taking breaks, practicing self-care, seeking support, reframing negative thoughts, and documenting incidents. (session 2023-03-01)\n- Assistant explained that ZipRecruiter's growth is driven by its ease of use, wide reach through a network of job boards, an AI-powered matching algorithm, competitive pricing, and significant marketing investment. (session 2023-03-09)\n- User is exploring features and networking opportunities for job board applications, specifically researching how platforms like LinkedIn, Glassdoor, Indeed, Monster, and ZipRecruiter function. (session 2023-03-09)\n- User was advised on how to collaborate with teachers regarding their child's ADHD, including scheduling meetings, being specific about challenges, sharing successful past accommodations, and maintaining ongoing communication. (session 2023-02-26)\n- User owns goats named Billy and Nibbles and is interested in learning how to make cheese from their milk. (session 2023-03-15)\n- User learned that Pakistan won its first Olympic gold medal in field hockey at the 1960 Rome Olympics, defeating India 1-0 in the final. (session 2023-02-19)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 54,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 31.8,
+  "total": 33.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "qid": "d7c942c3",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Is my mom using the same grocery list method as me?",
+ "reference": "Yes.",
+ "question_date": "2023-05-14 09:58",
+ "sessions": [
+  {
+   "id": "answer_eecb10d9_1",
+   "date": "2023-03-11 12:42",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_mz7Bb7a_0",
+   "date": "2023-03-20 09:59",
+   "evidence": false
+  },
+  {
+   "id": "89f71a1b",
+   "date": "2023-03-25 19:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_552063",
+   "date": "2023-03-31 13:47",
+   "evidence": false
+  },
+  {
+   "id": "4e70b8fd",
+   "date": "2023-04-04 16:36",
+   "evidence": false
+  },
+  {
+   "id": "ddf0f116_3",
+   "date": "2023-04-06 04:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1ISfZDn_0",
+   "date": "2023-04-10 22:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_104389",
+   "date": "2023-04-23 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_eecb10d9_2",
+   "date": "2023-04-30 20:09",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_1MKqbAt_0",
+   "date": "2023-05-09 02:30",
+   "evidence": false
+  }
+ ],
+ "context": "- The user's mom is not using the grocery list app and still uses a paper list. (valid since 2023-03-11)\n- The user is using a grocery list app to track ingredients. (valid since 2023-03-11)\n- The user is using the Doms-MBP.local device. (valid since 2023-03-20)\n- The user is considering purchasing a coffee grinder. (valid since 2023-04-04)\n- The user is planning to prepare cauliflower gnocchi as a side dish for their dinner party. (valid since 2023-03-11)\n- The assistant recommends using Google DNS as a troubleshooting step for network connectivity issues. (valid since 2023-03-20)\n- The assistant suggests Pesto Sauce as an alternative sauce for the cauliflower gnocchi. (valid since 2023-03-11)\n- The assistant recommends using Cloudflare DNS as a troubleshooting step for network connectivity issues. (valid since 2023-03-20)\n- The user plans to visit the transit agency's website to check purchasing options and prices for a monthly train pass. (valid since 2023-04-04)\n- The assistant suggests Creamy Garlic Sauce as an alternative sauce for the cauliflower gnocchi. (valid since 2023-03-11)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The user is using a grocery list app to track ingredients (valid since 2023-03-11).\n*   The user's mom is not using the grocery list app and still uses a paper list (valid since 2023-03-11).\n\n**2. Reason over the information:**\n*   The user's method is a digital grocery list app.\n*   The mom's method is a physical paper list.\n*   Since the user uses an app and the mom uses paper, they are using different methods.\n\n**Answer:**\nNo, your mom is not using the same grocery list method as you. You use a grocery list app, while your mom uses a paper list.",
+ "dump": "- The user is planning to prepare cauliflower gnocchi as a side dish for their dinner party. (valid since 2023-03-11)\n- The user is using a grocery list app to track ingredients. (valid since 2023-03-11)\n- The user's mom is not using the grocery list app and still uses a paper list. (valid since 2023-03-11)\n- The assistant recommends a Brown Butter Sage Sauce for the cauliflower gnocchi. (valid since 2023-03-11)\n- The assistant suggests Marinara Sauce as an alternative sauce for the cauliflower gnocchi. (valid since 2023-03-11)\n- The assistant suggests Pesto Sauce as an alternative sauce for the cauliflower gnocchi. (valid since 2023-03-11)\n- The assistant suggests Creamy Garlic Sauce as an alternative sauce for the cauliflower gnocchi. (valid since 2023-03-11)\n- The user intends to use the Brown Butter Sage Sauce with their cauliflower gnocchi. (valid since 2023-03-11)\n- The latencytest.fra02.nvidia.com server is located in Frankfurt, Germany. (valid since 2023-03-20)\n- The latencytest.dub1.nvidia.com server is located in Dublin, Ireland. (valid since 2023-03-20)\n- The user is using the Doms-MBP.local device. (valid since 2023-03-20)\n- The assistant recommends using Google DNS as a troubleshooting step for network connectivity issues. (valid since 2023-03-20)\n- The assistant recommends using Cloudflare DNS as a troubleshooting step for network connectivity issues. (valid since 2023-03-20)\n- The assistant provides information about the upscale Chinese restaurant Hakkasan which serves contemporary Chinese cuisine including seafood, meat, and vegetarian options. (valid since 2023-03-25)\n- Hakkasan offers Roasted silver cod with champagne and honey as a signature dish. (valid since 2023-03-25)\n- Hakkasan offers Grilled Wagyu ribeye with Szechuan pepper and cognac as a signature dish. (valid since 2023-03-25)\n- Hakkasan offers a Steamed dim sum platter as a signature dish. (valid since 2023-03-25)\n- Hakkasan offers Cantonese-style roast goose as a small eat. (valid since 2023-03-25)\n- Hakkasan offers Grilled pork belly with pickled carrots and daikon as a small eat. (valid since 2023-03-25)\n- Hakkasan offers Edamame and mushroom dumplings as a small eat. (valid since 2023-03-25)\n- Hakkasan offers Wonton noodle soup as a soup or salad option. (valid since 2023-03-25)\n- Hakkasan offers Spicy Szechuan hot and sour soup as a soup or salad option. (valid since 2023-03-25)\n- Hakkasan offers Crispy duck salad as a soup or salad option. (valid since 2023-03-25)\n- Hakkasan offers Stir-fried noodles with seafood and vegetables as a main course. (valid since 2023-03-25)\n- Hakkasan offers Kung Po chicken with peanuts and chili peppers as a main course. (valid since 2023-03-25)\n- Hakkasan offers Pan-seared scallops with XO sauce and microgreens as a main course. (valid since 2023-03-25)\n- Hakkasan offers the Hakkasan Mule as a signature cocktail. (valid since 2023-03-25)\n- Hakkasan offers the Lychee Martini as a signature cocktail. (valid since 2023-03-25)\n- The assistant recommends using the Fontainebleau's website to book reservations at Hakkasan. (valid since 2023-03-25)\n- Macklemore performed on the song Can't Hold Us. (valid since 2023-03-31)\n- Ryan Lewis performed on the song Can't Hold Us. (valid since 2023-03-31)\n- Ray Dalton performed on the song Can't Hold Us. (valid since 2023-03-31)\n- Black Eyed Peas performed on the song I Gotta Feeling. (valid since 2023-03-31)\n- Survivor performed on the song Eye of the Tiger. (valid since 2023-03-31)\n- Avicii performed on the song Levels. (valid since 2023-03-31)\n- Missy Elliott performed on the song Lose Control. (valid since 2023-03-31)\n- Ciara performed on the song Lose Control. (valid since 2023-03-31)\n- Fatman Scoop performed on the song Lose Control. (valid since 2023-03-31)\n- The Weeknd performed on the song Starboy. (valid since 2023-03-31)\n- Daft Punk performed on the song Starboy. (valid since 2023-03-31)\n- David Guetta performed on the song Titanium. (valid since 2023-03-31)\n- Sia performed on the song Titanium. (valid since 2023-03-31)\n- Ariana Grande performed on the song Dangerous Woman. (valid since 2023-03-31)\n- Van Halen performed on the song Jump. (valid since 2023-03-31)\n- Mark Ronson performed on the song Uptown Funk. (valid since 2023-03-31)\n- Bruno Mars performed on the song Uptown Funk. (valid since 2023-03-31)\n- The assistant recommended the AmazonBasics Single-Serve Coffee Maker as an affordable coffee maker option under $50. (valid since 2023-04-04)\n- The assistant suggested the Baratza Encore as a popular, entry-level burr coffee grinder. (valid since 2023-04-04)\n- The assistant suggested the Cuisinart DBM-8 as a budget-friendly electric burr coffee grinder with 18 settings. (valid since 2023-04-04)\n- The assistant suggested the Hario Mini Mill as a portable and compact manual burr coffee grinder. (valid since 2023-04-04)\n- The user is considering purchasing a coffee grinder. (valid since 2023-04-04)\n- The user plans to visit the transit agency's website to check purchasing options and prices for a monthly train pass. (valid since 2023-04-04)\n- The user has an existing United account that holds frequent flyer miles. (valid since 2023-04-06)\n- The user is considering applying for a new credit card that offers bonus miles on United Airlines. (valid since 2023-04-06)\n- The credit card offers bonus miles that can be deposited into the user's existing United Airlines MileagePlus account. (valid since 2023-04-06)\n- United Airlines offers a chicken sandwich as an in-flight meal option. (valid since 2023-04-06)\n- United Airlines offers a breakfast burrito as an in-flight meal option. (valid since 2023-04-06)\n- United Airlines offers a chicken Caesar salad as an in-flight meal option. (valid since 2023-04-06)\n- The user requested an experienced Bible scholar to provide a detailed and practical explanation of James 1:19 to 1:27. (valid since 2023-04-10)\n- The user requested the explanation of James 1:19 to 1:27 to be strictly based on the MacArthur NASB Study Bible. (valid since 2023-04-10)\n- The user requested the explanation of James 1:19 to 1:27 to be strictly based on the ESV Study Bible. (valid since 2023-04-10)\n- The assistant provides a detailed exposition of James 1:19-27 verse by verse. (valid since 2023-04-10)\n- The assistant strictly uses the MacArthur NASB Study Bible as a source for its explanation. (valid since 2023-04-10)\n- The assistant strictly uses the ESV Study Bible by Crossway as a source for its explanation. (valid since 2023-04-10)\n- Brown butter sage sauce pairs well with cauliflower gnocchi. (valid since 2023-04-30)\n- Brown butter sage sauce contains fresh sage leaves. (valid since 2023-04-30)\n- Brown butter sage sauce can be topped with grated Parmesan cheese. (valid since 2023-04-30)\n- Brown butter sage sauce can include garlic for added flavor. (valid since 2023-04-30)\n- Brown butter sage sauce can include shallots for added flavor. (valid since 2023-04-30)\n- Brown butter sage sauce can be made creamier by using ricotta cheese as a variation. (valid since 2023-04-30)\n- Brown butter sage sauce can be made creamier by using goat cheese as a variation. (valid since 2023-04-30)\n- Cauliflower gnocchi is prepared with the addition of reserved pasta water when making the sauce. (valid since 2023-04-30)\n- Cronus Zen is used to provide scripts with mods for Call of Duty Mobile. (valid since 2023-05-09)\n- The Cronus Zen script for Call of Duty Mobile is compatible with the Xbox One controller. (valid since 2023-05-09)\n- The ESV Study Bible was published by Crossway. (date unknown)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 75,
+  "invalidated": 0,
+  "episodes": 18,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 136.1,
+  "total": 137.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

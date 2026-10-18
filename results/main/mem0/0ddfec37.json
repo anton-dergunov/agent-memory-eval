@@ -1,0 +1,100 @@
+{
+ "qid": "0ddfec37",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+ "reference": "15",
+ "question_date": "2024-01-08 09:27",
+ "sessions": [
+  {
+   "id": "sharegpt_P4sav72_0",
+   "date": "2023-07-03 12:38",
+   "evidence": false
+  },
+  {
+   "id": "3422786d_2",
+   "date": "2023-07-07 04:17",
+   "evidence": false
+  },
+  {
+   "id": "60f9246d",
+   "date": "2023-07-09 20:11",
+   "evidence": false
+  },
+  {
+   "id": "answer_a22b654d_1",
+   "date": "2023-07-11 14:38",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cXkL3cR_45",
+   "date": "2023-10-04 08:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_gWIeryu_0",
+   "date": "2023-11-16 07:06",
+   "evidence": false
+  },
+  {
+   "id": "2878574e",
+   "date": "2023-12-09 01:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_GKjb2be_0",
+   "date": "2023-12-22 12:42",
+   "evidence": false
+  },
+  {
+   "id": "answer_a22b654d_2",
+   "date": "2023-12-30 02:28",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_139747",
+   "date": "2024-01-08 13:17",
+   "evidence": false
+  }
+ ],
+ "context": "- User collects autographed baseballs and has acquired 15 of them in the last three months, including a signed Mike Trout baseball obtained around July 4, 2023. (from a chat on 2023-07-11)\n- User added 20 autographed baseballs to their collection in the past few months, bringing their total to 35 autographed baseballs as of December 2023. (from a chat on 2023-12-30)\n- User is considering selling some of their autographed baseballs and was advised to use authentication services like PSA or JSA and platforms like eBay, Heritage Auctions, or Lelands to determine value. (from a chat on 2023-12-30)\n- User is interested in collecting error coins and was provided with resources to find local coin shows, including the American Numismatic Association website, CoinWeek, and local dealer inquiries. (from a chat on 2023-07-11)\n- User is looking to expand their vinyl record collection with international pressings, specifically rare records from Japan, and was provided with resources like Discogs, Jet Set Records, and Disk Union. (from a chat on 2023-07-11)\n- The assistant recommended unique shopping experiences in Lichfield, including the Lichfield Farmers Market, Curborough Countryside Centre, the Lichfield Antiques & Collectables Fair, the Lichfield Reclamation Yard, and The Big Red Bus Shop. (from a chat on 2024-01-08)\n- User is seeking information on upcoming sports memorabilia auctions in their city and was advised to check online marketplaces like eBay, Heritage Auctions, Lelands, and SCP Auctions, as well as local auction houses and collector forums. (from a chat on 2023-12-30)\n- User was provided with resources to find MLB player statistics, including MLB.com, ESPN.com, and various sports news websites, as the assistant does not have real-time access to current stats. (from a chat on 2023-07-11)\n- User is planning to attend a stamp show in the next quarter and was provided with resources to locate exhibitions, such as the American Philatelic Society calendar and local stamp clubs. (from a chat on 2023-07-11)\n- User is planning a sports-themed party and is considering hosting a BBQ as the main food option. (from a chat on 2023-07-09)\n- User is a fan of the Manchester City football club and is planning to host a game-day party at their home to watch a match. (from a chat on 2023-07-09)\n- User was recommended resources for error coin research including PCGS, NGC, CoinWeek, 'The Error Coin Encyclopedia' by Fred Weinberg, and the 'Cherrypickers' Guide to Rare Die Varieties'. (from a chat on 2023-12-30)\n- User is considering selling some of their vinyl records and was recommended platforms like Discogs, eBay, MusicStack, and Reverb LP, along with advice to visit local record stores and check price guides. (from a chat on 2023-12-30)\n- User is looking for a new lens for their vintage Leica camera and requested resources for learning about camera lenses and photography. (from a chat on 2023-12-30)\n- The assistant provided multiple technical approaches for creating an MP4 screensaver, including PowerShell registry modifications, C# code for a custom .scr file, and a Python script using pywinauto to automate interaction with Windows Screen Saver settings. (from a chat on 2023-12-22)\n- User was recommended history and anthropology books including 'Guns, Germs, and Steel' by Jared Diamond, 'A Short History of Nearly Everything' by Bill Bryson, and 'The Yanomamo' by Napoleon Chagnon. (from a chat on 2023-12-09)\n- User is developing a C# .NET application to generate UPC-A barcodes using the BarcodeLib library. (from a chat on 2023-11-16)\n- User is planning to sell vintage cameras, including a Leica, and was recommended platforms like eBay, Fred Miranda, and Rangefinder Forum. (from a chat on 2023-07-11)\n- User was advised that including original lenses and accessories with their Leica camera listing on Fred Miranda and Rangefinder Forum can increase the sale value by enhancing completeness, convenience, and authenticity. (from a chat on 2023-07-11)\n- Best practices for accordion components include using clear labels, grouping related content, limiting item counts, providing visual state indicators, and testing with users. (from a chat on 2023-07-03)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   From the chat on 2023-07-11: The user stated they have acquired 15 autographed baseballs in the \"last three months.\"\n*   From the chat on 2023-12-30: The user stated they added 20 autographed baseballs in the \"past few months,\" bringing their total to 35.\n\n**Step 2: Reason over the information**\n*   The user's first mention of their collection progress was on 2023-07-11, where they explicitly stated they had acquired 15 autographed baseballs over the preceding three-month period.\n*   The subsequent information from 2023-12-30 refers to a later period of time (adding 20 more to reach a total of 35).\n*   Therefore, the number of autographed baseballs added in the first three months of collecting is 15.\n\n**Answer:**\nYou added 15 autographed baseballs to your collection in the first three months.",
+ "dump": "- The accordion component is recommended for managing large amounts of content in limited space, featuring a header, content area, and expansion indicator. (session 2023-07-03)\n- User understands the importance of finding a reputable tuner with specific experience in the GTX2867R and their vehicle model to perform the installation and dyno tuning process. (session 2023-07-07)\n- User was advised that installing a GTX2867R turbocharger requires supporting modifications such as upgraded engine internals, fueling system, cooling system, and transmission components, followed by a professional dyno tune. (session 2023-07-07)\n- The assistant recommended unique shopping experiences in Lichfield, including the Lichfield Farmers Market, Curborough Countryside Centre, the Lichfield Antiques & Collectables Fair, the Lichfield Reclamation Yard, and The Big Red Bus Shop. (session 2024-01-08)\n- User added 20 autographed baseballs to their collection in the past few months, bringing their total to 35 autographed baseballs as of December 2023. (session 2023-12-30)\n- User is planning a sports-themed party and is considering hosting a BBQ as the main food option. (session 2023-07-09)\n- Best practices for accordion components include using clear labels, grouping related content, limiting item counts, providing visual state indicators, and testing with users. (session 2023-07-03)\n- The assistant suggested modern attractions in Lichfield such as Beacon Park, the Garrick Theatre, and the South Staffordshire Railway Walk. (session 2024-01-08)\n- User is looking to print generated UPC-A barcode PNG images using a Zebra printer. (session 2023-11-16)\n- Recommended resources for accordion design best practices include articles from UX Design, Nielsen Norman Group, and Smashing Magazine. (session 2023-07-03)\n- User owns a modified Honda Civic and recently achieved a personal best quarter-mile drag race time of 12.8 seconds at the Turbocharged Tuesday event at their local racing circuit. (session 2023-07-07)\n- User was provided with a list of reputable turbocharger brands for Honda engines: Garrett, BorgWarner, Precision, Turbonetics, and HKS. (session 2023-07-07)\n- The assistant provided information on Lichfield's 2011 census demographics, cultural festivals like the Lichfield Festival and Literary Festival, and historic landmarks including Lichfield Cathedral and the Samuel Johnson Birthplace Museum. (session 2024-01-08)\n- The Garrett GTX2867R turbocharger features a ball-bearing design, 54.4mm compressor inducer, 67.7mm exducer, and is capable of 600-700 HP, offering fast spooling and high efficiency for modified Honda Civics. (session 2023-07-07)\n- User was provided with a C# code example using BarcodeLib to generate a UPC-A barcode and save it as a PNG file. (session 2023-11-16)\n- User enjoys educational podcasts during their daily commute, specifically 'How I Built This' and 'Stuff You Should Know'. (session 2023-12-09)\n- User acquired a 1943 Lincoln Wheat Cent with a copper planchet error and is seeking resources to learn more about it. (session 2023-12-30)\n- User was recommended resources for error coin research including PCGS, NGC, CoinWeek, 'The Error Coin Encyclopedia' by Fred Weinberg, and the 'Cherrypickers' Guide to Rare Die Varieties'. (session 2023-12-30)\n- User was recommended photography resources including Digital Photography School, The Phoblographer, LensRentals, the Leica Forum, and books by Ansel Adams and Rudolf Kingslake. (session 2023-12-30)\n- User is considering selling some of their vinyl records and was recommended platforms like Discogs, eBay, MusicStack, and Reverb LP, along with advice to visit local record stores and check price guides. (session 2023-12-30)\n- User is planning to attend a stamp show in the next quarter and was provided with resources to locate exhibitions, such as the American Philatelic Society calendar and local stamp clubs. (session 2023-07-11)\n- User recently finished reading 'Sapiens' and is interested in further exploring history and anthropology through books, podcasts, and YouTube channels. (session 2023-12-09)\n- User is working on design system documentation for an accordion component, covering usage, anatomy, placement, content, and interaction states. (session 2023-07-03)\n- User is looking to expand their vinyl record collection with international pressings, specifically rare records from Japan, and was provided with resources like Discogs, Jet Set Records, and Disk Union. (session 2023-07-11)\n- User collects autographed baseballs and has acquired 15 of them in the last three months, including a signed Mike Trout baseball obtained around July 4, 2023. (session 2023-07-11)\n- User is planning to sell vintage cameras, including a Leica, and was recommended platforms like eBay, Fred Miranda, and Rangefinder Forum. (session 2023-07-11)\n- User is planning to upgrade their Honda Civic with a Garrett GTX2867R turbocharger to improve their quarter-mile drag race performance. (session 2023-07-07)\n- User was advised that including original lenses and accessories with their Leica camera listing on Fred Miranda and Rangefinder Forum can increase the sale value by enhancing completeness, convenience, and authenticity. (session 2023-07-11)\n- User was recommended Manchester City-themed snacks including blue and white nachos, Manchester muffins, Citizen's chicken wings, Etihad Stadium sliders, and The Kippax kebabs. (session 2023-07-09)\n- User is a fan of the Manchester City football club and is planning to host a game-day party at their home to watch a match. (session 2023-07-09)\n- User was recommended several performance upgrades for their turbocharged Honda Civic, including a high-performance downpipe and exhaust, intercooler, engine management system tune, lightweight wheels, suspension, brakes, air intake, and fueling system upgrades. (session 2023-07-07)\n- User was recommended history and anthropology books including 'Guns, Germs, and Steel' by Jared Diamond, 'A Short History of Nearly Everything' by Bill Bryson, and 'The Yanomamo' by Napoleon Chagnon. (session 2023-12-09)\n- The assistant outlined ways to engage in remembrance, including sharing stories with friends and family, dedicating specific days for remembrance, and participating in hobbies the deceased enjoyed. (session 2023-10-04)\n- User was provided with resources to find MLB player statistics, including MLB.com, ESPN.com, and various sports news websites, as the assistant does not have real-time access to current stats. (session 2023-07-11)\n- User is seeking information on upcoming sports memorabilia auctions in their city and was advised to check online marketplaces like eBay, Heritage Auctions, Lelands, and SCP Auctions, as well as local auction houses and collector forums. (session 2023-12-30)\n- User is interested in the history of science and the concept of paradigm shifts, seeking resources to understand how these shifts have shaped human knowledge. (session 2023-12-09)\n- User was recommended resources on the history of science, including the book 'The Structure of Scientific Revolutions' by Thomas Kuhn and the documentary series 'Cosmos: A Spacetime Odyssey'. (session 2023-12-09)\n- User is reading a multi-chapter guide on navigating the grief process, which includes chapters on prayer, community support, and the power of rituals and remembrance. (session 2023-10-04)\n- User was recommended resources on paradigm shifts, including the book 'The Fifth Discipline' by Peter Senge and the documentary 'The Quantum Activist'. (session 2023-12-09)\n- User inquired about the demographics, history, landmarks, and modern attractions of Lichfield, as well as unique local shopping experiences. (session 2024-01-08)\n- User is considering selling some of their autographed baseballs and was advised to use authentication services like PSA or JSA and platforms like eBay, Heritage Auctions, or Lelands to determine value. (session 2023-12-30)\n- User is looking for a new lens for their vintage Leica camera and requested resources for learning about camera lenses and photography. (session 2023-12-30)\n- The assistant provided multiple technical approaches for creating an MP4 screensaver, including PowerShell registry modifications, C# code for a custom .scr file, and a Python script using pywinauto to automate interaction with Windows Screen Saver settings. (session 2023-12-22)\n- User is developing a C# .NET application to generate UPC-A barcodes using the BarcodeLib library. (session 2023-11-16)\n- The guide provided to the user defines rituals as essential tools for acknowledging loss, providing stability, and fostering community connection during the grieving process. (session 2023-10-04)\n- The assistant suggested personalized grief rituals for the user, such as planting a memorial tree or garden, writing letters to the deceased, or creating a memory box or scrapbook. (session 2023-10-04)\n- User is attempting to set an MP4 video as a screensaver on Windows and has been exploring various methods including PowerShell scripts and Python automation. (session 2023-12-22)\n- User was recommended educational podcasts such as 'Hardcore History', 'Radiolab', 'Ologies', and 'The Anthropocene Reviewed' to align with their interests in history, science, and anthropology. (session 2023-12-09)\n- User was provided with ZPL command examples and a C# code snippet using TcpClient to send raw ZPL commands to a Zebra printer at a specific IP address. (session 2023-11-16)\n- User is interested in collecting error coins and was provided with resources to find local coin shows, including the American Numismatic Association website, CoinWeek, and local dealer inquiries. (session 2023-07-11)\n- User is a fan of educational YouTube channels including 'Crash Course', 'CGP Grey', and 'Vsauce' for their engaging and informative presentation of complex topics. (session 2023-12-09)\n- User was recommended YouTube channels for history and science, including 'The Great War', 'Historia Civilis', '3Blue1Brown', and 'Half as Interesting'. (session 2023-12-09)\n- User was recommended Manchester City-themed cocktails such as The Blue Moon, The Citizen, and The Aguero, as well as serving local Manchester-brewed beers or traditional English ales. (session 2023-07-09)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 53,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 34.9,
+  "total": 36.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": true
+  }
+ }
+}

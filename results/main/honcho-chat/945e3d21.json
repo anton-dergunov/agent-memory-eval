@@ -1,0 +1,96 @@
+{
+ "qid": "945e3d21",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How often do I attend yoga classes to help with my anxiety?",
+ "reference": "Three times a week.",
+ "question_date": "2023-12-14 06:32",
+ "sessions": [
+  {
+   "id": "sharegpt_2Kis6fZ_45",
+   "date": "2023-07-27 20:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_1",
+   "date": "2023-08-11 05:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_WjW4qki_0",
+   "date": "2023-08-22 03:09",
+   "evidence": false
+  },
+  {
+   "id": "a2053427_1",
+   "date": "2023-09-30 20:16",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_2",
+   "date": "2023-11-30 03:29",
+   "evidence": true
+  },
+  {
+   "id": "be1fa010",
+   "date": "2023-12-01 06:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_y0L1CPT_9",
+   "date": "2023-12-01 11:56",
+   "evidence": false
+  },
+  {
+   "id": "9bbd38a6",
+   "date": "2023-12-02 07:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_oTnUt5N_15",
+   "date": "2023-12-05 22:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_zn81iL6_9",
+   "date": "2023-12-11 09:00",
+   "evidence": false
+  }
+ ],
+ "context": "You have mentioned different frequencies for your yoga practice in our conversations.\n\n*   On August 11, 2023, you noted that you were practicing yoga **twice a week** to help you feel grounded and centered while experiencing anxiety.\n*   More recently, on November 30, 2023, you mentioned that you attend yoga classes **three times a week**, noting that it helps you feel more focused and clear-headed while dealing with work-related stress.\n\nI notice this change in the frequency of your practice. Does one of these reflect your current routine, or has your practice changed again?",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   On August 11, 2023, you stated: \"practicing yoga **twice a week** to help you feel grounded and centered while experiencing **anxiety**.\"\n*   On November 30, 2023, you stated: \"attend yoga classes **three times a week**, noting that it helps you feel more focused and clear-headed while dealing with **work-related stress**.\"\n\n**2. Reason over the information:**\n*   The question specifically asks for the frequency of yoga practice used to help with **anxiety**.\n*   According to the records, the frequency associated with managing anxiety was the \"twice a week\" routine mentioned on August 11, 2023.\n*   The \"three times a week\" routine mentioned on November 30, 2023, is associated with \"work-related stress,\" not anxiety.\n\n**Answer:**\nYou attend yoga classes **twice a week** to help with your anxiety.",
+ "dump": "- [explicit] user wants a structure organized into sections, subsections, and paragraph headings.\n- [explicit] user wants each paragraph in the composite text to contain a one-sentence summary of the input text.\n- [explicit] user provided the first component of a text titled 'The Intricacies of Theories and Phenomena: A Deeper Look at the Scientific Method'.\n- [explicit] user has four text components to provide in consecutive prompts.\n- [explicit] user has several medium pieces of text to create a long composite text.\n- [explicit] user wants to edit the structure of the combined text before elaborating on the subsections.\n- [explicit] user states that Joseph Miller was a lawyer.\n- [explicit] user holds information that Lavalette Miller's parents were Joseph Miller and Florence Tice.\n- [explicit] user holds information that Joseph Miller died on February 22, 1921, in Huntington, Wayne, West Virginia, United States.\n- [explicit] user holds information that Joseph Miller was born on August 17, 1848, in Barboursville, Cabell, Virginia, United States.\n- [explicit] user recalls that the assistant previously claimed a person mentioned in the conversation was a surgeon.\n- [explicit] user has a task to prepare for a meeting tomorrow.\n- [explicit] user feels overwhelmed with work tasks.\n- [explicit] user has a task to finish a project report by the end of the week.\n- [explicit] user has a task to respond to a client email today.\n- [explicit] user has a task to review and update a project plan by next week.\n- [explicit] user practices yoga twice a week.\n- [explicit] user uses meditation to set intentions and focus on daily goals\n- [explicit] user is interested in identifying triggers and working through childhood trauma\n- [explicit] user practices yoga\n- [explicit] user is experiencing anxiety.\n- [explicit] user is currently seeing a therapist.\n- [explicit] user is working through childhood trauma.\n- [explicit] user is experiencing depression.\n- [explicit] user experiences anxiety.\n- [explicit] user finds that yoga practice helps them feel grounded and centered.\n- [explicit] user is attempting to educate themselves about anxiety and depression.\n- [explicit] user is in therapy.\n- [explicit] user engages in yoga practice.\n- [explicit] user is planning to create a business plan for an e-commerce platform focused on sustainable fashion.\n- [explicit] user intends to focus on the market analysis section of the business plan first.\n- [explicit] user has been thinking about starting a business for months.\n- [explicit] user is interested in learning about market trends and consumer behavior within the sustainable fashion industry.\n- [explicit] user intends to use surveys or focus groups to collect information from their target audience.\n- [explicit] user is interested in understanding the needs and preferences of their target audience.\n- [explicit] user owns an e-commerce platform.\n- [explicit] user intends to use the provided survey questions to gather insights from their target audience.\n- [explicit] user is seeking assistance to brainstorm unique selling points for their upcycled clothing brand.\n- [explicit] user is developing a sustainable fashion e-commerce platform.\n- [explicit] user is focusing their sustainable fashion brand niche on upcycled clothing.\n- [explicit] user has been planning to start a business for several months.\n- [explicit] user is starting an upcycled clothing brand business.\n- [explicit] user considers the marketing campaign to be the priority.\n- [explicit] user takes a lunch break from 12:00 pm to 1:00 pm.\n- [explicit] user estimates that each of their current tasks will take 2 to 3 days to complete.\n- [explicit] user's work hours are from 9:00 am to 5:00 pm.\n- [explicit] user is working on a marketing campaign, a report, and website updates.\n- [explicit] user finds that attending yoga classes helps them feel more focused and clear-headed.\n- [explicit] user has a meeting scheduled for Wednesday, December 6, 2023, from 2:00 pm to 3:00 pm.\n- [explicit] user feels overwhelmed with work projects.\n- [explicit] user has a report due on Friday, December 8, 2023.\n- [explicit] user attends yoga classes three times a week.\n- [explicit] user desires the report to be perfect before submission.\n- [explicit] user intends to complete a report.\n- [explicit] user is concerned about the time allocated for editing and proofreading on Friday.\n- [explicit] user wants to swap the website updates task on Wednesday with the report writing task.\n- [explicit] user has a website updates task scheduled for Wednesday.\n- [explicit] user wants to dedicate more time to writing the report on Wednesday.\n- [explicit] user feels more confident about tackling the report and completing it on time.\n- [explicit] user believes the updated schedule works in their favor.\n- [explicit] user had approximately 50 likes and 10 comments on their most popular Yosemite Instagram post.\n- [explicit] user had around 200 Instagram followers when they posted their Yosemite trip photos.\n- [explicit] user wants to analyze Instagram engagement rates.\n- [explicit] user believes recent Instagram posts about a Yosemite hiking trip helped increase their followers.\n- [explicit] user does not know how to find reach and impressions information in Instagram Insights.\n- [explicit] user has been gaining approximately 10 new Instagram followers per week on average.\n- [explicit] user requested assistance in identifying influencers in their niche to reach out to.\n- [explicit] user is considering collaborating with social media influencers in their niche to increase their followers and engagement.\n- [explicit] user is considering collaborating with influencers on TikTok.\n- [explicit] user has reached out to influencers on Instagram and Twitter regarding potential collaboration opportunities.\n- [explicit] user is waiting for responses from influencers on Instagram and Twitter regarding potential collaboration opportunities.\n- [explicit] user produced a skincare routine video that achieved success.\n- [explicit] user has reached out to influencers on Instagram.\n- [explicit] user created a skincare routine video that performed well on TikTok.\n- [explicit] user intends to focus on reaching out to TikTok influencers in the beauty and outdoor niches.\n- [explicit] user has reached out to influencers on Twitter.\n- [explicit] user produces content about outdoor adventure, specifically regarding a Yosemite hiking trip.\n- [explicit] user defines the entry requirements for the giveaway as following their account, liking the giveaway post, and tagging three friends.\n- [explicit] user plans to run a giveaway campaign titled \"Summer Skincare Essentials\".\n- [explicit] user intends to partner with beauty influencers for their giveaway campaign.\n- [explicit] user intends to provide a skincare set and outdoor gear as prizes for the giveaway campaign.\n- [explicit] user explicitly requested not to use comics or the plot presented in the assistant's previous message as an educational method.\n- [explicit] user requires detailed examples of the content to be included in the proposed educational solutions.\n- [explicit] user wants educational solutions for end-to-end encryption to focus on explaining the benefits of the technology without describing technical aspects.\n- [explicit] user is interested in developing ten creative educational solutions regarding end-to-end encrypted messaging for low-tech users.\n- [explicit] user and the sister of user are currently in a good place.\n- [explicit] user recently had a big argument with the sister of user.\n- [explicit] user has teenagers in the family.\n- [explicit] user is planning a family vacation.\n- [explicit] user is learning to make traditional Indian chicken curry from user's mother.\n- [explicit] user has siblings.\n- [explicit] user's parents act as mediators for conflicts between user and user's siblings.\n- [explicit] user is interested in finding variations of traditional Indian chicken curry recipes.\n- [explicit] user has grandparents who live far away.\n- [explicit] user has a recipe for Indian chicken curry that is different from the variations provided by the assistant.\n- [explicit] user calls their grandparents every Sunday.\n- [explicit] user has a brother who is experiencing anxiety and depression.\n- [explicit] user intends to ask their parents to increase the frequency of therapy sessions for their brother.\n- [explicit] user plans to emphasize the benefits of therapy for the brother, specifically regarding relationships and quality of life.\n- [explicit] user plans to discuss the well-being of the brother with user's parents.\n- [explicit] user plans to express concerns about the brother's anxiety and depression to user's parents.\n- [explicit] user plans to avoid blaming user's parents during the conversation about the brother's mental health.\n- [explicit] user plans to offer to help research therapists and counseling services for the brother.\n- [explicit] user identifies as gray-asexual and demi-sexual.\n- [explicit] user does not always respond to messages immediately.\n- [explicit] user is ambiamorous.\n- [explicit] user prefers exclusivity.\n- [explicit] user seeks a low frequency, long-term friendship with occasional cuddling benefits.\n- [explicit] user prefers to focus on one conversation at a time.\n- [explicit] user wants the assistant to proceed to section III of the fetal development document.\n- [explicit] user is interested in obtaining more information regarding step 3 of the management of symptoms for an eight-week pregnancy, which is wearing a comfortable, supportive bra to alleviate breast tenderness.\n- [deductive] user values family well-being and is involved in their brother's healthcare advocacy.\n- [deductive] user is currently pregnant.\n- [inductive] user exhibits a methodical and structured approach to problem-solving, characterized by careful planning, research, and organized communication, especially regarding sensitive family or health-related topics.\n- [inductive] user approaches interpersonal relationships with a preference for intentionality, exclusivity, and well-defined boundaries, as evidenced by their preference for exclusivity and their specific, articulated relationship needs.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 136.6,
+  "total": 143.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

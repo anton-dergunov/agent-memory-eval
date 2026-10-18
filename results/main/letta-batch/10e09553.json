@@ -1,0 +1,93 @@
+{
+ "qid": "10e09553",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+ "reference": "7",
+ "question_date": "2023-12-06 11:18",
+ "sessions": [
+  {
+   "id": "sharegpt_d4Csa8p_0",
+   "date": "2023-07-23 05:30",
+   "evidence": false
+  },
+  {
+   "id": "2d58d2d2",
+   "date": "2023-08-08 16:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_1",
+   "date": "2023-08-11 03:49",
+   "evidence": true
+  },
+  {
+   "id": "7d1f5395",
+   "date": "2023-08-13 10:26",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IZ5NgqD_0",
+   "date": "2023-09-20 05:22",
+   "evidence": false
+  },
+  {
+   "id": "e5f785de",
+   "date": "2023-09-22 13:37",
+   "evidence": false
+  },
+  {
+   "id": "58ab5fc5",
+   "date": "2023-10-04 13:50",
+   "evidence": false
+  },
+  {
+   "id": "238fac70_1",
+   "date": "2023-11-12 05:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_2",
+   "date": "2023-11-30 00:28",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jEOqeWh_0",
+   "date": "2023-12-01 01:05",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nOutdoor Interests: Hunting and Fishing.\nRecent Fishing Trip: Caught 7 largemouth bass at Lake Michigan with Alex on 7/10.\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-17T22:26:51.055819+00:00', 'time_ago': '6s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-06 11:18] How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?'}, {'timestamp': '2026-10-17T22:26:38.227927+00:00', 'time_ago': '18s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-30 00:28] I think there's been a mix-up! I'm happy to help with deer hunting strategies and tactics, but I think we need to clarify a few things.\\n\\nAs a conversational AI, I don't have personal experiences or memories, so I wasn't with you on a fishing trip to Lake Michigan, and we didn't catch 9 largemouth bass together. I'm a new conversation each time you interact with me, so I don't retain any information from previous conversations.\\n\\nHowever, I'm always here to help and provide information on various topics, including deer hunting and fishing! If you have any questions or need tips on deer hunting strategies or fishing techniques, feel free to ask, and I'll do my best to assist you.\"}, {'timestamp': '2026-10-17T22:26:38.227913+00:00', 'time_ago': '18s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-30 00:28] I'm planning to try out some of those deer calls during our next hunting trip. By the way, speaking of hunting, I've been watching some YouTube videos on deer hunting strategies and tactics, just like I did before our last fishing trip to Lake Michigan. Remember that trip when we caught 9 largemouth bass with Alex?\"}]}",
+ "answer": "Based on our past conversations, you mentioned catching 9 largemouth bass with Alex during that fishing trip to Lake Michigan.",
+ "dump": "<human>\n\nOutdoor Interests: Hunting and Fishing.\nRecent Fishing Trip: Caught 7 largemouth bass at Lake Michigan with Alex on 7/10.\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Lake Michigan fishing trip\"})",
+   "conversation_search({\"query\": \"fishing trip Alex Lake Michigan\"})",
+   "conversation_search({\"query\": \"largemouth bass\"})"
+  ],
+  "blocks_chars": 322
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 46.8,
+  "total": 56.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

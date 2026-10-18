@@ -1,0 +1,104 @@
+{
+ "qid": "cf22b7bf",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How much weight have I lost since I started going to the gym consistently?",
+ "reference": "10 pounds",
+ "question_date": "2023-06-23 03:15",
+ "sessions": [
+  {
+   "id": "ultrachat_345143",
+   "date": "2023-04-23 18:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_VhAV1pG_0",
+   "date": "2023-05-08 09:19",
+   "evidence": false
+  },
+  {
+   "id": "c8fcdf5a_1",
+   "date": "2023-05-09 21:19",
+   "evidence": false
+  },
+  {
+   "id": "457e26bf",
+   "date": "2023-05-18 20:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_ae3a122b_1",
+   "date": "2023-05-21 12:29",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_324101",
+   "date": "2023-06-08 01:43",
+   "evidence": false
+  },
+  {
+   "id": "8765ab16_2",
+   "date": "2023-06-10 06:02",
+   "evidence": false
+  },
+  {
+   "id": "f906baa7_1",
+   "date": "2023-06-14 15:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_ae3a122b_2",
+   "date": "2023-06-21 05:37",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_130544",
+   "date": "2023-06-21 08:33",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T22:13:45.984447+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-23 03:15] How much weight have I lost since I started going to the gym consistently?'}, {'timestamp': '2026-10-17T22:13:39.814091+00:00', 'time_ago': '8s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-21 05:37] Obliques are an important part of your core, and targeting them can help improve your overall core strength and stability. Here are some exercises that can help you target your obliques:\\n\\n1. **Side Plank (each side)**: Lie on your side with feet stacked, hands under your shoulders, and engage your core. Lift your hips off the ground, keeping your body in a straight line from head to heels. Hold for 30-60 seconds and switch sides.\\n2. **Woodchoppers**: Hold a weight or medicine ball with both hands, twist your torso to left and right, keeping your arms straight, and touch the weight to the ground beside you. Repeat for 12-15 reps on each side.\\n3. **Russian twists with a twist**: Modify the traditional Russian twist by twisting your torso to left and right, touching the weight to the ground beside you, and then lifting the weight up and across your body, as if you're drawing a circle with the weight.\\n4. **Bicycle crunches with an oblique focus**: Lie on your back with hands behind your head, alternate bringing your elbow to the opposite knee, as if pedaling a bicycle. Focus on engaging your obliques and twisting your torso as you bring your elbow to your knee.\\n5. **Pallof press with rotation**: Hold a resistance band or cable handle with both hands, keeping your arms straight. Press the handle away from your body, keeping your core engaged, and then rotate your torso to left and right, as if you're twisting a door handle. Repeat for 12-15 reps on each side.\\n6. **Side crunches**: Lie on your side with feet stacked, hands behind your head, and engage your core. Lift your shoulders off the ground, twisting your torso and bringing your elbow towards your hip. Repeat on the other side.\\n7. **Flutter kicks with an oblique focus**: Lie on your back with arms extended overhead, legs straight, and engage your core. Lift your legs off the ground, keeping them straight, and quickly alternate bringing one leg up towards the ceiling while keeping the other leg low. Focus on engaging your obliques and twisting your torso as you lift your legs.\\n8. **Cable rotations**: Hold a cable handle with both hands, stand with feet shoulder-width apart, and engage your core. Rotate your torso to left and right, keeping your arms straight, and touch the handle to the ground beside you. Repeat for 12-15 reps on each side.\\n9. **Dynamic plank**: Start in a plank position, engage your core, and twist your torso to left and right, keeping your arms and legs straight. Repeat for 12-15 reps on each side.\\n10. **Medicine ball slams**: Hold a medicine ball with both hands, stand with feet shoulder-width apart, and engage your core. Slam the medicine ball to the ground beside you, twisting your torso and using your obliques to generate power. Repeat for 12-15 reps on each side.\\n\\nRemember to start with lower reps and sets, and gradually increase the difficulty as your obliques become stronger. It's also essential to focus on proper form and engagement of your core muscles to avoid injury.\\n\\nMix and match these exercises to create a well-rounded oblique workout routine. Happy twisting and turning!\"}, {'timestamp': '2026-10-17T22:13:39.814059+00:00', 'time_ago': '8s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-21 05:37] Core strengthening is a great focus area! Planks and Russian twists are excellent exercises, but there are many other effective exercises to target your core muscles. Here are some additional exercises to consider:\\n\\n1. **Leg Raises**: Lie on your back with arms extende",
+ "answer": "According to our previous conversation on May 21, 2023, you had mentioned losing 5 pounds in a month. Since then, we haven't tracked a more recent update on your total weight loss since you started your consistent gym routine. \n\nWould you like to share your current progress so we can keep a record of it, or perhaps you'd like to look back through your fitness tracking logs if you've been keeping them somewhere else?",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"weight loss gym\"})",
+   "conversation_search({\"query\": \"weight\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 27.9,
+  "total": 34.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

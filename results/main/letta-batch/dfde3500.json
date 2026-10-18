@@ -1,0 +1,104 @@
+{
+ "qid": "dfde3500",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+ "reference": "Wednesday",
+ "question_date": "2023-06-20 14:46",
+ "sessions": [
+  {
+   "id": "sharegpt_aDTlaiq_10",
+   "date": "2023-05-06 09:30",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_1",
+   "date": "2023-05-20 09:33",
+   "evidence": true
+  },
+  {
+   "id": "ad1c7ac6",
+   "date": "2023-05-25 06:53",
+   "evidence": false
+  },
+  {
+   "id": "ebe3b6bf_7",
+   "date": "2023-05-25 20:43",
+   "evidence": false
+  },
+  {
+   "id": "5c18cb32_2",
+   "date": "2023-05-27 16:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_2",
+   "date": "2023-05-28 05:19",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_435909",
+   "date": "2023-05-28 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_315184",
+   "date": "2023-05-30 22:18",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_92761",
+   "date": "2023-05-31 01:42",
+   "evidence": false
+  },
+  {
+   "id": "59c704ad_1",
+   "date": "2023-06-11 21:43",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T22:29:54.983938+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-20 14:46] What day of the week did I meet with my previous language exchange tutor Juan?'}, {'timestamp': '2026-10-17T22:29:31.703832+00:00', 'time_ago': '25s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-20 09:33] I'm glad you were able to remember the day and time of your language exchange class with Juan! It's great that you're taking steps to improve your Spanish skills and help Juan with his English vocabulary at the same time.\\n\\nIt's always helpful to have a regular schedule and a language partner to practice with, and it sounds like you've found a great setup with Juan. If you have any more questions or need any language-related tips or resources, feel free to ask!\\n\\nBy the way, Colombian Spanish is a great dialect to learn, and I'm sure you're getting a lot of valuable insight into the culture and nuances of the language from Juan. ¡Buena suerte with your language learning journey!\"}, {'timestamp': '2026-10-17T22:29:31.703820+00:00', 'time_ago': '25s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-20 09:33] I had a language exchange class at a local language school, where I'm paired with a Colombian tutor named Juan. We meet every Wednesday evening, and he helps me with my Spanish pronunciation and grammar while I assist him with his English vocabulary. Now I remember! My language exchange class with Juan is on Wednesday evening.\"}, {'timestamp': '2026-10-17T22:29:31.703805+00:00', 'time_ago': '25s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-20 09:33] That's a good clue! If you usually have dinner plans with friends on Thursdays, it's likely that you wouldn't schedule a meeting with Juan on the same day.\\n\\nHowever, I still can't confirm whether your meeting with Juan is on Tuesday or not. I don't have any information about your schedule or meetings with Juan.\\n\\nIf you're still unsure, you could try checking your calendar or planner again, or reach out to Juan to confirm the day and time of your meeting.\"}, {'timestamp': '2026-10-17T22:29:31.703792+00:00', 'time_ago': '25s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-20 09:33] I remember that Juan and I always meet in the evening, and I usually have dinner plans with friends on Thursdays. I'm pretty sure it's not Thursday.\"}]}",
+ "answer": "You met with your language exchange tutor, Juan, on Wednesday evenings.",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Juan language exchange\"})",
+   "conversation_search({\"query\": \"Juan\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 27.3,
+  "total": 32.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

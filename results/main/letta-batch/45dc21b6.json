@@ -1,0 +1,103 @@
+{
+ "qid": "45dc21b6",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many of Emma's recipes have I tried out?",
+ "reference": "3",
+ "question_date": "2023-06-16 17:33",
+ "sessions": [
+  {
+   "id": "b7f69a7d_2",
+   "date": "2023-05-10 06:12",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BVfC7JV_0",
+   "date": "2023-05-19 15:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yZ6yXnQ_0",
+   "date": "2023-05-19 16:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhK5G9o_0",
+   "date": "2023-05-20 08:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_1",
+   "date": "2023-05-29 04:51",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_169242",
+   "date": "2023-05-29 07:04",
+   "evidence": false
+  },
+  {
+   "id": "7caf3391_2",
+   "date": "2023-05-30 00:59",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467365",
+   "date": "2023-05-30 04:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_2",
+   "date": "2023-05-30 06:32",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_gGriMhQ_91",
+   "date": "2023-05-30 07:25",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-17T16:07:12.536391+00:00', 'time_ago': '7s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-30 06:32] Wonderful choices! Spain and Italy are both incredible destinations, rich in history, culture, and delicious food! Here are some specific tips and recommendations for you:\\n\\n**Spain:**\\n\\n1. **Tapas:** Spain is famous for its tapas culture. Try to visit local tapas bars, especially in cities like Barcelona, Madrid, and Seville. You can find a variety of small plates to share, from patatas bravas to tortilla española.\\n2. **Beach Destinations:** The Costa Brava and Costa del Sol regions offer stunning beaches, charming towns, and a more relaxed atmosphere.\\n3. **Flamenco:** Experience the passion and energy of traditional flamenco music and dance in cities like Seville, Granada, or Madrid.\\n4. **Sierra Nevada:** If you\\'re an outdoor enthusiast, head to the Sierra Nevada mountains for hiking, skiing, or snowboarding.\\n5. **Vegan Options:** Some popular vegan restaurants in Spain include:\\n\\t* Vega Life (Barcelona): Offers a fully vegan menu with international dishes.\\n\\t* Green & Vibrant (Madrid): Serves plant-based, gluten-free, and refined sugar-free options.\\n\\t* VEGGI (Seville): A 100% vegan restaurant with a cozy atmosphere.\\n\\n**Italy:**\\n\\n1. **Food:** Italy is a food lover\\'s paradise! Be sure to try authentic pasta dishes, pizza, and gelato. Don\\'t miss the truffle season (October to December) for a unique culinary experience.\\n2. **City Breaks:** Visit Rome, Florence, Venice, and Milan for iconic landmarks, art, and history.\\n3. **Coastal Towns:** Explore the Amalfi Coast, Cinque Terre, or the Italian lakes (Lake Como, Lake Garda) for breathtaking scenery and relaxation.\\n4. **Wine:** Italy is famous for its wine production. Take a wine tour or visit the Chianti region in Tuscany.\\n5. **Vegan Options:** Some popular vegan restaurants in Italy include:\\n\\t* Flower Burger (Milan): A vegan burger joint with creative options.\\n\\t* Joia (Rome): A Michelin-starred vegan restaurant with innovative dishes.\\n\\t* Vegan Glory (Florence): Offers vegan and gluten-free options, including vegan gelato!\\n\\n**Emma\\'s Recipes:** Ah, I\\'m glad you\\'ve been enjoying her recipes! Emma is a talented chef and a great inspiration for vegan cooking. If you\\'re looking for more recipes or cooking tips, I can definitely provide some recommendations or resources.\\n\\n**Additional Tips:**\\n\\n* **Learn Some Basics:** Learn basic phrases in Spanish (e.g., \"gracias\" for thank you) and Italian (e.g., \"grazie\" for thank you) to show respect and appreciation for the local culture.\\n* **Public Transportation:** Both Spain and Italy have efficient public transportation systems. Consider purchasing a travel card or pass for convenient travel.\\n* **Pickpocketing:** Be mindful of your belongings, especially in crowded areas and tourist hotspots. Keep your valuables secure and be cautious of scams.\\n* **Siesta:** Embrace the siesta culture in Spain and Italy! Take a break during the hottest part of the day (usually 2-4 pm) to rest and recharge.\\n\\nI hope these tips and recommendations help you plan an unforgettable trip to Spain and Italy!'}, {'timestamp': '2026-10-17T16:07:12.536374+00:00', 'time_ago': '7s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 06:32] I'm actually thinking of visiting Europe, maybe Spain or Italy. Do you have any specific tips for those countries? Also, I've been trying out some new recipes lately, and I was wondering if you have any recommendations for vegan restaurants in those areas? By the way, I've tried out 3 of Emma's recipes so far, and they're all amazing!\"}, {'timestamp': '2026-10-17T16:06:55.686215+00:00', 'time_ago': '24s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-29 04:51] I'm thinking of trying out some new recipes this weekend. Can you give me",
+ "answer": "Based on our conversation on May 30, 2023, you mentioned that you had tried out 3 of Emma's recipes at that time.",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Emma's recipes\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 34.4,
+  "total": 39.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

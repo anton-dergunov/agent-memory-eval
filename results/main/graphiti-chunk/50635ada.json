@@ -1,0 +1,90 @@
+{
+ "qid": "50635ada",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+ "reference": "Premier Silver",
+ "question_date": "2023-06-29 04:09",
+ "sessions": [
+  {
+   "id": "ultrachat_363516",
+   "date": "2022-09-01 15:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_49611",
+   "date": "2022-09-03 01:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_512425",
+   "date": "2022-09-06 09:05",
+   "evidence": false
+  },
+  {
+   "id": "dcbd175f_2",
+   "date": "2022-09-10 04:58",
+   "evidence": false
+  },
+  {
+   "id": "answer_dcd74827_1",
+   "date": "2022-09-16 17:22",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_234704",
+   "date": "2022-10-27 12:43",
+   "evidence": false
+  },
+  {
+   "id": "42bcee92_2",
+   "date": "2022-11-09 21:26",
+   "evidence": false
+  },
+  {
+   "id": "2e53911b_1",
+   "date": "2023-02-03 04:40",
+   "evidence": false
+  },
+  {
+   "id": "b6f35f3a_1",
+   "date": "2023-04-20 05:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_dcd74827_2",
+   "date": "2023-05-30 08:58",
+   "evidence": true
+  }
+ ],
+ "context": "- The user is asking about the requirements and timeline for earning enough miles to upgrade their current United Airlines status to Premier Platinum status. (valid since 2023-05-30)\n- Marriott Bonvoy allows users to transfer miles to United MileagePlus (valid since 2022-09-16)\n- Marriott Bonvoy points can be transferred to United MileagePlus at a 3:1.1 ratio, with a minimum transfer of 3,000 points, processed in 2-3 business days. (valid since 2022-09-16)\n- Chase Ultimate Rewards points can be transferred to United MileagePlus at a 1:1 ratio, with a minimum transfer of 1,000 points, processed instantaneously. (valid since 2022-09-16)\n- Chase Ultimate Rewards allows users to transfer miles to United MileagePlus (valid since 2022-09-16)\n- IHG Rewards Club points can be transferred to United MileagePlus at a 2:1 ratio, with a minimum transfer of 10,000 points, processed in 2-3 business days. (valid since 2022-09-16)\n- The assistant provides tips on how to find great deals on gently used clothing and accessories at thrift stores (valid since 2023-02-03)\n- The user attended a high school reunion about one month ago. (valid since 2023-03-20)\n- The user is planning to visit Disneyland. (valid since 2022-11-09)\n- The Run Disney 5K event took place at Disneyland on October 8, 2022. (valid since 2022-10-08)",
+ "answer": "To answer your question, I have reviewed the provided history chats. Here is the step-by-step analysis:\n\n**Step 1: Extract relevant information**\n*   The history chats contain information regarding:\n    *   The user's current inquiry about requirements and timelines for upgrading to United Premier Platinum status (dated 2023-05-30).\n    *   Various methods for transferring points (Marriott Bonvoy, Chase Ultimate Rewards, IHG Rewards Club) to United MileagePlus.\n    *   Personal details such as the user's high school reunion, a trip to Disneyland, and tips on thrift store shopping.\n\n**Step 2: Reason over the information**\n*   I have examined all provided facts to see if there is any mention of the user's previous United Airlines status.\n*   While the chats confirm the user is currently interested in upgrading to Premier Platinum status, there is no record or mention of what their specific status was prior to their current one.\n\n**Answer:**\nBased on the provided history chats, there is no information available regarding your previous frequent flyer status on United Airlines. The records only indicate your current interest in upgrading to Premier Platinum status.",
+ "dump": "- solar-powered irrigation systems are used to reduce reliance on fossil fuels in agriculture (valid since 2022-09-01)\n- Solar-powered irrigation systems utilize photovoltaic panels to generate electricity. (valid since 2022-09-01)\n- Solar-powered irrigation systems provide power for irrigation pumps. (valid since 2022-09-01)\n- Solar-powered irrigation systems require an upfront investment for hardware and installation construction. (valid since 2022-09-01)\n- The assistant identifies automated medical devices as equipment that can cause extensive damage or put lives in danger if the automated system is hacked or disturbed. (valid since 2022-09-03)\n- Maasai people create beaded jewelry using fine glass beads in intricate designs. (valid since 2022-09-06)\n- Maasai people wear brightly colored shukas woven from cotton. (valid since 2022-09-06)\n- Maasai people are skilled blacksmiths who create spears, knives, and arrowheads. (valid since 2022-09-06)\n- Maasai people create shields made from cowhide stretched over wooden frames, decorated with geometric patterns. (valid since 2022-09-06)\n- Maasai women weave large baskets from grasses and reeds. (valid since 2022-09-06)\n- Maasai people decorate gourds with intricate beadwork for use as water containers. (valid since 2022-09-06)\n- Maasai people use cow horns as drinking cups, decorated with beadwork and patterns. (valid since 2022-09-06)\n- NGOs provide support to the Maasai people in preserving their traditional crafts and generating income. (valid since 2022-09-06)\n- The user plans to purchase organic goat feed and fly spray for Comet at Tractor Supply Co. (valid since 2022-09-10)\n- The user owns a horse named Comet who needs fly spray. (valid since 2022-09-10)\n- The assistant explains that pyrethrin, a natural insecticide, is derived from chrysanthemum flowers. (valid since 2022-09-10)\n- Chase Ultimate Rewards allows users to transfer miles to United MileagePlus (valid since 2022-09-16)\n- Marriott Bonvoy allows users to transfer miles to United MileagePlus (valid since 2022-09-16)\n- Chase Ultimate Rewards points can be transferred to United MileagePlus at a 1:1 ratio, with a minimum transfer of 1,000 points, processed instantaneously. (valid since 2022-09-16)\n- Marriott Bonvoy points can be transferred to United MileagePlus at a 3:1.1 ratio, with a minimum transfer of 3,000 points, processed in 2-3 business days. (valid since 2022-09-16)\n- IHG Rewards Club points can be transferred to United MileagePlus at a 2:1 ratio, with a minimum transfer of 10,000 points, processed in 2-3 business days. (valid since 2022-09-16)\n- The Run Disney 5K event took place at Disneyland on October 8, 2022. (valid since 2022-10-08)\n- The user plans to incorporate peanut butter banana toast into their post-run routine. (valid since 2022-11-09)\n- The user plans to incorporate Greek yogurt with berries and honey into their post-run routine. (valid since 2022-11-09)\n- The user is planning to visit Disneyland. (valid since 2022-11-09)\n- The user is interested in checking out clothing pieces and learning about sales, promotions, discounts, or loyalty programs at Banana Republic. (valid since 2023-02-03)\n- The user is interested in checking out clothing pieces and learning about sales, promotions, discounts, or loyalty programs at J.Crew. (valid since 2023-02-03)\n- The assistant provides tips on how to find great deals on gently used clothing and accessories at thrift stores (valid since 2023-02-03)\n- Thrift stores offer gently used clothing for purchase (valid since 2023-02-03)\n- Thrift stores offer accessories for purchase (valid since 2023-02-03)\n- The user attended a high school reunion about one month ago. (valid since 2023-03-20)\n- The user is planning to visit Dubrovnik. (valid since 2023-04-20)\n- The user is planning to visit Plitvice Lakes National Park. (valid since 2023-04-20)\n- Villa Spiza is a restaurant that serves traditional Dalmatian cuisine dishes like peka and pašticada. (valid since 2023-04-20)\n- Konoba Dioklecijan is a restaurant that offers local Dalmatian cuisine specialties like seafood risotto and cevapi. (valid since 2023-04-20)\n- Uje Oil Bar is a dining spot that focuses on olive oil and Mediterranean Dalmatian cuisine, offering olive oil tastings. (valid since 2023-04-20)\n- Bokeria Kitchen & Wine Bar provides a modern take on traditional Dalmatian cuisine using locally sourced ingredients. (valid since 2023-04-20)\n- Konoba Marjan is a rustic tavern that serves traditional Dalmatian cuisine dishes such as peka and soparnik. (valid since 2023-04-20)\n- The user is planning to participate in a food tour. (valid since 2023-04-20)\n- The user is asking about the requirements and timeline for earning enough miles to upgrade their current United Airlines status to Premier Platinum status. (valid since 2023-05-30)\n- The assistant recommends Expensify as an expense tracking app that can automate the process of logging and managing expenses. (valid since 2023-05-30)\n- Schubert composed the song cycle Winterreise. (date unknown)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 42,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 135.1,
+  "total": 136.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

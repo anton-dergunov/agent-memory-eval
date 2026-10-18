@@ -1,0 +1,261 @@
+{
+ "qid": "affe2881",
+ "arm": "textual",
+ "split": "full",
+ "question": "How many different species of birds have I seen in my local park?",
+ "reference": "32",
+ "question_date": "2023-06-07 02:42",
+ "sessions": [
+  {
+   "id": "fb5dd87f_7",
+   "date": "2023-04-29 15:06",
+   "evidence": false
+  },
+  {
+   "id": "0338df32",
+   "date": "2023-04-29 16:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_J2pQr1T_0",
+   "date": "2023-05-01 16:53",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_443550",
+   "date": "2023-05-01 17:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_uZwFWTJ_43",
+   "date": "2023-05-04 04:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_eM7toF0_0",
+   "date": "2023-05-04 13:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_aVExml0_162",
+   "date": "2023-05-07 07:15",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_8Epqr4a_1",
+   "date": "2023-05-10 22:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_G7rUHgn_7",
+   "date": "2023-05-15 19:18",
+   "evidence": false
+  },
+  {
+   "id": "6c4a5aee",
+   "date": "2023-05-16 05:44",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_A2ZcdBg_0",
+   "date": "2023-05-18 02:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_28MOwpT_17",
+   "date": "2023-05-19 13:37",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_69agvDU_27",
+   "date": "2023-05-19 16:04",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_gjpwgXW_0",
+   "date": "2023-05-19 23:36",
+   "evidence": false
+  },
+  {
+   "id": "84daebd7_2",
+   "date": "2023-05-21 21:09",
+   "evidence": false
+  },
+  {
+   "id": "29c2b19f_1",
+   "date": "2023-05-22 22:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_1",
+   "date": "2023-05-24 01:31",
+   "evidence": true
+  },
+  {
+   "id": "3d895af0_3",
+   "date": "2023-05-24 02:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_26212",
+   "date": "2023-05-25 11:51",
+   "evidence": false
+  },
+  {
+   "id": "33994682_3",
+   "date": "2023-05-26 15:01",
+   "evidence": false
+  },
+  {
+   "id": "377f8fd9_2",
+   "date": "2023-05-27 08:41",
+   "evidence": false
+  },
+  {
+   "id": "1b71c896_2",
+   "date": "2023-05-29 03:22",
+   "evidence": false
+  },
+  {
+   "id": "57152276_1",
+   "date": "2023-05-29 04:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_P0Qe2Gx_0",
+   "date": "2023-05-29 05:15",
+   "evidence": false
+  },
+  {
+   "id": "433ce12c",
+   "date": "2023-05-29 07:08",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_541196",
+   "date": "2023-05-29 09:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_2",
+   "date": "2023-05-29 17:18",
+   "evidence": true
+  },
+  {
+   "id": "99d1970f_2",
+   "date": "2023-05-29 23:14",
+   "evidence": false
+  },
+  {
+   "id": "2f919734",
+   "date": "2023-05-30 00:02",
+   "evidence": false
+  },
+  {
+   "id": "7badf4f3_1",
+   "date": "2023-05-30 11:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_SJtyV2e_0",
+   "date": "2023-05-30 15:23",
+   "evidence": false
+  },
+  {
+   "id": "5b4d2438_5",
+   "date": "2023-05-31 00:20",
+   "evidence": false
+  },
+  {
+   "id": "6234296c",
+   "date": "2023-05-31 03:01",
+   "evidence": false
+  },
+  {
+   "id": "4604bc73_3",
+   "date": "2023-05-31 13:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_163336",
+   "date": "2023-05-31 13:41",
+   "evidence": false
+  },
+  {
+   "id": "f334878c",
+   "date": "2023-05-31 17:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_i6amdnm_7",
+   "date": "2023-05-31 21:35",
+   "evidence": false
+  },
+  {
+   "id": "d53b6bfe_1",
+   "date": "2023-06-01 01:07",
+   "evidence": false
+  },
+  {
+   "id": "dba69dec_1",
+   "date": "2023-06-01 07:02",
+   "evidence": false
+  },
+  {
+   "id": "7c6d2e3d_2",
+   "date": "2023-06-01 20:15",
+   "evidence": false
+  },
+  {
+   "id": "0018b628",
+   "date": "2023-06-02 15:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_156501",
+   "date": "2023-06-03 05:55",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_145541",
+   "date": "2023-06-03 15:06",
+   "evidence": false
+  },
+  {
+   "id": "cbab4862",
+   "date": "2023-06-06 21:49",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is a 32-year-old male (Now 32, since 2023-05-30; previously 43, born 1980-04-15).\n* The user identifies strictly as male.\n* The user is a professional truck driver with over 20 years of experience.\n* The user has been married twice.\n* The user has three children: two boys and one girl. Two children are from the first marriage, and one is from the second marriage. The user prefers not to disclose their names for privacy reasons.\n* The user is an avid birdwatcher who owns a new spotting scope, which they consider a \"game-changer.\"\n* The user is actively improving their bird photography skills, specifically for skittish species like the Northern Flicker.\n* The user has a deep interest in data science, causal inference, and artificial intelligence, specifically search algorithms. They are currently studying the technical components of problem-solving, including uninformed search (BFS, DFS, DLS, IDS, UCS) and local search strategies (Hill climbing, Genetic Algorithms, Simulated Annealing).\n* The user has a creative side and enjoys fantasy storytelling; they recently requested assistance in refining a mythic origin story about a dragon deity bloodline (the Duulo-Vraktor lineage).\n* On 2023-05-07, the user requested assistance in analyzing a character profile for a musician named \"Kadence.\"\n* On 2023-05-10, the user expressed interest in Japanese geography and culture, specifically Mount Fuji, and showed an interest in Pokémon (specifically the Pokémon \"Snorlax\").\n* The user is exploring content creation, specifically YouTube video production, and is developing structured workflow formulas for video scripts and thumbnail design.\n* The user is a film enthusiast who has attended three film festivals in the two months prior to 2023-05-16.\n* The user is actively networking with industry professionals, including a director named Rachel (of the film \"Echoes\") and a cinematographer named John Smith.\n* On 2023-05-18, the user demonstrated an interest in self-improvement and success literature, specifically requesting a summary and key lessons from Napoleon Hill's \"Think and Grow Rich.\"\n* As of 2023-05-19, the user is actively researching and learning about the legal procedures involved in New York City personal injury litigation.\n* On 2023-05-19, the user showed an interest in language learning and travel-related volunteering, specifically requesting content about counting in Spanish and French and volunteer opportunities with GVI.\n* The user recently went on a hot air balloon ride over Napa Valley with their mother (around April 2023).\n* On 2023-05-22, the user attended a panel discussion on the future of publishing at a university literary festival and is actively researching the publishing industry, with a specific focus on self-publishing platforms and Amazon KDP mechanics.\n* The user has a sister who is 35 years old (as of 2023-05-26). They recently took a Thai cooking class together.\n* On 2023-05-26, the user began researching fertility preservation, specifically egg freezing.\n* As of 2023-05-27, the user is navigating a significant shift in their spiritual and philosophical worldview, moving away from a previously held atheist identity toward a more open, \"spiritually curious\" mindset.\n* On 2023-04-17, the user completed a 5K charity run in 27 minutes and 12 seconds, achieving a personal best.\n* As of 2023-05-29, the user is a frequent traveler, having taken 4 domestic flights in the month of May 2023.\n* As of 2023-05-29, the user is managing content creation workflows for writers, utilizing the MECE framework.\n* As of 2023-05-29, the user is actively expanding their content creation focus to include skincare and fashion trends, specifically sustainable and eco-friendly niches.\n* As of 2023-05-29, the user has expressed a specific interest in visiting museums while traveling.\n* As of 2023-05-29, the user has recorded 32 bird species in their local park.\n* As of 2023-05-29, the user has recently decluttered their closet.\n* As of 2023-05-30, the user owns an engagement ring and a pair of vintage gold earrings inherited from their grandmother.\n* As of 2023-05-30, the user recently lost a favorite silver necklace with a small pendant at the beach.\n* As of 2023-05-30, the user has an interest in Hindu philosophy, specifically the Bhagavad-Gita and the concept of selfless service (Karma Yoga).\n* As of 2023-05-31, the user is an Apple TV+ subscriber who enjoys character-driven dramas and appreciates the platform's weekly release schedule.\n* As of 2023-05-31, the user is planning a trip to New York City and is actively seeking advice on efficient packing for multi-activity travel (hiking and business meetings).\n* As of 2023-05-31, the user is a fan of musicals and plays, specifically enjoying \"Hamilton,\" \"Dear Evan Hansen,\" and \"The Book of Mormon.\" They are interested in the intersection of class struggle and social commentary in media, as seen in \"Parasite\" and \"Schitt's Creek.\"\n* As of 2023-05-31, the user is experiencing an undisclosed health issue and is actively seeking alternative or herbal remedies, specifically expressing interest in the medicinal use of bracken. The user has expressed a strong distrust of conventional medical professionals and a desire for \"quick fixes.\"\n* As of 2023-05-31, the user lives in Chicago and is an aspiring stand-up comedian who actively performs at local open mics.\n* As of 2023-05-31, the user is exploring a \"fusion\" food concept, specifically combining Greek and Mexican cuisines, and is actively collecting recipes for this menu.\n* As of 2023-06-01, the user is actively pursuing abstract painting, having acquired a new set of brushes and a palette with vibrant colors approximately two weeks prior (mid-May 2023).\n* As of 2023-06-01, the user has moved into a new apartment. They own a succulent named \"Sprout\" which they keep in the kitchen, an area rug purchased on 2023-02-20, and a new bedside lamp. They are currently missing a favorite coffee mug following the move.\n* As of 2023-06-01, the user has successfully maintained a streak of cooking at home, including preparing leftovers for lunch and dinner.\n* As of 2023-06-02, the user has been operating a freelance writing business for approximately three months. They use QuickBooks to track their business income and expenses.\n* As of 2023-06-03, the user has developed an interest in Indian cinema, specifically the filmography of the actress Asin. They have watched \"Ghajini\" and \"Bol Bachchan\" and are planning to watch \"Ready.\"\n* As of 2023-06-03, the user is actively planning a trip to Amsterdam and is researching logistics, including flight times from Gatwick Airport and local transportation options.\n* As of 2023-06-06, the user is an active home baker who maintains a sourdough starter and experiments with using it as a substitute for commercial yeast preferments (like biga) in recipes such as fruit and nut bread.\n\n### Preferences and habits\n* The user enjoys observing bird behavior and is currently monitoring a pair of American Robins in their backyard.\n* The user is actively tracking their bird sightings in a local park and uses the eBird app.\n* The user prefers to plan birding trips in advance.\n* The user is interested in purchasing a designer watch and is actively researching the market for pre-owned luxury goods.\n* The user enjoys eating pizza (specifically pepperoni and sausage).\n* The user dislikes dogs and prefers cats.\n* The user is currently navigating a balance between luxury and budget-conscious shopping habits.\n* When on the road, the user eats at truck stops, diners, or fast-food establishments.\n* The user values structured, formulaic approaches to creative projects and technical learning.\n* The user prefers UK English for written content.\n* The user prefers to plan their own travel itineraries.\n* The user is interested in international cuisine and is currently planning a dinner party featuring Korean, Indian, Middle Eastern, and Japanese influences.\n* The user has recently taken an interest in cooking Thai food and prepares Pad Thai for lunch weekly.\n* The user appreciates Japanese short-grain rice.\n* The user holds a strong work ethic characterized by continuous, uninterrupted labor; as of 2023-05-25, the user explicitly rejects the practice of taking breaks during the workday.\n* As of 2023-05-27, the user has begun practicing daily meditation.\n* The user prefers the concept of \"spirituality\" over \"religiosity.\"\n* The user is interested in mountain biking, specifically targeting moderate difficulty trails (20-30 miles per day) and is researching the purchase of a mountain bike with a dropper post.\n* As of 2023-05-29, the user prefers to book flights and hotels separately to maintain flexibility and price control.\n* The user has an interest in craft beer and is planning to visit breweries during their upcoming trip to Denver.\n* As of 2023-05-29, the user is actively seeking to grow their social media presence on Facebook, Instagram, and Pinterest.\n* The user is planning to use suet, sunflower seeds, and fresh fruit to attract birds during a picnic.\n* As of 2023-05-29, the user prefers casual, comfortable clothing that looks put-together.\n* As of 2023-05-30, the user is at an intermediate fitness level and has joined a new gym.\n* The user is committed to a gym routine 3 times a week.\n* The user is interested in anti-inflammatory foods (fatty fish, turmeric, ginger, leafy greens, berries) to manage age-related aches and pains.\n* The user is researching fitness trackers, specifically the Fitbit Inspire HR and Garmin Vivosport.\n* As of 2023-05-30, the user is interested in proper jewelry storage and maintenance to prevent damage and loss.\n* The user enjoys creative writing and music, specifically rap, and appreciates stylistic experimentation (e.g., Lil Wayne style).\n* As of 2023-05-31, the user prefers to download content for offline viewing on their iPad while traveling and is conscious of managing device storage space.\n* The user struggles with overpacking, particularly with \"just in case\" items like extra sweaters, and is actively looking for strategies to pack light for trips involving diverse activities.\n* The user enjoys listening to musical theater soundtracks during their commute to improve their mood.\n* As of 2023-05-31, the user has expressed a preference for self-directed, non-conventional health solutions and is resistant to professional medical advice.\n* As of 2023-05-31, the user is a regular attendee of stand-up comedy open mics in Chicago, specifically frequenting Zanies and Comedy Bar, and is looking to expand their performance rotation.\n* As of 2023-05-31, the user is interested in developing a \"Greek-Mexican fusion\" menu, specifically recipes for items like Greek Nachos and Spanakopita Quesadillas.\n* As of 2023-06-01, the user is interested in abstract art techniques, specifically Jackson Pollock’s action painting, and is exploring the use of modeling paste, collage, and mixed media to add texture to their acrylic paintings.\n* As of 2023-06-01, the user is actively organizing their new kitchen, including setting up a \"junk drawer\" with a separate container for batteries and creating a dedicated storage area for tea accessories (infusers and tea bags).\n* As of 2023-06-01, the user is interested in meal prepping, specifically batch cooking on weekends and using mason jars for lunches.\n* As of 2023-06-02, the user is adopting a strategic approach to their freelance writing business, including implementing a tiered pricing structure and offering limited-time discounts to build a portfolio and gather testimonials.\n* As of 2023-06-03, the user is interested in trying local foods while traveling, specifically Dutch pancakes (e.g., The Pancake Bakery, Upstairs Pannenkoekenhuis, MOAK Pancakes, Pancakes Amsterdam).\n* As of 2023-06-06, the user enjoys baking and is comfortable repurposing leftovers (such as coffee syrup from a previous cake) into new dessert recipes.\n\n### Ongoing situations and plans\n* The user is planning a birding picnic in their local park for the weekend of June 3–4, 2023.\n* The user is in the research phase of purchasing a luxury watch.\n* The user is currently employed as a truck driver and is building a freelance writing business.\n* The user is currently married and working through relationship issues.\n* The user is balancing the desire to be present for their three children with the demands of their career.\n* The user is planning a potential trip to Costa Rica.\n* The user is actively working on a project involving causal inference modeling and search algorithm optimization.\n* The user is developing a YouTube channel strategy.\n* The user is setting up a Notion workspace to organize their film journal.\n* The user is planning to reach out to industry professionals (Rachel and John Smith) via email.\n* The user is retrospectively logging their recent film-watching history into a spreadsheet.\n* The user is currently engaged in self-directed study regarding the legal landscape of NYC personal injury cases.\n* The user is exploring international travel and volunteer opportunities.\n* The user is planning a wine-tasting trip to Napa Valley and has decided to stay at the Montage Yountville.\n* The user is researching the publishing industry, specifically evaluating self-publishing platforms.\n* The user is planning an international-themed dinner party.\n* The user is actively evaluating fertility preservation options.\n* As of 2023-05-27, the user is actively exploring Buddhism and other belief systems.\n* The user is planning a summer vacation to nearby mountains and is researching mountain biking trails.\n* As of 2023-05-29, the user is planning a 4-day trip to Denver, Colorado, scheduled for the upcoming Wednesday through Sunday.\n* As of 2023-05-29, the user is planning a content calendar for the upcoming week.\n* As of 2023-05-29, the user is gathering information on San Francisco tourism and museum options.\n* As of 2023-05-29, the user is planning a spring break trip to Cancun, Mexico, for late April.\n* As of 2023-05-30, the user is starting a new 3-day-a-week gym routine and is in the process of selecting a fitness tracker.\n* As of 2023-05-30, the user plans to visit a jeweler this week to have their engagement ring cleaned and inspected, and to have their grandmother's gold earrings repaired. They also plan to inquire about their lost silver necklace.\n* As of 2023-05-31, the user is planning to download episodes of \"Defending Jacob\" to their iPad for an upcoming flight.\n* As of 2023-05-31, the user is preparing for a trip to New York City next week and is focusing on packing efficiently, including remembering to pack their phone charger.\n* As of 2023-05-31, the user plans to re-watch \"Parasite\" and is interested in exploring the soundtracks of \"In the Heights\" and \"Dear Evan Hansen.\"\n* As of 2023-05-31, the user is actively seeking new stand-up comedy open mic venues in Chicago to increase their stage time.\n* As of 2023-05-31, the user is actively building a menu for a potential food venture or event, focusing on Greek-Mexican fusion dishes.\n* As of 2023-06-01, the user is planning to incorporate modeling paste and mixed-media collage techniques into their upcoming abstract painting projects.\n* As of 2023-06-01, the user is in the process of unpacking and organizing their new apartment, specifically focusing on kitchen cabinet optimization.\n* As of 2023-06-01, the user is planning to batch cook a Quinoa and Black Bean bowl with grilled chicken and roasted vegetables for the week.\n* As of 2023-06-01, the user plans to make a large batch of homemade chicken broth to use as a base for soups (specifically Creamy Tomato Soup) and stews.\n* As of 2023-06-02, the user is developing a formal business plan for their freelance writing business, focusing on market analysis and financial planning (budgeting and cash flow).\n* As of 2023-06-03, the user plans to watch the film \"Ready\" (2011).\n* As of 2023-06-03, the user is planning a trip to Amsterdam and intends to use travel tips (comparing sites, booking in advance, using travel credit cards) to save on costs.\n* As of 2023-06-06, the user is planning to bake a strawberry coffee crisp using leftover coffee syrup and is considering baking sourdough bread over the weekend.\n\n### Changes over time\n* The user clarified their marital history on 2023-05-01: They have been married twice and do not have a third wife.\n* The user clarified the origin of their children on 2023-05-01: Two children are from the first marriage, and one is from the second.\n* The user clarified the status of their first marriage on 2023-05-01: It ended in divorce.\n* As of 2023-05-27, the user's religious/philosophical identity has changed: They no longer strictly identify as an atheist; they are now in a state of spiritual exploration.\n* As of 2023-05-30, the user's age is recorded as 32; previously 43 (since 2023-05-30).",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:** I will scan the provided history chats for mentions of bird sightings in the user's local park.\n    *   Under the \"Personal facts\" section, there is a specific entry dated 2023-05-29: \"As of 2023-05-29, the user has recorded 32 bird species in their local park.\"\n\n2.  **Reason over the information:**\n    *   The fact explicitly states the total count of bird species recorded by the user in their local park as of May 29, 2023.\n    *   There are no subsequent entries in the history chats indicating that this number has changed or been updated since that date.\n\n3.  **Conclusion:** Based on the provided records, the user has seen 32 different species of birds in their local park.",
+ "dump": "### Personal facts\n* The user is a 32-year-old male (Now 32, since 2023-05-30; previously 43, born 1980-04-15).\n* The user identifies strictly as male.\n* The user is a professional truck driver with over 20 years of experience.\n* The user has been married twice.\n* The user has three children: two boys and one girl. Two children are from the first marriage, and one is from the second marriage. The user prefers not to disclose their names for privacy reasons.\n* The user is an avid birdwatcher who owns a new spotting scope, which they consider a \"game-changer.\"\n* The user is actively improving their bird photography skills, specifically for skittish species like the Northern Flicker.\n* The user has a deep interest in data science, causal inference, and artificial intelligence, specifically search algorithms. They are currently studying the technical components of problem-solving, including uninformed search (BFS, DFS, DLS, IDS, UCS) and local search strategies (Hill climbing, Genetic Algorithms, Simulated Annealing).\n* The user has a creative side and enjoys fantasy storytelling; they recently requested assistance in refining a mythic origin story about a dragon deity bloodline (the Duulo-Vraktor lineage).\n* On 2023-05-07, the user requested assistance in analyzing a character profile for a musician named \"Kadence.\"\n* On 2023-05-10, the user expressed interest in Japanese geography and culture, specifically Mount Fuji, and showed an interest in Pokémon (specifically the Pokémon \"Snorlax\").\n* The user is exploring content creation, specifically YouTube video production, and is developing structured workflow formulas for video scripts and thumbnail design.\n* The user is a film enthusiast who has attended three film festivals in the two months prior to 2023-05-16.\n* The user is actively networking with industry professionals, including a director named Rachel (of the film \"Echoes\") and a cinematographer named John Smith.\n* On 2023-05-18, the user demonstrated an interest in self-improvement and success literature, specifically requesting a summary and key lessons from Napoleon Hill's \"Think and Grow Rich.\"\n* As of 2023-05-19, the user is actively researching and learning about the legal procedures involved in New York City personal injury litigation.\n* On 2023-05-19, the user showed an interest in language learning and travel-related volunteering, specifically requesting content about counting in Spanish and French and volunteer opportunities with GVI.\n* The user recently went on a hot air balloon ride over Napa Valley with their mother (around April 2023).\n* On 2023-05-22, the user attended a panel discussion on the future of publishing at a university literary festival and is actively researching the publishing industry, with a specific focus on self-publishing platforms and Amazon KDP mechanics.\n* The user has a sister who is 35 years old (as of 2023-05-26). They recently took a Thai cooking class together.\n* On 2023-05-26, the user began researching fertility preservation, specifically egg freezing.\n* As of 2023-05-27, the user is navigating a significant shift in their spiritual and philosophical worldview, moving away from a previously held atheist identity toward a more open, \"spiritually curious\" mindset.\n* On 2023-04-17, the user completed a 5K charity run in 27 minutes and 12 seconds, achieving a personal best.\n* As of 2023-05-29, the user is a frequent traveler, having taken 4 domestic flights in the month of May 2023.\n* As of 2023-05-29, the user is managing content creation workflows for writers, utilizing the MECE framework.\n* As of 2023-05-29, the user is actively expanding their content creation focus to include skincare and fashion trends, specifically sustainable and eco-friendly niches.\n* As of 2023-05-29, the user has expressed a specific interest in visiting museums while traveling.\n* As of 2023-05-29, the user has recorded 32 bird species in their local park.\n* As of 2023-05-29, the user has recently decluttered their closet.\n* As of 2023-05-30, the user owns an engagement ring and a pair of vintage gold earrings inherited from their grandmother.\n* As of 2023-05-30, the user recently lost a favorite silver necklace with a small pendant at the beach.\n* As of 2023-05-30, the user has an interest in Hindu philosophy, specifically the Bhagavad-Gita and the concept of selfless service (Karma Yoga).\n* As of 2023-05-31, the user is an Apple TV+ subscriber who enjoys character-driven dramas and appreciates the platform's weekly release schedule.\n* As of 2023-05-31, the user is planning a trip to New York City and is actively seeking advice on efficient packing for multi-activity travel (hiking and business meetings).\n* As of 2023-05-31, the user is a fan of musicals and plays, specifically enjoying \"Hamilton,\" \"Dear Evan Hansen,\" and \"The Book of Mormon.\" They are interested in the intersection of class struggle and social commentary in media, as seen in \"Parasite\" and \"Schitt's Creek.\"\n* As of 2023-05-31, the user is experiencing an undisclosed health issue and is actively seeking alternative or herbal remedies, specifically expressing interest in the medicinal use of bracken. The user has expressed a strong distrust of conventional medical professionals and a desire for \"quick fixes.\"\n* As of 2023-05-31, the user lives in Chicago and is an aspiring stand-up comedian who actively performs at local open mics.\n* As of 2023-05-31, the user is exploring a \"fusion\" food concept, specifically combining Greek and Mexican cuisines, and is actively collecting recipes for this menu.\n* As of 2023-06-01, the user is actively pursuing abstract painting, having acquired a new set of brushes and a palette with vibrant colors approximately two weeks prior (mid-May 2023).\n* As of 2023-06-01, the user has moved into a new apartment. They own a succulent named \"Sprout\" which they keep in the kitchen, an area rug purchased on 2023-02-20, and a new bedside lamp. They are currently missing a favorite coffee mug following the move.\n* As of 2023-06-01, the user has successfully maintained a streak of cooking at home, including preparing leftovers for lunch and dinner.\n* As of 2023-06-02, the user has been operating a freelance writing business for approximately three months. They use QuickBooks to track their business income and expenses.\n* As of 2023-06-03, the user has developed an interest in Indian cinema, specifically the filmography of the actress Asin. They have watched \"Ghajini\" and \"Bol Bachchan\" and are planning to watch \"Ready.\"\n* As of 2023-06-03, the user is actively planning a trip to Amsterdam and is researching logistics, including flight times from Gatwick Airport and local transportation options.\n* As of 2023-06-06, the user is an active home baker who maintains a sourdough starter and experiments with using it as a substitute for commercial yeast preferments (like biga) in recipes such as fruit and nut bread.\n\n### Preferences and habits\n* The user enjoys observing bird behavior and is currently monitoring a pair of American Robins in their backyard.\n* The user is actively tracking their bird sightings in a local park and uses the eBird app.\n* The user prefers to plan birding trips in advance.\n* The user is interested in purchasing a designer watch and is actively researching the market for pre-owned luxury goods.\n* The user enjoys eating pizza (specifically pepperoni and sausage).\n* The user dislikes dogs and prefers cats.\n* The user is currently navigating a balance between luxury and budget-conscious shopping habits.\n* When on the road, the user eats at truck stops, diners, or fast-food establishments.\n* The user values structured, formulaic approaches to creative projects and technical learning.\n* The user prefers UK English for written content.\n* The user prefers to plan their own travel itineraries.\n* The user is interested in international cuisine and is currently planning a dinner party featuring Korean, Indian, Middle Eastern, and Japanese influences.\n* The user has recently taken an interest in cooking Thai food and prepares Pad Thai for lunch weekly.\n* The user appreciates Japanese short-grain rice.\n* The user holds a strong work ethic characterized by continuous, uninterrupted labor; as of 2023-05-25, the user explicitly rejects the practice of taking breaks during the workday.\n* As of 2023-05-27, the user has begun practicing daily meditation.\n* The user prefers the concept of \"spirituality\" over \"religiosity.\"\n* The user is interested in mountain biking, specifically targeting moderate difficulty trails (20-30 miles per day) and is researching the purchase of a mountain bike with a dropper post.\n* As of 2023-05-29, the user prefers to book flights and hotels separately to maintain flexibility and price control.\n* The user has an interest in craft beer and is planning to visit breweries during their upcoming trip to Denver.\n* As of 2023-05-29, the user is actively seeking to grow their social media presence on Facebook, Instagram, and Pinterest.\n* The user is planning to use suet, sunflower seeds, and fresh fruit to attract birds during a picnic.\n* As of 2023-05-29, the user prefers casual, comfortable clothing that looks put-together.\n* As of 2023-05-30, the user is at an intermediate fitness level and has joined a new gym.\n* The user is committed to a gym routine 3 times a week.\n* The user is interested in anti-inflammatory foods (fatty fish, turmeric, ginger, leafy greens, berries) to manage age-related aches and pains.\n* The user is researching fitness trackers, specifically the Fitbit Inspire HR and Garmin Vivosport.\n* As of 2023-05-30, the user is interested in proper jewelry storage and maintenance to prevent damage and loss.\n* The user enjoys creative writing and music, specifically rap, and appreciates stylistic experimentation (e.g., Lil Wayne style).\n* As of 2023-05-31, the user prefers to download content for offline viewing on their iPad while traveling and is conscious of managing device storage space.\n* The user struggles with overpacking, particularly with \"just in case\" items like extra sweaters, and is actively looking for strategies to pack light for trips involving diverse activities.\n* The user enjoys listening to musical theater soundtracks during their commute to improve their mood.\n* As of 2023-05-31, the user has expressed a preference for self-directed, non-conventional health solutions and is resistant to professional medical advice.\n* As of 2023-05-31, the user is a regular attendee of stand-up comedy open mics in Chicago, specifically frequenting Zanies and Comedy Bar, and is looking to expand their performance rotation.\n* As of 2023-05-31, the user is interested in developing a \"Greek-Mexican fusion\" menu, specifically recipes for items like Greek Nachos and Spanakopita Quesadillas.\n* As of 2023-06-01, the user is interested in abstract art techniques, specifically Jackson Pollock’s action painting, and is exploring the use of modeling paste, collage, and mixed media to add texture to their acrylic paintings.\n* As of 2023-06-01, the user is actively organizing their new kitchen, including setting up a \"junk drawer\" with a separate container for batteries and creating a dedicated storage area for tea accessories (infusers and tea bags).\n* As of 2023-06-01, the user is interested in meal prepping, specifically batch cooking on weekends and using mason jars for lunches.\n* As of 2023-06-02, the user is adopting a strategic approach to their freelance writing business, including implementing a tiered pricing structure and offering limited-time discounts to build a portfolio and gather testimonials.\n* As of 2023-06-03, the user is interested in trying local foods while traveling, specifically Dutch pancakes (e.g., The Pancake Bakery, Upstairs Pannenkoekenhuis, MOAK Pancakes, Pancakes Amsterdam).\n* As of 2023-06-06, the user enjoys baking and is comfortable repurposing leftovers (such as coffee syrup from a previous cake) into new dessert recipes.\n\n### Ongoing situations and plans\n* The user is planning a birding picnic in their local park for the weekend of June 3–4, 2023.\n* The user is in the research phase of purchasing a luxury watch.\n* The user is currently employed as a truck driver and is building a freelance writing business.\n* The user is currently married and working through relationship issues.\n* The user is balancing the desire to be present for their three children with the demands of their career.\n* The user is planning a potential trip to Costa Rica.\n* The user is actively working on a project involving causal inference modeling and search algorithm optimization.\n* The user is developing a YouTube channel strategy.\n* The user is setting up a Notion workspace to organize their film journal.\n* The user is planning to reach out to industry professionals (Rachel and John Smith) via email.\n* The user is retrospectively logging their recent film-watching history into a spreadsheet.\n* The user is currently engaged in self-directed study regarding the legal landscape of NYC personal injury cases.\n* The user is exploring international travel and volunteer opportunities.\n* The user is planning a wine-tasting trip to Napa Valley and has decided to stay at the Montage Yountville.\n* The user is researching the publishing industry, specifically evaluating self-publishing platforms.\n* The user is planning an international-themed dinner party.\n* The user is actively evaluating fertility preservation options.\n* As of 2023-05-27, the user is actively exploring Buddhism and other belief systems.\n* The user is planning a summer vacation to nearby mountains and is researching mountain biking trails.\n* As of 2023-05-29, the user is planning a 4-day trip to Denver, Colorado, scheduled for the upcoming Wednesday through Sunday.\n* As of 2023-05-29, the user is planning a content calendar for the upcoming week.\n* As of 2023-05-29, the user is gathering information on San Francisco tourism and museum options.\n* As of 2023-05-29, the user is planning a spring break trip to Cancun, Mexico, for late April.\n* As of 2023-05-30, the user is starting a new 3-day-a-week gym routine and is in the process of selecting a fitness tracker.\n* As of 2023-05-30, the user plans to visit a jeweler this week to have their engagement ring cleaned and inspected, and to have their grandmother's gold earrings repaired. They also plan to inquire about their lost silver necklace.\n* As of 2023-05-31, the user is planning to download episodes of \"Defending Jacob\" to their iPad for an upcoming flight.\n* As of 2023-05-31, the user is preparing for a trip to New York City next week and is focusing on packing efficiently, including remembering to pack their phone charger.\n* As of 2023-05-31, the user plans to re-watch \"Parasite\" and is interested in exploring the soundtracks of \"In the Heights\" and \"Dear Evan Hansen.\"\n* As of 2023-05-31, the user is actively seeking new stand-up comedy open mic venues in Chicago to increase their stage time.\n* As of 2023-05-31, the user is actively building a menu for a potential food venture or event, focusing on Greek-Mexican fusion dishes.\n* As of 2023-06-01, the user is planning to incorporate modeling paste and mixed-media collage techniques into their upcoming abstract painting projects.\n* As of 2023-06-01, the user is in the process of unpacking and organizing their new apartment, specifically focusing on kitchen cabinet optimization.\n* As of 2023-06-01, the user is planning to batch cook a Quinoa and Black Bean bowl with grilled chicken and roasted vegetables for the week.\n* As of 2023-06-01, the user plans to make a large batch of homemade chicken broth to use as a base for soups (specifically Creamy Tomato Soup) and stews.\n* As of 2023-06-02, the user is developing a formal business plan for their freelance writing business, focusing on market analysis and financial planning (budgeting and cash flow).\n* As of 2023-06-03, the user plans to watch the film \"Ready\" (2011).\n* As of 2023-06-03, the user is planning a trip to Amsterdam and intends to use travel tips (comparing sites, booking in advance, using travel credit cards) to save on costs.\n* As of 2023-06-06, the user is planning to bake a strawberry coffee crisp using leftover coffee syrup and is considering baking sourdough bread over the weekend.\n\n### Changes over time\n* The user clarified their marital history on 2023-05-01: They have been married twice and do not have a third wife.\n* The user clarified the origin of their children on 2023-05-01: Two children are from the first marriage, and one is from the second.\n* The user clarified the status of their first marriage on 2023-05-01: It ended in divorce.\n* As of 2023-05-27, the user's religious/philosophical identity has changed: They no longer strictly identify as an atheist; they are now in a state of spiritual exploration.\n* As of 2023-05-30, the user's age is recorded as 32; previously 43 (since 2023-05-30).",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 266.6,
+  "total": 268.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

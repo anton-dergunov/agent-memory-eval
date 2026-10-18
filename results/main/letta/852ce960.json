@@ -1,0 +1,132 @@
+{
+ "qid": "852ce960",
+ "arm": "letta",
+ "split": "main",
+ "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+ "reference": "$400,000",
+ "question_date": "2023-12-18 04:17",
+ "sessions": [
+  {
+   "id": "ultrachat_218093",
+   "date": "2023-07-12 10:14",
+   "evidence": false
+  },
+  {
+   "id": "d36d11b9_2",
+   "date": "2023-08-02 05:58",
+   "evidence": false
+  },
+  {
+   "id": "answer_3a6f1e82_1",
+   "date": "2023-08-11 00:01",
+   "evidence": true
+  },
+  {
+   "id": "0840765f_2",
+   "date": "2023-08-17 02:26",
+   "evidence": false
+  },
+  {
+   "id": "114c1fb7_4",
+   "date": "2023-08-26 11:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_390626",
+   "date": "2023-08-29 00:11",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_eN4o9Zr_0",
+   "date": "2023-09-05 13:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_475483",
+   "date": "2023-09-18 15:58",
+   "evidence": false
+  },
+  {
+   "id": "f55fee5b_2",
+   "date": "2023-11-15 12:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_3a6f1e82_2",
+   "date": "2023-11-30 00:36",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nThe user values reliable news sources, especially during major events like the COVID-19 pandemic, because they appreciate the accuracy and accountability that established organizations like the AP provide. They prioritize trust and integrity in the information they consume.\nThe user aims for a 7:00 AM weekday wake-up time and a 7:30 AM weekend wake-up time. They are looking for ways to stay motivated and avoid the snooze button.\nThe user plans to incorporate light stretching (yoga/neck and shoulder rolls) and guided meditation (interested in Headspace/Calm) into their morning routine to reduce stress. They also want to use morning time for daily planning (to-do lists/goals) to increase focus and motivation.\nThe user is currently in the process of purchasing a $325,000 home and is negotiating closing costs. They have already secured a $2,000 seller credit and are negotiating for an additional $3,250 (1% of purchase price) for a total of $5,250 in seller concessions. They are looking to estimate their final out-of-pocket closing costs.\nThe user is purchasing a $325,000 home. They are interested in understanding the monthly breakdown of their mortgage (P&I), property taxes, and insurance (escrow).\n\nThe user participates in charity cycling events. They previously completed \"Ride for a Reason\" on March 25th (approx. 200 participants). They are preparing for another upcoming charity cycling event and need tips on training and fundraising.\n\nThe user is interested in creating a \"donor recognition page\" to thank those who support their charity cycling events. They are looking for the purpose of such a page and tips on how to create one effectively.\n\nThe user is interested in creating a \"fundraising team\" for their charity cycling events. They are looking for the benefits of having a team and tips on how to recruit members.\nThe user is a senior software engineer who was recently promoted. They have been approached by a rival company for a technical lead position and are currently weighing their career options. They are also considering professional development opportunities like MBA programs or certifications to support a potential career transition.\nThe user is highly interested in entrepreneurship and venture capital. They are specifically researching the Stanford Graduate School of Business (GSB) for this purpose, with a focus on the Stanford-StartX accelerator program.\nThe user is currently exploring potential SaaS business ideas to leverage their background as a senior software engineer. They are interested in identifying industries that are fragmented or technologically behind, where their expertise could build a scalable product.\nThe user decided to try Trello for managing their thesis project. They are actively seeking strategies to break their habit of spending significant time (previously 2 hours/day) on Facebook, Instagram, and Twitter.\nThe user is moving into their new home soon and is setting up cable and TV services. They are excited about the backyard. They previously mentioned being pre-approved for a $400,000 mortgage from Wells Fargo (though they are currently closing on a $325,000 home).\nThe user is located in the 78749 ZIP code (Austin, TX area). They are setting up cable/TV, electricity, and gas services for their new home.\nThe user is looking for time-tracking or task management tools to help organize appointments and tasks for their home move, including setting up utilities. They previously mentioned using Trello for their thesis.\nThe user is setting up home insurance with Liberty Mutual and is asking for tips on what to review in the policy documents.\nThe user is finalizing moving details with a storage unit company for their upcoming move.\nThe user rented a storage unit on March 1st. They need to finalize moving details with the facility, specifically regarding the move-out date, the size of the truck they'll need for their items, and potential labor assistance.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T02:41:07.297401+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-18 04:17] What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?'}]}",
+ "answer": "You were previously pre-approved for a $400,000 mortgage from Wells Fargo.",
+ "dump": "<human>\n\nThe user values reliable news sources, especially during major events like the COVID-19 pandemic, because they appreciate the accuracy and accountability that established organizations like the AP provide. They prioritize trust and integrity in the information they consume.\nThe user aims for a 7:00 AM weekday wake-up time and a 7:30 AM weekend wake-up time. They are looking for ways to stay motivated and avoid the snooze button.\nThe user plans to incorporate light stretching (yoga/neck and shoulder rolls) and guided meditation (interested in Headspace/Calm) into their morning routine to reduce stress. They also want to use morning time for daily planning (to-do lists/goals) to increase focus and motivation.\nThe user is currently in the process of purchasing a $325,000 home and is negotiating closing costs. They have already secured a $2,000 seller credit and are negotiating for an additional $3,250 (1% of purchase price) for a total of $5,250 in seller concessions. They are looking to estimate their final out-of-pocket closing costs.\nThe user is purchasing a $325,000 home. They are interested in understanding the monthly breakdown of their mortgage (P&I), property taxes, and insurance (escrow).\n\nThe user participates in charity cycling events. They previously completed \"Ride for a Reason\" on March 25th (approx. 200 participants). They are preparing for another upcoming charity cycling event and need tips on training and fundraising.\n\nThe user is interested in creating a \"donor recognition page\" to thank those who support their charity cycling events. They are looking for the purpose of such a page and tips on how to create one effectively.\n\nThe user is interested in creating a \"fundraising team\" for their charity cycling events. They are looking for the benefits of having a team and tips on how to recruit members.\nThe user is a senior software engineer who was recently promoted. They have been approached by a rival company for a technical lead position and are currently weighing their career options. They are also considering professional development opportunities like MBA programs or certifications to support a potential career transition.\nThe user is highly interested in entrepreneurship and venture capital. They are specifically researching the Stanford Graduate School of Business (GSB) for this purpose, with a focus on the Stanford-StartX accelerator program.\nThe user is currently exploring potential SaaS business ideas to leverage their background as a senior software engineer. They are interested in identifying industries that are fragmented or technologically behind, where their expertise could build a scalable product.\nThe user decided to try Trello for managing their thesis project. They are actively seeking strategies to break their habit of spending significant time (previously 2 hours/day) on Facebook, Instagram, and Twitter.\nThe user is moving into their new home soon and is setting up cable and TV services. They are excited about the backyard. They previously mentioned being pre-approved for a $400,000 mortgage from Wells Fargo (though they are currently closing on a $325,000 home).\nThe user is located in the 78749 ZIP code (Austin, TX area). They are setting up cable/TV, electricity, and gas services for their new home.\nThe user is looking for time-tracking or task management tools to help organize appointments and tasks for their home move, including setting up utilities. They previously mentioned using Trello for their thesis.\nThe user is setting up home insurance with Liberty Mutual and is asking for tips on what to review in the policy documents.\nThe user is finalizing moving details with a storage unit company for their upcoming move.\nThe user rented a storage unit on March 1st. They need to finalize moving details with the facility, specifically regarding the move-out date, the size of the truck they'll need for their items, and potential labor assistance.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"pre-approved Wells Fargo mortgage amount\"})",
+   "memory_search({\"query\": \"Wells Fargo pre-approval mortgage amount\"})",
+   "conversation_search({\"query\": \"Wells Fargo\"})"
+  ],
+  "blocks_chars": 4149,
+  "write_steps": 60,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 438.6,
+  "total": 447.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

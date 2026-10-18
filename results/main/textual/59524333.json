@@ -1,0 +1,91 @@
+{
+ "qid": "59524333",
+ "arm": "textual",
+ "split": "main",
+ "question": "What time do I usually go to the gym?",
+ "reference": "6:00 pm",
+ "question_date": "2023-06-06 16:35",
+ "sessions": [
+  {
+   "id": "sharegpt_Clr6oyu_0",
+   "date": "2023-01-20 19:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_1",
+   "date": "2023-02-11 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_493944",
+   "date": "2023-02-26 03:13",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_NYFuCmY_0",
+   "date": "2023-03-01 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_5FHWj0a_0",
+   "date": "2023-03-18 20:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_F1pXfP0_0",
+   "date": "2023-04-18 07:42",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_150151",
+   "date": "2023-05-23 10:33",
+   "evidence": false
+  },
+  {
+   "id": "e4882e09_5",
+   "date": "2023-05-24 22:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_2",
+   "date": "2023-05-30 07:52",
+   "evidence": true
+  },
+  {
+   "id": "08921633",
+   "date": "2023-05-30 20:42",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is a content creator currently producing a YouTube video.\n* The user maintains a regular fitness routine, attending gym sessions on Mondays, Wednesdays, and Fridays at 6:00 pm (since 2023-05-30; previously 7:00 pm).\n* The user has an interest in classical literature, specifically *The Odyssey*, and appreciates themes of personal growth, the balance between action and reflection, and the social dynamics of ancient Greek society.\n* The user has a strong interest in biblical studies and theology, specifically the Gospel of Mark, its historical context (the Jewish war and the destruction of the Temple in 70 AD), and the development of early Christian Christology.\n* The user is a software developer or engineer working with ROS (Robot Operating System) and Python, specifically interested in modifying internal `rospy` package behavior.\n* The user is interested in participating in the \"Commonpoint Challenge,\" a community fundraising event.\n* The user has wide feet and is currently researching footwear options that accommodate this.\n* The user owns a Canon EOS 5D Mark IV camera.\n* The user is interested in photography maintenance, specifically DIY sensor cleaning and organizing digital photo archives.\n* The user is currently engaging with potential clients for professional work.\n* The user has a brother who assists them with home improvement and assembly tasks.\n* The user recently replaced a broken dresser with a new one from IKEA, which they assembled with their brother's help on March 12th, 2023.\n\n### Preferences and habits\n* The user is interested in Minecraft and is knowledgeable enough to want to create tutorial content for the game.\n* The user prefers a specific style of video hook that emphasizes customization and the tools used by popular YouTubers.\n* The user values structured planning and organization, both for digital files and task management.\n* The user is a current user of Todoist for task management and is actively seeking ways to optimize their workflow and goal tracking within the app.\n* The user enjoys analyzing narrative structures, character development, and historical/theological themes in literature.\n* The user prefers a technical, hands-on approach to problem-solving, often analyzing source code to understand how to extend or override existing library functionality.\n* The user prefers concise, simplified communication and instructions.\n* The user prioritizes comfort and support in footwear, specifically seeking shoes with a spacious toe box.\n* The user is meticulous about gear maintenance and is interested in digitizing physical photo prints.\n* The user prefers to use Google Drive for professional file sharing and organization.\n* The user is adopting a \"Scandinavian Minimalism\" style for their bedroom and closet, favoring neutral palettes, natural textiles (wool, linen, cotton), and woven baskets (wicker, rattan, or seagrass) for storage.\n* The user is implementing a \"one in, one out\" policy for their clothing to maintain closet organization.\n\n### Ongoing situations and plans\n* The user is currently working on a YouTube video tutorial titled \"How to download Minecraft mods.\"\n* The user has finalized an opening hook for the video: \"Do you want to experience the game in the best way imaginable? Do you want tools that your favorite YouTubers are using? Or do you simply want to customize your Minecraft world to your heart's desire? Mods have got you covered! In this video, I'll show you how to find and install the best mods for Minecraft.\"\n* The user is in the process of planning the visual elements of the video, specifically struggling with the design of the thumbnail.\n* The user is researching content for the video, including explanations for \"What are mods?\" and \"Finding mods.\"\n* The user is planning a meeting with a potential client for a Tuesday at 2:00 pm (as of 2023-05-30).\n* The user is preparing meeting materials, including organizing files into a Google Drive folder to share with the client.\n* The user is planning to create a custom ROS package that inherits from `rospy` to override `_PublisherImpl.publish` and `_SubscriberImpl._invoke_callback`.\n* The user is evaluating shoe options (New Balance 990v5, ASICS Gel-Kayano 27, and Brooks Ghost 13) to support their fitness routine.\n* The user plans to perform DIY sensor cleaning on their Canon EOS 5D Mark IV using the Visible Dust Arctic Butterfly 724 kit.\n* The user is planning to organize their digital photo collection and scan old physical prints.\n* The user is actively organizing their closet by categorizing clothes and planning to install a closet system and use woven baskets for smaller items like socks and underwear.\n\n### Changes over time\n* The Commonpoint Challenge status: The event dates (April 1–21, 2023) have passed as of 2023-05-23; previously listed as an active upcoming participation.\n* Camera maintenance: As of 2023-05-24, the user has transitioned from professional sensor cleaning (done last month) to planning DIY maintenance using the Visible Dust Arctic Butterfly 724 kit.\n* Gym schedule: As of 2023-05-30, the user confirmed their gym sessions are on Mondays, Wednesdays, and Fridays at 6:00 pm; previously listed as 7:00 pm.",
+ "answer": "To determine your usual gym time, I have analyzed the provided facts as follows:\n\n**Step 1: Extract relevant information**\n*   Under \"Personal facts,\" it is stated: \"The user maintains a regular fitness routine, attending gym sessions on Mondays, Wednesdays, and Fridays at 6:00 pm (since 2023-05-30; previously 7:00 pm).\"\n*   Under \"Changes over time,\" it is confirmed: \"As of 2023-05-30, the user confirmed their gym sessions are on Mondays, Wednesdays, and Fridays at 6:00 pm; previously listed as 7:00 pm.\"\n\n**Step 2: Reason over the information**\n*   The current date is 2023/06/06.\n*   The most recent update regarding your gym schedule occurred on 2023-05-30, which established the new time of 6:00 pm.\n*   Since the current date is after the change date, the updated time is the one currently in effect.\n\n**Answer:**\nYou usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",
+ "dump": "### Personal facts\n* The user is a content creator currently producing a YouTube video.\n* The user maintains a regular fitness routine, attending gym sessions on Mondays, Wednesdays, and Fridays at 6:00 pm (since 2023-05-30; previously 7:00 pm).\n* The user has an interest in classical literature, specifically *The Odyssey*, and appreciates themes of personal growth, the balance between action and reflection, and the social dynamics of ancient Greek society.\n* The user has a strong interest in biblical studies and theology, specifically the Gospel of Mark, its historical context (the Jewish war and the destruction of the Temple in 70 AD), and the development of early Christian Christology.\n* The user is a software developer or engineer working with ROS (Robot Operating System) and Python, specifically interested in modifying internal `rospy` package behavior.\n* The user is interested in participating in the \"Commonpoint Challenge,\" a community fundraising event.\n* The user has wide feet and is currently researching footwear options that accommodate this.\n* The user owns a Canon EOS 5D Mark IV camera.\n* The user is interested in photography maintenance, specifically DIY sensor cleaning and organizing digital photo archives.\n* The user is currently engaging with potential clients for professional work.\n* The user has a brother who assists them with home improvement and assembly tasks.\n* The user recently replaced a broken dresser with a new one from IKEA, which they assembled with their brother's help on March 12th, 2023.\n\n### Preferences and habits\n* The user is interested in Minecraft and is knowledgeable enough to want to create tutorial content for the game.\n* The user prefers a specific style of video hook that emphasizes customization and the tools used by popular YouTubers.\n* The user values structured planning and organization, both for digital files and task management.\n* The user is a current user of Todoist for task management and is actively seeking ways to optimize their workflow and goal tracking within the app.\n* The user enjoys analyzing narrative structures, character development, and historical/theological themes in literature.\n* The user prefers a technical, hands-on approach to problem-solving, often analyzing source code to understand how to extend or override existing library functionality.\n* The user prefers concise, simplified communication and instructions.\n* The user prioritizes comfort and support in footwear, specifically seeking shoes with a spacious toe box.\n* The user is meticulous about gear maintenance and is interested in digitizing physical photo prints.\n* The user prefers to use Google Drive for professional file sharing and organization.\n* The user is adopting a \"Scandinavian Minimalism\" style for their bedroom and closet, favoring neutral palettes, natural textiles (wool, linen, cotton), and woven baskets (wicker, rattan, or seagrass) for storage.\n* The user is implementing a \"one in, one out\" policy for their clothing to maintain closet organization.\n\n### Ongoing situations and plans\n* The user is currently working on a YouTube video tutorial titled \"How to download Minecraft mods.\"\n* The user has finalized an opening hook for the video: \"Do you want to experience the game in the best way imaginable? Do you want tools that your favorite YouTubers are using? Or do you simply want to customize your Minecraft world to your heart's desire? Mods have got you covered! In this video, I'll show you how to find and install the best mods for Minecraft.\"\n* The user is in the process of planning the visual elements of the video, specifically struggling with the design of the thumbnail.\n* The user is researching content for the video, including explanations for \"What are mods?\" and \"Finding mods.\"\n* The user is planning a meeting with a potential client for a Tuesday at 2:00 pm (as of 2023-05-30).\n* The user is preparing meeting materials, including organizing files into a Google Drive folder to share with the client.\n* The user is planning to create a custom ROS package that inherits from `rospy` to override `_PublisherImpl.publish` and `_SubscriberImpl._invoke_callback`.\n* The user is evaluating shoe options (New Balance 990v5, ASICS Gel-Kayano 27, and Brooks Ghost 13) to support their fitness routine.\n* The user plans to perform DIY sensor cleaning on their Canon EOS 5D Mark IV using the Visible Dust Arctic Butterfly 724 kit.\n* The user is planning to organize their digital photo collection and scan old physical prints.\n* The user is actively organizing their closet by categorizing clothes and planning to install a closet system and use woven baskets for smaller items like socks and underwear.\n\n### Changes over time\n* The Commonpoint Challenge status: The event dates (April 1–21, 2023) have passed as of 2023-05-23; previously listed as an active upcoming participation.\n* Camera maintenance: As of 2023-05-24, the user has transitioned from professional sensor cleaning (done last month) to planning DIY maintenance using the Visible Dust Arctic Butterfly 724 kit.\n* Gym schedule: As of 2023-05-30, the user confirmed their gym sessions are on Mondays, Wednesdays, and Fridays at 6:00 pm; previously listed as 7:00 pm.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 20.6,
+  "total": 21.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

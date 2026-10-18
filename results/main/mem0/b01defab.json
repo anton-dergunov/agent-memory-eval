@@ -1,0 +1,100 @@
+{
+ "qid": "b01defab",
+ "arm": "mem0",
+ "split": "main",
+ "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+ "reference": "Yes",
+ "question_date": "2023-04-12 06:37",
+ "sessions": [
+  {
+   "id": "answer_8c0712af_1",
+   "date": "2023-01-21 15:05",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_8ns7j9U_0",
+   "date": "2023-01-29 15:16",
+   "evidence": false
+  },
+  {
+   "id": "fc69fd44_7",
+   "date": "2023-02-04 19:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_A8RUQVi_0",
+   "date": "2023-02-07 23:11",
+   "evidence": false
+  },
+  {
+   "id": "36f96326_1",
+   "date": "2023-02-20 04:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_YcpcK2K_18",
+   "date": "2023-02-24 05:46",
+   "evidence": false
+  },
+  {
+   "id": "936b0969_2",
+   "date": "2023-03-14 12:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_207469",
+   "date": "2023-03-21 12:10",
+   "evidence": false
+  },
+  {
+   "id": "answer_8c0712af_2",
+   "date": "2023-03-30 01:14",
+   "evidence": true
+  },
+  {
+   "id": "d75869af",
+   "date": "2023-03-30 23:12",
+   "evidence": false
+  }
+ ],
+ "context": "- User is currently reading 'The Nightingale' by Kristin Hannah but put it down temporarily because it was too emotionally intense. (from a chat on 2023-01-21)\n- User recently finished reading 'The Seven Husbands of Evelyn Hugo' and 'The Nightingale' by Kristin Hannah, both of which they enjoyed. (from a chat on 2023-03-30)\n- User found the sisterly bond between Vianne and Isabelle in 'The Nightingale' to be the most resonant aspect of the book. (from a chat on 2023-03-30)\n- User was recommended the following reading journals: 'The Reading Life Journal' by Anne Bogel, 'The Book Lover's Journal' by Barbara Kingsolver, 'The Reading Journal' by Peter Pauper Press, 'The Book Club Journal' by Book of the Month Club, and 'The Literary Guild Reading Journal'. (from a chat on 2023-01-21)\n- User plans to read 'The Poppy War' next and intends to use their daily commute for reading. (from a chat on 2023-01-21)\n- User plans to read 'The Alice Network' next to learn more about female spies during World War I. (from a chat on 2023-03-30)\n- User is considering oak or walnut wood finishes for their new TV stand to match their coffee table. (from a chat on 2023-02-04)\n- User enjoys mythology-inspired books and has previously read and enjoyed 'The Song of Achilles' by Madeline Miller. (from a chat on 2023-01-21)\n- User is looking for a physical reading journal to track their progress and thoughts, having previously used their phone's Notes app. (from a chat on 2023-01-21)\n- User plans to visit a new bookstore on Main St to look for reading journals and ask staff for mythology-inspired book recommendations. (from a chat on 2023-01-21)\n- User was recommended several historical fiction novels: 'The Alice Network' by Kate Quinn, 'The Lost Girls of Paris' by Pam Jenoff, 'The Dollhouse' and 'The Address' by Fiona Davis, 'The Women in the Castle' by Jessica Shattuck, 'The Guernsey Literary and Potato Peel Pie Society' by Mary Ann Shaffer, and 'Those Who Save Us' by Jenna Blum. (from a chat on 2023-03-30)\n- User was recommended historical fiction audiobooks: 'The Night Road' (narrated by Julia Whelan), 'The Huntress' (narrated by Saskia Maarleveld), 'The Soldier's Wife' (narrated by Heather Wilds), 'The Postmistress' (narrated by Orlagh Cassidy), and 'All the Light We Cannot See' (narrated by Zach Appelman). (from a chat on 2023-03-30)\n- User decided to use Goodreads for digital tracking and 'The Book Lover's Journal' for a physical space to record their thoughts. (from a chat on 2023-03-30)\n- User was recommended the following mythology-inspired books: 'Circe' by Madeline Miller, 'The Silence of the Girls' by Pat Barker, 'The Penelopiad' by Margaret Atwood, 'The Golem and the Jinni' by Helene Wecker, 'The City of Brass' by S.A. Chakraborty, 'The House of Shattered Wings' by Aliette de Bodard, and 'The Library of the Unwritten' by A.J. Hackwith. (from a chat on 2023-01-21)\n- User was recommended historical fiction communities including The Historical Fiction Forum, Historical Fiction Lovers (Facebook), The Historical Novel Society, and various Goodreads book clubs like The Historical Fiction Book Club and The WWII Historical Fiction Book Club. (from a chat on 2023-03-30)\n- User enjoys discussing books with their coworker, Rachel. (from a chat on 2023-03-30)\n- User enjoys listening to audiobooks during their morning runs. (from a chat on 2023-03-30)\n- User replaced their old mattress in April 2022, which significantly improved their sleep quality. (from a chat on 2023-02-04)\n- User received asylum approval in the United States around mid-March 2023 after an 18-month waiting period. (from a chat on 2023-03-14)\n- User was provided with information on highly sought-after error coins, such as the 1944 steel cent, 1955 doubled die Lincoln cent, and 1937-D three-legged Buffalo nickel. (from a chat on 2023-02-20)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   On 2023-01-21, the user mentioned they were reading 'The Nightingale' but had put it down temporarily because it was too emotionally intense.\n    *   On 2023-03-30, the user stated they \"recently finished reading 'The Seven Husbands of Evelyn Hugo' and 'The Nightingale' by Kristin Hannah.\"\n\n2.  **Reason over the information:**\n    *   The user's statement from 2023-03-30 explicitly confirms that they have finished reading 'The Nightingale'.\n\n**Answer:** Yes, you finished reading 'The Nightingale' by Kristin Hannah. You confirmed this in our chat on March 30, 2023.",
+ "dump": "- User was recommended several sustainable Malaysian brands: Earth Heir (ethically made fashion/lifestyle), Green Yards (eco-friendly home/personal care), Biji-biji Initiative (upcycled products), Tanamera (natural skincare), and Batik Boutique (handmade batik supporting women artisans). (session 2023-03-21)\n- User is interested in expanding their collection to include international error coins and is seeking resources and dealers specializing in that area. (session 2023-02-20)\n- User prefers a traditional TV stand design featuring ornate details such as carved wooden legs, decorative trim, and raised panel wooden doors with molding. (session 2023-02-04)\n- User recently finished reading 'The Seven Husbands of Evelyn Hugo' and 'The Nightingale' by Kristin Hannah, both of which they enjoyed. (session 2023-03-30)\n- User was provided with guidance on applying for Medicaid, including eligibility criteria based on income, residency, and status, and the various application methods (online, phone, in-person, or mail). (session 2023-03-14)\n- User was advised that Amano shrimp and Otocinclus catfish are effective at cleaning leftover food and algae, with Amano shrimp being more tolerant of water parameter fluctuations and easier to care for than Otocinclus. (session 2023-03-30)\n- User was recommended Java Moss, Anacharis, Cabomba, Water Wisteria, Hornwort, and Dwarf Hairgrass as algae-controlling plants suitable for a community tank. (session 2023-03-30)\n- User plans to use brass or bronze metal hardware for their TV stand to add warmth and elegance. (session 2023-02-04)\n- User was recommended several historical fiction novels: 'The Alice Network' by Kate Quinn, 'The Lost Girls of Paris' by Pam Jenoff, 'The Dollhouse' and 'The Address' by Fiona Davis, 'The Women in the Castle' by Jessica Shattuck, 'The Guernsey Literary and Potato Peel Pie Society' by Mary Ann Shaffer, and 'Those Who Save Us' by Jenna Blum. (session 2023-03-30)\n- User plans to visit a new bookstore on Main St to look for reading journals and ask staff for mythology-inspired book recommendations. (session 2023-01-21)\n- User enjoys listening to audiobooks during their morning runs. (session 2023-03-30)\n- User was recommended the following reading journals: 'The Reading Life Journal' by Anne Bogel, 'The Book Lover's Journal' by Barbara Kingsolver, 'The Reading Journal' by Peter Pauper Press, 'The Book Club Journal' by Book of the Month Club, and 'The Literary Guild Reading Journal'. (session 2023-01-21)\n- User was provided with a list of international error coin dealers and resources, including Krause Publications, Muenzhandlung Harald Hagemann, Coincraft, The Coin Shop, and NumisCorner. (session 2023-02-20)\n- User was advised that Refugee Medical Assistance (RMA) is a short-term program providing up to 8 months of coverage for essential health services like outpatient/inpatient care, prescriptions, and maternity care. (session 2023-03-14)\n- The assistant provided a mathematical formula for food allocation: F_i = min(max(F * H_i / total_hunger, L_i), M_i) when both thresholds exist, and adjusted logic for cases where L_i or M_i are undefined. (session 2023-02-07)\n- User was recommended historical fiction audiobooks: 'The Night Road' (narrated by Julia Whelan), 'The Huntress' (narrated by Saskia Maarleveld), 'The Soldier's Wife' (narrated by Heather Wilds), 'The Postmistress' (narrated by Orlagh Cassidy), and 'All the Light We Cannot See' (narrated by Zach Appelman). (session 2023-03-30)\n- User is currently reading 'The Nightingale' by Kristin Hannah but put it down temporarily because it was too emotionally intense. (session 2023-01-21)\n- User plans to read 'The Alice Network' next to learn more about female spies during World War I. (session 2023-03-30)\n- User received asylum approval in the United States around mid-March 2023 after an 18-month waiting period. (session 2023-03-14)\n- User is interested in adding crown molding to the top of their TV stand for a more polished and sophisticated look. (session 2023-02-04)\n- User learned that RMA may involve minimal cost-sharing (copayments or coinsurance) for certain services, though preventive, pregnancy-related, and emergency care are typically exempt. (session 2023-03-14)\n- The project aims to provide economic benefits to Gili Meno through local job creation, increased tourism revenue, and support for local businesses. (session 2023-01-29)\n- User was recommended Hornwort as a low-maintenance, hardy, mid-water plant that thrives in low to moderate lighting and is suitable for their tank. (session 2023-03-30)\n- User was advised on proper coin storage techniques, including using acid-free albums, capsules, or slabs, maintaining environmental controls (70°F, 50-60% humidity), and handling coins with gloves. (session 2023-02-20)\n- User is planning to add driftwood and rocks to their tank to create caves and hiding places for their fish. (session 2023-03-30)\n- User is searching for remote, worldwide job opportunities as a Cloud DevOps Expert. (session 2023-02-24)\n- User was recommended resources for tracking error coin market trends and prices, including PCGS and NGC price guides, Heritage Auctions, Stack's Bowers, CoinWeek, and various online forums. (session 2023-02-20)\n- The resort's target market includes affluent travelers, honeymooners, couples, and families seeking upscale island accommodations. (session 2023-01-29)\n- User is looking for a traditional-style wooden TV stand with storage bins that complements their existing classic coffee table. (session 2023-02-04)\n- The resort project emphasizes sustainable design, including the use of reclaimed wood, natural stone, low-impact glass, solar panels, and rainwater harvesting. (session 2023-01-29)\n- User requested a mathematical formula for a fair, pro-rata food allocation among 5 animals (A1-A5) based on hunger levels (H1-H5), total food (F), and optional minimum (L) and maximum (M) constraints. (session 2023-02-07)\n- User was advised that while Water Wisteria is an effective algae controller, it may grow too large for a 20-gallon tank and requires moderate to high lighting. (session 2023-03-30)\n- User enjoys mythology-inspired books and has previously read and enjoyed 'The Song of Achilles' by Madeline Miller. (session 2023-01-21)\n- User has a 20-gallon freshwater community tank containing neon tetras and guppies, and is currently managing issues with algae growth. (session 2023-03-30)\n- User was advised on algae prevention methods for their 20-gallon tank, including regular water changes (25-50% every 1-2 weeks), maintaining specific water parameters (pH 6.5-8.5, Ammonia 0, Nitrite 0, Nitrate <20 ppm, Phosphate <1 ppm), and reducing lighting duration. (session 2023-03-30)\n- User was informed about Office of Refugee Resettlement (ORR) services, including job readiness, vocational training, ESL classes, and job placement assistance to support economic self-sufficiency. (session 2023-03-14)\n- User plans to read 'The Poppy War' next and intends to use their daily commute for reading. (session 2023-01-21)\n- User is looking for a physical reading journal to track their progress and thoughts, having previously used their phone's Notes app. (session 2023-01-21)\n- User was recommended historical fiction communities including The Historical Fiction Forum, Historical Fiction Lovers (Facebook), The Historical Novel Society, and various Goodreads book clubs like The Historical Fiction Book Club and The WWII Historical Fiction Book Club. (session 2023-03-30)\n- User was provided with a list of remote-only, worldwide job platforms for DevOps engineers, including Turing, Upwork, Indeed, DevOps Remotely, Toptal, Remote.co, Remote Workers, and We Work Remotely. (session 2023-02-24)\n- User replaced their old mattress in April 2022, which significantly improved their sleep quality. (session 2023-02-04)\n- User is interested in exploring self-employment and entrepreneurship, and was introduced to the ORR Microenterprise Development program for business training, mentorship, and financial assistance. (session 2023-03-14)\n- User was informed about asylee benefits including work authorization (EAD), Social Security numbers, Refugee Medical Assistance (RMA), Medicaid, SNAP, Temporary Cash Assistance (TCA), job training, ESL classes, education benefits, and travel documents. (session 2023-03-14)\n- User was provided with information on highly sought-after error coins, such as the 1944 steel cent, 1955 doubled die Lincoln cent, and 1937-D three-legged Buffalo nickel. (session 2023-02-20)\n- User has already introduced Anacharis and Java Moss to their 20-gallon tank to help control algae. (session 2023-03-30)\n- User is considering oak or walnut wood finishes for their new TV stand to match their coffee table. (session 2023-02-04)\n- User's development project is a 40-villa luxury beachfront resort spread across a 4-hectare property in Gili Meno. (session 2023-01-29)\n- User is interested in sustainability efforts in Malaysia and is planning to start by reducing plastic waste and supporting sustainable businesses. (session 2023-03-21)\n- User was provided with sustainable food options in Malaysia, including organic cafes/markets like The Honest Treat, Earth Food, and The Hive; farm-to-table restaurants like Tanah Aina Farrah Soraya and A Little Farm on the Hill; and vegetarian/vegan eateries like Kopenhagen Coffee and LN Fortunate Coffee. (session 2023-03-21)\n- User enjoys discussing books with their coworker, Rachel. (session 2023-03-30)\n- User found the sisterly bond between Vianne and Isabelle in 'The Nightingale' to be the most resonant aspect of the book. (session 2023-03-30)\n- User decided to use Goodreads for digital tracking and 'The Book Lover's Journal' for a physical space to record their thoughts. (session 2023-03-30)\n- User was recommended the following mythology-inspired books: 'Circe' by Madeline Miller, 'The Silence of the Girls' by Pat Barker, 'The Penelopiad' by Margaret Atwood, 'The Golem and the Jinni' by Helene Wecker, 'The City of Brass' by S.A. Chakraborty, 'The House of Shattered Wings' by Aliette de Bodard, and 'The Library of the Unwritten' by A.J. Hackwith. (session 2023-01-21)\n- User is a real estate promoter working on a new development project in Gili Meno, Indonesia. (session 2023-01-29)\n- User has been attending coin shows regularly for the past six months and has accumulated a collection of error coins, including a rare 1943 Lincoln Wheat Cent with a copper planchet error. (session 2023-02-20)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 55,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 36.7,
+  "total": 38.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

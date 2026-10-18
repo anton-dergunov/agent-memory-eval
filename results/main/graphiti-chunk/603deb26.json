@@ -1,0 +1,106 @@
+{
+ "qid": "603deb26",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+ "reference": "10",
+ "question_date": "2023-12-05 02:37",
+ "sessions": [
+  {
+   "id": "37f66729",
+   "date": "2023-08-04 04:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_1",
+   "date": "2023-08-11 17:11",
+   "evidence": true
+  },
+  {
+   "id": "58e5adf2",
+   "date": "2023-08-12 03:22",
+   "evidence": false
+  },
+  {
+   "id": "feb5f98a_2",
+   "date": "2023-08-16 06:11",
+   "evidence": false
+  },
+  {
+   "id": "5e867c2f_2",
+   "date": "2023-08-27 17:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_69476",
+   "date": "2023-09-23 08:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_408354",
+   "date": "2023-10-01 22:47",
+   "evidence": false
+  },
+  {
+   "id": "d05d6391_3",
+   "date": "2023-10-22 11:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_etklNfN_11",
+   "date": "2023-11-23 23:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_2",
+   "date": "2023-11-30 01:59",
+   "evidence": true
+  }
+ ],
+ "context": "- The user has attempted making a Negroni at home 10 times. (valid since 2023-11-30)\n- The user learned to make a Negroni from their friend Emma. (valid since 2023-11-30)\n- The user prepares Negroni cocktails using Hendrick's gin. (valid since 2023-08-11)\n- The assistant provides tips to the user on how to stay motivated and committed to a photography project. (valid since 2023-08-04)\n- Cynar is recommended as a bitter liqueur alternative to Campari in a Negroni. (valid since 2023-08-11)\n- Aperol is recommended as a bitter liqueur alternative to Campari in a Negroni. (valid since 2023-08-11)\n- Suze is recommended as a bitter liqueur alternative to Campari in a Negroni. (valid since 2023-08-11)\n- The user prepares Negroni cocktails using Carpano Antica vermouth. (valid since 2023-08-11)\n- Meletti is recommended as a bitter liqueur alternative to Campari in a Negroni. (valid since 2023-08-11)\n- The assistant provides tips on how to create engaging Instagram Reels to drive traffic and increase brand awareness. (valid since 2023-08-27)",
+ "answer": "**Step 1: Extract relevant information**\n*   The user has attempted making a Negroni at home 10 times (valid since 2023-11-30).\n*   The user learned to make a Negroni from their friend Emma (valid since 2023-11-30).\n\n**Step 2: Reason over the information**\n*   Both facts regarding the number of attempts and the source of the instruction (Emma) were recorded on the same date (2023-11-30).\n*   Since the user learned from Emma and has recorded 10 attempts since that time, the total number of attempts made after learning from Emma is 10.\n\n**Answer:**\nYou have tried making a Negroni at home 10 times since your friend Emma showed you how to make it.",
+ "dump": "- The user has been using Lightroom on their computer. (valid since 2023-08-04)\n- The assistant provides tips to the user on how to stay motivated and committed to a photography project. (valid since 2023-08-04)\n- The user plans to start a photography project focusing on the changing seasons in a natural setting. (valid since 2023-08-04)\n- The user prepares Negroni cocktails using Hendrick's gin. (valid since 2023-08-11)\n- The user prepares Negroni cocktails using Carpano Antica vermouth. (valid since 2023-08-11)\n- Cynar is recommended as a bitter liqueur alternative to Campari in a Negroni. (valid since 2023-08-11)\n- Aperol is recommended as a bitter liqueur alternative to Campari in a Negroni. (valid since 2023-08-11)\n- Luxardo Bitter is recommended as a bitter liqueur alternative to Campari in a Negroni. (valid since 2023-08-11)\n- Suze is recommended as a bitter liqueur alternative to Campari in a Negroni. (valid since 2023-08-11)\n- Meletti is recommended as a bitter liqueur alternative to Campari in a Negroni. (valid since 2023-08-11)\n- A White Negroni can be made by substituting sweet vermouth with Dolin dry vermouth. (valid since 2023-08-11)\n- A White Negroni can be made using Suze as a bitter liqueur. (valid since 2023-08-11)\n- A White Negroni can be made using Luxardo Bitter as a bitter liqueur. (valid since 2023-08-11)\n- The White Negroni recipe includes 1 1/2 oz of Hendrick's gin. (valid since 2023-08-11)\n- The White Negroni recipe includes 1/2 oz of Suze. (valid since 2023-08-11)\n- The White Negroni recipe includes 1/2 oz of Dolin Dry Vermouth. (valid since 2023-08-11)\n- The White Negroni can be garnished with an orange twist. (valid since 2023-08-11)\n- The White Negroni can be garnished with a lemon twist. (valid since 2023-08-11)\n- Orange pairs well with lavender in cocktails. (valid since 2023-08-11)\n- Yuzu pairs well with lavender in cocktails. (valid since 2023-08-11)\n- Kumquat pairs well with lavender in cocktails. (valid since 2023-08-11)\n- Satsuma pairs well with lavender in cocktails. (valid since 2023-08-11)\n- Bergamot pairs well with lavender in cocktails. (valid since 2023-08-11)\n- The user is planning to enter a fishing tournament occurring next month (valid since 2023-08-12)\n- The fishing tournament is hosted at Joe's Tackle (valid since 2023-08-12)\n- Joe's Tackle is located on Main St. (valid since 2023-08-12)\n- The user holds a certification in Google Analytics. (valid since 2023-08-16)\n- The user holds a certification in HubSpot Inbound Marketing. (valid since 2023-08-16)\n- The user is planning to transition into a more senior role, such as a Content Marketing Strategist. (valid since 2023-08-16)\n- The user is planning to transition into a more senior role, such as a Digital Marketing Consultant. (valid since 2023-08-16)\n- The assistant recommends that a Content Marketing Strategist highlight skills like working in fast-paced environments, effective time management, and certifications in Google Analytics and HubSpot Inbound Marketing. (valid since 2023-08-16)\n- The assistant recommends that a Digital Marketing Consultant highlight skills like working in fast-paced environments, effective time management, and certifications in Google Analytics and HubSpot Inbound Marketing. (valid since 2023-08-16)\n- The user uses Instagram Stories to drive traffic to their blog posts and social media profiles. (valid since 2023-08-27)\n- The assistant provides tips on how to create engaging Instagram Reels to drive traffic and increase brand awareness. (valid since 2023-08-27)\n- The user enjoys watching the movie Moana. (valid since 2023-09-23)\n- The assistant advised the user on incorporating respectful behavior and language into the curriculum for their classroom. (valid since 2023-09-23)\n- The Galapagos Islands are located in Ecuador. (valid since 2023-10-01)\n- Cozumel is located in Mexico. (valid since 2023-10-01)\n- Fernando de Noronha is located in Brazil. (valid since 2023-10-01)\n- Easter Island is located in Chile. (valid since 2023-10-01)\n- The Belize Barrier Reef is located in Belize. (valid since 2023-10-01)\n- Bonaire National Marine Park is located in Bonaire. (valid since 2023-10-01)\n- Malpelo Island is located in Colombia. (valid since 2023-10-01)\n- Roatan Island is located in Honduras. (valid since 2023-10-01)\n- Los Roques is located in Venezuela. (valid since 2023-10-01)\n- Cocos Island is located in Costa Rica. (valid since 2023-10-01)\n- The user is planning to organize a costume walk as a charity event. (valid since 2023-10-22)\n- The assistant recommends creating an event page on Facebook to centralize information, updates, and registrations for the charity walk. (valid since 2023-10-22)\n- The assistant recommends creating an event page on Instagram to centralize information, updates, and registrations for the charity walk. (valid since 2023-10-22)\n- The assistant provides 30 push notification messages containing puns and humor to promote the jewelry brand Kinsley Armelle. (valid since 2023-11-23)\n- The user wants to experiment with infusing gin with cucumber and mint. (valid since 2023-11-30)\n- The user is planning to infuse gin with cucumber. (valid since 2023-11-30)\n- The user is planning to infuse gin with mint. (valid since 2023-11-30)\n- The Cucumber Gimlet contains cucumber flavor. (valid since 2023-11-30)\n- The Cucumber Gimlet contains mint flavor. (valid since 2023-11-30)\n- The user learned to make a Negroni from their friend Emma. (valid since 2023-11-30)\n- The user has attempted making a Negroni at home 10 times. (valid since 2023-11-30)\n- The user recently purchased a bottle of Hendrick's gin. (valid since 2023-11-30)\n- The assistant recommends the Gin-Gin Mule, which is a cocktail made with gin, lime juice, ginger beer, and ice served in a copper mug. (valid since 2023-11-30)\n- The Gin-Gin Mule is a twist on the classic Moscow Mule cocktail. (valid since 2023-11-30)\n- The Gin-Gin Mule is served in a copper mug. (valid since 2023-11-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 61,
+  "invalidated": 0,
+  "episodes": 24,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 146.3,
+  "total": 147.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

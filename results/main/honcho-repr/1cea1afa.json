@@ -1,0 +1,96 @@
+{
+ "qid": "1cea1afa",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many Instagram followers do I currently have?",
+ "reference": "600",
+ "question_date": "2023-06-14 13:43",
+ "sessions": [
+  {
+   "id": "answer_79c395a9_1",
+   "date": "2023-05-27 07:39",
+   "evidence": true
+  },
+  {
+   "id": "e06c6d99_5",
+   "date": "2023-05-27 07:54",
+   "evidence": false
+  },
+  {
+   "id": "b86848e2_2",
+   "date": "2023-05-27 11:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_51727",
+   "date": "2023-05-28 02:21",
+   "evidence": false
+  },
+  {
+   "id": "a126eeab_1",
+   "date": "2023-05-28 03:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_468681",
+   "date": "2023-05-28 07:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_82739",
+   "date": "2023-05-28 11:40",
+   "evidence": false
+  },
+  {
+   "id": "e131bcd4",
+   "date": "2023-05-28 15:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_GYN9yoM_0",
+   "date": "2023-05-28 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_79c395a9_2",
+   "date": "2023-05-28 22:57",
+   "evidence": true
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-27 07:41:00] user is working to increase their social media presence on Instagram.\n[2023-05-27 07:41:00] user reached 500 followers on Instagram during the week of May 20, 2023.\n[2023-05-27 07:41:00] user has observed that their followers enjoy seeing photos of their cat, Luna.\n[2023-05-27 07:47:00] user is considering sharing the results of the Instagram poll in a follow-up post or story.\n[2023-05-27 07:47:00] user plans to ask followers on Instagram about their content preferences.\n[2023-05-28 22:59:00] user is attempting to increase their social media presence.\n[2023-05-28 22:59:00] user intends to conduct an Instagram Q&A session.\n[2023-05-28 22:59:00] user has 600 followers on Instagram as of 2023-05-28.\n[2023-05-28 23:01:00] user intends to use the Instagram Stories \"Question Sticker\" feature for their Q&A session.\n[2023-05-28 23:03:00] user plans to use tips for promoting an Instagram Stories Q&A session.\n[2023-05-28 23:03:00] user intends to specify the topic of the Q&A session as their writing process and experiences as a freelancer.\n[2023-05-28 23:03:00] user intends to create a branded hashtag for the Q&A session.\n[2023-05-28 23:03:00] user intends to announce the Q&A session in advance.\n[2023-05-28 23:03:00] user is a freelancer.\n[2023-05-28 23:07:00] user plans to address common themes during their Instagram Story Q&A session.\n[2023-05-28 23:07:00] user plans to discuss their writing process, freelancing, or other topics in their Instagram Story Q&A session.\n[2023-05-28 23:07:00] user plans to post an update on their Instagram Story to remind followers about their Q&A session occurring on May 29, 2023.\n[2023-05-28 23:07:00] user plans to communicate with followers and set expectations for their Instagram Story Q&A session.\n[2023-05-28 23:07:00] user plans to provide additional resources if they cannot answer every question during their Instagram Story Q&A session.\n[2023-05-28 23:07:00] user plans to use the \"Question Sticker\" for followers to submit questions for the Q&A session.\n[2023-05-28 23:07:00] user plans to answer a selection of questions during their Instagram Story Q&A session.\n\n## Deductive Observations\n\n[2023-05-28 23:07:00] user is a writer.\n   Premises:\n   - user plans to discuss their writing process during their Instagram Story Q&A session.\n\n[2023-05-28 23:07:00] user is a content creator on social media.\n   Premises:\n   - user is attempting to increase their social media presence.\n   - user intends to conduct an Instagram Q&A session.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user prioritizes accessibility and interactivity when engaging with their audience, consistently choosing tools like the Instagram \"Question Sticker\" to facilitate communication.\n   **Type**: preference\n   **Sources**:\n   - user plans to use the \"Question Sticker\" for followers to submit questions for the Q&A session.\n   - user intends to use the Instagram Stories \"Question Sticker\" feature for their Q&A session.\n   - user believes the Instagram Stories \"Question Sticker\" feature is a quick and easy way to begin a Q&A session.\n\n **Pattern** [high]: user exhibits a methodical and strategic approach to content creation, particularly regarding the planning and execution of engagement activities like Q&A sessions.\n   **Type**: behavior\n   **Sources**:\n   - user plans to post an update on their Instagram Story to remind followers about their Q&A session occurring on May 29, 2023.\n   - user intends to announce the Q&A session in advance.\n   - user plans to communicate with followers and set expectations for their Instagram Story Q&A session.\n   - user plans to use tips for promoting an Instagram Stories Q&A session.\n\n",
+ "answer": "To determine how many Instagram followers you currently have, I will analyze the provided history chats:\n\n**Step 1: Extract relevant information**\n*   [2023-05-27 07:41:00] You reached 500 followers during the week of May 20, 2023.\n*   [2023-05-28 22:59:00] You had 600 followers on Instagram as of May 28, 2023.\n\n**Step 2: Reason over the information**\n*   The most recent data point regarding your follower count is from May 28, 2023, which states you had 600 followers.\n*   There is no information provided in the history logs regarding your follower count between May 29, 2023, and the current date of June 14, 2023.\n\n**Answer:**\nBased on the latest available information from your history chats, you had **600 followers** as of May 28, 2023. There is no updated data to confirm your current follower count as of June 14, 2023.",
+ "dump": "- [explicit] user is working to increase their social media presence on Instagram.\n- [explicit] user owns a cat named Luna.\n- [explicit] user has observed that their followers enjoy seeing photos of their cat, Luna.\n- [explicit] user reached 500 followers on Instagram during the week of May 20, 2023.\n- [explicit] user is a writer who is working on a manuscript.\n- [explicit] user intends to use Instagram Stories to share their writing process.\n- [explicit] user intends to share snippets of their manuscript on Instagram Stories.\n- [explicit] user plans to post an Instagram story poll with the options: 'More writing tips and advice', 'More behind-the-scenes content', and 'More sneak peeks of my manuscript'.\n- [explicit] user plans to ask followers on Instagram about their content preferences.\n- [explicit] user intends to ask followers to share their thoughts and opinions in the comments section of the Instagram story poll.\n- [explicit] user intends to use a hybrid approach to posting content on Instagram by sharing manuscript snippets as they are completed while maintaining a consistent frequency.\n- [explicit] user is considering sharing the results of the Instagram poll in a follow-up post or story.\n- [explicit] user intends to thank followers for their participation and feedback in the follow-up story.\n- [explicit] user intends to keep followers engaged and informed about the direction of their content.\n- [explicit] user intends to include context or insights gained from the poll in the follow-up story.\n- [explicit] user intends to create a follow-up story on Instagram featuring a graphic or screenshot of poll results.\n- [explicit] user expresses interest in obtaining new ideas for their writing and content creation from the follow-up story.\n- [explicit] user intends to highlight the winning option from the poll in the follow-up story.\n- [explicit] user took a few days off from the gym to recover from an ankle injury.\n- [explicit] user is incorporating light yoga poses into their morning daily routine to improve flexibility.\n- [explicit] user returned to their normal gym routine on Monday, May 22, 2023.\n- [explicit] user twisted their ankle playing basketball with friends on approximately May 13, 2023.\n- [explicit] user rides their bike to the grocery store on weekends instead of driving.\n- [explicit] user takes short walks during their lunch break at work.\n- [explicit] user has a morning yoga routine.\n- [explicit] user is interested in incorporating strength training exercises into their daily routine at home.\n- [explicit] user is interested in using household items as weights for strength training.\n- [explicit] user has previously performed bodyweight exercises at home, including push-ups, squats, lunges, and planks.\n- [explicit] user performs a gym routine.\n- [explicit] user has a gym routine.\n- [explicit] user joined a gym because they felt they needed more structure and guidance for their exercise routine.\n- [explicit] user incorporates strength training exercises into their daily routine at home.\n- [explicit] user recently twisted their ankle while playing basketball.\n- [explicit] user is interested in learning about injury prevention and recovery strategies.\n- [explicit] user owns a laptop.\n- [explicit] user is experiencing performance lag on their laptop when running multiple apps.\n- [explicit] user is currently using a traditional hard disk drive in their laptop.\n- [explicit] user works on the go.\n- [explicit] user seeks tips to extend the battery life of the user's laptop for situations where the user is not near a power source.\n- [explicit] user is concerned about the battery life of the user's laptop.\n- [explicit] user has upgraded the RAM in their laptop from 8GB to 16GB.\n- [explicit] user intends to adjust their laptop's system settings to optimize performance.\n- [explicit] user intends to monitor their laptop's memory usage.\n- [explicit] user intends to mix up workouts to stay motivated.\n- [explicit] user is interested in trying stand-up paddleboarding.\n- [explicit] user intends to track exercise progress to stay motivated.\n- [explicit] user intends to go for a run outside on 2023-05-29 to boost mood and energy levels.\n- [explicit] user has a Zumba instructor named Rachel.\n- [explicit] user attends Zumba classes every Thursday evening at a local gym.\n- [explicit] user characterizes their Zumba instructor, Rachel, as energetic and funny.\n- [explicit] user enjoys Zumba classes because they improve coordination.\n- [explicit] user is seeking recommendations for online resources or dance tutorials for Zumba.\n- [explicit] user has noticed a significant improvement in coordination.\n- [explicit] user has been attending Zumba classes for approximately 2 months.\n- [explicit] user intends to practice Zumba routines at home to improve their technique.\n- [explicit] user is able to follow most Zumba steps without getting lost.\n- [explicit] user intends to equip a living room dance studio with a mirror and a Bluetooth speaker.\n- [explicit] user is planning to set up a mini dance studio in the living room.\n- [explicit] user practices dance routines.\n- [explicit] user is seeking recommendations for a Bluetooth speaker that provides high sound quality and sufficient volume to fill a small room.\n- [explicit] user is evaluating the JBL Flip 4 as an alternative speaker option.\n- [explicit] user wants a speaker with enough power to ensure music is loud and clear for dance practice.\n- [explicit] user considers the Bose SoundLink Revolve+ to be over their budget.\n- [explicit] user has a prior desire to try out a JBL speaker.\n- [explicit] user has decided to purchase a JBL Flip 4.\n- [explicit] user perceives the JBL Flip 4 as a good value for the price.\n- [explicit] user is interested in learning about upcoming large-scale construction projects in Birmingham.\n- [explicit] user is interested in how the construction industry has contributed to the growth of Birmingham's economy.\n- [explicit] user acknowledges that the construction industry has had a positive impact on the economy of Birmingham.\n- [explicit] user is interested in potential downsides or challenges associated with the growth of the construction sector in Birmingham.\n- [explicit] user is interested in initiatives that the city of Birmingham has in place to address the downsides of the construction industry.\n- [explicit] user is interested in the Legacy Arena Renovation Project in Birmingham.\n- [explicit] user intends to enter contests to increase chances of securing a backstage pass.\n- [explicit] user intends to follow artists or bands on social media to increase chances of securing a backstage pass.\n- [explicit] user intends to check artist or band social media pages to find backstage pass opportunities for upcoming concerts.\n- [explicit] user is considering the Dell XPS 13.\n- [explicit] user is asking if the 4K OLED display on the Dell XPS 13 is worth the extra cost compared to the FHD+ display.\n- [explicit] user is inquiring about the difference between the FHD+ (1920 x 1200) and the 4K OLED display options for the Dell XPS 13.\n- [explicit] user is in the market for a new laptop.\n- [explicit] user wants to know more about the battery life differences between the FHD+ and 4K OLED models of the Dell XPS 13.\n- [explicit] user considers the 4K OLED display to be power-hungry.\n- [explicit] user is concerned about the battery life of the 4K OLED model of the Dell XPS 13.\n- [explicit] user is interested in learning about the storage options for the Dell XPS 13.\n- [explicit] user is considering if 256GB of storage is sufficient for their needs.\n- [explicit] user is considering whether a 256GB SSD is sufficient for their needs or if they should select a higher storage option.\n- [explicit] user intends to use a laptop for general purposes, specifically web browsing and streaming.\n- [explicit] user does not engage in significant gaming or video editing.\n- [explicit] user is interested in the portability and compact design of the Dell XPS 13.\n- [explicit] user wants to know the weight and dimensions of the Dell XPS 13.\n- [explicit] Floating Solar is a scale-up company currently looking for opportunities in Germany and Italy.\n- [explicit] user works for a company called Floating Solar.\n- [explicit] user intends for the sales process document to be visual, include references to external documents, and function as a roadmap.\n- [explicit] Floating Solar operates as an EPC company and sometimes as a system supplier for floating PV plants.\n- [explicit] Floating Solar has completed a pilot project and reference projects in the Netherlands.\n- [explicit] user needs a sales process document for internal use by company staff to guide them from following up on leads to project commissioning.\n- [explicit] user has 600 followers on Instagram as of 2023-05-28.\n- [explicit] user intends to conduct an Instagram Q&A session.\n- [explicit] user is attempting to increase their social media presence.\n- [explicit] user intends to use the Instagram Stories \"Question Sticker\" feature for their Q&A session.\n- [explicit] user believes the Instagram Stories \"Question Sticker\" feature is a quick and easy way to begin a Q&A session.\n- [explicit] user is a freelancer.\n- [explicit] user intends to specify the topic of the Q&A session as their writing process and experiences as a freelancer.\n- [explicit] user plans to use tips for promoting an Instagram Stories Q&A session.\n- [explicit] user intends to announce the Q&A session in advance.\n- [explicit] user intends to create a branded hashtag for the Q&A session.\n- [explicit] user plans to communicate with followers and set expectations for their Instagram Story Q&A session.\n- [explicit] user plans to post an update on their Instagram Story to remind followers about their Q&A session occurring on May 29, 2023.\n- [explicit] user plans to use the \"Question Sticker\" for followers to submit questions for the Q&A session.\n- [explicit] user plans to discuss their writing process, freelancing, or other topics in their Instagram Story Q&A session.\n- [explicit] user plans to provide additional resources if they cannot answer every question during their Instagram Story Q&A session.\n- [explicit] user plans to address common themes during their Instagram Story Q&A session.\n- [explicit] user plans to answer a selection of questions during their Instagram Story Q&A session.\n- [deductive] user is a content creator on social media.\n- [deductive] user is a writer.\n- [inductive] user exhibits a methodical and strategic approach to content creation, particularly regarding the planning and execution of engagement activities like Q&A sessions.\n- [inductive] user prioritizes accessibility and interactivity when engaging with their audience, consistently choosing tools like the Instagram \"Question Sticker\" to facilitate communication.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 128.1,
+  "total": 132.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "qid": "9ea5eabc",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "Where did I go on my most recent family trip?",
+ "reference": "Paris",
+ "question_date": "2023-06-08 10:33",
+ "sessions": [
+  {
+   "id": "ultrachat_40916",
+   "date": "2023-05-11 08:01",
+   "evidence": false
+  },
+  {
+   "id": "a9a88764",
+   "date": "2023-05-12 03:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_HJhlusD_32",
+   "date": "2023-05-26 02:39",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7jGo66i_151",
+   "date": "2023-05-26 15:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_0Qembb9_0",
+   "date": "2023-05-26 20:34",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_1",
+   "date": "2023-05-26 23:01",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_296728",
+   "date": "2023-05-27 04:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_2",
+   "date": "2023-05-28 04:55",
+   "evidence": true
+  },
+  {
+   "id": "66cffcc7",
+   "date": "2023-05-28 16:48",
+   "evidence": false
+  },
+  {
+   "id": "14f0a8ed_2",
+   "date": "2023-05-28 17:41",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-26 23:05:00] user felt restricted by a packed schedule during their family trip to Hawaii.\n[2023-05-26 23:05:00] user has traveled with their family to Hawaii.\n[2023-05-26 23:05:00] user experienced snorkeling with their family as a highlight of their trip to Hawaii.\n[2023-05-26 23:09:00] user is considering extending their family trips by a few extra days to travel independently.\n[2023-05-26 23:09:00] user plans to include solo excursions during future family trips.\n[2023-05-28 04:57:00] user visited Paris with user's family in April 2023.\n[2023-05-28 04:57:00] user's kids enjoyed the trip to Paris in April 2023.\n[2023-05-28 05:01:00] user recently traveled to Paris with family.\n[2023-05-28 17:45:00] user is interested in trying out the lap swim sessions at Bay Club West Valley.\n[2023-05-28 17:45:00] user prefers a gym that has a 25-yard pool.\n[2023-05-28 17:45:00] user purchased a new swim cap and goggles from Speedo on 2023-05-27.\n[2023-05-28 17:49:00] user purchased a new swim cap from Speedo.\n[2023-05-28 17:49:00] user intends to use the new swim cap and goggles during morning swims.\n[2023-05-28 17:51:00] user is considering whether Bay Club West Valley offers kickboxing classes.\n[2023-05-28 17:51:00] user swims at Bay Club West Valley.\n[2023-05-28 17:51:00] user performs swims in the morning.\n[2023-05-28 17:51:00] user is considering looking into other gyms in the area that specialize in kickboxing.\n[2023-05-28 17:51:00] user owns new goggles from Speedo.\n[2023-05-28 17:51:00] user owns a new swim cap from Speedo.\n[2023-05-28 17:51:00] user is interested in taking kickboxing classes.\n\n## Deductive Observations\n\n[2023-05-28 17:51:00] user is a swimmer.\n   Premises:\n   - user owns new goggles from Speedo.\n   - user owns a new swim cap from Speedo.\n   - user swims at Bay Club West Valley.\n\n[2023-05-28 17:51:00] user is a morning person.\n   Premises:\n   - user performs swims in the morning.\n   - user prefers to exercise early in the day and is interested in morning swim sessions.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user shows a preference for Speedo brand swimming equipment.\n   **Type**: preference\n   **Sources**:\n   - user owns new goggles from Speedo.\n   - user owns a new swim cap from Speedo.\n   - user purchased a new swim cap and goggles from Speedo on 2023-05-27.\n\n **Pattern** [medium]: user is actively researching new fitness activities, with a current focus on kickboxing classes.\n   **Type**: behavior\n   **Sources**:\n   - user is considering whether Bay Club West Valley offers kickboxing classes.\n   - user is considering looking into other gyms in the area that specialize in kickboxing.\n   - user is interested in taking kickboxing classes.\n\n **Pattern** [medium]: user consistently favors early morning physical activity, specifically swimming.\n   **Type**: tendency\n   **Sources**:\n   - user performs swims in the morning.\n   - user prefers to exercise early in the day and is interested in morning swim sessions.\n   - user intends to use the new swim cap and goggles during morning swims.\n\n",
+ "answer": "To determine where you went on your most recent family trip, I have analyzed the provided history chats:\n\n**Step 1: Extract relevant information**\n*   [2023-05-26 23:05:00] You have traveled with your family to Hawaii.\n*   [2023-05-28 04:57:00] You visited Paris with your family in April 2023.\n*   [2023-05-28 05:01:00] You recently traveled to Paris with your family.\n\n**Step 2: Reason over the information**\n*   The records indicate two family trips: one to Hawaii and one to Paris.\n*   The trip to Paris occurred in April 2023.\n*   The records explicitly state that the trip to Paris was your most recent family trip.\n\n**Answer:**\nYour most recent family trip was to **Paris**, which you visited in April 2023.",
+ "dump": "- [explicit] user plans to manage the #Endgame treasury through calculated sells and buys of tokens.\n- [explicit] user states that the #Endgame referral system provides discounts to referred friends for 7 years.\n- [explicit] user plans to offer airdrops for activities or reward tokens in #Endgame.\n- [explicit] user is implementing a 7-year referral system for #Endgame.\n- [explicit] user states that the #Endgame sell tax allocations are reduced by 1% for reflection, 8% for liquidity/RFV/treasury/champion/chart/burning systems, and 1% for the Battle Royal Champion System when the referral system is used.\n- [explicit] user states the #Endgame 20% sell tax allocates 3% to reward token reflection, 14% to liquidity/RFV/treasury/#Endgame Champion/algorithmic chart management/burning, 2% to Battle Royal Champion System, and 1% to a rebaser wallet.\n- [explicit] user identifies the #Endgame referral system dapp address as dapp.endgame.black.\n- [explicit] user is developing a project called #Endgame.\n- [explicit] user defines a 20% sell tax for #Endgame, with a 10% reduction for users participating in the referral system.\n- [explicit] user states that the #Endgame referral system rewards referrers for buys and sells made by their friends for 7 years.\n- [explicit] user states that individuals who do not use the #Endgame referral system pay full prices and taxes.\n- [explicit] user intends to use #Endgame treasury funds to re-balance validator investments, perform buybacks, and burn tokens.\n- [explicit] user states that changes to #Endgame taxes will be decided over time in collaboration with the community.\n- [explicit] user states that 1% of the sell fee is allocated to the rebaser wallet.\n- [explicit] user states that 3% of the sell fee is allocated to Reward token reflection, with a 1% discount if the user is referred.\n- [explicit] user states the goal of #Endgame is to move toward a zero tax structure.\n- [explicit] user states that the Dynamic Whale Tax system on #Endgame allocates between 1% and 10% of a transaction to purchasing reward tokens.\n- [explicit] user describes a fee structure on the #Endgame platform where a 20% sell fee is reduced by 10% when a referral system is used.\n- [explicit] user states that 14% of the sell fee is allocated to liquidity, RFV, Treasury, #Endgame Champion, Algorithmic Chart Management System, and the Burning System, with an 8% discount if the user is referred.\n- [explicit] user states that 2% of the sell fee is allocated to the Battle Royal Champion System, with a 1% discount if the user is referred.\n- [explicit] user states that #Endgame currently requires taxes to fund infrastructure development.\n- [explicit] user believes that the extent to which privacy can be sacrificed in the name of freedom or security is scary.\n- [explicit] user views the collection of data without knowledge as alarming.\n- [explicit] user questions if it is possible to fully protect personal privacy.\n- [explicit] user feels that people are constantly being watched.\n- [explicit] user is skeptical about whether personal lives can remain private given the amount of data collected.\n- [explicit] user expresses a desire for the protection of personal privacy while simultaneously maintaining safety and security.\n- [explicit] user wants to improve their car's suspension performance.\n- [explicit] user is located in the Speed Dome area.\n- [explicit] user plans to attend a track day at the Riverside Speedway.\n- [explicit] user has a goal of improving track performance for auto racing events.\n- [explicit] user placed 3rd in the amateur category at the Turbocharged event at the Speed Dome racing track.\n- [explicit] user drives a 2018 Mustang GT.\n- [explicit] user has installed new performance tires on their Mustang.\n- [explicit] user owns a Mustang.\n- [explicit] user is planning to attend a track day at a location called Riverside Speedway on January 15th.\n- [explicit] user participated in a Turbocharged event.\n- [explicit] user is considering attending a workshop on throttle control and braking techniques before their next track day.\n- [explicit] user has tuned the suspension of their Mustang.\n- [explicit] user attended a workshop on throttle control and braking techniques before the Turbocharged event.\n- [explicit] user was instructed by a professional racing driver at a racing school workshop.\n- [explicit] user received tips from a professional racing driver on improving acceleration and cornering skills.\n- [explicit] user attended a workshop on throttle control and braking techniques at a local racing school.\n- [explicit] user is interested in identifying which Popes between the years 1431 and 1846 were not responsible for the persecution of Christians.\n- [explicit] user believes that they are capable of identifying when an AI is lying.\n- [explicit] user seeks a conclusion regarding the history of the Papacy.\n- [explicit] user believes that a lie by the AI would invalidate the AI's programming.\n- [explicit] user is questioning if the Catholic Church is a counterfeit system based on the premise that its history is flawed and that Popes have failed as representatives of Jesus Christ.\n- [explicit] user is inquiring about the existence of a metric to quantify if a distribution follows Zipf's law.\n- [explicit] user wants an R script to determine if a distribution of settlement sizes follows Zipf's law.\n- [explicit] user experienced snorkeling with their family as a highlight of their trip to Hawaii.\n- [explicit] user is planning a trip.\n- [explicit] user wishes they had set aside more time to explore Waikiki and do shopping during their family trip to Hawaii.\n- [explicit] user felt restricted by a packed schedule during their family trip to Hawaii.\n- [explicit] user has traveled with their family to Hawaii.\n- [explicit] user plans to include solo excursions during future family trips.\n- [explicit] user has expressed interest in joining food tours or cooking classes during future solo travel.\n- [explicit] user is interested in meeting friends who live in the area during their solo travel time.\n- [explicit] user is considering extending their family trips by a few extra days to travel independently.\n- [explicit] user has expressed interest in using social hostels during future solo travel.\n- [explicit] user is considering a food tour in Japan.\n- [explicit] user enjoys trying new flavors.\n- [explicit] user finds it interesting how technology plays a role in sports.\n- [explicit] user is interested in the Welsh Rugby Union's use of technology for performance improvement.\n- [explicit] user is interested in potential downsides of relying on technology in sports.\n- [explicit] user is curious about the possibility of robots playing rugby.\n- [explicit] user expresses interest in new technologies being developed for rugby.\n- [explicit] user is planning to travel to Paris.\n- [explicit] user is planning a trip to Europe.\n- [explicit] user's kids enjoyed the trip to Paris in April 2023.\n- [explicit] user visited Paris with user's family in April 2023.\n- [explicit] user is planning a solo trip to Tokyo.\n- [explicit] user is a first-time visitor to Tokyo.\n- [explicit] user recently traveled to Paris with family.\n- [explicit] user wants to experience unique and off-the-beaten-path activities in Tokyo.\n- [explicit] user wants to find affordable accommodation options in Tokyo.\n- [explicit] user has a budget of approximately $30-50 per night for accommodation in Tokyo.\n- [explicit] user is planning their week as of May 28, 2023.\n- [explicit] user is planning a volunteer food drive at their church.\n- [explicit] user volunteered at a food drive at their church in April 2023.\n- [explicit] user sorted canned goods with fellow parishioners during a previous food drive.\n- [explicit] user attends a church.\n- [explicit] user heard a sermon on forgiveness given by Father John at St. Mary's Church on March 12th, 2023.\n- [explicit] user attended Sunday mass on March 12th, 2023 at St. Mary's Church.\n- [explicit] user encountered an old friend named Rachel at St. Mary's Church on March 12th, 2023.\n- [explicit] user was impressed by a new choir member named Emily who sang a solo during the offertory hymn at St. Mary's Church.\n- [explicit] user wants to get involved in singing or music programs at local churches to meet new people and contribute to the community.\n- [explicit] user is considering attending a cultural or religious event during the weekend of May 28th, 2023.\n- [explicit] user is interested in lap swimming.\n- [explicit] user is interested in trying out the lap swim sessions at Bay Club West Valley.\n- [explicit] user is interested in membership options and pricing for Bay Club West Valley.\n- [explicit] user is located in the 95123 zip code area.\n- [explicit] user purchased a new swim cap and goggles from Speedo on 2023-05-27.\n- [explicit] user is interested in knowing if Bay Club West Valley offers discounts for students or seniors.\n- [explicit] user prefers a gym that has a 25-yard pool.\n- [explicit] user is considering getting a new fitness class membership.\n- [explicit] user prefers to exercise early in the day and is interested in morning swim sessions.\n- [explicit] user purchased a new swim cap from Speedo.\n- [explicit] user intends to use the new swim cap and goggles during morning swims.\n- [explicit] user performs swims in the morning.\n- [explicit] user is interested in taking kickboxing classes.\n- [explicit] user owns a new swim cap from Speedo.\n- [explicit] user owns new goggles from Speedo.\n- [explicit] user is considering whether Bay Club West Valley offers kickboxing classes.\n- [explicit] user swims at Bay Club West Valley.\n- [explicit] user is considering looking into other gyms in the area that specialize in kickboxing.\n- [deductive] user is a morning person.\n- [deductive] user is a swimmer.\n- [inductive] user consistently favors early morning physical activity, specifically swimming.\n- [inductive] user is actively researching new fitness activities, with a current focus on kickboxing classes.\n- [inductive] user shows a preference for Speedo brand swimming equipment.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 94.4,
+  "total": 97.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

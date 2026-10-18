@@ -1,0 +1,122 @@
+{
+ "qid": "22d2cb42",
+ "arm": "letta",
+ "split": "main",
+ "question": "Where did I get my guitar serviced?",
+ "reference": "The music shop on Main St.",
+ "question_date": "2023-06-24 09:01",
+ "sessions": [
+  {
+   "id": "b0fac439",
+   "date": "2023-05-15 03:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_bcce0b73_1",
+   "date": "2023-05-20 16:26",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_158642",
+   "date": "2023-05-23 01:49",
+   "evidence": false
+  },
+  {
+   "id": "2d84a7ae_1",
+   "date": "2023-05-29 02:53",
+   "evidence": false
+  },
+  {
+   "id": "answer_bcce0b73_2",
+   "date": "2023-05-29 14:10",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_2WSs9xO_0",
+   "date": "2023-05-30 19:59",
+   "evidence": false
+  },
+  {
+   "id": "a2defa66_2",
+   "date": "2023-06-05 13:38",
+   "evidence": false
+  },
+  {
+   "id": "eec72a82_4",
+   "date": "2023-06-12 19:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_546429",
+   "date": "2023-06-12 20:33",
+   "evidence": false
+  },
+  {
+   "id": "e1416816_1",
+   "date": "2023-06-14 12:37",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user is interested in pursuing a Master's degree in Data Science and is currently an Economics major. They enjoy debate and took AP Economics in high school. They are currently evaluating if their math and statistics foundation is sufficient for a Data Science Master's program.\nThe user has completed introductory Python and data visualization courses and has been reading books on ML and AI. They are now specifically seeking advanced certifications or courses in machine learning and deep learning to transition from basic knowledge to practical, professional-level skills.\nThe user is interested in learning the violin and is looking for local music shops that sell them. They have decided to try the FL Studio Fruity Edition demo first, based on recommendations from a friend who produces hip-hop.\nThe user works in the tech industry and is interested in researching gender equality, the gender pay gap, and parental leave policies within the industry.\nThe user is specifically interested in resources for gender-neutral job descriptions and examples of tech companies that have successfully implemented inclusive hiring and parental leave policies.\nThe user is currently training for a half-marathon and is looking for route recommendations that go beyond city streets.\nThe user is located in the city center. They have previously used a music shop on Main St for guitar services and believe they also offer violin services. They are interested in learning the violin and looking for local music shops/teachers.\nThe user is transitioning their Instagram strategy from \"posting for likes\" to \"posting for meaning.\" They are looking for ways to plan and schedule content in advance to maintain consistency without sacrificing quality.\nThe user is interested in incorporating IGTV (which has since been integrated into Instagram Video) and Reels into their content strategy. They are seeking tips on creating engaging long-form video content and advice on posting frequency.\nThe user is planning a series of Instagram videos (formerly IGTV) focused on their personal growth journey, specifically addressing self-doubt and anxiety. They want tips on how to structure these videos to foster deeper connections with their audience.\nThe user is planning to share book-themed recipes on Instagram to align with their strategy of \"posting for meaning\" and to foster community engagement.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T03:17:18.505254+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-24 09:01] Where did I get my guitar serviced?'}]}",
+ "answer": "Based on our previous conversations, you mentioned that you have previously used a music shop on **Main St** for your guitar services and believe they also offer violin services.",
+ "dump": "<human>\n\nThe user is interested in pursuing a Master's degree in Data Science and is currently an Economics major. They enjoy debate and took AP Economics in high school. They are currently evaluating if their math and statistics foundation is sufficient for a Data Science Master's program.\nThe user has completed introductory Python and data visualization courses and has been reading books on ML and AI. They are now specifically seeking advanced certifications or courses in machine learning and deep learning to transition from basic knowledge to practical, professional-level skills.\nThe user is interested in learning the violin and is looking for local music shops that sell them. They have decided to try the FL Studio Fruity Edition demo first, based on recommendations from a friend who produces hip-hop.\nThe user works in the tech industry and is interested in researching gender equality, the gender pay gap, and parental leave policies within the industry.\nThe user is specifically interested in resources for gender-neutral job descriptions and examples of tech companies that have successfully implemented inclusive hiring and parental leave policies.\nThe user is currently training for a half-marathon and is looking for route recommendations that go beyond city streets.\nThe user is located in the city center. They have previously used a music shop on Main St for guitar services and believe they also offer violin services. They are interested in learning the violin and looking for local music shops/teachers.\nThe user is transitioning their Instagram strategy from \"posting for likes\" to \"posting for meaning.\" They are looking for ways to plan and schedule content in advance to maintain consistency without sacrificing quality.\nThe user is interested in incorporating IGTV (which has since been integrated into Instagram Video) and Reels into their content strategy. They are seeking tips on creating engaging long-form video content and advice on posting frequency.\nThe user is planning a series of Instagram videos (formerly IGTV) focused on their personal growth journey, specifically addressing self-doubt and anxiety. They want tips on how to structure these videos to foster deeper connections with their audience.\nThe user is planning to share book-themed recipes on Instagram to align with their strategy of \"posting for meaning\" and to foster community engagement.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"guitar shop Main St\"})",
+   "conversation_search({\"query\": \"guitar service\"})"
+  ],
+  "blocks_chars": 2588,
+  "write_steps": 57,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 409.2,
+  "total": 416.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "qid": "59524333",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What time do I usually go to the gym?",
+ "reference": "6:00 pm",
+ "question_date": "2023-06-06 16:35",
+ "sessions": [
+  {
+   "id": "sharegpt_Clr6oyu_0",
+   "date": "2023-01-20 19:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_1",
+   "date": "2023-02-11 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_493944",
+   "date": "2023-02-26 03:13",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_NYFuCmY_0",
+   "date": "2023-03-01 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_5FHWj0a_0",
+   "date": "2023-03-18 20:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_F1pXfP0_0",
+   "date": "2023-04-18 07:42",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_150151",
+   "date": "2023-05-23 10:33",
+   "evidence": false
+  },
+  {
+   "id": "e4882e09_5",
+   "date": "2023-05-24 22:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_2",
+   "date": "2023-05-30 07:52",
+   "evidence": true
+  },
+  {
+   "id": "08921633",
+   "date": "2023-05-30 20:42",
+   "evidence": false
+  }
+ ],
+ "context": "- The user schedules gym sessions for 7:00 pm on Mondays, Wednesdays, and Fridays. (valid since 2023-02-11)\n- The user wants to organize their bedroom closet to make the most of the space. (valid since 2023-05-30)\n- The assistant provides advice to the potential client on how to professionally confirm meeting details and share files. (valid since 2023-05-30)\n- The user uses Todoist for managing tasks. (valid since 2023-02-11)\n- The user plans to use Google Drive to share files with a potential client. (valid since 2023-05-30)\n- The assistant provides guidance on how to organize tasks and track goals within the Todoist platform. (valid since 2023-02-11)\n- The user intends to use natural textiles as decoration for their bedroom. (valid since 2023-05-30)\n- The user intends to use woven baskets as decoration for their bedroom. (valid since 2023-05-30)\n- Woven baskets can be used to store items like socks and underwear in the closet to keep it organized. (valid since 2023-05-30)\n- The assistant recommends Google Drive as a convenient and secure way for the user to share files with the potential client. (valid since 2023-05-30)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   From the history chats: \"The user schedules gym sessions for 7:00 pm on Mondays, Wednesdays, and Fridays. (valid since 2023-02-11)\"\n\n**Step 2: Reason over the information**\n*   The information explicitly states the user's gym schedule. Since the current date (2023/06/06) is after the validity date of the gym schedule (2023-02-11), this information remains current.\n\n**Answer:**\nYou usually go to the gym at 7:00 pm on Mondays, Wednesdays, and Fridays.",
+ "dump": "- Minecraft Forge is a tool that makes it easier for players to install and manage mods in Minecraft. (valid since 2023-01-20)\n- Mojang is the developer of Minecraft. (valid since 2023-01-20)\n- CurseForge is a website that provides mods, modpacks, and other resources for Minecraft. (valid since 2023-01-20)\n- Minecraft Forum is an online community where players can discuss Minecraft and share mods, modpacks, and other resources. (valid since 2023-01-20)\n- Planet Minecraft is a website where players share their own creations including mods, skins, and resource packs for Minecraft. (valid since 2023-01-20)\n- 9Minecraft is a website that provides mods and other resources for Minecraft. (valid since 2023-01-20)\n- The user uses Todoist for managing tasks. (valid since 2023-02-11)\n- The user schedules gym sessions for 7:00 pm on Mondays, Wednesdays, and Fridays. (valid since 2023-02-11)\n- The assistant provides guidance on how to organize tasks and track goals within the Todoist platform. (valid since 2023-02-11)\n- James Joyce wrote the modernist novel Ulysses. (valid since 2023-02-26)\n- The novel Ulysses draws inspiration from The Odyssey. (valid since 2023-02-26)\n- Madeline Miller wrote the novel Circe, which reimagines the story of the character Circe from The Odyssey. (valid since 2023-02-26)\n- The novel Circe is inspired by the character Circe from The Odyssey. (valid since 2023-02-26)\n- Daniel Mendelsohn wrote the memoir An Odyssey: A Father, A Son, and an Epic. (valid since 2023-02-26)\n- The memoir An Odyssey: A Father, A Son, and an Epic traces the steps of Odysseus' journey as described in The Odyssey. (valid since 2023-02-26)\n- Margaret Atwood wrote the novel The Penelopiad, which retells the story of The Odyssey from Penelope's perspective. (valid since 2023-02-26)\n- The novel The Penelopiad is a retelling of the story of The Odyssey. (valid since 2023-02-26)\n- Michael Chabon wrote the novel The Amazing Adventures of Kavalier & Clay, which contains references and allusions to The Odyssey. (valid since 2023-02-26)\n- The file rospy/src/rospy/topics.py defines the Subscriber class for registering as a subscriber to a ROS topic. (valid since 2023-03-01)\n- The file rospy/src/rospy/topics.py defines the _SubscriberImpl class as an underlying implementation for subscriptions. (valid since 2023-03-01)\n- The file rospy/src/rospy/topics.py defines the Publisher class for registering as a publisher of a ROS topic. (valid since 2023-03-01)\n- The file rospy/src/rospy/topics.py defines the _PublisherImpl class as an underlying implementation for publications. (valid since 2023-03-01)\n- The file rospy/src/rospy/topics.py defines the _TopicManager class for managing publishers and subscribers. (valid since 2023-03-01)\n- The Subscriber class inherits from the Topic class. (valid since 2023-03-01)\n- The _SubscriberImpl class inherits from the _TopicImpl class. (valid since 2023-03-01)\n- The Publisher class inherits from the Topic class. (valid since 2023-03-01)\n- The _PublisherImpl class inherits from the _TopicImpl class. (valid since 2023-03-01)\n- The new package my_package inherits from the rospy package. (valid since 2023-03-01)\n- The class MyPublisherImpl inherits from the _PublisherImpl class. (valid since 2023-03-01)\n- The class MySubscriberImpl inherits from the _SubscriberImpl class. (valid since 2023-03-01)\n- The class MySubscriber inherits from the Subscriber class. (valid since 2023-03-01)\n- The class MyPublisher inherits from the Publisher class. (valid since 2023-03-01)\n- The file my_publisher_subscriber.py is located in the src folder of my_package. (valid since 2023-03-01)\n- The assistant recommends the New Balance 990v5 as a great option for people with wide feet because of its supportive, comfortable design and wide range of sizes and widths. (valid since 2023-04-18)\n- The assistant recommends the ASICS Gel-Kayano 27 for runners with wider feet as it provides a spacious toe box, stability, and support. (valid since 2023-04-18)\n- The assistant recommends the Brooks Ghost 13 for wide feet because it features a roomy toe box, cushioning, and support suitable for running or daily use. (valid since 2023-04-18)\n- Mark's Gospel emphasizes Jesus' identity as the Son of God more explicitly and prominently than Matthew's Gospel. (valid since 2023-05-23)\n- Mark's Gospel emphasizes Jesus' identity as the Son of God more explicitly and prominently than Luke's Gospel. (valid since 2023-05-23)\n- Matthew affirms the divinity and power of Jesus. (valid since 2023-05-23)\n- Luke affirms the divinity and power of Jesus. (valid since 2023-05-23)\n- John affirms the divinity and power of Jesus. (valid since 2023-05-23)\n- Mark's Gospel emphasizes Jesus' identity as the Son of God more than the other Gospels. (valid since 2023-05-23)\n- Mark 9:2-8 describes the Transfiguration of Jesus. (valid since 2023-05-23)\n- Jesus was transfigured before Peter, James, and John. (valid since 2023-05-23)\n- Jesus was transfigured before Peter, James, and John. (valid since 2023-05-23)\n- Jesus appeared with Elijah and Moses during the Transfiguration. (valid since 2023-05-23)\n- Jesus appeared with Elijah and Moses during the Transfiguration. (valid since 2023-05-23)\n- God's voice affirms Jesus as his beloved Son during the Transfiguration. (valid since 2023-05-23)\n- DIY sensor cleaning kits can include methanol-based cleaning solutions. (valid since 2023-05-24)\n- DIY sensor cleaning kits can include ethanol-based cleaning solutions. (valid since 2023-05-24)\n- DIY sensor cleaning kits include sensor cleaning swabs which are available in different materials. (valid since 2023-05-24)\n- Cleaning the camera's mirror helps prevent dust and debris from accumulating on the sensor. (valid since 2023-05-24)\n- The assistant recommends Adobe Lightroom as a photo management software option for organizing digital photo files. (valid since 2023-05-24)\n- The assistant recommends Apple Photos as a photo management software option for organizing digital photo files. (valid since 2023-05-24)\n- The assistant recommends Google Photos as a photo management software option for organizing digital photo files. (valid since 2023-05-24)\n- The assistant recommends Google Drive as a cloud storage service for backing up digital photo files. (valid since 2023-05-24)\n- The assistant recommends Dropbox as a cloud storage service for backing up digital photo files. (valid since 2023-05-24)\n- The assistant recommends Adobe Bridge as a Digital Asset Management (DAM) system for large photo collections. (valid since 2023-05-24)\n- The assistant recommends Capture One as a Digital Asset Management (DAM) system for large photo collections. (valid since 2023-05-24)\n- The user plans to use Google Drive to share files with a potential client. (valid since 2023-05-30)\n- The assistant provides advice to the potential client on how to professionally confirm meeting details and share files. (valid since 2023-05-30)\n- The assistant recommends Google Drive as a convenient and secure way for the user to share files with the potential client. (valid since 2023-05-30)\n- The user intends to use woven baskets as decoration for their bedroom. (valid since 2023-05-30)\n- The user intends to use natural textiles as decoration for their bedroom. (valid since 2023-05-30)\n- The user wants to organize their bedroom closet to make the most of the space. (valid since 2023-05-30)\n- Woven baskets can be used to store items like socks and underwear in the closet to keep it organized. (valid since 2023-05-30)\n- The woven baskets and their natural fibers and design fit the Scandinavian Minimalism style by bringing a cozy and organic feel to the closet. (valid since 2023-05-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 67,
+  "invalidated": 0,
+  "episodes": 18,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 24.1,
+  "total": 25.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

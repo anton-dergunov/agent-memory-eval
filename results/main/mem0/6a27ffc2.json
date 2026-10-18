@@ -1,0 +1,100 @@
+{
+ "qid": "6a27ffc2",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many videos of Corey Schafer's Python programming series have I completed so far?",
+ "reference": "30",
+ "question_date": "2023-06-09 01:44",
+ "sessions": [
+  {
+   "id": "sharegpt_y1IBjYa_0",
+   "date": "2023-04-24 05:03",
+   "evidence": false
+  },
+  {
+   "id": "ae00973d_5",
+   "date": "2023-04-26 23:25",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_169777",
+   "date": "2023-05-08 10:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_87812",
+   "date": "2023-05-09 14:23",
+   "evidence": false
+  },
+  {
+   "id": "f684ac4c_3",
+   "date": "2023-05-24 03:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_1",
+   "date": "2023-05-24 18:34",
+   "evidence": true
+  },
+  {
+   "id": "6ae451d1_2",
+   "date": "2023-05-24 23:56",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_2",
+   "date": "2023-05-26 00:03",
+   "evidence": true
+  },
+  {
+   "id": "4604bc73_3",
+   "date": "2023-05-26 04:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_505209",
+   "date": "2023-06-03 21:16",
+   "evidence": false
+  }
+ ],
+ "context": "- User has completed 30 videos of Corey Schafer's Python series as of May 26, 2023, and is preparing to apply these skills to NLP projects. (from a chat on 2023-05-26)\n- User is working on a project involving text analysis and sentiment analysis and is currently brushing up on Python skills by watching Corey Schafer's YouTube series, having completed 20 videos as of May 24, 2023. (from a chat on 2023-05-24)\n- User was provided with a comprehensive guide for setting up an NLP project environment, including installing Python, pip, libraries (NLTK, spaCy, gensim, scikit-learn, pandas, numpy), and tools (Jupyter, PyCharm, VS Code, Git, Conda). (from a chat on 2023-05-26)\n- User was recommended the DataCamp course 'Natural Language Processing with Python' as a starting point for their NLP project. (from a chat on 2023-05-26)\n- User recently watched the musical 'Hamilton' on Disney+ and the series 'Schitt's Creek' on Netflix, and is interested in finding similar musicals and plays. (from a chat on 2023-05-26)\n- User was recommended several Python NLP libraries for their project, including NLTK, spaCy, TextBlob, OpenNLP, Stanford CoreNLP, VaderSentiment, and Gensim, as well as cloud-based APIs like IBM Watson, Google Cloud Natural Language, and Hugging Face Transformers. (from a chat on 2023-05-24)\n- User decided to use spaCy for their NLP project after learning about its high performance, speed, and memory efficiency compared to NLTK. (from a chat on 2023-05-24)\n- User intends to explore advanced NLP techniques such as named entity recognition (NER) and topic modeling after gaining proficiency in sentiment analysis. (from a chat on 2023-05-26)\n- User has played Codenames before and enjoyed it. (from a chat on 2023-05-24)\n- User plans to start their NLP project by building a sentiment analysis model using either the IMDB or Amazon reviews datasets. (from a chat on 2023-05-26)\n- User was recommended several resources for learning about film types and characteristics, including websites like The Darkroom, Film Photography Project, and 35mmc, as well as books like 'The Film Photography Handbook' by Chris Marquardt and Monika Andrae. (from a chat on 2023-04-26)\n- User is interested in art and design, which influenced their interest in Azul for its mosaic-building theme. (from a chat on 2023-05-24)\n- User was recommended strategic board games including Pandemic Legacy, Scythe, Terraforming Mars, El Grande, 7 Wonders, Azul, Brass: Birmingham, Caverna: The Cave Farmers, Splendor, and Castles of Burgundy. (from a chat on 2023-05-24)\n- User frequently listens to musical theater soundtracks, specifically 'Dear Evan Hansen' and 'The Book of Mormon', during their daily commute. (from a chat on 2023-05-26)\n- User was informed that sustainable aviation fuel (SAF) can reduce CO2 emissions by up to 80% on a life cycle basis compared to traditional jet fuel, according to the International Air Transport Association (IATA). (from a chat on 2023-06-03)\n- User was advised that Azul is accessible for casual players, has a gentle learning curve, and is suitable for 2-4 players, making it a good choice for family game night. (from a chat on 2023-05-24)\n- User was recommended films exploring class struggle and inequality: 'Shoplifters', 'The Florida Project', 'The Square', 'Roma', 'The Killing of a Sacred Deer', 'Burning', 'The Death of Stalin', 'Capernaum', 'The Rider', and 'Sorry to Bother You'. (from a chat on 2023-05-26)\n- User attended a live concert by Glass Animals at a local arena on May 24, 2023, and enjoyed the performance and crowd energy. (from a chat on 2023-05-24)\n- User is particularly interested in 'In the Heights' and 'Dear Evan Hansen' and plans to explore their soundtracks on streaming platforms. (from a chat on 2023-05-26)\n- User plans to purchase Azul for family game night and is considering its suitability for their sister, who is not a fan of complex strategy games. (from a chat on 2023-05-24)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-05-24: The user had completed 20 videos of Corey Schafer's Python series.\n    *   From the chat on 2023-05-26: The user had completed 30 videos of Corey Schafer's Python series.\n\n2.  **Reason over the information:**\n    *   The most recent update regarding the user's progress in Corey Schafer's Python series is from May 26, 2023.\n    *   As of that date, the user confirmed they had completed 30 videos.\n    *   There is no information provided in the history chats indicating that the user has watched any additional videos between May 26, 2023, and the current date (June 9, 2023).\n\n3.  **Conclusion:**\n    *   Based on the latest available information, you have completed 30 videos of Corey Schafer's Python programming series.",
+ "dump": "- User was recommended films exploring class struggle and inequality: 'Shoplifters', 'The Florida Project', 'The Square', 'Roma', 'The Killing of a Sacred Deer', 'Burning', 'The Death of Stalin', 'Capernaum', 'The Rider', and 'Sorry to Bother You'. (session 2023-05-26)\n- User was recommended several board games similar to Dixit, including Mysterium, Codenames, Taboo, Deception: Murder in Hong Kong, The Voting Game, Wits & Wagers, Junk Art, Pictomania, Monikers, and Dixit expansions. (session 2023-05-24)\n- User was provided with strategies to stand out in the fantasy genre, including creating unique magic systems, subverting tropes, focusing on character development, building rich settings, using themes to explore real-life issues, and experimenting with narrative style. (session 2023-05-09)\n- User attended a live concert by Glass Animals at a local arena on May 24, 2023, and enjoyed the performance and crowd energy. (session 2023-05-24)\n- User was recommended music discovery resources including Spotify playlists (Indie Radio, New Music Friday, Psychedelic Rock, Dark Pop), Apple Music's 'The Alternative', and radio stations like Alt Nation, KCRW, KEXP, Triple J, and BBC Radio 1's Indie Show. (session 2023-05-24)\n- User is an aspiring fantasy author seeking advice on world-building and how to make their stories stand out in the genre. (session 2023-05-09)\n- User is interested in art and design, which influenced their interest in Azul for its mosaic-building theme. (session 2023-05-24)\n- User was recommended books and zines focusing on 1960s aesthetics, including 'The Decisive Moment' by Henri Cartier-Bresson, 'The Americans' by Robert Frank, 'Garry Winogrand: 1964', and the zine 'Fantom'. (session 2023-04-26)\n- User was provided with five unique magic system concepts: magic tied to seasons, magic tied to emotions, magic requiring specific natural resources, magic based on music or sound, and magic requiring the sacrifice of precious things like memories or relationships. (session 2023-05-09)\n- User was recommended additional indie-folk artists: The Head and the Heart, First Aid Kit, The Milk Carton Kids, The Avett Brothers, and Phoebe Bridgers. (session 2023-05-24)\n- User recently purchased a 1960s film camera at an estate sale and is currently learning how to use it. (session 2023-04-26)\n- User was informed that sustainable aviation fuel (SAF) can reduce CO2 emissions by up to 80% on a life cycle basis compared to traditional jet fuel, according to the International Air Transport Association (IATA). (session 2023-06-03)\n- User has played Codenames before and enjoyed it. (session 2023-05-24)\n- User was recommended popular datasets for NLP tasks, including 20 Newsgroups, IMDB Movie Reviews, Reuters-21578, Stanford Sentiment Treebank, Amazon Product Reviews, Yelp Reviews, Twitter Sentiment Analysis, Wikipedia, RCV1, AP News, WikiText-103, OpenWebText, GLUE Benchmark, and SNLI. (session 2023-05-26)\n- User is currently obsessed with The Weeknd's album 'Dawn FM' and listens to music frequently during their daily commute. (session 2023-05-24)\n- User's photography subjects include portraits of friends and family, street scenes, landscapes, and still life photography featuring their vintage collections. (session 2023-04-26)\n- User was advised that banks will generally not request personal information over the phone or via text unless the user initiated the contact. (session 2023-04-24)\n- User enjoys the indie-folk genre and specifically listens to The Lumineers and Arlo Parks. (session 2023-05-24)\n- User is particularly interested in 'In the Heights' and 'Dear Evan Hansen' and plans to explore their soundtracks on streaming platforms. (session 2023-05-26)\n- User recently watched the musical 'Hamilton' on Disney+ and the series 'Schitt's Creek' on Netflix, and is interested in finding similar musicals and plays. (session 2023-05-26)\n- User was informed about alternative healthcare payment models in other states, including Vermont's global budgeting for hospitals, Massachusetts' accountable care organization (ACO) model, and Oregon's value-based payment experiments. (session 2023-05-08)\n- User plans to purchase Azul for family game night and is considering its suitability for their sister, who is not a fan of complex strategy games. (session 2023-05-24)\n- User was recommended musicals including 'In the Heights', 'Dear Evan Hansen', 'The Book of Mormon', 'Les Misérables', 'Hadestown', and 'The Band's Visit'. (session 2023-05-26)\n- User has completed 30 videos of Corey Schafer's Python series as of May 26, 2023, and is preparing to apply these skills to NLP projects. (session 2023-05-26)\n- User enjoys shooting with Ilford HP5 Plus 400 film and develops their own film at home. (session 2023-04-26)\n- User was provided with a comprehensive guide for setting up an NLP project environment, including installing Python, pip, libraries (NLTK, spaCy, gensim, scikit-learn, pandas, numpy), and tools (Jupyter, PyCharm, VS Code, Git, Conda). (session 2023-05-26)\n- User requested an analysis of the themes of identity, class, and social commentary in the show 'Schitt's Creek'. (session 2023-05-26)\n- User plans to re-watch the film 'Parasite' and requested recommendations for other movies exploring class struggle and social inequality. (session 2023-05-26)\n- User is interested in strategic and complex board games similar to Ticket to Ride or Carcassonne. (session 2023-05-24)\n- User is inspired by 1960s photography, specifically the work of Diane Arbus, Lee Friedlander, and Garry Winogrand, and appreciates the era's spirit of experimentation. (session 2023-04-26)\n- User was recommended strategic board games including Pandemic Legacy, Scythe, Terraforming Mars, El Grande, 7 Wonders, Azul, Brass: Birmingham, Caverna: The Cave Farmers, Splendor, and Castles of Burgundy. (session 2023-05-24)\n- User is working on a project involving text analysis and sentiment analysis and is currently brushing up on Python skills by watching Corey Schafer's YouTube series, having completed 20 videos as of May 24, 2023. (session 2023-05-24)\n- User was informed that Maryland's all-payer healthcare system, in place since the 1970s, showed lower healthcare spending growth than the national average between 2014 and 2017, alongside improvements in readmission rates and hospital-acquired infections. (session 2023-05-08)\n- User was provided with tips for curating playlists, such as defining a theme, choosing an anchor song, balancing tempo, considering flow, and keeping the tracklist concise. (session 2023-05-24)\n- User was advised that Azul is accessible for casual players, has a gentle learning curve, and is suitable for 2-4 players, making it a good choice for family game night. (session 2023-05-24)\n- User requested information on the tone and themes of the film 'The Square' regarding its satire of the art world. (session 2023-05-26)\n- User is curating an Apple Music playlist titled 'Winter Vibes' featuring chill electronic, indie-folk ballads, and atmospheric soundscapes to create a relaxing, cozy mood. (session 2023-05-24)\n- User was recommended the DataCamp course 'Natural Language Processing with Python' as a starting point for their NLP project. (session 2023-05-26)\n- User was informed that KLM Royal Dutch Airlines has committed to reducing its carbon emissions by 50% per passenger-kilometre by 2030 compared to 2005 levels. (session 2023-06-03)\n- User was recommended several resources for learning about film types and characteristics, including websites like The Darkroom, Film Photography Project, and 35mmc, as well as books like 'The Film Photography Handbook' by Chris Marquardt and Monika Andrae. (session 2023-04-26)\n- User was informed that major airlines implement sustainable aviation fuel through blending with conventional fuel, direct use with engine modifications, co-production partnerships, and direct investment in biofuel technologies. (session 2023-06-03)\n- User was recommended artists for their 'Winter Vibes' playlist, including Tycho, Four Tet, RÜFÜS DU SOL, ODESZA (electronic); Bon Iver, Sufjan Stevens, Fleet Foxes, The Antlers (indie-folk); and Tim Hecker, William Basinski, Olafur Arnalds, Hammock (atmospheric). (session 2023-05-24)\n- User plans to start their NLP project by building a sentiment analysis model using either the IMDB or Amazon reviews datasets. (session 2023-05-26)\n- User frequently listens to musical theater soundtracks, specifically 'Dear Evan Hansen' and 'The Book of Mormon', during their daily commute. (session 2023-05-26)\n- User was recommended several Python NLP libraries for their project, including NLTK, spaCy, TextBlob, OpenNLP, Stanford CoreNLP, VaderSentiment, and Gensim, as well as cloud-based APIs like IBM Watson, Google Cloud Natural Language, and Hugging Face Transformers. (session 2023-05-24)\n- User was informed that 'The Book of Mormon' is not available for online streaming due to the creators' strict control, and is only available via live performance or the 2020 London production DVD/Blu-ray. (session 2023-05-26)\n- User was provided with guidelines for verifying the legitimacy of bank calls, including verifying the caller's identity, watching for high-pressure tactics, calling the bank back using official contact information, and being aware of spoofed phone numbers. (session 2023-04-24)\n- User was recommended artists similar to Glass Animals, including Tame Impala, Unknown Mortal Orchestra, Arctic Monkeys, Alt-J, Foals, Temples, Mild High Club, Pond, King Gizzard & the Lizard Wizard, and Mansionair. (session 2023-05-24)\n- User decided to use spaCy for their NLP project after learning about its high performance, speed, and memory efficiency compared to NLTK. (session 2023-05-24)\n- User was informed that KLM Royal Dutch Airlines has been a leader in SAF adoption, including using a 75:25 blend of conventional jet fuel and SAF made from cooking oil on flights between Amsterdam and Paris since March 2019. (session 2023-06-03)\n- User is skeptical about the environmental benefits of sustainable aviation fuel (SAF), expressing concern that it may have negative environmental impacts beyond CO2 emissions and viewing it as a potential band-aid solution rather than a radical change. (session 2023-06-03)\n- User intends to explore advanced NLP techniques such as named entity recognition (NER) and topic modeling after gaining proficiency in sentiment analysis. (session 2023-05-26)\n- User enjoys playing board games with friends and family, specifically mentioning Dixit as a fun game played during the holidays. (session 2023-05-24)\n- User was recommended plays including 'The Ferryman', 'The Humans', 'The Lehman Trilogy', 'A Doll's House, Part 2', and 'The Play That Goes Wrong'. (session 2023-05-26)\n- User collects vinyl records and stamps, and finds that the tactile nature of these hobbies influences their preference for film photography. (session 2023-04-26)\n- User is interested in Maryland's healthcare policies, specifically the state's unique all-payer healthcare model and its effectiveness in controlling costs and improving quality. (session 2023-05-08)\n- User was provided with technical guidance on using spaCy's language models, word embeddings, and feature extraction techniques (such as embedding averages and weights) to train machine learning classifiers for sentiment analysis. (session 2023-05-24)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 57,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 36.7,
+  "total": 38.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

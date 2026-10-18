@@ -1,0 +1,131 @@
+{
+ "qid": "cf22b7bf",
+ "arm": "letta",
+ "split": "main",
+ "question": "How much weight have I lost since I started going to the gym consistently?",
+ "reference": "10 pounds",
+ "question_date": "2023-06-23 03:15",
+ "sessions": [
+  {
+   "id": "ultrachat_345143",
+   "date": "2023-04-23 18:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_VhAV1pG_0",
+   "date": "2023-05-08 09:19",
+   "evidence": false
+  },
+  {
+   "id": "c8fcdf5a_1",
+   "date": "2023-05-09 21:19",
+   "evidence": false
+  },
+  {
+   "id": "457e26bf",
+   "date": "2023-05-18 20:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_ae3a122b_1",
+   "date": "2023-05-21 12:29",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_324101",
+   "date": "2023-06-08 01:43",
+   "evidence": false
+  },
+  {
+   "id": "8765ab16_2",
+   "date": "2023-06-10 06:02",
+   "evidence": false
+  },
+  {
+   "id": "f906baa7_1",
+   "date": "2023-06-14 15:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_ae3a122b_2",
+   "date": "2023-06-21 05:37",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_130544",
+   "date": "2023-06-21 08:33",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user owns a Samsung Galaxy S22 Ultra and a Fossil Gen 5 smartwatch (purchased Feb 5th for ~$250). They are leaning towards a Dell XPS for their new laptop because they use an Android phone and prefer the customization and configuration options over the Apple ecosystem. They are specifically interested in GPU options and the upgradability of RAM and storage. They have decided to go with the 4K OLED display for their Dell XPS. The user is looking for fitness app recommendations compatible with their Fossil Gen 5 smartwatch. The user is considering the Anker PowerCore 20000 and the Mophie Powerstation XXL for a high-capacity power bank.\nThe user is also considering buying a 4K OLED TV from either LG or Sony and plans to visit a Best Buy this weekend to see them in person.\nThe user is a fan of the Los Angeles Lakers and follows the NBA playoffs.\nThe user enjoys cross-training with tennis (specifically backhand slice), basketball, and volleyball.\nThe user competed in a local tennis tournament three weeks ago (as of May 2023), reaching the quarterfinals.\nThe user lost in the tennis tournament quarterfinals to a player named Sarah, who had a strong serve. The user is focusing on improving their return of serve, reaction time, and footwork.\nThe user has successfully lost 10 pounds in the last 3 months of consistent gym work, and is aiming to reach their goal weight by the end of the summer, continuing their current slow and steady progress.\nThe user is planning to use Canva to design eye-catching thumbnails for their Instagram Reels. They are interested in learning how to use Instagram Insights to track their performance and adjust their strategy.\n</human>\n\nTool results while answering:\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].\n{'message': 'No results found.', 'results': []}",
+ "answer": "You have successfully lost 10 pounds in the last 3 months of consistent gym work! You're doing a great job with your slow and steady progress, and you're well on your way toward your goal weight for the end of the summer. Keep it up!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user owns a Samsung Galaxy S22 Ultra and a Fossil Gen 5 smartwatch (purchased Feb 5th for ~$250). They are leaning towards a Dell XPS for their new laptop because they use an Android phone and prefer the customization and configuration options over the Apple ecosystem. They are specifically interested in GPU options and the upgradability of RAM and storage. They have decided to go with the 4K OLED display for their Dell XPS. The user is looking for fitness app recommendations compatible with their Fossil Gen 5 smartwatch. The user is considering the Anker PowerCore 20000 and the Mophie Powerstation XXL for a high-capacity power bank.\nThe user is also considering buying a 4K OLED TV from either LG or Sony and plans to visit a Best Buy this weekend to see them in person.\nThe user is a fan of the Los Angeles Lakers and follows the NBA playoffs.\nThe user enjoys cross-training with tennis (specifically backhand slice), basketball, and volleyball.\nThe user competed in a local tennis tournament three weeks ago (as of May 2023), reaching the quarterfinals.\nThe user lost in the tennis tournament quarterfinals to a player named Sarah, who had a strong serve. The user is focusing on improving their return of serve, reaction time, and footwork.\nThe user has successfully lost 10 pounds in the last 3 months of consistent gym work, and is aiming to reach their goal weight by the end of the summer, continuing their current slow and steady progress.\nThe user is planning to use Canva to design eye-catching thumbnails for their Instagram Reels. They are interested in learning how to use Instagram Insights to track their performance and adjust their strategy.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "memory_search({\"query\": \"weight lost gym\"})",
+   "conversation_search({\"query\": \"weight lost gym\"})"
+  ],
+  "blocks_chars": 1871,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 495.3,
+  "total": 502.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

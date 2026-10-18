@@ -1,0 +1,106 @@
+{
+ "qid": "0e4e4c46",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What is my current highest score in Ticket to Ride?",
+ "reference": "132 points",
+ "question_date": "2023-06-10 16:46",
+ "sessions": [
+  {
+   "id": "e82ce7cd_3",
+   "date": "2023-04-28 20:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_1",
+   "date": "2023-05-23 03:08",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_97515",
+   "date": "2023-05-23 18:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_puvUs0e_0",
+   "date": "2023-05-24 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_59250",
+   "date": "2023-05-24 09:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_198964",
+   "date": "2023-05-24 18:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Wi7Op1u_39",
+   "date": "2023-05-25 00:38",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhPNTAJ_0",
+   "date": "2023-05-25 07:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_iUc80a8_0",
+   "date": "2023-05-25 10:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_2",
+   "date": "2023-05-25 22:16",
+   "evidence": true
+  }
+ ],
+ "context": "- The user achieved their highest score of 132 points in the game Ticket to Ride. (valid since 2023-05-25)\n- The user has previously played What Do You Meme. (valid since 2023-05-23)\n- The user has previously played Codenames. (valid since 2023-05-23)\n- The user wants to grow their beauty YouTube channel to 1000 subscribers in 3 months. (valid since 2023-05-24)\n- The user is considering playing Deception: Murder in Hong Kong at their next game night. (valid since 2023-05-23)\n- The user is considering playing Two Rooms and a Boom at their next game night. (valid since 2023-05-23)\n- Scythe is a board game that features resource management as one of its gameplay mechanics. (valid since 2023-05-25)\n- The user wants to grow their beauty YouTube channel to 10,000 subscribers in 3 months. (valid since 2023-05-24)\n- Scythe is a board game that features worker placement as one of its gameplay mechanics. (valid since 2023-05-25)\n- The user is frustrated with the student loan system in the United States and believes the government should prioritize investing in education. (valid since 2023-05-24)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:**\n   - The history chat states: \"The user achieved their highest score of 132 points in the game Ticket to Ride. (valid since 2023-05-25)\"\n\n2. **Reason over the information:**\n   - The provided fact explicitly identifies 132 points as the user's highest score in Ticket to Ride.\n   - There is no information indicating that this score has been surpassed or changed since May 25, 2023.\n\n3. **Conclusion:**\n   - Your current highest score in Ticket to Ride is 132 points.",
+ "dump": "- Jo Peninsulas works at ManyMangoes (valid since 2021-01-06)\n- Jo Peninsulas created the Our Equator group to share projects for the 2030 Sustainable Development Goals (valid since 2022-12-23)\n- Jo Peninsulas sent an email information request to bob.skeens@kbrwadventure.com (valid since 2022-12-23)\n- The user plays basketball on Thursday evenings. (valid since 2023-04-28)\n- The user plays basketball with friends Tom and Alex on Thursday evenings. (valid since 2023-04-28)\n- The assistant recommends Clif Bar as an affordable energy bar option, priced around $1.50 to $2.50. (valid since 2023-04-28)\n- The assistant recommends RXBAR as an affordable energy bar option with simple ingredients, priced around $2 to $3. (valid since 2023-04-28)\n- The assistant recommends Quest Bar as an affordable high-protein, low-sugar energy bar, priced around $2 to $3. (valid since 2023-04-28)\n- The assistant recommends PowerBar as an affordable energy bar option, priced around $1.50 to $3. (valid since 2023-04-28)\n- The user has previously played Codenames. (valid since 2023-05-23)\n- The user has previously played What Do You Meme. (valid since 2023-05-23)\n- The user is considering playing Deception: Murder in Hong Kong at their next game night. (valid since 2023-05-23)\n- The user is considering playing Two Rooms and a Boom at their next game night. (valid since 2023-05-23)\n- The user intends to host a game night with a mix of new and experienced gamers, following the assistant's advice on creating an inclusive environment. (valid since 2023-05-23)\n- The assistant explains the concept of delayed onset muscle soreness to the user. (valid since 2023-05-23)\n- The user wants to grow their beauty YouTube channel to 1000 subscribers in 3 months. (valid since 2023-05-24)\n- The user wants to achieve 40,000 watch hours on their new beauty YouTube channel. (valid since 2023-05-24)\n- A beauty YouTube channel must meet YouTube's Partner Program requirements of 1,000 subscribers and 4,000 watch hours in the past 12 months to be monetized. (valid since 2023-05-24)\n- A beauty YouTube channel can enable monetization through the YouTube Studio once requirements are met. (valid since 2023-05-24)\n- A beauty YouTube channel requires an application for Google AdSense to receive payment for YouTube earnings. (valid since 2023-05-24)\n- The user wants to grow their beauty YouTube channel to 10,000 subscribers in 3 months. (valid since 2023-05-24)\n- The user is frustrated with the student loan system in the United States and believes the government should prioritize investing in education. (valid since 2023-05-24)\n- The National Statistical Committee of Belarus provided export data to the assistant regarding the Eurasian Economic Union for the year 2019. (valid since 2023-05-24)\n- Jo Peninsulas is organizing Earth Day 2023 as an environmental event (valid since 2023-05-25)\n- Jo Peninsulas uses For Trees Club for scheduling meetings (valid since 2023-05-25)\n- The assistant provides an image of a person looking at a laptop screen. (valid since 2023-05-25)\n- SQL Server Integration Services (SSIS) is used to extract customer data from a monolithic application's SQL database. (valid since 2023-05-25)\n- SQL Server Integration Services (SSIS) is used to load transformed customer data into a microservice's database. (valid since 2023-05-25)\n- SQL Server Integration Services (SSIS) is considered more efficient and effective than Entity Framework for ETL processes involving large volumes of data or complex data models. (valid since 2023-05-25)\n- Scythe is a board game that features worker placement as one of its gameplay mechanics. (valid since 2023-05-25)\n- Scythe is a board game that features resource management as one of its gameplay mechanics. (valid since 2023-05-25)\n- The user achieved their highest score of 132 points in the game Ticket to Ride. (valid since 2023-05-25)\n- Scythe game night features mini sandwiches as an industrial-era inspired snack. (valid since 2023-05-25)\n- Scythe game night features meat pies as an industrial-era inspired snack. (valid since 2023-05-25)\n- Scythe game night features sausages as an industrial-era inspired snack. (valid since 2023-05-25)\n- Scythe game night features pierogies as an Eastern European-inspired treat. (valid since 2023-05-25)\n- Scythe game night features blini as an Eastern European-inspired treat. (valid since 2023-05-25)\n- Scythe game night features kielbasa as an Eastern European-inspired treat. (valid since 2023-05-25)\n- Scythe game night features mechanical-themed cookies in the shape of gears and cogs. (valid since 2023-05-25)\n- Scythe game night features coffee as an industrial-era inspired beverage. (valid since 2023-05-25)\n- Scythe game night features tea as an industrial-era inspired beverage. (valid since 2023-05-25)\n- Scythe game night features ginger ale as a themed soda. (valid since 2023-05-25)\n- Scythe game night features cream soda as a themed soda. (valid since 2023-05-25)\n- Scythe game night features root beer as a themed soda. (valid since 2023-05-25)\n- Scythe game night features The Gearbox cocktail made with ingredients like absinthe or whiskey. (valid since 2023-05-25)\n- Scythe game night features The Factory Floor cocktail made with ingredients like absinthe or whiskey. (valid since 2023-05-25)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 46,
+  "invalidated": 0,
+  "episodes": 15,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 120.5,
+  "total": 121.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

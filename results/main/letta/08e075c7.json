@@ -1,0 +1,135 @@
+{
+ "qid": "08e075c7",
+ "arm": "letta",
+ "split": "main",
+ "question": "How long have I been using my Fitbit Charge 3?",
+ "reference": "9 months",
+ "question_date": "2023-09-04 17:07",
+ "sessions": [
+  {
+   "id": "25b3e36c_1",
+   "date": "2023-06-01 00:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_1",
+   "date": "2023-06-18 00:59",
+   "evidence": true
+  },
+  {
+   "id": "f7344cf4",
+   "date": "2023-06-30 22:55",
+   "evidence": false
+  },
+  {
+   "id": "a8ef396f_2",
+   "date": "2023-07-16 07:55",
+   "evidence": false
+  },
+  {
+   "id": "ae77c245",
+   "date": "2023-08-04 00:36",
+   "evidence": false
+  },
+  {
+   "id": "242eab28_2",
+   "date": "2023-08-05 06:23",
+   "evidence": false
+  },
+  {
+   "id": "77827bdf",
+   "date": "2023-08-12 18:01",
+   "evidence": false
+  },
+  {
+   "id": "a5808e7d_1",
+   "date": "2023-08-22 11:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_2",
+   "date": "2023-09-02 01:13",
+   "evidence": true
+  },
+  {
+   "id": "9037e55b",
+   "date": "2023-09-02 22:40",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in fitness tracking, nutrition, and sleep analysis. They are using a Fitbit Charge 3. They are currently looking for a new, affordable, and high-quality yoga mat, specifically considering the Hugger Mugger ParaMat because they need extra cushioning due to knee sensitivity.\nThe user lives in Kansas City, Missouri.\nThe user is interested in collecting, specifically 1990s action figures and Limited Edition Disney Princess dolls. They are currently decluttering their apartment.\nThe user is interested in photography and vintage camera collecting, having recently acquired a 1950s-era Rolleiflex.\nThe user has a 1960s-era Canon rangefinder inherited from their grandfather, which is in mint condition.\nThe user recently went on a family road trip to Yellowstone and is looking for advice on organizing their photos for an album or scrapbook.\nThe user is planning a road trip to the Grand Canyon with friends and wants playlist recommendations featuring a mix of classic rock, pop, and country music.\nThe user recently drove to San Francisco and experienced heavy traffic on Highway 101, and is asking for tips on how to handle road congestion during future trips.\nThe user is planning a ski vacation to Colorado for the winter and is looking into using travel rewards credit card points for flights. They are considering agencies like Ski.com and Mountain Travel Sobek. They had a positive experience using Expedia for a recent trip to Boston.\nThe user is currently in the process of buying a home and has recently been pre-approved for a mortgage. They own a baby grand piano that requires specialized moving services.\nThe user is currently upskilling in data analysis and digital marketing, specifically looking into Facebook Ads and Google Ads, to prepare for a potential promotion.\nThe user has been using their Fitbit Charge 3 for 9 months now. They are currently focusing on limiting stimulating activities before bed, specifically reducing TV watching, to improve sleep quality.\nThe user has decided to replace pre-bed TV time with reading to improve sleep. They also use a portable massage roller for relaxation and muscle recovery and are asking for tips on how to use it effectively for relaxation.\nThe user enjoys books by Dan Harris, specifically '10% Happier'. They are interested in healthy, easy-to-prepare snacks that are portable.\nThe user started their own business, 'CreativeSpark Marketing', three months ago. They are currently focusing on streamlining their workflow by integrating project management tools (Trello/Asana) with their accounting software (QuickBooks).\nThe user is exploring Trello's Premium plan (formerly known as Gold) and Asana's Starter/Premium plans to decide on a project management tool for 'CreativeSpark Marketing'. They are particularly interested in Trello's Power-Ups for QuickBooks integration.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You have been using your Fitbit Charge 3 for 9 months.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in fitness tracking, nutrition, and sleep analysis. They are using a Fitbit Charge 3. They are currently looking for a new, affordable, and high-quality yoga mat, specifically considering the Hugger Mugger ParaMat because they need extra cushioning due to knee sensitivity.\nThe user lives in Kansas City, Missouri.\nThe user is interested in collecting, specifically 1990s action figures and Limited Edition Disney Princess dolls. They are currently decluttering their apartment.\nThe user is interested in photography and vintage camera collecting, having recently acquired a 1950s-era Rolleiflex.\nThe user has a 1960s-era Canon rangefinder inherited from their grandfather, which is in mint condition.\nThe user recently went on a family road trip to Yellowstone and is looking for advice on organizing their photos for an album or scrapbook.\nThe user is planning a road trip to the Grand Canyon with friends and wants playlist recommendations featuring a mix of classic rock, pop, and country music.\nThe user recently drove to San Francisco and experienced heavy traffic on Highway 101, and is asking for tips on how to handle road congestion during future trips.\nThe user is planning a ski vacation to Colorado for the winter and is looking into using travel rewards credit card points for flights. They are considering agencies like Ski.com and Mountain Travel Sobek. They had a positive experience using Expedia for a recent trip to Boston.\nThe user is currently in the process of buying a home and has recently been pre-approved for a mortgage. They own a baby grand piano that requires specialized moving services.\nThe user is currently upskilling in data analysis and digital marketing, specifically looking into Facebook Ads and Google Ads, to prepare for a potential promotion.\nThe user has been using their Fitbit Charge 3 for 9 months now. They are currently focusing on limiting stimulating activities before bed, specifically reducing TV watching, to improve sleep quality.\nThe user has decided to replace pre-bed TV time with reading to improve sleep. They also use a portable massage roller for relaxation and muscle recovery and are asking for tips on how to use it effectively for relaxation.\nThe user enjoys books by Dan Harris, specifically '10% Happier'. They are interested in healthy, easy-to-prepare snacks that are portable.\nThe user started their own business, 'CreativeSpark Marketing', three months ago. They are currently focusing on streamlining their workflow by integrating project management tools (Trello/Asana) with their accounting software (QuickBooks).\nThe user is exploring Trello's Premium plan (formerly known as Gold) and Asana's Starter/Premium plans to decide on a project management tool for 'CreativeSpark Marketing'. They are particularly interested in Trello's Power-Ups for QuickBooks integration.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Fitbit Charge 3 usage time\"})"
+  ],
+  "blocks_chars": 3067,
+  "write_steps": 60,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 433.5,
+  "total": 438.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

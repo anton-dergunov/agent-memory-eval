@@ -1,0 +1,104 @@
+{
+ "qid": "07741c44",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "Where do I initially keep my old sneakers?",
+ "reference": "under my bed",
+ "question_date": "2023-11-30 23:52",
+ "sessions": [
+  {
+   "id": "ultrachat_319134",
+   "date": "2023-07-25 07:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_1",
+   "date": "2023-08-11 02:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_113757",
+   "date": "2023-08-20 06:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_CEWG2XW_0",
+   "date": "2023-09-06 08:19",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mUiNDhv_0",
+   "date": "2023-10-10 09:54",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_200168",
+   "date": "2023-10-26 19:12",
+   "evidence": false
+  },
+  {
+   "id": "aa71db11_1",
+   "date": "2023-11-11 14:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_2",
+   "date": "2023-11-30 11:44",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_370246",
+   "date": "2023-11-30 16:06",
+   "evidence": false
+  },
+  {
+   "id": "01d22d4d",
+   "date": "2023-11-30 23:04",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T15:48:49.869952+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-11-30 23:52] Where do I initially keep my old sneakers?'}, {'timestamp': '2026-10-17T15:48:41.041303+00:00', 'time_ago': '11s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-30 11:44] Déjà vu! It seems like we've had this conversation before! I'm happy to help, though!\\n\\nTo answer your question, I previously recommended some great brands and stores for durable sandals. Here's a quick recap:\\n\\n**Brands:**\\n\\n1. Tevas\\n2. Birkenstock\\n3. Sanuk\\n4. Merrell\\n5. Keen\\n\\n**Stores:**\\n\\n1. REI (Recreational Equipment Inc.)\\n2. DSW (Designer Shoe Warehouse)\\n3. Zappos\\n4. Amazon\\n\\nThese brands and stores offer high-quality sandals with durable straps that can withstand regular wear and tear.\\n\\nAs for organizing your closet, I'm excited to hear that you're planning to store your old sneakers in a shoe rack! That's a great way to free up space and keep your shoes organized. Here are some additional tips to help you with your closet organization project:\\n\\n1. **Purge and declutter**: Get rid of any shoes that are no longer wearable or useful.\\n2. **Categorize and group**: Organize your shoes by type (e.g., sneakers, sandals, boots) and group them together.\\n3. **Use storage containers**: Consider using storage bins or baskets to store items like socks, accessories, or out-of-season shoes.\\n4. **Utilize vertical space**: Make the most of your closet's vertical space by using stackable shoe racks or shelves.\\n\\nRemember to have fun and be patient while organizing your closet. It's a process, but the end result will be worth it!\\n\\nIf you have any more questions or need further assistance, feel free to ask!\"}, {'timestamp': '2026-10-17T15:48:41.041284+00:00', 'time_ago': '11s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-30 11:44] I'm thinking of getting a new pair of sandals with better quality straps. Can you recommend some good brands or stores that offer durable sandals? By the way, I need to organize my closet this weekend, and I'm looking forward to storing my old sneakers in a shoe rack, they're currently taking up space.\"}, {'timestamp': '2026-10-17T15:48:41.041182+00:00', 'time_ago': '11s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-30 11:44] To keep your sneaker clean and fresh while they're stored, here are some tips:\\n\\n1. **Clean them before storing**: Make sure to clean your sneakers thoroughly before storing them. Remove any dirt, dust, or debris using a soft brush or cloth. This will prevent dirt from setting in and making them harder to clean later.\\n2. **Use shoe trees or stuffing**: To maintain the shape of your sneakers, use shoe trees or stuff them with paper towels or newspaper. This will help absorb any moisture and prevent creases from forming.\\n3. **Store them in a well-ventilated area**: Fresh air is essential for keeping your sneakers fresh. Store them in a well-ventilated area of your closet or room, away from direct sunlight, which can cause fading or discoloration.\\n4. **Use silica gel packets or odor absorbers**: Silica gel packets or odor absorbers can help absorb moisture and eliminate odors. You can place them near your sneakers or inside the shoe rack.\\n5. **Keep them away from direct heat**: Direct heat can cause materials to degrade or become brittle. Avoid storing your sneakers near heaters, radiators, or direct sunlight.\\n6. **Consider using shoe bags or boxes**: If you want to store your sneakers in a more protective environment, consider using shoe bags or boxes. These can help keep them dust-free and prevent scratches.\\n7. **Check on them regularly**: Regularly check on your stored sneakers to ensure they're not developing any mold, mildew, or unpleasant odors. If you notice any issues, remove them f",
+ "answer": "Based on our previous conversation, you mentioned that you were looking forward to storing your old sneakers in a **shoe rack** to help organize your closet and free up some space.",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"where do I keep my old sneakers\"})",
+   "conversation_search({\"query\": \"sneakers\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 28.9,
+  "total": 35.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "qid": "f685340e",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+ "reference": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+ "question_date": "2023-07-31 11:43",
+ "sessions": [
+  {
+   "id": "4a9eb139_2",
+   "date": "2023-03-06 12:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_1",
+   "date": "2023-03-11 18:01",
+   "evidence": true
+  },
+  {
+   "id": "eef7c3fa_1",
+   "date": "2023-03-15 06:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_246155",
+   "date": "2023-04-03 16:32",
+   "evidence": false
+  },
+  {
+   "id": "ee402e51_1",
+   "date": "2023-04-12 15:32",
+   "evidence": false
+  },
+  {
+   "id": "e7dcd5df",
+   "date": "2023-05-30 12:19",
+   "evidence": false
+  },
+  {
+   "id": "e862f726_1",
+   "date": "2023-06-11 14:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_8f85nN2_0",
+   "date": "2023-06-15 19:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_2",
+   "date": "2023-07-30 04:03",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_240679",
+   "date": "2023-07-31 03:19",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T22:25:48.545668+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-07-31 11:43] How often do I play tennis with my friends at the local park previously? How often do I play now?'}, {'timestamp': '2026-10-17T22:25:42.314200+00:00', 'time_ago': '9s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': ' Enjoy your Sunday tennis game!'}, {'timestamp': '2026-10-17T22:25:41.092397+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-07-30 04:03] A new tennis bag can make a great addition to your tennis gear!\\n\\nThere are many excellent tennis bags on the market, and the right one for you will depend on your specific needs and preferences. Here are some factors to consider:\\n\\n1. **Size**: Consider a bag that can fit your racket, shoes, and other essentials, such as extra clothes, water bottles, and snacks.\\n2. **Material**: Look for durable, water-resistant materials that can withstand the elements and heavy use.\\n3. **Compartments**: Multiple compartments can help keep your gear organized and easy to find.\\n4. **Style**: Choose a bag that fits your personal style and preferences.\\n\\nBased on these factors, here are some popular tennis bag recommendations:\\n\\n1. **Babolat Tennis Bag**: A popular choice among tennis players, Babolat bags offer excellent durability, multiple compartments, and a stylish design.\\n2. **Wilson Tennis Bag**: Wilson is a well-known tennis brand, and their bags are designed to meet the needs of players of all levels. They offer a range of styles and sizes to fit different needs.\\n3. **Nike Tennis Bag**: Nike is a popular choice for tennis gear, and their bags are known for their durability, style, and functionality.\\n4. **Head Tennis Bag**: Head is a reputable tennis brand, and their bags offer excellent quality, multiple compartments, and a sleek design.\\n\\nWhen choosing a tennis bag, consider the following features:\\n\\n* Racket compartment: Look for a bag with a dedicated racket compartment that can fit your racket securely.\\n* Shoe compartment: A separate shoe compartment can help keep your shoes clean and organized.\\n* Multiple pockets: Additional pockets can help you store smaller items, such as balls, strings, and accessories.\\n* Water-resistant material: A water-resistant material can help keep your gear dry in case of rain or sweat.\\n* Adjustable straps: Adjustable straps can help you customize the fit and comfort of the bag.\\n\\nBefore making a purchase, read reviews and do your research to find the best tennis bag that fits your needs and budget.\\n\\nGet ready to hit the courts in style with your new tennis bag!'}, {'timestamp': '2026-10-17T22:25:41.092382+00:00', 'time_ago': '10s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-07-30 04:03] I'm thinking of getting a new tennis bag to carry my gear to the local park. Do you have any recommendations for a good tennis bag that can fit my racket, shoes, and other essentials?\"}, {'timestamp': '2026-10-17T22:25:41.092359+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-07-30 04:03] Swimming is an excellent addition to your fitness routine!\\n\\nImproving your swimming technique takes practice, patience, and focus on proper body positioning, movement, and efficiency. Here are some tips to help you enhance your swimming technique:\\n\\n1. **Body Position**: Maintain a horizontal body position with your ears, shoulders, and hips aligned. This will help you cut through the water with minimal resistance.\\n2. **Kicking Technique**: Focus on a flutter kick, keeping your legs relaxed and moving your feet in a small, quick motion. Avoid bending your knees or ankles.\\n3. **Arm Stroke**: Use a high elbow catch, entering the water with your fingertips and pulling back with your palms facing d\n{'message': 'No results found.', 'results': []}",
+ "answer": "I searched our conversation history but couldn't find a specific record of how often you played tennis in the past compared to now. \n\nIt seems you mentioned playing on a Sunday recently, but we haven't discussed the frequency of your games. If you'd like to share, I'd love to hear how your tennis routine has changed!",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"tennis local park friends\"})",
+   "conversation_search({\"query\": \"tennis\"})",
+   "conversation_search({\"query\": \"tennis frequency\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 40.2,
+  "total": 56.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

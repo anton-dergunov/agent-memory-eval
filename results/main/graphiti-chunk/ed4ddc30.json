@@ -1,0 +1,102 @@
+{
+ "qid": "ed4ddc30",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+ "reference": "20",
+ "question_date": "2023-03-16 14:24",
+ "sessions": [
+  {
+   "id": "ultrachat_342966",
+   "date": "2022-12-26 00:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_1",
+   "date": "2023-01-11 23:15",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_28013",
+   "date": "2023-01-23 04:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fwY67m3_0",
+   "date": "2023-02-19 17:20",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_421094",
+   "date": "2023-02-26 16:09",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_76206",
+   "date": "2023-03-01 01:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436945",
+   "date": "2023-03-06 11:49",
+   "evidence": false
+  },
+  {
+   "id": "63c75b13_2",
+   "date": "2023-03-08 19:55",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_35Datf2_27",
+   "date": "2023-03-09 19:42",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_2",
+   "date": "2023-03-15 08:18",
+   "evidence": true
+  }
+ ],
+ "context": "- The assistant advises the user that bread with higher fat and gluten content tends to have a longer shelf life. (valid since 2023-01-23)\n- The user plans to acquire bees to help with pollination on the user's farm. (valid since 2023-03-15)\n- Freshly made ricotta cheese is used as a staple ingredient in lasagna recipes. (valid since 2023-01-11)\n- Pakistan defeated India 1-0 in the final to win the Olympic gold medal in hockey. (valid since 1960-01-01)\n- Bees are intended to be used for pollination on the user's farm. (valid since 2023-03-15)\n- The user is experiencing issues with pests like mites and flies in their chicken coop. (valid since 2023-03-15)\n- Freshly made ricotta cheese is used as a filling for homemade ravioli. (valid since 2023-01-11)\n- The assistant recommends that beekeepers invest in a beekeeping suit, veil, and gloves for protection from bee stings. (valid since 2023-03-15)\n- The peppered moth population evolved in response to environmental changes caused by the Industrial Revolution. (valid since 2022-12-26)\n- Pakistan won the Olympic gold medal in hockey for the first time at the 1960 Rome Olympics. (valid since 1960-01-01)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:** I have reviewed all the provided history chats to identify any information regarding the quantity of eggs stocked in the refrigerator.\n   - The facts cover topics such as bread shelf life, beekeeping plans, ricotta cheese usage, historical Olympic hockey results, chicken coop pest issues, and the evolution of the peppered moth.\n\n2. **Reason over the information:** \n   - After examining the provided facts, there is no mention of the user's current egg inventory or any data regarding how many dozen eggs are stocked in the refrigerator.\n\n3. **Conclusion:** Based on the provided history chats, it is impossible to answer the question as the information is not available.",
+ "dump": "- Pakistan won the Olympic gold medal in hockey for the first time at the 1960 Rome Olympics. (valid since 1960-01-01)\n- Pakistan defeated India 1-0 in the final to win the Olympic gold medal in hockey. (valid since 1960-01-01)\n- The peppered moth population evolved in response to environmental changes caused by the Industrial Revolution. (valid since 2022-12-26)\n- Galapagos finches live on the Galapagos islands and developed different beak shapes adapted to their specific food sources. (valid since 2022-12-26)\n- Charles Darwin observed different beak shapes among Galapagos finches on the Galapagos islands. (valid since 2022-12-26)\n- Charles Darwin studied the finches that inhabit the Galapagos islands. (valid since 2022-12-26)\n- The Earth serves as a habitat for diverse species such as the Galapagos finches. (valid since 2022-12-26)\n- The user plans to start making fresh chevre as a beginner cheese project. (valid since 2023-01-11)\n- Freshly made ricotta cheese is used as a staple ingredient in lasagna recipes. (valid since 2023-01-11)\n- Freshly made ricotta cheese, when sweetened and flavored, is used to fill pre-made cannoli shells. (valid since 2023-01-11)\n- Freshly made ricotta cheese is used as a filling for homemade ravioli. (valid since 2023-01-11)\n- Freshly made ricotta cheese can be mixed with cream cheese and other ingredients to make cheesecake. (valid since 2023-01-11)\n- The assistant advises the user that bread with higher fat and gluten content tends to have a longer shelf life. (valid since 2023-01-23)\n- The assistant provides the user with tips for freezing bread to preserve quality and extend shelf life. (valid since 2023-01-23)\n- The assistant recommends a swedish massage as a popular cruise spa treatment that uses long strokes to relax muscles and improve circulation. (valid since 2023-03-06)\n- The assistant recommends a deep-tissue massage as a popular cruise spa treatment that targets deeper layers of muscles and tissue to relieve pain. (valid since 2023-03-06)\n- The assistant recommends a hot-stone massage as a popular cruise spa treatment involving heated stones to relax muscles. (valid since 2023-03-06)\n- The assistant recommends an aromatherapy massage as a popular cruise spa treatment that uses essential oils to promote healing and relaxation. (valid since 2023-03-06)\n- The assistant recommends facials as a popular cruise spa treatment for cleaning, exfoliating, and improving skin health. (valid since 2023-03-06)\n- The assistant recommends body wraps as a popular cruise spa treatment using therapeutic mixtures to promote detoxification and relaxation. (valid since 2023-03-06)\n- The assistant recommends that the user use AllTrails to find beginner hiking trails based on location, distance, and difficulty (valid since 2023-03-08)\n- The assistant recommends that the user perform a Google search to find easy or beginner hiking trails in their specific area (valid since 2023-03-08)\n- The Ridgeview Loop Trailhead is located near the park visitor center, providing access to the Ridgeview Loop Trail. (valid since 2023-03-08)\n- ZipRecruiter provides employer branding tools that allow companies to create company profiles, feature employee reviews, customize job listings, use video job descriptions, and feature employee testimonials. (valid since 2023-03-09)\n- The user is experiencing issues with pests like mites and flies in their chicken coop. (valid since 2023-03-15)\n- Mites are pests infesting the chicken coop. (valid since 2023-03-15)\n- Flies are pests infesting the chicken coop. (valid since 2023-03-15)\n- The user plans to acquire bees to help with pollination on the user's farm. (valid since 2023-03-15)\n- Bees are intended to be used for pollination on the user's farm. (valid since 2023-03-15)\n- The assistant recommends that beekeepers invest in a beekeeping suit, veil, and gloves for protection from bee stings. (valid since 2023-03-15)\n- The assistant recommends that beekeepers use a honey extractor if they plan to harvest honey from their hive frames. (valid since 2023-03-15)\n- The assistant advises beekeepers to monitor their hives for signs of pests such as varroa mites. (valid since 2023-03-15)\n- The assistant advises beekeepers to monitor their hives for signs of pests such as small hive beetles. (valid since 2023-03-15)\n- The assistant advises beekeepers to monitor their hives for signs of diseases such as American foulbrood. (valid since 2023-03-15)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 34,
+  "invalidated": 0,
+  "episodes": 16,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 109.4,
+  "total": 110.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

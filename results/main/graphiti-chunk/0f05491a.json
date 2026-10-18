@@ -1,0 +1,102 @@
+{
+ "qid": "0f05491a",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+ "reference": 120,
+ "question_date": "2023-08-01 22:29",
+ "sessions": [
+  {
+   "id": "answer_d6d2eba8_1",
+   "date": "2023-07-11 00:07",
+   "evidence": true
+  },
+  {
+   "id": "1b205d70_2",
+   "date": "2023-07-11 13:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_cfz0d02_36",
+   "date": "2023-07-14 13:56",
+   "evidence": false
+  },
+  {
+   "id": "057cbbc4_1",
+   "date": "2023-07-17 00:41",
+   "evidence": false
+  },
+  {
+   "id": "6024b009_1",
+   "date": "2023-07-20 12:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_224967",
+   "date": "2023-07-22 01:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_447033",
+   "date": "2023-07-23 18:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_rDNsXPP_0",
+   "date": "2023-07-29 18:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6d2eba8_2",
+   "date": "2023-07-30 02:08",
+   "evidence": true
+  },
+  {
+   "id": "ca93550b_1",
+   "date": "2023-08-01 07:00",
+   "evidence": false
+  }
+ ],
+ "context": "- The user claims they need 125 stars to reach the Gold level on the Starbucks Rewards app. (valid since 2023-07-11)\n- The user is using the Starbucks Rewards app to reach the Gold level. (valid since 2023-07-11)\n- The assistant acknowledges that reaching the Gold level on the Starbucks Rewards app requires 125 stars within a 12-month period. (valid since 2023-07-11)\n- The user is asking about the redemption requirements for a $10 gift card on the Fetch Rewards loyalty program. (valid since 2023-07-30)\n- Fetch Rewards requires the user to accumulate 3,000 points to redeem a $10 gift card. (valid since 2023-07-30)\n- The assistant knows that Shimokitazawa has many charming independent cafes. (valid since 2023-07-17)\n- The My Best Buy loyalty program offers a $10 gift card as a reward. (valid from 2023-07-30 until 2023-07-30) [superseded]\n- The user is considering the My Best Buy loyalty program for their laptop purchase. (valid since 2023-07-30)\n- My Best Buy offers a $10 gift card in exchange for 250 points, which are earned through purchases at Best Buy. (valid since 2023-07-30)\n- The assistant provides instructions on how to toast almonds using either an oven-toasting or pan-toasting method. (valid since 2023-07-20)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The user claims they need 125 stars to reach the Gold level on the Starbucks Rewards app (valid since 2023-07-11).\n*   The assistant acknowledges that reaching the Gold level on the Starbucks Rewards app requires 125 stars within a 12-month period (valid since 2023-07-11).\n\n**2. Reason over the information:**\n*   Both the user's claim and the assistant's confirmed knowledge align on the specific requirement for the Gold level.\n*   There is no conflicting information regarding this specific loyalty program requirement.\n\n**Answer:**\nYou need 125 stars within a 12-month period to reach the Gold level on your Starbucks Rewards app.",
+ "dump": "- Queen Bey released the visual album Lemonade. (valid since 2016-04-23)\n- The user had a benign mole removed from their left forearm on January 20th. (valid since 2023-01-20)\n- The user is using the Starbucks Rewards app to reach the Gold level. (valid since 2023-07-11)\n- The user claims they need 125 stars to reach the Gold level on the Starbucks Rewards app. (valid since 2023-07-11)\n- The assistant acknowledges that reaching the Gold level on the Starbucks Rewards app requires 125 stars within a 12-month period. (valid since 2023-07-11)\n- Alyssa and Lizzie are in a romantic relationship (valid since 2023-07-11)\n- Lizzie is a Nekomimi (valid since 2023-07-11)\n- Alyssa placed a collar with a chain leash on Lizzie (valid from 2023-07-11 until 2023-07-11) [superseded]\n- Alyssa calls Lizzie kitten (valid since 2023-07-11)\n- The assistant provides advice on learning Japanese phrases for daily conversations in commuting and shopping contexts. (valid since 2023-07-17)\n- The assistant prefers pour-over coffee. (valid since 2023-07-17)\n- The assistant prefers a well-made cappuccino. (valid since 2023-07-17)\n- The assistant knows that Shimokitazawa has many charming independent cafes. (valid since 2023-07-17)\n- The assistant provides instructions on how to toast almonds using either an oven-toasting or pan-toasting method. (valid since 2023-07-20)\n- The assistant provides advice on extending the shelf life and keeping strawberries fresh. (valid since 2023-07-20)\n- Nassar is a respected actor known for his versatile acting skills in Indian cinema. (valid since 2023-07-22)\n- Kamal Haasan is a versatile actor in Indian cinema known for his incredible performances. (valid since 2023-07-22)\n- Naseeruddin Shah is one of India's finest actors with a body of work spanning decades in Indian cinema. (valid since 2023-07-22)\n- Manoj Bajpayee is an acclaimed actor in Indian cinema known for his versatile and immersive performances. (valid since 2023-07-22)\n- Irrfan Khan was a highly respected actor in Indian cinema known for his depth and realism. (valid since 2023-07-22)\n- Nawazuddin Siddiqui is a sought-after actor in Indian cinema known for his nuanced performances. (valid since 2023-07-22)\n- The fifth sister is playing chess with Kate, as determined by the assistant. (valid since 2023-07-29)\n- The user is considering purchasing a new laptop. (valid since 2023-07-30)\n- The user is considering the My Best Buy loyalty program for their laptop purchase. (valid since 2023-07-30)\n- The My Best Buy loyalty program offers a $10 gift card as a reward. (valid from 2023-07-30 until 2023-07-30) [superseded]\n- My Best Buy offers a $10 gift card in exchange for 250 points, which are earned through purchases at Best Buy. (valid since 2023-07-30)\n- The user is asking about the redemption requirements for a $10 gift card on the Fetch Rewards loyalty program. (valid since 2023-07-30)\n- Fetch Rewards requires the user to accumulate 3,000 points to redeem a $10 gift card. (valid since 2023-07-30)\n- The user tracks the consumption of dairy products in their food diary. (valid since 2023-08-01)\n- Dairy products include milk, which the user is looking for substitutes for. (valid since 2023-08-01)\n- Dairy products include cheese, which the user is looking for substitutes for. (valid since 2023-08-01)\n- Queen Bey released the visual album Lemonade on HBO. (date unknown)\n- Queen Bey released the album Lemonade exclusively on Tidal for a limited time. (date unknown)\n- Queen Bey collaborated with Jack White for the album Lemonade. (date unknown)\n- Queen Bey collaborated with Kendrick Lamar for the album Lemonade. (date unknown)\n- Queen Bey collaborated with The Weeknd for the album Lemonade. (date unknown)\n- Queen Bey collaborated with James Blake for the album Lemonade. (date unknown)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 37,
+  "invalidated": 2,
+  "episodes": 16,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 192.3,
+  "total": 195.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

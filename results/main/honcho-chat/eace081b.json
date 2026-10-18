@@ -1,0 +1,100 @@
+{
+ "qid": "eace081b",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+ "reference": "Oahu",
+ "question_date": "2023-06-06 04:18",
+ "sessions": [
+  {
+   "id": "b3763b6b_2",
+   "date": "2023-05-22 04:06",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_1",
+   "date": "2023-05-22 11:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504859",
+   "date": "2023-05-22 11:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_tny5DVg_5",
+   "date": "2023-05-22 16:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3sbRtMX_24",
+   "date": "2023-05-23 01:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_amiy1W6_0",
+   "date": "2023-05-24 08:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_446917",
+   "date": "2023-05-24 09:30",
+   "evidence": false
+  },
+  {
+   "id": "4d04b866",
+   "date": "2023-05-25 17:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_2",
+   "date": "2023-05-25 18:17",
+   "evidence": true
+  },
+  {
+   "id": "3722ea11_2",
+   "date": "2023-05-25 20:54",
+   "evidence": false
+  }
+ ],
+ "context": "I notice you have mentioned contradictory information regarding your birthday trip to Hawaii.\n\nOn May 22, 2023, you mentioned you were planning a trip to Kauai, but on May 25, 2023, you stated you were planning to stay on the island of Oahu.\n\nBecause these statements were made on different dates, could you please clarify which island you have decided to stay on for your trip?",
+ "answer": "To determine where you are planning to stay for your birthday trip, let’s look at the provided history:\n\n**Step 1: Extract relevant information**\n*   **May 22, 2023:** You mentioned planning a trip to **Kauai**.\n*   **May 25, 2023:** You mentioned planning to stay on the island of **Oahu**.\n*   **Current Date:** June 6, 2023.\n\n**Step 2: Reason over the information**\nThe information provided shows a change in plans over a three-day period in May. Since the statement regarding Oahu (May 25) was made after the statement regarding Kauai (May 22), it represents your most recent stated intention. \n\n**Answer:**\nBased on your most recent update from May 25, 2023, you are planning to stay on the island of **Oahu**.",
+ "dump": "- [explicit] user has been using the SpeedShine detailing kit.\n- [explicit] user owns a 2018 Ford Mustang GT.\n- [explicit] user attended the Rack Fest on June 18th, 2023.\n- [explicit] user is looking for air filter recommendations compatible with a 2018 Ford Mustang GT.\n- [explicit] user is looking for car wax recommendations.\n- [explicit] user is interested in trying Meguiar's Gold Class Carnauba Plus.\n- [explicit] user plans to take their 2018 Ford Mustang GT to a local track day event.\n- [explicit] user chose to use Meguiar's Gold Class Carnauba Plus wax.\n- [explicit] user plans to check resources for finding a track near them.\n- [explicit] user attended a 'Rack Fest' event on June 18th in a nearby city.\n- [explicit] user is considering exhaust and suspension upgrades for a 2018 Ford Mustang GT.\n- [explicit] user is interested in getting performance upgrades for a 2018 Ford Mustang GT.\n- [explicit] user is interested in visiting waterfalls on Kauai that are accessible via hiking.\n- [explicit] user is planning a birthday trip to Kauai, Hawaii.\n- [explicit] user is interested in hiking trails on Kauai.\n- [explicit] user is aware that Kauai is prone to rain.\n- [explicit] user has heard positive things about kalua pig.\n- [explicit] user has heard positive things about laulau.\n- [explicit] user is interested in trying local cuisine in Kauai.\n- [explicit] user is looking for snorkeling spots on Kauai known for sea turtle and monk seal sightings.\n- [explicit] user is planning a snorkeling trip on Kauai.\n- [explicit] user wants to see sea turtles and monk seals while snorkeling.\n- [explicit] user is considering booking a snorkeling tour that visits the Na Pali Coast.\n- [explicit] user wants to see the marine life at the Na Pali Coast.\n- [explicit] user is interested in how the Red Crescent Society addresses medical needs in disaster zones.\n- [explicit] user is interested in how the Red Crescent Society recruits and trains volunteers for disaster relief tasks.\n- [explicit] user is interested in how the Red Crescent Society distributes medical supplies in disaster zones.\n- [explicit] user defines the go-to-market documentation suite as consisting of a product brief, release notes, internal FAQs, external FAQs, user documentation, a newsletter entry, and an internal presentation.\n- [explicit] user confirms that all test cases for the loyalty platform have passed successfully.\n- [explicit] user has determined that the loyalty platform is ready to move to the go-to-market phase.\n- [explicit] user requests the creation of all go-to-market documents for the loyalty platform release.\n- [explicit] user wants a user guide created for the Loyalty Platform.\n- [explicit] user requested a sequence diagram of the attack.\n- [explicit] user requested Graphviz code for the attack process.\n- [explicit] user requested a state diagram of the attack in Mermaid code.\n- [explicit] user requested a table listing technical and NIST security controls for steps in the Capital One cyberattack.\n- [explicit] user is working on a project that requires a detrainment device.\n- [explicit] user is currently experiencing difficulty negotiating with LTA regarding the project's detrainment device.\n- [explicit] user is interested in the effectiveness of different martial arts for self-defense.\n- [explicit] user is interested in the history and evolution of martial arts over time.\n- [explicit] user is interested in learning about different styles of martial arts and their origins.\n- [explicit] user is interested in exploring unique or lesser-known martial arts styles.\n- [explicit] user is interested in the possibility of new martial arts emerging in the future.\n- [explicit] user plans to spend 3 to 4 days in Boston.\n- [explicit] user has an interest in architecture.\n- [explicit] user has an interest in local food.\n- [explicit] user has an interest in history.\n- [explicit] user visited Yellowstone National Park in April 2023.\n- [explicit] user is planning a road trip to the East Coast.\n- [explicit] user plans to spend 3 to 4 days in New York City.\n- [explicit] user considers the road trip to Yellowstone National Park to be the longest road trip taken in terms of time.\n- [explicit] user's hotel in Jackson Hole, Wyoming was within walking distance to shops and restaurants.\n- [explicit] user stayed at a hotel in Jackson Hole, Wyoming that had a view of the Teton Range.\n- [explicit] user visited geysers and hot springs at Yellowstone National Park.\n- [explicit] user took 7 days to complete their road trip.\n- [explicit] user stayed at 5 different hotels during their road trip.\n- [explicit] user traveled through the Rocky Mountains on a road trip.\n- [explicit] user drove a total of 2,500 miles on a road trip.\n- [explicit] user visited Grand Teton National Park.\n- [explicit] user is planning a trip to Boston and New York City.\n- [explicit] user plans to visit Smorgasburg in Brooklyn.\n- [explicit] user plans to visit Quincy Market in Boston.\n- [explicit] user is interested in history, architecture, and food.\n- [explicit] user intends to visit the Strand bookstore in New York City.\n- [explicit] user intends to visit the Brattle Book Shop in Boston.\n- [explicit] user is planning a birthday trip to Hawaii in October 2023.\n- [explicit] user is planning to stay on the island of Oahu.\n- [explicit] user expressed interest in snorkeling at Hanauma Bay Nature Preserve and Shark's Cove.\n- [explicit] user is planning to do hiking on Oahu.\n- [explicit] user is seeking directions to the Manoa Falls Trailhead from Morning Glass Coffee + Cafe.\n- [explicit] user plans to hike the Manoa Falls Trail on the morning of 2023-05-25.\n- [explicit] user intends to eat breakfast at Morning Glass Coffee + Cafe before hiking the Manoa Falls Trail.\n- [explicit] user intends to spend the remainder of their birthday relaxing on a beach.\n- [explicit] user is celebrating their birthday on 2023-05-25.\n- [explicit] user is looking for a recommendation for a beach on Oahu that is not too crowded.\n- [explicit] user intends to style a pair of high-waisted jeans.\n- [explicit] user owns a vintage band t-shirt.\n- [explicit] user is seeking advice on organizing their closet to suit their lifestyle.\n- [explicit] user has a cluttered closet.\n- [explicit] user has been shopping a lot recently.\n- [explicit] user needs to organize tops.\n- [explicit] user purchased gently used clothes at a local thrift store 'fill a bag for $10' sale on 2023-05-25.\n- [explicit] user acquired many new tops recently.\n- [explicit] user recommends categorizing clothing into groups such as casual and dressy.\n- [explicit] user recommends hanging or folding new clothing items alongside existing pieces while leaving space between items to prevent overcrowding.\n- [explicit] user recommends sorting clothing within categories by color or pattern.\n- [explicit] user prefers integrating new clothing into existing wardrobe categories rather than creating a separate section for new arrivals.\n- [deductive] user likely values sustainable or budget-friendly fashion, given their interest in thrift store 'fill a bag' sales.\n- [deductive] user prefers a methodical approach to wardrobe organization, specifically prioritizing categorization and visual order (color/pattern sorting).\n- [deductive] user's recent thrift store shopping trip likely contributed to their reported closet clutter.\n- [inductive] user has a tendency to engage in periods of increased shopping activity, which often leads to subsequent challenges with storage and organization.\n- [inductive] user approaches organization in a methodical, systematic way, prioritizing clear categorization and visual order.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 127.4,
+  "total": 129.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

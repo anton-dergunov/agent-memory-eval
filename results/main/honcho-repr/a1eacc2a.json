@@ -1,0 +1,100 @@
+{
+ "qid": "a1eacc2a",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many short stories have I written since I started writing regularly?",
+ "reference": "seven",
+ "question_date": "2023-06-20 17:03",
+ "sessions": [
+  {
+   "id": "sharegpt_TBa5HKM_0",
+   "date": "2023-04-25 16:51",
+   "evidence": false
+  },
+  {
+   "id": "fde0ca18",
+   "date": "2023-05-05 09:39",
+   "evidence": false
+  },
+  {
+   "id": "20d6c376_2",
+   "date": "2023-05-07 04:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_269248",
+   "date": "2023-05-20 04:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_1",
+   "date": "2023-05-23 18:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_87674",
+   "date": "2023-05-23 23:10",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_50429",
+   "date": "2023-05-25 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_2",
+   "date": "2023-05-30 08:43",
+   "evidence": true
+  },
+  {
+   "id": "09438306_2",
+   "date": "2023-06-09 09:30",
+   "evidence": false
+  },
+  {
+   "id": "521255f7_2",
+   "date": "2023-06-16 20:47",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-23 18:23:00] user has written four short stories since beginning to write regularly.\n[2023-05-23 18:23:00] user is working on short stories.\n[2023-05-23 18:25:00] user has written four short stories.\n[2023-05-30 08:45:00] user has completed 7 short stories as of 2023-05-30.\n[2023-05-30 08:51:00] user has completed seven short stories in three months\n[2023-06-16 20:49:00] user has been writing the short story for approximately one month.\n[2023-06-16 20:53:00] user is looking for writing workshops or conferences in their local area.\n[2023-06-16 20:53:00] user wants to learn from published authors.\n[2023-06-16 20:53:00] user wants to get feedback from other writers.\n[2023-06-16 20:53:00] user attended a writing workshop at a local community center.\n[2023-06-16 20:53:00] user has been working on a short story for about a month as of June 16, 2023.\n[2023-06-16 20:53:00] user has set a writing goal of 500 words per week.\n[2023-06-16 20:55:00] user is looking for online writing communities and forums to join.\n[2023-06-16 20:55:00] user is currently writing a short story.\n[2023-06-16 20:55:00] user wants to connect with other writers.\n[2023-06-16 20:55:00] user wants to stay motivated with their writing.\n[2023-06-16 20:55:00] user wants to receive feedback on their writing work.\n[2023-06-16 20:57:00] user participates in online writing groups.\n[2023-06-16 20:57:00] user finds online writing groups helpful for receiving feedback on writing.\n[2023-06-16 20:57:00] user finds online writing groups helpful for maintaining writing motivation.\n\n## Deductive Observations\n\n[2023-06-16 20:57:00] user is actively seeking to develop their craft through both local and online resources.\n   Premises:\n   - user attended a writing workshop at a local community center.\n   - user is looking for writing workshops or conferences in their local area.\n   - user participates in online writing groups.\n   - user is looking for online writing communities and forums to join.\n\n[2023-06-16 20:57:00] user is serious about improving their writing, evidenced by goal setting and seeking expert input.\n   Premises:\n   - user has set a writing goal of 500 words per week.\n   - user wants to learn from published authors.\n   - user is seeking information on submitting work to literary magazines.\n\n[2023-06-16 20:57:00] user is a writer who works across multiple formats including poetry, scripts, and short stories.\n   Premises:\n   - user writes poetry and scripts.\n   - user is currently writing a short story.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user actively pursues development as a writer by leveraging both local and digital resources, including workshops and communities.\n   **Type**: behavior\n   **Sources**:\n   - user attended a writing workshop at a local community center.\n   - user is looking for writing workshops or conferences in their local area.\n   - user participates in online writing groups.\n   - user is looking for online writing communities and forums to join.\n\n **Pattern** [high]: user actively seeks external feedback and community engagement to support and improve their writing craft.\n   **Type**: tendency\n   **Sources**:\n   - user finds online writing groups helpful for maintaining writing motivation.\n   - user finds online writing groups helpful for receiving feedback on writing.\n   - user wants to get feedback from other writers.\n   - user wants to receive feedback on their writing work.\n\n",
+ "answer": "To determine how many short stories you have written since you started writing regularly, we can follow these steps:\n\n**Step 1: Extract relevant information from the history chats.**\n*   [2023-05-23 18:23:00]: You had written four short stories since beginning to write regularly.\n*   [2023-05-30 08:45:00]: You had completed 7 short stories as of May 30, 2023.\n*   [2023-05-30 08:51:00]: You completed seven short stories in three months.\n*   [2023-06-16 20:49:00/20:53:00/20:55:00]: You have been working on a new short story for approximately one month as of June 16, 2023.\n\n**Step 2: Reason over the information.**\n*   The last confirmed total count provided in the history is 7 short stories, recorded on May 30, 2023.\n*   Subsequent entries from June 16, 2023, indicate that you are currently working on a short story that you have been writing for about a month. \n*   Since there is no record of you completing that specific story or any additional stories between May 30 and June 16, the total number of completed short stories remains 7.\n\n**Answer:**\nYou have written 7 completed short stories since you started writing regularly.",
+ "dump": "- [explicit] user is interested in how public funds can promote media freedom\n- [explicit] user is interested in how public funds can promote the right to freedom of speech\n- [explicit] user is interested in switching to a job with higher stability and better benefits.\n- [explicit] user is considering taking online courses or attending seminars to upskill and reskill.\n- [explicit] user is interested in courses related to career development, finance, and personal growth.\n- [explicit] user is 32 years old.\n- [explicit] user has recently started contributing to a company 401(k) plan.\n- [explicit] user wants specific course recommendations for investing and retirement planning.\n- [explicit] user is interested in learning about investment diversification.\n- [explicit] user contributes to a 401(k) plan.\n- [explicit] user is interested in understanding the difference between a Roth IRA and a traditional IRA.\n- [explicit] user is considering contributing to both a traditional IRA and a Roth IRA.\n- [explicit] user contributes 10% of their income to their company's 401(k) plan.\n- [explicit] user is uncertain about how to allocate contributions between a traditional IRA and a Roth IRA.\n- [explicit] user hiked to the top of Vernal Falls.\n- [explicit] user is planning a new hiking trip.\n- [explicit] user is interested in the Four Mile Trail to Glacier Point in Yosemite National Park.\n- [explicit] user completed a hike covering a distance of 13 miles.\n- [explicit] user plans to hike the Four Mile Trail in the early morning to avoid crowds.\n- [explicit] user has previously hiked to the top of Vernal Falls.\n- [explicit] user plans to bring a portable coffee maker to Glacier Point.\n- [explicit] user plans to hike the Four Mile Trail to Glacier Point.\n- [explicit] user completed a hike to the top of Vernal Falls that covered a total distance of 13 miles.\n- [explicit] user plans to bring trekking poles for the hike.\n- [explicit] user plans to use hiking boots and trekking poles for the Four Mile Trail.\n- [explicit] user has experience using their hiking boots on trails similar to the Four Mile Trail.\n- [explicit] user owns a pair of hiking boots with good traction.\n- [explicit] user intends to navigate icy or slippery trail sections by taking their time and being cautious.\n- [explicit] user has seen a few of the films in the list provided by the assistant.\n- [explicit] user is interested in classic foreign films popularized by The Criterion Collection that are not well-known in the United States.\n- [explicit] user feels the need to watch all the films listed by the assistant.\n- [explicit] user is interested in exploring films popularized by The Criterion Collection among cinephiles and film students.\n- [explicit] user was unaware of the extent of The Criterion Collection's influence on the world of cinema prior to May 20, 2023.\n- [explicit] user considers The Criterion Collection to be the gatekeepers of film history.\n- [explicit] user values the influence of The Criterion Collection in their life.\n- [explicit] user has not previously explored many films from The Criterion Collection.\n- [explicit] user is interested in receiving recommendations for lesser-known films from The Criterion Collection.\n- [explicit] user is keeping a journal.\n- [explicit] user is writing a memoir.\n- [explicit] user has written four short stories since beginning to write regularly.\n- [explicit] user is working on short stories.\n- [explicit] user is interested in using prompts or themes to help generate ideas for short stories.\n- [explicit] user has written four short stories.\n- [explicit] user is interested in using prompts or themes to help maintain writing momentum.\n- [explicit] user intends to use the theme of discovery for their story.\n- [explicit] user believes adding magical or supernatural elements would add intrigue to their story.\n- [explicit] user intends to write a story about a mysterious library.\n- [explicit] user believes sentient books could create conflicts or alliances for the protagonist.\n- [explicit] user thinks sentient books could have their own personalities or motivations.\n- [explicit] user finds the idea of sentient books in a library setting fascinating.\n- [explicit] user envisions sentient books that whisper secrets or offer cryptic advice.\n- [explicit] user is interested in the role of computer science in modeling complex biological systems in biomedicine.\n- [explicit] user is interested in the history of the use of computer science in biomedicine.\n- [explicit] user is interested in future developments in the field of biomedicine.\n- [explicit] user is interested in whether new technologies in biomedicine will lead to cures for deadly diseases.\n- [explicit] user is interested in the potential for personalized treatments to become the norm in the future.\n- [explicit] user finds the speed of recent technological advancement in biomedicine amazing.\n- [explicit] user finds the extent of technological advancement in biomedicine fascinating.\n- [explicit] user plans to visit Tottori.\n- [explicit] user added the Gion Matsuri to their bucket list.\n- [explicit] user plans to visit Yakushima.\n- [explicit] user added the Snow Festival to their bucket list.\n- [explicit] user is interested in experimenting with non-linear narrative structures in writing.\n- [explicit] user has completed 7 short stories as of 2023-05-30.\n- [explicit] user has been writing regularly for three months as of 2023-05-30.\n- [explicit] user is planning to start a writing group with friends.\n- [explicit] user and user's friends intend to provide feedback to each other.\n- [explicit] user and user's friends intend to share their work with each other.\n- [explicit] user wants the memoir to focus on user's experiences with writing over the past three months.\n- [explicit] user is thinking of writing a memoir.\n- [explicit] user has been writing regularly for three months\n- [explicit] user has completed seven short stories in three months\n- [explicit] user intends to write a memoir chapter titled The Spark\n- [explicit] user writes on Sundays.\n- [explicit] user writes at a desk.\n- [explicit] user uses writing as a therapeutic outlet.\n- [explicit] user feels excitement and anticipation when beginning to write.\n- [explicit] user drinks coffee while writing on Sundays.\n- [explicit] user wakes up early on Sundays to write.\n- [explicit] user is considering switching to a monthly bus pass.\n- [explicit] user takes the bus to work every day.\n- [explicit] user lives in San Francisco.\n- [explicit] user is considering getting off the bus one stop earlier and walking to work to get exercise.\n- [explicit] user takes the Muni bus in San Francisco.\n- [explicit] user paid $20 for an Uber ride to work on one occasion.\n- [explicit] user took an Uber to work on one occasion because user did not have access to a car.\n- [explicit] user plans to commute by getting off the bus earlier than usual and walking the rest of the way to work.\n- [explicit] user is seeking recommendations for apps or tools to track their commute.\n- [explicit] user is considering tracking the time and money saved by walking part of their commute to work.\n- [explicit] user is attempting to increase their amount of physical exercise.\n- [explicit] user intends to use Citymapper to obtain real-time information on public transportation.\n- [explicit] user hopes that tracking their commute will encourage them to walk more and take the bus less.\n- [explicit] user intends to use Citymapper to track their daily commute.\n- [explicit] user intends to use Citymapper to find the most efficient route for their commute.\n- [explicit] user intends to use Citymapper to track their walk from the bus stop to their office.\n- [explicit] user is interested in learning about industry standards and formatting for scriptwriting.\n- [explicit] user set a writing goal of 500 words per week for the short story.\n- [explicit] user is experimenting with scriptwriting.\n- [explicit] user has been writing the short story for approximately one month.\n- [explicit] user has researched writing styles and formats.\n- [explicit] user is seeking information on submitting work to literary magazines.\n- [explicit] user has written a short poem that user is proud of.\n- [explicit] user writes poetry and scripts.\n- [explicit] user has set a writing goal of 500 words per week.\n- [explicit] user wants to learn from published authors.\n- [explicit] user is looking for writing workshops or conferences in their local area.\n- [explicit] user has been working on a short story for about a month as of June 16, 2023.\n- [explicit] user wants to get feedback from other writers.\n- [explicit] user attended a writing workshop at a local community center.\n- [explicit] user wants to receive feedback on their writing work.\n- [explicit] user is currently writing a short story.\n- [explicit] user is looking for online writing communities and forums to join.\n- [explicit] user wants to connect with other writers.\n- [explicit] user wants to stay motivated with their writing.\n- [explicit] user participates in online writing groups.\n- [explicit] user finds online writing groups helpful for maintaining writing motivation.\n- [explicit] user finds online writing groups helpful for receiving feedback on writing.\n- [deductive] user is serious about improving their writing, evidenced by goal setting and seeking expert input.\n- [deductive] user is a writer who works across multiple formats including poetry, scripts, and short stories.\n- [deductive] user is actively seeking to develop their craft through both local and online resources.\n- [inductive] user actively seeks external feedback and community engagement to support and improve their writing craft.\n- [inductive] user actively pursues development as a writer by leveraging both local and digital resources, including workshops and communities.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 118.4,
+  "total": 122.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

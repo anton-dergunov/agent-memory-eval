@@ -1,0 +1,102 @@
+{
+ "qid": "dfde3500",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+ "reference": "Wednesday",
+ "question_date": "2023-06-20 14:46",
+ "sessions": [
+  {
+   "id": "sharegpt_aDTlaiq_10",
+   "date": "2023-05-06 09:30",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_1",
+   "date": "2023-05-20 09:33",
+   "evidence": true
+  },
+  {
+   "id": "ad1c7ac6",
+   "date": "2023-05-25 06:53",
+   "evidence": false
+  },
+  {
+   "id": "ebe3b6bf_7",
+   "date": "2023-05-25 20:43",
+   "evidence": false
+  },
+  {
+   "id": "5c18cb32_2",
+   "date": "2023-05-27 16:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_2",
+   "date": "2023-05-28 05:19",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_435909",
+   "date": "2023-05-28 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_315184",
+   "date": "2023-05-30 22:18",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_92761",
+   "date": "2023-05-31 01:42",
+   "evidence": false
+  },
+  {
+   "id": "59c704ad_1",
+   "date": "2023-06-11 21:43",
+   "evidence": false
+  }
+ ],
+ "context": "- The user has a language exchange class with Juan at a local language school, where they meet every Wednesday evening. (valid since 2023-05-20)\n- Juan is a Colombian tutor at a local language school. (valid since 2023-05-20)\n- The user is learning Spanish with the help of Juan. (valid since 2023-05-20)\n- The user assists Juan with his English vocabulary. (valid since 2023-05-20)\n- The user is already familiar with the music of Courtney Barnett. (valid since 2023-05-25)\n- The user is already familiar with the music of Sharon Van Etten. (valid since 2023-05-25)\n- The musical theater workshop was held at the community center. (valid since 2023-05-25)\n- The Neighbourhood released the album titled I Love You. (valid since 2023-06-11)\n- The user is planning to attend a concert at the Fox Theater soon. (valid since 2023-06-11)\n- The user must ensure the safety of their customers data by complying with relevant data protection laws and regulations. (valid since 2023-05-06)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history chats state: \"The user has a language exchange class with Juan at a local language school, where they meet every Wednesday evening.\"\n*   This fact has been valid since 2023-05-20.\n\n**Step 2: Reason over the information**\n*   The information explicitly identifies the recurring schedule for the language exchange meetings with Juan.\n*   Since the meetings occur \"every Wednesday evening,\" any meeting held with Juan would take place on a Wednesday.\n\n**Answer:**\nYou meet with your language exchange tutor, Juan, on **Wednesday** evenings.",
+ "dump": "- Jack Welch implemented a performance evaluation system called the Rank and Yank method at General Electric in the early 1980s. (valid since 1980-01-01)\n- The user must ensure the safety of their customers data by complying with relevant data protection laws and regulations. (valid since 2023-05-06)\n- The General Data Protection Regulation is a regulation in European Union law on data protection and privacy for individuals within the European Union and the European Economic Area. (valid since 2023-05-06)\n- The General Data Protection Regulation is a regulation on data protection and privacy for individuals within the European Economic Area. (valid since 2023-05-06)\n- A Data Protection Officer is responsible for ensuring an organization complies with the General Data Protection Regulation and acts as a contact point. (valid since 2023-05-06)\n- The user has a language exchange class with Juan at a local language school, where they meet every Wednesday evening. (valid since 2023-05-20)\n- Juan is a Colombian tutor at a local language school. (valid since 2023-05-20)\n- The user is learning Spanish with the help of Juan. (valid since 2023-05-20)\n- The user assists Juan with his English vocabulary. (valid since 2023-05-20)\n- assistant advises user that reaching out directly to local directors or producers is a good idea to inquire about upcoming auditions or productions. (valid since 2023-05-25)\n- The musical theater workshop was held at the community center. (valid since 2023-05-25)\n- The user is already familiar with the music of Courtney Barnett. (valid since 2023-05-25)\n- The user is already familiar with the music of Sharon Van Etten. (valid since 2023-05-25)\n- The user is troubleshooting their Netflix account issue on a different device connected to the same Wi-Fi network. (valid since 2023-05-25)\n- The user considers the Minute to Win It game as an option for a team outing but worries that it might be too loud and chaotic. (valid since 2023-05-27)\n- The user selects Human Bingo as an activity for the team outing, believing it fits a low-key, conversational atmosphere. (valid since 2023-05-27)\n- The Gold Museum is located in Bogotá (valid since 2023-05-28)\n- La Candelaria is the oldest neighborhood in Bogotá. (valid since 2023-05-28)\n- Calle del Embudo is a charming street located in the La Candelaria neighborhood. (valid since 2023-05-28)\n- Plaza de Chorro de Quevedo is a small plaza located in the La Candelaria neighborhood. (valid since 2023-05-28)\n- Iglesia de San Francisco is located in the La Candelaria neighborhood. (valid since 2023-05-28)\n- Museo de la Independencia is located in the La Candelaria neighborhood. (valid since 2023-05-28)\n- Casa de la Moneda is located in the La Candelaria neighborhood. (valid since 2023-05-28)\n- Teatro Colón is located in the La Candelaria neighborhood. (valid since 2023-05-28)\n- The assistant recommends using Pinterest to look for inspiration and pull ideas for unique graphic designs. (valid since 2023-05-28)\n- The assistant recommends using Behance to look for inspiration and pull ideas for unique graphic designs. (valid since 2023-05-28)\n- Kirstie Alley played the character Rebecca Howe on Cheers starting in season 6 after Shelley Long left the show. (valid since 2023-05-30)\n- Bernadette Birkett, who is the real-life wife of George Wendt, played Norm's wife, Vera, in several episodes of Cheers. (valid since 2023-05-30)\n- Bernadette Birkett is the real-life wife of George Wendt. (valid since 2023-05-30)\n- Norm is married to Vera. (valid since 2023-05-30)\n- John Mahoney appeared in multiple episodes of Cheers and later starred in Frasier. (valid since 2023-05-30)\n- John Mahoney starred in the show Frasier. (valid since 2023-05-30)\n- Emma Thompson appeared in multiple episodes of Cheers. (valid since 2023-05-30)\n- Bebe Neuwirth appeared in multiple episodes of Cheers. (valid since 2023-05-30)\n- Jay Thomas appeared in multiple episodes of Cheers. (valid since 2023-05-30)\n- Sam Malone hired Rebecca Howe as the manager of Cheers. (valid since 2023-05-30)\n- The Cheers sign used on the set was a real sign from a bar located in Boston. (valid since 2023-05-30)\n- The bar set for Cheers was designed after a real Boston bar called the Bull & Finch Pub. (valid since 2023-05-30)\n- The Cheers set included a replica of an 1890s-style pool table. (valid since 2023-05-30)\n- The Cheers set is preserved and now part of the Warner Bros. Studio Tour in Hollywood. (valid since 2023-05-30)\n- The Fox Theater is located in Oakland. (valid since 2023-06-11)\n- The user is planning to attend a concert at the Fox Theater soon. (valid since 2023-06-11)\n- Jesse Rutherford is the lead singer of the band The Neighbourhood. (valid since 2023-06-11)\n- The Neighbourhood released the album titled I Love You. (valid since 2023-06-11)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 44,
+  "invalidated": 0,
+  "episodes": 17,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 117.0,
+  "total": 118.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

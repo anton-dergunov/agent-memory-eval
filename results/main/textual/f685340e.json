@@ -1,0 +1,91 @@
+{
+ "qid": "f685340e",
+ "arm": "textual",
+ "split": "main",
+ "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+ "reference": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+ "question_date": "2023-07-31 11:43",
+ "sessions": [
+  {
+   "id": "4a9eb139_2",
+   "date": "2023-03-06 12:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_1",
+   "date": "2023-03-11 18:01",
+   "evidence": true
+  },
+  {
+   "id": "eef7c3fa_1",
+   "date": "2023-03-15 06:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_246155",
+   "date": "2023-04-03 16:32",
+   "evidence": false
+  },
+  {
+   "id": "ee402e51_1",
+   "date": "2023-04-12 15:32",
+   "evidence": false
+  },
+  {
+   "id": "e7dcd5df",
+   "date": "2023-05-30 12:19",
+   "evidence": false
+  },
+  {
+   "id": "e862f726_1",
+   "date": "2023-06-11 14:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_8f85nN2_0",
+   "date": "2023-06-15 19:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_2",
+   "date": "2023-07-30 04:03",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_240679",
+   "date": "2023-07-31 03:19",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user is currently writing a novel.\n*   The user plays tennis weekly with friends.\n*   The user owns Nike Air Zoom tennis shoes.\n*   The user is a fan of Roger Federer.\n*   The user identifies as a baseline player who is currently working on improving their net game (volleys and overheads).\n*   The user is an avid reader of psychological thrillers.\n*   The user recently finished reading \"The Silent Patient\" by Alex Michaelides (as of 2023-03-15).\n*   The user uses the Libby app to borrow e-books from their local library.\n*   The user has a strong interest in philosophy and linguistics, specifically regarding how language shapes perception, cultural differences, and the limitations of communication (as of 2023-04-03). The user is specifically interested in the evolution of the Serbo-Croatian language in the digital age (as of 2023-07-31).\n*   The user is actively trying to manage their grocery budget and reduce food waste (as of 2023-04-12).\n*   The user moved into a new apartment around 2023-05-09.\n*   The user has a shorter commute since moving, which provides them with an extra 30 minutes each morning.\n*   The user rejoined their old gym in April 2023.\n*   The user lives with family members.\n*   The user began taking a serotonin supplement in mid-June 2023, as recommended by their doctor for mood regulation.\n*   The user is interested in the nuances of English grammar and contractions, specifically inquiring about the meaning of \"I'll know\" (as of 2023-06-15).\n*   The user lives in the 95123 zip code area (San Jose, CA) (as of 2023-07-30).\n*   The user has recently signed up for swim lessons at a local pool (as of 2023-07-30).\n\n### Preferences and habits\n*   **Exercise:** The user practices yoga and prefers early morning classes. They have also established a regular exercise routine at their gym since April 2023. The user is incorporating jogging (5-mile routes) and swimming into their routine.\n*   **Walking:** The user is actively incorporating more walking into their daily routine to explore their new neighborhood.\n*   **Tennis:** The user plays for fun rather than professional inspiration.\n*   **Diet:** The user is committed to meal prepping and cooking in bulk to save time and reduce food waste.\n*   **Sleep/Wake Routine:** The user wakes up at 6:30 am every day, including weekends (as of 2023-03-06).\n*   **Writing:** The user has a goal to write at least 500 words per day for their novel.\n*   **Equipment:** The user has decided to purchase Nike Court Flex Tennis Socks. The user is currently researching new tennis bags that can accommodate a racket, shoes, and other essentials.\n*   **Reading:** The user enjoys psychological thrillers that feature dark, twisted characters, psychological mind games, and social commentary. They are interested in exploring the works of Fiona Barton and Clare Mackintosh.\n*   **Intellectual Interests:** The user enjoys exploring complex topics such as Wittgenstein’s philosophy of language, the relationship between language and cultural norms, and the challenges of cross-cultural communication (as of 2023-04-03). They are interested in the intersection of technology, social media, and linguistic evolution (as of 2023-07-31).\n*   **Shopping:** The user is price-conscious and interested in sustainable/eco-friendly grocery options. They tend to make impulse buys at the store despite usually making a list.\n*   **Morning Routine:** The user uses their extra morning time (gained from the new commute) to grab coffee and catch up on the news.\n*   **Mindfulness:** The user is starting a meditation practice to manage stress and anxiety. They plan to use the Headspace \"Take10\" program and have bookmarked guided meditations on Insight Timer. They intend to keep a journal to track their practice and its effects on their mood.\n*   **Jogging Preferences:** The user prefers 5-mile jogging routes with minimal traffic and nice scenery. They have identified the Almaden Lake Park Loop as a preferred route.\n*   **Yoga Preferences:** The user is interested in CorePower Yoga Almaden.\n\n### Ongoing situations and plans\n*   **Holiday Travel:** The user is planning a trip to visit family for the holidays.\n*   **Passport:** The user needs to renew their passport for their upcoming holiday travel.\n*   **Road Trip:** The user is planning a road trip for the spring of 2024 to visit national parks in the western US, specifically the Grand Canyon and Yellowstone.\n*   **Workload:** The user experiences high stress and sluggishness on Tuesdays due to a heavy volume of deadlines.\n*   **Writing Project:** The user is actively working on a novel and is seeking strategies to maintain focus, overcome writer's block, and manage motivation on days they do not feel like writing.\n*   **Tennis:** The user plays tennis with friends every other week at the local park.\n*   **Skill Development:** The user is actively practicing drills to improve reaction time and hand-eye coordination for net play. They are also seeking to improve their swimming technique.\n*   **Reading:** The user plans to read \"The Last Mrs. Parrish\" by Liv Constantine next and intends to check its availability on the Libby app. They have also added Fiona Barton and Clare Mackintosh to their reading list.\n*   **Financial/Grocery Planning:** The user is aiming for a weekly grocery budget of approximately $100. They are currently researching online grocery services (considering Peapod, Instacart, Walmart, AmazonFresh, and Thrive Market) to balance cost-effectiveness with sustainability.\n*   **Medical/Wellness:** The user plans to schedule a follow-up appointment with their doctor to discuss the interaction between their new meditation practice and their serotonin supplement, specifically to monitor for potential dosage adjustments.\n\n### Changes over time\n*   **Grocery Budgeting:** The user previously did not have a set grocery budget; they are now aiming for $100/week as of 2023-04-12.\n*   **Residence:** The user moved to a new apartment as of May 2023.\n*   **Medication:** The user started a serotonin supplement in mid-June 2023.\n*   **Fitness Routine:** The user has expanded their fitness routine to include swimming lessons and jogging (as of 2023-07-30).",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   Under \"Personal facts,\" it is stated: \"The user plays tennis weekly with friends.\"\n*   Under \"Ongoing situations and plans,\" it is stated: \"The user plays tennis with friends every other week at the local park.\"\n\n**2. Reason over the information:**\n*   The \"Personal facts\" section provides a general overview of your habits, noting a weekly frequency.\n*   The \"Ongoing situations and plans\" section provides more specific, current details regarding your routine at the local park.\n*   Comparing these, it appears your current practice is to play every other week at the local park, whereas your general habit was previously described as weekly.\n\n**Answer:**\nPreviously, you played tennis with friends on a weekly basis. Currently, you play tennis with your friends at the local park every other week.",
+ "dump": "### Personal facts\n*   The user is currently writing a novel.\n*   The user plays tennis weekly with friends.\n*   The user owns Nike Air Zoom tennis shoes.\n*   The user is a fan of Roger Federer.\n*   The user identifies as a baseline player who is currently working on improving their net game (volleys and overheads).\n*   The user is an avid reader of psychological thrillers.\n*   The user recently finished reading \"The Silent Patient\" by Alex Michaelides (as of 2023-03-15).\n*   The user uses the Libby app to borrow e-books from their local library.\n*   The user has a strong interest in philosophy and linguistics, specifically regarding how language shapes perception, cultural differences, and the limitations of communication (as of 2023-04-03). The user is specifically interested in the evolution of the Serbo-Croatian language in the digital age (as of 2023-07-31).\n*   The user is actively trying to manage their grocery budget and reduce food waste (as of 2023-04-12).\n*   The user moved into a new apartment around 2023-05-09.\n*   The user has a shorter commute since moving, which provides them with an extra 30 minutes each morning.\n*   The user rejoined their old gym in April 2023.\n*   The user lives with family members.\n*   The user began taking a serotonin supplement in mid-June 2023, as recommended by their doctor for mood regulation.\n*   The user is interested in the nuances of English grammar and contractions, specifically inquiring about the meaning of \"I'll know\" (as of 2023-06-15).\n*   The user lives in the 95123 zip code area (San Jose, CA) (as of 2023-07-30).\n*   The user has recently signed up for swim lessons at a local pool (as of 2023-07-30).\n\n### Preferences and habits\n*   **Exercise:** The user practices yoga and prefers early morning classes. They have also established a regular exercise routine at their gym since April 2023. The user is incorporating jogging (5-mile routes) and swimming into their routine.\n*   **Walking:** The user is actively incorporating more walking into their daily routine to explore their new neighborhood.\n*   **Tennis:** The user plays for fun rather than professional inspiration.\n*   **Diet:** The user is committed to meal prepping and cooking in bulk to save time and reduce food waste.\n*   **Sleep/Wake Routine:** The user wakes up at 6:30 am every day, including weekends (as of 2023-03-06).\n*   **Writing:** The user has a goal to write at least 500 words per day for their novel.\n*   **Equipment:** The user has decided to purchase Nike Court Flex Tennis Socks. The user is currently researching new tennis bags that can accommodate a racket, shoes, and other essentials.\n*   **Reading:** The user enjoys psychological thrillers that feature dark, twisted characters, psychological mind games, and social commentary. They are interested in exploring the works of Fiona Barton and Clare Mackintosh.\n*   **Intellectual Interests:** The user enjoys exploring complex topics such as Wittgenstein’s philosophy of language, the relationship between language and cultural norms, and the challenges of cross-cultural communication (as of 2023-04-03). They are interested in the intersection of technology, social media, and linguistic evolution (as of 2023-07-31).\n*   **Shopping:** The user is price-conscious and interested in sustainable/eco-friendly grocery options. They tend to make impulse buys at the store despite usually making a list.\n*   **Morning Routine:** The user uses their extra morning time (gained from the new commute) to grab coffee and catch up on the news.\n*   **Mindfulness:** The user is starting a meditation practice to manage stress and anxiety. They plan to use the Headspace \"Take10\" program and have bookmarked guided meditations on Insight Timer. They intend to keep a journal to track their practice and its effects on their mood.\n*   **Jogging Preferences:** The user prefers 5-mile jogging routes with minimal traffic and nice scenery. They have identified the Almaden Lake Park Loop as a preferred route.\n*   **Yoga Preferences:** The user is interested in CorePower Yoga Almaden.\n\n### Ongoing situations and plans\n*   **Holiday Travel:** The user is planning a trip to visit family for the holidays.\n*   **Passport:** The user needs to renew their passport for their upcoming holiday travel.\n*   **Road Trip:** The user is planning a road trip for the spring of 2024 to visit national parks in the western US, specifically the Grand Canyon and Yellowstone.\n*   **Workload:** The user experiences high stress and sluggishness on Tuesdays due to a heavy volume of deadlines.\n*   **Writing Project:** The user is actively working on a novel and is seeking strategies to maintain focus, overcome writer's block, and manage motivation on days they do not feel like writing.\n*   **Tennis:** The user plays tennis with friends every other week at the local park.\n*   **Skill Development:** The user is actively practicing drills to improve reaction time and hand-eye coordination for net play. They are also seeking to improve their swimming technique.\n*   **Reading:** The user plans to read \"The Last Mrs. Parrish\" by Liv Constantine next and intends to check its availability on the Libby app. They have also added Fiona Barton and Clare Mackintosh to their reading list.\n*   **Financial/Grocery Planning:** The user is aiming for a weekly grocery budget of approximately $100. They are currently researching online grocery services (considering Peapod, Instacart, Walmart, AmazonFresh, and Thrive Market) to balance cost-effectiveness with sustainability.\n*   **Medical/Wellness:** The user plans to schedule a follow-up appointment with their doctor to discuss the interaction between their new meditation practice and their serotonin supplement, specifically to monitor for potential dosage adjustments.\n\n### Changes over time\n*   **Grocery Budgeting:** The user previously did not have a set grocery budget; they are now aiming for $100/week as of 2023-04-12.\n*   **Residence:** The user moved to a new apartment as of May 2023.\n*   **Medication:** The user started a serotonin supplement in mid-June 2023.\n*   **Fitness Routine:** The user has expanded their fitness routine to include swimming lessons and jogging (as of 2023-07-30).",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 28.0,
+  "total": 29.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": true
+  }
+ }
+}

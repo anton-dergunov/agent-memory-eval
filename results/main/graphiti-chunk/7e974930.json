@@ -1,0 +1,102 @@
+{
+ "qid": "7e974930",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How much did I earn at the Downtown Farmers Market on my most recent visit?",
+ "reference": "$420",
+ "question_date": "2023-10-26 11:44",
+ "sessions": [
+  {
+   "id": "71f2f490_3",
+   "date": "2023-03-16 13:20",
+   "evidence": false
+  },
+  {
+   "id": "18f48ccb",
+   "date": "2023-03-24 15:24",
+   "evidence": false
+  },
+  {
+   "id": "07b2420e_1",
+   "date": "2023-03-27 14:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_c9f5693c_1",
+   "date": "2023-04-11 00:10",
+   "evidence": true
+  },
+  {
+   "id": "084cba20",
+   "date": "2023-04-25 06:05",
+   "evidence": false
+  },
+  {
+   "id": "8bd5b3c4_1",
+   "date": "2023-05-10 12:22",
+   "evidence": false
+  },
+  {
+   "id": "898ce7a5_1",
+   "date": "2023-08-16 11:09",
+   "evidence": false
+  },
+  {
+   "id": "e1220dda_2",
+   "date": "2023-09-03 11:39",
+   "evidence": false
+  },
+  {
+   "id": "answer_c9f5693c_2",
+   "date": "2023-09-30 15:13",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_439362",
+   "date": "2023-10-07 00:16",
+   "evidence": false
+  }
+ ],
+ "context": "- user earned $420 at the Downtown Farmers Market on their most recent visit. (valid since 2023-09-30)\n- The user is considering offering a Downtown Farmers Market themed gift basket for their business. (valid since 2023-03-27)\n- The assistant recommends creating a Downtown Farmers Market themed gift basket to help the user's business. (valid since 2023-04-11)\n- The user plans to include their best-selling candles in a Downtown Farmers Market themed gift basket. (valid since 2023-03-27)\n- The user plans to include their best-selling artisanal soaps in a Downtown Farmers Market themed gift basket. (valid since 2023-03-27)\n- The user attended a music festival at the Merriweather Post Pavilion in Columbia, Maryland. (valid since 2023-08-16)\n- The assistant provides advice on how to use sparkly shoes and a t-shirt as part of the Sparkly Treasure Hunt game. (valid since 2023-09-03)\n- The user saw The 1975 perform live at the Merriweather Post Pavilion. (valid since 2023-08-16)\n- Julien Baker performed at the NPR Tiny Desk Concert. (valid since 2023-03-16)\n- The user completed a 30-day yoga challenge during the month of April. (valid since 2023-04-01)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history chats state: \"user earned $420 at the Downtown Farmers Market on their most recent visit. (valid since 2023-09-30)\"\n\n**Step 2: Reason over the information**\n*   The question asks for the earnings from the most recent visit to the Downtown Farmers Market.\n*   The extracted fact explicitly confirms the amount earned was $420.\n\n**Answer:**\nYou earned $420 at the Downtown Farmers Market on your most recent visit.",
+ "dump": "- The user wants to explore more artists and albums within the Singer-Songwriter and Folk-Influenced genre (valid since 2023-03-16)\n- Julien Baker performs the song Appointments. (valid since 2023-03-16)\n- Julien Baker released the album Turn Out the Lights. (valid since 2023-03-16)\n- Julien Baker performs the song Rejoice. (valid since 2023-03-16)\n- Julien Baker performs the song Souvenir. (valid since 2023-03-16)\n- Julien Baker performs the song Hurt Less. (valid since 2023-03-16)\n- Julien Baker released the album Sprained Ankle. (valid since 2023-03-16)\n- Julien Baker contributed to the EP Boygenius with Phoebe Bridgers and Lucy Dacus. (valid since 2023-03-16)\n- Julien Baker performed the single Red Door. (valid since 2023-03-16)\n- Julien Baker performed the single Favor. (valid since 2023-03-16)\n- Julien Baker has live performances on YouTube. (valid since 2023-03-16)\n- Julien Baker performed at the NPR Tiny Desk Concert. (valid since 2023-03-16)\n- Julien Baker performed at KCRW Morning Becomes Eclectic. (valid since 2023-03-16)\n- The assistant recommends YogaGlo as an online resource for integrating yoga into triathlon training (valid since 2023-03-24)\n- The assistant recommends Peloton as an online resource for integrating yoga into triathlon training (valid since 2023-03-24)\n- The assistant recommends Down Dog as an online resource for integrating yoga into triathlon training (valid since 2023-03-24)\n- The assistant suggests Vinyasa as a beginner-friendly yoga style for triathletes (valid since 2023-03-24)\n- The assistant suggests Yin as a beginner-friendly yoga style for triathletes (valid since 2023-03-24)\n- The assistant recommends Ashtanga as a dynamic yoga style to explore once comfortable with yoga (valid since 2023-03-24)\n- The assistant recommends Power Yoga as a dynamic yoga style to explore once comfortable with yoga (valid since 2023-03-24)\n- The assistant suggests Hatha as a beginner-friendly yoga style for triathletes (valid since 2023-03-24)\n- The assistant recommends that the user experiment with Vinyasa yoga. (valid since 2023-03-24)\n- The assistant recommends that the user experiment with Restorative Yoga. (valid since 2023-03-24)\n- The Fujifilm X-T30 II camera features the Intelligent Hybrid AF system, which combines phase-detection and contrast-detection methods. (valid since 2023-03-27)\n- The user is considering offering a Downtown Farmers Market themed gift basket for their business. (valid since 2023-03-27)\n- The user plans to include their best-selling artisanal soaps in a Downtown Farmers Market themed gift basket. (valid since 2023-03-27)\n- The user plans to include their best-selling candles in a Downtown Farmers Market themed gift basket. (valid since 2023-03-27)\n- User's sister caused a scratch on the car's passenger side door. (valid since 2023-03-27)\n- The user completed a 30-day yoga challenge during the month of April. (valid since 2023-04-01)\n- The assistant recommends creating a Downtown Farmers Market themed gift basket to help the user's business. (valid since 2023-04-11)\n- The assistant provides guidance on the weight capacity of the Thule Evo. (valid since 2023-04-25)\n- The assistant provides guidance on the weight capacity of the Yakima FullBack. (valid since 2023-04-25)\n- The assistant advises on the adjustment of the user's bike seat for better comfort. (valid since 2023-04-25)\n- The user plans to carry a small backpack while going for bike rides. (valid since 2023-05-10)\n- The small backpack will contain water for the user's bike rides. (valid since 2023-05-10)\n- The small backpack will contain snacks for the user's bike rides. (valid since 2023-05-10)\n- The small backpack will contain a basic tool kit for the user's bike rides. (valid since 2023-05-10)\n- The assistant recommends RXBAR as a low-sugar energy bar option for cyclists. (valid since 2023-05-10)\n- The assistant recommends Clif Bar as a low-sugar energy bar option for cyclists. (valid since 2023-05-10)\n- The assistant recommends LaraBar as a low-sugar energy bar option for cyclists. (valid since 2023-05-10)\n- The assistant recommends Kind Bar as a low-sugar energy bar option for cyclists. (valid since 2023-05-10)\n- The assistant recommends Gu Chomps as a low-sugar energy bar option for cyclists. (valid since 2023-05-10)\n- The assistant recommends Honey Stinger as a low-sugar energy bar option for cyclists. (valid since 2023-05-10)\n- The assistant recommends Nuun Energy Bars as a low-sugar energy bar option for cyclists. (valid since 2023-05-10)\n- The user attended a music festival at the Merriweather Post Pavilion in Columbia, Maryland. (valid since 2023-08-16)\n- The user saw The 1975 perform live at the Merriweather Post Pavilion. (valid since 2023-08-16)\n- Merriweather Post Pavilion is located in Columbia, Maryland. (valid since 2023-08-16)\n- The assistant provides advice on how to use sparkly shoes and a t-shirt as part of the Sparkly Treasure Hunt game. (valid since 2023-09-03)\n- The sparkly shoes can be used as a component of the Sparkly Treasure Hunt game. (valid since 2023-09-03)\n- The sparkly t-shirt can be used as a component of the Sparkly Treasure Hunt game. (valid since 2023-09-03)\n- user earned $420 at the Downtown Farmers Market on their most recent visit. (valid since 2023-09-30)\n- assistant recommended Square Loyalty as a loyalty program software option. (valid since 2023-09-30)\n- assistant recommended LoyaltyLion as a loyalty program software option. (valid since 2023-09-30)\n- assistant recommended Swell as a loyalty program software option. (valid since 2023-09-30)\n- assistant recommended Belly as a loyalty program software option. (valid since 2023-09-30)\n- The assistant provides advice to the user regarding the expansion of their product line to include artisanal soaps. (valid since 2023-09-30)\n- Seth Rollins used his Money in the Bank briefcase during the main event of WrestleMania 31. (valid since 2023-10-07)\n- Seth Rollins won the WWE World Heavyweight Championship at WrestleMania 31. (valid since 2023-10-07)\n- Seth Rollins is a top superstar in WWE. (valid since 2023-10-07)\n- Brock Lesnar and Roman Reigns participated in the main event match at WrestleMania 31. (valid since 2023-10-07)\n- Seth Rollins cashed in his Money in the Bank contract during the main event of WrestleMania 31. (valid since 2023-10-07)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 61,
+  "invalidated": 0,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 165.0,
+  "total": 166.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

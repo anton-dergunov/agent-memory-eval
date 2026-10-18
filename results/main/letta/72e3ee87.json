@@ -1,0 +1,129 @@
+{
+ "qid": "72e3ee87",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many episodes of the Science series have I completed on Crash Course?",
+ "reference": "50",
+ "question_date": "2023-06-27 19:26",
+ "sessions": [
+  {
+   "id": "ultrachat_221658",
+   "date": "2023-05-11 23:18",
+   "evidence": false
+  },
+  {
+   "id": "080a4000_2",
+   "date": "2023-05-12 13:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_d7de9a6a_1",
+   "date": "2023-05-24 01:00",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_sD1RDN4_0",
+   "date": "2023-05-25 06:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_421360",
+   "date": "2023-05-26 13:35",
+   "evidence": false
+  },
+  {
+   "id": "bbc9bf73",
+   "date": "2023-05-27 00:55",
+   "evidence": false
+  },
+  {
+   "id": "f5fd3cc4_1",
+   "date": "2023-05-27 15:20",
+   "evidence": false
+  },
+  {
+   "id": "1c1f5ccc_4",
+   "date": "2023-05-28 02:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_d7de9a6a_2",
+   "date": "2023-05-29 03:31",
+   "evidence": true
+  },
+  {
+   "id": "6f2c01fc_1",
+   "date": "2023-05-29 17:54",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user recently completed a data analysis certification. They are interested in professional development. They attended a colleague's son's graduation party on June 27th. \nThe user is mentoring an intern named Rachel. Rachel is a college student interning at the user's company over the summer. Rachel's graduation ceremony is on August 10th.\nThe user is interested in reconnecting with old college friends.\nThe user enjoys watching Crash Course episodes, specifically the Science series. They are currently on episode 10. They would like to incorporate these into their daily routine, specifically during their lunch break or before bed.\nThe user is currently reading \"The Power of Habit\" and has previously read \"Sapiens\". They are looking for book recommendations in the areas of science, history, and self-improvement for their 30-minute daily reading block.\nThe user is interested in improving their skills in Adobe Photoshop and Illustrator. They have been using LinkedIn Learning but are looking for additional online resources or courses.\nThe user is considering taking an online course on Data Science with Python to further their professional development after completing a data analysis certification.\nThe user is currently starting a 30-minute morning yoga routine and is looking for beginner-friendly, follow-along resources.\nThe user is currently dealing with nematodes in their vegetable garden and is planning to use marigolds as a natural deterrent.\nThe user is interested in learning more about the history, evolution, and notable figures in Indian music, specifically Hindustani and Carnatic traditions.\nThe user is interested in learning linear algebra and is looking for online resources or courses to get started.\nThe user is learning Spanish and is currently using Duolingo. They are looking for additional resources to supplement their learning. They plan to use SpanishDict and Coursera's Spanish for Beginners. The user has completed 50 episodes of the Crash Course Science series.\nThe user recently listened to \"The 7 Habits of Highly Effective People\" by Stephen Covey and is looking for similar self-improvement book recommendations.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "According to the information in your records, you have completed 50 episodes of the Crash Course Science series.",
+ "dump": "<human>\n\nThe user recently completed a data analysis certification. They are interested in professional development. They attended a colleague's son's graduation party on June 27th. \nThe user is mentoring an intern named Rachel. Rachel is a college student interning at the user's company over the summer. Rachel's graduation ceremony is on August 10th.\nThe user is interested in reconnecting with old college friends.\nThe user enjoys watching Crash Course episodes, specifically the Science series. They are currently on episode 10. They would like to incorporate these into their daily routine, specifically during their lunch break or before bed.\nThe user is currently reading \"The Power of Habit\" and has previously read \"Sapiens\". They are looking for book recommendations in the areas of science, history, and self-improvement for their 30-minute daily reading block.\nThe user is interested in improving their skills in Adobe Photoshop and Illustrator. They have been using LinkedIn Learning but are looking for additional online resources or courses.\nThe user is considering taking an online course on Data Science with Python to further their professional development after completing a data analysis certification.\nThe user is currently starting a 30-minute morning yoga routine and is looking for beginner-friendly, follow-along resources.\nThe user is currently dealing with nematodes in their vegetable garden and is planning to use marigolds as a natural deterrent.\nThe user is interested in learning more about the history, evolution, and notable figures in Indian music, specifically Hindustani and Carnatic traditions.\nThe user is interested in learning linear algebra and is looking for online resources or courses to get started.\nThe user is learning Spanish and is currently using Duolingo. They are looking for additional resources to supplement their learning. They plan to use SpanishDict and Coursera's Spanish for Beginners. The user has completed 50 episodes of the Crash Course Science series.\nThe user recently listened to \"The 7 Habits of Highly Effective People\" by Stephen Covey and is looking for similar self-improvement book recommendations.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Crash Course Science episodes completed\"})",
+   "conversation_search({\"query\": \"Crash Course Science episode\"})"
+  ],
+  "blocks_chars": 2364,
+  "write_steps": 52,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 436.9,
+  "total": 446.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "6a1eabeb",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What was my personal best time in the charity 5K run?",
+ "reference": "25 minutes and 50 seconds (or 25:50)",
+ "question_date": "2023-06-25 13:22",
+ "sessions": [
+  {
+   "id": "6387e969",
+   "date": "2023-04-23 08:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_hcxvWC6_0",
+   "date": "2023-05-07 00:43",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_9ApEWXK_0",
+   "date": "2023-05-07 06:52",
+   "evidence": false
+  },
+  {
+   "id": "f3d43a12_2",
+   "date": "2023-05-15 17:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_a25d4a91_1",
+   "date": "2023-05-23 13:01",
+   "evidence": true
+  },
+  {
+   "id": "d8cc8b5c_5",
+   "date": "2023-05-23 23:20",
+   "evidence": false
+  },
+  {
+   "id": "5b71808d",
+   "date": "2023-05-30 06:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_a25d4a91_2",
+   "date": "2023-05-30 13:53",
+   "evidence": true
+  },
+  {
+   "id": "86b8dc6e",
+   "date": "2023-05-30 18:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_AScF7Wc_0",
+   "date": "2023-05-30 19:15",
+   "evidence": false
+  }
+ ],
+ "context": "- User recently set a personal best time of 27:12 in a charity 5K run. (from a chat on 2023-05-23)\n- User is training for an upcoming charity 5K run and aims to beat their personal best time of 25:50. (from a chat on 2023-05-30)\n- User was provided with a 5K training plan including interval training, gradual mileage increases, strength training, long runs, and tips on form, nutrition, and mental preparation to help beat their 25:50 personal best. (from a chat on 2023-05-30)\n- User was provided with running technique tips for soccer, such as maintaining upright posture, midfoot/forefoot striking, and practicing with a ball at their feet. (from a chat on 2023-05-23)\n- User was recommended specific strength training exercises for running performance, including core (plank, Russian twists, leg raises), glute (squats, lunges, glute bridges), leg (calf raises, step-ups, deadlifts), and foot strength exercises. (from a chat on 2023-05-30)\n- User is creating a personalized photo album or scrapbook for their grandmother's birthday, organizing it with a mix of old and new photos, captions, and personal mementos. (from a chat on 2023-05-23)\n- User plays soccer with coworkers every two weeks and recently scored a goal in a recreational game, which was a significant personal highlight. (from a chat on 2023-05-23)\n- User is organizing their digital documents into a structured system covering Personal, Financial, Immigration (including a specific 'Asylum' subfolder), Medical, Legal, Education, Real Estate, and Miscellaneous categories. (from a chat on 2023-05-30)\n- User requested recommendations for wine bars and shops in Paris to find a good selection of French wines. (from a chat on 2023-04-23)\n- During interval training, the user was advised to balance pushing their anaerobic threshold (aiming for 8-9/10 exertion) with maintaining a consistent rhythm and form. (from a chat on 2023-05-30)\n- User last waxed their car in February 2023 during a routine maintenance check at the dealership. (from a chat on 2023-05-30)\n- User is preparing for their first tennis tournament on May 6, 2023, and aims to reach at least the quarterfinals. (from a chat on 2023-05-23)\n- User has been attending English classes through the LINC program since November 2020 and is currently at level 5. (from a chat on 2023-05-30)\n- User was provided with specific SQL table schemas for a leave management system, including tables for leave request notifications, approval notifications, balance notifications, and a leave calendar. (from a chat on 2023-05-30)\n- User is preparing for a tennis tournament on May 6, 2023, and is specifically working on improving their serve toss consistency. (from a chat on 2023-05-30)\n- User was provided with a structured 4-6 week preparation plan for their tennis tournament, covering physical training, technical refinement, and mental preparation. (from a chat on 2023-05-23)\n- User took their motorcycle out of storage around late April 2023. (from a chat on 2023-05-30)\n- User was provided with five specific drills to improve tennis serve toss consistency: Toss and Catch, Toss and Hold, Toss and Move, Toss and Visualize, and Partner Toss. (from a chat on 2023-05-30)\n- User has been playing tennis casually for a few years and is currently focusing on improving their serve, volleys, footwork, and returns for the upcoming tournament. (from a chat on 2023-05-23)\n- User was provided with comprehensive tips for improving soccer endurance, including cardiovascular training, HIIT, strength training, plyometrics, and agility drills. (from a chat on 2023-05-23)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-05-23: The user set a personal best time of 27:12 in a charity 5K run.\n    *   From the chat on 2023-05-30: The user is training to beat their personal best time of 25:50.\n\n2.  **Reason over the information:**\n    *   The information from 2023-05-23 mentions a personal best of 27:12.\n    *   The information from 2023-05-30 indicates that the user's current personal best goal is to beat 25:50. This implies that the user achieved a time of 25:50 at some point between the two chats (or that 25:50 is the established personal best they are currently trying to improve upon).\n    *   Therefore, the most recent and accurate personal best time mentioned in the history is 25:50.\n\n**Answer:** Your personal best time in the charity 5K run is 25:50.",
+ "dump": "- User was recommended historical sites in Paris offering unique perspectives, including the Catacombs, Musée de la Contrefaçon, Musée de la Résistance, Archeological Crypt of Notre-Dame, Musée Carnavalet, Mont Valérien Memorial, and the Crypt of the Martyrs. (session 2023-04-23)\n- User has been attending English classes through the LINC program since November 2020 and is currently at level 5. (session 2023-05-30)\n- User was recommended French Resistance-focused tours and museums in Paris, including the Paris Resistance Tour, WWII in Paris Tour, French Resistance and Liberation Tour, Musée de l'Armée, and Musée Jean Moulin. (session 2023-04-23)\n- User is preparing for their first tennis tournament on May 6, 2023, and aims to reach at least the quarterfinals. (session 2023-05-23)\n- User is interested in identifying a specific rock song featuring the adlib 'hey' that appears in the movie 'Happy Gilmore', which was identified as 'Werewolves of London' by Warren Zevon. (session 2023-05-07)\n- User was provided with comprehensive tips for improving soccer endurance, including cardiovascular training, HIIT, strength training, plyometrics, and agility drills. (session 2023-05-23)\n- User was provided with suggestions for a garden-themed party, including decor, food, activities, and specific cake designs like a flower-pot or rose-shaped cake. (session 2023-05-23)\n- User's goal is to achieve English fluency to communicate effectively, pursue career goals, and eventually enroll in a college or university program in Canada. (session 2023-05-30)\n- User is looking for traditional French restaurants in Paris that feature seasonal ingredients and a cozy atmosphere. (session 2023-04-23)\n- User was recommended wine bars and shops in Paris including La Closerie des Lilas, Le Barav, Septime La Cave, La Maison du Vin, Nicolas, Le Wine Shop, Marché aux Vins, and Marché d'Aligre. (session 2023-04-23)\n- User was provided with shooting technique advice for soccer, emphasizing proper stance, ankle lock, follow-through, and practicing under pressure. (session 2023-05-23)\n- User calls their grandmother every other day and is aware she has been feeling stressed lately, prompting the user to plan a thoughtful gift to help her relax. (session 2023-05-23)\n- User was recommended theater productions in Paris such as 'Moulin Rouge! The Musical', 'The Phantom of the Opera', 'Les Misérables', 'Chicago', and 'Hamilton'. (session 2023-04-23)\n- User test-drove new cars, including the Honda CR-V, during the weekend of May 27-28, 2023, and is currently researching and budgeting for a potential purchase. (session 2023-05-30)\n- User was recommended restaurants in Paris including Le Comptoir du Relais, Chez L'Ami Jean, Le Grand Vefour, La Réserve, Le Petit Châtelet, Breizh Café, Le 6 Paul Bert, and La Dame de Pic. (session 2023-04-23)\n- During interval training, the user was advised to balance pushing their anaerobic threshold (aiming for 8-9/10 exertion) with maintaining a consistent rhythm and form. (session 2023-05-30)\n- User is planning to build a DIY cat agility course for Whiskers using cardboard boxes, tunnels, and other household materials to provide mental and physical stimulation. (session 2023-05-15)\n- User intends to enhance their grandmother's gift by adding a soothing message on the label, a stress ball, and scheduling a video call to share a cup of tea together. (session 2023-05-23)\n- User plans to shop for cat supplies and toys at Chewy.com, Petco.com, and is interested in exploring the CatLadyBox.com subscription service. (session 2023-05-15)\n- User is organizing their digital documents into a structured system covering Personal, Financial, Immigration (including a specific 'Asylum' subfolder), Medical, Legal, Education, Real Estate, and Miscellaneous categories. (session 2023-05-30)\n- User was recommended the following vertical scratching posts for Whiskers: Armarkat Cat Scratching Post, FurHaven Pet Products Vertical Scratching Post, SmartCat Multi-Level Scratching Post, Purrfect Post Vertical Scratching Post, and Catit Senses Vertical Scratching Post. (session 2023-05-15)\n- User has a cat named Whiskers who recently received a clean bill of health at a follow-up appointment for an ear infection around mid-April 2023. (session 2023-05-15)\n- User was provided with a recipe for a 'Grandma's Garden' herbal tea blend and tips for creating and presenting custom tea gifts. (session 2023-05-23)\n- User is interested in the specifications and benefits of a unisex heavy cotton tee, noting its 100% cotton composition, medium fabric weight of 5.3 oz/yd², classic fit, tear-away label, and durability features like taped shoulders and lack of side seams. (session 2023-05-07)\n- User was provided with a 5K training plan including interval training, gradual mileage increases, strength training, long runs, and tips on form, nutrition, and mental preparation to help beat their 25:50 personal best. (session 2023-05-30)\n- User is planning a trip to Europe in the fall of 2023 and is considering visiting Paris and Rome. (session 2023-04-23)\n- User was provided with running technique tips for soccer, such as maintaining upright posture, midfoot/forefoot striking, and practicing with a ball at their feet. (session 2023-05-23)\n- User was recommended theater productions in Rome such as 'The Lion King', 'Aladdin', 'Mamma Mia!', 'We Will Rock You', and 'La Cage aux Folles'. (session 2023-04-23)\n- User requested recommendations for wine bars and shops in Paris to find a good selection of French wines. (session 2023-04-23)\n- User was recommended job search resources in Canada including the Government of Canada's Job Bank, Indeed, LinkedIn, local job boards, and networking events. (session 2023-05-30)\n- User was provided with guidance on selecting tennis rackets and strings based on swing style, skill level, weight, balance, and string tension. (session 2023-05-23)\n- User received their asylum approval letter on February 20, 2023, and is now focused on rebuilding their life in Canada. (session 2023-05-30)\n- User was provided with specific SQL table schemas for a leave management system, including tables for leave request notifications, approval notifications, balance notifications, and a leave calendar. (session 2023-05-30)\n- User was recommended the following puzzle toys and treat dispensers for Whiskers: Kong Wobbler, Outward Hound Brick Puzzle, Nina Ottosson Dog Brick, Pet Zone Treat Wobbler, Omega Paw Tricky Treat Ball, Puzzle Master, and Hide-a-Squirrel. (session 2023-05-15)\n- User is interested in Redfoo's remixes and DJ sets, specifically investigating a remix of 'Werewolves of London' featured in a YouTube video. (session 2023-05-07)\n- User is researching a leave management system and was provided with a comprehensive outline of features, including user management, request workflows, reporting, security, and integration capabilities. (session 2023-05-30)\n- User is experiencing issues with Whiskers not using her litter box consistently and plans to increase the number of litter boxes in the home to address this. (session 2023-05-15)\n- User is interested in seeing Broadway-style musicals or theater productions during their upcoming trip to Paris and Rome. (session 2023-04-23)\n- User was provided with advice on selling a used car, including researching market value via KBB/Edmunds/NADA, detailing the vehicle, taking high-quality photos, and choosing appropriate listing platforms. (session 2023-05-30)\n- User is interested in learning about the French Resistance during WWII and requested recommendations for museums and guided tours in Paris. (session 2023-04-23)\n- User is training for an upcoming charity 5K run and aims to beat their personal best time of 25:50. (session 2023-05-30)\n- User last waxed their car in February 2023 during a routine maintenance check at the dealership. (session 2023-05-30)\n- User recently set a personal best time of 27:12 in a charity 5K run. (session 2023-05-23)\n- User's LINC program teacher is named Mrs. Patel, whom the user finds very helpful and supportive. (session 2023-05-30)\n- User was provided with a structured 4-6 week preparation plan for their tennis tournament, covering physical training, technical refinement, and mental preparation. (session 2023-05-23)\n- User was recommended historical sites in Paris including the Louvre, Notre-Dame Cathedral, Arc de Triomphe, and the Palace of Versailles. (session 2023-04-23)\n- User plays soccer with coworkers every two weeks and recently scored a goal in a recreational game, which was a significant personal highlight. (session 2023-05-23)\n- User was provided with general guidelines for car air conditioning service: every 2-3 years or 30,000-50,000 miles, or annually/every 15,000-20,000 miles in hot climates. (session 2023-05-30)\n- User is creating a personalized photo album or scrapbook for their grandmother's birthday, organizing it with a mix of old and new photos, captions, and personal mementos. (session 2023-05-23)\n- User plans to create a custom 'Grandma's Garden' herbal tea blend for their grandmother, including dried rose petals, lemon balm, chamomile, hibiscus, and lavender. (session 2023-05-23)\n- User was provided with five specific drills to improve tennis serve toss consistency: Toss and Catch, Toss and Hold, Toss and Move, Toss and Visualize, and Partner Toss. (session 2023-05-30)\n- User took their motorcycle out of storage around late April 2023. (session 2023-05-30)\n- User was recommended historical sites in Rome including the Colosseum, Roman Forum, Pantheon, and Vatican City. (session 2023-04-23)\n- User is preparing for a tennis tournament on May 6, 2023, and is specifically working on improving their serve toss consistency. (session 2023-05-30)\n- User was provided with a guide on organizing a meaningful photo album or scrapbook, including themes, photo selection, and design tips. (session 2023-05-23)\n- User was provided with tips for negotiating a new car purchase, including researching market value, setting a budget, negotiating total price, and being prepared to walk away. (session 2023-05-30)\n- User was recommended specific strength training exercises for running performance, including core (plank, Russian twists, leg raises), glute (squats, lunges, glute bridges), leg (calf raises, step-ups, deadlifts), and foot strength exercises. (session 2023-05-30)\n- User is planning to sell their old SUV and is researching how to price and list it for sale. (session 2023-05-30)\n- User was provided with a list of songs identified in Redfoo's DJ set from the YouTube video 'https://www.youtube.com/watch?v=tL4tde6uZ_Q', including tracks by LMFAO, Usher, Pitbull, Cupid, DJ Casper, Warren Zevon, and Flo Rida. (session 2023-05-07)\n- User is planning a surprise garden-themed birthday party for their grandmother in their backyard, incorporating her love for gardening and cooking. (session 2023-05-23)\n- User has made friends in their LINC class, including a student from Syria who shares similar life experiences. (session 2023-05-30)\n- User was recommended language schools including ILSC, LSI, and ILAC, as well as online platforms like Coursera, edX, and Duolingo to improve advanced English skills. (session 2023-05-30)\n- User was provided with general guidelines for car waxing frequency: every 2-3 months for outdoor parking/harsh weather, and every 4-6 months for garage parking/mild weather. (session 2023-05-30)\n- User has been playing tennis casually for a few years and is currently focusing on improving their serve, volleys, footwork, and returns for the upcoming tournament. (session 2023-05-23)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 64,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 38.3,
+  "total": 39.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

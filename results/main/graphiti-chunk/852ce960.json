@@ -1,0 +1,102 @@
+{
+ "qid": "852ce960",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+ "reference": "$400,000",
+ "question_date": "2023-12-18 04:17",
+ "sessions": [
+  {
+   "id": "ultrachat_218093",
+   "date": "2023-07-12 10:14",
+   "evidence": false
+  },
+  {
+   "id": "d36d11b9_2",
+   "date": "2023-08-02 05:58",
+   "evidence": false
+  },
+  {
+   "id": "answer_3a6f1e82_1",
+   "date": "2023-08-11 00:01",
+   "evidence": true
+  },
+  {
+   "id": "0840765f_2",
+   "date": "2023-08-17 02:26",
+   "evidence": false
+  },
+  {
+   "id": "114c1fb7_4",
+   "date": "2023-08-26 11:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_390626",
+   "date": "2023-08-29 00:11",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_eN4o9Zr_0",
+   "date": "2023-09-05 13:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_475483",
+   "date": "2023-09-18 15:58",
+   "evidence": false
+  },
+  {
+   "id": "f55fee5b_2",
+   "date": "2023-11-15 12:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_3a6f1e82_2",
+   "date": "2023-11-30 00:36",
+   "evidence": true
+  }
+ ],
+ "context": "- Property taxes and homeowners insurance are combined with the mortgage payment for a total monthly estimate of approximately $1,987.21. (valid since 2023-08-11)\n- The user needs to review the home insurance policy documents from Liberty Mutual. (valid since 2023-11-30)\n- The mortgage payment, property taxes, and homeowners insurance constitute the total estimated monthly payment of approximately $1,987.21. (valid since 2023-08-11)\n- The mortgage payment, property taxes, and homeowners insurance together make up a total estimated monthly cost of approximately $1,987.21. (valid since 2023-08-11)\n- The inspection report identified minor issues with the roof. (valid since 2023-08-02)\n- The assistant suggests using YouTube for guided meditation videos from channels like Guided Meditation, Meditation Oasis, and The Mindful Movement. (valid since 2023-08-02)\n- The user is deleting the Facebook app from their phone to reduce distractions. (valid since 2023-11-15)\n- The user plans to use Trello for organizing appointments and tasks for their home move. (valid since 2023-11-30)\n- The user is deleting the Instagram app from their phone to avoid temptation. (valid since 2023-11-15)\n- The inspection report identified minor issues with the plumbing. (valid since 2023-08-02)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   I have reviewed all the provided history facts regarding the mortgage, property taxes, and homeowners insurance.\n*   The facts state that the mortgage payment, property taxes, and homeowners insurance combine for a total monthly estimate of approximately $1,987.21.\n\n**Step 2: Reason over the information**\n*   The provided history contains information regarding the *monthly payment estimate* for the mortgage, taxes, and insurance.\n*   There is no information in the provided history regarding the total loan amount, the lender (Wells Fargo), or any pre-approval amount.\n\n**Conclusion:**\nBased on the provided facts, there is no information available to answer what amount you were pre-approved for.",
+ "dump": "- The user participated in the Ride for a Reason charity cycling event on March 25th, 2023, which had approximately 200 participants. (valid since 2023-03-25)\n- The Associated Press provides the public with the latest news and data on the COVID-19 pandemic. (valid since 2023-07-12)\n- The user plans to wake up at 7:00 AM on weekdays and 7:30 AM on weekends. (valid since 2023-08-02)\n- The user plans to incorporate light stretching exercises into their morning routine. (valid since 2023-08-02)\n- The user plans to practice yoga poses as part of their light stretching exercises in the morning. (valid since 2023-08-02)\n- The user plans to practice neck and shoulder rolls as part of their light stretching exercises in the morning. (valid since 2023-08-02)\n- The user is interested in trying the guided meditation app Headspace to help reduce stress and anxiety. (valid since 2023-08-02)\n- The user is interested in trying the guided meditation app Calm to help reduce stress and anxiety. (valid since 2023-08-02)\n- The assistant recommends the Headspace app for guided meditation and notes it features the Take10 program for beginners. (valid since 2023-08-02)\n- The assistant recommends the Calm app, which includes sleep stories narrated by Matthew McConaughey and a 7 Days of Calm program. (valid since 2023-08-02)\n- The assistant recommends the Insight Timer app as a free resource for guided meditations. (valid since 2023-08-02)\n- The assistant recommends the Buddhify app for meditation sessions tailored to different parts of the day. (valid since 2023-08-02)\n- The assistant suggests using YouTube for guided meditation videos from channels like Guided Meditation, Meditation Oasis, and The Mindful Movement. (valid since 2023-08-02)\n- The assistant recommends The Daily Meditation as a helpful podcast for mindfulness and guided sessions. (valid since 2023-08-02)\n- The assistant recommends Meditation for Fidgety Skeptics as a podcast resource for meditation. (valid since 2023-08-02)\n- The assistant recommends the 10% Happier podcast for mindfulness discussions and guided meditation. (valid since 2023-08-02)\n- The assistant recommends the book Mindfulness in Plain English by Bhante Henepola Gunaratna. (valid since 2023-08-02)\n- The assistant recommends the book Wherever You Go, There You Are by Jon Kabat-Zinn. (valid since 2023-08-02)\n- The assistant suggests using Todoist as a tool for planning daily tasks and goals. (valid since 2023-08-02)\n- The assistant suggests using Trello as a tool for organizing daily plans and goal-setting. (valid since 2023-08-02)\n- The inspection report identified minor issues with the roof. (valid since 2023-08-02)\n- The inspection report identified minor issues with the plumbing. (valid since 2023-08-02)\n- The mortgage payment, property taxes, and homeowners insurance constitute the total estimated monthly payment of approximately $1,987.21. (valid since 2023-08-11)\n- The mortgage payment, property taxes, and homeowners insurance together make up a total estimated monthly cost of approximately $1,987.21. (valid since 2023-08-11)\n- Property taxes and homeowners insurance are combined with the mortgage payment for a total monthly estimate of approximately $1,987.21. (valid since 2023-08-11)\n- The assistant explains that a donor recognition page serves to highlight the names and contributions of donors. (valid since 2023-08-17)\n- The assistant provides advice on how to create an effective donor recognition page for a fundraising website. (valid since 2023-08-17)\n- The user is considering an MBA program at the Stanford Graduate School of Business to move into leadership positions. (valid since 2023-08-26)\n- The user is considering an MBA program at the MIT Sloan School of Management to move into leadership positions. (valid since 2023-08-26)\n- Stanford GSB offers an entrepreneurial finance course that helps students develop skills in venture capital. (valid since 2023-08-26)\n- The Stanford Venture Capital and Private Equity Club is a student-led club at the Stanford Graduate School of Business. (valid since 2023-08-26)\n- Many members of the Stanford Venture Capital and Private Equity Club have secured jobs or internships at Sequoia Capital. (valid since 2023-08-26)\n- Many members of the Stanford Venture Capital and Private Equity Club have secured jobs or internships at Andreessen Horowitz. (valid since 2023-08-26)\n- Many members of the Stanford Venture Capital and Private Equity Club have secured jobs or internships at Khosla Ventures. (valid since 2023-08-26)\n- The assistant recommends The Sikhs by Patwant Singh as a resource for learning about Sikhism. (valid since 2023-08-29)\n- The assistant recommends the Guru Granth Sahib as a central religious text of Sikhism. (valid since 2023-08-29)\n- The assistant recommends SikhiWiki as an online encyclopedia for Sikhism. (valid since 2023-08-29)\n- The assistant recommends Basics of Sikhism by Inderjeet Singh as a guide for newcomers to Sikhism. (valid since 2023-08-29)\n- The assistant recommends the Sikh Coalition as a resource for information on issues affecting the Sikh community. (valid since 2023-08-29)\n- The user creates a remote work management SaaS using the Bubble.io platform (valid since 2023-09-05)\n- arbuscular mycorrhizal fungi form associations with corn plants (valid since 2023-09-18)\n- arbuscular mycorrhizal fungi form associations with wheat plants (valid since 2023-09-18)\n- arbuscular mycorrhizal fungi form associations with soybean plants (valid since 2023-09-18)\n- ectomycorrhizal fungi form associations with pines (valid since 2023-09-18)\n- ectomycorrhizal fungi form associations with firs (valid since 2023-09-18)\n- ectomycorrhizal fungi form associations with spruces (valid since 2023-09-18)\n- ectomycorrhizal fungi form associations with oaks (valid since 2023-09-18)\n- ectomycorrhizal fungi form associations with birches (valid since 2023-09-18)\n- ectomycorrhizal fungi form associations with beeches (valid since 2023-09-18)\n- The user spends significant time daily scrolling through Twitter. (valid since 2023-11-15)\n- The user spends significant time daily scrolling through Facebook. (valid from 2023-11-15 until 2023-11-15) [superseded]\n- The user spends significant time daily scrolling through Instagram. (valid from 2023-11-15 until 2023-11-15) [superseded]\n- The user is deleting the Facebook app from their phone to reduce distractions. (valid since 2023-11-15)\n- The user is deleting the Instagram app from their phone to avoid temptation. (valid since 2023-11-15)\n- The user intends to unfollow or mute accounts on Twitter to declutter their feed and make it more relevant to their interests. (valid since 2023-11-15)\n- assistant recommends using Twitter to connect with experts, find resources, and share thesis project goals (valid since 2023-11-15)\n- The user plans to use Trello for organizing appointments and tasks for their home move. (valid since 2023-11-30)\n- The user plans to schedule a home insurance policy with Liberty Mutual. (valid since 2023-11-30)\n- The user needs to review the home insurance policy documents from Liberty Mutual. (valid since 2023-11-30)\n- The assistant provides guidance to the user on how to confirm moving details with the storage unit company, specifically regarding the moving date, truck size, and labor assistance. (valid since 2023-11-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 60,
+  "invalidated": 2,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 135.6,
+  "total": 137.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "qid": "618f13b2",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+ "reference": "six",
+ "question_date": "2023-06-18 22:29",
+ "sessions": [
+  {
+   "id": "ultrachat_546105",
+   "date": "2023-05-02 00:38",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_469083",
+   "date": "2023-05-30 05:07",
+   "evidence": false
+  },
+  {
+   "id": "d2366c37",
+   "date": "2023-05-30 12:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_caf5b52e_2",
+   "date": "2023-05-30 17:45",
+   "evidence": true
+  },
+  {
+   "id": "9cea187c_1",
+   "date": "2023-05-30 18:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_558040",
+   "date": "2023-05-30 21:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_caf5b52e_1",
+   "date": "2023-05-30 22:16",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_SaUokxc_63",
+   "date": "2023-06-01 11:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dUIx8DF_0",
+   "date": "2023-06-05 10:13",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_270398",
+   "date": "2023-06-16 22:50",
+   "evidence": false
+  }
+ ],
+ "context": "- The user has worn their black Converse Chuck Taylor All Star sneakers four times, including to their friend's birthday party last Saturday. (valid since 2023-05-30)\n- The user owns a pair of black Converse Chuck Taylor All Star sneakers. (valid since 2023-05-30)\n- The assistant recommends Vans Old Skool sneakers as a comfortable, stylish, and durable choice that is worth the investment. (valid since 2023-05-30)\n- The user owns a pair of brown leather boots that currently have a loose heel. (valid since 2023-05-30)\n- Applied Plotting, Charting & Data Representation in Python teaches students how to use Seaborn for visualizations. (valid since 2023-05-30)\n- user is considering using a shoe tree for the brown leather boots to maintain their shape (valid since 2023-05-30)\n- Applied Plotting, Charting & Data Representation in Python teaches students how to use Plotly for visualizations. (valid since 2023-05-30)\n- a shoe tree is used to maintain the shape of the brown leather boots (valid since 2023-05-30)\n- Applied Plotting, Charting & Data Representation in Python teaches students how to use Matplotlib for visualizations. (valid since 2023-05-30)\n- user plans to store out-of-season shoes in storage bins to free up space on the shoe rack (valid since 2023-05-30)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   The user owns a pair of black Converse Chuck Taylor All Star sneakers.\n    *   The user has worn their black Converse Chuck Taylor All Star sneakers four times.\n\n2.  **Reason over the information:**\n    *   The facts explicitly state the total number of times the user has worn these specific sneakers is four.\n\n3.  **Answer:**\n    *   You have worn your black Converse Chuck Taylor All Star sneakers four times.",
+ "dump": "- The assistant provides the user with information about financial security and fraud prevention measures. (valid since 2023-05-30)\n- Asana is used by the user for breaking down and managing tasks within their thesis project. (valid since 2023-05-30)\n- Toggl integrates with Asana to allow tracking of time spent on tasks, projects, and clients. (valid since 2023-05-30)\n- Harvest integrates with Asana to track time on tasks and generate invoices. (valid since 2023-05-30)\n- RescueTime integrates with Asana to track time spent on specific tasks and projects. (valid since 2023-05-30)\n- Time Doctor integrates with Asana to track time spent on tasks, projects, and clients. (valid since 2023-05-30)\n- Clockify integrates with Asana to track time spent on tasks, projects, and clients. (valid since 2023-05-30)\n- Hubstaff integrates with Asana to track time spent on tasks, projects, and clients. (valid since 2023-05-30)\n- user plans to organize the shoe rack by shoe type, and then by color within each group (valid since 2023-05-30)\n- user plans to store out-of-season shoes in storage bins to free up space on the shoe rack (valid since 2023-05-30)\n- user is considering using a shoe tree for the brown leather boots to maintain their shape (valid since 2023-05-30)\n- a shoe tree is used to maintain the shape of the brown leather boots (valid since 2023-05-30)\n- The assistant recommends Vans Old Skool sneakers as a comfortable, stylish, and durable choice that is worth the investment. (valid since 2023-05-30)\n- The University of Michigan offers a Data Science Specialization available on Coursera. (valid since 2023-05-30)\n- Coursera hosts the Data Science Specialization offered by the University of Michigan. (valid since 2023-05-30)\n- The user is interested in learning more about the Data Science Specialization from the University of Michigan on Coursera. (valid since 2023-05-30)\n- the applied plotting, charting, and data representation course is a component of the data science specialization (valid since 2023-05-30)\n- Applied Plotting, Charting & Data Representation in Python teaches students how to use Matplotlib for visualizations. (valid since 2023-05-30)\n- Applied Plotting, Charting & Data Representation in Python teaches students how to use Seaborn for visualizations. (valid since 2023-05-30)\n- Applied Plotting, Charting & Data Representation in Python teaches students how to use Plotly for visualizations. (valid since 2023-05-30)\n- Applied Plotting, Charting & Data Representation in Python introduces students to the Bokeh visualization tool. (valid since 2023-05-30)\n- Applied Plotting, Charting & Data Representation in Python introduces students to the Altair visualization tool. (valid since 2023-05-30)\n- Machine Learning for Data Science in Python is a course in the Data Science Specialization. (valid since 2023-05-30)\n- Machine Learning for Data Science in Python teaches students how to use Scikit-learn to apply algorithms. (valid since 2023-05-30)\n- The assistant describes the evolution of Dia de los Muertos from ancient Aztec culture and its blending with Spanish colonial customs and Catholic holidays. (valid since 2023-05-30)\n- The assistant details modern customs associated with Dia de los Muertos, such as elaborate face painting, sugar skulls, public art installations, and commercialization. (valid since 2023-05-30)\n- The user owns a pair of brown leather boots that currently have a loose heel. (valid since 2023-05-30)\n- The user owns a pair of black Converse Chuck Taylor All Star sneakers. (valid since 2023-05-30)\n- The user has worn their black Converse Chuck Taylor All Star sneakers four times, including to their friend's birthday party last Saturday. (valid since 2023-05-30)\n- The assistant provided updated code for the ManageAPIAccessPage component including a syncEnabled state and a checkbox to toggle Square POS integration synchronization. (valid since 2023-06-01)\n- The assistant updated the SquareIntegration mongoose schema to include a syncEnabled boolean and modified the createSquareIntegration and updateSquareIntegration controller methods to handle this property. (valid since 2023-06-01)\n- The updated client-side code is implemented in src/services/squareIntegrationService.js (valid since 2023-06-01)\n- The SquareIntegration object includes the syncEnabled property within the client-side code (valid since 2023-06-01)\n- The ManageAPIAccessPage component contains a checkbox input to toggle the syncEnabled property (valid since 2023-06-01)\n- The ManageAPIAccessPage component updates the SquareIntegration object state (valid since 2023-06-01)\n- The assistant associates Saint Peter with the element of water due to his role as a fisherman and his ability to walk on water. (valid since 2023-06-05)\n- The assistant associates Satan with the element of fire due to his connection to temptation, destruction, and chaos. (valid since 2023-06-05)\n- The assistant associates Saint Francis of Assisi with the element of earth because of his love of nature and humble life. (valid since 2023-06-05)\n- The assistant associates Saint Michael the Archangel with the element of air due to his role as a protector and defender against evil. (valid since 2023-06-05)\n- The assistant provides information about the tourist experience and must-see attractions at the Alcazaba of Málaga. (valid since 2023-06-16)\n- The Alcazaba of Málaga contains the Nazrid Palace, which features patios, fountains, stucco, and tile work. (valid since 2023-06-16)\n- The Alcazaba of Málaga contains Islamic-Andalusian gardens featuring flowers, water features, and fountains. (valid since 2023-06-16)\n- The Alcazaba of Málaga offers panoramic views of the Mediterranean coast. (valid since 2023-06-16)\n- The Alcazaba of Málaga contains defensive walls with gates, towers, and terraces. (valid since 2023-06-16)\n- The Alcazaba of Málaga houses a museum containing artifacts relating to the region's history. (valid since 2023-06-16)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 45,
+  "invalidated": 0,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 115.5,
+  "total": 116.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

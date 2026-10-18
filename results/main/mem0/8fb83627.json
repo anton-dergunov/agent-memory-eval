@@ -1,0 +1,100 @@
+{
+ "qid": "8fb83627",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many issues of National Geographic have I finished reading?",
+ "reference": "Five",
+ "question_date": "2023-08-14 23:19",
+ "sessions": [
+  {
+   "id": "ultrachat_531250",
+   "date": "2023-03-23 19:39",
+   "evidence": false
+  },
+  {
+   "id": "be050ab3_2",
+   "date": "2023-03-24 09:22",
+   "evidence": false
+  },
+  {
+   "id": "79aaa8cc_2",
+   "date": "2023-03-31 04:07",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_172550",
+   "date": "2023-04-13 19:44",
+   "evidence": false
+  },
+  {
+   "id": "answer_966cecbb_1",
+   "date": "2023-04-20 21:08",
+   "evidence": true
+  },
+  {
+   "id": "4277273b_1",
+   "date": "2023-04-24 01:40",
+   "evidence": false
+  },
+  {
+   "id": "c15319aa_1",
+   "date": "2023-06-22 13:28",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_31",
+   "date": "2023-07-04 18:43",
+   "evidence": false
+  },
+  {
+   "id": "1e5d09fe_2",
+   "date": "2023-07-14 22:23",
+   "evidence": false
+  },
+  {
+   "id": "answer_966cecbb_2",
+   "date": "2023-07-15 22:42",
+   "evidence": true
+  }
+ ],
+ "context": "- User has finished three issues of National Geographic and is currently reading the fourth issue as of April 20, 2023. (from a chat on 2023-04-20)\n- User has finished reading five issues of National Geographic, which they have been using as a primary resource for learning about the Amazon rainforest and the Yanomami people. (from a chat on 2023-07-15)\n- User enjoys The New Yorker for its fiction and National Geographic for its in-depth science and nature articles. (from a chat on 2023-04-20)\n- User reads Rolling Stone, particularly its online content, and also regularly reads The Atlantic and Medium online. (from a chat on 2023-04-20)\n- User regularly reads news, science, and entertainment magazines, and specifically follows The New York Times and The Daily News as newspapers. (from a chat on 2023-04-20)\n- User is organizing their reading list into a spreadsheet to track progress, notes, and ratings for their magazines, newspapers, and online publications. (from a chat on 2023-04-20)\n- User visited Yosemite National Park around March 27, 2023, and captured sunset photos of the valley floor and Half Dome from Tunnel View. (from a chat on 2023-04-24)\n- User received a home inspection report around March 17, 2023, which identified minor issues with the property's plumbing and electrical systems. (from a chat on 2023-03-24)\n- User was advised that for minor home inspection issues, they can request repairs, a credit at closing, or a reduction in the sale price, with typical credits ranging from 1% to 3% of the purchase price. (from a chat on 2023-03-24)\n- User was recommended various articles, books, and documentaries about the Amazon rainforest, including 'The Sixth Extinction' by Elizabeth Kolbert, 'One River' by Wade Davis, and the Netflix documentary 'Our Planet: Amazon'. (from a chat on 2023-07-15)\n- User was recommended several music magazines known for discovering new talent, including NME, The FADER, Rolling Stone, Pitchfork, and DIY Magazine. (from a chat on 2023-04-13)\n- User is planning a trip to the Amazon rainforest and is actively researching its ecosystem, conservation efforts, and indigenous communities. (from a chat on 2023-07-15)\n- User tracks their sleep metrics, including duration and quality, using a Fitbit Charge 3 and reviews the data every morning. (from a chat on 2023-06-22)\n- User purchased a 50mm prime lens around March 13, 2023, and has been experimenting with it for portrait and flower photography. (from a chat on 2023-04-24)\n- User is interested in music journalism and discovering new talent, and expressed disappointment that the influential music magazine Melody Maker ceased publication in 2000. (from a chat on 2023-04-13)\n- User purchased a new Lululemon workout outfit on July 14, 2023, consisting of a pair of leggings, two tops, and a jacket. (from a chat on 2023-07-14)\n- User is specifically interested in the Yanomami people, seeking in-depth resources on their culture, traditions, and struggles with modernization, disease, and land exploitation. (from a chat on 2023-07-15)\n- User recently purchased artisanal jewelry and handmade candles at a local holiday market, which they are using as part of their gift-giving for friends and family. (from a chat on 2023-03-31)\n- User started using a white noise machine on June 22, 2023, and finds the rain sounds setting effective for falling asleep and improving sleep quality. (from a chat on 2023-06-22)\n- User was recommended resources on the Yanomami, including the books 'The Falling Sky' by Davi Kopenawa and Bruce Albert, 'Shadows of the Forest' by Napoleon A. Chagnon, and the documentary 'The Yanomami: A Struggle for Survival' (1991). (from a chat on 2023-07-15)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-04-20: The user had finished three issues of *National Geographic* and was reading the fourth.\n    *   From the chat on 2023-07-15: The user has finished reading five issues of *National Geographic*.\n\n2.  **Reason over the information:**\n    *   The most recent update regarding the total count of *National Geographic* issues read by the user is from July 15, 2023.\n    *   This record explicitly states that the user has finished reading five issues.\n\n3.  **Answer:**\n    You have finished reading five issues of *National Geographic*.",
+ "dump": "- User was provided with a comprehensive closing checklist covering financing, inspections, title work, insurance, utilities, and post-closing tasks. (session 2023-03-24)\n- User is interested in music journalism and discovering new talent, and expressed disappointment that the influential music magazine Melody Maker ceased publication in 2000. (session 2023-04-13)\n- User was recommended several music magazines known for discovering new talent, including NME, The FADER, Rolling Stone, Pitchfork, and DIY Magazine. (session 2023-04-13)\n- User is interested in incorporating leading lines into their photography, a technique they recently studied in an online composition module. (session 2023-04-24)\n- User is in the process of buying a home with their partner, Alex, and they are approaching the closing stage as of March 2023. (session 2023-03-24)\n- User is concerned about the potential complications of untreated high blood pressure and is committed to managing their blood pressure through lifestyle changes and medical guidance. (session 2023-03-23)\n- User is organizing their reading list into a spreadsheet to track progress, notes, and ratings for their magazines, newspapers, and online publications. (session 2023-04-20)\n- The home buying process for the user and Alex began around February 10, 2023, six weeks prior to March 24, 2023. (session 2023-03-24)\n- User is creating a personalized 'cozy movie night' gift package for a friend, which includes gourmet popcorn, hot cocoa mix, a scented candle, and the movie 'The Holiday'. (session 2023-03-31)\n- User received a home inspection report around March 17, 2023, which identified minor issues with the property's plumbing and electrical systems. (session 2023-03-24)\n- User is exploring photography composition and style settings for '2020s editorial' shots in Shinjuku at nighttime, specifically requesting variations with a 'Neon Colors' palette. (session 2023-07-04)\n- User was advised that untreated high blood pressure can lead to stroke, heart disease, kidney damage, eye damage, peripheral artery disease, sexual dysfunction, and dementia. (session 2023-03-23)\n- User intends to include a handwritten note and a small memento, such as a photo or charm representing an inside joke, to personalize the gift package. (session 2023-03-31)\n- User was advised that while a 50mm prime lens can be used for close-up flower shots, a dedicated macro lens or extension tubes are better suited for true macro photography. (session 2023-04-24)\n- User was provided with healthy post-workout snack and drink recommendations, including fresh fruit, nuts, protein-rich snacks, water, coconut water, and green smoothies. (session 2023-07-14)\n- User plans to present the movie 'The Holiday' using a custom-designed movie ticket invitation attached to the DVD case, fitting a winter wonderland wrapping theme. (session 2023-03-31)\n- User recently purchased artisanal jewelry and handmade candles at a local holiday market, which they are using as part of their gift-giving for friends and family. (session 2023-03-31)\n- User has finished reading five issues of National Geographic, which they have been using as a primary resource for learning about the Amazon rainforest and the Yanomami people. (session 2023-07-15)\n- User enjoys The New Yorker for its fiction and National Geographic for its in-depth science and nature articles. (session 2023-04-20)\n- User observed that morning exercise correlates with better sleep at night and plans to adjust daily habits like caffeine intake and bedtime to optimize sleep. (session 2023-06-22)\n- User was advised that for minor home inspection issues, they can request repairs, a credit at closing, or a reduction in the sale price, with typical credits ranging from 1% to 3% of the purchase price. (session 2023-03-24)\n- User was guided on the final walk-through inspection process, including verifying agreed-upon repairs, checking for new damages, and testing appliances, plumbing, and electrical systems. (session 2023-03-24)\n- User purchased a 50mm prime lens around March 13, 2023, and has been experimenting with it for portrait and flower photography. (session 2023-04-24)\n- User was recommended resources on the Yanomami, including the books 'The Falling Sky' by Davi Kopenawa and Bruce Albert, 'Shadows of the Forest' by Napoleon A. Chagnon, and the documentary 'The Yanomami: A Struggle for Survival' (1991). (session 2023-07-15)\n- User has finished three issues of National Geographic and is currently reading the fourth issue as of April 20, 2023. (session 2023-04-20)\n- User was recommended to manage blood pressure by maintaining a healthy weight, eating a diet rich in fruits, vegetables, whole grains, and lean proteins, exercising at least 150 minutes per week, quitting smoking, and limiting alcohol intake. (session 2023-03-23)\n- User identifies consistency as the primary challenge in maintaining new sleep habits and plans to overcome this by setting small, incremental goals, such as shifting bedtime by 15 minutes. (session 2023-06-22)\n- User was advised to arrive at their yoga class 10-15 minutes early to sign waivers, set up their mat, meet the instructor, and get settled. (session 2023-07-14)\n- User is planning a trip to the Amazon rainforest and is actively researching its ecosystem, conservation efforts, and indigenous communities. (session 2023-07-15)\n- User was recommended various articles, books, and documentaries about the Amazon rainforest, including 'The Sixth Extinction' by Elizabeth Kolbert, 'One River' by Wade Davis, and the Netflix documentary 'Our Planet: Amazon'. (session 2023-07-15)\n- User tracks their sleep metrics, including duration and quality, using a Fitbit Charge 3 and reviews the data every morning. (session 2023-06-22)\n- User has already locked in their mortgage interest rate and is seeking to understand how interest rates and loan terms impact monthly payments and total costs over the life of the loan. (session 2023-03-24)\n- User visited Yosemite National Park around March 27, 2023, and captured sunset photos of the valley floor and Half Dome from Tunnel View. (session 2023-04-24)\n- User is planning to attend a Vinyasa flow yoga class at a local studio near their apartment and intends to wear their new Lululemon outfit. (session 2023-07-14)\n- User started using a white noise machine on June 22, 2023, and finds the rain sounds setting effective for falling asleep and improving sleep quality. (session 2023-06-22)\n- User is specifically interested in the Yanomami people, seeking in-depth resources on their culture, traditions, and struggles with modernization, disease, and land exploitation. (session 2023-07-15)\n- User regularly reads news, science, and entertainment magazines, and specifically follows The New York Times and The Daily News as newspapers. (session 2023-04-20)\n- User was informed about key closing documents including the Closing Disclosure, Deed, Mortgage, Promissory Note, and Settlement Statement, with advice to review them carefully for accuracy before signing. (session 2023-03-24)\n- User purchased a new Lululemon workout outfit on July 14, 2023, consisting of a pair of leggings, two tops, and a jacket. (session 2023-07-14)\n- User reads Rolling Stone, particularly its online content, and also regularly reads The Atlantic and Medium online. (session 2023-04-20)\n- User was informed that high blood pressure is often a 'silent killer' with no symptoms, but severe cases or hypertensive crises may present with severe headache, chest pain, shortness of breath, blurred vision, or difficulty speaking. (session 2023-03-23)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 41,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 29.8,
+  "total": 31.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

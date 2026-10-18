@@ -1,0 +1,126 @@
+{
+ "qid": "10e09553",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+ "reference": "7",
+ "question_date": "2023-12-06 11:18",
+ "sessions": [
+  {
+   "id": "sharegpt_d4Csa8p_0",
+   "date": "2023-07-23 05:30",
+   "evidence": false
+  },
+  {
+   "id": "2d58d2d2",
+   "date": "2023-08-08 16:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_1",
+   "date": "2023-08-11 03:49",
+   "evidence": true
+  },
+  {
+   "id": "7d1f5395",
+   "date": "2023-08-13 10:26",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IZ5NgqD_0",
+   "date": "2023-09-20 05:22",
+   "evidence": false
+  },
+  {
+   "id": "e5f785de",
+   "date": "2023-09-22 13:37",
+   "evidence": false
+  },
+  {
+   "id": "58ab5fc5",
+   "date": "2023-10-04 13:50",
+   "evidence": false
+  },
+  {
+   "id": "238fac70_1",
+   "date": "2023-11-12 05:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_2",
+   "date": "2023-11-30 00:28",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jEOqeWh_0",
+   "date": "2023-12-01 01:05",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user has been practicing yoga for 6 weeks, enjoys it, and has tried Hatha, Vinyasa flow, and Restorative yoga. They are interested in pursuing a yoga teacher training program in the future and are looking for ways to prepare. The user also wants to improve their downward-facing dog.\nThe user is getting back into fishing and hunting and is looking for tools to organize their gear and log their experiences, catches, and what techniques work well.\nOn 7/10, the user caught 7 largemouth bass at Lake Michigan with their friend Alex. On 7/22, they caught 9 largemouth bass at Waukegan harbor with Alex, using spinnerbaits and plastic worms. They are currently looking into buying a tree stand for deer hunting and want advice on what to consider and beginner-friendly recommendations.\nThe user is also looking for educational resources on deer hunting strategies, specifically regarding tree stand use, trail camera setup, and deer calling techniques.\nThe user is specifically asking for tips on choosing the right tree for a stand and how to set it up safely.\nThe user is looking for recommendations for bass fishing lures, specifically for largemouth bass.\nThe user's maternal grandparents celebrated their 50th wedding anniversary on June 17th. The user's paternal grandparents live in Orlando, Florida.\nThe user visited New York City in May with friends and went shopping on Fifth Avenue, browsing luxury stores but only buying souvenirs. They also splurged on a $200/person Michelin-starred dinner during that trip, though they don't recall the name of the restaurant.\nThe user has a puppy named Rocky who has training classes on Saturday mornings. They also have a pet named Luna whose teeth need to be brushed daily. The user prefers to keep Sundays for relaxation and errands.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-18T03:51:22.034575+00:00', 'time_ago': '6s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-06 11:18] How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?'}, {'timestamp': '2026-10-18T03:51:10.487303+00:00', 'time_ago': '18s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'I absolutely remember that! You and Alex had a fantastic day out at Waukegan Harbor on July 22nd, landing 9 largemouth bass. That’s a memory worth keeping, and it\\'s awesome that you\\'re applying that same methodical, research-oriented approach to your deer hunting. \\n\\nWatching those videos is a smart move—there is so much to learn about deer behavior, trail camera placement, and stand selection that you just can\\'t get from reading alone.\\n\\nSince you\\'re about to put that research into practice with the deer calls, here are a few things to keep in mind while you\\'re out there with Alex:\\n\\n*   **Patience is Key:** Just like how you had to adjust your fishing tactics once you understood the patterns of the bass, deer hunting is all about adapting to what the deer are doing in that specific moment. Don\\'t get discouraged if the calls don\\'t bring one in immediately; the \"silent watch\" is just as important as the calling.\\n*   **The \"Alex Factor\":** Since you’re hunting with a friend, use that to your advantage! If you are set up in two different stands, you can communicate (via text or radio if legal and safe in your area) about what you are seeing. If one of you spots a deer that\\'s moving out of range, the other might be able to use a soft call to \"steer\" it or stop it.\\n*   **Safety First (Always):** I know we talked about tree stand safety earlier, but with the excitement of trying new calls and potentially having a buck approach, it\\'s easy to get distracted. Even if a buck is right in front of you, **never** unhook from your harness or compromise your safety setup.\\n\\nI\\'d love to hear how the trip goes once you\\'re back! Do you think you\\'ll stick with the \"can\" style bleat calls to start, or are you going to try your hand at the grunt calls too? Regardless of what you use, make sure you take some time to enjoy the quiet of the woods—it\\'s a great contrast to the action on the lake!'}, {'timestamp': '2026-10-18T03:51:07.519662+00:00', 'time_ago': '21s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-30 00:28] I'm planning to try out some of those deer calls during our next hunting trip. By the way, speaking of hunting, I've been watching some YouTube videos on deer hunting strategies and tactics, just like I did before our last fishing trip to Lake Michigan. Remember that trip when we caught 9 largemouth bass with Alex?\"}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "According to your records, on July 10th, you caught 7 largemouth bass at Lake Michigan with your friend Alex.",
+ "dump": "<human>\n\nThe user has been practicing yoga for 6 weeks, enjoys it, and has tried Hatha, Vinyasa flow, and Restorative yoga. They are interested in pursuing a yoga teacher training program in the future and are looking for ways to prepare. The user also wants to improve their downward-facing dog.\nThe user is getting back into fishing and hunting and is looking for tools to organize their gear and log their experiences, catches, and what techniques work well.\nOn 7/10, the user caught 7 largemouth bass at Lake Michigan with their friend Alex. On 7/22, they caught 9 largemouth bass at Waukegan harbor with Alex, using spinnerbaits and plastic worms. They are currently looking into buying a tree stand for deer hunting and want advice on what to consider and beginner-friendly recommendations.\nThe user is also looking for educational resources on deer hunting strategies, specifically regarding tree stand use, trail camera setup, and deer calling techniques.\nThe user is specifically asking for tips on choosing the right tree for a stand and how to set it up safely.\nThe user is looking for recommendations for bass fishing lures, specifically for largemouth bass.\nThe user's maternal grandparents celebrated their 50th wedding anniversary on June 17th. The user's paternal grandparents live in Orlando, Florida.\nThe user visited New York City in May with friends and went shopping on Fifth Avenue, browsing luxury stores but only buying souvenirs. They also splurged on a $200/person Michelin-starred dinner during that trip, though they don't recall the name of the restaurant.\nThe user has a puppy named Rocky who has training classes on Saturday mornings. They also have a pet named Luna whose teeth need to be brushed daily. The user prefers to keep Sundays for relaxation and errands.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"largemouth bass Lake Michigan Alex\"})",
+   "conversation_search({\"query\": \"largemouth bass\"})",
+   "conversation_search({\"query\": \"7/10 largemouth bass\"})",
+   "conversation_search({\"query\": \"July 10\"})"
+  ],
+  "blocks_chars": 1987,
+  "write_steps": 47,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 360.5,
+  "total": 382.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

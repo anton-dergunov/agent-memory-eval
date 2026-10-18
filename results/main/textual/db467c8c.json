@@ -1,0 +1,91 @@
+{
+ "qid": "db467c8c",
+ "arm": "textual",
+ "split": "main",
+ "question": "How long have my parents been staying with me in the US?",
+ "reference": "nine months",
+ "question_date": "2023-10-22 09:15",
+ "sessions": [
+  {
+   "id": "sharegpt_wrN9uUo_53",
+   "date": "2023-06-23 06:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_165276",
+   "date": "2023-07-08 02:17",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ocf8Lud_39",
+   "date": "2023-07-11 23:49",
+   "evidence": false
+  },
+  {
+   "id": "76967d22",
+   "date": "2023-07-16 03:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_1",
+   "date": "2023-07-16 07:07",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_48690",
+   "date": "2023-07-20 20:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_497634",
+   "date": "2023-09-21 19:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_2",
+   "date": "2023-10-20 00:00",
+   "evidence": true
+  },
+  {
+   "id": "16ebc8f8_1",
+   "date": "2023-10-20 04:34",
+   "evidence": false
+  },
+  {
+   "id": "08693f68_1",
+   "date": "2023-10-20 12:15",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is an author or storyteller currently developing a book titled *The Mirror's Reflection*.\n* The user is interested in narrative structure, specifically chapter outlines and character-driven plot development.\n* The user is interested in urban art, public heritage, and the cultural identity of cities, specifically expressing interest in the public art and architecture of Barcelona, Spain.\n* The user is involved in the development of a software platform for \"Snow Mountain Capital\" (SMC), a venture capital firm.\n* The user is a marketing specialist with approximately 12 months of experience in the field (as of 2023-10-20).\n* The user previously lived in the West Village, New York City, and is planning a return trip to the city.\n* The user currently resides in the US and has been living with their parents for the past nine months (as of 2023-10-20).\n* The user's parents are actively involved in the household, assisting with chores, cooking, and taking English language classes.\n* The user is currently researching the US green card application process and requirements, with a specific focus on addressing the legal implications of their parents' nine-month visa overstay.\n* The user is concerned about maintaining skin health, specifically hand softness, and is seeking advice on moisturizing routines and products to combat dryness.\n* The user is interested in American history and social justice, specifically the historical impact of the Emancipation Proclamation and the ongoing struggle against systemic racism and discrimination in the United States.\n* The user attends Zumba classes on Tuesdays and is currently working on mastering side-to-side salsa shimmies.\n* The user is currently attending a general cooking class on Wednesday evenings to improve their culinary skills.\n* The user has a friend named Emily who is an avid spinning enthusiast.\n\n### Preferences and habits\n* The user prefers a \"show, don't tell\" approach to storytelling, specifically requesting that historical context and the \"powers\" of objects be revealed indirectly through dialogue rather than through narrator exposition.\n* The user prefers scenes to be approximately 400 words in length.\n* The user values specific, atmospheric descriptions of settings.\n* The user avoids \"closing\" narrative paragraphs that summarize or moralize about the plot.\n* The user is adopting modern software development workflows, including version control via Git/GitHub and cloud-based development environments like GitHub Codespaces.\n* The user actively seeks to stay current with industry trends by following leaders on social media, reading marketing blogs/websites, and attending webinars and online courses.\n* The user is proactive about professional networking, specifically looking to attend industry conferences to expand their circle and gain insights into the non-profit sector.\n* The user is interested in skincare maintenance, specifically looking for effective hand creams and strategies to prevent dryness during winter months.\n* The user values proactive engagement with social issues and is interested in actionable steps to combat discrimination.\n* The user practices meal prepping on Sundays for the entire week to ensure they have healthy, reheatable dinners.\n* The user is interested in healthy, low-sugar breakfast options, such as smoothies containing Greek yogurt, frozen berries, chia seeds, and hemp seeds.\n* The user values the culinary technique of \"layering flavors\" and is becoming more confident in cooking proteins to the correct temperature.\n* The user is motivated by setting specific fitness goals, tracking progress (via apps or logs), and mixing up workout routines to avoid plateaus.\n\n### Ongoing situations and plans\n* The user is actively writing and refining *The Mirror's Reflection*, a story about a cursed mirror that shows viewers an alternate future where their personal tragedies or losses never occurred.\n* The user is planning the website and software architecture for Snow Mountain Capital (SMC).\n* The user is planning a trip to New York City and intends to revisit coffee shops in the West Village.\n* The user is considering a career transition into the non-profit sector.\n* The user is actively seeking a qualified immigration attorney to assist with their green card application and to navigate the legal complexities regarding their parents' nine-month visa overstay, including potential waivers of inadmissibility (Form I-601).\n* The user plans to research and potentially purchase recommended hand care products to improve skin hydration.\n* The user plans to experiment with Thai curry recipes.\n* The user is planning to start spinning classes at the gym next month (November 2023) to complement their Zumba routine and provide a low-impact workout option.\n* The user intends to practice salsa shimmies 10-15 minutes, 3-4 times a week, to improve their technique for their Tuesday Zumba class.\n\n### Changes over time\n* Added interest in urban public art and heritage as of 2023-07-08.\n* Added interest in software development, version control (Git/GitHub), and cloud-based development (Codespaces) for the Snow Mountain Capital project as of 2023-07-11.\n* Added professional background as a marketing specialist and interest in a career transition to the non-profit sector as of 2023-07-16.\n* Added travel plans to NYC (West Village) as of 2023-07-16.\n* Added information regarding current residence with parents in the US and interest in the green card application process as of 2023-07-16.\n* Added interest in skincare and hand maintenance as of 2023-07-20.\n* Added interest in American history and social justice advocacy as of 2023-09-21.\n* Updated parents' duration of stay in the US to nine months as of 2023-10-20; previously eight months as of 2023-09-21.\n* Added focus on legal consultation for visa overstay and waiver of inadmissibility as of 2023-10-20.\n* Added interest in meal prepping, healthy cooking, and attendance at a weekly cooking class as of 2023-10-20.\n* Added Zumba routine (Tuesdays) and plans to begin spinning classes in November 2023 as of 2023-10-20.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   According to the \"Personal facts\" section, the user has been living with their parents for the past nine months as of 2023-10-20.\n    *   The \"Changes over time\" section confirms that the parents' duration of stay was updated to nine months as of 2023-10-20.\n\n2.  **Reason over the information:**\n    *   The current date is 2023-10-22.\n    *   Since the record stating the parents have been staying with the user for nine months was updated on 2023-10-20, and only two days have passed since that update, the duration remains nine months.\n\n**Answer:** Your parents have been staying with you in the US for nine months.",
+ "dump": "### Personal facts\n* The user is an author or storyteller currently developing a book titled *The Mirror's Reflection*.\n* The user is interested in narrative structure, specifically chapter outlines and character-driven plot development.\n* The user is interested in urban art, public heritage, and the cultural identity of cities, specifically expressing interest in the public art and architecture of Barcelona, Spain.\n* The user is involved in the development of a software platform for \"Snow Mountain Capital\" (SMC), a venture capital firm.\n* The user is a marketing specialist with approximately 12 months of experience in the field (as of 2023-10-20).\n* The user previously lived in the West Village, New York City, and is planning a return trip to the city.\n* The user currently resides in the US and has been living with their parents for the past nine months (as of 2023-10-20).\n* The user's parents are actively involved in the household, assisting with chores, cooking, and taking English language classes.\n* The user is currently researching the US green card application process and requirements, with a specific focus on addressing the legal implications of their parents' nine-month visa overstay.\n* The user is concerned about maintaining skin health, specifically hand softness, and is seeking advice on moisturizing routines and products to combat dryness.\n* The user is interested in American history and social justice, specifically the historical impact of the Emancipation Proclamation and the ongoing struggle against systemic racism and discrimination in the United States.\n* The user attends Zumba classes on Tuesdays and is currently working on mastering side-to-side salsa shimmies.\n* The user is currently attending a general cooking class on Wednesday evenings to improve their culinary skills.\n* The user has a friend named Emily who is an avid spinning enthusiast.\n\n### Preferences and habits\n* The user prefers a \"show, don't tell\" approach to storytelling, specifically requesting that historical context and the \"powers\" of objects be revealed indirectly through dialogue rather than through narrator exposition.\n* The user prefers scenes to be approximately 400 words in length.\n* The user values specific, atmospheric descriptions of settings.\n* The user avoids \"closing\" narrative paragraphs that summarize or moralize about the plot.\n* The user is adopting modern software development workflows, including version control via Git/GitHub and cloud-based development environments like GitHub Codespaces.\n* The user actively seeks to stay current with industry trends by following leaders on social media, reading marketing blogs/websites, and attending webinars and online courses.\n* The user is proactive about professional networking, specifically looking to attend industry conferences to expand their circle and gain insights into the non-profit sector.\n* The user is interested in skincare maintenance, specifically looking for effective hand creams and strategies to prevent dryness during winter months.\n* The user values proactive engagement with social issues and is interested in actionable steps to combat discrimination.\n* The user practices meal prepping on Sundays for the entire week to ensure they have healthy, reheatable dinners.\n* The user is interested in healthy, low-sugar breakfast options, such as smoothies containing Greek yogurt, frozen berries, chia seeds, and hemp seeds.\n* The user values the culinary technique of \"layering flavors\" and is becoming more confident in cooking proteins to the correct temperature.\n* The user is motivated by setting specific fitness goals, tracking progress (via apps or logs), and mixing up workout routines to avoid plateaus.\n\n### Ongoing situations and plans\n* The user is actively writing and refining *The Mirror's Reflection*, a story about a cursed mirror that shows viewers an alternate future where their personal tragedies or losses never occurred.\n* The user is planning the website and software architecture for Snow Mountain Capital (SMC).\n* The user is planning a trip to New York City and intends to revisit coffee shops in the West Village.\n* The user is considering a career transition into the non-profit sector.\n* The user is actively seeking a qualified immigration attorney to assist with their green card application and to navigate the legal complexities regarding their parents' nine-month visa overstay, including potential waivers of inadmissibility (Form I-601).\n* The user plans to research and potentially purchase recommended hand care products to improve skin hydration.\n* The user plans to experiment with Thai curry recipes.\n* The user is planning to start spinning classes at the gym next month (November 2023) to complement their Zumba routine and provide a low-impact workout option.\n* The user intends to practice salsa shimmies 10-15 minutes, 3-4 times a week, to improve their technique for their Tuesday Zumba class.\n\n### Changes over time\n* Added interest in urban public art and heritage as of 2023-07-08.\n* Added interest in software development, version control (Git/GitHub), and cloud-based development (Codespaces) for the Snow Mountain Capital project as of 2023-07-11.\n* Added professional background as a marketing specialist and interest in a career transition to the non-profit sector as of 2023-07-16.\n* Added travel plans to NYC (West Village) as of 2023-07-16.\n* Added information regarding current residence with parents in the US and interest in the green card application process as of 2023-07-16.\n* Added interest in skincare and hand maintenance as of 2023-07-20.\n* Added interest in American history and social justice advocacy as of 2023-09-21.\n* Updated parents' duration of stay in the US to nine months as of 2023-10-20; previously eight months as of 2023-09-21.\n* Added focus on legal consultation for visa overstay and waiver of inadmissibility as of 2023-10-20.\n* Added interest in meal prepping, healthy cooking, and attendance at a weekly cooking class as of 2023-10-20.\n* Added Zumba routine (Tuesdays) and plans to begin spinning classes in November 2023 as of 2023-10-20.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 29.2,
+  "total": 30.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

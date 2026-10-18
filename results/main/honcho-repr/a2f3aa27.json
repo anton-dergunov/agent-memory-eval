@@ -1,0 +1,96 @@
+{
+ "qid": "a2f3aa27",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many followers do I have on Instagram now?",
+ "reference": 1300,
+ "question_date": "2023-06-15 23:26",
+ "sessions": [
+  {
+   "id": "ultrachat_59277",
+   "date": "2023-05-04 10:47",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_181699",
+   "date": "2023-05-25 03:46",
+   "evidence": false
+  },
+  {
+   "id": "b4f28f96_1",
+   "date": "2023-05-25 04:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_5126c02d_1",
+   "date": "2023-05-25 05:26",
+   "evidence": true
+  },
+  {
+   "id": "answer_5126c02d_2",
+   "date": "2023-05-25 09:28",
+   "evidence": true
+  },
+  {
+   "id": "b65f51fb_5",
+   "date": "2023-05-25 15:40",
+   "evidence": false
+  },
+  {
+   "id": "98c6946f_1",
+   "date": "2023-05-25 15:56",
+   "evidence": false
+  },
+  {
+   "id": "57bf4122_1",
+   "date": "2023-05-25 19:24",
+   "evidence": false
+  },
+  {
+   "id": "39709ef6_2",
+   "date": "2023-06-05 22:13",
+   "evidence": false
+  },
+  {
+   "id": "74ef19f0_1",
+   "date": "2023-06-08 20:21",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-25 05:28:00] user has 1250 followers on Instagram as of May 25, 2023.\n[2023-05-25 05:28:00] user is looking to optimize their Instagram content strategy.\n[2023-05-25 05:28:00] user posts regularly on Instagram.\n[2023-05-25 05:30:00] user has 1250 followers on Instagram\n[2023-05-25 05:32:00] user wants tips on how to make Instagram Live streams more engaging and interactive.\n[2023-05-25 05:32:00] user is considering using Instagram Live more frequently.\n[2023-05-25 05:34:00] user is planning to conduct a Q&A session during their next Instagram live stream.\n[2023-05-25 09:32:00] user estimates their Instagram follower count is close to 1300.\n[2023-06-08 20:23:00] user requires a soundbar that includes a wireless subwoofer.\n[2023-06-08 20:23:00] user intends to use a soundbar in a medium-sized room.\n[2023-06-08 20:23:00] user intends to use a soundbar primarily for watching movies and TV shows.\n[2023-06-08 20:27:00] user is looking for a sound system with good sound quality and a wireless subwoofer.\n[2023-06-08 20:27:00] user wants to know if the Sonos app can control TV volume and settings.\n[2023-06-08 20:27:00] user decided to purchase the Sonos Beam with Wireless Subwoofer.\n[2023-06-08 20:27:00] user has a medium-sized room.\n[2023-06-08 20:27:00] user has a budget of $300-$400 for a sound system.\n[2023-06-08 20:27:00] user believes Sonos products are known for high quality.\n[2023-06-08 20:31:00] user wants to know if the Sonos app can be used to set up specific sound profiles for movies or music on the Sonos Beam.\n[2023-06-08 20:31:00] user wants to know if the Sonos app can be used to customize sound settings like bass and treble for the Sonos Beam.\n[2023-06-08 20:31:00] user wants to switch the audio input on their TV using the Sonos app.\n\n## Deductive Observations\n\n[2023-06-08 20:27:00] user resides in New York City.\n   Premises:\n   - user is looking for free or low-cost CompTIA A+ certification options in New York City.\n\n[2023-06-08 20:27:00] user is interested in pursuing a career in Information Technology.\n   Premises:\n   - user is interested in taking a certification course in IT.\n   - user is interested in taking a CompTIA A+ certification course.\n\n[2023-06-08 20:27:00] user is a home entertainment enthusiast.\n   Premises:\n   - user owns a new smart TV.\n   - user purchased the Sonos Beam with Wireless Subwoofer.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user researches features and functionality in depth before finalizing a purchase.\n   **Type**: behavior\n   **Sources**:\n   - user wants to know if the Sonos app can be used to set up specific sound profiles for movies or music on the Sonos Beam.\n   - user wants to know if the Sonos app can be used to customize sound settings like bass and treble for the Sonos Beam.\n   - user wants to switch the audio input on their TV using the Sonos app.\n   - user wants to know if the Sonos app can control TV volume and settings.\n\n **Pattern** [high]: user sets specific budgetary and spatial requirements when planning purchases.\n   **Type**: tendency\n   **Sources**:\n   - user has a medium-sized room.\n   - user has a budget of $300-$400 for a sound system.\n   - user intends to use a soundbar in a medium-sized room.\n   - user intends to spend between $300 and $400 on a soundbar.\n\n",
+ "answer": "To determine your current Instagram follower count, let's look at the relevant information provided in the history:\n\n**Step 1: Extract relevant information**\n*   [2023-05-25 05:28:00]: You had 1250 followers.\n*   [2023-05-25 05:30:00]: You had 1250 followers.\n*   [2023-05-25 09:32:00]: You estimated your follower count was close to 1300.\n\n**Step 2: Reason over the information**\n*   The last recorded data point regarding your follower count is from May 25, 2023, where you estimated that you were \"close to 1300\" followers.\n*   There is no updated information regarding your Instagram follower count between May 25, 2023, and the current date (June 15, 2023).\n\n**Answer:**\nBased on the history provided, the last estimate you gave for your Instagram follower count was that it was close to 1300 as of May 25, 2023. There is no more recent data to provide an exact current number.",
+ "dump": "- [explicit] user believes that collaboration is key to reducing plastic waste.\n- [explicit] user is interested in strategies for reducing ocean plastic waste.\n- [explicit] user is interested in methods for ensuring government and industry accountability regarding environmental strategies.\n- [explicit] user is interested in ways to encourage cities and businesses to take action against plastic waste.\n- [explicit] user is interested in learning about successful collaboration efforts for reducing plastic waste.\n- [explicit] user is seeking tips on how small businesses can go paperless effectively.\n- [explicit] user is interested in examples of businesses that have successfully reduced their plastic waste.\n- [explicit] user likes the idea of small businesses going paperless.\n- [explicit] user finds it encouraging to see big businesses taking steps to reduce plastic waste.\n- [explicit] user likes the idea of sharing success stories to inspire others to take action against plastic waste.\n- [explicit] user is interested in whether small businesses can make a difference in reducing plastic waste.\n- [explicit] user is interested in the Peshwas' system of taxation and revenue collection.\n- [explicit] user is interested in methods used by the Peshwas to encourage cultivators to pay taxes on time.\n- [explicit] user is interested in penalties for cultivators who failed to pay taxes on time under the Peshwas.\n- [explicit] user intends to use the Airlink 100 Bus as transport from the airport to their accommodation.\n- [explicit] user has secured a flat share in the Marchmont area of Edinburgh.\n- [explicit] user is moving to Edinburgh for a master's program in Computer Science at the University of Edinburgh.\n- [explicit] user is traveling from Edinburgh Airport to Haymarket Station.\n- [explicit] user intends to take the Airlink 100 Bus to travel to Haymarket Station.\n- [explicit] user is interested in the opening hours and payment methods of the Travelshop at Haymarket Station.\n- [explicit] user intends to purchase a Ridacard.\n- [explicit] user is planning to look into Lebara and Giffgaff as potential mobile service providers\n- [explicit] user is an international student\n- [explicit] user has 1250 followers on Instagram as of May 25, 2023.\n- [explicit] user is looking to optimize their Instagram content strategy.\n- [explicit] user posts regularly on Instagram.\n- [explicit] user uses a consistent aesthetic on Instagram.\n- [explicit] user has 1250 followers on Instagram\n- [explicit] user wants tips on how to make Instagram Live streams more engaging and interactive.\n- [explicit] user is considering using Instagram Live more frequently.\n- [explicit] user wants to know how to encourage viewers to ask questions during a live stream.\n- [explicit] user is planning to conduct a Q&A session during their next Instagram live stream.\n- [explicit] user is seeking advice on how to make a Q&A session engaging and interactive.\n- [explicit] user estimates their Instagram follower count is close to 1300.\n- [explicit] user attended a recent industry event.\n- [explicit] user's niche includes content creation and digital marketing.\n- [explicit] user has an audience primarily from the US, UK, and Australia.\n- [explicit] user intends to start collaborating with micro-influencers\n- [explicit] user has been following Ashley Gaida's content on content creation and digital marketing.\n- [explicit] user operates a blog.\n- [explicit] user plans to ask Ashley Gaida to write a guest blog post about creating engaging Instagram content.\n- [explicit] user intends to reach out to Ashley Gaida to propose a guest blog post collaboration.\n- [explicit] user is updating their online presence by changing their name on various websites.\n- [explicit] user set up a new email address with a new last name on February 12th, 2023.\n- [explicit] user is currently transitioning to using a new email address for all their online accounts.\n- [explicit] user requires assistance with changing their username on Facebook, Twitter, LinkedIn, and Amazon.\n- [explicit] user intends to update information on eBay and store loyalty program accounts.\n- [explicit] user has online shopping accounts on eBay.\n- [explicit] user has store loyalty program accounts.\n- [explicit] user needs to update credit card information on online shopping and loyalty program accounts.\n- [explicit] user intends to create a spreadsheet to track online account updates.\n- [explicit] user is worried about remembering to update credit card information on less frequently used online accounts.\n- [explicit] user intends to create a spreadsheet to track progress in updating online accounts.\n- [explicit] user intends to set reminders to update specific online accounts.\n- [explicit] user intends to review their credit report to identify accounts associated with old information.\n- [explicit] user is seeking resources or guides for painting realistic skin tones and facial features on miniature figures.\n- [explicit] user is planning to paint a 1/16 scale figure of a WWII German soldier.\n- [explicit] user is seeking resources or guides for painting uniforms and equipment on historical figures.\n- [explicit] user is interested in learning how to paint miniature figures.\n- [explicit] user has experience with model building.\n- [explicit] user is interested in Vallejo paint sets or colors suitable for painting a WWII German soldier's uniform and equipment.\n- [explicit] user is painting a 1/16 scale WWII German soldier figure.\n- [explicit] user intends to use Vallejo paints for their 1/16 scale WWII German soldier figure.\n- [explicit] user is building a 1/16 scale WWII German soldier figure.\n- [explicit] user is interested in creating a diorama or base for a model figure.\n- [explicit] user is interested in creating groundwork and scenery for a model figure.\n- [explicit] user owns a 1/16 scale WWII German soldier figure.\n- [explicit] user spends approximately 2 to 3 hours on model building every Saturday and Sunday.\n- [explicit] user has made at least 10 online purchases in the month of May 2023.\n- [explicit] user finds the current method of using a notes app to track online orders to be messy.\n- [explicit] user is using a notes app on a phone to track online orders.\n- [explicit] user has made purchases from Amazon, ASOS, and Zappos.\n- [explicit] user is considering tracking the total cost of each order to monitor spending.\n- [explicit] user plans to add a column for delivery time to their order tracking spreadsheet.\n- [explicit] user plans to add a column for product category to their order tracking spreadsheet.\n- [explicit] user has a large number of shopping apps installed on their phone.\n- [explicit] user finds it difficult to track which shopping apps they are logged into.\n- [explicit] user plans to add a column for shipping method to their order tracking spreadsheet.\n- [explicit] user intends to reduce their online shopping frequency.\n- [explicit] user experiences impulse buying when browsing through shopping apps on their phone.\n- [explicit] user intends to implement a 'one in, one out' policy for their online shopping.\n- [explicit] user plans to either discard or donate an old item whenever they purchase a new item.\n- [explicit] user intends to expand a \"one in, one out\" possession policy to online shopping for electronics and home goods.\n- [explicit] user is currently adjusting to the neighborhoods and areas of NYC.\n- [explicit] user arrived in NYC from Kenya on June 15, 2023.\n- [explicit] user is unfamiliar with the public transportation system in NYC.\n- [explicit] user is looking for a job.\n- [explicit] user is currently improving their English language skills.\n- [explicit] user is eager to start working and supporting themselves.\n- [explicit] user is seeking affordable options for certification courses in NYC.\n- [explicit] user is interested in taking certification courses to improve their skills.\n- [explicit] user is seeking free or low-cost IT certification courses available in NYC.\n- [explicit] user is interested in taking a certification course in IT.\n- [explicit] user has experience with computers from time spent in Kenya.\n- [explicit] user is looking for free or low-cost CompTIA A+ certification options in New York City.\n- [explicit] user is interested in taking a CompTIA A+ certification course.\n- [explicit] user intends to use a soundbar in a medium-sized room.\n- [explicit] user owns a new smart TV.\n- [explicit] user purchased a new smart TV for less than $700.\n- [explicit] user intends to use a soundbar primarily for watching movies and TV shows.\n- [explicit] user requires a soundbar that includes a wireless subwoofer.\n- [explicit] user requires a soundbar with good sound quality.\n- [explicit] user intends to spend between $300 and $400 on a soundbar.\n- [explicit] user wants to know if the Sonos app can control TV volume and settings.\n- [explicit] user decided to purchase the Sonos Beam with Wireless Subwoofer.\n- [explicit] user believes Sonos products are known for high quality.\n- [explicit] user has a medium-sized room.\n- [explicit] user has a budget of $300-$400 for a sound system.\n- [explicit] user is looking for a sound system with good sound quality and a wireless subwoofer.\n- [explicit] user wants to switch the audio input on their TV using the Sonos app.\n- [explicit] user wants to know if the Sonos app can be used to customize sound settings like bass and treble for the Sonos Beam.\n- [explicit] user wants to know if the Sonos app can be used to set up specific sound profiles for movies or music on the Sonos Beam.\n- [deductive] user is interested in pursuing a career in Information Technology.\n- [deductive] user is a home entertainment enthusiast.\n- [deductive] user resides in New York City.\n- [inductive] user researches features and functionality in depth before finalizing a purchase.\n- [inductive] user sets specific budgetary and spatial requirements when planning purchases.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 139.7,
+  "total": 143.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

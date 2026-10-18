@@ -1,0 +1,131 @@
+{
+ "qid": "6a27ffc2",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many videos of Corey Schafer's Python programming series have I completed so far?",
+ "reference": "30",
+ "question_date": "2023-06-09 01:44",
+ "sessions": [
+  {
+   "id": "sharegpt_y1IBjYa_0",
+   "date": "2023-04-24 05:03",
+   "evidence": false
+  },
+  {
+   "id": "ae00973d_5",
+   "date": "2023-04-26 23:25",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_169777",
+   "date": "2023-05-08 10:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_87812",
+   "date": "2023-05-09 14:23",
+   "evidence": false
+  },
+  {
+   "id": "f684ac4c_3",
+   "date": "2023-05-24 03:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_1",
+   "date": "2023-05-24 18:34",
+   "evidence": true
+  },
+  {
+   "id": "6ae451d1_2",
+   "date": "2023-05-24 23:56",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_2",
+   "date": "2023-05-26 00:03",
+   "evidence": true
+  },
+  {
+   "id": "4604bc73_3",
+   "date": "2023-05-26 04:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_505209",
+   "date": "2023-06-03 21:16",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user enjoys film photography, collecting vinyl records, and collecting stamps. They have an interest in the 1960s aesthetic.\nThe user has a sister who does not enjoy heavy strategy games.\n\nThe user is working on a text analysis project, specifically sentiment analysis, using Python, spaCy, and likely Scikit-learn. They are interested in feature extraction from word embeddings and best practices for sentiment analysis features.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T02:32:07.241653+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-09 01:44] How many videos of Corey Schafer's Python programming series have I completed so far?\"}, {'timestamp': '2026-10-18T02:28:02.669257+00:00', 'time_ago': '4m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-24 18:34] I'm trying to work on a project that involves text analysis and sentiment analysis. Can you recommend some popular NLP libraries in Python that I can use for this project? By the way, I've been brushing up on my Python skills by watching Corey Schafer's Python programming series on YouTube, and I've completed 20 videos so far.\"}]}",
+ "answer": "You have completed 20 videos of Corey Schafer's Python programming series so far! You mentioned this during our conversation on May 24th.",
+ "dump": "<human>\n\nThe user enjoys film photography, collecting vinyl records, and collecting stamps. They have an interest in the 1960s aesthetic.\nThe user has a sister who does not enjoy heavy strategy games.\n\nThe user is working on a text analysis project, specifically sentiment analysis, using Python, spaCy, and likely Scikit-learn. They are interested in feature extraction from word embeddings and best practices for sentiment analysis features.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Corey Schafer Python programming series completed\"})",
+   "conversation_search({\"query\": \"Corey Schafer Python\"})",
+   "conversation_search({\"query\": \"Python programming series\"})"
+  ],
+  "blocks_chars": 634,
+  "write_steps": 49,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 384.3,
+  "total": 393.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

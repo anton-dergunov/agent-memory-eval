@@ -1,0 +1,136 @@
+{
+ "qid": "4d6b87c8",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many titles are currently on my to-watch list?",
+ "reference": "25",
+ "question_date": "2023-06-03 15:47",
+ "sessions": [
+  {
+   "id": "ultrachat_121715",
+   "date": "2023-05-01 21:59",
+   "evidence": false
+  },
+  {
+   "id": "5fc83435_1",
+   "date": "2023-05-15 20:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mmYyki5_0",
+   "date": "2023-05-17 11:19",
+   "evidence": false
+  },
+  {
+   "id": "d87e86f6_1",
+   "date": "2023-05-17 22:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_1",
+   "date": "2023-05-20 10:19",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cu7TYt7_57",
+   "date": "2023-05-20 17:03",
+   "evidence": false
+  },
+  {
+   "id": "85da7827",
+   "date": "2023-05-21 06:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_2",
+   "date": "2023-05-22 03:27",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_361817",
+   "date": "2023-05-22 08:42",
+   "evidence": false
+  },
+  {
+   "id": "5c85023a_1",
+   "date": "2023-05-29 06:30",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user plays FPS games and is interested in gaming mice that offer both precision and customizability.\nThe user is considering the Logitech G502 HERO gaming mouse and is concerned about comfort during extended gaming sessions.\nThe user takes dance classes at a studio reachable by bike and is currently looking for bike lock recommendations.\nThe user decided on an 18mm shackle U-lock for their bike to ensure maximum security for their investment.\nThe user enjoys Phoebe Bridgers and The National and attended a Phoebe Bridgers concert at the Greek Theatre with their coworker Rachel.\nThe user has seen Billie Eilish live and is interested in tips for getting good spots at general admission concerts.\nThe user is interested in exploring music venues in the Los Angeles area, having already visited the Greek Theatre and the Los Angeles Forum.\nThe user has been to the Troubadour (saw Lucy Dacus there) and is looking for music festival recommendations in the LA area. They have previously attended Outside Lands in SF.\nThe user is interested in historical dramas and is considering watching \"Victoria\" and \"The Last Kingdom\".\nThe user has an interest in the historical and mechanical aspects of cryptography, including the Enigma machine and the Code Talkers.\nThe user has 25 titles on their historical drama to-watch list.\nThe user is interested in historical dramas that explore themes of social justice and human rights, specifically citing \"Schindler's List\" and \"12 Years a Slave\" as examples.\nThe user is adding \"Amistad\" and \"Hotel Rwanda\" to their to-watch list and is interested in documentaries about social justice and human rights to stay informed.\nThe user wants help organizing their 25-title to-watch list.\nThe user is interested in learning breathing techniques to help with muscle relaxation and stress.\nThe user struggles with phone usage before bed and is looking for tips to break the habit.\nThe user is interested in reading materials on climate change, motivated by an article they read in the March 21st issue of The New Yorker. The user is specifically interested in the impact of climate change on Antarctica.\n</human>\n\nTool results while answering:\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on your records, you currently have 25 titles on your historical drama to-watch list.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user plays FPS games and is interested in gaming mice that offer both precision and customizability.\nThe user is considering the Logitech G502 HERO gaming mouse and is concerned about comfort during extended gaming sessions.\nThe user takes dance classes at a studio reachable by bike and is currently looking for bike lock recommendations.\nThe user decided on an 18mm shackle U-lock for their bike to ensure maximum security for their investment.\nThe user enjoys Phoebe Bridgers and The National and attended a Phoebe Bridgers concert at the Greek Theatre with their coworker Rachel.\nThe user has seen Billie Eilish live and is interested in tips for getting good spots at general admission concerts.\nThe user is interested in exploring music venues in the Los Angeles area, having already visited the Greek Theatre and the Los Angeles Forum.\nThe user has been to the Troubadour (saw Lucy Dacus there) and is looking for music festival recommendations in the LA area. They have previously attended Outside Lands in SF.\nThe user is interested in historical dramas and is considering watching \"Victoria\" and \"The Last Kingdom\".\nThe user has an interest in the historical and mechanical aspects of cryptography, including the Enigma machine and the Code Talkers.\nThe user has 25 titles on their historical drama to-watch list.\nThe user is interested in historical dramas that explore themes of social justice and human rights, specifically citing \"Schindler's List\" and \"12 Years a Slave\" as examples.\nThe user is adding \"Amistad\" and \"Hotel Rwanda\" to their to-watch list and is interested in documentaries about social justice and human rights to stay informed.\nThe user wants help organizing their 25-title to-watch list.\nThe user is interested in learning breathing techniques to help with muscle relaxation and stress.\nThe user struggles with phone usage before bed and is looking for tips to break the habit.\nThe user is interested in reading materials on climate change, motivated by an article they read in the March 21st issue of The New Yorker. The user is specifically interested in the impact of climate change on Antarctica.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "memory_search({\"query\": \"to-watch list count\"})",
+   "conversation_search({\"query\": \"to-watch list titles count\"})"
+  ],
+  "blocks_chars": 2338,
+  "write_steps": 59,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 496.4,
+  "total": 508.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "26bdc477",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many trips have I taken my Canon EOS 80D camera on?",
+ "reference": "five",
+ "question_date": "2023-06-06 18:27",
+ "sessions": [
+  {
+   "id": "a223e307",
+   "date": "2023-03-03 02:59",
+   "evidence": false
+  },
+  {
+   "id": "2d79c1c3_2",
+   "date": "2023-03-05 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_350893",
+   "date": "2023-03-16 01:52",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_1",
+   "date": "2023-03-16 19:05",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_hMokVUA_39",
+   "date": "2023-03-18 14:10",
+   "evidence": false
+  },
+  {
+   "id": "dce08529_1",
+   "date": "2023-05-04 21:39",
+   "evidence": false
+  },
+  {
+   "id": "201d188a_4",
+   "date": "2023-05-19 15:50",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_2",
+   "date": "2023-05-30 00:43",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_438698",
+   "date": "2023-06-01 00:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pRBsKdE_5",
+   "date": "2023-06-03 07:50",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-03-16 19:09:00] user owns a Canon EOS 80D camera.\n[2023-03-16 19:09:00] user has taken their camera on trips to Yellowstone, Yosemite, and the Grand Canyon.\n[2023-03-16 19:13:00] user owns a Lowepro backpack-style camera bag.\n[2023-03-16 19:15:00] user owns an 18-135mm kit lens.\n[2023-05-30 00:45:00] user has taken the Canon EOS 80D on five previous trips.\n[2023-05-30 00:45:00] user owns a Canon EOS 80D camera.\n[2023-05-30 00:51:00] user recently obtained a new camera strap.\n[2023-05-30 00:53:00] user intends to investigate the Lowepro ProTactic 450 AW camera bag.\n[2023-06-03 07:51:00] user states the monthly operating and maintenance cost is $1,041.67.\n[2023-06-03 07:51:00] user specifies total project sources of $346,459 funded entirely by a loan, with $0 in grants.\n[2023-06-03 07:51:00] user states the number of households paying is 237.5.\n[2023-06-03 07:51:00] user is working on a case study involving a loan structure for a project in Honduras.\n[2023-06-03 07:51:00] user notes that every $10,000 grant reduces the monthly household bill by $0.70.\n[2023-06-03 07:51:00] user specifies total project uses of $346,459, consisting of $200,000 for construction, $12,000 for capitalized interest, $129,339 for a debt service reserve fund, and $5,120 for financing costs.\n[2023-06-03 07:53:00] user believes the loan term of the proposed loan structure is too short.\n[2023-06-03 07:53:00] user believes the proposed loan structure for the Agua Clara program is not a good structure.\n[2023-06-03 07:53:00] user believes that grant funding helps but does not make a big difference at small amounts.\n[2023-06-03 07:53:00] user believes that if FCI supports the loan initiative, they must provide a better interest rate and a longer loan term for the project.\n[2023-06-03 07:53:00] user believes a revenue-backed loan may be a feasible and good option if grant funding is not available.\n[2023-06-03 07:53:00] user believes the interest rate of the proposed loan structure is too high.\n\n## Deductive Observations\n\n[2023-06-03 07:53:00] user is conducting a detailed cost-benefit analysis for the Agua Clara project.\n   Premises:\n   - user states the monthly operating and maintenance cost is $1,041.67.\n   - user specifies total project uses of $346,459.\n   - user notes that every $10,000 grant reduces the monthly household bill by $0.70.\n   - user states the monthly debt service is $5,774.31.\n   - user calculates the monthly bill per household to be $28.70.\n\n[2023-06-03 07:53:00] user advocates for social safety nets and equity-focused public policy.\n   Premises:\n   - user believes it is important to address the high cost of education.\n   - user believes it is important to invest in education to provide everyone a fair chance at success regardless of financial background.\n   - user views student loan debt as a burden for young people.\n   - user believes that access to affordable healthcare is important during an economic recession.\n   - user believes that having safety net programs such as unemployment benefits and food assistance can help prevent individuals from falling into poverty during an economic recession.\n   - user believes that universal healthcare could help prevent individuals from falling into financial hardship due to medical bills during an economic downturn.\n\n[2023-06-03 07:53:00] user is involved in a financial feasibility study for a water or infrastructure project in Honduras (Agua Clara program).\n   Premises:\n   - user is working on a case study involving a loan structure for a project in Honduras.\n   - user believes the proposed loan structure for the Agua Clara program is not a good structure.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user exhibits a critical and analytical approach when evaluating financial structures, often identifying specific shortcomings in loan terms and interest rates.\n   **Type**: behavior\n   **Sources**:\n   - user believes the loan term of the proposed loan structure is too short.\n   - user believes the interest rate of the proposed loan structure is too high.\n   - user believes the proposed loan structure for the Agua Clara program is not a good structure.\n\n **Pattern** [medium]: user consistently focuses on social equity and economic accessibility, both in individual financial project modeling and in broader public policy discussions.\n   **Type**: personality\n   **Sources**:\n   - user believes it is important to address the high cost of education.\n   - user believes it is important to invest in education to provide everyone a fair chance at success regardless of financial background.\n   - user calculates the monthly bill per household to be $28.70.\n   - user notes that every $10,000 grant reduces the monthly household bill by $0.70.\n\n",
+ "answer": "To determine how many trips you have taken your Canon EOS 80D camera on, we follow these steps:\n\n**Step 1: Extract relevant information**\n*   [2023-03-16 19:09:00] The user has taken their Canon EOS 80D camera on trips to Yellowstone, Yosemite, and the Grand Canyon.\n*   [2023-05-30 00:45:00] The user has taken the Canon EOS 80D on five previous trips.\n\n**Step 2: Reason over the information**\n*   The observation from 2023-03-16 lists three specific locations (Yellowstone, Yosemite, and the Grand Canyon).\n*   The observation from 2023-05-30 provides a specific count of the total trips taken with the camera up to that date, stating there have been \"five previous trips.\"\n\n**Answer:**\nYou have taken your Canon EOS 80D camera on five trips.",
+ "dump": "- [explicit] user saved $12 on a $60 Walmart bill using a 20% off coupon.\n- [explicit] user used the Target coupon on Tuesday, February 28, 2023.\n- [explicit] user received a Walmart coupon in their email inbox one week before February 25, 2023.\n- [explicit] user used a 20% off Walmart coupon on Saturday, February 25, 2023.\n- [explicit] user used a $5 off $25 or more coupon at Target.\n- [explicit] user is interested in finding more coupons like the one they used at Walmart.\n- [explicit] user is organizing coupons and discounts.\n- [explicit] user used a digital coupon on a ShopRite loyalty card for $1 off a jar of pasta sauce.\n- [explicit] user used the ShopRite digital coupon on February 26, 2023.\n- [explicit] user experienced a reduction in knee pain after switching from Brooks Ghost 13 shoes to Asics Gel-Kayano 28 shoes.\n- [explicit] user has not previously tried Injinji, Darn Tough, Smartwool, Feetures, or Balega brand socks.\n- [explicit] user previously used Brooks Ghost 13 shoes.\n- [explicit] user is planning to buy new running socks.\n- [explicit] user is seeking recommendations for new running routes or trails in the user's area\n- [explicit] user owns a pair of new Asics Gel-Kayano 28 shoes\n- [explicit] user runs on the lake trail\n- [explicit] user intends to ask others for running route recommendations.\n- [explicit] user runs along the lake trail.\n- [explicit] user intends to use online route finders.\n- [explicit] user is bored with the current running scenery.\n- [explicit] user runs during early morning and evening hours when it is dark.\n- [explicit] user is seeking advice on pacing while running a new route.\n- [explicit] user is seeking advice on pacing for a longer run.\n- [explicit] user is planning to perform a longer run during the weekend of March 11-12, 2023.\n- [explicit] user intends to try a new running route that passes through a nearby park.\n- [explicit] user intends to fuel and hydrate before, during, and after the run.\n- [explicit] user intends to start the run at a slow pace.\n- [explicit] user is interested in how companies can ensure crisis management plans are effective in real-life situations.\n- [explicit] user expressed doubt about whether companies take the time to properly develop and implement crisis management plans.\n- [explicit] user is interested in whether smaller companies with limited resources can develop effective crisis management plans.\n- [explicit] user is interested in how companies develop effective crisis management plans.\n- [explicit] user believes that many companies react to crises by scrambling instead of being proactive.\n- [explicit] user is interested in how smaller companies can prioritize elements for their crisis management plans.\n- [explicit] user is interested in examples of successful crisis management plans.\n- [explicit] user believes it is difficult for companies to plan for every possible crisis.\n- [explicit] user perceives the development and implementation of a crisis management plan as potentially expensive and time-consuming for smaller businesses.\n- [explicit] user suggests that acting quickly and decisively in the moment might be more important than having a pre-existing crisis management plan.\n- [explicit] user owns a Canon EOS 80D camera.\n- [explicit] user is considering Google Photos and Adobe Creative Cloud as cloud-based storage services.\n- [explicit] user is considering switching to a cloud-based storage service for their photos.\n- [explicit] user is looking for a new tripod.\n- [explicit] user has taken their camera on trips to Yellowstone, Yosemite, and the Grand Canyon.\n- [explicit] user considers the Really Right Stuff tripod.\n- [explicit] user intends to use Adobe Creative Cloud for professional photography work.\n- [explicit] user uses Google Photos for personal photo shots.\n- [explicit] user owns a Lowepro backpack-style camera bag.\n- [explicit] user performs professional photography work.\n- [explicit] user possesses a large volume of files that require editing and storage.\n- [explicit] user has experimented with Adobe Lightroom and Adobe Photoshop.\n- [explicit] user intends to purchase a replacement lens cap for their 18-135mm kit lens.\n- [explicit] user owns an 18-135mm kit lens.\n- [explicit] user believes that a future Israeli prime minister, who was a military officer at the time of the Altalena affair, was involved in that event.\n- [explicit] user is interested in learning about the specific role Yitzhak Rabin played in the Altalena affair.\n- [explicit] user feels overwhelmed and stuck.\n- [explicit] user is seeking suggestions on how to manage a daily routine and prioritize tasks to reduce stress.\n- [explicit] user's therapist, Dr. Smith, recommended an exercise to help process emotions and gain perspective.\n- [explicit] user considers the Eisenhower Matrix to be a great tool to prioritize tasks.\n- [explicit] user has been struggling with anxiety and depression.\n- [explicit] user is interested in learning time management strategies to avoid procrastination.\n- [explicit] user intends to categorize their daily tasks using the Eisenhower Matrix.\n- [explicit] user is interested in learning time management strategies to maintain focus.\n- [explicit] user has heard of the Pomodoro Technique before.\n- [explicit] user intends to try the Pomodoro Technique.\n- [explicit] user considers the Pomodoro Technique a simple and effective way to stay focused.\n- [explicit] user likes the idea of working in short, focused intervals with regular breaks.\n- [explicit] user plans to complete 3 to 4 Pomodoros.\n- [explicit] user plans to set aside a specific time block in their morning routine for focused work using the Pomodoro Technique.\n- [explicit] user plans to eliminate distractions during Pomodoros by turning off phone notifications and closing unnecessary computer tabs.\n- [explicit] user sees Dr. Smith as their therapist.\n- [explicit] user plans to follow a structure of 25 minutes of focused work followed by a 5-minute break.\n- [explicit] user plans to take short walks, stretch, or perform quick meditation during breaks.\n- [explicit] user plans to use a Pomodoro timer app on their phone.\n- [explicit] user is looking for bike routes approximately 20 miles long.\n- [explicit] user is planning a road trip to explore scenic bike routes.\n- [explicit] user intends to explore the area around their hometown.\n- [explicit] user participated in a charity bike ride organized by the local cycling club on 2023-05-19.\n- [explicit] user prefers bike routes that consist of paved roads.\n- [explicit] user intends to use a mapping tool to create their own bike route.\n- [explicit] user intends to use Strava's route builder feature to plan a route.\n- [explicit] user intends to try out Strava and MapMyRide.\n- [explicit] user completed a charity bike ride on 2023-05-19.\n- [explicit] user participated in a charity bike ride organized by a local cycling club.\n- [explicit] user raised money for the local children's hospital during a charity bike ride.\n- [explicit] user plans to add waypoints to the route to mark landmarks or scenic views.\n- [explicit] user plans to use Strava's route builder to create a 20-mile route.\n- [explicit] user intends for the 20-mile route to explore scenic roads around the user's hometown.\n- [explicit] user intends to use the elevation profile feature in Strava to avoid hilly areas.\n- [explicit] user is considering purchasing a graduated neutral density filter.\n- [explicit] user owns a Canon EOS 80D camera.\n- [explicit] user has taken the Canon EOS 80D on five previous trips.\n- [explicit] user is undecided on whether to purchase a circular or square graduated neutral density filter.\n- [explicit] user intends to capture landscape photographs at Zion National Park.\n- [explicit] user is planning a trip to Zion National Park.\n- [explicit] user has heard positive feedback about Lee Filters\n- [explicit] user is considering purchasing a square filter system\n- [explicit] user is researching Lee Filters.\n- [explicit] user is uncertain about whether to select a hard or soft graduated neutral density filter from Lee Filters.\n- [explicit] user intends to purchase the Lee Filters system.\n- [explicit] user decided to start with a soft gradation filter.\n- [explicit] user is looking for a camera bag that can accommodate all of user's camera gear and the new camera strap.\n- [explicit] user is looking to organize camera gear.\n- [explicit] user has decided to invest in the Lee Filters system.\n- [explicit] user recently obtained a new camera strap.\n- [explicit] user intends to investigate the Lowepro ProTactic 450 AW camera bag.\n- [explicit] user believes the Lowepro ProTactic 450 AW camera bag would fit all of user's gear comfortably.\n- [explicit] user has been considering purchasing the Really Right Stuff tripod for a while.\n- [explicit] user is uncertain if the Really Right Stuff tripod is worth the investment.\n- [explicit] user is interested in the new Really Right Stuff tripod.\n- [explicit] user believes that having safety net programs such as unemployment benefits and food assistance can help prevent individuals from falling into poverty during an economic recession.\n- [explicit] user believes that access to affordable healthcare is important during an economic recession.\n- [explicit] user believes that the health and wellbeing of all individuals should be prioritized regardless of their financial situation.\n- [explicit] user believes that universal healthcare could help prevent individuals from falling into financial hardship due to medical bills during an economic downturn.\n- [explicit] user believes it is important to invest in education to provide everyone a fair chance at success regardless of financial background.\n- [explicit] user believes it is important to address the high cost of education.\n- [explicit] user views student loan debt as a burden for young people, particularly during a recession.\n- [explicit] user states the monthly debt service is $5,774.31.\n- [explicit] user is working on a case study involving a loan structure for a project in Honduras.\n- [explicit] user states the monthly operating and maintenance cost is $1,041.67.\n- [explicit] user notes that every $10,000 grant reduces the monthly household bill by $0.70.\n- [explicit] user states the number of households paying is 237.5.\n- [explicit] user specifies total project uses of $346,459, consisting of $200,000 for construction, $12,000 for capitalized interest, $129,339 for a debt service reserve fund, and $5,120 for financing costs.\n- [explicit] user specifies total project sources of $346,459 funded entirely by a loan, with $0 in grants.\n- [explicit] user calculates the monthly bill per household to be $28.70.\n- [explicit] user believes that if FCI supports the loan initiative, they must provide a better interest rate and a longer loan term for the project.\n- [explicit] user believes that grant funding helps but does not make a big difference at small amounts.\n- [explicit] user believes the loan term of the proposed loan structure is too short.\n- [explicit] user believes the interest rate of the proposed loan structure is too high.\n- [explicit] user believes the proposed loan structure for the Agua Clara program is not a good structure.\n- [explicit] user believes a revenue-backed loan may be a feasible and good option if grant funding is not available.\n- [deductive] user is involved in a financial feasibility study for a water or infrastructure project in Honduras (Agua Clara program).\n- [deductive] user advocates for social safety nets and equity-focused public policy.\n- [deductive] user is conducting a detailed cost-benefit analysis for the Agua Clara project.\n- [inductive] user exhibits a critical and analytical approach when evaluating financial structures, often identifying specific shortcomings in loan terms and interest rates.\n- [inductive] user consistently focuses on social equity and economic accessibility, both in individual financial project modeling and in broader public policy discussions.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 133.5,
+  "total": 136.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

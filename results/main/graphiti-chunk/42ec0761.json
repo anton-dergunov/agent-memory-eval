@@ -1,0 +1,102 @@
+{
+ "qid": "42ec0761",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Do I have a spare screwdriver for opening up my laptop?",
+ "reference": "Yes",
+ "question_date": "2023-08-31 00:39",
+ "sessions": [
+  {
+   "id": "6fb15dce_1",
+   "date": "2023-07-14 23:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_566635",
+   "date": "2023-07-17 11:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_17542",
+   "date": "2023-07-27 01:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_S0mG9La_54",
+   "date": "2023-07-29 07:45",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_251342",
+   "date": "2023-07-30 00:26",
+   "evidence": false
+  },
+  {
+   "id": "53acd215",
+   "date": "2023-07-31 19:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7HWLFTq_11",
+   "date": "2023-08-03 06:23",
+   "evidence": false
+  },
+  {
+   "id": "7746ba1b_2",
+   "date": "2023-08-08 04:15",
+   "evidence": false
+  },
+  {
+   "id": "answer_e3892371_1",
+   "date": "2023-08-11 07:22",
+   "evidence": true
+  },
+  {
+   "id": "answer_e3892371_2",
+   "date": "2023-08-15 13:22",
+   "evidence": true
+  }
+ ],
+ "context": "- The user owns a spare screwdriver that was previously picked up during the organization of their computer desk. (valid since 2023-08-15)\n- The user needs to acquire a small screwdriver, which they misplaced, to use for a laptop RAM upgrade. (valid from 2023-08-11 until 2023-08-15) [superseded]\n- user plans to purchase a small screwdriver from a local electronics store to upgrade laptop RAM (valid since 2023-08-11)\n- The user intends to upgrade the RAM in their laptop. (valid since 2023-08-11)\n- assistant assisted user with setting up a Google Drive backup system (valid since 2023-08-11)\n- The assistant provides tips on how to structure a script or outline for the user to have a conversation with their family. (valid since 2023-07-31)\n- user is troubleshooting the freezing issue with the wireless mouse by resetting it and potentially updating drivers. (valid since 2023-08-15)\n- The user is asking for recommendations for task management tools or apps to help them stay organized and on top of their daily tasks. (valid since 2023-07-14)\n- The user plans to purchase a 100 GB plan for their Google Drive cloud backup storage. (valid since 2023-08-11)\n- The user intends to purchase an Anker cable organizer to store in their computer bag. (valid since 2023-08-15)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The user intends to upgrade the RAM in their laptop (valid since 2023-08-11).\n*   The user previously needed a small screwdriver for this laptop RAM upgrade, but that need was superseded on 2023-08-15.\n*   The user owns a spare screwdriver that was picked up during the organization of their computer desk (valid since 2023-08-15).\n\n**2. Reason over the information:**\n*   The user's original plan to purchase a screwdriver was based on the need to upgrade their laptop RAM.\n*   As of 2023-08-15, the user successfully located or acquired a spare screwdriver while organizing their desk.\n*   Since the user now possesses a spare screwdriver and still intends to upgrade their laptop RAM, they have the necessary tool on hand.\n\n**Conclusion:**\nYes, you have a spare screwdriver that you found while organizing your computer desk, which you can use for your laptop RAM upgrade.",
+ "dump": "- The user is asking for recommendations for task management tools or apps to help them stay organized and on top of their daily tasks. (valid since 2023-07-14)\n- The user plans to use Trello to organize daily tasks and bigger projects. (valid since 2023-07-14)\n- The assistant recommends Trello as a tool for task management due to its visual board-based system and flexibility. (valid since 2023-07-14)\n- The assistant describes Fyre Festival as an influencer-led music festival that failed spectacularly due to poor planning and execution. (valid since 2023-07-17)\n- The Hybrids occasionally send scientists to study the Tiamat zone, but they lose interest when results are unsatisfactory due to their own court dramas and other priorities. (valid since 2023-07-29)\n- The assistant recommends The Royal Oak in Tetbury for its selection of ciders, cozy atmosphere, and friendly staff. (valid since 2023-07-30)\n- The assistant recommends The Old Spot in Dursley as a traditional country pub that has won awards for its cider. (valid since 2023-07-30)\n- The assistant recommends The Royal Oak in Prestbury for its selection of ciders and charming location in a beautiful village. (valid since 2023-07-30)\n- The assistant recommends The Wild Rabbit in Kingham, a stylish pub known for its artisanal ciders. (valid since 2023-07-30)\n- The assistant recommends The Crown and Trumpet in Broadway as a historic pub with a selection of local and regional ciders. (valid since 2023-07-30)\n- The user plans to read the book The School for Good Mothers (valid since 2023-07-31)\n- The user feels pressure from their family to get married and start a family (valid since 2023-07-31)\n- The user plans to discuss their feelings about family expectations during the next family gathering (valid since 2023-07-31)\n- The assistant provides tips on how to structure a script or outline for the user to have a conversation with their family. (valid since 2023-07-31)\n- Cox Automotive chose Amazon Neptune for building their identity graph. (valid since 2023-08-03)\n- Carlos presented information about the identity graph built by Cox Automotive. (valid since 2023-08-03)\n- The user plans to incorporate a small bubbler into their garden to create a soothing sound. (valid since 2023-08-08)\n- The user plans to incorporate a fountain into their garden to create a soothing sound. (valid since 2023-08-08)\n- The user wants to use a small bubbler to enhance the ambiance of their patio and garden. (valid since 2023-08-08)\n- The user wants to use a fountain to enhance the ambiance of their patio and garden. (valid since 2023-08-08)\n- Linen is an example of a natural fabric suitable for outdoor furniture and decorations. (valid since 2023-08-08)\n- Canvas is an example of a natural fabric suitable for outdoor furniture and decorations. (valid since 2023-08-08)\n- Cotton is an example of a natural fabric suitable for outdoor furniture and decorations. (valid since 2023-08-08)\n- Beachy patterns such as stripes or shells can be incorporated into beach-inspired textiles for outdoor decor. (valid since 2023-08-08)\n- Polyester is a suitable synthetic fiber material for outdoor furniture. (valid since 2023-08-08)\n- Nylon is a suitable synthetic fiber material for outdoor furniture. (valid since 2023-08-08)\n- Olefin is a suitable synthetic fiber material for outdoor furniture. (valid since 2023-08-08)\n- The Skin Cancer Foundation can certify the UV protection of fabrics used for beach-inspired textiles. (valid since 2023-08-08)\n- The user plans to purchase a 100 GB plan for their Google Drive cloud backup storage. (valid since 2023-08-11)\n- The user intends to upgrade the RAM in their laptop. (valid since 2023-08-11)\n- assistant assisted user with setting up a Google Drive backup system (valid since 2023-08-11)\n- user plans to purchase a small screwdriver from a local electronics store to upgrade laptop RAM (valid since 2023-08-11)\n- user selected the 100 GB storage plan for Google Drive backups (valid since 2023-08-11)\n- The user needs to acquire a small screwdriver, which they misplaced, to use for a laptop RAM upgrade. (valid from 2023-08-11 until 2023-08-15) [superseded]\n- The user owns a spare screwdriver that was previously picked up during the organization of their computer desk. (valid since 2023-08-15)\n- user is troubleshooting the freezing issue with the wireless mouse by resetting it and potentially updating drivers. (valid since 2023-08-15)\n- The user intends to purchase an Anker cable organizer to store in their computer bag. (valid since 2023-08-15)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 37,
+  "invalidated": 1,
+  "episodes": 16,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 95.0,
+  "total": 96.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

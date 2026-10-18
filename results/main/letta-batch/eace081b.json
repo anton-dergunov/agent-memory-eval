@@ -1,0 +1,112 @@
+{
+ "qid": "eace081b",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+ "reference": "Oahu",
+ "question_date": "2023-06-06 04:18",
+ "sessions": [
+  {
+   "id": "b3763b6b_2",
+   "date": "2023-05-22 04:06",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_1",
+   "date": "2023-05-22 11:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504859",
+   "date": "2023-05-22 11:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_tny5DVg_5",
+   "date": "2023-05-22 16:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3sbRtMX_24",
+   "date": "2023-05-23 01:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_amiy1W6_0",
+   "date": "2023-05-24 08:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_446917",
+   "date": "2023-05-24 09:30",
+   "evidence": false
+  },
+  {
+   "id": "4d04b866",
+   "date": "2023-05-25 17:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_2",
+   "date": "2023-05-25 18:17",
+   "evidence": true
+  },
+  {
+   "id": "3722ea11_2",
+   "date": "2023-05-25 20:54",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T15:44:15.363952+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-06 04:18] Where am I planning to stay for my birthday trip to Hawaii?'}, {'timestamp': '2026-10-17T15:44:09.565330+00:00', 'time_ago': '9s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-25 18:17] What a wonderful way to spend your birthday! Oahu has many beautiful beaches, and I'd be happy to recommend some less crowded options. Here are a few:\\n\\n**Kaimana Beach**: Located in the Kahala neighborhood, Kaimana Beach is a local favorite that's often less crowded than Waikiki. It's a picturesque beach with calm waters, perfect for swimming and snorkeling.\\n\\n**Kailua Beach**: On the windward coast, Kailua Beach is a serene and tranquil spot with soft white sand and crystal-clear waters. It's a bit of a drive from Honolulu, but worth it for the peace and quiet.\\n\\n**Lanikai Beach**: Another windward coast gem, Lanikai Beach is a secluded spot with turquoise waters and powdery white sand. It's a bit of a hike to get there, but the scenery and tranquility make it well worth the effort.\\n\\n**Shark's Cove**: Yes, I know I mentioned Shark's Cove earlier for snorkeling, but it's also a great spot for relaxing on the beach. The cove is protected, making the waters calm and perfect for swimming. Plus, the scenery is stunning!\\n\\n**Waialae Beach**: Located in the East Oahu neighborhood of Hawaii Kai, Waialae Beach is a quiet spot with calm waters and a picturesque view of the Ko'olau Mountains.\\n\\nThese beaches are all less crowded than Waikiki, but still offer plenty of amenities like parking, restrooms, and food vendors. Just remember to always respect the local environment and community, and take all your trash with you when you leave.\\n\\nIf you're looking for an even more secluded spot, consider visiting during the week or early morning/late afternoon when the crowds are smaller. Whichever beach you choose, I hope you have a wonderful and relaxing birthday!\"}, {'timestamp': '2026-10-17T15:44:09.565302+00:00', 'time_ago': '9s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-25 18:17] Morning Glass Coffee + Cafe is a wonderful spot to start your day.\\n\\nTo get to the Manoa Falls Trailhead from Morning Glass Coffee + Cafe, you have a few options:\\n\\n**Driving:**\\n\\n1. From Morning Glass Coffee + Cafe, head east on University Avenue towards Oahu Avenue.\\n2. Turn left onto Oahu Avenue and continue for about 0.4 miles.\\n3. Turn right onto Manoa Road and follow it for about 2.5 miles.\\n4. The Manoa Falls Trailhead will be on your left, marked by a sign and a small parking lot.\\n\\n**Parking:** There is limited parking available at the trailhead, so be prepared to park along the road or in a nearby lot. Be sure to follow all parking signs and regulations.\\n\\n**Public Transportation:**\\n\\n1. From Morning Glass Coffee + Cafe, walk to the University of Hawaii at Manoa campus (about 10-15 minutes).\\n2. Catch bus route 4 or 6 from the University of Hawaii at Manoa campus towards Manoa Marketplace.\\n3. Get off at the Manoa Marketplace stop and walk north on Manoa Road for about 0.5 miles.\\n4. The Manoa Falls Trailhead will be on your left, marked by a sign and a small parking lot.\\n\\n**Ride-hailing:**\\n\\n1. You can also use ride-hailing services like Uber or Lyft to get to the Manoa Falls Trailhead from Morning Glass Coffee + Cafe.\\n\\n**Tips:**\\n\\n1. Be sure to check the road conditions and weather forecast before heading out, as the road to the trailhead can be narrow and winding.\\n2. Consider carpooling or using public transportation to reduce your environmental impact and save on parking.\\n3. Bring cash for parking, as some parking lots may not accept credit cards.\\n\\nOnce you arrive at the trailhead, you'll be ready to start your adventure on the Manoa Falls Trail! Enjoy your hike!\"}, \n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-17T15:44:09.565330+00:00', 'time_ago': '14s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-25 18:17] What a wonderful way to spend your birthday! Oahu has many beautiful beaches, and I'd be happy to recommend some less crowded options. Here are a few:\\n\\n**Kaimana Beach**: Located in the Kahala neighborhood, Kaimana Beach is a local favorite that's often less crowded than Waikiki. It's a picturesque beach with calm waters, perfect for swimming and snorkeling.\\n\\n**Kailua Beach**: On the windward coast, Kailua Beach is a serene and tranquil spot with soft white sand and crystal-clear waters. It's a bit of a drive from Honolulu, but worth it for the peace and quiet.\\n\\n**Lanikai Beach**: Another windward coast gem, Lanikai Beach is a secluded spot with turquoise waters and powdery white sand. It's a bit of a hike to get there, but the scenery and tranquility make it well worth the effort.\\n\\n**Shark's Cove**: Yes, I know I mentioned Shark's Cove earlier for snorkeling, but it's also a great spot for relaxing on the beach. The cove is protected, making the waters calm and perfect for swimming. Plus, the scenery is stunning!\\n\\n**Waialae Beach**: Located in the East Oahu neighborhood of Hawaii Kai, Waialae Beach is a quiet spot with calm waters and a picturesque view of the Ko'olau Mountains.\\n\\nThese beaches are all less crowded than Waikiki, but still offer plenty of amenities like parking, restrooms, and food vendors. Just remember to always respect the local environment and community, and take all your trash with you when you leave.\\n\\nIf you're looking for an even more secluded spot, consider visiting during the week or early morning/late afternoon when the crowds are smaller. Whichever beach you choose, I hope you have a wonderful and relaxing birthday!\"}, {'timestamp': '2026-10-17T15:44:09.565316+00:00', 'time_ago': '14s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-25 18:17] I'm thinking of spending the rest of my birthday relaxing on a beach. Can you recommend a good beach on Oahu that's not too crowded?\"}, {'timestamp': '2026-10-17T15:44:09.565302+00:00', 'time_ago': '14s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-25 18:17] Morning Glass Coffee + Cafe is a wonderful spot to start your day.\\n\\nTo get to the Manoa Falls Trailhead from Morning Glass Coffee + Cafe, you have a few options:\\n\\n**Driving:**\\n\\n1. From Morning Glass Coffee + Cafe, head east on University Avenue towards Oahu Avenue.\\n2. Turn left onto Oahu Avenue and continue for about 0.4 miles.\\n3. Turn right onto Manoa Road and follow it for about 2.5 miles.\\n4. The Manoa Falls Trailhead will be on your left, marked by a sign and a small parking lot.\\n\\n**Parking:** There is limited parking available at the trailhead, so be prepared to park along the road or in a nearby lot. Be sure to follow all parking signs and regulations.\\n\\n**Public Transportation:**\\n\\n1. From Morning Glass Coffee + Cafe, walk to the University of Hawaii at Manoa campus (about 10-15 minutes).\\n2. Catch bus route 4 or 6 from the University of Hawaii at Manoa campus towards Manoa Marketplace.\\n3. Get off at the Manoa Marketplace stop and walk north on Manoa Road for about 0.5 miles.\\n4. The Manoa Falls Trailhead will be on your left, marked by a sign and a small parking lot.\\n\\n**Ride-hailing:**\\n\\n1. You can also use ride-hailing services like Uber or Lyft to get to the Manoa Falls Trailhead from Morning Glass Coffee + Cafe.\\n\\n**Tips:**\\n\\n1. Be sure to check the road conditions and weather forecast before heading out, as the road to the trailhead can be narrow and winding.\\n2. Consider carpooling or using public transportation to reduce your environmental impact and save on parking.\\n3. Bring cash for parking, as some parking lots may not accept credit cards.\\n\\nOnce you arrive at the trailhead, you'll be ",
+ "answer": "I have searched our past conversations, but I could not find any mention of where you are planning to stay for your upcoming birthday trip to Hawaii. We have discussed many wonderful activities in Oahu, such as hiking the Manoa Falls Trail and relaxing on quieter beaches like Kaimana or Lanikai, but you haven't shared your accommodation plans with me yet.\n\nWould you like to tell me where you are staying, or would you like some help looking for options?",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"birthday trip Hawaii stay\"})",
+   "conversation_search({\"query\": \"Hawaii trip\"})",
+   "conversation_search({\"query\": \"Hawaii\"})",
+   "conversation_search({\"query\": \"\\\"stay\\\" OR \\\"hotel\\\" OR \\\"resort\\\" OR \\\"booking\\\"\", \"start_date\": \"2023-05-01\"})",
+   "conversation_search({\"query\": \"birthday Hawaii\"})",
+   "conversation_search({\"query\": \"Oahu\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 28.0,
+  "total": 40.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "852ce960",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+ "reference": "$400,000",
+ "question_date": "2023-12-18 04:17",
+ "sessions": [
+  {
+   "id": "ultrachat_218093",
+   "date": "2023-07-12 10:14",
+   "evidence": false
+  },
+  {
+   "id": "d36d11b9_2",
+   "date": "2023-08-02 05:58",
+   "evidence": false
+  },
+  {
+   "id": "answer_3a6f1e82_1",
+   "date": "2023-08-11 00:01",
+   "evidence": true
+  },
+  {
+   "id": "0840765f_2",
+   "date": "2023-08-17 02:26",
+   "evidence": false
+  },
+  {
+   "id": "114c1fb7_4",
+   "date": "2023-08-26 11:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_390626",
+   "date": "2023-08-29 00:11",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_eN4o9Zr_0",
+   "date": "2023-09-05 13:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_475483",
+   "date": "2023-09-18 15:58",
+   "evidence": false
+  },
+  {
+   "id": "f55fee5b_2",
+   "date": "2023-11-15 12:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_3a6f1e82_2",
+   "date": "2023-11-30 00:36",
+   "evidence": true
+  }
+ ],
+ "context": "- User is in the process of buying a home for $325,000 and has received a pre-approval for $350,000 from Wells Fargo. (from a chat on 2023-08-11)\n- User is planning to purchase a home insurance policy from Liberty Mutual and was advised to review coverage limits, deductibles, exclusions, and replacement cost value versus actual cash value. (from a chat on 2023-11-30)\n- User's estimated monthly housing payment for a $300,000 loan (assuming 4% interest, 1.25% property tax, and 0.8% insurance) is approximately $1,987.21. (from a chat on 2023-08-11)\n- User has already secured a $2,000 credit from the seller towards closing costs and is requesting an additional 1% of the purchase price ($3,250) in credits. (from a chat on 2023-08-11)\n- User was provided with an estimated total closing cost range of $11,332 to $20,322 for their $325,000 home purchase. (from a chat on 2023-08-11)\n- If the seller agrees to the additional $3,250 credit, the user's estimated out-of-pocket closing costs would be between $6,082 and $15,072. (from a chat on 2023-08-11)\n- User rented a storage unit on March 1, 2023, to store belongings during the home closing process and needs to confirm moving date, truck size, and labor assistance with the company. (from a chat on 2023-11-30)\n- Texas Gas Service is the local gas provider for the user's new home in the 78749 zip code. (from a chat on 2023-11-30)\n- User was provided with a list of electricity providers in the 78749 area, including TXU Energy, Reliant Energy, Direct Energy, Just Energy, and Pulse Power. (from a chat on 2023-11-30)\n- User was provided with a list of cable and TV providers in the 78749 area, including Spectrum, AT&T, Google Fiber, Suddenlink, and Grande Communications. (from a chat on 2023-11-30)\n- User plans to use Trello to organize tasks, appointments, and deadlines related to their home move. (from a chat on 2023-11-30)\n- User was provided with comprehensive tips for charity cycling event preparation, including creating a structured training plan, gradually increasing mileage, and utilizing social media for fundraising. (from a chat on 2023-08-17)\n- User was provided with a defined user flow for a remote work management SaaS, including login, dashboard, project management, time tracking, collaboration, settings, and logout modules. (from a chat on 2023-09-05)\n- User was recently promoted to senior software engineer but is currently weighing this against a job offer for a technical lead position at a rival company. (from a chat on 2023-08-26)\n- User decided to delete the Facebook and Instagram apps from their phone to reduce the temptation of mindless scrolling and improve productivity. (from a chat on 2023-11-15)\n- User values accurate news reporting over speed and prioritizes trusting reputable sources like the Associated Press to provide factual information. (from a chat on 2023-07-12)\n- User is specifically interested in the entrepreneurship and venture capital specializations at Stanford GSB, including the Stanford-StartX accelerator program and the Entrepreneurial Finance course. (from a chat on 2023-08-26)\n- User identified that they were spending at least 2 hours daily scrolling through Facebook, Instagram, and Twitter, which they recognized as a major productivity barrier. (from a chat on 2023-11-15)\n- User is moving into a new home in the 78749 zip code and is in the process of setting up utilities including electricity, gas, and cable/TV services. (from a chat on 2023-11-30)\n- User was provided with information on top-tier MBA programs for tech professionals, including Stanford Graduate School of Business and MIT Sloan School of Management, along with various certification and executive education options. (from a chat on 2023-08-26)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-08-11: \"User is in the process of buying a home for $325,000 and has received a pre-approval for $350,000 from Wells Fargo.\"\n\n2.  **Reason over the information:**\n    *   The information explicitly states the pre-approval amount provided by Wells Fargo for the user's mortgage.\n\n3.  **Answer:**\n    *   You were pre-approved for $350,000 by Wells Fargo.",
+ "dump": "- User was provided with guidance on recruiting and managing a fundraising team to amplify their impact, including setting clear expectations and fostering collaboration. (session 2023-08-17)\n- User is considering a career transition to stay competitive and take on more challenging roles, with a specific interest in MBA programs that facilitate a move into leadership or specialization in software engineering. (session 2023-08-26)\n- User was recommended several guided meditation apps including Headspace, Calm, Insight Timer, and Buddhify, as well as resources like YouTube channels, podcasts, and books for mindfulness. (session 2023-08-02)\n- User was provided with a step-by-step guide for building a remote work management SaaS in Bubble, covering database setup, interface design, functionality, API integration, and testing. (session 2023-09-05)\n- User plans to use Trello as a project management tool to organize tasks, track progress, and stay structured while working on their thesis. (session 2023-11-15)\n- User finds that reading a book for at least 20 minutes before lights out helps them relax, reduce screen time, and improves their ability to fall asleep and wake up. (session 2023-08-02)\n- User was provided with comprehensive tips for charity cycling event preparation, including creating a structured training plan, gradually increasing mileage, and utilizing social media for fundraising. (session 2023-08-17)\n- User is currently working on a thesis project and is seeking productivity techniques to manage distractions and stay on track. (session 2023-11-15)\n- Stanford GSB's Entrepreneurial Finance course covers financial modeling, valuation methods for early-stage companies, deal structuring, and startup financing, taught by experienced venture capitalists and entrepreneurs. (session 2023-08-26)\n- User was advised on strategies to reduce social media distractions, such as removing apps from the home screen, using website blockers (Freedom, SelfControl, StayFocusd), and scheduling specific times for social media usage. (session 2023-11-15)\n- If the seller agrees to the additional $3,250 credit, the user's estimated out-of-pocket closing costs would be between $6,082 and $15,072. (session 2023-08-11)\n- User was recommended resources to learn about Sikhism, including 'The Sikhs' by Patwant Singh, the 'Guru Granth Sahib', 'Basics of Sikhism' by Inderjeet Singh, the online encyclopedia SikhiWiki, and the Sikh Coalition website. (session 2023-08-29)\n- User's estimated monthly housing payment for a $300,000 loan (assuming 4% interest, 1.25% property tax, and 0.8% insurance) is approximately $1,987.21. (session 2023-08-11)\n- User was advised on crafting compelling social media fundraising posts by using hooks, storytelling, personal connections, clear calls-to-action, and expressing gratitude. (session 2023-08-17)\n- User is interested in using guided meditation apps like Headspace or Calm to help reduce stress and anxiety as part of their morning routine. (session 2023-08-02)\n- User plans to curate their Twitter feed by unfollowing accounts that do not add value, using Mute and Not Interested features, and organizing accounts into lists to focus on relevant content. (session 2023-11-15)\n- User was recommended various productivity tools including Pomodoro timers (Pomofocus, Tomato Timer, Pomotodo), project management apps (Trello, Asana, Notion, Evernote, Scrivener), and time-tracking tools (RescueTime). (session 2023-11-15)\n- User learned that mycorrhizal fungi form symbiotic relationships with most forest plants, providing essential nutrients like phosphorus, nitrogen, and potassium in exchange for plant-sourced carbon and energy. (session 2023-09-18)\n- User is interested in learning about the investment world and was advised to educate themselves, set financial goals, develop a plan, start small, seek professional advice, and monitor their investments. (session 2023-09-05)\n- User was provided with a list of cable and TV providers in the 78749 area, including Spectrum, AT&T, Google Fiber, Suddenlink, and Grande Communications. (session 2023-11-30)\n- User was provided with strategies for expressing gratitude to donors, including personalized social media posts, email updates, video messages, and handwritten notes. (session 2023-08-17)\n- User decided to delete the Facebook and Instagram apps from their phone to reduce the temptation of mindless scrolling and improve productivity. (session 2023-11-15)\n- User is negotiating with the seller to cover closing costs due to minor issues with the roof and plumbing identified in the home inspection report. (session 2023-08-11)\n- User is planning to participate in an upcoming charity cycling event and is seeking advice on training and fundraising strategies. (session 2023-08-17)\n- User was provided with information on top-tier MBA programs for tech professionals, including Stanford Graduate School of Business and MIT Sloan School of Management, along with various certification and executive education options. (session 2023-08-26)\n- User participated in the 'Ride for a Reason' charity cycling event on March 25, 2023, which had approximately 200 participants. (session 2023-08-17)\n- User identified that they were spending at least 2 hours daily scrolling through Facebook, Instagram, and Twitter, which they recognized as a major productivity barrier. (session 2023-11-15)\n- User finds reliable news sources particularly important during the COVID-19 pandemic for receiving accurate updates and scientifically sound information. (session 2023-07-12)\n- User rented a storage unit on March 1, 2023, to store belongings during the home closing process and needs to confirm moving date, truck size, and labor assistance with the company. (session 2023-11-30)\n- User has already secured a $2,000 credit from the seller towards closing costs and is requesting an additional 1% of the purchase price ($3,250) in credits. (session 2023-08-11)\n- User was advised on the benefits of creating a donor recognition page, such as building trust and showing appreciation, and best practices like obtaining donor permission. (session 2023-08-17)\n- User is in the process of buying a home for $325,000 and has received a pre-approval for $350,000 from Wells Fargo. (session 2023-08-11)\n- The Stanford Venture Capital and Private Equity Club (SVPC) offers speaker series, networking events, deal tours, and career development resources to help students connect with venture capitalists and entrepreneurs. (session 2023-08-26)\n- User is exploring how to identify market needs to build a successful SaaS, with advice to identify pain points, talk to potential customers, analyze competitors, use data, network, validate with an MVP, and iterate. (session 2023-09-05)\n- User learned that arbuscular mycorrhizal fungi associate with over 80% of plant species, including grasses, legumes, and crops like corn, wheat, and soybeans, while ectomycorrhizal fungi form specific associations with woody plants like oaks, pines, birches, and willows. (session 2023-09-18)\n- User values accurate news reporting over speed and prioritizes trusting reputable sources like the Associated Press to provide factual information. (session 2023-07-12)\n- User was recommended to build a remote work management SaaS as a solution to current industry challenges, including project management, time tracking, and collaboration features. (session 2023-09-05)\n- User was recently promoted to senior software engineer but is currently weighing this against a job offer for a technical lead position at a rival company. (session 2023-08-26)\n- User is establishing a consistent bedtime and wake-up routine, currently aiming for a 7:00 AM weekday wake-up time and a 7:30 AM weekend wake-up time. (session 2023-08-02)\n- User is moving into a new home in the 78749 zip code and is in the process of setting up utilities including electricity, gas, and cable/TV services. (session 2023-11-30)\n- User was provided with a list of electricity providers in the 78749 area, including TXU Energy, Reliant Energy, Direct Energy, Just Energy, and Pulse Power. (session 2023-11-30)\n- Texas Gas Service is the local gas provider for the user's new home in the 78749 zip code. (session 2023-11-30)\n- User is specifically interested in the entrepreneurship and venture capital specializations at Stanford GSB, including the Stanford-StartX accelerator program and the Entrepreneurial Finance course. (session 2023-08-26)\n- The standard news fact-checking process involves eight steps: gathering information, verifying sources, cross-checking information, fact-checking claims, reviewing chronology, reviewing context, revising the story, and a final review. (session 2023-07-12)\n- User is interested in the Stanford Venture Capital and Private Equity Club (SVPC) as a means to network with industry professionals and explore career opportunities in the field. (session 2023-08-26)\n- User plans to use Trello to organize tasks, appointments, and deadlines related to their home move. (session 2023-11-30)\n- User learned that fungi act as decomposers, improve soil structure, enhance nutrient absorption, and control plant diseases, making them essential for healthy soil ecosystems. (session 2023-09-18)\n- User is planning to purchase a home insurance policy from Liberty Mutual and was advised to review coverage limits, deductibles, exclusions, and replacement cost value versus actual cash value. (session 2023-11-30)\n- At the Associated Press, the fact-checking process is a collaborative effort involving teams of reporters, editors, and fact-checkers. (session 2023-07-12)\n- User was provided with a defined user flow for a remote work management SaaS, including login, dashboard, project management, time tracking, collaboration, settings, and logout modules. (session 2023-09-05)\n- User is interested in learning about Sikhism, its key tenets, social justice principles, and the impact of Sikh figures and contemporary activists on social justice movements. (session 2023-08-29)\n- User learned that mycorrhizal fungi are widespread across diverse ecosystems, including grasslands, wetlands, deserts, and agricultural fields, and are present in almost all soils. (session 2023-09-18)\n- User plans to incorporate light stretching, such as yoga poses or neck and shoulder rolls, into their morning routine to improve focus and reduce stress. (session 2023-08-02)\n- User requested persuasive marketing titles for an automatic portable food processor, receiving three options focused on kitchen transformation, convenience, and upgrading cooking performance. (session 2023-09-05)\n- User plans to dedicate time in the morning to plan their day, such as creating a to-do list or setting goals, to increase focus and motivation. (session 2023-08-02)\n- User decided to implement the Pomodoro Technique (25-minute work intervals followed by 5-minute breaks) to improve focus on their thesis. (session 2023-11-15)\n- User was provided with an estimated total closing cost range of $11,332 to $20,322 for their $325,000 home purchase. (session 2023-08-11)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 57,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 35.1,
+  "total": 36.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

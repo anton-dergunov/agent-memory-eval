@@ -1,0 +1,123 @@
+{
+ "qid": "e61a7584",
+ "arm": "letta",
+ "split": "main",
+ "question": "How long have I had my cat, Luna?",
+ "reference": "9 months",
+ "question_date": "2023-11-30 12:46",
+ "sessions": [
+  {
+   "id": "21c6c41d",
+   "date": "2023-07-27 04:05",
+   "evidence": false
+  },
+  {
+   "id": "6a4b4b7e_2",
+   "date": "2023-07-30 21:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_f25c32f5_1",
+   "date": "2023-08-11 16:53",
+   "evidence": true
+  },
+  {
+   "id": "18a06652_4",
+   "date": "2023-09-12 00:49",
+   "evidence": false
+  },
+  {
+   "id": "e1416816_2",
+   "date": "2023-09-13 13:57",
+   "evidence": false
+  },
+  {
+   "id": "a59a9a13",
+   "date": "2023-11-27 16:30",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_124247",
+   "date": "2023-11-30 02:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_f25c32f5_2",
+   "date": "2023-11-30 10:31",
+   "evidence": true
+  },
+  {
+   "id": "40f07f4a_2",
+   "date": "2023-11-30 13:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Ee752j6_0",
+   "date": "2023-11-30 19:43",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is planning to shift focus or expand into offering online marketing services to small businesses, which they became interested in after a webinar they attended last month (August 2023). They are currently selling handmade candles, soaps, and jewelry at local markets. They are looking for advice on competitive strategy and differentiation for their marketing services business. The user is also tracking gift expenses by category (birthdays, anniversaries, etc.). Recently, they bought a $50 gift card for their mom's spa as part of an anniversary gift.\nAlso, last month (June 2023), the user bought a silver necklace for their sister's birthday for $50.\nThis month (July 2023), the user bought a housewarming gift for their friend Rachel: kitchen utensils ($25) and a cookbook ($15), totaling $40.\nAlso this month (July 2023), the user bought a birthday gift for their nephew: a Lego set ($75) and a matching Lego t-shirt ($10), totaling $85.\nAlso this month (July 2023), the user bought a wedding gift for their brother: a crystal vase ($100) and a restaurant gift card ($50), totaling $150.\nAlso this month (July 2023), the user bought a get-well gift for their neighbor: fruit and flowers ($15).\nThe user has a cat named Luna. They brush her daily and give her freeze-dried salmon treats.\nIn September 2023, they decided to start their own business, inspired by a full-day entrepreneurship conference they attended at a downtown hotel last November.\nIn January 2023, the user attended a lecture series on sustainable living at the library, where they met like-minded people. They are considering collaborating with these contacts to expand their marketing services business.\nThe user is starting a sustainable living blog. They are planning to add a user-generated content (UGC) section for vegan recipes and are seeking marketing advice on how to promote this section to drive submissions and traffic.\nIn late November 2023, the user started planning their garden (including a herb garden and hydrangea propagation). They are researching companion planting and crop rotation, and are interested in making their own compost tea for their plants.\nThe user struggles with maintaining a consistent exercise routine and is looking for motivation strategies that align with their preference for walking and gardening.\nLuna has been with the user for 9 months (as of Nov 2023). The user is already very proactive, using a cat tree and rotating toys weekly to keep Luna engaged.\n</human>\n\nTool results while answering:\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T03:19:14.759657+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-11-30 12:46] How long have I had my cat, Luna?'}, {'timestamp': '2026-10-18T03:18:36.479533+00:00', 'time_ago': '40s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is a fantastic choice! The **Petcube** line is really well-regarded, and their interactive toys are great because they often integrate that \"remote engagement\" element we talked about. It\\'s essentially adding that layer of interactive play even when you\\'re busy or away.\\n\\nIt\\'s going to be so fun to see how Luna reacts to it! Since you mentioned you’re a fan of keeping things fresh, she’s definitely going to appreciate having something new to investigate.\\n\\nJust a couple of final thoughts as you get ready for this home-improvement project:\\n\\n*   **Test it before you mount it:** Before you fully commit to the wall space, try setting it up on a table or the floor for a day or two. See if she likes the movement of the toy. Once she\\'s comfortable with the mechanics, *then* mount it to the wall—that way, you know exactly where she enjoys interacting with it the most!\\n*   **Safety check:** Since you\\'re going to be mounting this to the wall, just double-check the placement in relation to your existing cat tree. You can create a \"highway\" by putting the new wall toy at a level she can easily jump to from the top of the cat tree. It will make her feel like she\\'s really exploring her territory!\\n\\nIt sounds like Luna is about to have the most engaging home environment ever. You\\'re doing a great job balancing her needs with your own busy schedule!\\n\\nDo you have any other questions about setting up her \"climbing zone,\" or are you all set to start planning?'}]}",
+ "answer": "Based on the information I have in your memory, you have had your cat, Luna, for 9 months as of November 2023.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is planning to shift focus or expand into offering online marketing services to small businesses, which they became interested in after a webinar they attended last month (August 2023). They are currently selling handmade candles, soaps, and jewelry at local markets. They are looking for advice on competitive strategy and differentiation for their marketing services business. The user is also tracking gift expenses by category (birthdays, anniversaries, etc.). Recently, they bought a $50 gift card for their mom's spa as part of an anniversary gift.\nAlso, last month (June 2023), the user bought a silver necklace for their sister's birthday for $50.\nThis month (July 2023), the user bought a housewarming gift for their friend Rachel: kitchen utensils ($25) and a cookbook ($15), totaling $40.\nAlso this month (July 2023), the user bought a birthday gift for their nephew: a Lego set ($75) and a matching Lego t-shirt ($10), totaling $85.\nAlso this month (July 2023), the user bought a wedding gift for their brother: a crystal vase ($100) and a restaurant gift card ($50), totaling $150.\nAlso this month (July 2023), the user bought a get-well gift for their neighbor: fruit and flowers ($15).\nThe user has a cat named Luna. They brush her daily and give her freeze-dried salmon treats.\nIn September 2023, they decided to start their own business, inspired by a full-day entrepreneurship conference they attended at a downtown hotel last November.\nIn January 2023, the user attended a lecture series on sustainable living at the library, where they met like-minded people. They are considering collaborating with these contacts to expand their marketing services business.\nThe user is starting a sustainable living blog. They are planning to add a user-generated content (UGC) section for vegan recipes and are seeking marketing advice on how to promote this section to drive submissions and traffic.\nIn late November 2023, the user started planning their garden (including a herb garden and hydrangea propagation). They are researching companion planting and crop rotation, and are interested in making their own compost tea for their plants.\nThe user struggles with maintaining a consistent exercise routine and is looking for motivation strategies that align with their preference for walking and gardening.\nLuna has been with the user for 9 months (as of Nov 2023). The user is already very proactive, using a cat tree and rotating toys weekly to keep Luna engaged.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "memory_search({\"query\": \"how long have I had my cat, Luna?\"})",
+   "conversation_search({\"query\": \"Luna\"})"
+  ],
+  "blocks_chars": 2685,
+  "write_steps": 55,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 377.1,
+  "total": 383.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "69fee5aa",
+ "arm": "honcho-chat",
+ "split": "pilot",
+ "question": "How many pre-1920 American coins do I have in my collection?",
+ "reference": "38",
+ "question_date": "2023-06-09 11:14",
+ "sessions": [
+  {
+   "id": "1126be1e_1",
+   "date": "2023-05-20 04:52",
+   "evidence": false
+  },
+  {
+   "id": "f3881d05",
+   "date": "2023-05-25 16:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_15909",
+   "date": "2023-05-27 15:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6028d6e_1",
+   "date": "2023-05-27 18:09",
+   "evidence": true
+  },
+  {
+   "id": "ef917f63",
+   "date": "2023-05-27 21:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3st3uPn_0",
+   "date": "2023-05-28 03:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6028d6e_2",
+   "date": "2023-05-29 00:54",
+   "evidence": true
+  },
+  {
+   "id": "52498502_2",
+   "date": "2023-05-31 06:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_121551",
+   "date": "2023-06-02 03:48",
+   "evidence": false
+  },
+  {
+   "id": "a554ed79_2",
+   "date": "2023-06-02 19:20",
+   "evidence": false
+  }
+ ],
+ "context": "Based on the records in your memory, you own **37** coins minted before 1920.\n\nThis is supported by observations from May 27, 2023, which explicitly state:\n*   \"user owns a collection of 37 American coins minted before 1920.\"\n*   \"user owns 37 coins.\"\n\nWhile you added a 1915-S Barber quarter to your collection on May 29, 2023, the collection count of 37 was recorded on May 27. It is unclear if that subsequent addition changed your total to 38 or if it was one of the coins already accounted for in your earlier total.",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   On May 27, 2023, it was recorded that you own 37 American coins minted before 1920.\n*   On May 29, 2023, you added a 1915-S Barber quarter to your collection.\n*   The records note that it is unclear whether the 1915-S Barber quarter was already part of the initial 37 coins or if it was an additional piece that would bring the total to 38.\n\n**2. Reason over the information:**\n*   The confirmed baseline established on May 27 is 37 coins.\n*   Because the status of the 1915-S Barber quarter (whether it was a new acquisition or a previously uncounted coin) is ambiguous, there is no definitive evidence to update the total count beyond the verified 37. \n*   Therefore, based on the available records, the most accurate count remains the one explicitly documented.\n\n**Answer:**\nYou have 37 pre-1920 American coins in your collection. While you added a 1915-S Barber quarter on May 29, 2023, it is uncertain if this increased your total or was already included in the initial count of 37.",
+ "dump": "- [explicit] user is planning a week-long vacation to Hawaii in December 2023 with family.\n- [explicit] user is concerned about keeping the 7-year-old child entertained during the long flight to Hawaii.\n- [explicit] user has a 7-year-old child.\n- [explicit] user is concerned about whether the booked hotel suite is the best accommodation choice.\n- [explicit] user is traveling with a 7-year-old child to Hawaii.\n- [explicit] user has booked a hotel suite that features separate bedrooms and a living area.\n- [explicit] user is seeking information about kid-friendly hotels or vacation rentals in Hawaii.\n- [explicit] user is interested in accommodations that offer kids' clubs or water parks.\n- [explicit] user intends to look into resorts and vacation rentals that offer kids' clubs and water parks.\n- [explicit] user is considering booking a character breakfast or dinner at one of the resorts for their child.\n- [explicit] user intends to book a character breakfast or dinner.\n- [explicit] user is looking for a farewell gift for a coworker who is leaving.\n- [explicit] user is interested in purchasing a coffee mug or a coffee shop gift card.\n- [explicit] user is considering a $20 to $30 gift card for a coffee shop.\n- [explicit] user prefers the idea of a personalized mug.\n- [explicit] user is uncertain about the typical price of a customized mug.\n- [explicit] user has spent approximately $500 on gifts for others in the month preceding 2023-05-25.\n- [explicit] user intends to purchase a birthday card for their sister.\n- [explicit] user has a sister whose birthday is on June 15th.\n- [explicit] user intends to purchase a bouquet of sunflowers for their sister.\n- [explicit] user has decided to give a personalized mug as a gift.\n- [explicit] user has already purchased a silver necklace with a small pendant from a new jewelry store at the mall for their sister's birthday.\n- [explicit] user is looking for a gift for a coworker.\n- [explicit] user has prepared a gift and card for their sister's birthday.\n- [explicit] user is planning to write a heartfelt message expressing love and appreciation for their sister in a birthday card.\n- [explicit] user has a sister.\n- [explicit] user is considering buying a funny mug with a quote about coffee or leaving a job for their coworker.\n- [explicit] user is concerned about personal data stored on their lost passport.\n- [explicit] user intends to report a lost or stolen passport as soon as possible.\n- [explicit] user intends to contact their bank and credit card companies regarding their lost passport.\n- [explicit] user intends to use Discogs to track their vinyl record collection.\n- [explicit] user is seeking software to track their vintage camera collection and camera specifications.\n- [explicit] user intends to use Coin Collector's Assistant to track their coin collection.\n- [explicit] user collects coins, records, cameras, and books.\n- [explicit] user owns vintage cameras.\n- [explicit] user owns a collection of cameras that includes a 1960s-era Nikon F.\n- [explicit] user seeks methods to research and verify the authenticity of a 1940s-era Leica IIIa and a 1960s-era Nikon F.\n- [explicit] user intends to add more cameras to the collection.\n- [explicit] user seeks information regarding the value of a 1940s-era Leica IIIa and a 1960s-era Nikon F.\n- [explicit] user owns a collection of cameras that includes a 1940s-era Leica IIIa.\n- [explicit] user is interested in getting a 1913 Liberty Head nickel appraised.\n- [explicit] user owns a 1913 Liberty Head nickel.\n- [explicit] user has an interest in displaying a collection of 37 pre-1920 American coins together.\n- [explicit] user owns a collection of 37 American coins minted before 1920.\n- [explicit] user intends to organize a collection of pre-1920 American coins by denomination and mint mark.\n- [explicit] user owns 37 coins.\n- [explicit] user owns a collection of pre-1920 American coins.\n- [explicit] user consumes oatmeal with fruit and nuts every morning.\n- [explicit] user is planning their day.\n- [explicit] user practices 5 minutes of meditation every morning.\n- [explicit] user reports feeling more energized and focused throughout the day due to their morning yoga and meditation routine.\n- [explicit] user practices a 10-minute yoga routine every morning.\n- [explicit] user is seeking suggestions to create a more consistent sleep schedule.\n- [explicit] user wakes up around 7:30 am every weekday.\n- [explicit] user aims for 7 to 8 hours of sleep each night.\n- [explicit] user feels rested and focused for the day after obtaining 7 to 8 hours of sleep.\n- [explicit] user plans to try new calming teas to help wind down before bed.\n- [explicit] user plans to set their alarm for the same time every day, including weekends, to regulate their internal clock.\n- [explicit] user intends to keep their bedroom cooler and darker.\n- [explicit] user plans to try new essential oils to help wind down before bed.\n- [explicit] user plans to establish a more relaxing bedtime routine.\n- [explicit] user intends to create a sleep-conducive environment in their bedroom.\n- [explicit] user plans to avoid checking their phone or computer at least an hour before bed to minimize blue light exposure.\n- [explicit] user is interested in an explanation of quantum computing in simple terms\n- [explicit] user intends to get some of user's error coins authenticated.\n- [explicit] user collects pre-1920 American coins.\n- [explicit] user added a 1915-S Barber quarter to user's collection on 2023-05-29.\n- [explicit] user is interested in learning about error coins with misprinted dates.\n- [explicit] user intends to get their 1972 doubled die cent authenticated.\n- [explicit] user is interested in finding deals on vintage cameras at coin shows.\n- [explicit] user collects vintage cameras.\n- [explicit] user intends to check resources to find upcoming coin shows in their area.\n- [explicit] user owns a 1972 doubled die cent.\n- [explicit] user is planning to expand the camera collection by acquiring vintage rangefinders.\n- [explicit] user bought cereal on the weekend of May 27-28, 2023.\n- [explicit] user is currently trying to reduce their sugar intake.\n- [explicit] user has been meaning to try out new recipes.\n- [explicit] user is interested in healthy breakfast ideas that can be prepared in advance.\n- [explicit] user has been looking for ways to meal prep breakfasts.\n- [explicit] user is seeking recommendations for meal prep containers that are safe for both the microwave and the freezer.\n- [explicit] user is considering purchasing new meal prep containers.\n- [explicit] user intends to become more organized with meal preparation.\n- [explicit] user visited a grocery store on the weekend of May 27-28, 2023.\n- [explicit] user struggles with maintaining a grateful mindset.\n- [explicit] user likes the idea of keeping a gratitude journal.\n- [explicit] user often rushes through meals.\n- [explicit] user recently completed a 5-day trip to New York City with friends.\n- [explicit] user intends to explore the music scene of New York City on a future trip.\n- [explicit] user met a fellow music lover at the hostel in the South Congress neighborhood of Austin, Texas.\n- [explicit] user attended a secret show at a music festival in Austin, Texas.\n- [explicit] user visited Austin, Texas in February 2023 for a music festival.\n- [explicit] user is interested in indie rock and alternative music.\n- [explicit] user is interested in attending music festivals or concerts during the spring season.\n- [explicit] user intends to visit Bowery Ballroom and Rough Trade NYC in NYC.\n- [explicit] user has attended a concert at the Continental Club in Austin.\n- [explicit] user is interested in finding outdoor concerts or music events in NYC parks during the spring.\n- [explicit] user plans to investigate the music festivals and venues suggested for NYC.\n- [explicit] user wants to experience music events in NYC similar to the one they attended at the Continental Club in Austin.\n- [explicit] user is interested in visiting music stores or record shops in NYC.\n- [explicit] user intends to visit outdoor concerts and events in NYC parks.\n- [explicit] user is interested in exploring the music scene in NYC.\n- [explicit] user stayed at a hostel in the South Congress neighborhood of Austin, Texas, in February 2023.\n- [deductive] user has an interest in live music and music tourism.\n- [deductive] user is an aficionado of indie rock and alternative music genres.\n- [inductive] user has a strong personal preference for independent rock and alternative music scenes.\n- [inductive] user consistently incorporates music exploration and live performance attendance into their travel planning.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 130.4,
+  "total": 133.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

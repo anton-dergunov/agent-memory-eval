@@ -1,0 +1,102 @@
+{
+ "qid": "2698e78f",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How often do I see my therapist, Dr. Smith?",
+ "reference": "every week",
+ "question_date": "2023-11-10 00:38",
+ "sessions": [
+  {
+   "id": "sharegpt_4qCDHY4_17",
+   "date": "2023-03-15 12:49",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6U7TyYE_0",
+   "date": "2023-03-17 15:06",
+   "evidence": false
+  },
+  {
+   "id": "d76030af_1",
+   "date": "2023-03-23 03:11",
+   "evidence": false
+  },
+  {
+   "id": "89c1cdfa_2",
+   "date": "2023-03-27 05:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DrLV0RL_0",
+   "date": "2023-04-02 20:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_1",
+   "date": "2023-04-03 14:18",
+   "evidence": true
+  },
+  {
+   "id": "619e96bc",
+   "date": "2023-07-12 03:14",
+   "evidence": false
+  },
+  {
+   "id": "1980bbfa_5",
+   "date": "2023-11-03 14:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_2",
+   "date": "2023-11-03 19:56",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_130siyQ_0",
+   "date": "2023-11-09 13:22",
+   "evidence": false
+  }
+ ],
+ "context": "- The user attends weekly therapy sessions with Dr. Smith to work on setting healthy boundaries. (valid since 2023-11-03)\n- Dr. Smith suggested the user learn to say no and set healthy boundaries to manage feelings of being overwhelmed. (valid since 2023-04-03)\n- The home studio features a comfortable, adjustable chair. (valid since 2023-03-23)\n- The home studio maintains a first aid kit for safety. (valid since 2023-03-23)\n- The home studio contains a desk. (valid since 2023-03-23)\n- The user attended the high school graduation ceremony for the user's niece on June 15, 2023. (valid since 2023-06-15)\n- The home studio contains a sturdy worktable. (valid since 2023-03-23)\n- The assistant provides guidance and support for the Data Science Specialization capstone project. (valid since 2023-03-27)\n- The home studio maintains a fire extinguisher for safety. (valid since 2023-03-23)\n- SQL is recommended by the assistant for database querying and data extraction. (valid since 2023-03-27)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   The history chat states: \"The user attends weekly therapy sessions with Dr. Smith to work on setting healthy boundaries. (valid since 2023-11-03)\"\n\n2.  **Reason over the information:**\n    *   The information explicitly specifies the frequency of the therapy sessions as \"weekly.\"\n    *   Since the current date is 2023/11/10 and the information is valid as of 2023/11/03, this remains the current status.\n\n3.  **Answer:**\n    *   You see your therapist, Dr. Smith, on a weekly basis.",
+ "dump": "- The user requested help with the Google Document link for genre information (valid since 2023-03-15)\n- The home studio contains a painting zone. (valid since 2023-03-23)\n- The home studio contains a drawing zone. (valid since 2023-03-23)\n- The home studio contains a storage area for supplies. (valid since 2023-03-23)\n- The home studio contains a sturdy worktable. (valid since 2023-03-23)\n- The home studio contains a desk. (valid since 2023-03-23)\n- The home studio uses desk lamps for task lighting. (valid since 2023-03-23)\n- The home studio is organized using shelving. (valid since 2023-03-23)\n- The home studio is organized using cabinets. (valid since 2023-03-23)\n- The home studio is organized using drawers. (valid since 2023-03-23)\n- The home studio features a comfortable, adjustable chair. (valid since 2023-03-23)\n- The home studio features a standing desk. (valid since 2023-03-23)\n- The home studio features a riser to alternate between sitting and standing. (valid since 2023-03-23)\n- The home studio maintains a first aid kit for safety. (valid since 2023-03-23)\n- The home studio maintains a fire extinguisher for safety. (valid since 2023-03-23)\n- The home studio includes a portable speaker for a productive atmosphere. (valid since 2023-03-23)\n- The assistant recommends Etsy as a resource for discovering unique and authentic art pieces. (valid since 2023-03-23)\n- The assistant recommends Redbubble as a resource for discovering unique and authentic art pieces. (valid since 2023-03-23)\n- Johns Hopkins University offers a Data Science Specialization program which consists of 10 courses. (valid since 2023-03-27)\n- The Data Science Specialization program includes a capstone project as its final course where students integrate the skills learned throughout the specialization. (valid since 2023-03-27)\n- The assistant provides guidance and support for the Data Science Specialization capstone project. (valid since 2023-03-27)\n- DataCamp is recommended by the assistant for learning data science, machine learning, and visualization tools. (valid since 2023-03-27)\n- Kaggle is recommended by the assistant for practicing machine learning and exploring customer churn datasets. (valid since 2023-03-27)\n- Tableau is recommended by the assistant as a data visualization tool for creating interactive dashboards. (valid since 2023-03-27)\n- Matplotlib is recommended by the assistant as a Python library for creating static and interactive visualizations. (valid since 2023-03-27)\n- Seaborn is recommended by the assistant as a Python library for creating complex visualizations like heatmaps. (valid since 2023-03-27)\n- ggplot2 is recommended by the assistant as an R library for creating complex visualizations. (valid since 2023-03-27)\n- Power BI is recommended by the assistant as a business intelligence tool for interactive visualizations and reporting. (valid since 2023-03-27)\n- Scikit-learn is recommended by the assistant as a Python machine learning library for classification, regression, and clustering. (valid since 2023-03-27)\n- TensorFlow is recommended by the assistant as a deep learning library for building neural networks. (valid since 2023-03-27)\n- PyTorch is recommended by the assistant as a deep learning library for building neural networks. (valid since 2023-03-27)\n- R's caret package is recommended by the assistant for building and testing regression models. (valid since 2023-03-27)\n- Statsmodels is recommended by the assistant as a Python library for statistical modeling. (valid since 2023-03-27)\n- Pandas is recommended by the assistant for data manipulation and analysis. (valid since 2023-03-27)\n- NumPy is recommended by the assistant for numerical computing and array operations. (valid since 2023-03-27)\n- SQL is recommended by the assistant for database querying and data extraction. (valid since 2023-03-27)\n- The Python Data Science Handbook by Jake VanderPlas is recommended by the assistant as a learning resource. (valid since 2023-03-27)\n- R for Data Science by Hadley Wickham and Garrett Grolemund is recommended by the assistant as a learning resource. (valid since 2023-03-27)\n- Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron is recommended by the assistant as a learning resource. (valid since 2023-03-27)\n- The assistant provides an SEO-optimized introduction for the YouTube video series topic about the role of Hindu mythology in Indian spirituality and religion. (valid since 2023-04-02)\n- The assistant provides an SEO-optimized outro for the YouTube video series topic about the role of Hindu mythology in Indian spirituality and religion, which includes a mention that more related videos will be coming soon. (valid since 2023-04-02)\n- Hindu mythology includes the text of the Ramayana. (valid since 2023-04-02)\n- Hindu mythology includes the text of the Bhagavad Gita. (valid since 2023-04-02)\n- Hindu mythology features avatars of the god Vishnu. (valid since 2023-04-02)\n- Dr. Smith suggested the user learn to say no and set healthy boundaries to manage feelings of being overwhelmed. (valid since 2023-04-03)\n- The user attended the high school graduation ceremony for the user's niece on June 15, 2023. (valid since 2023-06-15)\n- The user is considering pursuing a certification in data science. (valid since 2023-07-12)\n- The assistant recommends the Titanic: Machine Learning from Disaster project to the user for practicing data science skills. (valid since 2023-07-12)\n- The assistant recommends using the pandas library for data exploration in the Titanic: Machine Learning from Disaster project. (valid since 2023-07-12)\n- The assistant recommends using the matplotlib library for data visualization in the Titanic: Machine Learning from Disaster project. (valid since 2023-07-12)\n- The assistant suggests loading data from titanic.csv for the Titanic: Machine Learning from Disaster project. (valid since 2023-07-12)\n- The assistant recommends using StandardScaler to scale or normalize numerical variables for the Titanic: Machine Learning from Disaster project. (valid since 2023-07-12)\n- The assistant recommends using OneHotEncoder for converting categorical variables in the Titanic: Machine Learning from Disaster project. (valid since 2023-07-12)\n- The user intends to improve the lighting in their dining room to create a cozier ambiance for a future dinner party. (valid since 2023-11-03)\n- The laundry room currently contains a fluorescent light. (valid since 2023-11-03)\n- The user plans to replace the fluorescent light in the laundry room with an LED light. (valid since 2023-11-03)\n- The user attends weekly therapy sessions with Dr. Smith to work on setting healthy boundaries. (valid since 2023-11-03)\n- The assistant is a graduate of Harvard Business School. (valid since 2023-11-09)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 58,
+  "invalidated": 0,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 158.0,
+  "total": 159.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

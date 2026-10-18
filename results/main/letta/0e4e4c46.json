@@ -1,0 +1,122 @@
+{
+ "qid": "0e4e4c46",
+ "arm": "letta",
+ "split": "main",
+ "question": "What is my current highest score in Ticket to Ride?",
+ "reference": "132 points",
+ "question_date": "2023-06-10 16:46",
+ "sessions": [
+  {
+   "id": "e82ce7cd_3",
+   "date": "2023-04-28 20:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_1",
+   "date": "2023-05-23 03:08",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_97515",
+   "date": "2023-05-23 18:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_puvUs0e_0",
+   "date": "2023-05-24 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_59250",
+   "date": "2023-05-24 09:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_198964",
+   "date": "2023-05-24 18:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Wi7Op1u_39",
+   "date": "2023-05-25 00:38",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhPNTAJ_0",
+   "date": "2023-05-25 07:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_iUc80a8_0",
+   "date": "2023-05-25 10:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_2",
+   "date": "2023-05-25 22:16",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nThe user enjoys cooking and recently made beef stroganoff for their mom's birthday party.\nThe user plays basketball on Thursday evenings with friends named Tom and Alex.\nThe user prefers playing basketball over watching professional basketball.\nThe user is interested in trying Chicken Cacciatore.\nThe user is looking for tips on preventing soreness after sports.\nThe user's highest score in Ticket to Ride is 132 points.\nThe user is interested in trying Carcassonne.\nThe user is interested in the Nordic Kingdoms faction in the game Scythe, specifically focusing on structure building and resource trade.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n[ToolConstraintError] Cannot call memory_search, valid tools include: ['memory_insert', 'memory_replace', 'conversation_search'].\n{'message': 'No results found.', 'results': []}",
+ "answer": "Your highest score in Ticket to Ride is 132 points.",
+ "dump": "<human>\n\nThe user enjoys cooking and recently made beef stroganoff for their mom's birthday party.\nThe user plays basketball on Thursday evenings with friends named Tom and Alex.\nThe user prefers playing basketball over watching professional basketball.\nThe user is interested in trying Chicken Cacciatore.\nThe user is looking for tips on preventing soreness after sports.\nThe user's highest score in Ticket to Ride is 132 points.\nThe user is interested in trying Carcassonne.\nThe user is interested in the Nordic Kingdoms faction in the game Scythe, specifically focusing on structure building and resource trade.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "memory_search({\"query\": \"Ticket to Ride high score\"})",
+   "conversation_search({\"query\": \"Ticket to Ride score\"})"
+  ],
+  "blocks_chars": 805,
+  "write_steps": 40,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 265.0,
+  "total": 272.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

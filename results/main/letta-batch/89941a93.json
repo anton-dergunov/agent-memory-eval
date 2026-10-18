@@ -1,0 +1,107 @@
+{
+ "qid": "89941a93",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many bikes do I currently own?",
+ "reference": "4",
+ "question_date": "2023-10-27 13:00",
+ "sessions": [
+  {
+   "id": "8e72316f",
+   "date": "2023-02-02 01:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-02-22 20:54",
+   "evidence": true
+  },
+  {
+   "id": "95ebf866",
+   "date": "2023-07-25 17:00",
+   "evidence": false
+  },
+  {
+   "id": "169213ae",
+   "date": "2023-08-04 11:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_151269",
+   "date": "2023-09-25 17:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-10-10 01:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jxsIY6L_0",
+   "date": "2023-10-11 01:04",
+   "evidence": false
+  },
+  {
+   "id": "25956eab_1",
+   "date": "2023-10-15 17:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_70151",
+   "date": "2023-10-20 19:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_440266",
+   "date": "2023-10-23 07:05",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T15:48:03.171328+00:00', 'time_ago': '14s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"\\n\\nDo you have any other questions about cycling-related thoughts or you'd like to reach your road trip, road bike, road trip and cycling adventure?\\n\\n---\\n*Self-reflection: The user is planning a major cross-country road trip. I have provided detailed route, maintenance, and gear advice. I should offer to help them organize their packing list or itinerary more formally.*\\n That sounds like a great plan. Bringing your clipless pedals could definitely enhance your performance on your road bike, while keeping platform pedals on your hybrid adds that layer of versatility for more casual exploration. It all comes down to what feels most comfortable for the specific rides you have planned for each bike.\\n\\nSince you have quite a bit of gear—four bikes, various pedals, tools, and personal items for a 10-day trip—would you like me to help you put together a more formal packing checklist? We could organize it by category (e.g., Bike Maintenance, Cycling Gear, Clothing, Travel Essentials) to make sure you don't forget anything important as you pack up for your cross-country journey. \\n\\nI'm here whenever you're ready to dive into that, or if there's anything else about your upcoming trip you'd like to discuss!\"}, {'timestamp': '2026-10-17T15:48:00.888663+00:00', 'time_ago': '16s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-10-10 01:12] Clipless pedals can be a bit of a learning curve, but they can definitely improve your pedaling efficiency and overall cycling experience.\\n\\nAs for bringing your clipless pedals on the trip, it's a good idea to consider a few factors before making a decision:\\n\\n1. **Hybrid bike compatibility:** Check if your hybrid bike is compatible with clipless pedals. Some hybrid bikes may not have the necessary mounts or may require adapters, which could add weight and complexity.\\n2. **Pedal type:** If your hybrid bike has platform pedals, you might want to stick with those for simplicity and versatility. However, if you're planning to ride your road bike extensively, bringing your clipless pedals could be a good idea.\\n3. **Cleat compatibility:** Make sure your cycling shoes are compatible with the pedals on your hybrid bike. If not, you might need to bring an adapter or use a different pair of shoes.\\n4. **Weight and space:** Consider the added weight and space required to bring your clipless pedals. If you're already carrying multiple bikes and gear, it might be worth leaving the pedals behind.\\n5. **Ride style:** Think about the type of riding you'll be doing on your hybrid bike. If you'll be riding on rough terrain or carrying heavy loads, platform pedals might be a better choice.\\n\\nIf you do decide to bring your clipless pedals, make sure to pack them securely and consider bringing a spare set of cleats in case you need to replace them.\\n\\nUltimately, it's up to you to weigh the pros and cons. If you're comfortable with the added complexity and weight, bringing your clipless pedals could be a good idea. However, if you're looking to keep things simple and versatile, sticking with the platform pedals on your hybrid bike might be the way to go.\"}, {'timestamp': '2026-10-17T15:48:00.888606+00:00', 'time_ago': '16s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-10-10 01:12] There are several bike shops and tour operators along the route that offer bike rentals, guided tours, and other cycling services. Here are a few recommendations:\\n\\n**Lake Tahoe, CA**\\n\\n* Tahoe City Bikes: Offers bike rentals, guided tours, and shuttle services for cyclists.\\n* Mountain Bike Tahoe: Provides guided mountain bike tours and rentals.\\n\\n**Jackson Hole, WY**\\n\\n* Jackson Hole Mountain Resort Bike Park: Offers bike rentals, guided tours, and lift-serviced mountain bikin",
+ "answer": "Based on our conversation on October 10, 2023, you mentioned that you own four bikes: your road bike, mountain bike, commuter bike, and your new hybrid bike.",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"bikes\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 29.6,
+  "total": 34.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

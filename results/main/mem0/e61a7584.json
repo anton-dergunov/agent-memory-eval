@@ -1,0 +1,100 @@
+{
+ "qid": "e61a7584",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How long have I had my cat, Luna?",
+ "reference": "9 months",
+ "question_date": "2023-11-30 12:46",
+ "sessions": [
+  {
+   "id": "21c6c41d",
+   "date": "2023-07-27 04:05",
+   "evidence": false
+  },
+  {
+   "id": "6a4b4b7e_2",
+   "date": "2023-07-30 21:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_f25c32f5_1",
+   "date": "2023-08-11 16:53",
+   "evidence": true
+  },
+  {
+   "id": "18a06652_4",
+   "date": "2023-09-12 00:49",
+   "evidence": false
+  },
+  {
+   "id": "e1416816_2",
+   "date": "2023-09-13 13:57",
+   "evidence": false
+  },
+  {
+   "id": "a59a9a13",
+   "date": "2023-11-27 16:30",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_124247",
+   "date": "2023-11-30 02:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_f25c32f5_2",
+   "date": "2023-11-30 10:31",
+   "evidence": true
+  },
+  {
+   "id": "40f07f4a_2",
+   "date": "2023-11-30 13:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Ee752j6_0",
+   "date": "2023-11-30 19:43",
+   "evidence": false
+  }
+ ],
+ "context": "- User has a cat named Luna and has been caring for her for approximately 6 months as of August 2023. (from a chat on 2023-08-11)\n- User has had their cat, Luna, for approximately 9 months as of November 2023, and maintains an active playtime routine including a cat tree and weekly toy rotation. (from a chat on 2023-11-30)\n- User feeds Luna freeze-dried salmon treats, which the cat enjoys and which provide beneficial omega-3 fatty acids. (from a chat on 2023-08-11)\n- User has scheduled an appointment for Friday, August 18, 2023, to have Luna microchipped as a safety precaution. (from a chat on 2023-08-11)\n- User is actively managing Luna's health by brushing her daily, which has successfully reduced shedding. (from a chat on 2023-08-11)\n- User plans to implement a new playtime routine for Luna using a laser pointer and a feather teaser to improve her agility and exercise levels. (from a chat on 2023-08-11)\n- User is interested in purchasing interactive toys, specifically climbing walls and wall-mounted toys, to further stimulate Luna. (from a chat on 2023-11-30)\n- User is considering a pet camera with treat-dispensing capabilities to monitor Luna and use positive reinforcement to train her to stay off furniture. (from a chat on 2023-11-30)\n- User plans to purchase the Petcube Interactive Wall Toy for Luna, noting its laser pointer and treat dispenser features. (from a chat on 2023-11-30)\n- User was encouraged to microchip their cat as a permanent form of identification and was advised to keep contact information updated with the registry. (from a chat on 2023-08-11)\n- User was provided with a list of suitable cat toys and activities, including wand toys, puzzle feeders, and interactive play, to encourage physical and mental stimulation. (from a chat on 2023-08-11)\n- User was recommended several strategies to reduce cat shedding, such as daily brushing, using deshedding tools, and ensuring proper hydration. (from a chat on 2023-08-11)\n- User was recommended several interactive toy brands and products for cats, including SmartCat and Go Pet Club for climbing walls, and Petcube, FurHaven, and Kong for wall-mounted toys. (from a chat on 2023-11-30)\n- User was advised on various methods to maintain a cat's healthy weight, including portion control, exercise, and regular weigh-ins. (from a chat on 2023-08-11)\n- User purchased a $50 silver necklace from a downtown jewelry store for their sister's birthday in June 2023. (from a chat on 2023-07-30)\n- User purchased a $40 housewarming gift for their friend Rachel in July 2023, consisting of kitchen utensils ($25) and a cookbook ($15) from Bed Bath & Beyond. (from a chat on 2023-07-30)\n- User purchased an $85 birthday gift for their nephew in July 2023, consisting of a Lego set ($75) and a matching Lego t-shirt ($10) from Toys R Us. (from a chat on 2023-07-30)\n- User connected with like-minded individuals at a lecture series on sustainable living at the library in January 2023 and is considering collaborating with them. (from a chat on 2023-09-12)\n- User has been researching companion planting and crop rotation for three weeks as part of their garden planning for the upcoming season. (from a chat on 2023-11-27)\n- User purchased a $150 wedding gift for their brother in July 2023, consisting of a $100 crystal vase from a home decor store on the highway and a $50 restaurant gift card. (from a chat on 2023-07-30)",
+ "answer": "**Step 1: Extract relevant information**\n*   From the chat on 2023-08-11: The user stated they have been caring for Luna for approximately 6 months.\n*   From the chat on 2023-11-30: The user stated they have had Luna for approximately 9 months.\n\n**Step 2: Reason over the information**\n*   The most recent information provided by the user regarding the duration of ownership is from the chat on 2023-11-30.\n*   This information explicitly states that as of November 2023, the user has had Luna for approximately 9 months.\n\n**Answer:**\nYou have had your cat, Luna, for approximately 9 months.",
+ "dump": "- User is actively managing Luna's health by brushing her daily, which has successfully reduced shedding. (session 2023-08-11)\n- User intends to include guidance on brand storytelling, social media content, and targeted advertising in their marketing resource for sustainable businesses. (session 2023-09-12)\n- User was advised to post on Instagram 3-5 times a week, using a content mix of product showcases (30-40%), behind-the-scenes (20-30%), educational content (10-20%), promotions (10-20%), and engagement-driven content (10-20%). (session 2023-07-27)\n- User has decided to specialize their online marketing business by targeting small businesses in the eco-friendly and sustainable products industry. (session 2023-09-12)\n- User has a cat named Luna and has been caring for her for approximately 6 months as of August 2023. (session 2023-08-11)\n- User purchased a $40 housewarming gift for their friend Rachel in July 2023, consisting of kitchen utensils ($25) and a cookbook ($15) from Bed Bath & Beyond. (session 2023-07-30)\n- User recently shared a vegan recipe in the 'Foodie Frenzy' group and received a positive response, which encouraged them to pursue plant-based cooking content. (session 2023-09-13)\n- User has scheduled an appointment for Friday, August 18, 2023, to have Luna microchipped as a safety precaution. (session 2023-08-11)\n- User was recommended several interactive toy brands and products for cats, including SmartCat and Go Pet Club for climbing walls, and Petcube, FurHaven, and Kong for wall-mounted toys. (session 2023-11-30)\n- User was encouraged to microchip their cat as a permanent form of identification and was advised to keep contact information updated with the registry. (session 2023-08-11)\n- User is exploring AI-powered adaptive learning systems, specifically how they function, their benefits, and their limitations regarding algorithmic bias, over-reliance on technology, and equity/access issues. (session 2023-11-30)\n- User is starting a new blog focused on sustainable living and plans to feature vegan recipes to attract their target audience. (session 2023-09-13)\n- User was advised on various methods to maintain a cat's healthy weight, including portion control, exercise, and regular weigh-ins. (session 2023-08-11)\n- User was provided with a compost tea recipe involving steeping 1 cup of mature compost in 1 gallon of water for 24-48 hours to provide beneficial microbes to their plants. (session 2023-11-27)\n- User was provided with a content prioritization framework for events: high priority for event-specific announcements, medium priority for product-focused content, and low priority for evergreen educational content. (session 2023-07-27)\n- User attended a webinar last month (August 2023) focused on online marketing services. (session 2023-09-12)\n- User is interested in the role of teacher training and support in the effective implementation of adaptive learning systems in classrooms. (session 2023-11-30)\n- User was provided with a list of academic journals, publications, and organizations for researching AI in education, including the Journal of Educational Data Mining, Harvard Educational Review, and the AI Now Institute. (session 2023-11-30)\n- User purchased an $85 birthday gift for their nephew in July 2023, consisting of a Lego set ($75) and a matching Lego t-shirt ($10) from Toys R Us. (session 2023-07-30)\n- User plans to create a free resource, such as an e-book, webinar, or video series, to provide marketing tips for eco-friendly businesses and establish their expertise. (session 2023-09-12)\n- User was provided with a list of suitable cat toys and activities, including wand toys, puzzle feeders, and interactive play, to encourage physical and mental stimulation. (session 2023-08-11)\n- User plans to implement a new playtime routine for Luna using a laser pointer and a feather teaser to improve her agility and exercise levels. (session 2023-08-11)\n- User purchased a $150 wedding gift for their brother in July 2023, consisting of a $100 crystal vase from a home decor store on the highway and a $50 restaurant gift card. (session 2023-07-30)\n- User was provided with an overview of AI-powered adaptive learning systems, including examples like Knewton, DreamBox Learning, i-Ready, and ALEKS. (session 2023-11-30)\n- User identified that a major challenge for eco-friendly businesses is effectively communicating their unique value proposition and differentiating themselves from non-sustainable competitors. (session 2023-09-12)\n- User purchased a $15 get-well gift for their neighbor in July 2023, consisting of fresh fruit and flowers from a supermarket. (session 2023-07-30)\n- User intends to promote their blog's UGC section through social media campaigns using relevant hashtags and by collaborating with vegan influencers and bloggers. (session 2023-09-13)\n- User creates and sells handmade candles, soaps, and jewelry at market events and craft fairs. (session 2023-07-27)\n- User was advised to overcome mental blocks by starting small, finding opportunities for movement throughout the day, making exercise social, and connecting exercise to meaningful personal reasons. (session 2023-11-30)\n- User has been researching companion planting and crop rotation for three weeks as part of their garden planning for the upcoming season. (session 2023-11-27)\n- User has had their cat, Luna, for approximately 9 months as of November 2023, and maintains an active playtime routine including a cat tree and weekly toy rotation. (session 2023-11-30)\n- User was recommended several strategies to reduce cat shedding, such as daily brushing, using deshedding tools, and ensuring proper hydration. (session 2023-08-11)\n- User struggles with maintaining motivation for an exercise routine and frequently encounters mental blocks like feeling too tired or lacking time. (session 2023-11-30)\n- User plans to purchase the Petcube Interactive Wall Toy for Luna, noting its laser pointer and treat dispenser features. (session 2023-11-30)\n- User was recommended specific Instagram content ideas for their upcoming craft fair, including event announcements, product sneak peeks, vendor spotlights, behind-the-scenes process, and interactive content like polls or quizzes. (session 2023-07-27)\n- User was recommended various strategies to improve exercise motivation, including setting specific goals, finding enjoyable activities, scheduling exercise as a habit, using music or audiobooks, tracking progress, and using positive self-talk. (session 2023-11-30)\n- User feeds Luna freeze-dried salmon treats, which the cat enjoys and which provide beneficial omega-3 fatty acids. (session 2023-08-11)\n- User is writing a blog post about the impact of AI on education and has previously completed a master's thesis on the same topic. (session 2023-11-30)\n- User attended a full-day entrepreneurship conference at a downtown hotel in November 2022, which motivated them to start their own business. (session 2023-09-12)\n- User will create a dedicated email sequence for subscribers who download the meal planning template to provide targeted content, encourage recipe submissions, and build community engagement. (session 2023-09-13)\n- User is considering a pet camera with treat-dispensing capabilities to monitor Luna and use positive reinforcement to train her to stay off furniture. (session 2023-11-30)\n- User is researching AI-powered adaptive learning systems, specifically focusing on their benefits, limitations, algorithmic bias, the impact of over-reliance on technology on social skills, and issues regarding equity and access. (session 2023-11-30)\n- User is participating in a craft fair the weekend of July 29-30, 2023, and is seeking strategies to promote their stall on Instagram. (session 2023-07-27)\n- User plans to implement a user-generated content (UGC) section on their blog where readers can submit their own vegan recipes. (session 2023-09-13)\n- User decided to create a new, dedicated section in their gardening app to track the progress of their new herb garden. (session 2023-11-27)\n- User purchased a $50 spa gift card for their mom's anniversary. (session 2023-07-30)\n- User plans to use a vegan meal planning template as a lead magnet to build an email list and promote their blog's UGC section. (session 2023-09-13)\n- User connected with like-minded individuals at a lecture series on sustainable living at the library in January 2023 and is considering collaborating with them. (session 2023-09-12)\n- User enjoys walking as a form of physical activity and is interested in how it can improve mental clarity and productivity. (session 2023-11-30)\n- User purchased a $50 silver necklace from a downtown jewelry store for their sister's birthday in June 2023. (session 2023-07-30)\n- User is planning to start a business offering online marketing services to small businesses. (session 2023-09-12)\n- User was provided with specific hashtag categories for their products, including candle-related, soap-related, jewelry-related, seasonal, niche-specific, and event-specific tags, with a recommendation to use 10-15 hashtags per post. (session 2023-07-27)\n- User is interested in purchasing interactive toys, specifically climbing walls and wall-mounted toys, to further stimulate Luna. (session 2023-11-30)\n- User was recommended a variety of vegan recipes for their blog, including breakfast items like avocado toast and chia seed pudding, lunch/dinner options like lentil curry and roasted vegetable quinoa bowls, and snacks like hummus and energy balls. (session 2023-09-13)\n- User was advised on implementing a UGC section by creating a submission form, establishing clear guidelines, moderating content, giving credit to contributors, and promoting submissions via social media and newsletters. (session 2023-09-13)\n- User is propagating hydrangea cuttings obtained from a neighbor and was advised to use 3-4 inch new wood stems, rooting hormone, and keep them in a humid, indirectly lit environment for 2-6 weeks. (session 2023-11-27)\n- User is writing a blog post about the impact of AI on education and has completed a master's thesis on the subject, for which they studied diligently for months. (session 2023-11-30)\n- User is starting a small herb garden in pots on their patio and was advised to use well-draining, lightweight, and nutrient-rich potting soil with a pH between 6.0 and 7.0. (session 2023-11-27)\n- User was provided with a strategy for a dedicated email sequence for lead magnet subscribers, including a welcome email, meal planning tips, exclusive content, and updates on the UGC section. (session 2023-09-13)\n- User plans to turn their compost pile and add accumulated food scraps and coffee grounds during the weekend of December 2-3, 2023. (session 2023-11-27)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 60,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 35.3,
+  "total": 36.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

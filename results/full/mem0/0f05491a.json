@@ -1,0 +1,275 @@
+{
+ "qid": "0f05491a",
+ "arm": "mem0",
+ "split": "full",
+ "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+ "reference": 120,
+ "question_date": "2023-08-01 22:29",
+ "sessions": [
+  {
+   "id": "6c16c3ec_1",
+   "date": "2023-06-14 21:59",
+   "evidence": false
+  },
+  {
+   "id": "b61edee4",
+   "date": "2023-06-19 10:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_236923",
+   "date": "2023-06-27 15:11",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Hj47IDr_13",
+   "date": "2023-06-30 04:07",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6d2eba8_1",
+   "date": "2023-07-11 00:07",
+   "evidence": true
+  },
+  {
+   "id": "7fee3e4a",
+   "date": "2023-07-11 08:42",
+   "evidence": false
+  },
+  {
+   "id": "ee0921d4",
+   "date": "2023-07-11 09:23",
+   "evidence": false
+  },
+  {
+   "id": "1b205d70_2",
+   "date": "2023-07-11 13:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_HO1gGmm_4",
+   "date": "2023-07-13 01:53",
+   "evidence": false
+  },
+  {
+   "id": "94b968ba_2",
+   "date": "2023-07-13 10:53",
+   "evidence": false
+  },
+  {
+   "id": "9b6db1a9_4",
+   "date": "2023-07-13 14:44",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_cfz0d02_36",
+   "date": "2023-07-14 13:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1r9dCIC_7",
+   "date": "2023-07-15 15:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_RuLt4Z6_0",
+   "date": "2023-07-16 13:51",
+   "evidence": false
+  },
+  {
+   "id": "9760f4ca",
+   "date": "2023-07-16 14:49",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_zPuSYJa_0",
+   "date": "2023-07-16 19:57",
+   "evidence": false
+  },
+  {
+   "id": "057cbbc4_1",
+   "date": "2023-07-17 00:41",
+   "evidence": false
+  },
+  {
+   "id": "bb914c5c_1",
+   "date": "2023-07-17 08:53",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_286423",
+   "date": "2023-07-17 20:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DM7idTU_0",
+   "date": "2023-07-18 07:14",
+   "evidence": false
+  },
+  {
+   "id": "9f4bec78",
+   "date": "2023-07-19 19:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_149079",
+   "date": "2023-07-20 06:15",
+   "evidence": false
+  },
+  {
+   "id": "78afea69_2",
+   "date": "2023-07-20 11:42",
+   "evidence": false
+  },
+  {
+   "id": "6024b009_1",
+   "date": "2023-07-20 12:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_UpYQ1kh_79",
+   "date": "2023-07-20 20:37",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_224967",
+   "date": "2023-07-22 01:05",
+   "evidence": false
+  },
+  {
+   "id": "c1e170f0_3",
+   "date": "2023-07-22 03:18",
+   "evidence": false
+  },
+  {
+   "id": "d81d9846",
+   "date": "2023-07-22 11:29",
+   "evidence": false
+  },
+  {
+   "id": "0c260a71_3",
+   "date": "2023-07-23 07:37",
+   "evidence": false
+  },
+  {
+   "id": "27aba903_2",
+   "date": "2023-07-23 10:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_300046",
+   "date": "2023-07-23 12:13",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_473867",
+   "date": "2023-07-23 12:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_447033",
+   "date": "2023-07-23 18:50",
+   "evidence": false
+  },
+  {
+   "id": "3023b36f",
+   "date": "2023-07-24 08:49",
+   "evidence": false
+  },
+  {
+   "id": "c15dadce_3",
+   "date": "2023-07-24 13:46",
+   "evidence": false
+  },
+  {
+   "id": "28000804",
+   "date": "2023-07-24 20:49",
+   "evidence": false
+  },
+  {
+   "id": "e2efa128",
+   "date": "2023-07-25 22:19",
+   "evidence": false
+  },
+  {
+   "id": "13905cf6",
+   "date": "2023-07-27 00:32",
+   "evidence": false
+  },
+  {
+   "id": "9260a72d",
+   "date": "2023-07-27 05:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_OjaM9hX_91",
+   "date": "2023-07-28 03:02",
+   "evidence": false
+  },
+  {
+   "id": "44678992_1",
+   "date": "2023-07-28 19:17",
+   "evidence": false
+  },
+  {
+   "id": "6ac43c5b_5",
+   "date": "2023-07-29 07:36",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_rDNsXPP_0",
+   "date": "2023-07-29 18:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6d2eba8_2",
+   "date": "2023-07-30 02:08",
+   "evidence": true
+  },
+  {
+   "id": "ca93550b_1",
+   "date": "2023-08-01 07:00",
+   "evidence": false
+  }
+ ],
+ "context": "- User clarified that they need 120 stars to reach the Gold level on their Starbucks Rewards app, correcting the previous information. (from a chat on 2023-07-30)\n- User is a member of the Starbucks Rewards program and is actively trying to reach the Gold level, which requires earning 125 stars within a 12-month period. (from a chat on 2023-07-11)\n- User was provided with tips to earn Starbucks Rewards stars faster, including utilizing Double Star Days, ordering through the app, linking payment cards, participating in bonus offers and challenges, and referring friends. (from a chat on 2023-07-11)\n- User is exploring alternatives to their current spreadsheet system for organizing loyalty cards and rewards points, such as dedicated apps, digital wallets, browser extensions, or physical holders. (from a chat on 2023-07-30)\n- User was advised to use a hybrid hashtag strategy, combining branded tags like #FitWithSarah or #HikingWithSarah with popular, established hashtags to balance brand identity with broader reach. (from a chat on 2023-07-28)\n- User was introduced to third-party apps that integrate with Strava for dedicated bike maintenance tracking, including Bikebook, Cyclist's Notebook, and Bike Log. (from a chat on 2023-07-27)\n- User has been a member of the Page & Co. Booklover's Rewards program since August 2022, earns 10 points per dollar spent, and has accumulated 450 points total, with 200 points redeemed for a $10 gift card in June 2023. (from a chat on 2023-07-23)\n- User is a member of several loyalty programs: The Daily Grind, FreshMart, H&M Member, Page & Co. Booklover's Rewards, ASOS A-List, and FitZone FitRewards. (from a chat on 2023-07-23)\n- User inquired about Fetch Rewards, where 3,000 points are required to redeem a $10 gift card by uploading receipts from participating retailers. (from a chat on 2023-07-30)\n- User receives a free coffee every fifth purchase at their local coffee shop near the bus stop and plans to ask the staff about additional loyalty rewards. (from a chat on 2023-07-23)\n- User is considering purchasing a new laptop and inquired about the My Best Buy loyalty program, where 250 points are required to earn a $10 reward certificate. (from a chat on 2023-07-30)\n- User was provided with a template for a loyalty program tracker spreadsheet to monitor points balances, rewards redeemed, expiration dates, and notes for their various memberships. (from a chat on 2023-07-23)\n- User makes purchases at The Daily Grind every Monday, Wednesday, and Friday to earn points and is currently working toward a 50-point goal to redeem a free drink. (from a chat on 2023-07-23)\n- User drinks coffee daily and is looking for deals on coffee beans and coffee makers to stock up. (from a chat on 2023-07-11)\n- User prefers pour-over coffee or cappuccinos and seeks a cozy, intimate cafe atmosphere with natural light and a quiet ambiance for working or reading. (from a chat on 2023-07-17)\n- User started using refillable soap containers in mid-January 2023 to reduce plastic waste. (from a chat on 2023-07-11)\n- User decided to use Strava to track their rides and bike maintenance, specifically utilizing the 'Bike Profiles' feature to manage their three different bikes. (from a chat on 2023-07-27)\n- User was advised to store strawberries in a breathable container in the refrigerator and to use them within 3 to 7 days for optimal freshness. (from a chat on 2023-07-20)\n- User was advised on how to track bike maintenance in Strava by either creating specific 'Bike Maintenance' activities or using the 'Gear' feature to add custom fields for service history. (from a chat on 2023-07-27)\n- User owns a pair of Adidas Superstar sneakers purchased during a sale and is looking for recommendations for online stores with a wide selection of sneakers. (from a chat on 2023-07-24)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   In a chat on 2023-07-11, it was noted that the user was trying to reach the Gold level, which required 125 stars.\n    *   In a subsequent chat on 2023-07-30, the user provided a correction, stating that they actually need 120 stars to reach the Gold level on their Starbucks Rewards app.\n\n2.  **Reason over the information:**\n    *   The user explicitly corrected the previous information regarding the star requirement. Therefore, the most recent and accurate figure provided by the user is 120 stars.\n\n**Answer:** You need 120 stars to reach the Gold level on your Starbucks Rewards app.",
+ "dump": "- User was recommended several online retailers for clothing deals, including ASOS, Nordstrom, Zappos, Old Navy, Uniqlo, Madewell, Everlane, H&M, ModCloth, and ThredUp. (session 2023-07-24)\n- User is interested in connecting with board game communities and was provided with resources such as Board Game Geek, r/boardgames on Reddit, and digital platforms like Board Game Arena and Tabletop Simulator. (session 2023-06-19)\n- User was advised that their recent flu shot is effective against influenza but does not provide protection against bronchitis or other respiratory infections. (session 2023-08-01)\n- Grand Wailea resort welcomes pets and service animals under 50 pounds for a $30/night nonrefundable fee, which is waived for service or therapy animals. (session 2023-07-28)\n- User was recommended a minimalist packing list for daily errands consisting of a wallet, phone, reusable shopping bags, a water bottle, and snacks. (session 2023-07-29)\n- User is exploring their Filipino heritage and is interested in the requirements for obtaining a Philippine passport. (session 2023-07-16)\n- User is planning a road trip to a lake house and is seeking driving directions and traffic updates. (session 2023-07-24)\n- User needs to reorder medication for their pet Luna on July 23, 2023, during their lunch break. (session 2023-07-22)\n- User is planning to launch a personal podcast and was provided with a 10-step outline for building a podcast website, including domain registration, hosting, SEO, and RSS feed integration. (session 2023-07-16)\n- User was provided with tips for poaching eggs, including using fresh eggs, simmering water with a splash of vinegar, creating a whirlpool, and using a slotted spoon for removal. (session 2023-07-13)\n- User was provided with tips to earn Starbucks Rewards stars faster, including utilizing Double Star Days, ordering through the app, linking payment cards, participating in bonus offers and challenges, and referring friends. (session 2023-07-11)\n- User is a member of the Starbucks Rewards program and is actively trying to reach the Gold level, which requires earning 125 stars within a 12-month period. (session 2023-07-11)\n- User learned that the High Museum of Art's main building was designed by Richard Meier & Partners (1983) and its expansion by Renzo Piano Building Workshop (2005), featuring natural light and flexible gallery spaces. (session 2023-07-13)\n- The user is developing a story called 'Harmony Hearts' about five high school girls—Mia, Rachel, Madison, Emily, and Samantha—who form a school idol club. (session 2023-07-20)\n- User was provided with various decoration ideas for an adoption-themed baby party, including balloon arches, baby blocks, and adoption-themed signage. (session 2023-07-24)\n- User has been making their own cleaning products using natural ingredients like baking soda and vinegar to reduce reliance on chemical-based products. (session 2023-07-11)\n- User was provided with strategies for displaying vintage cameras, such as using acrylic or glass cases, organizing by era or manufacturer, and maintaining stable environmental conditions (65-70°F, 50% humidity). (session 2023-06-14)\n- User received tips for making a good first impression at a new restaurant, such as calling ahead, being punctual, mentioning their personal connection to a staff member, and asking for signature dish recommendations. (session 2023-07-11)\n- User learned some basic Bengali phrases from a friend they met at a cultural event. (session 2023-07-16)\n- The user was provided with a list of ten music festivals in Japan, including Fuji Rock Festival, Summer Sonic, Rock in Japan Festival, Metrock, Rising Sun Rock Festival, Natsu Matsuri, Yokohama Red Brick Warehouse, Summer of Love, Summer Splash, and Summer Dive. (session 2023-07-20)\n- User is interested in the history of the Mongol Empire and specifically inquired about religious conflicts or controversies during the reign of Genghis Khan. (session 2023-07-23)\n- User has been shopping frequently over the past three weeks, resulting in several new clothing and accessory purchases. (session 2023-07-24)\n- User was informed that 'Lemonade' resonated because it transformed specific personal experiences into universal themes, while simultaneously elevating the work into a broader cultural statement through its social commentary. (session 2023-07-23)\n- User is looking for recommendations for online clothing retailers that offer frequent sales and discounts. (session 2023-07-24)\n- The user was recommended the following chord progression for the song 'Shine On': Verse (C-G-Am-F), Chorus (G-C-D-G), Bridge (F-C-G-Am), and Outro (C-G-Am-F). (session 2023-07-20)\n- User plans to pre-order the board game Forbidden Sky after seeing a demo at a convention, which is scheduled for release in August 2018. (session 2023-06-19)\n- User was provided with a template for a loyalty program tracker spreadsheet to monitor points balances, rewards redeemed, expiration dates, and notes for their various memberships. (session 2023-07-23)\n- User is interested in learning Japanese phrases for commuting and shopping and was recommended resources including Duolingo, Babbel, Rosetta Stone, and language exchange platforms like italki. (session 2023-07-17)\n- User was provided with methods for sourcing rare vintage cameras, including utilizing online marketplaces like eBay, joining specialized forums, attending camera shows, and networking with repair technicians. (session 2023-06-14)\n- User mounted a new 55-inch TV on their living room wall on Sunday, July 23, 2023, which they feel has made the room look more modern and sleek. (session 2023-07-27)\n- User was recommended eco-friendly oral care options, including bamboo or recyclable toothbrushes, natural toothpaste brands like Tom's of Maine, and DIY toothpaste recipes using coconut oil and baking soda. (session 2023-07-11)\n- User was recommended several personal development books including 'Mindset' by Carol S. Dweck, 'The Power of Now' by Eckhart Tolle, 'Daring Greatly' by Brené Brown, 'The 5 AM Club' by Robin Sharma, 'The Miracle Morning' by Hal Elrod, 'Essentialism' by Greg McKeown, 'The One Thing' by Gary Keller and Jay Papasan, 'Deep Work' by Cal Newport, 'The Happiness Project' by Gretchen Rubin, and 'Man's Search for Meaning' by Viktor E. Frankl. (session 2023-07-11)\n- User attended a cultural event in June 2023 where they met someone from Bangladesh and discussed the shared experiences of being an expat. (session 2023-07-16)\n- User is exploring alternatives to their current spreadsheet system for organizing loyalty cards and rewards points, such as dedicated apps, digital wallets, browser extensions, or physical holders. (session 2023-07-30)\n- User decided to try Avocado Toast with Poached Eggs and Smoked Salmon Bagels as new weekend breakfast options. (session 2023-07-13)\n- User attended a cultural event in June 2023 where they met someone from Bangladesh and discussed their shared experiences as expats, including language barriers and cultural differences. (session 2023-07-16)\n- User is planning to purchase a canvas tote bag from a local brand to use for daily errands and grocery shopping. (session 2023-07-29)\n- User was provided with strategies to stay motivated in critical thinking, such as focusing on the personal growth benefits of open-mindedness, maintaining curiosity, taking mental breaks, and surrounding oneself with people who challenge one's ideas. (session 2023-07-20)\n- User has a dog named Max and a pet named Luna, who uses a litter box. (session 2023-07-22)\n- User was provided with a series of Instagram content units for spa marketing, including specific post ideas, captions, hashtags, and calls to action for influencer partnerships, newsletters, social media ads, blogging, and referral discounts. (session 2023-06-30)\n- User is actively trying to reduce plastic waste and is interested in eco-friendly granola options, such as buying in bulk or making homemade granola. (session 2023-07-20)\n- Alyssa and Lizzie are in a romantic relationship, with Alyssa identifying as a dragonkin and Lizzie as a nekomimi. (session 2023-07-14)\n- User's notes on Hercules include his origin as the son of Zeus and Alcmene, his struggle with Hera's jealousy, his madness-induced killing of his family, and his subsequent atonement through the Twelve Labors assigned by King Eurystheus. (session 2023-07-13)\n- User was recommended sneaker retailers including Foot Locker, Eastbay, Champs Sports, Finish Line, Sneakersnstuff, GOAT, Stadium Goods, Zappos, 6pm, and StockX. (session 2023-07-24)\n- User was provided with methods to evaluate information credibility, such as checking source reputation, verifying evidence, assessing timeliness, and identifying manipulative or emotionally charged language. (session 2023-07-20)\n- User received detailed information about the magic system in the Broken Earth trilogy, specifically the abilities of orogenes to manipulate seismic and molecular energy, the hierarchy of power (Stillers to Rogga), and the physical costs of using these powers. (session 2023-07-11)\n- User posed a riddle about five sisters in a room, and the assistant identified that the fifth sister is playing chess with Kate. (session 2023-07-29)\n- User decided to purchase a yoga mat that is 4-5 mm thick to balance cushioning and grip for Hatha and Vinyasa practices. (session 2023-07-22)\n- User has previously read and enjoyed 'The Handmaid's Tale' by Margaret Atwood and 'Station Eleven' by Emily St. John Mandel. (session 2023-07-11)\n- User received advice on finding reliable restaurant reviews, including using online platforms like Yelp and Google Reviews, following local food influencers, and checking for transparency and consistency in social media content. (session 2023-07-11)\n- User recently got married and is in the process of updating their name across various accounts and documents. (session 2023-07-17)\n- User intends to use their film log to analyze their festival experiences, specifically looking for patterns in preferred genres, directors, and ratings. (session 2023-07-19)\n- User was provided with comprehensive meal planning and prep strategies, including setting goals, prepping proteins and bulk ingredients in advance, and using meal planning apps like Plan to Eat, Yummly, or Mealime. (session 2023-07-13)\n- User receives a free coffee every fifth purchase at their local coffee shop near the bus stop and plans to ask the staff about additional loyalty rewards. (session 2023-07-23)\n- User is tracking digestive issues with a food diary and suspects dairy products are the cause. (session 2023-08-01)\n- User is planning a new series of Instagram posts focused on their favorite hiking trails and is considering using a branded hashtag like #HikingWithSarah. (session 2023-07-28)\n- User's name is Sarah. (session 2023-07-28)\n- User was recommended books on power dynamics including 'The Power' by Naomi Alderman, 'The 48 Laws of Power' by Robert Greene, 'The Will to Power' by Friedrich Nietzsche, 'The Prince' by Niccolò Machiavelli, 'The End of Power' by Moisés Naím, 'The New Jim Crow' by Michelle Alexander, 'The Shock Doctrine' by Naomi Klein, 'Discipline and Punish' by Michel Foucault, 'The Power Broker' by Robert Caro, and 'The Anatomy of Power' by John Kenneth Galbraith. (session 2023-07-11)\n- User is interested in the factors behind the success of Beyoncé's album 'Lemonade', specifically its visual album format, social commentary, musical diversity, high-profile collaborations, and unique marketing strategy. (session 2023-07-23)\n- User was recommended several historical fiction audiobooks similar to 'The Nightingale', including 'All the Light We Cannot See', 'The Alice Network', 'The Lost Girls of Paris', 'Those Who Save Us', 'The Guernsey Literary and Potato Peel Pie Society', and 'The Women in the Castle'. (session 2023-07-23)\n- User is interested in pottery and ceramics, specifically exploring techniques like saggar firing, ceramic weaving, and wheel-throwing. (session 2023-07-25)\n- User is considering investing in a pottery wheel and received advice on factors like cost, space, time commitment, and the benefits of taking classes or renting studio space first. (session 2023-07-25)\n- User recently finished reading 'The 7 Habits of Highly Effective People' by Stephen Covey and enjoyed it, prompting a search for more thought-provoking self-help and personal development books. (session 2023-07-11)\n- User admires the actor Nassar for his versatility and ability to bring depth and complexity to both positive and negative roles in Indian cinema. (session 2023-07-22)\n- User decided to create the branded hashtag #FitWithSarah for their fitness journey series to build brand identity and track engagement. (session 2023-07-28)\n- User is looking for healthy breakfast ideas to use up a large tub of Greek yogurt purchased from Costco. (session 2023-07-20)\n- User is interested in the history, culture, and agricultural impact of wine production in Benevento, Italy. (session 2023-06-27)\n- User's friend Emma has been cycling to work for years and advocates for it as a way to exercise and save money. (session 2023-07-23)\n- User was recommended several eco-friendly, non-slip yoga mats in the 4.5-4.7 mm thickness range: Manduka eKO SuperLite, Jade Yoga Mat, Gaiam Print Yoga Mat, Aurorae Yoga Mat, and Hugger Mugger Para Rubber Yoga Mat. (session 2023-07-22)\n- User framed a watercolor painting purchased from a local artist in summer 2023 and has displayed it above their couch since early July 2023. (session 2023-07-25)\n- User completed their HPV vaccine series and received the final booster dose in July 2023. (session 2023-08-01)\n- User is interested in attending Yoga to the People in Manhattan and was informed about their beginner classes, Yoga Fundamentals workshop, Hot Vinyasa Beginner's series, YTT 101, and community classes. (session 2023-07-22)\n- Lizzie and Alyssa went grocery shopping together while Lizzie wore the collar and leash, with Lizzie remaining barefoot throughout the outing. (session 2023-07-14)\n- User has a board game collection of 27 games and is seeking advice on efficient storage, organization, and the use of game inserts. (session 2023-06-19)\n- User owns three bikes: a road bike, a mountain bike, and a commuter bike. (session 2023-07-27)\n- Wailea Beach Resort offers pet-friendly amenities including pet beds, bowls, and a special in-room dining menu for pets. (session 2023-07-28)\n- User attended a private tour of the Modern Art Museum's new contemporary exhibit on January 22, 2023, and was impressed by the scale and creativity of the installations. (session 2023-07-13)\n- User was recommended several ramen shops in Shibuya: Ichiran, Totto Ramen, Shina Sobaya, Ramen Nagi, and Afuri. (session 2023-07-17)\n- User selected challah bread for their Avocado Toast with Poached Eggs due to its soft, fluffy interior and slightly sweet flavor. (session 2023-07-13)\n- User was provided with an analysis of why 'Lemonade' succeeded, highlighting the visual album film, themes of infidelity and black feminism, genre-blending, collaborations with artists like Kendrick Lamar and Jack White, and the exclusive HBO/Tidal release strategy. (session 2023-07-23)\n- User learned that while most succulents are adapted to dry environments, resilience varies by species, with cacti, agave, and yucca being particularly well-suited for extreme drought. (session 2023-07-23)\n- Assistant provided a mathematical derivation showing that midpoint values M(k) between sample points of the zeta function are symmetric with respect to the random walk-like pattern R(k), confirming the user's observation. (session 2023-07-15)\n- User was informed that Genghis Khan maintained a policy of religious tolerance within the Mongol Empire, though conflicts occurred when leaders refused to acknowledge his authority or pay tribute, such as the war against the Khwarezmian Empire. (session 2023-07-23)\n- User owns cameras from the 1960s, 1970s, and 1980s and is actively looking to acquire rare models from the 1940s and 1950s. (session 2023-06-14)\n- User was provided with care instructions for their canvas bag, including spot cleaning, avoiding machine washing, air drying, and applying fabric protector every 2-3 months. (session 2023-07-29)\n- User enjoys listening to audiobooks during their daily bus commute and recently finished 'The Nightingale' by Kristin Hannah. (session 2023-07-23)\n- The song 'Who You Are' by Jessie J was released on February 25, 2011, as the lead single from her debut album of the same name, written by Jessie J, Toby Gad, and Shelly Peiken. (session 2023-07-18)\n- User is a member of several loyalty programs: The Daily Grind, FreshMart, H&M Member, Page & Co. Booklover's Rewards, ASOS A-List, and FitZone FitRewards. (session 2023-07-23)\n- User prefers pour-over coffee or cappuccinos and seeks a cozy, intimate cafe atmosphere with natural light and a quiet ambiance for working or reading. (session 2023-07-17)\n- User was provided with a list of iconic positive roles played by Nassar, including Singaravelan in 'Thevar Magan', Saketh Ram in 'Hey Ram', Chandra Bose in 'Anbe Sivam', Alfred Prasad in 'Indian', and Nalla Thambi in 'Avvai Shanmugi'. (session 2023-07-22)\n- User is located in the 10021 zip code area of downtown Manhattan and is planning to return to practicing yoga. (session 2023-07-22)\n- User was informed that the HPV vaccine series provides long-term protection and no further booster shots are currently recommended after the initial series is completed. (session 2023-08-01)\n- User has a great-grandmother who was born in Amsterdam. (session 2023-07-16)\n- User clarified that they need 120 stars to reach the Gold level on their Starbucks Rewards app, correcting the previous information. (session 2023-07-30)\n- Benevento's wine reputation is built on its Mediterranean climate, mineral-rich soil, and ancient grape varieties like Falanghina, Aglianico, and Greco. (session 2023-06-27)\n- User is interested in the Broken Earth trilogy by N.K. Jemisin and received an overview of its plot, themes (power, identity, racism, environmentalism, family, trauma), and its status as a multi-award-winning series. (session 2023-07-11)\n- The assistant defined Eurystheus as the King who assigned the Twelve Labors to Hercules as punishment for killing his family, noting that Hera designed these labors specifically to kill, humiliate, and exhaust him. (session 2023-07-13)\n- User is creating a spreadsheet to log their film watching history, including columns for title, director, year, watch date, rating, notes, festival, and genre. (session 2023-07-19)\n- User was advised on preserving vinyl records by storing them upright in protective sleeves and keeping posters in acid-free, UV-protected frames. (session 2023-06-14)\n- User is improving their Spanish skills by watching TV shows with English subtitles and participating in a language exchange with a friend from Spain. (session 2023-07-16)\n- User received a flu shot in July 2023. (session 2023-08-01)\n- User is interested in trying smoothie bowls and breakfast burritos in the future. (session 2023-07-13)\n- User is interested in eco-friendly skincare and was recommended facial cleansers and moisturizers from brands like Burt's Bees, Acure Organics, The Ordinary, and Weleda. (session 2023-07-11)\n- User has a large supply of almonds purchased in bulk from Costco and is interested in toasting them for use in parfaits. (session 2023-07-20)\n- User was recommended to use Suica or Pasmo cards for Tokyo transit and to utilize route planners like Hyperdia or Google Maps. (session 2023-07-17)\n- User is interested in organizing a nature walk and a lake-themed treasure hunt for kids during their upcoming lake house trip. (session 2023-07-24)\n- User received recommendations for displaying their ceramic vase, such as using a neutral background, elevating the piece, grouping with complementary objects, and using soft, indirect lighting. (session 2023-07-25)\n- User was recommended resources for saggar firing and ceramic weaving, including YouTube channels (Simon Levin, Matt Schiemann, Linda Sormin, Bryan Hopkins, Rebecca Chappell), Ceramics Monthly, The Ceramic School, and The Pottery School. (session 2023-07-25)\n- User was recommended several cafes in Shimokitazawa: Cafe Kitsune, Bear Pond Espresso, Cafe de l'Arc, Koffee Mameya, and Cafe Sora. (session 2023-07-17)\n- User started using refillable soap containers in mid-January 2023 to reduce plastic waste. (session 2023-07-11)\n- User is planning a baby-themed party for their friends Emily and David, who are adopting a baby boy. (session 2023-07-24)\n- User was advised that Amazon requires an updated passport and government-issued ID to verify a name change, and the process typically takes a few days to a week. (session 2023-07-17)\n- User is interested in learning Tagalog to connect with their Filipino roots and was recommended resources including Duolingo, Tinycards, Memrise, TagalogPod101, the 'Learn Tagalog with Kay' YouTube channel, and online language exchange communities. (session 2023-07-16)\n- User's notes detail the tragic end of Hercules, involving his wife Deianira, the centaur Nessus, and a poisoned 'love potion' that was actually acid. (session 2023-07-13)\n- User is analyzing the role of fear as a tool for control and intimidation in Arthur Miller's play 'The Crucible'. (session 2023-07-20)\n- User is studying Greek mythology and has compiled detailed notes on the stories of Medea, Jason, and Hercules, including character relationships, key events, and the Twelve Labors of Hercules. (session 2023-07-13)\n- User cleaned Luna's litter box on Sunday, July 16, 2023, and spent the rest of the day relaxing and watching a football game. (session 2023-07-22)\n- User is interested in succulent plants and was informed about their biological adaptations for water storage, including specialized parenchyma cells containing mucilage and a waxy cuticle to prevent evaporation. (session 2023-07-23)\n- User has been practicing Sunday meal prep to save time during the week and requested advice on improving their planning and preparation strategies. (session 2023-07-13)\n- User was provided with two commute options from Shimokitazawa to Shibuya: Option 1 via Odakyu Line and JR Yamanote Line, and Option 2 via Odakyu Line, Tokyu Toyoko Line, and Tokyo Metro Fukutoshin Line. (session 2023-07-17)\n- User is actively working to increase Instagram engagement and has been experimenting with niche-specific hashtags like #yogalife and #mindfulness alongside broader ones like #wellnesswednesday. (session 2023-07-28)\n- Wine production in Benevento dates back to the Samnites and Romans, saw a decline in the Middle Ages, and experienced a resurgence in the 18th and 19th centuries. (session 2023-06-27)\n- User was provided with tips for managing a lingering cough from bronchitis, including staying hydrated, using a humidifier, inhaling steam, using throat lozenges, elevating the head while sleeping, and avoiding irritants. (session 2023-08-01)\n- User was provided with comprehensive maintenance and cleaning tips for vintage cameras, including handling with clean hands, using microfiber cloths, avoiding harsh chemicals, and storing in cool, dry environments with silica gel. (session 2023-06-14)\n- The assistant clarified the origin story of Alcides (Hercules), explaining Hera's attempt to kill him as an infant, his breastfeeding incident with Hera, and his later service to King Eurystheus to atone for his guilt. (session 2023-07-13)\n- User was recommended several succulent species suitable for indoor environments: Echeverias, Haworthias, Jade plants, Zebra cactus, and String of pearls. (session 2023-07-23)\n- User received an overview of the world-building in the Broken Earth trilogy, including the geography of the Stillness, the history of the Elder Earth and the Shattering, and the various cultures like the Sanzed Empire, Yumenes, Niess, Stone Eaters, and Stillpointers. (session 2023-07-11)\n- User plans to visit a local restaurant this weekend to see a person they met at a grocery store last week who works there. (session 2023-07-11)\n- Alyssa removed the collar after their lunch, concluding their kinky play session for the day. (session 2023-07-14)\n- User has been a member of the Page & Co. Booklover's Rewards program since August 2022, earns 10 points per dollar spent, and has accumulated 450 points total, with 200 points redeemed for a $10 gift card in June 2023. (session 2023-07-23)\n- The user's fictional group 'Harmony Hearts' is planned to perform their second show at Summer Sonic, their national festival at Fuji Rock Festival, and their final performance at Summer of Love. (session 2023-07-20)\n- User was provided with memento gift ideas for the parents to celebrate their adoption, such as personalized ornaments, keepsake boxes, and adoption journals. (session 2023-07-24)\n- The character Rachel from 'Harmony Hearts' is planned to perform her first solo at the Natsu Matsuri festival. (session 2023-07-20)\n- User drinks coffee daily and is looking for deals on coffee beans and coffee makers to stock up. (session 2023-07-11)\n- User received tips for working with raku clay, including drying pieces slowly, bisque firing at 1800°F, specific glazing sequences, rapid firing/cooling, post-firing reduction, and the necessity of sealing the porous finished work. (session 2023-07-25)\n- User is interested in 'The Alice Network' by Kate Quinn, which is 17 hours and 34 minutes long and narrated by Saskia Maarleveld. (session 2023-07-23)\n- User was recommended Celeste Ng's previous novels 'Everything I Never Told You' (2014) and 'Little Fires Everywhere' (2017), as well as authors Emily St. John Mandel, Laura Lippman, Paula Hawkins, and Liane Moriarty. (session 2023-07-11)\n- User is of Filipino heritage and is exploring their roots, including researching Philippine passport requirements and considering learning Tagalog. (session 2023-07-16)\n- User makes purchases at The Daily Grind every Monday, Wednesday, and Friday to earn points and is currently working toward a 50-point goal to redeem a free drink. (session 2023-07-23)\n- User learned some basic Bengali phrases from an expat friend they met at a cultural event. (session 2023-07-16)\n- User inquired about Fetch Rewards, where 3,000 points are required to redeem a $10 gift card by uploading receipts from participating retailers. (session 2023-07-30)\n- User started collecting vintage cameras around March 2023 and currently owns five cameras. (session 2023-06-14)\n- User's mother planned the family reunion in June 2023 and began the planning process in March 2023. (session 2023-07-24)\n- User was provided with strategies for transitioning to a dairy-free diet, including gradual reduction, identifying hidden dairy sources, and using substitutes like almond, soy, coconut, oat, or rice milk and vegan cheese or nutritional yeast. (session 2023-08-01)\n- The assistant provided a glossary of Greek mythology terms based on the user's notes, defining characters like Medea, Jason, Hercules, Amphitryon, Zeus, Alcmene, Iphicles, Thespian, Minvans, Alcides, Megara, Theseus, Eurystheus, Hera, Deianira, and Nessus. (session 2023-07-13)\n- User is organizing a film journal and decided to use Notion for its customization options. (session 2023-07-19)\n- User is interested in Immersion and Experiential Art and was recommended museums including MoMA, Tate Modern, The Broad, New Museum, and Kunsthaus Graz. (session 2023-07-13)\n- User arrived in Tokyo on July 17, 2023, and is living in the Shimokitazawa neighborhood while working in Shibuya. (session 2023-07-17)\n- User received recommendations for creating a cozy reading nook and TV-watching setup, including using plush seating, soft lighting, cozy textiles, and optimizing TV placement and sound systems. (session 2023-07-27)\n- User was advised to acknowledge the adoption journey in their note to Emily and David by being respectful, using inclusive language, and keeping the message brief and sincere. (session 2023-07-24)\n- Recent innovations in Benevento's wine industry include a shift toward organic and sustainable farming, the use of temperature-controlled fermentation, and experimentation with new grape blends. (session 2023-06-27)\n- User discovered that their great-grandmother was born in Amsterdam. (session 2023-07-16)\n- The characters in 'Harmony Hearts' include Mia (leader), Rachel (singer), Madison (songwriter), Emily (dancer), Samantha (musician), Principal Thompson (administrator), and Mr. Johnson (music teacher). (session 2023-07-20)\n- User recently got married and is in the process of updating their name across various online accounts and financial institutions. (session 2023-07-17)\n- User is interested in how Beyoncé balanced personal storytelling with universal relatability in 'Lemonade' and how this contributed to the album's strong resonance with audiences. (session 2023-07-23)\n- User has reflected on their dating history and realized they prioritize emotional connection and shared values over the gender of their partner, having dated both males and females. (session 2023-07-20)\n- User was provided with strategies for making objective decisions, including gathering diverse information, acknowledging personal biases, seeking feedback from others, and remaining open to revising beliefs based on new evidence. (session 2023-07-20)\n- User decided to gift Emily and David a modern-style customized picture frame with a heartfelt message like 'Forever in our hearts' or 'Love knows no bounds' to celebrate their adoption journey. (session 2023-07-24)\n- User plans to wash Max's bedding this weekend and was advised to use a mild, pet-friendly detergent, wash in hot water, and dry on low heat. (session 2023-07-22)\n- User was recommended upcoming immersive exhibitions including Yayoi Kusama at the High Museum of Art, Carsten Höller at the Hayward Gallery, and Rafael Lozano-Hemmer at SFMOMA. (session 2023-07-13)\n- User owns a pair of Adidas Superstar sneakers purchased during a sale and is looking for recommendations for online stores with a wide selection of sneakers. (session 2023-07-24)\n- User was advised on how to track bike maintenance in Strava by either creating specific 'Bike Maintenance' activities or using the 'Gear' feature to add custom fields for service history. (session 2023-07-27)\n- User is planning to decorate their living room with indoor succulents and was advised that some species, like certain cacti, are unsuitable due to high light requirements or rapid growth. (session 2023-07-23)\n- User was informed that routine passport name change processing typically takes 6-8 weeks, while expedited services can take 2-3 weeks or 1-2 weeks for urgent cases. (session 2023-07-17)\n- User was recommended several interactive dog toys: Kong Wobbler, Outward Hound Brick Puzzle, Nina Ottosson Dog Brick, West Paw Design Tux, Pet Zone Treat Wobbler, Tricky Treat Ball, and Omega Paw Tricky Treat. (session 2023-07-22)\n- User is attempting to arrive at their bus stop 10-15 minutes earlier to secure a seat, though they find it challenging. (session 2023-07-23)\n- User's family used a catering service called 'Tasty Bites' for their June 2023 reunion, which the user's mother found to be a great success. (session 2023-07-24)\n- User was introduced to third-party apps that integrate with Strava for dedicated bike maintenance tracking, including Bikebook, Cyclist's Notebook, and Bike Log. (session 2023-07-27)\n- User recently purchased a new watch from Fossil and is looking for advice on how to care for its leather strap. (session 2023-07-24)\n- User intends to read 'Our Missing Hearts' (2022) by Celeste Ng, having been recommended the author by a stranger on the bus. (session 2023-07-11)\n- User was provided with gift suggestions for the new baby, including clothing like onesies and sleepers, toys like soft animals and board books, and practical items like diapering essentials. (session 2023-07-24)\n- User received guidance on preserving watercolor paintings, including using UV-filtering glass, acid-free materials, maintaining a controlled environment (60-70°F, 50% humidity), and avoiding direct sunlight. (session 2023-07-25)\n- User was recommended several retailers for deep teal throw pillows and fabric, including West Elm, Crate & Barrel, Pottery Barn, Etsy, Amazon, Fabric.com, and local home goods stores like TJ Maxx, HomeGoods, or At Home. (session 2023-07-27)\n- User was advised that while Avocado Toast is best made fresh, components like toasted challah bread, mashed avocado (with lemon juice), and pre-poached eggs (stored in an ice bath) can be prepped ahead of time. (session 2023-07-13)\n- Monsoon Bar & Grill in Kihei is a casual, pet-friendly restaurant with sea views, offering tandoori dishes, curries, and packed lunches to-go. (session 2023-07-28)\n- User was recommended to start with almond milk as a dairy substitute due to its mild flavor and availability, or oat milk if they prefer a creamier, more neutral option. (session 2023-08-01)\n- User owns a ceramic vase purchased from a street fair and received advice on cleaning it with mild soap and water, avoiding harsh chemicals, and storing it away from direct sunlight. (session 2023-07-25)\n- On March 15, 2023, the user posted about their morning yoga routine, which received 23 likes and 5 comments. (session 2023-07-28)\n- User was advised that toasted almonds can be stored in an airtight container in the refrigerator for up to 2 weeks or in the freezer for up to 6 months. (session 2023-07-20)\n- User was advised that updating credit cards with a bank typically requires a government-issued ID and marriage certificate, with processing times for the request ranging from 3 to 10 business days and new card issuance taking 7 to 21 days. (session 2023-07-17)\n- User applied for a passport name change on January 25, 2023, and is currently waiting to receive the updated document. (session 2023-07-17)\n- User was provided with catering and food recommendations for a lake house trip, including local BBQ, picnic-style catering, food trucks, and various easy-to-serve snacks and meals. (session 2023-07-24)\n- User was provided with tips for maintaining open-mindedness, including identifying personal assumptions, seeking diverse viewpoints, approaching discussions non-judgmentally, and focusing on the validity of reasoning rather than the speaker. (session 2023-07-20)\n- User is interested in the MCC's initiatives regarding diversity and inclusion in sports and was informed about their partnerships with Sporting Equals, Women's Sport Trust, the Rainbow Laces campaign, and Chance to Shine. (session 2023-07-17)\n- User was recommended Strava and Ride with GPS for tracking cycling activities, with Strava noted for its social/segment features and Ride with GPS for its navigation/route planning capabilities. (session 2023-07-27)\n- User is planning a shopping trip to Sephora and was recommended various skincare, makeup, fragrance, and tool products, including Drunk Elephant, NARS, and Jo Malone London items. (session 2023-07-30)\n- User was provided with the general requirements for a Philippine passport, including PSA-authenticated birth certificate, proof of citizenship, valid government-issued ID, and the application process involving an online appointment and personal appearance. (session 2023-07-16)\n- User plans to reach out to industry professionals they met at recent film festivals, specifically Rachel (director of 'Echoes') and John Smith (cinematographer), using a professional follow-up email template. (session 2023-07-19)\n- User was recommended specific game insert brands for Ticket to Ride and Carcassonne, including The Broken Token, Insert Here, and GameGenic. (session 2023-06-19)\n- User expressed admiration for Genghis Khan's policy of religious tolerance and believes that such an approach by modern leaders could contribute to a more peaceful world. (session 2023-07-23)\n- User had a benign mole removed from their left forearm on January 20, 2023. (session 2023-08-01)\n- User was informed that LinkedIn name changes can usually be done directly on the platform, though documentation like a passport or marriage certificate may be requested if the system detects significant changes or suspicious activity. (session 2023-07-17)\n- User was advised to use a hybrid hashtag strategy, combining branded tags like #FitWithSarah or #HikingWithSarah with popular, established hashtags to balance brand identity with broader reach. (session 2023-07-28)\n- User is planning to host a game night for their group of friends and family and received organizational tips including setting a schedule, preparing the space, and offering themed snacks. (session 2023-06-19)\n- User appreciates the social commentary in Beyoncé's 'Lemonade' and is interested in the role of artists using their platforms to raise awareness for important societal issues. (session 2023-07-23)\n- User has been suffering from a persistent cough for three weeks and was diagnosed with bronchitis, for which they are taking antibiotics. (session 2023-08-01)\n- User is interested in music history and research, specifically regarding Jessie J's song 'Who You Are', and requested information on its release date and phonographic rights. (session 2023-07-18)\n- User was provided with oven-toasting (350°F for 10-12 minutes) and pan-toasting (medium heat for 5-7 minutes) methods for almonds. (session 2023-07-20)\n- User's family held a reunion at an uncle's lake house in June 2023, where they used Google Maps for navigation and enjoyed a scavenger hunt. (session 2023-07-24)\n- User was advised to store strawberries in a breathable container in the refrigerator and to use them within 3 to 7 days for optimal freshness. (session 2023-07-20)\n- User applied for a passport name change on January 25, 2023, and is currently waiting for the updated document to arrive. (session 2023-07-17)\n- User is considering switching from taking the bus to cycling to work and plans to test ride bike models this weekend. (session 2023-07-23)\n- User is interested in the Yayoi Kusama exhibition at the High Museum of Art in Atlanta and was informed about guided tours, an artist talk on March 12, 2023, and late-night events. (session 2023-07-13)\n- User is exploring the mathematical properties of the Riemann zeta function, specifically observing a symmetry between the random walk-like behavior of partial sums in early stages and the centers of cornu spirals. (session 2023-07-15)\n- User has been storing strawberries from Walmart in the fridge after washing them and was advised to wash them only right before consumption to prevent mold. (session 2023-07-20)\n- User was provided with tips for leather watch care, including avoiding water, regular conditioning, storing away from direct sunlight, and gentle handling. (session 2023-07-24)\n- User was recommended eco-friendly laundry detergent brands including Seventh Generation, Ecover, Molly's Suds, and Dropps, along with DIY recipes using washing soda, borax, and soap. (session 2023-07-11)\n- User is looking to diversify their weekend breakfast routine, which typically consists of pancakes or scrambled eggs with toast. (session 2023-07-13)\n- User was advised to look for canvas tote bags with durable material, sturdy straps, secure closures, multiple compartments, and a water-resistant lining. (session 2023-07-29)\n- User plans to expand their collection to include other vintage items, specifically vinyl records and posters. (session 2023-06-14)\n- User is interested in books exploring power dynamics and social hierarchy in society. (session 2023-07-11)\n- User attended three film festivals between May 2023 and July 2023. (session 2023-07-19)\n- User is seeking advice on organizing their closet to maximize space and maintain tidiness. (session 2023-07-24)\n- User decided to use Strava to track their rides and bike maintenance, specifically utilizing the 'Bike Profiles' feature to manage their three different bikes. (session 2023-07-27)\n- Benevento's agricultural industry, including olives, wheat, and grapes, is vital to its economy, providing employment and supporting local food processing and restaurants. (session 2023-06-27)\n- The phonographic rights for Jessie J's 'Who You Are' are held by Lava Records and Island Records. (session 2023-07-18)\n- User strongly values diversity and inclusion in sports, believing it is essential for creating a sense of community, breaking down social barriers, and fostering a more equitable society. (session 2023-07-17)\n- User uses archival-quality storage materials to maintain the condition of their collectibles. (session 2023-06-14)\n- User plans to include a heartfelt note with the gift that briefly and respectfully acknowledges Emily and David's adoption journey and welcomes their new baby boy. (session 2023-07-24)\n- At Grand Wailea, pets must be leashed and accompanied by a registered guest when outside the room, and only registered service animals are permitted in restaurants per Hawaii state health code. (session 2023-07-28)\n- User rearranged their living room furniture about three weeks ago, around July 6, 2023, by swapping the positions of the couch and armchair to improve flow and space. (session 2023-07-27)\n- User was provided with a step-by-step guide for setting up a lake-themed treasure hunt, including planning, clue creation, hiding clues, preparing a treasure chest, and execution. (session 2023-07-24)\n- User learned about the High Museum of Art's Art Access Program, which provides free admission for visitors with disabilities and their companions, along with accommodations like tactile tours, sign language interpretation, and sensory-friendly materials. (session 2023-07-13)\n- Alyssa and Lizzie explored kinky play involving a collar and chain leash, with Lizzie adopting the nickname 'kitten'. (session 2023-07-14)\n- User is currently reading 'The Power' by Naomi Alderman and finds it thought-provoking. (session 2023-07-11)\n- User was informed that Facebook requires a government-issued ID or a marriage certificate to verify a name change, with a review process taking a few days to a week. (session 2023-07-17)\n- User is considering purchasing Vans or Converse sneakers for their comfort and versatility. (session 2023-07-24)\n- User was recommended several Indian actors known for their versatile acting skills: Kamal Haasan, Naseeruddin Shah, Manoj Bajpayee, Irrfan Khan, and Nawazuddin Siddiqui. (session 2023-07-22)\n- The user was recommended a chord progression for 'Forever Harmony' (Verse: C-G-Am-F, Chorus: G-C-D-G, Bridge: F-C-G-Am, Outro: C-G-Am-F) with a suggested strumming pattern of D-D-U-D-U. (session 2023-07-20)\n- User is optimistic but realistic about the future of religious tolerance, acknowledging that it remains a challenging task requiring collective effort, education, and inclusive leadership. (session 2023-07-23)\n- User is interested in DIY skincare and was provided with recipes for face masks and scrubs using ingredients like honey, avocado, oatmeal, and coffee grounds. (session 2023-07-11)\n- User enjoys playing Ticket to Ride with friends and family and is looking to expand their board game collection with new titles. (session 2023-06-19)\n- User is looking for bold-colored throw pillows to match their modern living room decor and decided on deep teal to create a calm and serene atmosphere. (session 2023-07-27)\n- User was recommended eco-friendly dish soap brands including Seventh Generation, Ecover, Dr. Bronner's, Method, and Mrs. Meyer's Clean Day, plus DIY recipes using castile soap and washing soda. (session 2023-07-11)\n- User was recommended fiction books exploring power and social hierarchy, including 'The Girl with All the Gifts' by M.R. Carey, 'The Power' by Octavia Butler, 'Ancillary Justice' by Ann Leckie, 'The Fifth Season' by N.K. Jemisin, 'The Poppy War' by R.F. Kuang, and 'The House of Shattered Wings' by Aliette de Bodard. (session 2023-07-11)\n- User is creating a guide for pet-friendly beaches and resorts in Kihei, Maui, including Kalepolepo Beach Park, Kamaole Beach Parks 1, 2, and 3, and the Wailea Beach Resort. (session 2023-07-28)\n- User is improving their Spanish skills by watching TV shows with English subtitles and participating in a language exchange with a friend from Spain. (session 2023-07-16)\n- User is working on a marketing strategy for a spa business, specifically focusing on influencer marketing, email marketing, social media advertising, content marketing, and referral programs. (session 2023-06-30)\n- User stores and displays their collection in a dedicated room in their house they call the 'nerd cave', which features display cases and framed posters on the walls. (session 2023-06-14)\n- User is considering purchasing a new laptop and inquired about the My Best Buy loyalty program, where 250 points are required to earn a $10 reward certificate. (session 2023-07-30)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 240,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 185.7,
+  "total": 234.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

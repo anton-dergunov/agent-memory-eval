@@ -1,0 +1,102 @@
+{
+ "qid": "affe2881",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many different species of birds have I seen in my local park?",
+ "reference": "32",
+ "question_date": "2023-06-07 02:42",
+ "sessions": [
+  {
+   "id": "0338df32",
+   "date": "2023-04-29 16:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_J2pQr1T_0",
+   "date": "2023-05-01 16:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_uZwFWTJ_43",
+   "date": "2023-05-04 04:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_28MOwpT_17",
+   "date": "2023-05-19 13:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_1",
+   "date": "2023-05-24 01:31",
+   "evidence": true
+  },
+  {
+   "id": "3d895af0_3",
+   "date": "2023-05-24 02:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_26212",
+   "date": "2023-05-25 11:51",
+   "evidence": false
+  },
+  {
+   "id": "1b71c896_2",
+   "date": "2023-05-29 03:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_2",
+   "date": "2023-05-29 17:18",
+   "evidence": true
+  },
+  {
+   "id": "7badf4f3_1",
+   "date": "2023-05-30 11:20",
+   "evidence": false
+  }
+ ],
+ "context": "- The user is planning to bring binoculars to their picnic to view birds. (valid since 2023-05-29)\n- The user is looking into specific models of a designer watch and comparing prices across different sellers. (valid since 2023-04-29)\n- The assistant suggests bringing a field guide to help identify Ospreys and Bald Eagles. (valid since 2023-05-24)\n- The assistant suggests bringing a hat to increase the chances of spotting Ospreys and Bald Eagles. (valid since 2023-05-24)\n- The user participated in a 5K charity run on April 17, 2023. (valid since 2023-05-29)\n- The lake is known as a great spot for spotting Ospreys. (valid since 2023-05-24)\n- The assistant recommends wearing earth-toned clothing to increase the chances of spotting Ospreys and Bald Eagles. (valid since 2023-05-24)\n- The user is planning a trip to a nearby lake next weekend to spot waterbirds. (valid since 2023-05-24)\n- The lake is known as a great spot for spotting Bald Eagles. (valid since 2023-05-24)\n- The assistant explains depth-limited search as an uninformed search strategy that restricts the depth of the exploration. (valid since 2023-05-19)",
+ "answer": "**Answer (step by step):**\n\n**Step 1: Extract relevant information**\n*   The provided history chats contain information about:\n    *   The user's plan to bring binoculars to a picnic to view birds.\n    *   The user's interest in designer watches.\n    *   The assistant's suggestions for spotting Ospreys and Bald Eagles (bringing a field guide, wearing a hat, wearing earth-toned clothing).\n    *   The user's participation in a 5K charity run on April 17, 2023.\n    *   The lake being a spot for Ospreys and Bald Eagles.\n    *   The user's plan to visit a lake to spot waterbirds.\n    *   A definition of depth-limited search.\n\n**Step 2: Reason over the information**\n*   I have reviewed all the provided facts regarding the user's activities, interests, and past conversations.\n*   There is no mention of a \"local park\" in the provided history.\n*   There is no record of the user documenting or discussing the number of bird species they have seen in a local park.\n\n**Conclusion:**\nBased on the provided facts, it is impossible to answer the question because there is no information regarding the number of bird species the user has seen in their local park.",
+ "dump": "- The user is exploring online platforms that offer authenticated pre-owned luxury goods. (valid since 2023-04-29)\n- The user is looking into specific models of a designer watch and comparing prices across different sellers. (valid since 2023-04-29)\n- A high-quality leather strap can elevate the overall look and feel of a luxury watch, making it more luxurious and sophisticated. (valid since 2023-04-29)\n- A leather strap can be a feature of a luxury watch, with options ranging from high-quality to more affordable versions. (valid since 2023-04-29)\n- The assistant is being interviewed by the user regarding personal and professional details. (valid since 2023-04-29)\n- The assistant provides code to convert a Tetrad graph into a NetworkX directed graph. (valid since 2023-05-04)\n- The assistant provides code to create a NetworkX directed graph from a Tetrad graph. (valid since 2023-05-04)\n- The assistant defines breadth-first search as an uninformed search strategy that explores all nodes at a depth level before moving to the next. (valid since 2023-05-19)\n- The assistant describes depth-first search as an uninformed search strategy that explores branches as far as possible before backtracking. (valid since 2023-05-19)\n- The assistant explains depth-limited search as an uninformed search strategy that restricts the depth of the exploration. (valid since 2023-05-19)\n- The assistant defines iterative deepening search as an uninformed search strategy that combines depth-first and depth-limited search. (valid since 2023-05-19)\n- The assistant describes uniform-cost search as an uninformed search strategy that expands nodes with the lowest path cost. (valid since 2023-05-19)\n- The assistant identifies best-first search as an informed search strategy using heuristics to guide exploration. (valid since 2023-05-19)\n- The assistant identifies A* search as an informed search strategy that uses heuristics for efficient problem solving. (valid since 2023-05-19)\n- The assistant identifies greedy search as an informed search strategy that prioritizes the most promising next states. (valid since 2023-05-19)\n- The assistant identifies beam search as an informed search strategy that uses heuristics to focus on promising search paths. (valid since 2023-05-19)\n- The user is planning a trip to a nearby lake next weekend to spot waterbirds. (valid since 2023-05-24)\n- The user owns binoculars and plans to bring them on their trip to the lake. (valid since 2023-05-24)\n- The user owns a spotting scope and plans to bring it on their trip to the lake. (valid since 2023-05-24)\n- The lake is known as a great spot for spotting Ospreys. (valid since 2023-05-24)\n- The lake is known as a great spot for spotting Bald Eagles. (valid since 2023-05-24)\n- The assistant recommends wearing earth-toned clothing to increase the chances of spotting Ospreys and Bald Eagles. (valid since 2023-05-24)\n- The assistant suggests bringing a hat to increase the chances of spotting Ospreys and Bald Eagles. (valid since 2023-05-24)\n- The assistant recommends bringing polarized sunglasses to reduce glare on the water while spotting Ospreys and Bald Eagles. (valid since 2023-05-24)\n- The assistant suggests bringing a field guide to help identify Ospreys and Bald Eagles. (valid since 2023-05-24)\n- The assistant suggests serving gyoza as an appetizer for the dinner party. (valid since 2023-05-24)\n- The assistant suggests serving edamame as an appetizer for the dinner party. (valid since 2023-05-24)\n- The user is considering pairing gyoza with hummus and kimchi deviled eggs. (valid since 2023-05-24)\n- The user is considering pairing edamame with hummus and kimchi deviled eggs. (valid since 2023-05-24)\n- The user is considering pairing gyoza with kimchi deviled eggs and hummus. (valid since 2023-05-24)\n- The user is considering pairing edamame with kimchi deviled eggs and hummus. (valid since 2023-05-24)\n- assistant offers to assist user with work-related matters such as project management and team collaboration. (valid since 2023-05-25)\n- The user participated in a 5K charity run on April 17, 2023. (valid since 2023-05-29)\n- The user plans to purchase a new mountain bike for an upcoming trip. (valid since 2023-05-29)\n- A mountain bike can be upgraded with a dropper post. (valid since 2023-05-29)\n- Peanut butter is used by the user to attract woodpeckers. (valid since 2023-05-29)\n- Peanut butter is used by the user to attract nuthatches. (valid since 2023-05-29)\n- The user is planning to bring peanut butter on their picnic. (valid since 2023-05-29)\n- The user is planning to bring binoculars to their picnic to view birds. (valid since 2023-05-29)\n- The user may use binoculars to spot the Yellow Warbler. (valid since 2023-05-29)\n- The user may use binoculars to spot the American Goldfinch. (valid since 2023-05-29)\n- The user may use binoculars to spot the Common Yellowthroat. (valid since 2023-05-29)\n- The user may use binoculars to spot the Song Sparrow. (valid since 2023-05-29)\n- The user may use binoculars to spot the White-throated Sparrow. (valid since 2023-05-29)\n- The user may use binoculars to spot the Savannah Sparrow. (valid since 2023-05-29)\n- The user owns an engagement ring that they are planning to get cleaned and inspected at the jeweler's. (valid since 2023-05-30)\n- The user lost their favorite silver necklace with a small pendant at the beach last weekend and is considering asking the jeweler if someone has turned it in. (valid since 2023-05-30)\n- The user plans to make an appointment at the jeweler's this week to get their engagement ring cleaned and inspected. (valid since 2023-05-30)\n- The user plans to consult the jeweler about repairing their grandmother's old gold earrings. (valid since 2023-05-30)\n- The user intends to ask the jeweler to look for their lost silver necklace. (valid since 2023-05-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 50,
+  "invalidated": 0,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 130.6,
+  "total": 132.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

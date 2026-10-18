@@ -1,0 +1,105 @@
+{
+ "qid": "affe2881",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many different species of birds have I seen in my local park?",
+ "reference": "32",
+ "question_date": "2023-06-07 02:42",
+ "sessions": [
+  {
+   "id": "0338df32",
+   "date": "2023-04-29 16:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_J2pQr1T_0",
+   "date": "2023-05-01 16:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_uZwFWTJ_43",
+   "date": "2023-05-04 04:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_28MOwpT_17",
+   "date": "2023-05-19 13:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_1",
+   "date": "2023-05-24 01:31",
+   "evidence": true
+  },
+  {
+   "id": "3d895af0_3",
+   "date": "2023-05-24 02:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_26212",
+   "date": "2023-05-25 11:51",
+   "evidence": false
+  },
+  {
+   "id": "1b71c896_2",
+   "date": "2023-05-29 03:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_2",
+   "date": "2023-05-29 17:18",
+   "evidence": true
+  },
+  {
+   "id": "7badf4f3_1",
+   "date": "2023-05-30 11:20",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user is interested in mountain biking. They have recently achieved a personal best in a 5K charity run (27:12 on April 17, 2023). They are planning a summer vacation in the nearby mountains and are interested in moderate-difficulty mountain biking trails (20-30 miles per day). They are considering purchasing a new mountain bike and learning about features like dropper posts.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "I'm sorry, I couldn't find any information in our past conversations about the number of bird species you've seen in your local park. Would you like to tell me about them so I can make a note of it for you?",
+ "dump": "<human>\n\nThe user is interested in mountain biking. They have recently achieved a personal best in a 5K charity run (27:12 on April 17, 2023). They are planning a summer vacation in the nearby mountains and are interested in moderate-difficulty mountain biking trails (20-30 miles per day). They are considering purchasing a new mountain bike and learning about features like dropper posts.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"birds local park species seen\"})",
+   "conversation_search({\"query\": \"birds species park\"})",
+   "conversation_search({\"query\": \"bird watching park\"})"
+  ],
+  "blocks_chars": 581
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 34.4,
+  "total": 42.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

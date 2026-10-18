@@ -1,0 +1,100 @@
+{
+ "qid": "db467c8c",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How long have my parents been staying with me in the US?",
+ "reference": "nine months",
+ "question_date": "2023-10-22 09:15",
+ "sessions": [
+  {
+   "id": "sharegpt_wrN9uUo_53",
+   "date": "2023-06-23 06:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_165276",
+   "date": "2023-07-08 02:17",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ocf8Lud_39",
+   "date": "2023-07-11 23:49",
+   "evidence": false
+  },
+  {
+   "id": "76967d22",
+   "date": "2023-07-16 03:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_1",
+   "date": "2023-07-16 07:07",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_48690",
+   "date": "2023-07-20 20:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_497634",
+   "date": "2023-09-21 19:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_2",
+   "date": "2023-10-20 00:00",
+   "evidence": true
+  },
+  {
+   "id": "16ebc8f8_1",
+   "date": "2023-10-20 04:34",
+   "evidence": false
+  },
+  {
+   "id": "08693f68_1",
+   "date": "2023-10-20 12:15",
+   "evidence": false
+  }
+ ],
+ "context": "- User's parents have been staying with them in the U.S. for nine months, which the assistant noted may violate the terms of their B-2 tourist visa and could complicate the user's green card application. (from a chat on 2023-10-20)\n- User was provided with tips to prevent winter skin dryness, including regular moisturizing, wearing gloves, using a humidifier, avoiding harsh soaps, staying hydrated, keeping home temperatures moderate, and weekly exfoliation. (from a chat on 2023-07-20)\n- User's parents have been living with them in the US for the past six months, helping with household chores, cooking, and taking English language classes. (from a chat on 2023-07-16)\n- User is considering applying for a green card and is researching the process, requirements, and financial implications of including their parents in the application. (from a chat on 2023-07-16)\n- User plans to consult an immigration attorney specifically to discuss their green card application and address the potential legal consequences of their parents' nine-month visa overstay. (from a chat on 2023-10-20)\n- User was advised to discuss their parents' immigration history, potential consequences like inadmissibility or bars to re-entry, and possible solutions such as filing for a waiver of inadmissibility (Form I-601 or I-601A) with their attorney. (from a chat on 2023-10-20)\n- User was advised that if their parents are included in a green card application, they must demonstrate the ability to financially support them, including accounting for their expenses on Form I-864 (Affidavit of Support). (from a chat on 2023-07-16)\n- User is planning to apply for a green card and is seeking guidance on the required documentation and the overall application process. (from a chat on 2023-10-20)\n- User was provided with a general overview of the green card application process, including determining eligibility, gathering biographic and immigration documents, filing petitions like Form I-130 or I-140, medical exams, and interviews. (from a chat on 2023-10-20)\n- User was informed that a waiver of inadmissibility (Form I-601) may be required to overcome unlawful presence, which necessitates demonstrating extreme hardship to a qualifying relative and evidence of rehabilitation. (from a chat on 2023-10-20)\n- User was provided with an overview of the post-submission green card process, including biometric appointments, background checks, potential Requests for Evidence (RFE), medical examinations, and interviews. (from a chat on 2023-07-16)\n- User is currently taking a general cooking class on Wednesday evenings that covers various cuisines and techniques. (from a chat on 2023-10-20)\n- User was recommended several resources to find a qualified immigration attorney, including the American Immigration Lawyers Association (AILA), National Immigration Project, Immigration Advocates Network (IAN), Avvo, and Martindale-Hubbell. (from a chat on 2023-10-20)\n- User was informed that common mistakes in the green card process include providing inaccurate information, insufficient documentation, missing deadlines, failing to disclose criminal history, and not preparing for the interview. (from a chat on 2023-07-16)\n- User attends Zumba classes on Tuesdays and is currently working on improving their side-to-side shimmy technique for salsa moves. (from a chat on 2023-10-20)\n- User's book outline for 'The Mirror's Reflection' includes: Chapter 1 (Arrival), Chapter 2 (The Teenager), Chapter 3 (The Married Woman), Chapter 4 (The Elderly Man), Chapter 5 (Breaking Free), and Chapter 6 (Moving On). (from a chat on 2023-06-23)\n- User is interested in learning about public art and heritage displays in cities, specifically in outdoor spaces like parks and plazas. (from a chat on 2023-07-08)\n- User is planning a trip to New York City and is interested in revisiting coffee shops in the West Village, where they previously lived. (from a chat on 2023-07-16)\n- User recently learned to make Thai curry in their cooking class and plans to make it again the weekend of October 21-22, 2023, experimenting with ingredients like bell peppers, zucchini, shrimp, or chicken. (from a chat on 2023-10-20)\n- User was provided with a 'Low-Sugar Berry Bliss Smoothie' recipe (frozen berries, pineapple, almond milk, Greek yogurt, chia seeds, hemp seeds, vanilla protein powder) that makes 5-6 servings and can be stored for up to 5 days in the fridge. (from a chat on 2023-10-20)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-07-16: The user stated their parents had been living with them in the U.S. for the past six months.\n*   From the chat on 2023-10-20: The user stated their parents have been staying with them in the U.S. for nine months.\n\n**2. Reason over the information:**\n*   The most recent update regarding the duration of the parents' stay was provided on 2023-10-20, which confirmed they had been in the U.S. for nine months.\n*   Given that the current date is 2023-10-22, the duration remains consistent with the information provided two days ago.\n\n**Answer:**\nYour parents have been staying with you in the U.S. for nine months.",
+ "dump": "- User was advised to discuss their parents' immigration history, potential consequences like inadmissibility or bars to re-entry, and possible solutions such as filing for a waiver of inadmissibility (Form I-601 or I-601A) with their attorney. (session 2023-10-20)\n- User is a marketing specialist with 9 months of experience and is considering a career transition into the non-profit sector. (session 2023-07-16)\n- User was provided with a comprehensive website structure and design strategy for Snow Mountain Capital, including sections for the homepage, about us, software platform, investment approach, resources, and contact information. (session 2023-07-11)\n- User identifies the most valuable cooking skills learned so far as layering flavors, adjusting seasonings during the cooking process, and properly cooking proteins to the correct temperature. (session 2023-10-20)\n- User was recommended marketing networking groups such as NYC Marketing Professionals, American Marketing Association (AMA) - NYC, Digital Marketing Summit, and The Marketing Society. (session 2023-07-16)\n- User is interested in the historical significance of the Emancipation Proclamation and its impact on the lives of African Americans during and after the Civil War. (session 2023-09-21)\n- User was provided with actionable steps to fight racism and discrimination, including self-education, speaking out against discriminatory behavior, listening to marginalized voices, engaging in constructive dialogue, and participating in community organizations or grassroots movements. (session 2023-09-21)\n- User is writing a book titled 'The Mirror's Reflection' about a mirror that shows viewers an alternate future where their tragedies or losses never occurred. (session 2023-06-23)\n- User is considering applying for a green card and is researching the process, requirements, and financial implications of including their parents in the application. (session 2023-07-16)\n- The book 'The Mirror's Reflection' follows a series of characters across six chapters, focusing on the mirror's impact on their relationships and well-being rather than traditional heroes or villains. (session 2023-06-23)\n- User views spinning as a low-impact, focused, and intense workout that will complement the high-impact, high-energy nature of their existing Zumba routine. (session 2023-10-20)\n- User is setting up GitHub for version control and was provided with a step-by-step guide to installing Git, configuring SSH keys, creating repositories, and pushing code. (session 2023-07-11)\n- User expressed frustration regarding the persistence of racial discrimination in society despite the progress made since the Emancipation Proclamation. (session 2023-09-21)\n- User was recommended several online resources for improving salsa shimmies, including Zumba's official YouTube channel, instructor tutorials, DanceWithMe, and Salsa Addicted. (session 2023-10-20)\n- User was recommended several healthy, reheat-friendly dinner recipes: Quinoa and Black Bean Chili, Baked Salmon with Roasted Vegetables, Lentil Soup, Grilled Chicken and Veggie Stir-Fry, Chickpea and Spinach Curry, Roasted Chicken and Sweet Potato, and Veggie and Bean Burritos. (session 2023-10-20)\n- User is currently taking a general cooking class on Wednesday evenings that covers various cuisines and techniques. (session 2023-10-20)\n- User was provided with a list of marketing industry events in NYC, including Advertising Week, Social Media Week, Dmexco, NYC Marketing Week, and MozCon. (session 2023-07-16)\n- User attends Zumba classes on Tuesdays and is currently working on improving their side-to-side shimmy technique for salsa moves. (session 2023-10-20)\n- User was instructed on how to use GitHub Codespaces to run a full-featured Visual Studio Code environment directly in the browser for cloud-based development. (session 2023-07-11)\n- User's book outline for 'The Mirror's Reflection' includes: Chapter 1 (Arrival), Chapter 2 (The Teenager), Chapter 3 (The Married Woman), Chapter 4 (The Elderly Man), Chapter 5 (Breaking Free), and Chapter 6 (Moving On). (session 2023-06-23)\n- User was informed that common mistakes in the green card process include providing inaccurate information, insufficient documentation, missing deadlines, failing to disclose criminal history, and not preparing for the interview. (session 2023-07-16)\n- User was provided with tips to prevent winter skin dryness, including regular moisturizing, wearing gloves, using a humidifier, avoiding harsh soaps, staying hydrated, keeping home temperatures moderate, and weekly exfoliation. (session 2023-07-20)\n- User was recommended a suite of development tools for the SMC platform, including Visual Studio Code or PyCharm for coding, GitHub Desktop or GitKraken for version control, Postman for API testing, and GitHub Actions or Azure DevOps for CI/CD. (session 2023-07-11)\n- User is planning to apply for a green card and is seeking guidance on the required documentation and the overall application process. (session 2023-10-20)\n- User was recommended online cooking resources including Cookpad, Masterclass, The Kitchn, Food52, and America's Test Kitchen, as well as classes from Sur La Table, ChefSteps, and The Cooking Academy. (session 2023-10-20)\n- User recently learned to make Thai curry in their cooking class and plans to make it again the weekend of October 21-22, 2023, experimenting with ingredients like bell peppers, zucchini, shrimp, or chicken. (session 2023-10-20)\n- User was provided with a general overview of the green card application process, including determining eligibility, gathering biographic and immigration documents, filing petitions like Form I-130 or I-140, medical exams, and interviews. (session 2023-10-20)\n- User was recommended Barcelona, Spain, as a city with impressive public art and heritage, including works by Antoni Gaudí like the Sagrada Familia and Park Guell, as well as street art in El Raval and Poble Nou. (session 2023-07-08)\n- User was recommended seven salsa music playlists on Spotify for practice: Salsa Fiesta, Salsa para Bailar, Salsa Workout, Salsa Addiction, Salsa Classics, Salsa Party, and Salsa Fitness. (session 2023-10-20)\n- User was recommended several hand creams for maintaining softness, including Neutrogena Norwegian Formula, Kiehl's Ultimate Strength Hand Salve, Aveeno Intense Relief, L'Occitane Shea Butter, CeraVe Therapeutic, Burt's Bees Almond Milk, and O'Keeffe's Working Hands. (session 2023-07-20)\n- User's parents have been living with them in the US for the past six months, helping with household chores, cooking, and taking English language classes. (session 2023-07-16)\n- User is developing a software platform for Snow Mountain Capital (SMC) to address LP disadvantages in venture capital, focusing on deal sourcing, evaluation, monitoring, and exit strategy. (session 2023-07-11)\n- User plans to consult an immigration attorney specifically to discuss their green card application and address the potential legal consequences of their parents' nine-month visa overstay. (session 2023-10-20)\n- User was provided with a 'Low-Sugar Berry Bliss Smoothie' recipe (frozen berries, pineapple, almond milk, Greek yogurt, chia seeds, hemp seeds, vanilla protein powder) that makes 5-6 servings and can be stored for up to 5 days in the fridge. (session 2023-10-20)\n- User was informed that a waiver of inadmissibility (Form I-601) may be required to overcome unlawful presence, which necessitates demonstrating extreme hardship to a qualifying relative and evidence of rehabilitation. (session 2023-10-20)\n- User was advised that if their parents are included in a green card application, they must demonstrate the ability to financially support them, including accounting for their expenses on Form I-864 (Affidavit of Support). (session 2023-07-16)\n- User's parents have been staying with them in the U.S. for nine months, which the assistant noted may violate the terms of their B-2 tourist visa and could complicate the user's green card application. (session 2023-10-20)\n- User was provided with guidance on spinning class attire (moisture-wicking fabrics, form-fitting clothes, padded shorts) and footwear (cycling shoes or sturdy gym shoes). (session 2023-10-20)\n- User is interested in learning about public art and heritage displays in cities, specifically in outdoor spaces like parks and plazas. (session 2023-07-08)\n- User prefers a writing style that uses dialogue to convey historical setting and backstory, while avoiding explicit narrative commentary on the mirror's supernatural powers. (session 2023-06-23)\n- User was recommended several West Village coffee shops: La Colombe (275 Bleeker St), Joe Coffee (141 W 4th St), Think Coffee (250 Bleecker St), Culture Espresso (72 Greenwich Ave), and Grove Cafe (137 7th Ave S). (session 2023-07-16)\n- User is planning a trip to New York City and is interested in revisiting coffee shops in the West Village, where they previously lived. (session 2023-07-16)\n- User's strategy for networking in the non-profit sector includes researching attendees, preparing open-ended questions, being transparent about career goals, and following up via email and LinkedIn. (session 2023-07-16)\n- User was provided with an overview of the post-submission green card process, including biometric appointments, background checks, potential Requests for Evidence (RFE), medical examinations, and interviews. (session 2023-07-16)\n- User meal preps for the entire week on Sundays and is looking for healthy, quick dinner recipes that reheat well. (session 2023-10-20)\n- User was provided with tips for spinning success, including setting specific goals, tracking progress, finding a workout buddy, and properly adjusting bike seat and handlebar height for body fit. (session 2023-10-20)\n- User was recommended several resources to find a qualified immigration attorney, including the American Immigration Lawyers Association (AILA), National Immigration Project, Immigration Advocates Network (IAN), Avvo, and Martindale-Hubbell. (session 2023-10-20)\n- User plans to try spinning classes at their gym next month, motivated by their friend Emily's positive experiences. (session 2023-10-20)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 48,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 57.9,
+  "total": 62.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

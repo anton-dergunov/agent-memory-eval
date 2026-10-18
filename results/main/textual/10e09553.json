@@ -1,0 +1,79 @@
+{
+ "qid": "10e09553",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+ "reference": "7",
+ "question_date": "2023-12-06 11:18",
+ "sessions": [
+  {
+   "id": "sharegpt_d4Csa8p_0",
+   "date": "2023-07-23 05:30",
+   "evidence": false
+  },
+  {
+   "id": "2d58d2d2",
+   "date": "2023-08-08 16:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_1",
+   "date": "2023-08-11 03:49",
+   "evidence": true
+  },
+  {
+   "id": "7d1f5395",
+   "date": "2023-08-13 10:26",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IZ5NgqD_0",
+   "date": "2023-09-20 05:22",
+   "evidence": false
+  },
+  {
+   "id": "e5f785de",
+   "date": "2023-09-22 13:37",
+   "evidence": false
+  },
+  {
+   "id": "58ab5fc5",
+   "date": "2023-10-04 13:50",
+   "evidence": false
+  },
+  {
+   "id": "238fac70_1",
+   "date": "2023-11-12 05:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_2",
+   "date": "2023-11-30 00:28",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jEOqeWh_0",
+   "date": "2023-12-01 01:05",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   **Occupation:** Male model.\n*   **Age:** 20.\n*   **Home location:** Orlando, Florida area.\n*   **Yoga experience:** Has been practicing yoga regularly for 12 weeks (as of 2023-09-20).\n*   **Outdoor interests:** Recently returned to fishing and hunting.\n*   **Social connections:** \n    *   Friend named Alex (fishing trip to Lake Michigan on 2023-07-10; fishing trip to Waukegan harbor, Lake Michigan, on 2023-07-22).\n    *   Paternal grandparents live in Orlando, Florida.\n    *   Maternal grandparents celebrated their 50th wedding anniversary on 2023-06-17.\n    *   Has siblings.\n    *   Friend with a dog named Bella.\n*   **Pets:** \n    *   Rocky (puppy, currently learning to sit and stay).\n    *   Luna (cat).\n*   **Travel history:** Visited New York City for a weekend trip with friends in May 2023; visited luxury stores on Fifth Avenue and dined at a Michelin-starred restaurant.\n*   **Technology:** Recently purchased a 50-inch 4K TV (acquired on Black Friday, 2023-11-24).\n*   **Intellectual interests:** Interested in ancient history, specifically the timelines and potential cultural connections between ancient civilizations like Egypt and the Olmecs (noted 2023-12-01).\n\n### Preferences and habits\n*   **Fragrance preference:** Interested in \"Gucci Guilty Pour Homme Eau de Parfum,\" specifically noting its Woody Aromatic Spicy profile.\n*   **Skincare:** Currently trying to cut back on luxury skincare spending. Has had positive experiences with Neutrogena and CeraVe; interested in exploring Korean skincare brands like Innisfree, Benton, CosRX, and Laneige.\n*   **Shopping habits:** Actively trying to be more practical and budget-conscious regarding luxury goods. Uses or is interested in tools like Rakuten, RetailMeNot, Honey, CamelCamelCamel, Mint, and ThredUp. Took advantage of Black Friday sales for electronics and gaming (2023-11-24).\n*   **Yoga practice:** Currently enjoys Hatha yoga; has also explored Vinyasa Flow and Restorative yoga. Interested in diversifying practice to include other styles to improve flexibility and balance.\n*   **Morning routine:** Currently struggling to wake up early enough for morning yoga classes. Is working on establishing a more consistent morning routine, including better sleep hygiene and preparation the night before.\n*   **Fishing habits:** Actively fishing for largemouth bass. Successfully caught 7 on 2023-07-10 and 9 on 2023-07-22. Prefers using spinnerbaits and plastic worms.\n*   **Cooking:** Enjoys cooking Indian cuisine; specifically requested a recipe for paneer bhurji for 400g of paneer on 2023-09-20.\n*   **Leisure interests:** Enjoys a mix of relaxation and cultural activities. Recently interested in gaming (Call of Duty: Modern Warfare) and hosting social events like movie nights and gaming sessions.\n*   **Pet care habits:** \n    *   Puppy training for Rocky on Saturday mornings.\n    *   Brushes Luna’s teeth daily.\n    *   Scoops Luna’s litter box daily and performs a full change every 7–10 days.\n    *   Uses Habitica to track daily tasks and habits (since 2023-10-04).\n*   **Weekly schedule:** Reserves Sundays for relaxation and errands.\n\n### Ongoing situations and plans\n*   **Professional project:** Currently working on a promotional Instagram campaign for the \"Gucci Guilty\" fragrance collection.\n*   **Career:** Started a new job in March 2023; currently adjusting to new responsibilities and challenges.\n*   **Campaign themes:** The user is focused on the #ForeverGuilty concept, which emphasizes magnetism, self-love, \"coming out of the shadows,\" and being proud of one's identity.\n*   **Content creation:** The user is planning content that features product integration and visibility, potentially shot in unconventional locations like vintage stores, laundry rooms, or underground spots.\n*   **Future goals:** Interested in enrolling in a yoga teacher training program to deepen their practice and eventually share their passion for yoga with others.\n*   **Hunting plans:** Planning to hunt deer this season; currently researching tree stand types and safety protocols. Planning to help friend Alex set up tree stands on his property. Interested in using deer calls (bleat, doe estrus, buck grunt, rattle, and snort-wheeze).\n*   **Family plans:** Planning to coordinate with siblings to organize a surprise birthday brunch for their mother at a new downtown bistro.\n*   **Pet plans:** Planning to organize more playdates for Rocky and Bella.\n*   **Entertainment plans:** Planning to host a movie night and a multi-console gaming session for friends. Currently organizing gaming stations with labels and color-coding.\n*   **Fishing plans:** Planning a future fishing trip to Waukegan harbor, Illinois.\n\n### Changes over time\n*   **Yoga experience:** Now 12 weeks of regular practice, since 2023-09-20; previously 6 weeks (as of 2023-08-08).\n*   **Travel plans:** Trip to Orlando completed, since 2023-09-20; previously planning to visit in August 2023.\n*   **Employment:** Started new job in March 2023 (noted 2023-09-22).\n*   **Habit tracking:** Adopted Habitica for task management, since 2023-10-04.\n*   **Electronics:** Acquired a 50-inch 4K TV and new video games (including Call of Duty) on 2023-11-24.",
+ "answer": "To answer your question, I will follow these steps:\n\n**Step 1: Extract relevant information from the history chats.**\n*   The history notes mention two specific fishing trips with your friend Alex to Lake Michigan:\n    *   Trip 1: July 10, 2023 (Lake Michigan).\n    *   Trip 2: July 22, 2023 (Waukegan harbor, Lake Michigan).\n*   The fishing habits section states: \"Successfully caught 7 on 2023-07-10 and 9 on 2023-07-22.\"\n\n**Step 2: Reason over the information.**\n*   The question asks for the number of largemouth bass caught on the *earlier* trip (the one before the 7/22 trip).\n*   The earlier trip occurred on 2023-07-10.\n*   According to the records, you caught 7 largemouth bass on that date.\n\n**Answer:**\nYou caught 7 largemouth bass on the earlier fishing trip to Lake Michigan on July 10, 2023.",
+ "dump": "### Personal facts\n*   **Occupation:** Male model.\n*   **Age:** 20.\n*   **Home location:** Orlando, Florida area.\n*   **Yoga experience:** Has been practicing yoga regularly for 12 weeks (as of 2023-09-20).\n*   **Outdoor interests:** Recently returned to fishing and hunting.\n*   **Social connections:** \n    *   Friend named Alex (fishing trip to Lake Michigan on 2023-07-10; fishing trip to Waukegan harbor, Lake Michigan, on 2023-07-22).\n    *   Paternal grandparents live in Orlando, Florida.\n    *   Maternal grandparents celebrated their 50th wedding anniversary on 2023-06-17.\n    *   Has siblings.\n    *   Friend with a dog named Bella.\n*   **Pets:** \n    *   Rocky (puppy, currently learning to sit and stay).\n    *   Luna (cat).\n*   **Travel history:** Visited New York City for a weekend trip with friends in May 2023; visited luxury stores on Fifth Avenue and dined at a Michelin-starred restaurant.\n*   **Technology:** Recently purchased a 50-inch 4K TV (acquired on Black Friday, 2023-11-24).\n*   **Intellectual interests:** Interested in ancient history, specifically the timelines and potential cultural connections between ancient civilizations like Egypt and the Olmecs (noted 2023-12-01).\n\n### Preferences and habits\n*   **Fragrance preference:** Interested in \"Gucci Guilty Pour Homme Eau de Parfum,\" specifically noting its Woody Aromatic Spicy profile.\n*   **Skincare:** Currently trying to cut back on luxury skincare spending. Has had positive experiences with Neutrogena and CeraVe; interested in exploring Korean skincare brands like Innisfree, Benton, CosRX, and Laneige.\n*   **Shopping habits:** Actively trying to be more practical and budget-conscious regarding luxury goods. Uses or is interested in tools like Rakuten, RetailMeNot, Honey, CamelCamelCamel, Mint, and ThredUp. Took advantage of Black Friday sales for electronics and gaming (2023-11-24).\n*   **Yoga practice:** Currently enjoys Hatha yoga; has also explored Vinyasa Flow and Restorative yoga. Interested in diversifying practice to include other styles to improve flexibility and balance.\n*   **Morning routine:** Currently struggling to wake up early enough for morning yoga classes. Is working on establishing a more consistent morning routine, including better sleep hygiene and preparation the night before.\n*   **Fishing habits:** Actively fishing for largemouth bass. Successfully caught 7 on 2023-07-10 and 9 on 2023-07-22. Prefers using spinnerbaits and plastic worms.\n*   **Cooking:** Enjoys cooking Indian cuisine; specifically requested a recipe for paneer bhurji for 400g of paneer on 2023-09-20.\n*   **Leisure interests:** Enjoys a mix of relaxation and cultural activities. Recently interested in gaming (Call of Duty: Modern Warfare) and hosting social events like movie nights and gaming sessions.\n*   **Pet care habits:** \n    *   Puppy training for Rocky on Saturday mornings.\n    *   Brushes Luna’s teeth daily.\n    *   Scoops Luna’s litter box daily and performs a full change every 7–10 days.\n    *   Uses Habitica to track daily tasks and habits (since 2023-10-04).\n*   **Weekly schedule:** Reserves Sundays for relaxation and errands.\n\n### Ongoing situations and plans\n*   **Professional project:** Currently working on a promotional Instagram campaign for the \"Gucci Guilty\" fragrance collection.\n*   **Career:** Started a new job in March 2023; currently adjusting to new responsibilities and challenges.\n*   **Campaign themes:** The user is focused on the #ForeverGuilty concept, which emphasizes magnetism, self-love, \"coming out of the shadows,\" and being proud of one's identity.\n*   **Content creation:** The user is planning content that features product integration and visibility, potentially shot in unconventional locations like vintage stores, laundry rooms, or underground spots.\n*   **Future goals:** Interested in enrolling in a yoga teacher training program to deepen their practice and eventually share their passion for yoga with others.\n*   **Hunting plans:** Planning to hunt deer this season; currently researching tree stand types and safety protocols. Planning to help friend Alex set up tree stands on his property. Interested in using deer calls (bleat, doe estrus, buck grunt, rattle, and snort-wheeze).\n*   **Family plans:** Planning to coordinate with siblings to organize a surprise birthday brunch for their mother at a new downtown bistro.\n*   **Pet plans:** Planning to organize more playdates for Rocky and Bella.\n*   **Entertainment plans:** Planning to host a movie night and a multi-console gaming session for friends. Currently organizing gaming stations with labels and color-coding.\n*   **Fishing plans:** Planning a future fishing trip to Waukegan harbor, Illinois.\n\n### Changes over time\n*   **Yoga experience:** Now 12 weeks of regular practice, since 2023-09-20; previously 6 weeks (as of 2023-08-08).\n*   **Travel plans:** Trip to Orlando completed, since 2023-09-20; previously planning to visit in August 2023.\n*   **Employment:** Started new job in March 2023 (noted 2023-09-22).\n*   **Habit tracking:** Adopted Habitica for task management, since 2023-10-04.\n*   **Electronics:** Acquired a 50-inch 4K TV and new video games (including Call of Duty) on 2023-11-24.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 26.3,
+  "total": 27.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

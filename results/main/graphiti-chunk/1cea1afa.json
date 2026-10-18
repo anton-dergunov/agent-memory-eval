@@ -1,0 +1,102 @@
+{
+ "qid": "1cea1afa",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many Instagram followers do I currently have?",
+ "reference": "600",
+ "question_date": "2023-06-14 13:43",
+ "sessions": [
+  {
+   "id": "answer_79c395a9_1",
+   "date": "2023-05-27 07:39",
+   "evidence": true
+  },
+  {
+   "id": "e06c6d99_5",
+   "date": "2023-05-27 07:54",
+   "evidence": false
+  },
+  {
+   "id": "b86848e2_2",
+   "date": "2023-05-27 11:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_51727",
+   "date": "2023-05-28 02:21",
+   "evidence": false
+  },
+  {
+   "id": "a126eeab_1",
+   "date": "2023-05-28 03:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_468681",
+   "date": "2023-05-28 07:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_82739",
+   "date": "2023-05-28 11:40",
+   "evidence": false
+  },
+  {
+   "id": "e131bcd4",
+   "date": "2023-05-28 15:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_GYN9yoM_0",
+   "date": "2023-05-28 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_79c395a9_2",
+   "date": "2023-05-28 22:57",
+   "evidence": true
+  }
+ ],
+ "context": "- The user plans to post a poll on their Instagram story to ask followers what content they would like to see more of. (valid since 2023-05-27)\n- The assistant recommends using the Question Sticker feature within an Instagram Story to host a Q&A session. (valid since 2023-05-28)\n- The Q&A session utilizes the Question Sticker feature in Instagram Stories. (valid since 2023-05-28)\n- The Question Sticker is a built-in feature available within Instagram Stories. (valid since 2023-05-28)\n- The user plans to use Instagram Stories to share snippets of the user's manuscript. (valid since 2023-05-27)\n- The assistant recommends using the Question Sticker feature within an Instagram Story to facilitate a Q&A session. (valid since 2023-05-28)\n- The user is considering using a Manuscript Monday feature to share manuscript snippets on Instagram Stories. (valid since 2023-05-27)\n- The user plans to share the poll results in a follow-up Instagram story to provide context and insights. (valid since 2023-05-27)\n- The Q&A session is promoted using the #WritingCommunity hashtag. (valid since 2023-05-28)\n- The Q&A session uses the #QandAwith[YourName] hashtag for promotion. (valid since 2023-05-28)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:** I have reviewed the provided history chats regarding your Instagram plans, which include using polls, sharing manuscript snippets, and hosting Q&A sessions.\n2. **Reason over the information:** I have scanned all the provided facts to see if there is any mention of your current follower count or any data related to your account statistics.\n3. **Conclusion:** None of the provided history facts contain information regarding the number of Instagram followers you currently have. Therefore, I cannot answer this question based on the provided information.",
+ "dump": "- The user plans to use Instagram Stories to share snippets of the user's manuscript. (valid since 2023-05-27)\n- The user is considering using a Manuscript Monday feature to share manuscript snippets on Instagram Stories. (valid since 2023-05-27)\n- The user plans to post a poll on their Instagram story to ask followers what content they would like to see more of. (valid since 2023-05-27)\n- The user plans to share the poll results in a follow-up Instagram story to provide context and insights. (valid since 2023-05-27)\n- The user rides a bike to the grocery store on weekends (valid since 2023-05-27)\n- The user travels to the grocery store by bike on weekends (valid since 2023-05-27)\n- The assistant provides the user with injury prevention strategies and recovery tips, including advice specifically for the user's recent ankle sprain from playing basketball. (valid since 2023-05-27)\n- The assistant recommends adjusting power settings on the laptop to 'High performance' to improve battery efficiency and system performance. (valid since 2023-05-27)\n- The user upgraded the RAM of their laptop from 8GB to 16GB. (valid since 2023-05-27)\n- The assistant provides advice to the user on upgrading hardware like SSDs, graphics cards, CPUs, cooling systems, and displays to improve laptop performance. (valid since 2023-05-27)\n- The user asks for the assistant's recommendations on software optimizations to improve laptop performance. (valid since 2023-05-27)\n- user has been participating in Zumba classes every Thursday evening at their local gym for about 2 months (valid since 2023-05-28)\n- user is seeking recommendations for dance tutorials to help improve their technique for Zumba routines at home (valid since 2023-05-28)\n- The JBL Flip 4 is a more budget-friendly alternative to the Bose SoundLink Revolve+ for dance practice. (valid since 2023-05-28)\n- The assistant recommends using the JBL Connect app to adjust equalization settings for the JBL Flip 4. (valid since 2023-05-28)\n- The JBL Flip 4 can stream high-quality music from Spotify. (valid since 2023-05-28)\n- The JBL Flip 4 can stream high-quality music from Apple Music. (valid since 2023-05-28)\n- The JBL Flip 4 can stream high-quality music from Tidal. (valid since 2023-05-28)\n- The assistant provides information about the ongoing Legacy Arena Renovation Project. (valid since 2023-05-28)\n- The Legacy Arena Renovation Project contributes to the economy of Birmingham by attracting high-profile events and generating jobs. (valid since 2023-05-28)\n- The Legacy Arena is located in Birmingham. (valid since 2023-05-28)\n- The XPS 13 offers an FHD+ (1920 x 1200) display as a screen option. (valid since 2023-05-28)\n- The XPS 13 offers a 4K OLED display as a screen option. (valid since 2023-05-28)\n- The assistant provides information about the weight and dimensions of the Dell XPS 13 to help the user evaluate its portability. (valid since 2023-05-28)\n- The Dell XPS 13 includes a compact power adapter that is easy to carry. (valid since 2023-05-28)\n- The Dell XPS 13 features magnesium alloy construction to reduce weight and increase durability. (valid since 2023-05-28)\n- The Dell XPS 13 weighs 2.75 pounds and is 0.33 inches thick, while the MacBook Air 13 weighs 2.75 pounds and is 0.68 inches thick. (valid since 2023-05-28)\n- The Dell XPS 13 weighs 2.75 pounds and is 0.33 inches thick, while the Lenovo LaVie Z weighs 1.87 pounds and is 0.67 inches thick. (valid since 2023-05-28)\n- The Dell XPS 13 weighs 2.75 pounds and is 0.33 inches thick, while the HP Envy 13 weighs 2.87 pounds and is 0.39 inches thick. (valid since 2023-05-28)\n- Floating Solar has completed its reference projects in the Netherlands. (valid since 2023-05-28)\n- Floating Solar is looking for opportunities in Germany. (valid since 2023-05-28)\n- Floating Solar is looking for opportunities in Italy. (valid since 2023-05-28)\n- The Question Sticker is a built-in feature available within Instagram Stories. (valid since 2023-05-28)\n- The assistant recommends using the Question Sticker feature within an Instagram Story to host a Q&A session. (valid since 2023-05-28)\n- The assistant recommends using the Question Sticker feature within an Instagram Story to facilitate a Q&A session. (valid since 2023-05-28)\n- The Q&A session utilizes the Question Sticker feature in Instagram Stories. (valid since 2023-05-28)\n- The Q&A session uses the #QandAwith[YourName] hashtag for promotion. (valid since 2023-05-28)\n- The Q&A session is promoted using the #WritingCommunity hashtag. (valid since 2023-05-28)\n- The Q&A session is promoted using the #FreelanceLife hashtag. (valid since 2023-05-28)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 39,
+  "invalidated": 0,
+  "episodes": 23,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 141.4,
+  "total": 142.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

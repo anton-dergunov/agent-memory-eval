@@ -1,0 +1,100 @@
+{
+ "qid": "07741c45",
+ "arm": "honcho-repr",
+ "split": "pilot",
+ "question": "Where do I currently keep my old sneakers?",
+ "reference": "in a shoe rack in my closet",
+ "question_date": "2023-06-23 07:31",
+ "sessions": [
+  {
+   "id": "answer_7e9ad7b4_1",
+   "date": "2023-05-25 10:04",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_unwdGag_0",
+   "date": "2023-05-25 21:12",
+   "evidence": false
+  },
+  {
+   "id": "523e716b_2",
+   "date": "2023-05-26 01:30",
+   "evidence": false
+  },
+  {
+   "id": "443688cc_2",
+   "date": "2023-05-26 03:45",
+   "evidence": false
+  },
+  {
+   "id": "66c23110_2",
+   "date": "2023-05-26 10:23",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_27772",
+   "date": "2023-05-27 10:56",
+   "evidence": false
+  },
+  {
+   "id": "df846730",
+   "date": "2023-05-27 12:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mwblaPp_96",
+   "date": "2023-05-27 23:58",
+   "evidence": false
+  },
+  {
+   "id": "af4a2fd1",
+   "date": "2023-05-28 12:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_2",
+   "date": "2023-05-29 15:01",
+   "evidence": true
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-25 10:08:00] user intends to have their old sneakers polished and conditioned.\n[2023-05-25 10:08:00] user reports that their old sneakers are starting to smell.\n[2023-05-25 10:08:00] user has been storing old sneakers under a bed.\n[2023-05-25 10:12:00] user has a suspicion that there are pairs of shoes in their closet that have not been worn for a long time.\n[2023-05-25 10:14:00] user owns sneakers.\n[2023-05-28 12:45:00] user owns new white sneakers.\n[2023-05-28 12:51:00] user finds the grey t-shirt from H&M to be comfortable.\n[2023-05-28 12:51:00] user has been wearing their new white sneakers frequently since purchasing them.\n[2023-05-28 12:51:00] user purchased the grey t-shirt because it was a sale item and the user wanted to update their wardrobe with basics.\n[2023-05-28 12:53:00] user intends to check out the recommended brands and styles of cargo pants.\n[2023-05-29 15:03:00] user owns old sneakers that currently take up space in their closet.\n[2023-05-29 15:03:00] user is looking for a cobbler to polish and condition their old sneakers.\n[2023-05-29 15:07:00] user describes their old dress shoes as being a bit worn out but still in good condition.\n[2023-05-29 15:11:00] user is considering purchasing a new pair of sandals with high-quality straps.\n[2023-05-29 15:11:00] user plans to organize their closet during the weekend of June 3-4, 2023.\n[2023-05-29 15:11:00] user has been jogging the same route for months.\n[2023-05-29 15:11:00] user plans to drop off dress shoes at a charity thrift store on Saturday, June 3, 2023.\n[2023-05-29 15:11:00] user intends to call the charity thrift store before donating dress shoes.\n[2023-05-29 15:11:00] user is interested in finding a new jogging route.\n[2023-05-29 15:11:00] user intends to check the charity thrift store's website before donating dress shoes.\n[2023-05-29 15:11:00] user plans to store their old sneakers in a shoe rack.\n\n## Deductive Observations\n\n[2023-05-29 15:11:00] user is interested in updating their wardrobe and decluttering their closet.\n   Premises:\n   - user is considering purchasing a new pair of sandals with high-quality straps.\n   - user plans to organize their closet during the weekend of June 3-4, 2023.\n   - user intends to drop off dress shoes at a charity thrift store on Saturday, June 3, 2023.\n   - user is considering purchasing cargo pants to style with their white sneakers.\n\n[2023-05-29 15:11:00] user is currently active in jogging.\n   Premises:\n   - user is interested in finding a new jogging route.\n   - user has been jogging the same route for months.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user exhibits a methodical and cautious approach to task completion, often gathering information before taking action.\n   **Type**: behavior\n   **Sources**:\n   - user intends to check the charity thrift store's website before donating dress shoes.\n   - user intends to call the charity thrift store before donating dress shoes.\n   - user intends to check out the recommended brands and styles of cargo pants.\n\n **Pattern** [medium]: user is actively working on organizing their living space and managing their possessions.\n   **Type**: tendency\n   **Sources**:\n   - user plans to organize their closet during the weekend of June 3-4, 2023.\n   - user plans to store their old sneakers in a shoe rack.\n   - user owns old sneakers that currently take up space in their closet.\n\n",
+ "answer": "To determine where you currently keep your old sneakers, let's look at the relevant information from our history:\n\n**Step 1: Extract relevant information**\n*   [2023-05-25 10:08:00]: You mentioned that you have been storing your old sneakers under a bed.\n*   [2023-05-29 15:03:00]: You mentioned that your old sneakers currently take up space in your closet.\n*   [2023-05-29 15:11:00]: You have a future plan to store your old sneakers in a shoe rack (this is a planned action, not a current state).\n\n**Step 2: Reason over the information**\nThe records indicate that your old sneakers have been stored in two locations: under your bed and in your closet. While you have a future intention to move them to a shoe rack as part of your upcoming closet organization, your current storage locations for these sneakers are under your bed and in your closet.\n\n**Answer:**\nYou currently keep your old sneakers under your bed and in your closet.",
+ "dump": "- [explicit] user is reading a provided passage about a narrator and a man searching for a match.\n- [explicit] user wants an email sequence that includes a preview of the subsequent email.\n- [explicit] user wants an email to address the top 3 most common and top 3 least commonly known habits that hinder weight loss journeys.\n- [explicit] user believes diets work because of calorie deficits, but often fail due to extreme impracticality or lack of sustainability.\n- [explicit] user wants an email to focus on implementing habits for fitness instead of chasing diets or weight loss goals.\n- [explicit] user wants to shift the focus of upcoming email content to include NEAT (non-exercise activity thermogenesis), step counts, and physical activity.\n- [explicit] user believes that energy balance and calorie deficit are the most important factors in weight loss.\n- [explicit] user intends to have their old sneakers polished and conditioned.\n- [explicit] user plans to take their old sneakers to a cobbler during the weekend of May 27-28, 2023.\n- [explicit] user views Merrell as a great brand.\n- [explicit] user reports that their old sneakers are starting to smell.\n- [explicit] user is looking for sandals with sturdy straps.\n- [explicit] user views Teva as a great brand.\n- [explicit] user has been storing old sneakers under a bed.\n- [explicit] user is planning to take inventory of their shoe collection.\n- [explicit] user has a suspicion that there are pairs of shoes in their closet that have not been worn for a long time.\n- [explicit] user is planning to donate old dress shoes to a local charity thrift store on Saturday, May 27, 2023.\n- [explicit] user intends to identify more shoes to discard from their collection.\n- [explicit] user owns sneakers.\n- [explicit] user intends to organize their closet by shoe type.\n- [explicit] user owns boots.\n- [explicit] user intends to schedule a tire replacement for the Honda Civic in June 2023.\n- [explicit] user owns one or more vehicles.\n- [explicit] user paid a $40 parking ticket on February 14th, 2023.\n- [explicit] user owns a Honda Civic.\n- [explicit] user spent $25 on an air filter replacement.\n- [explicit] user received a $40 parking ticket on February 14, 2023.\n- [explicit] user is scheduling a vehicle tire replacement for June 2023.\n- [explicit] user spent $5 on gift wrapping for a birthday gift for user's sister-in-law.\n- [explicit] user purchased gifts for colleagues for an office Secret Santa gift exchange.\n- [explicit] user spent $70 on onesies, baby books, and a soft toy for a baby shower.\n- [explicit] user is attempting to categorize and track gift expenses from the past few months.\n- [explicit] user purchased baby shower gifts for user's best friend.\n- [explicit] user purchased a silver necklace as a birthday gift for user's sister-in-law from a boutique on Main Street for $50.\n- [explicit] user purchased a $20 gift card to a gaming store as a birthday gift for user's nephew.\n- [explicit] user is close to earning 300 points in the Sephora Beauty Insider program.\n- [explicit] user is concerned about skin dehydration.\n- [explicit] user is planning to buy a new moisturizer from Sephora.\n- [explicit] user is a Sephora Beauty Insider.\n- [explicit] user has chosen to purchase the La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50.\n- [explicit] user wants to redeem a free skincare product from Sephora upon reaching 300 points.\n- [explicit] user has combination skin.\n- [explicit] user prefers a lightweight, non-greasy moisturizer with SPF.\n- [explicit] user is interested in finding bundle deals or sets containing La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50.\n- [explicit] user is interested in bundles that include La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50 with a cleanser or a toner.\n- [explicit] user is interested in potential future breakthroughs that could accelerate the development of new materials.\n- [explicit] user is interested in the development of new materials for industrial and consumer applications.\n- [explicit] user is interested in knowing which consumer applications would benefit most from breakthroughs in materials science.\n- [explicit] user is interested in learning about current challenges in materials science.\n- [explicit] user is interested in the timeline for the development and commercial release of new materials.\n- [explicit] user is interested in examples of recent materials science breakthroughs that have significantly impacted consumer applications.\n- [explicit] user is planning a trip to Europe.\n- [explicit] user is considering purchasing a new luggage set.\n- [explicit] user is looking for advice on packing light.\n- [explicit] user finds the new backpack comfortable.\n- [explicit] user uses a messenger bag for a daily commute to work.\n- [explicit] user has a messenger bag that is getting worn out.\n- [explicit] user had a broken zipper on a messenger bag fixed during the week prior to 2023-05-27.\n- [explicit] user purchased a new backpack on 2023-05-21 from an outdoor store downtown.\n- [explicit] user uses the new backpack to carry a laptop, a water bottle, and other essentials.\n- [explicit] user wanted a new bag with more space and comfort for a daily commute.\n- [explicit] user replaced an old messenger bag with a new backpack because the old one was worn out and had a broken zipper.\n- [explicit] user is satisfied with the comfort and capacity of the new backpack for their daily commute.\n- [explicit] user received help from staff at the outdoor store in selecting a backpack.\n- [explicit] user identifies the outdoor store downtown as a local favorite.\n- [explicit] user has visited the outdoor store downtown previously to purchase camping gear.\n- [explicit] user purchased a backpack model they had not seen before that met their requirements.\n- [explicit] user owns new white sneakers.\n- [explicit] user likes the utility chic fashion trend.\n- [explicit] user is looking for new fashion inspiration.\n- [explicit] user has worn their white sneakers with jeans and a grey t-shirt.\n- [explicit] user purchased white sneakers at the mall on Saturday, May 27, 2023.\n- [explicit] user finds the grey t-shirt from H&M to be comfortable.\n- [explicit] user purchased the grey t-shirt because it was a sale item and the user wanted to update their wardrobe with basics.\n- [explicit] user owns a grey t-shirt from H&M purchased on May 27, 2023.\n- [explicit] user purchased white sneakers at an Adidas store.\n- [explicit] user has been wearing their new white sneakers frequently since purchasing them.\n- [explicit] user is considering purchasing cargo pants to style with their white sneakers.\n- [explicit] user intends to check out the recommended brands and styles of cargo pants.\n- [explicit] user is looking for a cobbler to polish and condition their old sneakers.\n- [explicit] user owns old sneakers that currently take up space in their closet.\n- [explicit] user describes their old dress shoes as being a bit worn out but still in good condition.\n- [explicit] user has been jogging the same route for months.\n- [explicit] user plans to store their old sneakers in a shoe rack.\n- [explicit] user is considering purchasing a new pair of sandals with high-quality straps.\n- [explicit] user intends to call the charity thrift store before donating dress shoes.\n- [explicit] user is interested in finding a new jogging route.\n- [explicit] user plans to drop off dress shoes at a charity thrift store on Saturday, June 3, 2023.\n- [explicit] user plans to organize their closet during the weekend of June 3-4, 2023.\n- [explicit] user intends to check the charity thrift store's website before donating dress shoes.\n- [deductive] user is interested in updating their wardrobe and decluttering their closet.\n- [deductive] user is currently active in jogging.\n- [inductive] user exhibits a methodical and cautious approach to task completion, often gathering information before taking action.\n- [inductive] user is actively working on organizing their living space and managing their possessions.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 85.1,
+  "total": 90.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

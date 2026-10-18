@@ -1,0 +1,125 @@
+{
+ "qid": "8fb83627",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many issues of National Geographic have I finished reading?",
+ "reference": "Five",
+ "question_date": "2023-08-14 23:19",
+ "sessions": [
+  {
+   "id": "ultrachat_531250",
+   "date": "2023-03-23 19:39",
+   "evidence": false
+  },
+  {
+   "id": "be050ab3_2",
+   "date": "2023-03-24 09:22",
+   "evidence": false
+  },
+  {
+   "id": "79aaa8cc_2",
+   "date": "2023-03-31 04:07",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_172550",
+   "date": "2023-04-13 19:44",
+   "evidence": false
+  },
+  {
+   "id": "answer_966cecbb_1",
+   "date": "2023-04-20 21:08",
+   "evidence": true
+  },
+  {
+   "id": "4277273b_1",
+   "date": "2023-04-24 01:40",
+   "evidence": false
+  },
+  {
+   "id": "c15319aa_1",
+   "date": "2023-06-22 13:28",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_31",
+   "date": "2023-07-04 18:43",
+   "evidence": false
+  },
+  {
+   "id": "1e5d09fe_2",
+   "date": "2023-07-14 22:23",
+   "evidence": false
+  },
+  {
+   "id": "answer_966cecbb_2",
+   "date": "2023-07-15 22:42",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\nReading interests: News, science, and entertainment.\nNewspapers read: The New York Times, The Daily News.\nMagazines/Online Publications read: The New Yorker (fiction), National Geographic (science and nature - currently on the 5th issue), Rolling Stone (online), The Atlantic (online), Medium (online).\n\nThe user is named [User], and they are in the process of buying a home with their partner, Alex. They started this process six weeks ago.\nRecently completed an online module on leading lines composition. Interested in applying this to portrait photography using a 50mm prime lens.\nCurrently experiencing issues with sleep patterns and has started using a white noise machine to help improve sleep quality.\nUses a Fitbit Charge 3 to track sleep and is interested in observing improvements in sleep data over time.\nPlanning a trip to the Amazon rainforest.\n</human>\n\nTool results while answering:\nReading interests: News, science, and entertainment.\nNewspapers read: The New York Times, The Daily News.\nMagazines/Online Publications read: The New Yorker (fiction), National Geographic (science and nature - finished 5 issues), Rolling Stone (online), The Atlantic (online), Medium (online).\n\nThe user is named [User], and they are in the process of buying a home with their partner, Alex. They started this process six weeks ago.\nRecently completed an online module on leading lines composition. Interested in applying this to portrait photography using a 50mm prime lens.\nCurrently experiencing issues with sleep patterns and has started using a white noise machine to help improve sleep quality.\nUses a Fitbit Charge 3 to track sleep and is interested in observing improvements in sleep data over time.\nPlanning a trip to the Amazon rainforest.",
+ "answer": "Based on our records, you have finished reading 5 issues of *National Geographic*.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\nReading interests: News, science, and entertainment.\nNewspapers read: The New York Times, The Daily News.\nMagazines/Online Publications read: The New Yorker (fiction), National Geographic (science and nature - finished 5 issues), Rolling Stone (online), The Atlantic (online), Medium (online).\n\nThe user is named [User], and they are in the process of buying a home with their partner, Alex. They started this process six weeks ago.\nRecently completed an online module on leading lines composition. Interested in applying this to portrait photography using a 50mm prime lens.\nCurrently experiencing issues with sleep patterns and has started using a white noise machine to help improve sleep quality.\nUses a Fitbit Charge 3 to track sleep and is interested in observing improvements in sleep data over time.\nPlanning a trip to the Amazon rainforest.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "memory_replace({\"label\": \"human\", \"new_string\": \"Reading interests: News, science, and entertainment.\\nNewspapers read: The New York Times, The Daily News.\\nMagazines/Online Publications read: The New Yorker (fiction), National Geographic (science and nature - finished 5 issues), Rolling Stone (online), The Atlantic (online), Medium (online).\\n\\nThe user is named [User], and they are in the process of buying a home with their partner, Alex. They started this process six weeks ago.\\nRecently completed an online module on leading lines composition. Interested in applying this to portrait photography using a 50mm prime lens.\\nCurrently experiencing issues with sleep patterns and has started using a white noise machine to help improve sleep quality.\\nUses a Fitbit Charge 3 to track sleep and is interested in observing improvements in sleep data over time.\\nPlanning a trip to the Amazon rainforest.\", \"old_string\": \"Reading interests: News, science, and entertainment.\\nNewspapers read: The New York Times, The Daily News.\\nMagazines/Online Publications read: The New Yorker (fiction), National Geographic (science and nature - currently on the 5th issue), Rolling Stone (online), The Atlantic (online), Medium (online).\\n\\nThe user is named [User], and they are in the process of buying a home with their partner, Alex. They started this process six weeks ago.\\nRecently completed an online module on leading lines composition. Interested in applying this to portrait photography using a 50mm prime lens.\\nCurrently experiencing issues with sleep patterns and has started using a white noise machine to help improve sleep quality.\\nUses a Fitbit Charge 3 to track sleep and is interested in observing improvements in sleep data over time.\\nPlanning a trip to the Amazon rainforest.\"})"
+  ],
+  "blocks_chars": 1057,
+  "write_steps": 52,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 338.4,
+  "total": 347.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "qid": "0977f2af",
+ "arm": "mem0",
+ "split": "pilot",
+ "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+ "reference": "Instant Pot",
+ "question_date": "2023-05-31 07:54",
+ "sessions": [
+  {
+   "id": "497cd65d",
+   "date": "2023-04-22 04:35",
+   "evidence": false
+  },
+  {
+   "id": "b3642bd9_3",
+   "date": "2023-04-22 23:57",
+   "evidence": false
+  },
+  {
+   "id": "e0bfe67a_2",
+   "date": "2023-05-02 02:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_211475",
+   "date": "2023-05-04 10:32",
+   "evidence": false
+  },
+  {
+   "id": "cbf48918_1",
+   "date": "2023-05-06 18:30",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vncOfEw_0",
+   "date": "2023-05-09 23:46",
+   "evidence": false
+  },
+  {
+   "id": "e7989082_2",
+   "date": "2023-05-21 00:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_3bf5b73b_1",
+   "date": "2023-05-21 05:48",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_qDHHlQO_27",
+   "date": "2023-05-21 14:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_3bf5b73b_2",
+   "date": "2023-05-21 22:54",
+   "evidence": true
+  }
+ ],
+ "context": "- User acquired an Air Fryer on May 20, 2023, and plans to use it to make crispy sweet potato fries. (from a chat on 2023-05-21)\n- User was provided with tips for Air Fryer sweet potato fries: use starchy potatoes, cut into 1/2 inch strips, soak in cold water for 30 minutes, cook at 400°F for 12-15 minutes, and shake the basket halfway through. (from a chat on 2023-05-21)\n- User was advised that sweet potato fries can be stored at room temperature for 24 hours, refrigerated for up to 3 days, or frozen for up to 3 months, with reheating recommended in an oven or Air Fryer to restore crispiness. (from a chat on 2023-05-21)\n- User has a new Instant Pot and is looking for recipes specifically designed for pressure cooking. (from a chat on 2023-05-21)\n- User is preparing a stir-fry for dinner using chicken breasts purchased on April 29, 2023, and frozen peas and carrots. (from a chat on 2023-05-02)\n- User was provided with an overview of Plan to Eat ($4.95/month or $39/year) and Yummly (free with optional $2.99/month or $29.99/year premium) as tools for meal planning, recipe discovery, and grocery list management. (from a chat on 2023-04-22)\n- User is working on improving their grocery budgeting and meal planning to reduce spending and food waste. (from a chat on 2023-04-22)\n- User plans to substitute chicken breast for thighs in the Korean Chicken Stew, with instructions to cut into 1-2 inch pieces and reduce high-pressure cooking time to 10-12 minutes. (from a chat on 2023-05-21)\n- User decided to prepare a Cuban Black Bean and Rice Bowl with sweet potato fries and a fresh fruit salad for dessert. (from a chat on 2023-05-21)\n- User plans to try the 30-day free trial of the meal planning app Plan to Eat to help with meal organization and grocery list generation. (from a chat on 2023-04-22)\n- User decided to track grocery spending by saving digital receipts in a dedicated email folder and plans to request email receipts from other retailers. (from a chat on 2023-04-22)\n- User was provided with an Instant Pot recipe for Korean Chicken Stew (Jjimdak) using chicken, potatoes, carrots, onions, gochujang, soy sauce, gochugaru, brown sugar, and chicken broth. (from a chat on 2023-05-21)\n- User is planning meals for the week and is interested in healthy, reheatable lunch options. (from a chat on 2023-05-21)\n- User plans to use leftover almond milk from their May 2, 2023, grocery delivery to make a smoothie for dessert. (from a chat on 2023-05-02)\n- User previously gifted a funny mug with an inside joke to a colleague for a going-away party, which cost approximately $15. (from a chat on 2023-05-21)\n- User uses Instacart for grocery shopping and spent approximately $80 on the service earlier in April 2023. (from a chat on 2023-04-22)\n- User was recommended a soy sauce-based stir-fry sauce with 2-3 cloves of minced garlic, 1 tablespoon of grated ginger, 2-3 tablespoons of soy sauce, 1 tablespoon of vegetable oil, and optional sugar, salt, pepper, and cornstarch. (from a chat on 2023-05-02)\n- User was recommended several bean-based recipes (Black Bean and Sweet Potato Enchiladas, Cuban Black Bean and Rice Bowl, White Bean and Spinach Stew) and lentil-based recipes (Indian-Style Red Lentil Curry, Lentil and Vegetable Stew, Lentil and Mushroom Bolognese). (from a chat on 2023-05-21)\n- User decided to purchase the $10 coffee shop gift card online to be mailed to them to ensure they get the specific design and denomination they want. (from a chat on 2023-05-21)\n- User plans to use leftover chicken breasts to make chicken salad for lunch on May 3, 2023. (from a chat on 2023-05-02)",
+ "answer": "**Answer (step by step):**\n\n1.  **Extract relevant information:**\n    *   The chat history notes that the user acquired an Air Fryer on May 20, 2023.\n    *   The chat history mentions that the user has a \"new Instant Pot\" and was looking for recipes specifically designed for pressure cooking in a chat dated May 21, 2023.\n    *   There is no mention of any other kitchen gadgets purchased between the acquisition of the Instant Pot and the Air Fryer.\n\n2.  **Reason over the information:**\n    *   The user acquired the Air Fryer on May 20, 2023.\n    *   The user is identified as having a \"new Instant Pot\" in the same timeframe (May 21, 2023).\n    *   Since the user was already looking for recipes for the Instant Pot and it is described as a \"new\" addition alongside the Air Fryer, and no other kitchen appliances are mentioned in the history, the Instant Pot is the gadget the user invested in prior to or around the same time as the Air Fryer.\n\n**Conclusion:** The new kitchen gadget you invested in is the **Instant Pot**.",
+ "dump": "- User decided to purchase the $10 coffee shop gift card online to be mailed to them to ensure they get the specific design and denomination they want. (session 2023-05-21)\n- User is looking for a shoe rack to organize their collection and was recommended the Seville Classics 3-Tier Resin Slat Utility Shoe Rack, Songmics 10-Tier Shoe Rack, Whitmor 2-Tier Stackable Shoe Rack, Woodlore 5-Tier Shoe Rack, and Sorbus 3-Tier Over the Door Shoe Organizer. (session 2023-04-22)\n- User plans to substitute chicken breast for thighs in the Korean Chicken Stew, with instructions to cut into 1-2 inch pieces and reduce high-pressure cooking time to 10-12 minutes. (session 2023-05-21)\n- User was concerned about rumors regarding Freddie Freeman struggling against left-handed pitchers, but was informed that he performed well against them in 2021 with a .361 AVG, .444 OBP, .573 SLG, and 1.017 OPS. (session 2023-05-04)\n- User is working on improving their grocery budgeting and meal planning to reduce spending and food waste. (session 2023-04-22)\n- User owns brown loafers and was recommended Allen Edmonds Leather Care Kit, Kiwi Shoe Polish, Saphir Medaille d'Or, Meltonian Shoe Cream, and Chamber's Shoe Polish for maintenance. (session 2023-04-22)\n- User was provided with a 'Frozen Berry Bliss' smoothie recipe using frozen mixed berries, almond milk, honey, and vanilla extract. (session 2023-05-02)\n- User plans to try the 30-day free trial of the meal planning app Plan to Eat to help with meal organization and grocery list generation. (session 2023-04-22)\n- User is planning meals for the week and is interested in healthy, reheatable lunch options. (session 2023-05-21)\n- User acquired an Air Fryer on May 20, 2023, and plans to use it to make crispy sweet potato fries. (session 2023-05-21)\n- User was provided with a classic chicken salad recipe using diced cooked chicken breast, celery, red onion, mayonnaise, Dijon mustard, and fresh dill. (session 2023-05-02)\n- User uses Instacart for grocery shopping and spent approximately $80 on the service earlier in April 2023. (session 2023-04-22)\n- User is developing an ecopunk adventure setting on the tidally-heated forest moon of Xylophia-IV-e and has been researching its diverse megafauna and ecosystems. (session 2023-05-21)\n- Assistant provided details on lifeforms around hot mineral springs on Xylophia-IV-e, including small lifeforms (Thermophilic Snail, Spring Shrimp, Heat-Tolerant Algae, Geothermal Worm) and megafauna (Spring Grazer, Geyser Gazer, Sulfur Sifter). (session 2023-05-21)\n- User was advised that leftovers of the Cuban Black Bean and Rice Bowl can be refrigerated for 3-5 days or frozen for 3-6 months, ensuring they are stored in airtight containers. (session 2023-05-21)\n- User was provided with specific strength training exercises for runners, including bodyweight, resistance band, and gym-based movements targeting the core, legs, and glutes. (session 2023-05-06)\n- User is interested in tracking the performance of MLB player Freddie Freeman, specifically his home run and RBI pace for the 2023 season. (session 2023-05-04)\n- User was recommended several bean-based recipes (Black Bean and Sweet Potato Enchiladas, Cuban Black Bean and Rice Bowl, White Bean and Spinach Stew) and lentil-based recipes (Indian-Style Red Lentil Curry, Lentil and Vegetable Stew, Lentil and Mushroom Bolognese). (session 2023-05-21)\n- User spent $60 on an Instacart grocery delivery on May 2, 2023. (session 2023-05-02)\n- Assistant provided details on five semi-aquatic, riparian megafauna on Xylophia-IV-e: Snapjaw Swimmer, Marsh Muncher, Delta Drifter, Riverine Skimmer, and Torrent Tumbler. (session 2023-05-21)\n- User is training for a half-marathon scheduled for December 5, 2023. (session 2023-05-06)\n- User was provided with an Instant Pot recipe for Korean Chicken Stew (Jjimdak) using chicken, potatoes, carrots, onions, gochujang, soy sauce, gochugaru, brown sugar, and chicken broth. (session 2023-05-21)\n- Assistant provided details on seven forest megafauna on Xylophia-IV-e: Grazeal, Arboreal Glider, Skulking Ambusher, Canopy Swooper, Riverine Leviathan, Ridge Stalker, and Fungal Grazer. (session 2023-05-21)\n- User was provided with post-run recovery nutrition advice, including consuming carbohydrates and protein within 30-60 minutes of exercise and balanced snacks within 1-2 hours. (session 2023-05-06)\n- User has been maintaining a running routine of approximately 15 miles per week for the month preceding May 6, 2023, and has been incorporating core and leg-focused strength training. (session 2023-05-06)\n- User inquired about Freddie Freeman's potential to win the NL MVP award for the 2023 season, noting that Freeman won the award in 2022. (session 2023-05-04)\n- User previously gifted a funny mug with an inside joke to a colleague for a going-away party, which cost approximately $15. (session 2023-05-21)\n- User has been experiencing foot pain and is considering custom orthotics; they were recommended brands including FootLevelers, Orthotics Plus, SOLE, Vionic, and Dr. Scholl's. (session 2023-04-22)\n- User was provided with a half-marathon training framework consisting of 3-4 runs per week, including a long run, speed workout, easy run, and recovery run. (session 2023-05-06)\n- User has a new Instant Pot and is looking for recipes specifically designed for pressure cooking. (session 2023-05-21)\n- User was advised that sweet potato fries can be stored at room temperature for 24 hours, refrigerated for up to 3 days, or frozen for up to 3 months, with reheating recommended in an oven or Air Fryer to restore crispiness. (session 2023-05-21)\n- User was provided with tips for Air Fryer sweet potato fries: use starchy potatoes, cut into 1/2 inch strips, soak in cold water for 30 minutes, cook at 400°F for 12-15 minutes, and shake the basket halfway through. (session 2023-05-21)\n- User is planning a farewell party for a coworker and decided to gift them a 'World's Okayest [Job Title]' mug paired with a $10 gift card to their favorite coffee shop. (session 2023-05-21)\n- User plans to use leftover chicken breasts to make chicken salad for lunch on May 3, 2023. (session 2023-05-02)\n- User was provided with guidance on executing hill repeats, including choosing a 4-6% grade hill, warming up, and maintaining a pace 1-2 minutes faster than goal half-marathon pace. (session 2023-05-06)\n- User was recommended Nikwax Tech Wash, Scotchgard Fabric & Upholstery Protector, Crep Protect Spray, Jason Markk Repel Spray, and Sof Sole Unisex Water Repellent Spray for waterproofing their sneakers. (session 2023-04-22)\n- User decided to prepare a Cuban Black Bean and Rice Bowl with sweet potato fries and a fresh fruit salad for dessert. (session 2023-05-21)\n- User was recommended ESPN, Baseball-Reference, and MLB.com as reliable sports analytics websites to track Freddie Freeman's season statistics and projections. (session 2023-05-04)\n- User is working on email marketing outreach for 'Comparative', an analytics solution for payment processors that aims to reduce insight delivery time and cost by 10x. (session 2023-05-09)\n- User plans to modify the Korean Chicken Stew recipe by reducing the gochugaru to 1 tablespoon to manage the spiciness level. (session 2023-05-21)\n- User was provided with an overview of Plan to Eat ($4.95/month or $39/year) and Yummly (free with optional $2.99/month or $29.99/year premium) as tools for meal planning, recipe discovery, and grocery list management. (session 2023-04-22)\n- User requested and received two email variations (A and B) for a sales outreach campaign, along with multiple subject line variations for 'Elevate Your Business Insights', 'Streamline Data Analysis', and 'Maximize Data Potential'. (session 2023-05-09)\n- User decided to track grocery spending by saving digital receipts in a dedicated email folder and plans to request email receipts from other retailers. (session 2023-04-22)\n- User is looking for cleaning products for their white sneakers and was recommended Jason Markk Repel, Crep Protect Sneaker Cleaner, Shoe MGK Cleaner, Kiwi Sneaker Cleaner, and Tide To Go Instant Stain Remover. (session 2023-04-22)\n- User is planning to set up a home shoe cleaning and organization station and was recommended all-in-one kits from Jason Markk, Crep Protect, Shoe MGK, and Kiwi. (session 2023-04-22)\n- User is preparing a stir-fry for dinner using chicken breasts purchased on April 29, 2023, and frozen peas and carrots. (session 2023-05-02)\n- User is looking for healthy meal ideas featuring beans and lentils, noting they recently enjoyed making chili con carne. (session 2023-05-21)\n- User was recommended a soy sauce-based stir-fry sauce with 2-3 cloves of minced garlic, 1 tablespoon of grated ginger, 2-3 tablespoons of soy sauce, 1 tablespoon of vegetable oil, and optional sugar, salt, pepper, and cornstarch. (session 2023-05-02)\n- User plans to write a funny anecdote on a small note card to include with the farewell gift for their coworker. (session 2023-05-21)\n- User was recommended Sempio or Koko brands for gochugaru (Korean chili flakes) and Sunchang or Chongga brands for gochujang. (session 2023-05-21)\n- User plans to use leftover almond milk from their May 2, 2023, grocery delivery to make a smoothie for dessert. (session 2023-05-02)\n- User was provided with three simple dessert options: fresh fruit salad with lime and mint, coconut lime yogurt parfait, and banana 'nice' cream. (session 2023-05-21)\n- Assistant provided details on three scrubland megafauna inhabiting the area between the forest woodline and salt flats on Xylophia-IV-e: Saltbrush Grazer, Scrub Stalker, and Dune Darter. (session 2023-05-21)\n- User completed a charity 5K run on May 6, 2023, with a personal best time of 27 minutes and 12 seconds. (session 2023-05-06)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 54,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 35.2,
+  "total": 37.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

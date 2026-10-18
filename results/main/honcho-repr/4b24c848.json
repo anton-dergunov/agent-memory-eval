@@ -1,0 +1,96 @@
+{
+ "qid": "4b24c848",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many tops have I bought from H&M so far?",
+ "reference": "five",
+ "question_date": "2023-10-20 08:09",
+ "sessions": [
+  {
+   "id": "sharegpt_yK69lIT_0",
+   "date": "2023-07-15 13:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_2cec623b_1",
+   "date": "2023-08-11 03:18",
+   "evidence": true
+  },
+  {
+   "id": "f5245daf_2",
+   "date": "2023-08-13 17:19",
+   "evidence": false
+  },
+  {
+   "id": "94f0d575_1",
+   "date": "2023-08-19 20:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_244540",
+   "date": "2023-08-20 14:53",
+   "evidence": false
+  },
+  {
+   "id": "9786d553",
+   "date": "2023-08-24 16:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_234135",
+   "date": "2023-08-26 21:17",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_209858",
+   "date": "2023-09-14 15:33",
+   "evidence": false
+  },
+  {
+   "id": "4555584c_2",
+   "date": "2023-09-17 13:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_2cec623b_2",
+   "date": "2023-09-30 06:40",
+   "evidence": true
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-08-11 03:22:00] user intends to purchase more tops from H&M during the weekend of August 11, 2023.\n[2023-08-11 03:22:00] user has previously purchased three tops from H&M.\n[2023-08-11 03:22:00] user likes the H&M summer collection.\n[2023-08-11 03:26:00] user has visited a thrift store called The Vault once.\n[2023-09-17 13:36:00] user walks from the train station to their office.\n[2023-09-17 13:36:00] user commutes by train to their office.\n[2023-09-30 06:44:00] user already owns five tops from H&M.\n[2023-09-30 06:44:00] user intends to purchase more tops from H&M.\n[2023-09-30 06:44:00] user is considering placing another order with ASOS if a good promotion is available.\n[2023-09-30 06:44:00] user is considering purchasing a new pair of sneakers.\n[2023-09-30 06:44:00] user has recently placed an order with ASOS.\n[2023-09-30 06:44:00] user is considering visiting a thrift store named The Vault located near user's work.\n[2023-09-30 06:44:00] user is planning to go to the mall during the weekend of September 30, 2023.\n[2023-09-30 06:48:00] user is interested in learning about upcoming events or book clubs at a local bookstore.\n[2023-09-30 06:48:00] user needs help with household essentials.\n[2023-09-30 06:48:00] user is planning to visit a local bookstore this weekend.\n[2023-09-30 06:50:00] user plans to look for science fiction book recommendations from bookstore staff.\n[2023-09-30 06:50:00] user intends to browse the science fiction section at the bookstore.\n[2023-09-30 06:50:00] user plans to search for new science fiction book releases.\n[2023-09-30 06:50:00] user is planning to visit a bookstore to drink coffee.\n\n## Deductive Observations\n\n[2023-09-30 06:50:00] user enjoys contemporary literature.\n   Premises:\n   - user reads \"The Power\" by Naomi Alderman.\n\n[2023-09-30 06:50:00] user is a fan of science fiction literature.\n   Premises:\n   - user plans to look for science fiction book recommendations from bookstore staff.\n   - user plans to search for new science fiction book releases.\n   - user intends to browse the science fiction section at the bookstore.\n\n[2023-09-30 06:50:00] user has an interest in audio-learning or business storytelling podcasts.\n   Premises:\n   - user listens to \"How I Built This\".\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user demonstrates a consistent preference for visiting local bookstores for both leisure (drinking coffee) and literary discovery (science fiction).\n   **Type**: preference\n   **Sources**:\n   - user plans to look for science fiction book recommendations from bookstore staff.\n   - user intends to browse the science fiction section at the bookstore.\n   - user is planning to visit a bookstore to drink coffee.\n   - user is planning to visit a local bookstore this weekend.\n\n **Pattern** [medium]: user shows a strong, recurring interest in shopping for apparel through various channels including online retailers (ASOS, H&M) and physical locations (thrift stores, mall).\n   **Type**: behavior\n   **Sources**:\n   - user is considering placing another order with ASOS if a good promotion is available.\n   - user has recently placed an order with ASOS.\n   - user intends to purchase more tops from H&M.\n   - user is considering visiting a thrift store named The Vault located near user's work.\n   - user is planning to go to the mall during the weekend of September 30, 2023.\n\n",
+ "answer": "To determine how many tops you have bought from H&M so far, let's look at the relevant history:\n\n**Step 1: Extract relevant information**\n*   [2023-08-11 03:22:00]: The user has previously purchased three tops from H&M.\n*   [2023-09-30 06:44:00]: The user already owns five tops from H&M.\n\n**Step 2: Reason over the information**\n*   The history explicitly states that as of September 30, 2023, you own five tops from H&M. \n*   While you had purchased three tops by August 11, 2023, the updated observation on September 30 confirms that your total count of H&M tops is five. There is no record of further purchases between September 30 and the current date.\n\n**Answer:**\nYou have bought five tops from H&M so far.",
+ "dump": "- [explicit] user had a conversation with Maileen.\n- [explicit] user discussed young adult novels with Maileen.\n- [explicit] user discussed crying while watching movies on an airplane with Maileen.\n- [explicit] user discussed Meta laying off employees immediately after hosting a fun event with Maileen.\n- [explicit] user has previously purchased three tops from H&M.\n- [explicit] user plans to visit the mall during the weekend of August 11, 2023.\n- [explicit] user intends to purchase more tops from H&M during the weekend of August 11, 2023.\n- [explicit] user likes the H&M summer collection.\n- [explicit] user intends to check Google Reviews and Yelp for opinions on The Vault.\n- [explicit] user is interested in finding reviews for a thrift store called The Vault.\n- [explicit] user has visited a thrift store called The Vault once.\n- [explicit] user is looking for information on other thrift stores or vintage shops in their area.\n- [explicit] user has previously visited a store called The Vault.\n- [explicit] user is interested in finding online marketplaces or websites for vintage clothing or second-hand items.\n- [explicit] user plans to check Google Reviews and Yelp to read opinions about a store called The Vault.\n- [explicit] user was impressed by the selection at The Vault during a prior visit.\n- [explicit] user is interested in the Stanford Natural Language Processing with Deep Learning Specialization on Coursera.\n- [explicit] user has a background in computer science.\n- [explicit] user is currently taking a Deep Learning course.\n- [explicit] user's father holds a master's degree in Computer Science from the University of Illinois at Urbana-Champaign.\n- [explicit] user comes from a family of tech enthusiasts.\n- [explicit] user's father encourages user to stay updated with the latest developments in technology.\n- [explicit] user has experience with Python programming.\n- [explicit] user is looking to brush up on machine learning skills.\n- [explicit] user is familiar with the Coursera platform.\n- [explicit] user is interested in finding online courses or resources focused on natural language processing.\n- [explicit] user is currently taking a Coursera specialization in Deep Learning from Stanford University.\n- [explicit] user has experience with machine learning.\n- [explicit] user is familiar with Python.\n- [explicit] user has a background in Python and machine learning.\n- [explicit] user plans to start using NLTK and TextBlob for sentiment analysis.\n- [explicit] user is interested in sentiment analysis.\n- [explicit] user is interested in exploring language modeling and text generation.\n- [explicit] user intends to check out the VADER sentiment analysis tool in NLTK.\n- [explicit] user has received advice from user's dad to stay updated with the latest developments in the field.\n- [explicit] user is planning a trip to Disneyland with family soon.\n- [explicit] user stayed at the Grand Californian Hotel during a recent visit to Disneyland Resort.\n- [explicit] user attended the \"Summer Nights\" event at Disney California Adventure Park in July 2023.\n- [explicit] user experienced a fireworks display at 10 PM during the \"Summer Nights\" event.\n- [explicit] user stayed at the Grand Californian Hotel during the time of the \"Summer Nights\" event.\n- [explicit] user attended a \"Summer Nights\" event at Disney California Adventure Park on June 15th and June 16th.\n- [explicit] user is interested in finding out if there will be summer events or fireworks displays at Disney California Adventure Park.\n- [explicit] user attended the \"Summer Nights\" event with family.\n- [explicit] user is interested in the political activism of the band The Association.\n- [explicit] user is interested in information regarding the band The Association.\n- [explicit] user is interested in the song Windy by The Association.\n- [explicit] user is looking for podcast recommendations that are approximately 20 to 30 minutes long.\n- [explicit] user has been listening to true crime podcasts.\n- [explicit] user has previously listened to the podcast My Favorite Murder.\n- [explicit] user listens to podcasts during their daily commute.\n- [explicit] user has been listening to entrepreneurship podcasts.\n- [explicit] user has previously listened to the podcast How I Built This.\n- [explicit] user listens to The Daily podcast during their morning workout.\n- [explicit] user uses podcasts to make their daily commute more productive.\n- [explicit] user has been listening to podcasts for approximately 6 weeks as of August 24, 2023.\n- [explicit] user prefers listening to podcasts about topics they are unfamiliar with, specifically entrepreneurship, history, and science.\n- [explicit] user wants to listen to podcasts focused on emerging technologies, specifically AI, blockchain, and cybersecurity.\n- [explicit] user is interested in finding podcasts featuring conversational and interview-style formats where experts share experiences and insights.\n- [explicit] user is interested in how Fulani values influence daily life and interactions with people outside the tribe.\n- [explicit] user is interested in learning about traditional Fulani culture.\n- [explicit] user is interested in how the Fulani culture practices the value of preserving and respecting nature.\n- [explicit] user is interested in the impact of modern technology on the practices and traditions of the Afrikaner people.\n- [explicit] user is interested in how future technology will continue to affect the Afrikaner people.\n- [explicit] user is interested in the potential negative impacts of modern technology on the traditions of the Afrikaner people.\n- [explicit] user observes bike-sharing stations near the train station.\n- [explicit] user is located in the city center.\n- [explicit] user currently walks for 10 minutes from the train station to reach the office.\n- [explicit] user intends to explore a new pedestrian path that opened in August 2023 for commuting to the office.\n- [explicit] user intends to use a bike-sharing scheme to commute to work instead of taking the train.\n- [explicit] user has read or listened to \"The Power\" by Naomi Alderman.\n- [explicit] user listens to audiobooks or podcasts during their train ride.\n- [explicit] user has listened to \"How I Built This\".\n- [explicit] user is looking for tools or apps to find the most efficient walking route for the commute.\n- [explicit] user commutes to work by train and then walks for 10 minutes from the train station to the office.\n- [explicit] user listens to \"How I Built This\".\n- [explicit] user reads \"The Power\" by Naomi Alderman.\n- [explicit] user walks from the train station to their office.\n- [explicit] user commutes by train to their office.\n- [explicit] user has recently placed an order with ASOS.\n- [explicit] user already owns five tops from H&M.\n- [explicit] user is considering purchasing a new pair of sneakers.\n- [explicit] user intends to purchase more tops from H&M.\n- [explicit] user is planning to go to the mall during the weekend of September 30, 2023.\n- [explicit] user is considering placing another order with ASOS if a good promotion is available.\n- [explicit] user is considering visiting a thrift store named The Vault located near user's work.\n- [explicit] user is interested in learning about upcoming events or book clubs at a local bookstore.\n- [explicit] user needs help with household essentials.\n- [explicit] user is planning to visit a local bookstore this weekend.\n- [explicit] user is planning to visit a bookstore to drink coffee.\n- [explicit] user intends to browse the science fiction section at the bookstore.\n- [explicit] user plans to look for science fiction book recommendations from bookstore staff.\n- [explicit] user plans to search for new science fiction book releases.\n- [deductive] user enjoys contemporary literature.\n- [deductive] user has an interest in audio-learning or business storytelling podcasts.\n- [deductive] user is a fan of science fiction literature.\n- [inductive] user demonstrates a consistent preference for visiting local bookstores for both leisure (drinking coffee) and literary discovery (science fiction).\n- [inductive] user shows a strong, recurring interest in shopping for apparel through various channels including online retailers (ASOS, H&M) and physical locations (thrift stores, mall).",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 109.8,
+  "total": 114.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "6aeb4375",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many Korean restaurants have I tried in my city?",
+ "reference": "four",
+ "question_date": "2023-10-22 15:38",
+ "sessions": [
+  {
+   "id": "sharegpt_I5HWvry_0",
+   "date": "2023-07-12 02:43",
+   "evidence": false
+  },
+  {
+   "id": "c625cff4_3",
+   "date": "2023-07-14 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MD0BL69_53",
+   "date": "2023-07-16 13:37",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FkabWXV_105",
+   "date": "2023-07-25 21:34",
+   "evidence": false
+  },
+  {
+   "id": "26f9a255_2",
+   "date": "2023-07-30 13:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_wbbH6cZ_0",
+   "date": "2023-08-08 23:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MWlvrvZ_0",
+   "date": "2023-08-09 22:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_1",
+   "date": "2023-08-11 09:09",
+   "evidence": true
+  },
+  {
+   "id": "29621a34",
+   "date": "2023-08-11 09:38",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_2",
+   "date": "2023-09-30 15:06",
+   "evidence": true
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-08-11 09:19:00] user ate bibimbap at one of the Korean restaurants.\n[2023-08-11 09:19:00] user ate Japchae made with sweet potato noodles at a third Korean restaurant.\n[2023-08-11 09:19:00] user has tried three different Korean restaurants recently.\n[2023-08-11 09:19:00] user ate a spicy kimchi stew at a second Korean restaurant.\n[2023-08-11 09:48:00] user is seeking methods to discover new music and artists.\n[2023-08-11 09:48:00] user feels stuck in a rut regarding their music listening habits.\n[2023-09-30 15:10:00] user is seeking Indian-inspired recipe ideas for the dinner party menu.\n[2023-09-30 15:10:00] user intends to serve Korean-style BBQ beef at a dinner party.\n[2023-09-30 15:10:00] user has tried four different Korean restaurants in user's city.\n[2023-09-30 15:10:00] user has decided to serve bokkeumbap as a side dish for the dinner party.\n[2023-09-30 15:10:00] user intends to serve Middle Eastern falafel at the dinner party.\n[2023-09-30 15:10:00] user is planning a dinner party.\n[2023-09-30 15:10:00] user has decided to serve kimchi as a side dish for the dinner party.\n[2023-09-30 15:14:00] user selected samosas and saag aloo for the dinner party menu.\n[2023-09-30 15:14:00] user has been trying out different types of rice recently.\n[2023-09-30 15:14:00] user is currently using an authentic Japanese short-grain rice.\n[2023-09-30 15:16:00] user intends to try the new Indian restaurant in their neighborhood.\n[2023-09-30 15:16:00] user intends to use traditional Indian basmati rice for a meal.\n[2023-09-30 15:16:00] user has heard that the chicken tikka masala at the new neighborhood Indian restaurant is amazing.\n[2023-09-30 15:16:00] user has a new Indian restaurant in their neighborhood.\n[2023-09-30 15:16:00] user plans to buy a bag of basmati rice from a store on 2023-09-30.\n\n## Deductive Observations\n\n[2023-09-30 15:14:00] user is a cooking enthusiast who experiments with diverse global recipes.\n   Premises:\n   - user has been trying out different types of rice recently.\n   - user is planning a dinner party.\n   - user is seeking Indian-inspired recipe ideas for the dinner party menu.\n\n[2023-09-30 15:14:00] user enjoys exploring various international cuisines (Indian, Middle Eastern, Korean, Japanese).\n   Premises:\n   - user selected samosas and saag aloo for the dinner party menu.\n   - user intends to serve Middle Eastern falafel at the dinner party.\n   - user intends to serve Korean-style BBQ beef at a dinner party.\n   - user is currently using an authentic Japanese short-grain rice.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user actively seeks out novelty and variety, both in cooking (trying new rice types, international recipes) and leisure activities (exploring music genres).\n   **Type**: tendency\n   **Sources**:\n   - user has been trying out different types of rice recently.\n   - user is a cooking enthusiast who experiments with diverse global recipes.\n   - user wants to explore more music genres and styles.\n\n **Pattern** [medium]: user demonstrates a consistent preference for experimenting with and incorporating diverse international culinary traditions into home cooking and social events.\n   **Type**: preference\n   **Sources**:\n   - user enjoys exploring various international cuisines (Indian, Middle Eastern, Korean, Japanese).\n   - user is a cooking enthusiast who experiments with diverse global recipes.\n\n",
+ "answer": "To determine how many Korean restaurants you have tried in your city, we can follow these steps:\n\n**Step 1: Extract relevant information from the history chats.**\n*   [2023-08-11 09:19:00]: \"user has tried three different Korean restaurants recently.\"\n*   [2023-09-30 15:10:00]: \"user has tried four different Korean restaurants in user's city.\"\n\n**Step 2: Reason over the information.**\n*   The observation from August 11th indicates that you had tried three restaurants at that time.\n*   The observation from September 30th provides an updated count, explicitly stating that you have tried four different Korean restaurants in your city.\n\n**Answer:**\nYou have tried four different Korean restaurants in your city.",
+ "dump": "- [explicit] user wants to create a link to a network share location in a SharePoint library or page.\n- [explicit] user wants to index content on a network share in SharePoint without ingesting the content.\n- [explicit] user wants to know how to create a content source in SharePoint.\n- [explicit] user wants to know how to prevent unauthorized users from accessing content that has been crawled and indexed by SharePoint.\n- [explicit] user wants to fit relaxation techniques into a 15-20 minute bedtime window.\n- [explicit] user is trying to establish a consistent sleep schedule.\n- [explicit] user usually starts getting ready for bed around 11:15 PM.\n- [explicit] user is having trouble with sleep.\n- [explicit] user went to bed around 11:45 PM on July 13, 2023.\n- [explicit] user has been trying to read for at least 20 minutes before bed.\n- [explicit] user wants to incorporate reading into their bedtime routine for 10-15 minutes.\n- [explicit] user often stays up later than intended because they get too engrossed in their book.\n- [explicit] user is aware that blue light from e-books can interfere with sleep.\n- [explicit] user intends to try a revised bedtime routine that includes a 10-minute reading limit followed by relaxation techniques.\n- [explicit] user is considering implementing a rule to avoid screens for at least one hour before bedtime.\n- [explicit] user has a tendency to get engrossed in reading and stay up late.\n- [explicit] user intends to use physical books instead of e-books for bedtime reading.\n- [explicit] user plans to set a recurring reminder on their phone at 10:15 PM every night to put the phone away.\n- [explicit] user plans to create a designated spot in their bedroom for reading or relaxing before bed to avoid the temptation of using a phone or watching TV.\n- [explicit] user plans to ask a friend or family member to check in with them every few days to monitor their adherence to the no screens rule.\n- [explicit] user plans for Jack to address the emotional problems of the Brazilian key players regarding their romantic partners.\n- [explicit] user plans for Jack to prevent the Brazilian key players from drinking wine on the match night.\n- [explicit] user plans for Jack to individually manage the Brazilian key players using the device.\n- [explicit] user plans for John to take responsibility for the tactical strategy plan side of the mission.\n- [explicit] user plans for Jack to assist the Brazilian key players in maintaining focus on the match.\n- [explicit] user plans for Jack to accompany the Brazilian key players to the gym.\n- [explicit] user intends for the characters John and Jack to attempt to make Brazil win the 1982 football match against Italy.\n- [explicit] user wants to shift the narrative of the story to the 1982 football match between Italy and Brazil where Italy beat Brazil 3-2.\n- [explicit] user requested a condensed version of a description focusing on nouns and adjectives for a ballet dancer in the Tang Dynasty.\n- [explicit] user requested a verbal portrait of calligraphers in the Tang Dynasty.\n- [explicit] user requested a condensed version of a description focusing on nouns and adjectives for calligraphers in the Tang Dynasty.\n- [explicit] user inquired about the professions in the art field during the Tang Dynasty.\n- [explicit] user requested a condensed version of the description of a sculptor focusing on nouns and adjectives.\n- [explicit] user requested a condensed version of the description of a samphire fish focusing on nouns and adjectives.\n- [explicit] user requested a verbal portrait of a sculptor depicting the Tang Dynasty.\n- [explicit] user requested a verbal portrait depicting a samphire fish.\n- [explicit] user is looking for libraries and resources for creating interactive data visualizations in Python.\n- [explicit] user is interested in learning about Python for data analysis.\n- [explicit] user is considering taking an online course to learn more about Python for data analysis.\n- [explicit] user attended a half-day workshop titled \"Introduction to Data Analysis with Python\" prior to July 30, 2023.\n- [explicit] user is interested in exploring data visualization with Python.\n- [explicit] user recently attended a half-day workshop titled 'Introduction to Data Analysis with Python'.\n- [explicit] user is seeking recommendations for popular datasets to practice data analysis.\n- [explicit] user is interested in practicing with the Iris Dataset and the Titanic Dataset.\n- [explicit] user intends to practice data analysis using beginner-friendly datasets.\n- [explicit] user wants to learn how to import and explore datasets using Python with the libraries Pandas and NumPy.\n- [explicit] user intends to explore the Iris Dataset using the pandas methods info(), head(), and describe().\n- [explicit] user intends to import the Iris Dataset using Pandas.\n- [explicit] user intends to visualize the Iris Dataset using Matplotlib and Seaborn.\n- [explicit] user intends to start visualizing the Iris dataset by creating a scatter plot of sepal length versus sepal width using Matplotlib.\n- [explicit] user intends to create a pairplot using Seaborn to visualize the relationships between all variables in the Iris dataset.\n- [explicit] user wants to avoid big resorts in Cuba\n- [explicit] user wants to visit many places including small towns in Cuba\n- [explicit] user wants the itinerary to start and end in Havana\n- [explicit] user wants to avoid luxurious hotels in Cuba\n- [explicit] user wants to spend one full month in Cuba\n- [explicit] user is searching for Korean baby girl names for the year 2023.\n- [explicit] user is expecting a baby.\n- [explicit] user wants names for a baby that combine Korean-style names with Chinese romantic novel character names.\n- [explicit] user is Taiwanese.\n- [explicit] user has the last name Ko (柯).\n- [explicit] user intends to serve a variety of dishes from different cuisines including Korean, Indian, and Middle Eastern.\n- [explicit] user is planning a dinner party.\n- [explicit] user intends to serve falafel as a Middle Eastern dish at an event.\n- [explicit] user has been experimenting with different types of noodles.\n- [explicit] user is interested in learning how to make Korean noodle dishes at home.\n- [explicit] user ate bibimbap at one of the Korean restaurants.\n- [explicit] user ate Japchae made with sweet potato noodles at a third Korean restaurant.\n- [explicit] user has tried three different Korean restaurants recently.\n- [explicit] user ate a spicy kimchi stew at a second Korean restaurant.\n- [explicit] user likes Arctic Monkeys.\n- [explicit] user is a fan of Rex Orange County.\n- [explicit] user is looking for indie and alternative music recommendations.\n- [explicit] user likes The Neighbourhood.\n- [explicit] user has been listening to the album \"Pony\" by Rex Orange County nonstop.\n- [explicit] user likes the music podcasts All Songs Considered and Song Exploder.\n- [explicit] user enjoys hearing background stories behind songs.\n- [explicit] user wants information about popular music festivals around the world.\n- [explicit] user wants to know about popular music festivals in the UK to consider attending.\n- [explicit] user is interested in the music festival scene in the UK.\n- [explicit] user wants to explore more music genres and styles.\n- [explicit] user is seeking methods to discover new music and artists.\n- [explicit] user feels stuck in a rut regarding their music listening habits.\n- [explicit] user has tried four different Korean restaurants in user's city.\n- [explicit] user is seeking Indian-inspired recipe ideas for the dinner party menu.\n- [explicit] user has decided to serve kimchi as a side dish for the dinner party.\n- [explicit] user is planning a dinner party.\n- [explicit] user intends to serve Middle Eastern falafel at the dinner party.\n- [explicit] user has decided to serve bokkeumbap as a side dish for the dinner party.\n- [explicit] user intends to serve Korean-style BBQ beef at a dinner party.\n- [explicit] user selected samosas and saag aloo for the dinner party menu.\n- [explicit] user is currently using an authentic Japanese short-grain rice.\n- [explicit] user has been trying out different types of rice recently.\n- [explicit] user has a new Indian restaurant in their neighborhood.\n- [explicit] user has heard that the chicken tikka masala at the new neighborhood Indian restaurant is amazing.\n- [explicit] user plans to buy a bag of basmati rice from a store on 2023-09-30.\n- [explicit] user intends to use traditional Indian basmati rice for a meal.\n- [explicit] user intends to try the new Indian restaurant in their neighborhood.\n- [deductive] user enjoys exploring various international cuisines (Indian, Middle Eastern, Korean, Japanese).\n- [deductive] user is a cooking enthusiast who experiments with diverse global recipes.\n- [inductive] user demonstrates a consistent preference for experimenting with and incorporating diverse international culinary traditions into home cooking and social events.\n- [inductive] user actively seeks out novelty and variety, both in cooking (trying new rice types, international recipes) and leisure activities (exploring music genres).",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 100.6,
+  "total": 104.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "dfde3500",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+ "reference": "Wednesday",
+ "question_date": "2023-06-20 14:46",
+ "sessions": [
+  {
+   "id": "sharegpt_aDTlaiq_10",
+   "date": "2023-05-06 09:30",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_1",
+   "date": "2023-05-20 09:33",
+   "evidence": true
+  },
+  {
+   "id": "ad1c7ac6",
+   "date": "2023-05-25 06:53",
+   "evidence": false
+  },
+  {
+   "id": "ebe3b6bf_7",
+   "date": "2023-05-25 20:43",
+   "evidence": false
+  },
+  {
+   "id": "5c18cb32_2",
+   "date": "2023-05-27 16:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_2",
+   "date": "2023-05-28 05:19",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_435909",
+   "date": "2023-05-28 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_315184",
+   "date": "2023-05-30 22:18",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_92761",
+   "date": "2023-05-31 01:42",
+   "evidence": false
+  },
+  {
+   "id": "59c704ad_1",
+   "date": "2023-06-11 21:43",
+   "evidence": false
+  }
+ ],
+ "context": "- User attends a language exchange class at a local language school where they are paired with a Colombian tutor named Juan. (from a chat on 2023-05-20)\n- User and Juan meet every Wednesday evening to practice Spanish pronunciation and grammar, while the user assists Juan with his English vocabulary. (from a chat on 2023-05-20)\n- User is planning a trip to Colombia and is preparing for a language exchange session with their tutor, Maria, scheduled for Thursday, June 1, 2023. (from a chat on 2023-05-28)\n- User has been listening to indie and alternative music on Spotify, recently discovered Phoebe Bridgers, and is exploring the 'Discover Weekly' playlist. (from a chat on 2023-05-25)\n- User met The Neighbourhood's lead singer, Jesse Rutherford, after their concert on June 4, 2023, and took a photo with him. (from a chat on 2023-06-11)\n- User was provided with tips to improve Spanish conversational flow, including active listening, practicing with a purpose, using transitional phrases, focusing on pronunciation, learning idioms, and using the language in context. (from a chat on 2023-05-20)\n- User was provided with a list of essential Spanish phrases for greetings, introductions, basic questions, food/drink, and general shopping transactions to use in Colombia. (from a chat on 2023-05-28)\n- User is actively involved in the local theater scene and recently attended a musical theater workshop at their local community center around mid-May 2023. (from a chat on 2023-05-25)\n- User decided to organize a 'Human Bingo' game for their team outing to foster a low-key, conversational atmosphere. (from a chat on 2023-05-27)\n- User plans to visit the Gold Museum (Museo del Oro) in Bogotá and was provided with information about its collection, including the Muisca Raft, Tairona Goldwork, and Quimbaya Treasure. (from a chat on 2023-05-28)\n- User is a fan of the band The Neighbourhood and attended their live concert at The Fillmore in San Francisco on June 4, 2023. (from a chat on 2023-06-11)\n- User was provided with recommendations for exploring the La Candelaria neighborhood, including Calle del Embudo, Plaza de Chorro de Quevedo, and the Museo de la Independencia. (from a chat on 2023-05-28)\n- User was recommended nearby cafes and restaurants for the Gold Museum, including Café San Alberto, La Macarena Café, El Cielo, and the historic La Puerta Falsa. (from a chat on 2023-05-28)\n- User was provided with methods to organize and share photos from their team outing within a group chat, such as creating shared albums or using specific hashtags. (from a chat on 2023-05-27)\n- User aims to attend at least one concert per month and is interested in exploring Bay Area music festivals and venues. (from a chat on 2023-06-11)\n- User plans to visit the Plaza de Bolívar in Bogotá and was provided with details on its historical significance and surrounding landmarks like the Cathedral of Bogotá and Capitolio Nacional. (from a chat on 2023-05-28)\n- User was provided with essential travel tips for Colombia, including safety precautions, weather advice, cultural insights, and transportation recommendations. (from a chat on 2023-05-28)\n- User was provided with strategies to optimize group chat communication, such as designating a moderator, using threads, and setting clear goals. (from a chat on 2023-05-27)\n- User was advised on how to professionally reach out to local directors and producers to inquire about auditions, including the importance of research, personalization, and mentioning relevant recent training like their musical theater workshop. (from a chat on 2023-05-25)\n- User enjoys binge-watching shows like 'The Crown' and 'The Office' on Netflix. (from a chat on 2023-05-25)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-05-20: \"User and Juan meet every Wednesday evening to practice Spanish pronunciation and grammar...\"\n\n2.  **Reason over the information:**\n    *   The facts explicitly state that the user's language exchange sessions with Juan occur on a recurring schedule.\n    *   The specific day mentioned for these meetings is Wednesday.\n\n3.  **Conclusion:**\n    *   You met with your language exchange tutor, Juan, on Wednesdays.",
+ "dump": "- User was informed of common criticisms regarding performance evaluation systems, including unintended consequences like discouraged collaboration, potential for bias, lack of transparency, and an overemphasis on quantitative metrics. (session 2023-05-31)\n- User learned that Kirstie Alley joined the cast of Cheers in season 6 as Rebecca Howe after Shelley Long's departure, eventually winning an Emmy for the role in 1991. (session 2023-05-30)\n- Renewable Leads collects personal data including contact details, date of birth, gender, location, feedback, marketing opinions, and competition entries to provide services, conduct research, and ensure security. (session 2023-05-06)\n- User plans to visit the Gold Museum (Museo del Oro) in Bogotá and was provided with information about its collection, including the Muisca Raft, Tairona Goldwork, and Quimbaya Treasure. (session 2023-05-28)\n- User is experiencing poor video quality and app crashes while watching Netflix on their laptop via home Wi-Fi, and is currently troubleshooting the issue. (session 2023-05-25)\n- User is interested in behind-the-scenes trivia about the TV show Cheers, specifically regarding its casting history and set design. (session 2023-05-30)\n- User has been listening to indie and alternative music on Spotify, recently discovered Phoebe Bridgers, and is exploring the 'Discover Weekly' playlist. (session 2023-05-25)\n- User was recommended music podcasts (All Songs Considered, Pitchfork, KCRW's Morning Becomes Eclectic, The Needle Drop, Indiecast) and YouTube channels (Indie Mixtape, Pigeons & Planes, The Indie Folk Central, New Music Friday, La Blogothèque) to stay updated on indie music. (session 2023-06-11)\n- User was advised that to maintain customer data safety, they should obtain explicit consent, limit data collection, use secure storage, implement access controls, regularly review data, provide transparency, respond to data requests, and train employees. (session 2023-05-06)\n- User enjoys binge-watching shows like 'The Crown' and 'The Office' on Netflix. (session 2023-05-25)\n- User was provided with comprehensive strategies for finding local theater auditions, including checking company websites, using audition platforms like Actors Access and Backstage, leveraging social media hashtags, and networking with local directors. (session 2023-05-25)\n- User was provided with a list of essential Spanish phrases for greetings, introductions, basic questions, food/drink, and general shopping transactions to use in Colombia. (session 2023-05-28)\n- User was advised on how to professionally reach out to local directors and producers to inquire about auditions, including the importance of research, personalization, and mentioning relevant recent training like their musical theater workshop. (session 2023-05-25)\n- User was provided with tips for attending concerts at the Fox Theater in Oakland, including planning transportation, arriving early, exploring the architecture, and using the venue's app. (session 2023-06-11)\n- User was provided with 10 outdoor team-building activity suggestions, including group hikes, scavenger hunts, and outdoor games, tailored for a group of 10. (session 2023-05-27)\n- User was recommended indie and alternative artists similar to Phoebe Bridgers, including Julien Baker, Lucy Dacus, Snail Mail, Adrianne Lenker, Courtney Barnett, Vagabon, Sharon Van Etten, and Weyes Blood, along with specific album and song starting points for each. (session 2023-05-25)\n- User plans to visit the Plaza de Bolívar in Bogotá and was provided with details on its historical significance and surrounding landmarks like the Cathedral of Bogotá and Capitolio Nacional. (session 2023-05-28)\n- User has been listening to The Neighbourhood's album 'I Love You.' on repeat. (session 2023-06-11)\n- User was provided with recommendations for exploring the La Candelaria neighborhood, including Calle del Embudo, Plaza de Chorro de Quevedo, and the Museo de la Independencia. (session 2023-05-28)\n- User was provided with essential travel tips for Colombia, including safety precautions, weather advice, cultural insights, and transportation recommendations. (session 2023-05-28)\n- User was provided with tips to improve Spanish conversational flow, including active listening, practicing with a purpose, using transitional phrases, focusing on pronunciation, learning idioms, and using the language in context. (session 2023-05-20)\n- User was recommended nearby cafes and restaurants for the Gold Museum, including Café San Alberto, La Macarena Café, El Cielo, and the historic La Puerta Falsa. (session 2023-05-28)\n- User learned that the Cheers set featured specific design choices like a squeaky front door for comedic timing, a 'walk-and-talk' layout, and props sourced from actual Boston establishments. (session 2023-05-30)\n- User operates a lead generation business called Renewable Leads, which is a member of the Liminal Leads group located at 1 Askew Cottages, Beaver Place, Worksop, S80 2ER. (session 2023-05-06)\n- User is a fan of the band The Neighbourhood and attended their live concert at The Fillmore in San Francisco on June 4, 2023. (session 2023-06-11)\n- User met The Neighbourhood's lead singer, Jesse Rutherford, after their concert on June 4, 2023, and took a photo with him. (session 2023-06-11)\n- User is learning to use Adobe Photoshop to create and customize graphics for their website, including optimizing designs for various devices and screen sizes using Artboards. (session 2023-05-28)\n- User was provided with tips to make their team outing Instagram-worthy, including coordinating outfits, using props, and designating a team photographer. (session 2023-05-27)\n- User decided to organize a 'Human Bingo' game for their team outing to foster a low-key, conversational atmosphere. (session 2023-05-27)\n- User is actively involved in the local theater scene and recently attended a musical theater workshop at their local community center around mid-May 2023. (session 2023-05-25)\n- User was provided with facts about the Cheers set, including that it was built on a Hollywood soundstage modeled after the Bull & Finch Pub in Boston, and that the iconic exterior sign was an authentic sign from a real Boston bar. (session 2023-05-30)\n- User was recommended several resources to learn Adobe Photoshop, including Adobe's official website, Lynda.com, YouTube channels (Phlearn, Piximake, Photoshop Training Channel), design blogs (Smashing Magazine, PSDtuts, Digital Arts Online), and local or online user groups. (session 2023-05-28)\n- User was provided with strategies to maintain creativity in design, such as experimenting with techniques, seeking inspiration on Pinterest or Behance, sketching ideas on paper, taking breaks, collaborating with others, and exploring diverse art forms. (session 2023-05-28)\n- User was advised on GDPR compliance steps: understanding the regulation, conducting a data audit, implementing technical/organizational measures, appointing a Data Protection Officer (DPO), obtaining clear consent, responding to data subject requests, ensuring compliant international transfers, and conducting regular employee training. (session 2023-05-06)\n- User was recommended indie bands similar to The Neighbourhood, including The 1975, Pale Waves, Billie Marten, Glass Animals, COIN, The Japanese House, Mansionair, Daya, The Hunna, and The Night Game. (session 2023-06-11)\n- User aims to attend at least one concert per month and is interested in exploring Bay Area music festivals and venues. (session 2023-06-11)\n- User is planning a trip to Colombia and is preparing for a language exchange session with their tutor, Maria, scheduled for Thursday, June 1, 2023. (session 2023-05-28)\n- User attends a language exchange class at a local language school where they are paired with a Colombian tutor named Juan. (session 2023-05-20)\n- User was provided with Adobe Photoshop workflow tips, including using keyboard shortcuts, layer masks, adjustment layers, smart objects, workspace customization, the history panel, and online resources. (session 2023-05-28)\n- User was recommended Bay Area music festivals (Outside Lands, Noise Pop, BottleRock Napa Valley, Treasure Island Music Festival, Oakland Music Festival) and venues (The Fillmore, The Greek Theatre, The Fox Theater, The Independent, The Catalyst). (session 2023-06-11)\n- User was provided with strategies to optimize group chat communication, such as designating a moderator, using threads, and setting clear goals. (session 2023-05-27)\n- User and Juan meet every Wednesday evening to practice Spanish pronunciation and grammar, while the user assists Juan with his English vocabulary. (session 2023-05-20)\n- User was recommended Spotify features including 'Release Radar', 'Your Mixes', 'Indie Radio', 'Fresh Finds', and the 'Community' feature to discover new music. (session 2023-05-25)\n- User was provided with examples of companies using performance evaluations to drive organizational change: General Electric's 'Rank and Yank' system, Google's 'Objectives and Key Results' (OKRs), Procter & Gamble's 'Leadership Blueprint', and Toyota's 'Hoshin Kanri' strategic goal deployment. (session 2023-05-31)\n- User is planning a team outing for 10 colleagues and has successfully used a group chat with over 50 messages to coordinate the details. (session 2023-05-27)\n- User was provided with methods to organize and share photos from their team outing within a group chat, such as creating shared albums or using specific hashtags. (session 2023-05-27)\n- Renewable Leads utilizes third-party data sources and requires that these providers guarantee compliance with General Data Protection regulations and ensure individuals have opted in to be contacted by the Liminal Leads Group. (session 2023-05-06)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 47,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 32.9,
+  "total": 34.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

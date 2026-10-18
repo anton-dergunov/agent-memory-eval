@@ -1,0 +1,100 @@
+{
+ "qid": "45dc21b6",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many of Emma's recipes have I tried out?",
+ "reference": "3",
+ "question_date": "2023-06-16 17:33",
+ "sessions": [
+  {
+   "id": "b7f69a7d_2",
+   "date": "2023-05-10 06:12",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BVfC7JV_0",
+   "date": "2023-05-19 15:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yZ6yXnQ_0",
+   "date": "2023-05-19 16:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhK5G9o_0",
+   "date": "2023-05-20 08:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_1",
+   "date": "2023-05-29 04:51",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_169242",
+   "date": "2023-05-29 07:04",
+   "evidence": false
+  },
+  {
+   "id": "7caf3391_2",
+   "date": "2023-05-30 00:59",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467365",
+   "date": "2023-05-30 04:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_2",
+   "date": "2023-05-30 06:32",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_gGriMhQ_91",
+   "date": "2023-05-30 07:25",
+   "evidence": false
+  }
+ ],
+ "context": "- User enjoys vegan cooking and has successfully tried three of Emma's recipes. (from a chat on 2023-05-30)\n- User is interested in trying new vegan dessert recipes and has previously tried vegan cheesecake. (from a chat on 2023-05-29)\n- User was recommended vegan restaurants in Barcelona (Vega Life, Teresa Carles Health Food) and Rome (Joia, Il Margutta, Ops! Roma) and specific local vegan dishes to try, such as pa amb tomàquet, escalivada, vegan carbonara, and supplì. (from a chat on 2023-05-30)\n- User was provided with a simple recipe for Chocolate Chia Pudding, including ingredients like chia seeds, plant-based milk, cocoa powder, and maple syrup. (from a chat on 2023-05-29)\n- User has been active on Instagram and recently received 23 comments on their posts, which they view as a positive level of engagement. (from a chat on 2023-05-10)\n- User is interested in taking vegan cooking classes or workshops in Barcelona and Rome during their upcoming trip. (from a chat on 2023-05-30)\n- User has recently discovered and enjoys YouTube channels focused on history, travel, and ASMR. (from a chat on 2023-05-29)\n- User plans to use taxis or ride-hailing services to transport cooking class ingredients and equipment in Barcelona and Rome. (from a chat on 2023-05-30)\n- User decided to use the poll question 'Choose our next adventure' for their weekend getaway planning, with options for New Orleans, Austin, Nashville, and an 'Undecided' choice. (from a chat on 2023-05-10)\n- User is planning to host an international conference in Darwin, Australia, in October 2025 titled 'Evolution of the Teachers', inspired by the scientific discoveries of Charles Darwin. (from a chat on 2023-05-19)\n- User is considering creating a Facebook event to organize the weekend getaway and was provided with a template including sections for itinerary, budget, transportation, and RSVP details. (from a chat on 2023-05-10)\n- User is a music producer who creates content for a vlog series and is now planning late-night Twitch livestreams. (from a chat on 2023-05-30)\n- User was provided with a formal pitch statement for the 'Evolution of the Teachers' conference, highlighting Darwin's cultural and natural setting and the goal of exploring modern educational innovation. (from a chat on 2023-05-19)\n- User is planning to create a hummingbird garden and is researching suitable nectar-rich plants, native species, and appropriate birdbath features. (from a chat on 2023-05-30)\n- User is interested in the advancements of artificial intelligence, machine learning, electric vehicles, and sustainable energy solutions. (from a chat on 2023-05-29)\n- User was provided with three storyboard table examples for late-night Twitch livestreams focused on music production, designed to guide the flow of the live experience. (from a chat on 2023-05-30)\n- User follows tech reviewers Unbox Therapy, JerryRigEverything, and Marques Brownlee to help make informed purchasing decisions. (from a chat on 2023-05-29)\n- User was provided with three storyboard table examples for a music production vlog series, each incorporating themes of tension, suspense, and eventual triumph. (from a chat on 2023-05-30)\n- User plans to ask friends to share their reasons for their destination choice in the comments section of the poll to better understand individual preferences. (from a chat on 2023-05-10)\n- User is planning a trip to Europe, specifically Spain and Italy, for 5-7 days in each country. (from a chat on 2023-05-30)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:** I have reviewed the history chats provided. The specific fact regarding Emma's recipes is: \"User enjoys vegan cooking and has successfully tried three of Emma's recipes. (from a chat on 2023-05-30)\"\n2.  **Reason over the information:** The record explicitly states that the user has successfully tried three of Emma's recipes.\n3.  **Conclusion:** You have tried three of Emma's recipes.",
+ "dump": "- User is interested in watching historic Monday Night Football games and was recommended NFL Game Pass, ESPN+, Amazon Prime Video, YouTube, and NFL Network as viewing sources. (session 2023-05-29)\n- User is a music producer who creates content for a vlog series and is now planning late-night Twitch livestreams. (session 2023-05-30)\n- User has recently discovered and enjoys YouTube channels focused on history, travel, and ASMR. (session 2023-05-29)\n- User is planning a weekend getaway with friends and is using a WhatsApp group chat to coordinate the details. (session 2023-05-10)\n- User requested the categorization of a specific list of words into five semantically coherent groups, later adding 'America', 'American', 'coal', 'vote', and 'business' to the set. (session 2023-05-20)\n- User is considering creating a Facebook event to organize the weekend getaway and was provided with a template including sections for itinerary, budget, transportation, and RSVP details. (session 2023-05-10)\n- User was recommended specific foods for Blue Jays, including nuts, seeds, fruits, insects, suet, and peanut butter, along with tips for feeder hygiene and pest deterrence. (session 2023-05-30)\n- User is interested in trying new vegan dessert recipes and has previously tried vegan cheesecake. (session 2023-05-29)\n- User observed a Blue Jay nest in their backyard a few weeks prior to May 30, 2023. (session 2023-05-30)\n- User is researching cameras for vlogging and is considering the Google Pixel 6 after watching a review by Unbox Therapy. (session 2023-05-29)\n- User follows tech reviewers Unbox Therapy, JerryRigEverything, and Marques Brownlee to help make informed purchasing decisions. (session 2023-05-29)\n- User was provided with a formal pitch statement for the 'Evolution of the Teachers' conference, highlighting Darwin's cultural and natural setting and the goal of exploring modern educational innovation. (session 2023-05-19)\n- User enjoys underdog stories and requested recommendations for Monday Night Football games featuring amazing comebacks. (session 2023-05-29)\n- Boulus Constructions Pty Ltd v Warrumbungle Shire Council (No 2) [2022] NSWSC 1368 involves a dispute over the construction of the Three Rivers Regional Retirement Community in Dunedoo, where the builder seeks payment and the council alleges approximately 300 defects. (session 2023-05-19)\n- User was recommended to contact local chambers of commerce (Plano, Frisco, McKinney), the State of Texas Economic Development & Tourism office, the Texas Workforce Commission, the Collin County Business Assistance Center, and the Small Business Development Center at Collin College for relocation assistance. (session 2023-05-30)\n- User is planning a trip to Europe, specifically Spain and Italy, for 5-7 days in each country. (session 2023-05-30)\n- User is planning to create a hummingbird garden and is researching suitable nectar-rich plants, native species, and appropriate birdbath features. (session 2023-05-30)\n- User was provided with tips for finding central, affordable accommodations in Barcelona (El Raval, Gothic Quarter, Eixample) and Rome (Centro Storico, Trastevere, Monti). (session 2023-05-30)\n- User was provided with examples of major business relocations to Plano, Texas, including Samsung Electronics (2016), Toyota (2017), JPMorgan Chase (2008), Liberty Mutual (2007), and Huawei (2011). (session 2023-05-30)\n- User was informed about specific Texas incentives for tech companies, including the Texas Enterprise Fund, the Texas Enterprise Zone Program, and tax exemptions for research and development activities like software and hardware development. (session 2023-05-30)\n- User plans to ask friends to share their reasons for their destination choice in the comments section of the poll to better understand individual preferences. (session 2023-05-10)\n- User plans to start watching classic Monday Night Football games with the 2006 Week 3 game between the New Orleans Saints and the Atlanta Falcons, which marked the Saints' emotional return to New Orleans after Hurricane Katrina. (session 2023-05-29)\n- User plans to use taxis or ride-hailing services to transport cooking class ingredients and equipment in Barcelona and Rome. (session 2023-05-30)\n- User was provided with a list of 10 hummingbird-friendly flowers, including Trumpet Vine, Salvias, Bee Balm, Cardinal Flower, and others, and advised on the benefits of using native plants. (session 2023-05-30)\n- In Boulus Constructions Pty Ltd v Warrumbungle Shire Council (No 2), the council sought to amend its cross-claim to include a claim under s 37 of the Design and Building Practitioners Act 2020 (NSW) against the builder, its managing director Brian Boulus, and project site supervisor Bradley McCarthy. (session 2023-05-19)\n- User refined the categorization task by requiring that category names must not include any of the words provided in the list. (session 2023-05-20)\n- User was provided with a simple recipe for Chocolate Chia Pudding, including ingredients like chia seeds, plant-based milk, cocoa powder, and maple syrup. (session 2023-05-29)\n- User is interested in taking vegan cooking classes or workshops in Barcelona and Rome during their upcoming trip. (session 2023-05-30)\n- User was provided with three storyboard table examples for late-night Twitch livestreams focused on music production, designed to guide the flow of the live experience. (session 2023-05-30)\n- User was recommended vegan restaurants in Barcelona (Vega Life, Teresa Carles Health Food) and Rome (Joia, Il Margutta, Ops! Roma) and specific local vegan dishes to try, such as pa amb tomàquet, escalivada, vegan carbonara, and supplì. (session 2023-05-30)\n- The legal issues in Boulus Constructions Pty Ltd v Warrumbungle Shire Council (No 2) include whether a defence of illegality applies due to the lack of valid development consent and construction certificates, and whether individuals can be held liable under s 37 of the Design and Building Practitioners Act 2020 (NSW). (session 2023-05-19)\n- User is planning to set up a bird feeder specifically to attract Blue Jays and is seeking advice on maintenance and deterring squirrels and raccoons. (session 2023-05-30)\n- User is considering relocating their business to the Plano, Texas area and is researching resources and incentives for this move. (session 2023-05-30)\n- User decided to use the poll question 'Choose our next adventure' for their weekend getaway planning, with options for New Orleans, Austin, Nashville, and an 'Undecided' choice. (session 2023-05-10)\n- User enjoys vegan cooking and has successfully tried three of Emma's recipes. (session 2023-05-30)\n- User requested that 'oil', 'solar', and 'coal' be moved into the 'Climate' or 'Environment' category during the word sorting exercise. (session 2023-05-20)\n- User is planning to host an international conference in Darwin, Australia, in October 2025 titled 'Evolution of the Teachers', inspired by the scientific discoveries of Charles Darwin. (session 2023-05-19)\n- User was provided with three storyboard table examples for a music production vlog series, each incorporating themes of tension, suspense, and eventual triumph. (session 2023-05-30)\n- User was recommended four specific Monday Night Football comeback games: Buffalo Bills vs. Houston Oilers (1993), Dallas Cowboys vs. New York Giants (October 23, 2006), Green Bay Packers vs. Minnesota Vikings (October 5, 2009), and Seattle Seahawks vs. Green Bay Packers (September 24, 2012). (session 2023-05-29)\n- User has been active on Instagram and recently received 23 comments on their posts, which they view as a positive level of engagement. (session 2023-05-10)\n- User is interested in the advancements of artificial intelligence, machine learning, electric vehicles, and sustainable energy solutions. (session 2023-05-29)\n- User was advised on selecting a hummingbird birdbath, emphasizing the need for shallow water (1-2 inches), a wide basin, and a rough surface for grip. (session 2023-05-30)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 42,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 32.0,
+  "total": 33.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

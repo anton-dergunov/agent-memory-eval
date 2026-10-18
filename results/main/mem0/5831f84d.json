@@ -1,0 +1,100 @@
+{
+ "qid": "5831f84d",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many Crash Course videos have I watched in the past few weeks?",
+ "reference": "15",
+ "question_date": "2023-10-05 05:19",
+ "sessions": [
+  {
+   "id": "3e53cff4",
+   "date": "2023-07-15 04:55",
+   "evidence": false
+  },
+  {
+   "id": "5cd46af9_2",
+   "date": "2023-07-19 06:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_1",
+   "date": "2023-08-11 13:55",
+   "evidence": true
+  },
+  {
+   "id": "78e6f9ee",
+   "date": "2023-08-13 14:44",
+   "evidence": false
+  },
+  {
+   "id": "14991eb7_2",
+   "date": "2023-08-22 08:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_462218",
+   "date": "2023-09-08 07:05",
+   "evidence": false
+  },
+  {
+   "id": "83dae08b",
+   "date": "2023-09-12 22:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_2",
+   "date": "2023-09-30 17:18",
+   "evidence": true
+  },
+  {
+   "id": "0df54428_4",
+   "date": "2023-09-30 19:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ofljChm_78",
+   "date": "2023-10-05 19:51",
+   "evidence": false
+  }
+ ],
+ "context": "- User has completed 12 Crash Course videos on computer science as of August 11, 2023, and is using them to build a foundational understanding of the field. (from a chat on 2023-08-11)\n- User is actively learning natural language processing (NLP) and has watched 15 Crash Course videos in the few weeks leading up to September 30, 2023. (from a chat on 2023-09-30)\n- User has previously completed a Python programming course on edX and is now pursuing machine learning, with recommendations for courses on Coursera, DataCamp, and edX. (from a chat on 2023-08-11)\n- User has been maintaining a 30-minute daily cleaning routine for approximately 3 weeks as of July 15, 2023, and reports significant improvements in their productivity and energy levels. (from a chat on 2023-07-15)\n- User is preparing for the AWS Certified Cloud Practitioner exam and was provided a 10-week study plan focusing on fundamentals, key services, and practice exams. (from a chat on 2023-08-11)\n- User participates in a social media writing community to stay motivated through weekly writing prompts and exercises. (from a chat on 2023-08-13)\n- User was recommended NLP courses including Stanford's NLP with Deep Learning (Coursera), Microsoft's NLP (edX), Deep Learning for NLP (Udemy), and NLP with Python (DataCamp). (from a chat on 2023-09-30)\n- User is learning cloud computing and was recommended AWS resources including the AWS Free Tier, Tutorial Center, Well-Architected Framework, and various certification courses on platforms like Udemy, Coursera, and edX. (from a chat on 2023-08-11)\n- User is interested in advanced machine learning topics including reinforcement learning and generative models, and was recommended specific courses and tutorials using Python libraries like Gym, TensorFlow, and PyTorch. (from a chat on 2023-08-11)\n- User has been working on a short story collection for one month as of August 13, 2023, dedicating three hours every weekend to the project. (from a chat on 2023-08-13)\n- User enjoys podcasts about entrepreneurship and was recommended 'The Tim Ferriss Show', 'Masters of Scale', 'The GaryVee Audio Experience', 'How I Raised It', 'The Hustle', 'StartUp', 'The Entrepreneur's Journey', 'Mixergy', 'The Foundr Podcast', 'The School of Greatness', and 'Wisdom From The Top'. (from a chat on 2023-08-11)\n- User maintains a writing journal to track progress, brainstorm ideas, and identify patterns in their creative process. (from a chat on 2023-08-13)\n- User was recommended resources for learning attention mechanisms, including the 'Attention Is All You Need' paper, 'The Illustrated Transformer' blog, and tutorials by Machine Learning Mastery and 3Blue1Brown. (from a chat on 2023-09-30)\n- User was recommended NLP resources including the NLTK Book, spaCy documentation, KDNuggets tutorials, Machine Learning Mastery, and books by Collobert et al. and Jurafsky/Martin. (from a chat on 2023-09-30)\n- User actively engages with Kaggle and Reddit communities to learn from experts, receive project feedback, and network with like-minded individuals in the fields of NLP and machine learning. (from a chat on 2023-09-30)\n- User recently attended a BBQ festival in the city and was inspired to experiment with new dishes for a summer cookout. (from a chat on 2023-07-19)\n- User is exploring their cultural heritage, specifically the state of Punjab in India, where their father is from. (from a chat on 2023-08-22)\n- User was recommended historical fiction novels including 'All the Light We Cannot See' by Anthony Doerr, 'The Alice Network' by Kate Quinn, 'The Lost Girls of Paris' by Pam Jenoff, 'The Women in the Castle' by Jessica Shattuck, 'Those Who Save Us' by Jenna Blum, 'The Guernsey Literary and Potato Peel Pie Society' by Mary Ann Shaffer, 'The Soldier's Wife' by Pam Jenoff, and 'The Invisible Bridge' by Julie Orringer. (from a chat on 2023-08-13)\n- User was recommended various tools for cleaning and task management, including Habitica, Clean My Space, TaskRabbit, Home Routines, AnyList, Google Calendar, Apple Calendar, Erin Condren Life Planner, Passion Planner, and physical methods like whiteboards or sticky notes. (from a chat on 2023-07-15)\n- User's short story collection explores themes of childhood memories and family, drawing inspiration from their own personal experiences. (from a chat on 2023-08-13)",
+ "answer": "**Step 1: Extract relevant information**\n*   From the chat on 2023-08-11: The user had completed 12 Crash Course videos on computer science.\n*   From the chat on 2023-09-30: The user is actively learning natural language processing (NLP) and has watched 15 Crash Course videos in the few weeks leading up to that date.\n\n**Step 2: Reason over the information**\n*   The question asks for the number of Crash Course videos watched in the \"past few weeks.\"\n*   The most recent data regarding the number of videos watched in a recent timeframe is from the September 30, 2023, chat, which specifies that 15 videos were watched in the few weeks leading up to that date.\n\n**Answer:**\nYou have watched 15 Crash Course videos in the few weeks leading up to September 30, 2023.",
+ "dump": "- User is planning to purchase a sisal rug with a natural, earthy tone to complement their grey velvet sofa. (session 2023-09-12)\n- User was recommended NLP resources including the NLTK Book, spaCy documentation, KDNuggets tutorials, Machine Learning Mastery, and books by Collobert et al. and Jurafsky/Martin. (session 2023-09-30)\n- User was provided with a guide for selling stamps on online marketplaces like eBay, Etsy, HipStamp, and Delcampe, noting fees such as insertion fees, final value fees, and payment processing costs. (session 2023-09-30)\n- User was provided with a step-by-step guide for selling stamps through auction houses, including consignment, lotting, cataloging, and the associated commission fees of 10% to 25%. (session 2023-09-30)\n- User was recommended reputable auction houses for selling rare stamps, including Christie's, Sotheby's, Robert A. Siegel Auction Galleries, and Heritage Auctions. (session 2023-09-30)\n- User plans to make a smoky baked beans recipe featuring navy beans, smoked bacon, onion, garlic, ketchup, brown sugar, apple cider vinegar, Worcestershire sauce, ground mustard, smoked paprika, cayenne pepper, and bourbon. (session 2023-07-19)\n- User was recommended several online retailers for high-quality sisal rugs, including West Elm, Crate & Barrel, Pottery Barn, Serena & Lily, AllModern, Wayfair, and Rugs USA. (session 2023-09-12)\n- User is preparing for the AWS Certified Cloud Practitioner exam and was provided a 10-week study plan focusing on fundamentals, key services, and practice exams. (session 2023-08-11)\n- User was recommended short story collections for inspiration, including 'A Visit from the Goon Squad' by Jennifer Egan, 'What We Talk About When We Talk About Love' by Raymond Carver, and 'The Thing Around Your Neck' by Chimamanda Ngozi Adichie. (session 2023-08-13)\n- User recently finished reading 'The Nightingale' and enjoyed it, leading them to seek recommendations for similar historical fiction novels. (session 2023-08-13)\n- User has previously completed a Python programming course on edX and is now pursuing machine learning, with recommendations for courses on Coursera, DataCamp, and edX. (session 2023-08-11)\n- User is interested in advanced machine learning topics including reinforcement learning and generative models, and was recommended specific courses and tutorials using Python libraries like Gym, TensorFlow, and PyTorch. (session 2023-08-11)\n- User discovered that their writing is more fluid and creative in the mornings and is shifting their writing sessions to earlier in the day. (session 2023-08-13)\n- User plans to use the Habitica app to track their daily cleaning routine and implement the 'one-touch rule' for productivity. (session 2023-07-15)\n- User was informed that authentication fees can range from $10 to $1,000 per stamp, while appraisal fees typically range from 1% to 20% of the estimated value, depending on the service level. (session 2023-09-30)\n- User intends to apply the 'one-touch rule' to tasks like putting away dirty dishes, responding to simple emails, and organizing digital files by either deleting, filing, or taking action immediately. (session 2023-07-15)\n- User was recommended various summer desserts, including watermelon basil granita, grilled pineapple with brown sugar ice cream, summer fruit salad, cornbread with strawberry jam, and no-bake energy bites. (session 2023-07-19)\n- User was recommended various sides for a summer cookout, including coleslaw with a twist, grilled corn with herbs, roasted sweet potato salad, smoky baked beans, and grilled asparagus with lemon aioli. (session 2023-07-19)\n- User is planning to host a backyard BBQ party and received suggestions for outdoor games like lawn Twister, cornhole, giant Jenga, and activities like a water balloon toss, scavenger hunt, or DIY photo booth. (session 2023-07-19)\n- User was recommended deep learning frameworks for NLP including PyTorch, TensorFlow, Keras, and the Hugging Face Transformers library. (session 2023-09-30)\n- User actively engages with Kaggle and Reddit communities to learn from experts, receive project feedback, and network with like-minded individuals in the fields of NLP and machine learning. (session 2023-09-30)\n- User has completed 12 Crash Course videos on computer science as of August 11, 2023, and is using them to build a foundational understanding of the field. (session 2023-08-11)\n- User recently attended a BBQ festival in the city and was inspired to experiment with new dishes for a summer cookout. (session 2023-07-19)\n- User was recommended NLP courses including Stanford's NLP with Deep Learning (Coursera), Microsoft's NLP (edX), Deep Learning for NLP (Udemy), and NLP with Python (DataCamp). (session 2023-09-30)\n- User maintains a writing journal to track progress, brainstorm ideas, and identify patterns in their creative process. (session 2023-08-13)\n- User learned about the cultural and nutritional significance of Makki Di Roti, including its role as a winter staple and its traditional association with the Lohri harvest festival. (session 2023-08-22)\n- User enjoys podcasts about entrepreneurship and was recommended 'The Tim Ferriss Show', 'Masters of Scale', 'The GaryVee Audio Experience', 'How I Raised It', 'The Hustle', 'StartUp', 'The Entrepreneur's Journey', 'Mixergy', 'The Foundr Podcast', 'The School of Greatness', and 'Wisdom From The Top'. (session 2023-08-11)\n- User is interested in using the Hugging Face Transformers library for text classification and was recommended models including BERT, RoBERTa, DistilBERT, XLNet, and ALBERT. (session 2023-09-30)\n- User is learning cloud computing and was recommended AWS resources including the AWS Free Tier, Tutorial Center, Well-Architected Framework, and various certification courses on platforms like Udemy, Coursera, and edX. (session 2023-08-11)\n- User inherited a collection of rare stamps from their uncle, which they believe includes an 1855 British Guiana 1c Magenta stamp. (session 2023-09-30)\n- User participates in a social media writing community to stay motivated through weekly writing prompts and exercises. (session 2023-08-13)\n- User is interested in achieving authentic Texas-style slow-smoked brisket at home and received tips on selecting a packer or flat cut brisket, using a dry rub, maintaining a smoker temperature of 225-250°F, and using the 'Texas Crutch' method. (session 2023-07-19)\n- User was provided with an overview of the Golden Temple (Harmandir Sahib) in Amritsar, including its historical, spiritual, architectural, and cultural significance. (session 2023-08-22)\n- User has been working on a short story collection for one month as of August 13, 2023, dedicating three hours every weekend to the project. (session 2023-08-13)\n- User is actively learning natural language processing (NLP) and has watched 15 Crash Course videos in the few weeks leading up to September 30, 2023. (session 2023-09-30)\n- User is seeking decorative items to add personality to their room, with recommendations including natural elements, metal accents, woven baskets, artwork, and lighting in materials like wood or rattan. (session 2023-09-12)\n- User identified the park as their new favorite writing environment due to the fresh air and quiet surroundings that help them focus. (session 2023-08-13)\n- User has a new smoker and is experimenting with pairing different wood types (hickory, oak, mesquite, applewood, cherrywood) with various meats like beef, pork, poultry, and game. (session 2023-07-19)\n- User was advised that the 1855 British Guiana 1c Magenta is the world's rarest stamp, with only one known specimen, making it highly unlikely the user's inherited stamp is genuine. (session 2023-09-30)\n- User was advised to have stamps authenticated and appraised by organizations like The Philatelic Foundation (TPF), American Philatelic Expertizing Service (APES), Professional Stamp Experts (PSE), or The Royal Philatelic Society London (RPSL). (session 2023-09-30)\n- User was advised to implement the 'one-touch rule' using the '4-box method' for digital files: Delete, File, Take Action, or Delegate. (session 2023-07-15)\n- User is considering purchasing a new mattress and is researching Casper and Purple brands, noting Casper's affordability and softness versus Purple's support and unique grid technology. (session 2023-09-12)\n- User has been maintaining a 30-minute daily cleaning routine for approximately 3 weeks as of July 15, 2023, and reports significant improvements in their productivity and energy levels. (session 2023-07-15)\n- User purchased a bottle of BBQ sauce from a Texas vendor at a festival and is currently experimenting with making their own BBQ sauce from scratch, focusing on balancing sweet, tangy, and spicy flavors. (session 2023-07-19)\n- User intends to use Habitica's rewards system to stay motivated, planning to treat themselves to favorite meals or activities upon reaching milestones for their cleaning and productivity habits. (session 2023-07-15)\n- User was recommended various tools for cleaning and task management, including Habitica, Clean My Space, TaskRabbit, Home Routines, AnyList, Google Calendar, Apple Calendar, Erin Condren Life Planner, Passion Planner, and physical methods like whiteboards or sticky notes. (session 2023-07-15)\n- User is developing a web-based arithmetic game involving cards and arithmetic operations, and was provided with complete JavaScript code to handle card generation, click events, and arithmetic logic. (session 2023-10-05)\n- User was provided with information on how governments can proactively promote inclusivity, such as implementing affirmative action policies, establishing anti-discrimination laws, and creating comprehensive social inclusion plans. (session 2023-09-08)\n- User plans to create a 'Someday' folder to manage digital files and tasks that do not require immediate attention but may be useful in the future. (session 2023-07-15)\n- User is looking for throw pillows in materials like velvet, linen, or cotton, and patterns such as botanical, geometric, or global-inspired to match their grey velvet sofa and sisal rug. (session 2023-09-12)\n- User was recommended resources for learning attention mechanisms, including the 'Attention Is All You Need' paper, 'The Illustrated Transformer' blog, and tutorials by Machine Learning Mastery and 3Blue1Brown. (session 2023-09-30)\n- User was recommended several popular Punjabi dishes to try, including Sarson Ka Saag with Makki Di Roti, Chole Bhature, Butter Chicken, Tandoori Chicken, Dal Makhani, Palak Paneer, Aloo Gobi, Rajma Masala, Baingan Bharta, and Gajar Ka Halwa. (session 2023-08-22)\n- User plans to start their Punjabi culinary journey by cooking Sarson Ka Saag with Makki Di Roti and received a detailed recipe and preparation tips for both dishes. (session 2023-08-22)\n- User was provided with a guide for selling stamps to dealers, noting that this process typically involves no upfront fees and allows for direct negotiation of the sale price. (session 2023-09-30)\n- User's short story collection explores themes of childhood memories and family, drawing inspiration from their own personal experiences. (session 2023-08-13)\n- User was recommended historical fiction novels including 'All the Light We Cannot See' by Anthony Doerr, 'The Alice Network' by Kate Quinn, 'The Lost Girls of Paris' by Pam Jenoff, 'The Women in the Castle' by Jessica Shattuck, 'Those Who Save Us' by Jenna Blum, 'The Guernsey Literary and Potato Peel Pie Society' by Mary Ann Shaffer, 'The Soldier's Wife' by Pam Jenoff, and 'The Invisible Bridge' by Julie Orringer. (session 2023-08-13)\n- User is exploring their cultural heritage, specifically the state of Punjab in India, where their father is from. (session 2023-08-22)\n- User expressed frustration regarding the systemic barriers marginalized communities face in achieving political representation and the tendency for governments to only address these issues under pressure. (session 2023-09-08)\n- User was recommended to track their daily cleaning routine in Habitica as a single general 'daily cleaning' habit for simplicity and flexibility, rather than creating separate habits for every individual task. (session 2023-07-15)\n- User owns a grey velvet sectional sofa from West Elm and is satisfied with its quality. (session 2023-09-12)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 60,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 38.4,
+  "total": 40.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,104 @@
+{
+ "qid": "db467c8c",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How long have my parents been staying with me in the US?",
+ "reference": "nine months",
+ "question_date": "2023-10-22 09:15",
+ "sessions": [
+  {
+   "id": "sharegpt_wrN9uUo_53",
+   "date": "2023-06-23 06:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_165276",
+   "date": "2023-07-08 02:17",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ocf8Lud_39",
+   "date": "2023-07-11 23:49",
+   "evidence": false
+  },
+  {
+   "id": "76967d22",
+   "date": "2023-07-16 03:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_1",
+   "date": "2023-07-16 07:07",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_48690",
+   "date": "2023-07-20 20:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_497634",
+   "date": "2023-09-21 19:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_2",
+   "date": "2023-10-20 00:00",
+   "evidence": true
+  },
+  {
+   "id": "16ebc8f8_1",
+   "date": "2023-10-20 04:34",
+   "evidence": false
+  },
+  {
+   "id": "08693f68_1",
+   "date": "2023-10-20 12:15",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in fitness and is currently balancing Zumba classes (on Tuesdays) with plans to start spinning next month.\n- Friend: Emily (who does spinning).\n- Goals: Perfect salsa shimmies by next Tuesday, and start a new fitness routine with spinning next month.\n- Preferences: Enjoys high-energy workouts, interested in tracking progress, and appreciates advice on gear and technique.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T22:17:12.202884+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-10-22 09:15] How long have my parents been staying with me in the US?'}, {'timestamp': '2026-10-17T22:15:32.092498+00:00', 'time_ago': '1m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-10-20 00:00] That's a great approach! It's essential to understand the waiver of inadmissibility process and how it might apply to your parents' situation, given their nine-month overstay.\\n\\nWhen you meet with the attorney, be prepared to discuss the following:\\n\\n1. **The waiver of inadmissibility process**: Ask the attorney to explain the process in detail, including the requirements, eligibility, and potential outcomes.\\n2. **Extreme hardship**: Discuss how the attorney plans to demonstrate extreme hardship to a qualifying relative (you) in the event of your parents' removal from the United States.\\n3. **Rehabilitation**: Ask the attorney how they plan to demonstrate your parents' rehabilitation and how they have taken steps to rectify their immigration status.\\n4. **Supporting evidence**: Discuss the types of supporting evidence that will be required to demonstrate extreme hardship and rehabilitation, such as:\\n\\t* Medical records\\n\\t* Financial documents\\n\\t* Letters from family members and friends\\n\\t* Evidence of community ties\\n5. **Waiver application strategy**: Ask the attorney about their strategy for preparing and submitting the waiver application, including:\\n\\t* How they will present your parents' case in the best possible light\\n\\t* How they will address any potential weaknesses in the application\\n\\t* How they will respond to any requests for evidence (RFEs) or notices of intent to deny (NOIDs)\\n6. **Timeline and fees**: Ask the attorney about the expected timeline for the waiver process and their fees for representing your parents.\\n\\nSome specific questions to ask the attorney during the consultation include:\\n\\n* What are the chances of success for a waiver of inadmissibility in my parents' case?\\n* How will you demonstrate extreme hardship to me, as their qualifying relative?\\n* What types of supporting evidence will be required to demonstrate rehabilitation?\\n* How will you address any potential issues with my parents' immigration history, such as their nine-month overstay?\\n* What is your strategy for preparing and submitting the waiver application?\\n* What are your fees for representing my parents, and what services are included in your representation?\\n\\nBy asking these questions and discussing your parents' situation with the attorney, you'll get a better understanding of the waiver of inadmissibility process and how it might apply to their case.\"}, {'timestamp': '2026-10-17T22:15:32.092478+00:00', 'time_ago': '1m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-10-20 00:00] I'll ask the attorney about the waiver of inadmissibility process and how it might apply to my parents' situation, considering their nine-month overstay.\"}, {'timestamp': '2026-10-17T22:15:32.092411+00:00', 'time_ago': '1m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-10-20 00:00] The waiver of inadmissibility process is a complex and nuanced area of immigration law, but I'll try to provide a general overview and how it might apply to your parents' situation.\\n\\n**What is a waiver of inadmissibility?**\\n\\nA waiver of inadmissibility is a request to forgive or waive certain grounds of inadmissibility that would otherwise prevent an individual from entering or remaining in the United States. In the context of your parents' situation, the waiver would be used to overcome the inadmissibility due to their unauthorized stay in the United States.\\n\\n**Who is eligible for a waiver of inadmissibility?**\\n\\nTo be eligible for a waiver, your parents must demonstrate that they ",
+ "answer": "Based on our previous conversation on October 20, 2023, you mentioned that your parents have been staying in the U.S. for nine months beyond their authorized stay.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in fitness and is currently balancing Zumba classes (on Tuesdays) with plans to start spinning next month.\n- Friend: Emily (who does spinning).\n- Goals: Perfect salsa shimmies by next Tuesday, and start a new fitness routine with spinning next month.\n- Preferences: Enjoys high-energy workouts, interested in tracking progress, and appreciates advice on gear and technique.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"parents staying with me in the US\"})",
+   "conversation_search({\"query\": \"parents\"})"
+  ],
+  "blocks_chars": 596
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 119.9,
+  "total": 125.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

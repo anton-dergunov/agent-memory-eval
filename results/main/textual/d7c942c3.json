@@ -1,0 +1,91 @@
+{
+ "qid": "d7c942c3",
+ "arm": "textual",
+ "split": "main",
+ "question": "Is my mom using the same grocery list method as me?",
+ "reference": "Yes.",
+ "question_date": "2023-05-14 09:58",
+ "sessions": [
+  {
+   "id": "answer_eecb10d9_1",
+   "date": "2023-03-11 12:42",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_mz7Bb7a_0",
+   "date": "2023-03-20 09:59",
+   "evidence": false
+  },
+  {
+   "id": "89f71a1b",
+   "date": "2023-03-25 19:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_552063",
+   "date": "2023-03-31 13:47",
+   "evidence": false
+  },
+  {
+   "id": "4e70b8fd",
+   "date": "2023-04-04 16:36",
+   "evidence": false
+  },
+  {
+   "id": "ddf0f116_3",
+   "date": "2023-04-06 04:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1ISfZDn_0",
+   "date": "2023-04-10 22:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_104389",
+   "date": "2023-04-23 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_eecb10d9_2",
+   "date": "2023-04-30 20:09",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_1MKqbAt_0",
+   "date": "2023-05-09 02:30",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user's name is Dom.\n* The user owns a MacBook Pro (identified as \"Doms-MBP.local\").\n* The user's mother now uses the same grocery list app as the user, allowing them to share lists and collaborate on shopping (since 2023-04-30; previously, she preferred traditional paper lists).\n* The user commutes via train from Oakdale station, typically taking the 7:15 am train (since 2023-04-04).\n* The user is an active traveler who flies domestically and internationally.\n* The user has a frequent flyer account (airline unspecified) and a United Airlines MileagePlus account.\n* The user received a $200 travel voucher from their aunt as a birthday gift.\n* The user has an interest in biblical study and theology, specifically utilizing the MacArthur NASB Study Bible and the ESV Study Bible by Crossway (since 2023-04-10).\n* The user has a strong interest in film scoring, specifically the intersection of technology, production techniques, and artistic innovation. They admire the work of Hans Zimmer, particularly the *Inception* soundtrack.\n* The user plays *Call of Duty Mobile* and utilizes a Cronus Zen device to implement custom controller scripts for gameplay enhancements (as of 2023-05-09).\n* The user owns an Xbox One controller (as of 2023-05-09).\n\n### Preferences and habits\n* The user enjoys cooking and hosting dinner parties.\n* The user is tech-savvy, comfortable using the command line/terminal, and uses a grocery list app to organize ingredients and shopping.\n* The user is interested in trying new recipes, specifically for chicken, roasted vegetables, and cauliflower gnocchi.\n* The user prefers the Brown Butter Sage sauce for their cauliflower gnocchi.\n* The user is interested in cloud gaming services, specifically NVIDIA GeForce Now, and is technically inclined to troubleshoot network latency.\n* The user enjoys luxury travel and is currently researching high-end accommodations in Miami, specifically the Fontainebleau Miami Beach.\n* The user prefers high-floor rooms with expansive views (specifically oceanfront) and is interested in premium amenities like wraparound balconies and private cabanas.\n* The user enjoys fine dining and is interested in modern Chinese cuisine, specifically Hakkasan.\n* The user is interested in the music industry, specifically the impact of streaming services, the rise of independent artists, and the evolution of film scoring.\n* The user enjoys indie music, specifically artists like Billie Eilish and Anderson .Paak.\n* The user is currently interested in exploring indie-folk and acoustic music.\n* The user enjoys a wide variety of music genres, including pop, hip-hop/rap, rock, electronic, R&B/soul, country, and jazz.\n* The user listens to upbeat, high-energy music for motivation during workouts.\n* The user is actively looking for ways to reduce daily expenses, specifically regarding their commute and coffee habits (since 2023-04-04).\n* The user has decided to purchase an AmazonBasics Single-Serve Coffee Maker and is considering purchasing a coffee grinder (since 2023-04-04).\n* The user prefers Southwest Airlines for domestic travel and is interested in British Airways for international business class travel.\n* The user is optimistic about the future of immersive media, including 3D audio, VR, and AR, and the potential for increased collaboration between film composers and music producers.\n* The user prefers to optimize their gaming performance through scripting and automation tools (as of 2023-05-09).\n\n### Ongoing situations and plans\n* The user is planning a trip to Miami and is researching the Fontainebleau Miami Beach resort.\n* The user is specifically interested in booking a \"Deluxe Oceanfront Room\" on a high floor (14-17), ideally with a wraparound balcony (e.g., corner rooms like 1416, 1516, 1616, 1417, 1517, or 1617).\n* The user is considering dining at Hakkasan during their Miami trip.\n* The user is researching purchasing a monthly train pass to reduce commute costs and is checking their transit agency's website for purchasing options and pricing (since 2023-04-04).\n* The user was previously troubleshooting network connectivity or DNS resolution issues on their MacBook Pro while attempting to ping NVIDIA GeForce Now latency test servers (status as of 2023-03-20; no further updates provided).\n* The dinner party originally planned for the weekend of March 11–12, 2023, has passed.\n* The user is looking for new music recommendations, specifically in the indie-folk/acoustic genre.\n* The user is investigating missing frequent flyer miles for a flight from Dallas to Chicago taken on 2023-01-20.\n* The user is planning a trip to either Denver or Las Vegas using a $200 Southwest Airlines voucher and is verifying if it can be used for one-way tickets.\n* The user is considering redeeming miles for a one-way business class ticket to London on British Airways.\n* The user is considering applying for a new credit card to earn bonus miles on United Airlines and intends to combine them with their existing MileagePlus balance.\n* The user is researching flight options from Chicago to Los Angeles and is interested in premium in-flight meal options.\n* The user is engaging in detailed study of the Book of James (chapters 1:1–1:27) using specific study Bibles (as of 2023-04-10).\n* The user is preparing chicken fajitas (as of 2023-04-30) and is interested in techniques for keeping fresh herbs like cilantro and parsley fresh.\n* The user is actively configuring and testing Cronus Zen scripts for *Call of Duty Mobile* using an Xbox One controller (as of 2023-05-09).\n\n### Changes over time\n* The user's name was identified as \"Dom\" on 2023-03-20.\n* The user's commute details (7:15 am train from Oakdale) were established on 2023-04-04.\n* The user's interest in cost-saving measures for coffee and commuting was established on 2023-04-04.\n* The user's interest in specific theological study resources (MacArthur NASB and ESV Study Bibles) was established on 2023-04-10.\n* The user's mother began using the same grocery list app as the user on 2023-04-30; previously, she used traditional paper lists.\n* The user's interest in Cronus Zen scripting for mobile gaming was established on 2023-05-09.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   According to the \"Personal facts\" section, the user's mother began using the same grocery list app as the user on 2023-04-30.\n    *   The \"Changes over time\" section confirms this update: \"The user's mother began using the same grocery list app as the user on 2023-04-30; previously, she used traditional paper lists.\"\n\n2.  **Reason over the information:**\n    *   The facts explicitly state that as of April 30, 2023, the mother transitioned from paper lists to the same grocery list app that the user utilizes.\n    *   Since the current date is 2023/05/14, this change is still in effect.\n\n**Answer:** Yes, your mother is using the same grocery list app as you. She made the switch from traditional paper lists to your app on April 30, 2023, which now allows you both to share lists and collaborate on shopping.",
+ "dump": "### Personal facts\n* The user's name is Dom.\n* The user owns a MacBook Pro (identified as \"Doms-MBP.local\").\n* The user's mother now uses the same grocery list app as the user, allowing them to share lists and collaborate on shopping (since 2023-04-30; previously, she preferred traditional paper lists).\n* The user commutes via train from Oakdale station, typically taking the 7:15 am train (since 2023-04-04).\n* The user is an active traveler who flies domestically and internationally.\n* The user has a frequent flyer account (airline unspecified) and a United Airlines MileagePlus account.\n* The user received a $200 travel voucher from their aunt as a birthday gift.\n* The user has an interest in biblical study and theology, specifically utilizing the MacArthur NASB Study Bible and the ESV Study Bible by Crossway (since 2023-04-10).\n* The user has a strong interest in film scoring, specifically the intersection of technology, production techniques, and artistic innovation. They admire the work of Hans Zimmer, particularly the *Inception* soundtrack.\n* The user plays *Call of Duty Mobile* and utilizes a Cronus Zen device to implement custom controller scripts for gameplay enhancements (as of 2023-05-09).\n* The user owns an Xbox One controller (as of 2023-05-09).\n\n### Preferences and habits\n* The user enjoys cooking and hosting dinner parties.\n* The user is tech-savvy, comfortable using the command line/terminal, and uses a grocery list app to organize ingredients and shopping.\n* The user is interested in trying new recipes, specifically for chicken, roasted vegetables, and cauliflower gnocchi.\n* The user prefers the Brown Butter Sage sauce for their cauliflower gnocchi.\n* The user is interested in cloud gaming services, specifically NVIDIA GeForce Now, and is technically inclined to troubleshoot network latency.\n* The user enjoys luxury travel and is currently researching high-end accommodations in Miami, specifically the Fontainebleau Miami Beach.\n* The user prefers high-floor rooms with expansive views (specifically oceanfront) and is interested in premium amenities like wraparound balconies and private cabanas.\n* The user enjoys fine dining and is interested in modern Chinese cuisine, specifically Hakkasan.\n* The user is interested in the music industry, specifically the impact of streaming services, the rise of independent artists, and the evolution of film scoring.\n* The user enjoys indie music, specifically artists like Billie Eilish and Anderson .Paak.\n* The user is currently interested in exploring indie-folk and acoustic music.\n* The user enjoys a wide variety of music genres, including pop, hip-hop/rap, rock, electronic, R&B/soul, country, and jazz.\n* The user listens to upbeat, high-energy music for motivation during workouts.\n* The user is actively looking for ways to reduce daily expenses, specifically regarding their commute and coffee habits (since 2023-04-04).\n* The user has decided to purchase an AmazonBasics Single-Serve Coffee Maker and is considering purchasing a coffee grinder (since 2023-04-04).\n* The user prefers Southwest Airlines for domestic travel and is interested in British Airways for international business class travel.\n* The user is optimistic about the future of immersive media, including 3D audio, VR, and AR, and the potential for increased collaboration between film composers and music producers.\n* The user prefers to optimize their gaming performance through scripting and automation tools (as of 2023-05-09).\n\n### Ongoing situations and plans\n* The user is planning a trip to Miami and is researching the Fontainebleau Miami Beach resort.\n* The user is specifically interested in booking a \"Deluxe Oceanfront Room\" on a high floor (14-17), ideally with a wraparound balcony (e.g., corner rooms like 1416, 1516, 1616, 1417, 1517, or 1617).\n* The user is considering dining at Hakkasan during their Miami trip.\n* The user is researching purchasing a monthly train pass to reduce commute costs and is checking their transit agency's website for purchasing options and pricing (since 2023-04-04).\n* The user was previously troubleshooting network connectivity or DNS resolution issues on their MacBook Pro while attempting to ping NVIDIA GeForce Now latency test servers (status as of 2023-03-20; no further updates provided).\n* The dinner party originally planned for the weekend of March 11–12, 2023, has passed.\n* The user is looking for new music recommendations, specifically in the indie-folk/acoustic genre.\n* The user is investigating missing frequent flyer miles for a flight from Dallas to Chicago taken on 2023-01-20.\n* The user is planning a trip to either Denver or Las Vegas using a $200 Southwest Airlines voucher and is verifying if it can be used for one-way tickets.\n* The user is considering redeeming miles for a one-way business class ticket to London on British Airways.\n* The user is considering applying for a new credit card to earn bonus miles on United Airlines and intends to combine them with their existing MileagePlus balance.\n* The user is researching flight options from Chicago to Los Angeles and is interested in premium in-flight meal options.\n* The user is engaging in detailed study of the Book of James (chapters 1:1–1:27) using specific study Bibles (as of 2023-04-10).\n* The user is preparing chicken fajitas (as of 2023-04-30) and is interested in techniques for keeping fresh herbs like cilantro and parsley fresh.\n* The user is actively configuring and testing Cronus Zen scripts for *Call of Duty Mobile* using an Xbox One controller (as of 2023-05-09).\n\n### Changes over time\n* The user's name was identified as \"Dom\" on 2023-03-20.\n* The user's commute details (7:15 am train from Oakdale) were established on 2023-04-04.\n* The user's interest in cost-saving measures for coffee and commuting was established on 2023-04-04.\n* The user's interest in specific theological study resources (MacArthur NASB and ESV Study Bibles) was established on 2023-04-10.\n* The user's mother began using the same grocery list app as the user on 2023-04-30; previously, she used traditional paper lists.\n* The user's interest in Cronus Zen scripting for mobile gaming was established on 2023-05-09.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 28.3,
+  "total": 29.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

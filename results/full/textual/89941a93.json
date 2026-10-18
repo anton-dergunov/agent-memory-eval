@@ -1,0 +1,300 @@
+{
+ "qid": "89941a93",
+ "arm": "textual",
+ "split": "full",
+ "question": "How many bikes do I currently own?",
+ "reference": "4",
+ "question_date": "2023-10-27 13:00",
+ "sessions": [
+  {
+   "id": "78c3d7ab",
+   "date": "2023-01-25 23:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_214088",
+   "date": "2023-01-28 08:49",
+   "evidence": false
+  },
+  {
+   "id": "06eccfec",
+   "date": "2023-01-30 18:42",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6QV1gPO_151",
+   "date": "2023-01-31 01:05",
+   "evidence": false
+  },
+  {
+   "id": "8e72316f",
+   "date": "2023-02-02 01:01",
+   "evidence": false
+  },
+  {
+   "id": "1e88ebca",
+   "date": "2023-02-18 13:39",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-02-22 20:54",
+   "evidence": true
+  },
+  {
+   "id": "60db2dd6_1",
+   "date": "2023-03-08 07:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_408140",
+   "date": "2023-03-26 16:43",
+   "evidence": false
+  },
+  {
+   "id": "286aa281_1",
+   "date": "2023-04-21 04:02",
+   "evidence": false
+  },
+  {
+   "id": "f04fae0a",
+   "date": "2023-05-01 02:18",
+   "evidence": false
+  },
+  {
+   "id": "6ce1ea1b",
+   "date": "2023-05-07 17:44",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ni8QFie_0",
+   "date": "2023-05-27 00:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_204930",
+   "date": "2023-06-03 09:55",
+   "evidence": false
+  },
+  {
+   "id": "c9b1c309_4",
+   "date": "2023-06-16 00:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_317937",
+   "date": "2023-06-16 20:12",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_400703",
+   "date": "2023-06-28 20:26",
+   "evidence": false
+  },
+  {
+   "id": "95ebf866",
+   "date": "2023-07-25 17:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_453348",
+   "date": "2023-07-28 02:22",
+   "evidence": false
+  },
+  {
+   "id": "169213ae",
+   "date": "2023-08-04 11:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dAwgyMa_0",
+   "date": "2023-08-07 05:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_t1yT7z2_0",
+   "date": "2023-08-07 09:25",
+   "evidence": false
+  },
+  {
+   "id": "3581c390_3",
+   "date": "2023-08-17 16:48",
+   "evidence": false
+  },
+  {
+   "id": "dde142b2_2",
+   "date": "2023-08-19 01:47",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_388906",
+   "date": "2023-08-23 04:24",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_451725",
+   "date": "2023-08-25 18:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6ZW73Pz_0",
+   "date": "2023-08-25 21:04",
+   "evidence": false
+  },
+  {
+   "id": "889d3eef_2",
+   "date": "2023-09-16 07:20",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_151269",
+   "date": "2023-09-25 17:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-10-10 01:12",
+   "evidence": true
+  },
+  {
+   "id": "ebb5bc7c_2",
+   "date": "2023-10-10 02:03",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_352196",
+   "date": "2023-10-10 17:13",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_jxsIY6L_0",
+   "date": "2023-10-11 01:04",
+   "evidence": false
+  },
+  {
+   "id": "5b44a462",
+   "date": "2023-10-12 12:55",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_22305",
+   "date": "2023-10-12 15:14",
+   "evidence": false
+  },
+  {
+   "id": "ae15e8b6_3",
+   "date": "2023-10-14 04:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ZzCRfPu_30",
+   "date": "2023-10-14 15:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_512422",
+   "date": "2023-10-14 15:49",
+   "evidence": false
+  },
+  {
+   "id": "25956eab_1",
+   "date": "2023-10-15 17:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_349321",
+   "date": "2023-10-19 21:39",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_bn0XI2B_0",
+   "date": "2023-10-20 00:32",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xv7JAIJ_0",
+   "date": "2023-10-20 07:07",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_70151",
+   "date": "2023-10-20 19:31",
+   "evidence": false
+  },
+  {
+   "id": "0db66fbe_1",
+   "date": "2023-10-21 05:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_62543",
+   "date": "2023-10-23 03:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_440266",
+   "date": "2023-10-23 07:05",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_k5xhnds_15",
+   "date": "2023-10-25 19:25",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_150565",
+   "date": "2023-10-26 00:52",
+   "evidence": false
+  },
+  {
+   "id": "44202c74_1",
+   "date": "2023-10-26 01:19",
+   "evidence": false
+  },
+  {
+   "id": "742ea86b_1",
+   "date": "2023-10-26 06:36",
+   "evidence": false
+  },
+  {
+   "id": "fd806a19",
+   "date": "2023-10-26 20:31",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is married (as of 2023-10-20).\n* The user is a RADA (Royal Academy of Dramatic Art) student/alumnus (as of 2023-10-26).\n* The user is interested in content creation, specifically recording gameplay walkthroughs.\n* The user is currently researching job opportunities in the technology and engineering sectors in Athlone, Ireland.\n* The user lives in Kansas City (since 2023-02-02).\n* The user is a fan of Manchester City Football Club.\n* The user plays the guitar and owns a Taylor GS Mini.\n* The user plays the ukulele and is interested in songwriting.\n* The user is interested in incorporating the harmonica into their music.\n* The user is interested in cybersecurity concepts, specifically the C-I-A Triad, digital signatures, threat modeling (interception, interruption, modification, fabrication), and various password-cracking attack vectors (as of 2023-10-11).\n* The user enjoys interactive, choice-based narrative games and role-playing as a character named \"Rachel.\"\n* The user values self-reflection and journaling as a method for personal growth and understanding one's own fears and insecurities (since 2023-01-31). The user has been journaling consistently every morning since 2023-01-15.\n* The user is an active hiker who recently completed a four-day trip to Yosemite National Park, including a hike to the top of Vernal Falls (as of 2023-02-18).\n* The user is a dedicated cyclist living in the San Francisco Bay Area (as of 2023-02-22).\n* The user owns four bicycles: a road bike, a mountain bike, a commuter bike, and a new hybrid bike (since 2023-10-10).\n* The user owns white sneakers (which they wear every Sunday) and brown loafers (which they wore to work daily from 2023-02-28 to 2023-03-03).\n* The user purchased new Nike running shoes on 2023-02-10.\n* The user is interested in fitness, specifically weightlifting and bodybuilding, with a goal of achieving a leaner, toned physique without becoming bulky (since 2023-03-26).\n* The user enjoys partying and social drinking (as of 2023-03-26).\n* The user has a niece and nephew with whom they enjoy spending time.\n* The user attended a guided tour at the Natural History Museum on 2023-04-15, where they were particularly impressed by a new Triceratops fossil and the guide, also named Rachel.\n* The user is actively working on improving their diet, focusing on cooking at home more often and packing lunches for work (as of 2023-05-01).\n* The user has been on a break from social media for three weeks (as of 2023-05-07).\n* The user is interested in getting back into reading and photography.\n* The user has an interest in software engineering documentation, specifically \"heavyweight\" use case modeling (as of 2023-05-07).\n* The user is interested in global politics and social issues, specifically expressing concern regarding the inclusivity of government policies and the potential for minority marginalization (as of 2023-06-03). The user maintains a strong interest in the evolution of social democratic parties and views their adaptability as a source of hope for social progress (as of 2023-09-25).\n* The user is deeply concerned about the human cost of war, the use of propaganda, and the reduction of human lives to political bargaining chips; they are skeptical about the current efforts of world leaders to break the cycle of warfare (as of 2023-10-10).\n* The user recently purchased a new set of kitchen utensils (on 2023-06-10), specifically finding the new silicone spatula to be a \"game-changer\" for their cooking.\n* The user follows the English Premier League closely and maintains an interest in player performance statistics.\n* The user has an interest in the transportation infrastructure and local attractions of Beaconsfield, UK (as of 2023-06-28).\n* The user is interested in swimming and is currently looking for a new swim cap that stays secure during flip turns.\n* The user is planning a trip to Bordeaux, France, and is interested in wine tasting and visiting local vineyards (as of 2023-07-28).\n* The user wakes up at 6:30 am daily but has been struggling with the habit of hitting the snooze button (as of 2023-08-04).\n* On 2023-08-07, the user reported observing a \"giant blue ball of flame\" approaching their home, expressing a sense of calm, serenity, and a belief that the fire is \"cleansing\" and \"pure.\"\n* The user is exploring Italian citizenship by descent (jure sanguinis) through their great-grandfather from Avellino, Campania, or potentially through his sibling (as of 2023-08-17).\n* The user has a cousin who recently became a naturalized Japanese citizen.\n* The user is an avid reader of fantasy and young adult fiction, with J.K. Rowling as their favorite author (as of 2023-08-19).\n* The user received a $25 bookstore gift card from their aunt for Easter (as of 2023-08-19).\n* The user is environmentally conscious and advocates for sustainable farming practices (as of 2023-08-23).\n* The user is concerned about indoor and outdoor air quality and is researching ways to mitigate their personal exposure to pollutants (as of 2023-08-25).\n* The user is interested in cryptocurrency and blockchain projects, specifically PulseChain (as of 2023-08-25).\n* The user met a person named Emily at a bookstore on 2023-09-15, with whom they bonded over a shared love for fiction.\n* The user is forming a new book club and is considering inviting Rachel (a barista) and Sophia (a graphic designer) to join.\n* The user recently started using cycling shoes with clipless pedals and is adjusting to them to improve pedaling efficiency (as of 2023-10-10).\n* The user is starting an indoor garden in their bedroom and is researching humidifiers with built-in humidistats and adjustable output (as of 2023-10-10).\n* The user is currently working on a poetry collection and a novel idea, drawing inspiration from their daily journal entries (as of 2023-10-12).\n* The user is committed to reducing their personal plastic waste and is actively seeking ways to incorporate sustainable, circular-economy habits into their daily life (as of 2023-10-12).\n* The user purchased a set of reusable cloth gift bags for $25 (as of 2023-10-14).\n* The user is exploring themes of guilt, repentance, and faith, and has expressed a desire to live their life for God (as of 2023-10-14).\n* The user is critical of the portrayal of female characters in media, specifically *Game of Thrones*, noting frustration with the reliance on tropes, stereotypes, and the objectification of women compared to their male counterparts (as of 2023-10-14).\n* The user holds a Chase Sapphire credit card and has been accumulating points.\n* The user has achieved MVP Gold status with Alaska Airlines due to increased travel frequency (as of 2023-10-15).\n* The user has an interest in modern theater and is exploring influential figures (like Lin-Manuel Miranda and Tony Kushner) and organizations (like the Royal Shakespeare Company and La MaMa Experimental Theatre Club) (as of 2023-10-19).\n* The user is currently investigating the term \"AutoMuse\" (as of 2023-10-20).\n* The user considers video conferencing tools to be a \"game-changer\" for distance learning and remote work (as of 2023-10-20).\n* The user has been taking salsa classes on Tuesday evenings for approximately six weeks (as of 2023-10-21).\n* The user has a salsa instructor named Maria (as of 2023-10-21).\n* The user has been practicing meditation consistently for two months (as of 2023-10-26).\n* The user recently had a conversation with their grandmother about her near-death experience, which has prompted the user to reflect on their own beliefs, values, and the concept of the afterlife (as of 2023-10-26).\n* The user is interested in the concept of manifestation and the power of beliefs in shaping reality (as of 2023-10-26).\n* The user is currently developing a web-based \"fortune teller\" application using Ruby on Rails and PostgreSQL (as of 2023-10-25).\n* The user is highly motivated to stay connected with their RADA alumni network and utilize resources like RADAdvantage to navigate the professional theater and film industry (as of 2023-10-26).\n* The user enjoys hosting dinner parties and has recently experimented with creating signature cocktails, such as a Cranberry Spritzer (as of 2023-10-26).\n* The user is currently experimenting with new flavor combinations in cooking, specifically using cucumber as a key ingredient (as of 2023-10-26).\n* The user has recently purchased a dark grey couch and is planning to purchase light beige curtains for their living room (as of 2023-10-26).\n\n### Preferences and habits\n* The user prefers free and highly customizable software, choosing OBS Studio over XSplit for recording gameplay.\n* The user is interested in narrative-driven content, planning to focus their walkthroughs on the story, characters, lore, and themes of the games they play.\n* The user values structured, episodic content to provide a comprehensive understanding of a game's narrative.\n* The user prefers Elixir strings for their acoustic guitar.\n* The user is currently developing a song concept based on the experience of a morning commute and the city waking up.\n* In gaming, the user prefers detailed environmental descriptions and branching narrative paths that offer meaningful choices.\n* The user enjoys hosting social events and is planning a fantasy football draft party for a group of 10 people.\n* The user enjoys outdoor activities, specifically hiking and scenic drives, and is comfortable with moderate inclines and distances.\n* The user is a serious cyclist who performs their own bike maintenance, including derailleur adjustments.\n* The user tracks their cycling metrics using a new bike computer and Strava.\n* The user is proactive about shoe maintenance and intends to use Jason Markk Sneaker Cleaner and waterproofing spray on their white sneakers.\n* The user is interested in learning how to polish leather shoes (specifically their brown loafers) using products like Kiwi, Allen Edmonds, Saphir Médaille d'Or, or Chamber's Leather Milk.\n* The user is adopting a fitness approach that includes compound movements, resistance bands, and HIIT to achieve a leaner look (since 2023-03-26).\n* The user is interested in \"flexible dieting\" and mindful cheat days to balance their fitness goals with their love for pizza and social drinking (since 2023-03-26).\n* The user appreciates immersive museum exhibit design, specifically lighting and display curation that creates a sense of wonder.\n* The user is consciously improving their snacking habits by keeping nuts and dried fruit at their desk and limiting weekend snacks to fruit and cheese plates.\n* The user is interested in incorporating protein balls and trail mix bars into their routine for energy.\n* The user is exploring new spices and seasonings (such as Mediterranean blends, lemon pepper, and smoky paprika) to enhance their home-cooked meals.\n* The user is currently focused on daily gratitude journaling and is looking for ways to stay engaged and productive during their social media break.\n* The user is interested in reading fiction, specifically showing interest in *The Vanishing Half* by Brit Bennett, *The Silent Patient* by Alex Michaelides, *The Night Circus* by Erin Morgenstern, and *The Nightingale* by Kristin Hannah.\n* The user is analytical regarding user experience (UX) design, specifically for platforms like Reddit and Steam, valuing navigation, community engagement, and library management.\n* The user values equity, inclusion, and non-discrimination in political and social policy (as of 2023-06-03).\n* The user is actively cooking at home and recently cleaned their oven (as of 2023-06-10).\n* The user is interested in trying Korean cuisine, specifically Korean-Style BBQ Chicken, Japchae noodles, and kimchi.\n* The user is interested in yoga and is researching mats with high grip, specifically considering the Manduka eKO SuperLite.\n* The user is interested in Speedo and TYR swim caps, specifically those with anti-fog and UV protection features.\n* The user is interested in French cuisine and wine pairings (as of 2023-07-28).\n* The user is establishing a morning routine that includes a 20-minute bodyweight circuit (squats, push-ups, lunges, planks, etc.) and is planning to prep oatmeal with banana and honey the night before to ensure they eat breakfast (as of 2023-08-04).\n* The user is planning to enroll in an Italian language course to reach a B1 proficiency level for citizenship requirements (as of 2023-08-17).\n* The user prefers books with complex themes, medieval-inspired settings, and magical worlds; they enjoy a mix of adventurous and emotional tones (as of 2023-08-19).\n* The user is considering using houseplants (such as Spider plants, Snake plants, Peace Lilies, Dracaena, Philodendron, Pothos, or ZZ plants) to improve indoor air quality and is moving away from using chemical-based air fresheners (as of 2023-10-26).\n* The user is interested in Bayesian probability and statistical modeling as a framework for evaluating beliefs (as of 2023-08-25).\n* The user values diverse perspectives in social groups and is interested in recruiting people with backgrounds in art and entrepreneurship for their book club.\n* The user believes that political flexibility and the ability to adapt to new challenges are essential for societal progress (as of 2023-09-25).\n* The user is adopting a conservative watering schedule for their indoor plants to avoid overwatering (as of 2023-10-10).\n* The user is beginning to integrate their journal entries into their creative writing process, specifically using entries (like the one from 2023-01-20 about a hidden garden) as seeds for poetry (as of 2023-10-12).\n* The user prefers to focus on one or two poets at a time while maintaining a \"poetry sampler\" for broader discovery (as of 2023-10-12).\n* The user intends to adopt more sustainable habits, such as using reusable bags, bottles, and containers, and avoiding single-use plastics (as of 2023-10-12).\n* The user prefers to encourage others to adopt sustainable practices by being a positive example rather than being preachy or judgmental (as of 2023-10-12).\n* The user prefers eco-friendly gift wrapping, such as reusable cloth bags, and is interested in adding natural elements like dried flowers or twine to gifts (as of 2023-10-14).\n* The user prefers media that features complex, multi-dimensional female characters and is actively seeking recommendations for shows that avoid gender stereotypes (as of 2023-10-14).\n* The user intends to prioritize Alaska Airlines for travel due to their new MVP Gold status (as of 2023-10-15).\n* The user is interested in exploring virtual theater performances and is looking for platforms like BroadwayHD and National Theatre at Home (as of 2023-10-19).\n* The user and their wife enjoy a mix of cosmopolitan travel and nature immersion, with a preference for local culture, fine dining, and gastro pubs (as of 2023-10-20).\n* The user is interested in Latin music and is exploring Spotify playlists (Viva Latino, Salsa Addiction, etc.) to support their dance practice (as of 2023-10-21).\n* The user is interested in mindfulness practices, including mindful breathing, body scan meditation, and mindful walking, as tools for emotional regulation (as of 2023-10-23).\n* The user is interested in critically acclaimed foreign cinema and is building a watchlist on MUBI (as of 2023-10-23).\n* The user is interested in branding and UI/UX design for their \"Virtual Divination\" app, preferring themes of mystery, magic, and spirituality (as of 2023-10-25).\n* The user is interested in Loving-Kindness (Metta) meditation and is learning how to practice it effectively (as of 2023-10-26).\n* The user is interested in interior design, specifically looking for area rugs with subtle patterns and neutral colors (like grey or beige) to complement their new living room furniture (as of 2023-10-26).\n* The user is interested in experimenting with unique herbs and spices (e.g., Shichimi togarashi, Berbere, Ras el hanout, Kaffir lime leaves, Sichuan pepper, Sumac, Ajwain, Grains of paradise, Paprika, Za'atar) to add depth to their cooking (as of 2023-10-26).\n\n### Ongoing situations and plans\n* The user is currently planning a walkthrough series for the game *Resident Evil Village*.\n* The user intends to research the game's lore and backstory to provide context for their viewers.\n* The user plans to structure their *Resident Evil Village* series into focused episodes, covering topics such as the setting, the mystery of the village, Ethan Winters' backstory, the four lords, game themes, and plot twists.\n* The user is exploring career prospects in Athlone, Ireland, specifically investigating roles in software development, network engineering, electronics engineering, data analysis, and project management.\n* The user is actively seeking resources to learn fingerpicking patterns for their guitar.\n* The user is in the early stages of songwriting for the ukulele and is researching how to incorporate harmonica parts into their compositions.\n* The user is currently engaged in an interactive role-playing session as \"Rachel,\" navigating a journey through the realm of Malkuth.\n* The user is planning a fantasy football draft party in Kansas City for 10 people, which will include a squares pool and a sports trivia game featuring general sports, football, and Premier League/European football questions (including Manchester City-specific content).\n* The user is planning a 10-day road trip from San Francisco to New York City in November 2023, during which they plan to cycle for 3-4 days.\n* The user is researching bike-friendly routes, bike shops, and accommodations with bike storage for their cross-country trip.\n* The user plans to use their new hybrid bike on the trip and is considering joining a guided mountain bike tour in Jackson Hole, WY.\n* The user is preparing their road bike for the trip by performing maintenance checks (tires, brakes, chain, gears, bolts, cables) and packing a tool kit.\n* The user is deciding whether to bring their clipless pedals or stick to platform pedals for the hybrid bike during the trip.\n* The user plans to donate their old running shoes.\n* The user plans to incorporate compound movements and resistance band exercises into their workout routine (since 2023-03-26).\n* The user plans to modify their diet to include more protein, fiber, and healthy fats, while reducing processed foods and carbs, to support their fitness goals (since 2023-03-26).\n* The user is planning a day out with their niece and nephew for the weekend of 2023-04-22/23, potentially visiting the Natural History Museum again.\n* The user is planning to try new recipes, specifically Grilled Chicken Fajitas and Chicken and Mango Salad, during the weekend of 2023-05-06/07.\n* The user is interested in experimenting with baked salmon recipes using new seasonings and marinades.\n* The user is considering investing in a new camera to get back into photography.\n* The user plans to prepare a Korean-style meal featuring BBQ chicken, Japchae noodles, kimchi, and a yogurt parfait with honey, granola, and fruit (as of 2023-06-16).\n* The user is planning to purchase a new yoga mat and a new swim cap.\n* The user plans to attend the Bordeaux Wine Festival and visit various wineries in the Bordeaux region (as of 2023-07-28).\n* The user is actively working on breaking the snooze button habit to improve their morning routine (as of 2023-08-04).\n* The user is researching the documentation and legal requirements for Italian citizenship, including the potential for a collateral line application (as of 2023-08-17).\n* The user is considering the possibility of living and working in the EU in the future, utilizing the freedom of movement granted by potential Italian citizenship.\n* The user plans to use their $25 bookstore gift card to purchase a new novel by their favorite author (J.K. Rowling) releasing in September 2023 (as of 2023-08-19).\n* The user is researching medieval-inspired fantasy series, specifically *The Kingkiller Chronicle* by Patrick Rothfuss, and exploring resources on mythology and folklore (as of 2023-08-19).\n* The user is planning to adjust their exercise and activity habits to avoid high-pollution areas or peak traffic times (as of 2023-08-25).\n* The user is organizing a new book club with Emily and plans to interview potential members (Rachel and Sophia) about their reading habits before extending formal invitations.\n* The user is setting up an indoor garden in their bedroom, including purchasing an 8-inch diameter planter and researching humidifiers (as of 2023-10-10).\n* The user is actively organizing their writing projects (poetry and novel) and plans to start by brainstorming and gathering ideas (as of 2023-10-12).\n* The user plans to read Mary Oliver's *Wild Geese* and Ada Limón's *The Carrying* as their first focus for poetry inspiration (as of 2023-10-12).\n* The user plans to start reducing their plastic waste by being more conscious of their consumption and encouraging friends and family to do the same (as of 2023-10-12).\n* The user plans to buy a handmade wooden jewelry box and a unique piece of jewelry (potentially from an antique or vintage store) for their mother's birthday (as of 2023-10-14).\n* The user plans to include a handwritten, heartfelt birthday message for their mother (as of 2023-10-14).\n* The user is interested in exploring the recommended TV shows (*The Handmaid's Tale*, *Orange is the New Black*, *Killing Eve*, *Jessica Jones*, *Big Little Lies*) to find better examples of female character representation (as of 2023-10-14).\n* The user is planning a trip to Hawaii (LAX to HNL) and is researching direct flights, specifically with Alaska Airlines, and hotel options in Waikiki Beach (as of 2023-10-15).\n* The user plans to redeem Chase Sapphire points for an award flight to Hawaii, likely by transferring them to British Airways Executive Club to book an Alaska Airlines flight (as of 2023-10-15).\n* The user plans to watch virtual theater performances via platforms like BroadwayHD and National Theatre at Home (as of 2023-10-19).\n* The user is planning a 7-day summer holiday for themselves and their wife, currently weighing options between the UK, Spain, and Italy (as of 2023-10-20).\n* The user is interested in learning bachata and plans to ask their salsa instructor, Maria, for recommendations on local classes, workshops, or events (as of 2023-10-21).\n* The user is considering incorporating consistent mindfulness practice into their daily routine to help manage stress and anxiety (as of 2023-10-23).\n* The user plans to watch *Portrait of a Lady on Fire* and explore other acclaimed foreign films on MUBI (as of 2023-10-23).\n* The user is actively developing a \"Virtual Divination\" app and is currently in the planning/requirements phase (as of 2023-10-25).\n* The user plans to explore resources on manifestation and the power of beliefs (as of 2023-10-26).\n* The user plans to actively engage with the RADA alumni community, attend networking events, and utilize RADAdvantage resources to support their career in theater and film (as of 2023-10-26).\n* The user plans to make a \"Cucumber Lime Refresher\" cocktail using their new favorite gin, garnished with a cucumber slice and a sprig of fresh mint (as of 2023-10-26).\n* The user plans to cook a vegan quinoa salad and is researching techniques for perfect, fluffy quinoa (as of 2023-10-26).\n* The user is currently researching area rugs for their living room, specifically looking for durable, high-traffic options with subtle, organic patterns (like botanical prints or natural fibers) to match their new dark grey couch and light beige curtains (as of 2023-10-26).\n\n### Changes over time\n* The user replaced their running shoes on 2023-02-10 (previously thought to be 2023-03-06).\n* The user now owns four bicycles (road, mountain, commuter, and hybrid) as of 2023-10-10; previously owned three.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   Under the \"Personal facts\" section, it is stated: \"The user owns four bicycles: a road bike, a mountain bike, a commuter bike, and a new hybrid bike (since 2023-10-10).\"\n    *   Under the \"Changes over time\" section, it is confirmed: \"The user now owns four bicycles (road, mountain, commuter, and hybrid) as of 2023-10-10; previously owned three.\"\n\n2.  **Reason over the information:**\n    *   The records explicitly state that as of October 10, 2023, the user increased their collection from three to four bicycles.\n    *   There is no information indicating any subsequent changes (sales, losses, or additional purchases) to the bicycle collection between October 10, 2023, and the current date of October 27, 2023.\n\n3.  **Conclusion:**\n    *   You currently own 4 bikes.",
+ "dump": "### Personal facts\n* The user is married (as of 2023-10-20).\n* The user is a RADA (Royal Academy of Dramatic Art) student/alumnus (as of 2023-10-26).\n* The user is interested in content creation, specifically recording gameplay walkthroughs.\n* The user is currently researching job opportunities in the technology and engineering sectors in Athlone, Ireland.\n* The user lives in Kansas City (since 2023-02-02).\n* The user is a fan of Manchester City Football Club.\n* The user plays the guitar and owns a Taylor GS Mini.\n* The user plays the ukulele and is interested in songwriting.\n* The user is interested in incorporating the harmonica into their music.\n* The user is interested in cybersecurity concepts, specifically the C-I-A Triad, digital signatures, threat modeling (interception, interruption, modification, fabrication), and various password-cracking attack vectors (as of 2023-10-11).\n* The user enjoys interactive, choice-based narrative games and role-playing as a character named \"Rachel.\"\n* The user values self-reflection and journaling as a method for personal growth and understanding one's own fears and insecurities (since 2023-01-31). The user has been journaling consistently every morning since 2023-01-15.\n* The user is an active hiker who recently completed a four-day trip to Yosemite National Park, including a hike to the top of Vernal Falls (as of 2023-02-18).\n* The user is a dedicated cyclist living in the San Francisco Bay Area (as of 2023-02-22).\n* The user owns four bicycles: a road bike, a mountain bike, a commuter bike, and a new hybrid bike (since 2023-10-10).\n* The user owns white sneakers (which they wear every Sunday) and brown loafers (which they wore to work daily from 2023-02-28 to 2023-03-03).\n* The user purchased new Nike running shoes on 2023-02-10.\n* The user is interested in fitness, specifically weightlifting and bodybuilding, with a goal of achieving a leaner, toned physique without becoming bulky (since 2023-03-26).\n* The user enjoys partying and social drinking (as of 2023-03-26).\n* The user has a niece and nephew with whom they enjoy spending time.\n* The user attended a guided tour at the Natural History Museum on 2023-04-15, where they were particularly impressed by a new Triceratops fossil and the guide, also named Rachel.\n* The user is actively working on improving their diet, focusing on cooking at home more often and packing lunches for work (as of 2023-05-01).\n* The user has been on a break from social media for three weeks (as of 2023-05-07).\n* The user is interested in getting back into reading and photography.\n* The user has an interest in software engineering documentation, specifically \"heavyweight\" use case modeling (as of 2023-05-07).\n* The user is interested in global politics and social issues, specifically expressing concern regarding the inclusivity of government policies and the potential for minority marginalization (as of 2023-06-03). The user maintains a strong interest in the evolution of social democratic parties and views their adaptability as a source of hope for social progress (as of 2023-09-25).\n* The user is deeply concerned about the human cost of war, the use of propaganda, and the reduction of human lives to political bargaining chips; they are skeptical about the current efforts of world leaders to break the cycle of warfare (as of 2023-10-10).\n* The user recently purchased a new set of kitchen utensils (on 2023-06-10), specifically finding the new silicone spatula to be a \"game-changer\" for their cooking.\n* The user follows the English Premier League closely and maintains an interest in player performance statistics.\n* The user has an interest in the transportation infrastructure and local attractions of Beaconsfield, UK (as of 2023-06-28).\n* The user is interested in swimming and is currently looking for a new swim cap that stays secure during flip turns.\n* The user is planning a trip to Bordeaux, France, and is interested in wine tasting and visiting local vineyards (as of 2023-07-28).\n* The user wakes up at 6:30 am daily but has been struggling with the habit of hitting the snooze button (as of 2023-08-04).\n* On 2023-08-07, the user reported observing a \"giant blue ball of flame\" approaching their home, expressing a sense of calm, serenity, and a belief that the fire is \"cleansing\" and \"pure.\"\n* The user is exploring Italian citizenship by descent (jure sanguinis) through their great-grandfather from Avellino, Campania, or potentially through his sibling (as of 2023-08-17).\n* The user has a cousin who recently became a naturalized Japanese citizen.\n* The user is an avid reader of fantasy and young adult fiction, with J.K. Rowling as their favorite author (as of 2023-08-19).\n* The user received a $25 bookstore gift card from their aunt for Easter (as of 2023-08-19).\n* The user is environmentally conscious and advocates for sustainable farming practices (as of 2023-08-23).\n* The user is concerned about indoor and outdoor air quality and is researching ways to mitigate their personal exposure to pollutants (as of 2023-08-25).\n* The user is interested in cryptocurrency and blockchain projects, specifically PulseChain (as of 2023-08-25).\n* The user met a person named Emily at a bookstore on 2023-09-15, with whom they bonded over a shared love for fiction.\n* The user is forming a new book club and is considering inviting Rachel (a barista) and Sophia (a graphic designer) to join.\n* The user recently started using cycling shoes with clipless pedals and is adjusting to them to improve pedaling efficiency (as of 2023-10-10).\n* The user is starting an indoor garden in their bedroom and is researching humidifiers with built-in humidistats and adjustable output (as of 2023-10-10).\n* The user is currently working on a poetry collection and a novel idea, drawing inspiration from their daily journal entries (as of 2023-10-12).\n* The user is committed to reducing their personal plastic waste and is actively seeking ways to incorporate sustainable, circular-economy habits into their daily life (as of 2023-10-12).\n* The user purchased a set of reusable cloth gift bags for $25 (as of 2023-10-14).\n* The user is exploring themes of guilt, repentance, and faith, and has expressed a desire to live their life for God (as of 2023-10-14).\n* The user is critical of the portrayal of female characters in media, specifically *Game of Thrones*, noting frustration with the reliance on tropes, stereotypes, and the objectification of women compared to their male counterparts (as of 2023-10-14).\n* The user holds a Chase Sapphire credit card and has been accumulating points.\n* The user has achieved MVP Gold status with Alaska Airlines due to increased travel frequency (as of 2023-10-15).\n* The user has an interest in modern theater and is exploring influential figures (like Lin-Manuel Miranda and Tony Kushner) and organizations (like the Royal Shakespeare Company and La MaMa Experimental Theatre Club) (as of 2023-10-19).\n* The user is currently investigating the term \"AutoMuse\" (as of 2023-10-20).\n* The user considers video conferencing tools to be a \"game-changer\" for distance learning and remote work (as of 2023-10-20).\n* The user has been taking salsa classes on Tuesday evenings for approximately six weeks (as of 2023-10-21).\n* The user has a salsa instructor named Maria (as of 2023-10-21).\n* The user has been practicing meditation consistently for two months (as of 2023-10-26).\n* The user recently had a conversation with their grandmother about her near-death experience, which has prompted the user to reflect on their own beliefs, values, and the concept of the afterlife (as of 2023-10-26).\n* The user is interested in the concept of manifestation and the power of beliefs in shaping reality (as of 2023-10-26).\n* The user is currently developing a web-based \"fortune teller\" application using Ruby on Rails and PostgreSQL (as of 2023-10-25).\n* The user is highly motivated to stay connected with their RADA alumni network and utilize resources like RADAdvantage to navigate the professional theater and film industry (as of 2023-10-26).\n* The user enjoys hosting dinner parties and has recently experimented with creating signature cocktails, such as a Cranberry Spritzer (as of 2023-10-26).\n* The user is currently experimenting with new flavor combinations in cooking, specifically using cucumber as a key ingredient (as of 2023-10-26).\n* The user has recently purchased a dark grey couch and is planning to purchase light beige curtains for their living room (as of 2023-10-26).\n\n### Preferences and habits\n* The user prefers free and highly customizable software, choosing OBS Studio over XSplit for recording gameplay.\n* The user is interested in narrative-driven content, planning to focus their walkthroughs on the story, characters, lore, and themes of the games they play.\n* The user values structured, episodic content to provide a comprehensive understanding of a game's narrative.\n* The user prefers Elixir strings for their acoustic guitar.\n* The user is currently developing a song concept based on the experience of a morning commute and the city waking up.\n* In gaming, the user prefers detailed environmental descriptions and branching narrative paths that offer meaningful choices.\n* The user enjoys hosting social events and is planning a fantasy football draft party for a group of 10 people.\n* The user enjoys outdoor activities, specifically hiking and scenic drives, and is comfortable with moderate inclines and distances.\n* The user is a serious cyclist who performs their own bike maintenance, including derailleur adjustments.\n* The user tracks their cycling metrics using a new bike computer and Strava.\n* The user is proactive about shoe maintenance and intends to use Jason Markk Sneaker Cleaner and waterproofing spray on their white sneakers.\n* The user is interested in learning how to polish leather shoes (specifically their brown loafers) using products like Kiwi, Allen Edmonds, Saphir Médaille d'Or, or Chamber's Leather Milk.\n* The user is adopting a fitness approach that includes compound movements, resistance bands, and HIIT to achieve a leaner look (since 2023-03-26).\n* The user is interested in \"flexible dieting\" and mindful cheat days to balance their fitness goals with their love for pizza and social drinking (since 2023-03-26).\n* The user appreciates immersive museum exhibit design, specifically lighting and display curation that creates a sense of wonder.\n* The user is consciously improving their snacking habits by keeping nuts and dried fruit at their desk and limiting weekend snacks to fruit and cheese plates.\n* The user is interested in incorporating protein balls and trail mix bars into their routine for energy.\n* The user is exploring new spices and seasonings (such as Mediterranean blends, lemon pepper, and smoky paprika) to enhance their home-cooked meals.\n* The user is currently focused on daily gratitude journaling and is looking for ways to stay engaged and productive during their social media break.\n* The user is interested in reading fiction, specifically showing interest in *The Vanishing Half* by Brit Bennett, *The Silent Patient* by Alex Michaelides, *The Night Circus* by Erin Morgenstern, and *The Nightingale* by Kristin Hannah.\n* The user is analytical regarding user experience (UX) design, specifically for platforms like Reddit and Steam, valuing navigation, community engagement, and library management.\n* The user values equity, inclusion, and non-discrimination in political and social policy (as of 2023-06-03).\n* The user is actively cooking at home and recently cleaned their oven (as of 2023-06-10).\n* The user is interested in trying Korean cuisine, specifically Korean-Style BBQ Chicken, Japchae noodles, and kimchi.\n* The user is interested in yoga and is researching mats with high grip, specifically considering the Manduka eKO SuperLite.\n* The user is interested in Speedo and TYR swim caps, specifically those with anti-fog and UV protection features.\n* The user is interested in French cuisine and wine pairings (as of 2023-07-28).\n* The user is establishing a morning routine that includes a 20-minute bodyweight circuit (squats, push-ups, lunges, planks, etc.) and is planning to prep oatmeal with banana and honey the night before to ensure they eat breakfast (as of 2023-08-04).\n* The user is planning to enroll in an Italian language course to reach a B1 proficiency level for citizenship requirements (as of 2023-08-17).\n* The user prefers books with complex themes, medieval-inspired settings, and magical worlds; they enjoy a mix of adventurous and emotional tones (as of 2023-08-19).\n* The user is considering using houseplants (such as Spider plants, Snake plants, Peace Lilies, Dracaena, Philodendron, Pothos, or ZZ plants) to improve indoor air quality and is moving away from using chemical-based air fresheners (as of 2023-10-26).\n* The user is interested in Bayesian probability and statistical modeling as a framework for evaluating beliefs (as of 2023-08-25).\n* The user values diverse perspectives in social groups and is interested in recruiting people with backgrounds in art and entrepreneurship for their book club.\n* The user believes that political flexibility and the ability to adapt to new challenges are essential for societal progress (as of 2023-09-25).\n* The user is adopting a conservative watering schedule for their indoor plants to avoid overwatering (as of 2023-10-10).\n* The user is beginning to integrate their journal entries into their creative writing process, specifically using entries (like the one from 2023-01-20 about a hidden garden) as seeds for poetry (as of 2023-10-12).\n* The user prefers to focus on one or two poets at a time while maintaining a \"poetry sampler\" for broader discovery (as of 2023-10-12).\n* The user intends to adopt more sustainable habits, such as using reusable bags, bottles, and containers, and avoiding single-use plastics (as of 2023-10-12).\n* The user prefers to encourage others to adopt sustainable practices by being a positive example rather than being preachy or judgmental (as of 2023-10-12).\n* The user prefers eco-friendly gift wrapping, such as reusable cloth bags, and is interested in adding natural elements like dried flowers or twine to gifts (as of 2023-10-14).\n* The user prefers media that features complex, multi-dimensional female characters and is actively seeking recommendations for shows that avoid gender stereotypes (as of 2023-10-14).\n* The user intends to prioritize Alaska Airlines for travel due to their new MVP Gold status (as of 2023-10-15).\n* The user is interested in exploring virtual theater performances and is looking for platforms like BroadwayHD and National Theatre at Home (as of 2023-10-19).\n* The user and their wife enjoy a mix of cosmopolitan travel and nature immersion, with a preference for local culture, fine dining, and gastro pubs (as of 2023-10-20).\n* The user is interested in Latin music and is exploring Spotify playlists (Viva Latino, Salsa Addiction, etc.) to support their dance practice (as of 2023-10-21).\n* The user is interested in mindfulness practices, including mindful breathing, body scan meditation, and mindful walking, as tools for emotional regulation (as of 2023-10-23).\n* The user is interested in critically acclaimed foreign cinema and is building a watchlist on MUBI (as of 2023-10-23).\n* The user is interested in branding and UI/UX design for their \"Virtual Divination\" app, preferring themes of mystery, magic, and spirituality (as of 2023-10-25).\n* The user is interested in Loving-Kindness (Metta) meditation and is learning how to practice it effectively (as of 2023-10-26).\n* The user is interested in interior design, specifically looking for area rugs with subtle patterns and neutral colors (like grey or beige) to complement their new living room furniture (as of 2023-10-26).\n* The user is interested in experimenting with unique herbs and spices (e.g., Shichimi togarashi, Berbere, Ras el hanout, Kaffir lime leaves, Sichuan pepper, Sumac, Ajwain, Grains of paradise, Paprika, Za'atar) to add depth to their cooking (as of 2023-10-26).\n\n### Ongoing situations and plans\n* The user is currently planning a walkthrough series for the game *Resident Evil Village*.\n* The user intends to research the game's lore and backstory to provide context for their viewers.\n* The user plans to structure their *Resident Evil Village* series into focused episodes, covering topics such as the setting, the mystery of the village, Ethan Winters' backstory, the four lords, game themes, and plot twists.\n* The user is exploring career prospects in Athlone, Ireland, specifically investigating roles in software development, network engineering, electronics engineering, data analysis, and project management.\n* The user is actively seeking resources to learn fingerpicking patterns for their guitar.\n* The user is in the early stages of songwriting for the ukulele and is researching how to incorporate harmonica parts into their compositions.\n* The user is currently engaged in an interactive role-playing session as \"Rachel,\" navigating a journey through the realm of Malkuth.\n* The user is planning a fantasy football draft party in Kansas City for 10 people, which will include a squares pool and a sports trivia game featuring general sports, football, and Premier League/European football questions (including Manchester City-specific content).\n* The user is planning a 10-day road trip from San Francisco to New York City in November 2023, during which they plan to cycle for 3-4 days.\n* The user is researching bike-friendly routes, bike shops, and accommodations with bike storage for their cross-country trip.\n* The user plans to use their new hybrid bike on the trip and is considering joining a guided mountain bike tour in Jackson Hole, WY.\n* The user is preparing their road bike for the trip by performing maintenance checks (tires, brakes, chain, gears, bolts, cables) and packing a tool kit.\n* The user is deciding whether to bring their clipless pedals or stick to platform pedals for the hybrid bike during the trip.\n* The user plans to donate their old running shoes.\n* The user plans to incorporate compound movements and resistance band exercises into their workout routine (since 2023-03-26).\n* The user plans to modify their diet to include more protein, fiber, and healthy fats, while reducing processed foods and carbs, to support their fitness goals (since 2023-03-26).\n* The user is planning a day out with their niece and nephew for the weekend of 2023-04-22/23, potentially visiting the Natural History Museum again.\n* The user is planning to try new recipes, specifically Grilled Chicken Fajitas and Chicken and Mango Salad, during the weekend of 2023-05-06/07.\n* The user is interested in experimenting with baked salmon recipes using new seasonings and marinades.\n* The user is considering investing in a new camera to get back into photography.\n* The user plans to prepare a Korean-style meal featuring BBQ chicken, Japchae noodles, kimchi, and a yogurt parfait with honey, granola, and fruit (as of 2023-06-16).\n* The user is planning to purchase a new yoga mat and a new swim cap.\n* The user plans to attend the Bordeaux Wine Festival and visit various wineries in the Bordeaux region (as of 2023-07-28).\n* The user is actively working on breaking the snooze button habit to improve their morning routine (as of 2023-08-04).\n* The user is researching the documentation and legal requirements for Italian citizenship, including the potential for a collateral line application (as of 2023-08-17).\n* The user is considering the possibility of living and working in the EU in the future, utilizing the freedom of movement granted by potential Italian citizenship.\n* The user plans to use their $25 bookstore gift card to purchase a new novel by their favorite author (J.K. Rowling) releasing in September 2023 (as of 2023-08-19).\n* The user is researching medieval-inspired fantasy series, specifically *The Kingkiller Chronicle* by Patrick Rothfuss, and exploring resources on mythology and folklore (as of 2023-08-19).\n* The user is planning to adjust their exercise and activity habits to avoid high-pollution areas or peak traffic times (as of 2023-08-25).\n* The user is organizing a new book club with Emily and plans to interview potential members (Rachel and Sophia) about their reading habits before extending formal invitations.\n* The user is setting up an indoor garden in their bedroom, including purchasing an 8-inch diameter planter and researching humidifiers (as of 2023-10-10).\n* The user is actively organizing their writing projects (poetry and novel) and plans to start by brainstorming and gathering ideas (as of 2023-10-12).\n* The user plans to read Mary Oliver's *Wild Geese* and Ada Limón's *The Carrying* as their first focus for poetry inspiration (as of 2023-10-12).\n* The user plans to start reducing their plastic waste by being more conscious of their consumption and encouraging friends and family to do the same (as of 2023-10-12).\n* The user plans to buy a handmade wooden jewelry box and a unique piece of jewelry (potentially from an antique or vintage store) for their mother's birthday (as of 2023-10-14).\n* The user plans to include a handwritten, heartfelt birthday message for their mother (as of 2023-10-14).\n* The user is interested in exploring the recommended TV shows (*The Handmaid's Tale*, *Orange is the New Black*, *Killing Eve*, *Jessica Jones*, *Big Little Lies*) to find better examples of female character representation (as of 2023-10-14).\n* The user is planning a trip to Hawaii (LAX to HNL) and is researching direct flights, specifically with Alaska Airlines, and hotel options in Waikiki Beach (as of 2023-10-15).\n* The user plans to redeem Chase Sapphire points for an award flight to Hawaii, likely by transferring them to British Airways Executive Club to book an Alaska Airlines flight (as of 2023-10-15).\n* The user plans to watch virtual theater performances via platforms like BroadwayHD and National Theatre at Home (as of 2023-10-19).\n* The user is planning a 7-day summer holiday for themselves and their wife, currently weighing options between the UK, Spain, and Italy (as of 2023-10-20).\n* The user is interested in learning bachata and plans to ask their salsa instructor, Maria, for recommendations on local classes, workshops, or events (as of 2023-10-21).\n* The user is considering incorporating consistent mindfulness practice into their daily routine to help manage stress and anxiety (as of 2023-10-23).\n* The user plans to watch *Portrait of a Lady on Fire* and explore other acclaimed foreign films on MUBI (as of 2023-10-23).\n* The user is actively developing a \"Virtual Divination\" app and is currently in the planning/requirements phase (as of 2023-10-25).\n* The user plans to explore resources on manifestation and the power of beliefs (as of 2023-10-26).\n* The user plans to actively engage with the RADA alumni community, attend networking events, and utilize RADAdvantage resources to support their career in theater and film (as of 2023-10-26).\n* The user plans to make a \"Cucumber Lime Refresher\" cocktail using their new favorite gin, garnished with a cucumber slice and a sprig of fresh mint (as of 2023-10-26).\n* The user plans to cook a vegan quinoa salad and is researching techniques for perfect, fluffy quinoa (as of 2023-10-26).\n* The user is currently researching area rugs for their living room, specifically looking for durable, high-traffic options with subtle, organic patterns (like botanical prints or natural fibers) to match their new dark grey couch and light beige curtains (as of 2023-10-26).\n\n### Changes over time\n* The user replaced their running shoes on 2023-02-10 (previously thought to be 2023-03-06).\n* The user now owns four bicycles (road, mountain, commuter, and hybrid) as of 2023-10-10; previously owned three.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 427.3,
+  "total": 469.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

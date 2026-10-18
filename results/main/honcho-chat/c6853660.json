@@ -1,0 +1,100 @@
+{
+ "qid": "c6853660",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+ "reference": "You increased the limit (from one cup to two cups)",
+ "question_date": "2023-06-11 21:37",
+ "sessions": [
+  {
+   "id": "answer_626e93c4_1",
+   "date": "2023-05-25 12:35",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_MhyIwuj_11",
+   "date": "2023-05-26 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_626e93c4_2",
+   "date": "2023-05-26 19:25",
+   "evidence": true
+  },
+  {
+   "id": "e9ce6ef0",
+   "date": "2023-05-28 11:33",
+   "evidence": false
+  },
+  {
+   "id": "cf6f69a1",
+   "date": "2023-06-02 09:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vvCtAZS_0",
+   "date": "2023-06-03 05:57",
+   "evidence": false
+  },
+  {
+   "id": "c592e82c_2",
+   "date": "2023-06-03 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_435535",
+   "date": "2023-06-05 21:41",
+   "evidence": false
+  },
+  {
+   "id": "997bf2fb",
+   "date": "2023-06-06 06:06",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84322",
+   "date": "2023-06-09 00:06",
+   "evidence": false
+  }
+ ],
+ "context": "You most recently **increased** your limit on the number of cups of coffee in the morning.\n\nAccording to your memory:\n*   On **2023-05-25**, you reduced your intake to one cup in the morning.\n*   On **2023-05-26**, you subsequently increased your morning coffee consumption limit to two cups.",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history states: \"You most recently **increased** your limit on the number of cups of coffee in the morning.\"\n*   Historical data points:\n    *   2023-05-25: Reduced to one cup.\n    *   2023-05-26: Increased to two cups.\n\n**Step 2: Reason over the information**\n*   The most recent action recorded in the history regarding the limit is an increase.\n*   Comparing the dates, the increase on 2023-05-26 is the final recorded change in the provided history.\n\n**Conclusion:**\nYou most recently **increased** the limit on the number of cups of coffee in the morning.",
+ "dump": "- [explicit] user has switched to a darker roast of coffee.\n- [explicit] user currently uses a French press to brew coffee.\n- [explicit] user is considering returning to using a drip coffee maker.\n- [explicit] user has reduced their coffee intake to one cup in the morning.\n- [explicit] user is trying to make their morning routine more efficient.\n- [explicit] user intends to invest in a milk frother to improve the quality of lattes.\n- [explicit] user is seeking recommendations for coffee sweeteners that dissolve well.\n- [explicit] user has been struggling to produce proper foam with a current coffee setup.\n- [explicit] user requires a milk frother that is easy to use and easy to clean.\n- [explicit] user dislikes the aftertaste of stevia.\n- [explicit] user uses stevia as a sweetener in coffee.\n- [explicit] user spent 20 minutes watching YouTube videos during a break on 2023-05-24.\n- [explicit] user is working on making their morning routine more intentional.\n- [explicit] user reads, catches up on emails, or sits outside to enjoy the fresh air during their morning routine.\n- [explicit] user seeks to establish guidelines for determining the complexity of an appraisal property.\n- [explicit] user aims to develop a checklist of characteristics indicative of a complex property that uses clear, concise, and objective criteria.\n- [explicit] user requested additional questions for the five factors related to identifying characteristics of a complex property.\n- [explicit] user requested that the checklist for complex properties be formatted as a table.\n- [explicit] user is considering a drip coffee maker.\n- [explicit] user wants to try a French press coffee brewing method.\n- [explicit] user is considering changing their morning coffee limit to two cups.\n- [explicit] user currently uses a drip coffee maker.\n- [explicit] user has been using a darker roast of coffee lately.\n- [explicit] user intends to try the French press method for brewing coffee.\n- [explicit] user is interested in using a French press to make a coffee concentrate for lattes.\n- [explicit] user possesses a darker roast of coffee.\n- [explicit] user is considering using stevia or honey as sweeteners in their coffee.\n- [explicit] user uses a darker roast for the French press method.\n- [explicit] user has increased their morning coffee consumption limit to two cups.\n- [explicit] user is interested in trying a new herbal tea to help with sleep.\n- [explicit] user is seeking recommendations for calming teas to consume before bed.\n- [explicit] user went on a hike in Yellowstone National Park approximately three weeks before 2023-05-28.\n- [explicit] user hiked to the top of a hill in Yellowstone National Park.\n- [explicit] user is planning a road trip to the North Cascades National Park in Washington state.\n- [explicit] user requested contact information for Ross Lake Resort, specifically their phone number and email address.\n- [explicit] user is inquiring about the availability of group accommodations at Ross Lake Resort.\n- [explicit] user is considering inviting friends to join a trip to North Cascades National Park.\n- [explicit] user is interested in the occupancy capacity of Ross Lake Resort cabins.\n- [explicit] user went on a road trip to Yellowstone three weeks prior to 2023-05-28.\n- [explicit] user possesses a pair of hiking boots that they perceive as becoming worn out.\n- [explicit] user plans to inspect their hiking boots to determine if they are in good condition for an upcoming trip.\n- [explicit] user wore their hiking boots three weeks prior to 2023-05-28.\n- [explicit] user is considering replacing or repairing their hiking boots before their upcoming trip.\n- [explicit] user intends to try making homemade pasta from scratch.\n- [explicit] user has been craving Italian food.\n- [explicit] user is interested in authentic Italian recipes from cookbooks or websites.\n- [explicit] user identifies as a beginner at making pasta from scratch.\n- [explicit] user considers the Spaghetti Carbonara at Bella Vita to be amazing.\n- [explicit] user liked the creaminess of the sauce in the Spaghetti Carbonara at Bella Vita.\n- [explicit] user ate Spaghetti Carbonara at a restaurant called Bella Vita on the weekend of May 27-28, 2023.\n- [explicit] user liked the freshness of the parsley in the Spaghetti Carbonara at Bella Vita.\n- [explicit] user is interested in authentic recipes for Korean dishes.\n- [explicit] user intends to try making Japchae.\n- [explicit] user is seeking recommendations for Korean cookbooks or websites.\n- [explicit] user is requesting recommendations for Korean cookbooks that focus on Kimchi recipes.\n- [explicit] user intends to make Kimchi at home.\n- [explicit] user is seeking tips on how to make good Kimchi.\n- [explicit] user has enthusiasm for making kimchi.\n- [explicit] user is interested in brainstorming a detailed comprehensive leave management system.\n- [explicit] user is planning a trip to Tokyo, Japan in late November 2023.\n- [explicit] user visited New York City in early May 2023.\n- [explicit] user is considering staying in the Shinjuku area of Tokyo.\n- [explicit] user is looking for recommendations for traditional desserts or cafes in Shinjuku.\n- [explicit] user is interested in trying authentic Japanese desserts.\n- [explicit] user is interested in learning about seasonal Japanese desserts available in late November.\n- [explicit] user intends to visit Japan in late November 2023.\n- [explicit] user intends to visit Shinjuku in late November.\n- [explicit] user plans to visit the Shinjuku Gyoen National Garden to see autumn leaves.\n- [explicit] user finds the influence of psychoanalytic theorists on psychology to be impressive.\n- [explicit] user is interested in the contributors and history of psychoanalytic theory.\n- [explicit] user is interested in the potential for psychoanalytic theory to address social justice issues.\n- [explicit] user supports the expansion of psychoanalytic theory into non-clinical settings.\n- [explicit] user finds it interesting that psychoanalytic theory has adapted to neuroscience and new research findings.\n- [explicit] user feels that psychoanalytic theory is currently intended only for the elite or wealthy.\n- [explicit] user hopes that psychoanalytic theory becomes more accessible to a wider group of people.\n- [explicit] user is planning a movie marathon with family for the upcoming long weekend.\n- [explicit] user has spent 43 hours and 12 minutes watching movies in the 3 months leading up to 2023-06-06.\n- [explicit] user is a fan of Marvel movies.\n- [explicit] user intends to watch The Lion King.\n- [explicit] user watched 4 Marvel Cinematic Universe films in the 3 months leading up to 2023-06-06.\n- [explicit] user watched 12 movies in the 3 months leading up to 2023-06-06.\n- [explicit] user recently watched Spider-Man: Homecoming.\n- [explicit] user recently watched the Iron Man series.\n- [explicit] user recently watched Spider-Man: Far From Home.\n- [explicit] user is interested in classic sci-fi movies that explore the theme of time travel.\n- [explicit] user has watched 12 movies total.\n- [explicit] user has watched 4 Marvel Cinematic Universe films.\n- [explicit] user intends to re-watch the movie Back to the Future.\n- [explicit] user is interested in receiving advice on how to navigate uncertain economic times as an investor.\n- [explicit] user is interested in information regarding the current state of the global economy and geopolitical risks impacting financial markets.\n- [explicit] user intends to diversify their investment portfolio.\n- [explicit] user is seeking specific recommendations for asset classes or regions in which to invest.\n- [deductive] user is an active movie consumer, having watched 12 films in a 3-month period.\n- [deductive] user values investment portfolio management and risk mitigation amidst economic uncertainty.\n- [inductive] user shows a strong preference for the Marvel Cinematic Universe within their broader movie-watching habits.\n- [inductive] user demonstrates a consistent interest in investment portfolio management, particularly regarding risk mitigation and asset diversification during periods of economic uncertainty.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 106.5,
+  "total": 108.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "41698283",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What type of camera lens did I purchase most recently?",
+ "reference": "a 70-200mm zoom lens",
+ "question_date": "2023-09-21 08:41",
+ "sessions": [
+  {
+   "id": "a68db5db_1",
+   "date": "2023-02-18 02:10",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FOYwfdK_0",
+   "date": "2023-02-23 19:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_u80Un0X_0",
+   "date": "2023-02-26 00:32",
+   "evidence": false
+  },
+  {
+   "id": "answer_c7ddc051_1",
+   "date": "2023-03-11 03:12",
+   "evidence": true
+  },
+  {
+   "id": "28e948f5",
+   "date": "2023-03-23 23:17",
+   "evidence": false
+  },
+  {
+   "id": "47a2bd5a_1",
+   "date": "2023-04-09 09:44",
+   "evidence": false
+  },
+  {
+   "id": "5fb7fd18_1",
+   "date": "2023-04-28 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_VKI7cuJ_0",
+   "date": "2023-06-26 03:12",
+   "evidence": false
+  },
+  {
+   "id": "7439f497_2",
+   "date": "2023-08-02 14:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_c7ddc051_2",
+   "date": "2023-08-30 14:23",
+   "evidence": true
+  }
+ ],
+ "context": "- User recently acquired a 50mm prime lens and is pleased with its performance. (from a chat on 2023-03-11)\n- User recently acquired a 70-200mm zoom lens and is very pleased with the results, having used it for portrait shots and at a local park. (from a chat on 2023-08-30)\n- User decided to purchase the Think Tank Urban Disguise 40L camera bag for its sleek design and versatility, which suits their street and travel photography style. (from a chat on 2023-08-30)\n- User is researching camera bags and comparing the Lowepro ProTactic 450 AW and the Think Tank Urban Disguise 40L for their Nikon D5600 and lens kit. (from a chat on 2023-03-11)\n- User recently purchased a Kryptonite U-Lock, which they find compact, lightweight, and easy to use for securing their bike. (from a chat on 2023-04-09)\n- User is interested in baking savory breads and has been experimenting with different types of flour, specifically using bread flour from Bob's Red Mill for a Rosemary and Olive Oil Focaccia recipe. (from a chat on 2023-06-26)\n- User is considering adding a wide-angle lens, specifically a 14-24mm or 16-35mm, to complement their 70-200mm zoom lens for landscape and cityscape photography. (from a chat on 2023-08-30)\n- User is considering upgrading their camera body to a full-frame model, specifically the Nikon Z6, in the future. (from a chat on 2023-03-11)\n- User owns a Honda Civic and is planning to purchase a Saris Bones 2-Bike Trunk Rack for it. (from a chat on 2023-04-09)\n- User was advised that a heavier tripod improves stability by reducing camera shake and resisting wind, but must be balanced against portability needs. (from a chat on 2023-08-30)\n- User was provided with a comparison of the Lowepro ProTactic 450 AW (rugged, modular) and the Think Tank Urban Disguise 40L (sleek, discreet) to help with their camera bag selection. (from a chat on 2023-08-30)\n- User specializes in portrait and low-light photography and is currently experiencing manual focus issues with their 18-55mm kit lens. (from a chat on 2023-03-11)\n- User rides a road bike and recently achieved a personal best of 60 miles at an average speed of 18.5 mph during the weekend of April 1-2, 2023. (from a chat on 2023-04-09)\n- User is seeking savory bread recipes to diversify their baking, having recently enjoyed sourdough bread with butter. (from a chat on 2023-04-28)\n- User was advised on the creative differences between 14-24mm (ultra-wide, dramatic) and 16-35mm (versatile) lenses for landscape and cityscape photography. (from a chat on 2023-08-30)\n- User recently went through a divorce and changed her name from Emily Wilson (formerly married to John Wilson) to Emily Rose Thompson. (from a chat on 2023-03-23)\n- User was provided with key features to look for in a tripod head, including quick-release plates, friction control, pan/tilt locks, bubble levels, and load capacity. (from a chat on 2023-08-30)\n- User was advised that upgrading from an APS-C sensor (Nikon D5600) to a full-frame sensor (Nikon Z6 or Canon EOS R) offers better low-light performance, dynamic range, and depth of field control. (from a chat on 2023-08-30)\n- User was recommended the Nikon MC-36a, CamRanger, Hahnel Captur, and Vello RS-N2II as options for a remote shutter release for their Nikon D5600. (from a chat on 2023-03-11)\n- User is interested in neutral density filters and was recommended brands including B+W, Hoya, Tiffen, NiSi, and Singh-Ray. (from a chat on 2023-03-11)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   On 2023-03-11, the user mentioned acquiring a 50mm prime lens.\n*   On 2023-08-30, the user mentioned recently acquiring a 70-200mm zoom lens.\n*   On 2023-08-30, the user mentioned they are currently *considering* adding a wide-angle lens (14-24mm or 16-35mm) in the future, but have not purchased one yet.\n\n**2. Reason over the information:**\n*   Comparing the dates of the acquisitions, the 50mm prime lens was acquired in March 2023.\n*   The 70-200mm zoom lens was acquired in August 2023.\n*   Since August 2023 is more recent than March 2023, the 70-200mm zoom lens is the most recent purchase.\n\n**Answer:**\nThe most recent camera lens you purchased is a 70-200mm zoom lens.",
+ "dump": "- User is considering adding a wide-angle lens, specifically a 14-24mm or 16-35mm, to complement their 70-200mm zoom lens for landscape and cityscape photography. (session 2023-08-30)\n- User was recommended the Nikon MC-36a, CamRanger, Hahnel Captur, and Vello RS-N2II as options for a remote shutter release for their Nikon D5600. (session 2023-03-11)\n- User is looking to replace their worn-out Manfrotto BeFree tripod and was recommended the Gitzo GT3543LS, Really Right Stuff TVC-34L, Manfrotto MT057CXPRO4, and Davis & Sanford Travel Tripod. (session 2023-03-11)\n- User rides a road bike and recently achieved a personal best of 60 miles at an average speed of 18.5 mph during the weekend of April 1-2, 2023. (session 2023-04-09)\n- User recently acquired a 50mm prime lens and is pleased with its performance. (session 2023-03-11)\n- User was advised that a heavier tripod improves stability by reducing camera shake and resisting wind, but must be balanced against portability needs. (session 2023-08-30)\n- User was provided with tips for viewing the 'Believe! Sea of Dreams' show at Tokyo DisneySea, including arriving 30-60 minutes early, choosing spots in Mediterranean Harbor, or booking reserved viewing areas or harbor-view restaurants. (session 2023-08-02)\n- User was provided with detailed instructions on how to clean and lubricate a rusty bike chain, including using a chain cleaner, brush, and appropriate chain lube. (session 2023-04-09)\n- User was provided with detailed GIMP instructions for color and lighting matching, including using Levels, Color Balance, Colorize, Drop Shadow, Dodge and Burn, layer blending modes, and Lighting Effects filters. (session 2023-02-23)\n- User is interested in incorporating fresh berries into their cooking and was inspired by a conversation with a jam maker at a farmer's market on February 4, 2023. (session 2023-02-18)\n- User specializes in portrait and low-light photography and is currently experiencing manual focus issues with their 18-55mm kit lens. (session 2023-03-11)\n- User was provided with advice on building meaningful relationships with new acquaintances, emphasizing follow-up, consistency, and genuine interest. (session 2023-02-18)\n- User was provided with recommendations for bike racks compatible with a Honda Civic, including hitch-mounted, trunk-mounted, and roof-mounted options from Thule, Saris, and Yakima. (session 2023-04-09)\n- User was provided with various recipe ideas for fresh berries, including breakfast items, desserts, savory dishes, and beverages. (session 2023-02-18)\n- User was provided with key features to look for in a tripod head, including quick-release plates, friction control, pan/tilt locks, bubble levels, and load capacity. (session 2023-08-30)\n- User is considering upgrading their camera body to a full-frame model, specifically the Nikon Z6, in the future. (session 2023-03-11)\n- User recently purchased a Kryptonite U-Lock, which they find compact, lightweight, and easy to use for securing their bike. (session 2023-04-09)\n- User is training for an upcoming 40-mile charity ride. (session 2023-04-09)\n- User was recommended King Arthur Flour's Classic Sourdough Recipe as a suitable starting point for beginners. (session 2023-06-26)\n- User was advised on the creative differences between 14-24mm (ultra-wide, dramatic) and 16-35mm (versatile) lenses for landscape and cityscape photography. (session 2023-08-30)\n- User has visited Tokyo DisneySea before and has ridden the 'Indiana Jones Adventure' rollercoaster five times. (session 2023-08-02)\n- User requested three multiple-choice questions about cloud formation that intentionally violate standard assessment design best practices, such as using non-congruent options and implausible distractors. (session 2023-06-26)\n- User is seeking savory bread recipes to diversify their baking, having recently enjoyed sourdough bread with butter. (session 2023-04-28)\n- User was provided with a comparison between Gitzo and Really Right Stuff (RRS) tripods, noting that Gitzo is known for Italian design and portability, while RRS is known for American-made durability and stability. (session 2023-08-30)\n- User received advice on achieving a lighter, airier sourdough crumb, including using a healthy starter, maintaining 75-78°F fermentation temperatures, using 70-80% hydration, and using gentle folding techniques to avoid overmixing. (session 2023-04-28)\n- User is in the process of updating her online presence and physical records, including her Social Security card, passport, driver's license, and alma mater records, following her name change. (session 2023-03-23)\n- User decided to purchase the Think Tank Urban Disguise 40L camera bag for its sleek design and versatility, which suits their street and travel photography style. (session 2023-08-30)\n- User was provided with strategies for expressing gratitude to those who have helped them, such as writing thank-you notes, offering help in return, or providing public acknowledgment. (session 2023-02-18)\n- User recently acquired a 70-200mm zoom lens and is very pleased with the results, having used it for portrait shots and at a local park. (session 2023-08-30)\n- User is interested in neutral density filters and was recommended brands including B+W, Hoya, Tiffen, NiSi, and Singh-Ray. (session 2023-03-11)\n- User was informed that Universal Studios Japan typically offers a modified winter-themed version of their Haunted House attraction from late November to February. (session 2023-08-02)\n- User is interested in baking savory breads and has been experimenting with different types of flour, specifically using bread flour from Bob's Red Mill for a Rosemary and Olive Oil Focaccia recipe. (session 2023-06-26)\n- User is planning a trip to Tokyo DisneySea in December 2023 for the 'Christmas Fantasy' event. (session 2023-08-02)\n- User is planning to host a dinner party soon and intends to experiment with jam and cheese pairings as part of the menu. (session 2023-02-18)\n- User was provided with a comprehensive guide for planning a dinner party, covering guest lists, menu planning, atmosphere, and logistics. (session 2023-02-18)\n- User was provided with guidelines for pairing jam with cheese and crackers, including classic combinations and tips for experimenting with unconventional flavors. (session 2023-02-18)\n- User was provided with tips for updating a LinkedIn profile, including updating the name, reviewing education and work experience, and notifying professional connections. (session 2023-03-23)\n- User was provided with a comprehensive checklist for updating online accounts (personal, financial, professional) and physical documents (Social Security, passport, DMV) after a name change. (session 2023-03-23)\n- User is researching camera bags and comparing the Lowepro ProTactic 450 AW and the Think Tank Urban Disguise 40L for their Nikon D5600 and lens kit. (session 2023-03-11)\n- User was recommended several savory bread recipes: Rosemary and Olive Oil Focaccia, Cheesy Garlic Ciabatta, Kalamata Olive and Thyme Bread, Sundried Tomato and Basil Bread, and Rye and Caraway Seed Bread. (session 2023-04-28)\n- User has a bag of Bob's Red Mill bread flour and intends to use it for their focaccia and sourdough baking experiments. (session 2023-04-28)\n- User was informed about winter festivities at Universal Studios Japan, including the 'Universal Christmas' event, artificial snowfall, ice skating, and winter-themed makeovers for attractions. (session 2023-08-02)\n- User was informed that Universal Studios Japan offers exclusive winter-themed merchandise, including ornaments, seasonal souvenirs, character plush toys in winter attire, and holiday-themed apparel. (session 2023-08-02)\n- User was provided with a comparison of the Lowepro ProTactic 450 AW (rugged, modular) and the Think Tank Urban Disguise 40L (sleek, discreet) to help with their camera bag selection. (session 2023-08-30)\n- User is working on perfecting their sourdough technique and identified that they may have been overmixing the dough, leading to a desire to be more gentle with mixing and folding. (session 2023-06-26)\n- User is planning to visit Universal Studios Japan during the winter season and inquired about the availability of their Haunted House attraction. (session 2023-08-02)\n- User met a personal trainer at the gym around February 15, 2023, and plans to reach out to her to build a connection. (session 2023-02-18)\n- User met a woman at a networking event in January 2023 who provided valuable professional insights and resources that helped the user in their job. (session 2023-02-18)\n- User owns a Honda Civic and is planning to purchase a Saris Bones 2-Bike Trunk Rack for it. (session 2023-04-09)\n- User was advised that updating an alma mater typically requires a certified copy of a name change decree or court order, such as a divorce decree, and potentially a government-issued ID. (session 2023-03-23)\n- User was recommended several shows and events for Tokyo DisneySea's 'Christmas Fantasy', including the 'Believe! Sea of Dreams' nighttime show, the 'Christmas Fantasy' parade, 'A Table is Waiting', and various character meet-and-greets. (session 2023-08-02)\n- User has previously visited Universal Studios Japan and enjoyed the 'Mummy's Revenge' rollercoaster during a Halloween event. (session 2023-08-02)\n- User recently went through a divorce and changed her name from Emily Wilson (formerly married to John Wilson) to Emily Rose Thompson. (session 2023-03-23)\n- User rides a Trek Emonda road bike. (session 2023-04-09)\n- User plans to bake Rosemary and Olive Oil Focaccia and received tips on handling fresh rosemary, including using 2-3 sprigs (2-3 tablespoons chopped) and distributing it evenly during the initial mixing phase. (session 2023-04-28)\n- User was recommended King Arthur Flour's Classic Sourdough Recipe as a beginner-friendly option that uses simple ingredients and allows for a flexible schedule. (session 2023-04-28)\n- User was advised to merge layers in GIMP only after being satisfied with adjustments, and to always keep duplicate copies of original layers before merging to allow for future edits. (session 2023-02-23)\n- User is working on an image composite project in GIMP, combining a photo of their niece dressed as a witch with a spooky castle illustration. (session 2023-02-23)\n- User requested the solution to the mathematical equation ln(1+e^(-3x)) = 2, which the assistant solved as x = -(1/3) ln(e^2 - 1). (session 2023-02-26)\n- User was advised that upgrading from an APS-C sensor (Nikon D5600) to a full-frame sensor (Nikon Z6 or Canon EOS R) offers better low-light performance, dynamic range, and depth of field control. (session 2023-08-30)\n- User was provided with recommendations for high-security bike locks, including U-locks (Abus Granit X Plus 540, Kryptonite Evolution 11-LS), chain locks (Kryptonite KryptoLok Series 2 995, OnGuard Beast 8013), and a cable lock (TiGr Lock Mini). (session 2023-04-09)\n- User was recommended several food items for Tokyo DisneySea's 'Christmas Fantasy' event, including 'Cranberry and Orange' popcorn, the 'Santa's Little Helper Dog' hot dog, Christmas tree-shaped churros, gingerbread cookies, and various themed drinks and cake sets. (session 2023-08-02)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 62,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 43.4,
+  "total": 45.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "0e4e4c46",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "What is my current highest score in Ticket to Ride?",
+ "reference": "132 points",
+ "question_date": "2023-06-10 16:46",
+ "sessions": [
+  {
+   "id": "e82ce7cd_3",
+   "date": "2023-04-28 20:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_1",
+   "date": "2023-05-23 03:08",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_97515",
+   "date": "2023-05-23 18:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_puvUs0e_0",
+   "date": "2023-05-24 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_59250",
+   "date": "2023-05-24 09:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_198964",
+   "date": "2023-05-24 18:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Wi7Op1u_39",
+   "date": "2023-05-25 00:38",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhPNTAJ_0",
+   "date": "2023-05-25 07:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_iUc80a8_0",
+   "date": "2023-05-25 10:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_2",
+   "date": "2023-05-25 22:16",
+   "evidence": true
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-23 03:12:00] user achieved a highest score of 124 points in Ticket to Ride.\n[2023-05-23 03:12:00] user is interested in trying the board game Carcassonne.\n[2023-05-23 03:12:00] user enjoys the strategy aspect of Ticket to Ride.\n[2023-05-23 03:14:00] user has played What Do You Meme.\n[2023-05-23 03:14:00] user has played Codenames.\n[2023-05-25 07:27:00] user specifies using the Unsplash API with the URL https://source.unsplash.com/1600x900/? to retrieve images\n[2023-05-25 07:27:00] user requests an image of a person who is looking at a laptop screen\n[2023-05-25 10:51:00] user is interested in examples of ETL tools like SSIS being more efficient and effective.\n[2023-05-25 22:18:00] user is intrigued by the board game Scythe.\n[2023-05-25 22:18:00] user is interested in finding games with a similar level of strategy and complexity to Ticket to Ride.\n[2023-05-25 22:18:00] user wants to know the typical duration of a game of Scythe.\n[2023-05-25 22:18:00] user wants to know if Scythe is suitable for a group of 4-5 players.\n[2023-05-25 22:20:00] user is interested in the resource management aspect of the game Scythe.\n[2023-05-25 22:20:00] user is interested in the worker placement aspect of the game Scythe.\n[2023-05-25 22:22:00] user is interested in playing as the Nordic Kingdom faction in the game Scythe.\n[2023-05-25 22:22:00] user intends to trade resources with other players in the game Scythe.\n[2023-05-25 22:22:00] user wants to learn more about the structure building mechanic in the game Scythe.\n[2023-05-25 22:22:00] user intends to focus on building structures in the game Scythe.\n[2023-05-25 22:24:00] user achieved a score of 132 points in the game Ticket to Ride, which is the highest score user has received.\n[2023-05-25 22:26:00] user is seeking snack and drink suggestions that complement the alternate history and industrial-era setting of the game Scythe.\n[2023-05-25 22:26:00] user is planning to host a game night.\n\n## Deductive Observations\n\n[2023-05-25 22:24:00] user possesses technical knowledge or works in a data-related role, given interest in ETL tools.\n   Premises:\n   - user is interested in examples of ETL tools like SSIS being more efficient and effective.\n\n[2023-05-25 22:24:00] user is an enthusiast of modern strategy board games.\n   Premises:\n   - user achieved a score of 132 points in the game Ticket to Ride, which is the highest score user has received.\n   - user is interested in finding games with a similar level of strategy and complexity to Ticket to Ride.\n   - user is intrigued by the board game Scythe.\n   - user is interested in the worker placement aspect of the game Scythe.\n   - user is interested in the resource management aspect of the game Scythe.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user tends to research logistics and preparation details when planning social events involving games.\n   **Type**: behavior\n   **Sources**:\n   - user is planning to host a game night.\n   - user is seeking snack and drink suggestions that complement the ... setting of the game Scythe.\n   - user wants to know if Scythe is suitable for a group of 4-5 players.\n   - user wants to know the typical duration of a game of Scythe.\n\n **Pattern** [high]: user is a highly engaged strategy board gamer who enjoys exploring new titles and deeply analyzing mechanics like worker placement and resource management.\n   **Type**: behavior\n   **Sources**:\n   - user achieved a score of 132 points in the game Ticket to Ride\n   - user is interested in finding games with a similar level of strategy and complexity to Ticket to Ride.\n   - user is intrigued by the board game Scythe.\n   - user is interested in the worker placement aspect of the game Scythe.\n   - user is interested in the resource management aspect of the game Scythe.\n\n",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   [2023-05-23 03:12:00] user achieved a highest score of 124 points in Ticket to Ride.\n    *   [2023-05-25 22:24:00] user achieved a score of 132 points in the game Ticket to Ride, which is the highest score user has received.\n\n2.  **Reason over the information:**\n    *   The initial record from May 23rd indicates a high score of 124.\n    *   The subsequent record from May 25th updates this information, stating that the user achieved a score of 132, which is explicitly identified as the highest score the user has received to date.\n\n3.  **Conclusion:**\n    *   Your current highest score in Ticket to Ride is 132 points.",
+ "dump": "- [explicit] user selected roasted broccoli and garlic and herb roasted potatoes as side dishes for the Chicken Cacciatore.\n- [explicit] user prepared beef stroganoff for the birthday party of the mother of user.\n- [explicit] user plays basketball on Thursday evenings with friends named Tom and Alex.\n- [explicit] user does not enjoy watching professional basketball.\n- [explicit] user intends to prepare Chicken Cacciatore.\n- [explicit] user intends to try the suggested tips for making crispy potatoes.\n- [explicit] user plays basketball every Thursday evening.\n- [explicit] user is seeking tips on how to prevent soreness after playing sports.\n- [explicit] user plays basketball as a way to stay active.\n- [explicit] user does not like jerky.\n- [explicit] user considers energy bars and trail mix to be great snack options for playing sports.\n- [explicit] user plays sports regularly with friends.\n- [explicit] user finds sandwiches and wraps inconvenient to eat during a game.\n- [explicit] user intends to incorporate warm-up and cool-down exercises into their sports routine.\n- [explicit] user achieved a highest score of 124 points in Ticket to Ride.\n- [explicit] user is looking for game recommendations suitable for a group of 6-8 people.\n- [explicit] user plans to host a game night soon.\n- [explicit] user is interested in trying the board game Carcassonne.\n- [explicit] user intends to play Carcassonne with a smaller group rather than a group of 6-8 people.\n- [explicit] user enjoys the strategy aspect of Ticket to Ride.\n- [explicit] user has played Codenames.\n- [explicit] user enjoyed playing Codenames and What Do You Meme with friends.\n- [explicit] user is considering purchasing Two Rooms and a Boom for a future game night.\n- [explicit] user has played What Do You Meme.\n- [explicit] user is considering purchasing Deception: Murder in Hong Kong for a future game night.\n- [explicit] user finds the theme of Deception: Murder in Hong Kong engaging and immersive.\n- [explicit] user is planning to host a game night with a mix of new and experienced gamers.\n- [explicit] user has chosen to play the game Deception: Murder in Hong Kong.\n- [explicit] user enjoys the idea of playing as an investigator and gathering clues to solve a mystery.\n- [explicit] user considers pushing through physical pain to achieve faster fitness results.\n- [explicit] user expresses a preference for feeling sore after workouts.\n- [explicit] user questions the necessity of rest days between workout sessions.\n- [explicit] user seeks a strength training routine that includes both cardio and resistance exercises to improve overall fitness.\n- [explicit] user aims to monetize their beauty-branded YouTube channel by August 24, 2023.\n- [explicit] user aims to grow their beauty YouTube channel to 10,000 subscribers by August 24, 2023.\n- [explicit] user owns a beauty YouTube channel.\n- [explicit] user aims to achieve 40,000 watch hours on their beauty YouTube channel.\n- [explicit] user aims to grow their beauty YouTube channel to 1,000 subscribers by August 24, 2023.\n- [explicit] user considers the $20,500 annual limit on federal student loans for graduate school to be insufficient.\n- [explicit] user expresses frustration regarding the necessity for graduate students to rely on private loans with high interest rates to cover basic living expenses.\n- [explicit] user believes the government should prioritize investing in education to ensure access without creating crippling student debt.\n- [explicit] user is pursuing or planning to pursue graduate school in the United States.\n- [explicit] user criticizes the government for prioritizing budget balancing and loan limits over investing in education.\n- [explicit] user perceives the government as indifferent to the well-being of students and the future of the United States.\n- [explicit] user is interested in how Belarus' membership in the Eurasian Economic Union affects its trade relationships with non-member countries.\n- [explicit] user is considering the possibility of Belarus leaving the Eurasian Economic Union to prioritize relationships with non-member countries.\n- [explicit] user is interested in the economic impact of international trade agreements on the city of Vitebsk.\n- [explicit] user is inquiring about the current actions of Belarus to utilize EAEU membership while maintaining relationships with non-member countries.\n- [explicit] user is interested in alternative trade agreements or alliances that Belarus could consider to improve trade with non-member countries.\n- [explicit] user is interested in how the Eurasian Economic Union impacts the trade relationships of Belarus.\n- [explicit] user is interested in data on how Belarus' trade relationships with non-member countries have changed since joining the Eurasian Economic Union.\n- [explicit] user is interested in specific examples of how Belarus has benefited from its membership in the Eurasian Economic Union in terms of trade with member states.\n- [explicit] user is acting as Jo Peninsulas.\n- [explicit] user requested to act as Jo Peninsulas.\n- [explicit] user specifies using the Unsplash API with the URL https://source.unsplash.com/1600x900/? to retrieve images\n- [explicit] user requests an image of a person who is looking at a laptop screen\n- [explicit] user knows how to add images to a reply using Markdown\n- [explicit] user is interested in examples of ETL tools like SSIS being more efficient and effective.\n- [explicit] user is intrigued by the board game Scythe.\n- [explicit] user wants to know the typical duration of a game of Scythe.\n- [explicit] user wants to know if Scythe is suitable for a group of 4-5 players.\n- [explicit] user is interested in finding games with a similar level of strategy and complexity to Ticket to Ride.\n- [explicit] user is interested in the resource management aspect of the game Scythe.\n- [explicit] user is interested in the worker placement aspect of the game Scythe.\n- [explicit] user intends to focus on building structures in the game Scythe.\n- [explicit] user wants to learn more about the structure building mechanic in the game Scythe.\n- [explicit] user is interested in playing as the Nordic Kingdom faction in the game Scythe.\n- [explicit] user intends to trade resources with other players in the game Scythe.\n- [explicit] user achieved a score of 132 points in the game Ticket to Ride, which is the highest score user has received.\n- [explicit] user is planning to host a game night.\n- [explicit] user is seeking snack and drink suggestions that complement the alternate history and industrial-era setting of the game Scythe.\n- [deductive] user possesses technical knowledge or works in a data-related role, given interest in ETL tools.\n- [deductive] user is an enthusiast of modern strategy board games.\n- [inductive] user is a highly engaged strategy board gamer who enjoys exploring new titles and deeply analyzing mechanics like worker placement and resource management.\n- [inductive] user tends to research logistics and preparation details when planning social events involving games.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 100.8,
+  "total": 103.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

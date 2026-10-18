@@ -1,0 +1,100 @@
+{
+ "qid": "f685340e",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+ "reference": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+ "question_date": "2023-07-31 11:43",
+ "sessions": [
+  {
+   "id": "4a9eb139_2",
+   "date": "2023-03-06 12:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_1",
+   "date": "2023-03-11 18:01",
+   "evidence": true
+  },
+  {
+   "id": "eef7c3fa_1",
+   "date": "2023-03-15 06:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_246155",
+   "date": "2023-04-03 16:32",
+   "evidence": false
+  },
+  {
+   "id": "ee402e51_1",
+   "date": "2023-04-12 15:32",
+   "evidence": false
+  },
+  {
+   "id": "e7dcd5df",
+   "date": "2023-05-30 12:19",
+   "evidence": false
+  },
+  {
+   "id": "e862f726_1",
+   "date": "2023-06-11 14:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_8f85nN2_0",
+   "date": "2023-06-15 19:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_2",
+   "date": "2023-07-30 04:03",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_240679",
+   "date": "2023-07-31 03:19",
+   "evidence": false
+  }
+ ],
+ "context": "- User plays tennis weekly with friends and plans to play at the local park on Sunday, March 12, 2023. (from a chat on 2023-03-11)\n- User is a fan of Roger Federer but plays tennis primarily for fun rather than being inspired by professional players. (from a chat on 2023-03-11)\n- User is concerned about finding a quiet space to meditate due to living with noisy family members and was provided with strategies like using noise-cancelling headphones, playing calming sounds, and scheduling practice during quiet times. (from a chat on 2023-06-11)\n- User is incorporating swimming into their fitness routine and recently signed up for swim lessons at a local pool. (from a chat on 2023-07-30)\n- User was instructed on how to use the Libby app to search for and borrow e-books from their local library. (from a chat on 2023-03-15)\n- User is researching online grocery options and is prioritizing competitive pricing, discounts, and sustainable practices like eco-friendly packaging. (from a chat on 2023-04-12)\n- User is planning a road trip for spring 2024 to visit national parks in the western U.S., specifically mentioning the Grand Canyon and Yellowstone. (from a chat on 2023-05-30)\n- User plans to jog the Almaden Lake Park Loop in San Jose, CA (zip code 95123), a 5.1-mile route chosen for its minimal traffic and scenic lake and hill views. (from a chat on 2023-07-30)\n- User is a baseline tennis player focusing on forehand and backhand groundstrokes, but is currently practicing volleys and overheads to improve their net game. (from a chat on 2023-03-11)\n- User owns Nike Air Zoom tennis shoes and decided to purchase Nike Court Flex Tennis Socks to match them. (from a chat on 2023-03-11)\n- User was provided with tips for maintaining a tennis racket, including regular cleaning, proper storage, using a racket cover, checking strings, and avoiding extreme temperatures. (from a chat on 2023-03-11)\n- User is looking for a new tennis bag to carry their racket, shoes, and essentials and was recommended brands including Babolat, Wilson, Nike, and Head. (from a chat on 2023-07-30)\n- User rejoined their old gym in late April 2023 and has been maintaining a regular exercise routine. (from a chat on 2023-05-30)\n- User moved into a new apartment approximately three weeks before May 30, 2023, which resulted in a shorter commute and an extra 30 minutes of free time each morning. (from a chat on 2023-05-30)\n- User is looking for a new yoga class to attend, specifically one that takes place early in the morning. (from a chat on 2023-03-06)\n- User feels sluggish on Tuesdays due to a heavy workload and multiple deadlines. (from a chat on 2023-03-06)\n- User was provided with 10 tips for maintaining exercise motivation, including setting specific goals, scheduling workouts, finding enjoyable activities, and tracking progress. (from a chat on 2023-07-30)\n- User plans to visit CorePower Yoga Almaden (5353 Almaden Expwy, San Jose) for a yoga session after their jog. (from a chat on 2023-07-30)\n- User was recommended several drills to improve net reaction time and hand-eye coordination, including wall ball drills, reaction volley drills, overhead drills, ball toss drills, and agility ladder exercises. (from a chat on 2023-03-11)\n- User was recommended the Pomodoro Technique (25 minutes of work followed by a 5-minute break) to help manage focus and productivity. (from a chat on 2023-03-06)",
+ "answer": "**Step 1: Extract relevant information**\n\n*   **Past frequency:** In a chat from 2023-03-11, it is stated: \"User plays tennis weekly with friends and plans to play at the local park on Sunday, March 12, 2023.\"\n*   **Current status:** The provided history does not explicitly state a change in the frequency of playing tennis with friends. However, the history shows that as of 2023-07-30, the user is actively incorporating new fitness activities (swimming, jogging at Almaden Lake Park, and yoga at CorePower Yoga) and is currently looking for a new tennis bag to carry their gear, implying they are still playing tennis.\n\n**Step 2: Reason over the information**\n\n*   **Past frequency:** Based on the chat from March 2023, you played tennis with your friends on a **weekly** basis.\n*   **Current frequency:** While you have added several new activities to your fitness routine (swimming, jogging, and yoga) as of July 2023, there is no information in the chat history indicating that you have stopped playing tennis or changed the frequency of your matches. Therefore, based on the available records, it is reasonable to conclude that you **still play tennis weekly**, as no change to that specific routine was ever noted.",
+ "dump": "- User was recommended Peapod, Walmart Grocery, AmazonFresh, and Thrive Market as online grocery options that align with their budget and sustainability goals. (session 2023-04-12)\n- User is aiming for a weekly grocery budget of approximately $100 and is working on reducing impulse buys, particularly non-perishable items on sale. (session 2023-04-12)\n- User was provided with tips for maintaining consistency in meditation, such as setting specific goals, creating a routine, tracking progress, starting small, and finding a meditation buddy. (session 2023-06-11)\n- User plays tennis weekly with friends and plans to play at the local park on Sunday, March 12, 2023. (session 2023-03-11)\n- User is planning a road trip for spring 2024 to visit national parks in the western U.S., specifically mentioning the Grand Canyon and Yellowstone. (session 2023-05-30)\n- User was recommended walking apps including MapMyWalk, Walkmeter, AllTrails, Google Maps, Walkify, and Charity Miles to help explore new areas. (session 2023-05-30)\n- User spent $120 at Walmart on April 11, 2023, exceeding their $80 budget, with spending broken down as $30 on produce, $20 on dairy, and $40 on canned goods and pantry items. (session 2023-04-12)\n- User was provided with a step-by-step guide for U.S. passport renewal, including using Form DS-82, required documentation, and options for expedited service. (session 2023-05-30)\n- User was recommended authors Fiona Barton (titles: 'The Widow', 'The Child', 'The Suspect') and Clare Mackintosh (titles: 'I Let You Go', 'The Farm', 'The Lie of You', 'The Other Mrs. Miller') as similar to Alex Michaelides. (session 2023-03-15)\n- User is exploring the inherent limitations of language in conveying complex human experiences, such as pain or falling in love, and how these limitations impact our understanding of reality. (session 2023-04-03)\n- User is a baseline tennis player focusing on forehand and backhand groundstrokes, but is currently practicing volleys and overheads to improve their net game. (session 2023-03-11)\n- User is concerned about finding a quiet space to meditate due to living with noisy family members and was provided with strategies like using noise-cancelling headphones, playing calming sounds, and scheduling practice during quiet times. (session 2023-06-11)\n- User plans to consult their doctor about potential interactions between their serotonin supplement and meditation practice, and will monitor their body for any adverse effects while starting with gentle meditation techniques. (session 2023-06-11)\n- User plans to jog the Almaden Lake Park Loop in San Jose, CA (zip code 95123), a 5.1-mile route chosen for its minimal traffic and scenic lake and hill views. (session 2023-07-30)\n- User plans to visit CorePower Yoga Almaden (5353 Almaden Expwy, San Jose) for a yoga session after their jog. (session 2023-07-30)\n- User has been successfully maintaining a meal prepping habit. (session 2023-03-06)\n- User is incorporating swimming into their fitness routine and recently signed up for swim lessons at a local pool. (session 2023-07-30)\n- User is looking for a new yoga class to attend, specifically one that takes place early in the morning. (session 2023-03-06)\n- User is establishing a consistent morning routine of waking up at 6:30 am every day, including weekends. (session 2023-03-06)\n- User owns Nike Air Zoom tennis shoes and decided to purchase Nike Court Flex Tennis Socks to match them. (session 2023-03-11)\n- User observes that the lack of exact cross-linguistic equivalents for words like 'awkward' highlights how language affects the accuracy of self-expression. (session 2023-04-03)\n- User is interested in exploring psychological thrillers by authors Fiona Barton and Clare Mackintosh, noting their writing styles align with Alex Michaelides. (session 2023-03-15)\n- User was recommended the Pomodoro Technique (25 minutes of work followed by a 5-minute break) to help manage focus and productivity. (session 2023-03-06)\n- User was recommended several psychological thrillers including 'Gone Girl' and 'Sharp Objects' by Gillian Flynn, 'The Girl on the Train' by Paula Hawkins, 'The Woman in the Window' by A.J. Finn, 'The Couple Next Door' by Shari Lapena, 'The Last Mrs. Parrish' by Liv Constantine, 'The Wife Between Us' by Greer Hendricks and Sarah Pekkanen, 'The Poison Tree' by Erin Kelly, 'The Devil in the White City' by Erik Larson, and 'The 7 1/2 Deaths of Evelyn Hardcastle' by Stuart Turton. (session 2023-03-15)\n- User is interested in starting a meditation practice to manage stress and anxiety and plans to use the Headspace 'Take10' program and bookmarked guided meditations on Insight Timer. (session 2023-06-11)\n- User is researching online grocery options and is prioritizing competitive pricing, discounts, and sustainable practices like eco-friendly packaging. (session 2023-04-12)\n- User feels sluggish on Tuesdays due to a heavy workload and multiple deadlines. (session 2023-03-06)\n- User is actively practicing meal prepping and bulk cooking to save time and reduce food waste, and was provided with resources including 'The Kitchn', 'Budget Bytes', and apps like 'Plan to Eat'. (session 2023-04-12)\n- User rejoined their old gym in late April 2023 and has been maintaining a regular exercise routine. (session 2023-05-30)\n- User is interested in the philosophy of language, specifically Wittgenstein's challenge to the concept of a private language and how language shapes cultural perceptions and reality. (session 2023-04-03)\n- User was provided with 10 tips for improving swimming technique, such as maintaining a horizontal body position, using a high elbow catch, and practicing bilateral breathing. (session 2023-07-30)\n- User was recommended online yoga platforms like YogaGlo, Yoga International, and DoYouYoga as options for home practice. (session 2023-03-06)\n- User was provided with tips for maintaining motivation and avoiding burnout in their exercise routine, such as setting specific goals, creating a consistent schedule, and prioritizing recovery. (session 2023-05-30)\n- User is working on a novel and has set a goal to write at least 500 words every day. (session 2023-03-06)\n- User was recommended mindfulness and meditation apps including Headspace, Calm, Insight Timer, and Mindfulness Studio, along with resources like Mindful.org, The Mindfulness Project, and the UCLA Mindful Awareness Research Center. (session 2023-06-11)\n- User was provided with 10 tips for maintaining exercise motivation, including setting specific goals, scheduling workouts, finding enjoyable activities, and tracking progress. (session 2023-07-30)\n- User is interested in the impact of technology and social media on the Serbo-Croatian language, specifically how it influences both preservation and linguistic evolution through new vocabulary, slang, and digital communication. (session 2023-07-31)\n- User was provided with organizational tips for pre-trip errands, including creating prioritized to-do lists, breaking down large tasks, and using a central folder for documents. (session 2023-05-30)\n- User was instructed on how to use the Libby app to search for and borrow e-books from their local library. (session 2023-03-15)\n- User is a fan of Roger Federer but plays tennis primarily for fun rather than being inspired by professional players. (session 2023-03-11)\n- User is planning a trip to visit family for the holidays and needs to renew their U.S. passport. (session 2023-05-30)\n- User was provided with road trip planning advice, including using mapping tools like Roadtrippers, booking accommodations early, and performing vehicle maintenance before long drives. (session 2023-05-30)\n- User decided to read 'The Last Mrs. Parrish' by Liv Constantine next, drawn by its dark humor, social commentary, and the fact that it is a debut novel. (session 2023-03-15)\n- User finished reading 'The Silent Patient' by Alex Michaelides on March 15, 2023, and is interested in psychological thrillers with similar dark, twisted characters and psychological gamesmanship. (session 2023-03-15)\n- User was recommended several drills to improve net reaction time and hand-eye coordination, including wall ball drills, reaction volley drills, overhead drills, ball toss drills, and agility ladder exercises. (session 2023-03-11)\n- User moved into a new apartment approximately three weeks before May 30, 2023, which resulted in a shorter commute and an extra 30 minutes of free time each morning. (session 2023-05-30)\n- User was provided with tips for maintaining a tennis racket, including regular cleaning, proper storage, using a racket cover, checking strings, and avoiding extreme temperatures. (session 2023-03-11)\n- User is looking for a new tennis bag to carry their racket, shoes, and essentials and was recommended brands including Babolat, Wilson, Nike, and Head. (session 2023-07-30)\n- User was provided with strategies for staying entertained and productive during long drives, such as using audiobooks, podcasts, voice-to-text for notes, and language learning apps. (session 2023-05-30)\n- User started taking a serotonin supplement in mid-June 2023 as recommended by their doctor to help regulate their mood. (session 2023-06-11)\n- User finds the Japanese language's multiple terms for 'love' (such as 'ai', 'koi', and 'daisuki') to be a compelling example of how language reflects cultural values and emotional nuances. (session 2023-04-03)\n- User inquired about the meaning of the phrase 'I'll know', which is a contraction of 'I will know' used to express future certainty or the acquisition of knowledge. (session 2023-06-15)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 52,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 34.8,
+  "total": 36.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

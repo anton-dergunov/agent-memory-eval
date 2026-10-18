@@ -1,0 +1,96 @@
+{
+ "qid": "8fb83627",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many issues of National Geographic have I finished reading?",
+ "reference": "Five",
+ "question_date": "2023-08-14 23:19",
+ "sessions": [
+  {
+   "id": "ultrachat_531250",
+   "date": "2023-03-23 19:39",
+   "evidence": false
+  },
+  {
+   "id": "be050ab3_2",
+   "date": "2023-03-24 09:22",
+   "evidence": false
+  },
+  {
+   "id": "79aaa8cc_2",
+   "date": "2023-03-31 04:07",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_172550",
+   "date": "2023-04-13 19:44",
+   "evidence": false
+  },
+  {
+   "id": "answer_966cecbb_1",
+   "date": "2023-04-20 21:08",
+   "evidence": true
+  },
+  {
+   "id": "4277273b_1",
+   "date": "2023-04-24 01:40",
+   "evidence": false
+  },
+  {
+   "id": "c15319aa_1",
+   "date": "2023-06-22 13:28",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_31",
+   "date": "2023-07-04 18:43",
+   "evidence": false
+  },
+  {
+   "id": "1e5d09fe_2",
+   "date": "2023-07-14 22:23",
+   "evidence": false
+  },
+  {
+   "id": "answer_966cecbb_2",
+   "date": "2023-07-15 22:42",
+   "evidence": true
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-04-20 21:16:00] user reads National Geographic for in-depth articles on science and nature.\n[2023-04-20 21:16:00] user is currently reading the fourth issue of National Geographic as of 2023-04-20.\n[2023-04-20 21:16:00] user has finished three issues of National Geographic as of 2023-04-20.\n[2023-04-20 21:16:00] user reads news, science, and entertainment magazines.\n[2023-04-20 21:18:00] user has finished three issues of National Geographic.\n[2023-04-20 21:18:00] user is currently on the fourth issue of National Geographic.\n[2023-07-14 22:29:00] user has a yoga studio near their apartment.\n[2023-07-14 22:33:00] user plans to wear a new Lululemon outfit to a yoga class.\n[2023-07-14 22:33:00] user purchased a new Lululemon outfit on 2023-07-14.\n[2023-07-15 22:44:00] user is planning a trip to the Amazon rainforest.\n[2023-07-15 22:44:00] user is interested in learning about the Amazon rainforest's ecosystem and conservation efforts.\n[2023-07-15 22:44:00] user is requesting recommendations for documentaries or films about the Amazon rainforest.\n[2023-07-15 22:46:00] user is interested in resources or articles focusing on the cultures, traditions, and struggles of indigenous communities in the Amazon rainforest.\n[2023-07-15 22:48:00] user is seeking recommendations for documentaries or films about the daily lives of indigenous communities in the Amazon rainforest.\n[2023-07-15 22:48:00] user is interested in learning more about the cultures and traditions of indigenous communities in the Amazon rainforest.\n[2023-07-15 22:48:00] user has read five issues of National Geographic featuring the Amazon rainforest and its indigenous communities.\n[2023-07-15 22:50:00] user is seeking books or articles that provide in-depth information about the culture and way of life of the Yanomami people.\n[2023-07-15 22:50:00] user is interested in learning about the Yanomami people and their struggles.\n[2023-07-15 22:52:00] user has been reading about the Yanomami people and their struggles in National Geographic.\n[2023-07-15 22:52:00] user is interested in learning more about the culture and way of life of the Yanomami people.\n\n## Deductive Observations\n\n[2023-07-15 22:52:00] user practices or intends to practice yoga.\n   Premises:\n   - user plans to wear a new Lululemon outfit to a yoga class.\n   - user is interested in practicing yoga at home.\n\n[2023-07-15 22:52:00] user is interested in anthropology and environmental conservation.\n   Premises:\n   - user is interested in learning more about the culture and way of life of the Yanomami people.\n   - user is interested in learning about the Amazon rainforest's ecosystem and conservation efforts.\n\n\n## Inductive Observations\n\n **Pattern** [high]: user consistently demonstrates a deep, multi-faceted interest in the Amazon rainforest, specifically focusing on its indigenous cultures (such as the Yanomami) and broader ecological conservation.\n   **Type**: preference\n   **Sources**:\n   - user is interested in learning more about the culture and way of life of the Yanomami people.\n   - user is interested in learning about the Yanomami people and their struggles.\n   - user is seeking books or articles that provide in-depth information about the culture and way of life of the Yanomami people.\n   - user is interested in learning more about the cultures and traditions of indigenous communities in the Amazon rainforest.\n   - user is interested in resources or articles focusing on the cultures, traditions, and struggles of indigenous communities in the Amazon rainforest.\n   - ... and 1 more\n\n **Pattern** [medium]: user prefers to engage with topics through multiple mediums, actively seeking out both educational materials (articles, books) and experiential/visual media (documentaries, films) to deepen their understanding of a subject.\n   **Type**: behavior\n   **Sources**:\n   - user is seeking books or articles that provide in-depth information about the culture and way of life of the Yanomami people.\n   - user is seeking recommendations for documentaries or films about the daily lives of indigenous communities in the Amazon rainforest.\n   - user is requesting recommendations for documentaries or films about the Amazon rainforest.\n\n **Pattern** [medium]: user approaches new hobbies or activities (like yoga) systematically, starting by gathering criteria for selection, researching local options, and acquiring necessary equipment before participation.\n   **Type**: behavior\n   **Sources**:\n   - user purchased a new Lululemon outfit on 2023-07-14.\n   - user is considering visiting a yoga studio near their apartment that offers a free trial class.\n   - user is seeking advice on criteria for choosing a yoga studio.\n\n",
+ "answer": "To determine how many issues of *National Geographic* you have finished reading, we look at the provided history:\n\n**Step 1: Extract relevant information**\n*   [2023-04-20 21:16:00]: \"user has finished three issues of National Geographic as of 2023-04-20.\"\n*   [2023-04-20 21:18:00]: \"user has finished three issues of National Geographic.\"\n*   [2023-07-15 22:48:00]: \"user has read five issues of National Geographic featuring the Amazon rainforest and its indigenous communities.\"\n\n**Step 2: Reason over the information**\n*   The initial records from April 2023 state you had finished three issues.\n*   The record from July 15, 2023, explicitly states that you have read five issues of *National Geographic* specifically featuring the Amazon rainforest and its indigenous communities. \n*   Since the most recent update regarding your reading progress indicates you have read five issues, it is concluded that you have finished five issues.\n\n**Answer:**\nYou have finished reading five issues of *National Geographic*.",
+ "dump": "- [explicit] user has high blood pressure.\n- [explicit] user began the research and prioritization process for the home purchase six weeks prior to 2023-03-24.\n- [explicit] user is close to closing on a home purchase.\n- [explicit] user identified minor issues with plumbing and electrical systems in the home inspection report.\n- [explicit] user is buying a home with a partner named Alex.\n- [explicit] user received a home inspection report during the week prior to 2023-03-24.\n- [explicit] user has a partner named Alex.\n- [explicit] user is in the process of a home purchase involving a home inspection report.\n- [explicit] user intends to identify key points to review before signing home closing documents.\n- [explicit] user intends to identify required documentation for a home closing.\n- [explicit] user is in the process of home buying.\n- [explicit] user is preparing for the closing process of a home purchase.\n- [explicit] user has locked in an interest rate for their loan.\n- [explicit] user identifies minor electrical system issues in the home inspection report.\n- [explicit] user is seeking guidance on how to address home plumbing and electrical issues before closing.\n- [explicit] user identifies minor plumbing system issues in the home inspection report.\n- [explicit] user is inquiring about the expected seller credit related to home inspection findings.\n- [explicit] user has purchased a silver necklace at a local holiday market.\n- [explicit] user is interested in creating a customized care package for a cozy movie night.\n- [explicit] user is searching for gift ideas for friends and family.\n- [explicit] user purchased handmade candles at a local holiday market in town.\n- [explicit] user intends to include a scented candle in a movie night gift package.\n- [explicit] user purchased scented candles at a local holiday market in town.\n- [explicit] user intends to include hot cocoa mix in a movie night gift package.\n- [explicit] user purchased artisanal jewelry at a local holiday market in town.\n- [explicit] user intends to include gourmet popcorn in a movie night gift package.\n- [explicit] user is preparing a cozy movie night package for a friend.\n- [explicit] user selected the movie \"The Holiday\" for a gift package.\n- [explicit] user is seeking gift wrapping ideas for the cozy movie night package.\n- [explicit] user intends to include a small memento representing their friendship in the gift.\n- [explicit] user is seeking suggestions for a creative way to present a movie as a gift.\n- [explicit] user intends to add a custom label with a personal message to the gift.\n- [explicit] user intends to use a winter wonderland theme for gift wrapping.\n- [explicit] user plans to include a small memento, such as a tiny photo of user and the recipient or a charm, inside the gift.\n- [explicit] user plans to attach the custom movie ticket to the DVD case.\n- [explicit] user plans to include a handwritten note with a personal message in the gift.\n- [explicit] user plans to design a custom movie ticket featuring the movie title, a showtime, and the recipient's name.\n- [explicit] user intends to present a movie gift using a movie ticket invitation.\n- [explicit] user expresses regret that Melody Maker is no longer in circulation.\n- [explicit] user is interested in learning about musicians interviewed by Melody Maker who later achieved significant success.\n- [explicit] user perceives a lack of music magazines focused on discovering new talent.\n- [explicit] user believes that Melody Maker possessed a good ear for musical talent.\n- [explicit] user is seeking recommendations for music magazines similar to Melody Maker.\n- [explicit] user wants to create a spreadsheet to track reading progress.\n- [explicit] user reads The Atlantic online.\n- [explicit] user reads National Geographic for in-depth articles on science and nature.\n- [explicit] user reads The New Yorker for fiction.\n- [explicit] user has finished three issues of National Geographic as of 2023-04-20.\n- [explicit] user reads Rolling Stone, specifically its online content.\n- [explicit] user is currently reading the fourth issue of National Geographic as of 2023-04-20.\n- [explicit] user reads news, science, and entertainment magazines.\n- [explicit] user reads Medium online.\n- [explicit] user reads The Daily News regularly.\n- [explicit] user reads The New York Times regularly.\n- [explicit] user has finished three issues of National Geographic.\n- [explicit] user is currently on the fourth issue of National Geographic.\n- [explicit] user is experiencing difficulty capturing the desired depth of field in portrait photography.\n- [explicit] user suspects either camera autofocus or subject-to-background distance as reasons for insufficient background blur.\n- [explicit] user is seeking tips on how to improve portrait photography skills.\n- [explicit] user has experimented with aperture settings.\n- [explicit] user is having trouble achieving a desired level of background blur in their photographs.\n- [explicit] user purchased the 50mm prime lens approximately six weeks before April 24, 2023.\n- [explicit] user owns or uses a 50mm prime lens.\n- [explicit] user has completed an online module on leading lines.\n- [explicit] user is interested in incorporating leading lines into portrait photography.\n- [explicit] user has been taking photos of flowers in their neighborhood recently.\n- [explicit] user is considering incorporating leading lines into their macro flower photography.\n- [explicit] user completed an online module on composition.\n- [explicit] user is asking if flower stems or edges of petals can be used as leading lines in macro photography.\n- [explicit] user took a sunset photograph from Tunnel View in Yosemite National Park 4 weeks ago.\n- [explicit] user took photographs of the valley floor and Half Dome in Yosemite National Park 4 weeks ago.\n- [explicit] user purchased a 50mm prime lens on approximately 2023-03-13.\n- [explicit] user is interested in incorporating leading lines into flower photography.\n- [explicit] user visited Yosemite National Park on approximately 2023-03-27.\n- [explicit] user has been experimenting with a 50mm prime lens for approximately 6 weeks.\n- [explicit] user plans to experiment with different angles and perspectives in macro photography.\n- [explicit] user intends to use the lines of flower stems or the edges of petals to create leading lines in macro photography.\n- [explicit] user finds the rain sounds setting on the white noise machine effective for falling asleep.\n- [explicit] user is experiencing issues with sleep patterns.\n- [explicit] user has observed that they are waking up feeling more rested since using the white noise machine.\n- [explicit] user has observed that they have been sleeping more soundly since using the white noise machine.\n- [explicit] user started using a white noise machine on 2023-06-22.\n- [explicit] user uses a white noise machine with a rain sounds setting.\n- [explicit] user reviews sleep data from their Fitbit Charge 3 every morning.\n- [explicit] user intends to improve sleep quality and duration using a white noise machine.\n- [explicit] user tracks sleep using a Fitbit Charge 3.\n- [explicit] user owns a Fitbit Charge 3 device.\n- [explicit] user plans to avoid caffeine in the afternoon to improve sleep quality.\n- [explicit] user has observed that exercising in the morning leads to better sleep at night.\n- [explicit] user plans to make small adjustments to daily habits, specifically going to bed earlier, to improve sleep quality.\n- [explicit] user tracks sleep data to identify patterns and make changes to daily routines.\n- [explicit] user requested photo style data for \"2020s editorial\" style in \"Shinjuku\" at \"Nighttime\" using the original table format.\n- [explicit] user requested that the rows of data provided by the assistant be formatted as sentences.\n- [explicit] user wants the data in the original table format.\n- [explicit] user wants 5 rows of data for a table with Photo Style set to \"2020s editorial\", Location set to \"Shinjuku\", Time of Day set to \"Nighttime\", and Color Palette set to \"Neon Colors\".\n- [explicit] user purchased a pair of leggings, two tops, and a jacket from Lululemon on 2023-07-14.\n- [explicit] user is looking for workout routine recommendations.\n- [explicit] user is considering trying yoga.\n- [explicit] user is seeking advice on criteria for choosing a yoga studio.\n- [explicit] user is interested in visiting local yoga studios.\n- [explicit] user is interested in practicing yoga at home.\n- [explicit] user is interested in taking a Vinyasa flow class.\n- [explicit] user has heard positive feedback about the instructor of the Vinyasa flow class.\n- [explicit] user is considering visiting a yoga studio near their apartment that offers a free trial class.\n- [explicit] user has a yoga studio near their apartment.\n- [explicit] user plans to wear a new Lululemon outfit to a yoga class.\n- [explicit] user purchased a new Lululemon outfit on 2023-07-14.\n- [explicit] user is planning a trip to the Amazon rainforest.\n- [explicit] user is interested in learning about the Amazon rainforest's ecosystem and conservation efforts.\n- [explicit] user is requesting recommendations for documentaries or films about the Amazon rainforest.\n- [explicit] user is interested in resources or articles focusing on the cultures, traditions, and struggles of indigenous communities in the Amazon rainforest.\n- [explicit] user is interested in learning more about the cultures and traditions of indigenous communities in the Amazon rainforest.\n- [explicit] user is seeking recommendations for documentaries or films about the daily lives of indigenous communities in the Amazon rainforest.\n- [explicit] user has read five issues of National Geographic featuring the Amazon rainforest and its indigenous communities.\n- [explicit] user is seeking books or articles that provide in-depth information about the culture and way of life of the Yanomami people.\n- [explicit] user is interested in learning about the Yanomami people and their struggles.\n- [explicit] user has been reading about the Yanomami people and their struggles in National Geographic.\n- [explicit] user is interested in learning more about the culture and way of life of the Yanomami people.\n- [deductive] user practices or intends to practice yoga.\n- [deductive] user is interested in anthropology and environmental conservation.\n- [inductive] user consistently demonstrates a deep, multi-faceted interest in the Amazon rainforest, specifically focusing on its indigenous cultures (such as the Yanomami) and broader ecological conservation.\n- [inductive] user approaches new hobbies or activities (like yoga) systematically, starting by gathering criteria for selection, researching local options, and acquiring necessary equipment before participation.\n- [inductive] user prefers to engage with topics through multiple mediums, actively seeking out both educational materials (articles, books) and experiential/visual media (documentaries, films) to deepen their understanding of a subject.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 133.6,
+  "total": 138.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

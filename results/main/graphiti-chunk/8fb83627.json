@@ -1,0 +1,102 @@
+{
+ "qid": "8fb83627",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many issues of National Geographic have I finished reading?",
+ "reference": "Five",
+ "question_date": "2023-08-14 23:19",
+ "sessions": [
+  {
+   "id": "ultrachat_531250",
+   "date": "2023-03-23 19:39",
+   "evidence": false
+  },
+  {
+   "id": "be050ab3_2",
+   "date": "2023-03-24 09:22",
+   "evidence": false
+  },
+  {
+   "id": "79aaa8cc_2",
+   "date": "2023-03-31 04:07",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_172550",
+   "date": "2023-04-13 19:44",
+   "evidence": false
+  },
+  {
+   "id": "answer_966cecbb_1",
+   "date": "2023-04-20 21:08",
+   "evidence": true
+  },
+  {
+   "id": "4277273b_1",
+   "date": "2023-04-24 01:40",
+   "evidence": false
+  },
+  {
+   "id": "c15319aa_1",
+   "date": "2023-06-22 13:28",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_31",
+   "date": "2023-07-04 18:43",
+   "evidence": false
+  },
+  {
+   "id": "1e5d09fe_2",
+   "date": "2023-07-14 22:23",
+   "evidence": false
+  },
+  {
+   "id": "answer_966cecbb_2",
+   "date": "2023-07-15 22:42",
+   "evidence": true
+  }
+ ],
+ "context": "- The assistant created a reading tracker spreadsheet for the user to track progress on four issues of National Geographic. (valid since 2023-04-20)\n- The reading tracker spreadsheet tracks the user's progress on four issues of National Geographic, marking the first three as read and the fourth as in progress. (valid since 2023-04-20)\n- The user visited Yosemite National Park four weeks before April 24, 2023. (valid since 2023-03-27)\n- The home inspection report identified minor issues with the plumbing system. (valid since 2023-03-24)\n- The user took shots of Half Dome while visiting Yosemite National Park. (valid since 2023-03-27)\n- The home inspection report identified minor issues with the electrical system. (valid since 2023-03-24)\n- the user has been experimenting with their new 50mm prime lens for about 6 weeks (valid since 2023-04-24)\n- The user took a sunset photo at Tunnel View while visiting Yosemite National Park. (valid since 2023-03-27)\n- The user tracks their sleep using a Fitbit Charge 3. (valid since 2023-06-22)\n- The user is interested in learning more about the Yanomami people and their struggles, culture, and way of life. (valid since 2023-07-15)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The reading tracker spreadsheet tracks the user's progress on four issues of National Geographic.\n*   The spreadsheet marks the first three issues as \"read\" and the fourth as \"in progress.\"\n\n**Step 2: Reason over the information**\n*   Since the first three issues are marked as \"read\" and the fourth is only \"in progress,\" the user has completed reading exactly three issues.\n\n**Answer:**\nYou have finished reading 3 issues of National Geographic.",
+ "dump": "- Melody Maker interviewed The Stone Roses in 1985 (valid since 1985-01-01)\n- Melody Maker interviewed Massive Attack in 1990 (valid since 1990-01-01)\n- Melody Maker interviewed Blur in 1991 (valid since 1991-01-01)\n- Melody Maker interviewed The Prodigy in 1991 (valid since 1991-01-01)\n- Melody Maker interviewed PJ Harvey in 1992 (valid since 1992-01-01)\n- Melody Maker interviewed Radiohead in 1993 (valid since 1993-01-01)\n- Melody Maker interviewed Oasis in 1994 (valid since 1994-01-01)\n- The assistant provides the user with information about the complications of untreated high blood pressure and strategies to manage it. (valid since 2023-03-23)\n- The user commits to following the assistant's advice to keep their blood pressure under control. (valid since 2023-03-23)\n- The user is preparing for a final walk-through inspection to ensure the property is in the expected condition before closing the home purchase. (valid since 2023-03-24)\n- The home inspection report identified minor issues with the plumbing system. (valid since 2023-03-24)\n- The home inspection report identified minor issues with the electrical system. (valid since 2023-03-24)\n- The assistant advises the user to review the home inspection report with Alex. (valid since 2023-03-24)\n- The user visited Yosemite National Park four weeks before April 24, 2023. (valid since 2023-03-27)\n- The user took a sunset photo at Tunnel View while visiting Yosemite National Park. (valid since 2023-03-27)\n- The user took shots of Half Dome while visiting Yosemite National Park. (valid since 2023-03-27)\n- The user chose the romantic comedy The Holiday to include in the cozy movie night package (valid since 2023-03-31)\n- The user intends to present the cozy movie night package with a winter wonderland theme. (valid since 2023-03-31)\n- The user will include a custom label with a personal message in the cozy movie night package. (valid since 2023-03-31)\n- The user will include a handwritten note in the cozy movie night package. (valid since 2023-03-31)\n- The user will include a small memento that represents their friendship in the cozy movie night package. (valid since 2023-03-31)\n- The cozy movie night package will contain the movie The Holiday. (valid since 2023-03-31)\n- The user will attach a custom movie ticket to the DVD case. (valid since 2023-03-31)\n- The assistant created a reading tracker spreadsheet for the user to track progress on four issues of National Geographic. (valid since 2023-04-20)\n- The reading tracker spreadsheet tracks the user's progress on four issues of National Geographic, marking the first three as read and the fourth as in progress. (valid since 2023-04-20)\n- the user wants to incorporate leading lines into their portraits (valid since 2023-04-24)\n- the user has been experimenting with their new 50mm prime lens for about 6 weeks (valid since 2023-04-24)\n- The user practices flower photography in their neighborhood. (valid since 2023-04-24)\n- The user is using a 50mm prime lens to experiment with macro flower photography (valid since 2023-04-24)\n- The assistant recommends that the user invest in a dedicated macro lens for better macro photography results (valid since 2023-04-24)\n- The assistant suggests that the user purchase extension tubes for their 50mm prime lens to improve macro photography (valid since 2023-04-24)\n- The user uses a white noise machine to help sleep better. (valid since 2023-06-22)\n- The white noise machine has a rain sounds setting used by the user. (valid since 2023-06-22)\n- The user tracks their sleep using a Fitbit Charge 3. (valid since 2023-06-22)\n- The user describes the lack of consistency in maintaining new habits as their greatest challenge in improving sleep. (valid since 2023-06-22)\n- The user plans to improve consistency by setting small, achievable goals such as going to bed 15 minutes earlier each night for a week. (valid since 2023-06-22)\n- A gamer in Shinjuku wears neon streetwear while using a Canon EOS R6 camera (valid since 2023-07-04)\n- A gamer uses a Canon EOS R6 camera in Shinjuku (valid since 2023-07-04)\n- A dancer in a nightclub in Shinjuku wears a neon outfit while being photographed with a Nikon Z7 II camera (valid since 2023-07-04)\n- A dancer in Shinjuku is photographed with a Nikon Z7 II camera (valid since 2023-07-04)\n- A singer in a karaoke room in Shinjuku uses a microphone stand and a Fujifilm X-T4 camera (valid since 2023-07-04)\n- A singer in Shinjuku uses a Fujifilm X-T4 camera (valid since 2023-07-04)\n- A drag queen in Shinjuku wears a neon outfit and is photographed with a Sony A7 III camera (valid since 2023-07-04)\n- A drag queen in Shinjuku is photographed with a Sony A7 III camera (valid since 2023-07-04)\n- A gamer in Shinjuku wears futuristic neon streetwear and uses a Leica SL2-S camera (valid since 2023-07-04)\n- A gamer in Shinjuku uses a Leica SL2-S camera (valid since 2023-07-04)\n- The user wants to check out some local yoga studios for their practice. (valid since 2023-07-14)\n- Veggie sticks can be consumed with hummus as a post-workout snack. (valid since 2023-07-14)\n- Veggie sticks can be consumed with guacamole as a post-workout snack. (valid since 2023-07-14)\n- The user is planning a trip to the Amazon rainforest. (valid since 2023-07-15)\n- The user is interested in learning more about the indigenous communities living in the Amazon rainforest. (valid since 2023-07-15)\n- Indigenous communities live in the Amazon rainforest. (valid since 2023-07-15)\n- The user is interested in learning more about the Yanomami people and their struggles, culture, and way of life. (valid since 2023-07-15)\n- Melody Maker ceased publication in 2000 (valid until 2000-01-01) [superseded]\n- The film Embrace of the Serpent was inspired by the diaries of Theodor Koch-Grunberg. (date unknown)\n- The film Embrace of the Serpent was inspired by the diaries of Karamakate. (date unknown)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 56,
+  "invalidated": 1,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 291.8,
+  "total": 296.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

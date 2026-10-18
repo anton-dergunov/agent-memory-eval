@@ -1,0 +1,88 @@
+{
+ "qid": "c4ea545c",
+ "arm": "mem0",
+ "split": "main",
+ "question": "Do I go to the gym more frequently than I did previously?",
+ "reference": "Yes",
+ "question_date": "2023-09-01 19:15",
+ "sessions": [
+  {
+   "id": "sharegpt_JJu53iW_0",
+   "date": "2023-05-15 16:13",
+   "evidence": false
+  },
+  {
+   "id": "a2a8e2c9",
+   "date": "2023-05-21 05:58",
+   "evidence": false
+  },
+  {
+   "id": "60fdb334_2",
+   "date": "2023-05-31 21:13",
+   "evidence": false
+  },
+  {
+   "id": "answer_d3bf812b_1",
+   "date": "2023-06-01 09:48",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_369982",
+   "date": "2023-06-06 12:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vAsigme_0",
+   "date": "2023-07-30 09:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_21766",
+   "date": "2023-08-15 03:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_d3bf812b_2",
+   "date": "2023-08-15 20:17",
+   "evidence": true
+  },
+  {
+   "id": "6f8f4c80_1",
+   "date": "2023-08-27 12:36",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_360867",
+   "date": "2023-08-31 23:20",
+   "evidence": false
+  }
+ ],
+ "context": "- User maintains a consistent gym routine, exercising four times a week. (from a chat on 2023-08-15)\n- User prefers healthy meal prep options featuring lean proteins and vegetables, and has previously used quinoa salad as a staple. (from a chat on 2023-06-01)\n- User has a weekly routine that includes gym workouts on Tuesdays, Thursdays, and Saturdays, meditation and reading sessions, and social commitments including dinner with Rachel on Fridays and family dinners on Saturdays. (from a chat on 2023-06-01)\n- User plans to reward themselves with a post-workout smoothie on Saturday, August 19, 2023, following their consistent gym routine. (from a chat on 2023-08-15)\n- User uses a habit tracker app to manage daily and weekly tasks, including meditation and exercise routines. (from a chat on 2023-08-15)\n- User's weekly routine includes dedicating Fridays to admin tasks and Sundays to meal prep. (from a chat on 2023-08-15)\n- User's weekly schedule includes admin tasks on Mondays, meal prep on Wednesdays and Sundays, and household chores on Saturdays. (from a chat on 2023-06-01)\n- User attended a panel discussion on diversity and representation in literature at the city convention center on August 27, 2023, featuring authors Nicola Yoon, Angie Thomas, and Jason Reynolds. (from a chat on 2023-08-27)\n- User was provided with a structured weekly schedule and specific meal prep recipes including Grilled Chicken and Veggie Containers, Lentil and Veggie Soup, Baked Salmon and Roasted Veggies, Turkey and Avocado Wraps, and Spinach and Feta Stuffed Chicken Breast. (from a chat on 2023-06-01)\n- User was recommended a post-workout smoothie recipe containing whey protein powder, frozen berries, banana, unsweetened almond milk, and honey. (from a chat on 2023-08-15)\n- User learned about new trends that emerged in the beer industry during the pandemic, including the rise of home delivery, subscription services, brewery collaborations, demand for low-alcohol options, and a stronger focus on local and regional beer. (from a chat on 2023-08-15)\n- User reflected on the nature of perseverance and human potential, finding comfort in the idea that humans possess an innate capacity for adaptability and strength when faced with extreme adversity. (from a chat on 2023-06-06)\n- User was informed that Detroit's manufacturing employment grew by 2.9% in 2018, and that GM announced a $3 billion investment in the Detroit-Hamtramck assembly plant in 2019, creating 2,200 jobs. (from a chat on 2023-08-31)\n- User learned about global beer industry adaptations to COVID-19, including production shifts to packaged beer, increased online sales and delivery, and charitable efforts like producing hand sanitizer. (from a chat on 2023-08-15)\n- User is planning a trip to Tokyo, Japan, departing on April 1, 2023, and booked the trip on January 15, 2023. (from a chat on 2023-05-21)\n- User is interested in the revitalization of the manufacturing industry in Detroit, Michigan, and inquired about past support initiatives and recent economic improvements. (from a chat on 2023-08-31)\n- User watched a film about a man stranded alone in the ocean after a plane crash and was deeply inspired by the character's resilience, mental toughness, and will to survive. (from a chat on 2023-06-06)\n- User decided to try the 'Grilled Chicken and Veggie Containers' recipe for meal prep, which includes marinated chicken breast, roasted vegetables, and a side of quinoa or brown rice. (from a chat on 2023-06-01)\n- User learned that Detroit is diversifying its manufacturing sector beyond the automotive industry by targeting aerospace, defense, medical devices, and advanced electronics. (from a chat on 2023-08-31)\n- User is starting a physical book journal to track their reading journey, including sections for author events, quotes, and personal reflections, using a mix of writing and collage elements. (from a chat on 2023-08-27)",
+ "answer": "To determine if you go to the gym more frequently than you did previously, let's look at the relevant facts:\n\n**Step 1: Extract relevant information**\n*   **Fact 1 (from 2023-06-01):** Your weekly routine included gym workouts on Tuesdays, Thursdays, and Saturdays. This totals **3 days per week**.\n*   **Fact 2 (from 2023-08-15):** You maintain a consistent gym routine, exercising **four times a week**.\n\n**Step 2: Reason over the information**\n*   Comparing the two timeframes, your previous routine (as of June 2023) consisted of 3 gym sessions per week.\n*   Your current routine (as of August 2023) consists of 4 gym sessions per week.\n\n**Answer:**\nYes, you go to the gym more frequently now. You increased your frequency from 3 days per week to 4 days per week.",
+ "dump": "- User was informed about the benefits of a Suica card for Tokyo travel, including convenience for trains and buses, and was advised that while it can be purchased online through authorized retailers, it is also easily available at airports and train stations in Japan. (session 2023-05-21)\n- User learned about global beer industry adaptations to COVID-19, including production shifts to packaged beer, increased online sales and delivery, and charitable efforts like producing hand sanitizer. (session 2023-08-15)\n- User was provided with several popcorn flavor ideas, including Korean-inspired options like 'Seoulful Spicy', 'K-Town BBQ', and 'Kimchi Krunch', as well as others like 'Miso Honey' and 'Curry Coconut'. (session 2023-05-31)\n- User is interested in reading 'The Poet X' by Elizabeth Acevedo and appreciates the author's use of free verse to explore themes of identity and adolescence. (session 2023-08-27)\n- User is interested in reading 'The Silent Patient' by Alex Michaelides and plans to add it to their reading list. (session 2023-08-15)\n- User plans to exchange a small amount of currency at the airport upon arrival in Japan for initial expenses and then rely on ATM withdrawals for additional yen, acknowledging that cash is necessary for places that do not accept credit cards. (session 2023-05-21)\n- User attended a panel discussion on diversity and representation in literature at the city convention center on August 27, 2023, featuring authors Nicola Yoon, Angie Thomas, and Jason Reynolds. (session 2023-08-27)\n- User is tasked with developing a Bluetooth device management bulletin board for their company that allows users to track device status, rental availability, and current ownership. (session 2023-07-30)\n- User prefers healthy meal prep options featuring lean proteins and vegetables, and has previously used quinoa salad as a staple. (session 2023-06-01)\n- User was advised on the visa application process for Japan, including required documents like a valid passport, application form, and proof of funds, with processing times typically ranging from 2-5 working days for tourist visas. (session 2023-05-21)\n- User is planning a trip to Tokyo, Japan, departing on April 1, 2023, and booked the trip on January 15, 2023. (session 2023-05-21)\n- User decided to try the 'Grilled Chicken and Veggie Containers' recipe for meal prep, which includes marinated chicken breast, roasted vegetables, and a side of quinoa or brown rice. (session 2023-06-01)\n- User is interested in the historical account of Reynald de Chatillon and the Patriarch of Antioch, Aimery of Limoges, specifically regarding the alleged incident of being covered in honey and left on a roof. (session 2023-05-15)\n- User is considering substituting brown sugar with honey or maple syrup in the 'K-Town BBQ' popcorn recipe, noting that these sweeteners will alter the flavor profile and consistency. (session 2023-05-31)\n- User plans to reward themselves with a post-workout smoothie on Saturday, August 19, 2023, following their consistent gym routine. (session 2023-08-15)\n- User learned about new trends that emerged in the beer industry during the pandemic, including the rise of home delivery, subscription services, brewery collaborations, demand for low-alcohol options, and a stronger focus on local and regional beer. (session 2023-08-15)\n- User reflected on the nature of perseverance and human potential, finding comfort in the idea that humans possess an innate capacity for adaptability and strength when faced with extreme adversity. (session 2023-06-06)\n- User learned that gochujang is a fermented soybean paste with a slow-building heat, while gochugaru is a spicy, intense chili flake powder; they are not direct substitutes for each other. (session 2023-05-31)\n- User was provided with a technical outline for a web-based Bluetooth device management bulletin board using the Flask framework, including sample Python code for the backend and an HTML template for the user interface. (session 2023-07-30)\n- User learned that Detroit is diversifying its manufacturing sector beyond the automotive industry by targeting aerospace, defense, medical devices, and advanced electronics. (session 2023-08-31)\n- User was provided with tips for creating a book journal, including using adhesives like glue sticks, decoupage medium, or washi tape for collage elements and balancing visual memorabilia with written reflections. (session 2023-08-27)\n- User plans to prepare Quinoa and Roasted Vegetable Bowls for meal prep on Sunday, August 20, 2023, customized with grilled chicken and black beans for extra protein. (session 2023-08-15)\n- User admires the reading style of author Emma Taylor, noting her conversational tone, gentle voice, and ability to create intimacy through eye contact and deliberate pauses. (session 2023-08-27)\n- User was recommended several books exploring storytelling and cultural connection, including 'Ceremony' by Leslie Marmon Silko, 'The Woman Warrior' by Maxine Hong Kingston, 'Midnight's Children' by Salman Rushdie, 'Swing Time' by Zadie Smith, and 'How the García Girls Lost Their Accents' by Julia Alvarez. (session 2023-08-27)\n- User is planning to make homemade popcorn with various unique flavor combinations this weekend, specifically exploring Korean-inspired profiles using gochujang and soy sauce. (session 2023-05-31)\n- User uses a habit tracker app to manage daily and weekly tasks, including meditation and exercise routines. (session 2023-08-15)\n- User was informed that Detroit's manufacturing employment grew by 2.9% in 2018, and that GM announced a $3 billion investment in the Detroit-Hamtramck assembly plant in 2019, creating 2,200 jobs. (session 2023-08-31)\n- User plans to add grated fresh ginger to their 'Miso Honey Sesame' popcorn recipe to provide a warming, spicy kick that complements the miso and honey. (session 2023-05-31)\n- User is starting a physical book journal to track their reading journey, including sections for author events, quotes, and personal reflections, using a mix of writing and collage elements. (session 2023-08-27)\n- User was provided with a structured weekly schedule and specific meal prep recipes including Grilled Chicken and Veggie Containers, Lentil and Veggie Soup, Baked Salmon and Roasted Veggies, Turkey and Avocado Wraps, and Spinach and Feta Stuffed Chicken Breast. (session 2023-06-01)\n- User is interested in the revitalization of the manufacturing industry in Detroit, Michigan, and inquired about past support initiatives and recent economic improvements. (session 2023-08-31)\n- User learned about challenges faced by the beer industry during the pandemic, such as the closure of bars and pubs, supply chain disruptions, increased operational costs for safety, and logistical hurdles for delivery. (session 2023-08-15)\n- User's weekly routine includes dedicating Fridays to admin tasks and Sundays to meal prep. (session 2023-08-15)\n- User maintains a consistent gym routine, exercising four times a week. (session 2023-08-15)\n- User has a weekly routine that includes gym workouts on Tuesdays, Thursdays, and Saturdays, meditation and reading sessions, and social commitments including dinner with Rachel on Fridays and family dinners on Saturdays. (session 2023-06-01)\n- User was recommended a post-workout smoothie recipe containing whey protein powder, frozen berries, banana, unsweetened almond milk, and honey. (session 2023-08-15)\n- User plans to add toasted sesame seeds to their 'Miso Honey' popcorn recipe to introduce a nutty flavor and crunchy texture. (session 2023-05-31)\n- User plans to read 'The Brief Wondrous Life of Oscar Wao' by Junot Díaz to explore themes of storytelling and cultural connection. (session 2023-08-27)\n- User learned that white miso paste (shiro miso) is a mild, creamy, and slightly sweet fermented soybean paste used in Japanese cooking for soups, marinades, and seasonings. (session 2023-05-31)\n- User's weekly schedule includes admin tasks on Mondays, meal prep on Wednesdays and Sundays, and household chores on Saturdays. (session 2023-06-01)\n- User watched a film about a man stranded alone in the ocean after a plane crash and was deeply inspired by the character's resilience, mental toughness, and will to survive. (session 2023-06-06)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 41,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 32.0,
+  "total": 33.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

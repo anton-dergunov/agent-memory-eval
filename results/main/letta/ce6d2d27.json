@@ -1,0 +1,128 @@
+{
+ "qid": "ce6d2d27",
+ "arm": "letta",
+ "split": "main",
+ "question": "What day of the week do I take a cocktail-making class?",
+ "reference": "Friday",
+ "question_date": "2023-07-15 22:19",
+ "sessions": [
+  {
+   "id": "answer_73540165_1",
+   "date": "2023-06-16 13:26",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_72kPQPm_11",
+   "date": "2023-06-19 09:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1uSOnON_25",
+   "date": "2023-06-27 22:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_227355",
+   "date": "2023-06-30 15:34",
+   "evidence": false
+  },
+  {
+   "id": "cd92ac85_1",
+   "date": "2023-06-30 16:18",
+   "evidence": false
+  },
+  {
+   "id": "answer_73540165_2",
+   "date": "2023-06-30 22:49",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504309",
+   "date": "2023-07-05 17:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_306593",
+   "date": "2023-07-05 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_WQctw3k_0",
+   "date": "2023-07-06 07:34",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_206676",
+   "date": "2023-07-12 09:35",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is planning a dinner party. They like spicy mango margaritas and are serving grilled pineapple and prosciutto skewers and spicy shrimp ceviche as appetizers.\nThe user is hosting a dinner party and has decided to serve grilled jerk chicken with mango salsa, grilled asparagus, and roasted sweet potatoes as the main course. They are attending a cocktail-making class this coming Thursday.\nThe user is interested in the philosophy of psychoactive substances and the work of Bruno Latour. The user is also reaching out to someone named Graham.\nThe user has incorporated a lentil curry with mango into their Sunday meal prep routine, following their established habit of preparing rice for the week.\nThe user likes to experiment with cocktail recipes, specifically interested in using basil with tequila and roasting watermelon to enhance its sweetness.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "According to your records, you are attending your cocktail-making class this coming Thursday!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is planning a dinner party. They like spicy mango margaritas and are serving grilled pineapple and prosciutto skewers and spicy shrimp ceviche as appetizers.\nThe user is hosting a dinner party and has decided to serve grilled jerk chicken with mango salsa, grilled asparagus, and roasted sweet potatoes as the main course. They are attending a cocktail-making class this coming Thursday.\nThe user is interested in the philosophy of psychoactive substances and the work of Bruno Latour. The user is also reaching out to someone named Graham.\nThe user has incorporated a lentil curry with mango into their Sunday meal prep routine, following their established habit of preparing rice for the week.\nThe user likes to experiment with cocktail recipes, specifically interested in using basil with tequila and roasting watermelon to enhance its sweetness.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"cocktail-making class\"})"
+  ],
+  "blocks_chars": 1058,
+  "write_steps": 49,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 346.3,
+  "total": 352.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

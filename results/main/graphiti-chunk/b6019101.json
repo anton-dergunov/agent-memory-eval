@@ -1,0 +1,102 @@
+{
+ "qid": "b6019101",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many MCU films did I watch in the last 3 months?",
+ "reference": "5",
+ "question_date": "2023-06-17 16:20",
+ "sessions": [
+  {
+   "id": "3ea07188_1",
+   "date": "2023-04-22 11:57",
+   "evidence": false
+  },
+  {
+   "id": "df6970d8",
+   "date": "2023-04-28 14:26",
+   "evidence": false
+  },
+  {
+   "id": "43a8152b_1",
+   "date": "2023-05-03 21:21",
+   "evidence": false
+  },
+  {
+   "id": "9bd36386",
+   "date": "2023-05-08 22:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_204275",
+   "date": "2023-05-10 12:23",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_106975",
+   "date": "2023-05-11 01:38",
+   "evidence": false
+  },
+  {
+   "id": "ac089c83_4",
+   "date": "2023-05-18 20:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_67074b4b_1",
+   "date": "2023-05-20 04:54",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_338597",
+   "date": "2023-05-21 20:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_67074b4b_2",
+   "date": "2023-05-29 02:47",
+   "evidence": true
+  }
+ ],
+ "context": "- The user participated in the #WellnessWednesday hashtag challenge, which resulted in the user gaining 12 new followers. (valid since 2023-05-03)\n- The user plans to include a movie trivia competition during their family movie marathon. (valid since 2023-05-29)\n- The assistant suggests including movie-themed quizzes in the family movie marathon. (valid since 2023-05-29)\n- The assistant suggests playing Movie Trivia covering The Lion King, Back to the Future, and The Goonies. (valid since 2023-05-29)\n- Bob Selden created the song Stand in My Shoes (valid since 2023-05-11)\n- The assistant suggests including movie-themed games in the family movie marathon. (valid since 2023-05-29)\n- The user plans to include a guess the movie poster game during their family movie marathon. (valid since 2023-05-29)\n- The assistant suggests a Character Match game using characters from The Lion King, Back to the Future, and The Goonies. (valid since 2023-05-29)\n- The user is expressing interest in learning more about the board game Dixit, including its mechanics and gameplay (valid since 2023-04-28)\n- A Marvel-themed photo booth can include a cape as a prop. (valid since 2023-05-20)",
+ "answer": "**Answer (step by step):**\n\n**Step 1: Extract relevant information**\n*   I have reviewed the provided history chats for any mention of MCU (Marvel Cinematic Universe) films watched by the user.\n*   The history contains information regarding:\n    *   The #WellnessWednesday hashtag challenge.\n    *   Plans for a family movie marathon (including trivia, movie posters, and specific films like *The Lion King*, *Back to the Future*, and *The Goonies*).\n    *   The song \"Stand in My Shoes\" by Bob Selden.\n    *   Interest in the board game *Dixit*.\n    *   A suggestion that a Marvel-themed photo booth can include a cape as a prop.\n\n**Step 2: Reason over the information**\n*   While there is a mention of a \"Marvel-themed photo booth\" in the history, there is no record or mention of the user watching any MCU films, nor is there any data regarding the quantity of films watched by the user within the last three months.\n\n**Conclusion:**\nBased on the provided history, there is no information available to answer how many MCU films you watched in the last 3 months.",
+ "dump": "- The user plans to designate a jewelry station to keep their jewelry organized. (valid since 2023-04-22)\n- The user plans to use a jewelry organizer to keep their jewelry organized. (valid since 2023-04-22)\n- The user plans to clean their silver earrings using a silver polishing cloth to remove tarnish. (valid since 2023-04-22)\n- The user plans to clean their silver necklace using a silver polishing cloth to remove tarnish. (valid since 2023-04-22)\n- The user intends to store their silver earrings separately to prevent scratching or tangling. (valid since 2023-04-22)\n- The user intends to store their silver necklace separately to prevent scratching or tangling. (valid since 2023-04-22)\n- The user inherited vintage brooches from their grandmother. (valid since 2023-04-22)\n- The user inherited vintage pendants from their grandmother. (valid since 2023-04-22)\n- The user believes a floral patterned brooch would look great styled on a simple white blouse. (valid since 2023-04-22)\n- The user believes a floral patterned brooch would look great styled on a denim jacket. (valid since 2023-04-22)\n- The user intends to pair their floral patterned brooch with a modern scarf for a fresh look. (valid since 2023-04-22)\n- The user intends to pair their floral patterned brooch with a hat for a fresh look. (valid since 2023-04-22)\n- The user is expressing interest in learning more about the board game Dixit, including its mechanics and gameplay (valid since 2023-04-28)\n- The user is considering using the board game Dixit for their monthly game night. (valid since 2023-04-28)\n- Dixit is a suitable board game for the user's monthly game night. (valid since 2023-04-28)\n- The assistant recommends Dixit as a game for the user's monthly game night. (valid since 2023-04-28)\n- The user is considering creating a unique branded hashtag for their personal brand that is effective and memorable. (valid since 2023-05-03)\n- The user participated in the #WellnessWednesday hashtag challenge, which resulted in the user gaining 12 new followers. (valid since 2023-05-03)\n- The assistant advises the user to balance participating in popular hashtag challenges like #WellnessWednesday with creating their own branded challenge to build a community. (valid since 2023-05-03)\n- The user plans to participate in popular hashtag challenges while also creating their own branded challenge as advised by the assistant. (valid since 2023-05-03)\n- The user visited Napa Valley on a weekend trip with their boyfriend Alex. (valid since 2023-05-08)\n- The user visited Napa Valley with their boyfriend Alex on a weekend trip. (valid since 2023-05-08)\n- The assistant recommends using Photoshop to create custom textures for 3D objects. (valid since 2023-05-10)\n- The assistant recommends using GIMP to create custom textures for 3D objects. (valid since 2023-05-10)\n- The assistant recommends using Krita to create custom textures for 3D objects. (valid since 2023-05-10)\n- Mr. R's World of Math created the song Mission Math (valid since 2023-05-11)\n- Dave Kinnoin and Randy Sharp created the song The Math Facts (valid since 2023-05-11)\n- Dave Kinnoin and Randy Sharp created the song The Math Facts (valid since 2023-05-11)\n- Math Rapper created the song Math Rap (valid since 2023-05-11)\n- Mike Greene created the Bill Nye the Science Guy Theme Song (valid since 2023-05-11)\n- Tom Lehrer created The Elements Song (valid since 2023-05-11)\n- Have Fun Teaching created The Water Cycle Song (valid since 2023-05-11)\n- Rockin' the Standards created the song U.S.A (valid since 2023-05-11)\n- J.Geils Band created the song We the People (valid since 2023-05-11)\n- Katharine Lee Bates and Samuel A.Ward created the song America the Beautiful (valid since 2023-05-11)\n- Katharine Lee Bates and Samuel A.Ward created the song America the Beautiful (valid since 2023-05-11)\n- Tessa Rae created the song Figurative Language Rap (valid since 2023-05-11)\n- Flocabulary created the song Personification (valid since 2023-05-11)\n- Mr. Morton created the song Parts of Speech (valid since 2023-05-11)\n- MK Savage created the song We Are Kindness Ninjas (valid since 2023-05-11)\n- Bob Selden created the song Stand in My Shoes (valid since 2023-05-11)\n- Olivia Garcia created The Golden Rule Song (valid since 2023-05-11)\n- The assistant provides information about the Facebook post regarding the alma mater's upcoming reunion. (valid since 2023-05-18)\n- The assistant suggests using a Spider-Man mask and a cape as props for a Marvel-themed photo booth. (valid since 2023-05-20)\n- A Marvel-themed photo booth can include a Spider-Man mask as a prop. (valid since 2023-05-20)\n- A Marvel-themed photo booth can include a cape as a prop. (valid since 2023-05-20)\n- The cardboard box cityscape is designed around a Spider-Man theme. (valid since 2023-05-20)\n- The DIY sign Spider-Man's Neighborhood is associated with the Spider-Man movie theme. (valid since 2023-05-20)\n- The DIY sign Queens, NY is used to give the Spider-Man theme an authentic feel. (valid since 2023-05-20)\n- The assistant provides information about the recovery of humpback whales as a success story for marine wildlife conservation (valid since 2023-05-21)\n- The assistant discusses the impact of various conservation initiatives on marine ecosystems (valid since 2023-05-21)\n- The gray whale is a species of baleen whale that has made a significant recovery due to conservation efforts. (valid since 2023-05-21)\n- The southern right whale is a species of baleen whale that has made a significant recovery due to conservation efforts. (valid since 2023-05-21)\n- The gray whale population migrates between the Arctic and Mexico. (valid since 2023-05-21)\n- The gray whale population migrates between the Arctic and Mexico. (valid since 2023-05-21)\n- California's Marine Life Protection Act involves the use of Coral Reef Management areas to preserve and protect reefs from fishing practices. (valid since 2023-05-21)\n- The UK introduced a five pence charge on plastic bags which led to an 80% reduction in plastic bag use. (valid since 2023-05-21)\n- The assistant suggests including movie-themed games in the family movie marathon. (valid since 2023-05-29)\n- The assistant suggests including movie-themed quizzes in the family movie marathon. (valid since 2023-05-29)\n- The assistant suggests playing Movie Trivia covering The Lion King, Back to the Future, and The Goonies. (valid since 2023-05-29)\n- The assistant suggests a Character Match game using characters from The Lion King, Back to the Future, and The Goonies. (valid since 2023-05-29)\n- The Character Match game includes Simba from The Lion King. (valid since 2023-05-29)\n- The Character Match game includes Nala from The Lion King. (valid since 2023-05-29)\n- The Character Match game includes Marty McFly from Back to the Future. (valid since 2023-05-29)\n- The Character Match game includes Doc Brown from Back to the Future. (valid since 2023-05-29)\n- The Character Match game includes Mikey from The Goonies. (valid since 2023-05-29)\n- The Character Match game includes Mouth from The Goonies. (valid since 2023-05-29)\n- The assistant recommends a Quote-along competition featuring famous quotes from the marathon movies. (valid since 2023-05-29)\n- The assistant recommends playing Movie-themed Charades using titles, characters, or scenes from the marathon. (valid since 2023-05-29)\n- The assistant suggests a Goonies' Treasure Hunt Challenge where participants find hidden clues and items. (valid since 2023-05-29)\n- The assistant recommends Time-Travel Trivia based on events from Back to the Future. (valid since 2023-05-29)\n- The assistant recommends a Lion King Karaoke session using songs from the movie soundtrack. (valid since 2023-05-29)\n- The user plans to include a movie trivia competition during their family movie marathon. (valid since 2023-05-29)\n- The user plans to include a quote-along competition during their family movie marathon. (valid since 2023-05-29)\n- The user plans to include a guess the movie poster game during their family movie marathon. (valid since 2023-05-29)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 75,
+  "invalidated": 0,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 159.9,
+  "total": 161.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

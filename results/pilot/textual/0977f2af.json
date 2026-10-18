@@ -1,0 +1,83 @@
+{
+ "qid": "0977f2af",
+ "arm": "textual",
+ "split": "pilot",
+ "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+ "reference": "Instant Pot",
+ "question_date": "2023-05-31 07:54",
+ "sessions": [
+  {
+   "id": "497cd65d",
+   "date": "2023-04-22 04:35",
+   "evidence": false
+  },
+  {
+   "id": "b3642bd9_3",
+   "date": "2023-04-22 23:57",
+   "evidence": false
+  },
+  {
+   "id": "e0bfe67a_2",
+   "date": "2023-05-02 02:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_211475",
+   "date": "2023-05-04 10:32",
+   "evidence": false
+  },
+  {
+   "id": "cbf48918_1",
+   "date": "2023-05-06 18:30",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vncOfEw_0",
+   "date": "2023-05-09 23:46",
+   "evidence": false
+  },
+  {
+   "id": "e7989082_2",
+   "date": "2023-05-21 00:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_3bf5b73b_1",
+   "date": "2023-05-21 05:48",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_qDHHlQO_27",
+   "date": "2023-05-21 14:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_3bf5b73b_2",
+   "date": "2023-05-21 22:54",
+   "evidence": true
+  }
+ ],
+ "context": "### Personal facts\n* The user is experiencing foot pain and is investigating custom orthotics as a potential solution.\n* The user utilizes Instacart for grocery delivery.\n* The user is a fan of Major League Baseball and follows the performance of Freddie Freeman.\n* The user is a runner who completed a 5K charity run on 2023-05-06 with a personal best time of 27 minutes and 12 seconds.\n* The user works in a professional capacity that involves drafting sales or marketing outreach emails for a product called \"Comparative,\" an analytics solution for payment processors.\n* The user is planning a farewell party for a coworker and has experience giving funny mugs with inside jokes as going-away gifts.\n* The user owns an Instant Pot and is learning to use it for pressure cooking soups and stews.\n* The user owns an Air Fryer, acquired on 2023-05-20.\n* The user is interested in world-building for an \"ecopunk adventure,\" specifically focusing on the flora and fauna of a tidally-heated forest moon called Xylophia-IV-e.\n\n### Preferences and habits\n* The user takes an active interest in shoe maintenance and organization.\n* The user owns white sneakers and brown leather loafers.\n* The user is interested in establishing a dedicated shoe cleaning and organization station at home.\n* The user prefers digital solutions for organization and tracking over physical notebooks.\n* The user is adopting a system of tracking grocery spending by saving digital receipts via email in a dedicated folder.\n* The user is interested in meal planning to reduce food waste and save money.\n* The user enjoys cooking and is comfortable using frozen ingredients (vegetables, fruit) and leftovers (chicken breasts) in their meal preparation.\n* The user prefers savory flavor profiles (garlic, ginger, soy sauce) over overly sweet profiles for stir-fry dishes.\n* The user proactively seeks out sports analytics to track player performance and evaluate rumors regarding athlete struggles.\n* The user is committed to a structured running routine, currently averaging 15 miles per week (as of May 2023).\n* The user incorporates strength training (targeting core and legs) into their fitness routine 1-2 times per week.\n* The user is interested in using bodyweight, resistance band, and minimal-equipment gym exercises for strength training.\n* The user prefers concise, direct communication in professional writing, specifically requesting that email variations maintain original context and length.\n* The user prefers the convenience of online shopping for gifts (specifically gift cards) to ensure specific designs and denominations.\n* The user is cautious about spice levels in new recipes and prefers to start with milder amounts of ingredients like gochugaru (Korean chili flakes) and adjust to taste.\n* The user is willing to adapt recipes (e.g., substituting chicken breast for thighs) while being mindful of necessary adjustments to cooking times and texture.\n* The user enjoys making chili con carne and is exploring bean and lentil-based recipes for healthy meal prep.\n* The user prefers fresh fruit salad as a light, refreshing dessert option.\n\n### Ongoing situations and plans\n* The user is currently researching and planning to purchase:\n    * Cleaning products for white sneakers.\n    * Waterproofing sprays for sneakers.\n    * A shoe rack to organize their collection.\n    * Shoe polish for brown loafers.\n    * A comprehensive shoe cleaning kit that includes tools and supplies.\n    * Potential custom orthotics to address recent foot pain.\n* The user is implementing a new grocery budgeting strategy:\n    * Tracking spending by consolidating digital receipts in a dedicated email folder.\n    * Requesting digital receipts from physical stores to reduce paper clutter.\n    * Starting a free trial of the \"Plan to Eat\" app to assist with meal planning and grocery list generation.\n* The user is actively managing their meals, including:\n    * Planning to make a Cuban Black Bean and Rice Bowl, accompanied by homemade Air Fryer sweet potato fries and a fresh fruit salad.\n    * Planning to make Korean Chicken Stew (Jjimdak) in their Instant Pot, using chicken breast (adjusted to 10-12 minutes cooking time) and a reduced amount of gochugaru (1 tablespoon).\n    * Planning to make a smoothie using almond milk and frozen fruit.\n    * Planning to make chicken salad using leftover chicken breasts.\n* The user is monitoring Freddie Freeman’s MLB season statistics, specifically his performance against left-handed pitchers and his potential for the NL MVP award.\n* The user is training for a half-marathon scheduled for December 5th, 2023.\n    * The user is structuring their weekly training to include a long run, a speed workout (incorporating hill repeats), an easy run, and a recovery run.\n    * The user is focusing on core and leg strength exercises (e.g., planks, squats, lunges, glute bridges) to improve running efficiency and endurance.\n* The user is actively working on refining email marketing copy and subject lines for \"Comparative,\" focusing on themes of business insights, data analysis, and data potential.\n* The user is preparing a farewell gift for a coworker:\n    * Planning to purchase a \"World's Okayest [Job Title]\" mug.\n    * Planning to purchase a $10 coffee shop gift card online to be mailed to their home.\n    * Planning to include a handwritten note card with a funny anecdote.\n* The user is actively developing creative content for an ecopunk setting, specifically requesting detailed biological profiles for various ecosystems on Xylophia-IV-e, including riparian zones, scrublands, and hot mineral springs.\n\n### Changes over time\n* None.",
+ "answer": "To determine which kitchen gadget you invested in before the Air Fryer, I have analyzed the provided facts:\n\n**Step 1: Extract relevant information**\n*   Fact: The user owns an Instant Pot and is learning to use it for pressure cooking.\n*   Fact: The user owns an Air Fryer, acquired on 2023-05-20.\n*   Fact: There is no mention of any other kitchen gadgets owned by the user in the provided history.\n\n**Step 2: Reason over the information**\n*   The Air Fryer was acquired on 2023-05-20.\n*   The Instant Pot is the only other kitchen gadget listed in your profile.\n*   Since the Instant Pot is the only other gadget mentioned and you are already actively using it for pressure cooking (as evidenced by your meal planning for Korean Chicken Stew), it is the gadget you invested in prior to the Air Fryer.\n\n**Answer:**\nYou invested in an **Instant Pot** before getting your Air Fryer.",
+ "dump": "### Personal facts\n* The user is experiencing foot pain and is investigating custom orthotics as a potential solution.\n* The user utilizes Instacart for grocery delivery.\n* The user is a fan of Major League Baseball and follows the performance of Freddie Freeman.\n* The user is a runner who completed a 5K charity run on 2023-05-06 with a personal best time of 27 minutes and 12 seconds.\n* The user works in a professional capacity that involves drafting sales or marketing outreach emails for a product called \"Comparative,\" an analytics solution for payment processors.\n* The user is planning a farewell party for a coworker and has experience giving funny mugs with inside jokes as going-away gifts.\n* The user owns an Instant Pot and is learning to use it for pressure cooking soups and stews.\n* The user owns an Air Fryer, acquired on 2023-05-20.\n* The user is interested in world-building for an \"ecopunk adventure,\" specifically focusing on the flora and fauna of a tidally-heated forest moon called Xylophia-IV-e.\n\n### Preferences and habits\n* The user takes an active interest in shoe maintenance and organization.\n* The user owns white sneakers and brown leather loafers.\n* The user is interested in establishing a dedicated shoe cleaning and organization station at home.\n* The user prefers digital solutions for organization and tracking over physical notebooks.\n* The user is adopting a system of tracking grocery spending by saving digital receipts via email in a dedicated folder.\n* The user is interested in meal planning to reduce food waste and save money.\n* The user enjoys cooking and is comfortable using frozen ingredients (vegetables, fruit) and leftovers (chicken breasts) in their meal preparation.\n* The user prefers savory flavor profiles (garlic, ginger, soy sauce) over overly sweet profiles for stir-fry dishes.\n* The user proactively seeks out sports analytics to track player performance and evaluate rumors regarding athlete struggles.\n* The user is committed to a structured running routine, currently averaging 15 miles per week (as of May 2023).\n* The user incorporates strength training (targeting core and legs) into their fitness routine 1-2 times per week.\n* The user is interested in using bodyweight, resistance band, and minimal-equipment gym exercises for strength training.\n* The user prefers concise, direct communication in professional writing, specifically requesting that email variations maintain original context and length.\n* The user prefers the convenience of online shopping for gifts (specifically gift cards) to ensure specific designs and denominations.\n* The user is cautious about spice levels in new recipes and prefers to start with milder amounts of ingredients like gochugaru (Korean chili flakes) and adjust to taste.\n* The user is willing to adapt recipes (e.g., substituting chicken breast for thighs) while being mindful of necessary adjustments to cooking times and texture.\n* The user enjoys making chili con carne and is exploring bean and lentil-based recipes for healthy meal prep.\n* The user prefers fresh fruit salad as a light, refreshing dessert option.\n\n### Ongoing situations and plans\n* The user is currently researching and planning to purchase:\n    * Cleaning products for white sneakers.\n    * Waterproofing sprays for sneakers.\n    * A shoe rack to organize their collection.\n    * Shoe polish for brown loafers.\n    * A comprehensive shoe cleaning kit that includes tools and supplies.\n    * Potential custom orthotics to address recent foot pain.\n* The user is implementing a new grocery budgeting strategy:\n    * Tracking spending by consolidating digital receipts in a dedicated email folder.\n    * Requesting digital receipts from physical stores to reduce paper clutter.\n    * Starting a free trial of the \"Plan to Eat\" app to assist with meal planning and grocery list generation.\n* The user is actively managing their meals, including:\n    * Planning to make a Cuban Black Bean and Rice Bowl, accompanied by homemade Air Fryer sweet potato fries and a fresh fruit salad.\n    * Planning to make Korean Chicken Stew (Jjimdak) in their Instant Pot, using chicken breast (adjusted to 10-12 minutes cooking time) and a reduced amount of gochugaru (1 tablespoon).\n    * Planning to make a smoothie using almond milk and frozen fruit.\n    * Planning to make chicken salad using leftover chicken breasts.\n* The user is monitoring Freddie Freeman’s MLB season statistics, specifically his performance against left-handed pitchers and his potential for the NL MVP award.\n* The user is training for a half-marathon scheduled for December 5th, 2023.\n    * The user is structuring their weekly training to include a long run, a speed workout (incorporating hill repeats), an easy run, and a recovery run.\n    * The user is focusing on core and leg strength exercises (e.g., planks, squats, lunges, glute bridges) to improve running efficiency and endurance.\n* The user is actively working on refining email marketing copy and subject lines for \"Comparative,\" focusing on themes of business insights, data analysis, and data potential.\n* The user is preparing a farewell gift for a coworker:\n    * Planning to purchase a \"World's Okayest [Job Title]\" mug.\n    * Planning to purchase a $10 coffee shop gift card online to be mailed to their home.\n    * Planning to include a handwritten note card with a funny anecdote.\n* The user is actively developing creative content for an ecopunk setting, specifically requesting detailed biological profiles for various ecosystems on Xylophia-IV-e, including riparian zones, scrublands, and hot mineral springs.\n\n### Changes over time\n* None.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 26.5,
+  "total": 27.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "qid": "2698e78f",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How often do I see my therapist, Dr. Smith?",
+ "reference": "every week",
+ "question_date": "2023-11-10 00:38",
+ "sessions": [
+  {
+   "id": "sharegpt_4qCDHY4_17",
+   "date": "2023-03-15 12:49",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6U7TyYE_0",
+   "date": "2023-03-17 15:06",
+   "evidence": false
+  },
+  {
+   "id": "d76030af_1",
+   "date": "2023-03-23 03:11",
+   "evidence": false
+  },
+  {
+   "id": "89c1cdfa_2",
+   "date": "2023-03-27 05:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DrLV0RL_0",
+   "date": "2023-04-02 20:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_1",
+   "date": "2023-04-03 14:18",
+   "evidence": true
+  },
+  {
+   "id": "619e96bc",
+   "date": "2023-07-12 03:14",
+   "evidence": false
+  },
+  {
+   "id": "1980bbfa_5",
+   "date": "2023-11-03 14:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_2",
+   "date": "2023-11-03 19:56",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_130siyQ_0",
+   "date": "2023-11-09 13:22",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-04-03 14:20:00] user has a therapy session with Dr. Smith scheduled every two weeks.\n[2023-04-03 14:22:00] user is seeing Dr. Smith as a therapist.\n[2023-11-03 19:58:00] user and Dr. Smith discussed the need for user to set healthy boundaries.\n[2023-11-03 19:58:00] user attends a bi-weekly dinner with friends.\n[2023-11-03 20:00:00] user prefers a flexible schedule over a strict one.\n[2023-11-03 20:00:00] user sees Dr. Smith once a week.\n[2023-11-03 20:00:00] user receives help from Dr. Smith with setting boundaries.\n[2023-11-03 20:04:00] user practices journaling as a self-care activity.\n[2023-11-03 20:04:00] user is working with Dr. Smith to set healthy boundaries and prioritize well-being.\n[2023-11-03 20:04:00] user practices meditation as a self-care activity.\n[2023-11-03 20:04:00] user needs to improve task prioritization.\n[2023-11-03 20:04:00] user intends to learn to say no to non-essential commitments.\n[2023-11-03 20:06:00] user intends to journal.\n[2023-11-03 20:06:00] user feels more confident about setting healthy boundaries.\n[2023-11-03 20:06:00] user intends to meditate.\n[2023-11-03 20:06:00] user participated in a session with Dr. Smith during the week of November 3, 2023.\n[2023-11-09 13:22:00] user wants to create content that connects with C-level executives at B2B SaaS companies\n[2023-11-09 13:22:00] user is requesting open-ended questions to ask C-level executives at B2B SaaS companies\n[2023-11-09 13:22:00] user wants uncommon, expert advice on creating content for B2B SaaS C-level executives\n\n## Deductive Observations\n\n[2023-11-09 13:22:00] user is interested in high-level executive communication strategies.\n   Premises:\n   - user is requesting open-ended questions to ask C-level executives at B2B SaaS companies\n   - user wants uncommon, expert advice on creating content for B2B SaaS C-level executives\n\n[2023-11-09 13:22:00] user is a professional seeking work-life balance.\n   Premises:\n   - user works Monday to Friday from 9 to 5.\n   - user feels overwhelmed with work and social commitments.\n   - user is working with Dr. Smith to set healthy boundaries and prioritize well-being.\n\n[2023-11-09 13:22:00] user is involved in the professional B2B SaaS industry.\n   Premises:\n   - user wants uncommon, expert advice on creating content for B2B SaaS C-level executives\n   - user wants to create content that connects with C-level executives at B2B SaaS companies\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user is proactively seeking professional guidance from Dr. Smith to improve their personal and professional boundaries.\n   **Type**: behavior\n   **Sources**:\n   - user is working with Dr. Smith to set healthy boundaries and prioritize well-being.\n   - user receives help from Dr. Smith with setting boundaries.\n   - user sees Dr. Smith once a week.\n\n **Pattern** [medium]: user consistently engages in self-care practices such as journaling and meditation to manage stress and well-being.\n   **Type**: behavior\n   **Sources**:\n   - user intends to journal.\n   - user intends to meditate.\n   - user practices journaling as a self-care activity.\n   - user practices meditation as a self-care activity.\n\n **Pattern** [medium]: user is professionally focused on B2B SaaS executive communication and content strategy.\n   **Type**: tendency\n   **Sources**:\n   - user wants uncommon, expert advice on creating content for B2B SaaS C-level executives\n   - user is requesting open-ended questions to ask C-level executives at B2B SaaS companies\n   - user wants to create content that connects with C-level executives at B2B SaaS companies\n\n",
+ "answer": "To determine how often you see your therapist, Dr. Smith, I have analyzed the provided history chats:\n\n**Step 1: Extract relevant information**\n*   [2023-04-03 14:20:00]: The user initially had sessions scheduled every two weeks.\n*   [2023-11-03 20:00:00]: The user explicitly states, \"user sees Dr. Smith once a week.\"\n*   [Inductive Observation]: The pattern regarding professional guidance confirms that the user \"sees Dr. Smith once a week.\"\n\n**Step 2: Reason over the information**\nWhile the initial schedule in April 2023 was bi-weekly, the most recent and specific information provided on November 3, 2023, indicates a change in frequency. The user explicitly confirmed that they currently see Dr. Smith on a weekly basis.\n\n**Answer:**\nYou currently see your therapist, Dr. Smith, once a week.",
+ "dump": "- [explicit] user wants a conclusion for every writing genre\n- [explicit] user provided a Google Docs link for the document being discussed\n- [explicit] user wants an action plan for every writing genre\n- [explicit] user specifies that books mentioned must be for kids under eleven years old\n- [explicit] user wants a working timeline for every writing genre\n- [explicit] user wants rising, peak, and falling action for every writing genre\n- [explicit] user wants a 2-5 sentence book summary example for every writing genre\n- [explicit] user wants every writing genre to be in a numbered list\n- [explicit] user wants examples of internal and external conflict for every writing genre\n- [explicit] user wants the name and description for every writing genre\n- [explicit] user believes that the ending of a piece of writing can leave a lasting impression on the reader.\n- [explicit] user believes it is important to take time to craft a thoughtful and impactful conclusion.\n- [explicit] user is interested in learning about genres for children contained in the document at the URL https://docs.google.com/document/d/1RwzOFegN6iIRScoZJZKRlKi5fVPkl9xIg0Sq1YCmNKg/edit?usp=sharing\n- [explicit] user provided the URL https://docs.google.com/document/d/1RwzOFegN6iIRScoZJZKRlKi5fVPkl9xIg0Sq1YCmNKg/edit?usp=sharing\n- [explicit] user is seeking a method to divide a specific story into pages for a children's book.\n- [explicit] user requested image AI prompts for each sentence of a specific story.\n- [explicit] user wants a children's book written about a playful dog and a little boy on a family forest vacation.\n- [explicit] user is looking for a title for the children's book story about a boy named Timmy and his dog Max.\n- [explicit] user won a sculpture by an up-and-coming artist at an art auction in February 2023.\n- [explicit] user is taking classes at a local art studio.\n- [explicit] user has been trying to achieve a sophisticated look in the living room.\n- [explicit] user intends to start watercolor painting using the Winsor & Newton Cotman set.\n- [explicit] user feels a connection to the sculpture because it adds a touch of sophistication to a room.\n- [explicit] user attended an art auction at a prestigious gallery in the city in February 2023.\n- [explicit] user owns a collection of art supplies including paints, brushes, canvases, and prints.\n- [explicit] user displays a sculpture on a coffee table.\n- [explicit] user intends to convert a spare room into a home studio.\n- [explicit] user is considering adding new art pieces to their collection\n- [explicit] user is considering exploring Etsy as an online marketplace for art\n- [explicit] user is considering exploring Redbubble as an online marketplace for art\n- [explicit] user is interested in pursuing an MBA.\n- [explicit] user has not started the MBA application process due to time constraints.\n- [explicit] user intends to improve their data analysis skills.\n- [explicit] user is interested in exploring Coursera data science courses.\n- [explicit] user is interested in the capstone project of the Johns Hopkins University Data Science Specialization.\n- [explicit] user is considering analyzing customer behavior for their capstone project.\n- [explicit] user works in marketing.\n- [explicit] user is considering predicting customer churn for their capstone project.\n- [explicit] user has decided to focus their capstone project on predicting customer churn.\n- [explicit] user is seeking recommendations for tools and techniques for data visualization and modeling.\n- [explicit] user's organization is experiencing customer loss.\n- [explicit] user plans to use DataCamp to get an understanding of data science tools and techniques.\n- [explicit] user is interested in learning more about the TensorFlow library.\n- [explicit] user plans to use Kaggle to get an understanding of data science tools and techniques.\n- [explicit] user is interested in learning more about the scikit-learn library.\n- [explicit] user requested a detailed story with insights to be used for a YouTube video.\n- [explicit] user is interested in creating a 5-part YouTube series about the influence of Hindu mythology on modern Indian culture and society.\n- [explicit] user intends to create a YouTube video based on the topic 'The Role of Hindu Mythology in Indian Spirituality and Religion'.\n- [explicit] user wants an SEO optimized and engaging introduction and conclusion for the provided story about Hindu mythology.\n- [explicit] user wants the conclusion to mention that more related videos will be coming soon.\n- [explicit] user experiences trouble falling asleep on some nights.\n- [explicit] user prioritizes self-care activities including yoga and meditation.\n- [explicit] user has tried maintaining a consistent sleep schedule.\n- [explicit] user has tried journaling to improve sleep quality.\n- [explicit] user finds that yoga and meditation help manage anxiety levels.\n- [explicit] user has a therapy session with Dr. Smith scheduled every two weeks.\n- [explicit] Dr. Smith suggested that user learn to say 'no'.\n- [explicit] user has been feeling overwhelmed with commitments lately.\n- [explicit] Dr. Smith suggested that user set healthy boundaries.\n- [explicit] user is seeing Dr. Smith as a therapist.\n- [explicit] user is working on setting boundaries.\n- [explicit] user prefers to stay home and relax sometimes instead of attending social events with their partner.\n- [explicit] user has a partner who invites user to many social events.\n- [explicit] user is considering setting boundaries with their partner regarding social commitments.\n- [explicit] user intends to approach the conversation with their partner calmly.\n- [explicit] user intends to use \"I\" statements to express their feelings to their partner.\n- [explicit] user is ready to have a conversation with their partner about setting boundaries.\n- [explicit] user is seeking advice on how to handle potential pushback or resistance from their partner during boundary discussions.\n- [explicit] user intends to respond thoughtfully to their partner's concerns.\n- [explicit] user plans to maintain a calm demeanor during the conversation with their partner.\n- [explicit] user plans to anticipate their partner's concerns during the conversation.\n- [explicit] user is seeking information on the prevalence of people pursuing further education after college.\n- [explicit] user is seeking information on the impact of further education after college on career advancement.\n- [explicit] user is considering returning to school for a certification in data science.\n- [explicit] user is reflecting on how their own college experience influenced their career path.\n- [explicit] user attended a niece's high school graduation ceremony on June 15, 2023.\n- [explicit] user wants resources to identify areas for improvement in data science skills.\n- [explicit] user wants resources to assess current skills for data science.\n- [explicit] user is interested in online courses to prepare for data science certifications.\n- [explicit] user is interested in exploring data science projects on Kaggle.\n- [explicit] user wants to practice data science skills by working on popular Kaggle projects.\n- [explicit] user is interested in working on the Titanic: Machine Learning from Disaster project on Kaggle.\n- [explicit] user is interested in the Titanic: Machine Learning from Disaster project.\n- [explicit] user is considering the aesthetic compatibility of table lamps with existing dining room decor.\n- [explicit] user has a dining room with harsh overhead lighting.\n- [explicit] user prefers to use table lamps and candles to improve dining room ambiance.\n- [explicit] user plans to host a dinner party soon.\n- [explicit] user hosted a dinner party around October 2023.\n- [explicit] user intends to inquire with friends and family members about potential lamps they may be willing to sell or lend.\n- [explicit] user intends to use a combination of modern lamps with soft shades for their dining room.\n- [explicit] user plans to ask friends and family for recommendations for electricians or handymen.\n- [explicit] user intends to replace a fluorescent light with an LED light in the laundry room.\n- [explicit] user intends to install dimmers.\n- [explicit] user plans to check credentials of any electrician or handyman before hiring them.\n- [explicit] user plans to get multiple quotes before hiring an electrician or handyman.\n- [explicit] user feels overwhelmed with work and social commitments.\n- [explicit] user identifies setting healthy boundaries as a major focus.\n- [explicit] user and Dr. Smith discussed the need for user to set healthy boundaries.\n- [explicit] user attends a bi-weekly dinner with friends.\n- [explicit] user needs to include time for meditation.\n- [explicit] user attends a weekly yoga class.\n- [explicit] user's top priority is managing workload and meeting deadlines without burning out.\n- [explicit] user struggles to say no to requests from colleagues and friends.\n- [explicit] user needs to include time for journaling.\n- [explicit] user works Monday to Friday from 9 to 5.\n- [explicit] user sees Dr. Smith once a week.\n- [explicit] user prefers a flexible schedule over a strict one.\n- [explicit] user receives help from Dr. Smith with setting boundaries.\n- [explicit] user practices journaling as a self-care activity.\n- [explicit] user is working with Dr. Smith to set healthy boundaries and prioritize well-being.\n- [explicit] user practices meditation as a self-care activity.\n- [explicit] user needs to improve task prioritization.\n- [explicit] user intends to learn to say no to non-essential commitments.\n- [explicit] user intends to journal.\n- [explicit] user intends to meditate.\n- [explicit] user participated in a session with Dr. Smith during the week of November 3, 2023.\n- [explicit] user feels more confident about setting healthy boundaries.\n- [explicit] user is requesting open-ended questions to ask C-level executives at B2B SaaS companies\n- [explicit] user wants uncommon, expert advice on creating content for B2B SaaS C-level executives\n- [explicit] user wants to create content that connects with C-level executives at B2B SaaS companies\n- [deductive] user is interested in high-level executive communication strategies.\n- [deductive] user is a professional seeking work-life balance.\n- [deductive] user is involved in the professional B2B SaaS industry.\n- [inductive] user is professionally focused on B2B SaaS executive communication and content strategy.\n- [inductive] user is proactively seeking professional guidance from Dr. Smith to improve their personal and professional boundaries.\n- [inductive] user consistently engages in self-care practices such as journaling and meditation to manage stress and well-being.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 112.7,
+  "total": 116.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

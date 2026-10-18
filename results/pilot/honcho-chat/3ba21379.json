@@ -1,0 +1,100 @@
+{
+ "qid": "3ba21379",
+ "arm": "honcho-chat",
+ "split": "pilot",
+ "question": "What type of vehicle model am I currently working on?",
+ "reference": "Ford F-150 pickup truck",
+ "question_date": "2023-06-01 05:09",
+ "sessions": [
+  {
+   "id": "answer_cd345582_1",
+   "date": "2023-05-20 15:14",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_525931",
+   "date": "2023-05-26 03:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_cd345582_2",
+   "date": "2023-05-26 04:47",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_QQQAWUd_19",
+   "date": "2023-05-26 06:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_563664",
+   "date": "2023-05-26 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6fho7as_0",
+   "date": "2023-05-26 13:32",
+   "evidence": false
+  },
+  {
+   "id": "0f78155a_1",
+   "date": "2023-05-27 07:12",
+   "evidence": false
+  },
+  {
+   "id": "67620dbc_4",
+   "date": "2023-05-27 17:40",
+   "evidence": false
+  },
+  {
+   "id": "3e19c52e_3",
+   "date": "2023-05-28 04:11",
+   "evidence": false
+  },
+  {
+   "id": "490bb46d_3",
+   "date": "2023-06-01 08:42",
+   "evidence": false
+  }
+ ],
+ "context": "You are currently working on a 1/25 scale model of a **Ford F-150 pickup truck**. \n\nMy records indicate that while you previously worked on a Ford Mustang Shelby GT350R, your most recent entries (from May 26, 2023) consistently identify the Ford F-150 as your current project, including plans to add decals and apply rust effects to the vehicle's underside, wheel wells, and suspension components to give it an off-road appearance.",
+ "answer": "**Step 1: Extract relevant information**\n*   The history records state: \"You are currently working on a 1/25 scale model of a Ford F-150 pickup truck.\"\n*   The records further confirm that entries from May 26, 2023, consistently identify the \"Ford F-150\" as the current project.\n\n**Step 2: Reason over the information**\n*   Although a previous project (Ford Mustang Shelby GT350R) is mentioned, the records explicitly state that the current project is the Ford F-150.\n*   The current date is June 1, 2023, and the most recent project entries confirm the Ford F-150 remains the active model.\n\n**Answer:**\nYou are currently working on a 1/25 scale model of a **Ford F-150 pickup truck**.",
+ "dump": "- [explicit] user is interested in information regarding the color range of Vallejo paints.\n- [explicit] user is seeking tips on achieving weathering effects for a model.\n- [explicit] user is interested in how Vallejo paints compare to Tamiya paints.\n- [explicit] user is impressed with the color range and quality of Vallejo paints.\n- [explicit] user is using Vallejo paints on the current Ford Mustang Shelby GT350R project.\n- [explicit] user is working on a model of a Ford Mustang Shelby GT350R.\n- [explicit] user owns a Ford Mustang Shelby GT350R model.\n- [explicit] user intends to add seatbelts and a dashboard to the Ford Mustang Shelby GT350R model.\n- [explicit] user wants to create a realistic dashboard for the model.\n- [explicit] user is building a Ford Mustang Shelby GT350R scale model.\n- [explicit] user intends to use photo-etched metal strips and fabric to create seatbelts for the model.\n- [explicit] user intends to add a realistic transmission to the Ford Mustang Shelby GT350R model.\n- [explicit] user intends to add a realistic engine to the Ford Mustang Shelby GT350R model.\n- [explicit] user is interested in the factors considered during the allocation of the U.S. military budget.\n- [explicit] user is interested in the current size of the U.S. military and its expected future changes.\n- [explicit] user is interested in the process by which the U.S. military budget is passed.\n- [explicit] user is considering adding decals to the Ford F-150 pickup truck model.\n- [explicit] user has completed work on a model.\n- [explicit] user is working on a 1/25 scale car body model.\n- [explicit] user recently acquired a new airbrush.\n- [explicit] user is working on a model of a Ford F-150 pickup truck.\n- [explicit] user has knowledge of decal application techniques for model building.\n- [explicit] user wants to learn how to apply weathering effects to a model.\n- [explicit] user has knowledge of airbrushing techniques for model building.\n- [explicit] user owns a Ford F-150 pickup truck model.\n- [explicit] user wants the underside of the Ford F-150 pickup truck model to look like it has been driven off-road.\n- [explicit] user intends to add subtle rust effects to the underside of the Ford F-150 pickup truck model.\n- [explicit] user owns a model of a Ford F-150 pickup truck.\n- [explicit] user plans to focus the rust effects on the wheel wells and suspension components of the model.\n- [explicit] user plans to use a combination of acrylic paints and weathering powders to create rust effects.\n- [explicit] user intends to add subtle rust stains to the wheel wells and suspension components of the model.\n- [explicit] user is interested in regression models that do not involve deep learning.\n- [explicit] user is interested in using linear regression for synthesizing FA and ADC maps from T1w and T2w structural images.\n- [explicit] user is interested in discovering bands or artists with an indie-folk style similar to The Lumineers.\n- [explicit] user is interested in finding upcoming tours or performances by The Lumineers.\n- [explicit] user is interested in the musical style of the band The Lumineers.\n- [explicit] user is interested in the album III by The Lumineers.\n- [explicit] user uses Extron Global Scripter.\n- [explicit] user wants to monitor a local variable with mute and unmute states using an Extron IPCP Pro 550.\n- [explicit] user wants an example Python program for an Extron IPCP Pro 550 control processor.\n- [explicit] user owns a golden retriever named Max.\n- [explicit] user purchased shampoo for Max from the vet for $10.\n- [explicit] user purchased a measuring cup for Max from a local pet store for $5.\n- [explicit] user made a one-time purchase of grain-free kibble for Max.\n- [explicit] user changed Max's diet to grain-free kibble.\n- [explicit] user purchased a new brush for Max to reduce shedding.\n- [explicit] user purchased a stainless steel food bowl for Max from Amazon for $15.\n- [explicit] user purchased a dog bed from PetSmart for Max for approximately $40.\n- [explicit] user is experiencing issues with the battery life of user's laptop.\n- [explicit] user has been experimenting with IFTTT recipes to automate tasks around user's house.\n- [explicit] user reset user's router on Thursday, May 25, 2023.\n- [explicit] user set up a new smart TV on the morning of Saturday, May 27, 2023.\n- [explicit] user recently installed a new security camera in the backyard.\n- [explicit] user is seeking advice on how to choose a NAS device for home media storage and streaming.\n- [explicit] user is interested in setting up a home server to store and stream family media content.\n- [explicit] user is seeking recommendations for reliable SSD brands or models that offer good value for the price.\n- [explicit] user recently upgraded their home office PC to a solid-state drive (SSD).\n- [explicit] user observed a significant performance boost after upgrading their PC to an SSD.\n- [explicit] user attempts to keep their laptop plugged in as much as possible.\n- [explicit] user upgraded their PC to an SSD.\n- [explicit] user is looking for recommendations for portable power banks or external batteries to extend their laptop's battery life while on the go.\n- [explicit] user is concerned about the cost of a trip to Iceland.\n- [explicit] user is considering traveling to Costa Rica or Iceland.\n- [explicit] user watched the Bellagio fountain show three times during the trip to Las Vegas.\n- [explicit] user went on a 4-day trip to Las Vegas with friends named Emily and Rachel in late January 2023.\n- [explicit] user stayed at the Bellagio hotel during the trip to Las Vegas.\n- [explicit] user is planning a summer trip.\n- [explicit] user prefers Iceland over Costa Rica due to an interest in hot springs.\n- [explicit] user recently traveled to Japan.\n- [explicit] user plans to prioritize activities and sights for a trip to Iceland.\n- [explicit] user is interested in visiting hot springs.\n- [explicit] user intends to visit the Blue Lagoon in Iceland.\n- [explicit] user has a friend named Emily who has been living in San Francisco for a few months.\n- [explicit] user is planning to visit a friend named Emily in San Francisco in April for a weekend getaway.\n- [explicit] user is planning to stay in Reykjavik for most of their Iceland trip.\n- [explicit] user plans to spend 2-3 days in Reykjavik.\n- [explicit] user plans to spend a day or two exploring the Blue Lagoon and other geothermal pools in Iceland.\n- [explicit] user is not comfortable with the idea of driving in Iceland.\n- [explicit] user plans to take guided tours for day trips to the Golden Circle and the South Coast of Iceland.\n- [explicit] user intends to attend a concert soon.\n- [explicit] user is interested in receiving concert recommendations for bands similar to Arctic Monkeys.\n- [explicit] user recently attended an Arctic Monkeys concert.\n- [explicit] user obtained a free ticket for the Arctic Monkeys concert from a friend who could not attend.\n- [explicit] user attended a music festival where they saw The Neighbourhood and Billie Eilish.\n- [explicit] user intends to listen to The Black Keys.\n- [explicit] user recently attended a concert by The 1975.\n- [explicit] user is considering starting with the albums \"Brothers\" or \"El Camino\" when listening to The Black Keys.\n- [explicit] user intends to create a playlist featuring songs related to concert memories.\n- [explicit] user intends to listen to the album Brothers by The Black Keys.\n- [deductive] user enjoys live music, as evidenced by their recent concert attendance history.\n- [deductive] user prefers public transportation or tour services over driving while traveling, specifically noted for Iceland.\n- [inductive] user consistently prioritizes live music experiences and seeks out new opportunities for concert attendance.\n- [inductive] user prefers organized, guided experiences over independent travel, particularly when visiting unfamiliar locations or when they are uncomfortable with local infrastructure.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 137.1,
+  "total": 139.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

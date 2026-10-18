@@ -1,0 +1,104 @@
+{
+ "qid": "603deb26",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+ "reference": "10",
+ "question_date": "2023-12-05 02:37",
+ "sessions": [
+  {
+   "id": "37f66729",
+   "date": "2023-08-04 04:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_1",
+   "date": "2023-08-11 17:11",
+   "evidence": true
+  },
+  {
+   "id": "58e5adf2",
+   "date": "2023-08-12 03:22",
+   "evidence": false
+  },
+  {
+   "id": "feb5f98a_2",
+   "date": "2023-08-16 06:11",
+   "evidence": false
+  },
+  {
+   "id": "5e867c2f_2",
+   "date": "2023-08-27 17:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_69476",
+   "date": "2023-09-23 08:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_408354",
+   "date": "2023-10-01 22:47",
+   "evidence": false
+  },
+  {
+   "id": "d05d6391_3",
+   "date": "2023-10-22 11:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_etklNfN_11",
+   "date": "2023-11-23 23:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_2",
+   "date": "2023-11-30 01:59",
+   "evidence": true
+  }
+ ],
+ "context": "- User has perfected their Negroni recipe at home, having made it 10 times since learning the technique from their friend Emma. (from a chat on 2023-11-30)\n- User has been perfecting a Negroni recipe at home using Hendrick's gin and Carpano Antica vermouth, a technique learned from someone named Emma, and has made it 5 times so far. (from a chat on 2023-08-11)\n- User is interested in making a White Negroni and was provided a recipe using 1 1/2 oz Hendrick's gin, 1/2 oz Suze, and 1/2 oz Dolin Dry Vermouth. (from a chat on 2023-08-11)\n- User was provided with a guide for making honey syrup (1:1 ratio of honey to water) and tips for customizing it with flavor infusions. (from a chat on 2023-11-30)\n- User was recommended bitter liqueur alternatives to Campari for Negronis, including Cynar, Aperol, Luxardo Bitter, Suze, and Meletti. (from a chat on 2023-08-11)\n- User and a friend caught a dozen trout during a trip to Lake Tahoe around July 22, 2023. (from a chat on 2023-08-12)\n- User is planning to enter a fishing tournament at Joe's Tackle on Main St. next month with a friend. (from a chat on 2023-08-12)\n- User was recommended beginner-friendly flies including the Woolly Bugger, Elk Hair Caddis, and Hare's Ear Nymph. (from a chat on 2023-08-12)\n- User recently purchased a bottle of Hendrick's gin and is enjoying it for their cocktail experiments. (from a chat on 2023-11-30)\n- User was advised to quantify achievements on their resume using metrics, add a professional summary, and highlight soft skills like time management and adaptability to fast-paced environments. (from a chat on 2023-08-16)\n- User is interested in summer cocktails using fresh herbs from their garden and has been experimenting with Hendrick's gin. (from a chat on 2023-08-11)\n- User was recommended beginner-friendly dive sites in South America, specifically the Galapagos Islands (Ecuador), Cozumel (Mexico), Fernando de Noronha (Brazil), Bonaire National Marine Park (Bonaire), and Los Roques (Venezuela). (from a chat on 2023-10-01)\n- User was advised on using Instagram Stories to drive traffic to blogs and other profiles by using clear calls-to-action, attention-grabbing visuals, and strategic timing. (from a chat on 2023-08-27)\n- User was recommended classic cocktails including the Gin Martini, Pimm's Cup, Bee's Knees, French 75, Corpse Reviver No. 2, Old Fashioned, Daiquiri, and Sidecar. (from a chat on 2023-11-30)\n- User was provided with recipes for Lavender Gin Fizz, Lavender Dream, Grapefruit Basil Martini, Grapefruit Rosemary Sparkler, Lavender Grapefruit Spritz, and Grapefruit Lavender Collins. (from a chat on 2023-11-30)\n- User is experimenting with lavender in cocktails and was provided a recipe for lavender syrup (1 cup sugar, 1 cup water, 1/4 cup dried lavender buds) and cocktail suggestions like the Lavender Gin Fizz, Lavender Dream, and Lavender Bee's Knees. (from a chat on 2023-08-11)\n- Kinsley Armelle is a jewelry brand founded by Crystal and Steven on the principles of providing high-quality, custom, and fairly priced designs that stand the test of time. (from a chat on 2023-11-23)\n- User was recommended additional gin-based cocktails: Gin Rickey, Gin-Gin Mule, Aviation, Monkey Gland, and Last Word. (from a chat on 2023-11-30)\n- User is planning a dinner party and requested cocktail recipes featuring lavender or grapefruit. (from a chat on 2023-11-30)\n- User was recommended several summer cocktail recipes featuring Hendrick's gin and fresh herbs, including a Cucumber-Basil Refresher, Garden Gimlet, Rose Petal Spritz, Lemon-Thyme Fizz, Elderflower Collins, and Mint to Be. (from a chat on 2023-08-11)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-08-11: The user mentioned they had made the Negroni recipe learned from Emma \"5 times so far.\"\n    *   From the chat on 2023-11-30: The user mentioned they have \"perfected their Negroni recipe at home, having made it 10 times since learning the technique from their friend Emma.\"\n\n2.  **Reason over the information:**\n    *   The most recent update regarding the total count of Negronis made using Emma's technique is from the chat on 2023-11-30.\n    *   This entry explicitly states that the user has made the drink 10 times since learning the technique.\n\n3.  **Conclusion:**\n    *   You have tried making a Negroni at home 10 times since your friend Emma showed you how to make it.",
+ "dump": "- User was provided with curriculum strategies for younger students, including using picture books, teaching basic communication skills, role-playing, social stories, and community service projects. (session 2023-09-23)\n- User and a friend caught a dozen trout during a trip to Lake Tahoe around July 22, 2023. (session 2023-08-12)\n- User was provided with recipes for Lavender Gin Fizz, Lavender Dream, Grapefruit Basil Martini, Grapefruit Rosemary Sparkler, Lavender Grapefruit Spritz, and Grapefruit Lavender Collins. (session 2023-11-30)\n- User was provided with strategies for charity event fundraising, including silent auctions, raffles, fun runs, food challenges, and corporate sponsorships. (session 2023-10-22)\n- User was recommended bitter liqueur alternatives to Campari for Negronis, including Cynar, Aperol, Luxardo Bitter, Suze, and Meletti. (session 2023-08-11)\n- User caught a 3-pound trout on Lake Tahoe around July 22, 2023, using a silver lure. (session 2023-08-12)\n- User recently hosted a dinner party where they served a Cranberry Sparkler, which was well-received by guests. (session 2023-11-30)\n- User plans to incorporate respectful behavior and language into their classroom curriculum, specifically for younger students. (session 2023-09-23)\n- User is considering asking their neighbor, John, about joining him on a hunt, though the user is unsure if John's reported backyard hunting is a viable or safe activity. (session 2023-08-12)\n- User is considering purchasing a lighter fly fishing rod for trout and was recommended the Orvis Clearwater, Sage Igniter, Winston Pure, Redington Crux, and TFO Lefty Kreh Signature Series. (session 2023-08-12)\n- User was recommended several mobile editing apps including Lightroom Mobile, VSCO, Snapseed, Adobe Photoshop Express, TouchRetouch, Facetune, PicsArt, Filterstorm, Afterlight, and Polarr. (session 2023-08-04)\n- User is interested in summer cocktails using fresh herbs from their garden and has been experimenting with Hendrick's gin. (session 2023-08-11)\n- User plans to promote their upcoming charity walk by creating event pages on Facebook and Instagram, collaborating with local influencers, and partnering with local businesses. (session 2023-10-22)\n- User was recommended beginner-friendly dive sites in South America, specifically the Galapagos Islands (Ecuador), Cozumel (Mexico), Fernando de Noronha (Brazil), Bonaire National Marine Park (Bonaire), and Los Roques (Venezuela). (session 2023-10-01)\n- User uses Lightroom on their computer and is exploring the functionality of the mobile version, noting it is a condensed companion app rather than a full desktop replacement. (session 2023-08-04)\n- User is planning to organize a charity walk and is considering incorporating a costume contest to increase engagement and excitement. (session 2023-10-22)\n- User was provided with tips for creating engaging Instagram Reels, such as keeping them 15-30 seconds long, recording in vertical mode, and including clear calls-to-action to drive traffic. (session 2023-08-27)\n- Kinsley Armelle is a jewelry brand founded by Crystal and Steven on the principles of providing high-quality, custom, and fairly priced designs that stand the test of time. (session 2023-11-23)\n- User was recommended additional gin-based cocktails: Gin Rickey, Gin-Gin Mule, Aviation, Monkey Gland, and Last Word. (session 2023-11-30)\n- User was recommended several scuba diving locations in South America, including the Galapagos Islands (Ecuador), Cozumel (Mexico), Fernando de Noronha (Brazil), Easter Island (Chile), Belize Barrier Reef (Belize), Bonaire National Marine Park (Bonaire), Malpelo Island (Colombia), Roatan Island (Honduras), Los Roques (Venezuela), and Cocos Island (Costa Rica). (session 2023-10-01)\n- User's Instagram post featuring a hike received 237 likes and 34 comments, which the user attributes to the use of the hashtag #hikingadventures. (session 2023-08-27)\n- User was provided with a social media promotion strategy for their charity event, including creating event pages, using hashtags, sharing engaging content, and tracking analytics. (session 2023-10-22)\n- User has perfected their Negroni recipe at home, having made it 10 times since learning the technique from their friend Emma. (session 2023-11-30)\n- User was recommended classic cocktails including the Gin Martini, Pimm's Cup, Bee's Knees, French 75, Corpse Reviver No. 2, Old Fashioned, Daiquiri, and Sidecar. (session 2023-11-30)\n- User was recommended several summer cocktail recipes featuring Hendrick's gin and fresh herbs, including a Cucumber-Basil Refresher, Garden Gimlet, Rose Petal Spritz, Lemon-Thyme Fizz, Elderflower Collins, and Mint to Be. (session 2023-08-11)\n- User is interested in photography, specifically seeking advice on capturing cityscapes at night, including camera settings like manual mode, low ISO, wide aperture, and long exposure techniques. (session 2023-08-04)\n- User is looking for mobile apps for quick photo editing, specifically for adjusting exposure and color before social media sharing. (session 2023-08-04)\n- User was provided with strategies for using interactive Instagram features like polls, quizzes, and the 'Question' sticker to increase audience engagement and drive traffic to external links. (session 2023-08-27)\n- User recently purchased a bottle of Hendrick's gin and is enjoying it for their cocktail experiments. (session 2023-11-30)\n- User has experience managing social media presence, creating and scheduling posts, and analyzing engagement metrics. (session 2023-08-16)\n- User gained approximately 10 new followers on Instagram in the month leading up to August 27, 2023, by posting more consistently and using relevant hashtags. (session 2023-08-27)\n- User is interested in learning fly fishing and has ordered a beginner's kit online to get started. (session 2023-08-12)\n- User was provided with TikTok-specific growth tips, including using catchy music, keeping videos short, experimenting with different formats, and interacting with the community. (session 2023-08-27)\n- User was provided with best practices for approaching local businesses for event sponsorship, including personalizing the request, highlighting mutual benefits, and offering recognition. (session 2023-10-22)\n- User has been perfecting a Negroni recipe at home using Hendrick's gin and Carpano Antica vermouth, a technique learned from someone named Emma, and has made it 5 times so far. (session 2023-08-11)\n- User is interested in scuba diving and requested recommendations for locations in South America. (session 2023-10-01)\n- User holds certifications in Google Analytics and HubSpot Inbound Marketing. (session 2023-08-16)\n- User was provided with best practices for photo library organization, including using consistent hierarchical keywords, year-based folder structures, ratings, and regular backups. (session 2023-08-04)\n- User is planning a dinner party and requested cocktail recipes featuring lavender or grapefruit. (session 2023-11-30)\n- User is seeking efficient methods for organizing their photo library, currently using folders and keywords but looking to improve their system. (session 2023-08-04)\n- User was provided with tips for organizing a successful charity run or walk, such as choosing a unique theme, selecting a scenic route, offering registration incentives, and utilizing social media promotion. (session 2023-10-22)\n- User was provided with safety and preparation tips for first-time scuba divers in South America, including choosing reputable operators, checking weather, matching sites to experience level, renting proper equipment, learning to equalize, following dive rules, and respecting the marine environment. (session 2023-10-01)\n- User was advised on using Instagram Stories to drive traffic to blogs and other profiles by using clear calls-to-action, attention-grabbing visuals, and strategic timing. (session 2023-08-27)\n- User was provided with instructions for infusing spirits like gin and vodka with lavender, grapefruit, cucumber, and mint. (session 2023-11-30)\n- User decided to start a long-term photography project capturing the changing seasons in a natural setting, such as a forest or wetland, and is considering incorporating wildlife and nature themes. (session 2023-08-04)\n- User was provided with comprehensive strategies for increasing Instagram engagement, including posting high-quality content, using a mix of hashtags, engaging with the audience, maintaining a consistent schedule, and utilizing Instagram Stories, Reels, and analytics. (session 2023-08-27)\n- User was provided with strategies to foster a respectful school culture, including modeling behavior, establishing a code of conduct, involving parents, and using positive reinforcement. (session 2023-09-23)\n- User is actively growing their social media presence on Instagram and TikTok, noting a slow but steady increase in followers over the past few months. (session 2023-08-27)\n- User was provided with 60 total pun-based push notification marketing messages for the jewelry brand Kinsley Armelle to help with their promotional efforts. (session 2023-11-23)\n- User was advised to quantify achievements on their resume using metrics, add a professional summary, and highlight soft skills like time management and adaptability to fast-paced environments. (session 2023-08-16)\n- User was provided with a guide on using Instagram Insights to track account reach, impressions, profile visits, and content performance, with a recommendation to aim for an engagement rate of 2-3%. (session 2023-08-27)\n- User is interested in promoting respectful behavior and language within their school community among students, staff, and parents. (session 2023-09-23)\n- User expressed a personal fondness for the movie 'Moana'. (session 2023-09-23)\n- User is planning to transition into a senior role, specifically as a Content Marketing Strategist or Digital Marketing Consultant, within the next few months. (session 2023-08-16)\n- User was recommended to start fly fishing with a medium-weight, 9-foot rod and matching reel, and to learn essential knots like the clinch, barrel, and blood knots. (session 2023-08-12)\n- User previously helped organize the 'Fireworks Festival' charity event, which successfully raised over $5,000 for a local children's hospital. (session 2023-10-22)\n- The core mission of Kinsley Armelle is to make quality, affordability, and outstanding customer service synonymous with the brand name. (session 2023-11-23)\n- User was provided with a guide for making honey syrup (1:1 ratio of honey to water) and tips for customizing it with flavor infusions. (session 2023-11-30)\n- User is interested in making a White Negroni and was provided a recipe using 1 1/2 oz Hendrick's gin, 1/2 oz Suze, and 1/2 oz Dolin Dry Vermouth. (session 2023-08-11)\n- User was recommended beginner-friendly flies including the Woolly Bugger, Elk Hair Caddis, and Hare's Ear Nymph. (session 2023-08-12)\n- User is planning to enter a fishing tournament at Joe's Tackle on Main St. next month with a friend. (session 2023-08-12)\n- User is experimenting with lavender in cocktails and was provided a recipe for lavender syrup (1 cup sugar, 1 cup water, 1/4 cup dried lavender buds) and cocktail suggestions like the Lavender Gin Fizz, Lavender Dream, and Lavender Bee's Knees. (session 2023-08-11)\n- User was provided with specific phrasing examples to highlight their ability to work extended hours during peak campaign seasons on their resume and LinkedIn profile. (session 2023-08-16)\n- User was provided with strategies to stay motivated for photography projects, such as setting realistic goals, creating a schedule, tracking progress, and sharing work for accountability. (session 2023-08-04)\n- User was provided with advice on managing a costume contest, including setting a theme, establishing clear judging criteria, and offering relevant prizes. (session 2023-10-22)\n- User increases their work hours by 10 hours weekly during peak campaign seasons to manage additional workload and meet deadlines. (session 2023-08-16)\n- User decided to adopt a hybrid approach for their job search, creating a core version of their resume and LinkedIn profile while tailoring specific versions for each job application. (session 2023-08-16)\n- User was provided with best practices for creating effective Instagram posts, including maintaining aesthetic consistency, using visual storytelling, and limiting hashtags to 3-5 per post. (session 2023-08-27)\n- User was recommended books such as 'Wonder' by R.J. Palacio and 'The Name Jar' by Yangsook Choi, and movies like 'Moana', 'Zootopia', and 'Hidden Figures' to teach empathy and respect. (session 2023-09-23)\n- User is exploring citrus fruits that pair well with gin and lavender, and was recommended orange, yuzu, kumquat, satsuma, and bergamot. (session 2023-08-11)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 70,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 41.7,
+  "total": 43.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

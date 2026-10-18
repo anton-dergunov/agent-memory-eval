@@ -1,0 +1,91 @@
+{
+ "qid": "06db6396",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many projects have I completed since starting painting classes?",
+ "reference": "5",
+ "question_date": "2023-11-08 09:08",
+ "sessions": [
+  {
+   "id": "6be54739_2",
+   "date": "2023-07-21 21:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467198",
+   "date": "2023-08-05 19:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_1",
+   "date": "2023-08-16 09:37",
+   "evidence": true
+  },
+  {
+   "id": "5bd9f1e6_1",
+   "date": "2023-08-20 21:15",
+   "evidence": false
+  },
+  {
+   "id": "35038174_4",
+   "date": "2023-09-17 02:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_167372",
+   "date": "2023-09-18 08:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_2",
+   "date": "2023-10-09 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_416015",
+   "date": "2023-10-18 11:50",
+   "evidence": false
+  },
+  {
+   "id": "3dcf1e0b_2",
+   "date": "2023-10-19 07:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2LYzasI_0",
+   "date": "2023-11-01 20:36",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user is 32 years old (born July 15, 1991).\n*   The user is actively engaged in staying informed about current events, politics, and global economic trends.\n*   The user maintains a regular workout routine, which includes running and yoga.\n*   The user has a sister.\n*   The user is an active painter who has completed 5 projects to date (as of 2023-10-09).\n*   The user owns a laptop and a desktop computer.\n*   The user owns an external hard drive, purchased at Best Buy using a birthday gift card from their sister (as of 2023-09-17).\n*   The user uses a wireless mouse and a portable charger, both acquired on 2023-01-20.\n*   The user is interested in visiting the Black Forest in Germany for outdoor activities, though they have clarified they are not interested in hunting or fishing.\n*   The user recently went hiking at Red Rock Canyon with friends (around 2023-10-05).\n*   The user is currently exploring marketing copy creation, specifically requesting assistance with writing Facebook advertisements for niche professional gear (Maine lobster fishing equipment) as of 2023-11-01.\n\n### Preferences and habits\n*   **Reading habits:**\n    *   Reads *The New York Times* every Sunday.\n    *   Reads *The Economist* magazine during their daily commute.\n*   **Media consumption:**\n    *   Listens to the podcast *The Daily* (from *The New York Times*) during workout sessions.\n    *   Follows various artists on Instagram for inspiration.\n*   **Interests:**\n    *   Deeply interested in politics, current events, and social justice.\n    *   Specifically interested in the intersection of politics and the environment, with a focus on climate change policy and environmental activism.\n    *   Interested in global wildlife conservation, specifically anti-poaching efforts in Africa.\n    *   **Artistic interests:** Actively learning painting (acrylics), exploring abstract expressionism with bold/bright palettes, layering, and texture.\n    *   **Professional development:** Interested in upskilling in Data Science and Data Visualization.\n    *   **Outdoor/Fitness interests:** Interested in hiking, cycling, skiing, climbing, and visiting historic towns. The user is currently training for a half-marathon and practices yoga at home three times a week. The user explicitly stated they are not interested in hunting or fishing.\n    *   **Economic/Financial interests:** Interested in the impact of emerging technologies (cryptocurrencies/blockchain) on traditional banking and national economies (specifically Switzerland).\n*   **Technology habits:**\n    *   Uses an external hard drive to transfer files between their laptop and desktop.\n    *   Prefers monitors with good color accuracy and viewing angles.\n\n### Ongoing situations and plans\n*   **Fitness:**\n    *   The user is training for a half-marathon to take place in January 2024.\n    *   The user recently purchased new Nike running shoes and is looking to purchase a new, high-grip yoga mat to replace their current slipping one.\n*   **Travel:**\n    *   The user is planning a beach trip for November 2023.\n    *   The user is researching a high-end snorkeling mask to replace their current scratched one.\n    *   The user is researching outdoor activities in the Black Forest, Germany.\n*   **Equipment/Purchases:**\n    *   The user lost their favorite water bottle at Red Rock Canyon around 2023-10-05 and is currently researching replacements (considering brands like Hydro Flask, S'well, Nalgene, CamelBak, or Klean Kanteen).\n*   **Artistic projects:**\n    *   Setting up a small art studio in their spare bedroom (decluttering, \"work triangle\" layout, vertical storage, \"wet zone\").\n    *   Planning their 6th painting project (abstract, bright yellow dominant).\n    *   Intends to reach out to Instagram artist @artbylisa for feedback.\n*   **Career and Education:**\n    *   Enrolled in a Data Visualization course on Coursera.\n    *   Preparing to learn R programming (`ggplot2` and `Plotly`).\n*   **Technical maintenance:**\n    *   Troubleshooting laptop battery drain; plans to back up files to an external hard drive before potential battery replacement.\n    *   Considering a RAM upgrade for their laptop.\n    *   Researching 24-inch 4K monitors ($300–$400 budget).\n\n### Changes over time\n*   **Painting progress:** Completed 5 projects as of 2023-10-09; previously 4 projects as of 2023-08-16.\n*   **Fitness gear:** Acquired new Nike running shoes (as of 2023-10-19).",
+ "answer": "To determine how many painting projects you have completed, we look at the provided history:\n\n**Step 1: Extract relevant information**\n*   Under \"Personal facts\": \"The user is an active painter who has completed 5 projects to date (as of 2023-10-09).\"\n*   Under \"Changes over time\": \"Painting progress: Completed 5 projects as of 2023-10-09; previously 4 projects as of 2023-08-16.\"\n\n**Step 2: Reason over the information**\n*   The records explicitly state that as of the most recent update on October 9, 2023, you have completed 5 projects. \n*   There is no information indicating that any additional projects have been completed between October 9, 2023, and the current date of November 8, 2023 (the notes mention you are currently *planning* your 6th project, but have not yet completed it).\n\n**Answer:**\nYou have completed 5 painting projects to date.",
+ "dump": "### Personal facts\n*   The user is 32 years old (born July 15, 1991).\n*   The user is actively engaged in staying informed about current events, politics, and global economic trends.\n*   The user maintains a regular workout routine, which includes running and yoga.\n*   The user has a sister.\n*   The user is an active painter who has completed 5 projects to date (as of 2023-10-09).\n*   The user owns a laptop and a desktop computer.\n*   The user owns an external hard drive, purchased at Best Buy using a birthday gift card from their sister (as of 2023-09-17).\n*   The user uses a wireless mouse and a portable charger, both acquired on 2023-01-20.\n*   The user is interested in visiting the Black Forest in Germany for outdoor activities, though they have clarified they are not interested in hunting or fishing.\n*   The user recently went hiking at Red Rock Canyon with friends (around 2023-10-05).\n*   The user is currently exploring marketing copy creation, specifically requesting assistance with writing Facebook advertisements for niche professional gear (Maine lobster fishing equipment) as of 2023-11-01.\n\n### Preferences and habits\n*   **Reading habits:**\n    *   Reads *The New York Times* every Sunday.\n    *   Reads *The Economist* magazine during their daily commute.\n*   **Media consumption:**\n    *   Listens to the podcast *The Daily* (from *The New York Times*) during workout sessions.\n    *   Follows various artists on Instagram for inspiration.\n*   **Interests:**\n    *   Deeply interested in politics, current events, and social justice.\n    *   Specifically interested in the intersection of politics and the environment, with a focus on climate change policy and environmental activism.\n    *   Interested in global wildlife conservation, specifically anti-poaching efforts in Africa.\n    *   **Artistic interests:** Actively learning painting (acrylics), exploring abstract expressionism with bold/bright palettes, layering, and texture.\n    *   **Professional development:** Interested in upskilling in Data Science and Data Visualization.\n    *   **Outdoor/Fitness interests:** Interested in hiking, cycling, skiing, climbing, and visiting historic towns. The user is currently training for a half-marathon and practices yoga at home three times a week. The user explicitly stated they are not interested in hunting or fishing.\n    *   **Economic/Financial interests:** Interested in the impact of emerging technologies (cryptocurrencies/blockchain) on traditional banking and national economies (specifically Switzerland).\n*   **Technology habits:**\n    *   Uses an external hard drive to transfer files between their laptop and desktop.\n    *   Prefers monitors with good color accuracy and viewing angles.\n\n### Ongoing situations and plans\n*   **Fitness:**\n    *   The user is training for a half-marathon to take place in January 2024.\n    *   The user recently purchased new Nike running shoes and is looking to purchase a new, high-grip yoga mat to replace their current slipping one.\n*   **Travel:**\n    *   The user is planning a beach trip for November 2023.\n    *   The user is researching a high-end snorkeling mask to replace their current scratched one.\n    *   The user is researching outdoor activities in the Black Forest, Germany.\n*   **Equipment/Purchases:**\n    *   The user lost their favorite water bottle at Red Rock Canyon around 2023-10-05 and is currently researching replacements (considering brands like Hydro Flask, S'well, Nalgene, CamelBak, or Klean Kanteen).\n*   **Artistic projects:**\n    *   Setting up a small art studio in their spare bedroom (decluttering, \"work triangle\" layout, vertical storage, \"wet zone\").\n    *   Planning their 6th painting project (abstract, bright yellow dominant).\n    *   Intends to reach out to Instagram artist @artbylisa for feedback.\n*   **Career and Education:**\n    *   Enrolled in a Data Visualization course on Coursera.\n    *   Preparing to learn R programming (`ggplot2` and `Plotly`).\n*   **Technical maintenance:**\n    *   Troubleshooting laptop battery drain; plans to back up files to an external hard drive before potential battery replacement.\n    *   Considering a RAM upgrade for their laptop.\n    *   Researching 24-inch 4K monitors ($300–$400 budget).\n\n### Changes over time\n*   **Painting progress:** Completed 5 projects as of 2023-10-09; previously 4 projects as of 2023-08-16.\n*   **Fitness gear:** Acquired new Nike running shoes (as of 2023-10-19).",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 23.7,
+  "total": 24.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

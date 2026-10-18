@@ -1,0 +1,102 @@
+{
+ "qid": "01493427",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many new postcards have I added to my collection since I started collecting again?",
+ "reference": "25",
+ "question_date": "2023-12-21 21:31",
+ "sessions": [
+  {
+   "id": "answer_a7b44747_1",
+   "date": "2023-08-11 15:58",
+   "evidence": true
+  },
+  {
+   "id": "1980bbfa_4",
+   "date": "2023-09-13 11:55",
+   "evidence": false
+  },
+  {
+   "id": "c81aa33c_1",
+   "date": "2023-10-11 17:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_17854",
+   "date": "2023-10-16 16:07",
+   "evidence": false
+  },
+  {
+   "id": "d8e33f5c_1",
+   "date": "2023-10-20 08:42",
+   "evidence": false
+  },
+  {
+   "id": "ae73b0f7_1",
+   "date": "2023-11-20 13:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_a7b44747_2",
+   "date": "2023-11-30 18:35",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_566835",
+   "date": "2023-12-16 13:03",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_212645",
+   "date": "2023-12-20 01:00",
+   "evidence": false
+  },
+  {
+   "id": "077f7bcb_3",
+   "date": "2023-12-20 11:37",
+   "evidence": false
+  }
+ ],
+ "context": "- The user maintains a collection of vintage camera equipment and postcards. (valid since 2023-08-11)\n- The user is organizing their postcard collection by theme. (valid since 2023-11-30)\n- The user plans to display their postcard collection on a postcard rack. (valid since 2023-11-30)\n- My Chemical Romance performs the song Welcome to the Black Parade, which deals with themes of death, grief, and the afterlife. (valid since 2023-10-16)\n- user recently acquired a new airbrush compressor (valid since 2023-10-20)\n- The user owns a Vintage Beach Scene postcard which was acquired 1 month ago from eBay (valid since 2023-08-11)\n- The user is planning to buy a shoe cleaning kit that covers multiple types of materials to maintain their collection of 12 pairs of shoes. (valid since 2023-12-20)\n- The user owns an Eiffel Tower at Night postcard which was acquired 2 months ago from a Local Antique Shop (valid since 2023-08-11)\n- The user owns a new pair of dance shoes purchased on February 5th at a dance supply store, which are used for Tuesday dance classes. (valid since 2023-12-20)\n- The assistant advises the user to monitor their energy consumption to track savings with their new smart lighting system. (valid since 2023-09-13)",
+ "answer": "To determine how many new postcards you have added to your collection, let's break down the information provided:\n\n**Step 1: Extract relevant information**\n*   The user owns a \"Vintage Beach Scene\" postcard, acquired 1 month before 2023-08-11 (July 2023).\n*   The user owns an \"Eiffel Tower at Night\" postcard, acquired 2 months before 2023-08-11 (June 2023).\n*   The facts state the user maintains a collection of vintage camera equipment and postcards (valid since 2023-08-11).\n*   There is no mention of any postcards acquired after 2023-08-11 in the provided history.\n\n**Step 2: Reason over the information**\n*   The two specific postcards mentioned (\"Vintage Beach Scene\" and \"Eiffel Tower at Night\") were acquired prior to the start date of the recorded history (2023-08-11).\n*   The history logs do not contain any records of new postcard acquisitions occurring after 2023-08-11.\n\n**Answer:**\nBased on the provided history, there is no record of any new postcards being added to your collection since 2023-08-11. Therefore, the number of new postcards added since that date is 0.",
+ "dump": "- The user maintains a collection of vintage camera equipment and postcards. (valid since 2023-08-11)\n- The user owns a 1920s Paris Postcard which was acquired 2 months ago from a Local Antique Shop (valid since 2023-08-11)\n- The user owns a Vintage Beach Scene postcard which was acquired 1 month ago from eBay (valid since 2023-08-11)\n- The user owns an Eiffel Tower at Night postcard which was acquired 2 months ago from a Local Antique Shop (valid since 2023-08-11)\n- The user is interested in the Philips Hue system and its range of bulb types and starter kits. (valid since 2023-09-13)\n- user plans to purchase the Philips Hue White Starter Kit and a Philips Hue Dimmer Switch based on the advice of the assistant. (valid since 2023-09-13)\n- user chooses to replace remaining non-energy-efficient bulbs with smart bulbs gradually rather than all at once, as suggested by the assistant. (valid since 2023-09-13)\n- The assistant recommends the Philips Hue smart lighting system for its convenience, flexibility, and energy efficiency. (valid since 2023-09-13)\n- The assistant advises the user to monitor their energy consumption to track savings with their new smart lighting system. (valid since 2023-09-13)\n- The user participated in the Run for the Kids charity event last year. (valid since 2023-10-11)\n- The user is planning to organize a charity fun run. (valid since 2023-10-11)\n- user plans to pitch a proposal to a local children's hospital for a charity fun run event, benefiting from the assistant's guidance on partnership approaches. (valid since 2023-10-11)\n- The assistant supports the user's plan to pitch a charity fun run proposal to the children's hospital. (valid since 2023-10-11)\n- Childish Gambino performs the song This Is America, which addresses race, police brutality, and gun violence. (valid since 2023-10-16)\n- My Chemical Romance performs the song Welcome to the Black Parade, which deals with themes of death, grief, and the afterlife. (valid since 2023-10-16)\n- Rage Against the Machine performs the song Killing in the Name, which criticizes police brutality and racial profiling. (valid since 2023-10-16)\n- Taylor Swift performs the song The Man, which addresses gender roles and stereotyping of women in the music industry. (valid since 2023-10-16)\n- Bring Me The Horizon performs the song Weeds, which covers themes of mental health, anxiety, and depression. (valid since 2023-10-16)\n- user applied decals to the engine compartment and body of their Ferrari 288 GTO model (valid since 2023-10-20)\n- user is working on a model of a 1980s-era Ferrari 288 GTO (valid since 2023-10-20)\n- user recently acquired a new airbrush compressor (valid since 2023-10-20)\n- The user plans to use masking tape and paint to create realistic paint chipping effects on their Ferrari model. (valid since 2023-10-20)\n- The user is considering purchasing a leather steering wheel cover from an accessory store near the mall for $40. (valid since 2023-11-20)\n- The leather steering wheel cover might be designed to fit a Honda Civic. (valid since 2023-11-20)\n- Geico and Progressive are being compared as car insurance options. (valid since 2023-11-20)\n- assistant provides tips to the user for organizing a collector's gathering (valid since 2023-11-30)\n- The user plans to display their postcard collection on a postcard rack. (valid since 2023-11-30)\n- The user is organizing their postcard collection by theme. (valid since 2023-11-30)\n- The user remains skeptical and expresses disagreement with the assistant regarding the effectiveness of community policing methods. (valid since 2023-12-16)\n- Mammoths used their long and curved tusks to dig through snow and ice to reach vegetation (valid since 2023-12-20)\n- Mammoths possessed long and coarse hair for insulation against the cold climate (valid since 2023-12-20)\n- Mammoths had a specialized digestive system that enabled the breakdown of tough, coarse vegetation (valid since 2023-12-20)\n- Mammoths were hunted by predators such as sabre-toothed cats (valid since 2023-12-20)\n- Mammoths were hunted by predators such as wolves (valid since 2023-12-20)\n- Mammoths were hunted by humans, which contributed to their extinction (valid since 2023-12-20)\n- Fossils and remains of mammoths offer scientific insights into their behavior, adaptation, and evolution (valid since 2023-12-20)\n- The user owns a new pair of dance shoes purchased on February 5th at a dance supply store, which are used for Tuesday dance classes. (valid since 2023-12-20)\n- The user is planning to buy a shoe cleaning kit that covers multiple types of materials to maintain their collection of 12 pairs of shoes. (valid since 2023-12-20)\n- The user is planning to purchase a cleaning kit specifically designed for their dance shoes to ensure they are cleaned safely and effectively. (valid since 2023-12-20)\n- The user maintains their dance shoes to keep them in good condition and extend their lifespan. (valid since 2023-12-20)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 40,
+  "invalidated": 0,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 120.1,
+  "total": 121.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

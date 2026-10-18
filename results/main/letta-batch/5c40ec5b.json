@@ -1,0 +1,103 @@
+{
+ "qid": "5c40ec5b",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many times have I met up with Alex from Germany?",
+ "reference": "We've met up twice.",
+ "question_date": "2023-10-30 13:39",
+ "sessions": [
+  {
+   "id": "156988fe",
+   "date": "2023-07-12 13:46",
+   "evidence": false
+  },
+  {
+   "id": "ff2fd48c",
+   "date": "2023-07-14 00:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_117952",
+   "date": "2023-07-21 10:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_1cb52d0a_1",
+   "date": "2023-08-11 08:32",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_545683",
+   "date": "2023-08-14 06:21",
+   "evidence": false
+  },
+  {
+   "id": "be050ab3_2",
+   "date": "2023-08-15 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_e6daAMu_0",
+   "date": "2023-08-28 17:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_271436",
+   "date": "2023-09-14 04:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dBQwSJX_0",
+   "date": "2023-09-22 07:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_1cb52d0a_2",
+   "date": "2023-09-30 12:23",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-17T16:04:45.734677+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-09-30 12:23] I'm also planning to meet up with my friend Alex from Germany while I'm in Berlin, we've met up twice before and it'll be great to catch up with him again. Do you know any good cafes or bars in Kreuzberg where we could grab a drink and chat?\"}, {'timestamp': '2026-10-17T16:04:26.770428+00:00', 'time_ago': '23s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-11 08:32] I'm loving this list! I'm particularly interested in The Particular Sadness of Lemon Cake. I've heard great things about magical realism. Speaking of which, I met this guy Alex from Germany at a music festival a few weeks ago, and we bonded over our shared love of indie rock music. He's actually coming to my city for work soon, and we're planning to meet up. Anyway, back to the book – do you think it's a good representation of magical realism?\"}]}",
+ "answer": "Based on our past conversations, you mentioned on September 30, 2023, that you had met up with Alex from Germany **twice** before.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Alex from Germany\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 32.7,
+  "total": 37.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

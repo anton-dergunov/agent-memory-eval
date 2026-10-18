@@ -1,0 +1,96 @@
+{
+ "qid": "6a1eabeb",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "What was my personal best time in the charity 5K run?",
+ "reference": "25 minutes and 50 seconds (or 25:50)",
+ "question_date": "2023-06-25 13:22",
+ "sessions": [
+  {
+   "id": "6387e969",
+   "date": "2023-04-23 08:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_hcxvWC6_0",
+   "date": "2023-05-07 00:43",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_9ApEWXK_0",
+   "date": "2023-05-07 06:52",
+   "evidence": false
+  },
+  {
+   "id": "f3d43a12_2",
+   "date": "2023-05-15 17:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_a25d4a91_1",
+   "date": "2023-05-23 13:01",
+   "evidence": true
+  },
+  {
+   "id": "d8cc8b5c_5",
+   "date": "2023-05-23 23:20",
+   "evidence": false
+  },
+  {
+   "id": "5b71808d",
+   "date": "2023-05-30 06:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_a25d4a91_2",
+   "date": "2023-05-30 13:53",
+   "evidence": true
+  },
+  {
+   "id": "86b8dc6e",
+   "date": "2023-05-30 18:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_AScF7Wc_0",
+   "date": "2023-05-30 19:15",
+   "evidence": false
+  }
+ ],
+ "context": "I have found contradictory information in your records regarding your personal best 5K time.\n\n*   On May 23, 2023, it was noted that you completed a charity 5K with a personal best of **27:12**.\n*   On May 30, 2023, it was noted that your personal best time for a 5K run is **25:50**.\n\nCould you clarify which of these is the correct personal best time?",
+ "answer": "To determine your personal best time in the charity 5K run, let's look at the provided information step by step:\n\n**Step 1: Extract relevant information**\n*   Fact 1: On May 23, 2023, you completed a **charity 5K** with a time of **27:12**, which was noted as your personal best at that time.\n*   Fact 2: On May 30, 2023, it was noted that your personal best time for a 5K run is **25:50**.\n\n**Step 2: Reason over the information**\n*   The record from May 23 specifically links the time of **27:12** to the \"charity 5K.\"\n*   The record from May 30 provides a faster time (25:50), but it refers to your general personal best for a 5K run, not specifically the charity event.\n*   Since the charity 5K occurred on May 23, 2023, and resulted in a time of 27:12, that remains the specific time associated with that event.\n\n**Answer:**\nYour personal best time in the charity 5K run was **27:12**.",
+ "dump": "- [explicit] user is interested in seeing Broadway-style shows in both Paris and Rome.\n- [explicit] user is planning a trip to Europe in the fall of 2023.\n- [explicit] user is considering visiting Paris or Rome.\n- [explicit] user is interested in learning more about the French Resistance during World War II.\n- [explicit] user is interested in historical sites or museums in Paris that offer a unique perspective on the city's history.\n- [explicit] user is seeking recommendations for guided tours or museums in Paris that focus on the French Resistance during World War II.\n- [explicit] user is interested in visiting Paris.\n- [explicit] user prefers restaurants in Paris that focus on seasonal ingredients.\n- [explicit] user prefers restaurants in Paris that have a cozy atmosphere.\n- [explicit] user is looking for restaurants in Paris that serve traditional French cuisine.\n- [explicit] user is looking for wine bars or shops in Paris that offer a selection of French wines.\n- [explicit] user requested a list of all remixed or raw songs featured in a specific YouTube video provided via link.\n- [explicit] user shared a YouTube link to a Redfoo video to ask for identification of a specific remix version used within it.\n- [explicit] user asserts that Redfoo used a remix of 'Werewolves of London' in a video titled 'Party Rock Mondays 4' on YouTube.\n- [explicit] user is looking for the identity of an old rock song that contains the adlib 'hey' and is featured in the movie Happy Gilmore.\n- [explicit] user identifies the musician Redfoo as having remixed the song 'Werewolves of London'.\n- [explicit] user characterizes the unisex heavy cotton tee as having a classic fit.\n- [explicit] user notes the unisex heavy cotton tee is made of 100% cotton, noting fiber content may vary for different colors.\n- [explicit] user identifies the unisex heavy cotton tee as medium fabric at 5.3 oz/yd² (180 g/m²).\n- [explicit] user describes the unisex heavy cotton tee as a foundation for casual fashion.\n- [explicit] user states that the unisex heavy cotton tee needs a personalized design for profitability.\n- [explicit] user states the unisex heavy cotton tee runs true to size.\n- [explicit] user considers the unisex heavy cotton tee a basic staple of any wardrobe.\n- [explicit] user identifies the unisex heavy cotton tee as having a tear-away label.\n- [explicit] user owns a cat named Whiskers.\n- [explicit] user is looking for cat toys and scratching posts online.\n- [explicit] user wants toys that challenge Whiskers' agility and problem-solving skills.\n- [explicit] user recently purchased a new scratching post for Whiskers.\n- [explicit] user's cat Whiskers had a follow-up appointment for an ear infection around April 15, 2023.\n- [explicit] user is looking for durable and easy to clean puzzle toys and interactive treat dispensers for Whiskers.\n- [explicit] user's cat Whiskers was given a clean bill of health by a vet regarding her ear infection.\n- [explicit] user is planning to create a cat agility course in their living room using cardboard boxes and tunnels.\n- [explicit] user reports that Whiskers is not using her litter box consistently.\n- [explicit] user plans to get new toys and scratching posts for their cat Whiskers.\n- [explicit] user intends to increase the number of litter boxes in user's home for their cat Whiskers.\n- [explicit] user is seeking recommendations for online retailers that sell cat supplies and toys.\n- [explicit] user owns a cat who likes to scratch vertically.\n- [explicit] user intends to look at Chewy.com for cat supplies and toys.\n- [explicit] user intends to look at Petco.com for cat supplies and toys.\n- [explicit] user intends to look into CatLadyBox.com for subscription boxes.\n- [explicit] user has been running recently.\n- [explicit] user participates in soccer games every two weeks.\n- [explicit] user is planning a fitness schedule.\n- [explicit] user believes their next soccer game is in two weeks from May 23, 2023.\n- [explicit] user recently completed a charity 5K run with a personal best time of 27:12.\n- [explicit] user does not typically score goals in soccer.\n- [explicit] user scored a goal in a recent recreational soccer game with their coworkers.\n- [explicit] user plays soccer in recreational games with their coworkers.\n- [explicit] user has been focusing on strengthening their core and legs.\n- [explicit] user is considering signing up for a tennis tournament occurring on May 6, 2023.\n- [explicit] user has never participated in a real tennis tournament before.\n- [explicit] user has been playing tennis casually for a few years.\n- [explicit] user plans to practice tennis footwork.\n- [explicit] user plans to practice tennis returns.\n- [explicit] user is preparing for a tennis tournament.\n- [explicit] user has been practicing their tennis volleys.\n- [explicit] user aims to reach at least the quarterfinals of the tennis tournament.\n- [explicit] user has been practicing their tennis serve.\n- [explicit] user's grandma enjoys cooking.\n- [explicit] user intends to host the party in user's backyard.\n- [explicit] user's grandma enjoys gardening.\n- [explicit] user communicates with user's grandma every other day.\n- [explicit] user is interested in a garden-themed cake shaped like a garden pot or a flower.\n- [explicit] user is planning a surprise birthday party for user's grandma.\n- [explicit] user's backyard already features a garden.\n- [explicit] user is planning a garden-themed birthday party for their grandma.\n- [explicit] user is interested in creating herbal tea blends at home.\n- [explicit] user wants to create a customized \"Grandma's Garden\" herbal tea blend for their grandma.\n- [explicit] user intends to include a soothing message on the label of the tea blend gift.\n- [explicit] user intends to package the herbal tea blend for user's grandma with a personalized label or in a decorative tin.\n- [explicit] user's grandma has been feeling stressed recently.\n- [explicit] user intends to create a customized herbal tea blend for user's grandma.\n- [explicit] user intends to include a stress ball as a calming accessory with the tea blend gift.\n- [explicit] user calls user's grandma every other day.\n- [explicit] user intends to invite user's grandma to share a cup of tea over a video call.\n- [explicit] user is planning to prepare a photo album or scrapbook for the birthday of the grandma of user\n- [explicit] user has documents related to an asylum application, including an approval letter, medical exam results, and background checks.\n- [explicit] user wants to include an Asylum subfolder under the Immigration category.\n- [explicit] user wants to create a digital folder structure for important papers including Immigration, Medical, and Legal categories.\n- [explicit] user is organizing digital documents.\n- [explicit] user is looking for a new job.\n- [explicit] user wants to focus on advanced language skills.\n- [explicit] user plans to enroll in a language course to improve English skills.\n- [explicit] user received an asylum approval letter on February 20, 2023.\n- [explicit] user is taking English classes at the LINC program.\n- [explicit] user resides in Canada.\n- [explicit] user considers the LINC program very helpful for preparing for life in Canada.\n- [explicit] user has made friends in the LINC program, including a person from Syria.\n- [explicit] user wants to practice speaking and listening skills to improve fluency and comfort with everyday conversations.\n- [explicit] user has a teacher named Mrs. Patel in the LINC program.\n- [explicit] user's goal is to reach fluency in English for daily communication and career advancement.\n- [explicit] user has been taking English classes at the LINC program since November 2020.\n- [explicit] user is currently at English level 5 in the LINC program.\n- [explicit] user intends to enroll in a college or university program in the future.\n- [explicit] user has a personal best time of 25:50 for a 5K run.\n- [explicit] user is interested in incorporating strength training into their routine.\n- [explicit] user wants to identify exercises that improve running performance.\n- [explicit] user is participating in a tennis tournament on May 6th.\n- [explicit] user wants tips to improve their tennis serve.\n- [explicit] user identifies toss consistency as an area needing improvement for their tennis serve.\n- [explicit] user is participating in a tennis tournament.\n- [explicit] user has been working on improving their tennis serve.\n- [explicit] user aims to beat their personal best time in the upcoming 5K run.\n- [explicit] user is preparing for a charity 5K run.\n- [explicit] user intends to improve their endurance for a 5K run.\n- [explicit] user has a previous personal best time for a 5K run.\n- [explicit] user is interested in finding car washes.\n- [explicit] user intends to use Yelp to search for waxing services.\n- [explicit] user intends to replace the brake pads on the motorcycle.\n- [explicit] user last had the car waxed in February 2023.\n- [explicit] user owns a motorcycle.\n- [explicit] user owns a car.\n- [explicit] user took the car to a dealership for a routine maintenance check in February 2023.\n- [explicit] user intends to use Yelp to search for car washes.\n- [explicit] user intends to get the car's air conditioning system serviced before summer.\n- [explicit] user took their motorcycle out of storage around April 30, 2023.\n- [explicit] user is researching and calculating finances before deciding on a new car purchase.\n- [explicit] user has not had their current car's air conditioning serviced in a while.\n- [explicit] user owns an old SUV they are considering selling.\n- [explicit] user intends to research the market value of their old SUV.\n- [explicit] user is looking for advice on how to price and sell a used car.\n- [explicit] user is considering purchasing a new Honda CR-V.\n- [explicit] user intends to check their owner's manual for the recommended air conditioning service schedule.\n- [explicit] user went test-driving new cars on the weekend of May 27-28, 2023.\n- [explicit] user requested detailed features for the leave management system.\n- [explicit] user requested a continuation of the leave management system outline.\n- [explicit] user wants a detailed leave management system outline.\n- [deductive] user is a vehicle owner who maintains both a car and a motorcycle.\n- [deductive] user is actively managing vehicle maintenance, including planning for mechanical repairs and cosmetic upkeep.\n- [inductive] user is proactive and methodical about vehicle maintenance and planning, often scheduling service and research in advance of seasonal needs.\n- [inductive] user prefers to gather detailed and structured information when planning complex tasks or systems, such as building a leave management system.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 142.5,
+  "total": 145.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

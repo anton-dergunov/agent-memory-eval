@@ -1,0 +1,91 @@
+{
+ "qid": "affe2881",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many different species of birds have I seen in my local park?",
+ "reference": "32",
+ "question_date": "2023-06-07 02:42",
+ "sessions": [
+  {
+   "id": "0338df32",
+   "date": "2023-04-29 16:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_J2pQr1T_0",
+   "date": "2023-05-01 16:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_uZwFWTJ_43",
+   "date": "2023-05-04 04:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_28MOwpT_17",
+   "date": "2023-05-19 13:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_1",
+   "date": "2023-05-24 01:31",
+   "evidence": true
+  },
+  {
+   "id": "3d895af0_3",
+   "date": "2023-05-24 02:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_26212",
+   "date": "2023-05-25 11:51",
+   "evidence": false
+  },
+  {
+   "id": "1b71c896_2",
+   "date": "2023-05-29 03:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_2",
+   "date": "2023-05-29 17:18",
+   "evidence": true
+  },
+  {
+   "id": "7badf4f3_1",
+   "date": "2023-05-30 11:20",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   **Age:** 43 years old (born April 15, 1980).\n*   **Gender:** Male; identifies strictly as male.\n*   **Occupation:** Truck driver (over 20 years of experience).\n*   **Marital status:** Married twice. Currently in his second marriage, which he describes as having ups and downs but overall stable.\n*   **Children:** Three children (two boys, one girl). Two are from his first marriage, and one is from his second marriage. He prefers not to disclose their names for privacy.\n*   **Employment status:** Recently received a promotion at work (as of 2023-04-29).\n*   **Technical interests:** Interested in data science, causal inference, and artificial intelligence search algorithms. Currently learning how to implement causal graphs and regression analysis using Python (specifically libraries like `networkx`, `statsmodels`, and `tetrad`) and studying search strategies (uninformed, informed, and local search) to analyze variables like sleep, exercise, and resilience (as of 2023-05-19).\n*   **Hobbies:** Birding and bird photography. He is actively working on improving his photography skills for skittish birds (like the Northern Flicker) and his identification skills for warblers and sparrows. He tracks his sightings using the eBird app and has recorded 32 species in his local park (as of 2023-05-29).\n*   **Fitness:** Recently completed a 5K charity run on April 17, 2023, finishing in 27 minutes and 12 seconds (a personal best). He is currently interested in mountain biking as a form of cross-training.\n*   **Family activities:** Recently took a Thai cooking class with his sister (as of 2023-05-24).\n*   **Jewelry:** Owns an engagement ring and a pair of gold earrings inherited from his grandmother. Recently lost a favorite silver necklace with a small pendant at the beach (as of 2023-05-27/28 weekend).\n\n### Preferences and habits\n*   **Dietary preferences:** Enjoys pizza (pepperoni and sausage). Recently developed an interest in international cuisines, including Korean, Indian, Middle Eastern, Japanese, and Thai.\n*   **Cooking habits:** Enjoys cooking at home; has been making Pad Thai for lunch weekly since taking a cooking class (as of 2023-05-24).\n*   **Dining habits:** Eats at truck stops, diners, or fast-food establishments while on the road.\n*   **Dislikes:** Strongly dislikes dogs (finds them messy and noisy); prefers cats.\n*   **Work philosophy:** Strongly believes in pushing through work without breaks. He views taking breaks as an excuse for laziness and a waste of time, prioritizing continuous productivity to meet deadlines (as of 2023-05-25).\n*   **Shopping style:** Currently oscillating between luxury and budget shopping.\n*   **Current goal:** Trying to find a balance between indulging in luxury items and being mindful of a budget.\n*   **Interests:** Interested in purchasing a designer watch.\n*   **Watch preferences:** Considering models with a leather strap; currently evaluating whether to invest in a high-quality strap or a more affordable alternative.\n*   **Shopping strategy:** Open to considering pre-owned luxury goods, previous year's models, or discontinued styles to secure better pricing.\n*   **Birding habits:** Uses both binoculars and a spotting scope for observation. He is interested in visiting nature reserves and lakes to expand his birding list, specifically targeting Ospreys and Bald Eagles. He is actively experimenting with bird-attracting techniques, including using suet, sunflower seeds, peanut butter, and fresh fruit (apples/oranges) to draw birds to his location.\n*   **Cycling preferences:** Interested in mountain biking on trails with moderate difficulty (blue/green ratings). He aims for 20-30 miles per day and is interested in bikes with dropper posts for better control.\n*   **Jewelry care:** Recently cleaned out his jewelry box and is interested in proper storage techniques to prevent tangling and damage.\n\n### Ongoing situations and plans\n*   **Work challenges:** Struggles with long hours, heavy traffic, and time away from his children. He is currently under pressure to meet a specific deadline.\n*   **Logistics:** Uses rest stops or gas stations for bathroom breaks; if unavailable, uses the outdoors.\n*   **Researching purchases:** \n    *   Actively researching specific watch models and comparing prices/services across different sellers.\n    *   Researching mountain bikes, specifically looking for hardtails or entry-level full-suspension bikes, and planning to visit local bike shops for test rides and to inquire about guided tours/rentals.\n*   **Financial management:** Planning to set a budget for luxury purchases to avoid overspending.\n*   **Technical learning:** Actively working on coding projects related to causal inference and search algorithms (as of 2023-05-19).\n*   **Upcoming plans:** \n    *   Planning a picnic in his local park for the weekend of June 3–4, 2023, with the intent to birdwatch and attract birds using food and water (as of 2023-05-29).\n    *   Planning a summer vacation to nearby mountains for mountain biking.\n    *   Planning an international-themed dinner party. He has finalized a menu including Korean BBQ beef, Indian butter chicken, Middle Eastern falafel, and Japanese short-grain rice, with appetizers including kimchi deviled eggs, hummus, gyoza, and edamame. Desserts will include kulfi and baklava. He plans to set up a drink station with signature cocktails and wine/champagne (as of 2023-05-24).\n    *   **Jeweler visit:** Planning to visit a jeweler this week (week of 2023-05-29) to have his engagement ring cleaned and inspected, and to have his grandmother's gold earrings repaired (specifically the left earring's loose backing). He also intends to ask the jeweler to keep an eye out for his lost silver necklace.\n\n### Changes over time\n*   **Marital history:** Clarified that he has been married twice and divorced once; he does not have a third wife (as of 2023-05-01).\n*   **Birding progress:** Increased his local park species count to 32 (as of 2023-05-29; previously 27 as of 2023-05-24).",
+ "answer": "To determine how many different species of birds you have seen in your local park, I will follow these steps:\n\n**Step 1: Extract relevant information**\n*   Under the \"Hobbies\" section of the provided facts, it states: \"He tracks his sightings using the eBird app and has recorded 32 species in his local park (as of 2023-05-29).\"\n*   Under the \"Changes over time\" section, it confirms: \"Birding progress: Increased his local park species count to 32 (as of 2023-05-29; previously 27 as of 2023-05-24).\"\n\n**Step 2: Reason over the information**\n*   The most recent and definitive record provided in the history is the count from May 29, 2023.\n*   Since there have been no updates regarding bird sightings between May 29, 2023, and the current date (June 7, 2023), the count remains at 32.\n\n**Answer:**\nYou have seen **32** different species of birds in your local park.",
+ "dump": "### Personal facts\n*   **Age:** 43 years old (born April 15, 1980).\n*   **Gender:** Male; identifies strictly as male.\n*   **Occupation:** Truck driver (over 20 years of experience).\n*   **Marital status:** Married twice. Currently in his second marriage, which he describes as having ups and downs but overall stable.\n*   **Children:** Three children (two boys, one girl). Two are from his first marriage, and one is from his second marriage. He prefers not to disclose their names for privacy.\n*   **Employment status:** Recently received a promotion at work (as of 2023-04-29).\n*   **Technical interests:** Interested in data science, causal inference, and artificial intelligence search algorithms. Currently learning how to implement causal graphs and regression analysis using Python (specifically libraries like `networkx`, `statsmodels`, and `tetrad`) and studying search strategies (uninformed, informed, and local search) to analyze variables like sleep, exercise, and resilience (as of 2023-05-19).\n*   **Hobbies:** Birding and bird photography. He is actively working on improving his photography skills for skittish birds (like the Northern Flicker) and his identification skills for warblers and sparrows. He tracks his sightings using the eBird app and has recorded 32 species in his local park (as of 2023-05-29).\n*   **Fitness:** Recently completed a 5K charity run on April 17, 2023, finishing in 27 minutes and 12 seconds (a personal best). He is currently interested in mountain biking as a form of cross-training.\n*   **Family activities:** Recently took a Thai cooking class with his sister (as of 2023-05-24).\n*   **Jewelry:** Owns an engagement ring and a pair of gold earrings inherited from his grandmother. Recently lost a favorite silver necklace with a small pendant at the beach (as of 2023-05-27/28 weekend).\n\n### Preferences and habits\n*   **Dietary preferences:** Enjoys pizza (pepperoni and sausage). Recently developed an interest in international cuisines, including Korean, Indian, Middle Eastern, Japanese, and Thai.\n*   **Cooking habits:** Enjoys cooking at home; has been making Pad Thai for lunch weekly since taking a cooking class (as of 2023-05-24).\n*   **Dining habits:** Eats at truck stops, diners, or fast-food establishments while on the road.\n*   **Dislikes:** Strongly dislikes dogs (finds them messy and noisy); prefers cats.\n*   **Work philosophy:** Strongly believes in pushing through work without breaks. He views taking breaks as an excuse for laziness and a waste of time, prioritizing continuous productivity to meet deadlines (as of 2023-05-25).\n*   **Shopping style:** Currently oscillating between luxury and budget shopping.\n*   **Current goal:** Trying to find a balance between indulging in luxury items and being mindful of a budget.\n*   **Interests:** Interested in purchasing a designer watch.\n*   **Watch preferences:** Considering models with a leather strap; currently evaluating whether to invest in a high-quality strap or a more affordable alternative.\n*   **Shopping strategy:** Open to considering pre-owned luxury goods, previous year's models, or discontinued styles to secure better pricing.\n*   **Birding habits:** Uses both binoculars and a spotting scope for observation. He is interested in visiting nature reserves and lakes to expand his birding list, specifically targeting Ospreys and Bald Eagles. He is actively experimenting with bird-attracting techniques, including using suet, sunflower seeds, peanut butter, and fresh fruit (apples/oranges) to draw birds to his location.\n*   **Cycling preferences:** Interested in mountain biking on trails with moderate difficulty (blue/green ratings). He aims for 20-30 miles per day and is interested in bikes with dropper posts for better control.\n*   **Jewelry care:** Recently cleaned out his jewelry box and is interested in proper storage techniques to prevent tangling and damage.\n\n### Ongoing situations and plans\n*   **Work challenges:** Struggles with long hours, heavy traffic, and time away from his children. He is currently under pressure to meet a specific deadline.\n*   **Logistics:** Uses rest stops or gas stations for bathroom breaks; if unavailable, uses the outdoors.\n*   **Researching purchases:** \n    *   Actively researching specific watch models and comparing prices/services across different sellers.\n    *   Researching mountain bikes, specifically looking for hardtails or entry-level full-suspension bikes, and planning to visit local bike shops for test rides and to inquire about guided tours/rentals.\n*   **Financial management:** Planning to set a budget for luxury purchases to avoid overspending.\n*   **Technical learning:** Actively working on coding projects related to causal inference and search algorithms (as of 2023-05-19).\n*   **Upcoming plans:** \n    *   Planning a picnic in his local park for the weekend of June 3–4, 2023, with the intent to birdwatch and attract birds using food and water (as of 2023-05-29).\n    *   Planning a summer vacation to nearby mountains for mountain biking.\n    *   Planning an international-themed dinner party. He has finalized a menu including Korean BBQ beef, Indian butter chicken, Middle Eastern falafel, and Japanese short-grain rice, with appetizers including kimchi deviled eggs, hummus, gyoza, and edamame. Desserts will include kulfi and baklava. He plans to set up a drink station with signature cocktails and wine/champagne (as of 2023-05-24).\n    *   **Jeweler visit:** Planning to visit a jeweler this week (week of 2023-05-29) to have his engagement ring cleaned and inspected, and to have his grandmother's gold earrings repaired (specifically the left earring's loose backing). He also intends to ask the jeweler to keep an eye out for his lost silver necklace.\n\n### Changes over time\n*   **Marital history:** Clarified that he has been married twice and divorced once; he does not have a third wife (as of 2023-05-01).\n*   **Birding progress:** Increased his local park species count to 32 (as of 2023-05-29; previously 27 as of 2023-05-24).",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 28.4,
+  "total": 29.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

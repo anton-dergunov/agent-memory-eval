@@ -1,0 +1,102 @@
+{
+ "qid": "2133c1b5",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How long have I been living in my current apartment in Harajuku?",
+ "reference": "3 months",
+ "question_date": "2023-10-15 08:39",
+ "sessions": [
+  {
+   "id": "sharegpt_NCuLVp2_0",
+   "date": "2023-03-23 05:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_354956",
+   "date": "2023-03-26 10:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MDDob56_0",
+   "date": "2023-04-09 10:53",
+   "evidence": false
+  },
+  {
+   "id": "answer_52382508_1",
+   "date": "2023-04-11 08:03",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_152598",
+   "date": "2023-08-30 19:54",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_311208",
+   "date": "2023-10-06 11:41",
+   "evidence": false
+  },
+  {
+   "id": "a52d98bf_2",
+   "date": "2023-10-15 11:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_RYhUTAL_0",
+   "date": "2023-10-15 15:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_bSlIUYf_32",
+   "date": "2023-10-15 18:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_52382508_2",
+   "date": "2023-10-15 20:50",
+   "evidence": true
+  }
+ ],
+ "context": "- The user plans to visit the Kawai Shrine in Harajuku. (valid since 2023-10-15)\n- The assistant recommends My Bloody Valentine as an artist in the dream pop/shoegaze genre (valid since 2023-08-30)\n- The user is planning to stay in the city of Matsumoto for their upcoming trip to the Japanese Alps. (valid since 2023-04-11)\n- The Minato Mirai 21 district features a 100-meter-long Maple Leaf Tunnel. (valid since 2023-10-15)\n- The user plans to visit the Red Brick Warehouse on a day trip to Yokohama. (valid since 2023-10-15)\n- The user wants to try grilled squid in Yokohama. (valid since 2023-10-15)\n- Stillwater restaurant is located in Launceston, Tasmania. (valid since 2023-10-06)\n- The user plans to stroll along Nawate Street. (valid since 2023-04-11)\n- Franklin restaurant is located in Hobart, Tasmania. (valid since 2023-10-06)\n- The user plans to visit the Yokohama Central Market to find grilled squid. (valid since 2023-10-15)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history chats state: \"The user plans to visit the Kawai Shrine in Harajuku.\" (valid since 2023-10-15).\n*   There is no information in the provided history chats regarding the user's residence, housing status, or how long they have lived in an apartment in Harajuku.\n\n**Step 2: Reason over the information**\n*   The provided facts only mention the user's travel plans (visiting the Kawai Shrine in Harajuku).\n*   Since there is no data regarding the user's living situation or apartment history, it is impossible to answer the question based on the provided facts.\n\n**Answer:**\nThe provided history chats do not contain any information regarding how long you have been living in your current apartment in Harajuku.",
+ "dump": "- Tod's home has broken windows, which indicates that his home life is not the best. (valid since 2023-03-23)\n- Tod's mom is employed at a dry cleaner. (valid since 2023-03-23)\n- The Porsche Taycan offers a smaller 79.2 kWh battery option. (valid since 2023-03-26)\n- The Porsche Taycan offers a larger 93.4 kWh battery option. (valid since 2023-03-26)\n- Dana is going to speak to Dana's boss about resigning today. (valid since 2023-04-09)\n- The user is an acquaintance of Dana. (valid since 2023-04-09)\n- The user is planning to stay in the city of Matsumoto for their upcoming trip to the Japanese Alps. (valid since 2023-04-11)\n- Matsumoto is closer to the Japanese Alps Visitor Center compared to other locations in the region. (valid since 2023-04-11)\n- Asama Onsen is a hot spring resort located 30 minutes from Matsumoto. (valid since 2023-04-11)\n- Utsukushigahara Onsen is a scenic hot spring resort located 45 minutes from Matsumoto. (valid since 2023-04-11)\n- Hirata Onsen is a historic hot spring facility located 20 minutes from Matsumoto. (valid since 2023-04-11)\n- Matsumoto Onsen Hotel is located in the heart of Matsumoto City. (valid since 2023-04-11)\n- Matsumoto Castle is a National Treasure of Japan located in Matsumoto. (valid since 2023-04-11)\n- Nawate Street is a street in Matsumoto lined with traditional shops and tea houses. (valid since 2023-04-11)\n- The Matsumoto Folkcraft Museum is located in Matsumoto and showcases traditional crafts. (valid since 2023-04-11)\n- The Kaichi School Museum is located in Matsumoto and is dedicated to the history of education. (valid since 2023-04-11)\n- Matsumoto Shrine is a Shinto shrine located near Matsumoto Castle. (valid since 2023-04-11)\n- Nakamachi Street is a historic street in Matsumoto lined with traditional warehouses. (valid since 2023-04-11)\n- Matsumoto City Museum showcases history, art, and culture within Matsumoto. (valid since 2023-04-11)\n- Agata no Mori Park is a park located in Matsumoto featuring a pond and walking trails. (valid since 2023-04-11)\n- The user is planning to visit the Japanese Alps Visitor Center. (valid since 2023-04-11)\n- The user is planning to visit Matsumoto Castle. (valid since 2023-04-11)\n- The user plans to stroll along Nawate Street. (valid since 2023-04-11)\n- The user intends to visit the Matsumoto Folkcraft Museum if time permits. (valid since 2023-04-11)\n- The user intends to visit Zenko-ji Temple if time permits. (valid since 2023-04-11)\n- The assistant recommends Vampire Weekend as an artist in the indie pop genre (valid since 2023-08-30)\n- The assistant recommends The Postal Service as an artist in the indie pop genre (valid since 2023-08-30)\n- The assistant recommends The Shins as an artist in the indie pop genre (valid since 2023-08-30)\n- The assistant recommends The 1975 as an artist in the indie pop genre (valid since 2023-08-30)\n- The assistant recommends Grouplove as an artist in the indie pop genre (valid since 2023-08-30)\n- The assistant recommends Wilco as an artist in the alt-country/Americana genre (valid since 2023-08-30)\n- The assistant recommends Ryan Adams as an artist in the alt-country/Americana genre (valid since 2023-08-30)\n- The assistant recommends Jason Isbell as an artist in the alt-country/Americana genre (valid since 2023-08-30)\n- The assistant recommends Lucinda Williams as an artist in the alt-country/Americana genre (valid since 2023-08-30)\n- The assistant recommends Shovels & Rope as an artist in the alt-country/Americana genre (valid since 2023-08-30)\n- The assistant recommends Beach House as an artist in the dream pop/shoegaze genre (valid since 2023-08-30)\n- The assistant recommends Slowdive as an artist in the dream pop/shoegaze genre (valid since 2023-08-30)\n- The assistant recommends My Bloody Valentine as an artist in the dream pop/shoegaze genre (valid since 2023-08-30)\n- The assistant recommends Cocteau Twins as an artist in the dream pop/shoegaze genre (valid since 2023-08-30)\n- The assistant recommends DIIV as an artist in the dream pop/shoegaze genre (valid since 2023-08-30)\n- The assistant recommends Leon Bridges as an artist in the R&B/soul genre (valid since 2023-08-30)\n- The assistant recommends Anderson .Paak as an artist in the R&B/soul genre (valid since 2023-08-30)\n- The assistant recommends Solange as an artist in the R&B/soul genre (valid since 2023-08-30)\n- The assistant recommends Hiatus Kaiyote as an artist in the R&B/soul genre (valid since 2023-08-30)\n- The assistant recommends D'Angelo as an artist in the R&B/soul genre (valid since 2023-08-30)\n- The assistant recommends Kamasi Washington as an artist in the jazz genre (valid since 2023-08-30)\n- The assistant recommends Snarky Puppy as an artist in the jazz genre (valid since 2023-08-30)\n- The assistant recommends Esperanza Spalding as an artist in the jazz genre (valid since 2023-08-30)\n- The assistant recommends Christian Scott aTunde Adjuah as an artist in the jazz genre (valid since 2023-08-30)\n- The assistant recommends Terrace Martin as an artist in the jazz genre (valid since 2023-08-30)\n- Tasmanian pepperberry is also known as Tasmannia lanceolata. (valid since 2023-10-06)\n- Grilled Tasmanian Pepperberry Salmon is a recipe that uses Tasmanian pepperberry as a key ingredient. (valid since 2023-10-06)\n- Mountain Pepper is also known as Tasmannia stipitata. (valid since 2023-10-06)\n- Wattleseed comes from the ground seeds of the Acacia tree. (valid since 2023-10-06)\n- Tasmanian Pepperberry Crusted Venison with Wattleseed and Lemon Myrtle Gravy contains Tasmanian pepperberry. (valid since 2023-10-06)\n- Tasmanian Pepperberry Crusted Venison with Wattleseed and Lemon Myrtle Gravy contains Wattleseed. (valid since 2023-10-06)\n- Tasmanian Pepperberry Crusted Venison with Wattleseed and Lemon Myrtle Gravy contains Lemon myrtle. (valid since 2023-10-06)\n- The agrarian kitchen eatery is located in New Norfolk, Tasmania. (valid since 2023-10-06)\n- Franklin restaurant is located in Hobart, Tasmania. (valid since 2023-10-06)\n- Stillwater restaurant is located in Launceston, Tasmania. (valid since 2023-10-06)\n- Taste of Tasmania is a food and wine festival held in Tasmania. (valid since 2023-10-06)\n- Tamar Valley Writers Festival is a wine and food festival held in Tasmania. (valid since 2023-10-06)\n- Spring Bay Seafood and Wine Festival is a wine and food festival held in Tasmania. (valid since 2023-10-06)\n- The user is planning to create a succulent arrangement for their patio using succulents. (valid since 2023-10-15)\n- The user is planning to put a succulent arrangement on their patio. (valid since 2023-10-15)\n- Marigolds contain alpha-terthienyl, which is a chemical toxic to nematodes and helps reduce nematode populations in gardens. (valid since 2023-10-15)\n- Planting marigolds around tomato plants helps protect them from nematodes and other pests. (valid since 2023-10-15)\n- Planting marigolds around cucumber plants helps protect them from nematodes and other pests. (valid since 2023-10-15)\n- Planting marigolds around bell pepper plants helps protect them from nematodes and other pests. (valid since 2023-10-15)\n- Marigolds contain a chemical called alpha-terthienyl. (valid since 2023-10-15)\n- Planting marigolds helps suppress nematode populations. (valid since 2023-10-15)\n- Planting marigolds around vegetables prevents nematodes from damaging tomato, cucumber, and bell pepper roots. (valid since 2023-10-15)\n- The Committee on Foreign Investment in the United States reviews and blocks foreign investments in U.S. companies that may pose national security risks under the Foreign Investment Risk Review Modernization Act. (valid since 2023-10-15)\n- The President is authorized under the Foreign Investment Risk Review Modernization Act to review any transaction that could result in the control of a U.S. business by a foreign person, if the transaction involves a critical technology or is located in or near sensitive areas. (valid since 2023-10-15)\n- The Secretary is tasked under the Foreign Investment Risk Review Modernization Act with establishing a process to identify critical technologies and prescribe regulations for submitting information regarding foreign ownership, control, or influence to the Committee on Foreign Investment in the United States. (valid since 2023-10-15)\n- The Committee on Foreign Investment in the United States and the implementation of the Foreign Investment Risk Review Modernization Act are exempt from the Paperwork Reduction Act and the Freedom of Information Act. (valid since 2023-10-15)\n- The President continues certain actions taken under Executive Order 13873 and the International Emergency Economic Powers Act as provided in the Foreign Investment Risk Review Modernization Act. (valid since 2023-10-15)\n- The user plans to visit Minato Mirai 21 on a day trip to Yokohama. (valid since 2023-10-15)\n- The user plans to visit the Red Brick Warehouse on a day trip to Yokohama. (valid since 2023-10-15)\n- The user plans to visit the Kawai Shrine in Harajuku. (valid since 2023-10-15)\n- The user plans to visit Kanemasa in Yokohama to try kanimeshi. (valid since 2023-10-15)\n- The user wants to try kanimeshi (crab rice bowl) in Yokohama. (valid since 2023-10-15)\n- The user plans to visit Tsukiji Itadori Uogashi Nihon-Ichi in Yokohama to try namashirasu. (valid since 2023-10-15)\n- The user wants to try namashirasu (raw sardine sushi) in Yokohama. (valid since 2023-10-15)\n- The user wants to try grilled squid in Yokohama. (valid since 2023-10-15)\n- The user plans to visit the Yokohama Central Market to find grilled squid. (valid since 2023-10-15)\n- The Yokohama Central Market offers grilled squid for sale. (valid since 2023-10-15)\n- Yokohama hosts the Yokohama Oktoberfest from mid-October to early November. (valid since 2023-10-15)\n- Yokohama hosts the Yokohama Autumn Leaves Festival, which usually takes place in late November. (valid since 2023-10-15)\n- The Minato Mirai 21 district features a 100-meter-long Maple Leaf Tunnel. (valid since 2023-10-15)\n- The Minato Mirai 21 district features a Harvest Moon Garden with a large, glowing moon. (valid since 2023-10-15)\n- The Minato Mirai 21 district features the Cosmo World Illuminations, including a Ferris wheel with projection mapping. (valid since 2023-10-15)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 92,
+  "invalidated": 0,
+  "episodes": 15,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 150.0,
+  "total": 151.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

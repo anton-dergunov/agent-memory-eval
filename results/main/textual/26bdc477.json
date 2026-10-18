@@ -1,0 +1,95 @@
+{
+ "qid": "26bdc477",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many trips have I taken my Canon EOS 80D camera on?",
+ "reference": "five",
+ "question_date": "2023-06-06 18:27",
+ "sessions": [
+  {
+   "id": "a223e307",
+   "date": "2023-03-03 02:59",
+   "evidence": false
+  },
+  {
+   "id": "2d79c1c3_2",
+   "date": "2023-03-05 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_350893",
+   "date": "2023-03-16 01:52",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_1",
+   "date": "2023-03-16 19:05",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_hMokVUA_39",
+   "date": "2023-03-18 14:10",
+   "evidence": false
+  },
+  {
+   "id": "dce08529_1",
+   "date": "2023-05-04 21:39",
+   "evidence": false
+  },
+  {
+   "id": "201d188a_4",
+   "date": "2023-05-19 15:50",
+   "evidence": false
+  },
+  {
+   "id": "answer_f762ad8d_2",
+   "date": "2023-05-30 00:43",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_438698",
+   "date": "2023-06-01 00:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pRBsKdE_5",
+   "date": "2023-06-03 07:50",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is actively managing and tracking their shopping coupons and discounts.\n* The user is a runner who recently switched from Brooks Ghost 13 shoes to Asics Gel-Kayano 28 shoes.\n* The user reports a significant reduction in knee pain since switching to the Asics Gel-Kayano 28.\n* The user is a cyclist who participated in a charity bike ride for a local children's hospital on 2023-05-19.\n* The user is currently exploring new running and cycling routes beyond their usual areas.\n* The user has an interest in business strategy, specifically regarding crisis management planning for companies of various sizes.\n* The user is a photographer who owns a Canon EOS 80D camera and an 18-135mm kit lens.\n* The user is an adventure photographer who has visited Yellowstone, Yosemite, and the Grand Canyon.\n* The user has used their Canon EOS 80D on five trips to date (as of 2023-05-30).\n* The user owns a Lowepro backpack-style camera bag.\n* The user has a strong interest in history, specifically 20th-century Israeli political and military history.\n* The user is currently experiencing anxiety and depression and is working with a therapist named Dr. Smith (since 2023-05-04).\n* The user holds strong views on social and economic policy, specifically advocating for universal healthcare, affordable education, and robust social safety nets (unemployment benefits, food assistance) to mitigate the impact of economic downturns.\n* The user is professionally engaged in policy analysis, specifically regarding international development and infrastructure financing (e.g., the Agua Clara program and World Bank FCI initiatives).\n\n### Preferences and habits\n* The user is interested in finding and utilizing coupons to save money at retail stores.\n* The user shops at Walmart, Target, and ShopRite.\n* The user utilizes digital loyalty programs (e.g., ShopRite loyalty card).\n* The user is interested in receiving assistance from the assistant to find future coupon opportunities.\n* The user is interested in running gear recommendations (specifically socks compatible with Asics Gel-Kayano 28) and shoe care maintenance.\n* The user prefers to run without earbuds to stay alert to their surroundings.\n* The user is conscious of safety, particularly when running or cycling in low-light conditions.\n* The user is interested in proper fueling and hydration strategies for long-distance running and cycling.\n* The user values proactive planning but is skeptical about whether companies truly prioritize long-term preparation over reactive scrambling.\n* The user prefers a hybrid photo storage strategy: Adobe Creative Cloud for professional/high-end work and Google Photos for personal shots.\n* The user is currently experimenting with Adobe Lightroom and Photoshop.\n* The user is adopting productivity frameworks to manage stress, specifically the Eisenhower Matrix for task prioritization and the Pomodoro Technique for focus (since 2023-05-04).\n* The user prefers to incorporate short walks, stretching, or meditation during breaks to recharge (since 2023-05-04).\n* The user prefers paved roads for cycling and enjoys scenic, enjoyable routes.\n* The user is planning a photography trip to Zion National Park and is interested in techniques for shooting in bright sunlight and high-contrast environments.\n* The user prefers to use a soft gradation filter for landscape photography.\n* The user believes that investing in education and healthcare is essential for individual success and broader economic stability.\n* The user prefers data-driven policy analysis, as evidenced by their work on the Honduras rural water system case study.\n\n### Ongoing situations and plans\n* The user is currently tracking the following used coupons:\n    1. **Walmart:** 20% off coupon (used 2023-02-25; saved $12 on a $60 bill).\n    2. **Target:** $5 off $25 or more (used 2023-02-28).\n    3. **ShopRite:** $1 off pasta sauce digital coupon (used 2023-02-26).\n* The user is looking for ways to organize their coupons and discounts.\n* The user plans to implement shoe care tips (cleaning, proper storage, rotation) to extend the life of their Asics Gel-Kayano 28.\n* The user is planning to explore new running routes using online tools (e.g., MapMyRun, Strava, AllTrails).\n* The user is planning to purchase a Really Right Stuff (RRS) TVC-34L tripod for their Canon EOS 80D.\n* The user is looking to purchase a replacement 67mm lens cap for their Canon 18-135mm lens.\n* The user is implementing a new morning routine that includes a dedicated time block for focused work using the Pomodoro Technique (3-4 cycles of 25 minutes work/5 minutes break) (since 2023-05-04).\n* The user is planning to create a 20-mile cycling route around their hometown using Strava’s route builder, utilizing elevation profiles to avoid steep hills and adding waypoints for landmarks.\n* The user is testing Strava and MapMyRide to determine which app best suits their cycling needs.\n* The user is planning to invest in a Lee Filters square filter system, specifically starting with a soft gradation filter.\n* The user is considering upgrading their camera bag to a Lowepro ProTactic 450 AW.\n* The user is currently drafting a policy memo regarding the Agua Clara program, focusing on the feasibility of revenue-backed loans for rural water systems in developing countries.\n\n### Changes over time\n* The user has begun seeking mental health support and productivity strategies to manage anxiety and depression (since 2023-05-04).\n* The user has decided to invest in a square filter system (Lee Filters) rather than circular filters (since 2023-05-30).",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:** I will search the provided facts for mentions of the user's Canon EOS 80D and the number of trips taken with it.\n    *   Under \"Personal facts,\" it is stated: \"The user has used their Canon EOS 80D on five trips to date (as of 2023-05-30).\"\n\n2.  **Reason over the information:**\n    *   The fact explicitly states the count of trips taken with the camera as of May 30, 2023.\n    *   The current date is June 6, 2023. There is no information provided in the \"Ongoing situations and plans\" or other sections indicating that the user has taken any additional trips with the camera between May 30 and June 6.\n\n3.  **Conclusion:** Based on the provided history, the user has taken their Canon EOS 80D on five trips.",
+ "dump": "### Personal facts\n* The user is actively managing and tracking their shopping coupons and discounts.\n* The user is a runner who recently switched from Brooks Ghost 13 shoes to Asics Gel-Kayano 28 shoes.\n* The user reports a significant reduction in knee pain since switching to the Asics Gel-Kayano 28.\n* The user is a cyclist who participated in a charity bike ride for a local children's hospital on 2023-05-19.\n* The user is currently exploring new running and cycling routes beyond their usual areas.\n* The user has an interest in business strategy, specifically regarding crisis management planning for companies of various sizes.\n* The user is a photographer who owns a Canon EOS 80D camera and an 18-135mm kit lens.\n* The user is an adventure photographer who has visited Yellowstone, Yosemite, and the Grand Canyon.\n* The user has used their Canon EOS 80D on five trips to date (as of 2023-05-30).\n* The user owns a Lowepro backpack-style camera bag.\n* The user has a strong interest in history, specifically 20th-century Israeli political and military history.\n* The user is currently experiencing anxiety and depression and is working with a therapist named Dr. Smith (since 2023-05-04).\n* The user holds strong views on social and economic policy, specifically advocating for universal healthcare, affordable education, and robust social safety nets (unemployment benefits, food assistance) to mitigate the impact of economic downturns.\n* The user is professionally engaged in policy analysis, specifically regarding international development and infrastructure financing (e.g., the Agua Clara program and World Bank FCI initiatives).\n\n### Preferences and habits\n* The user is interested in finding and utilizing coupons to save money at retail stores.\n* The user shops at Walmart, Target, and ShopRite.\n* The user utilizes digital loyalty programs (e.g., ShopRite loyalty card).\n* The user is interested in receiving assistance from the assistant to find future coupon opportunities.\n* The user is interested in running gear recommendations (specifically socks compatible with Asics Gel-Kayano 28) and shoe care maintenance.\n* The user prefers to run without earbuds to stay alert to their surroundings.\n* The user is conscious of safety, particularly when running or cycling in low-light conditions.\n* The user is interested in proper fueling and hydration strategies for long-distance running and cycling.\n* The user values proactive planning but is skeptical about whether companies truly prioritize long-term preparation over reactive scrambling.\n* The user prefers a hybrid photo storage strategy: Adobe Creative Cloud for professional/high-end work and Google Photos for personal shots.\n* The user is currently experimenting with Adobe Lightroom and Photoshop.\n* The user is adopting productivity frameworks to manage stress, specifically the Eisenhower Matrix for task prioritization and the Pomodoro Technique for focus (since 2023-05-04).\n* The user prefers to incorporate short walks, stretching, or meditation during breaks to recharge (since 2023-05-04).\n* The user prefers paved roads for cycling and enjoys scenic, enjoyable routes.\n* The user is planning a photography trip to Zion National Park and is interested in techniques for shooting in bright sunlight and high-contrast environments.\n* The user prefers to use a soft gradation filter for landscape photography.\n* The user believes that investing in education and healthcare is essential for individual success and broader economic stability.\n* The user prefers data-driven policy analysis, as evidenced by their work on the Honduras rural water system case study.\n\n### Ongoing situations and plans\n* The user is currently tracking the following used coupons:\n    1. **Walmart:** 20% off coupon (used 2023-02-25; saved $12 on a $60 bill).\n    2. **Target:** $5 off $25 or more (used 2023-02-28).\n    3. **ShopRite:** $1 off pasta sauce digital coupon (used 2023-02-26).\n* The user is looking for ways to organize their coupons and discounts.\n* The user plans to implement shoe care tips (cleaning, proper storage, rotation) to extend the life of their Asics Gel-Kayano 28.\n* The user is planning to explore new running routes using online tools (e.g., MapMyRun, Strava, AllTrails).\n* The user is planning to purchase a Really Right Stuff (RRS) TVC-34L tripod for their Canon EOS 80D.\n* The user is looking to purchase a replacement 67mm lens cap for their Canon 18-135mm lens.\n* The user is implementing a new morning routine that includes a dedicated time block for focused work using the Pomodoro Technique (3-4 cycles of 25 minutes work/5 minutes break) (since 2023-05-04).\n* The user is planning to create a 20-mile cycling route around their hometown using Strava’s route builder, utilizing elevation profiles to avoid steep hills and adding waypoints for landmarks.\n* The user is testing Strava and MapMyRide to determine which app best suits their cycling needs.\n* The user is planning to invest in a Lee Filters square filter system, specifically starting with a soft gradation filter.\n* The user is considering upgrading their camera bag to a Lowepro ProTactic 450 AW.\n* The user is currently drafting a policy memo regarding the Agua Clara program, focusing on the feasibility of revenue-backed loans for rural water systems in developing countries.\n\n### Changes over time\n* The user has begun seeking mental health support and productivity strategies to manage anxiety and depression (since 2023-05-04).\n* The user has decided to invest in a square filter system (Lee Filters) rather than circular filters (since 2023-05-30).",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 26.9,
+  "total": 28.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

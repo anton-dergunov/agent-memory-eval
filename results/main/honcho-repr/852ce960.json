@@ -1,0 +1,96 @@
+{
+ "qid": "852ce960",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "What was the amount I was pre-approved for when I got my mortgage from Wells Fargo?",
+ "reference": "$400,000",
+ "question_date": "2023-12-18 04:17",
+ "sessions": [
+  {
+   "id": "ultrachat_218093",
+   "date": "2023-07-12 10:14",
+   "evidence": false
+  },
+  {
+   "id": "d36d11b9_2",
+   "date": "2023-08-02 05:58",
+   "evidence": false
+  },
+  {
+   "id": "answer_3a6f1e82_1",
+   "date": "2023-08-11 00:01",
+   "evidence": true
+  },
+  {
+   "id": "0840765f_2",
+   "date": "2023-08-17 02:26",
+   "evidence": false
+  },
+  {
+   "id": "114c1fb7_4",
+   "date": "2023-08-26 11:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_390626",
+   "date": "2023-08-29 00:11",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_eN4o9Zr_0",
+   "date": "2023-09-05 13:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_475483",
+   "date": "2023-09-18 15:58",
+   "evidence": false
+  },
+  {
+   "id": "f55fee5b_2",
+   "date": "2023-11-15 12:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_3a6f1e82_2",
+   "date": "2023-11-30 00:36",
+   "evidence": true
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-08-11 00:03:00] user has received pre-approval for a $350,000 loan from Wells Fargo.\n[2023-08-11 00:05:00] user is planning a home purchase with a price of $325,000.\n[2023-08-11 00:05:00] user is inquiring about how much of the closing costs can be negotiated with the seller based on an inspection report.\n[2023-08-11 00:05:00] user has a pre-approval amount of $350,000.\n[2023-08-11 00:05:00] user is obtaining a conventional loan from Wells Fargo.\n[2023-08-11 00:07:00] user has already agreed with the seller on a credit of $2,000 towards the closing costs.\n[2023-08-11 00:11:00] user is in the process of purchasing a home.\n[2023-11-30 00:40:00] user needs to schedule appointments for the setup of electricity and gas services.\n[2023-11-30 00:40:00] user is planning to move into a new home.\n[2023-11-30 00:40:00] user received a $400,000 mortgage pre-approval from Wells Fargo.\n[2023-11-30 00:40:00] user is in the process of setting up cable and TV services for a new home.\n[2023-11-30 00:40:00] user is in the process of setting up electricity and gas services for a new home.\n[2023-11-30 00:40:00] user is located in the 78749 zip code.\n[2023-11-30 00:42:00] user needs to schedule a home insurance policy with Liberty Mutual.\n[2023-11-30 00:42:00] user intends to try using Trello.\n[2023-11-30 00:46:00] user rented a storage unit from a company on March 1st\n[2023-11-30 00:46:00] user needs to confirm the labor assistance with the storage unit company\n[2023-11-30 00:46:00] user needs to confirm the truck size with the storage unit company\n[2023-11-30 00:46:00] user needs to confirm the moving date with the storage unit company\n[2023-11-30 00:46:00] user has a new home\n[2023-11-30 00:46:00] user is using a storage unit to store belongings while closing on a house\n\n## Deductive Observations\n\n[2023-11-30 00:46:00] user is currently in the process of moving to a new home.\n   Premises:\n   - user is planning to move into a new home.\n   - user is using a storage unit to store belongings while closing on a house.\n   - user owns a new home that includes a backyard.\n\n[2023-11-30 00:46:00] user needs to coordinate multiple utility and service appointments for a new home.\n   Premises:\n   - user is in the process of setting up cable and TV services for a new home.\n   - user needs to schedule appointments for the setup of electricity and gas services.\n   - user is in the process of setting up electricity and gas services for a new home.\n\n\n## Inductive Observations\n\n **Pattern** [high]: user manages complex life transitions like moving by breaking them down into specific, actionable administrative tasks.\n   **Type**: behavior\n   **Sources**:\n   - user needs to confirm the truck size with the storage unit company\n   - user needs to confirm the labor assistance with the storage unit company\n   - user needs to confirm the moving date with the storage unit company\n   - user needs to schedule appointments for the setup of electricity and gas services\n   - user is in the process of setting up electricity and gas services for a new home\n\n **Pattern** [medium]: user actively seeks out productivity and organization tools to manage high-volume information or task loads.\n   **Type**: preference\n   **Sources**:\n   - user intends to try using Trello.\n   - user is looking for a time-tracking tool or app to manage appointments and tasks related to moving into a new home.\n   - user intends to categorize Twitter accounts into lists to organize the feed and focus on important content.\n\n",
+ "answer": "To answer your question, I have reviewed the history chats provided. Here is the step-by-step breakdown:\n\n**Step 1: Extract relevant information**\n*   [2023-08-11 00:03:00]: The user received a pre-approval for a $350,000 loan from Wells Fargo.\n*   [2023-11-30 00:40:00]: The user received a $400,000 mortgage pre-approval from Wells Fargo.\n\n**Step 2: Reason over the information**\nThe user has received two different mortgage pre-approval amounts from Wells Fargo at different points in time. \n*   In August 2023, the pre-approval amount was $350,000.\n*   In November 2023, the pre-approval amount was $400,000.\n\n**Answer:**\nYou have received two different pre-approval amounts from Wells Fargo: you were initially pre-approved for **$350,000** on August 11, 2023, and later received a pre-approval for **$400,000** on November 30, 2023.",
+ "dump": "- [explicit] user is interested in the fact-checking process used at the Associated Press.\n- [explicit] user appreciates the effort required for fact-checking news stories.\n- [explicit] user trusts the Associated Press as a news source.\n- [explicit] user finds reliable news sources particularly important during the COVID-19 pandemic for information and updates.\n- [explicit] user believes accuracy is more important than speed in news reporting.\n- [explicit] user expresses a preference for relying on trusted and reputable news sources.\n- [explicit] user experiences difficulty waking up at their desired time.\n- [explicit] user reads a book for at least 20 minutes before lights out to relax and reduce screen time.\n- [explicit] user struggles to balance having a consistent wake-up time with having flexibility on the weekends.\n- [explicit] user is working on establishing a consistent bedtime routine.\n- [explicit] user has been trying to wake up at 7:00 AM.\n- [explicit] user likes the idea of setting a sleep-in limit to balance consistency and flexibility.\n- [explicit] user plans to aim for a 7:30 AM wake-up time on weekends.\n- [explicit] user likes the idea of using a flexible anchor to balance consistency and flexibility.\n- [explicit] user intends to incorporate stretching or meditation into their morning routine.\n- [explicit] user finds that reading before sleep helps them relax and reduce screen time.\n- [explicit] user is considering purchasing a smart alarm.\n- [explicit] user finds that reading before sleep makes it easier for them to fall asleep and wake up in the morning.\n- [explicit] user believes guided meditation could help reduce their stress and anxiety.\n- [explicit] user is interested in trying guided meditation apps to help them start their meditation practice.\n- [explicit] user plans to start a morning routine that includes light stretching exercises.\n- [explicit] user plans to set aside time in the morning to plan their day.\n- [explicit] user is interested in using Headspace or Calm for guided meditation.\n- [explicit] user intends to create a to-do list or set goals during their morning planning time.\n- [explicit] user is considering including yoga poses in their morning stretching routine.\n- [explicit] user is considering including neck and shoulder rolls in their morning stretching routine.\n- [explicit] user believes having a plan for their day helps them feel more focused and motivated.\n- [explicit] user is finalizing a budget.\n- [explicit] user is purchasing a house for $325,000.\n- [explicit] user is in the process of buying a new home.\n- [explicit] user has received pre-approval for a $350,000 loan from Wells Fargo.\n- [explicit] user is obtaining a conventional loan from Wells Fargo.\n- [explicit] user has a pre-approval amount of $350,000.\n- [explicit] user is inquiring about how much of the closing costs can be negotiated with the seller based on an inspection report.\n- [explicit] user is planning a home purchase with a price of $325,000.\n- [explicit] user intends to negotiate with the seller to cover some of the closing costs.\n- [explicit] user has already agreed with the seller on a credit of $2,000 towards the closing costs.\n- [explicit] user plans to ask the seller to cover an additional 1% of the purchase price, amounting to $3,250, for closing costs.\n- [explicit] user has identified minor issues with the roof and plumbing in the inspection report.\n- [explicit] user intends to ask the seller to cover an additional 1% of the purchase price towards closing costs due to inspection report findings.\n- [explicit] user is in the process of purchasing a home.\n- [explicit] user is planning to participate in a charity cycling event.\n- [explicit] user participated in the 'Ride for a Reason' charity cycling event on March 25th, 2023.\n- [explicit] user seeks to improve fundraising skills specifically related to social media.\n- [explicit] The 'Ride for a Reason' event user participated in had approximately 200 participants.\n- [explicit] user has prior experience with social media fundraising.\n- [explicit] user has a previous experience with an event called \"Ride for a Reason\" that inspired them to participate in a new fundraising event.\n- [explicit] user is interested in learning how to create a compelling story for a fundraising post.\n- [explicit] user is planning to write a fundraising post.\n- [explicit] user participated in the Ride for a Reason event in March.\n- [explicit] user is seeking instructions on how to create an effective donor recognition page.\n- [explicit] user is seeking information regarding the purpose of a donor recognition page.\n- [explicit] user is interested in learning about creating a donor recognition page.\n- [explicit] user intends to respect donor preferences for anonymity or specific recognition levels.\n- [explicit] user is interested in learning about the benefits of creating a fundraising team.\n- [explicit] user is interested in learning how to recruit members for a fundraising team.\n- [explicit] user intends to keep the donor recognition page simple, easy to navigate, and up-to-date.\n- [explicit] user intends to obtain permission from donors before listing their names and contribution amounts on the donor recognition page.\n- [explicit] user is considering a career transition.\n- [explicit] user is interested in exploring MBA programs to specialize in a particular area of software engineering.\n- [explicit] user was recently promoted to senior software engineer.\n- [explicit] user wants to stay competitive in the industry.\n- [explicit] user has been approached by a rival company with an offer for a technical lead position.\n- [explicit] user is interested in exploring MBA programs to move into leadership positions.\n- [explicit] user is open to certifications that can enhance technical skills.\n- [explicit] user wants to take on more challenging roles.\n- [explicit] user wants information about admission requirements and career transition support for the MBA program at MIT Sloan School of Management.\n- [explicit] user wants information about admission requirements and career transition support for the MBA program at Stanford Graduate School of Business.\n- [explicit] user is interested in the Stanford-StartX accelerator program.\n- [explicit] user is interested in entrepreneurship and venture capital specializations at Stanford Graduate School of Business.\n- [explicit] user intends to move into leadership positions.\n- [explicit] user is seeking to develop skills in venture capital.\n- [explicit] user is interested in the Entrepreneurial Finance course at Stanford GSB.\n- [explicit] user wants to know how the Stanford Venture Capital and Private Equity Club facilitates networking with venture capitalists and entrepreneurs.\n- [explicit] user is interested in learning more about the Stanford Venture Capital and Private Equity Club.\n- [explicit] user wants to understand the activities of the Stanford Venture Capital and Private Equity Club.\n- [explicit] user is interested in notable Sikh figures who have made an impact on social justice movements.\n- [explicit] user is interested in the key tenets of Sikhism and how they inform social justice principles.\n- [explicit] user is interested in contemporary Sikh activists currently involved in social justice movements.\n- [explicit] user is interested in how Sikhism views other religions and their followers.\n- [explicit] user is interested in learning more about Sikhism.\n- [explicit] user owns or is marketing an automatic portable food processor.\n- [explicit] user is interested in developing a SaaS solution for remote work management.\n- [explicit] user is interested in learning how to start investing.\n- [explicit] user intends to use Bubble to build a SaaS solution for remote work management.\n- [explicit] user is researching how to identify company needs for the purpose of creating a successful SaaS product.\n- [explicit] user intends to create and define the user flow for a SaaS.\n- [explicit] user intends to determine the components and data needed for the SaaS.\n- [explicit] user intends to map out the user flow of the SaaS, including pages and interactions.\n- [explicit] user is interested in the role of fungi in ecosystems.\n- [explicit] user is interested in whether mycorrhizal fungi are found in ecosystems other than forests.\n- [explicit] user is interested in examples of plants that form symbiotic relationships with fungi.\n- [explicit] user is interested in whether different types of plants form associations with different types of mycorrhizal fungi.\n- [explicit] user is interested in the contribution of fungi to soil health.\n- [explicit] user is seeking applications to help track progress and stay organized with a thesis project.\n- [explicit] user is working on a thesis project.\n- [explicit] user intends to try the Pomodoro Technique.\n- [explicit] user experiences difficulty staying focused due to distractions.\n- [explicit] user spends at least 2 hours daily scrolling through Facebook, Instagram, and Twitter.\n- [explicit] user spends time on Facebook, Instagram, and Twitter.\n- [explicit] user intends to start using Trello to manage their thesis project.\n- [explicit] user plans to schedule social media checks.\n- [explicit] user is considering deleting the Facebook and Instagram apps from their phone.\n- [explicit] user plans to remove social media apps from their phone's home screen.\n- [explicit] user decided to delete the Facebook and Instagram apps from their phone.\n- [explicit] user intends to unfollow or mute some accounts on Twitter to declutter their feed.\n- [explicit] user intends to identify and unfollow Twitter accounts that do not add value to the user's feed.\n- [explicit] user intends to categorize Twitter accounts into lists to organize the feed and focus on important content.\n- [explicit] user intends to use Twitter's Mute and Not Interested features to silence noisy or irrelevant accounts.\n- [explicit] user is planning to move into a new home.\n- [explicit] user is in the process of setting up cable and TV services for a new home.\n- [explicit] user owns a new home that includes a backyard.\n- [explicit] user is located in the 78749 zip code.\n- [explicit] user received a $400,000 mortgage pre-approval from Wells Fargo.\n- [explicit] user is looking for a time-tracking tool or app to manage appointments and tasks related to moving into a new home.\n- [explicit] user needs to schedule appointments for the setup of electricity and gas services.\n- [explicit] user is in the process of setting up electricity and gas services for a new home.\n- [explicit] user needs to schedule a home insurance policy with Liberty Mutual.\n- [explicit] user intends to try using Trello.\n- [explicit] user has a new home\n- [explicit] user rented a storage unit from a company on March 1st\n- [explicit] user is using a storage unit to store belongings while closing on a house\n- [explicit] user needs to confirm the moving date with the storage unit company\n- [explicit] user needs to confirm the labor assistance with the storage unit company\n- [explicit] user needs to confirm the truck size with the storage unit company\n- [deductive] user needs to coordinate multiple utility and service appointments for a new home.\n- [deductive] user is currently in the process of moving to a new home.\n- [inductive] user actively seeks out productivity and organization tools to manage high-volume information or task loads.\n- [inductive] user manages complex life transitions like moving by breaking them down into specific, actionable administrative tasks.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 130.6,
+  "total": 135.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": true
+  }
+ }
+}

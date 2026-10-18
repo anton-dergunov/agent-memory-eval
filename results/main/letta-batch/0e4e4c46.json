@@ -1,0 +1,108 @@
+{
+ "qid": "0e4e4c46",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "What is my current highest score in Ticket to Ride?",
+ "reference": "132 points",
+ "question_date": "2023-06-10 16:46",
+ "sessions": [
+  {
+   "id": "e82ce7cd_3",
+   "date": "2023-04-28 20:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_1",
+   "date": "2023-05-23 03:08",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_97515",
+   "date": "2023-05-23 18:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_puvUs0e_0",
+   "date": "2023-05-24 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_59250",
+   "date": "2023-05-24 09:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_198964",
+   "date": "2023-05-24 18:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Wi7Op1u_39",
+   "date": "2023-05-25 00:38",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhPNTAJ_0",
+   "date": "2023-05-25 07:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_iUc80a8_0",
+   "date": "2023-05-25 10:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_2",
+   "date": "2023-05-25 22:16",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user plays basketball on Thursday evenings with friends named Tom and Alex.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T15:46:24.908868+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-10 16:46] What is my current highest score in Ticket to Ride?'}, {'timestamp': '2026-10-17T15:46:21.172252+00:00', 'time_ago': '6s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-25 22:16] Congratulations on your new high score in Ticket to Ride! 132 points is impressive!\\n\\nAnd yes, I'd love to hear more about maximizing trade opportunities in Scythe. Trading is a crucial aspect of the game, and the Nordic Kingdom's focus on trade makes them well-suited to take advantage of it.\\n\\n**Maximizing Trade Opportunities:**\\nTo maximize trade opportunities, it's essential to:\\n\\n1. **Build Trade Posts:** Focus on building trade posts in strategic locations to establish trade routes with other players. This will give you access to a wider range of resources and trade opportunities.\\n2. **Establish Trade Agreements:** Form trade agreements with other players to grant each other bonuses and benefits when trading. This can include resource discounts, increased trade limits, or even exclusive access to certain resources.\\n3. **Negotiate with Other Players:** Trading is all about negotiation. Be prepared to make deals, offer resources, and compromise to get the resources you need.\\n4. **Manage Your Resources:** Keep a close eye on your resource levels and adjust your trading strategy accordingly. Don't overcommit to trades that might leave you resource-starved.\\n5. **Block Your Opponents:** Pay attention to your opponents' trade efforts and try to block their access to resources or disrupt their trade routes. This can give you a strategic advantage and limit their growth.\\n\\n**Nordic Kingdom's Trade Bonuses:**\\nAs the Nordic Kingdom, you have several trade bonuses that can help you maximize your trade opportunities:\\n\\n* **Trade Route Bonus:** You gain a bonus resource when building a trade route between two of your trade posts.\\n* **Trade Agreement Bonus:** You gain a bonus resource when forming a trade agreement with another player.\\n* **Resource Conversion:** Your factories can convert resources into other resources, making it easier to trade with other players.\\n\\nBy leveraging these bonuses and focusing on building a strong trade network, you can establish yourself as a trading powerhouse in Scythe.\\n\\nDo you have any questions about trading in Scythe or how to negotiate with other players?\"}, {'timestamp': '2026-10-17T15:46:21.172232+00:00', 'time_ago': '6s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-25 22:16] Building structures and trading resources is indeed a crucial part of the game. By the way, speaking of building and creating things, I just got my highest score in Ticket to Ride - 132 points! Anyway, back to Scythe... Do you want to know more about how to maximize your trade opportunities with other players?'}, {'timestamp': '2026-10-17T15:46:21.172083+00:00', 'time_ago': '6s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-25 22:16] If you're looking for games with a similar level of strategy and complexity to Ticket to Ride, I'd be happy to suggest some options. Here are a few recommendations:\\n\\n1. **El Grande**: A classic game of area control and strategy, where players compete to build territories and collect victory points. It has a similar feel to Ticket to Ride in terms of building and expanding your domain.\\n2. **Carcassonne**: A tile-laying game where players build a medieval landscape, placing tiles to create cities, roads, and fields. It's easy to learn but has depth in its strategy, similar to Ticket to Ride.\\n3. **Pandemic**: Cooperative game where players work together to stop the spread of diseases and save the world. It has a similar level of complexity and strategic thinking as Ticket to Ride.\\n4. **7 Wonders**: ",
+ "answer": "Your current highest score in *Ticket to Ride* is 132 points! You mentioned hitting that personal best on May 25, 2023.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user plays basketball on Thursday evenings with friends named Tom and Alex.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Ticket to Ride score\"})",
+   "conversation_search({\"query\": \"Ticket to Ride\"})"
+  ],
+  "blocks_chars": 279
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 33.7,
+  "total": 39.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

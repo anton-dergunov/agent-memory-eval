@@ -1,0 +1,102 @@
+{
+ "qid": "4b24c848",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many tops have I bought from H&M so far?",
+ "reference": "five",
+ "question_date": "2023-10-20 08:09",
+ "sessions": [
+  {
+   "id": "sharegpt_yK69lIT_0",
+   "date": "2023-07-15 13:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_2cec623b_1",
+   "date": "2023-08-11 03:18",
+   "evidence": true
+  },
+  {
+   "id": "f5245daf_2",
+   "date": "2023-08-13 17:19",
+   "evidence": false
+  },
+  {
+   "id": "94f0d575_1",
+   "date": "2023-08-19 20:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_244540",
+   "date": "2023-08-20 14:53",
+   "evidence": false
+  },
+  {
+   "id": "9786d553",
+   "date": "2023-08-24 16:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_234135",
+   "date": "2023-08-26 21:17",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_209858",
+   "date": "2023-09-14 15:33",
+   "evidence": false
+  },
+  {
+   "id": "4555584c_2",
+   "date": "2023-09-17 13:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_2cec623b_2",
+   "date": "2023-09-30 06:40",
+   "evidence": true
+  }
+ ],
+ "context": "- The user enjoyed listening to the podcast How I Built This (valid since 2023-09-17)\n- user has been listening to podcasts for approximately 6 weeks (valid since 2023-08-24)\n- The assistant describes how Fulani culture practitioners use grazing land rotation, water conservation, medicinal plants, wildlife conservation, and fire management to respect nature. (valid since 2023-08-26)\n- The user has visited The Vault thrift store once and was impressed by their selection. (valid since 2023-08-11)\n- The user is taking a Deep Learning course from Stanford University. (valid since 2023-08-13)\n- The user plans to grab a coffee while browsing the bookstore. (valid since 2023-09-30)\n- assistant recommended 'Stuff You Should Know', 'Radiolab', 'How Did This Get Made?', 'The TED Radio Hour', 'The Daily', 'The Tim Ferriss Show', 'Masters of Scale', and 'The Hustle' to user. (valid since 2023-09-17)\n- The user plans to browse the sci-fi section of the bookstore. (valid since 2023-09-30)\n- The user plans to check Yelp for information about The Vault thrift store. (valid since 2023-08-11)\n- The user plans to visit their local bookstore this weekend to check for events or book clubs. (valid since 2023-09-30)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:** I have reviewed the provided history chats for any mention of \"H&M\" or \"tops\" (clothing).\n2. **Reasoning:** \n    - The history mentions the user visiting \"The Vault\" thrift store.\n    - The history mentions the user's interest in podcasts, a Deep Learning course, and plans to visit a bookstore.\n    - There is no mention of the user shopping at H&M or purchasing any clothing items (tops) from that retailer in the provided facts.\n3. **Conclusion:** Based on the provided history, there is no information regarding any purchases from H&M. Therefore, the number of tops bought from H&M is unknown or zero based on the available data.",
+ "dump": "- The Association performed at the Chicano Moratorium in 1970. (valid since 1970-01-01)\n- The Association performed at a rally for the United Farm Workers' grape boycott in 1973. (valid since 1973-01-01)\n- The Association sang on behalf of the Surfrider Foundation in the 1980s, urging the release of bottled water guidelines. (valid since 1980-01-01)\n- The Surfrider Foundation, supported by The Association, urged the Environmental Protection Agency to release bottled water guidelines in the 1980s. (valid since 1980-01-01)\n- The user had a conversation with Maileen about layoffs at Meta, young adult novels, and crying while watching movies on an airplane. (valid since 2023-07-15)\n- Maileen discussed Meta laying off employees. (valid since 2023-07-15)\n- The user plans to check Google Reviews for information about The Vault thrift store. (valid since 2023-08-11)\n- The user plans to check Yelp for information about The Vault thrift store. (valid since 2023-08-11)\n- The user has visited The Vault thrift store once and was impressed by their selection. (valid since 2023-08-11)\n- The user has experience with Python programming. (valid since 2023-08-13)\n- The user has experience with machine learning. (valid since 2023-08-13)\n- The user is enrolled in a Deep Learning course on Coursera. (valid since 2023-08-13)\n- The user is taking a Deep Learning course from Stanford University. (valid since 2023-08-13)\n- Deep learning concepts can be applied to Natural Language Processing. (valid since 2023-08-13)\n- NLTK library includes the VADER sentiment analysis tool for performing sentiment analysis tasks. (valid since 2023-08-13)\n- The Stanford Natural Language Processing Group published a language modeling tutorial. (valid since 2023-08-13)\n- Yoav Goldberg authored chapters on language modeling and text generation in the book Deep Learning for Natural Language Processing. (valid since 2023-08-13)\n- Jay Alammar wrote a blog post explaining language modeling with transformers and the Transformer-XL architecture. (valid since 2023-08-13)\n- TensorFlow provides a tutorial on sequence-to-sequence models used for text generation. (valid since 2023-08-13)\n- NVIDIA published a blog post exploring text generation with Generative Adversarial Networks. (valid since 2023-08-13)\n- Google developed the BERT pre-trained language model. (valid since 2023-08-13)\n- OpenAI developed the GPT-2 text generation model. (valid since 2023-08-13)\n- The user attended an exclusive Summer Nights event at Disney California Adventure Park on June 15th and 16th, which featured a special fireworks display at 10 PM for ticket holders. (valid since 2023-08-19)\n- The assistant recommends using the Disneyland website to keep track of announcements regarding summer events, fireworks, and special experiences at Disney California Adventure Park (valid since 2023-08-19)\n- The assistant suggests following Disney's Twitter account to stay updated on the latest news and announcements (valid since 2023-08-19)\n- The assistant suggests following Disney's Facebook account to stay updated on the latest news and announcements (valid since 2023-08-19)\n- The assistant suggests following Disney's Instagram account to stay updated on the latest news and announcements (valid since 2023-08-19)\n- The assistant recommends signing up for the Disneyland newsletter to receive updates on special events and experiences (valid since 2023-08-19)\n- The assistant recommends using the Disneyland app to access park information, schedules, and special offers (valid since 2023-08-19)\n- The assistant suggests contacting Disney customer service to obtain more information about summer events (valid since 2023-08-19)\n- The assistant recommends visiting the Disney park information center for more information about events (valid since 2023-08-19)\n- Disney California Adventure Park has historically celebrated the Summer of Heroes, which featured Marvel-themed activities and character meet-and-greets (valid since 2023-08-19)\n- Disney California Adventure Park often hosts Pixar Fest during the summer months, which features Pixar-themed activities, food, and decorations (valid since 2023-08-19)\n- The Association was sponsored by the owner and founder of Ecological Businesses, a natural foods chain in Southern California. (valid since 2023-08-20)\n- user has been listening to podcasts for approximately 6 weeks (valid since 2023-08-24)\n- The assistant explains that respect for elders, authority, strong family ties, tribal loyalty, hospitality, generosity, courage, bravery, hard work, self-sufficiency, nomadic lifestyle, love for cattle, artistry, storytelling, ethics, moral values, and preservation of nature are important values in traditional Fulani culture. (valid since 2023-08-26)\n- The assistant describes how Fulani culture practitioners use grazing land rotation, water conservation, medicinal plants, wildlife conservation, and fire management to respect nature. (valid since 2023-08-26)\n- The assistant explains the possible positive impacts of modern technology, such as communication, education, lifestyle changes, agriculture, and cultural preservation, on the Afrikaner people. (valid since 2023-09-14)\n- The assistant describes potential negative impacts of modern technology on Afrikaner traditions, including decreased engagement in cultural practices, reduced face-to-face interactions, and environmental concerns. (valid since 2023-09-14)\n- The assistant notes that future technologies like artificial intelligence, robotics, IoT, and virtual reality may transform agriculture, commerce, and cultural preservation for the Afrikaner people. (valid since 2023-09-14)\n- The user enjoyed reading the book The Power by Naomi Alderman (valid since 2023-09-17)\n- The user enjoyed listening to the podcast How I Built This (valid since 2023-09-17)\n- assistant recommended 'The Three-Body Problem' by Liu Cixin, 'The Fifth Season' by N.K. Jemisin, and 'Sapiens: A Brief History of Humankind' by Yuval Noah Harari to user. (valid since 2023-09-17)\n- assistant recommended 'Stuff You Should Know', 'Radiolab', 'How Did This Get Made?', 'The TED Radio Hour', 'The Daily', 'The Tim Ferriss Show', 'Masters of Scale', and 'The Hustle' to user. (valid since 2023-09-17)\n- assistant recommended Google Maps, MapQuest, Walkit, Citymapper, Waze, and OpenRouteService to user to help find efficient walking routes. (valid since 2023-09-17)\n- The user plans to visit their local bookstore this weekend to check for events or book clubs. (valid since 2023-09-30)\n- The assistant recommends the science fiction epic The Three-Body Problem by Liu Cixin to the user. (valid since 2023-09-30)\n- The assistant recommends the novel Diaspora by Greg Egan which covers artificial intelligence and interstellar travel. (valid since 2023-09-30)\n- The assistant recommends the character-driven novel The Long Way to a Small, Angry Planet by Becky Chambers. (valid since 2023-09-30)\n- The assistant recommends the space opera Ancillary Justice by Ann Leckie. (valid since 2023-09-30)\n- The assistant recommends The Expanse series of novels by James S. A. Corey. (valid since 2023-09-30)\n- The user plans to grab a coffee while browsing the bookstore. (valid since 2023-09-30)\n- The user plans to browse the sci-fi section of the bookstore. (valid since 2023-09-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 53,
+  "invalidated": 0,
+  "episodes": 17,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 159.8,
+  "total": 162.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

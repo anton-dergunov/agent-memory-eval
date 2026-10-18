@@ -1,0 +1,102 @@
+{
+ "qid": "b01defab",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Did I finish reading 'The Nightingale' by Kristin Hannah?",
+ "reference": "Yes",
+ "question_date": "2023-04-12 06:37",
+ "sessions": [
+  {
+   "id": "answer_8c0712af_1",
+   "date": "2023-01-21 15:05",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_8ns7j9U_0",
+   "date": "2023-01-29 15:16",
+   "evidence": false
+  },
+  {
+   "id": "fc69fd44_7",
+   "date": "2023-02-04 19:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_A8RUQVi_0",
+   "date": "2023-02-07 23:11",
+   "evidence": false
+  },
+  {
+   "id": "36f96326_1",
+   "date": "2023-02-20 04:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_YcpcK2K_18",
+   "date": "2023-02-24 05:46",
+   "evidence": false
+  },
+  {
+   "id": "936b0969_2",
+   "date": "2023-03-14 12:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_207469",
+   "date": "2023-03-21 12:10",
+   "evidence": false
+  },
+  {
+   "id": "answer_8c0712af_2",
+   "date": "2023-03-30 01:14",
+   "evidence": true
+  },
+  {
+   "id": "d75869af",
+   "date": "2023-03-30 23:12",
+   "evidence": false
+  }
+ ],
+ "context": "- The user is planning to return to reading the book \"The Nightingale\" by Kristin Hannah. (valid since 2023-01-21)\n- Kristin Hannah is the author of the historical fiction novel The Nightingale. (valid since 2023-03-30)\n- Isabelle is a character in The Nightingale. (valid since 2023-03-30)\n- Vianne is a character in The Nightingale. (valid since 2023-03-30)\n- Vianne and Isabelle have a powerful sisterly bond portrayed in The Nightingale. (valid since 2023-03-30)\n- The assistant recommended the platform Goodreads for tracking reading progress and adding books to shelves. (valid since 2023-03-30)\n- The assistant recommends works by the author Madeline Miller as part of a list of mythology-inspired book suggestions. (valid since 2023-01-21)\n- The assistant provides information about the services offered by the Office of Refugee Resettlement to help with finding employment. (valid since 2023-03-14)\n- The assistant suggests the user ask bookstore staff for mythology-inspired books similar to the works of Madeline Miller. (valid since 2023-01-21)\n- The assistant recommended The Book Lover's Journal as a physical space to record thoughts, opinions, and notes about books. (valid since 2023-03-30)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The history chat states: \"The user is planning to return to reading the book 'The Nightingale' by Kristin Hannah.\" (valid since 2023-01-21).\n*   There is no subsequent information in the provided history indicating that the user completed the book after that date.\n\n**2. Reason over the information:**\n*   The last recorded status regarding the book is that the user was \"planning to return to reading\" it.\n*   Since there is no record of the user finishing the book or updating their progress to \"completed,\" it cannot be confirmed that the reading was finished.\n\n**Answer:**\nBased on the provided history, there is no information confirming that you have finished reading 'The Nightingale'. The last update indicates that you were planning to return to reading it.",
+ "dump": "- The assistant recommends works by the author Madeline Miller as part of a list of mythology-inspired book suggestions. (valid since 2023-01-21)\n- The user is planning to return to reading the book \"The Nightingale\" by Kristin Hannah. (valid since 2023-01-21)\n- The assistant suggests the user ask bookstore staff for mythology-inspired books similar to the works of Madeline Miller. (valid since 2023-01-21)\n- The assistant mentions that the resort project will be constructed using environmentally friendly materials like impact glass. (valid since 2023-01-29)\n- The assistant describes that the resort will incorporate energy-efficient technologies such as solar panels. (valid since 2023-01-29)\n- The assistant describes that the resort will incorporate energy-efficient technologies such as LED lighting. (valid since 2023-01-29)\n- The assistant describes that the resort will incorporate energy-efficient technologies such as passive cooling systems. (valid since 2023-01-29)\n- The assistant describes the family-friendly amenities of the resort as including a kids' club. (valid since 2023-01-29)\n- The traditional style TV stand features carved wooden legs. (valid since 2023-02-04)\n- The traditional style TV stand includes decorative trim. (valid since 2023-02-04)\n- A traditional TV stand features raised panels on its wooden doors. (valid since 2023-02-04)\n- A traditional TV stand features molding on its doors to add visual interest. (valid since 2023-02-04)\n- A traditional TV stand is proposed to have crown molding on top to provide a polished look. (valid since 2023-02-04)\n- The user believes a traditional style TV stand with ornate details will complement their classic coffee table. (valid since 2023-02-04)\n- The assistant provides resources and information for collectors interested in international error coins. (valid since 2023-02-20)\n- Both Heritage Auctions and Stack's Bowers are leading auction houses that feature international error coins in their auctions. (valid since 2023-02-20)\n- Heritage Auctions and Künker Auctions both feature international error coins in their auctions. (valid since 2023-02-20)\n- Stack's Bowers and Künker Auctions are both recognized for featuring international error coins. (valid since 2023-02-20)\n- Refugee Medical Assistance provides coverage for essential medical services including outpatient services, inpatient services, prescription medications, laboratory and diagnostic services, and maternity care. (valid since 2023-03-14)\n- The assistant provides information about the services offered by the Office of Refugee Resettlement to help with finding employment. (valid since 2023-03-14)\n- The Microenterprise Development program is a component of the Office of Refugee Resettlement's refugee economic self-sufficiency initiatives. (valid since 2023-03-14)\n- The Refugee Microenterprise Development Initiative is a national initiative providing resources, training, and technical assistance to refugee entrepreneurs supported by the Office of Refugee Resettlement. (valid since 2023-03-14)\n- The Small Business Administration is a federal agency that offers resources, training, and financing options for small businesses owned by refugees and asylees, paralleling the goals of the Office of Refugee Resettlement. (valid since 2023-03-14)\n- Turing offers remote DevOps engineer jobs for engineers. (valid since 2023-03-17)\n- Upwork lists open remote DevOps engineer jobs that require skill in cloud computing services such as Amazon Web Services. (valid since 2023-03-17)\n- Indeed lists remote DevOps engineer job openings for Blockchain Solutions Network. (valid since 2023-03-17)\n- DevOps Remotely lists remote job opportunities for SysOps. (valid since 2023-03-17)\n- DevOps Remotely lists remote job opportunities for Google Cloud. (valid since 2023-03-17)\n- DevOps Remotely lists remote job opportunities for Amazon Web Services. (valid since 2023-03-17)\n- DevOps Remotely lists remote job opportunities for Azure. (valid since 2023-03-17)\n- Toptal provides freelance DevOps engineer jobs for remote work. (valid since 2023-03-17)\n- There are sustainable food options available for purchase in Malaysia (valid since 2023-03-21)\n- The assistant recommended the platform Goodreads for tracking reading progress and adding books to shelves. (valid since 2023-03-30)\n- The assistant recommended The Book Lover's Journal as a physical space to record thoughts, opinions, and notes about books. (valid since 2023-03-30)\n- The user has been enjoying discussing books with their coworker, Rachel. (valid since 2023-03-30)\n- Kristin Hannah is the author of the historical fiction novel The Nightingale. (valid since 2023-03-30)\n- Vianne is a character in The Nightingale. (valid since 2023-03-30)\n- Isabelle is a character in The Nightingale. (valid since 2023-03-30)\n- Vianne and Isabelle have a powerful sisterly bond portrayed in The Nightingale. (valid since 2023-03-30)\n- assistant describes hornwort as a low-maintenance plant that helps with algae control and requires no special care (valid since 2023-03-30)\n- The assistant recommends Amano shrimp as an excellent choice for cleaning up leftover food and algae in a freshwater tank. (valid since 2023-03-30)\n- The assistant recommends Otocinclus catfish as an excellent choice for cleaning up leftover food and algae in a freshwater tank. (valid since 2023-03-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 42,
+  "invalidated": 0,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 134.1,
+  "total": 135.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

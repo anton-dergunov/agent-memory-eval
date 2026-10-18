@@ -1,0 +1,96 @@
+{
+ "qid": "5831f84d",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many Crash Course videos have I watched in the past few weeks?",
+ "reference": "15",
+ "question_date": "2023-10-05 05:19",
+ "sessions": [
+  {
+   "id": "3e53cff4",
+   "date": "2023-07-15 04:55",
+   "evidence": false
+  },
+  {
+   "id": "5cd46af9_2",
+   "date": "2023-07-19 06:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_1",
+   "date": "2023-08-11 13:55",
+   "evidence": true
+  },
+  {
+   "id": "78e6f9ee",
+   "date": "2023-08-13 14:44",
+   "evidence": false
+  },
+  {
+   "id": "14991eb7_2",
+   "date": "2023-08-22 08:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_462218",
+   "date": "2023-09-08 07:05",
+   "evidence": false
+  },
+  {
+   "id": "83dae08b",
+   "date": "2023-09-12 22:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_2",
+   "date": "2023-09-30 17:18",
+   "evidence": true
+  },
+  {
+   "id": "0df54428_4",
+   "date": "2023-09-30 19:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ofljChm_78",
+   "date": "2023-10-05 19:51",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-07-15 04:59:00] user has maintained a 30-minute daily cleaning routine for approximately 3 weeks as of 2023-07-15.\n[2023-08-11 13:59:00] user listens to the \"How I Built This\" podcast.\n[2023-08-11 13:59:00] user has completed 10 Crash Course videos in the weeks leading up to 2023-08-11.\n[2023-08-11 14:01:00] user has taken a Python programming course on edX.\n[2023-08-11 14:05:00] user has watched 12 Crash Course videos on computer science.\n[2023-08-11 14:05:00] user has taken a Python course.\n[2023-08-13 14:46:00] user has been dedicating three hours every weekend to writing a short story collection for one month as of 2023-08-13.\n[2023-09-30 17:20:00] user has watched 15 Crash Course videos in the weeks leading up to 2023-09-30.\n[2023-09-30 19:24:00] user is seeking information on the authentication process for stamps.\n[2023-09-30 19:24:00] user is seeking information on how to find an expert or organization to appraise their stamp collection.\n[2023-09-30 19:24:00] user possesses a stamp that they identify as a 1855 British Guiana 1c Magenta.\n[2023-09-30 19:26:00] user is interested in the typical fees associated with stamp authentication and appraisal services.\n[2023-09-30 19:26:00] user is concerned about potential hidden costs in stamp authentication and appraisal services.\n[2023-09-30 19:28:00] user owns stamps that they are interested in selling through an auction house.\n[2023-09-30 19:30:00] user owns stamps.\n[2023-09-30 19:30:00] user is interested in the process of selling stamps to a dealer.\n[2023-09-30 19:32:00] user is interested in selling stamps online through platforms such as eBay, Etsy, or specialized stamp marketplaces.\n[2023-09-30 19:32:00] user owns a stamp collection that user is interested in selling.\n[2023-10-05 19:55:00] user is working with JavaScript code.\n[2023-10-05 19:55:00] user is experiencing an issue where numbers on cards are missing or not appearing.\n[2023-10-05 19:59:00] user requested the complete JavaScript code for the current project.\n\n## Deductive Observations\n\n[2023-10-05 19:55:00] user has an interest in data science and machine learning.\n   Premises:\n   - user uses Kaggle and Reddit to stay informed about developments in NLP and machine learning.\n\n[2023-10-05 19:55:00] user is a programmer/developer.\n   Premises:\n   - user is working with JavaScript code.\n\n[2023-10-05 19:55:00] user has an interest in philately (stamp collecting).\n   Premises:\n   - user owns a stamp collection that user is interested in selling.\n   - user inherited a collection of rare stamps from their uncle.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user proactively researches professional services (authentication, appraisal) and selling avenues (dealers, auction houses, online platforms) when liquidating assets like a stamp collection.\n   **Type**: behavior\n   **Sources**:\n   - user is concerned about potential hidden costs in stamp authentication and appraisal services.\n   - user is interested in the typical fees associated with stamp authentication and appraisal services.\n   - user is seeking information on how to find an expert or organization to appraise their stamp collection.\n   - user is seeking information on the authentication process for stamps.\n   - user is interested in selling stamps online through platforms such as eBay, Etsy, or specialized stamp marketplaces.\n   - ... and 2 more\n\n",
+ "answer": "To determine how many Crash Course videos you have watched in the past few weeks, we look at the provided history:\n\n**Step 1: Extract relevant information**\n*   [2023-08-11 13:59:00]: You had completed 10 Crash Course videos in the weeks leading up to this date.\n*   [2023-08-11 14:05:00]: You had watched 12 Crash Course videos on computer science.\n*   [2023-09-30 17:20:00]: You had watched 15 Crash Course videos in the weeks leading up to this date.\n\n**Step 2: Reason over the information**\n*   The most recent record regarding the total count of Crash Course videos watched in the weeks leading up to a specific date is from September 30, 2023.\n*   The entry states that you had watched 15 Crash Course videos in the weeks leading up to that date.\n*   Since today is October 5, 2023, and there are no newer records of you watching additional Crash Course videos since the September 30th update, the most accurate figure based on your history is 15.\n\n**Answer:**\nYou have watched 15 Crash Course videos in the weeks leading up to your most recent update on September 30, 2023.",
+ "dump": "- [explicit] user has maintained a 30-minute daily cleaning routine for approximately 3 weeks as of 2023-07-15.\n- [explicit] user experiences improved productivity and energy levels from maintaining a daily 30-minute cleaning routine.\n- [explicit] user wants to get more organized.\n- [explicit] user is considering creating a custom habit in Habitica for the \"one-touch rule\".\n- [explicit] user is considering using Habitica for organization.\n- [explicit] user is looking for apps or tools to track a cleaning schedule and tasks.\n- [explicit] user plans to apply the one-touch rule to digital files and documents by immediately deleting, filing, or taking action on each item once.\n- [explicit] user plans to apply the one-touch rule to putting away dirty dishes immediately after meals.\n- [explicit] user intends to organize digital files and documents.\n- [explicit] user plans to apply the one-touch rule to responding to simple emails as soon as they are read.\n- [explicit] user plans to use Habitica's rewards system to track progress and stay motivated.\n- [explicit] user plans to start tracking their daily cleaning routine in Habitica.\n- [explicit] user has been performing a daily cleaning routine for 3 weeks.\n- [explicit] user plans to create a \"Someday\" folder to track items that do not require immediate attention but might be useful in the future.\n- [explicit] user plans to reward themselves with a favorite meal or activity upon reaching milestones in following the one-touch rule.\n- [explicit] user is looking for recipe ideas for a summer cookout.\n- [explicit] user attended a BBQ festival in the city.\n- [explicit] user is interested in the Smoky Baked Beans recipe.\n- [explicit] user ate slow-smoked brisket from a vendor from Texas at a BBQ festival.\n- [explicit] user has been experimenting with making BBQ sauce from scratch.\n- [explicit] user purchased a bottle of BBQ sauce from a Texas vendor at a festival.\n- [explicit] user currently uses the BBQ sauce purchased from a Texas vendor at a festival as a go-to sauce.\n- [explicit] user is looking for suggestions for outdoor games and activities for guests at a BBQ party.\n- [explicit] user is planning to host a backyard BBQ party.\n- [explicit] user intends to create a signature BBQ sauce.\n- [explicit] user is experimenting with different types of wood and meats for smoking.\n- [explicit] user is seeking advice on pairing specific types of wood with specific types of meat for smoking.\n- [explicit] user has a new smoker.\n- [explicit] user is specifically preparing for the AWS Certified Cloud Practitioner exam.\n- [explicit] user finds the stories of entrepreneurs inspiring.\n- [explicit] user listens to the \"How I Built This\" podcast.\n- [explicit] user is planning to start a project on AWS.\n- [explicit] user intends to obtain an AWS certification to improve their skills.\n- [explicit] user is interested in learning about cloud computing and AWS.\n- [explicit] user has completed 10 Crash Course videos in the weeks leading up to 2023-08-11.\n- [explicit] user is interested in learning about machine learning.\n- [explicit] user is interested in machine learning specifically using Python.\n- [explicit] user has taken a Python programming course on edX.\n- [explicit] user is interested in exploring reinforcement learning and generative models in machine learning using Python.\n- [explicit] user has watched 12 Crash Course videos on computer science.\n- [explicit] user has taken a Python course.\n- [explicit] user is pursuing a journey in AWS and machine learning.\n- [explicit] user plans to read \"All the Light We Cannot See\" by Anthony Doerr.\n- [explicit] user's short story collection is inspired by user's own experiences.\n- [explicit] user has been dedicating three hours every weekend to writing a short story collection for one month as of 2023-08-13.\n- [explicit] user's short story collection explores themes of childhood memories and family.\n- [explicit] user enjoys historical fiction novels.\n- [explicit] user finished reading \"The Nightingale\".\n- [explicit] user participates in a writing community on social media.\n- [explicit] user is writing a short story collection centered on themes of childhood memories and family.\n- [explicit] user receives weekly writing prompts and exercises from a social media writing community.\n- [explicit] user prefers writing in the park because the fresh air and quiet surroundings help them focus.\n- [explicit] user keeps a writing journal to track progress and brainstorm ideas.\n- [explicit] user has been working on a writing project for one month as of 2023-08-13.\n- [explicit] user finds their writing is more fluid and creative in the mornings.\n- [explicit] user uses a writing journal to identify patterns and areas for improvement in writing.\n- [explicit] user is prioritizing writing sessions for earlier in the day.\n- [explicit] user is interested in learning about their cultural heritage.\n- [explicit] user has a father who is from the northern state of Punjab in India.\n- [explicit] user is interested in learning about the cultural significance of Makki Di Roti in Punjabi cuisine.\n- [explicit] user intends to attempt the provided Sarson Ka Saag and Makki Di Roti recipes.\n- [explicit] user is interested in learning about their cultural heritage through food.\n- [explicit] user intends to prepare Sarson Ka Saag with Makki Di Roti.\n- [explicit] user feels frustrated that governments seem to address the issues of marginalized communities only when forced.\n- [explicit] user feels frustrated that marginalized communities must work hard to gain political representation.\n- [explicit] user believes that it is a significant amount of work for marginalized communities to ensure political representation.\n- [explicit] user is struggling with their current mattress.\n- [explicit] user is considering buying a mattress from Casper or Purple.\n- [explicit] user is planning to buy a new rug.\n- [explicit] user owns a sectional sofa from West Elm.\n- [explicit] user has a grey velvet sectional sofa.\n- [explicit] user is happy with the quality of the sectional sofa from West Elm.\n- [explicit] user is considering a rug made of natural fiber with a subtle pattern for the room.\n- [explicit] user is considering purchasing new throw pillows to match a grey velvet sofa and a sisal rug.\n- [explicit] user owns a grey velvet sofa from West Elm.\n- [explicit] user intends to purchase a sisal rug with a natural, earthy tone.\n- [explicit] user intends to look for throw pillows at online retailers.\n- [explicit] user plans to purchase decorative items for their room.\n- [explicit] user owns a grey velvet sofa.\n- [explicit] user owns a sisal rug.\n- [explicit] user is interested in exploring deep learning and its applications in natural language processing.\n- [explicit] user has watched 15 Crash Course videos in the weeks leading up to 2023-09-30.\n- [explicit] user is interested in learning about natural language processing.\n- [explicit] user is seeking recommendations for specific models to use within the Hugging Face Transformers library for text classification.\n- [explicit] user is interested in the Hugging Face Transformers library.\n- [explicit] user wants to learn how to use the Hugging Face Transformers library for text classification tasks.\n- [explicit] user is asking about the value obtained from participating in online communities like Kaggle and Reddit.\n- [explicit] user is asking how to engage with online communities like Kaggle and Reddit.\n- [explicit] user is interested in learning about online communities like Kaggle and Reddit.\n- [explicit] user uses Kaggle and Reddit to learn from others.\n- [explicit] user uses Kaggle and Reddit to stay informed about developments in NLP and machine learning.\n- [explicit] user connects with like-minded individuals and potential collaborators through online communities.\n- [explicit] user uses Kaggle and Reddit to receive feedback on projects and ideas.\n- [explicit] user engages with the online community Kaggle.\n- [explicit] user engages with the online community Reddit.\n- [explicit] user possesses a stamp that they identify as a 1855 British Guiana 1c Magenta.\n- [explicit] user is seeking information on how to find an expert or organization to appraise their stamp collection.\n- [explicit] user inherited a collection of rare stamps from their uncle.\n- [explicit] user is seeking information on the authentication process for stamps.\n- [explicit] user is looking to sell rare collectibles.\n- [explicit] user is concerned about potential hidden costs in stamp authentication and appraisal services.\n- [explicit] user is interested in the typical fees associated with stamp authentication and appraisal services.\n- [explicit] user owns stamps that they are interested in selling through an auction house.\n- [explicit] user owns stamps.\n- [explicit] user is interested in the process of selling stamps to a dealer.\n- [explicit] user owns a stamp collection that user is interested in selling.\n- [explicit] user is interested in selling stamps online through platforms such as eBay, Etsy, or specialized stamp marketplaces.\n- [explicit] user is experiencing an issue where numbers on cards are missing or not appearing.\n- [explicit] user is working with JavaScript code.\n- [explicit] user requested the complete JavaScript code for the current project.\n- [deductive] user is a programmer/developer.\n- [deductive] user has an interest in data science and machine learning.\n- [deductive] user has an interest in philately (stamp collecting).\n- [inductive] user proactively researches professional services (authentication, appraisal) and selling avenues (dealers, auction houses, online platforms) when liquidating assets like a stamp collection.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 121.6,
+  "total": 125.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

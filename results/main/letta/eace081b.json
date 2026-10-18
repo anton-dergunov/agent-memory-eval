@@ -1,0 +1,136 @@
+{
+ "qid": "eace081b",
+ "arm": "letta",
+ "split": "main",
+ "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+ "reference": "Oahu",
+ "question_date": "2023-06-06 04:18",
+ "sessions": [
+  {
+   "id": "b3763b6b_2",
+   "date": "2023-05-22 04:06",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_1",
+   "date": "2023-05-22 11:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504859",
+   "date": "2023-05-22 11:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_tny5DVg_5",
+   "date": "2023-05-22 16:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3sbRtMX_24",
+   "date": "2023-05-23 01:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_amiy1W6_0",
+   "date": "2023-05-24 08:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_446917",
+   "date": "2023-05-24 09:30",
+   "evidence": false
+  },
+  {
+   "id": "4d04b866",
+   "date": "2023-05-25 17:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_2",
+   "date": "2023-05-25 18:17",
+   "evidence": true
+  },
+  {
+   "id": "3722ea11_2",
+   "date": "2023-05-25 20:54",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Owns a 2018 Ford Mustang GT.\n- Has an interest in automotive maintenance and detailing.\n- Location: Currently near the city where \"Rack Fest\" was held on June 18th. (Need to determine city for future reference).\n- Recently completed a 2,500-mile road trip to Yellowstone National Park (May 2023).\n- Stayed at 5 different hotels during the trip.\n- Favorite experiences: Scenic drives through the Rocky Mountains and visiting the geysers/hot springs at Yellowstone.\n- Favorite hotel from the Yellowstone/Grand Teton trip: Located in Jackson Hole, Wyoming, with views of the Teton Range.\n- Also visited Grand Teton National Park.\n- Road trip duration: 7 days.\n- Planning a trip to Oahu, Hawaii in October 2023 for their birthday.\n- Interested in snorkeling at Hanauma Bay and Shark's Cove.\n- Interested in hiking in Oahu, Hawaii.\n- Interested in relaxing on a less crowded beach on Oahu for their birthday.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on our previous conversations, you have mentioned that you are planning a trip to Oahu, Hawaii, in October 2023 for your birthday, and you are interested in activities like snorkeling at Hanauma Bay and Shark's Cove, hiking, and relaxing on a less crowded beach.\n\nHowever, I don't see a specific mention of where you are planning to stay during that trip in our memory. Have you decided on a hotel or area to stay in yet? I'd love to hear more about your plans!",
+ "dump": "<human>\n\n- Owns a 2018 Ford Mustang GT.\n- Has an interest in automotive maintenance and detailing.\n- Location: Currently near the city where \"Rack Fest\" was held on June 18th. (Need to determine city for future reference).\n- Recently completed a 2,500-mile road trip to Yellowstone National Park (May 2023).\n- Stayed at 5 different hotels during the trip.\n- Favorite experiences: Scenic drives through the Rocky Mountains and visiting the geysers/hot springs at Yellowstone.\n- Favorite hotel from the Yellowstone/Grand Teton trip: Located in Jackson Hole, Wyoming, with views of the Teton Range.\n- Also visited Grand Teton National Park.\n- Road trip duration: 7 days.\n- Planning a trip to Oahu, Hawaii in October 2023 for their birthday.\n- Interested in snorkeling at Hanauma Bay and Shark's Cove.\n- Interested in hiking in Oahu, Hawaii.\n- Interested in relaxing on a less crowded beach on Oahu for their birthday.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"birthday trip to Hawaii stay\"})",
+   "conversation_search({\"query\": \"Oahu October 2023\"})"
+  ],
+  "blocks_chars": 1105,
+  "write_steps": 44,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 364.4,
+  "total": 375.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

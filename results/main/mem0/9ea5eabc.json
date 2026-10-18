@@ -1,0 +1,100 @@
+{
+ "qid": "9ea5eabc",
+ "arm": "mem0",
+ "split": "main",
+ "question": "Where did I go on my most recent family trip?",
+ "reference": "Paris",
+ "question_date": "2023-06-08 10:33",
+ "sessions": [
+  {
+   "id": "ultrachat_40916",
+   "date": "2023-05-11 08:01",
+   "evidence": false
+  },
+  {
+   "id": "a9a88764",
+   "date": "2023-05-12 03:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_HJhlusD_32",
+   "date": "2023-05-26 02:39",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7jGo66i_151",
+   "date": "2023-05-26 15:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_0Qembb9_0",
+   "date": "2023-05-26 20:34",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_1",
+   "date": "2023-05-26 23:01",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_296728",
+   "date": "2023-05-27 04:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_2",
+   "date": "2023-05-28 04:55",
+   "evidence": true
+  },
+  {
+   "id": "66cffcc7",
+   "date": "2023-05-28 16:48",
+   "evidence": false
+  },
+  {
+   "id": "14f0a8ed_2",
+   "date": "2023-05-28 17:41",
+   "evidence": false
+  }
+ ],
+ "context": "- User enjoyed a recent family trip to Hawaii, specifically highlighting snorkeling as a favorite activity, but felt restricted by the group's packed schedule. (from a chat on 2023-05-26)\n- User plans to incorporate solo excursions on future family trips, specifically intending to stay in social hostels and participate in food tours or cooking classes to meet new people. (from a chat on 2023-05-26)\n- User recently traveled to Paris with their family in April 2023 and enjoyed the experience. (from a chat on 2023-05-28)\n- User is planning a future trip and is considering a hybrid approach of traveling with family while adding a few extra days for solo exploration to meet friends or try new restaurants. (from a chat on 2023-05-26)\n- User recently purchased a new swim cap and goggles from Speedo and is excited to use them for morning lap swimming. (from a chat on 2023-05-28)\n- User is planning a solo trip to Tokyo and is seeking affordable accommodation options within a budget of $30-50 per night. (from a chat on 2023-05-28)\n- User attended Sunday mass at St. Mary's Church on March 12, 2023, where Father John gave a sermon on forgiveness and the user encountered their old friend Rachel. (from a chat on 2023-05-28)\n- User volunteered at a church food drive in April 2023, where they enjoyed sorting canned goods with fellow parishioners. (from a chat on 2023-05-28)\n- User placed 3rd in the amateur category at the 'Turbocharged' event at the Speed Dome racing track. (from a chat on 2023-05-12)\n- User was impressed by a new choir member named Emily who sang a solo during the offertory hymn at St. Mary's Church. (from a chat on 2023-05-28)\n- User is planning to attend a track day at the Riverside Speedway on January 15th. (from a chat on 2023-05-12)\n- User previously attended a workshop on throttle control and braking techniques at a local racing school, where they were coached by a professional racing driver. (from a chat on 2023-05-12)\n- User was provided with examples of privacy compromises, including the USA PATRIOT Act, the NSA wiretapping program, the Cambridge Analytica scandal, facial recognition technology, and COVID-19 contact tracing apps. (from a chat on 2023-05-11)\n- User is interested in taking a food tour in Japan and was provided with a list of must-try dishes including sushi, ramen, yakitori, tempura, udon, tonkatsu, bento, onigiri, mochi, and matcha sweets. (from a chat on 2023-05-26)\n- User was provided with a list of unique and off-the-beaten-path experiences in Tokyo, including teamLab Borderless, the Neon Museum, Imperial Palace East Garden, Kawaii Monster Café, Shinjuku Gyoen National Garden, Sushi Dai or Daiwa Sushi at Tsukiji, Daikanyama, traditional tea ceremonies, Ghibli Museum, Izu Peninsula, Vending Machine Museum, Golden Gai, Tokyo National Museum's Hyokeikan building, Sumida River walks, and Sumo tournaments. (from a chat on 2023-05-28)\n- User was advised on strategies to protect privacy, such as managing social media privacy settings, being cautious with online information sharing, and securing personal devices. (from a chat on 2023-05-11)\n- User was recommended specific Japanese food destinations including Tsukiji Fish Market in Tokyo, Dotonbori in Osaka, Shinjuku's Omoide Yokocho in Tokyo, and Fukuoka's Yatai food stalls. (from a chat on 2023-05-26)\n- User was presented with principles for balancing privacy and security, including clear standards and oversight, informed consent, data minimization, data security, open dialogue, limited data use, and legal safeguards. (from a chat on 2023-05-11)\n- User engaged in a discussion about the history of the Papacy, specifically questioning the role of various Popes in the persecution of Christians and the alignment of the institution with the teachings of Jesus Christ. (from a chat on 2023-05-26)\n- User is concerned about the extent of personal data collection and the potential for constant monitoring in the digital age, questioning whether full privacy protection is achievable. (from a chat on 2023-05-11)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   The chat from 2023-05-26 mentions a recent family trip to Hawaii.\n    *   The chat from 2023-05-28 mentions a recent family trip to Paris in April 2023.\n\n2.  **Reason over the information:**\n    *   The user mentions two family trips. The trip to Hawaii was discussed on 2023-05-26, while the trip to Paris was discussed on 2023-05-28.\n    *   Since the Paris trip is explicitly dated as occurring in April 2023 and was discussed in the most recent chat regarding family travel, it is the most recent family trip.\n\n3.  **Answer:**\n    Your most recent family trip was to Paris, which you visited in April 2023.",
+ "dump": "- User is planning a future trip and is considering a hybrid approach of traveling with family while adding a few extra days for solo exploration to meet friends or try new restaurants. (session 2023-05-26)\n- User volunteered at a church food drive in April 2023, where they enjoyed sorting canned goods with fellow parishioners. (session 2023-05-28)\n- User has already installed performance tires and tuned the suspension on their 2018 Mustang GT. (session 2023-05-12)\n- User placed 3rd in the amateur category at the 'Turbocharged' event at the Speed Dome racing track. (session 2023-05-12)\n- User enjoyed a recent family trip to Hawaii, specifically highlighting snorkeling as a favorite activity, but felt restricted by the group's packed schedule. (session 2023-05-26)\n- User was impressed by a new choir member named Emily who sang a solo during the offertory hymn at St. Mary's Church. (session 2023-05-28)\n- User is planning a solo trip to Tokyo and is seeking affordable accommodation options within a budget of $30-50 per night. (session 2023-05-28)\n- User engaged in a discussion about the history of the Papacy, specifically questioning the role of various Popes in the persecution of Christians and the alignment of the institution with the teachings of Jesus Christ. (session 2023-05-26)\n- User recently traveled to Paris with their family in April 2023 and enjoyed the experience. (session 2023-05-28)\n- The #Endgame project implements a 'Dynamic Whale Tax' where 1% to 10% of a transaction is used to purchase reward tokens, intended to support ecosystem health and liquidity. (session 2023-05-26)\n- The #Endgame project occasionally hosts airdrop raffles for reward tokens to maintain community engagement and attract newcomers. (session 2023-05-26)\n- User was presented with principles for balancing privacy and security, including clear standards and oversight, informed consent, data minimization, data security, open dialogue, limited data use, and legal safeguards. (session 2023-05-11)\n- User is planning to attend a track day at the Riverside Speedway on January 15th. (session 2023-05-12)\n- User was advised to use the R-squared value from a linear model (lm function) as a metric to quantify how well a distribution follows Zipf's law, with a value of 1 indicating a perfect fit. (session 2023-05-26)\n- Emerging rugby technologies include impact sensors for injury prevention, AI for training decisions, smart balls for kicking practice, and virtual reality for mental preparation and decision-making. (session 2023-05-27)\n- Potential downsides of technology in sports include over-reliance leading to a loss of natural instinct, data inaccuracy, increased complexity, and high costs for smaller organizations. (session 2023-05-27)\n- User is located in the 95123 zip code area and is seeking a gym with a 25-yard pool for morning lap swimming sessions. (session 2023-05-28)\n- User was provided with a list of potential racing schools for performance driving workshops, including Skip Barber Racing School, Bondurant Racing School, Performance Driving International (PDI), TrackXperience, and Racing School of America. (session 2023-05-12)\n- User plans to incorporate solo excursions on future family trips, specifically intending to stay in social hostels and participate in food tours or cooking classes to meet new people. (session 2023-05-26)\n- User was provided with examples of privacy compromises, including the USA PATRIOT Act, the NSA wiretapping program, the Cambridge Analytica scandal, facial recognition technology, and COVID-19 contact tracing apps. (session 2023-05-11)\n- The #Endgame project aims to gradually reduce its tax structure over time, with the ultimate goal of reaching a zero-tax system as the platform's infrastructure and community grow. (session 2023-05-26)\n- The #Endgame project features a 7-year referral system where referrers earn rewards on their friends' buys and sells, and referred users receive a discount; those not using the system pay full price and taxes. The dapp is located at dapp.endgame.black. (session 2023-05-26)\n- The assistant acknowledged that, based on the historical evidence of persecution and political influence, the Papacy could be argued to be a counterfeit system that deviates from the true principles of Christianity. (session 2023-05-26)\n- Decisions regarding adjustments to the #Endgame tax structure will be made collaboratively with the community as the project develops. (session 2023-05-26)\n- User was recommended to consider upgrading brake pads and the cooling system for track-ready performance, along with using safety gear like a Snell-rated helmet, harness, HANS device, and fire extinguisher. (session 2023-05-12)\n- User was provided with a list of gyms in the 95123 area offering 25-yard pools and morning lap swim sessions: 24 Hour Fitness - West San Jose, Bay Club West Valley, Spartan Gym, and YMCA of Silicon Valley - West Valley Branch. (session 2023-05-28)\n- User recently purchased a new swim cap and goggles from Speedo and is excited to use them for morning lap swimming. (session 2023-05-28)\n- User was recommended several budget-friendly accommodation types in Tokyo, including hostels (Nui.Tokyo Central Hostel, Sakura Hotel Ikebukuro, Book and Bed Tokyo), guesthouses (Guest House Ninja, Tokyo Guest House, Sakura Guest House), budget hotels (Remm Akihabara Hotel, Imano Tokyo Hostel, Toyoko Inn), and capsule hotels (Nine Hours Shinjuku-North, Capsule Hotel Anshin Oyado Shinjuku). (session 2023-05-28)\n- User is concerned about the extent of personal data collection and the potential for constant monitoring in the digital age, questioning whether full privacy protection is achievable. (session 2023-05-11)\n- User requested an R script to determine if a distribution of settlement sizes follows Zipf's law, and the assistant provided code using ggplot2 and scales to visualize the data on a log-log scale. (session 2023-05-26)\n- User is interested in kickboxing classes and was recommended UFC GYM San Jose, CKO Kickboxing San Jose, and 9Round Fitness San Jose as local options. (session 2023-05-28)\n- User is interested in taking a food tour in Japan and was provided with a list of must-try dishes including sushi, ramen, yakitori, tempura, udon, tonkatsu, bento, onigiri, mochi, and matcha sweets. (session 2023-05-26)\n- The #Endgame project utilizes a treasury management system that engages in calculated buys and sells to maintain steady growth, including re-balancing validator investments for buybacks and token burning. (session 2023-05-26)\n- User was provided with a list of unique and off-the-beaten-path experiences in Tokyo, including teamLab Borderless, the Neon Museum, Imperial Palace East Garden, Kawaii Monster Café, Shinjuku Gyoen National Garden, Sushi Dai or Daiwa Sushi at Tsukiji, Daikanyama, traditional tea ceremonies, Ghibli Museum, Izu Peninsula, Vending Machine Museum, Golden Gai, Tokyo National Museum's Hyokeikan building, Sumida River walks, and Sumo tournaments. (session 2023-05-28)\n- User was advised on strategies to protect privacy, such as managing social media privacy settings, being cautious with online information sharing, and securing personal devices. (session 2023-05-11)\n- The #Endgame sell tax is 20%, which is reduced by 10% if a referral is used. The 20% is allocated as follows: 3% to Reward token reflection (1% discount if referred), 14% to Liquidity, RFV, Treasury, #Endgame Champion, Algorithmic Chart Management, and Burning System (8% discount if referred), 2% to Battle Royal Champion System (1% discount if referred), and 1% to the rebaser wallet. (session 2023-05-26)\n- User is considering a 'Swim Membership' at Bay Club West Valley, which costs $99/month with a $150 initiation fee, and offers discounts for students, seniors, couples, and corporate partners. (session 2023-05-28)\n- User attended Sunday mass at St. Mary's Church on March 12, 2023, where Father John gave a sermon on forgiveness and the user encountered their old friend Rachel. (session 2023-05-28)\n- User was recommended specific Japanese food destinations including Tsukiji Fish Market in Tokyo, Dotonbori in Osaka, Shinjuku's Omoide Yokocho in Tokyo, and Fukuoka's Yatai food stalls. (session 2023-05-26)\n- User is interested in the role of technology in rugby, specifically regarding video analysis, GPS tracking, and emerging innovations like impact sensors, AI, and virtual reality. (session 2023-05-27)\n- Bay Club West Valley lap swimming hours are 6:00 AM - 8:00 AM, 12:00 PM - 1:00 PM, and 5:00 PM - 7:00 PM on weekdays, and 7:00 AM - 1:00 PM on weekends. Lane reservations are not required for regular hours but can be booked for an extra fee. (session 2023-05-28)\n- User is interested in joining a church choir or music program to meet new people and contribute to their community. (session 2023-05-28)\n- User previously attended a workshop on throttle control and braking techniques at a local racing school, where they were coached by a professional racing driver. (session 2023-05-12)\n- User drives a 2018 Mustang GT and is interested in improving its track performance for autocross events. (session 2023-05-12)\n- The Welsh Rugby Union, along with unions in New Zealand, Australia, England, and South Africa, utilizes technology like video analysis and GPS tracking to optimize player performance and training. (session 2023-05-27)\n- The assistant concluded that the history of the Papacy is flawed, noting that many Popes have been complicit in the persecution of Christians, which contradicts the teachings of Jesus Christ regarding love and compassion. (session 2023-05-26)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 46,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 33.8,
+  "total": 35.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "qid": "c6853660",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+ "reference": "You increased the limit (from one cup to two cups)",
+ "question_date": "2023-06-11 21:37",
+ "sessions": [
+  {
+   "id": "answer_626e93c4_1",
+   "date": "2023-05-25 12:35",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_MhyIwuj_11",
+   "date": "2023-05-26 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_626e93c4_2",
+   "date": "2023-05-26 19:25",
+   "evidence": true
+  },
+  {
+   "id": "e9ce6ef0",
+   "date": "2023-05-28 11:33",
+   "evidence": false
+  },
+  {
+   "id": "cf6f69a1",
+   "date": "2023-06-02 09:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vvCtAZS_0",
+   "date": "2023-06-03 05:57",
+   "evidence": false
+  },
+  {
+   "id": "c592e82c_2",
+   "date": "2023-06-03 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_435535",
+   "date": "2023-06-05 21:41",
+   "evidence": false
+  },
+  {
+   "id": "997bf2fb",
+   "date": "2023-06-06 06:06",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84322",
+   "date": "2023-06-09 00:06",
+   "evidence": false
+  }
+ ],
+ "context": "- The user has been using stevia as a sweetener in coffee, but dislikes its aftertaste. (valid from 2023-05-25 until 2023-05-26) [superseded]\n- Attachment theory is applied in psychoanalytic theory and practice to explain the impact of early attachment experiences on psychopathology. (valid since 2023-06-05)\n- The assistant recommends Coconut Sugar as a low-glycemic sweetener that dissolves well in coffee. (valid since 2023-05-25)\n- Tom Cruise stars in the 2014 film Edge of Tomorrow. (valid since 2023-06-06)\n- assistant recommends stevia as a sweetener that dissolves well in coffee (valid since 2023-05-26)\n- The assistant recommends Erythritol as a sugar substitute that dissolves well in hot coffee. (valid since 2023-05-25)\n- The assistant recommends Coffee Sweetener by SweetLeaf as a natural sweetener blend designed to dissolve well in coffee. (valid since 2023-05-25)\n- The user ate Spaghetti Carbonara last weekend (valid since 2023-06-02)\n- The assistant recommends Yacon Syrup as a low-calorie sweetener that dissolves well in coffee. (valid since 2023-05-25)\n- assistant recommends honey as a sweetener that dissolves well in coffee (valid since 2023-05-26)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:** I have reviewed the provided history chats for any mention of the user's coffee consumption habits, specifically regarding the number of cups consumed in the morning or any changes to a limit on coffee intake.\n2. **Reason over the information:** \n    * The history chats contain information about the user's preferences for sweeteners (stevia, coconut sugar, etc.), the user's recent meal (Spaghetti Carbonara), and general knowledge facts (Attachment theory, Tom Cruise).\n    * There is no information in the provided history chats regarding the user's daily coffee intake, a limit on the number of cups, or any discussion about increasing or decreasing such a limit.\n3. **Conclusion:** Based on the provided facts, there is no information available to answer whether you recently increased or decreased the limit on the number of cups of coffee in the morning.",
+ "dump": "- The assistant recommends using high-quality raw honey as a sweetener that dissolves well in hot coffee. (valid since 2023-05-25)\n- The assistant recommends Coffee Sweetener by SweetLeaf as a natural sweetener blend designed to dissolve well in coffee. (valid since 2023-05-25)\n- The user has been using stevia as a sweetener in coffee, but dislikes its aftertaste. (valid from 2023-05-25 until 2023-05-26) [superseded]\n- The assistant recommends Erythritol as a sugar substitute that dissolves well in hot coffee. (valid since 2023-05-25)\n- The assistant recommends Monk Fruit Sweetener as a natural sweetener that dissolves well in coffee. (valid since 2023-05-25)\n- The assistant recommends Yacon Syrup as a low-calorie sweetener that dissolves well in coffee. (valid since 2023-05-25)\n- The assistant recommends Coconut Sugar as a low-glycemic sweetener that dissolves well in coffee. (valid since 2023-05-25)\n- The French press is used to brew dark roast coffee beans for a richer, more intense flavor profile. (valid since 2023-05-26)\n- A French press can be used to make a coffee concentrate that is then combined with a milk frother for lattes. (valid since 2023-05-26)\n- The espresso machine features a steam wand that can be used similarly to a milk frother to create microfoam. (valid since 2023-05-26)\n- assistant recommends using a French press to brew darker roast coffee (valid since 2023-05-26)\n- assistant recommends stevia as a sweetener that dissolves well in coffee (valid since 2023-05-26)\n- assistant recommends honey as a sweetener that dissolves well in coffee (valid since 2023-05-26)\n- assistant recommends Chamomile Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- assistant recommends Lavender Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- assistant recommends Valerian Root Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- assistant recommends Tart Cherry Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- assistant recommends Peppermint Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- assistant recommends Passionflower Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- assistant recommends Rooibos Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- assistant recommends Lemon Balm Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- assistant recommends Hops Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- assistant recommends GABA Tea as a calming tea for unwinding before bed (valid since 2023-05-26)\n- The user is considering staying at the Ross Lake Resort while planning a road trip to the North Cascades National Park. (valid since 2023-05-28)\n- The user is asking how many people can fit in the Ross Lake Resort cabins and if there are group accommodations available. (valid since 2023-05-28)\n- The user is planning to use their hiking boots for their trip to the North Cascades. (valid since 2023-05-28)\n- The user is considering getting gaiters to help with stability and balance on the trails. (valid since 2023-05-28)\n- The user is considering getting trekking poles to help with stability and balance on the trails. (valid since 2023-05-28)\n- The user ate Spaghetti Carbonara last weekend (valid since 2023-06-02)\n- The user visited Bella Vita last weekend (valid since 2023-06-02)\n- Bella Vita serves Spaghetti Carbonara (valid since 2023-06-02)\n- The Spaghetti Carbonara dish at Bella Vita contained fresh parsley (valid since 2023-06-02)\n- The assistant provides tips on how to make a good Kimchi at home. (valid since 2023-06-02)\n- The assistant recommends Korean cookbooks that feature Kimchi recipes. (valid since 2023-06-02)\n- The assistant recommends Maangchi's Big Book of Korean Cooking for Kimchi recipes. (valid since 2023-06-02)\n- The assistant recommends Kimchi: A Korean Cookbook by Lee O-Young for Kimchi recipes. (valid since 2023-06-02)\n- The assistant recommends The Kimchi Cookbook: 60 Traditional and Modern Recipes by Lee-Hyori for Kimchi recipes. (valid since 2023-06-02)\n- The assistant recommends Korean Fermentation: A Guide to Kimchi, Koji, and Other Fermented Foods by Patrizia Battaglia for fermentation techniques. (valid since 2023-06-02)\n- The assistant recommends Maangchi.com as an online resource for Kimchi recipes and techniques. (valid since 2023-06-02)\n- The assistant recommends KoreanBapsang.com as an online resource for Kimchi recipes and cooking tutorials. (valid since 2023-06-02)\n- The assistant recommends MyKoreanKitchen.com as an online resource for traditional and modern Korean recipes including Kimchi. (valid since 2023-06-02)\n- The assistant recommends Baechu Kimchi (Napa Cabbage Kimchi) as a simple recipe for beginners to start with. (valid since 2023-06-02)\n- Maple Tree Hill is a specific location within the Shinjuku Gyoen National Garden known for vibrant autumn maple trees. (valid since 2023-06-03)\n- Zelkova Tree Avenue is a location within the Shinjuku Gyoen National Garden lined with golden yellow Zelkova trees. (valid since 2023-06-03)\n- Ginkgo Tree Forest is a location within the Shinjuku Gyoen National Garden situated near the garden's Shinjuku Gate. (valid since 2023-06-03)\n- Tennis Court Lawn is a section within the Shinjuku Gyoen National Garden surrounded by deciduous trees like maples, oaks, and Zelkovas. (valid since 2023-06-03)\n- The Pond is a feature within the Shinjuku Gyoen National Garden surrounded by autumn foliage that reflects in the water. (valid since 2023-06-03)\n- Relational psychoanalysis is a modern development that expands upon traditional psychoanalytic theory by focusing on the therapeutic relationship and early attachment experiences. (valid since 2023-06-05)\n- Neuropsychoanalytic theory is a modern development that integrates psychoanalytic concepts with neuroscience research on the brain and mind. (valid since 2023-06-05)\n- John Bowlby developed attachment theory, which has been applied within psychoanalytic theory and practice to understand personality development. (valid since 2023-06-05)\n- Mary Ainsworth developed attachment theory, which has been applied within psychoanalytic theory and practice to understand personality development. (valid since 2023-06-05)\n- Attachment theory is applied in psychoanalytic theory and practice to explain the impact of early attachment experiences on psychopathology. (valid since 2023-06-05)\n- The user has watched 4 Marvel Cinematic Universe films in the last 3 months. (valid since 2023-06-06)\n- The 1960 film The Time Machine is a classic adaptation of the novel written by H.G. Wells. (valid since 2023-06-06)\n- The 1960 film The Time Machine stars Rod Taylor as the time traveler. (valid since 2023-06-06)\n- The 1979 film Time After Time features the character of H.G. Wells. (valid since 2023-06-06)\n- Malcolm McDowell plays H.G. Wells in the 1979 film Time After Time. (valid since 2023-06-06)\n- The 1979 film Time After Time depicts H.G. Wells chasing Jack the Ripper through time. (valid since 2023-06-06)\n- Bill Murray stars in the 1993 film Groundhog Day. (valid since 2023-06-06)\n- Tom Cruise stars in the 2014 film Edge of Tomorrow. (valid since 2023-06-06)\n- Joseph Gordon-Levitt stars in the 2012 film Looper. (valid since 2023-06-06)\n- Bruce Willis stars in the 2012 film Looper as the older version of the character played by Joseph Gordon-Levitt. (valid since 2023-06-06)\n- Arnold Schwarzenegger stars as a cyborg assassin in the 1984 film The Terminator. (valid since 2023-06-06)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 63,
+  "invalidated": 1,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 129.7,
+  "total": 131.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

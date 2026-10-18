@@ -1,0 +1,107 @@
+{
+ "qid": "4d6b87c8",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many titles are currently on my to-watch list?",
+ "reference": "25",
+ "question_date": "2023-06-03 15:47",
+ "sessions": [
+  {
+   "id": "ultrachat_121715",
+   "date": "2023-05-01 21:59",
+   "evidence": false
+  },
+  {
+   "id": "5fc83435_1",
+   "date": "2023-05-15 20:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mmYyki5_0",
+   "date": "2023-05-17 11:19",
+   "evidence": false
+  },
+  {
+   "id": "d87e86f6_1",
+   "date": "2023-05-17 22:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_1",
+   "date": "2023-05-20 10:19",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cu7TYt7_57",
+   "date": "2023-05-20 17:03",
+   "evidence": false
+  },
+  {
+   "id": "85da7827",
+   "date": "2023-05-21 06:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_2",
+   "date": "2023-05-22 03:27",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_361817",
+   "date": "2023-05-22 08:42",
+   "evidence": false
+  },
+  {
+   "id": "5c85023a_1",
+   "date": "2023-05-29 06:30",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T15:43:33.492893+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-22 03:27] I'd be happy to help you organize your to-watch list!\\n\\nLet's start by categorizing your list into different genres or themes. This will make it easier to keep track of your titles and prioritize what you want to watch next.\\n\\nHere are some suggestions for categories:\\n\\n* Historical Dramas\\n* Social Justice and Human Rights\\n* Royal Dramas\\n* Period Pieces\\n* Biographical Dramas\\n* Documentaries\\n* Other (for anything that doesn't fit into the above categories)\\n\\nWe can also create subcategories within each category to further organize your list. For example, under Historical Dramas, we could have subcategories for:\\n\\n* World War II\\n* Ancient Civilizations\\n* American History\\n* European History\\n\\nLet me know if any of these categories resonate with you, or if you have other ideas for how you'd like to organize your list. We can work together to create a system that works best for you!\\n\\nOnce we've categorized your list, we can also prioritize your titles based on your interests and preferences. Do you want to watch the most highly-rated titles first, or do you want to focus on a specific genre or theme?\\n\\nLet me know how you'd like to proceed, and we can get started on organizing your to-watch list!\"}, {'timestamp': '2026-10-17T15:43:33.492878+00:00', 'time_ago': '10s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-22 03:27] I'll definitely check some of those out. By the way, I've been meaning to ask, do you think you could help me organize my to-watch list? I've got 25 titles on it right now, and it's getting a bit hard to keep track of.\"}, {'timestamp': '2026-10-17T15:43:33.492852+00:00', 'time_ago': '10s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-22 03:27] I\\'m definitely going to add \"Amistad\" and \"Hotel Rwanda\" to my to-watch list. I\\'ve heard great things about them, and they seem like really powerful and important films. By the way, do you think you could recommend some documentaries about social justice and human rights? I\\'m interested in learning more about these topics and staying informed about current issues.'}, {'timestamp': '2026-10-17T15:43:33.492781+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-22 03:27] I'd be happy to suggest some historical drama movies for you. Here are a few that might interest you:\\n\\n1. **The King's Speech** (2010) - The story of King George VI's struggle to overcome his stutter, set against the backdrop of World War II.\\n2. **The Young Victoria** (2009) - A romantic drama that explores the early years of Queen Victoria's reign and her romance with Prince Albert.\\n3. **Elizabeth** (1998) - A biographical drama about the early years of Queen Elizabeth I's reign, starring Cate Blanchett.\\n4. **Shakespeare in Love** (1998) - A romantic comedy-drama that imagines a fictional romance between William Shakespeare and a noblewoman, set in the 16th century.\\n5. **Atonement** (2007) - An adaptation of Ian McEwan's novel, set in the 1930s and 1940s, exploring the consequences of a lie that destroys a family.\\n6. **The Duchess** (2008) - A biographical drama about the life of Georgiana Cavendish, Duchess of Devonshire, a fashion icon and socialite in 18th-century England.\\n7. **The New World** (2005) - A historical epic that tells the story of the founding of the Jamestown settlement in Virginia, starring Colin Farrell as John Smith.\\n8. **The Other Boleyn Girl** (2008) - A romantic drama that explores the lives of sisters Mary and Anne Boleyn, who both became involved with King Henry VIII.\\n9. **Marie Antoinette** (2006) - A biographical drama about the life of the ill-fated Queen of France, starring Kirsten Dunst.\\n10. **Gosford Park** (2001) - A murd",
+ "answer": "Based on our conversation on May 22, 2023, you mentioned that you had 25 titles on your to-watch list. Since then, have you added or removed any titles that you'd like to update me on?",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"to-watch list\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 30.7,
+  "total": 35.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

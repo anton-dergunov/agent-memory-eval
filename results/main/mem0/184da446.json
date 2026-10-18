@@ -1,0 +1,100 @@
+{
+ "qid": "184da446",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+ "reference": "220",
+ "question_date": "2023-06-17 04:02",
+ "sessions": [
+  {
+   "id": "answer_e2f4f947_1",
+   "date": "2023-05-20 21:24",
+   "evidence": true
+  },
+  {
+   "id": "82a89303",
+   "date": "2023-05-20 21:43",
+   "evidence": false
+  },
+  {
+   "id": "e5f08e40",
+   "date": "2023-05-21 06:32",
+   "evidence": false
+  },
+  {
+   "id": "67d1de46_2",
+   "date": "2023-05-23 08:55",
+   "evidence": false
+  },
+  {
+   "id": "ae56bcf1_1",
+   "date": "2023-05-23 19:18",
+   "evidence": false
+  },
+  {
+   "id": "928eb5fe_2",
+   "date": "2023-05-25 19:08",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84199",
+   "date": "2023-05-28 11:59",
+   "evidence": false
+  },
+  {
+   "id": "d3110bd5_2",
+   "date": "2023-05-28 23:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_e2f4f947_2",
+   "date": "2023-05-29 09:12",
+   "evidence": true
+  },
+  {
+   "id": "59115228",
+   "date": "2023-05-29 11:49",
+   "evidence": false
+  }
+ ],
+ "context": "- User is reading 'A Short History of Nearly Everything' by Bill Bryson and reached page 220 as of May 29, 2023, having just finished the section on the discovery of DNA structure. (from a chat on 2023-05-29)\n- User is reading 'A Short History of Nearly Everything' by Bill Bryson and was on page 200 as of May 20, 2023, finding insights on the history of medicine interesting. (from a chat on 2023-05-20)\n- User plans to incorporate reading and journaling into their nightly wind-down routine to improve sleep quality. (from a chat on 2023-05-23)\n- User listens to 'The Science Hour' podcast to stay informed about advancements in AI-powered medical diagnosis. (from a chat on 2023-05-29)\n- User is interested in learning about renewable energy and was provided with resources including NREL, Renewable Energy World, Energy.gov, The Renewable Energy Hub, and TED Talks, as well as documentaries like 'Before the Flood' and 'The Fourth Revolution: Energy'. (from a chat on 2023-05-29)\n- User rearranged their kitchen spice cabinet on Sunday, May 14, 2023, and is currently looking for the best way to organize it. (from a chat on 2023-05-20)\n- User is taking a machine learning course on Coursera and is specifically interested in the application of AI for diagnosing rare genetic diseases. (from a chat on 2023-05-29)\n- User was recommended several daily devotionals (Our Daily Bread, Jesus Calling, My Utmost for His Highest, The Upper Room) and prayer guides (The Prayer of Jabez, The Power of Prayer, Prayer: Does It Make Any Difference?, The Valley of Vision). (from a chat on 2023-05-21)\n- User is planning to host a painting party for 8-10 friends with a 'Galaxy Night Sky' theme. (from a chat on 2023-05-29)\n- User is interested in using Todoist and Evernote to organize their daily tasks and morning routine, which includes 10 minutes of meditation and 20 minutes of planning. (from a chat on 2023-05-23)\n- User enjoys making quinoa and steamed vegetables in their Instant Pot, which they prepared on Tuesday, May 16, 2023. (from a chat on 2023-05-20)\n- User plans to attempt making homemade yogurt in their Instant Pot this weekend. (from a chat on 2023-05-20)\n- User decided to purchase an All-Clad Non-Stick Frying Pan to replace their current one. (from a chat on 2023-05-20)\n- User is familiar with using the 'Saute' function on their Instant Pot for browning meat and cooking vegetables. (from a chat on 2023-05-20)\n- User is seeking inspiration for daily devotions, specifically Bible verses and prayers focused on perseverance and faith, referencing a Bible study group they attended in April 2023. (from a chat on 2023-05-21)\n- User decided to have guests start their galaxy paintings from scratch rather than using pre-printed canvases to encourage creativity. (from a chat on 2023-05-29)\n- User is interested in learning about AI-powered medical diagnosis, medical imaging analysis, clinical decision support using NLP, patient engagement, personalized medicine, and healthcare management. (from a chat on 2023-05-20)\n- User was provided with several 'Slow Cook' mode recipes for the Instant Pot, including Chicken Tacos, Beef Stew, Butter Chicken, Black Bean Chili, and Pulled Pork. (from a chat on 2023-05-20)\n- User plans to implement a 'People's Choice' award for the paintings and provide small tokens of appreciation to all guests to keep the atmosphere fun and collaborative. (from a chat on 2023-05-29)\n- Gochugaru is a Korean chili pepper flake typically ranging from 10,000 to 20,000 Scoville Heat Units, providing a moderate, warm heat and umami flavor. (from a chat on 2023-05-25)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-05-20: The user was on page 200 of 'A Short History of Nearly Everything'.\n*   From the chat on 2023-05-29: The user had reached page 220 of 'A Short History of Nearly Everything'.\n\n**2. Reason over the information:**\n*   The most recent update regarding the user's progress in the book is from May 29, 2023, stating they reached page 220.\n*   There is no information provided in the history chats indicating that the user has read any further pages between May 29, 2023, and the current date of June 17, 2023.\n\n**Answer:**\nBased on the last recorded update on May 29, 2023, you have read 220 pages of 'A Short History of Nearly Everything'.",
+ "dump": "- User is considering taking the train instead of the bus on Wednesdays to ensure they arrive on time for a 9 AM meeting, as they find the train more reliable. (session 2023-05-28)\n- User was provided with various Bible verses and prayers for perseverance, faith, and anxiety, along with practical tips like deep breathing, gratitude, and journaling. (session 2023-05-21)\n- User is planning to host a painting party for 8-10 friends with a 'Galaxy Night Sky' theme. (session 2023-05-29)\n- User was provided with various recipe ideas featuring oregano and basil, including Greek Stuffed Chicken Breasts, Italian-Style Lentil Soup, and Thai Basil Stir-Fry. (session 2023-05-20)\n- User identifies the lack of data, the need for standardized/high-quality data, and the challenge of model interpretability as the primary hurdles for using AI in rare disease diagnosis. (session 2023-05-29)\n- User is working to establish a consistent bedtime of 10:30 PM to ensure 7-8 hours of sleep, planning to adjust their bedtime in 15-minute increments to transition smoothly. (session 2023-05-23)\n- User enjoys making quinoa and steamed vegetables in their Instant Pot, which they prepared on Tuesday, May 16, 2023. (session 2023-05-20)\n- User was provided with general tips for finding quality coffee shops, such as checking online reviews and looking for reputable roasters like Blue Bottle, Intelligentsia, La Colombe, and Stumptown. (session 2023-05-25)\n- User was advised that while protein supplements like whey, casein, or plant-based powders are convenient for meeting protein goals, whole foods are preferred as they provide essential vitamins, minerals, and fiber. (session 2023-05-28)\n- User is planning a brunch outing with their friend Emily and is looking for unique avocado toast variations. (session 2023-05-25)\n- User believes AI can democratize healthcare by providing diagnostic tools to remote areas, enabling telemedicine, and reducing disparities, provided that issues like data bias and algorithmic fairness are addressed. (session 2023-05-29)\n- User has been experiencing frequent crashes with their bus app and is looking for alternative route planning methods. (session 2023-05-28)\n- User decided to have guests start their galaxy paintings from scratch rather than using pre-printed canvases to encourage creativity. (session 2023-05-29)\n- User was recommended lump charcoal (oak, hickory, or mesquite), low-ash briquettes (coconut or bamboo), or Japanese Binchotan charcoal for low and slow cooking, with specific brand recommendations including Kamado Joe, Big Green Egg, and Royal Oak. (session 2023-05-23)\n- User was recommended several unique avocado toast twists, including Korean-Style (with gochugaru or kimchi), Grilled Pineapple and Prosciutto, Fried Egg with Pickled Onions, Smoked Salmon with Cream Cheese, and Roasted Beets with Goat Cheese. (session 2023-05-25)\n- User was recommended several alternative transit planning tools including Google Maps, local transit agency websites, Moovit, and Rome2rio. (session 2023-05-28)\n- User is reading 'A Short History of Nearly Everything' by Bill Bryson and reached page 220 as of May 29, 2023, having just finished the section on the discovery of DNA structure. (session 2023-05-29)\n- User listens to 'The Science Hour' podcast to stay informed about advancements in AI-powered medical diagnosis. (session 2023-05-29)\n- User is planning meals for the week and intends to make Greek Stuffed Chicken Breasts this weekend using oregano and basil. (session 2023-05-20)\n- User is seeking inspiration for daily devotions, specifically Bible verses and prayers focused on perseverance and faith, referencing a Bible study group they attended in April 2023. (session 2023-05-21)\n- User is familiar with using the 'Saute' function on their Instant Pot for browning meat and cooking vegetables. (session 2023-05-20)\n- User was provided with an overview of the rosary, including its structure (Joyful, Sorrowful, Glorious, and Luminous Mysteries) and instructions on how to pray it. (session 2023-05-21)\n- User is taking a machine learning course on Coursera and is specifically interested in the application of AI for diagnosing rare genetic diseases. (session 2023-05-29)\n- User plans to attempt making homemade yogurt in their Instant Pot this weekend. (session 2023-05-20)\n- User was advised on how to use Google Maps features like real-time transit alerts, live bus tracking, Schedule Explorer, and route optimization to manage their commute. (session 2023-05-28)\n- User was recommended several daily devotionals (Our Daily Bread, Jesus Calling, My Utmost for His Highest, The Upper Room) and prayer guides (The Prayer of Jabez, The Power of Prayer, Prayer: Does It Make Any Difference?, The Valley of Vision). (session 2023-05-21)\n- User is interested in learning about the rosary prayer tradition and how to incorporate it into their daily routine. (session 2023-05-21)\n- User plans to provide finger foods like veggie sticks with hummus, cheese and crackers, and fruit for the painting party, along with a playlist of chill, instrumental electronic music. (session 2023-05-29)\n- User spent time at a gaming session at their friend David's place on May 25, 2023. (session 2023-05-25)\n- User was provided with several 'Slow Cook' mode recipes for the Instant Pot, including Chicken Tacos, Beef Stew, Butter Chicken, Black Bean Chili, and Pulled Pork. (session 2023-05-20)\n- User has been taking painting classes for three weeks and is enjoying the process of learning layering and blending techniques. (session 2023-05-29)\n- Gochugaru is a Korean chili pepper flake typically ranging from 10,000 to 20,000 Scoville Heat Units, providing a moderate, warm heat and umami flavor. (session 2023-05-25)\n- User plans to implement a 'People's Choice' award for the paintings and provide small tokens of appreciation to all guests to keep the atmosphere fun and collaborative. (session 2023-05-29)\n- User was provided with instructions for cleaning an Instant Pot, including general washing, deep cleaning with vinegar or baking soda, and maintenance of the sealing ring and condensation collector. (session 2023-05-20)\n- User decided to purchase an All-Clad Non-Stick Frying Pan to replace their current one. (session 2023-05-20)\n- User's friend Alex grilled ribs for a backyard barbecue on the weekend of May 20-21, 2023, using a 24-hour marinade of apple cider vinegar, brown sugar, and smoked paprika. (session 2023-05-23)\n- User decided to use Google Maps for route planning and transit information, including checking for bus delays and disruptions. (session 2023-05-28)\n- User is interested in learning about renewable energy and was provided with resources including NREL, Renewable Energy World, Energy.gov, The Renewable Energy Hub, and TED Talks, as well as documentaries like 'Before the Flood' and 'The Fourth Revolution: Energy'. (session 2023-05-29)\n- User plans to incorporate reading and journaling into their nightly wind-down routine to improve sleep quality. (session 2023-05-23)\n- User is interested in using Todoist and Evernote to organize their daily tasks and morning routine, which includes 10 minutes of meditation and 20 minutes of planning. (session 2023-05-23)\n- User is struggling with anxiety and requested Bible verses and prayers to help them cope and find peace. (session 2023-05-21)\n- User was provided with recommendations for non-stick frying pans across different price ranges, including T-fal, Calphalon, All-Clad, Anolon, Le Creuset, and Mauviel. (session 2023-05-20)\n- User was provided with information on different types of rosaries, including the Dominican (five-decade) and Franciscan (seven-decade) rosaries, as well as the Servite, Brigittine, and Chaplet of Divine Mercy. (session 2023-05-21)\n- User rearranged their kitchen spice cabinet on Sunday, May 14, 2023, and is currently looking for the best way to organize it. (session 2023-05-20)\n- User is currently participating in a weightlifting program and is interested in optimizing protein intake for muscle growth. (session 2023-05-28)\n- User was provided with tips for organizing a spice cabinet, such as categorizing spices, using tiered racks, and storing them in airtight containers away from heat and light. (session 2023-05-20)\n- User was advised that a general recommendation for muscle growth during weightlifting is 1.6-2.2 grams of protein per kilogram of body weight daily. (session 2023-05-28)\n- User is planning to host their own backyard barbecue and is seeking advice on grill temperatures and charcoal types for low and slow cooking. (session 2023-05-23)\n- User enjoys experimenting with barbecue marinades and sauces, inspired by a Korean-style BBQ sauce recipe from a Facebook group and ribs grilled by their friend Alex. (session 2023-05-23)\n- User has adjusted their wake-up time to 6:30 AM to get a head start on their day. (session 2023-05-23)\n- User is interested in establishing a daily prayer routine and requested recommendations for devotionals, prayer guides, and apps. (session 2023-05-21)\n- User is planning to study for certification exams with their friend Alex and received tips on maintaining focus, including using the Pomodoro Technique, setting specific goals, and creating a conducive study environment. (session 2023-05-25)\n- User was informed that excessive protein intake can lead to weight gain, potential kidney damage, and dehydration, and should be balanced with other nutrients. (session 2023-05-28)\n- User has experienced difficulty with burgers being undercooked or overcooked and was provided with specific internal temperature guidelines for various meats and grilling tips. (session 2023-05-23)\n- Due to recent bus delays, the user has been walking to their destination, arriving around 8:45 AM. (session 2023-05-28)\n- User is interested in learning about AI-powered medical diagnosis, medical imaging analysis, clinical decision support using NLP, patient engagement, personalized medicine, and healthcare management. (session 2023-05-20)\n- User is developing a homemade BBQ sauce using ketchup, brown sugar, apple cider vinegar, and spices, and was provided with a basic recipe and tips for balancing sweetness, acidity, and umami. (session 2023-05-23)\n- User is reading 'A Short History of Nearly Everything' by Bill Bryson and was on page 200 as of May 20, 2023, finding insights on the history of medicine interesting. (session 2023-05-20)\n- User owns an Instant Pot and recently made chili in it; they are interested in tips for cleaning and maintaining the device. (session 2023-05-20)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 59,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 35.7,
+  "total": 37.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

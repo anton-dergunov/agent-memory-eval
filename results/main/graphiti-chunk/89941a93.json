@@ -1,0 +1,106 @@
+{
+ "qid": "89941a93",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many bikes do I currently own?",
+ "reference": "4",
+ "question_date": "2023-10-27 13:00",
+ "sessions": [
+  {
+   "id": "8e72316f",
+   "date": "2023-02-02 01:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-02-22 20:54",
+   "evidence": true
+  },
+  {
+   "id": "95ebf866",
+   "date": "2023-07-25 17:00",
+   "evidence": false
+  },
+  {
+   "id": "169213ae",
+   "date": "2023-08-04 11:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_151269",
+   "date": "2023-09-25 17:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-10-10 01:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jxsIY6L_0",
+   "date": "2023-10-11 01:04",
+   "evidence": false
+  },
+  {
+   "id": "25956eab_1",
+   "date": "2023-10-15 17:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_70151",
+   "date": "2023-10-20 19:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_440266",
+   "date": "2023-10-23 07:05",
+   "evidence": false
+  }
+ ],
+ "context": "- The assistant provides analysis on how social democrat parties adapt and respond to criticism. (valid since 2023-09-25)\n- The user owns a mountain bike. (valid since 2023-02-22)\n- The user expresses interest in how social democrat parties evolve and respond to challenges. (valid since 2023-09-25)\n- The user owns a road bike. (valid since 2023-10-10)\n- user asks the assistant for guidance on establishing a consistent morning routine and for tips on how to stick to a morning workout and breakfast schedule. (valid since 2023-08-04)\n- The user owns a commuter bike. (valid since 2023-02-22)\n- The user owns a hybrid bike. (valid since 2023-10-10)\n- The user owns a road bike with 2,000 miles of usage. (valid since 2023-02-22)\n- The user's hybrid bike is equipped with platform pedals. (valid since 2023-10-10)\n- The user plans to participate in a century ride soon. (valid since 2023-02-22)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The user owns a mountain bike (valid since 2023-02-22).\n*   The user owns a road bike (valid since 2023-10-10).\n*   The user owns a commuter bike (valid since 2023-02-22).\n*   The user owns a hybrid bike (valid since 2023-10-10).\n*   Note: There is a mention of a road bike with 2,000 miles of usage (valid since 2023-02-22), which refers to the same road bike category.\n\n**2. Reason over the information:**\n*   The list of distinct bike types owned by the user includes:\n    1. Mountain bike\n    2. Road bike\n    3. Commuter bike\n    4. Hybrid bike\n*   All these entries are currently valid as of 2023/10/27.\n\n**Conclusion:**\nThe user currently owns 4 bikes.",
+ "dump": "- The user is requesting sports-related trivia questions that are not too specific to fantasy football for their party guests. (valid since 2023-02-02)\n- The user identifies as a fan of the Manchester City football club. (valid since 2023-02-02)\n- The user plans to participate in a century ride soon. (valid since 2023-02-22)\n- The user owns a road bike with 2,000 miles of usage. (valid since 2023-02-22)\n- The user owns a mountain bike. (valid since 2023-02-22)\n- The user owns a commuter bike. (valid since 2023-02-22)\n- The user is considering upgrading the road bike's wheels to carbon fiber wheels. (valid since 2023-02-22)\n- The assistant recommends the Garmin Edge series as a popular option for a dedicated bike computer and GPS device. (valid since 2023-02-22)\n- The assistant recommends the Wahoo Elemnt series as a popular choice for a dedicated bike computer and GPS device. (valid since 2023-02-22)\n- The assistant recommends the Lezyne Super GPS as a compact and affordable bike computer and GPS device. (valid since 2023-02-22)\n- The assistant recommends Lifeproof as a brand for protective phone cases designed for cycling. (valid since 2023-02-22)\n- The assistant recommends Quad Lock for protective cycling phone cases and handlebar-mounted phone mounts. (valid since 2023-02-22)\n- The assistant recommends Rokform for universal phone mounts that attach to handlebars or stems. (valid since 2023-02-22)\n- The assistant recommends Aquapac for weather-resistant pouches to protect a phone from the elements. (valid since 2023-02-22)\n- The assistant recommends H2O Audio for weather-resistant pouches to protect a phone from the elements. (valid since 2023-02-22)\n- Speedo has a Facebook page for promotions and sales. (valid since 2023-07-25)\n- Speedo has an Instagram account for promotions and sales. (valid since 2023-07-25)\n- Speedo has a Twitter account for promotions and sales. (valid since 2023-07-25)\n- TYR has a Facebook page for promotions and sales. (valid since 2023-07-25)\n- TYR has an Instagram account for promotions and sales. (valid since 2023-07-25)\n- TYR has a Twitter account for promotions and sales. (valid since 2023-07-25)\n- The assistant recommends using RetailMeNot to find coupon codes for Speedo and TYR products. (valid since 2023-07-25)\n- The assistant recommends using Coupons.com to find promo codes for Speedo and TYR products. (valid since 2023-07-25)\n- The assistant provides recommendations for a morning workout routine that can be completed within a 20-minute window. (valid since 2023-08-04)\n- user asks the assistant for guidance on establishing a consistent morning routine and for tips on how to stick to a morning workout and breakfast schedule. (valid since 2023-08-04)\n- assistant provides user with tips for establishing a morning routine, workout options, and breakfast preparation suggestions. (valid since 2023-08-04)\n- The assistant provides analysis on how social democrat parties adapt and respond to criticism. (valid since 2023-09-25)\n- The user expresses interest in how social democrat parties evolve and respond to challenges. (valid since 2023-09-25)\n- The user owns a road bike. (valid since 2023-10-10)\n- The user owns a hybrid bike. (valid since 2023-10-10)\n- The user recently acquired a new pair of cycling shoes for use with clipless pedals. (valid since 2023-10-10)\n- The user's hybrid bike is equipped with platform pedals. (valid since 2023-10-10)\n- assistant describes two-factor authentication as a technical control requiring two forms of identification. (valid since 2023-10-11)\n- assistant describes access control list as a technical control that restricts access to a network or specific resources. (valid since 2023-10-11)\n- assistant describes dictionary attack as a method where an attacker uses a dictionary of words to guess a password. (valid since 2023-10-11)\n- assistant describes rainbow table as a precomputed table of possible password hashes used to crack passwords. (valid since 2023-10-11)\n- British Airways Executive Club has a partnership with Alaska Airlines allowing users to book award flights (valid since 2023-10-15)\n- Chase Sapphire credit card points can be transferred to British Airways Executive Club at a 1:1 ratio (valid since 2023-10-15)\n- The assistant recommended The Royal Hawaiian, a Luxury Collection Resort as an iconic, luxurious Waikiki institution to stay at in Honolulu. (valid since 2023-10-15)\n- The Royal Hawaiian, a Luxury Collection Resort is situated on 15 acres of prime beachfront property in Waikiki. (valid since 2023-10-15)\n- The Royal Hawaiian, a Luxury Collection Resort has a prime beachfront location on Waikiki Beach. (valid since 2023-10-15)\n- The Royal Hawaiian, a Luxury Collection Resort is home to the Royal Hawaiian Center. (valid since 2023-10-15)\n- The Royal Hawaiian, a Luxury Collection Resort hosts the Aha Aina Luau, a weekly celebration of Hawaiian culture. (valid since 2023-10-15)\n- The Royal Hawaiian, a Luxury Collection Resort has received the Forbes Travel Guide Five-Star rating. (valid since 2023-10-15)\n- The Royal Hawaiian, a Luxury Collection Resort has received the AAA Five Diamond rating. (valid since 2023-10-15)\n- The Royal Hawaiian, a Luxury Collection Resort was recognized by U.S. News & World Report as one of the Best Hotels in Hawaii. (valid since 2023-10-15)\n- The Royal Hawaiian, a Luxury Collection Resort has received recognition from Condé Nast Traveler's Readers' Choice Awards. (valid since 2023-10-15)\n- The Royal Hawaiian, a Luxury Collection Resort is a travel destination located on Oahu. (valid since 2023-10-15)\n- The assistant describes video conferencing tools as an efficient way for people to communicate with colleagues, attend virtual meetings, and continue with classes while staying safe at home. (valid since 2023-10-20)\n- MUBI offers the foreign film Portrait of a Lady on Fire (valid since 2023-10-23)\n- Céline Sciamma directed the film Portrait of a Lady on Fire (valid since 2023-10-23)\n- Portrait of a Lady on Fire won the Best Screenplay award at the Cannes Film Festival (valid since 2023-10-23)\n- MUBI offers the film Bacurau (valid since 2023-10-23)\n- Bacurau won the Jury Prize at the Cannes Film Festival (valid since 2023-10-23)\n- MUBI offers the film Two of Us (valid since 2023-10-23)\n- Two of Us won the Audience Award at the Cannes Film Festival (valid since 2023-10-23)\n- MUBI offers the film The Disciple (valid since 2023-10-23)\n- The Disciple won the FIPRESCI Critics Prize at the Venice Film Festival (valid since 2023-10-23)\n- MUBI offers the film Another Round (valid since 2023-10-23)\n- Another Round won the Best International Feature Film award at the 93rd Academy Awards (valid since 2023-10-23)\n- During World War II, The Royal Hawaiian, a Luxury Collection Resort served as military quarters and a rest and recreation center. (valid until 1945-09-02) [superseded]",
+ "extra": {
+  "retrieved": 10,
+  "edges": 61,
+  "invalidated": 1,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 161.4,
+  "total": 162.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

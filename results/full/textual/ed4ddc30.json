@@ -1,0 +1,271 @@
+{
+ "qid": "ed4ddc30",
+ "arm": "textual",
+ "split": "full",
+ "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+ "reference": "20",
+ "question_date": "2023-03-16 14:24",
+ "sessions": [
+  {
+   "id": "ultrachat_342966",
+   "date": "2022-12-26 00:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_1",
+   "date": "2023-01-11 23:15",
+   "evidence": true
+  },
+  {
+   "id": "a0c40934_1",
+   "date": "2023-01-13 10:43",
+   "evidence": false
+  },
+  {
+   "id": "c7a5667a_3",
+   "date": "2023-01-14 07:33",
+   "evidence": false
+  },
+  {
+   "id": "8b726b64_1",
+   "date": "2023-01-20 14:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_28013",
+   "date": "2023-01-23 04:23",
+   "evidence": false
+  },
+  {
+   "id": "499652a0_3",
+   "date": "2023-01-29 21:52",
+   "evidence": false
+  },
+  {
+   "id": "c279c578",
+   "date": "2023-01-31 00:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_389067",
+   "date": "2023-01-31 13:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_32023",
+   "date": "2023-02-01 23:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_83156",
+   "date": "2023-02-03 18:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_R8WCZYs_0",
+   "date": "2023-02-04 00:22",
+   "evidence": false
+  },
+  {
+   "id": "d2f4a309",
+   "date": "2023-02-04 13:02",
+   "evidence": false
+  },
+  {
+   "id": "02592f97_2",
+   "date": "2023-02-04 15:53",
+   "evidence": false
+  },
+  {
+   "id": "a4d6c239_1",
+   "date": "2023-02-07 21:31",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_exVlyoF_59",
+   "date": "2023-02-10 05:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1ZrnYv8_20",
+   "date": "2023-02-11 07:35",
+   "evidence": false
+  },
+  {
+   "id": "82842107",
+   "date": "2023-02-12 13:20",
+   "evidence": false
+  },
+  {
+   "id": "5a6dc9cc",
+   "date": "2023-02-13 22:55",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_461678",
+   "date": "2023-02-17 05:36",
+   "evidence": false
+  },
+  {
+   "id": "5d2dc022_1",
+   "date": "2023-02-19 13:42",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fwY67m3_0",
+   "date": "2023-02-19 17:20",
+   "evidence": false
+  },
+  {
+   "id": "4ffa04a2_4",
+   "date": "2023-02-21 22:55",
+   "evidence": false
+  },
+  {
+   "id": "4ed9cd1b_2",
+   "date": "2023-02-22 13:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_238480",
+   "date": "2023-02-25 08:20",
+   "evidence": false
+  },
+  {
+   "id": "2490f2af_3",
+   "date": "2023-02-25 23:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_421094",
+   "date": "2023-02-26 16:09",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_76206",
+   "date": "2023-03-01 01:01",
+   "evidence": false
+  },
+  {
+   "id": "5170dcc7_2",
+   "date": "2023-03-01 16:10",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_487772",
+   "date": "2023-03-02 12:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fpeEGNM_0",
+   "date": "2023-03-03 02:44",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436945",
+   "date": "2023-03-06 11:49",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_8hPKHyo_0",
+   "date": "2023-03-06 13:55",
+   "evidence": false
+  },
+  {
+   "id": "63c75b13_2",
+   "date": "2023-03-08 19:55",
+   "evidence": false
+  },
+  {
+   "id": "778bedd4",
+   "date": "2023-03-09 08:30",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_35Datf2_27",
+   "date": "2023-03-09 19:42",
+   "evidence": false
+  },
+  {
+   "id": "e4969569_2",
+   "date": "2023-03-10 23:35",
+   "evidence": false
+  },
+  {
+   "id": "75621e39_1",
+   "date": "2023-03-12 00:27",
+   "evidence": false
+  },
+  {
+   "id": "0138fdec",
+   "date": "2023-03-12 10:15",
+   "evidence": false
+  },
+  {
+   "id": "24bc3095_1",
+   "date": "2023-03-15 07:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_2",
+   "date": "2023-03-15 08:18",
+   "evidence": true
+  },
+  {
+   "id": "57c91b14_2",
+   "date": "2023-03-15 13:00",
+   "evidence": false
+  },
+  {
+   "id": "aa31c397_2",
+   "date": "2023-03-15 17:55",
+   "evidence": false
+  },
+  {
+   "id": "01a120b5",
+   "date": "2023-03-16 00:12",
+   "evidence": false
+  },
+  {
+   "id": "ef23ecbc_2",
+   "date": "2023-03-16 08:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_297517",
+   "date": "2023-03-16 16:00",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user lives alone.\n* The user has a child who has ADHD.\n* The user is preparing their child for the transition to middle school, which will occur in the next academic year (as of 2023-02-26).\n* The user has a family they cook for.\n* The user owns a cat named Luna.\n* The user owns two goats named Billy and Nibbles (as of 2023-03-15).\n* The user keeps chickens in a coop (as of 2023-03-15).\n* The user is a small business owner who produces and sells candles and soaps.\n* The user operates a daily market stall in the city center on Tuesdays and Thursdays, averaging $100 in sales per day.\n* The user owns an iPhone 13 Pro.\n* The user owns a Samsung smartwatch, purchased for $250 during a Best Buy anniversary sale (as of 2023-02-07).\n* The user owns a 20,000mAh Anker power bank, purchased for $40 on Amazon (as of 2023-02-07).\n* The user owns a wireless charging pad purchased at Target for $15 (as of 2023-02-07).\n* The user owns an Amazon Echo Dot.\n* The user recently installed a new smart thermostat (as of 2023-03-10).\n* The user manages several health conditions, utilizing an Accu-Chek Guide blood glucose monitor, an Omron Evolv blood pressure monitor, a Philips Respironics InnoSpire portable nebulizer for asthma, and an Exergen Temporal Artery thermometer.\n* The user has an interest in history and international relations, specifically regarding the long-term political and economic consequences of major historical treaties (as of 2023-01-31).\n* The user works from home, as of 2023-02-01.\n* The user participates in Pilates classes, as of 2023-02-03.\n* The user is interested in literary analysis and possesses a sophisticated understanding of thematic structures in literature, specifically regarding Harper Lee's *To Kill a Mockingbird* (as of 2023-02-04).\n* The user is an aquarium hobbyist; as of 2023-02-04, they have been maintaining a community tank for one month.\n* The user currently keeps corydoras catfish in their community tank.\n* The user recently purchased a luxury perfume for $200, which they consider a \"special treat\" but outside their regular budget (as of 2023-02-04).\n* The user enjoys word games, including reversing words and word association games (as of 2023-02-10).\n* The user is actively engaged in reading and analyzing complex legislative texts, specifically regarding federal law, national security, international trade regulations, and decentralized finance governance (as of 2023-03-06).\n* The user is interested in specialty coffee, specifically Ethiopian varieties, and is beginning to experiment with brewing techniques and flavor pairings (as of 2023-02-12).\n* The user has been maintaining a daily cleaning routine for three weeks (as of 2023-02-13).\n* The user has an interest in American political history and basketball, specifically the athletic history and fandom of former President Barack Obama (as of 2023-02-17).\n* The user is planning a trip to Japan and has booked a 7-night stay in Kyoto via Booking.com for $800 (as of 2023-02-19).\n* The user is bilingual or multilingual, demonstrating the ability to communicate fluently in both English and French (as of 2023-02-19).\n* The user plays golf and attended a charity golf tournament on 2023-07-17 (as of 2023-02-21).\n* The user moved to a new apartment on 2023-01-15, located approximately 3 miles from their previous residence.\n* The user recently returned from a road trip to the mountains, which included a 200-mile drive on the final day (as of 2023-02-22).\n* The user is interested in taking up rock climbing (as of 2023-02-22).\n* The user is interested in corporate social responsibility and sustainability, particularly how sports organizations implement these initiatives (as of 2023-02-25).\n* The user is actively working to improve their financial management, specifically addressing recent struggles with impulse buying and overspending (as of 2023-02-25).\n* The user is currently navigating challenges related to workplace harassment or bullying and is seeking strategies for assertive communication and emotional regulation in power-imbalanced environments (as of 2023-03-01).\n* The user volunteered at a local museum charity auction in May 2023, which raised over $20,000 for art education programs (as of 2023-03-01).\n* The user participated in a charity run for a mental health organization in June 2022, which had over 200 participants (as of 2023-03-16).\n* The user has developed a new interest in the mechanics and responsibilities of orchestral conducting (as of 2023-03-02).\n* The user is currently studying the Truth in Lending Act (TILA) and related financial regulations, likely for professional or educational purposes (as of 2023-03-03).\n* The user is researching cruise travel and potential activities, indicating an interest in taking a cruise (as of 2023-03-06).\n* The user enjoys winter sports and successfully skied down a beginner's slope on 2023-01-17.\n* The user is interested in hiking and is planning to visit the Ridgeview Loop Trail (as of 2023-03-08).\n* The user is currently adjusting their morning routine to include an 8:00 am workout, followed by coffee, to improve productivity (as of 2023-03-09).\n* The user is experiencing stress and anxiety, which they are seeking to manage through exercise (as of 2023-03-09).\n* The user is researching the mechanics of job board platforms, specifically networking features and employer branding tools (as of 2023-03-09).\n* The user is currently working on a thesis regarding AI in healthcare, specifically focusing on deep learning applications in cancer diagnosis (as of 2023-03-12).\n* The user has conducted a survey of 50 medical professionals regarding the current state of AI in healthcare (as of 2023-03-12).\n* The user is currently using Google Calendar and is transitioning to digital task management tools (as of 2023-03-12).\n* The user enjoys unwinding in the evening by watching a TV show or reading a book (as of 2023-03-12).\n* The user is taking singing lessons with an instructor named Rachel (as of 2023-03-15).\n* The user has a background in classical music and theater (as of 2023-03-15).\n* The user is attending a theater workshop on improvisation skills at the local arts center (as of 2023-03-15).\n* The user is interested in tabletop gaming, specifically *Codenames* and *Dungeons & Dragons* (as of 2023-03-15).\n* The user is currently creating a half-elf rogue character for *Dungeons & Dragons* (as of 2023-03-15).\n* The user has been taking hip hop dance classes at a studio near their work for three weeks (as of 2023-03-15).\n* The user has a 45-minute daily commute (as of 2023-03-16).\n* The user enjoys audiobooks and recently finished *The Nightingale* (as of 2023-03-16).\n* The user has decided to listen to *Gone Girl* by Gillian Flynn as their next audiobook (as of 2023-03-16).\n* The user has a new interest in Djiboutian culture and cuisine, specifically traditional dishes like Sabayad, Lahoh, Fah-fah, and Maraq (as of 2023-03-16).\n\n### Preferences and habits\n* The user is proactive about supporting their child’s academic and social success, specifically regarding ADHD management.\n* The user values structured communication and team-based approaches when working with school staff.\n* The user has an interest in biology and evolutionary science.\n* The user prefers to critically analyze scientific concepts rather than accepting them at face value.\n* The user enjoys cooking and is interested in learning how to process raw ingredients (eggs and goat milk) into various dishes and products like cheese.\n* The user identifies as a beginner in the craft of cheese-making.\n* The user is currently very interested in Italian cuisine and is experimenting with different pasta dishes.\n* The user enjoys watching cooking shows for inspiration.\n* The user is interested in pet photography and is setting up a home photo studio to take pictures of their cat, Luna.\n* The user is proactive about their pet's health and well-being.\n* The user is business-minded, actively calculating inventory needs, analyzing sales trends, and developing promotional strategies for their products.\n* The user is interested in food preservation and storage techniques.\n* The user is a \"shrimp enthusiast.\"\n* The user prefers recipes that balance rich, buttery flavors with bright, citrusy notes.\n* The user is actively working to increase their daily physical activity, with a goal of 12,000 steps per day.\n* The user is proactive about managing their health metrics through regular monitoring and dietary adjustments.\n* The user is interested in improving their productivity and work-life balance while working from home, specifically through time management techniques and time-tracking software (as of 2023-02-01).\n* The user values clear communication from fitness instructors and prioritizes proper technique and form.\n* The user values precise terminology in literary analysis.\n* The user is diligent about aquarium maintenance.\n* The user is currently seeking more affordable perfume alternatives (under $30) that offer quality comparable to their recent $200 luxury purchase.\n* The user prefers to carry a high-capacity power bank for long days.\n* The user enjoys intellectual challenges, such as word puzzles and games that require logical connections (as of 2023-02-10).\n* The user demonstrates a high level of focus and attention to detail when reviewing dense legal, administrative, and financial documentation (as of 2023-03-06).\n* The user is interested in exploring the flavor profiles of Ethiopian coffee, specifically the Kochere variety (as of 2023-02-12).\n* The user is actively working to improve household habits, including implementing a new laundry schedule, fridge/oven cleaning routines, and a \"one-touch\" rule for washing coffee mugs immediately after use (as of 2023-02-13).\n* The user is interested in Japanese cuisine, specifically traditional Kyoto-style kaiseki and yudofu (boiled tofu) (as of 2023-02-19).\n* The user has an interest in international sports history, specifically Olympic hockey records (as of 2023-02-19).\n* The user is interested in improving their golf swing (as of 2023-02-21).\n* The user is looking for a new stainless steel water bottle (approx. 27 oz) with a carrying handle, BPA-free, and dishwasher safe (as of 2023-02-22).\n* The user believes businesses and organizations have a responsibility to prioritize sustainability and social responsibility (as of 2023-02-25).\n* The user is adopting a more disciplined approach to personal finance, including using the Mint app for tracking, implementing a 30-day waiting period for non-essential purchases, and using cash for discretionary spending (as of 2023-02-25).\n* The user is committed to practicing assertive communication techniques and emotional regulation strategies to manage workplace conflict (as of 2023-03-01).\n* The user is actively advocating for equitable access to art education (as of 2023-03-01).\n* The user is interested in learning about cruise ship amenities, specifically spa services and motion sickness management (as of 2023-03-06).\n* The user is interested in outdoor activities for spring, including hiking, kayaking, cycling, and gardening (as of 2023-03-08).\n* The user prefers a mix of cardio and strength training for their morning workouts (as of 2023-03-09).\n* The user is considering incorporating HIIT into their routine for weight loss and health, but is cautious about injury (as of 2023-03-09).\n* The user is evaluating whether to maintain their new early-morning wake-up time on weekends (as of 2023-03-09).\n* The user is interested in smart home automation and is currently learning to optimize their new smart thermostat (as of 2023-03-10).\n* The user is interested in technical research and data analysis, specifically using Python (Pandas, NumPy), Excel, and R for academic research (as of 2023-03-12).\n* The user is interested in deep learning frameworks, specifically PyTorch, and data augmentation libraries like Albumentations for medical image analysis (as of 2023-03-12).\n* The user prefers digital tools that are visually appealing, easy to use, and offer \"dark mode\" or \"night mode\" to reduce eye strain during evening use (as of 2023-03-12).\n* The user is interested in contemporary musical theater, particularly shows from the last 10–20 years that incorporate hip-hop or R&B (as of 2023-03-15).\n* The user is interested in applying vocal warm-up techniques to improve their singing and acting (as of 2023-03-15).\n* The user enjoys social deduction and party games that involve teamwork and clever communication (as of 2023-03-15).\n* The user is focused on improving their footwork and rhythm for hip hop dance (as of 2023-03-15).\n* The user prefers high-energy, upbeat music for their hip hop dance practice (as of 2023-03-15).\n* The user enjoys psychological thrillers and mysteries with twisty plots and complex characters (as of 2023-03-16).\n* The user prefers audiobooks that can be completed within a week or two given their 45-minute commute (as of 2023-03-16).\n* The user is highly motivated to continue volunteering and is actively seeking ways to maintain momentum, including setting personal goals and finding a \"volunteer buddy\" (as of 2023-03-16).\n* The user prefers to be organized regarding volunteer commitments, using calendars and trackers to manage their schedule (as of 2023-03-16).\n\n### Ongoing situations and plans\n* The user is planning to tour their child's future middle school to help ease the transition (as of 2023-02-26).\n* The user intends to research and implement ADHD-friendly activities (as of 2023-02-26).\n* The user is currently engaged in learning about the mechanisms of evolution and natural selection.\n* The user is actively looking for ways to utilize a large surplus of fresh eggs (currently 20 dozen) and goat milk.\n* The user plans to start making cheese using goat milk.\n* The user is hosting a dinner party soon and is planning an Italian-themed menu, including a spinach and feta quiche (as of 2023-03-15).\n* The user plans to upgrade Luna’s environment by adding new scratching surfaces.\n* The user is planning a photo shoot for Luna.\n* The user is planning to transition Luna to a new brand of cat food.\n* The user is preparing for the Harvest Market on 2023-09-18.\n* The user is implementing a tiered discount promotion for the Harvest Market.\n* The user is planning to make crab cakes and is researching techniques to prevent them from falling apart.\n* The user is seeking ways to increase their daily step count.\n* The user is learning how to interpret blood glucose and blood pressure data.\n* The user is learning proper maintenance and cleaning protocols for their medical devices.\n* The user is exploring time-tracking tools to better manage their home-based business tasks (as of 2023-02-01).\n* The user is actively seeking strategies to prevent burnout while working from home (as of 2023-02-01).\n* The user is planning to research and trial new Pilates instructors (as of 2023-02-03).\n* The user is addressing fin nipping in their community aquarium and is considering adding a school of 6-10 harlequin rasboras or zebra danios.\n* The user is increasing the frequency of their aquarium water changes.\n* The user has set up a separate breeding tank for platies and is actively researching breeding techniques.\n* The user plans to visit Target to explore their perfume selection (as of 2023-02-04).\n* The user plans to purchase a tempered glass screen protector for their new Samsung smartwatch (as of 2023-02-07).\n* The user plans to purchase and brew medium-roasted Kochere Ethiopian coffee (as of 2023-02-12).\n* The user is adopting a new laundry schedule: Monday/Wednesday/Friday for washing, with Sunday reserved for rest (as of 2023-02-13).\n* The user is incorporating a weekly fridge tidy and a Sunday oven maintenance task into their routine (as of 2023-02-13).\n* The user is researching affordable kaiseki dining options and yudofu restaurants with scenic views for their upcoming trip to Kyoto (as of 2023-02-19).\n* The user is planning to take golf lessons to improve their game (as of 2023-02-21).\n* The user is considering organizing a charity golf tournament (as of 2023-02-21).\n* The user is researching rock climbing gyms near their new apartment (as of 2023-02-22).\n* The user is evaluating the Klean Kanteen Insulated Reflect Hydration Bottle as a replacement for their lost water bottle (as of 2023-02-22).\n* The user is establishing a new financial system: setting up the Mint app, creating a \"want\" list and a \"done\" list, and scheduling weekly/bi-weekly budget reviews (as of 2023-02-25).\n* The user plans to document workplace incidents to help identify patterns and support their emotional processing (as of 2023-03-01).\n* The user is actively researching local art classes for their child and is planning to contact the museum to inquire about scholarships and outreach programs (as of 2023-03-01).\n* The user plans to hike the 2.5-mile Ridgeview Loop Trail in the local park (as of 2023-03-08).\n* The user is looking for a local coffee shop to visit after their morning workout (as of 2023-03-09).\n* The user is planning to purchase a Synology DiskStation NAS device to improve data storage and security (as of 2023-03-10).\n* The user is planning to set up a 3-2-1 backup system for their data (as of 2023-03-10).\n* The user is currently analyzing survey data from medical professionals for their thesis (as of 2023-03-12).\n* The user is learning to build deep learning models for medical image analysis, specifically focusing on data preprocessing and augmentation techniques using PyTorch and Albumentations (as of 2023-03-12).\n* The user is planning to integrate Todoist and Trello with their Google Calendar to better manage tasks and recurring activities like yoga and reading (as of 2023-03-12).\n* The user is exploring the musical *In the Heights* as inspiration for improvisation exercises (as of 2023-03-15).\n* The user is planning to build a predator-proof fence around their chicken coop this weekend (as of 2023-03-15).\n* The user is researching how to get started with beekeeping (as of 2023-03-15).\n* The user is managing pest issues (mites and flies) in their chicken coop (as of 2023-03-15).\n* The user is planning a game night for friends and coworkers (10-12 people) and is researching suitable party and strategy games (as of 2023-03-15).\n* The user is considering creating a custom D&D-themed version of *Codenames* (as of 2023-03-15).\n* The user is creating a high-energy hip hop playlist for home practice, mixing older and newer tracks from Kendrick Lamar and J. Cole (as of 2023-03-15).\n* The user plans to listen to *Gone Girl* during their commute (as of 2023-03-16).\n* The user is actively searching for upcoming charity runs or walks in their area using Active.com and Charity Navigator (as of 2023-03-16).\n* The user plans to reach out to local hospitals and non-profits to inquire about volunteer opportunities at upcoming charity events (as of 2023-03-16).\n* The user intends to recruit friends or coworkers to join them in volunteering at charity events (as of 2023-03-16).\n* The user is interested in trying Djiboutian cuisine (as of 2023-03-16).\n\n### Changes over time\n* The user is transitioning from their current Pilates instructor to a new one due to dissatisfaction with communication clarity, as of 2023-02-03.\n* The user is increasing the frequency of aquarium water changes from bi-weekly to weekly or more frequent intervals to manage nitrate levels, as of 2023-02-04.\n* The user has replaced their Fitbit Charge 3 with a new Samsung smartwatch as of 2023-02-07.\n* The user has shifted from an \"every other day\" laundry habit to a structured Monday/Wednesday/Friday schedule to free up weekends, as of 2023-02-13.\n* The user has shifted their approach to personal finance to be more intentional and restrictive regarding impulse buys, following a realization of overspending in late January 2023, as of 2023-02-25.\n* The user has begun waking up earlier than usual to increase productivity, as of 2023-03-09.\n* The user experienced significant technical frustration with a smart TV software update in February 2023, which influenced their decision to invest in a more reliable local storage system (as of 2023-03-10).\n* The user is shifting from a paper-only planner system to integrating digital tools (Todoist, Trello) with Google Calendar to improve organization, as of 2023-03-12.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   Under the \"Ongoing situations and plans\" section, the facts state: \"The user is actively looking for ways to utilize a large surplus of fresh eggs (currently 20 dozen) and goat milk.\"\n    *   This information is listed as of 2023-03-15.\n\n2.  **Reason over the information:**\n    *   The current date is 2023-03-16.\n    *   The record from the previous day (2023-03-15) confirms a stock of 20 dozen eggs.\n    *   There is no information indicating that any of these eggs have been used or discarded between 2023-03-15 and 2023-03-16.\n\n3.  **Conclusion:**\n    *   The user currently has 20 dozen eggs stocked up.",
+ "dump": "### Personal facts\n* The user lives alone.\n* The user has a child who has ADHD.\n* The user is preparing their child for the transition to middle school, which will occur in the next academic year (as of 2023-02-26).\n* The user has a family they cook for.\n* The user owns a cat named Luna.\n* The user owns two goats named Billy and Nibbles (as of 2023-03-15).\n* The user keeps chickens in a coop (as of 2023-03-15).\n* The user is a small business owner who produces and sells candles and soaps.\n* The user operates a daily market stall in the city center on Tuesdays and Thursdays, averaging $100 in sales per day.\n* The user owns an iPhone 13 Pro.\n* The user owns a Samsung smartwatch, purchased for $250 during a Best Buy anniversary sale (as of 2023-02-07).\n* The user owns a 20,000mAh Anker power bank, purchased for $40 on Amazon (as of 2023-02-07).\n* The user owns a wireless charging pad purchased at Target for $15 (as of 2023-02-07).\n* The user owns an Amazon Echo Dot.\n* The user recently installed a new smart thermostat (as of 2023-03-10).\n* The user manages several health conditions, utilizing an Accu-Chek Guide blood glucose monitor, an Omron Evolv blood pressure monitor, a Philips Respironics InnoSpire portable nebulizer for asthma, and an Exergen Temporal Artery thermometer.\n* The user has an interest in history and international relations, specifically regarding the long-term political and economic consequences of major historical treaties (as of 2023-01-31).\n* The user works from home, as of 2023-02-01.\n* The user participates in Pilates classes, as of 2023-02-03.\n* The user is interested in literary analysis and possesses a sophisticated understanding of thematic structures in literature, specifically regarding Harper Lee's *To Kill a Mockingbird* (as of 2023-02-04).\n* The user is an aquarium hobbyist; as of 2023-02-04, they have been maintaining a community tank for one month.\n* The user currently keeps corydoras catfish in their community tank.\n* The user recently purchased a luxury perfume for $200, which they consider a \"special treat\" but outside their regular budget (as of 2023-02-04).\n* The user enjoys word games, including reversing words and word association games (as of 2023-02-10).\n* The user is actively engaged in reading and analyzing complex legislative texts, specifically regarding federal law, national security, international trade regulations, and decentralized finance governance (as of 2023-03-06).\n* The user is interested in specialty coffee, specifically Ethiopian varieties, and is beginning to experiment with brewing techniques and flavor pairings (as of 2023-02-12).\n* The user has been maintaining a daily cleaning routine for three weeks (as of 2023-02-13).\n* The user has an interest in American political history and basketball, specifically the athletic history and fandom of former President Barack Obama (as of 2023-02-17).\n* The user is planning a trip to Japan and has booked a 7-night stay in Kyoto via Booking.com for $800 (as of 2023-02-19).\n* The user is bilingual or multilingual, demonstrating the ability to communicate fluently in both English and French (as of 2023-02-19).\n* The user plays golf and attended a charity golf tournament on 2023-07-17 (as of 2023-02-21).\n* The user moved to a new apartment on 2023-01-15, located approximately 3 miles from their previous residence.\n* The user recently returned from a road trip to the mountains, which included a 200-mile drive on the final day (as of 2023-02-22).\n* The user is interested in taking up rock climbing (as of 2023-02-22).\n* The user is interested in corporate social responsibility and sustainability, particularly how sports organizations implement these initiatives (as of 2023-02-25).\n* The user is actively working to improve their financial management, specifically addressing recent struggles with impulse buying and overspending (as of 2023-02-25).\n* The user is currently navigating challenges related to workplace harassment or bullying and is seeking strategies for assertive communication and emotional regulation in power-imbalanced environments (as of 2023-03-01).\n* The user volunteered at a local museum charity auction in May 2023, which raised over $20,000 for art education programs (as of 2023-03-01).\n* The user participated in a charity run for a mental health organization in June 2022, which had over 200 participants (as of 2023-03-16).\n* The user has developed a new interest in the mechanics and responsibilities of orchestral conducting (as of 2023-03-02).\n* The user is currently studying the Truth in Lending Act (TILA) and related financial regulations, likely for professional or educational purposes (as of 2023-03-03).\n* The user is researching cruise travel and potential activities, indicating an interest in taking a cruise (as of 2023-03-06).\n* The user enjoys winter sports and successfully skied down a beginner's slope on 2023-01-17.\n* The user is interested in hiking and is planning to visit the Ridgeview Loop Trail (as of 2023-03-08).\n* The user is currently adjusting their morning routine to include an 8:00 am workout, followed by coffee, to improve productivity (as of 2023-03-09).\n* The user is experiencing stress and anxiety, which they are seeking to manage through exercise (as of 2023-03-09).\n* The user is researching the mechanics of job board platforms, specifically networking features and employer branding tools (as of 2023-03-09).\n* The user is currently working on a thesis regarding AI in healthcare, specifically focusing on deep learning applications in cancer diagnosis (as of 2023-03-12).\n* The user has conducted a survey of 50 medical professionals regarding the current state of AI in healthcare (as of 2023-03-12).\n* The user is currently using Google Calendar and is transitioning to digital task management tools (as of 2023-03-12).\n* The user enjoys unwinding in the evening by watching a TV show or reading a book (as of 2023-03-12).\n* The user is taking singing lessons with an instructor named Rachel (as of 2023-03-15).\n* The user has a background in classical music and theater (as of 2023-03-15).\n* The user is attending a theater workshop on improvisation skills at the local arts center (as of 2023-03-15).\n* The user is interested in tabletop gaming, specifically *Codenames* and *Dungeons & Dragons* (as of 2023-03-15).\n* The user is currently creating a half-elf rogue character for *Dungeons & Dragons* (as of 2023-03-15).\n* The user has been taking hip hop dance classes at a studio near their work for three weeks (as of 2023-03-15).\n* The user has a 45-minute daily commute (as of 2023-03-16).\n* The user enjoys audiobooks and recently finished *The Nightingale* (as of 2023-03-16).\n* The user has decided to listen to *Gone Girl* by Gillian Flynn as their next audiobook (as of 2023-03-16).\n* The user has a new interest in Djiboutian culture and cuisine, specifically traditional dishes like Sabayad, Lahoh, Fah-fah, and Maraq (as of 2023-03-16).\n\n### Preferences and habits\n* The user is proactive about supporting their child’s academic and social success, specifically regarding ADHD management.\n* The user values structured communication and team-based approaches when working with school staff.\n* The user has an interest in biology and evolutionary science.\n* The user prefers to critically analyze scientific concepts rather than accepting them at face value.\n* The user enjoys cooking and is interested in learning how to process raw ingredients (eggs and goat milk) into various dishes and products like cheese.\n* The user identifies as a beginner in the craft of cheese-making.\n* The user is currently very interested in Italian cuisine and is experimenting with different pasta dishes.\n* The user enjoys watching cooking shows for inspiration.\n* The user is interested in pet photography and is setting up a home photo studio to take pictures of their cat, Luna.\n* The user is proactive about their pet's health and well-being.\n* The user is business-minded, actively calculating inventory needs, analyzing sales trends, and developing promotional strategies for their products.\n* The user is interested in food preservation and storage techniques.\n* The user is a \"shrimp enthusiast.\"\n* The user prefers recipes that balance rich, buttery flavors with bright, citrusy notes.\n* The user is actively working to increase their daily physical activity, with a goal of 12,000 steps per day.\n* The user is proactive about managing their health metrics through regular monitoring and dietary adjustments.\n* The user is interested in improving their productivity and work-life balance while working from home, specifically through time management techniques and time-tracking software (as of 2023-02-01).\n* The user values clear communication from fitness instructors and prioritizes proper technique and form.\n* The user values precise terminology in literary analysis.\n* The user is diligent about aquarium maintenance.\n* The user is currently seeking more affordable perfume alternatives (under $30) that offer quality comparable to their recent $200 luxury purchase.\n* The user prefers to carry a high-capacity power bank for long days.\n* The user enjoys intellectual challenges, such as word puzzles and games that require logical connections (as of 2023-02-10).\n* The user demonstrates a high level of focus and attention to detail when reviewing dense legal, administrative, and financial documentation (as of 2023-03-06).\n* The user is interested in exploring the flavor profiles of Ethiopian coffee, specifically the Kochere variety (as of 2023-02-12).\n* The user is actively working to improve household habits, including implementing a new laundry schedule, fridge/oven cleaning routines, and a \"one-touch\" rule for washing coffee mugs immediately after use (as of 2023-02-13).\n* The user is interested in Japanese cuisine, specifically traditional Kyoto-style kaiseki and yudofu (boiled tofu) (as of 2023-02-19).\n* The user has an interest in international sports history, specifically Olympic hockey records (as of 2023-02-19).\n* The user is interested in improving their golf swing (as of 2023-02-21).\n* The user is looking for a new stainless steel water bottle (approx. 27 oz) with a carrying handle, BPA-free, and dishwasher safe (as of 2023-02-22).\n* The user believes businesses and organizations have a responsibility to prioritize sustainability and social responsibility (as of 2023-02-25).\n* The user is adopting a more disciplined approach to personal finance, including using the Mint app for tracking, implementing a 30-day waiting period for non-essential purchases, and using cash for discretionary spending (as of 2023-02-25).\n* The user is committed to practicing assertive communication techniques and emotional regulation strategies to manage workplace conflict (as of 2023-03-01).\n* The user is actively advocating for equitable access to art education (as of 2023-03-01).\n* The user is interested in learning about cruise ship amenities, specifically spa services and motion sickness management (as of 2023-03-06).\n* The user is interested in outdoor activities for spring, including hiking, kayaking, cycling, and gardening (as of 2023-03-08).\n* The user prefers a mix of cardio and strength training for their morning workouts (as of 2023-03-09).\n* The user is considering incorporating HIIT into their routine for weight loss and health, but is cautious about injury (as of 2023-03-09).\n* The user is evaluating whether to maintain their new early-morning wake-up time on weekends (as of 2023-03-09).\n* The user is interested in smart home automation and is currently learning to optimize their new smart thermostat (as of 2023-03-10).\n* The user is interested in technical research and data analysis, specifically using Python (Pandas, NumPy), Excel, and R for academic research (as of 2023-03-12).\n* The user is interested in deep learning frameworks, specifically PyTorch, and data augmentation libraries like Albumentations for medical image analysis (as of 2023-03-12).\n* The user prefers digital tools that are visually appealing, easy to use, and offer \"dark mode\" or \"night mode\" to reduce eye strain during evening use (as of 2023-03-12).\n* The user is interested in contemporary musical theater, particularly shows from the last 10–20 years that incorporate hip-hop or R&B (as of 2023-03-15).\n* The user is interested in applying vocal warm-up techniques to improve their singing and acting (as of 2023-03-15).\n* The user enjoys social deduction and party games that involve teamwork and clever communication (as of 2023-03-15).\n* The user is focused on improving their footwork and rhythm for hip hop dance (as of 2023-03-15).\n* The user prefers high-energy, upbeat music for their hip hop dance practice (as of 2023-03-15).\n* The user enjoys psychological thrillers and mysteries with twisty plots and complex characters (as of 2023-03-16).\n* The user prefers audiobooks that can be completed within a week or two given their 45-minute commute (as of 2023-03-16).\n* The user is highly motivated to continue volunteering and is actively seeking ways to maintain momentum, including setting personal goals and finding a \"volunteer buddy\" (as of 2023-03-16).\n* The user prefers to be organized regarding volunteer commitments, using calendars and trackers to manage their schedule (as of 2023-03-16).\n\n### Ongoing situations and plans\n* The user is planning to tour their child's future middle school to help ease the transition (as of 2023-02-26).\n* The user intends to research and implement ADHD-friendly activities (as of 2023-02-26).\n* The user is currently engaged in learning about the mechanisms of evolution and natural selection.\n* The user is actively looking for ways to utilize a large surplus of fresh eggs (currently 20 dozen) and goat milk.\n* The user plans to start making cheese using goat milk.\n* The user is hosting a dinner party soon and is planning an Italian-themed menu, including a spinach and feta quiche (as of 2023-03-15).\n* The user plans to upgrade Luna’s environment by adding new scratching surfaces.\n* The user is planning a photo shoot for Luna.\n* The user is planning to transition Luna to a new brand of cat food.\n* The user is preparing for the Harvest Market on 2023-09-18.\n* The user is implementing a tiered discount promotion for the Harvest Market.\n* The user is planning to make crab cakes and is researching techniques to prevent them from falling apart.\n* The user is seeking ways to increase their daily step count.\n* The user is learning how to interpret blood glucose and blood pressure data.\n* The user is learning proper maintenance and cleaning protocols for their medical devices.\n* The user is exploring time-tracking tools to better manage their home-based business tasks (as of 2023-02-01).\n* The user is actively seeking strategies to prevent burnout while working from home (as of 2023-02-01).\n* The user is planning to research and trial new Pilates instructors (as of 2023-02-03).\n* The user is addressing fin nipping in their community aquarium and is considering adding a school of 6-10 harlequin rasboras or zebra danios.\n* The user is increasing the frequency of their aquarium water changes.\n* The user has set up a separate breeding tank for platies and is actively researching breeding techniques.\n* The user plans to visit Target to explore their perfume selection (as of 2023-02-04).\n* The user plans to purchase a tempered glass screen protector for their new Samsung smartwatch (as of 2023-02-07).\n* The user plans to purchase and brew medium-roasted Kochere Ethiopian coffee (as of 2023-02-12).\n* The user is adopting a new laundry schedule: Monday/Wednesday/Friday for washing, with Sunday reserved for rest (as of 2023-02-13).\n* The user is incorporating a weekly fridge tidy and a Sunday oven maintenance task into their routine (as of 2023-02-13).\n* The user is researching affordable kaiseki dining options and yudofu restaurants with scenic views for their upcoming trip to Kyoto (as of 2023-02-19).\n* The user is planning to take golf lessons to improve their game (as of 2023-02-21).\n* The user is considering organizing a charity golf tournament (as of 2023-02-21).\n* The user is researching rock climbing gyms near their new apartment (as of 2023-02-22).\n* The user is evaluating the Klean Kanteen Insulated Reflect Hydration Bottle as a replacement for their lost water bottle (as of 2023-02-22).\n* The user is establishing a new financial system: setting up the Mint app, creating a \"want\" list and a \"done\" list, and scheduling weekly/bi-weekly budget reviews (as of 2023-02-25).\n* The user plans to document workplace incidents to help identify patterns and support their emotional processing (as of 2023-03-01).\n* The user is actively researching local art classes for their child and is planning to contact the museum to inquire about scholarships and outreach programs (as of 2023-03-01).\n* The user plans to hike the 2.5-mile Ridgeview Loop Trail in the local park (as of 2023-03-08).\n* The user is looking for a local coffee shop to visit after their morning workout (as of 2023-03-09).\n* The user is planning to purchase a Synology DiskStation NAS device to improve data storage and security (as of 2023-03-10).\n* The user is planning to set up a 3-2-1 backup system for their data (as of 2023-03-10).\n* The user is currently analyzing survey data from medical professionals for their thesis (as of 2023-03-12).\n* The user is learning to build deep learning models for medical image analysis, specifically focusing on data preprocessing and augmentation techniques using PyTorch and Albumentations (as of 2023-03-12).\n* The user is planning to integrate Todoist and Trello with their Google Calendar to better manage tasks and recurring activities like yoga and reading (as of 2023-03-12).\n* The user is exploring the musical *In the Heights* as inspiration for improvisation exercises (as of 2023-03-15).\n* The user is planning to build a predator-proof fence around their chicken coop this weekend (as of 2023-03-15).\n* The user is researching how to get started with beekeeping (as of 2023-03-15).\n* The user is managing pest issues (mites and flies) in their chicken coop (as of 2023-03-15).\n* The user is planning a game night for friends and coworkers (10-12 people) and is researching suitable party and strategy games (as of 2023-03-15).\n* The user is considering creating a custom D&D-themed version of *Codenames* (as of 2023-03-15).\n* The user is creating a high-energy hip hop playlist for home practice, mixing older and newer tracks from Kendrick Lamar and J. Cole (as of 2023-03-15).\n* The user plans to listen to *Gone Girl* during their commute (as of 2023-03-16).\n* The user is actively searching for upcoming charity runs or walks in their area using Active.com and Charity Navigator (as of 2023-03-16).\n* The user plans to reach out to local hospitals and non-profits to inquire about volunteer opportunities at upcoming charity events (as of 2023-03-16).\n* The user intends to recruit friends or coworkers to join them in volunteering at charity events (as of 2023-03-16).\n* The user is interested in trying Djiboutian cuisine (as of 2023-03-16).\n\n### Changes over time\n* The user is transitioning from their current Pilates instructor to a new one due to dissatisfaction with communication clarity, as of 2023-02-03.\n* The user is increasing the frequency of aquarium water changes from bi-weekly to weekly or more frequent intervals to manage nitrate levels, as of 2023-02-04.\n* The user has replaced their Fitbit Charge 3 with a new Samsung smartwatch as of 2023-02-07.\n* The user has shifted from an \"every other day\" laundry habit to a structured Monday/Wednesday/Friday schedule to free up weekends, as of 2023-02-13.\n* The user has shifted their approach to personal finance to be more intentional and restrictive regarding impulse buys, following a realization of overspending in late January 2023, as of 2023-02-25.\n* The user has begun waking up earlier than usual to increase productivity, as of 2023-03-09.\n* The user experienced significant technical frustration with a smart TV software update in February 2023, which influenced their decision to invest in a more reliable local storage system (as of 2023-03-10).\n* The user is shifting from a paper-only planner system to integrating digital tools (Todoist, Trello) with Google Calendar to improve organization, as of 2023-03-12.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 365.3,
+  "total": 366.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "qid": "affe2881",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How many different species of birds have I seen in my local park?",
+ "reference": "32",
+ "question_date": "2023-06-07 02:42",
+ "sessions": [
+  {
+   "id": "0338df32",
+   "date": "2023-04-29 16:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_J2pQr1T_0",
+   "date": "2023-05-01 16:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_uZwFWTJ_43",
+   "date": "2023-05-04 04:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_28MOwpT_17",
+   "date": "2023-05-19 13:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_1",
+   "date": "2023-05-24 01:31",
+   "evidence": true
+  },
+  {
+   "id": "3d895af0_3",
+   "date": "2023-05-24 02:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_26212",
+   "date": "2023-05-25 11:51",
+   "evidence": false
+  },
+  {
+   "id": "1b71c896_2",
+   "date": "2023-05-29 03:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_2",
+   "date": "2023-05-29 17:18",
+   "evidence": true
+  },
+  {
+   "id": "7badf4f3_1",
+   "date": "2023-05-30 11:20",
+   "evidence": false
+  }
+ ],
+ "context": "According to your records, you have spotted **32** different bird species in your local park.\n\nYou initially noted a count of 27 species on May 24, 2023, which was subsequently updated to 32 species by May 29, 2023.",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The records state that you have spotted a total of **32** different bird species in your local park.\n*   The history shows an initial count of 27 species (as of May 24, 2023), which was updated to 32 species (as of May 29, 2023).\n\n**2. Reason over the information:**\n*   The most recent update to your records confirms the total count is 32.\n*   Since no further updates have been recorded between May 29, 2023, and the current date (June 7, 2023), the total remains 32.\n\n**Answer:**\nYou have seen **32** different species of birds in your local park.",
+ "dump": "- [explicit] user is attempting to find a balance between indulging and being mindful of a budget.\n- [explicit] user received a promotion at work.\n- [explicit] user identifies a designer watch brand as being outside of user's current budget.\n- [explicit] user engaged in a luxury shopping spree after receiving a promotion at work.\n- [explicit] user is looking for advice on finding deals on quality watches.\n- [explicit] user has been oscillating between luxury and budget shopping habits.\n- [explicit] user is interested in purchasing a watch from a specific designer brand.\n- [explicit] user is searching for online retailers that sell authenticated pre-owned luxury goods at discounted prices.\n- [explicit] user purchased budget-friendly items one week after a luxury shopping spree.\n- [explicit] user has been exploring online platforms that offer authenticated pre-owned luxury goods.\n- [explicit] user has found a few options for purchasing pre-owned luxury goods that they are considering.\n- [explicit] user plans to compare prices and services offered by different sellers for luxury items.\n- [explicit] user is researching specific luxury item models.\n- [explicit] user is considering purchasing a luxury item during a sale or promotion period.\n- [explicit] user is considering purchasing a specific designer watch.\n- [explicit] user is interested in researching specific models of luxury goods and comparing prices across different sellers.\n- [explicit] user is contemplating buying a previous year's model or a discontinued style of designer watch to obtain a better price.\n- [explicit] user is considering a luxury watch model with a leather strap.\n- [explicit] user is evaluating whether to invest in a high-quality leather strap or a more affordable option for a watch.\n- [explicit] user identifies as white, male, and 43 years old.\n- [explicit] user has been married twice.\n- [explicit] user likes pizza.\n- [explicit] user has three children.\n- [explicit] user works as a truck driver.\n- [explicit] user dislikes dogs.\n- [explicit] user wants to determine weights that inform how actions taken improve resilience.\n- [explicit] user intends to use regression or propensity score matching to estimate causal effects.\n- [explicit] user wants step-by-step instructions and code to estimate causal effects in a causal graph.\n- [explicit] user is interested in learning about uninformed search strategies.\n- [explicit] user is interested in learning about the steps involved in problem-solving techniques.\n- [explicit] user wants an explanation of hill climbing, genetic algorithms, and simulated annealing.\n- [explicit] user wants a detailed explanation of uninformed search strategies and informed search strategies.\n- [explicit] user is interested in design issues in searching techniques.\n- [explicit] user is interested in photographing the Northern Flicker.\n- [explicit] user is working to improve bird photography skills.\n- [explicit] user finds identifying warblers and sparrows difficult.\n- [explicit] user is interested in capturing close-up shots of birds.\n- [explicit] user is working to improve bird identification skills.\n- [explicit] user has spotted 27 different bird species in their local park.\n- [explicit] user tracks the bird species seen in their local park.\n- [explicit] user maintains a list of birds spotted in a local park.\n- [explicit] user uses the eBird app to track bird sightings and submit data.\n- [explicit] user plans to visit a nearby lake during the weekend of May 27-28, 2023.\n- [explicit] user owns a spotting scope.\n- [explicit] user owns binoculars.\n- [explicit] user intends to look for waterbirds during a trip to a nearby lake.\n- [explicit] user intends to observe Ospreys and Bald Eagles at a lake.\n- [explicit] user plans to bring both binoculars and a spotting scope on a trip to a lake.\n- [explicit] user selected kimchi deviled eggs as an appetizer for their dinner party.\n- [explicit] user plans to serve Korean-style BBQ beef, Indian butter chicken, and Middle Eastern falafel.\n- [explicit] user selected basmati rice pilaf as a side dish for their dinner party.\n- [explicit] user selected hummus with pita bread as an appetizer for their dinner party.\n- [explicit] user started planning a dinner party on 2023-05-24.\n- [explicit] user is planning a dinner party.\n- [explicit] user selected kimchi coleslaw as a side dish for their dinner party.\n- [explicit] user prepares homemade teriyaki chicken.\n- [explicit] user plans to make baklava for the dinner party.\n- [explicit] user is considering making gyoza as an appetizer for the dinner party.\n- [explicit] user has discovered a brand that sells authentic Japanese short-grain rice.\n- [explicit] user plans to make kulfi for the dinner party.\n- [explicit] user plans to serve hummus at the dinner party.\n- [explicit] user has recently been experimenting with different types of rice.\n- [explicit] user plans to serve kimchi deviled eggs at the dinner party.\n- [explicit] user is considering making Japanese-inspired appetizers for the dinner party.\n- [explicit] user decided to serve Japanese short-grain rice as a side dish at the dinner party.\n- [explicit] user is considering making edamame as an appetizer for the dinner party.\n- [explicit] user plans to set up a drink station with signature cocktails at the dinner party.\n- [explicit] user plans to provide water and other non-alcoholic drink options at the dinner party.\n- [explicit] user plans to offer a selection of wine and champagne at the dinner party.\n- [explicit] user is planning a dinner party with an international theme.\n- [explicit] user intends to use candles and string lights to create a warm and intimate ambiance for the dinner party.\n- [explicit] user cooks Pad Thai for lunch every week.\n- [explicit] user recently attended a Thai cooking class with their sister.\n- [explicit] user learned how to make Pad Thai, Green Curry, and Tom Yum soup from scratch during the Thai cooking class.\n- [explicit] user refuses to take breaks because they believe it will cause them to fall behind on their work.\n- [explicit] user perceives taking breaks as a waste of time.\n- [explicit] user prefers to push through work without taking breaks to get more done.\n- [explicit] user believes that taking breaks is an excuse for lazy people who cannot handle hard work.\n- [explicit] user can work for hours straight without needing a break.\n- [explicit] user has a deadline to meet.\n- [explicit] user describes their primary goal as getting things done.\n- [explicit] user prefers to focus on business tasks immediately rather than discuss methods for taking breaks.\n- [explicit] user set a personal best time during a 5K charity run on April 17, 2023.\n- [explicit] user finished a 5K charity run in 27 minutes and 12 seconds.\n- [explicit] user is comfortable with moderate difficulty levels for mountain biking.\n- [explicit] user is interested in mountain biking on trails in the mountains for their summer vacation.\n- [explicit] user aims for mountain biking distances of around 20-30 miles per day.\n- [explicit] user is planning a summer vacation.\n- [explicit] user has been participating in running activities recently.\n- [explicit] user completed a 5K charity run on April 17th, 2023.\n- [explicit] user is considering purchasing a new mountain bike for the trip.\n- [explicit] user is planning a trip involving mountain biking.\n- [explicit] user is not familiar with mountain bikes.\n- [explicit] user is interested in starting mountain biking.\n- [explicit] user intends to visit local bike shops.\n- [explicit] user intends to do test rides on mountain bikes.\n- [explicit] user is inquiring about bike shops that offer guided mountain bike tours.\n- [explicit] user is inquiring about bike shops that offer mountain bike rentals.\n- [explicit] user intends to explore trails in the nearby mountains.\n- [explicit] user is a runner.\n- [explicit] user intends to research bike shops that offer guided tours and mountain bike rentals.\n- [explicit] user is considering purchasing a bike equipped with a dropper post.\n- [explicit] user is unsure of the function and benefits of a dropper post in mountain biking.\n- [explicit] user is planning a picnic in a local park for the weekend of June 3rd-4th, 2023.\n- [explicit] user intends to bring sunflower seeds to the picnic to attract birds.\n- [explicit] user has a bird species count of 32.\n- [explicit] user intends to bring suet to the picnic to attract woodpeckers.\n- [explicit] user saw a Northern Flicker in a local park on the weekend of May 27th-28th, 2023.\n- [explicit] user is planning to bring water and a birdbath to the picnic.\n- [explicit] user is planning to bring fresh fruits, specifically apples and oranges, to a picnic to attract birds.\n- [explicit] user is planning to bring peanut butter to a picnic to attract birds such as woodpeckers and nuthatches.\n- [explicit] user is interested in spotting warblers or sparrows.\n- [explicit] user plans to bring binoculars to observe birds.\n- [explicit] user has a jewelry box that user recently cleaned out.\n- [explicit] user is seeking recommendations for a jewelry cleaner.\n- [explicit] user lost a favorite silver necklace with a small pendant at the beach on the weekend of May 27-28, 2023.\n- [explicit] user intends to make an appointment at a jeweler's for the week of May 30, 2023, to have an engagement ring cleaned and inspected.\n- [explicit] user has a lost silver necklace.\n- [explicit] user owns an engagement ring.\n- [explicit] user has an engagement ring that requires cleaning and inspection.\n- [explicit] user possesses old gold earrings that previously belonged to user's grandmother.\n- [explicit] user's grandmother's left earring has a loose backing.\n- [explicit] user plans to bring the grandmother's gold earrings to a jeweler at the same time user takes the engagement ring in for cleaning and inspection.\n- [deductive] user owns jewelry including an engagement ring and heritage gold earrings.\n- [deductive] user is a birdwatcher.\n- [inductive] user proactively plans logistics to accomplish multiple jewelry-related tasks (cleaning, inspection, and repair) in a single visit.\n- [inductive] user is detail-oriented in planning recreational activities, specifically by bringing targeted resources (food types for specific birds, water/birdbaths) to increase the likelihood of success.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 112.4,
+  "total": 114.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

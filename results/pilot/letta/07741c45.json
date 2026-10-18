@@ -1,0 +1,107 @@
+{
+ "qid": "07741c45",
+ "arm": "letta",
+ "split": "pilot",
+ "question": "Where do I currently keep my old sneakers?",
+ "reference": "in a shoe rack in my closet",
+ "question_date": "2023-06-23 07:31",
+ "sessions": [
+  {
+   "id": "answer_7e9ad7b4_1",
+   "date": "2023-05-25 10:04",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_unwdGag_0",
+   "date": "2023-05-25 21:12",
+   "evidence": false
+  },
+  {
+   "id": "523e716b_2",
+   "date": "2023-05-26 01:30",
+   "evidence": false
+  },
+  {
+   "id": "443688cc_2",
+   "date": "2023-05-26 03:45",
+   "evidence": false
+  },
+  {
+   "id": "66c23110_2",
+   "date": "2023-05-26 10:23",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_27772",
+   "date": "2023-05-27 10:56",
+   "evidence": false
+  },
+  {
+   "id": "df846730",
+   "date": "2023-05-27 12:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mwblaPp_96",
+   "date": "2023-05-27 23:58",
+   "evidence": false
+  },
+  {
+   "id": "af4a2fd1",
+   "date": "2023-05-28 12:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_2",
+   "date": "2023-05-29 15:01",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T14:49:20.991301+00:00', 'time_ago': '4s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-29 15:01] Déjà vu! It seems like we've had this conversation before! I'm happy to help, though!\\n\\nTo answer your question, I previously recommended some great brands and stores for durable sandals. Here's a quick recap:\\n\\n**Brands:**\\n\\n1. Tevas\\n2. Birkenstock\\n3. Sanuk\\n4. Merrell\\n5. Keen\\n\\n**Stores:**\\n\\n1. REI (Recreational Equipment Inc.)\\n2. DSW (Designer Shoe Warehouse)\\n3. Zappos\\n4. Amazon\\n\\nThese brands and stores offer high-quality sandals with durable straps that can withstand regular wear and tear.\\n\\nAs for organizing your closet, I'm excited to hear that you're planning to store your old sneakers in a shoe rack! That's a great way to free up space and keep your shoes organized. Here are some additional tips to help you with your closet organization project:\\n\\n1. **Purge and declutter**: Get rid of any shoes that are no longer wearable or useful.\\n2. **Categorize and group**: Organize your shoes by type (e.g., sneakers, sandals, boots) and group them together.\\n3. **Use storage containers**: Consider using storage bins or baskets to store items like socks, accessories, or out-of-season shoes.\\n4. **Utilize vertical space**: Make the most of your closet's vertical space by using stackable shoe racks or shelves.\\n\\nRemember to have fun and be patient while organizing your closet. It's a process, but the end result will be worth it!\\n\\nIf you have any more questions or need further assistance, feel free to ask!\"}, {'timestamp': '2026-10-17T14:49:20.991285+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-29 15:01] I'm thinking of getting a new pair of sandals with better quality straps. Can you recommend some good brands or stores that offer durable sandals? By the way, I need to organize my closet this weekend, and I'm looking forward to storing my old sneakers in a shoe rack, they're currently taking up space.\"}, {'timestamp': '2026-10-17T14:49:20.991180+00:00', 'time_ago': '4s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-29 15:01] A good cobbler can work wonders on your old sneakers!\\n\\nUnfortunately, I'm a large language model, I don't have access to specific local information, so I can't recommend a specific cobbler in your area. However, I can offer some tips to help you find a reliable and skilled cobbler:\\n\\n1. **Ask around**: Ask friends, family, or coworkers who have similar taste in shoes for recommendations. They might have a trusted cobbler they can refer you to.\\n2. **Online reviews**: Check online review platforms like Yelp, Google Reviews, or Facebook Reviews to find cobblers in your area. Pay attention to the overall rating and read the reviews to get an idea of their reputation and quality of work.\\n3. **Check credentials**: Look for cobblers who are members of professional organizations like the Shoe Service Institute of America (SSIA) or the National Shoe Repair Association (NSRA). These organizations have strict standards and codes of ethics for their members.\\n4. **Check their services**: Make sure the cobbler you choose offers the services you need, such as sneaker polishing, conditioning, and repair. Some cobblers might specialize in specific types of shoes or materials.\\n5. **Visit in person**: Before leaving your sneakers with a cobbler, visit their shop to get a sense of their work environment, equipment, and customer service. A clean and organized shop is often a good sign.\\n\\nWhen you find a cobbler you're comfortable with, make sure to ask them about their process, materials, and pricing. A good cobbler will be happy to explain their methods and provide guidance on how to care for your shoes.\\n\\nAdditionally, you can also consider using online shoe repair services that offer mail-in or drop-off ",
+ "answer": "Based on our previous conversation on May 29th, you mentioned that your old sneakers were taking up space in your closet and that you were planning to organize them by putting them on a shoe rack that coming weekend.",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"old sneakers\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 28.3,
+  "total": 33.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

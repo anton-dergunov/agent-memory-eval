@@ -1,0 +1,100 @@
+{
+ "qid": "0f05491a",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+ "reference": 120,
+ "question_date": "2023-08-01 22:29",
+ "sessions": [
+  {
+   "id": "answer_d6d2eba8_1",
+   "date": "2023-07-11 00:07",
+   "evidence": true
+  },
+  {
+   "id": "1b205d70_2",
+   "date": "2023-07-11 13:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_cfz0d02_36",
+   "date": "2023-07-14 13:56",
+   "evidence": false
+  },
+  {
+   "id": "057cbbc4_1",
+   "date": "2023-07-17 00:41",
+   "evidence": false
+  },
+  {
+   "id": "6024b009_1",
+   "date": "2023-07-20 12:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_224967",
+   "date": "2023-07-22 01:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_447033",
+   "date": "2023-07-23 18:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_rDNsXPP_0",
+   "date": "2023-07-29 18:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6d2eba8_2",
+   "date": "2023-07-30 02:08",
+   "evidence": true
+  },
+  {
+   "id": "ca93550b_1",
+   "date": "2023-08-01 07:00",
+   "evidence": false
+  }
+ ],
+ "context": "- User clarified that the requirement to reach the Gold level on the Starbucks Rewards app is 125 stars within a 12-month period. (from a chat on 2023-07-11)\n- User corrected the assistant, confirming that the requirement to reach Gold level on the Starbucks Rewards app is 120 stars within a 12-month period. (from a chat on 2023-07-30)\n- User is a member of the Starbucks Rewards program and is actively trying to reach the Gold level. (from a chat on 2023-07-11)\n- User was provided with tips for earning Starbucks stars faster, including using Double Star Days, ordering through the app, linking payment cards, and participating in challenges. (from a chat on 2023-07-11)\n- User is planning a weekend shopping trip that includes visiting Sephora and Starbucks. (from a chat on 2023-07-30)\n- User inquired about Fetch Rewards, where 3,000 points are required to redeem a $10 gift card. (from a chat on 2023-07-30)\n- User is considering buying a new laptop and is researching the My Best Buy loyalty program, where 250 points are required to earn a $10 reward certificate. (from a chat on 2023-07-30)\n- User is looking for better ways to organize loyalty cards and rewards points beyond their current spreadsheet method. (from a chat on 2023-07-30)\n- User is working in Shibuya and needs to commute there from Shimokitazawa. (from a chat on 2023-07-17)\n- User drinks coffee as part of their daily routine and is interested in finding deals on coffee beans and coffee makers. (from a chat on 2023-07-11)\n- User prefers pour-over coffee or cappuccinos and seeks a cozy, intimate cafe atmosphere with natural light and a quiet, peaceful ambiance for working or reading. (from a chat on 2023-07-17)\n- User has been snacking on fresh strawberries purchased from Walmart throughout the week. (from a chat on 2023-07-20)\n- User plans to ask the staff member they met at the grocery store for recommendations on signature dishes, specials, and potential off-menu items during their visit. (from a chat on 2023-07-11)\n- User has a large supply of almonds purchased in bulk from Costco and is interested in toasting them for use in parfaits. (from a chat on 2023-07-20)\n- User was provided with strategies for evaluating restaurant reviews on social media, including checking for verified accounts, evaluating content quality, and cross-checking across multiple platforms. (from a chat on 2023-07-11)\n- User was advised to extend strawberry shelf life by washing them only right before consumption, storing them in breathable containers in the refrigerator, and using them within 3 to 7 days. (from a chat on 2023-07-20)\n- User is meal prepping and looking for healthy breakfast ideas using a large tub of Greek yogurt purchased from Costco. (from a chat on 2023-07-20)\n- User was advised on how to make a good first impression at a new restaurant, including making reservations, being punctual, and mentioning their personal connection to a staff member. (from a chat on 2023-07-11)\n- User was recommended several cafes in Shimokitazawa: Cafe Kitsune, Bear Pond Espresso, Cafe de l'Arc, Koffee Mameya, and Cafe Sora. (from a chat on 2023-07-17)\n- User is considering switching to non-dairy milk alternatives and is evaluating almond milk versus oat milk for taste and texture. (from a chat on 2023-08-01)",
+ "answer": "To answer your question, I have reviewed the history of our chats:\n\n**Step 1: Extract relevant information**\n*   In a chat on 2023-07-11, you initially mentioned the requirement was 125 stars.\n*   In a follow-up chat on 2023-07-30, you corrected this information, confirming that the requirement to reach the Gold level on the Starbucks Rewards app is **120 stars** within a 12-month period.\n\n**Step 2: Reason over the information**\n*   Since the most recent information provided by you on 2023-07-30 serves as the correction to the previous figure, the accurate requirement is 120 stars.\n\n**Answer:**\nYou need **120 stars** within a 12-month period to reach the Gold level on your Starbucks Rewards app.",
+ "dump": "- User was recommended several cafes in Shimokitazawa: Cafe Kitsune, Bear Pond Espresso, Cafe de l'Arc, Koffee Mameya, and Cafe Sora. (session 2023-07-17)\n- The success of Beyoncé's 'Lemonade' is attributed to its visual album format, diverse musical influences (pop, R&B, rock, country, Afrobeats), high-profile collaborations, and an unconventional marketing strategy involving an HBO premiere and Tidal exclusivity. (session 2023-07-23)\n- Alyssa and Lizzie explored kinky play involving a collar and chain leash, which Lizzie agreed to try after some consideration. (session 2023-07-14)\n- User intends to visit a local restaurant this weekend where a man who helped them at the grocery store works. (session 2023-07-11)\n- Alyssa removed the collar and leash after their shopping trip and lunch, concluding their session of kinky play. (session 2023-07-14)\n- User completed their HPV vaccine series with a final booster dose in July 2023. (session 2023-08-01)\n- User has been suffering from a persistent cough for three weeks due to bronchitis and is seeking management strategies while recovering. (session 2023-08-01)\n- User drinks coffee as part of their daily routine and is interested in finding deals on coffee beans and coffee makers. (session 2023-07-11)\n- User is interested in learning basic Japanese phrases for commuting and shopping, specifically starting with 'sumimasen' and 'arigatou'. (session 2023-07-17)\n- User has a large supply of almonds purchased in bulk from Costco and is interested in toasting them for use in parfaits. (session 2023-07-20)\n- User was provided with strategies for evaluating restaurant reviews on social media, including checking for verified accounts, evaluating content quality, and cross-checking across multiple platforms. (session 2023-07-11)\n- User received a flu shot in July 2023. (session 2023-08-01)\n- Alyssa uses the nickname 'kitten' or 'kitty' for Lizzie, which is a term of endearment related to Lizzie being a nekomimi. (session 2023-07-14)\n- User appreciates Beyoncé's album 'Lemonade' for its social commentary on issues like infidelity, black feminism, and police brutality, and its ability to blend personal storytelling with universal themes. (session 2023-07-23)\n- User has been snacking on fresh strawberries purchased from Walmart throughout the week. (session 2023-07-20)\n- User inquired about Fetch Rewards, where 3,000 points are required to redeem a $10 gift card. (session 2023-07-30)\n- User is considering buying a new laptop and is researching the My Best Buy loyalty program, where 250 points are required to earn a $10 reward certificate. (session 2023-07-30)\n- User was recommended several ramen shops in Shibuya: Ichiran, Totto Ramen, Shina Sobaya, Ramen Nagi, and Afuri. (session 2023-07-17)\n- User arrived in Tokyo on July 17, 2023, and is currently living in the Shimokitazawa neighborhood. (session 2023-07-17)\n- User was advised to extend strawberry shelf life by washing them only right before consumption, storing them in breathable containers in the refrigerator, and using them within 3 to 7 days. (session 2023-07-20)\n- User plans to try the Odakyu Line and JR Yamanote Line route for their commute to Shibuya. (session 2023-07-17)\n- User plans to ask the staff member they met at the grocery store for recommendations on signature dishes, specials, and potential off-menu items during their visit. (session 2023-07-11)\n- User is meal prepping and looking for healthy breakfast ideas using a large tub of Greek yogurt purchased from Costco. (session 2023-07-20)\n- User is working in Shibuya and needs to commute there from Shimokitazawa. (session 2023-07-17)\n- User was provided with tips for earning Starbucks stars faster, including using Double Star Days, ordering through the app, linking payment cards, and participating in challenges. (session 2023-07-11)\n- User posed a riddle about five sisters in a room, and the assistant correctly identified that the fifth sister is playing chess with Kate. (session 2023-07-29)\n- User admires the Indian actor Nassar for his versatility and ability to bring depth and complexity to both positive and negative roles. (session 2023-07-22)\n- User is considering switching to non-dairy milk alternatives and is evaluating almond milk versus oat milk for taste and texture. (session 2023-08-01)\n- User is using a food diary to track digestive issues and suspects dairy products may be the cause. (session 2023-08-01)\n- User prefers pour-over coffee or cappuccinos and seeks a cozy, intimate cafe atmosphere with natural light and a quiet, peaceful ambiance for working or reading. (session 2023-07-17)\n- Lizzie wore a collar and leash while grocery shopping with Alyssa, during which Lizzie remained barefoot. (session 2023-07-14)\n- User plans to read 'Our Missing Hearts' by Celeste Ng, which was suggested by a woman they met on the bus the week of July 3, 2023. (session 2023-07-11)\n- User corrected the assistant, confirming that the requirement to reach Gold level on the Starbucks Rewards app is 120 stars within a 12-month period. (session 2023-07-30)\n- User was recommended two primary routes for commuting from Shimokitazawa to Shibuya: Option 1 (Odakyu Line to Yoyogi-Uehara, then JR Yamanote Line) and Option 2 (Odakyu Line to Yoyogi-Uehara, then Tokyu Toyoko Line and Tokyo Metro Fukutoshin Line). (session 2023-07-17)\n- User clarified that the requirement to reach the Gold level on the Starbucks Rewards app is 125 stars within a 12-month period. (session 2023-07-11)\n- User is actively trying to reduce plastic usage and prefers granola options with minimal or no packaging, such as buying in bulk or making it at home. (session 2023-07-20)\n- User was recommended several Indian actors known for their versatile acting skills: Kamal Haasan, Naseeruddin Shah, Manoj Bajpayee, the late Irrfan Khan, and Nawazuddin Siddiqui. (session 2023-07-22)\n- Alyssa and Lizzie are in a relationship, with Alyssa identifying as a dragonkin and Lizzie as a nekomimi. (session 2023-07-14)\n- User is planning a weekend shopping trip that includes visiting Sephora and Starbucks. (session 2023-07-30)\n- User is looking for better ways to organize loyalty cards and rewards points beyond their current spreadsheet method. (session 2023-07-30)\n- User had a benign mole removed from their left forearm on January 20, 2023. (session 2023-08-01)\n- User was provided with oven and pan-toasting methods for almonds, along with storage tips including refrigeration for up to 2 weeks or freezing for up to 6 months. (session 2023-07-20)\n- User is a member of the Starbucks Rewards program and is actively trying to reach the Gold level. (session 2023-07-11)\n- User was advised on how to make a good first impression at a new restaurant, including making reservations, being punctual, and mentioning their personal connection to a staff member. (session 2023-07-11)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 44,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 28.5,
+  "total": 30.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

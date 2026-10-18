@@ -1,0 +1,104 @@
+{
+ "qid": "eace081b",
+ "arm": "mem0",
+ "split": "main",
+ "question": "Where am I planning to stay for my birthday trip to Hawaii?",
+ "reference": "Oahu",
+ "question_date": "2023-06-06 04:18",
+ "sessions": [
+  {
+   "id": "b3763b6b_2",
+   "date": "2023-05-22 04:06",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_1",
+   "date": "2023-05-22 11:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504859",
+   "date": "2023-05-22 11:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_tny5DVg_5",
+   "date": "2023-05-22 16:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3sbRtMX_24",
+   "date": "2023-05-23 01:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_amiy1W6_0",
+   "date": "2023-05-24 08:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_446917",
+   "date": "2023-05-24 09:30",
+   "evidence": false
+  },
+  {
+   "id": "4d04b866",
+   "date": "2023-05-25 17:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8a791264_2",
+   "date": "2023-05-25 18:17",
+   "evidence": true
+  },
+  {
+   "id": "3722ea11_2",
+   "date": "2023-05-25 20:54",
+   "evidence": false
+  }
+ ],
+ "context": "- User is planning a birthday trip to Kauai, Hawaii, and is interested in hiking, snorkeling, and trying local cuisine. (from a chat on 2023-05-22)\n- User is planning a birthday trip to Oahu, Hawaii, in October 2023 and is interested in snorkeling and hiking. (from a chat on 2023-05-25)\n- User is planning a 3-4 day trip to both Boston and New York City, with a focus on history, architecture, local food, and visiting famous bookstores. (from a chat on 2023-05-25)\n- User plans to hike the Manoa Falls Trail on Oahu and intends to have breakfast at Morning Glass Coffee + Cafe beforehand. (from a chat on 2023-05-25)\n- User recently completed a 7-day, 2,500-mile road trip to Yellowstone National Park and Grand Teton National Park, which was their longest road trip to date. (from a chat on 2023-05-25)\n- User plans to snorkel at Hanauma Bay Nature Preserve and Shark's Cove on Oahu, and was advised to arrive at Hanauma Bay by 7:00 AM to avoid crowds. (from a chat on 2023-05-25)\n- User's favorite accommodation during their recent road trip was a hotel in Jackson Hole, Wyoming, chosen for its Teton Range views and proximity to local shops and restaurants. (from a chat on 2023-05-25)\n- User plans to visit Quincy Market in Boston and Smorgasburg in Brooklyn, and was recommended specific foods like clam chowder, lobster rolls, cannoli, artisanal grilled cheese, and Korean BBQ tacos. (from a chat on 2023-05-25)\n- User was recommended less crowded beaches on Oahu for relaxing, including Kaimana Beach, Kailua Beach, Lanikai Beach, Shark's Cove, and Waialae Beach. (from a chat on 2023-05-25)\n- User was recommended snorkeling spots on Kauai for sea turtle and monk seal sightings, including Hanalei Bay, Anini Beach, Poipu Beach, Koloa Landing, Kekaha Beach, and Polihale State Park. (from a chat on 2023-05-22)\n- User was recommended several hiking trails on Oahu, including Manoa Falls, Makapu'u Point Lighthouse, Diamond Head, Olomana, Kuliouou Ridge, and Waimea Valley. (from a chat on 2023-05-25)\n- User was recommended local Kauai restaurants for Hawaiian cuisine like laulau and kalua pig, including Mark's Place, Kintaro, Hanalei Gourmet, Bar Acuda, Kalaheo Café, Eating House 1849, and The Fish Hopper. (from a chat on 2023-05-22)\n- User was recommended several hiking trails on Kauai, including the Kalalau Trail, Waimea Canyon Trail, Sleeping Giant Trail, Mahaulepu Heritage Trail, Awaawapuhi Trail, 'Opaeka'a Falls Trail, and Kukui Trail. (from a chat on 2023-05-22)\n- User decided to book a snorkeling tour to the Na Pali Coast and was recommended operators including Na Pali Coast Tours, Kauai Sea Rider, Island Adventures Kauai, and Kauai Snorkeling Tours. (from a chat on 2023-05-22)\n- User was recommended waterfalls on Kauai accessible by hiking, including 'Opaeka'a Falls, Uluwehi Falls (Secret Falls), Waipuna Falls, and waterfalls along the Kuilau Ridge and 'Iliau Nature Loop trails. (from a chat on 2023-05-22)\n- User was recommended breakfast spots near the Manoa Falls Trailhead, including Morning Glass Coffee + Cafe, The Nook Neighborhood Bistro, Koko Head Cafe, and Manoa Marketplace. (from a chat on 2023-05-25)\n- User attended an event called 'Rack Fest' in a nearby city on June 18, 2023. (from a chat on 2023-05-22)\n- User is interested in visiting bookstores and literary landmarks, and was recommended the Harvard Book Store, Papercuts J.P., The Coop at MIT, The Edgar Allan Poe House, The Strand, McNally Jackson, Housing Works Bookstore Cafe, The Mark Twain House & Museum, and the New York Public Library. (from a chat on 2023-05-25)\n- User successfully completed the testing phase for the Loyalty Platform and is moving into the Go-to-market phase, which includes creating a Product Brief, Release Notes, Internal/External FAQs, User Documentation, a Newsletter Entry, and an Internal Presentation. (from a chat on 2023-05-22)\n- User is developing a new Loyalty Platform for merchant customers, which includes features for tracking repeat transactions, assigning rewards, tracking customer data, and integrating with marketing platforms. (from a chat on 2023-05-22)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   From the chat on 2023-05-22: The user was planning a birthday trip to Kauai, Hawaii.\n*   From the chat on 2023-05-25: The user is planning a birthday trip to Oahu, Hawaii, in October 2023.\n*   Reviewing all provided facts regarding accommodation: The only mention of accommodation is the user's \"favorite accommodation during their recent road trip\" in Jackson Hole, Wyoming.\n\n**Step 2: Reason over the information**\n*   While the user has discussed specific plans for their birthday trips to both Kauai and Oahu (such as hiking trails, snorkeling spots, and breakfast locations), there is no information in the provided history regarding where the user is planning to stay for either of these Hawaii trips.\n*   The mention of a hotel in Jackson Hole refers to a past road trip, not the upcoming birthday trips to Hawaii.\n\n**Conclusion:**\nThere is no information provided in the history chats regarding where you are planning to stay for your birthday trip to Hawaii.",
+ "dump": "- User was provided with an overview of popular martial arts including Karate, Kung Fu, Tae Kwon Do, Judo, Muay Thai, Brazilian Jiu Jitsu, and Aikido. (session 2023-05-24)\n- User's favorite accommodation during their recent road trip was a hotel in Jackson Hole, Wyoming, chosen for its Teton Range views and proximity to local shops and restaurants. (session 2023-05-25)\n- User successfully completed the testing phase for the Loyalty Platform and is moving into the Go-to-market phase, which includes creating a Product Brief, Release Notes, Internal/External FAQs, User Documentation, a Newsletter Entry, and an Internal Presentation. (session 2023-05-22)\n- User is analyzing the Capital One cyberattack, specifically mapping the attack stages and steps to technical controls and failed NIST Cybersecurity Framework (CSF) controls. (session 2023-05-23)\n- User is developing a new Loyalty Platform for merchant customers, which includes features for tracking repeat transactions, assigning rewards, tracking customer data, and integrating with marketing platforms. (session 2023-05-22)\n- User was advised to approach LTA negotiations by reviewing specific regulatory requirements, gathering comprehensive technical and safety data, identifying specific points of contention, and remaining open to compromise or seeking professional regulatory consulting. (session 2023-05-24)\n- User is seeking performance upgrades for their Mustang, specifically exhaust and suspension modifications, and was recommended local shops in their city including [City] Performance Center, Fast Lane Performance, RPM Motorsports, and GT Performance. (session 2023-05-22)\n- User is interested in the humanitarian operations of the Red Crescent Society, specifically regarding their medical assistance, supply distribution, and volunteer recruitment and training processes in disaster zones. (session 2023-05-22)\n- User is interested in visiting bookstores and literary landmarks, and was recommended the Harvard Book Store, Papercuts J.P., The Coop at MIT, The Edgar Allan Poe House, The Strand, McNally Jackson, Housing Works Bookstore Cafe, The Mark Twain House & Museum, and the New York Public Library. (session 2023-05-25)\n- User is planning a birthday trip to Kauai, Hawaii, and is interested in hiking, snorkeling, and trying local cuisine. (session 2023-05-22)\n- User was advised to integrate new clothing into existing closet categories rather than creating a separate section, and to sort items by color or pattern to better identify outfit combinations. (session 2023-05-25)\n- User was recommended breakfast spots near the Manoa Falls Trailhead, including Morning Glass Coffee + Cafe, The Nook Neighborhood Bistro, Koko Head Cafe, and Manoa Marketplace. (session 2023-05-25)\n- User decided to book a snorkeling tour to the Na Pali Coast and was recommended operators including Na Pali Coast Tours, Kauai Sea Rider, Island Adventures Kauai, and Kauai Snorkeling Tours. (session 2023-05-22)\n- User received styling advice for vintage band t-shirts, including pairing them with modern pieces, distressed denim, or skirts, and using accessories to create a balanced look. (session 2023-05-25)\n- User was recommended several hiking trails on Kauai, including the Kalalau Trail, Waimea Canyon Trail, Sleeping Giant Trail, Mahaulepu Heritage Trail, Awaawapuhi Trail, 'Opaeka'a Falls Trail, and Kukui Trail. (session 2023-05-22)\n- User plans to hike the Manoa Falls Trail on Oahu and intends to have breakfast at Morning Glass Coffee + Cafe beforehand. (session 2023-05-25)\n- User decided to purchase Meguiar's Gold Class Carnauba Plus wax after comparing it to their current SpeedShine kit. (session 2023-05-22)\n- User was recommended less crowded beaches on Oahu for relaxing, including Kaimana Beach, Kailua Beach, Lanikai Beach, Shark's Cove, and Waialae Beach. (session 2023-05-25)\n- User is currently navigating a difficult negotiation with the Land Transport Authority (LTA) regarding the detrainment device for their project. (session 2023-05-24)\n- User was recommended historical and architectural sites in New York City, including the Statue of Liberty, Ellis Island, Central Park, The Metropolitan Museum of Art, 9/11 Memorial & Museum, Times Square, New-York Historical Society, Tenement Museum, Midtown Manhattan landmarks, the High Line, Greenwich Village, and the Brooklyn Museum. (session 2023-05-25)\n- User was recommended Borla, Roush, and Ford Performance for exhaust upgrades, and Koni, Eibach, and Bilstein for suspension upgrades for their Mustang. (session 2023-05-22)\n- User has been using SpeedShine's detailing kit for their car and is satisfied with its performance. (session 2023-05-22)\n- The Capital One attack analysis includes six stages: Anonymizing services usage, SSRF attack, WAF misconfiguration, obtaining temporary credentials, listing S3 buckets, and data exfiltration. (session 2023-05-23)\n- User was recommended local Kauai restaurants for Hawaiian cuisine like laulau and kalua pig, including Mark's Place, Kintaro, Hanalei Gourmet, Bar Acuda, Kalaheo Café, Eating House 1849, and The Fish Hopper. (session 2023-05-22)\n- User was recommended historical and architectural sites in Boston, including the Freedom Trail, Fenway Park, Museum of Fine Arts, Quincy Market, New England Aquarium, Bostonian Society Museum, Old State House, Beacon Hill, Boston Public Library, and the Institute of Contemporary Art. (session 2023-05-25)\n- User was introduced to closet organization methods including the KonMari Method, the FlyLady Method, and the 4-Box Method to help manage their growing wardrobe. (session 2023-05-25)\n- User was introduced to unique or lesser-known martial arts styles including Capoeira, Silat, Kalarippayattu, Systema, Pencak Silat, and Wing Chun. (session 2023-05-24)\n- The Red Crescent Society addresses medical needs in disaster zones through emergency medical services, mobile clinics, psychosocial support, water and sanitation services, and the provision of medical supplies. (session 2023-05-22)\n- User received tips for styling high-waisted jeans, such as cuffing the hem, tucking in tops, using belts to accentuate the waist, and experimenting with different footwear like sneakers or ankle boots. (session 2023-05-25)\n- User plans to visit Quincy Market in Boston and Smorgasburg in Brooklyn, and was recommended specific foods like clam chowder, lobster rolls, cannoli, artisanal grilled cheese, and Korean BBQ tacos. (session 2023-05-25)\n- User is interested in learning about the history, origins, and evolution of various martial arts styles, including both popular and lesser-known forms. (session 2023-05-24)\n- User owns a 2018 Ford Mustang GT with a 5.0L V8 engine. (session 2023-05-22)\n- User is interested in taking their Mustang to a local track day and was provided with resources like TrackDayRegistry.com, NASA, and SCCA to find events. (session 2023-05-22)\n- User was recommended several hiking trails on Oahu, including Manoa Falls, Makapu'u Point Lighthouse, Diamond Head, Olomana, Kuliouou Ridge, and Waimea Valley. (session 2023-05-25)\n- User was provided with Mermaid, Graphviz, and PlantUML code to visualize the state and sequence of the Capital One cyberattack. (session 2023-05-23)\n- User's recent thrift store haul consists of approximately 70% casual tops (t-shirts and tank tops) and 30% dressier items (blouses and sweaters). (session 2023-05-25)\n- User is planning a birthday trip to Oahu, Hawaii, in October 2023 and is interested in snorkeling and hiking. (session 2023-05-25)\n- User's new thrifted items include a bright coral pink graphic t-shirt, a pastel blue cable knit sweater, a white tank top with lace trim, and a black blouse with an abstract floral pattern. (session 2023-05-25)\n- User purchased a variety of gently used clothing at a local thrift store's 'fill a bag for $10' sale on May 25, 2023. (session 2023-05-25)\n- User was recommended K&N, AEM DryFlow, and BMC as high-performance air filter brands for their 2018 Ford Mustang GT. (session 2023-05-22)\n- The Red Crescent Society recruits and trains volunteers through a process involving public recruitment drives, background screening, comprehensive training (online, classroom, and hands-on), ongoing education, and regular field simulations and drills. (session 2023-05-22)\n- User recently completed a 7-day, 2,500-mile road trip to Yellowstone National Park and Grand Teton National Park, which was their longest road trip to date. (session 2023-05-25)\n- User plans to snorkel at Hanauma Bay Nature Preserve and Shark's Cove on Oahu, and was advised to arrive at Hanauma Bay by 7:00 AM to avoid crowds. (session 2023-05-25)\n- User is planning a 3-4 day trip to both Boston and New York City, with a focus on history, architecture, local food, and visiting famous bookstores. (session 2023-05-25)\n- User was recommended waterfalls on Kauai accessible by hiking, including 'Opaeka'a Falls, Uluwehi Falls (Secret Falls), Waipuna Falls, and waterfalls along the Kuilau Ridge and 'Iliau Nature Loop trails. (session 2023-05-22)\n- The Loyalty Platform user guide provides instructions on accessing the dashboard, tracking repeat transactions, assigning custom rewards, viewing analytics, and customizing program settings. (session 2023-05-22)\n- User was recommended snorkeling spots on Kauai for sea turtle and monk seal sightings, including Hanalei Bay, Anini Beach, Poipu Beach, Koloa Landing, Kekaha Beach, and Polihale State Park. (session 2023-05-22)\n- User attended an event called 'Rack Fest' in a nearby city on June 18, 2023. (session 2023-05-22)\n- The Red Crescent Society distributes medical supplies in disaster zones through needs assessments, logistics management (using planes, helicopters, trucks, and boats), prepositioning of supplies, inventory management, and direct distribution via clinics and volunteers. (session 2023-05-22)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 49,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 35.5,
+  "total": 37.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

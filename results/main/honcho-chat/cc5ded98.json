@@ -1,0 +1,96 @@
+{
+ "qid": "cc5ded98",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How much time do I dedicate to coding exercises each day?",
+ "reference": "about two hours",
+ "question_date": "2023-06-13 01:30",
+ "sessions": [
+  {
+   "id": "ultrachat_361535",
+   "date": "2023-05-20 06:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_1",
+   "date": "2023-05-20 09:04",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_221540",
+   "date": "2023-05-21 10:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_110794",
+   "date": "2023-05-22 21:07",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pyK55Br_11",
+   "date": "2023-05-25 07:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_2",
+   "date": "2023-05-29 01:53",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_245905",
+   "date": "2023-06-05 11:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_176513",
+   "date": "2023-06-05 15:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_393019",
+   "date": "2023-06-10 02:03",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_YyyF8MF_0",
+   "date": "2023-06-12 13:21",
+   "evidence": false
+  }
+ ],
+ "context": "I have found contradictory information in your history regarding the time you dedicate to coding exercises:\n\n*   On **May 20, 2023**, you mentioned that you dedicate about **one hour** each day to coding exercises.\n*   By **May 29, 2023**, you noted that you were dedicating **two hours** each day to these exercises.\n\nSince the information from May 29th is more recent, it appears you increased your daily commitment. Could you confirm if two hours is the current amount of time you are dedicating to your practice?",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   Fact 1 (May 20, 2023): The user stated they dedicated one hour per day to coding exercises.\n*   Fact 2 (May 29, 2023): The user stated they increased their dedication to two hours per day.\n*   Current Date: June 13, 2023.\n\n**2. Reason over the information:**\n*   The information from May 29, 2023, represents the most recent update regarding the user's coding schedule.\n*   Since no further updates have been provided between May 29, 2023, and the current date (June 13, 2023), the most recent figure remains the valid current commitment.\n\n**Answer:**\nYou dedicate **two hours** each day to coding exercises.",
+ "dump": "- [explicit] user is seeking recommendations for specific fitness classes or activities at Boston College.\n- [explicit] user is interested in the fitness facilities available to students at Boston College.\n- [explicit] user intends to check with Boston College regarding any fees for the use of fitness facilities.\n- [explicit] user is interested in knowing if fitness facilities at Boston College are crowded during peak hours.\n- [explicit] user has been reflecting on their learning journey over the past few months.\n- [explicit] user wants to track their progress in coding exercises.\n- [explicit] user has been using the Pomodoro Technique to stay focused on coding exercises.\n- [explicit] user identifies Habitica and WakaTime as tools that could be useful for them.\n- [explicit] user is seeking recommendations for online resources or courses to improve Python skills.\n- [explicit] user dedicates about one hour each day to coding exercises.\n- [explicit] user is considering whether to specialize in data science or machine learning versus getting a broad understanding of Python first.\n- [explicit] user likes the interactive exercises provided by Pluralsight.\n- [explicit] user uses Pluralsight for Python tutorials.\n- [explicit] user plans to explore data science and machine learning after gaining a broad understanding of Python.\n- [explicit] user intends to focus on building a broad understanding of Python first.\n- [explicit] user is seeking tips on how to approach learning data science and machine learning with Python.\n- [explicit] user is interested in learning data science and machine learning with Python.\n- [explicit] user is interested in examples of Bacillus strains that have evolved unique metabolic capabilities.\n- [explicit] user is interested in whether discoveries of new Bacillus strains have been put into practical use.\n- [explicit] user is interested in the evolution of Bacillus strains in response to selective pressures.\n- [explicit] user is interested in whether there are more Bacillus strains with unique properties yet to be discovered.\n- [explicit] user is interested in learning about specific steps being taken to minimize risks associated with using Bacillus strains.\n- [explicit] user is interested in learning about potential downsides of using Bacillus strains in biotechnology and other applications.\n- [explicit] user holds a positive view of the impact of Bacillus strains on the environment and society.\n- [explicit] user appreciates that scientists are taking risks associated with Bacillus strains seriously and implementing measures to minimize them.\n- [explicit] user finds it frustrating that a colleague's behavior impacts the office atmosphere.\n- [explicit] user perceives that a toxic colleague brings negativity into every interaction.\n- [explicit] user has a colleague in the office whose behavior is toxic.\n- [explicit] user feels more in control after implementing suggested tips for dealing with a toxic colleague.\n- [explicit] user requested further explanation and examples regarding the Medicare Conditions of Participation for Critical Access Hospitals.\n- [explicit] user is interested in the Medicare Conditions of Participation requirements for Critical Access Hospitals.\n- [explicit] user understands that the application to the Centers for Medicare & Medicaid Services (CMS) must include details about the hospital's location, ownership, and services.\n- [explicit] user understands that the application to the Centers for Medicare & Medicaid Services (CMS) must include a detailed plan for how the hospital will meet Critical Access Hospital (CAH) requirements.\n- [explicit] user is requesting more detailed information and examples regarding the application submission process for a STACH (Small Rural Hospital) to become a Critical Access Hospital.\n- [explicit] user is trying to improve their coding skills.\n- [explicit] user spends about two hours each day on coding exercises.\n- [explicit] user prefers resources focused on Python.\n- [explicit] user is seeking resources for learning data structures and algorithms.\n- [explicit] user is seeking platforms and websites for problem-solving and coding challenges.\n- [explicit] user has been using Pluralsight for Python tutorials.\n- [explicit] user is dedicating two hours each day to coding exercises.\n- [explicit] user is motivated by the desire to improve coding skills and open up new opportunities.\n- [explicit] user plans to build personal projects including a simple web scraper and a chatbot.\n- [explicit] user plans to set goals for completing specific numbers of coding challenges within timeframes.\n- [explicit] user intends to contribute to open-source projects.\n- [explicit] user intends to track progress by keeping a log of completed challenges, learned concepts, and improved skills.\n- [explicit] user intends to collaborate with other developers on coding challenges.\n- [explicit] user plans to set goals for mastering particular coding skills.\n- [explicit] user is motivated by seeing progress and achieving small victories.\n- [explicit] user is interested in the role Krishna played in helping Arjuna during the war and how he utilized the chariot.\n- [explicit] user believes it is important to have someone wise and supportive by one's side during difficult times.\n- [explicit] user believes it is important to value the wisdom and guidance of elders and mentors.\n- [explicit] user thinks that society often overlooks the value of mentorship.\n- [explicit] user believes that people should make a conscious effort to seek out wise individuals for guidance and support in personal and professional lives.\n- [explicit] user believes that individuals should attempt to become mentors to pass on their knowledge and experience to future generations.\n- [explicit] user intends to eat at Cafe Moccha after visiting the Lynn Museum.\n- [explicit] user is planning a visit to the King's Lynn area.\n- [explicit] user intends to visit the Lynn Museum.\n- [explicit] user intends to visit some of the other landmarks in the King's Lynn area suggested to them.\n- [explicit] user has young children.\n- [explicit] user is interested in whether vervet monkeys store food for later.\n- [explicit] user is interested in the feeding behavior of vervet monkeys.\n- [explicit] user is analyzing the extended text \"神々がつかさどる 超自然の世界. 天よりも高く人間界からは窺い知ることができない次元を超越した天の国神々はこの地から世界のすべてを見おろしている\".\n- [explicit] user is interested in the meaning and implications of the Japanese phrase \"次元を超越した\".\n- [explicit] user is analyzing the text \"天よりも高く人間界からは窺い知ることができない次元を超越した天の国神々はこの地から世界のすべてを見おろしている\".\n- [deductive] user possesses basic programming interests or skills, as evidenced by plans for personal projects and contributing to open-source software.\n- [deductive] user is interested in non-human animal behavior, potentially from a biological or ethological perspective.\n- [deductive] user has an interest in Japanese literature or mythology, specifically themes concerning celestial beings or divine entities.\n- [inductive] user is systematic in travel planning, often balancing logistical needs (like visiting museums/landmarks) with personal or familial preferences (like dining or child-friendliness).\n- [inductive] user values the importance of guidance, mentorship, and learning from the wisdom of others, both in personal development and professional contexts.\n- [inductive] user frequently seeks out educational or thematic analysis on diverse topics, ranging from mythological literature to animal ethology.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 157.6,
+  "total": 160.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

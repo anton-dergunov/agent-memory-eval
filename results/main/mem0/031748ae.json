@@ -1,0 +1,100 @@
+{
+ "qid": "031748ae",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+ "reference": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+ "question_date": "2023-11-10 04:20",
+ "sessions": [
+  {
+   "id": "answer_8748f791_1",
+   "date": "2023-05-11 02:02",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_362770",
+   "date": "2023-06-15 22:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_472644",
+   "date": "2023-10-24 03:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_8748f791_2",
+   "date": "2023-10-24 13:53",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_pPNVaqR_0",
+   "date": "2023-10-25 21:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LaG73Rk_0",
+   "date": "2023-10-28 10:47",
+   "evidence": false
+  },
+  {
+   "id": "b70ac29f_1",
+   "date": "2023-11-02 08:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_556006",
+   "date": "2023-11-03 04:35",
+   "evidence": false
+  },
+  {
+   "id": "6a747f2e",
+   "date": "2023-11-05 03:33",
+   "evidence": false
+  },
+  {
+   "id": "bd3880f4",
+   "date": "2023-11-05 21:53",
+   "evidence": false
+  }
+ ],
+ "context": "- User is a Senior Software Engineer who leads a team of 4 engineers. (from a chat on 2023-05-11)\n- User is a Senior Software Engineer leading a team of five engineers and is focused on improving their delegation skills, specifically setting realistic deadlines and providing better support. (from a chat on 2023-10-24)\n- City View Rooftop offers a Corporate Team Building Package starting at $500 for a weekday afternoon, which includes a 2-hour private rental, outdoor games like Giant Jenga, and a complimentary drink ticket per guest. (from a chat on 2023-05-11)\n- User is planning a weekend trip to New York City and is interested in visiting various museums. (from a chat on 2023-11-02)\n- User is planning a team outing for a group of 5 people: 4 engineers and their manager, Rachel. (from a chat on 2023-05-11)\n- User is planning a team hike at Mount Tamalpais State Park for their group of six, which includes themselves and their five team members. (from a chat on 2023-10-24)\n- User was provided with strategies for effective task delegation, including defining clear objectives, identifying team strengths, setting realistic deadlines, and using task tracking tools like Jira or Trello. (from a chat on 2023-10-24)\n- User was provided with a feedback practice scenario involving a team leader named John who struggles with workload and deadline management, designed for pairs to practice giving specific, objective, and actionable feedback. (from a chat on 2023-10-25)\n- User is designing a 3.5-hour workshop for middle managers on coaching fundamentals, based on the book 'The Coaching Habit', which includes modules on the 7 essential questions, active listening, and giving feedback. (from a chat on 2023-10-25)\n- User was provided with a comparative analysis of the political systems of ancient Greece (Athens' democracy and Sparta's oligarchy) and Rome (the Republic with its Senate and checks and balances). (from a chat on 2023-11-03)\n- User is interested in hosting their team outing at City View Rooftop and plans to contact their events manager, Samantha, to inquire about the Corporate Team Building Package. (from a chat on 2023-05-11)\n- User intends to incorporate structured activities into the team outing to encourage teamwork and collaboration among the attendees. (from a chat on 2023-05-11)\n- User plans to decant their favorite toiletries into smaller containers and use travel-sized options to save luggage space for the Seattle trip. (from a chat on 2023-11-05)\n- User plans to prioritize dark and neutral colors for their clothing on the Seattle trip, while including a few lighter colors for visual interest. (from a chat on 2023-11-05)\n- User intends to pack hand-washable clothing, specifically quick-drying t-shirts and travel pants, to reduce luggage weight and handle laundry needs during the Seattle trip. (from a chat on 2023-11-05)\n- User was provided with an analysis of how the differing values of the United States (individual liberty, democracy, free market) and China (collective vision, social harmony, government-managed economy) impact their respective political effectiveness and societal outcomes. (from a chat on 2023-11-03)\n- User is looking for advice on packing a minimal number of versatile, comfortable, and water-resistant shoes for walking and exploring Seattle. (from a chat on 2023-11-05)\n- User visited the Museum of Modern Art (MoMA) in October 2023 with their sister, Emily, to see a retrospective of Frida Kahlo's work, spending about four hours exploring the exhibit. (from a chat on 2023-11-02)\n- User is planning a trip to Seattle in April 2024 and is researching weather conditions and packing strategies. (from a chat on 2023-11-05)\n- User was suggested the nickname 'Amanda \"The Westside Whisperer\" Van Hooch, Queen of the Speakeasy and Gin-Running Racket' for their friend Amanda Van West. (from a chat on 2023-10-28)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   From the chat on 2023-05-11: \"User is a Senior Software Engineer who leads a team of 4 engineers.\"\n*   From the chat on 2023-10-24: \"User is a Senior Software Engineer leading a team of five engineers...\"\n\n**Step 2: Reason over the information**\n*   The earliest record of your role as a Senior Software Engineer is from May 11, 2023, where you were leading a team of 4 engineers. This represents the start of your tenure in that role based on the provided history.\n*   The most recent record regarding your team size is from October 24, 2023, where you are noted as leading a team of five engineers.\n\n**Answer:**\nWhen you started your role as a Senior Software Engineer, you led 4 engineers. You currently lead 5 engineers.",
+ "dump": "- User was provided with a feedback practice scenario involving a team leader named John who struggles with workload and deadline management, designed for pairs to practice giving specific, objective, and actionable feedback. (session 2023-10-25)\n- User is attempting to reduce their gluten intake and is specifically looking for gluten-free and vegan dessert options in Amsterdam. (session 2023-06-15)\n- User has a friend named Amanda Van West and requested 1920s gangster-themed nicknames for her, specifically incorporating prohibition-era elements like gin, lemon, hooch, and speakeasies. (session 2023-10-28)\n- User was provided with a comparative analysis of the political systems of ancient Greece (Athens' democracy and Sparta's oligarchy) and Rome (the Republic with its Senate and checks and balances). (session 2023-11-03)\n- User was provided with strategies for effective task delegation, including defining clear objectives, identifying team strengths, setting realistic deadlines, and using task tracking tools like Jira or Trello. (session 2023-10-24)\n- User visited the Museum of Modern Art (MoMA) in October 2023 with their sister, Emily, to see a retrospective of Frida Kahlo's work, spending about four hours exploring the exhibit. (session 2023-11-02)\n- User is planning a team outing for a group of 5 people: 4 engineers and their manager, Rachel. (session 2023-05-11)\n- The American Museum of Natural History features dinosaur exhibits including the Hall of Saurischian Dinosaurs, the Hall of Ornithischian Dinosaurs, the Hall of Vertebrate Origins, and the Dinosaur Fossil Prep Lab. (session 2023-11-02)\n- User lives in the 92109 zip code area, which is La Jolla, San Diego, California. (session 2023-11-05)\n- User intends to pack hand-washable clothing, specifically quick-drying t-shirts and travel pants, to reduce luggage weight and handle laundry needs during the Seattle trip. (session 2023-11-05)\n- User plans to prioritize dark and neutral colors for their clothing on the Seattle trip, while including a few lighter colors for visual interest. (session 2023-11-05)\n- User was recommended vegan dessert options in Amsterdam including Vegabond, The Meets, Koffie ende Koeck, Willem Pie, Heavenly Cupcakes, Stach, and Vegan Junk Food Bar. (session 2023-06-15)\n- User is a Senior Software Engineer who leads a team of 4 engineers. (session 2023-05-11)\n- User is a Senior Software Engineer leading a team of five engineers and is focused on improving their delegation skills, specifically setting realistic deadlines and providing better support. (session 2023-10-24)\n- The La Jolla Recreation Center offers a co-ed adult volleyball league (18+) for recreational to intermediate players, featuring 6v6 play, 8-10 week seasons, and weeknight games. (session 2023-11-05)\n- User was suggested the nickname 'Amanda \"The Westside Whisperer\" Van Hooch, Queen of the Speakeasy and Gin-Running Racket' for their friend Amanda Van West. (session 2023-10-28)\n- User was provided with information about other Wes Anderson films, including 'Moonrise Kingdom' (2012), 'The Royal Tenenbaums' (2001), and 'The Life Aquatic with Steve Zissou' (2004), highlighting their signature quirky and visually striking styles. (session 2023-10-24)\n- User was recommended several Amsterdam bakeries for sweets, including Patisserie Holtkamp, De Bakkerswinkel, Van Stapele Koekmakerij, Lanskroon, Le Pain Quotidien, Le Fournil De Sebastian, De Drie Graefjes, and Hartog’s Volkoren. (session 2023-06-15)\n- User is interested in hosting their team outing at City View Rooftop and plans to contact their events manager, Samantha, to inquire about the Corporate Team Building Package. (session 2023-05-11)\n- User intends to incorporate structured activities into the team outing to encourage teamwork and collaboration among the attendees. (session 2023-05-11)\n- User was provided with five practical active listening exercises for their workshop: Mirroring, Paraphrasing, Reflective Summarizing, Listening without interruption, and Non-verbal feedback. (session 2023-10-25)\n- User appreciates the contrasting use of darker, desaturated colors in the tense and suspenseful scenes of 'The Grand Budapest Hotel', noting that it adds depth to the film's visual language. (session 2023-10-24)\n- User was recommended several parks within a 30-45 minute drive of San Francisco for a moderate group hike, including Mount Tamalpais State Park, Muir Woods, Purisima Creek Redwoods, Wunderlich County Park, Edgewood Park, and Pulgas Ridge. (session 2023-10-24)\n- User is interested in joining a recreational volleyball league in the La Jolla area. (session 2023-11-05)\n- User plans to decant their favorite toiletries into smaller containers and use travel-sized options to save luggage space for the Seattle trip. (session 2023-11-05)\n- User is looking for new workout playlists for the gym and was provided with recommendations for Spotify, Apple Music, and YouTube, along with tips for creating their own. (session 2023-11-05)\n- User is designing a 3.5-hour workshop for middle managers on coaching fundamentals, based on the book 'The Coaching Habit', which includes modules on the 7 essential questions, active listening, and giving feedback. (session 2023-10-25)\n- User is planning a trip to Seattle in April 2024 and is researching weather conditions and packing strategies. (session 2023-11-05)\n- User is refining their packing habits after realizing they overpacked for a recent trip to Chicago, where they brought 7 shirts but only wore 3. (session 2023-11-05)\n- User was provided with a list of 50 prohibition-era terms and additional gin-themed vocabulary to assist with their creative request. (session 2023-10-28)\n- User planned a bike ride for Saturday, November 11, 2023, in La Jolla, with a forecast of mostly sunny skies, 68°F high, 56°F low, and no rain. (session 2023-11-05)\n- The Metropolitan Museum of Art (The Met) features extensive Impressionist and Post-Impressionist works by artists such as Pierre-Auguste Renoir, Camille Pissarro, Mary Cassatt, and Edgar Degas. (session 2023-11-02)\n- The La Jolla Recreation Center volleyball league costs approximately $250-$300 per team and requires teams to register as a unit, though they also accept individual free agents and partial teams. (session 2023-11-05)\n- User was provided with an analysis of how the differing values of the United States (individual liberty, democracy, free market) and China (collective vision, social harmony, government-managed economy) impact their respective political effectiveness and societal outcomes. (session 2023-11-03)\n- User plans to organize a scavenger hunt during the team hike at Mount Tamalpais State Park to encourage teamwork and engagement. (session 2023-10-24)\n- User was recommended gluten-free bakery options in Amsterdam including Landmarkt, Sharp Sharp, Bakken met Passie, Mr. and Mrs. Watson, Coffee Concepts, Toki, and Vegan Sweets. (session 2023-06-15)\n- City View Rooftop offers a Corporate Team Building Package starting at $500 for a weekday afternoon, which includes a 2-hour private rental, outdoor games like Giant Jenga, and a complimentary drink ticket per guest. (session 2023-05-11)\n- User is interested in visiting Amsterdam and requested recommendations for unique local events, food experiences, and desserts. (session 2023-06-15)\n- User is planning a weekend trip to New York City and is interested in visiting various museums. (session 2023-11-02)\n- User is planning a team hike at Mount Tamalpais State Park for their group of six, which includes themselves and their five team members. (session 2023-10-24)\n- User loves the color palette and magical feel of Wes Anderson's 'The Grand Budapest Hotel', specifically enjoying the candy-colored scenes in the hotel for their playful and whimsical atmosphere. (session 2023-10-24)\n- User is looking for advice on packing a minimal number of versatile, comfortable, and water-resistant shoes for walking and exploring Seattle. (session 2023-11-05)\n- User visited the Impressionist exhibit at The Metropolitan Museum of Art on October 28, 2023, with their friend Sarah and particularly enjoyed the Claude Monet collection. (session 2023-11-02)\n- User is planning to visit the American Museum of Natural History and is specifically interested in their dinosaur exhibits. (session 2023-11-02)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 44,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 52.2,
+  "total": 53.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

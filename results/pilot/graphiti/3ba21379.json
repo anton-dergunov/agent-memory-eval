@@ -1,0 +1,106 @@
+{
+ "qid": "3ba21379",
+ "arm": "graphiti",
+ "split": "pilot",
+ "question": "What type of vehicle model am I currently working on?",
+ "reference": "Ford F-150 pickup truck",
+ "question_date": "2023-06-01 05:09",
+ "sessions": [
+  {
+   "id": "answer_cd345582_1",
+   "date": "2023-05-20 15:14",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_525931",
+   "date": "2023-05-26 03:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_cd345582_2",
+   "date": "2023-05-26 04:47",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_QQQAWUd_19",
+   "date": "2023-05-26 06:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_563664",
+   "date": "2023-05-26 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6fho7as_0",
+   "date": "2023-05-26 13:32",
+   "evidence": false
+  },
+  {
+   "id": "0f78155a_1",
+   "date": "2023-05-27 07:12",
+   "evidence": false
+  },
+  {
+   "id": "67620dbc_4",
+   "date": "2023-05-27 17:40",
+   "evidence": false
+  },
+  {
+   "id": "3e19c52e_3",
+   "date": "2023-05-28 04:11",
+   "evidence": false
+  },
+  {
+   "id": "490bb46d_3",
+   "date": "2023-06-01 08:42",
+   "evidence": false
+  }
+ ],
+ "context": "- The user is currently working on a Ford Mustang Shelby GT350R model. (valid from 2023-05-20 until 2023-05-26) [superseded]\n- The user is currently working on a Ford F-150 pickup truck model. (valid since 2023-05-26)\n- The user is inquiring about Vallejo paints to create a realistic metallic finish on the wheels of their model. (valid since 2023-05-20)\n- The user is weathering the underside of their Ford F-150 pickup truck model, specifically adding subtle rust effects to the wheel wells and suspension components. (valid since 2023-05-26)\n- The user employs acrylic paints to create subtle rust effects on the Ford F-150 pickup truck model. (valid since 2023-05-26)\n- The user employs weathering powders to create subtle rust effects on the Ford F-150 pickup truck model. (valid since 2023-05-26)\n- The assistant recommends visiting the village of Vik on the South Coast. (valid since 2023-05-28)\n- The user is using Vallejo paints for their Ford Mustang Shelby GT350R project. (valid since 2023-05-20)\n- The assistant provides advice on blending rust effects with surrounding paint and weathering effects for the Ford F-150 pickup truck model. (valid since 2023-05-26)\n- The engine of the Ford Mustang Shelby GT350R model contains an engine block made of resin, plastic, or 3D-printed material. (valid since 2023-05-20)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   The fact stating the user is working on a Ford Mustang Shelby GT350R was valid from 2023-05-20 until 2023-05-26, at which point it was superseded.\n    *   The fact stating the user is currently working on a Ford F-150 pickup truck model has been valid since 2023-05-26.\n    *   The current date is 2023/06/01.\n\n2.  **Reason over the information:**\n    *   Since the Ford Mustang Shelby GT350R project was superseded on 2023-05-26, it is no longer the active project.\n    *   The Ford F-150 pickup truck project became the active project on 2023-05-26 and remains valid as of the current date (2023/06/01).\n\n**Answer:** You are currently working on a Ford F-150 pickup truck model.",
+ "dump": "- The U.S. military includes 800,000 National Guard and reserve members as of 2021. (valid since 2021-01-01)\n- The U.S. Army is a component of the U.S. military with 485,000 active-duty soldiers which is expected to reach 450,000 by 2022. (valid from 2021-01-01 until 2022-01-01) [superseded]\n- The Marine Corps is a component of the U.S. military with 186,000 personnel which is expected to reach 170,000 by 2022. (valid from 2021-01-01 until 2022-01-01) [superseded]\n- The user is using Vallejo paints for their Ford Mustang Shelby GT350R project. (valid since 2023-05-20)\n- The user is inquiring about Vallejo paints to create a realistic metallic finish on the wheels of their model. (valid since 2023-05-20)\n- The user is currently working on a Ford Mustang Shelby GT350R model. (valid from 2023-05-20 until 2023-05-26) [superseded]\n- The user plans to use photo-etched metal strips to create seatbelts for their Ford Mustang Shelby GT350R model. (valid since 2023-05-20)\n- The user plans to use fabric to create seatbelts for their Ford Mustang Shelby GT350R model. (valid since 2023-05-20)\n- The Ford Mustang Shelby GT350R model includes various dashboard components such as gauges, switches, knobs, vents, grilles, and trim pieces. (valid since 2023-05-20)\n- The Ford Mustang Shelby GT350R model features a dashboard shell that can be created from plastic, resin, or 3D-printed materials. (valid since 2023-05-20)\n- The Ford Mustang Shelby GT350R model includes a realistic engine featuring an engine block, cylinder heads, intake manifold, exhaust system, and accessories. (valid since 2023-05-20)\n- The Ford Mustang Shelby GT350R model includes a realistic transmission featuring a transmission case, gearbox, and drivetrain. (valid since 2023-05-20)\n- The engine of the Ford Mustang Shelby GT350R model contains an engine block made of resin, plastic, or 3D-printed material. (valid since 2023-05-20)\n- The engine contains cylinder heads featuring valves, springs, and spark plug wires. (valid since 2023-05-20)\n- The engine contains an intake manifold detailed with fuel injectors, throttle body, and intake ducts. (valid since 2023-05-20)\n- The engine contains an exhaust system made of thin metal or plastic tubing with exhaust manifolds, catalytic converters, and mufflers. (valid since 2023-05-20)\n- The transmission contains a transmission case made of resin, plastic, or 3D-printed material. (valid since 2023-05-20)\n- The transmission contains a gearbox with gears, shafts, and bearings. (valid since 2023-05-20)\n- The transmission contains a drivetrain constructed from thin metal or plastic rods, including universal joints, driveshafts, and axle shafts. (valid since 2023-05-20)\n- The United States congress passes the budget for the U.S. military each year. (valid since 2023-05-26)\n- The Department of defense submits a proposed budget for the U.S. military to the United States congress via the president. (valid since 2023-05-26)\n- The House of representatives reviews the U.S. military budget through various committees. (valid since 2023-05-26)\n- The Senate reviews the U.S. military budget through various committees. (valid since 2023-05-26)\n- The user is currently working on a Ford F-150 pickup truck model. (valid since 2023-05-26)\n- The user is weathering the underside of their Ford F-150 pickup truck model, specifically adding subtle rust effects to the wheel wells and suspension components. (valid since 2023-05-26)\n- The Ford F-150 pickup truck model features wheel wells that are subject to weathering. (valid since 2023-05-26)\n- The Ford F-150 pickup truck model has suspension components that are subject to weathering. (valid since 2023-05-26)\n- The user employs acrylic paints to create subtle rust effects on the Ford F-150 pickup truck model. (valid since 2023-05-26)\n- The user employs weathering powders to create subtle rust effects on the Ford F-150 pickup truck model. (valid since 2023-05-26)\n- The assistant provides advice on blending rust effects with surrounding paint and weathering effects for the Ford F-150 pickup truck model. (valid since 2023-05-26)\n- assistant explains that linear regression can be used to synthesize FA and ADC maps from T1w and T2w structural images, although it may be less effective at capturing complex relationships than deep learning models. (valid since 2023-05-26)\n- A linear regression model can be used to synthesize FA maps from T1w and T2w structural images. (valid since 2023-05-26)\n- A linear regression model can be used to synthesize ADC maps from T1w and T2w structural images. (valid since 2023-05-26)\n- The linear regression model may perform worse than deep learning models at synthesizing FA and ADC maps due to its assumption of linear relationships. (valid since 2023-05-26)\n- Random Forest regression is an alternative to the linear regression model for synthesizing FA and ADC maps. (valid since 2023-05-26)\n- Support Vector Regression is an alternative to the linear regression model for synthesizing FA and ADC maps. (valid since 2023-05-26)\n- Gradient Boosting Regression is an alternative to the linear regression model for synthesizing FA and ADC maps. (valid since 2023-05-26)\n- The assistant describes the band Fleet Foxes as having a distinctive sound characterized by intricate harmonies and ethereal, lush soundscapes. (valid since 2023-05-26)\n- The assistant describes the band Bon Iver as having a distinctive sound characterized by the use of unconventional instruments and vocal processing techniques. (valid since 2023-05-26)\n- The assistant provides guidance on using Extron Global Scripter to write Python programs for control processors. (valid since 2023-05-26)\n- The assistant provides instructions on how to use a Python program to monitor a mute/unmute local variable on an Extron IPCP Pro 550 control processor. (valid since 2023-05-26)\n- Max has a new grooming brush that reduces shedding. (valid since 2023-05-27)\n- The new grooming brush for Max is effective at reducing his shedding. (valid since 2023-05-27)\n- The user recently installed a new security camera in their backyard. (valid since 2023-05-27)\n- The user is looking for security cameras that integrate well with IFTTT. (valid since 2023-05-27)\n- the user upgraded their home office PC with a solid-state drive (valid since 2023-05-27)\n- the home office PC incorporates a solid-state drive that improved its performance (valid since 2023-05-27)\n- The user plans to visit their friend Emily in San Francisco for a weekend getaway in April. (valid since 2023-05-28)\n- Emily lives in San Francisco. (valid since 2023-05-28)\n- The assistant recommends visiting the Hallgrimskirkja church in Reykjavik. (valid since 2023-05-28)\n- The assistant recommends visiting the Harpa concert hall in Reykjavik. (valid since 2023-05-28)\n- The assistant recommends visiting the National Museum of Iceland in Reykjavik. (valid since 2023-05-28)\n- The assistant recommends strolling through the streets of Laugavegur. (valid since 2023-05-28)\n- The assistant recommends strolling through the streets of Skolavordustigur. (valid since 2023-05-28)\n- The assistant recommends visiting the Reykjavik Harbour area. (valid since 2023-05-28)\n- The assistant recommends visiting Thingvellir National Park during a Golden Circle guided tour. (valid since 2023-05-28)\n- The assistant recommends visiting the Geysir geothermal area during a Golden Circle guided tour. (valid since 2023-05-28)\n- The assistant recommends visiting the Gullfoss waterfall during a Golden Circle guided tour. (valid since 2023-05-28)\n- The assistant recommends visiting the Seljalandsfoss waterfall on the South Coast. (valid since 2023-05-28)\n- The assistant recommends visiting the Skogafoss waterfall on the South Coast. (valid since 2023-05-28)\n- The assistant recommends visiting the Reynisfjara black sand beach on the South Coast. (valid since 2023-05-28)\n- The assistant recommends visiting the village of Vik on the South Coast. (valid since 2023-05-28)\n- The assistant recommends relaxing at the Blue Lagoon. (valid since 2023-05-28)\n- The assistant recommends visiting the Laugarvatn Fontana geothermal pool. (valid since 2023-05-28)\n- The assistant recommends visiting the Myvatn Nature Baths. (valid since 2023-05-28)\n- The assistant recommends visiting the Laugardalslaug pool in Reykjavik for a local experience. (valid since 2023-05-28)\n- The user plans to start listening to The Black Keys' album Brothers. (valid since 2023-06-01)\n- The Black Keys released the album Brothers in 2010. (valid since 2023-06-01)\n- The Black Keys released the album Rubber Factory in 2004. (valid since 2023-06-01)\n- The Black Keys released the album Magic Potion in 2006. (valid since 2023-06-01)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 70,
+  "invalidated": 3,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 152.0,
+  "total": 153.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

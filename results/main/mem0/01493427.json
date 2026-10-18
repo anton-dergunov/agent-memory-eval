@@ -1,0 +1,100 @@
+{
+ "qid": "01493427",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many new postcards have I added to my collection since I started collecting again?",
+ "reference": "25",
+ "question_date": "2023-12-21 21:31",
+ "sessions": [
+  {
+   "id": "answer_a7b44747_1",
+   "date": "2023-08-11 15:58",
+   "evidence": true
+  },
+  {
+   "id": "1980bbfa_4",
+   "date": "2023-09-13 11:55",
+   "evidence": false
+  },
+  {
+   "id": "c81aa33c_1",
+   "date": "2023-10-11 17:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_17854",
+   "date": "2023-10-16 16:07",
+   "evidence": false
+  },
+  {
+   "id": "d8e33f5c_1",
+   "date": "2023-10-20 08:42",
+   "evidence": false
+  },
+  {
+   "id": "ae73b0f7_1",
+   "date": "2023-11-20 13:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_a7b44747_2",
+   "date": "2023-11-30 18:35",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_566835",
+   "date": "2023-12-16 13:03",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_212645",
+   "date": "2023-12-20 01:00",
+   "evidence": false
+  },
+  {
+   "id": "077f7bcb_3",
+   "date": "2023-12-20 11:37",
+   "evidence": false
+  }
+ ],
+ "context": "- User has added 25 new postcards to their collection since they started collecting again, bringing their total growth to a significant level. (from a chat on 2023-11-30)\n- User has added 17 new postcards to their collection and began a cataloging spreadsheet on August 11, 2023, including items like a 1920s Paris postcard (PC001), a 1950s Vintage Beach Scene (PC002), and a 1960s Eiffel Tower at Night postcard (PC003). (from a chat on 2023-08-11)\n- User was recommended postcard collecting resources including Postcrossing, r/postcards on Reddit, The Postcard Collector website, and various social media groups. (from a chat on 2023-11-30)\n- User recently acquired 8 additional postcards for their collection after visiting a local antique shop. (from a chat on 2023-11-30)\n- User decided to use a postcard rack for their initial display and plans to categorize their postcard collection by theme. (from a chat on 2023-11-30)\n- User is a collector of vintage camera equipment and postcards and is currently working on organizing and cataloging their collection. (from a chat on 2023-08-11)\n- User plans to organize their shoe collection by type (heels, flats, etc.) and prioritize accessibility for their dance shoes within the new organizer. (from a chat on 2023-12-20)\n- User started building a 1980s-era Ferrari 288 GTO model on Sunday, October 1, 2023, spending 5 hours on the initial chassis and engine block assembly. (from a chat on 2023-10-20)\n- User decided to start their smart lighting setup with a Philips Hue White Starter Kit and a Philips Hue Dimmer Switch. (from a chat on 2023-09-13)\n- User purchased a new pair of dance shoes on February 5, 2023, at a dance supply store, which they use for their weekly Tuesday dance classes. (from a chat on 2023-12-20)\n- User plans to add complexity to their Ferrari model by detailing the engine compartment with wiring and hoses, and enhancing the interior with textured seats and a detailed dashboard. (from a chat on 2023-10-20)\n- User was provided with tips for adding realistic engine details, including using fine wire (0.5mm-1mm) or thread, stripping insulation for realism, and using micro-brushes for precision painting. (from a chat on 2023-10-20)\n- User is planning to host a collector's gathering at their home to trade items, share knowledge, and showcase collections. (from a chat on 2023-11-30)\n- User was recommended various display solutions for their collection, including shadow boxes, glass-fronted cabinets, floating shelves, and ladder shelves. (from a chat on 2023-08-11)\n- User was advised to organize their collection by categorizing items, using spreadsheets for cataloging, and joining online communities like Photography Stack Exchange, Fred Miranda, and r/VintageCameras. (from a chat on 2023-08-11)\n- User is looking for space-saving display solutions for their vintage camera collection, such as wall-mounted shelves, glass-top cases, shadow boxes, rotating stands, or acrylic risers. (from a chat on 2023-11-30)\n- User plans to mix wall-mounted shelves and glass-top display cases to create a dynamic, layered display for their vintage camera collection. (from a chat on 2023-11-30)\n- User is considering purchasing a shoe organizer with 12-15 slots from Bed Bath & Beyond to store their current collection of 12 pairs of shoes. (from a chat on 2023-12-20)\n- User is actively working to reduce their home energy consumption and noted a significant decrease in their utility bill last month compared to the previous month. (from a chat on 2023-09-13)\n- User is planning a summer road trip and intends to visit local charities or volunteer during their travels. (from a chat on 2023-10-11)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   From the chat on 2023-08-11: The user added 17 new postcards to their collection.\n*   From the chat on 2023-11-30: The user added 25 new postcards to their collection since they started collecting again.\n*   From the chat on 2023-11-30: The user acquired 8 additional postcards after visiting a local antique shop.\n\n**Step 2: Reason over the information**\n*   The statement from 2023-11-30 (\"User has added 25 new postcards to their collection since they started collecting again\") serves as a summary of the growth up to that point.\n*   The additional 8 postcards mentioned in the same chat (2023-11-30) are part of the recent activity that contributed to the \"significant level\" of growth mentioned.\n*   However, looking at the phrasing \"added 25 new postcards... since they started collecting again,\" this figure represents the total count of new additions mentioned in that specific update. \n*   If we look at the chronological progression: The user started with 17 (on 08-11), and later added 25 (on 11-30), which included the 8 from the antique shop. Therefore, the total number of new postcards added since the user started collecting again is 25.\n\n**Answer:**\nYou have added 25 new postcards to your collection since you started collecting again.",
+ "dump": "- User's primary concern regarding crime is the protection of their personal safety and property, specifically mentioning fears of home break-ins and car theft. (session 2023-12-16)\n- User was recommended film development resources including 'The Darkroom', 'Film Dev', YouTube channels like 'The Film Look' and 'Matt Day', and books by Steve Anchell and Michael R. Peres. (session 2023-11-30)\n- User is organizing a charity fun run and plans to pitch a partnership proposal to a local children's hospital, drawing on their positive experience with the 'Charity Cycle' event. (session 2023-10-11)\n- User decided to start their smart lighting setup with a Philips Hue White Starter Kit and a Philips Hue Dimmer Switch. (session 2023-09-13)\n- User inquired about mammoth predators and learned that they faced threats from sabre-toothed cats, wolves, and humans, though their size, tusks, and herd behavior served as defensive mechanisms. (session 2023-12-20)\n- User is highly skeptical of community policing, viewing it as a waste of time and resources, and expresses a lack of trust in law enforcement due to concerns about corruption and potential for abuse of power. (session 2023-12-16)\n- User was advised to maintain their dance shoes by cleaning them after each use, using a soft dry cloth for debris, avoiding harsh chemicals, and storing them in a cool, dry place. (session 2023-12-20)\n- User plans to add complexity to their Ferrari model by detailing the engine compartment with wiring and hoses, and enhancing the interior with textured seats and a detailed dashboard. (session 2023-10-20)\n- User was recommended postcard collecting resources including Postcrossing, r/postcards on Reddit, The Postcard Collector website, and various social media groups. (session 2023-11-30)\n- User washed their car on November 13, 2023, after a month of it being unwashed. (session 2023-11-20)\n- User was advised on the benefits of the Philips Hue Dimmer Switch, including convenience, guest-friendliness, and wireless scene control. (session 2023-09-13)\n- User has been insured with Geico for 3 years with coverage limits of $100,000 bodily injury, $50,000 property damage, a $500 deductible, and roadside assistance. (session 2023-11-20)\n- User expressed interest in how mammoths adapted to their environment, specifically regarding their methods for finding and consuming vegetation in cold climates. (session 2023-12-20)\n- User is comparing car insurance quotes between Geico and Progressive; Progressive quoted approximately $1,140 per year compared to Geico's $1,240. (session 2023-11-20)\n- User is planning a summer road trip and intends to visit local charities or volunteer during their travels. (session 2023-10-11)\n- User was provided with tips for adding realistic engine details, including using fine wire (0.5mm-1mm) or thread, stripping insulation for realism, and using micro-brushes for precision painting. (session 2023-10-20)\n- User decided to purchase a shoe cleaning kit specifically designed for dance shoes to ensure the delicate materials, glue, and finish are not damaged during maintenance. (session 2023-12-20)\n- User is planning to host a collector's gathering at their home to trade items, share knowledge, and showcase collections. (session 2023-11-30)\n- User participated in a 'Charity Cycle' event earlier in 2023, cycling 20 miles to raise funds for a children's hospital. (session 2023-10-11)\n- User is interested in the history of rock and roll, specifically how controversies surrounding the genre have influenced its evolution and how artists have used their music as a form of rebellion and self-expression. (session 2023-10-16)\n- User attended a local model building club meetup where they met an enthusiast named John who showcased a highly detailed WWII-era bomber model, which inspired the user to increase the complexity of their own projects. (session 2023-10-20)\n- User participated in a 'Run for the Kids' charity event last year. (session 2023-10-11)\n- User was provided with an overview of community policing methods, including problem-oriented policing, community-based policing, proactive policing, neighborhood watch programs, crisis intervention teams, and youth programs. (session 2023-12-16)\n- User plans to organize their shoe collection by type (heels, flats, etc.) and prioritize accessibility for their dance shoes within the new organizer. (session 2023-12-20)\n- User was provided with examples of modern rock songs that address controversial topics, including 'This Is America' by Childish Gambino (race and gun violence), 'Welcome to the Black Parade' by My Chemical Romance (death and grief), 'Killing in the Name' by Rage Against the Machine (police brutality), 'The Man' by Taylor Swift (gender roles), and 'Weeds' by Bring Me The Horizon (mental health). (session 2023-10-16)\n- User was advised on personal security measures to protect property, such as locking doors and windows, installing security systems, keeping valuables out of sight, and staying aware of surroundings. (session 2023-12-16)\n- User has added 25 new postcards to their collection since they started collecting again, bringing their total growth to a significant level. (session 2023-11-30)\n- User decided to use a postcard rack for their initial display and plans to categorize their postcard collection by theme. (session 2023-11-30)\n- User applied pre-made decals to the engine compartment and body of their Ferrari 288 GTO model around October 13, 2023. (session 2023-10-20)\n- User recently acquired 8 additional postcards for their collection after visiting a local antique shop. (session 2023-11-30)\n- User was informed about ongoing scientific efforts to potentially revive mammoths through cloning techniques and the value of fossils in understanding their evolution. (session 2023-12-20)\n- User was advised to organize their collection by categorizing items, using spreadsheets for cataloging, and joining online communities like Photography Stack Exchange, Fred Miranda, and r/VintageCameras. (session 2023-08-11)\n- User is a collector of vintage camera equipment and postcards and is currently working on organizing and cataloging their collection. (session 2023-08-11)\n- User is looking for a functional and affordable steering wheel cover to protect their Honda Civic's wheel from UV rays in the Las Vegas sun. (session 2023-11-20)\n- User is actively working to reduce their home energy consumption and noted a significant decrease in their utility bill last month compared to the previous month. (session 2023-09-13)\n- User was recommended several steering wheel cover brands including EcoNour, WheelSkin, OxGord, Valleycomfy, and California Car Cover. (session 2023-11-20)\n- User plans to mix wall-mounted shelves and glass-top display cases to create a dynamic, layered display for their vintage camera collection. (session 2023-11-30)\n- User was recommended several shoe cleaning kit brands for general use, including Saphir, Kiwi, Jason Markk, and Crep Protect, with the advice to prioritize kits covering multiple materials. (session 2023-12-20)\n- User plans to replace their remaining home light bulbs with smart bulbs gradually rather than all at once to manage costs and test the system's functionality. (session 2023-09-13)\n- User was recommended various display solutions for their collection, including shadow boxes, glass-fronted cabinets, floating shelves, and ladder shelves. (session 2023-08-11)\n- User purchased a new pair of dance shoes on February 5, 2023, at a dance supply store, which they use for their weekly Tuesday dance classes. (session 2023-12-20)\n- User was provided with a list of smart bulb options including Philips Hue, LIFX, Belkin Wemo, IKEA Tradfri, GE Smart Bulbs, Sylvania Smart+, and Eufy Lumos. (session 2023-09-13)\n- User recently acquired an airbrush compressor and has been using it to achieve smoother, more even paint coats on test pieces. (session 2023-10-20)\n- User is considering a $40 leather steering wheel cover found at a local accessory store near the mall but is evaluating if the price is justified. (session 2023-11-20)\n- User has added 17 new postcards to their collection and began a cataloging spreadsheet on August 11, 2023, including items like a 1920s Paris postcard (PC001), a 1950s Vintage Beach Scene (PC002), and a 1960s Eiffel Tower at Night postcard (PC003). (session 2023-08-11)\n- User was recommended various energy-saving lighting strategies, including using LEDs, smart lighting, layering light, dimming, task lighting, and occupancy sensors. (session 2023-09-13)\n- User was provided with a structured proposal template and strategic advice for approaching a children's hospital to partner on a charity fun run. (session 2023-10-11)\n- User expressed regret that mammoths are extinct and noted it would have been amazing to see them in person. (session 2023-12-20)\n- User learned that mammoth adaptations included long curved tusks for digging through snow, coarse hair for insulation, a specialized digestive system for tough vegetation, and herd migration patterns. (session 2023-12-20)\n- User lives in Las Vegas and drives a 2018 silver Honda Civic. (session 2023-11-20)\n- User is looking for space-saving display solutions for their vintage camera collection, such as wall-mounted shelves, glass-top cases, shadow boxes, rotating stands, or acrylic risers. (session 2023-11-30)\n- User is considering purchasing a shoe organizer with 12-15 slots from Bed Bath & Beyond to store their current collection of 12 pairs of shoes. (session 2023-12-20)\n- User started building a 1980s-era Ferrari 288 GTO model on Sunday, October 1, 2023, spending 5 hours on the initial chassis and engine block assembly. (session 2023-10-20)\n- User has a clean driving record for the past 5 years with no accidents, tickets, or claims. (session 2023-11-20)\n- User intends to use a combination of washes, drybrushing, and pigments for weathering, and plans to test a paint-chipping technique using masking tape learned at a local model building club. (session 2023-10-20)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 55,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 32.9,
+  "total": 34.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

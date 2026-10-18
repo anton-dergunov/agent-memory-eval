@@ -1,0 +1,100 @@
+{
+ "qid": "18bc8abd",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "What brand of BBQ sauce am I currently obsessed with?",
+ "reference": "Kansas City Masterpiece",
+ "question_date": "2023-07-15 07:37",
+ "sessions": [
+  {
+   "id": "ultrachat_225891",
+   "date": "2023-03-25 13:37",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_528423",
+   "date": "2023-03-31 23:20",
+   "evidence": false
+  },
+  {
+   "id": "9f9384ed_1",
+   "date": "2023-04-03 10:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_570209",
+   "date": "2023-04-05 12:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_1",
+   "date": "2023-04-16 02:28",
+   "evidence": true
+  },
+  {
+   "id": "aed8cf17_2",
+   "date": "2023-05-12 11:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_25205",
+   "date": "2023-06-07 19:12",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_452189",
+   "date": "2023-06-15 22:14",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_290148",
+   "date": "2023-06-18 06:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_2",
+   "date": "2023-06-30 05:15",
+   "evidence": true
+  }
+ ],
+ "context": "Based on our conversation history, your favorite brand of BBQ sauce is **Kansas City Masterpiece**. \n\nWhile you previously mentioned using **Sweet Baby Ray's** in April 2023, by June 30, 2023, you specifically identified Kansas City Masterpiece as your favorite and mentioned using it on your ribs.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   The history states that as of June 30, 2023, you identified **Kansas City Masterpiece** as your favorite brand of BBQ sauce.\n    *   The history notes that you previously used Sweet Baby Ray's in April 2023, but that has been superseded by your preference for Kansas City Masterpiece.\n    *   The current date is July 15, 2023.\n\n2.  **Reason over the information:**\n    *   Since your most recent stated preference (June 30, 2023) identifies Kansas City Masterpiece as your favorite, and there is no information indicating a change in preference between that date and the current date (July 15, 2023), it remains your current favorite.\n\n**Answer:** You are currently obsessed with **Kansas City Masterpiece**.",
+ "dump": "- [explicit] user is inquiring about potential conflicts between different sports leagues arising from sharing the same brand partner.\n- [explicit] user is interested in the risks of sports leagues partnering with controversial brands.\n- [explicit] user is considering the balance between revenue generation and brand alignment with values and mission for sports leagues.\n- [explicit] user is interested in historical examples of brand partnerships that have caused trouble for sports leagues.\n- [explicit] user is interested in the long-term implications of brand partnerships for fan engagement and revenue generation in major sports leagues.\n- [explicit] user is interested in instances where a brand partnership has created a positive impact for both a sports league and the partner brand.\n- [explicit] user is interested in potential negative impacts that brand partnerships could have on athletes.\n- [explicit] user believes that sports leagues need to be strategic in their brand partnerships.\n- [explicit] user hypothesizes that a shoe company partnering with a sports league could lead to pressure on athletes to wear a certain brand of shoes regardless of comfort or fit.\n- [explicit] user intends to visit the Eiffel Tower in Paris, France.\n- [explicit] user has decided to use the elevator to reach the top of the Eiffel Tower.\n- [explicit] user started seeing a therapist on 2023-04-03 to focus on mental health and process emotions.\n- [explicit] user feels overwhelmed by the number of relaxation and mindfulness options provided.\n- [explicit] user is seeking advice on stress management techniques to use outside of therapy sessions.\n- [explicit] user intends to start with a small number of relaxation exercises and mindfulness apps to build a consistent habit.\n- [explicit] user is seeking advice on how to incorporate the 4-7-8 breathing exercise and the Headspace app into a daily routine to build a habit.\n- [explicit] user intends to try the Headspace app.\n- [explicit] user intends to practice the 4-7-8 breathing exercise.\n- [explicit] user intends to practice the 4-7-8 breathing exercise immediately before bed to aid relaxation and sleep.\n- [explicit] user plans to set a daily reminder on user's phone to practice the 4-7-8 breathing exercise.\n- [explicit] user plans to practice meditation with Headspace 3 to 4 times per week.\n- [explicit] user intends to use the Headspace app for meditation sessions in the morning immediately after waking up.\n- [explicit] user is seeking resources to help process emotions and grief.\n- [explicit] user intends to track progress on the breathing and meditation habits.\n- [explicit] user is committed to being compassionate toward self if missing a day or two of the habits.\n- [explicit] user plans to adjust the established routine as needed.\n- [explicit] user wants to learn how to bargain at markets.\n- [explicit] user is interested in purchasing local souvenirs or crafts in Querétaro during festival season.\n- [explicit] user plans to attend the Festival de la Sierra Gorda.\n- [explicit] user is looking for recommendations for local food spots at the Festival de la Sierra Gorda.\n- [explicit] user intends to purchase Otomi textiles and Talavera pottery at the Festival de la Sierra Gorda.\n- [explicit] user is interested in trying traditional Mexican dishes like tacos and enchiladas.\n- [explicit] user prefers spicy food.\n- [explicit] user has never tried ant larvae.\n- [explicit] user wants a recipe for smoked brisket.\n- [explicit] user considers mac and cheese a favorite food for both user and user's friends.\n- [explicit] user is planning to host a backyard BBQ.\n- [explicit] user intends to serve Sweet Baby Ray's BBQ sauce with the ribs.\n- [explicit] user is serving ribs and brisket at the planned BBQ.\n- [explicit] user plans to serve mac and cheese at the BBQ.\n- [explicit] user intends to try the Low and Slow Smoked Brisket recipe.\n- [explicit] user is looking for a BBQ rub recommendation that pairs with brisket and ribs.\n- [explicit] user intends to use post oak wood chips for smoking brisket.\n- [explicit] user uses Sweet Baby Ray's BBQ sauce.\n- [explicit] user intends to try the Killer Hogs BBQ Rub\n- [explicit] user is preparing to cook a brisket\n- [explicit] user believes that trimming fat and removing silver skin increases brisket tenderness.\n- [explicit] user intends to remove the silver skin from the brisket before applying rub.\n- [explicit] user is preparing to cook a Low and Slow Smoked Brisket recipe.\n- [explicit] user intends to trim excess fat from the brisket.\n- [explicit] user possesses a smoker.\n- [explicit] user maintained an average speed of 85mph during the Turbocharged Tuesdays event on 2023-05-12.\n- [explicit] user possesses a set of new brake pads purchased at a discount during the Winter Tune-Up event at the Speed Shop earlier in 2023.\n- [explicit] user completed 10 laps at the Speed Demon Racing Track on 2023-05-12.\n- [explicit] user plans to participate in an auto racing event.\n- [explicit] user has not yet installed the new brake pads.\n- [explicit] user noticed a slight misfire in the car's engine during a daily commute.\n- [explicit] user felt the car's engine perform smoother and more responsively after replacing the spark plugs.\n- [explicit] user replaced the car's spark plugs with new NGK spark plugs.\n- [explicit] user previously had a dyno test performed at a \"Tune-Up Saturday\" event at the Performance Garage.\n- [explicit] user expected the engine to produce more than 240 horsepower during the past dyno test.\n- [explicit] user is considering getting a dyno test performed to measure engine horsepower and torque.\n- [explicit] user intends to prepare their car before their next dyno test.\n- [explicit] user is considering getting their car tuned to increase power output.\n- [explicit] user has previously obtained a dyno test reading of 240 horsepower.\n- [explicit] user is interested in sustainability initiatives and eco-friendly practices at music festivals, specifically recycling programs and solar-powered stages.\n- [explicit] user is interested in examples of music festivals that are eco-friendly.\n- [explicit] user finds Ray Bradbury's writing style to be immersive and emotional.\n- [explicit] user considers both Ray Bradbury and Isaac Asimov to be equally fascinating authors.\n- [explicit] user finds Isaac Asimov's writing style to be intellectual and thought-provoking.\n- [explicit] user was drawn to \"The Illustrated Man\" because of how Ray Bradbury portrayed the human condition and emotions in a futuristic setting.\n- [explicit] user experiences reading Ray Bradbury's work as looking into a mirror reflecting the user's own fears and desires.\n- [explicit] user feels absorbed by the stories in \"The Illustrated Man\".\n- [explicit] user has read \"The Illustrated Man\" by Ray Bradbury.\n- [explicit] user is inquiring about recent developments in the treatment of lung cancer.\n- [explicit] user is requesting a comparison of success rates for immunotherapy and targeted therapy against traditional chemotherapy and radiation therapy for lung cancer.\n- [explicit] user is inquiring about the treatability and curability of different stages of lung cancer.\n- [explicit] user is seeking information about the stages of lung cancer.\n- [explicit] user is seeking information on how to minimize the risk of developing lung cancer.\n- [explicit] user is seeking information regarding risk factors for developing lung cancer.\n- [explicit] user is interested in learning about the seriousness of immunotherapy and targeted therapy side effects and how those side effects can be managed.\n- [explicit] user is interested in learning more about different types of immunotherapy drugs and their mechanisms for treating lung cancer.\n- [explicit] user is interested in learning about the potential side effects of immunotherapy and targeted therapy.\n- [explicit] user intends to host a backyard BBQ.\n- [explicit] user likes Kansas City Masterpiece BBQ sauce on their ribs.\n- [explicit] user owns a Weber gas grill.\n- [explicit] user uses their Weber gas grill to cook quick weeknight dinners.\n- [explicit] user intends to serve grilled pineapple at a BBQ.\n- [explicit] user has a friend named Emily.\n- [explicit] user's friend Emily brought grilled pineapple to user's birthday party.\n- [explicit] user is planning to make burgers and hot dogs for a BBQ.\n- [explicit] user is asking for recommendations on types of wood suitable for smoking pulled pork.\n- [explicit] user intends to make BBQ pulled pork.\n- [explicit] user is seeking advice on techniques for preparing pulled pork.\n- [explicit] user's favorite BBQ sauce is Kansas City Masterpiece BBQ sauce.\n- [explicit] user plans to serve BBQ pulled pork on a bun with coleslaw and pickles.\n- [deductive] user is an outdoor cooking enthusiast.\n- [deductive] user has a personal interest in oncology, specifically lung cancer treatment options and management.\n- [inductive] user consistently prefers and utilizes Kansas City Masterpiece BBQ sauce for their BBQ dishes.\n- [inductive] user exhibits a proactive approach to learning about medical conditions, specifically focusing on the mechanisms, treatment types (immunotherapy/targeted therapy), and side effect management for lung cancer.\n- [inductive] user enjoys hosting and organizing backyard BBQ events, frequently seeking advice on cooking techniques and menu planning for these occasions.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 112.7,
+  "total": 115.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "qid": "4d6b87c8",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many titles are currently on my to-watch list?",
+ "reference": "25",
+ "question_date": "2023-06-03 15:47",
+ "sessions": [
+  {
+   "id": "ultrachat_121715",
+   "date": "2023-05-01 21:59",
+   "evidence": false
+  },
+  {
+   "id": "5fc83435_1",
+   "date": "2023-05-15 20:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mmYyki5_0",
+   "date": "2023-05-17 11:19",
+   "evidence": false
+  },
+  {
+   "id": "d87e86f6_1",
+   "date": "2023-05-17 22:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_1",
+   "date": "2023-05-20 10:19",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cu7TYt7_57",
+   "date": "2023-05-20 17:03",
+   "evidence": false
+  },
+  {
+   "id": "85da7827",
+   "date": "2023-05-21 06:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_2",
+   "date": "2023-05-22 03:27",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_361817",
+   "date": "2023-05-22 08:42",
+   "evidence": false
+  },
+  {
+   "id": "5c85023a_1",
+   "date": "2023-05-29 06:30",
+   "evidence": false
+  }
+ ],
+ "context": "- The user plans to watch the horror series The Haunting of Hill House on Netflix. (valid since 2023-05-20)\n- The user read an article on climate change in The New Yorker on Tuesday, March 21st. (valid since 2023-05-29)\n- The user owns a bike. (valid since 2023-05-15)\n- The Intergovernmental Panel on Climate Change projects that the Antarctic ice sheet will contribute up to 1 meter of sea-level rise by 2100 and up to 3 meters by 2300. (valid since 2023-05-29)\n- The assistant recommends using the Forest app to limit phone usage and improve focus (valid since 2023-05-22)\n- Climate change has a significant impact on Antarctica. (valid since 2023-05-29)\n- Bitcoin is traded on the Bitmex exchange using a bot. (valid since 2023-05-17)\n- The user is considering purchasing a U-lock for their bike. (valid since 2023-05-15)\n- The assistant recommends using the Freedom app to limit phone usage and improve focus (valid since 2023-05-22)\n- Diana Gabaldon wrote the novels that the series Outlander is based on. (valid since 2023-05-20)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The history chats state: \"The user plans to watch the horror series The Haunting of Hill House on Netflix.\" (valid since 2023-05-20).\n\n**2. Reason over the information:**\n*   The information explicitly identifies *The Haunting of Hill House* as a series the user plans to watch.\n*   Reviewing the remaining facts, there are no other mentions of movies, series, or shows that the user intends to watch.\n*   Therefore, there is only one title on the user's to-watch list.\n\n**Answer:**\nThere is 1 title currently on your to-watch list (*The Haunting of Hill House*).",
+ "dump": "- The assistant recommends the Logitech G502 HERO as a gaming mouse that features a highly precise optical sensor, customizable RGB lighting, personalized macros, programmable buttons, and DPI settings. (valid since 2023-05-01)\n- The assistant describes the Logitech G502 HERO as having an ergonomic design with side rubber grips and an all-matte finish to provide comfort and reduce fatigue during extended gaming sessions. (valid since 2023-05-01)\n- The user owns a bike. (valid since 2023-05-15)\n- The user is considering purchasing a U-lock for their bike. (valid since 2023-05-15)\n- The Abus Granit X 540 is an example of an 18mm shackle U-lock. (valid since 2023-05-15)\n- Abus is the manufacturer of the Abus Granit X 540. (valid since 2023-05-15)\n- The Abus Granit X 540 is suitable for locking a bike to a bike rack. (valid since 2023-05-15)\n- The Abus Granit X 540 is suitable for locking a bike to a street sign. (valid since 2023-05-15)\n- The Abus Granit X 540 U-lock features a thick 18mm shackle. (valid since 2023-05-15)\n- The Abus Granit X 540 is constructed from a high-quality boron steel alloy. (valid since 2023-05-15)\n- The Abus Granit X 540 can be used to secure a bike to a lamp post. (valid since 2023-05-15)\n- The Abus Granit X 540 includes a high-security disc lock cylinder. (valid since 2023-05-15)\n- The Abus Granit X 540 utilizes Powercell technology for added leverage resistance. (valid since 2023-05-15)\n- The Abus Granit X 540 comes with Abus anti-theft protection for financial coverage. (valid since 2023-05-15)\n- The ccxt library is used to connect to the Bitmex exchange for bot trading. (valid since 2023-05-17)\n- Bitcoin is traded on the Bitmex exchange using a bot. (valid since 2023-05-17)\n- The Hollywood Palladium hosted The Beatles in the past. (valid since 2023-05-17)\n- The Troubadour is a music venue located in West Hollywood. (valid since 2023-05-17)\n- The Troubadour has hosted Bob Dylan. (valid since 2023-05-17)\n- The Echo is a music venue located in Echo Park. (valid since 2023-05-17)\n- The Observatory is a music venue located in Santa Ana. (valid since 2023-05-17)\n- Phoebe Bridgers performed live at the Greek Theatre. (valid since 2023-05-17)\n- Rachel attended a live performance of Phoebe Bridgers at the Greek Theatre. (valid since 2023-05-17)\n- The National had Phoebe Bridgers as an opening act. (valid since 2023-05-17)\n- Lucy Dacus is recommended as a similar artist to Phoebe Bridgers. (valid since 2023-05-17)\n- Julien Baker is recommended as a similar artist to Phoebe Bridgers. (valid since 2023-05-17)\n- Snail Mail is recommended as a similar artist to Phoebe Bridgers. (valid since 2023-05-17)\n- The user plans to watch the horror series The Haunting of Hill House on Netflix. (valid since 2023-05-20)\n- Netflix distributes the horror series The Haunting of Hill House. (valid since 2023-05-20)\n- Netflix distributes the TV show Stranger Things. (valid since 2023-05-20)\n- Netflix distributes the TV show The Crown. (valid since 2023-05-20)\n- Netflix distributes the series The OA. (valid since 2023-05-20)\n- Brit Marling is the creator of the TV show The OA. (valid since 2023-05-20)\n- Bernard Cornwell wrote the novels that The Last Kingdom is based on. (valid since 2023-05-20)\n- Alexander Dreymon portrays the character Uhtred of Bebbanburg in The Last Kingdom. (valid since 2023-05-20)\n- Uhtred of Bebbanburg is the central character in the series The Last Kingdom. (valid since 2023-05-20)\n- Jenna Coleman plays the role of Queen Victoria in the historical drama Victoria. (valid since 2023-05-20)\n- Tom Hughes plays the role of Prince Albert in the historical drama Victoria. (valid since 2023-05-20)\n- Ross Poldark is the main character in the series Poldark. (valid since 2023-05-20)\n- Diana Gabaldon wrote the novels that the series Outlander is based on. (valid since 2023-05-20)\n- Dustin Hoffman is a cast member in the series Medici: Masters of Florence. (valid since 2023-05-20)\n- Richard Madden is a cast member in the series Medici: Masters of Florence. (valid since 2023-05-20)\n- Philippa Gregory wrote the novels that the series The White Queen is based on. (valid since 2023-05-20)\n- Elizabeth Woodville is the central character in the series The White Queen. (valid since 2023-05-20)\n- Elizabeth Woodville is the wife of King Edward IV. (valid since 2023-05-20)\n- The Enigma I is also known as the Wehrmacht Enigma. (valid since 2023-05-20)\n- The Enigma I was used by the German military during World War II. (valid since 2023-05-20)\n- The Enigma M3 was fully compatible with the Enigma I, and messages encrypted using one could be decrypted using the other. (valid since 2023-05-20)\n- The Enigma M3 was used by the German military throughout the early part of World War II. (valid since 2023-05-20)\n- Codebreakers at Bletchley Park were able to decipher messages sent using the Enigma I. (valid since 2023-05-20)\n- Codebreakers at Bletchley Park were able to break the cipher of the Enigma M3. (valid since 2023-05-20)\n- The Bombe machine was developed by codebreakers at Bletchley Park to break the Enigma M3 cipher. (valid since 2023-05-20)\n- The herbal essential oils include the scent of lavender for candle making. (valid since 2023-05-21)\n- The herbal essential oils include the scent of chamomile for candle making. (valid since 2023-05-21)\n- The Summer Solstice Bundle is a promotion proposed for the Summer Solstice Night Market (valid since 2023-05-21)\n- The Mini Bundle is a tiered option for the Summer Solstice Bundle offering a 10% discount (valid since 2023-05-21)\n- The Deluxe Bundle is a tiered option for the Summer Solstice Bundle offering a 15% discount (valid since 2023-05-21)\n- The Premium Bundle is a tiered option for the Summer Solstice Bundle offering a 20% discount (valid since 2023-05-21)\n- The user plans to promote the Summer Solstice Bundle with a limited-time discount for customers who share a social media post about the bundle. (valid since 2023-05-21)\n- The assistant recommends using the Forest app to limit phone usage and improve focus (valid since 2023-05-22)\n- The assistant recommends using the Freedom app to limit phone usage and improve focus (valid since 2023-05-22)\n- The user read an article on climate change in The New Yorker on Tuesday, March 21st. (valid since 2023-05-29)\n- Climate change has a significant impact on Antarctica. (valid since 2023-05-29)\n- Bawden Glacier is buttressed by the Larsen C ice shelf, which acts as a brake on the glacier's flow into the ocean. (valid since 2023-05-29)\n- Bawden Glacier drains into the Weddell Sea. (valid since 2023-05-29)\n- Bawden Glacier is located in the Antarctic Peninsula. (valid since 2023-05-29)\n- Larsen C ice shelf is located in the Antarctic Peninsula. (valid since 2023-05-29)\n- Larsen C ice shelf extends into the Weddell Sea. (valid since 2023-05-29)\n- The Intergovernmental Panel on Climate Change projects that the Antarctic ice sheet will contribute up to 1 meter of sea-level rise by 2100 and up to 3 meters by 2300. (valid since 2023-05-29)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 69,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 157.4,
+  "total": 158.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

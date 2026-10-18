@@ -1,0 +1,104 @@
+{
+ "qid": "c6853660",
+ "arm": "mem0",
+ "split": "main",
+ "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+ "reference": "You increased the limit (from one cup to two cups)",
+ "question_date": "2023-06-11 21:37",
+ "sessions": [
+  {
+   "id": "answer_626e93c4_1",
+   "date": "2023-05-25 12:35",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_MhyIwuj_11",
+   "date": "2023-05-26 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_626e93c4_2",
+   "date": "2023-05-26 19:25",
+   "evidence": true
+  },
+  {
+   "id": "e9ce6ef0",
+   "date": "2023-05-28 11:33",
+   "evidence": false
+  },
+  {
+   "id": "cf6f69a1",
+   "date": "2023-06-02 09:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vvCtAZS_0",
+   "date": "2023-06-03 05:57",
+   "evidence": false
+  },
+  {
+   "id": "c592e82c_2",
+   "date": "2023-06-03 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_435535",
+   "date": "2023-06-05 21:41",
+   "evidence": false
+  },
+  {
+   "id": "997bf2fb",
+   "date": "2023-06-06 06:06",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84322",
+   "date": "2023-06-09 00:06",
+   "evidence": false
+  }
+ ],
+ "context": "- User has increased their morning coffee limit to two cups and is monitoring their caffeine sensitivity. (from a chat on 2023-05-26)\n- User has switched to a darker roast coffee and reduced their intake to one cup per morning to improve focus. (from a chat on 2023-05-25)\n- User recently watched the Iron Man series, Spider-Man: Homecoming, and Spider-Man: Far From Home, and is interested in re-watching childhood favorites like The Lion King and Back to the Future. (from a chat on 2023-06-06)\n- User is optimizing their morning routine to be more efficient and intentional, focusing on activities like reading, checking emails, or sitting outside instead of phone scrolling. (from a chat on 2023-05-25)\n- On May 24, 2023, the user spent 20 minutes of their morning break watching YouTube videos instead of their intended routine. (from a chat on 2023-05-25)\n- User was suggested to use a timer for morning activities and implement a 'no phone zone' to maintain focus and avoid distractions. (from a chat on 2023-05-25)\n- User is exploring different sweeteners for their coffee, specifically considering stevia and honey, and is looking for options that dissolve well. (from a chat on 2023-05-26)\n- User dislikes the aftertaste of stevia and is looking for alternative coffee sweeteners; they were recommended erythritol, monk fruit sweetener, yacon syrup, honey, coconut sugar, and Coffee Sweetener by SweetLeaf. (from a chat on 2023-05-25)\n- User is planning to try the French press brewing method with their darker roast coffee to enhance flavor and body. (from a chat on 2023-05-26)\n- User is interested in using a French press to create a strong coffee concentrate for lattes, using a 1:3 to 1:5 concentrate-to-milk ratio. (from a chat on 2023-05-26)\n- User is considering switching from a French press to a drip coffee maker and was recommended the Bonavita BV1900TS, Technivorm Moccamaster 59614, Cuisinart DCC-3200, and Breville BDC600. (from a chat on 2023-05-25)\n- User has tracked their movie-watching habits over the last 3 months, totaling 43 hours and 12 minutes across 12 movies, 4 of which were Marvel Cinematic Universe films. (from a chat on 2023-06-06)\n- User is evaluating whether to replace or repair their hiking boots, which were last worn on their Yellowstone trip three weeks ago and show signs of wear. (from a chat on 2023-05-28)\n- User is seeking recommendations for caffeine-free herbal teas to help with sleep and unwinding before bed. (from a chat on 2023-05-26)\n- User was recommended the following calming, caffeine-free teas for sleep: chamomile, lavender, valerian root, tart cherry, peppermint, passionflower, rooibos, lemon balm, hops, and GABA tea. (from a chat on 2023-05-26)\n- User is looking for a milk frother to improve their lattes and was recommended the Nespresso Aeroccino, Breville Milk Cafe, KitchenAid KCM0401OB, and Aerolatte Frother. (from a chat on 2023-05-25)\n- User visited Yellowstone National Park for a road trip around May 7, 2023, and completed a hike to a hilltop with scenic views. (from a chat on 2023-05-28)\n- User was advised to inspect their hiking boots for sole wear (less than 1/16 inch tread), upper material damage, waterproofing integrity, and overall comfort before deciding on replacement. (from a chat on 2023-05-28)\n- User is developing objective guidelines and a checklist to help their team identify complex property appraisal orders, allowing for consistent fee adjustments. (from a chat on 2023-05-26)\n- User is interested in modern developments in psychoanalytic theory, including relational psychoanalysis, neuropsychoanalytic theory, and the application of attachment theory. (from a chat on 2023-06-05)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   On 2023-05-25, the user stated they reduced their intake to one cup per morning to improve focus.\n*   On 2023-05-26, the user stated they have increased their morning coffee limit to two cups and are monitoring their caffeine sensitivity.\n\n**2. Reason over the information:**\n*   The user's most recent action regarding their coffee limit occurred on May 26, 2023.\n*   Comparing the two dates, the May 26th update (increasing the limit to two cups) is the most recent change compared to the May 25th update (reducing the limit to one cup).\n\n**Conclusion:**\nYou most recently **increased** your limit on the number of cups of coffee in the morning.",
+ "dump": "- User is researching the requirements and features for a comprehensive leave management system, including leave types, request and approval workflows, payroll integration, reporting, and compliance. (session 2023-06-03)\n- User was suggested to use a timer for morning activities and implement a 'no phone zone' to maintain focus and avoid distractions. (session 2023-05-25)\n- The user's complex property checklist includes five key factors: Location, Property type and design, Age and condition, Zoning and land use, and Market conditions, each with specific diagnostic questions. (session 2023-05-26)\n- User dislikes the aftertaste of stevia and is looking for alternative coffee sweeteners; they were recommended erythritol, monk fruit sweetener, yacon syrup, honey, coconut sugar, and Coffee Sweetener by SweetLeaf. (session 2023-05-25)\n- User was recommended various classic family movies, including 'The Jungle Book', 'The Lion King', 'Snow White and the Seven Dwarfs', 'E.T. the Extra-Terrestrial', 'The Goonies', 'The Princess Bride', 'Willy Wonka & the Chocolate Factory', 'Mary Poppins', 'The Wizard of Oz', 'Home Alone', 'The Sound of Music', and 'Chitty Chitty Bang Bang'. (session 2023-06-06)\n- User was recommended several traditional Japanese restaurants in Shinjuku, including Tofuya Ukai, Gonpachi, and Kappo Nakajima, as well as ramen spots like Ichiran, Totto Ramen, and Tsukemen Gyoza no Ohsho. (session 2023-06-03)\n- User has tracked their movie-watching habits over the last 3 months, totaling 43 hours and 12 minutes across 12 movies, 4 of which were Marvel Cinematic Universe films. (session 2023-06-06)\n- User is interested in investment strategies for navigating economic uncertainty, specifically regarding portfolio diversification and long-term planning. (session 2023-06-09)\n- User was recommended time-travel and time-loop films including 'The Time Travelers', 'Groundhog Day', 'Edge of Tomorrow', 'Looper', and 'Timecrimes'. (session 2023-06-06)\n- User is interested in making Kimchi at home and was provided with a beginner-friendly Baechu Kimchi (Napa Cabbage Kimchi) recipe and tips on using Korean chili flakes (gochugaru) and Korean salt. (session 2023-06-02)\n- User visited Yellowstone National Park for a road trip around May 7, 2023, and completed a hike to a hilltop with scenic views. (session 2023-05-28)\n- User is planning a road trip to North Cascades National Park in Washington state and is seeking route and accommodation recommendations. (session 2023-05-28)\n- User expressed interest in the future of psychoanalytic theory, particularly its potential to address social justice issues and expand beyond clinical settings. (session 2023-06-05)\n- User is interested in modern developments in psychoanalytic theory, including relational psychoanalysis, neuropsychoanalytic theory, and the application of attachment theory. (session 2023-06-05)\n- On May 24, 2023, the user spent 20 minutes of their morning break watching YouTube videos instead of their intended routine. (session 2023-05-25)\n- User is planning a trip to Tokyo, Japan, in late November 2023 and is considering staying in the Shinjuku neighborhood. (session 2023-06-03)\n- User is interested in the history and evolution of psychoanalytic theory, specifically the contributions of figures like Sigmund Freud, Carl Jung, Alfred Adler, Anna Freud, and Melanie Klein. (session 2023-06-05)\n- User is seeking recommendations for caffeine-free herbal teas to help with sleep and unwinding before bed. (session 2023-05-26)\n- User is evaluating whether to replace or repair their hiking boots, which were last worn on their Yellowstone trip three weeks ago and show signs of wear. (session 2023-05-28)\n- User was recommended traditional Japanese dessert shops and cafes in Shinjuku, such as Toraya, Nakamura Tokichi, Kagiya, and Hakata Gion Yamakasa, along with modern options like Pierre Marcolini and Harajuku Cream Puff Cafe. (session 2023-06-03)\n- User is considering switching from a French press to a drip coffee maker and was recommended the Bonavita BV1900TS, Technivorm Moccamaster 59614, Cuisinart DCC-3200, and Breville BDC600. (session 2023-05-25)\n- User enjoyed a Spaghetti Carbonara at Bella Vita restaurant on the weekend of May 27-28, 2023, and was provided with an authentic recipe and tips for achieving a creamy sauce without using cream. (session 2023-06-02)\n- User recently watched the Iron Man series, Spider-Man: Homecoming, and Spider-Man: Far From Home, and is interested in re-watching childhood favorites like The Lion King and Back to the Future. (session 2023-06-06)\n- User expressed a concern that psychoanalytic theory is perceived as being accessible only to the elite or wealthy and hopes the field will become more inclusive and diverse. (session 2023-06-05)\n- User was advised to inspect their hiking boots for sole wear (less than 1/16 inch tread), upper material damage, waterproofing integrity, and overall comfort before deciding on replacement. (session 2023-05-28)\n- User is interested in making Japchae and was recommended to use sweet potato starch noodles (dangmyeon) and high-quality sesame oil and soy sauce. (session 2023-06-02)\n- User was advised on general investment principles for uncertain times, including diversifying across asset classes and regions, staying informed, focusing on long-term goals, avoiding panic-selling, and seeking professional financial advice. (session 2023-06-09)\n- User learned that late November in Japan features seasonal autumn ingredients in desserts, specifically chestnuts (kuri), yuzu, kabocha (Japanese pumpkin), apples, and persimmons (kaki). (session 2023-06-03)\n- User was recommended classic sci-fi films including 'The Time Machine', 'The Terminator', 'Planet of the Apes', '2001: A Space Odyssey', 'Alien', 'Forbidden Planet', 'Blade Runner', 'The Last Man on Earth', 'Fantastic Voyage', 'The Philadelphia Experiment', 'Time After Time', 'Bill & Ted's Excellent Adventure', 'Metropolis', 'Things to Come', and 'When Worlds Collide'. (session 2023-06-06)\n- User is considering inviting friends on their North Cascades trip and inquired about group accommodations at Ross Lake Resort. (session 2023-05-28)\n- User has switched to a darker roast coffee and reduced their intake to one cup per morning to improve focus. (session 2023-05-25)\n- User is planning a movie marathon with their family for the upcoming long weekend and is interested in classic, all-ages movie recommendations. (session 2023-06-06)\n- User is interested in learning to cook authentic Italian cuisine and was recommended cookbooks including 'The Essentials of Italian Cooking' by Marcella Hazan, 'Jamie's Italy' by Jamie Oliver, 'Lidia's Italy' by Lidia Bastianich, 'The Silver Spoon', and 'Pasta Grannies' by Vicky Bennison. (session 2023-06-02)\n- User was informed about autumn events in Shinjuku for late November, including the Shinjuku Gyoen National Garden foliage, Shinjuku Autumn Festival at Chuo Park, Otori Shrine Autumn Festival, and Shinjuku Ni-chome Autumn Festival. (session 2023-06-03)\n- Ross Lake Resort offers various cabin sizes ranging from standard (2-4 people) to group cabins (10-12 people) and cabin clusters for larger groups up to 20 people. (session 2023-05-28)\n- User is planning to try the French press brewing method with their darker roast coffee to enhance flavor and body. (session 2023-05-26)\n- User is seeking information on the current state of the global economy and potential geopolitical risks, including trade tensions, political instability, and cyber threats. (session 2023-06-09)\n- User is optimizing their morning routine to be more efficient and intentional, focusing on activities like reading, checking emails, or sitting outside instead of phone scrolling. (session 2023-05-25)\n- User was recommended Marvel and Disney classics including 'X-Men', 'Blade', 'Howard the Duck', 'Beauty and the Beast', 'Aladdin', and 'The Little Mermaid', as well as adventure films like 'Indiana Jones and the Raiders of the Lost Ark'. (session 2023-06-06)\n- User is interested in using a French press to create a strong coffee concentrate for lattes, using a 1:3 to 1:5 concentrate-to-milk ratio. (session 2023-05-26)\n- User is looking for a milk frother to improve their lattes and was recommended the Nespresso Aeroccino, Breville Milk Cafe, KitchenAid KCM0401OB, and Aerolatte Frother. (session 2023-05-25)\n- Ross Lake Resort contact information: (206) 386-4437, (877) 443-5453, info@rosslakeresort.com, and website www.rosslakeresort.com. (session 2023-05-28)\n- User was recommended additional MCU films ('Captain America: The Winter Soldier', 'Guardians of the Galaxy', 'Thor: Ragnarok', 'The Avengers') and other franchises like 'Star Wars', 'Harry Potter', and 'The Lord of the Rings', plus 'The Dark Knight' and 'Ready Player One'. (session 2023-06-06)\n- User was recommended the following calming, caffeine-free teas for sleep: chamomile, lavender, valerian root, tart cherry, peppermint, passionflower, rooibos, lemon balm, hops, and GABA tea. (session 2023-05-26)\n- User is developing objective guidelines and a checklist to help their team identify complex property appraisal orders, allowing for consistent fee adjustments. (session 2023-05-26)\n- User was provided with general guidelines on asset allocation, including mixing stocks, bonds, real estate, and commodities, and diversifying geographically across North America, Europe, Asia, and emerging markets. (session 2023-06-09)\n- User is interested in learning to cook authentic Korean cuisine and was recommended cookbooks including 'Maangchi's Big Book of Korean Cooking' by Maangchi, 'Korean Food Made Simple' by Judy Joo, 'The Korean Kitchen' by Copeland Marks, and 'Seonkyoung Longest's Korean Cooking'. (session 2023-06-02)\n- User is interested in learning to make homemade pasta and was provided with tips on using '00' flour, a digital scale, and a pasta machine, along with a basic spaghetti recipe. (session 2023-06-02)\n- User has increased their morning coffee limit to two cups and is monitoring their caffeine sensitivity. (session 2023-05-26)\n- User was recommended the following hiking trails in North Cascades National Park: Chain Lakes Trail, Desolation Peak Trail, Thornton Lakes Trail, Picket Range Viewpoint Trail, and Ross Lake Trail. (session 2023-05-28)\n- User visited New York City for a weekend in early May 2023 and is concerned about potential noise and crowds in Shinjuku compared to their experience there. (session 2023-06-03)\n- User was advised to visit specific areas in Shinjuku Gyoen National Garden for fall foliage, including Maple Tree Hill, Zelkova Tree Avenue, the Ginkgo Tree Forest, the Tennis Court Lawn, and the pond area. (session 2023-06-03)\n- User is exploring different sweeteners for their coffee, specifically considering stevia and honey, and is looking for options that dissolve well. (session 2023-05-26)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 53,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 38.0,
+  "total": 39.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "qid": "3ba21379",
+ "arm": "textual",
+ "split": "pilot",
+ "question": "What type of vehicle model am I currently working on?",
+ "reference": "Ford F-150 pickup truck",
+ "question_date": "2023-06-01 05:09",
+ "sessions": [
+  {
+   "id": "answer_cd345582_1",
+   "date": "2023-05-20 15:14",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_525931",
+   "date": "2023-05-26 03:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_cd345582_2",
+   "date": "2023-05-26 04:47",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_QQQAWUd_19",
+   "date": "2023-05-26 06:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_563664",
+   "date": "2023-05-26 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6fho7as_0",
+   "date": "2023-05-26 13:32",
+   "evidence": false
+  },
+  {
+   "id": "0f78155a_1",
+   "date": "2023-05-27 07:12",
+   "evidence": false
+  },
+  {
+   "id": "67620dbc_4",
+   "date": "2023-05-27 17:40",
+   "evidence": false
+  },
+  {
+   "id": "3e19c52e_3",
+   "date": "2023-05-28 04:11",
+   "evidence": false
+  },
+  {
+   "id": "490bb46d_3",
+   "date": "2023-06-01 08:42",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is a scale model enthusiast.\n* The user has an interest in U.S. government processes, specifically the legislative procedures regarding the U.S. military budget and the factors influencing its allocation.\n* The user is interested in medical image processing and machine learning, specifically the synthesis of FA (Fractional Anisotropy) and ADC (Apparent Diffusion Coefficient) maps from T1w and T2w structural MRI images.\n* The user enjoys indie-folk music, specifically the band The Lumineers.\n* The user is an active concert-goer and enjoys live music festivals. Recent concert experiences include the Arctic Monkeys (ticket received as a gift) and a music festival featuring The 1975, The Neighbourhood, and Billie Eilish.\n* The user has experience with AV control systems and programming, specifically using Extron’s Global Scripter and IPCP Pro 550 control processors.\n* The user owns a golden retriever named Max.\n* The user is tech-savvy, managing a home network, a home office PC, and is currently expanding their smart home ecosystem.\n* The user recently performed a router reset (2023-05-25) and installed a new smart TV (2023-05-27).\n* The user is an avid traveler. Recent trips include Japan and a 4-day girls' trip to Las Vegas (late January 2023) with friends Emily and Rachel, where they stayed at the Bellagio.\n* The user has a friend named Emily who has been living in San Francisco for a few months as of May 2023.\n\n### Preferences and habits\n* **Modeling:** The user is currently focused on building a 1/25 scale Ford F-150 pickup truck model.\n* **Materials:** The user prefers Vallejo paints (specifically Model Color range: Rust, Rusty Red, and Burnt Iron) and uses weathering powders (such as Mig Productions or AK Interactive) for realistic effects.\n* **Techniques:** The user is interested in advanced detailing and weathering techniques, including airbrushing (using 0.2-0.3 mm nozzles at 10-20 PSI), decal application on curved surfaces, drybrushing, washes, glazing, and creating realistic rust, mud, and grime effects.\n* **Approach:** The user values high realism and is willing to use mixed media (photo-etched metal, fabric, wire, tubing) and layering techniques to achieve professional-looking results.\n* **Programming/Data Science:** The user is exploring various regression techniques for medical image synthesis, ranging from deep learning (CycleGAN, U-Net) to traditional machine learning (Random Forest) and statistical methods (Linear Regression).\n* **AV Programming:** The user is familiar with Python-based scripting for hardware control, specifically implementing state monitoring and command execution for Extron control processors.\n* **Music:** The user appreciates the indie-folk genre and indie rock. They have expressed interest in The Lumineers (specifically the album \"III\") and are open to similar artists like Mumford & Sons, The Head and the Heart, Of Monsters and Men, The Decemberists, Fleet Foxes, The Avett Brothers, Iron & Wine, Bon Iver, Lord Huron, and First Aid Kit. The user is currently exploring the discography of The Black Keys, starting with the album \"Brothers\" (2010).\n* **Pet Care:** The user recently transitioned Max to a grain-free kibble diet and is actively managing the dog's grooming and shedding with a new brush.\n* **Smart Home/Tech:** The user is actively experimenting with IFTTT for home automation and energy efficiency. They prefer reliable, high-performance hardware for their home office and media storage.\n* **Travel:** The user prefers guided tours over driving when visiting countries with challenging or unfamiliar road conditions (e.g., Iceland).\n\n### Ongoing situations and plans\n* **Current Project (Modeling):** The user is actively working on a 1/25 scale Ford F-150 pickup truck model.\n* **Planned Additions (Modeling):** The user intends to apply decals to the Ford F-150 and is currently working on adding subtle, realistic rust stains and off-road weathering (mud/grime) to the underside, specifically the wheel wells and suspension components.\n* **Current Project (Technical):** The user is investigating methods to synthesize FA and ADC maps from structural MRI data and is evaluating the trade-offs between deep learning models and simpler regression approaches.\n* **Current Project (AV Programming):** The user is working on logic for an Extron IPCP Pro 550 to monitor and toggle mute states via Python scripting.\n* **Current Project (Home Infrastructure):**\n    * Troubleshooting laptop battery life issues.\n    * Recently upgraded home office PC to an SSD.\n    * Researching NAS devices for family media storage and streaming.\n    * Recently installed a new security camera in the backyard and is looking to optimize its performance and IFTTT integration.\n    * Researching portable power banks to extend laptop battery life.\n* **Travel Plans:**\n    * Planning a weekend getaway to San Francisco in April 2024 to visit their friend Emily.\n    * Planning a 7-day summer trip to Iceland, with a preference for staying in Reykjavik and using guided tours for excursions to the Golden Circle and South Coast. The user is specifically interested in visiting geothermal pools like the Blue Lagoon.\n* **Music Projects:** The user is planning to create a playlist of their favorite concert memories, potentially organized chronologically or by concert.\n* **Pet Expenses (Max):** The user is tracking recent expenses for Max, which include:\n    * Dog bed (PetSmart): $40\n    * Stainless steel food bowl (Amazon): $15\n    * Grain-free kibble (one-time purchase, cost TBD)\n    * Measuring cup (local pet store): $5\n    * Shampoo (vet): $10\n    * Grooming brush (cost TBD)\n\n### Changes over time\n* **Current Project (Modeling):** Now a Ford F-150 pickup truck, since 2023-05-26; previously a Ford Mustang Shelby GT350R.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   Under \"Preferences and habits\" -> \"Modeling\": \"The user is currently focused on building a 1/25 scale Ford F-150 pickup truck model.\"\n    *   Under \"Ongoing situations and plans\" -> \"Current Project (Modeling)\": \"The user is actively working on a 1/25 scale Ford F-150 pickup truck model.\"\n    *   Under \"Changes over time\" -> \"Current Project (Modeling)\": \"Now a Ford F-150 pickup truck, since 2023-05-26; previously a Ford Mustang Shelby GT350R.\"\n\n2.  **Reason over the information:**\n    *   The records consistently identify the current modeling project as a Ford F-150.\n    *   The change log confirms this project started on 2023-05-26, which is prior to the current date of 2023-06-01.\n\n3.  **Answer:**\n    You are currently working on a 1/25 scale Ford F-150 pickup truck model.",
+ "dump": "### Personal facts\n* The user is a scale model enthusiast.\n* The user has an interest in U.S. government processes, specifically the legislative procedures regarding the U.S. military budget and the factors influencing its allocation.\n* The user is interested in medical image processing and machine learning, specifically the synthesis of FA (Fractional Anisotropy) and ADC (Apparent Diffusion Coefficient) maps from T1w and T2w structural MRI images.\n* The user enjoys indie-folk music, specifically the band The Lumineers.\n* The user is an active concert-goer and enjoys live music festivals. Recent concert experiences include the Arctic Monkeys (ticket received as a gift) and a music festival featuring The 1975, The Neighbourhood, and Billie Eilish.\n* The user has experience with AV control systems and programming, specifically using Extron’s Global Scripter and IPCP Pro 550 control processors.\n* The user owns a golden retriever named Max.\n* The user is tech-savvy, managing a home network, a home office PC, and is currently expanding their smart home ecosystem.\n* The user recently performed a router reset (2023-05-25) and installed a new smart TV (2023-05-27).\n* The user is an avid traveler. Recent trips include Japan and a 4-day girls' trip to Las Vegas (late January 2023) with friends Emily and Rachel, where they stayed at the Bellagio.\n* The user has a friend named Emily who has been living in San Francisco for a few months as of May 2023.\n\n### Preferences and habits\n* **Modeling:** The user is currently focused on building a 1/25 scale Ford F-150 pickup truck model.\n* **Materials:** The user prefers Vallejo paints (specifically Model Color range: Rust, Rusty Red, and Burnt Iron) and uses weathering powders (such as Mig Productions or AK Interactive) for realistic effects.\n* **Techniques:** The user is interested in advanced detailing and weathering techniques, including airbrushing (using 0.2-0.3 mm nozzles at 10-20 PSI), decal application on curved surfaces, drybrushing, washes, glazing, and creating realistic rust, mud, and grime effects.\n* **Approach:** The user values high realism and is willing to use mixed media (photo-etched metal, fabric, wire, tubing) and layering techniques to achieve professional-looking results.\n* **Programming/Data Science:** The user is exploring various regression techniques for medical image synthesis, ranging from deep learning (CycleGAN, U-Net) to traditional machine learning (Random Forest) and statistical methods (Linear Regression).\n* **AV Programming:** The user is familiar with Python-based scripting for hardware control, specifically implementing state monitoring and command execution for Extron control processors.\n* **Music:** The user appreciates the indie-folk genre and indie rock. They have expressed interest in The Lumineers (specifically the album \"III\") and are open to similar artists like Mumford & Sons, The Head and the Heart, Of Monsters and Men, The Decemberists, Fleet Foxes, The Avett Brothers, Iron & Wine, Bon Iver, Lord Huron, and First Aid Kit. The user is currently exploring the discography of The Black Keys, starting with the album \"Brothers\" (2010).\n* **Pet Care:** The user recently transitioned Max to a grain-free kibble diet and is actively managing the dog's grooming and shedding with a new brush.\n* **Smart Home/Tech:** The user is actively experimenting with IFTTT for home automation and energy efficiency. They prefer reliable, high-performance hardware for their home office and media storage.\n* **Travel:** The user prefers guided tours over driving when visiting countries with challenging or unfamiliar road conditions (e.g., Iceland).\n\n### Ongoing situations and plans\n* **Current Project (Modeling):** The user is actively working on a 1/25 scale Ford F-150 pickup truck model.\n* **Planned Additions (Modeling):** The user intends to apply decals to the Ford F-150 and is currently working on adding subtle, realistic rust stains and off-road weathering (mud/grime) to the underside, specifically the wheel wells and suspension components.\n* **Current Project (Technical):** The user is investigating methods to synthesize FA and ADC maps from structural MRI data and is evaluating the trade-offs between deep learning models and simpler regression approaches.\n* **Current Project (AV Programming):** The user is working on logic for an Extron IPCP Pro 550 to monitor and toggle mute states via Python scripting.\n* **Current Project (Home Infrastructure):**\n    * Troubleshooting laptop battery life issues.\n    * Recently upgraded home office PC to an SSD.\n    * Researching NAS devices for family media storage and streaming.\n    * Recently installed a new security camera in the backyard and is looking to optimize its performance and IFTTT integration.\n    * Researching portable power banks to extend laptop battery life.\n* **Travel Plans:**\n    * Planning a weekend getaway to San Francisco in April 2024 to visit their friend Emily.\n    * Planning a 7-day summer trip to Iceland, with a preference for staying in Reykjavik and using guided tours for excursions to the Golden Circle and South Coast. The user is specifically interested in visiting geothermal pools like the Blue Lagoon.\n* **Music Projects:** The user is planning to create a playlist of their favorite concert memories, potentially organized chronologically or by concert.\n* **Pet Expenses (Max):** The user is tracking recent expenses for Max, which include:\n    * Dog bed (PetSmart): $40\n    * Stainless steel food bowl (Amazon): $15\n    * Grain-free kibble (one-time purchase, cost TBD)\n    * Measuring cup (local pet store): $5\n    * Shampoo (vet): $10\n    * Grooming brush (cost TBD)\n\n### Changes over time\n* **Current Project (Modeling):** Now a Ford F-150 pickup truck, since 2023-05-26; previously a Ford Mustang Shelby GT350R.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 77.0,
+  "total": 78.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

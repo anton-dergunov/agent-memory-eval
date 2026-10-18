@@ -1,0 +1,128 @@
+{
+ "qid": "dfde3500",
+ "arm": "letta",
+ "split": "main",
+ "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+ "reference": "Wednesday",
+ "question_date": "2023-06-20 14:46",
+ "sessions": [
+  {
+   "id": "sharegpt_aDTlaiq_10",
+   "date": "2023-05-06 09:30",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_1",
+   "date": "2023-05-20 09:33",
+   "evidence": true
+  },
+  {
+   "id": "ad1c7ac6",
+   "date": "2023-05-25 06:53",
+   "evidence": false
+  },
+  {
+   "id": "ebe3b6bf_7",
+   "date": "2023-05-25 20:43",
+   "evidence": false
+  },
+  {
+   "id": "5c18cb32_2",
+   "date": "2023-05-27 16:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_35d6c0be_2",
+   "date": "2023-05-28 05:19",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_435909",
+   "date": "2023-05-28 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_315184",
+   "date": "2023-05-30 22:18",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_92761",
+   "date": "2023-05-31 01:42",
+   "evidence": false
+  },
+  {
+   "id": "59c704ad_1",
+   "date": "2023-06-11 21:43",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n- Interests: Enjoys indie and alternative music, graphic design (specifically Adobe Photoshop).\n- Favorites shows include \"The Crown\" and \"The Office\".\n- Currently obsessed with Phoebe Bridgers.\n- Language Exchange: You have a weekly language exchange class with a Colombian tutor named Juan on Wednesday evenings. You focus on his Spanish pronunciation and grammar, and you help him with his English vocabulary. You also have a session with a new tutor, Maria, on Thursdays.\n- Known trivia: Kirstie Alley was originally a guest star on the show \"Cheers\" before becoming a series regular.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on the information in your memory, you meet with your Colombian tutor, Juan, for your language exchange class on **Wednesday evenings**.",
+ "dump": "<human>\n- Interests: Enjoys indie and alternative music, graphic design (specifically Adobe Photoshop).\n- Favorites shows include \"The Crown\" and \"The Office\".\n- Currently obsessed with Phoebe Bridgers.\n- Language Exchange: You have a weekly language exchange class with a Colombian tutor named Juan on Wednesday evenings. You focus on his Spanish pronunciation and grammar, and you help him with his English vocabulary. You also have a session with a new tutor, Maria, on Thursdays.\n- Known trivia: Kirstie Alley was originally a guest star on the show \"Cheers\" before becoming a series regular.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Juan language exchange tutor\"})"
+  ],
+  "blocks_chars": 787,
+  "write_steps": 50,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 257.5,
+  "total": 263.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

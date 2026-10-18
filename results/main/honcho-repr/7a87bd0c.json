@@ -1,0 +1,96 @@
+{
+ "qid": "7a87bd0c",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How long have I been sticking to my daily tidying routine?",
+ "reference": "4 weeks",
+ "question_date": "2023-09-30 23:15",
+ "sessions": [
+  {
+   "id": "answer_d08a934d_1",
+   "date": "2023-06-11 22:24",
+   "evidence": true
+  },
+  {
+   "id": "c15dadce_2",
+   "date": "2023-06-12 01:45",
+   "evidence": false
+  },
+  {
+   "id": "6414f676_5",
+   "date": "2023-06-27 11:24",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_r2CWKoi_7",
+   "date": "2023-07-30 23:55",
+   "evidence": false
+  },
+  {
+   "id": "37a9680a_2",
+   "date": "2023-08-05 11:50",
+   "evidence": false
+  },
+  {
+   "id": "9aaeecbf",
+   "date": "2023-08-26 05:15",
+   "evidence": false
+  },
+  {
+   "id": "b98914c6_2",
+   "date": "2023-09-19 12:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fnuLBKl_83",
+   "date": "2023-09-30 05:11",
+   "evidence": false
+  },
+  {
+   "id": "answer_d08a934d_2",
+   "date": "2023-09-30 17:52",
+   "evidence": true
+  },
+  {
+   "id": "55a59bc9_4",
+   "date": "2023-09-30 22:59",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-06-11 22:32:00] user currently performs a daily tidying routine on the kitchen counter.\n[2023-06-11 22:32:00] user has maintained a daily tidying routine for 3 weeks.\n[2023-06-11 22:34:00] user uses a cordless vacuum for daily tidying.\n[2023-06-11 22:34:00] user began using a specific all-natural brand of cleaning products for the bathroom on or around 2023-06-04.\n[2023-06-11 22:34:00] user has maintained a daily tidying routine for 3 weeks as of 2023-06-11.\n[2023-06-11 22:34:00] user uses a microfiber mop for daily tidying.\n[2023-09-30 17:54:00] user has maintained a daily tidying routine for 4 weeks.\n[2023-09-30 17:54:00] user finds that the daily tidying routine has made a positive difference in their apartment.\n[2023-09-30 23:03:00] user plans to hunt during the first week of November.\n[2023-09-30 23:03:00] user is interested in learning how to read deer sign and tracks.\n[2023-09-30 23:05:00] user has a son named Jack.\n[2023-09-30 23:05:00] user and son Jack caught catfish at a local park's fishing derby in August 2023.\n[2023-09-30 23:05:00] user has kids.\n[2023-09-30 23:05:00] user attended a local park's fishing derby with son Jack in August 2023.\n[2023-09-30 23:07:00] user has a daughter named Emily.\n[2023-09-30 23:07:00] user plans to teach Emily about different types of fish at a nearby pond on Sundays.\n[2023-09-30 23:07:00] user plans to take Emily to a nearby pond on Sundays to practice casting.\n[2023-09-30 23:09:00] user plans to bring a field guide to identify fish.\n[2023-09-30 23:09:00] user plans to take notes on fish habitats and behaviors with Emily.\n[2023-09-30 23:09:00] user plans to take Emily to a nearby pond on Sunday, October 1, 2023.\n[2023-09-30 23:09:00] user intends to practice casting and learn about fish species with Emily at the pond.\n\n## Deductive Observations\n\n[2023-09-30 23:07:00] user engages in outdoor recreational activities, specifically fishing and hunting.\n   Premises:\n   - user plans to teach Emily about different types of fish at a nearby pond on Sundays.\n   - user is planning a deer hunting trip to the Sierra National Forest in early November 2023.\n   - user has booked a guided duck hunting trip with a local outfitter for mid-January 2024.\n\n[2023-09-30 23:07:00] user is a parent of at least two children, Emily and Jack.\n   Premises:\n   - user has a daughter named Emily.\n   - user has a son named Jack.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user exhibits a structured and educational approach to outdoor activities, planning to bring field guides and take notes.\n   **Type**: tendency\n   **Sources**:\n   - user plans to bring a field guide to identify fish.\n   - user plans to take notes on fish habitats and behaviors with Emily.\n   - user is interested in learning how to read deer sign and tracks.\n\n **Pattern** [medium]: user actively involves their children in outdoor recreational activities like fishing.\n   **Type**: behavior\n   **Sources**:\n   - user plans to teach Emily about different types of fish at a nearby pond on Sundays.\n   - user plans to take Emily to a nearby pond on Sundays to practice casting.\n   - user and son Jack caught catfish at a local park's fishing derby in August 2023.\n\n",
+ "answer": "To determine how long you have been sticking to your daily tidying routine, we look at the provided history logs:\n\n**Step 1: Extract relevant information**\n*   [2023-06-11 22:34:00]: The logs state that as of this date, you had maintained a daily tidying routine for 3 weeks.\n*   [2023-09-30 17:54:00]: The logs state that as of this date, you have maintained a daily tidying routine for 4 weeks.\n\n**Step 2: Reason over the information**\n*   The most recent observation regarding the duration of your routine is from September 30, 2023. \n*   According to that specific entry, you have maintained the routine for 4 weeks.\n\n**Answer:**\nAs of September 30, 2023, you have been sticking to your daily tidying routine for 4 weeks.",
+ "dump": "- [explicit] user provides a slide format structure for a proposal titled 'Cafe 24 YouTube Shopping'.\n- [explicit] user wants to know if the basic proposal PPT slide format has changed.\n- [explicit] user instructs the assistant to use the provided 'Cafe 24 YouTube Shopping' slide form structure for the content of the proposal.\n- [explicit] user intends to start the garage organization project by purging and categorizing items.\n- [explicit] user needs help organizing the garage during the weekend of June 17-18, 2023.\n- [explicit] user plans to start with the sports equipment category in the garage.\n- [explicit] user plans to start with the tools category in the garage.\n- [explicit] user identifies the sports equipment category as cluttered.\n- [explicit] user intends to get rid of old furniture stored in the garage.\n- [explicit] user identifies the tools category as cluttered.\n- [explicit] user currently performs a daily tidying routine on the kitchen counter.\n- [explicit] user intends to get rid of an old desk that has been taking up space and collecting dust.\n- [explicit] user has maintained a daily tidying routine for 3 weeks.\n- [explicit] user plans to convert the space formerly occupied by the old desk into a workstation for a daily tidying routine.\n- [explicit] user intends to keep cleaning supplies at the new workstation.\n- [explicit] user has maintained a daily tidying routine for 3 weeks as of 2023-06-11.\n- [explicit] user intends to keep all-purpose cleaners at the new cleaning workstation.\n- [explicit] user uses a cordless vacuum for daily tidying.\n- [explicit] user considers the all-natural cleaning products effective at removing soap scum and mildew.\n- [explicit] user is considering using labels to organize the garage.\n- [explicit] user uses a microfiber mop for daily tidying.\n- [explicit] user intends to keep dusters at the new cleaning workstation.\n- [explicit] user intends to keep disinfectants at the new cleaning workstation.\n- [explicit] user intends to keep paper towels at the new cleaning workstation.\n- [explicit] user is considering using stackable bins to organize the garage.\n- [explicit] user is working on a garage organization project.\n- [explicit] user began using a specific all-natural brand of cleaning products for the bathroom on or around 2023-06-04.\n- [explicit] user has a cousin named Michael.\n- [explicit] user has a cousin's wife named Sophia.\n- [explicit] user specifies that the adopted baby girl Ava is from China.\n- [explicit] user selected the 'Journey to Ava' theme for the baby shower.\n- [explicit] user is planning a baby shower for a cousin's newly adopted baby girl named Ava.\n- [explicit] user is planning a party for a baby girl named Ava.\n- [explicit] user likes the Passport to Ava game idea for the adoption celebration.\n- [explicit] user intends to use a \"Forever Family\" stamp featuring a picture of a puzzle piece for the \"Passport to Ava\" game.\n- [explicit] user intends to use a \"Journey Begins\" stamp featuring a picture of a plane for the \"Passport to Ava\" game.\n- [explicit] user considers a set of Chinese coins tied with red string a thoughtful and unique gift for a baby girl.\n- [explicit] user considers a silk or brocade outfit a lovely idea for a traditional Chinese gift for a baby girl.\n- [explicit] user intends to give a silk or brocade outfit as a gift for Ava.\n- [explicit] user intends to give Chinese coins tied with red string as gifts for Michael and Sophia.\n- [explicit] user is considering including a picture of Ava on the baby shower invitations.\n- [explicit] user is adopting a child named Ava from China.\n- [explicit] user plans to include a special message about Ava's adoption journey on the baby shower invitation.\n- [explicit] user plans to include Chinese characters on the baby shower invitation.\n- [explicit] user plans to use a red and gold color scheme for the baby shower invitation.\n- [explicit] user plans to use the wording \"Join us as we celebrate the arrival of Ava, our little bundle of joy from China!\" on the baby shower invitation.\n- [explicit] user plans to include a picture of Ava, either a sonogram or a recent photo, on the baby shower invitation.\n- [explicit] user plans to host a baby shower for Ava.\n- [explicit] user plans to use a traditional Chinese-inspired design for the baby shower invitation.\n- [explicit] user took a family trip to Disney World.\n- [explicit] user has travel photos from trips to Hawaii.\n- [explicit] user took a solo trip to San Francisco.\n- [explicit] user has travel photos from trips to Yosemite.\n- [explicit] user participated in wine tastings during the trip to Napa Valley.\n- [explicit] user has travel photos from a recent trip to Napa Valley.\n- [explicit] user visited Napa Valley approximately 5 weeks before 2023-06-27.\n- [explicit] user has travel photos from trips to San Francisco.\n- [explicit] user has travel photos from trips to Disney World.\n- [explicit] user has photo files that need a naming convention.\n- [explicit] user wants to identify the location and date of each photo from their file names.\n- [explicit] user is seeking advice on the next steps for organizing their travel photos.\n- [explicit] user wants to sort their photos by trip and location.\n- [explicit] user intends to add the trip name to their photo file names.\n- [explicit] user plans to use the file naming format YYYYMMDD_Location_TripName_Description.jpg for their photos.\n- [explicit] user prefers that the modified runbook provided by the assistant be limited to 1-2 lines.\n- [explicit] user is seeking the sources for collecting information regarding an authentication attempt.\n- [explicit] user is interested in learning about the necessary tools and resources required for an incident response team.\n- [explicit] user is interested in learning about additional preparation activities for IT security analysts beyond vulnerability assessments and penetration tests.\n- [explicit] user wants to determine if the user account associated with an authentication attempt has elevated privileges or access to sensitive data.\n- [explicit] user wants to know if a VPN service has a history of malicious activity or is known to be used for nefarious purposes.\n- [explicit] user requested a list of 2-3 VPN monitoring tools.\n- [explicit] user wants an explanation of how to use a VPN monitoring tool for security assessment.\n- [explicit] user became a naturalized US citizen in July 2023.\n- [explicit] user is interested in Polish migration to Brazil in the early 20th century.\n- [explicit] user is considering traveling to Italy and Poland.\n- [explicit] user wants to learn Polish and Italian phrases.\n- [explicit] user has Italian and Polish heritage.\n- [explicit] user recently attended a cultural festival in their neighborhood that celebrated community diversity.\n- [explicit] user is interested in attending cultural events or festivals in their neighborhood that celebrate Italian and Polish heritage.\n- [explicit] user has Italian ancestry.\n- [explicit] user is considering applying for an Italian passport.\n- [explicit] user needs a marriage certificate for their parents for an Italian passport application.\n- [explicit] user needs a birth certificate for their great-grandfather for an Italian passport application.\n- [explicit] user was recommended to hire a lawyer specializing in Italian immigration law by their friend.\n- [explicit] user has a friend who is also applying for Italian citizenship.\n- [explicit] user received a recommendation to hire a lawyer specializing in Italian immigration law from a friend who is also applying for Italian citizenship.\n- [explicit] user is applying for Italian citizenship.\n- [explicit] user is considering hiring a lawyer who specializes in Italian immigration law to help with an application for Italian citizenship.\n- [explicit] user is looking for a chicken and vegetable stir-fry recipe.\n- [explicit] user wants to substitute the mixed vegetables in the stir-fry recipe with vegetables available on hand.\n- [explicit] user has leftover vegetables.\n- [explicit] user is attempting to use up older ingredients.\n- [explicit] user found duplicate kitchen utensils while organizing their drawer.\n- [explicit] user unsuccessfully attempted to make Thai green curry during the week of August 14-20, 2023.\n- [explicit] user is seeking a recipe for Thai green curry.\n- [explicit] user organized their kitchen utensil drawer on the weekend of August 19-20, 2023.\n- [explicit] user has a cake recipe that resulted in an overcooked cake.\n- [explicit] user intends to adjust the oven temperature for the user's cake recipe.\n- [explicit] user previously had a cake come out overcooked.\n- [explicit] user is seeking resources for kitchen design inspiration.\n- [explicit] user is planning to redo the countertops on their kitchen island.\n- [explicit] user recently replaced the light fixture above their kitchen island.\n- [explicit] user is preparing a citizenship application.\n- [explicit] user has submitted a request for a copy of their birth certificate from their home country.\n- [explicit] user has heard that the citizenship civics test is challenging.\n- [explicit] user has been living in limbo for over a year regarding their ability to stay in the United States.\n- [explicit] user intends to prepare for the naturalization interview.\n- [explicit] user is eager to move forward with their citizenship application.\n- [explicit] user intends to start studying for the civics test.\n- [explicit] user intends to practice their English language skills to prepare for the naturalization test.\n- [explicit] user is considering implementing a one-touch rule for cleaning.\n- [explicit] user plans to categorize and group similar items to organize their garage.\n- [explicit] user has maintained a daily tidying routine for 4 weeks.\n- [explicit] user is planning to clean out the garage the weekend of September 30, 2023.\n- [explicit] user finds that the daily tidying routine has made a positive difference in their apartment.\n- [explicit] user intends to implement the one-touch rule while cleaning the garage on the weekend of October 7-8, 2023.\n- [explicit] user plans to label storage bins and shelves.\n- [explicit] user is considering using a label maker for organization.\n- [explicit] user is seeking recommendations for a label maker.\n- [explicit] user intends to organize a bookshelf.\n- [explicit] user has decided to purchase a Brother P-Touch label maker.\n- [explicit] user intends to organize their bookshelf by categorizing and grouping similar books together.\n- [explicit] user is considering organizing cleaning supplies by room or by type of product.\n- [explicit] user is seeking advice on how to categorize cleaning supplies.\n- [explicit] user is planning to organize their bookshelf.\n- [explicit] user has booked a guided duck hunting trip with a local outfitter for mid-January 2024.\n- [explicit] user is planning a deer hunting trip to the Sierra National Forest in early November 2023.\n- [explicit] user is planning to scout for deer hunting areas near the San Joaquin River.\n- [explicit] user plans to hunt during the first week of November.\n- [explicit] user expects cooler temperatures during the first week of November.\n- [explicit] user is interested in learning how to read deer sign and tracks.\n- [explicit] user believes the first week of November will have a full moon.\n- [explicit] user has a son named Jack.\n- [explicit] user and son Jack caught catfish at a local park's fishing derby in August 2023.\n- [explicit] user attended a local park's fishing derby with son Jack in August 2023.\n- [explicit] user has kids.\n- [explicit] user plans to teach Emily about different types of fish at a nearby pond on Sundays.\n- [explicit] user plans to take Emily to a nearby pond on Sundays to practice casting.\n- [explicit] user has a daughter named Emily.\n- [explicit] user plans to take Emily to a nearby pond on Sunday, October 1, 2023.\n- [explicit] user plans to take notes on fish habitats and behaviors with Emily.\n- [explicit] user intends to practice casting and learn about fish species with Emily at the pond.\n- [explicit] user plans to bring a field guide to identify fish.\n- [deductive] user engages in outdoor recreational activities, specifically fishing and hunting.\n- [deductive] user is a parent of at least two children, Emily and Jack.\n- [inductive] user exhibits a structured and educational approach to outdoor activities, planning to bring field guides and take notes.\n- [inductive] user actively involves their children in outdoor recreational activities like fishing.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 127.7,
+  "total": 132.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

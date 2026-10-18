@@ -1,0 +1,96 @@
+{
+ "qid": "59524333",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "What time do I usually go to the gym?",
+ "reference": "6:00 pm",
+ "question_date": "2023-06-06 16:35",
+ "sessions": [
+  {
+   "id": "sharegpt_Clr6oyu_0",
+   "date": "2023-01-20 19:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_1",
+   "date": "2023-02-11 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_493944",
+   "date": "2023-02-26 03:13",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_NYFuCmY_0",
+   "date": "2023-03-01 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_5FHWj0a_0",
+   "date": "2023-03-18 20:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_F1pXfP0_0",
+   "date": "2023-04-18 07:42",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_150151",
+   "date": "2023-05-23 10:33",
+   "evidence": false
+  },
+  {
+   "id": "e4882e09_5",
+   "date": "2023-05-24 22:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_2",
+   "date": "2023-05-30 07:52",
+   "evidence": true
+  },
+  {
+   "id": "08921633",
+   "date": "2023-05-30 20:42",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-02-11 07:02:00] user is planning out their week.\n[2023-02-11 07:04:00] user attends gym sessions on Mondays, Wednesdays, and Fridays at 7:00 pm.\n[2023-05-30 07:58:00] user prefers to schedule meetings on Tuesdays or Thursdays.\n[2023-05-30 07:58:00] user is planning a meeting with a potential client.\n[2023-05-30 07:58:00] user has gym commitments on Mondays, Wednesdays, and Fridays.\n[2023-05-30 07:58:00] user selected Tuesday at 2:00 pm for the meeting.\n[2023-05-30 07:58:00] user attends the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.\n[2023-05-30 20:46:00] user has a bedroom that is recently organized.\n[2023-05-30 20:46:00] user prefers the Scandinavian Minimalism style.\n[2023-05-30 20:46:00] user spent approximately 3 hours assembling the new dresser.\n[2023-05-30 20:46:00] user replaced an old broken dresser with a new one from IKEA.\n[2023-05-30 20:46:00] user prefers a minimalist style for bedroom decoration.\n[2023-05-30 20:50:00] user intends to use a closet organization system to maximize their closet space.\n[2023-05-30 20:50:00] user intends to incorporate woven baskets into their bedroom decor.\n[2023-05-30 20:50:00] user recently cleaned out their closet and removed a significant amount of old clothes.\n[2023-05-30 20:50:00] user intends to organize their clothes by category.\n[2023-05-30 20:50:00] user intends to incorporate natural textiles into their bedroom decor.\n[2023-05-30 20:52:00] user plans to use woven baskets for storing underwear.\n[2023-05-30 20:52:00] user plans to use woven baskets for storing socks.\n[2023-05-30 20:52:00] user intends to use woven baskets to make finding socks and underwear easier.\n[2023-05-30 20:52:00] user intends to use woven baskets to add texture to their closet.\n\n## Deductive Observations\n\n[2023-05-30 20:52:00] user prefers a home environment that is organized and clutter-free, as evidenced by recent closet cleaning, new furniture acquisition, and reorganization plans.\n   Premises:\n   - user recently cleaned out their closet and removed a significant amount of old clothes.\n   - user intends to organize their clothes by category.\n   - user intends to use a closet organization system to maximize their closet space.\n   - user has a bedroom that is recently organized.\n\n[2023-05-30 20:52:00] user values aesthetics and functionality in home organization, as demonstrated by their use of woven baskets for storage and their minimalist design preferences.\n   Premises:\n   - user prefers a minimalist style for bedroom decoration.\n   - user prefers the Scandinavian Minimalism style.\n   - user intends to use woven baskets to make finding socks and underwear easier.\n   - user intends to use woven baskets to add texture to their closet.\n\n\n## Inductive Observations\n\n **Pattern** [high]: user prioritizes functional home organization, specifically seeking to maximize space and efficiency through structured categorization.\n   **Type**: tendency\n   **Sources**:\n   - user intends to organize their clothes by category.\n   - user intends to use a closet organization system to maximize their closet space.\n   - user recently cleaned out their closet and removed a significant amount of old clothes.\n   - user has a bedroom that is recently organized.\n\n **Pattern** [high]: user consistently integrates texture and natural materials to balance minimalist design preferences.\n   **Type**: preference\n   **Sources**:\n   - user plans to use woven baskets for storing underwear.\n   - user intends to use woven baskets to add texture to their closet.\n   - user intends to incorporate natural textiles into their bedroom decor.\n   - user prefers a minimalist style for bedroom decoration.\n   - user prefers the Scandinavian Minimalism style.\n\n",
+ "answer": "To determine the time you usually go to the gym, I will follow these steps:\n\n**Step 1: Extract relevant information from the history chats.**\n*   [2023-02-11 07:04:00]: \"user attends gym sessions on Mondays, Wednesdays, and Fridays at 7:00 pm.\"\n*   [2023-05-30 07:58:00]: \"user attends the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.\"\n\n**Step 2: Reason over the information.**\n*   The initial record from February 2023 indicates a 7:00 pm gym time.\n*   The more recent record from May 30, 2023, explicitly states that you attend the gym at 6:00 pm on those same days.\n*   As the May 30th entry is the most recent observation regarding your gym schedule, it supersedes the earlier information.\n\n**Answer:**\nYou usually go to the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.",
+ "dump": "- [explicit] user intends to create a new ROS package that inherits from the rospy package.\n- [explicit] user intends to overwrite the _PublisherImpl.publish function in their new ROS package.\n- [explicit] user intends to overwrite the _SubscriberImpl._invoke_callback function in their new ROS package.\n- [explicit] user drafted a hook for their Minecraft mods video starting with the phrase, \"do you want to experience the game in the best way imaginable? Do you want tools that your favorite YouTubers are using? Or do you simply want to...\".\n- [explicit] user is creating a YouTube video about how to download Minecraft mods.\n- [explicit] user selected a specific hook option provided by the assistant and requested its inclusion in their video outline.\n- [explicit] user requested an outline for a YouTube video about downloading Minecraft mods.\n- [explicit] user requested assistance with choosing Minecraft mods to feature at the beginning of their video.\n- [explicit] user is having difficulty designing a thumbnail for their YouTube video.\n- [explicit] user considered showing multiple different mods in their video thumbnail.\n- [explicit] user is seeking productivity apps to help them stay organized.\n- [explicit] user is interested in Todoist.\n- [explicit] user is interested in how Trello integrates with Google Calendar.\n- [explicit] user is interested in how Todoist integrates with Google Calendar.\n- [explicit] user is planning out their week.\n- [explicit] user is interested in Trello.\n- [explicit] user uses Todoist for task management.\n- [explicit] user attends gym sessions on Mondays, Wednesdays, and Fridays at 7:00 pm.\n- [explicit] user manages multiple projects simultaneously in Todoist.\n- [explicit] user wants to prioritize tasks in Todoist.\n- [explicit] user is interested in learning how to set and track goals in Todoist.\n- [explicit] user believes the gods in The Odyssey undergo personal growth.\n- [explicit] user is interested in the structure of The Odyssey and how it contributes to its themes.\n- [explicit] user views The Odyssey as a balance of action and reflection.\n- [explicit] user is interested in the expectations placed on hosts and guests in ancient Greek society as depicted in The Odyssey.\n- [explicit] user is interested in the interactions between gods and mortals in The Odyssey.\n- [explicit] user perceives The Odyssey as a tale of personal growth and discovery.\n- [explicit] user appreciates the exploration of hospitality in The Odyssey.\n- [explicit] user believes The Odyssey is a timeless work that can be enjoyed and learned from today.\n- [explicit] user is interested in modern books that draw inspiration from The Odyssey.\n- [explicit] user is interested in the Commonpoint Challenge, which takes place between April 1 and April 21, 2023.\n- [explicit] user wants instructions for the Commonpoint Challenge simplified.\n- [explicit] user wants text describing the Commonpoint Challenge simplified.\n- [explicit] user is looking for shoes\n- [explicit] user has wide feet\n- [explicit] user believes that the emphasis on suffering and sacrifice in Mark's Gospel could be related to the historical context of persecution.\n- [explicit] user is interested in the themes and messages of Mark's Gospel that are not found in Matthew and Luke.\n- [explicit] user thinks that the theme of suffering and sacrifice would be relevant and comforting for Christians facing difficult times.\n- [explicit] user is interested in whether the Gospel of Mark's perspective on Jesus was unique at the time it was written.\n- [explicit] user is interested in the reasons why other Gospels place less emphasis on Jesus' identity as the Son of God compared to the Gospel of Mark.\n- [explicit] user seeks a specific example from the Gospel of Mark that emphasizes Jesus' divinity and power.\n- [explicit] user is interested in how the Gospel of Mark portrays Jesus as a powerful and divine figure with authority over sickness and death.\n- [explicit] user is interested in performing sensor cleaning themselves.\n- [explicit] user is seeking information on the differences between methanol-based and ethanol-based sensor cleaning solutions.\n- [explicit] user is interested in learning about sensor cleaning.\n- [explicit] user is seeking information on recommended swab materials for sensor cleaning.\n- [explicit] user is interested in learning about different types of cleaning solutions and swabs available for DIY sensor cleaning kits.\n- [explicit] user had their camera sensor cleaned professionally at a camera store downtown in April 2023.\n- [explicit] user owns a Canon EOS 5D Mark IV camera.\n- [explicit] user wants to learn how to clean a camera mirror and other components to prevent dust and debris from accumulating on the sensor.\n- [explicit] user decided to use the Visible Dust Arctic Butterfly 724 Sensor Cleaning Kit.\n- [explicit] user considers their photography skills to have improved over time.\n- [explicit] user plans to organize their digital photo files.\n- [explicit] user plans to organize old photo albums.\n- [explicit] user has digital photos scattered across various folders and hard drives.\n- [explicit] user plans to scan favorite photo prints.\n- [explicit] user needs to send files to the potential client before the meeting.\n- [explicit] user has gym commitments on Mondays, Wednesdays, and Fridays.\n- [explicit] user prefers to schedule meetings on Tuesdays or Thursdays.\n- [explicit] user attends the gym at 6:00 pm on Mondays, Wednesdays, and Fridays.\n- [explicit] user selected Tuesday at 2:00 pm for the meeting.\n- [explicit] user is planning a meeting with a potential client.\n- [explicit] user plans to share files with a potential client using Google Drive.\n- [explicit] user intends to organize files into a folder and provide the link to the potential client via email.\n- [explicit] user intends to include a brief note alongside the file link in the email to the potential client.\n- [explicit] user is considering confirming the meeting time and date in the email sent to the potential client.\n- [explicit] user prefers the Scandinavian Minimalism style.\n- [explicit] user prefers a minimalist style for bedroom decoration.\n- [explicit] user assembled a new dresser on Saturday, March 12th.\n- [explicit] user received help from a brother to assemble the new dresser.\n- [explicit] user is using the new dresser for storage space.\n- [explicit] user replaced an old broken dresser with a new one from IKEA.\n- [explicit] user spent approximately 3 hours assembling the new dresser.\n- [explicit] user has a bedroom that is recently organized.\n- [explicit] user intends to organize their clothes by category.\n- [explicit] user intends to incorporate woven baskets into their bedroom decor.\n- [explicit] user intends to incorporate natural textiles into their bedroom decor.\n- [explicit] user recently cleaned out their closet and removed a significant amount of old clothes.\n- [explicit] user intends to use a closet organization system to maximize their closet space.\n- [explicit] user intends to use woven baskets to add texture to their closet.\n- [explicit] user plans to use woven baskets for storing socks.\n- [explicit] user plans to use woven baskets for storing underwear.\n- [explicit] user intends to use woven baskets to make finding socks and underwear easier.\n- [deductive] user prefers a home environment that is organized and clutter-free, as evidenced by recent closet cleaning, new furniture acquisition, and reorganization plans.\n- [deductive] user values aesthetics and functionality in home organization, as demonstrated by their use of woven baskets for storage and their minimalist design preferences.\n- [inductive] user consistently integrates texture and natural materials to balance minimalist design preferences.\n- [inductive] user prioritizes functional home organization, specifically seeking to maximize space and efficiency through structured categorization.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 94.7,
+  "total": 98.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

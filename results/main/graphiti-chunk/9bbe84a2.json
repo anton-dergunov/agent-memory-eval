@@ -1,0 +1,90 @@
+{
+ "qid": "9bbe84a2",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+ "reference": "level 100",
+ "question_date": "2023-10-08 15:29",
+ "sessions": [
+  {
+   "id": "d3941533_1",
+   "date": "2023-05-27 10:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_c6a0c6c2_1",
+   "date": "2023-06-16 04:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_200580",
+   "date": "2023-07-05 14:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pvqY6bN_13",
+   "date": "2023-07-30 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_c6a0c6c2_2",
+   "date": "2023-09-30 12:45",
+   "evidence": true
+  },
+  {
+   "id": "cd81a69b",
+   "date": "2023-10-01 16:48",
+   "evidence": false
+  },
+  {
+   "id": "1b26bdd5_6",
+   "date": "2023-10-01 20:22",
+   "evidence": false
+  },
+  {
+   "id": "e697b2dd_3",
+   "date": "2023-10-02 07:10",
+   "evidence": false
+  },
+  {
+   "id": "ff0bb7fd_2",
+   "date": "2023-10-03 22:25",
+   "evidence": false
+  },
+  {
+   "id": "92b1f663_2",
+   "date": "2023-10-06 08:47",
+   "evidence": false
+  }
+ ],
+ "context": "- The user plays Apex Legends competitively and is looking for tips to improve their aim. (valid since 2023-06-16)\n- The assistant provides advice and tips on how to improve gameplay and team communication in Apex Legends. (valid since 2023-09-30)\n- Respawn Entertainment is the developer of Apex Legends and provides regular updates, events, and challenges for the game. (valid since 2023-09-30)\n- The assistant recommends using the ability Wraith's Voices From the Past in Apex Legends to help with playstyle and aim. (valid since 2023-06-16)\n- The assistant recommends using the ability Bloodhound's Beast of the Hunt in Apex Legends to help with playstyle and aim. (valid since 2023-06-16)\n- The user has been participating in a daily writing challenge for 4 weeks. (valid since 2023-10-03)\n- The user purchased a 3-month supply of flea and tick prevention medication for Lola for $25 last week. (valid since 2023-10-02)\n- The user traveled to Washington D.C., USA for a job interview on April 10th. (valid since 2023-04-10)\n- The user is looking for storage solutions for their remotes. (valid since 2023-10-01)\n- The user is looking for storage solutions for their filters. (valid since 2023-10-01)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history chats indicate that the user plays Apex Legends competitively and has received advice on improving their aim and gameplay.\n*   The history chats mention specific recommendations for abilities (Wraith and Bloodhound) to help with playstyle and aim.\n*   The history chats mention the user's participation in a writing challenge, pet care, travel history, and storage needs.\n\n**Step 2: Reason over the information**\n*   I have reviewed all provided history chats regarding the user's interactions with the assistant.\n*   While the history confirms the user plays Apex Legends competitively and has sought advice on improving their aim, there is no record of the user setting a specific \"level\" goal, nor is there any mention of the user updating a goal related to their Apex Legends level.\n\n**Conclusion:**\nBased on the provided history chats, there is no information regarding a previous goal for your Apex Legends level or any update to such a goal.",
+ "dump": "- The user traveled to Washington D.C., USA for a job interview on April 10th. (valid since 2023-04-10)\n- The user attended a music festival in Philadelphia, Pennsylvania, USA on April 24th. (valid since 2023-04-24)\n- The user went on a five-day family vacation to Denver, Colorado, USA starting May 1st. (valid since 2023-05-01)\n- The user practices downward-facing dog to help stretch their hamstrings and relax their back, which makes them feel more relaxed, centered, grounded, and calm. (valid since 2023-05-27)\n- The user practices child's pose to help stretch their hamstrings and relax their back, which makes them feel more relaxed, centered, grounded, and calm. (valid since 2023-05-27)\n- The assistant recommends yoga blocks for beginners to help modify poses and improve alignment. (valid since 2023-05-27)\n- The assistant recommends yoga straps for beginners to help with deepening stretches and maintaining proper alignment. (valid since 2023-05-27)\n- The assistant recommends blankets as a prop for beginners to use as grip enhancers or joint padding. (valid since 2023-05-27)\n- The assistant recommends towels as a prop for beginners to use as grip enhancers or joint padding. (valid since 2023-05-27)\n- The assistant recommends bolsters for beginners to support the body during restorative yoga or seated forward bends. (valid since 2023-05-27)\n- The assistant recommends pillows for beginners to support the body during restorative yoga or seated forward bends. (valid since 2023-05-27)\n- The user is exploring using a rubber block as a potential yoga prop. (valid since 2023-05-27)\n- The user is exploring using a foam block as a potential yoga prop. (valid since 2023-05-27)\n- The user went to the Hamptons, New York, USA for a beach weekend with friends on June 5th. (valid since 2023-06-05)\n- The user visited Los Angeles, California, USA on June 15th for a friend's birthday party. (valid since 2023-06-15)\n- The user is considering purchasing the HyperX Cloud II gaming headset despite concerns about its virtual surround sound performance. (valid since 2023-06-16)\n- The assistant suggests the Turtle Beach Elite Atlas and SteelSeries Arctis 7+ as alternatives to the HyperX Cloud II for users seeking true surround sound. (valid since 2023-06-16)\n- The user plays Apex Legends competitively and is looking for tips to improve their aim. (valid since 2023-06-16)\n- The assistant recommends using the ability Wraith's Voices From the Past in Apex Legends to help with playstyle and aim. (valid since 2023-06-16)\n- The assistant recommends using the ability Bloodhound's Beast of the Hunt in Apex Legends to help with playstyle and aim. (valid since 2023-06-16)\n- The user plans to start an industrial automation course on Udemy. (valid since 2023-07-05)\n- The user can search for job openings in the industrial automation field on the Indeed job board. (valid since 2023-07-05)\n- The user can search for job openings in the industrial automation field on the Monster job board. (valid since 2023-07-05)\n- The user can search for job openings in the industrial automation field on the Glassdoor job board. (valid since 2023-07-05)\n- The assistant provides advice and tips on how to improve gameplay and team communication in Apex Legends. (valid since 2023-09-30)\n- Respawn Entertainment is the developer of Apex Legends and provides regular updates, events, and challenges for the game. (valid since 2023-09-30)\n- The user needs to organize their photography gear storage at home. (valid since 2023-10-01)\n- The user is looking for storage solutions for their filters. (valid since 2023-10-01)\n- The user is looking for storage solutions for their remotes. (valid since 2023-10-01)\n- The user is looking for storage solutions for their extra batteries. (valid since 2023-10-01)\n- The assistant provides advice to the user on how to sell their old Sony RX100 Mark IV online. (valid from 2023-10-01 until 2023-10-01) [superseded]\n- The user intends to sell their used Sony RX100 Mark IV camera online. (valid since 2023-10-01)\n- The user plans to use eBay to sell their Sony RX100 Mark IV. (valid since 2023-10-01)\n- The user plans to use Facebook Marketplace to sell their Sony RX100 Mark IV. (valid since 2023-10-01)\n- The user is on a business trip to Montreal, Canada today. (valid since 2023-10-01)\n- The user purchased a 3-month supply of flea and tick prevention medication for Lola for $25 last week. (valid since 2023-10-02)\n- Lola is the cat for whom the user bought a 3-month supply of flea and tick prevention medication. (valid since 2023-10-02)\n- Lola uses a flea and tick prevention medication that costs $25 for a 3-month supply. (valid since 2023-10-02)\n- The user has been participating in a daily writing challenge for 4 weeks. (valid since 2023-10-03)\n- The assistant provides strategies to the user on how to reframe negative self-talk and practice self-compassion to manage self-doubt and imposter syndrome while writing. (valid since 2023-10-03)\n- The user plans to purchase the Laneige Water Bank Moisturizing Gel Cream using their Ulta credit. (valid since 2023-10-06)\n- The user has had a great experience with the Ulta loyalty program. (valid since 2023-10-06)\n- The user plans to join the Sephora's Beauty Insider loyalty program. (valid since 2023-10-06)\n- The user shops at Sephora occasionally. (valid since 2023-10-06)\n- Sephora's Beauty Insider includes a VIB (Very Important Beauty Insider) tier. (valid since 2023-10-06)\n- Sephora's Beauty Insider includes a Rouge tier. (valid since 2023-10-06)\n- Dr. Jart+, Laneige, and Sunday Riley have their own brand-specific loyalty programs. (valid since 2023-10-06)\n- Laneige and Sunday Riley have their own brand-specific loyalty programs. (valid since 2023-10-06)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 48,
+  "invalidated": 1,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 139.8,
+  "total": 141.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

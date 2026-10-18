@@ -1,0 +1,100 @@
+{
+ "qid": "b6019101",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many MCU films did I watch in the last 3 months?",
+ "reference": "5",
+ "question_date": "2023-06-17 16:20",
+ "sessions": [
+  {
+   "id": "3ea07188_1",
+   "date": "2023-04-22 11:57",
+   "evidence": false
+  },
+  {
+   "id": "df6970d8",
+   "date": "2023-04-28 14:26",
+   "evidence": false
+  },
+  {
+   "id": "43a8152b_1",
+   "date": "2023-05-03 21:21",
+   "evidence": false
+  },
+  {
+   "id": "9bd36386",
+   "date": "2023-05-08 22:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_204275",
+   "date": "2023-05-10 12:23",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_106975",
+   "date": "2023-05-11 01:38",
+   "evidence": false
+  },
+  {
+   "id": "ac089c83_4",
+   "date": "2023-05-18 20:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_67074b4b_1",
+   "date": "2023-05-20 04:54",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_338597",
+   "date": "2023-05-21 20:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_67074b4b_2",
+   "date": "2023-05-29 02:47",
+   "evidence": true
+  }
+ ],
+ "context": "- User has been on a Marvel Cinematic Universe (MCU) binge recently, having watched 4 films in the last 3 months. (from a chat on 2023-05-20)\n- User has watched 12 films in the last 3 months, including 5 MCU films, which they consider a high volume of movie watching. (from a chat on 2023-05-29)\n- User was recommended several MCU films suitable for family viewing, such as 'The Avengers', 'Guardians of the Galaxy', 'Ant-Man', and 'Captain Marvel'. (from a chat on 2023-05-20)\n- User is planning a family movie marathon for the upcoming long weekend and wants to re-watch classic films from their childhood. (from a chat on 2023-05-20)\n- User has observed that posting on Instagram between 12 pm and 3 pm helps maximize their engagement through likes and comments. (from a chat on 2023-05-03)\n- User was recommended several classic films for their marathon, including 'The Princess Bride', 'Ghostbusters', 'Matilda', 'The Sandlot', 'The Muppet Movie', and 'Indiana Jones and the Raiders of the Lost Ark'. (from a chat on 2023-05-29)\n- User is planning to organize a monthly game night at their home to socialize with friends and acquaintances. (from a chat on 2023-04-28)\n- User is creating a Marvel-themed photo booth for their movie night, featuring DIY props like Spider-Man masks, capes, and signs saying 'Spider-Man's Neighborhood' and 'Queens, NY'. (from a chat on 2023-05-20)\n- User selected 'Spider-Man: Homecoming' (2017) for their family movie night. (from a chat on 2023-05-20)\n- User is planning a family movie marathon for the upcoming long weekend and has selected 'The Lion King', 'Back to the Future', and 'The Goonies' as their lineup. (from a chat on 2023-05-29)\n- User was provided with snack and activity ideas for a 'Spider-Man: Homecoming' movie night, including 'Spider-Man's Webbed Waffles' and a 'Superhero Training Academy' obstacle course. (from a chat on 2023-05-20)\n- User was recommended various 80s and 90s family-friendly classics, including 'E.T. the Extra-Terrestrial', 'The Goonies', 'The Lion King', and 'Home Alone'. (from a chat on 2023-05-20)\n- User is planning a 'The Goonies'-inspired treasure hunt with clues, as well as movie trivia, a quote-along competition, and a 'guess the movie poster' game for their family marathon. (from a chat on 2023-05-29)\n- User purchased dangling silver hoop earrings with small crystals on February 2, 2023. (from a chat on 2023-04-22)\n- User recently returned from a weekend trip to Napa Valley with their boyfriend, Alex. (from a chat on 2023-05-08)\n- User attended a friend's master's degree graduation party on April 23, 2022, and took photos that they are currently organizing. (from a chat on 2023-05-18)\n- User is focused on increasing Instagram engagement for their wellness-related content and recently gained 12 new followers by participating in the #WellnessWednesday challenge. (from a chat on 2023-05-03)\n- User plans to build a DIY cityscape backdrop for their photo booth using the cardboard box method, customizing it to fit the Spider-Man theme. (from a chat on 2023-05-20)\n- User celebrated their 30th birthday with a surprise party thrown by friends, which they found to be a special and memorable experience. (from a chat on 2023-05-08)\n- User plans to learn Three.js by starting with the 'Three.js Fundamentals' tutorial series before exploring other resources. (from a chat on 2023-05-10)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-05-20: The user mentioned having watched 4 MCU films in the last 3 months.\n    *   From the chat on 2023-05-29: The user updated this information, stating they had watched 12 films in the last 3 months, of which 5 were MCU films.\n\n2.  **Reason over the information:**\n    *   The information from 2023-05-29 is the most recent and accurate update regarding the user's viewing habits over the 3-month period leading up to that date.\n    *   The user explicitly stated in the later chat that they watched 5 MCU films.\n\n3.  **Conclusion:**\n    *   You watched 5 MCU films in the last 3 months.",
+ "dump": "- User inherited vintage brooches and pendants from their grandmother and is planning to style a floral-patterned brooch on a white blouse or denim jacket. (session 2023-04-22)\n- User was recommended several MCU films suitable for family viewing, such as 'The Avengers', 'Guardians of the Galaxy', 'Ant-Man', and 'Captain Marvel'. (session 2023-05-20)\n- User attended a friend's master's degree graduation party on April 23, 2022, and took photos that they are currently organizing. (session 2023-05-18)\n- User was informed about mechanisms for promoting sustainable fishing, such as MSC certification, government regulations, and international agreements like the UN Convention on the Law of the Sea. (session 2023-05-21)\n- User is interested in a wine and dine celebration in the Chianti region of Tuscany for their 31st birthday. (session 2023-05-08)\n- User is planning to have their mother's old diamond ring appraised and was provided with general advice on finding a reputable appraiser, such as checking credentials and using professional organizations like NAJA or AGS. (session 2023-04-22)\n- User felt anxious about turning 30 but now feels more confident, self-assured, and purposeful in their thirties. (session 2023-05-08)\n- User is planning a trip to Europe for this summer and is considering celebrating their 31st birthday there. (session 2023-05-08)\n- User is planning to send a handwritten note and a funny GIF to a high school friend who recently graduated from law school to congratulate them. (session 2023-05-18)\n- User plans to stay in a villa while visiting the Chianti region in Tuscany. (session 2023-05-08)\n- User was provided with teaching strategies for auditory learners, including using lectures, audio resources, reading aloud, emphasizing tone, and incorporating multimedia tools. (session 2023-05-11)\n- User was provided with several learning resources for Three.js, including the official website, 'Three.js Journey' course, 'A Gentle Introduction to Three.js', the official YouTube channel, GitHub examples, and community forums like Reddit and Discord. (session 2023-05-10)\n- User is interested in marine conservation and inquired about initiatives to protect marine wildlife, including Marine Protected Areas, sustainable fishing, plastic reduction, and climate change mitigation. (session 2023-05-21)\n- User plans to learn Three.js by starting with the 'Three.js Fundamentals' tutorial series before exploring other resources. (session 2023-05-10)\n- User was advised on individual actions to help marine ecosystems, including reducing single-use plastics, choosing sustainable seafood, lowering their carbon footprint, participating in beach cleanups, and supporting conservation organizations. (session 2023-05-21)\n- User was advised to create branded hashtags that are unique, simple, concise, and relevant to their niche, while avoiding generic terms. (session 2023-05-03)\n- User intends to back up their phone's photo library to an external hard drive or cloud storage to ensure data safety. (session 2023-05-18)\n- User was advised to use a mix of niche and broad hashtags, research competitors, and utilize Instagram's Reels and Stories to improve content visibility. (session 2023-05-03)\n- User is considering starting a collection of vintage brooches. (session 2023-04-22)\n- User was advised to optimize Instagram posting times by analyzing their specific audience's activity, avoiding rush hours, and maintaining a consistent schedule. (session 2023-05-03)\n- User is planning to create a unique branded hashtag for their personal brand to build community and track user-generated content. (session 2023-05-03)\n- User plans to organize their phone's photo library by creating dedicated albums and using tags or keywords. (session 2023-05-18)\n- User is creating a Marvel-themed photo booth for their movie night, featuring DIY props like Spider-Man masks, capes, and signs saying 'Spider-Man's Neighborhood' and 'Queens, NY'. (session 2023-05-20)\n- User plans to create designated quiet areas in their classroom to help manage noise levels and provide a better learning environment for auditory learners. (session 2023-05-11)\n- User is planning a family movie marathon for the upcoming long weekend and has selected 'The Lion King', 'Back to the Future', and 'The Goonies' as their lineup. (session 2023-05-29)\n- User is interested in board games and is looking for recommendations for friends and family, specifically games similar to Scattergories. (session 2023-04-28)\n- User is planning a family movie marathon for the upcoming long weekend and wants to re-watch classic films from their childhood. (session 2023-05-20)\n- User is focused on increasing Instagram engagement for their wellness-related content and recently gained 12 new followers by participating in the #WellnessWednesday challenge. (session 2023-05-03)\n- User plans to build a DIY cityscape backdrop for their photo booth using the cardboard box method, customizing it to fit the Spider-Man theme. (session 2023-05-20)\n- User was recommended several board games for 5-6 players, including Codenames, Taboo, Monikers, Wits & Wagers, and Debatable. (session 2023-04-28)\n- User learned about penalties for unsustainable fishing, including fines, license revocation, and market bans on seafood from countries with poor management systems. (session 2023-05-21)\n- User has observed that posting on Instagram between 12 pm and 3 pm helps maximize their engagement through likes and comments. (session 2023-05-03)\n- User is considering attending their college alma mater's upcoming reunion to reconnect with friends they have lost touch with. (session 2023-05-18)\n- User was recommended several classroom activities for auditory learners, such as podcast discussions, music-based learning, debates, storytelling, role-playing, and audio recording. (session 2023-05-11)\n- User is planning a 'The Goonies'-inspired treasure hunt with clues, as well as movie trivia, a quote-along competition, and a 'guess the movie poster' game for their family marathon. (session 2023-05-29)\n- User was provided with tips for their 'guess the movie poster' game, such as using cropped images, mixing iconic and lesser-known posters, and setting time limits. (session 2023-05-29)\n- User is interested in visiting Castello di Ama and Castello di Brolio while in the Chianti region. (session 2023-05-08)\n- User has been on a Marvel Cinematic Universe (MCU) binge recently, having watched 4 films in the last 3 months. (session 2023-05-20)\n- User was advised on methods for creating realistic textures in Three.js, including using image textures, creating custom textures in software like Photoshop or GIMP, using procedural textures, normal and bump maps, environment mapping, and shaders. (session 2023-05-10)\n- User lost a favorite silver necklace with a small pendant on January 10, 2023, while getting ready for a party at a friend's place. (session 2023-04-22)\n- User is interested in creating 3D graphics and animations in HTML5 and has decided to use the Three.js library for its high-level API. (session 2023-05-10)\n- User was recommended various 80s and 90s family-friendly classics, including 'E.T. the Extra-Terrestrial', 'The Goonies', 'The Lion King', and 'Home Alone'. (session 2023-05-20)\n- User recently returned from a weekend trip to Napa Valley with their boyfriend, Alex. (session 2023-05-08)\n- User is considering hosting a social media challenge or giveaway to boost engagement and attract new followers. (session 2023-05-03)\n- User is considering adding Dixit to their board game wishlist after learning about its mechanics, creative storytelling, and suitability for board game enthusiasts. (session 2023-04-28)\n- User was provided with snack and activity ideas for a 'Spider-Man: Homecoming' movie night, including 'Spider-Man's Webbed Waffles' and a 'Superhero Training Academy' obstacle course. (session 2023-05-20)\n- User decided against including 'The NeverEnding Story' in their family marathon because they feel it may be too intense for the younger children in their family. (session 2023-05-29)\n- User is a teacher who is interested in adapting their classroom environment and teaching methods to better support auditory learners. (session 2023-05-11)\n- User was recommended several classic films for their marathon, including 'The Princess Bride', 'Ghostbusters', 'Matilda', 'The Sandlot', 'The Muppet Movie', and 'Indiana Jones and the Raiders of the Lost Ark'. (session 2023-05-29)\n- User has watched 12 films in the last 3 months, including 5 MCU films, which they consider a high volume of movie watching. (session 2023-05-29)\n- User selected 'Spider-Man: Homecoming' (2017) for their family movie night. (session 2023-05-20)\n- User has previously played and enjoyed Ticket to Ride and Settlers of Catan. (session 2023-04-28)\n- User learned about marine conservation success stories, including the recovery of humpback whales from 5,000 to over 80,000 individuals, sea turtle conservation in Costa Rica, and coral reef restoration in Indonesia. (session 2023-05-21)\n- User was provided with additional conservation success examples, such as the recovery of gray and southern right whales, California's Marine Life Protection Act, and the 80% reduction in plastic bag use in the UK. (session 2023-05-21)\n- User and their boyfriend Alex are planning to move in together soon and are discussing how to merge their finances. (session 2023-05-08)\n- User celebrated their 30th birthday with a surprise party thrown by friends, which they found to be a special and memorable experience. (session 2023-05-08)\n- User is planning to organize a monthly game night at their home to socialize with friends and acquaintances. (session 2023-04-28)\n- User was recommended the following wineries in the Chianti region: Castello di Querceto, Fattoria San Michele a Torri, Castello di Meleto, Rocca delle Macie, and Fattoria dei Barbi. (session 2023-05-08)\n- User purchased dangling silver hoop earrings with small crystals on February 2, 2023. (session 2023-04-22)\n- User was provided with specific song recommendations for teaching math, science, history, language arts, and character education, along with resources like 'Songs for Teaching' and 'Education World'. (session 2023-05-11)\n- User was provided with a strategy to balance participating in popular hashtag challenges for visibility while developing their own branded challenge to build a targeted, loyal community. (session 2023-05-03)\n- User decided to prioritize silver jewelry to match their new earrings and plans to implement a jewelry station and organizer to prevent future losses. (session 2023-04-22)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 62,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 37.5,
+  "total": 39.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

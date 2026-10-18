@@ -1,0 +1,129 @@
+{
+ "qid": "7401057b",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many free night's stays can I redeem at any Hilton property with my accumulated points?",
+ "reference": "Two",
+ "question_date": "2023-06-16 09:50",
+ "sessions": [
+  {
+   "id": "sharegpt_6fTnCnw_37",
+   "date": "2023-05-11 12:57",
+   "evidence": false
+  },
+  {
+   "id": "answer_94650bfa_1",
+   "date": "2023-05-29 16:25",
+   "evidence": true
+  },
+  {
+   "id": "1450ffad",
+   "date": "2023-05-30 03:45",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_385162",
+   "date": "2023-05-30 08:44",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BKG9Nyc_0",
+   "date": "2023-05-30 10:06",
+   "evidence": false
+  },
+  {
+   "id": "answer_94650bfa_2",
+   "date": "2023-05-30 12:28",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_435909",
+   "date": "2023-05-30 12:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_392050",
+   "date": "2023-05-30 17:31",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Fi5UpOu_38",
+   "date": "2023-06-04 05:55",
+   "evidence": false
+  },
+  {
+   "id": "4cb33063",
+   "date": "2023-06-14 05:35",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user is interested in linguistics, specifically the structural differences between English and Chinese words.\nThe user is a Hilton Honors member and currently has enough points for two free night's stays at any Hilton property, which they are considering using for a separate trip to Las Vegas.\nThe user is planning a trip through Paris, Barcelona, and Rome, with a new interest in a detour to the French Riviera between Paris and Rome.\nThe user has a hotel budget of $200-300 per night for their trip. They prefer central locations in Paris and require a fitness center and breakfast included.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You currently have enough points for two free nights' stays at any Hilton property. \n\nI see you're also considering using those for a trip to Las Vegas—that sounds like a wonderful way to use them! How is the planning for your upcoming European trip coming along? Are you still thinking about that detour to the French Riviera between Paris and Rome?",
+ "dump": "<human>\n\nThe user is interested in linguistics, specifically the structural differences between English and Chinese words.\nThe user is a Hilton Honors member and currently has enough points for two free night's stays at any Hilton property, which they are considering using for a separate trip to Las Vegas.\nThe user is planning a trip through Paris, Barcelona, and Rome, with a new interest in a detour to the French Riviera between Paris and Rome.\nThe user has a hotel budget of $200-300 per night for their trip. They prefer central locations in Paris and require a fitness center and breakfast included.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Hilton points free nights\"})"
+  ],
+  "blocks_chars": 798,
+  "write_steps": 48,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 443.3,
+  "total": 449.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

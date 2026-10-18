@@ -1,0 +1,104 @@
+{
+ "qid": "69fee5aa",
+ "arm": "mem0",
+ "split": "pilot",
+ "question": "How many pre-1920 American coins do I have in my collection?",
+ "reference": "38",
+ "question_date": "2023-06-09 11:14",
+ "sessions": [
+  {
+   "id": "1126be1e_1",
+   "date": "2023-05-20 04:52",
+   "evidence": false
+  },
+  {
+   "id": "f3881d05",
+   "date": "2023-05-25 16:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_15909",
+   "date": "2023-05-27 15:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6028d6e_1",
+   "date": "2023-05-27 18:09",
+   "evidence": true
+  },
+  {
+   "id": "ef917f63",
+   "date": "2023-05-27 21:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3st3uPn_0",
+   "date": "2023-05-28 03:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6028d6e_2",
+   "date": "2023-05-29 00:54",
+   "evidence": true
+  },
+  {
+   "id": "52498502_2",
+   "date": "2023-05-31 06:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_121551",
+   "date": "2023-06-02 03:48",
+   "evidence": false
+  },
+  {
+   "id": "a554ed79_2",
+   "date": "2023-06-02 19:20",
+   "evidence": false
+  }
+ ],
+ "context": "- User added a 1915-S Barber quarter to their collection of pre-1920 American coins. (from a chat on 2023-05-29)\n- User is organizing a collection of 37 pre-1920 American coins by denomination and mint mark and was advised on storage using acid-free albums, capsules, or display cases. (from a chat on 2023-05-27)\n- User was recommended coin display cases and albums from brands like Dansco, Lighthouse, BCW, Whitman, and H.E. Harris that can accommodate their 37-coin collection. (from a chat on 2023-05-27)\n- User is cataloging and tracking collections of coins, records, cameras, and books, and has chosen 'Coin Collector's Assistant' for coins and 'Discogs' for records. (from a chat on 2023-05-27)\n- User was provided with resources to find coin shows, including the American Numismatic Association (ANA) website, CoinShowCalendar.com, local coin shops, and online forums like Reddit's r/coincollecting. (from a chat on 2023-05-29)\n- User is interested in attending coin shows or conventions to meet other collectors and potentially find vintage cameras to add to their collection. (from a chat on 2023-05-29)\n- User was advised that PCGS is often preferred by error coin collectors for their dedicated error department and detailed attribution, while NGC is also a reputable choice with a strong VarietyPlus service. (from a chat on 2023-05-29)\n- User is looking to expand their vintage camera collection to include rangefinders and was recommended brands including Leica (M3, M6, M7), Nikon (SP, S3, S2), Canon (VII, QL17 GIII), Olympus (35RC, 35SP), Contax (II, III), and Yashica (Electro 35, Lynx). (from a chat on 2023-05-29)\n- User was recommended several NYC art museums: The Met, The Guggenheim, The Whitney, The Frick Collection, The Brooklyn Museum, The Morgan Library & Museum, El Museo del Barrio, and The New Museum. (from a chat on 2023-06-02)\n- User owns a 1972 doubled die cent and is planning to have it authenticated by either PCGS or NGC. (from a chat on 2023-05-29)\n- User owns a rare 1913 Liberty Head nickel and was recommended to seek appraisal services from PCGS, NGC, the ANA, or PNG-member dealers. (from a chat on 2023-05-27)\n- User was recommended camera inventory software including 'CameraDB', 'GearTracker', 'PhotoKit', and 'Camera Inventory Pro' to track vintage cameras and their specifications. (from a chat on 2023-05-27)\n- User was advised that a $20-30 gift card to a coffee shop is a sufficient and thoughtful amount for a coworker's farewell gift. (from a chat on 2023-05-25)\n- User purchased a silver necklace with a small pendant from a new jewelry store at the mall as a birthday gift for their sister. (from a chat on 2023-05-25)\n- User recently completed a 5-day trip to New York City with friends and enjoyed the experience. (from a chat on 2023-06-02)\n- User was provided with various healthy, on-the-go snack ideas categorized into fresh fruits, nuts and seeds, veggies, protein-rich options, and whole grain crackers. (from a chat on 2023-05-31)\n- User was suggested several make-ahead breakfast ideas including overnight oats, muffin tin frittatas, breakfast burritos, smoothie packs, cottage cheese parfaits, breakfast quesadillas, and mini quiches. (from a chat on 2023-05-31)\n- User plans to improve their sleep quality by establishing a relaxing bedtime routine, using essential oils and calming teas, and keeping their bedroom cooler and darker. (from a chat on 2023-05-27)\n- User is planning a future trip to New York City and is interested in exploring the city's art museums and live music scene. (from a chat on 2023-06-02)\n- User is looking to improve their meal prep organization and is researching microwave-safe and freezer-safe containers, including glass, BPA-free plastic, and stainless steel options. (from a chat on 2023-05-31)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-05-27: The user is organizing a collection of 37 pre-1920 American coins.\n    *   From the chat on 2023-05-29: The user added a 1915-S Barber quarter to their collection of pre-1920 American coins.\n\n2.  **Reason over the information:**\n    *   The initial collection size mentioned was 37 coins.\n    *   The user subsequently added one more coin (the 1915-S Barber quarter) to this specific collection.\n    *   Calculation: 37 + 1 = 38.\n\n**Answer:** You have 38 pre-1920 American coins in your collection.",
+ "dump": "- User plans to give their sister a birthday card with a heartfelt message and a bouquet of sunflowers. (session 2023-05-25)\n- User is cataloging and tracking collections of coins, records, cameras, and books, and has chosen 'Coin Collector's Assistant' for coins and 'Discogs' for records. (session 2023-05-27)\n- User was recommended several high-fiber, low-sugar cereals including All-Bran Original, Kashi GoLean!, Post Shredded Wheat, Erewhon Organic Cereal, Nature's Path Organic Flax Plus, Bob's Red Mill Old Fashioned Rolled Oats, Cascadian Farm Organic Granola, and Annie's Homegrown Organic Berry Puffs. (session 2023-05-31)\n- User was provided with resources to find coin shows, including the American Numismatic Association (ANA) website, CoinShowCalendar.com, local coin shops, and online forums like Reddit's r/coincollecting. (session 2023-05-29)\n- User owns a rare 1913 Liberty Head nickel and was recommended to seek appraisal services from PCGS, NGC, the ANA, or PNG-member dealers. (session 2023-05-27)\n- User was recommended to monitor their credit reports, change any passwords that may have been stored with the passport, contact the Social Security Administration if applicable, and remain vigilant against phishing scams following a lost passport. (session 2023-05-27)\n- User was advised to notify their bank and credit card companies immediately if their passport is lost or stolen to monitor for suspicious activity and prevent unauthorized transactions. (session 2023-05-27)\n- User was recommended kid-friendly activities on the Big Island (Hawaii Volcanoes National Park, Mauna Kea, Punalu'u Black Sand Beach, Waikoloa Beach Resort) and restaurants (Ken's House of Pancakes, Hilo Bay Cafe). (session 2023-05-20)\n- User is looking to expand their vintage camera collection to include rangefinders and was recommended brands including Leica (M3, M6, M7), Nikon (SP, S3, S2), Canon (VII, QL17 GIII), Olympus (35RC, 35SP), Contax (II, III), and Yashica (Electro 35, Lynx). (session 2023-05-29)\n- User was recommended coin display cases and albums from brands like Dansco, Lighthouse, BCW, Whitman, and H.E. Harris that can accommodate their 37-coin collection. (session 2023-05-27)\n- User was recommended camera inventory software including 'CameraDB', 'GearTracker', 'PhotoKit', and 'Camera Inventory Pro' to track vintage cameras and their specifications. (session 2023-05-27)\n- User was provided with several funny and sentimental quote ideas for a coworker's farewell mug, such as 'Leaving this job, but not leaving my coffee' or 'Thanks for the memories (and the coffee).' (session 2023-05-25)\n- User was advised on the benefits of character breakfasts and dinners for their child, with specific recommendations for Aulani, Hyatt Regency Maui, and Grand Wailea. (session 2023-05-20)\n- User was recommended specific brands for meal prep containers that are microwave and freezer safe, including Pyrex, Anchor Hocking, Rubbermaid Brilliance, Glad, Chef's Path, and S'well. (session 2023-05-31)\n- User wakes up at 7:30 am on weekdays and aims for 7-8 hours of sleep per night to maintain focus and energy. (session 2023-05-27)\n- User is interested in cultivating a more grateful mindset in their daily life and plans to start keeping a gratitude journal. (session 2023-06-02)\n- User owns a 1972 doubled die cent and is planning to have it authenticated by either PCGS or NGC. (session 2023-05-29)\n- User was provided with tips for cultivating gratitude, including keeping a gratitude journal, practicing mindfulness, expressing thanks, volunteering, focusing on abundance, and sharing appreciation with others. (session 2023-06-02)\n- User is looking to improve their meal prep organization and is researching microwave-safe and freezer-safe containers, including glass, BPA-free plastic, and stainless steel options. (session 2023-05-31)\n- User was recommended several NYC art museums: The Met, The Guggenheim, The Whitney, The Frick Collection, The Brooklyn Museum, The Morgan Library & Museum, El Museo del Barrio, and The New Museum. (session 2023-06-02)\n- User has spent approximately $500 on gifts for others in the month of May 2023. (session 2023-05-25)\n- User plans to avoid screens (phones and computers) for at least one hour before bed to reduce blue light exposure and maintain a consistent wake-up time every day, including weekends. (session 2023-05-27)\n- User was recommended NYC record shops and music stores including Rough Trade NYC, Other Music, Academy Records, The Record Grouch, Generation Records, Goodbye Blue Monday, The Sound Library, Music Matters, J&R Music World, and Rebel Rebel. (session 2023-06-02)\n- User added a 1915-S Barber quarter to their collection of pre-1920 American coins. (session 2023-05-29)\n- User is a fan of indie rock and alternative music. (session 2023-06-02)\n- User struggles with rushing through meals and is interested in using gratitude practices to slow down, become more mindful, and savor their food. (session 2023-06-02)\n- User is planning a week-long family vacation to Hawaii in December 2023 with their 7-year-old child. (session 2023-05-20)\n- User was suggested several make-ahead breakfast ideas including overnight oats, muffin tin frittatas, breakfast burritos, smoothie packs, cottage cheese parfaits, breakfast quesadillas, and mini quiches. (session 2023-05-31)\n- User recently completed a 5-day trip to New York City with friends and enjoyed the experience. (session 2023-06-02)\n- User was provided with various healthy, on-the-go snack ideas categorized into fresh fruits, nuts and seeds, veggies, protein-rich options, and whole grain crackers. (session 2023-05-31)\n- User is actively trying to cut down on sugar and is seeking healthy, high-fiber, and low-sugar breakfast and snack options. (session 2023-05-31)\n- User's sister's birthday is on June 15, 2023. (session 2023-05-25)\n- User was advised that gratitude practice can be effective at different times of day, such as in the morning to set a positive tone, midday to re-center, or in the evening to promote relaxation and sleep. (session 2023-06-02)\n- User was recommended kid-friendly resorts in Hawaii including Disney's Aulani Resort, Hyatt Regency Maui, Grand Wailea, The Fairmont Orchid, and Montage Kapalua Bay. (session 2023-05-20)\n- User attended a music festival in Austin, Texas, in February 2023, where they stayed at a hostel in the South Congress neighborhood and attended a secret show. (session 2023-06-02)\n- User was recommended outdoor music events in NYC parks including SummerStage, Central Park Concerts, Bryant Park Picnic Performances, Hudson RiverGreenway Summer Concerts, Brooklyn Bridge Park Concerts, and Prospect Park Concerts. (session 2023-06-02)\n- User was provided with tips for keeping a 7-year-old entertained on a long flight, including using tablets, travel toys, audiobooks, a travel journal, snacks, and planning for takeoff/landing. (session 2023-05-20)\n- User is interested in attending coin shows or conventions to meet other collectors and potentially find vintage cameras to add to their collection. (session 2023-05-29)\n- User purchased a silver necklace with a small pendant from a new jewelry store at the mall as a birthday gift for their sister. (session 2023-05-25)\n- User is planning a future trip to New York City and is interested in exploring the city's art museums and live music scene. (session 2023-06-02)\n- User was recommended kid-friendly activities on Maui (Maui Ocean Center, Iao Valley State Park, surfing/paddleboard lessons, Road to Hana) and restaurants (Kihei Caffe, Coconut's Fish Cafe, Aloha Kitchen). (session 2023-05-20)\n- User was advised that a $20-30 gift card to a coffee shop is a sufficient and thoughtful amount for a coworker's farewell gift. (session 2023-05-25)\n- User plans to improve their sleep quality by establishing a relaxing bedtime routine, using essential oils and calming teas, and keeping their bedroom cooler and darker. (session 2023-05-27)\n- User was recommended kid-friendly activities on Oahu (Hanauma Bay, Waikiki Beach, Dole Plantation, Sea Life Park) and restaurants (Rainbow Drive-In, The Original Pancake House, Helena's Hawaiian Food). (session 2023-05-20)\n- User requested an explanation of quantum computing, which the assistant defined as a field using quantum mechanics principles like superposition and entanglement to perform complex calculations faster than traditional computers. (session 2023-05-28)\n- User is organizing a collection of 37 pre-1920 American coins by denomination and mint mark and was advised on storage using acid-free albums, capsules, or display cases. (session 2023-05-27)\n- User practices a 10-minute yoga routine and 5 minutes of meditation every morning, which helps them feel more energized and focused. (session 2023-05-27)\n- User was recommended NYC spring music festivals and concert series including Governors Ball, Panorama, Brooklyn Mirage, and various shows at venues like Mercury Lounge, The Bowery Electric, Pianos, Baby's All Right, Elsewhere, and The Sultan Room. (session 2023-06-02)\n- User was recommended various NYC live music venues including Madison Square Garden, Radio City Music Hall, Beacon Theatre, Bowery Ballroom, Music Hall of Williamsburg, Terminal 5, Blue Note Jazz Club, The Apollo Theater, Rough Trade NYC, and The Village Vanguard. (session 2023-06-02)\n- User is planning to buy a personalized mug as a farewell gift for a coworker and is considering a funny mug with a quote about coffee or leaving a job. (session 2023-05-25)\n- User was advised that PCGS is often preferred by error coin collectors for their dedicated error department and detailed attribution, while NGC is also a reputable choice with a strong VarietyPlus service. (session 2023-05-29)\n- User was recommended kid-friendly activities on Kauai (Na Pali Coast, Kilauea Point, Wailua River, Kauai Backcountry Adventures) and restaurants (Eating House 1849, Kalaheo Cafe, Mark's Place). (session 2023-05-20)\n- User owns a 1940s-era Leica IIIa and a 1960s-era Nikon F and was advised to verify authenticity via serial number lookups on historical society websites and professional appraisals. (session 2023-05-27)\n- User was advised by the assistant to report a lost or stolen passport immediately to the nearest U.S. embassy or consulate to prevent identity theft. (session 2023-05-27)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 54,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 35.9,
+  "total": 37.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

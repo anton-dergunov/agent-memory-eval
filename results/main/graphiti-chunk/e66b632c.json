@@ -1,0 +1,90 @@
+{
+ "qid": "e66b632c",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What was my previous personal best time for the charity 5K run?",
+ "reference": "27 minutes and 45 seconds",
+ "question_date": "2023-08-25 05:19",
+ "sessions": [
+  {
+   "id": "answer_ac0140ce_1",
+   "date": "2023-04-11 13:31",
+   "evidence": true
+  },
+  {
+   "id": "4f51038b",
+   "date": "2023-04-14 21:55",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_TlAbjNp_7",
+   "date": "2023-04-21 05:48",
+   "evidence": false
+  },
+  {
+   "id": "1185691f_1",
+   "date": "2023-05-27 05:40",
+   "evidence": false
+  },
+  {
+   "id": "49b1d93f_2",
+   "date": "2023-06-04 02:16",
+   "evidence": false
+  },
+  {
+   "id": "84098c1b",
+   "date": "2023-06-14 07:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436858",
+   "date": "2023-06-18 06:47",
+   "evidence": false
+  },
+  {
+   "id": "49b1d93f_1",
+   "date": "2023-06-25 05:25",
+   "evidence": false
+  },
+  {
+   "id": "9b820206",
+   "date": "2023-06-27 19:40",
+   "evidence": false
+  },
+  {
+   "id": "answer_ac0140ce_2",
+   "date": "2023-07-30 18:30",
+   "evidence": true
+  }
+ ],
+ "context": "- The assistant used the user's personal best time of 26 minutes and 30 seconds from a charity 5K run to adjust the intensity and volume of the 10K training plan. (valid since 2023-07-30)\n- The user completed a charity 5K run at the local park. (valid since 2023-04-11)\n- The assistant created a 12-week training plan for the user to help them prepare for a 10K run with a goal time of under 55 minutes. (valid since 2023-07-30)\n- The user plans to sign up for and train for a 10K run, which will take place in 12 weeks, with a goal finish time of under 55 minutes. (valid since 2023-07-30)\n- The user purchased a coffee mug and chocolates for Rachel for $30. (valid since 2023-06-25)\n- The user purchased a coffee maker for their brother from Bed Bath & Beyond for $100. (valid since 2023-06-25)\n- The assistant incorporated one weekly strength training session focusing on core, glutes, and leg exercises into the user's 10K training plan. (valid since 2023-07-30)\n- The user plans for the 20-mile cycling route to start and end at the local park. (valid since 2023-04-11)\n- The user purchased baby shower gifts from Target for $50. (valid since 2023-06-25)\n- The user purchased a silver necklace from Tiffany's for $150. (valid since 2023-06-25)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history chat states: \"The assistant used the user's personal best time of 26 minutes and 30 seconds from a charity 5K run to adjust the intensity and volume of the 10K training plan.\" (valid since 2023-07-30)\n\n**Step 2: Reason over the information**\n*   The information explicitly identifies the user's personal best time for the charity 5K run as 26 minutes and 30 seconds.\n\n**Answer:**\nYour previous personal best time for the charity 5K run was 26 minutes and 30 seconds.",
+ "dump": "- The user completed a charity 5K run at the local park. (valid since 2023-04-11)\n- The user plans for the 20-mile cycling route to start and end at the local park. (valid since 2023-04-11)\n- The assistant recommends the Garmin Edge 130 as a compact and affordable bike computer option with GPS, heart rate monitoring, and customizable data screens. (valid since 2023-04-11)\n- The assistant recommends the Wahoo ELEMNT as a user-friendly bike computer with GPS, heart rate monitoring, and integration with popular cycling apps. (valid since 2023-04-11)\n- The assistant recommends the Lezyne Super GPS as a feature-rich bike computer with GPS, heart rate monitoring, and customizable data screens. (valid since 2023-04-11)\n- The assistant recommends the Garmin Forerunner 945 as a high-end GPS watch with advanced performance monitoring, music storage, and incident detection. (valid since 2023-04-11)\n- The assistant recommends the Polar Vantage V as a multisport GPS watch with advanced power meter integration and route planning features. (valid since 2023-04-11)\n- The assistant recommends the Suunto 3 Fitness as a budget-friendly GPS watch with heart rate monitoring, route planning, and customizable data screens. (valid since 2023-04-11)\n- The user has replaced their plastic toothbrush with a bamboo toothbrush. (valid since 2023-04-14)\n- The user has started using reusable bags as part of their daily routine. (valid since 2023-04-14)\n- The user has started using beeswax wraps as part of their daily routine. (valid since 2023-04-14)\n- The user is excited to try out Seventh Generation detergent. (valid since 2023-04-14)\n- The assistant suggests checking Amazon for S'well products because they often have deals and discounts. (valid since 2023-04-14)\n- The assistant suggests checking Amazon for Hydro Flask products because they often have deals and discounts. (valid since 2023-04-14)\n- The assistant recommends using the cashback app Rakuten for potential savings on S'well and Hydro Flask purchases. (valid since 2023-04-14)\n- The assistant recommends using the cashback app TopCashback for potential savings on S'well and Hydro Flask purchases. (valid since 2023-04-14)\n- The assistant provides insights regarding the future of DAOs, noting growing mainstream interest, the need for governance transparency, and the potential for new investment opportunities. (valid since 2023-04-21)\n- The user seeks insights from the assistant regarding the future and development potential of DAOs. (valid since 2023-04-21)\n- user purchased a new bathroom trash can with a pedal-operated lid, a removable liner, and an antimicrobial coating based on the suggestions from assistant (valid since 2023-05-27)\n- The user purchased items for a friend's baby shower at Target on June 3, 2023. (valid since 2023-06-03)\n- The user is considering selling some of their inherited antiques. (valid since 2023-06-14)\n- The user inherited a rare 1920s Elgin pocket watch from the user's grandfather. (valid since 2023-06-14)\n- The user is planning to get the rare 1920s Elgin pocket watch restored. (valid since 2023-06-14)\n- The assistant recommends The Watch Repair Center as a reputable watch restoration service. (valid since 2023-06-14)\n- The assistant recommends The Pocket Watch Repair Center as a specialist in pocket watch restoration. (valid since 2023-06-14)\n- The assistant recommends BHI Watch and Clock Restoration as a professional restoration service provided by the British Horological Institute. (valid since 2023-06-14)\n- The assistant recommends AWCI Watch Restoration as a service offered by the American Watchmakers-Clockmakers Institute. (valid since 2023-06-14)\n- The assistant recommends that consumers support the Forest Stewardship Council as a way to promote sustainable forestry practices in Canada. (valid since 2023-06-18)\n- The assistant recommends that consumers support the Sustainable Forestry Initiative as a way to promote sustainable forestry practices in Canada. (valid since 2023-06-18)\n- The assistant advises consumers to look for certifications when buying wood products to ensure responsible sourcing. (valid since 2023-06-18)\n- The assistant advises consumers to use recycled and reclaimed wood to reduce the demand for new wood products. (valid since 2023-06-18)\n- The assistant identifies the Canadian government's website as a resource for learning about sustainable forestry practices. (valid since 2023-06-18)\n- The user purchased a silver necklace from Tiffany's for $150. (valid since 2023-06-25)\n- The user purchased personalized photo albums from Shutterfly for $120. (valid since 2023-06-25)\n- The user purchased a coffee mug and chocolates for Rachel for $30. (valid since 2023-06-25)\n- The user purchased baby shower gifts from Target for $50. (valid since 2023-06-25)\n- The user purchased a coffee maker for their brother from Bed Bath & Beyond for $100. (valid since 2023-06-25)\n- The user plans to purchase an AmazonBasics High-Density Foam Roller because it is a good value for the price. (valid since 2023-06-27)\n- The user plans to acquire a Fitbit Charge 3 to help stay motivated and track their progress. (valid since 2023-06-27)\n- The assistant recommends the Fitbit Charge 3 fitness tracker as an excellent choice. (valid since 2023-06-27)\n- The user plans to sign up for and train for a 10K run, which will take place in 12 weeks, with a goal finish time of under 55 minutes. (valid since 2023-07-30)\n- The assistant created a 12-week training plan for the user to help them prepare for a 10K run with a goal time of under 55 minutes. (valid since 2023-07-30)\n- The assistant incorporated one weekly strength training session focusing on core, glutes, and leg exercises into the user's 10K training plan. (valid since 2023-07-30)\n- The assistant used the user's personal best time of 26 minutes and 30 seconds from a charity 5K run to adjust the intensity and volume of the 10K training plan. (valid since 2023-07-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 44,
+  "invalidated": 0,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 127.6,
+  "total": 128.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "945e3d21",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How often do I attend yoga classes to help with my anxiety?",
+ "reference": "Three times a week.",
+ "question_date": "2023-12-14 06:32",
+ "sessions": [
+  {
+   "id": "sharegpt_2Kis6fZ_45",
+   "date": "2023-07-27 20:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_1",
+   "date": "2023-08-11 05:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_WjW4qki_0",
+   "date": "2023-08-22 03:09",
+   "evidence": false
+  },
+  {
+   "id": "a2053427_1",
+   "date": "2023-09-30 20:16",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_2",
+   "date": "2023-11-30 03:29",
+   "evidence": true
+  },
+  {
+   "id": "be1fa010",
+   "date": "2023-12-01 06:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_y0L1CPT_9",
+   "date": "2023-12-01 11:56",
+   "evidence": false
+  },
+  {
+   "id": "9bbd38a6",
+   "date": "2023-12-02 07:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_oTnUt5N_15",
+   "date": "2023-12-05 22:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_zn81iL6_9",
+   "date": "2023-12-11 09:00",
+   "evidence": false
+  }
+ ],
+ "context": "- User is currently practicing yoga twice a week to help with stress reduction, relaxation, and focus. (from a chat on 2023-08-11)\n- User practices yoga three times a week, which helps them feel more focused and clear-headed, and they prefer to schedule work tasks around these sessions. (from a chat on 2023-11-30)\n- Assistant provided strategies for managing emotional changes at eight weeks pregnant, including mood swings, stress, and body image concerns, suggesting relaxation techniques like meditation and prenatal yoga. (from a chat on 2023-12-11)\n- User is concerned about their brother's mental health, specifically his struggles with anxiety and depression, and is considering asking their parents to increase the frequency of his therapy sessions. (from a chat on 2023-12-05)\n- User was recommended the following podcasts for mental wellness: 'The Mental Illness Happy Hour', 'The Anxiety Podcast', and 'The Mindful Kind'. (from a chat on 2023-08-11)\n- User is concerned about their brother's mental health, specifically his struggles with anxiety and depression, and plans to talk to their parents about increasing the frequency of his therapy sessions. (from a chat on 2023-12-02)\n- User was recommended the following books for understanding anxiety and depression: 'The Body Keeps the Score' by Bessel van der Kolk, 'Daring Greatly' and 'The Gifts of Imperfection' by Brené Brown, 'Reasons to Stay Alive' by Matt Haig, and 'Mind Over Mood' by Padesky and Mooney. (from a chat on 2023-08-11)\n- Assistant helped the user create a prioritized weekly schedule, swapping website updates with report writing to allow more time for drafting the report on Wednesday, November 29, 2023. (from a chat on 2023-11-30)\n- User is analyzing their Instagram engagement and follower growth, noting that recent posts about a Yosemite hiking trip helped increase their follower count. (from a chat on 2023-12-01)\n- User was provided with a list of survey and focus group questions to help identify target audience demographics, fashion habits, sustainability concerns, pain points, values, online shopping behavior, and loyalty incentives. (from a chat on 2023-09-30)\n- User is actively working with a therapist to address anxiety, depression, and childhood trauma. (from a chat on 2023-08-11)\n- User was recommended the following meditation techniques: Mindfulness Meditation, Loving-Kindness Meditation, Body Scan, and 4-7-8 Breathing. (from a chat on 2023-08-11)\n- User was recommended the following apps for stress reduction and meditation: Headspace, Calm, Insight Timer, and Breethe. (from a chat on 2023-08-11)\n- User was recommended the following online resources for mental health: NAMI, Mental Health America, The Mighty, Psychology Today, and TED Talks on Mental Health. (from a chat on 2023-08-11)\n- User calls their grandparents who live far away every Sunday and enjoys their conversations. (from a chat on 2023-12-02)\n- Assistant provided nutritional guidance for eight weeks of pregnancy, emphasizing a balanced diet, prenatal vitamins (folic acid, iron, calcium), and the importance of Omega-3 fatty acids like DHA for brain and eye development. (from a chat on 2023-12-11)\n- User was provided with journaling prompts for trauma recovery, including trigger tracking, emotional archaeology, writing a letter to their childhood self, gratitude practice, and boundary setting. (from a chat on 2023-08-11)\n- Assistant provided a comprehensive guide on managing physical symptoms at eight weeks pregnant, such as morning sickness, fatigue, breast tenderness, and digestive issues, including specific remedies like ginger, probiotics, and dietary adjustments. (from a chat on 2023-12-11)\n- User is experiencing a steady Instagram follower growth rate of approximately 10 new followers per week, which represents about 5% weekly growth. (from a chat on 2023-12-01)\n- User's standard work hours are 9 am to 5 pm, with a lunch break from 12 pm to 1 pm, and a standing meeting on Wednesdays from 2 pm to 3 pm. (from a chat on 2023-11-30)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-08-11: The user practices yoga twice a week for stress reduction, relaxation, and focus.\n*   From the chat on 2023-11-30: The user practices yoga three times a week, which helps them feel more focused and clear-headed.\n*   From the chat on 2023-08-11: The user is actively working with a therapist to address anxiety, depression, and childhood trauma.\n\n**2. Reason over the information:**\n*   The user's yoga practice frequency has evolved over time, increasing from twice a week in August 2023 to three times a week by November 2023.\n*   While the user explicitly mentions yoga helps with \"stress reduction, relaxation, and focus,\" they also note they are working with a therapist specifically to address \"anxiety.\"\n*   Based on the most recent update (2023-11-30), the user currently practices yoga three times a week.\n\n**Answer:**\nYou currently attend yoga classes three times a week. While you practice yoga to help with stress reduction, relaxation, and focus, you are also working with a therapist to specifically address your anxiety.",
+ "dump": "- Assistant provided strategies for managing emotional changes at eight weeks pregnant, including mood swings, stress, and body image concerns, suggesting relaxation techniques like meditation and prenatal yoga. (session 2023-12-11)\n- Assistant provided five variations for Indian chicken curry: Coconut, Spicy Vindaloo, Korma-style, South Indian-style, and Hyderabadi-style. (session 2023-12-02)\n- User is currently practicing yoga twice a week to help with stress reduction, relaxation, and focus. (session 2023-08-11)\n- User prefers to focus on one conversation at a time and may not respond to messages immediately due to being an introvert who gets exhausted quickly. (session 2023-12-05)\n- User's parents are effective at mediating conflicts between the user and their siblings. (session 2023-12-05)\n- User was provided with a comprehensive business plan outline for a sustainable fashion e-commerce platform, covering executive summary, market analysis, products, marketing, operations, management, and financial projections. (session 2023-09-30)\n- User is actively working with a therapist to address anxiety, depression, and childhood trauma. (session 2023-08-11)\n- User calls their grandparents who live far away every Sunday and enjoys their conversations. (session 2023-12-02)\n- User identifies as gray-asexual and demi-sexual, prefers long-term friendships with occasional cuddling benefits, and values exclusivity while being ambiamorous. (session 2023-12-05)\n- User is specifically interested in focusing their sustainable fashion brand on upcycled clothing. (session 2023-09-30)\n- User recently had a significant argument with their sister, but they are currently in a good place. (session 2023-12-02)\n- User was recommended the following online resources for mental health: NAMI, Mental Health America, The Mighty, Psychology Today, and TED Talks on Mental Health. (session 2023-08-11)\n- User is experiencing a steady Instagram follower growth rate of approximately 10 new followers per week, which represents about 5% weekly growth. (session 2023-12-01)\n- User's parents are effective at mediating conflicts between the siblings. (session 2023-12-02)\n- User is planning a family vacation and is looking for beach destinations in the US suitable for teenagers. (session 2023-12-02)\n- User was recommended the following podcasts for mental wellness: 'The Mental Illness Happy Hour', 'The Anxiety Podcast', and 'The Mindful Kind'. (session 2023-08-11)\n- Assistant recommended ten US beach destinations for families with teenagers: San Diego, CA; Outer Banks, NC; Hilton Head, SC; Orange Beach, AL; Fort Lauderdale, FL; Maui, HI; Gulf Shores, AL; Myrtle Beach, SC; Sanibel Island, FL; and Coronado Island, CA. (session 2023-12-02)\n- User is working on structuring a long composite text consisting of four components, focusing on sectioning, subsections, and paragraph summaries before elaboration. (session 2023-08-22)\n- User is concerned about their brother's mental health, specifically his struggles with anxiety and depression, and is considering asking their parents to increase the frequency of his therapy sessions. (session 2023-12-05)\n- User practices yoga three times a week, which helps them feel more focused and clear-headed, and they prefer to schedule work tasks around these sessions. (session 2023-11-30)\n- User prefers voice calls over text messaging and is comfortable turning off notifications for their conversations. (session 2023-12-05)\n- User is analyzing their Instagram engagement and follower growth, noting that recent posts about a Yosemite hiking trip helped increase their follower count. (session 2023-12-01)\n- User is managing three main projects: a marketing campaign (high priority), a report due Friday, December 8, 2023 (high priority, time-sensitive), and website updates (medium priority). (session 2023-11-30)\n- Assistant suggested eight strategies for efficient editing and proofreading, including using checklists, editing in passes, reading aloud, using tools like Grammarly, and applying the Pomodoro Technique. (session 2023-11-30)\n- Assistant provided detailed information on fetal development at eight weeks, including the formation of the placenta, organ development, and the fetus's size (0.6 to 0.7 inches). (session 2023-12-11)\n- Assistant helped the user create a prioritized weekly schedule, swapping website updates with report writing to allow more time for drafting the report on Wednesday, November 29, 2023. (session 2023-11-30)\n- User was provided with twelve unique selling points (USPs) for an upcycled clothing brand, such as exclusive material sourcing, zero-waste design, storytelling, customization, and circular business models. (session 2023-09-30)\n- Assistant provided a breakdown of the report-writing process into five tasks: research/outlining, writing the introduction/background, writing the body, writing the conclusion/recommendations, and editing/proofreading. (session 2023-11-30)\n- User was recommended the following meditation techniques: Mindfulness Meditation, Loving-Kindness Meditation, Body Scan, and 4-7-8 Breathing. (session 2023-08-11)\n- User is planning a family vacation and is looking for beach destinations in the US suitable for teenagers. (session 2023-12-05)\n- User is learning to make traditional Indian chicken curry from their mother's recipes. (session 2023-12-05)\n- User was provided with journaling prompts for trauma recovery, including trigger tracking, emotional archaeology, writing a letter to their childhood self, gratitude practice, and boundary setting. (session 2023-08-11)\n- User is concerned about their brother's mental health, specifically his struggles with anxiety and depression, and plans to talk to their parents about increasing the frequency of his therapy sessions. (session 2023-12-02)\n- After divorcing William Mueller, Eliza Gardner remarried a man named Samuel Gardner. (session 2023-07-27)\n- User was recommended ten reliable sources for researching sustainable fashion market size and growth, including Grand View Research, Euromonitor International, McKinsey & Company, Global Fashion Agenda, BloombergNEF, Statista, Nielsen, Fashion Revolution, sustainability consultancy reports, and academic research. (session 2023-09-30)\n- Assistant provided a comprehensive guide on managing physical symptoms at eight weeks pregnant, such as morning sickness, fatigue, breast tenderness, and digestive issues, including specific remedies like ginger, probiotics, and dietary adjustments. (session 2023-12-11)\n- User recently had success with a skincare routine video on TikTok, prompting them to focus on beauty and outdoor niche influencers on that platform. (session 2023-12-01)\n- User was provided with ten platforms and websites for tracking sustainable fashion trends and consumer behavior, including The Fashion Spot, The Business of Fashion, Vogue Business, WGSN, various blogs/influencers, social media, consumer research reports, online communities, trade shows, and Google Trends. (session 2023-09-30)\n- Assistant provided nutritional guidance for eight weeks of pregnancy, emphasizing a balanced diet, prenatal vitamins (folic acid, iron, calcium), and the importance of Omega-3 fatty acids like DHA for brain and eye development. (session 2023-12-11)\n- Assistant provided ten educational strategies for E2EE messaging, including brochures, interactive quizzes, public speaking events, user testimonials, social media campaigns, blog articles, infographics, virtual events, booklets, and podcasts, all focused on privacy and security benefits rather than technical mechanics. (session 2023-12-01)\n- User was recommended the following books for understanding anxiety and depression: 'The Body Keeps the Score' by Bessel van der Kolk, 'Daring Greatly' and 'The Gifts of Imperfection' by Brené Brown, 'Reasons to Stay Alive' by Matt Haig, and 'Mind Over Mood' by Padesky and Mooney. (session 2023-08-11)\n- Joseph Miller (born August 17, 1848, in Barboursville, Virginia; died February 22, 1921, in Huntington, West Virginia) was a lawyer who served as Prosecuting Attorney for Cabell County (1877-1880) and as United States Attorney for the Southern District of West Virginia under President Grover Cleveland. (session 2023-07-27)\n- Assistant recommended specific influencers for the user to consider: @hikingadventures, @outdoorlovers, @californiahikingco, @backpackerslife, @skincarebyhyram, @outdoorloverstiktok, and @hikingwithheidi. (session 2023-12-01)\n- Assistant provided a guide on how to find reach and impressions metrics within Instagram Insights. (session 2023-12-01)\n- User was recommended the following apps for stress reduction and meditation: Headspace, Calm, Insight Timer, and Breethe. (session 2023-08-11)\n- User provided the first component of their text, titled 'The Intricacies of Theories and Phenomena: A Deeper Look at the Scientific Method', which covers the scientific method, the Hempel-Oppenheim model, boundary conditions, and the distinction between data and findings. (session 2023-08-22)\n- Eliza Gardner was the daughter of Marie Therese Raison de la Geneste and Joseph Gardner, born around 1820. (session 2023-07-27)\n- User is seeking ten creative, non-comic-based strategies to educate low-tech users about the benefits of end-to-end encrypted (E2EE) messaging without focusing on technical implementation details. (session 2023-12-01)\n- Assistant structured the first component of the user's text into five sections: Introduction, The Scientific Method, The Role of Boundary Conditions and the Hempel-Oppenheim Model, The Complexities, and Conclusion, with one-sentence summaries for each. (session 2023-08-22)\n- Joseph Miller and Florence Tice were married on September 7, 1876, in Washington County, Maryland. (session 2023-07-27)\n- User is currently learning about the physical and emotional changes associated with being eight weeks pregnant, including fetal development milestones and symptom management strategies. (session 2023-12-11)\n- User's giveaway entry requirements include following their account, liking the post, and tagging three friends. (session 2023-12-01)\n- Assistant suggested using a branded hashtag like #SummerSkincareEssentials, setting a clear deadline, and showcasing prizes visually to improve the giveaway's success. (session 2023-12-01)\n- User is planning a 'Summer Skincare Essentials' giveaway on TikTok, partnering with beauty influencers to offer a skincare set and outdoor gear as prizes. (session 2023-12-01)\n- User is planning to launch an e-commerce platform focused on sustainable fashion and has been considering this business venture for several months. (session 2023-09-30)\n- Eliza Gardner married German immigrant William Mueller (later spelled Muller) in 1843, and they had a son named Joseph Mueller, who later became known as Joseph Miller. (session 2023-07-27)\n- User was provided with a list of survey and focus group questions to help identify target audience demographics, fashion habits, sustainability concerns, pain points, values, online shopping behavior, and loyalty incentives. (session 2023-09-30)\n- User is learning to make traditional Indian chicken curry from their mother and is interested in experimenting with variations. (session 2023-12-02)\n- User identifies the parents of Lavalette Miller (born July 3, 1878, in Hagerstown, Maryland; died March 5, 1967, in Lexington, North Carolina) as Joseph Miller and Florence Tice. (session 2023-07-27)\n- User is interested in collaborating with influencers in the outdoor adventure, hiking, travel, and beauty niches on Instagram, Twitter, and TikTok. (session 2023-12-01)\n- Joseph Miller (born Joseph Mueller) was a lawyer who worked for the IRS during the presidency of Grover Cleveland. (session 2023-07-27)\n- User's standard work hours are 9 am to 5 pm, with a lunch break from 12 pm to 1 pm, and a standing meeting on Wednesdays from 2 pm to 3 pm. (session 2023-11-30)\n- User's most popular Yosemite Instagram post received 50 likes and 10 comments from a base of 200 followers, resulting in a 30% engagement rate. (session 2023-12-01)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 63,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 38.1,
+  "total": 40.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

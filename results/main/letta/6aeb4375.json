@@ -1,0 +1,126 @@
+{
+ "qid": "6aeb4375",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many Korean restaurants have I tried in my city?",
+ "reference": "four",
+ "question_date": "2023-10-22 15:38",
+ "sessions": [
+  {
+   "id": "sharegpt_I5HWvry_0",
+   "date": "2023-07-12 02:43",
+   "evidence": false
+  },
+  {
+   "id": "c625cff4_3",
+   "date": "2023-07-14 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MD0BL69_53",
+   "date": "2023-07-16 13:37",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FkabWXV_105",
+   "date": "2023-07-25 21:34",
+   "evidence": false
+  },
+  {
+   "id": "26f9a255_2",
+   "date": "2023-07-30 13:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_wbbH6cZ_0",
+   "date": "2023-08-08 23:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MWlvrvZ_0",
+   "date": "2023-08-09 22:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_1",
+   "date": "2023-08-11 09:09",
+   "evidence": true
+  },
+  {
+   "id": "29621a34",
+   "date": "2023-08-11 09:38",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_2",
+   "date": "2023-09-30 15:06",
+   "evidence": true
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is working on establishing a 20-minute bedtime routine that begins at 11:15 PM. The routine consists of:\n- 5 minutes: Getting ready for bed (hygiene/prep).\n- 10 minutes: Reading (using a physical book is preferred to avoid blue light).\n- 5 minutes: Relaxation techniques (like 4-7-8 breathing) as a bridge to sleep.\nThe user is aiming for consistency to help improve their sleep quality.\n\n\nTeam update: John and Jack are splitting roles. John handles the tactical strategy plan. Jack manages the Brazilian key players individually using their device to keep them focused, including:\n- Monitoring/preventing alcohol consumption (wine) on match nights.\n- Accompanying them to the gym.\n- Resolving personal/emotional issues (e.g., relationship problems) to ensure match focus.\n\n\nThe user is re-simulating the 1982 World Cup match between Brazil and Italy (which historically ended 3-2 for Italy). The goal is for John and Jack to strategize so that Brazil wins this time.\n- User is interested in Python data analysis and visualization.\n- Has attended a half-day \"Introduction to Data Analysis with Python\" workshop.\n- Looking for datasets to practice data analysis skills.\n- Interested in Korean baby names and their Hanja meanings.\n- Surname is Ko (柯). Currently brainstorming baby girl names combining Korean style and Chinese romantic novel flair.\n</human>\n\nTool results while answering:\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-18T01:57:09.147581+00:00', 'time_ago': '42s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-09-30 15:06] I think I'll go with kimchi and bokkeumbap. By the way, have you tried any good Korean restaurants in my city lately? I've tried four different ones so far, and I'm always looking for new recommendations.\"}, {'timestamp': '2026-10-18T01:56:16.889407+00:00', 'time_ago': '1m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-11 09:09] By the way, speaking of noodles, have you tried any good Korean restaurants in your city lately? I've tried three different ones recently, and each has its own unique flavor and style.\"}]}",
+ "answer": "According to our conversation on September 30, 2023, you mentioned that you had tried **four** different Korean restaurants in your city.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is working on establishing a 20-minute bedtime routine that begins at 11:15 PM. The routine consists of:\n- 5 minutes: Getting ready for bed (hygiene/prep).\n- 10 minutes: Reading (using a physical book is preferred to avoid blue light).\n- 5 minutes: Relaxation techniques (like 4-7-8 breathing) as a bridge to sleep.\nThe user is aiming for consistency to help improve their sleep quality.\n\n\nTeam update: John and Jack are splitting roles. John handles the tactical strategy plan. Jack manages the Brazilian key players individually using their device to keep them focused, including:\n- Monitoring/preventing alcohol consumption (wine) on match nights.\n- Accompanying them to the gym.\n- Resolving personal/emotional issues (e.g., relationship problems) to ensure match focus.\n\n\nThe user is re-simulating the 1982 World Cup match between Brazil and Italy (which historically ended 3-2 for Italy). The goal is for John and Jack to strategize so that Brazil wins this time.\n- User is interested in Python data analysis and visualization.\n- Has attended a half-day \"Introduction to Data Analysis with Python\" workshop.\n- Looking for datasets to practice data analysis skills.\n- Interested in Korean baby names and their Hanja meanings.\n- Surname is Ko (柯). Currently brainstorming baby girl names combining Korean style and Chinese romantic novel flair.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Korean restaurants\"})"
+  ],
+  "blocks_chars": 1556,
+  "write_steps": 53,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 369.7,
+  "total": 375.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

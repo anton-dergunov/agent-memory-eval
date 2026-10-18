@@ -1,0 +1,102 @@
+{
+ "qid": "45dc21b6",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many of Emma's recipes have I tried out?",
+ "reference": "3",
+ "question_date": "2023-06-16 17:33",
+ "sessions": [
+  {
+   "id": "b7f69a7d_2",
+   "date": "2023-05-10 06:12",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BVfC7JV_0",
+   "date": "2023-05-19 15:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yZ6yXnQ_0",
+   "date": "2023-05-19 16:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhK5G9o_0",
+   "date": "2023-05-20 08:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_1",
+   "date": "2023-05-29 04:51",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_169242",
+   "date": "2023-05-29 07:04",
+   "evidence": false
+  },
+  {
+   "id": "7caf3391_2",
+   "date": "2023-05-30 00:59",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467365",
+   "date": "2023-05-30 04:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_2",
+   "date": "2023-05-30 06:32",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_gGriMhQ_91",
+   "date": "2023-05-30 07:25",
+   "evidence": false
+  }
+ ],
+ "context": "- The 'Evolution of the Teachers' conference theme is inspired by the scientific discoveries of Charles Darwin. (valid since 2023-05-19)\n- The assistant recommends Uber as a ride-hailing service for carrying ingredients and equipment. (valid since 2023-05-30)\n- The city of Darwin is located in Australia. (valid since 2023-05-19)\n- The assistant recommends Mark Wiens as a travel channel. (valid since 2023-05-29)\n- The user watched a review of the Google Pixel 6 by Unbox Therapy. (valid since 2023-05-29)\n- The user is active on Instagram and received 23 comments on their posts. (valid since 2023-05-10)\n- Brian Boulus is the Managing Director of the Builder, Boulus Constructions Pty Limited. (valid since 2022-10-12)\n- The assistant recommends MyTaxi as a ride-hailing service for carrying ingredients and equipment. (valid since 2023-05-30)\n- A birdbath is a component of a hummingbird garden that provides water for drinking and bathing. (valid since 2023-05-30)\n- The user will be carrying cooking class equipment while getting around Barcelona and Rome. (valid since 2023-05-30)",
+ "answer": "**Step 1: Extract relevant information**\nI have reviewed the provided history chats for any mention of \"Emma\" or \"recipes\" tried by the user. The available facts are:\n*   The 'Evolution of the Teachers' conference theme is inspired by Charles Darwin.\n*   The assistant recommends Uber and MyTaxi for carrying ingredients and equipment.\n*   The city of Darwin is located in Australia.\n*   The assistant recommends Mark Wiens as a travel channel.\n*   The user watched a review of the Google Pixel 6 by Unbox Therapy.\n*   The user is active on Instagram and received 23 comments.\n*   Brian Boulus is the Managing Director of Boulus Constructions Pty Limited.\n*   A birdbath is a component of a hummingbird garden.\n*   The user will be carrying cooking class equipment in Barcelona and Rome.\n\n**Step 2: Reason over the information**\nAfter examining all the provided facts, there is no mention of an individual named \"Emma,\" nor is there any information regarding recipes that the user has tried out.\n\n**Answer:**\nBased on the provided history chats, there is no information available to answer how many of Emma's recipes you have tried.",
+ "dump": "- The Buffalo Bills defeated the Houston Oilers in a 1993 wild-card playoff game after overcoming a 32-point deficit. (valid since 1993-01-01)\n- The Dallas Cowboys defeated the New York Giants on October 23, 2006, after fighting back from a 12-point deficit in the fourth quarter. (valid since 2006-10-23)\n- Tony Romo threw a game-winning touchdown pass to Jason Witten in the Dallas Cowboys' game against the New York Giants on October 23, 2006. (valid since 2006-10-23)\n- The Green Bay Packers were defeated by the Minnesota Vikings 30-23 on October 5, 2009, after the Vikings overcame a 21-0 halftime deficit. (valid since 2009-10-05)\n- Brett Favre led the Minnesota Vikings to a comeback victory against his former team, the Green Bay Packers, on October 5, 2009. (valid since 2009-10-05)\n- The Seattle Seahawks defeated the Green Bay Packers on September 24, 2012, after overcoming a 12-point deficit in the fourth quarter with a Hail Mary touchdown catch. (valid since 2012-09-24)\n- Boulus Constructions Pty Limited constructed the Three Rivers Regional Retirement Community on behalf of the Warrumbungle Shire Council. (valid since 2022-10-12)\n- The Three Rivers Regional Retirement Community is located on a former hospital site in Dunedoo. (valid since 2022-10-12)\n- Brian Boulus is the Managing Director of the Builder, Boulus Constructions Pty Limited. (valid since 2022-10-12)\n- Bradley McCarthy is the Project Site Supervisor for the Builder, Boulus Constructions Pty Limited. (valid since 2022-10-12)\n- The user is active on Instagram and received 23 comments on their posts. (valid since 2023-05-10)\n- The user is considering creating a Facebook event for their weekend getaway to organize and update their friends. (valid since 2023-05-10)\n- The city of Darwin is located in Australia. (valid since 2023-05-19)\n- Darwin, Australia, will host an international conference with the theme 'Evolution of the Teachers' in October 2025. (valid since 2023-05-19)\n- The 'Evolution of the Teachers' conference theme is inspired by the scientific discoveries of Charles Darwin. (valid since 2023-05-19)\n- The user is considering purchasing a Google Pixel 6. (valid since 2023-05-29)\n- The user watched a review of the Google Pixel 6 by Unbox Therapy. (valid since 2023-05-29)\n- Lewis Hilsenteger is the host and reviewer behind the Unbox Therapy YouTube channel. (valid since 2023-05-29)\n- The assistant recommends Crash Course as a history channel. (valid since 2023-05-29)\n- The assistant recommends History Time as a history channel. (valid since 2023-05-29)\n- The assistant recommends Vox as a history channel. (valid since 2023-05-29)\n- The assistant recommends Mark Wiens as a travel channel. (valid since 2023-05-29)\n- The assistant recommends The Travel Hack as a travel channel. (valid since 2023-05-29)\n- The assistant recommends Exploring with Josh as a travel channel. (valid since 2023-05-29)\n- The assistant recommends GentleWhispering as an ASMR channel. (valid since 2023-05-29)\n- The assistant recommends ASMR Darling as an ASMR channel. (valid since 2023-05-29)\n- The assistant recommends Heather Feather as an ASMR channel. (valid since 2023-05-29)\n- The user is planning to create a hummingbird garden in their backyard. (valid since 2023-05-30)\n- The user is creating a hummingbird garden in their backyard. (valid since 2023-05-30)\n- A birdbath is a component of a hummingbird garden that provides water for drinking and bathing. (valid since 2023-05-30)\n- The user is interested in finding vegan cooking classes and workshops in Spain. (valid since 2023-05-30)\n- The user is interested in finding vegan cooking classes and workshops in Italy. (valid since 2023-05-30)\n- The user will be carrying cooking class ingredients while getting around Barcelona and Rome. (valid since 2023-05-30)\n- The user will be carrying cooking class equipment while getting around Barcelona and Rome. (valid since 2023-05-30)\n- The user plans to visit Barcelona for 5-7 days. (valid since 2023-05-30)\n- The user plans to visit Rome for 5-7 days. (valid since 2023-05-30)\n- Barcelona provides unlimited public transport travel to visitors through the Hola BCN card. (valid since 2023-05-30)\n- Rome provides unlimited public transport travel to visitors through the Roma Pass. (valid since 2023-05-30)\n- The assistant recommends Uber as a ride-hailing service for carrying ingredients and equipment. (valid since 2023-05-30)\n- The assistant recommends MyTaxi as a ride-hailing service for carrying ingredients and equipment. (valid since 2023-05-30)\n- Vegetalia is a fully vegan restaurant located in Barcelona. (valid since 2023-05-30)\n- Barceloneta's Vegan Beach Bar is located in Barcelona and serves vegan pa amb tomàquet. (valid since 2023-05-30)\n- Teresa Carles Health Food is a popular vegan restaurant located in Barcelona. (valid since 2023-05-30)\n- Green & Vibrant is a vegan and gluten-free restaurant located in Barcelona. (valid since 2023-05-30)\n- Churreria La Lola is a popular churro shop in Barcelona with vegan options. (valid since 2023-05-30)\n- Bar Oveja Verde is a trendy bar located in Barcelona that serves vegan churros. (valid since 2023-05-30)\n- Il Margutta is a fully vegan restaurant in Rome serving a vegan take on pasta alla carbonara. (valid since 2023-05-30)\n- Ops! Roma is a popular vegan restaurant located in Rome. (valid since 2023-05-30)\n- Vegan Junk Food Bar is a fully vegan restaurant located in Rome that serves vegan supplì. (valid since 2023-05-30)\n- Flower Burger is a vegan burger joint in Rome that serves vegan supplì. (valid since 2023-05-30)\n- Gelato di San Crispino is a popular gelato shop in Rome that offers vegan flavors. (valid since 2023-05-30)\n- Fatamorgana is a fully vegan gelato shop in Rome featuring unique flavors. (valid since 2023-05-30)\n- The assistant provides three storyboards for late-night Twitch livestreams (valid since 2023-05-30)\n- The assistant creates three storyboard examples for late-night Twitch livestreams focusing on music production. (valid since 2023-05-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 54,
+  "invalidated": 0,
+  "episodes": 16,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 114.7,
+  "total": 116.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

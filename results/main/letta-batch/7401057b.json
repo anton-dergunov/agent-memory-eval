@@ -1,0 +1,108 @@
+{
+ "qid": "7401057b",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many free night's stays can I redeem at any Hilton property with my accumulated points?",
+ "reference": "Two",
+ "question_date": "2023-06-16 09:50",
+ "sessions": [
+  {
+   "id": "sharegpt_6fTnCnw_37",
+   "date": "2023-05-11 12:57",
+   "evidence": false
+  },
+  {
+   "id": "answer_94650bfa_1",
+   "date": "2023-05-29 16:25",
+   "evidence": true
+  },
+  {
+   "id": "1450ffad",
+   "date": "2023-05-30 03:45",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_385162",
+   "date": "2023-05-30 08:44",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BKG9Nyc_0",
+   "date": "2023-05-30 10:06",
+   "evidence": false
+  },
+  {
+   "id": "answer_94650bfa_2",
+   "date": "2023-05-30 12:28",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_435909",
+   "date": "2023-05-30 12:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_392050",
+   "date": "2023-05-30 17:31",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Fi5UpOu_38",
+   "date": "2023-06-04 05:55",
+   "evidence": false
+  },
+  {
+   "id": "4cb33063",
+   "date": "2023-06-14 05:35",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T15:43:04.328708+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-16 09:50] How many free night's stays can I redeem at any Hilton property with my accumulated points?\"}, {'timestamp': '2026-10-17T15:42:48.896185+00:00', 'time_ago': '18s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 12:28] An excellent question!\\n\\nBoth the Pullman Paris Tour Eiffel and the Hilton Paris Eiffel Tower offer a breakfast buffet, but there are some differences in terms of quality, variety, and atmosphere. Here's a comparison:\\n\\n**Pullman Paris Tour Eiffel:**\\n\\n* **Variety:** The Pullman's breakfast buffet offers a wide range of options, including hot items, pastries, cold cuts, cheeses, fruits, yogurts, cereals, and juices.\\n* **Quality:** The food is generally fresh and of good quality, with a focus on local and seasonal ingredients.\\n* **Atmosphere:** The breakfast area is modern and stylish, with a calm and relaxed atmosphere. The outdoor seating area offers a pleasant view of the surrounding neighborhood.\\n* **Highlights:** The Pullman's breakfast buffet is known for its excellent pastries and croissants, which are baked fresh on-site.\\n\\n**Hilton Paris Eiffel Tower:**\\n\\n* **Variety:** The Hilton's breakfast buffet offers an even more extensive range of options, including made-to-order omelets, pancakes, and waffles, in addition to the standard hot and cold items.\\n* **Quality:** The food is of high quality, with a focus on premium ingredients and attentive service.\\n* **Atmosphere:** The breakfast area is elegant and sophisticated, with a stylish décor and a lively atmosphere. The outdoor seating area offers stunning views of the Eiffel Tower.\\n* **Highlights:** The Hilton's breakfast buffet is known for its exceptional service, with friendly and attentive staff who will cater to your every need.\\n\\n**Key differences:**\\n\\n* **Variety:** The Hilton Paris Eiffel Tower offers a more extensive range of options, including made-to-order items.\\n* **Atmosphere:** The Hilton's breakfast area is more elegant and sophisticated, while the Pullman's is more modern and relaxed.\\n* **View:** The Hilton's outdoor seating area offers stunning views of the Eiffel Tower, while the Pullman's view is more limited.\\n* **Service:** The Hilton's service is generally more attentive and personalized, while the Pullman's service is still friendly but more efficient.\\n\\n**Ultimately:**\\n\\n* If you prefer a more extensive range of options, including made-to-order items, and a more elegant atmosphere, the Hilton Paris Eiffel Tower might be the better choice.\\n* If you prefer a more modern and relaxed atmosphere, with a focus on fresh and local ingredients, the Pullman Paris Tour Eiffel might be the better choice.\\n\\nKeep in mind that both hotels offer a high-quality breakfast buffet, and you can't go wrong with either option.\"}, {'timestamp': '2026-10-17T15:42:48.896171+00:00', 'time_ago': '18s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-30 12:28] Can you compare the breakfast buffet at the Pullman Paris Tour Eiffel with the one at the Hilton Paris Eiffel Tower? Are there any significant differences in terms of quality, variety, or atmosphere?'}, {'timestamp': '2026-10-17T15:42:48.896127+00:00', 'time_ago': '18s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 12:28] Here's a comparison of the rates and amenities for the Hilton Paris Eiffel Tower, Pullman Paris Tour Eiffel, and Novotel Paris Tour Eiffel:\\n\\n**Rates (average prices per night in November):**\\n\\n* Hilton Paris Eiffel Tower: around $250-$300 per night (or 50,000-60,000 Hilton Honors points)\\n* Pullman Paris Tour Eiffel: around $220-$280 per night\\n* Novotel Paris Tour Eiffel: around $180-$230 per night\\n\\n**Amenities:**\\n\\n* Hilton Paris Eiffel Tower:\\n\\t+ Fitness ce",
+ "answer": "To determine how many free night stays you can redeem at a Hilton property, you'll need to check your current **Hilton Honors points balance** and the **point cost per night** for the specific hotel you have in mind.\n\nHere is how you can find that information:\n\n1.  **Check your balance:** Log into your Hilton Honors account via the [Hilton Honors website](https://www.hilton.com/en/hilton-honors/) or the Hilton app to see your total points.\n2.  **Search for a stay:** When searching for a hotel on their website, be sure to select the **\"Use Points & Money\"** or **\"Use Points\"** filter.\n3.  **Find the rate:** Hilton does not use a fixed award chart, so the number of points required for a free night varies based on the hotel, demand, and season. Once you search for your dates and destination, the site will display how many points per night are required for that specific stay.\n\nIf you let me know how many points you currently have and which destination or type of hotel you are interested in, I would be happy to help you estimate what that might look like!",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Hilton points free night stays\"})",
+   "conversation_search({\"query\": \"Hilton\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 33.4,
+  "total": 40.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

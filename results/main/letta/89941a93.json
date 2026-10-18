@@ -1,0 +1,127 @@
+{
+ "qid": "89941a93",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many bikes do I currently own?",
+ "reference": "4",
+ "question_date": "2023-10-27 13:00",
+ "sessions": [
+  {
+   "id": "8e72316f",
+   "date": "2023-02-02 01:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-02-22 20:54",
+   "evidence": true
+  },
+  {
+   "id": "95ebf866",
+   "date": "2023-07-25 17:00",
+   "evidence": false
+  },
+  {
+   "id": "169213ae",
+   "date": "2023-08-04 11:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_151269",
+   "date": "2023-09-25 17:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-10-10 01:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jxsIY6L_0",
+   "date": "2023-10-11 01:04",
+   "evidence": false
+  },
+  {
+   "id": "25956eab_1",
+   "date": "2023-10-15 17:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_70151",
+   "date": "2023-10-20 19:31",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_440266",
+   "date": "2023-10-23 07:05",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user lives in the San Francisco Bay Area and owns a road bike.\nOwns four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike. Has ridden 2,000 miles on the road bike and is planning a century ride.\nPurchased new Nike running shoes on February 10th. Interested in the Manduka eKO SuperLite yoga mat.\nStarted a 20-minute morning bodyweight mobility and core routine to improve cycling performance and help wake up.\nHas a Chase Sapphire credit card and is looking to use points for a Hawaii trip. Earned Alaska Airlines MVP Gold status as of October 2023.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "You own four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike.",
+ "dump": "<human>\n\nThe user lives in the San Francisco Bay Area and owns a road bike.\nOwns four bikes: a road bike, a mountain bike, a commuter bike, and a new hybrid bike. Has ridden 2,000 miles on the road bike and is planning a century ride.\nPurchased new Nike running shoes on February 10th. Interested in the Manduka eKO SuperLite yoga mat.\nStarted a 20-minute morning bodyweight mobility and core routine to improve cycling performance and help wake up.\nHas a Chase Sapphire credit card and is looking to use points for a Hawaii trip. Earned Alaska Airlines MVP Gold status as of October 2023.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"bikes owned\"})"
+  ],
+  "blocks_chars": 780,
+  "write_steps": 55,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 376.8,
+  "total": 383.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

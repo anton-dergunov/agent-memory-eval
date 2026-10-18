@@ -1,0 +1,88 @@
+{
+ "qid": "e66b632c",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What was my previous personal best time for the charity 5K run?",
+ "reference": "27 minutes and 45 seconds",
+ "question_date": "2023-08-25 05:19",
+ "sessions": [
+  {
+   "id": "answer_ac0140ce_1",
+   "date": "2023-04-11 13:31",
+   "evidence": true
+  },
+  {
+   "id": "4f51038b",
+   "date": "2023-04-14 21:55",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_TlAbjNp_7",
+   "date": "2023-04-21 05:48",
+   "evidence": false
+  },
+  {
+   "id": "1185691f_1",
+   "date": "2023-05-27 05:40",
+   "evidence": false
+  },
+  {
+   "id": "49b1d93f_2",
+   "date": "2023-06-04 02:16",
+   "evidence": false
+  },
+  {
+   "id": "84098c1b",
+   "date": "2023-06-14 07:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436858",
+   "date": "2023-06-18 06:47",
+   "evidence": false
+  },
+  {
+   "id": "49b1d93f_1",
+   "date": "2023-06-25 05:25",
+   "evidence": false
+  },
+  {
+   "id": "9b820206",
+   "date": "2023-06-27 19:40",
+   "evidence": false
+  },
+  {
+   "id": "answer_ac0140ce_2",
+   "date": "2023-07-30 18:30",
+   "evidence": true
+  }
+ ],
+ "context": "- User recently completed a charity 5K run with a personal best time of 26 minutes and 30 seconds, which is 1.5 minutes faster than their previous record. (from a chat on 2023-07-30)\n- User is training for a sprint triathlon on June 24, 2023, and recently completed a charity 5K run with a personal best time of 27 minutes and 45 seconds. (from a chat on 2023-04-11)\n- User is training for a 10K run with a goal finish time under 55 minutes, to be completed in approximately 12 weeks. (from a chat on 2023-07-30)\n- User requested a 20-mile cycling route starting and ending at the local park used for their charity 5K, featuring a mix of rolling and steeper hills on secondary roads with 500-1000 feet of elevation gain. (from a chat on 2023-04-11)\n- User's current running routine consists of 3 runs per week (one long weekend run, two shorter weekday runs) at an average pace of 9:30 minutes per mile. (from a chat on 2023-07-30)\n- User was provided an aggressive 12-week 10K training plan incorporating speed workouts, hill repeats, and strength training, adjusted for their 26:30 5K performance. (from a chat on 2023-07-30)\n- User spent $120 on personalized photo albums from Shutterfly for their grandmother. (from a chat on 2023-06-25)\n- User's fitness levels are intermediate for yoga and cycling, beginner for swimming, and advanced for running. (from a chat on 2023-04-11)\n- User's weekly training schedule includes yoga (2x/week, 45 mins), cycling (1x/week, 2 hours), soccer (1x/week, 1.5 hours), and triathlon training (3x/week), with one rest day per week. (from a chat on 2023-04-11)\n- User started using a scented candle in their bathroom a few days before May 27, 2023, to create a relaxing atmosphere. (from a chat on 2023-05-27)\n- User played tennis with their friend Rachel at the community center on the weekend of June 24-25, 2023. (from a chat on 2023-06-27)\n- User decided to purchase a Fitbit Charge 3 to track fitness progress and stay motivated. (from a chat on 2023-06-27)\n- User was provided a 20-mile cycling route in Oakdale consisting of four segments: River Trail, quiet neighborhoods, a park loop with hills, and a return via the river trail. (from a chat on 2023-07-30)\n- User was provided a sample training schedule that prioritizes triathlon training on weekends, incorporates yoga for recovery, and fits cycling and soccer into weekdays. (from a chat on 2023-04-11)\n- User owns a rare Elgin pocket watch from the 1920s that belonged to their grandfather and is planning to have it restored as a family heirloom. (from a chat on 2023-06-14)\n- User has been actively transitioning to a more sustainable lifestyle for approximately three months, incorporating bamboo toothbrushes, reusable bags, beeswax wraps, and stainless steel straws into their daily routine. (from a chat on 2023-04-14)\n- User was provided the 'Park Hills Challenge' 20-mile cycling route starting at the local park (37.1234, -122.1234) with 750 feet of elevation gain and recommended stops at The Daily Grind, The Coffee Club, and The Village Cafe. (from a chat on 2023-04-11)\n- User inherited an antique vase from their grandmother last year and is currently deciding whether to keep it as a family heirloom or sell it. (from a chat on 2023-06-14)\n- User spent $50 at Target on June 24, 2023, for a friend's baby shower gift. (from a chat on 2023-06-25)\n- User decided to purchase an AmazonBasics High-Density Foam Roller for muscle recovery. (from a chat on 2023-06-27)",
+ "answer": "To determine your previous personal best time for the charity 5K run, let's look at the relevant facts:\n\n**Step 1: Extract relevant information**\n*   From the chat on 2023-07-30: You completed a charity 5K run with a personal best time of 26 minutes and 30 seconds, which is 1.5 minutes faster than your previous record.\n*   From the chat on 2023-04-11: You completed a charity 5K run with a personal best time of 27 minutes and 45 seconds.\n\n**Step 2: Reason over the information**\n*   The most recent record (as of 2023-07-30) is 26:30.\n*   You noted that this time (26:30) is 1.5 minutes (90 seconds) faster than your previous record.\n*   Calculation: 26 minutes 30 seconds + 1 minute 30 seconds = 28 minutes 0 seconds.\n*   *Note:* While you mentioned a 27:45 time in April, the specific context of the 2023-07-30 chat identifies the \"previous record\" relative to your new 26:30 personal best as being 1.5 minutes slower.\n\n**Answer:**\nYour previous personal best time for the charity 5K run was 28 minutes.",
+ "dump": "- User spent $150 on a silver necklace from Tiffany's as a birthday gift for their sister. (session 2023-06-25)\n- User is planning a bathroom refresh, which began after they fixed a leaky sink faucet a few weeks prior to May 27, 2023. (session 2023-05-27)\n- User was provided the 'Park Hills Challenge' 20-mile cycling route starting at the local park (37.1234, -122.1234) with 750 feet of elevation gain and recommended stops at The Daily Grind, The Coffee Club, and The Village Cafe. (session 2023-04-11)\n- User spent $30 at Godiva on a coffee mug and gourmet chocolates for their coworker Rachel for an office secret Santa. (session 2023-06-04)\n- User was provided with bathroom decor trends including nature-inspired accents, industrial-chic fixtures, statement lighting, wallpaper, freestanding tubs, mixed metallics, textured tiles, floating shelves, and sustainable design. (session 2023-05-27)\n- User decided to purchase an AmazonBasics High-Density Foam Roller for muscle recovery. (session 2023-06-27)\n- User's current running routine consists of 3 runs per week (one long weekend run, two shorter weekday runs) at an average pace of 9:30 minutes per mile. (session 2023-07-30)\n- User is researching bike computers and GPS devices for tracking rides, and was recommended Garmin Edge 130, Wahoo ELEMNT, Lezyne Super GPS, Garmin Forerunner 945, Polar Vantage V, and Suunto 3 Fitness. (session 2023-04-11)\n- User decided to switch to Seventh Generation laundry detergent because it is plant-based, biodegradable, and available at their local co-op. (session 2023-04-14)\n- User is analyzing survey data regarding DAO forum participation, which indicates high interest in DAO forums, a preference for free or low-cost access, and a need for better education on DAO concepts. (session 2023-04-21)\n- User requested a 20-mile cycling route starting and ending at the local park used for their charity 5K, featuring a mix of rolling and steeper hills on secondary roads with 500-1000 feet of elevation gain. (session 2023-04-11)\n- User is tracking their expenses for the past month and has spent a total of $410 on gifts for family, friends, and coworkers. (session 2023-06-04)\n- User was provided with recommendations for foam rollers, including AmazonBasics High-Density, TriggerPoint GRID, LuxFit, and HyperIce Vyper, along with usage tips like warming up, identifying target areas, and using body weight. (session 2023-06-27)\n- User purchased baby shower gifts at Target on June 3, 2023, for a shower occurring on June 10-11, 2023. (session 2023-06-04)\n- User played tennis with their friend Rachel at the community center on the weekend of June 24-25, 2023. (session 2023-06-27)\n- User selected a new bathroom trash can featuring a pedal-operated lid, a removable liner, and an antimicrobial coating to improve hygiene and ease of maintenance. (session 2023-05-27)\n- User was provided with a list of high-energy songs and artists for spin classes, categorized by genre including classic anthems, pop/rock, electronic/dance, hip-hop, indie, and female empowerment. (session 2023-06-27)\n- User started using a scented candle in their bathroom a few days before May 27, 2023, to create a relaxing atmosphere. (session 2023-05-27)\n- User owns a rare Elgin pocket watch from the 1920s that belonged to their grandfather and is planning to have it restored as a family heirloom. (session 2023-06-14)\n- User was provided a sample training schedule that prioritizes triathlon training on weekends, incorporates yoga for recovery, and fits cycling and soccer into weekdays. (session 2023-04-11)\n- User is looking to reorganize the cabinet under their bathroom sink to maximize storage efficiency. (session 2023-05-27)\n- User's weekly training schedule includes yoga (2x/week, 45 mins), cycling (1x/week, 2 hours), soccer (1x/week, 1.5 hours), and triathlon training (3x/week), with one rest day per week. (session 2023-04-11)\n- User was provided with suggestions to enhance bathroom ambiance, such as essential oils, low-maintenance plants, plush bath mats, serene artwork, dimmable lighting, and aromatherapy accessories. (session 2023-05-27)\n- User spent $100 at Bed Bath & Beyond on a coffee maker for their brother. (session 2023-06-04)\n- User was advised that a soft blue-gray wall color pairs well with nature-inspired accents like wood and plants, and industrial-chic fixtures like metal accents and exposed pipes. (session 2023-05-27)\n- User is training for a sprint triathlon on June 24, 2023, and recently completed a charity 5K run with a personal best time of 27 minutes and 45 seconds. (session 2023-04-11)\n- User was provided with guidance on selecting a reputable watch restorer, including checking for certifications from the AWCI or BHI and memberships in organizations like the NAWCC or HSNY. (session 2023-06-14)\n- User is painting their bathroom walls a soft blue-gray color during the weekend of May 27-28, 2023. (session 2023-05-27)\n- User's fitness levels are intermediate for yoga and cycling, beginner for swimming, and advanced for running. (session 2023-04-11)\n- User was recommended specific watch restoration services including The Watch Repair Center, The Pocket Watch Repair Center, BHI Watch and Clock Restoration, and AWCI Watch Restoration. (session 2023-06-14)\n- User was provided with tips to alleviate muscle soreness, including warming up, stretching, foam rolling, hydration, protein intake, rest, ice baths, massage, compression, and over-the-counter pain relievers. (session 2023-06-27)\n- User spent $80 at H&M on graphic tees and sweatpants for their nephew. (session 2023-06-04)\n- User is planning to purchase a stainless steel, insulated refillable water bottle, specifically considering brands like S'well or Hydro Flask for their durability and temperature retention. (session 2023-04-14)\n- User's grandmother's antique vase has been appraised at a value of over $10,000. (session 2023-06-14)\n- User was provided with storage optimization tips for under-sink cabinets, including adjustable shelving, tiered storage, door-mounted racks, slide-out drawers, turntables, and labeling. (session 2023-05-27)\n- User spent $50 at Target on June 24, 2023, for a friend's baby shower gift. (session 2023-06-25)\n- User spent $120 on personalized photo albums from Shutterfly for their grandmother. (session 2023-06-25)\n- User was recommended trash can brands including Simplehuman, Umbra, InterDesign, Rubbermaid, and HeimVision for their easy-to-clean features. (session 2023-05-27)\n- User was provided with fitness tracker recommendations including Fitbit Charge 3, Garmin Vivosport, Apple Watch Series 3, and Samsung Galaxy Fit. (session 2023-06-27)\n- User decided to purchase a Fitbit Charge 3 to track fitness progress and stay motivated. (session 2023-06-27)\n- User recently completed a charity 5K run with a personal best time of 26 minutes and 30 seconds, which is 1.5 minutes faster than their previous record. (session 2023-07-30)\n- User inherited an antique vase from their grandmother last year and is currently deciding whether to keep it as a family heirloom or sell it. (session 2023-06-14)\n- User plans to use the silver necklace they bought for their sister as an example when teaching friends how to choose thoughtful gifts. (session 2023-06-25)\n- User spent $100 on a coffee maker for their brother at Bed Bath & Beyond a few weeks prior to June 25, 2023. (session 2023-06-25)\n- User was provided a 20-mile cycling route in Oakdale consisting of four segments: River Trail, quiet neighborhoods, a park loop with hills, and a return via the river trail. (session 2023-07-30)\n- User was provided with insights on the future of DAOs, highlighting trends toward mainstream adoption, the necessity of community-building, the demand for democratic governance, and the importance of educational outreach. (session 2023-04-21)\n- User is planning a 20-mile cycling route in Oakdale for a Saturday morning group, avoiding downtown and highways while incorporating the river bike trail. (session 2023-07-30)\n- User is interested in the economic impact of the forestry industry in Canada and the environmental concerns associated with logging practices. (session 2023-06-18)\n- User is seeking advice on improving their tennis serve technique. (session 2023-06-27)\n- User was informed about sustainable forestry practices in Canada, including selective harvesting, reforestation, ecological forestry, reduced-impact logging, and certification programs like FSC and SFI. (session 2023-06-18)\n- User is training for a 10K run with a goal finish time under 55 minutes, to be completed in approximately 12 weeks. (session 2023-07-30)\n- User was provided with tennis serve improvement tips, including mastering the continental grip, consistent tossing, using leg power, and recording their serve for feedback. (session 2023-06-27)\n- User was provided with tips for finding discounts on S'well and Hydro Flask products, including checking official websites, signing up for newsletters, monitoring Amazon deals, and using cashback apps like Rakuten or TopCashback. (session 2023-04-14)\n- User spent $200 at Costco on comfortable blankets, scented candles, and snacks for their grandmother who is experiencing health issues. (session 2023-06-04)\n- User was provided with actionable ways to support sustainable forestry as a consumer, such as looking for FSC/SFI certifications, supporting companies with sustainable sourcing policies, using recycled or reclaimed wood, donating to conservation organizations, and educating themselves on forest management. (session 2023-06-18)\n- User is interested in high-energy electronic dance music for their spin class workouts. (session 2023-06-27)\n- User was provided an aggressive 12-week 10K training plan incorporating speed workouts, hill repeats, and strength training, adjusted for their 26:30 5K performance. (session 2023-07-30)\n- User has been actively transitioning to a more sustainable lifestyle for approximately three months, incorporating bamboo toothbrushes, reusable bags, beeswax wraps, and stainless steel straws into their daily routine. (session 2023-04-14)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 58,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 36.4,
+  "total": 38.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

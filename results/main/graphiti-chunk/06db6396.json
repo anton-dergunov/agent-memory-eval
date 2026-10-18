@@ -1,0 +1,102 @@
+{
+ "qid": "06db6396",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many projects have I completed since starting painting classes?",
+ "reference": "5",
+ "question_date": "2023-11-08 09:08",
+ "sessions": [
+  {
+   "id": "6be54739_2",
+   "date": "2023-07-21 21:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467198",
+   "date": "2023-08-05 19:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_1",
+   "date": "2023-08-16 09:37",
+   "evidence": true
+  },
+  {
+   "id": "5bd9f1e6_1",
+   "date": "2023-08-20 21:15",
+   "evidence": false
+  },
+  {
+   "id": "35038174_4",
+   "date": "2023-09-17 02:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_167372",
+   "date": "2023-09-18 08:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_2",
+   "date": "2023-10-09 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_416015",
+   "date": "2023-10-18 11:50",
+   "evidence": false
+  },
+  {
+   "id": "3dcf1e0b_2",
+   "date": "2023-10-19 07:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2LYzasI_0",
+   "date": "2023-11-01 20:36",
+   "evidence": false
+  }
+ ],
+ "context": "- The user has completed 4 painting projects since they began taking painting classes. (valid since 2023-08-16)\n- The user is currently working on a sunset scene painting intended as a gift for their sister. (valid since 2023-08-16)\n- The assistant provides advice on how to balance bold colors in an abstract painting to ensure they do not overwhelm the overall piece. (valid since 2023-10-09)\n- artbylisa created a tutorial on how to use acrylics to create a galaxy effect. (valid since 2023-08-16)\n- The galaxy effect tutorial involves the use of acrylics. (valid since 2023-08-16)\n- The Data Visualization course teaches students how to use the ggplot2 tool for creating data visualizations (valid since 2023-08-20)\n- The Data Visualization course teaches students how to use the Plotly tool for creating data visualizations (valid since 2023-08-20)\n- user is following several artists on Instagram to gain inspiration from their work. (valid since 2023-08-16)\n- The user is interested in the Data Visualization course. (valid since 2023-07-21)\n- The assistant acknowledges that the user lost a water bottle at the picnic area at Red Rock Canyon. (valid since 2023-10-19)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history chat states: \"The user has completed 4 painting projects since they began taking painting classes.\" (valid since 2023-08-16)\n\n**Step 2: Reason over the information**\n*   The information explicitly provides the total count of completed painting projects as 4. There is no information suggesting this number has changed since the record was established on 2023-08-16.\n\n**Answer:**\nYou have completed 4 painting projects since you began taking painting classes.",
+ "dump": "- The Swiss Federal Tax Administration issued guidelines in 2018 regarding the taxation of cryptocurrencies. (valid since 2018-01-01)\n- The user reads The Economist magazine during their daily commute. (valid since 2023-07-21)\n- The user reads The New York Times every Sunday. (valid since 2023-07-21)\n- The assistant describes the conservation efforts being made in Africa to protect wildlife from poaching and illegal hunting, including increased penalties, community involvement, creation of wildlife conservancies, economic incentives, and awareness campaigns. (valid since 2023-07-21)\n- The user supports the wildlife conservation efforts being made in Africa. (valid since 2023-07-21)\n- The assistant advocates for other countries to support the efforts of African countries to protect their wildlife through funding, awareness campaigns, and other means. (valid since 2023-07-21)\n- The Climate Reality Project was founded by Al Gore. (valid since 2023-07-21)\n- The Climate Daily is a daily newsletter produced by The Climate Reality Project. (valid since 2023-07-21)\n- 350.org publishes 350.org's Newsletter on a weekly basis. (valid since 2023-07-21)\n- The Sierra Club's Climate Newsletter is published bi-weekly by The Sierra Club's Climate Program. (valid since 2023-07-21)\n- The user is interested in the Data Visualization course. (valid since 2023-07-21)\n- The Data Visualization course is offered by Coursera. (valid since 2023-07-21)\n- The user is currently working on a sunset scene painting intended as a gift for their sister. (valid since 2023-08-16)\n- The user has completed 4 painting projects since they began taking painting classes. (valid since 2023-08-16)\n- user is following several artists on Instagram to gain inspiration from their work. (valid since 2023-08-16)\n- artbylisa created a tutorial on how to use acrylics to create a galaxy effect. (valid since 2023-08-16)\n- The galaxy effect tutorial involves the use of acrylics. (valid since 2023-08-16)\n- plotly is used in conjunction with ggplot2 to create interactive visualizations within the Coursera data visualization course. (valid since 2023-08-20)\n- The Data Visualization course teaches students how to use the ggplot2 tool for creating data visualizations (valid since 2023-08-20)\n- The Data Visualization course teaches students how to use the Plotly tool for creating data visualizations (valid since 2023-08-20)\n- The user uses an external hard drive to back up files from their laptop. (valid since 2023-09-17)\n- The user uses their external hard drive to transfer files between their laptop and desktop. (valid since 2023-09-17)\n- The Black Forest contains the Westweg hiking trail. (valid since 2023-09-18)\n- The Black Forest contains the Wiesensteig hiking trail. (valid since 2023-09-18)\n- The Black Forest has a 300 km cycling path called the Black Forest Cycle Way. (valid since 2023-09-18)\n- The Black Forest features the Feldberg ski resort. (valid since 2023-09-18)\n- The Pforzheimer Boulderhalle is a climbing and bouldering location in the Black Forest. (valid since 2023-09-18)\n- The KletterZentrum Freiburg is a climbing and bouldering location in the Black Forest. (valid since 2023-09-18)\n- The Titisee lake in the Black Forest is used for swimming and water sports. (valid since 2023-09-18)\n- The Schluchsee lake in the Black Forest is used for swimming and water sports. (valid since 2023-09-18)\n- The historic town of Baden-Baden is located in the Black Forest. (valid since 2023-09-18)\n- The historic town of Gengenbach is located in the Black Forest. (valid since 2023-09-18)\n- The historic town of Freiburg is located in the Black Forest. (valid since 2023-09-18)\n- The assistant provides advice on how to balance bold colors in an abstract painting to ensure they do not overwhelm the overall piece. (valid since 2023-10-09)\n- The adoption of cryptocurrencies has led to changes in the tax laws of Switzerland (valid since 2023-10-18)\n- The user is planning to buy a new snorkeling mask for their upcoming beach trip next month. (valid since 2023-10-19)\n- The user owns an old snorkeling mask that has a scratch on the lens, causing glare. (valid since 2023-10-19)\n- The assistant acknowledges that the user lost a water bottle at the picnic area at Red Rock Canyon. (valid since 2023-10-19)\n- The assistant recommends Hydro Flask as a brand for water bottles known for their insulated stainless steel construction. (valid since 2023-10-19)\n- The assistant recommends S'well for their stylish, insulated water bottles made from stainless steel or glass. (valid since 2023-10-19)\n- The assistant recommends Nalgene for their durable and dishwasher-safe BPA-free Tritan water bottles. (valid since 2023-10-19)\n- The assistant recommends CamelBak for their range of bottles and hydration packs popular among outdoor enthusiasts. (valid since 2023-10-19)\n- The assistant recommends Klean Kanteen for their sustainable, non-toxic water bottles made from stainless steel or silicone. (valid since 2023-10-19)\n- The assistant promotes North American-made foul weather gear in a series of Facebook ads. (valid since 2023-11-01)\n- North American-made foul weather gear is designed for Maine lobster fishermen. (valid since 2023-11-01)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 45,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 223.6,
+  "total": 224.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

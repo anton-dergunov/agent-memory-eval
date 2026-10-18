@@ -1,0 +1,102 @@
+{
+ "qid": "ce6d2d27",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What day of the week do I take a cocktail-making class?",
+ "reference": "Friday",
+ "question_date": "2023-07-15 22:19",
+ "sessions": [
+  {
+   "id": "answer_73540165_1",
+   "date": "2023-06-16 13:26",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_72kPQPm_11",
+   "date": "2023-06-19 09:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1uSOnON_25",
+   "date": "2023-06-27 22:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_227355",
+   "date": "2023-06-30 15:34",
+   "evidence": false
+  },
+  {
+   "id": "cd92ac85_1",
+   "date": "2023-06-30 16:18",
+   "evidence": false
+  },
+  {
+   "id": "answer_73540165_2",
+   "date": "2023-06-30 22:49",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504309",
+   "date": "2023-07-05 17:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_306593",
+   "date": "2023-07-05 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_WQctw3k_0",
+   "date": "2023-07-06 07:34",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_206676",
+   "date": "2023-07-12 09:35",
+   "evidence": false
+  }
+ ],
+ "context": "- The user makes a big batch of rice every Sunday morning to portion out for the week. (valid since 2023-06-30)\n- The assistant recommends Avion Silver tequila for the user's watermelon and basil margarita cocktail. (valid since 2023-06-30)\n- The Tequila Sour is a unique twist on the classic margarita cocktail (valid since 2023-06-30)\n- The Paloma cocktail includes grapefruit juice as an ingredient (valid since 2023-06-30)\n- The user is planning to serve grilled jerk chicken for the main course. (valid since 2023-06-16)\n- The dessert mango salsa can include a splash of Grand Marnier to provide a subtle citrus flavor. (valid since 2023-06-16)\n- The assistant suggests 'The Crystal Ball' as a podcast segment for founders to make predictions about the future. (valid since 2023-07-06)\n- Alexandria Ocasio-Cortez is a member of the Congressional Black Caucus. (valid since 2023-07-05)\n- The assistant suggests 'recruiting frenzy' as a recurring segment for the podcast. (valid since 2023-07-06)\n- The user is looking to incorporate lentil curry into their Sunday meal prep routine alongside rice. (valid since 2023-06-30)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:** I have reviewed all the provided history chats regarding your meal prep, cocktail recommendations, podcast suggestions, and general facts.\n2. **Reason over the information:** \n    * The history chats mention that you make a big batch of rice on Sunday mornings and are planning to incorporate lentil curry into that routine.\n    * The history chats provide specific cocktail recommendations (Avion Silver tequila for a watermelon and basil margarita, the Tequila Sour, and the ingredients for a Paloma).\n    * There is no mention of a cocktail-making class in any of the provided history logs.\n3. **Conclusion:** Based on the provided facts, there is no information regarding a cocktail-making class or the day of the week you might take one.",
+ "dump": "- A Boeing 737 Max airplane operated by Lion Air crashed in Indonesia in 2018, leading to changes in regulations and oversight. (valid since 2018-01-01)\n- The user is planning to serve grilled jerk chicken for the main course. (valid since 2023-06-16)\n- The user is planning to serve roasted sweet potatoes as a side with the grilled jerk chicken. (valid since 2023-06-16)\n- The dessert mango salsa can be served as a topping on the coconut lime panna cotta. (valid since 2023-06-16)\n- The dessert mango salsa can include a splash of Grand Marnier to provide a subtle citrus flavor. (valid since 2023-06-16)\n- Plato discussed the use of mind-altering substances to gain access to higher knowledge in his dialogue Phaedrus. (valid since 2023-06-19)\n- Aldous Huxley has written about the use of psychoactive substances and their potential for spiritual or mystical experiences. (valid since 2023-06-19)\n- Terence McKenna has written about the use of psychoactive substances and their potential for spiritual or mystical experiences. (valid since 2023-06-19)\n- Immanuel Kant has been critical of the use of psychoactive substances, arguing that they can be detrimental to our ability to make rational decisions and act morally. (valid since 2023-06-19)\n- The assistant provides information about the non-profit organization Women in Renewable Energy and the services it offers. (valid since 2023-06-27)\n- The user is looking to incorporate lentil curry into their Sunday meal prep routine alongside rice. (valid since 2023-06-30)\n- The user makes a big batch of rice every Sunday morning to portion out for the week. (valid since 2023-06-30)\n- Cumin pairs well with lentils to provide a warm, earthy flavor. (valid since 2023-06-30)\n- Coriander pairs well with lentils to provide a warm, earthy flavor. (valid since 2023-06-30)\n- Ras el hanout pairs well with lentils to add a complex, aromatic flavor. (valid since 2023-06-30)\n- Whole cinnamon can be stored for longer periods than ground cinnamon. (valid since 2023-06-30)\n- Whole cumin can be stored for longer periods than ground cumin. (valid since 2023-06-30)\n- Whole coriander can be stored for longer periods than ground coriander. (valid since 2023-06-30)\n- The assistant recommends Avion Silver tequila for the user's watermelon and basil margarita cocktail. (valid since 2023-06-30)\n- The Paloma cocktail includes grapefruit juice as an ingredient (valid since 2023-06-30)\n- The Tequila Sour is a unique twist on the classic margarita cocktail (valid since 2023-06-30)\n- The assistant provides advice and recommendations to the user on resources and organizations for learning about web accessibility. (valid since 2023-07-05)\n- The Web Accessibility Initiative is an initiative of the World Wide Web Consortium. (valid since 2023-07-05)\n- The Web Content Accessibility Guidelines were developed by the World Wide Web Consortium. (valid since 2023-07-05)\n- Alexandria Ocasio-Cortez co-sponsored the Green New Deal resolution to address the climate crisis. (valid since 2023-07-05)\n- Alexandria Ocasio-Cortez advocated for a $15 minimum wage in the Raise the Wage Act which passed the House of Representatives in 2019. (valid since 2023-07-05)\n- Alexandria Ocasio-Cortez co-sponsored the Automatic Voter Registration Act to increase voter turnout. (valid since 2023-07-05)\n- Alexandria Ocasio-Cortez proposed the Rent and Mortgage Cancellation Act to provide relief during the COVID-19 pandemic. (valid since 2023-07-05)\n- Alexandria Ocasio-Cortez is a member of the Congressional Black Caucus. (valid since 2023-07-05)\n- After the wire podcast features themed episodes such as Women in Tech (valid since 2023-07-06)\n- After the wire podcast features themed episodes such as Social Impact Startups (valid since 2023-07-06)\n- After the wire podcast features themed episodes such as Bootstrapped Success Stories (valid since 2023-07-06)\n- The assistant suggests 'science corder' as a recurring segment for the podcast. (valid since 2023-07-06)\n- The assistant suggests 'recruiting frenzy' as a recurring segment for the podcast. (valid since 2023-07-06)\n- The assistant suggests 'Pivot Point' as a podcast segment where founders share significant turning points in their journey. (valid since 2023-07-06)\n- The assistant suggests 'The One That Got Away' as a podcast segment where founders discuss missed opportunities or failures. (valid since 2023-07-06)\n- The assistant suggests 'Elevator Pitch Remix' as a podcast segment where founders explain their value proposition in different contexts. (valid since 2023-07-06)\n- The assistant suggests 'Founder's Toolbox' as a podcast segment for recommending tools, resources, or habits. (valid since 2023-07-06)\n- The assistant suggests 'Rapid Fire Round' as a podcast segment featuring lighthearted or thought-provoking questions. (valid since 2023-07-06)\n- The assistant suggests 'The Crystal Ball' as a podcast segment for founders to make predictions about the future. (valid since 2023-07-06)\n- The assistant suggests 'Under the Radar' as a podcast segment for founders to share startups or other founders they admire. (valid since 2023-07-06)\n- The assistant describes the musical Into the Woods as a show that portrays empathy and selflessness and blends different fairy tale stories. (valid since 2023-07-12)\n- The Federal Aviation Administration grounded the Boeing 737 Max and imposed new requirements for training, certification, and testing following crashes in 2018 and 2019. (date unknown)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 43,
+  "invalidated": 0,
+  "episodes": 15,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 117.1,
+  "total": 118.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

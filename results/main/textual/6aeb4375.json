@@ -1,0 +1,95 @@
+{
+ "qid": "6aeb4375",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many Korean restaurants have I tried in my city?",
+ "reference": "four",
+ "question_date": "2023-10-22 15:38",
+ "sessions": [
+  {
+   "id": "sharegpt_I5HWvry_0",
+   "date": "2023-07-12 02:43",
+   "evidence": false
+  },
+  {
+   "id": "c625cff4_3",
+   "date": "2023-07-14 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MD0BL69_53",
+   "date": "2023-07-16 13:37",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FkabWXV_105",
+   "date": "2023-07-25 21:34",
+   "evidence": false
+  },
+  {
+   "id": "26f9a255_2",
+   "date": "2023-07-30 13:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_wbbH6cZ_0",
+   "date": "2023-08-08 23:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MWlvrvZ_0",
+   "date": "2023-08-09 22:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_1",
+   "date": "2023-08-11 09:09",
+   "evidence": true
+  },
+  {
+   "id": "29621a34",
+   "date": "2023-08-11 09:38",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_2",
+   "date": "2023-09-30 15:06",
+   "evidence": true
+  }
+ ],
+ "context": "### Personal facts\n* The user is an administrator or technical professional working with SharePoint and network infrastructure.\n* The user is interested in creative writing and historical sports scenarios, specifically involving time travel narratives.\n* The user is a football fan with a specific interest in historical World Cup matches, particularly those involving Brazil and Italy (1970 and 1982).\n* The user has a burgeoning interest in historical art and culture, specifically the Tang Dynasty (618-907), including the roles of dancers, calligraphers, and sculptors.\n* The user enjoys linguistic exercises, specifically condensing descriptive prose into lists of nouns and adjectives.\n* The user is actively developing skills in data analysis and visualization using Python, having recently completed a half-day workshop on the subject (as of 2023-07-30).\n* The user is planning a one-month trip to Cuba, with a preference for small towns and authentic local experiences over big resorts or luxury hotels.\n* The user is expecting a baby girl and is currently exploring naming options, specifically seeking names that blend Korean aesthetics with Chinese romantic novel influences for a Taiwanese baby with the surname Ko (柯).\n* The user is an enthusiastic home cook who has recently been exploring Korean cuisine. As of 2023-09-30, the user has visited four different Korean restaurants (previously three as of 2023-07-30).\n* The user is currently planning a dinner party featuring a fusion menu of Korean (BBQ beef, kimchi, bokkeumbap), Indian (samosas, saag aloo), and Middle Eastern (falafel) cuisines.\n* The user is a fan of indie and alternative music, specifically artists like Arctic Monkeys, The Neighbourhood, and Rex Orange County (currently listening to the album \"Pony\").\n* The user enjoys music storytelling and is a fan of podcasts like \"All Songs Considered\" and \"Song Exploder.\"\n\n### Preferences and habits\n* The user prefers to keep content stored on network shares rather than ingesting it directly into SharePoint.\n* The user is interested in maintaining searchability (indexing) for external content while keeping the actual files hosted on network shares.\n* The user is concerned with security and access control, specifically regarding how SharePoint search results respect existing file permissions.\n* The user is actively working to improve their sleep hygiene and establish a consistent sleep schedule.\n* The user prefers physical books over e-books for bedtime reading to avoid blue light exposure.\n* The user has adopted a \"no screens\" rule starting at 10:15 PM to facilitate winding down before bed.\n* The user plans to use phone reminders and social accountability (checking in with a friend or family member) to maintain their new bedtime routine.\n* In creative writing, the user prefers detailed tactical and strategic planning for characters (e.g., John and Jack) and enjoys incorporating specific role-splitting (tactical vs. individual player management).\n* The user prefers a hands-on, project-based approach to learning, currently focusing on using Pandas, NumPy, Matplotlib, and Seaborn to analyze and visualize datasets like the Iris and Titanic datasets.\n* The user prefers travel itineraries that focus on cultural immersion, small towns, and local history rather than luxury tourism.\n* The user enjoys experimenting with different types of noodles and is interested in learning how to prepare various Korean noodle dishes at home.\n* The user is actively seeking to expand their musical horizons and break out of a \"listening rut\" by exploring new genres and artists via podcasts, blogs, and streaming platforms.\n* The user has an interest in attending live music festivals, both internationally and specifically within the UK.\n* The user prefers traditional basmati rice for Indian-inspired dishes over Japanese short-grain rice due to texture and flavor profile requirements.\n\n### Ongoing situations and plans\n* The user is currently configuring SharePoint to index content from network shares.\n* The user is actively managing SharePoint permissions and security protocols to ensure that crawled/indexed content remains restricted to authorized users.\n* The user is implementing a new, structured bedtime routine (starting at 11:15 PM) that includes 10 minutes of reading, followed by quick relaxation techniques (deep breathing, progressive muscle relaxation, or mindfulness), aiming to be in bed by 11:45 PM.\n* The user is developing a narrative involving characters \"John\" (a football coach) and \"Jack\" (a time traveler) who are attempting to alter the outcome of the 1982 Brazil vs. Italy World Cup match.\n* The user is planning to take an online course to further their Python data analysis skills and is currently practicing by creating scatter plots and pairplots for the Iris dataset.\n* The user is in the planning stages of a month-long trip to Cuba, starting and ending in Havana, with planned stops in Viñales, Cienfuegos, Trinidad, Camagüey, Santiago de Cuba, and Baracoa.\n* The user is actively researching and selecting a name for their upcoming baby girl, focusing on combinations of Korean and Chinese cultural elements.\n* The user is planning a dinner party and has finalized the menu to include Korean BBQ beef, kimchi, bokkeumbap, samosas, saag aloo, and falafel.\n* The user is exploring new music recommendations (e.g., The Black Keys, Pale Waves, (Sandy) Alex G) and music podcasts (e.g., Broken Record, Switched on Pop) to diversify their listening habits.\n* The user is planning to visit a new Indian restaurant in their neighborhood to try their chicken tikka masala.\n\n### Changes over time\n* Sleep habits: As of 2023-07-14, the user is actively modifying their evening routine to address recent sleep difficulties, specifically transitioning to a screen-free period starting at 10:15 PM and a structured wind-down routine beginning at 11:15 PM.\n* Korean restaurant experience: As of 2023-09-30, the user has visited four Korean restaurants; previously three as of 2023-07-30.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   Under the \"Personal facts\" section, it is noted: \"As of 2023-09-30, the user has visited four different Korean restaurants (previously three as of 2023-07-30).\"\n    *   Under the \"Changes over time\" section, it is confirmed: \"As of 2023-09-30, the user has visited four Korean restaurants; previously three as of 2023-07-30.\"\n\n2.  **Reason over the information:**\n    *   The most recent data point provided regarding the number of Korean restaurants visited is from September 30, 2023.\n    *   At that time, the count was four.\n    *   There is no information provided in the \"Ongoing situations and plans\" or other sections indicating that any additional Korean restaurants have been visited between September 30, 2023, and the current date (October 22, 2023).\n\n3.  **Conclusion:**\n    *   Based on the provided history, you have tried four Korean restaurants.",
+ "dump": "### Personal facts\n* The user is an administrator or technical professional working with SharePoint and network infrastructure.\n* The user is interested in creative writing and historical sports scenarios, specifically involving time travel narratives.\n* The user is a football fan with a specific interest in historical World Cup matches, particularly those involving Brazil and Italy (1970 and 1982).\n* The user has a burgeoning interest in historical art and culture, specifically the Tang Dynasty (618-907), including the roles of dancers, calligraphers, and sculptors.\n* The user enjoys linguistic exercises, specifically condensing descriptive prose into lists of nouns and adjectives.\n* The user is actively developing skills in data analysis and visualization using Python, having recently completed a half-day workshop on the subject (as of 2023-07-30).\n* The user is planning a one-month trip to Cuba, with a preference for small towns and authentic local experiences over big resorts or luxury hotels.\n* The user is expecting a baby girl and is currently exploring naming options, specifically seeking names that blend Korean aesthetics with Chinese romantic novel influences for a Taiwanese baby with the surname Ko (柯).\n* The user is an enthusiastic home cook who has recently been exploring Korean cuisine. As of 2023-09-30, the user has visited four different Korean restaurants (previously three as of 2023-07-30).\n* The user is currently planning a dinner party featuring a fusion menu of Korean (BBQ beef, kimchi, bokkeumbap), Indian (samosas, saag aloo), and Middle Eastern (falafel) cuisines.\n* The user is a fan of indie and alternative music, specifically artists like Arctic Monkeys, The Neighbourhood, and Rex Orange County (currently listening to the album \"Pony\").\n* The user enjoys music storytelling and is a fan of podcasts like \"All Songs Considered\" and \"Song Exploder.\"\n\n### Preferences and habits\n* The user prefers to keep content stored on network shares rather than ingesting it directly into SharePoint.\n* The user is interested in maintaining searchability (indexing) for external content while keeping the actual files hosted on network shares.\n* The user is concerned with security and access control, specifically regarding how SharePoint search results respect existing file permissions.\n* The user is actively working to improve their sleep hygiene and establish a consistent sleep schedule.\n* The user prefers physical books over e-books for bedtime reading to avoid blue light exposure.\n* The user has adopted a \"no screens\" rule starting at 10:15 PM to facilitate winding down before bed.\n* The user plans to use phone reminders and social accountability (checking in with a friend or family member) to maintain their new bedtime routine.\n* In creative writing, the user prefers detailed tactical and strategic planning for characters (e.g., John and Jack) and enjoys incorporating specific role-splitting (tactical vs. individual player management).\n* The user prefers a hands-on, project-based approach to learning, currently focusing on using Pandas, NumPy, Matplotlib, and Seaborn to analyze and visualize datasets like the Iris and Titanic datasets.\n* The user prefers travel itineraries that focus on cultural immersion, small towns, and local history rather than luxury tourism.\n* The user enjoys experimenting with different types of noodles and is interested in learning how to prepare various Korean noodle dishes at home.\n* The user is actively seeking to expand their musical horizons and break out of a \"listening rut\" by exploring new genres and artists via podcasts, blogs, and streaming platforms.\n* The user has an interest in attending live music festivals, both internationally and specifically within the UK.\n* The user prefers traditional basmati rice for Indian-inspired dishes over Japanese short-grain rice due to texture and flavor profile requirements.\n\n### Ongoing situations and plans\n* The user is currently configuring SharePoint to index content from network shares.\n* The user is actively managing SharePoint permissions and security protocols to ensure that crawled/indexed content remains restricted to authorized users.\n* The user is implementing a new, structured bedtime routine (starting at 11:15 PM) that includes 10 minutes of reading, followed by quick relaxation techniques (deep breathing, progressive muscle relaxation, or mindfulness), aiming to be in bed by 11:45 PM.\n* The user is developing a narrative involving characters \"John\" (a football coach) and \"Jack\" (a time traveler) who are attempting to alter the outcome of the 1982 Brazil vs. Italy World Cup match.\n* The user is planning to take an online course to further their Python data analysis skills and is currently practicing by creating scatter plots and pairplots for the Iris dataset.\n* The user is in the planning stages of a month-long trip to Cuba, starting and ending in Havana, with planned stops in Viñales, Cienfuegos, Trinidad, Camagüey, Santiago de Cuba, and Baracoa.\n* The user is actively researching and selecting a name for their upcoming baby girl, focusing on combinations of Korean and Chinese cultural elements.\n* The user is planning a dinner party and has finalized the menu to include Korean BBQ beef, kimchi, bokkeumbap, samosas, saag aloo, and falafel.\n* The user is exploring new music recommendations (e.g., The Black Keys, Pale Waves, (Sandy) Alex G) and music podcasts (e.g., Broken Record, Switched on Pop) to diversify their listening habits.\n* The user is planning to visit a new Indian restaurant in their neighborhood to try their chicken tikka masala.\n\n### Changes over time\n* Sleep habits: As of 2023-07-14, the user is actively modifying their evening routine to address recent sleep difficulties, specifically transitioning to a screen-free period starting at 10:15 PM and a structured wind-down routine beginning at 11:15 PM.\n* Korean restaurant experience: As of 2023-09-30, the user has visited four Korean restaurants; previously three as of 2023-07-30.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 24.8,
+  "total": 26.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "07741c44",
+ "arm": "mem0",
+ "split": "main",
+ "question": "Where do I initially keep my old sneakers?",
+ "reference": "under my bed",
+ "question_date": "2023-11-30 23:52",
+ "sessions": [
+  {
+   "id": "ultrachat_319134",
+   "date": "2023-07-25 07:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_1",
+   "date": "2023-08-11 02:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_113757",
+   "date": "2023-08-20 06:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_CEWG2XW_0",
+   "date": "2023-09-06 08:19",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mUiNDhv_0",
+   "date": "2023-10-10 09:54",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_200168",
+   "date": "2023-10-26 19:12",
+   "evidence": false
+  },
+  {
+   "id": "aa71db11_1",
+   "date": "2023-11-11 14:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_2",
+   "date": "2023-11-30 11:44",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_370246",
+   "date": "2023-11-30 16:06",
+   "evidence": false
+  },
+  {
+   "id": "01d22d4d",
+   "date": "2023-11-30 23:04",
+   "evidence": false
+  }
+ ],
+ "context": "- User plans to organize their closet this weekend, which includes decluttering, categorizing shoes by type, and using a shoe rack to store old sneakers to save space. (from a chat on 2023-11-30)\n- User plans to take their old sneakers to a cobbler the weekend of August 12-13, 2023, for professional polishing and conditioning. (from a chat on 2023-08-11)\n- User received advice on maintaining stored sneakers, including cleaning them beforehand, using shoe trees or stuffing to maintain shape, storing in well-ventilated areas, and using silica gel packets to manage moisture and odors. (from a chat on 2023-11-30)\n- User intends to take inventory of their entire shoe collection to declutter and organize their closet by category, such as grouping all boots and sneakers together. (from a chat on 2023-08-11)\n- User plans to donate their old dress shoes to a local charity thrift store on Saturday, August 12, 2023. (from a chat on 2023-08-11)\n- User plans to donate old dress shoes to a local charity thrift store on Saturday, December 2, 2023, and intends to call ahead to confirm their donation guidelines. (from a chat on 2023-11-30)\n- User is interested in photography techniques for capturing old buildings in street settings and was provided with various creative ideas including time-lapse, long exposure, and architectural detail focus. (from a chat on 2023-09-06)\n- User was provided with tips for finding a reliable cobbler, including asking for local recommendations, checking online reviews, verifying professional credentials, and considering online repair services like Cobbler Concierge, Shoe Spa, and Heel to Toe. (from a chat on 2023-11-30)\n- User is seeking a new jogging route to change their scenery and was advised to use tools like Google Maps, local parks and recreation websites, and apps such as MapMyRun, Runkeeper, or Strava. (from a chat on 2023-11-30)\n- User is an avid cyclist who owns three bikes: a road bike, a mountain bike, and a commuter bike, all of which they use regularly. (from a chat on 2023-11-30)\n- User recently replaced the front wheel of their mountain bike following a minor accident. (from a chat on 2023-11-30)\n- User is looking for durable, high-quality sandals with sturdy straps and is interested in checking out the latest collections from Teva and Merrell. (from a chat on 2023-08-11)\n- User is looking to purchase new sandals with high-quality, durable straps and was recommended brands including Tevas, Birkenstock, Sanuk, Merrell, and Keen, as well as retailers like REI, DSW, Zappos, and Amazon. (from a chat on 2023-11-30)\n- User plans to take walks during their lunch breaks on Wednesdays and Thursdays and is looking for ways to make these walks more engaging. (from a chat on 2023-11-11)\n- User is planning to start a new exercise routine and is looking for a gym that offers spin classes on Friday evenings. (from a chat on 2023-11-11)\n- User attempted a new recipe on the morning of Saturday, November 4, 2023, which failed, leading them to spend the rest of the day reorganizing their kitchen cabinets. (from a chat on 2023-11-11)\n- User is fascinated by the sharing economy and how companies like Airbnb have disrupted traditional industries. (from a chat on 2023-11-11)\n- User feels more energized on Mondays, which they attribute to getting an extra hour of sleep on Sundays. (from a chat on 2023-11-11)\n- User expresses skepticism about the long-term efficacy of revolutions, questioning whether they truly resolve systemic problems or if the same issues simply persist regardless of who holds power. (from a chat on 2023-11-30)\n- User uses their commuter bike at least three times a week for work, finding it a reliable and relaxed way to avoid traffic and parking issues. (from a chat on 2023-11-30)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   From the chat on 2023-11-30: The user plans to organize their closet this weekend, which includes using a shoe rack to store old sneakers to save space.\n*   From the chat on 2023-11-30: The user received advice on maintaining stored sneakers, which includes cleaning them beforehand, using shoe trees or stuffing to maintain shape, storing them in well-ventilated areas, and using silica gel packets.\n\n**Step 2: Reason over the information**\n*   The user's plan for their old sneakers involves placing them on a shoe rack within their closet to save space.\n*   The maintenance advice provided confirms that the user intends to store these sneakers (using specific preservation methods like silica gel and shoe trees) rather than discarding them.\n\n**Answer:**\nYou keep your old sneakers on a shoe rack inside your closet.",
+ "dump": "- As of May 2021, the Mario franchise is the best-selling video game franchise worldwide with over 689 million copies sold. (session 2023-08-20)\n- User feels sympathy for the character Edward Wilson in 'The Good Shepherd', perceiving him as a man who was frequently manipulated by others. (session 2023-07-25)\n- User plans to take walks during their lunch breaks on Wednesdays and Thursdays and is looking for ways to make these walks more engaging. (session 2023-11-11)\n- The film 'The Good Shepherd' suggests societal redemption in the Cold War context is achieved through transparency, accountability, and introspection. (session 2023-07-25)\n- User is analyzing a script about the neuroscience of romantic love, which details how neurotransmitters like dopamine, serotonin, oxytocin, and vasopressin influence feelings of addiction, obsession, and bonding. (session 2023-10-10)\n- User is researching carbon fiber wheel upgrades for their road bike to improve speed and performance, while balancing cost considerations. (session 2023-11-30)\n- User was advised on factors to consider for carbon fiber road bike wheels, including weight reduction, aerodynamics, stiffness, cost, and durability. (session 2023-11-30)\n- User plans to donate their old dress shoes to a local charity thrift store on Saturday, August 12, 2023. (session 2023-08-11)\n- User questions whether the film 'The Good Shepherd' offers a realistic portrayal of women or if they are merely used as props for male characters. (session 2023-07-25)\n- User plans to participate in a local century ride event in mid-December 2023 and feels confident due to their recent road bike training. (session 2023-11-30)\n- User is interested in the themes of personal and societal redemption in the film 'The Good Shepherd', specifically regarding the character Edward Wilson. (session 2023-07-25)\n- User is interested in entrepreneurship and the stories behind successful companies, specifically the podcast 'How I Built This'. (session 2023-11-11)\n- User was recommended several audiobooks and audio series for their walks, including short stories from Audible, 'The Moth', 'Sword and Star', 'Levar Burton Reads', and 'Six Degrees of Wikipedia'. (session 2023-11-11)\n- User is fascinated by the sharing economy and how companies like Airbnb have disrupted traditional industries. (session 2023-11-11)\n- Martial has used his social media platforms, such as Instagram and Twitter, to express solidarity with African immigrants in Paris and support anti-government protests against police violence and socioeconomic inequality in France. (session 2023-10-26)\n- User attempted a new recipe on the morning of Saturday, November 4, 2023, which failed, leading them to spend the rest of the day reorganizing their kitchen cabinets. (session 2023-11-11)\n- User considers Super Mario 64 to be their favorite Mario game and holds it in high regard. (session 2023-08-20)\n- User is planning to start a new exercise routine and is looking for a gym that offers spin classes on Friday evenings. (session 2023-11-11)\n- User feels more energized on Mondays, which they attribute to getting an extra hour of sleep on Sundays. (session 2023-11-11)\n- User is an avid cyclist who owns three bikes: a road bike, a mountain bike, and a commuter bike, all of which they use regularly. (session 2023-11-30)\n- User is seeking a new jogging route to change their scenery and was advised to use tools like Google Maps, local parks and recreation websites, and apps such as MapMyRun, Runkeeper, or Strava. (session 2023-11-30)\n- User was recommended several podcasts for their walks, including 'How I Built This', 'Stuff You Should Know', 'The Daily', 'Radiolab', 'My Favorite Murder', 'The TED Radio Hour', 'Hidden Brain', and 'Planet Money'. (session 2023-11-11)\n- User expresses skepticism about the long-term efficacy of revolutions, questioning whether they truly resolve systemic problems or if the same issues simply persist regardless of who holds power. (session 2023-11-30)\n- User is interested in listening to podcasts or audiobooks during their lunch break walks, specifically those lasting 30-45 minutes. (session 2023-11-11)\n- User was given tips for finding affordable carbon fiber wheels, such as looking for mid-range options, shopping during sales, considering previous models, and buying complete wheelsets. (session 2023-11-30)\n- User is looking for durable, high-quality sandals with sturdy straps and is interested in checking out the latest collections from Teva and Merrell. (session 2023-08-11)\n- User recently replaced the front wheel of their mountain bike following a minor accident. (session 2023-11-30)\n- User is contemplating the potential for modern-day revolutions, noting recent movements like the Arab Spring, Occupy Wall Street, and the Yellow Vest movement as responses to contemporary injustices. (session 2023-11-30)\n- The portrayal of women in 'The Good Shepherd' as underdeveloped or subordinate is often interpreted as a reflection of the historical social and cultural norms within the CIA and the mid-20th-century intelligence community. (session 2023-07-25)\n- User was provided with tips for finding a reliable cobbler, including asking for local recommendations, checking online reviews, verifying professional credentials, and considering online repair services like Cobbler Concierge, Shoe Spa, and Heel to Toe. (session 2023-11-30)\n- Following 2020 Black Lives Matter protests in France, the government implemented measures including increased police body camera usage, training on non-discriminatory practices, and efforts to improve asylum access, housing, and healthcare for immigrants. (session 2023-10-26)\n- User plans to organize their closet this weekend, which includes decluttering, categorizing shoes by type, and using a shoe rack to store old sneakers to save space. (session 2023-11-30)\n- User is interested in the historical causes and consequences of the Russian Revolution, including its impact on global independence movements, economic theories, and cultural shifts like Constructivism. (session 2023-11-30)\n- As of May 2021, the Call of Duty franchise has sold over 400 million copies worldwide, and the Grand Theft Auto franchise has sold over 345 million copies worldwide. (session 2023-08-20)\n- User received advice on maintaining stored sneakers, including cleaning them beforehand, using shoe trees or stuffing to maintain shape, storing in well-ventilated areas, and using silica gel packets to manage moisture and odors. (session 2023-11-30)\n- The film 'The Good Shepherd' is considered largely accurate in its depiction of Cold War-era CIA operations, techniques, and culture, though it is dramatized and simplified for narrative purposes. (session 2023-07-25)\n- User intends to take inventory of their entire shoe collection to declutter and organize their closet by category, such as grouping all boots and sneakers together. (session 2023-08-11)\n- The film 'The Good Shepherd' explores personal redemption through Edward Wilson's journey of questioning his loyalty to the CIA and confronting the consequences of his actions. (session 2023-07-25)\n- User plans to listen to the 'How I Built This' episode featuring Airbnb founders Brian Chesky and Joe Gebbia. (session 2023-11-11)\n- User plans to take their old sneakers to a cobbler the weekend of August 12-13, 2023, for professional polishing and conditioning. (session 2023-08-11)\n- User was provided with a list of popular and inspirational 'How I Built This' episodes, including Airbnb, LinkedIn, Dell, Instagram, Patagonia, Spanx, Gardner Rich & Co, Angie's List, Warby Parker, Stitch Fix, and Away. (session 2023-11-11)\n- User is looking to purchase new sandals with high-quality, durable straps and was recommended brands including Tevas, Birkenstock, Sanuk, Merrell, and Keen, as well as retailers like REI, DSW, Zappos, and Amazon. (session 2023-11-30)\n- User is interested in photography techniques for capturing old buildings in street settings and was provided with various creative ideas including time-lapse, long exposure, and architectural detail focus. (session 2023-09-06)\n- User reflects on the tragic human cost of the Soviet regime and questions whether the goals of the Russian Revolution could have been achieved without resorting to violence and repression. (session 2023-11-30)\n- The script provided by the user explains that intense romantic love activates ancient brain regions linked to craving and motivation while suppressing prefrontal cortex regions responsible for decision-making and planning. (session 2023-10-10)\n- User plans to donate old dress shoes to a local charity thrift store on Saturday, December 2, 2023, and intends to call ahead to confirm their donation guidelines. (session 2023-11-30)\n- User is a fan of the Mario video game franchise and has played all the titles in the series. (session 2023-08-20)\n- User uses their commuter bike at least three times a week for work, finding it a reliable and relaxed way to avoid traffic and parking issues. (session 2023-11-30)\n- User is interested in the social justice activism of Martial, specifically his advocacy for immigrant rights and his public stance against police brutality and institutionalized racism in France. (session 2023-10-26)\n- User was provided with a maintenance checklist for their mountain bike, including checking tire pressure, brakes, gears, suspension, chain, and lights before riding on trails. (session 2023-11-30)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 50,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 30.8,
+  "total": 32.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "qid": "d7c942c3",
+ "arm": "letta",
+ "split": "main",
+ "question": "Is my mom using the same grocery list method as me?",
+ "reference": "Yes.",
+ "question_date": "2023-05-14 09:58",
+ "sessions": [
+  {
+   "id": "answer_eecb10d9_1",
+   "date": "2023-03-11 12:42",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_mz7Bb7a_0",
+   "date": "2023-03-20 09:59",
+   "evidence": false
+  },
+  {
+   "id": "89f71a1b",
+   "date": "2023-03-25 19:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_552063",
+   "date": "2023-03-31 13:47",
+   "evidence": false
+  },
+  {
+   "id": "4e70b8fd",
+   "date": "2023-04-04 16:36",
+   "evidence": false
+  },
+  {
+   "id": "ddf0f116_3",
+   "date": "2023-04-06 04:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1ISfZDn_0",
+   "date": "2023-04-10 22:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_104389",
+   "date": "2023-04-23 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_eecb10d9_2",
+   "date": "2023-04-30 20:09",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_1MKqbAt_0",
+   "date": "2023-05-09 02:30",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user enjoys using a new grocery list app to keep track of their ingredients.\nThe user enjoys indie music and has asked for recommendations.\nThe user is looking for workout playlist recommendations and likes upbeat music.\nThe user catches the 7:15 am train from Oakdale station.\nThe user has a $200 voucher from Southwest Airlines.\nThe user is considering a trip from Chicago to Denver or Las Vegas.\nThe user is considering applying for a United Airlines credit card.\nThe user is interested in the intersection of film scoring and music production, and the potential for increased collaboration between film composers and music producers.\n\nThe user is making chicken fajitas and needs to add onions, bell peppers, and olive oil to their grocery list.\nThe user's mom is also using the same grocery list app, and they share lists to keep track of ingredients.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "Yes, your mom is using the same grocery list app as you, and you two share lists to keep track of ingredients!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user enjoys using a new grocery list app to keep track of their ingredients.\nThe user enjoys indie music and has asked for recommendations.\nThe user is looking for workout playlist recommendations and likes upbeat music.\nThe user catches the 7:15 am train from Oakdale station.\nThe user has a $200 voucher from Southwest Airlines.\nThe user is considering a trip from Chicago to Denver or Las Vegas.\nThe user is considering applying for a United Airlines credit card.\nThe user is interested in the intersection of film scoring and music production, and the potential for increased collaboration between film composers and music producers.\n\nThe user is making chicken fajitas and needs to add onions, bell peppers, and olive oil to their grocery list.\nThe user's mom is also using the same grocery list app, and they share lists to keep track of ingredients.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"mom grocery list app\"})"
+  ],
+  "blocks_chars": 1060,
+  "write_steps": 52,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 328.9,
+  "total": 334.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

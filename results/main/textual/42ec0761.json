@@ -1,0 +1,91 @@
+{
+ "qid": "42ec0761",
+ "arm": "textual",
+ "split": "main",
+ "question": "Do I have a spare screwdriver for opening up my laptop?",
+ "reference": "Yes",
+ "question_date": "2023-08-31 00:39",
+ "sessions": [
+  {
+   "id": "6fb15dce_1",
+   "date": "2023-07-14 23:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_566635",
+   "date": "2023-07-17 11:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_17542",
+   "date": "2023-07-27 01:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_S0mG9La_54",
+   "date": "2023-07-29 07:45",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_251342",
+   "date": "2023-07-30 00:26",
+   "evidence": false
+  },
+  {
+   "id": "53acd215",
+   "date": "2023-07-31 19:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7HWLFTq_11",
+   "date": "2023-08-03 06:23",
+   "evidence": false
+  },
+  {
+   "id": "7746ba1b_2",
+   "date": "2023-08-08 04:15",
+   "evidence": false
+  },
+  {
+   "id": "answer_e3892371_1",
+   "date": "2023-08-11 07:22",
+   "evidence": true
+  },
+  {
+   "id": "answer_e3892371_2",
+   "date": "2023-08-15 13:22",
+   "evidence": true
+  }
+ ],
+ "context": "### Personal facts\n*   **Work schedule:** Needs to be at the office by 9:00 AM.\n*   **Morning routine:** Wakes up at 7:30 AM daily to perform a 10-minute meditation session before getting ready for work.\n*   **Interests:** \n    *   Dynamics of the beauty industry, specifically influencer marketing and the comparative influence of social media personalities versus traditional beauty experts.\n    *   World-building for a novel involving a post-apocalyptic setting affected by \"Tiamat radiation\" (a subatomic phenomenon similar to a black hole).\n    *   Travel and culture: Interested in the Cotswolds region of England, specifically its landscape, history, and cultural influence on artists and writers.\n    *   Literature: Currently interested in exploring themes of societal expectations and motherhood (reading *The School for Good Mothers* by Jessamine Chan).\n    *   Professional/Technical: Interested in data architecture, specifically identity graphs, consumer journey mapping, and the technical challenges of data processing in a post-cookie digital landscape.\n    *   Landscaping/Design: Interested in creating functional, visually appealing patio and garden spaces, with a specific focus on coastal/beach-inspired aesthetics.\n    *   Hardware/Maintenance: Interested in performing self-maintenance on their laptop and peripherals.\n*   **Professional interests:** Exploring the organizational and cultural implications of branded workwear, including its impact on employee morale, company branding, and the balance between professional uniformity and individual creative expression.\n*   **Preferences:** Enjoys drinking cider.\n*   **Family Dynamics:** Experiences significant pressure from family members to marry and start a family. Feels that family members view their single status as a lack of completeness.\n\n### Preferences and habits\n*   **Meditation:** Has established a consistent daily meditation habit (as of 2023-07-14). Finds it helps with calmness, focus, and task prioritization.\n*   **Productivity:** Identifies as being most productive in the morning, specifically between 9:30 AM and 12:00 PM.\n*   **Task Management:** Prefers visual tools for organization. Uses Trello to manage both daily tasks and larger projects, favoring its board-and-list interface.\n*   **Technical requirements:** Requires task management tools that are accessible across multiple devices (mobile and web) with data syncing.\n*   **Travel preferences:** Interested in visiting the Cotswolds; specifically plans to take a hot air balloon ride and visit traditional pubs known for their cider.\n*   **Social/Lifestyle:** Has been intentionally spending significant time alone over the last few weeks (as of 2023-07-31) to recharge, focus on hobbies, and reflect on personal priorities.\n*   **Information Processing:** Prefers information to be synthesized into structured formats, such as tables and bulleted lists, for easier analysis and presentation.\n*   **Design Preferences:** Favors coastal color schemes (blues, greens, sandy neutrals, coral) and natural materials like bluestone, flagstone, and wood. Prefers low-maintenance plants like succulents.\n*   **Digital Habits:** Uses Google Drive for file storage and organization.\n\n### Ongoing situations and plans\n*   **Task Management:** Currently implementing Trello for personal organization, utilizing boards to separate daily tasks from larger project workflows.\n*   **Creative Writing:** Developing a fictional world characterized by:\n    *   **The Tiamat Zone:** A region affected by subatomic radiation that pulsates and expands by several meters annually.\n    *   **Societal Dynamics:** A world where \"Hybrids\" maintain power through secrecy, propaganda, and manipulation, while humans inside the zone rely on community cooperation and traditional gender roles. Outside the zone, society is isolated, struggling with failing infrastructure, and reliant on non-electric transport (walking, horses) due to the high cost of fuel.\n    *   **Key Figures:** A character named Raziel, who acts as a central advisor and the sole force keeping other leaders together, though he is becoming increasingly unreliable due to radiation exposure.\n*   **Travel Plans:** Planning a future trip to the Cotswolds. Has identified a preference for booking a hot air balloon ride with \"Cotswold Balloon Safaris.\"\n*   **Family Relations:** Planning to have a conversation with family members during an upcoming gathering to set boundaries regarding their pressure to marry and have children. Intends to use a prepared script/outline to express feelings using \"I\" statements.\n*   **Professional Development:** Actively engaging with technical case studies regarding data infrastructure, specifically focusing on the implementation of graph databases (e.g., Amazon Neptune) for identity resolution.\n*   **Home Improvement/Real Estate:** \n    *   Planning to renovate the backyard of their current residence to include a patio and garden combo.\n    *   Recently purchased a new plot of land near the beach for the purpose of building a vacation home (as of 2023-08-08).\n    *   Planning to incorporate a water feature (bubbler or fountain) into their garden design, using a curved stone wall for acoustic amplification and adding coastal soundscapes (e.g., ocean waves) for ambiance.\n*   **Technical Projects:**\n    *   **Backup System:** Transitioning to Backblaze for automatic cloud backups (as of 2023-08-15).\n    *   **Hardware Maintenance:** Planning to clean laptop fans soon; possesses the necessary screwdriver (confirmed as of 2023-08-15).\n    *   **Organization:** Purchased an Anker cable organizer to manage accessories in their computer bag (as of 2023-08-15).\n    *   **Troubleshooting:** Currently troubleshooting a freezing wireless mouse; following a process of resetting the device first, followed by driver updates if necessary (as of 2023-08-15).\n\n### Changes over time\n*   **Task Management Tools:** Decided to use Trello over Todoist as of 2023-07-14.\n*   **Data Storage:** Transitioned to a paid 100 GB Google Drive plan for automated backups and versioning as of 2023-08-11.\n*   **Backup Strategy:** Moving from manual Google Drive management to Backblaze for automated cloud backups as of 2023-08-15.\n*   **Hardware Tools:** Previously planned to purchase a screwdriver (as of 2023-08-11); now confirmed to already own a spare screwdriver as of 2023-08-15.",
+ "answer": "**Answer (step by step):**\n\n1.  **Extract relevant information:**\n    *   Under the \"Ongoing situations and plans\" section, specifically the \"Hardware Maintenance\" and \"Technical Projects\" subsections, it is noted: \"Hardware Maintenance: Planning to clean laptop fans soon; possesses the necessary screwdriver (confirmed as of 2023-08-15).\"\n    *   Under the \"Changes over time\" section, specifically the \"Hardware Tools\" subsection, it is noted: \"Previously planned to purchase a screwdriver (as of 2023-08-11); now confirmed to already own a spare screwdriver as of 2023-08-15.\"\n\n2.  **Reason over the information:**\n    *   The records explicitly confirm that as of August 15, 2023, you possess the necessary screwdriver for your hardware maintenance tasks.\n    *   The records further clarify that you have confirmed ownership of a \"spare screwdriver.\"\n\n**Conclusion:**\nYes, you have a spare screwdriver for opening up your laptop.",
+ "dump": "### Personal facts\n*   **Work schedule:** Needs to be at the office by 9:00 AM.\n*   **Morning routine:** Wakes up at 7:30 AM daily to perform a 10-minute meditation session before getting ready for work.\n*   **Interests:** \n    *   Dynamics of the beauty industry, specifically influencer marketing and the comparative influence of social media personalities versus traditional beauty experts.\n    *   World-building for a novel involving a post-apocalyptic setting affected by \"Tiamat radiation\" (a subatomic phenomenon similar to a black hole).\n    *   Travel and culture: Interested in the Cotswolds region of England, specifically its landscape, history, and cultural influence on artists and writers.\n    *   Literature: Currently interested in exploring themes of societal expectations and motherhood (reading *The School for Good Mothers* by Jessamine Chan).\n    *   Professional/Technical: Interested in data architecture, specifically identity graphs, consumer journey mapping, and the technical challenges of data processing in a post-cookie digital landscape.\n    *   Landscaping/Design: Interested in creating functional, visually appealing patio and garden spaces, with a specific focus on coastal/beach-inspired aesthetics.\n    *   Hardware/Maintenance: Interested in performing self-maintenance on their laptop and peripherals.\n*   **Professional interests:** Exploring the organizational and cultural implications of branded workwear, including its impact on employee morale, company branding, and the balance between professional uniformity and individual creative expression.\n*   **Preferences:** Enjoys drinking cider.\n*   **Family Dynamics:** Experiences significant pressure from family members to marry and start a family. Feels that family members view their single status as a lack of completeness.\n\n### Preferences and habits\n*   **Meditation:** Has established a consistent daily meditation habit (as of 2023-07-14). Finds it helps with calmness, focus, and task prioritization.\n*   **Productivity:** Identifies as being most productive in the morning, specifically between 9:30 AM and 12:00 PM.\n*   **Task Management:** Prefers visual tools for organization. Uses Trello to manage both daily tasks and larger projects, favoring its board-and-list interface.\n*   **Technical requirements:** Requires task management tools that are accessible across multiple devices (mobile and web) with data syncing.\n*   **Travel preferences:** Interested in visiting the Cotswolds; specifically plans to take a hot air balloon ride and visit traditional pubs known for their cider.\n*   **Social/Lifestyle:** Has been intentionally spending significant time alone over the last few weeks (as of 2023-07-31) to recharge, focus on hobbies, and reflect on personal priorities.\n*   **Information Processing:** Prefers information to be synthesized into structured formats, such as tables and bulleted lists, for easier analysis and presentation.\n*   **Design Preferences:** Favors coastal color schemes (blues, greens, sandy neutrals, coral) and natural materials like bluestone, flagstone, and wood. Prefers low-maintenance plants like succulents.\n*   **Digital Habits:** Uses Google Drive for file storage and organization.\n\n### Ongoing situations and plans\n*   **Task Management:** Currently implementing Trello for personal organization, utilizing boards to separate daily tasks from larger project workflows.\n*   **Creative Writing:** Developing a fictional world characterized by:\n    *   **The Tiamat Zone:** A region affected by subatomic radiation that pulsates and expands by several meters annually.\n    *   **Societal Dynamics:** A world where \"Hybrids\" maintain power through secrecy, propaganda, and manipulation, while humans inside the zone rely on community cooperation and traditional gender roles. Outside the zone, society is isolated, struggling with failing infrastructure, and reliant on non-electric transport (walking, horses) due to the high cost of fuel.\n    *   **Key Figures:** A character named Raziel, who acts as a central advisor and the sole force keeping other leaders together, though he is becoming increasingly unreliable due to radiation exposure.\n*   **Travel Plans:** Planning a future trip to the Cotswolds. Has identified a preference for booking a hot air balloon ride with \"Cotswold Balloon Safaris.\"\n*   **Family Relations:** Planning to have a conversation with family members during an upcoming gathering to set boundaries regarding their pressure to marry and have children. Intends to use a prepared script/outline to express feelings using \"I\" statements.\n*   **Professional Development:** Actively engaging with technical case studies regarding data infrastructure, specifically focusing on the implementation of graph databases (e.g., Amazon Neptune) for identity resolution.\n*   **Home Improvement/Real Estate:** \n    *   Planning to renovate the backyard of their current residence to include a patio and garden combo.\n    *   Recently purchased a new plot of land near the beach for the purpose of building a vacation home (as of 2023-08-08).\n    *   Planning to incorporate a water feature (bubbler or fountain) into their garden design, using a curved stone wall for acoustic amplification and adding coastal soundscapes (e.g., ocean waves) for ambiance.\n*   **Technical Projects:**\n    *   **Backup System:** Transitioning to Backblaze for automatic cloud backups (as of 2023-08-15).\n    *   **Hardware Maintenance:** Planning to clean laptop fans soon; possesses the necessary screwdriver (confirmed as of 2023-08-15).\n    *   **Organization:** Purchased an Anker cable organizer to manage accessories in their computer bag (as of 2023-08-15).\n    *   **Troubleshooting:** Currently troubleshooting a freezing wireless mouse; following a process of resetting the device first, followed by driver updates if necessary (as of 2023-08-15).\n\n### Changes over time\n*   **Task Management Tools:** Decided to use Trello over Todoist as of 2023-07-14.\n*   **Data Storage:** Transitioned to a paid 100 GB Google Drive plan for automated backups and versioning as of 2023-08-11.\n*   **Backup Strategy:** Moving from manual Google Drive management to Backblaze for automated cloud backups as of 2023-08-15.\n*   **Hardware Tools:** Previously planned to purchase a screwdriver (as of 2023-08-11); now confirmed to already own a spare screwdriver as of 2023-08-15.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 25.7,
+  "total": 28.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

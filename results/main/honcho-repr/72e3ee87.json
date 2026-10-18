@@ -1,0 +1,100 @@
+{
+ "qid": "72e3ee87",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "How many episodes of the Science series have I completed on Crash Course?",
+ "reference": "50",
+ "question_date": "2023-06-27 19:26",
+ "sessions": [
+  {
+   "id": "ultrachat_221658",
+   "date": "2023-05-11 23:18",
+   "evidence": false
+  },
+  {
+   "id": "080a4000_2",
+   "date": "2023-05-12 13:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_d7de9a6a_1",
+   "date": "2023-05-24 01:00",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_sD1RDN4_0",
+   "date": "2023-05-25 06:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_421360",
+   "date": "2023-05-26 13:35",
+   "evidence": false
+  },
+  {
+   "id": "bbc9bf73",
+   "date": "2023-05-27 00:55",
+   "evidence": false
+  },
+  {
+   "id": "f5fd3cc4_1",
+   "date": "2023-05-27 15:20",
+   "evidence": false
+  },
+  {
+   "id": "1c1f5ccc_4",
+   "date": "2023-05-28 02:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_d7de9a6a_2",
+   "date": "2023-05-29 03:31",
+   "evidence": true
+  },
+  {
+   "id": "6f2c01fc_1",
+   "date": "2023-05-29 17:54",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-24 01:04:00] user wants to watch 1 Crash Course episode daily.\n[2023-05-24 01:04:00] user is currently on episode 10 of the Crash Course Science series.\n[2023-05-24 01:04:00] user has finished reading the book Sapiens.\n[2023-05-29 03:33:00] user is taking a data science and machine learning course on Coursera.\n[2023-05-29 03:35:00] user is interested in learning about linear algebra.\n[2023-05-29 03:37:00] user is currently learning Spanish using Duolingo.\n[2023-05-29 03:37:00] user is looking for additional resources to supplement their Spanish language learning.\n[2023-05-29 03:37:00] user plans to start learning linear algebra with Khan Academy's Linear Algebra Course.\n[2023-05-29 03:37:00] user plans to move on to Coursera's Linear Algebra Specialization after completing Khan Academy's course.\n[2023-05-29 03:41:00] user has watched 50 episodes of the Crash Course Science series.\n[2023-05-29 03:41:00] user intends to use SpanishDict to learn Spanish.\n[2023-05-29 03:41:00] user finds the Crash Course Science series helpful for understanding the basics of science.\n[2023-05-29 03:41:00] user intends to take the Coursera Spanish for Beginners course.\n[2023-05-29 17:56:00] user is interested in reading \"Atomic Habits\" by James Clear.\n[2023-05-29 17:58:00] user is interested in learning about the 4 Laws of Behavior Change described in the book Atomic Habits.\n[2023-05-29 18:00:00] user wants to apply the 4 Laws of Behavior Change to a morning exercise routine.\n[2023-05-29 18:00:00] user is interested in applying the 4 Laws of Behavior Change to their daily life.\n[2023-05-29 18:02:00] user seeks examples of methods to reduce the number of decisions and the amount of effort required to perform a morning exercise routine.\n[2023-05-29 18:02:00] user is interested in the application of the 'Make It Easy' law of behavior change regarding a morning exercise routine.\n[2023-05-29 18:04:00] user finished listening to the book \"The 7 Habits of Highly Effective People\" by Stephen Covey during the week of May 22, 2023.\n[2023-05-29 18:04:00] user is looking for books on personal development and self-improvement.\n\n## Deductive Observations\n\n[2023-05-29 03:41:00] user prefers to use established educational platforms and resources to learn new skills.\n   Premises:\n   - user intends to take the Coursera Spanish for Beginners course.\n   - user is currently learning Spanish using Duolingo.\n   - user plans to start learning linear algebra with Khan Academy's Linear Algebra Course.\n   - user finds the Crash Course Science series helpful for understanding the basics of science.\n\n[2023-05-29 18:04:00] user is engaging in a structured program of self-improvement and skill acquisition covering personal development, language learning, mathematics, and data science.\n   Premises:\n   - user is looking for books on personal development and self-improvement.\n   - user is interested in reading \"Atomic Habits\" by James Clear.\n   - user intends to take the Coursera Spanish for Beginners course and use SpanishDict.\n   - user is currently learning Spanish using Duolingo.\n   - user plans to start learning linear algebra with Khan Academy's Linear Algebra Course.\n   - user identifies as a beginner in the field of data science.\n\n\n## Inductive Observations\n\n **Pattern** [high]: user systematically approaches learning new topics (e.g., language, mathematics, data science) by utilizing established, well-known educational platforms and resources.\n   **Type**: tendency\n   **Sources**:\n   - user finds the Crash Course Science series helpful for understanding the basics of science.\n   - user intends to take the Coursera Spanish for Beginners course.\n   - user intends to use SpanishDict to learn Spanish.\n   - user is currently learning Spanish using Duolingo.\n   - user plans to move on to Coursera's Linear Algebra Specialization after completing Khan Academy's course.\n   - ... and 1 more\n\n **Pattern** [medium]: user actively seeks out and applies behavioral psychology frameworks (like the 4 Laws of Behavior Change) to optimize their personal habits and daily routines.\n   **Type**: preference\n   **Sources**:\n   - user seeks examples of methods to reduce the number of decisions and the amount of effort required to perform a morning exercise routine.\n   - user is interested in the application of the 'Make It Easy' law of behavior change regarding a morning exercise routine.\n   - user wants to apply the 4 Laws of Behavior Change to a morning exercise routine.\n   - user is interested in applying the 4 Laws of Behavior Change to their daily life.\n   - user is interested in learning about the 4 Laws of Behavior Change described in the book Atomic Habits.\n\n",
+ "answer": "To determine how many episodes of the Crash Course Science series you have completed, we look at the provided history:\n\n**Step 1: Extract relevant information**\n*   [2023-05-24 01:04:00] The user was on episode 10 of the Crash Course Science series.\n*   [2023-05-29 03:41:00] The user has watched 50 episodes of the Crash Course Science series.\n\n**Step 2: Reason over the information**\n*   The most recent record regarding the total number of episodes watched is from May 29, 2023, which explicitly states that the user has watched 50 episodes. \n*   There is no information provided in the history logs after May 29, 2023, indicating that the user watched any additional episodes beyond that count.\n\n**Answer:**\nYou have completed 50 episodes of the Crash Course Science series.",
+ "dump": "- [explicit] user plans to read recommended sources on the role of Mary Magdalene in early Christianity.\n- [explicit] user is interested in feminist theology perspectives regarding the significance of Mary Magdalene in early Christianity.\n- [explicit] user wants to update the LinkedIn profile to showcase a new data analysis certification.\n- [explicit] user holds a new data analysis certification.\n- [explicit] user is seeking methods to quantify data analysis skills.\n- [explicit] user attended a graduation party for a colleague's son on June 27th, 2023.\n- [explicit] user has a mentee named Rachel who is interning at user's company during the summer.\n- [explicit] user has been mentoring a college student named Rachel.\n- [explicit] user plans to attend the graduation ceremony of Rachel on August 10th, 2023.\n- [explicit] user attended college in the past.\n- [explicit] user is interested in advice on how to reconnect with old college friends.\n- [explicit] user is a mentor to Rachel.\n- [explicit] user is seeking advice on how to position themselves for a promotion or new professional opportunities within their current company.\n- [explicit] user is employed at a company.\n- [explicit] user intends to use their data analysis certification to pursue more senior roles.\n- [explicit] user holds a certification in data analysis.\n- [explicit] user is working towards a promotion or new opportunities within their company\n- [explicit] user wants to watch 1 Crash Course episode daily.\n- [explicit] user works from 9:00 AM to 5:30 PM.\n- [explicit] user is currently reading the book The Power of Habit.\n- [explicit] user is currently on episode 10 of the Crash Course Science series.\n- [explicit] user wakes up at 7:30 AM.\n- [explicit] user has a 1-hour lunch break.\n- [explicit] user has finished reading the book Sapiens.\n- [explicit] user has no fixed appointments or commitments.\n- [explicit] user wants to prioritize reading and exercise in their daily routine.\n- [explicit] user prefers books related to science, history, or self-improvement.\n- [explicit] user goes to bed at 11:30 PM.\n- [explicit] user is interested in the book \"A Short History of Nearly Everything\" by Bill Bryson.\n- [explicit] user is seeking online courses or resources to improve skills in Adobe Photoshop.\n- [explicit] user is seeking online courses or resources to improve skills in Adobe Illustrator.\n- [explicit] user has been watching Adobe Photoshop and Illustrator tutorials on LinkedIn Learning.\n- [explicit] user is considering taking an online course on Data Science with Python.\n- [explicit] user needs to identify which specific USB port corresponds to which physical port on their Raspberry Pi.\n- [explicit] user is using a Raspberry Pi running an Android OS.\n- [explicit] user wants to power off one of the USB ports on their Raspberry Pi.\n- [explicit] user is interested in research opportunities at the Massachusetts Institute of Technology.\n- [explicit] user is interested in research projects specifically within artificial intelligence and machine learning at the Massachusetts Institute of Technology.\n- [explicit] user is interested in collaboration opportunities between the Massachusetts Institute of Technology and other institutions in the field of artificial intelligence and machine learning.\n- [explicit] user is interested in whether alien intelligence surpasses human intelligence.\n- [explicit] user is interested in whether aliens could teach humanity about AI and machine learning.\n- [explicit] user is trying to establish a consistent morning routine.\n- [explicit] user is willing to dedicate 1.5 hours to a morning routine.\n- [explicit] user wants healthy breakfast ideas that can be prepared in 30 minutes.\n- [explicit] user needs to wake up at 7:30 AM on typical weekdays.\n- [explicit] user identifies exercise, breakfast, and getting ready for work as the top 3 priorities for a morning routine.\n- [explicit] user is interested in learning yoga poses for beginners\n- [explicit] user wants to perform a 30-minute yoga routine for beginners at home.\n- [explicit] user is a beginner at yoga.\n- [explicit] user is interested in learning tips for winding down before bed\n- [explicit] user has been gardening for approximately three months as of May 27, 2023.\n- [explicit] user's raised bed already contains a mix of soil and compost.\n- [explicit] user intends to grow carrots in a garden.\n- [explicit] user is planning to grow carrots in a raised bed.\n- [explicit] user has observed that compost has made plants healthier and stronger.\n- [explicit] user is planning to plant marigolds around a vegetable bed to deter pests.\n- [explicit] user has been using compost to fertilize plants.\n- [explicit] user has experienced issues with nematodes in a vegetable bed.\n- [explicit] user is planning to use marigolds to deter nematodes in a vegetable bed.\n- [explicit] user is aware of using crop rotation and solarization as methods to control nematodes.\n- [explicit] user has heard that mustard and radish plants can help repel nematodes.\n- [explicit] user believes that nematodes are challenging to eliminate.\n- [explicit] user feels caught between Indian and American cultures.\n- [explicit] user feels they do not fully fit in with traditional Indian culture.\n- [explicit] user is Indian American.\n- [explicit] user intends to read \"The Hindus: An Alternative History\" by Wendy Doniger.\n- [explicit] user feels they do not fully identify with American culture.\n- [explicit] user intends to read \"The Wonder That Was India\" by A.L. Basham.\n- [explicit] user intends to watch \"The Story of India\" documentary series.\n- [explicit] user feels proud of their Indian heritage.\n- [explicit] user is interested in learning about the different genres of Indian music and their historical evolution.\n- [explicit] user is interested in learning about specific Indian musical instruments, including the sitar and the tabla.\n- [explicit] user intends to explore the Indian music and movie recommendations provided.\n- [explicit] user is interested in learning about notable Indian musicians or composers who have contributed to the development of Indian music.\n- [explicit] user was previously unfamiliar with the different genres and instruments of Indian music.\n- [explicit] user is interested in learning about the cultural significance of music in Indian society.\n- [explicit] user is interested in learning about the different types of traditional Indian music played during Diwali and Holi.\n- [explicit] user wants to learn more about the role of music in Indian festivals and celebrations.\n- [explicit] user is taking a data science and machine learning course on Coursera.\n- [explicit] user is interested in the book \"Data Science for Dummies\" by Lillian Pierson.\n- [explicit] user is interested in learning about data science and machine learning.\n- [explicit] user identifies as a beginner in the field of data science.\n- [explicit] user is interested in learning about linear algebra.\n- [explicit] user intends to purchase the book \"Data Science for Dummies\".\n- [explicit] user is currently learning Spanish using Duolingo.\n- [explicit] user plans to move on to Coursera's Linear Algebra Specialization after completing Khan Academy's course.\n- [explicit] user is looking for additional resources to supplement their Spanish language learning.\n- [explicit] user plans to start learning linear algebra with Khan Academy's Linear Algebra Course.\n- [explicit] user intends to use SpanishDict to learn Spanish.\n- [explicit] user finds the Crash Course Science series helpful for understanding the basics of science.\n- [explicit] user has watched 50 episodes of the Crash Course Science series.\n- [explicit] user intends to take the Coursera Spanish for Beginners course.\n- [explicit] user is interested in reading \"Atomic Habits\" by James Clear.\n- [explicit] user is interested in learning about the 4 Laws of Behavior Change described in the book Atomic Habits.\n- [explicit] user is interested in applying the 4 Laws of Behavior Change to their daily life.\n- [explicit] user wants to apply the 4 Laws of Behavior Change to a morning exercise routine.\n- [explicit] user is interested in the application of the 'Make It Easy' law of behavior change regarding a morning exercise routine.\n- [explicit] user seeks examples of methods to reduce the number of decisions and the amount of effort required to perform a morning exercise routine.\n- [explicit] user is looking for books on personal development and self-improvement.\n- [explicit] user finished listening to the book \"The 7 Habits of Highly Effective People\" by Stephen Covey during the week of May 22, 2023.\n- [deductive] user is engaging in a structured program of self-improvement and skill acquisition covering personal development, language learning, mathematics, and data science.\n- [deductive] user prefers to use established educational platforms and resources to learn new skills.\n- [inductive] user actively seeks out and applies behavioral psychology frameworks (like the 4 Laws of Behavior Change) to optimize their personal habits and daily routines.\n- [inductive] user systematically approaches learning new topics (e.g., language, mathematics, data science) by utilizing established, well-known educational platforms and resources.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 136.5,
+  "total": 140.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

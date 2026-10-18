@@ -1,0 +1,106 @@
+{
+ "qid": "69fee5aa",
+ "arm": "graphiti",
+ "split": "pilot",
+ "question": "How many pre-1920 American coins do I have in my collection?",
+ "reference": "38",
+ "question_date": "2023-06-09 11:14",
+ "sessions": [
+  {
+   "id": "1126be1e_1",
+   "date": "2023-05-20 04:52",
+   "evidence": false
+  },
+  {
+   "id": "f3881d05",
+   "date": "2023-05-25 16:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_15909",
+   "date": "2023-05-27 15:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6028d6e_1",
+   "date": "2023-05-27 18:09",
+   "evidence": true
+  },
+  {
+   "id": "ef917f63",
+   "date": "2023-05-27 21:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3st3uPn_0",
+   "date": "2023-05-28 03:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6028d6e_2",
+   "date": "2023-05-29 00:54",
+   "evidence": true
+  },
+  {
+   "id": "52498502_2",
+   "date": "2023-05-31 06:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_121551",
+   "date": "2023-06-02 03:48",
+   "evidence": false
+  },
+  {
+   "id": "a554ed79_2",
+   "date": "2023-06-02 19:20",
+   "evidence": false
+  }
+ ],
+ "context": "- The user owns a collection of 37 pre-1920 American coins. (valid since 2023-05-27)\n- The user collects vintage cameras and is looking to add more to their collection. (valid since 2023-05-29)\n- The user owns a 1960s-era Nikon F camera as part of their collection. (valid since 2023-05-27)\n- Coin Collector's Supply sells H.E. Harris Coin Album. (valid since 2023-05-27)\n- The user owns a 1940s-era Leica IIIa camera as part of their collection. (valid since 2023-05-27)\n- AbeBooks sells H.E. Harris Coin Album. (valid since 2023-05-27)\n- The user visited Austin, Texas, in February for a music festival. (valid since 2023-02-01)\n- Amazon sells H.E. Harris Coin Album. (valid since 2023-05-27)\n- The user attended a concert at the Continental Club in Austin. (valid since 2023-02-01)\n- AbeBooks sells Whitman Coin Album. (valid since 2023-05-27)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   Fact: \"The user owns a collection of 37 pre-1920 American coins. (valid since 2023-05-27)\"\n\n2.  **Reason over the information:**\n    *   The information explicitly states the total number of pre-1920 American coins in the user's collection is 37.\n    *   There is no information suggesting this number has changed since May 27, 2023.\n\n3.  **Answer:**\n    *   You have 37 pre-1920 American coins in your collection.",
+ "dump": "- The user visited Austin, Texas, in February for a music festival. (valid since 2023-02-01)\n- The user attended a concert at the Continental Club in Austin. (valid since 2023-02-01)\n- The user is planning a week-long vacation to Hawaii in December 2023. (valid since 2023-05-20)\n- The user's 7-year-old child will accompany the user on the trip to Hawaii. (valid since 2023-05-20)\n- The user has booked a hotel suite with separate bedrooms and a living area for the Hawaii trip. (valid since 2023-05-20)\n- The assistant recommends a character breakfast as a fun, memorable, and potentially convenient activity for the user's family while visiting Hawaii. (valid since 2023-05-20)\n- The assistant recommends a character dinner as a fun, memorable, and potentially convenient activity for the user's family while visiting Hawaii. (valid since 2023-05-20)\n- The user is considering gifting a funny mug as a present for their coworker. (valid since 2023-05-25)\n- The assistant recommends that the user gift a funny mug to their coworker as it is a memorable and light-hearted gift. (valid since 2023-05-25)\n- The assistant recommends that a lost or stolen passport should be reported to the US Department of State. (valid since 2023-05-27)\n- The assistant advises reporting a lost or stolen passport to the nearest U.S. embassy immediately. (valid since 2023-05-27)\n- The assistant advises reporting a lost or stolen passport to the nearest U.S. consulate immediately. (valid since 2023-05-27)\n- The assistant suggests using the password manager LastPass to generate unique, strong passwords. (valid since 2023-05-27)\n- The assistant suggests using the password manager 1Password to generate unique, strong passwords. (valid since 2023-05-27)\n- The assistant advises contacting the Social Security Administration if a lost passport contained social security number information. (valid since 2023-05-27)\n- The user owns a 1940s-era Leica IIIa camera as part of their collection. (valid since 2023-05-27)\n- The user owns a 1960s-era Nikon F camera as part of their collection. (valid since 2023-05-27)\n- The user owns a collection of 37 pre-1920 American coins. (valid since 2023-05-27)\n- Amazon sells Dansco Coin Display Case. (valid since 2023-05-27)\n- Amazon sells Lighthouse Coin Display Case. (valid since 2023-05-27)\n- Amazon sells BCW Coin Display Case. (valid since 2023-05-27)\n- Amazon sells Whitman Coin Album. (valid since 2023-05-27)\n- Amazon sells Dansco Coin Album. (valid since 2023-05-27)\n- Amazon sells H.E. Harris Coin Album. (valid since 2023-05-27)\n- eBay sells Dansco Coin Display Case. (valid since 2023-05-27)\n- eBay sells Lighthouse Coin Display Case. (valid since 2023-05-27)\n- eBay sells BCW Coin Display Case. (valid since 2023-05-27)\n- eBay sells Whitman Coin Album. (valid since 2023-05-27)\n- eBay sells Dansco Coin Album. (valid since 2023-05-27)\n- eBay sells H.E. Harris Coin Album. (valid since 2023-05-27)\n- Coin Collector's Supply sells Dansco Coin Display Case. (valid since 2023-05-27)\n- Coin Collector's Supply sells Lighthouse Coin Display Case. (valid since 2023-05-27)\n- Coin Collector's Supply sells BCW Coin Display Case. (valid since 2023-05-27)\n- Coin Collector's Supply sells Whitman Coin Album. (valid since 2023-05-27)\n- Coin Collector's Supply sells Dansco Coin Album. (valid since 2023-05-27)\n- Coin Collector's Supply sells H.E. Harris Coin Album. (valid since 2023-05-27)\n- AbeBooks sells Dansco Coin Display Case. (valid since 2023-05-27)\n- AbeBooks sells Lighthouse Coin Display Case. (valid since 2023-05-27)\n- AbeBooks sells BCW Coin Display Case. (valid since 2023-05-27)\n- AbeBooks sells Whitman Coin Album. (valid since 2023-05-27)\n- AbeBooks sells Dansco Coin Album. (valid since 2023-05-27)\n- AbeBooks sells H.E. Harris Coin Album. (valid since 2023-05-27)\n- The user performs a 10-minute yoga routine every morning to feel more energized and focused. (valid since 2023-05-27)\n- The user practices 5 minutes of meditation every morning to feel more energized and focused. (valid since 2023-05-27)\n- The user plans to avoid using their phone for at least an hour before bed to minimize blue light exposure. (valid since 2023-05-27)\n- The user plans to avoid using their computer for at least an hour before bed to minimize blue light exposure. (valid since 2023-05-27)\n- The user plans to set their alarm for the same time every day, including weekends. (valid since 2023-05-27)\n- The assistant recommends that the user consider using blue light filtering glasses or apps to filter out blue light from devices before bed. (valid since 2023-05-27)\n- Quantum computing uses the principles of quantum mechanics to perform calculations. (valid since 2023-05-28)\n- Quantum computing represents data using quantum bits known as qubits. (valid since 2023-05-28)\n- Qubits can exist in multiple states simultaneously, a phenomenon known as superposition. (valid since 2023-05-28)\n- Quantum computers use a process called entanglement to perform calculations on multiple qubits at the same time. (valid since 2023-05-28)\n- Quantum computing has the potential to revolutionize the field of cryptography. (valid since 2023-05-28)\n- Quantum computing has the potential to revolutionize drug discovery. (valid since 2023-05-28)\n- Quantum computing has the potential to revolutionize artificial intelligence. (valid since 2023-05-28)\n- The user collects vintage cameras and is looking to add more to their collection. (valid since 2023-05-29)\n- Leica manufactures the Leica M3 model rangefinder. (valid since 2023-05-29)\n- Leica manufactures the Leica M6 model rangefinder. (valid since 2023-05-29)\n- Leica manufactures the Leica M7 model rangefinder. (valid since 2023-05-29)\n- Nikon manufactures the Nikon SP model rangefinder. (valid since 2023-05-29)\n- Nikon manufactures the Nikon S3 model rangefinder. (valid since 2023-05-29)\n- Nikon manufactures the Nikon S2 model rangefinder. (valid since 2023-05-29)\n- Canon manufactures the Canon VII model rangefinder. (valid since 2023-05-29)\n- Canon manufactures the Canon QL17 GIII model rangefinder. (valid since 2023-05-29)\n- Olympus manufactures the Olympus 35RC model rangefinder. (valid since 2023-05-29)\n- Olympus manufactures the Olympus 35SP model rangefinder. (valid since 2023-05-29)\n- Contax manufactures the Contax II model rangefinder featuring Zeiss optics. (valid since 2023-05-29)\n- Contax manufactures the Contax III model rangefinder featuring Zeiss optics. (valid since 2023-05-29)\n- Yashica manufactures the Yashica Electro 35 model rangefinder. (valid since 2023-05-29)\n- Yashica manufactures the Yashica Lynx model rangefinder. (valid since 2023-05-29)\n- The assistant recommends Pyrex for meal prep containers that are safe for both the microwave and freezer. (valid since 2023-05-31)\n- The assistant recommends Anchor Hocking for meal prep containers that are safe for both the microwave and freezer. (valid since 2023-05-31)\n- The assistant recommends Rubbermaid Brilliance containers as BPA-free, microwave-safe, and freezer-safe meal prep options. (valid since 2023-05-31)\n- The assistant recommends Glad containers as BPA-free, microwave-safe, and freezer-safe meal prep options. (valid since 2023-05-31)\n- The assistant recommends Chef's Path for stainless steel meal prep containers that are safe for both the microwave and freezer. (valid since 2023-05-31)\n- The assistant recommends S'well for stainless steel meal prep containers that are safe for both the microwave and freezer. (valid since 2023-05-31)\n- The assistant recommends that the user keep a gratitude journal by writing down three things they are grateful for each day. (valid since 2023-06-02)\n- The user visited NYC for a 5-day trip with friends. (valid since 2023-06-02)\n- The city of Austin contains the South Congress neighborhood, also known as SoCo. (valid since 2023-06-02)\n- The South Congress neighborhood is located near the Continental Club. (valid since 2023-06-02)\n- The South Congress neighborhood is located near Stubb's BBQ. (valid since 2023-06-02)\n- The city of Austin contains the 6th Street entertainment district. (valid since 2023-06-02)\n- New York City contains the Madison Square Garden venue. (valid since 2023-06-02)\n- New York City contains the Village neighborhood. (valid since 2023-06-02)\n- New York City contains the Williamsburg neighborhood. (valid since 2023-06-02)\n- New York City contains the Bushwick neighborhood. (valid since 2023-06-02)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 86,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 154.5,
+  "total": 155.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

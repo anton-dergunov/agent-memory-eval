@@ -1,0 +1,106 @@
+{
+ "qid": "e493bb7c",
+ "arm": "graphiti",
+ "split": "pilot",
+ "question": "Where is the painting 'Ethereal Dreams' by Emma Taylor currently hanging?",
+ "reference": "in my bedroom",
+ "question_date": "2023-11-18 19:24",
+ "sessions": [
+  {
+   "id": "ultrachat_363167",
+   "date": "2023-06-18 04:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_1a374afa_1",
+   "date": "2023-07-11 09:13",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_287713",
+   "date": "2023-07-31 17:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_513900",
+   "date": "2023-08-10 11:09",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6cz1Sq6_177",
+   "date": "2023-08-14 09:15",
+   "evidence": false
+  },
+  {
+   "id": "251bd037",
+   "date": "2023-08-26 04:36",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IcXBFnH_5",
+   "date": "2023-09-18 12:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_1a374afa_2",
+   "date": "2023-10-30 16:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_247306",
+   "date": "2023-11-05 12:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LbqrSdB_0",
+   "date": "2023-11-16 16:49",
+   "evidence": false
+  }
+ ],
+ "context": "- The user owns the painting titled Ethereal Dreams that is displayed above their living room sofa. (valid since 2023-07-11)\n- The user owns a digital print of the artwork Moonlit Ocean by Jack Harris. (valid since 2023-07-11)\n- The art-themed photo booth can be associated with a before and after station where guests use plain backdrops and props. (valid since 2023-07-11)\n- Jack Harris is the artist who created the digital print titled Moonlit Ocean. (valid since 2023-07-11)\n- The art-themed photo booth includes easels as props. (valid since 2023-07-11)\n- The art-themed photo booth includes wigs as props. (valid since 2023-07-11)\n- Understanding the Business continuity planning life cycle is one aspect of the risk management and business continuity domain covered in the CISSP exam. (valid since 2023-11-16)\n- The art-themed photo booth includes feathered accessories as props. (valid since 2023-07-11)\n- The art-themed photo booth includes smocks as props. (valid since 2023-07-11)\n- The art-themed photo booth includes canvases as props. (valid since 2023-07-11)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   Fact: The user owns the painting titled *Ethereal Dreams* that is displayed above their living room sofa. (Valid since 2023-07-11)\n\n**Step 2: Reason over the information**\n*   The provided facts confirm that the painting *Ethereal Dreams* is currently located in the user's living room, specifically positioned above the sofa. \n*   Note: While the question mentions the artist \"Emma Taylor,\" the provided facts do not explicitly state the artist's name; however, they confirm the location of the painting titled *Ethereal Dreams*.\n\n**Answer:**\nThe painting *Ethereal Dreams* is currently hanging above the user's living room sofa.",
+ "dump": "- The assistant acknowledges that Dubai has made a strong commitment to sustainable development and implemented policies to encourage sustainable building practices. (valid since 2023-06-18)\n- Jack Harris is the artist who created the digital print titled Moonlit Ocean. (valid since 2023-07-11)\n- The user owns the painting titled Ethereal Dreams that is displayed above their living room sofa. (valid since 2023-07-11)\n- The user owns a digital print of the artwork Moonlit Ocean by Jack Harris. (valid since 2023-07-11)\n- The assistant suggests providing art-themed backdrops for guests to use for photos with fun props at the art-themed party. (valid since 2023-07-11)\n- The art-themed photo booth includes artistic accessories such as berets, fedoras, glasses, and scarves. (valid since 2023-07-11)\n- The art-themed photo booth includes paint-splattered aprons, smocks, or lab coats as props. (valid since 2023-07-11)\n- The art-themed photo booth includes smocks as props. (valid since 2023-07-11)\n- The art-themed photo booth includes lab coats as props. (valid since 2023-07-11)\n- The art-themed photo booth includes artistic tools like paintbrushes, palettes, easels, and canvases. (valid since 2023-07-11)\n- The art-themed photo booth includes paintbrushes as props. (valid since 2023-07-11)\n- The art-themed photo booth includes palettes as props. (valid since 2023-07-11)\n- The art-themed photo booth includes easels as props. (valid since 2023-07-11)\n- The art-themed photo booth includes canvases as props. (valid since 2023-07-11)\n- The art-themed photo booth includes funny mustaches, hats, and wigs. (valid since 2023-07-11)\n- The art-themed photo booth includes hats as props. (valid since 2023-07-11)\n- The art-themed photo booth includes wigs as props. (valid since 2023-07-11)\n- The art-themed photo booth includes colorful boas, feathered accessories, or flower crowns. (valid since 2023-07-11)\n- The art-themed photo booth includes feathered accessories as props. (valid since 2023-07-11)\n- The art-themed photo booth includes flower crowns as props. (valid since 2023-07-11)\n- The art-themed photo booth includes quirky signs and speech bubbles with art-related phrases. (valid since 2023-07-11)\n- The art-themed photo booth includes speech bubbles with art-related phrases. (valid since 2023-07-11)\n- The art-themed photo booth includes oversized sunglasses, fake cameras, or selfie sticks. (valid since 2023-07-11)\n- The art-themed photo booth includes fake cameras as props. (valid since 2023-07-11)\n- The art-themed photo booth includes selfie sticks as props. (valid since 2023-07-11)\n- The art-themed photo booth can feature a giant canvas with a colorful, abstract design as a backdrop. (valid since 2023-07-11)\n- The art-themed photo booth can feature a cityscape or artistic city street with graffiti or murals as a backdrop. (valid since 2023-07-11)\n- The art-themed photo booth can feature a whimsical, fantastical landscape with art supplies or creative elements as a backdrop. (valid since 2023-07-11)\n- The art-themed photo booth can feature a minimalist, monochromatic background with artistic textures or patterns. (valid since 2023-07-11)\n- The art-themed photo booth can feature a step-and-repeat backdrop with an art-themed design or logo. (valid since 2023-07-11)\n- The art-themed photo booth can feature a DIY backdrop with a giant paint palette, artistic tools, or inspirational quotes. (valid since 2023-07-11)\n- The DIY backdrop for the art-themed photo booth can include a giant paint palette, artistic tools, or inspirational quotes. (valid since 2023-07-11)\n- The art-themed photo booth can include a giant paintbrush as a prop. (valid since 2023-07-11)\n- The art-themed photo booth can be associated with a before and after station where guests use plain backdrops and props. (valid since 2023-07-11)\n- The art-themed photo booth can be implemented as a selfie station with a camera, remote shutter, or timer. (valid since 2023-07-11)\n- The assistant describes Tafwyl as a highly regarded, free festival in Cardiff that celebrates Welsh language and culture, attracting tens of thousands of visitors each year. (valid since 2023-07-11)\n- The assistant describes Eisteddfod Genedlaethol Cymru as a highly regarded, large annual Welsh language festival featuring music, art, and literature, recognized as the largest festival of its kind in Europe. (valid since 2023-07-11)\n- user expresses disagreement with assistant regarding the value of revolutionary movements and the necessity of government opposition (valid since 2023-08-10)\n- The assistant advises the user to approach their coffee catch-up with Rachel with caution regarding questions about her personal life and relationships. (valid since 2023-08-26)\n- The assistant suggests using the CalJOBS Eligibility Explorer Application to assist customers in completing pre-applications and uploading documents remotely. (valid since 2023-09-18)\n- The assistant suggests using Zoom as an interactive platform for providing remote services like workshops. (valid since 2023-09-18)\n- The assistant suggests using Google Meet as an interactive platform for providing remote services like workshops. (valid since 2023-09-18)\n- The assistant suggests using Teams as an interactive platform for providing remote services like workshops. (valid since 2023-09-18)\n- The user expresses an interest in abstract art for their next art project. (valid since 2023-10-30)\n- The user expresses a fascination with the human figure and intends to combine it with abstract art in their next project. (valid since 2023-10-30)\n- The assistant provides information about various research centers and laboratories located on the United States Military Academy campus, including the Army Cyber Institute, Combating Terrorism Center, Center for Homeland Defense and Security, Engineering Research Center, and West Point Laboratory for Laser Energetics. (valid since 2023-11-05)\n- Understanding the Business continuity planning life cycle is one aspect of the risk management and business continuity domain covered in the CISSP exam. (valid since 2023-11-16)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 47,
+  "invalidated": 0,
+  "episodes": 17,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 101.2,
+  "total": 102.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

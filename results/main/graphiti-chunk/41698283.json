@@ -1,0 +1,102 @@
+{
+ "qid": "41698283",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What type of camera lens did I purchase most recently?",
+ "reference": "a 70-200mm zoom lens",
+ "question_date": "2023-09-21 08:41",
+ "sessions": [
+  {
+   "id": "a68db5db_1",
+   "date": "2023-02-18 02:10",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FOYwfdK_0",
+   "date": "2023-02-23 19:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_u80Un0X_0",
+   "date": "2023-02-26 00:32",
+   "evidence": false
+  },
+  {
+   "id": "answer_c7ddc051_1",
+   "date": "2023-03-11 03:12",
+   "evidence": true
+  },
+  {
+   "id": "28e948f5",
+   "date": "2023-03-23 23:17",
+   "evidence": false
+  },
+  {
+   "id": "47a2bd5a_1",
+   "date": "2023-04-09 09:44",
+   "evidence": false
+  },
+  {
+   "id": "5fb7fd18_1",
+   "date": "2023-04-28 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_VKI7cuJ_0",
+   "date": "2023-06-26 03:12",
+   "evidence": false
+  },
+  {
+   "id": "7439f497_2",
+   "date": "2023-08-02 14:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_c7ddc051_2",
+   "date": "2023-08-30 14:23",
+   "evidence": true
+  }
+ ],
+ "context": "- The user is considering acquiring a 16-35mm lens to complement their current zoom lens. (valid since 2023-08-30)\n- The assistant asks if the user is considering a wide-angle lens from Canon. (valid since 2023-08-30)\n- The 14-24mm lens complements the 70-200mm zoom lens for capturing landscapes and cityscapes. (valid since 2023-08-30)\n- The assistant asks if the user is considering a wide-angle lens from Nikon. (valid since 2023-08-30)\n- The 16-35mm lens complements the 70-200mm zoom lens for capturing landscapes and cityscapes. (valid since 2023-08-30)\n- The user is considering acquiring a 14-24mm lens to complement their current zoom lens. (valid since 2023-08-30)\n- The user owns and has been using a 70-200mm zoom lens. (valid since 2023-08-30)\n- The user owns a Nikon D5600 camera. (valid since 2023-03-11)\n- Winter-themed apparel is a type of winter-themed merchandise sold at Universal Studios Japan. (valid since 2023-08-02)\n- The user is considering upgrading to a Canon EOS R full-frame camera body. (valid since 2023-08-30)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The user owns a 70-200mm zoom lens (valid since 2023-08-30).\n*   The user is currently considering acquiring a 16-35mm lens (valid since 2023-08-30).\n*   The user is currently considering acquiring a 14-24mm lens (valid since 2023-08-30).\n*   There is no information in the provided history indicating that the user has completed a purchase of any new lens beyond the 70-200mm lens they already own.\n\n**Step 2: Reason over the information**\n*   The history shows the user is in the \"considering\" phase for both the 16-35mm and 14-24mm lenses.\n*   Since the provided facts only confirm ownership of the 70-200mm lens and list the other two as potential future acquisitions, there is no record of a more recent lens purchase.\n\n**Answer:**\nBased on the provided history, you have not purchased any new lens recently. The only lens you currently own is the 70-200mm zoom lens; the 16-35mm and 14-24mm lenses are only being considered for future acquisition.",
+ "dump": "- The user is planning to host a dinner party soon. (valid since 2023-02-18)\n- The user needs to create a guest list for their upcoming dinner party. (valid since 2023-02-18)\n- The user needs to plan a menu for their upcoming dinner party. (valid since 2023-02-18)\n- The assistant provides advice to the user on how to express gratitude and show appreciation to someone who has helped them. (valid since 2023-02-18)\n- The user expresses gratitude to the assistant for providing helpful advice regarding social interactions. (valid since 2023-02-18)\n- The user owns a Manfrotto BeFree tripod which is starting to show signs of wear and tear. (valid since 2023-03-11)\n- The user owns a Nikon D5600 camera. (valid since 2023-03-11)\n- The assistant recommends the B+W 10-Stop Neutral Density Filter as a popular choice available in sizes 52mm, 58mm, 62mm, 67mm, and 72mm. (valid since 2023-03-11)\n- The assistant recommends the Hoya PRO1 Digital Circular Polarizer and Neutral Density Filter which combines a 10-stop ND filter with a circular polarizer. (valid since 2023-03-11)\n- The assistant recommends the Tiffen 10-Stop Neutral Density Filter known for high-quality glass and durable construction. (valid since 2023-03-11)\n- The assistant recommends the NiSi 10-Stop Neutral Density Filter noting its high-quality glass and affordable price point. (valid since 2023-03-11)\n- The assistant recommends the Singh-Ray 10-Stop Neutral Density Filter as a high-end option popular among professional photographers. (valid since 2023-03-11)\n- The user needs to update the name on the user's passport due to a recent name change. (valid since 2023-03-23)\n- The user needs to update the name on the user's driver's license due to a recent name change. (valid since 2023-03-23)\n- The user needs to update the name on the user's social security card due to a recent name change. (valid since 2023-03-23)\n- Emily Rose Thompson was previously married to John Wilson. (valid since 2023-03-23)\n- The user owns a road bike which was ridden for 60 miles at 18.5 miles per hour last weekend. (valid since 2023-04-09)\n- The user is looking for a bike lock to provide maximum security for their road bike. (valid since 2023-04-09)\n- The assistant confirmed that the Kryptonite U-Lock is a solid, durable, and highly respected choice for bike security. (valid since 2023-04-09)\n- The assistant acknowledged the user's recent road rides on their Trek Emonda bike. (valid since 2023-04-09)\n- The assistant discussed the upcoming 40-mile charity ride, offering encouragement and tips for preparation. (valid since 2023-04-09)\n- Bread flour can be used as an ingredient for making Rosemary and Olive Oil Focaccia. (valid since 2023-04-28)\n- All-purpose flour can be used as an ingredient for making Rosemary and Olive Oil Focaccia. (valid since 2023-04-28)\n- Caputo flour is ideal for making Rosemary and Olive Oil Focaccia, producing a tender, delicate crumb and a crispy crust. (valid since 2023-04-28)\n- Whole wheat flour adds a nuttier flavor and a coarser texture when used to make Rosemary and Olive Oil Focaccia. (valid since 2023-04-28)\n- Kamut flour can be used to make Rosemary and Olive Oil Focaccia, adding a distinct flavor and texture. (valid since 2023-04-28)\n- Spelt flour can be used to make Rosemary and Olive Oil Focaccia, adding a distinct flavor and texture. (valid since 2023-04-28)\n- Bob's Red Mill produces bread flour that is suitable for use in the Rosemary and Olive Oil Focaccia recipe. (valid since 2023-04-28)\n- Bread flour can be used as a substitute for all-purpose flour in King Arthur Flour's Classic Sourdough Recipe to potentially improve the crumb and crust. (valid since 2023-04-28)\n- The assistant provides the user with three multiple choice assessment questions on the process of cloud formation. (valid since 2023-06-26)\n- The user is considering visiting the Haunted House attraction at Universal Studios Japan. (valid since 2023-08-02)\n- The Haunted House attraction is located at Universal Studios Japan. (valid since 2023-08-02)\n- Universal Studios Japan sells winter-themed merchandise during the winter season. (valid since 2023-08-02)\n- Winter-themed ornaments are a type of winter-themed merchandise sold at Universal Studios Japan. (valid since 2023-08-02)\n- Winter-themed seasonal souvenirs are a type of winter-themed merchandise sold at Universal Studios Japan. (valid since 2023-08-02)\n- Winter character plush toys are a type of winter-themed merchandise sold at Universal Studios Japan. (valid since 2023-08-02)\n- Winter-themed apparel is a type of winter-themed merchandise sold at Universal Studios Japan. (valid since 2023-08-02)\n- Winter-themed collectibles are a type of winter-themed merchandise sold at Universal Studios Japan. (valid since 2023-08-02)\n- The Universal Studios Store offers a wide range of winter-themed items. (valid since 2023-08-02)\n- Universal Studios Japan character shops offer exclusive winter-themed merchandise for popular franchises. (valid since 2023-08-02)\n- Universal Studios Japan seasonal kiosks offer a selection of winter-themed items throughout the park. (valid since 2023-08-02)\n- The user is considering upgrading to a Nikon Z6 full-frame camera body. (valid since 2023-08-30)\n- The user is considering upgrading to a Canon EOS R full-frame camera body. (valid since 2023-08-30)\n- The user owns and has been using a 70-200mm zoom lens. (valid since 2023-08-30)\n- The user is considering acquiring a 14-24mm lens to complement their current zoom lens. (valid since 2023-08-30)\n- The user is considering acquiring a 16-35mm lens to complement their current zoom lens. (valid since 2023-08-30)\n- The 14-24mm lens complements the 70-200mm zoom lens for capturing landscapes and cityscapes. (valid since 2023-08-30)\n- The 16-35mm lens complements the 70-200mm zoom lens for capturing landscapes and cityscapes. (valid since 2023-08-30)\n- The assistant asks if the user is considering a wide-angle lens from Nikon. (valid since 2023-08-30)\n- The assistant asks if the user is considering a wide-angle lens from Canon. (valid since 2023-08-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 50,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 134.9,
+  "total": 136.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

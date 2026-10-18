@@ -1,0 +1,125 @@
+{
+ "qid": "945e3d21",
+ "arm": "letta",
+ "split": "main",
+ "question": "How often do I attend yoga classes to help with my anxiety?",
+ "reference": "Three times a week.",
+ "question_date": "2023-12-14 06:32",
+ "sessions": [
+  {
+   "id": "sharegpt_2Kis6fZ_45",
+   "date": "2023-07-27 20:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_1",
+   "date": "2023-08-11 05:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_WjW4qki_0",
+   "date": "2023-08-22 03:09",
+   "evidence": false
+  },
+  {
+   "id": "a2053427_1",
+   "date": "2023-09-30 20:16",
+   "evidence": false
+  },
+  {
+   "id": "answer_6a4f8626_2",
+   "date": "2023-11-30 03:29",
+   "evidence": true
+  },
+  {
+   "id": "be1fa010",
+   "date": "2023-12-01 06:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_y0L1CPT_9",
+   "date": "2023-12-01 11:56",
+   "evidence": false
+  },
+  {
+   "id": "9bbd38a6",
+   "date": "2023-12-02 07:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_oTnUt5N_15",
+   "date": "2023-12-05 22:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_zn81iL6_9",
+   "date": "2023-12-11 09:00",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in genealogy. They have clarified that the parents of Lavalette Miller (born 1878, died 1967) were Joseph Miller and Florence Tice.\nThe user provided details for Joseph Miller (Lavalette's father): Born 17 Aug 1848 in Barboursville, Cabell, Virginia; Died 22 Feb 1921 in Huntington, Wayne, West Virginia.\nJoseph Miller (1848–1921), the father of Lavalette Miller, was a lawyer.\nThe user has provided biographical information for Eliza Gardner:\n- Daughter of Marie Therese Raison de la Geneste and Joseph Gardner.\n- Born around 1820, likely in VA/WV.\n- Mixed-race descent (African/European).\n- Married William Mueller (German immigrant) in 1843.\n- Had a son, Joseph Mueller (later Joseph Miller, the lawyer).\n- Later divorced William and married Samuel Gardner.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-18T03:06:08.711743+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-14 06:32] How often do I attend yoga classes to help with my anxiety?'}, {'timestamp': '2026-10-18T03:03:56.841261+00:00', 'time_ago': '2m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'I am so glad to hear that! It’s wonderful when a plan finally clicks into place and makes the workload feel manageable—that shift in perspective is often half the battle. \\n\\nYou’ve got a solid strategy: front-loading the campaign, using Wednesday for a deep dive into the report, and leaving Friday open for that crucial, methodical polish. Remember to trust that \"Layered Editing\" process you’ve prepared for—it will make your final output much stronger.\\n\\nYou’re very welcome for the flexibility; I\\'m here to help make your week work for *you*. You’ve got all the tools you need now to knock these projects out of the park. \\n\\nGood luck with your week, and enjoy those yoga sessions—they’ll definitely be the secret weapon for your focus! If you ever need to shift things around again or just need a quick strategy check-in, just let me know. You\\'ve got this!'}, {'timestamp': '2026-10-18T03:03:43.951282+00:00', 'time_ago': '2m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That is a very wise concern! Breaking a large project into smaller, actionable steps is the absolute best way to beat procrastination and ensure you don\\'t feel overwhelmed as the deadline approaches.\\n\\nSince we are dedicating **Thursday (Day 1)** and **Friday (Day 2)** to the report, let\\'s break it down into manageable chunks. Assuming an 8-hour workday (with your lunch break), here is a task-based approach to keep you on track:\\n\\n### Report Breakdown Strategy\\n\\n#### Thursday: Data, Structure, and First Draft (The \"Heavy Lifting\")\\n*Goal: Get the substance on the page so Friday is purely about refinement.*\\n\\n*   **9:00 am – 10:30 am: Outline & Research Gathering.** Don\\'t just start writing. Organize your supporting data, charts, or notes. Create your headers and bullet points for each section.\\n*   **10:30 am – 12:00 pm: Drafting Sections 1 & 2.** Tackle the easiest or most straightforward sections first to build momentum.\\n*   **1:00 pm – 3:00 pm: The Core Argument/Data Analysis.** This is when your brain is usually refueled after lunch. Spend this time on the most complex part of the report.\\n*   **3:00 pm – 5:00 pm: Drafting Remaining Sections.** Get all the remaining thoughts down in draft form. Don\\'t worry about perfect grammar yet—just get the information out of your head and into the document.\\n\\n#### Friday: Polish, Review, and Finalization\\n*Goal: Transform your draft into a professional, polished document.*\\n\\n*   **9:00 am – 10:30 am: Full Read-Through.** Read your draft from Thursday with fresh eyes. Check for flow, logic gaps, and tone.\\n*   **10:30 am – 12:00 pm: Data & Formatting Check.** Verify that all your charts, labels, and citations are accurate and that the formatting looks clean.\\n*   **1:00 pm – 3:00 pm: \"The Red Pen\" (Detailed Editing).** This is where you fix the grammar, sentence structure, and ensure your key points are hitting home.\\n*   **3:00 pm – 4:00 pm: Final Review & Export.** Walk away from the document for 15 minutes, come back, and do one final quick read before exporting/submitting.\\n*   **4:00 pm – 5:00 pm: Buffer Time.** Use this final hour as a safety net if any section took longer than expected. If you’re already done, this is your time to start light prep for the website updates!\\n\\n### A Few \"Focus\" Tips for Friday:\\n*   **The \"Pomodoro\" Method:** If you find yourself stalling, work in 50-minute blocks with a 10-minute break. It prevents burnout, especially on a heavy writing day.\\n*   **Avoid Multitasking:** On Friday, treat this report as your *only* task. Close your email tab if y",
+ "answer": "Based on our previous conversations, it looks like we discussed incorporating yoga into your schedule to help with focus and anxiety, but we haven't actually settled on a fixed frequency yet! \n\nIn a recent planning session, I suggested that you attend yoga **three days a week** (specifically recommending Tuesday, Thursday, and Saturday to support your \"heavy focus\" work days), but you hadn't confirmed if that was your current routine. \n\nWould you like to formalize a three-day-a-week schedule, or is your current practice different from that?",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is interested in genealogy. They have clarified that the parents of Lavalette Miller (born 1878, died 1967) were Joseph Miller and Florence Tice.\nThe user provided details for Joseph Miller (Lavalette's father): Born 17 Aug 1848 in Barboursville, Cabell, Virginia; Died 22 Feb 1921 in Huntington, Wayne, West Virginia.\nJoseph Miller (1848–1921), the father of Lavalette Miller, was a lawyer.\nThe user has provided biographical information for Eliza Gardner:\n- Daughter of Marie Therese Raison de la Geneste and Joseph Gardner.\n- Born around 1820, likely in VA/WV.\n- Mixed-race descent (African/European).\n- Married William Mueller (German immigrant) in 1843.\n- Had a son, Joseph Mueller (later Joseph Miller, the lawyer).\n- Later divorced William and married Samuel Gardner.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"yoga classes anxiety\"})",
+   "conversation_search({\"query\": \"yoga\"})"
+  ],
+  "blocks_chars": 983,
+  "write_steps": 47,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 308.9,
+  "total": 316.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

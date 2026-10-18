@@ -1,0 +1,106 @@
+{
+ "qid": "18bc8abd",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What brand of BBQ sauce am I currently obsessed with?",
+ "reference": "Kansas City Masterpiece",
+ "question_date": "2023-07-15 07:37",
+ "sessions": [
+  {
+   "id": "ultrachat_225891",
+   "date": "2023-03-25 13:37",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_528423",
+   "date": "2023-03-31 23:20",
+   "evidence": false
+  },
+  {
+   "id": "9f9384ed_1",
+   "date": "2023-04-03 10:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_570209",
+   "date": "2023-04-05 12:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_1",
+   "date": "2023-04-16 02:28",
+   "evidence": true
+  },
+  {
+   "id": "aed8cf17_2",
+   "date": "2023-05-12 11:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_25205",
+   "date": "2023-06-07 19:12",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_452189",
+   "date": "2023-06-15 22:14",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_290148",
+   "date": "2023-06-18 06:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_fff743f5_2",
+   "date": "2023-06-30 05:15",
+   "evidence": true
+  }
+ ],
+ "context": "- The assistant supports using Sweet Baby Ray's BBQ sauce to pair with BBQ dishes. (valid since 2023-04-16)\n- The assistant acknowledges that Kansas City Masterpiece BBQ sauce is a favorite and discusses it as an option for pulled pork, while being open to other suggestions. (valid since 2023-06-30)\n- The assistant recommends Bone Suckin' BBQ Sauce for pulled pork as a sweet and smoky sauce with a thick, syrupy texture. (valid since 2023-06-30)\n- The assistant recommends Stubb's BBQ Sauce for pulled pork as a Texas-style sauce with a thick, sweet, and smoky flavor profile. (valid since 2023-06-30)\n- The assistant recommends Franklin Barbecue BBQ Sauce for pulled pork as a Texas-style sauce with a thinner, vinegar-based consistency. (valid since 2023-06-30)\n- The assistant recommends Dinosaur Bar-B-Que BBQ Sauce for pulled pork as a sweet and tangy sauce with a thick, syrupy texture. (valid since 2023-06-30)\n- The assistant recommends Sweet Baby Ray's BBQ Sauce for pulled pork as a sweet and tangy option with a thick, velvety texture. (valid since 2023-06-30)\n- The user enjoys eating spicy salsa with their food. (valid since 2023-04-05)\n- Isaac Asimov is the author of I,Robot. (valid since 2023-06-15)\n- The Women's National Basketball Association features the AT&T Dream In Black platform as part of its partnership with AT&T. (valid since 2023-03-25)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The history chats provide a list of BBQ sauce recommendations for pulled pork: Kansas City Masterpiece, Bone Suckin' BBQ Sauce, Stubb's BBQ Sauce, Franklin Barbecue BBQ Sauce, Dinosaur Bar-B-Que BBQ Sauce, and Sweet Baby Ray's BBQ Sauce.\n*   The history chats mention the user's preference for spicy salsa.\n*   The history chats mention facts about Isaac Asimov and the WNBA.\n\n**Step 2: Reason over the information**\n*   I have reviewed all provided history chats to identify any mention of a brand the user is \"obsessed\" with.\n*   While the assistant provides several recommendations for BBQ sauces that the user might enjoy, none of the provided facts state that the user is currently obsessed with any specific brand of BBQ sauce. The facts only establish the assistant's recommendations and the user's preference for spicy salsa.\n\n**Conclusion:**\nBased on the provided history chats, there is no information indicating which brand of BBQ sauce you are currently obsessed with.",
+ "dump": "- The National Basketball Association entered into an exclusive on-court apparel partnership with Nike in 2015. (valid since 2015-01-01)\n- The Women's National Basketball Association entered into a multi-year partnership with AT&T in 2019. (valid since 2019-01-01)\n- The National Basketball Association uses City Edition jerseys as an innovative product to connect teams with local communities. (valid since 2023-03-25)\n- The Women's National Basketball Association features the AT&T Dream In Black platform as part of its partnership with AT&T. (valid since 2023-03-25)\n- The Eiffel Tower is located in Paris, France. (valid since 2023-03-31)\n- The Eiffel Tower offers a view of the Arc de Triomphe. (valid since 2023-03-31)\n- The Eiffel Tower offers a view of the Louvre Museum. (valid since 2023-03-31)\n- The Eiffel Tower offers a view of the Seine River. (valid since 2023-03-31)\n- The user plans to incorporate the 4-7-8 breathing exercise into their daily routine to manage stress. (valid since 2023-04-03)\n- The user plans to use the Headspace app to help build a consistent mindfulness habit. (valid since 2023-04-03)\n- The assistant recommends the book The Body Keeps the Score by Bessel van der Kolk for processing emotions and grief. (valid since 2023-04-03)\n- The assistant recommends the book When Things Fall Apart by Pema Chodron for processing emotions and grief. (valid since 2023-04-03)\n- The assistant recommends the book The Grief Recovery Handbook by John W. James and Russell Friedman for processing emotions and grief. (valid since 2023-04-03)\n- The assistant recommends the book Mindset: The New Psychology of Success by Carol S. Dweck for processing emotions and grief. (valid since 2023-04-03)\n- The assistant recommends the book The Power of Now by Eckhart Tolle for processing emotions and grief. (valid since 2023-04-03)\n- The assistant recommends the National Alliance on Mental Illness as an online resource for mental health support. (valid since 2023-04-03)\n- The assistant recommends the American Psychological Association as an online resource for mental health information. (valid since 2023-04-03)\n- The assistant recommends Mindful.org for mindfulness, meditation, and emotional well-being. (valid since 2023-04-03)\n- The assistant recommends Psychology Today for finding articles and professional therapy resources. (valid since 2023-04-03)\n- The assistant recommends TED Talks: Mental Health for inspiring talks on personal growth and self-care. (valid since 2023-04-03)\n- The assistant recommends Reddit's r/mentalhealth as an online supportive community. (valid since 2023-04-03)\n- The assistant recommends Facebook support groups for connecting with others regarding mental health and grief. (valid since 2023-04-03)\n- The assistant provided guidance to the user on their journey to prioritize mental health and process emotions. (valid since 2023-04-03)\n- The user enjoys eating spicy salsa with their food. (valid since 2023-04-05)\n- Querétaro offers Salsa roja as a spicy salsa option for food. (valid since 2023-04-05)\n- Querétaro offers Salsa verde as a spicy salsa option for food. (valid since 2023-04-05)\n- Querétaro offers Habanero salsa as a very hot salsa option for food. (valid since 2023-04-05)\n- Querétaro offers Chile de árbol salsa as a very hot salsa option for food. (valid since 2023-04-05)\n- The assistant recommends using post oak wood chips to smoke a Low and Slow Smoked Brisket. (valid since 2023-04-16)\n- The assistant supports using Sweet Baby Ray's BBQ sauce to pair with BBQ dishes. (valid since 2023-04-16)\n- The Low and Slow Smoked Brisket recipe recommends using post oak wood chips or chunks for smoking. (valid since 2023-04-16)\n- A water pan should be placed in the smoker to add moisture and regulate temperature for the Low and Slow Smoked Brisket. (valid since 2023-04-16)\n- A meat thermometer should be used to ensure the brisket reaches the desired internal temperature while cooking in the smoker. (valid since 2023-04-16)\n- The user replaced their car's old spark plugs with new NGK spark plugs to fix a misfire and improve engine smoothness and responsiveness. (valid since 2023-05-12)\n- The user is planning to participate in an upcoming auto racing event and is looking for ways to improve engine performance. (valid since 2023-05-12)\n- A dyno test measures the horsepower output of an engine. (valid since 2023-05-12)\n- A dyno test measures the torque output of an engine. (valid since 2023-05-12)\n- The assistant recommends ECU reflashing as a method for tuning an engine to optimize performance by reprogramming the engine control unit. (valid since 2023-05-12)\n- The assistant recommends piggyback tunes as an option involving external devices that intercept and modify engine signals to improve performance. (valid since 2023-05-12)\n- The assistant recommends stand-alone ECUs as a tuning option where the factory ECU is replaced with a custom unit for more flexibility and control. (valid since 2023-05-12)\n- Glastonbury Festival is known for its sustainability initiatives such as solar-powered stages, water conservation, and recycling and composting programs (valid since 2023-06-07)\n- Newport Folk Festival is known for eliminating single-use plastic water bottles and straws and implementing composting and recycling programs (valid since 2023-06-07)\n- Shambhala Music Festival is known for its bottle exchange program, composting, recycling, and on-site permaculture farm (valid since 2023-06-07)\n- Burning Man is known for its leave no trace policy and dedicated sustainability department (valid since 2023-06-07)\n- Roskilde Festival is known for its recycling and composting programs, use of solar and wind energy, and sustainable food options (valid since 2023-06-07)\n- Ray Bradbury is the author of the dystopian novel Fahrenheit 451. (valid since 2023-06-15)\n- Ray Bradbury is the author of The Martian Chronicles. (valid since 2023-06-15)\n- Isaac Asimov is the author of the Foundation series. (valid since 2023-06-15)\n- Isaac Asimov is the author of I,Robot. (valid since 2023-06-15)\n- Ray Bradbury is the author of the story collection The Illustrated Man. (valid since 2023-06-15)\n- Ray Bradbury is the author of the story The Veldt. (valid since 2023-06-15)\n- Ray Bradbury is the author of the story The Long Rain. (valid since 2023-06-15)\n- Ray Bradbury is the author of the story The Rocket Man. (valid since 2023-06-15)\n- The assistant recommends pembrolizumab as a checkpoint inhibitor for treating lung cancer. (valid since 2023-06-18)\n- The assistant recommends nivolumab as a checkpoint inhibitor for treating lung cancer. (valid since 2023-06-18)\n- The assistant recommends durvalumab as a checkpoint inhibitor for treating lung cancer. (valid since 2023-06-18)\n- The assistant recommends atezolizumab as a checkpoint inhibitor for treating lung cancer. (valid since 2023-06-18)\n- The assistant recommends bevacizumab as a monoclonal antibody for treating lung cancer. (valid since 2023-06-18)\n- the user has a friend named Emily who brought grilled pineapple to their birthday party (valid since 2023-06-30)\n- Emily brought grilled pineapple to the user's birthday party (valid since 2023-06-30)\n- The assistant acknowledges that Kansas City Masterpiece BBQ sauce is a favorite and discusses it as an option for pulled pork, while being open to other suggestions. (valid since 2023-06-30)\n- The assistant recommends Sweet Baby Ray's BBQ Sauce for pulled pork as a sweet and tangy option with a thick, velvety texture. (valid since 2023-06-30)\n- The assistant recommends Franklin Barbecue BBQ Sauce for pulled pork as a Texas-style sauce with a thinner, vinegar-based consistency. (valid since 2023-06-30)\n- The assistant recommends Bone Suckin' BBQ Sauce for pulled pork as a sweet and smoky sauce with a thick, syrupy texture. (valid since 2023-06-30)\n- The assistant recommends Stubb's BBQ Sauce for pulled pork as a Texas-style sauce with a thick, sweet, and smoky flavor profile. (valid since 2023-06-30)\n- The assistant recommends Dinosaur Bar-B-Que BBQ Sauce for pulled pork as a sweet and tangy sauce with a thick, syrupy texture. (valid since 2023-06-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 66,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 141.7,
+  "total": 143.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "06db6396",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many projects have I completed since starting painting classes?",
+ "reference": "5",
+ "question_date": "2023-11-08 09:08",
+ "sessions": [
+  {
+   "id": "6be54739_2",
+   "date": "2023-07-21 21:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467198",
+   "date": "2023-08-05 19:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_1",
+   "date": "2023-08-16 09:37",
+   "evidence": true
+  },
+  {
+   "id": "5bd9f1e6_1",
+   "date": "2023-08-20 21:15",
+   "evidence": false
+  },
+  {
+   "id": "35038174_4",
+   "date": "2023-09-17 02:40",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_167372",
+   "date": "2023-09-18 08:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_da72b1b4_2",
+   "date": "2023-10-09 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_416015",
+   "date": "2023-10-18 11:50",
+   "evidence": false
+  },
+  {
+   "id": "3dcf1e0b_2",
+   "date": "2023-10-19 07:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2LYzasI_0",
+   "date": "2023-11-01 20:36",
+   "evidence": false
+  }
+ ],
+ "context": "- User has completed 4 art projects since starting painting classes and feels confident in their skills. (from a chat on 2023-08-16)\n- User completed their 5th painting project since starting classes and feels accomplished. (from a chat on 2023-10-09)\n- User plans to create an abstract expressionist painting using a bold and bright palette, starting with a dominant bright yellow and adding complementary colors, while experimenting with layering and texture. (from a chat on 2023-10-09)\n- User is setting up a small art studio in their spare bedroom and received tips on organizing, layout, and storage for painting supplies. (from a chat on 2023-08-16)\n- User is painting a sunset scene as a birthday gift for their sister, to be given next month. (from a chat on 2023-08-16)\n- User started using new laptop accessories, specifically a wireless mouse and a portable charger, on January 20, 2023. (from a chat on 2023-09-17)\n- User is setting up a small art studio in their spare bedroom by decluttering, optimizing the layout with a 'work triangle', using multi-functional furniture, utilizing vertical storage, and creating a designated 'wet zone'. (from a chat on 2023-10-09)\n- User is planning to reach out to Instagram artist @artbylisa to share an attempt at her galaxy effect tutorial, which the user tried on August 8, 2023, and ask for feedback. (from a chat on 2023-08-16)\n- User received advice on varnishing, protecting, and signing their paintings, including using a discreet location and consistent signature style. (from a chat on 2023-08-16)\n- User was recommended several online learning platforms for career development, including Coursera, LinkedIn Learning, edX, Udemy, Pluralsight, Skillshare, Google Analytics Academy, HubSpot Academy, Codecademy, and FutureLearn. (from a chat on 2023-08-20)\n- User is planning to take the Data Visualization course on Coursera, taught by Dr. Kristen Sosulski, to upskill and stay competitive in the job market. (from a chat on 2023-08-20)\n- The Data Visualization course on Coursera covers principles of visualization, tools like ggplot2 and Plotly, and best practices for creating interactive dashboards and effective visual stories. (from a chat on 2023-08-20)\n- User is interested in current events and politics, and stays informed by reading The New York Times every Sunday and The Economist magazine during their daily commute. (from a chat on 2023-07-21)\n- User listens to 'The Daily' podcast from The New York Times during their workout sessions. (from a chat on 2023-07-21)\n- Assistant identified Black Forest Adventures, Jägerwelt, Fishing & More, and Black Forest Hunting Adventures as companies that offer guided trips and assistance with hunting and fishing permits in the Black Forest. (from a chat on 2023-09-18)\n- User clarified they are not interested in hunting or fishing and requested other outdoor activity recommendations for the Black Forest. (from a chat on 2023-09-18)\n- Assistant recommended hiking (Westweg, Wiesensteig), cycling (Black Forest Cycle Way), skiing/snowboarding (Feldberg), climbing/bouldering, water sports (Titisee, Schluchsee), paragliding, and visiting historic towns like Baden-Baden, Gengenbach, and Freiburg as outdoor activities in the Black Forest. (from a chat on 2023-09-18)\n- User was recommended books specifically on the intersection of politics and the environment, such as 'This Changes Everything' by Naomi Klein, 'Climate Justice' by Mary Robinson, 'Losing Earth' by Nathaniel Rich, 'The Water Will Come' by Jeff Goodell, 'Toxic Communities' by Dorceta Taylor, 'No One Is Too Small to Make a Difference' by Greta Thunberg, 'This Is an Uprising' by Mark and Paul Engler, 'Windfall' by McKenzie Funk, 'Coral Reefs and the Global Carbon Cycle' edited by Zvy Dubinsky and Noga Stambler, and 'The Grid' by Gretchen Bakke. (from a chat on 2023-07-21)\n- Assistant noted that the Swiss economy has experienced mixed impacts from cryptocurrency adoption, including new investment and job opportunities alongside challenges related to market volatility, potential fraud, and regulatory compliance. (from a chat on 2023-10-18)\n- User was recommended books on politics and governance, including 'The Sixth Extinction' by Elizabeth Kolbert, 'Evicted' by Matthew Desmond, 'The New Jim Crow' by Michelle Alexander, and 'The Undoing Project' by Michael Lewis. (from a chat on 2023-07-21)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-08-16: \"User has completed 4 art projects since starting painting classes...\"\n    *   From the chat on 2023-10-09: \"User completed their 5th painting project since starting classes...\"\n\n2.  **Reason over the information:**\n    *   The first record confirms the user had completed 4 projects by August 16, 2023.\n    *   The second record confirms the user completed their 5th project by October 9, 2023.\n    *   There is no information provided regarding any additional projects completed between October 9, 2023, and the current date (November 8, 2023).\n\n3.  **Conclusion:**\n    *   Based on the provided history, you have completed 5 painting projects.",
+ "dump": "- User is interested in current events and politics, and stays informed by reading The New York Times every Sunday and The Economist magazine during their daily commute. (session 2023-07-21)\n- User practices yoga at home three times a week and is looking for a new mat with better grip to prevent slipping while sweating. (session 2023-10-19)\n- Assistant recommended hiking (Westweg, Wiesensteig), cycling (Black Forest Cycle Way), skiing/snowboarding (Feldberg), climbing/bouldering, water sports (Titisee, Schluchsee), paragliding, and visiting historic towns like Baden-Baden, Gengenbach, and Freiburg as outdoor activities in the Black Forest. (session 2023-09-18)\n- User is planning to take the Data Visualization course on Coursera, taught by Dr. Kristen Sosulski, to upskill and stay competitive in the job market. (session 2023-08-20)\n- User plans to replace their laptop battery and is also considering a RAM upgrade to address memory issues when running multiple programs. (session 2023-09-17)\n- User is training for a half-marathon scheduled for January 2024 and is seeking advice on increasing mileage safely. (session 2023-10-19)\n- User is interested in marketing foul weather gear specifically designed for Maine lobster fishermen, emphasizing durability, North American manufacturing, and performance. (session 2023-11-01)\n- User is looking for a 24-inch 4K monitor for general use, streaming, and video watching with a budget of $300-$400. (session 2023-09-17)\n- User was recommended books on politics and governance, including 'The Sixth Extinction' by Elizabeth Kolbert, 'Evicted' by Matthew Desmond, 'The New Jim Crow' by Michelle Alexander, and 'The Undoing Project' by Michael Lewis. (session 2023-07-21)\n- User turned 32 years old on July 15, 2023, and views their age as an advantage for career development due to increased maturity and focus. (session 2023-08-20)\n- User is painting a sunset scene as a birthday gift for their sister, to be given next month. (session 2023-08-16)\n- The Data Visualization course on Coursera covers principles of visualization, tools like ggplot2 and Plotly, and best practices for creating interactive dashboards and effective visual stories. (session 2023-08-20)\n- User was recommended books on foreign policy and international relations, including 'The End of Power' by Moisés Naím, 'The World Is Flat 3.0' by Thomas L. Friedman, 'The Uninhabitable Earth' by David Wallace-Wells, and 'The Great Delusion' by John J. Mearsheimer. (session 2023-07-21)\n- User completed their 5th painting project since starting classes and feels accomplished. (session 2023-10-09)\n- User is planning to reach out to Instagram artist @artbylisa to share an attempt at her galaxy effect tutorial, which the user tried on August 8, 2023, and ask for feedback. (session 2023-08-16)\n- User was recommended Hydro Flask, S'well, Nalgene, CamelBak, and Klean Kanteen as potential water bottle brands. (session 2023-10-19)\n- User was recommended books on economy and inequality, including 'Capital in the Twenty-First Century' by Thomas Piketty, 'The Divide' by Matt Taibbi, 'Evil Geniuses' by Kurt Andersen, and 'The Shock Doctrine' by Naomi Klein. (session 2023-07-21)\n- User is troubleshooting laptop battery issues and has already updated the BIOS, adjusted power settings, calibrated the battery, and checked for battery wear. (session 2023-09-17)\n- User recently purchased new Nike running shoes from an outlet store and reports improved cushioning and support. (session 2023-10-19)\n- User was recommended Lululemon The Mat, Manduka eKO SuperLite, Alo Yoga Warrior Mat, Gaiam Print Yoga Mat, and Jade Yoga Mat for improved grip during yoga. (session 2023-10-19)\n- Assistant noted that while there is evidence of success in reducing poaching in some areas, challenges like the global demand for animal products, weak law enforcement, and corruption persist. (session 2023-08-05)\n- User is interested in outdoor activities in the Black Forest, specifically camping, picnicking, hunting, and fishing, and was advised that wild camping is prohibited and hunting/fishing require strict permits. (session 2023-09-18)\n- Assistant detailed that since 2018, the Swiss Federal Tax Administration (SFTA) classifies cryptocurrencies as assets, subjecting gains to capital gains tax, mining income to income tax, and transactions involving goods and services to VAT. (session 2023-10-18)\n- The Data Science specialization on Coursera, taught by Dr. Roger Peng, Dr. Jeff Leek, and Dr. Brian Caffo, covers the data science workflow and requires basic knowledge of math, statistics, and programming (specifically Python or R). (session 2023-08-20)\n- Assistant explained that African countries are protecting wildlife through increased law enforcement (drones, rangers), community involvement, wildlife conservancies, economic incentives, and awareness campaigns. (session 2023-08-05)\n- User was recommended the Scubapro Zoom Mask, Cressi Finswim Mask, and Mares Mvibe Mask for snorkeling. (session 2023-10-19)\n- User listens to 'The Daily' podcast from The New York Times during their workout sessions. (session 2023-07-21)\n- User is backing up files to an external hard drive before performing laptop maintenance; the drive was purchased at Best Buy using a birthday gift card from their sister. (session 2023-09-17)\n- User is interested in the impact of cryptocurrency adoption on the Swiss banking industry, economy, and tax regulations. (session 2023-10-18)\n- Assistant recommended several free camping and picnic areas in the Black Forest, including Wagenstadt natural swimming lake, Schömberger Schlossberg, Baiersbronn-Klosterreichenbach, and Naturpark Schwarzwald Mitte/Nord. (session 2023-09-18)\n- User was recommended the BenQ PD2700U, LG 24UD58-B, ViewSonic VX2475SMHL-4K, Acer KG241Q, and Dell UltraSharp U2421 as potential 24-inch 4K monitors for general use. (session 2023-09-17)\n- User was recommended books on social justice and activism, including 'So You Want to Talk About Race' by Ijeoma Oluo, 'Just Mercy' by Bryan Stevenson, 'The Warmth of Other Suns' by Isabel Wilkerson, and 'Sister Outsider' by Audre Lorde. (session 2023-07-21)\n- User was recommended books specifically on the intersection of politics and the environment, such as 'This Changes Everything' by Naomi Klein, 'Climate Justice' by Mary Robinson, 'Losing Earth' by Nathaniel Rich, 'The Water Will Come' by Jeff Goodell, 'Toxic Communities' by Dorceta Taylor, 'No One Is Too Small to Make a Difference' by Greta Thunberg, 'This Is an Uprising' by Mark and Paul Engler, 'Windfall' by McKenzie Funk, 'Coral Reefs and the Global Carbon Cycle' edited by Zvy Dubinsky and Noga Stambler, and 'The Grid' by Gretchen Bakke. (session 2023-07-21)\n- User started using new laptop accessories, specifically a wireless mouse and a portable charger, on January 20, 2023. (session 2023-09-17)\n- User was recommended environmental organizations and resources including the Environmental Defense Fund, The Sierra Club, Grist, The Climate Reality Project, Earthjustice, 350.org, The Nature Conservancy, Greenpeace, The Audubon Society, and the Union of Concerned Scientists. (session 2023-07-21)\n- Assistant noted that the Swiss economy has experienced mixed impacts from cryptocurrency adoption, including new investment and job opportunities alongside challenges related to market volatility, potential fraud, and regulatory compliance. (session 2023-10-18)\n- User plans to create an abstract expressionist painting using a bold and bright palette, starting with a dominant bright yellow and adding complementary colors, while experimenting with layering and texture. (session 2023-10-09)\n- User is setting up a small art studio in their spare bedroom and received tips on organizing, layout, and storage for painting supplies. (session 2023-08-16)\n- ggplot2 is a grammar-based R library for creating static, highly customizable visualizations, while Plotly is an open-source library for creating interactive, web-based visualizations in Python, R, and MATLAB. (session 2023-08-20)\n- User has completed 4 art projects since starting painting classes and feels confident in their skills. (session 2023-08-16)\n- User was recommended climate change-specific resources including Climate Central, InsideClimate News, Climatewire, Carbon Brief, The Climate Action Network, and the NRDC Climate Program. (session 2023-07-21)\n- User is interested in wildlife conservation in Africa, specifically the methods used to combat poaching and illegal hunting, and believes it is a global issue requiring international support. (session 2023-08-05)\n- User received advice on varnishing, protecting, and signing their paintings, including using a discreet location and consistent signature style. (session 2023-08-16)\n- User is planning a beach trip for November 2023 and needs a new snorkeling mask to replace an old one that has a scratched lens causing glare. (session 2023-10-19)\n- Assistant identified Black Forest Adventures, Jägerwelt, Fishing & More, and Black Forest Hunting Adventures as companies that offer guided trips and assistance with hunting and fishing permits in the Black Forest. (session 2023-09-18)\n- User clarified they are not interested in hunting or fishing and requested other outdoor activity recommendations for the Black Forest. (session 2023-09-18)\n- User is specifically interested in the intersection of politics and the environment, including climate change policy and activism. (session 2023-07-21)\n- Assistant explained that Switzerland's banking sector has been affected by cryptocurrency adoption through the introduction of crypto services by some banks, increased competition from exchanges, heightened regulatory scrutiny by FINMA, and the exploration of blockchain technology for operations. (session 2023-10-18)\n- User lost their favorite water bottle at the Red Rock Canyon picnic area during a hike with friends around October 5, 2023. (session 2023-10-19)\n- User was recommended several online learning platforms for career development, including Coursera, LinkedIn Learning, edX, Udemy, Pluralsight, Skillshare, Google Analytics Academy, HubSpot Academy, Codecademy, and FutureLearn. (session 2023-08-20)\n- User was recommended podcasts including 'Pod Save America', 'How I Built This', and 'Climate Cast', as well as online resources like ProPublica, Politico, The Conversation, and TED Talks for engaging with current events. (session 2023-07-21)\n- User follows artists on Instagram for inspiration and received advice on how to engage with them professionally and respectfully. (session 2023-08-16)\n- User is setting up a small art studio in their spare bedroom by decluttering, optimizing the layout with a 'work triangle', using multi-functional furniture, utilizing vertical storage, and creating a designated 'wet zone'. (session 2023-10-09)\n- User has been snorkeling frequently over the past year and is considering investing in a high-end mask. (session 2023-10-19)\n- Assistant highlighted that some Swiss banks, such as Gazprombank and Maerki Baumann, have begun offering crypto trading and custody services, while others remain cautious due to regulatory and compliance concerns. (session 2023-10-18)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 55,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 38.5,
+  "total": 39.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

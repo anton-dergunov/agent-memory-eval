@@ -1,0 +1,100 @@
+{
+ "qid": "830ce83f",
+ "arm": "mem0",
+ "split": "main",
+ "question": "Where did Rachel move to after her recent relocation?",
+ "reference": "the suburbs",
+ "question_date": "2023-06-13 15:15",
+ "sessions": [
+  {
+   "id": "8425ea3e",
+   "date": "2023-05-01 13:17",
+   "evidence": false
+  },
+  {
+   "id": "ad5a7d50_2",
+   "date": "2023-05-09 08:55",
+   "evidence": false
+  },
+  {
+   "id": "020149a5_1",
+   "date": "2023-05-12 02:28",
+   "evidence": false
+  },
+  {
+   "id": "8d77be9a_2",
+   "date": "2023-05-16 17:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_hamCWCF_0",
+   "date": "2023-05-24 01:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_rtjWwY6_0",
+   "date": "2023-05-24 05:00",
+   "evidence": false
+  },
+  {
+   "id": "answer_0b1a0942_1",
+   "date": "2023-05-24 22:23",
+   "evidence": true
+  },
+  {
+   "id": "dfbda5e9",
+   "date": "2023-05-26 20:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_0b1a0942_2",
+   "date": "2023-05-27 04:45",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_pAbhbob_0",
+   "date": "2023-05-27 18:15",
+   "evidence": false
+  }
+ ],
+ "context": "- User has a friend named Rachel who recently moved back to the suburbs. (from a chat on 2023-05-27)\n- User has a friend named Rachel who recently moved to an apartment in Chicago. (from a chat on 2023-05-24)\n- User is planning a beach trip with friends and is looking for a relaxed atmosphere near a major city, specifically considering Fort Myers Beach due to its proximity to Tampa where their friend Rachel lives. (from a chat on 2023-05-27)\n- User is training for a marathon and recently completed a 10K 'Charity Run' organized by the 'Heart Foundation' in November 2022. (from a chat on 2023-05-16)\n- User is planning a surprise birthday brunch for their mother in July 2023 and is considering a new bistro that recently opened in their hometown. (from a chat on 2023-05-26)\n- User recently made a pasta salad with cherry tomatoes, mozzarella, and basil, and is interested in trying spicy pasta salad recipes with added protein. (from a chat on 2023-05-09)\n- User recently cooked a large batch of chili con carne and found it convenient for multiple meals. (from a chat on 2023-05-09)\n- User was provided with information on the best times to visit Florida beach towns (December to April) and Colorado hiking spots (June to September). (from a chat on 2023-05-24)\n- User decided to start following Kayla Itsines for HIIT workouts, specifically planning to try her 'BBG HIIT Core Blast' routine. (from a chat on 2023-05-12)\n- User is planning a trip with friends and is considering either a beach town in Florida or a hiking trip in Colorado. (from a chat on 2023-05-24)\n- User was recommended store-bought chipotle ranch alternatives including Marie's, Bolthouse Farms, and Ken's Steak House brands, or mixing hot sauce into standard ranch. (from a chat on 2023-05-09)\n- User's paternal grandparents in Orlando enjoy outdoor activities, specifically walks and picnics. (from a chat on 2023-05-26)\n- User was provided with specific Kayla Itsines HIIT workout recommendations targeting core (BBG HIIT Core Blast, Core Crusher, Abs and Obliques HIIT) and legs (Legs and Glutes HIIT, BBG HIIT Legs, Glute and Leg Blaster). (from a chat on 2023-05-12)\n- User was recommended fitness influencers on Instagram who post HIIT and strength training routines: Michelle Lewin, Kayla Itsines, Jen Selter, Massy Arias, Natalie Jill, Anllela Sagra, and Ulisses Jr. (from a chat on 2023-05-12)\n- User plans to run early in the morning and will wear reflective clothing for safety. (from a chat on 2023-05-16)\n- User lives in Springfield, Illinois, and prefers flat, scenic running routes with minimal traffic. (from a chat on 2023-05-16)\n- User is 20 years old and planning a week-long trip to Orlando, Florida, in August 2023 to visit their paternal grandparents. (from a chat on 2023-05-26)\n- User's maternal grandparents celebrated their 50th wedding anniversary on June 17th. (from a chat on 2023-05-26)\n- User was provided with a homemade chipotle ranch dressing recipe using mayonnaise, sour cream, lime juice, Dijon mustard, cumin, smoked paprika, and chipotle peppers in adobo sauce. (from a chat on 2023-05-09)\n- User is currently borrowing 'The Essentials of Classic Italian Cooking' by Marcella Hazan and 'Jerusalem: A Cookbook' from the library. (from a chat on 2023-05-01)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-05-24: The user mentioned that their friend Rachel recently moved to an apartment in Chicago.\n    *   From the chat on 2023-05-27: The user mentioned that their friend Rachel recently moved back to the suburbs.\n\n2.  **Reason over the information:**\n    *   The information provided shows two different locations for Rachel's recent move, dated only three days apart (May 24th and May 27th).\n    *   The most recent update regarding Rachel's location is from the chat on 2023-05-27, which states she moved back to the suburbs.\n\n3.  **Conclusion:**\n    *   Based on the most recent information provided in the history, Rachel moved to the suburbs.",
+ "dump": "- User was provided with potential day trip ideas from Fort Myers Beach, including Sanibel Island, the Fort Myers River District, Cayo Costa State Park, and various shelling or dolphin-watching tours. (session 2023-05-27)\n- User was provided with tips for roasting Brussels sprouts, including an ideal oven temperature of 425°F (220°C) and a cooking time of 20-25 minutes. (session 2023-05-09)\n- User was provided with specific recipe ideas for bulgur (Tabbouleh, Kibbeh, Pilaf) and farro (Salad with roasted vegetables, Risotto with mushrooms, Vegetable soup). (session 2023-05-01)\n- User was recommended several high-intensity workout playlists including 'Beast Mode', 'Fitness Blender', 'Cardio Kickstart', 'Sweat Mode', and 'HIIT Workout'. (session 2023-05-12)\n- User has a friend named Rachel who recently moved back to the suburbs. (session 2023-05-27)\n- The protagonist of 'Bald Fury' uses bald-themed attacks including Headbutt, Bald Blast, Reflect, Razor Head, Bald Shield, Spin Attack, and Comb Over. (session 2023-05-24)\n- User was provided with substitutes for guanciale, including pancetta, bacon, prosciutto, and smoked ham, along with advice on where to source authentic guanciale. (session 2023-05-01)\n- User was provided with specific Kayla Itsines HIIT workout recommendations targeting core (BBG HIIT Core Blast, Core Crusher, Abs and Obliques HIIT) and legs (Legs and Glutes HIIT, BBG HIIT Legs, Glute and Leg Blaster). (session 2023-05-12)\n- User was recommended several spicy pasta salad recipes with protein, including Jalapeño Popper, Southwestern Chicken, Spicy Shrimp, Korean-Style BBQ Beef, and Cajun Chicken pasta salads. (session 2023-05-09)\n- User's paternal grandparents in Orlando enjoy outdoor activities, specifically walks and picnics. (session 2023-05-26)\n- User was provided with a homemade chipotle ranch dressing recipe using mayonnaise, sour cream, lime juice, Dijon mustard, cumin, smoked paprika, and chipotle peppers in adobo sauce. (session 2023-05-09)\n- User was provided with a seasonal overview of Chicago weather and a list of recommended neighborhoods to stay in, including The Loop, River North, Lincoln Park, Lakeview, Logan Square, and West Loop. (session 2023-05-24)\n- User has a strong, humorous appreciation for corned beef and requested poems and songs about it in various styles, including Robert Burns, Michael Bublé, Run-DMC, a 5-year-old child, a biblical psalm, a martial drill, Edgar Allan Poe, and a Harry Potter book ending. (session 2023-05-24)\n- User is planning a surprise birthday brunch for their mother in July 2023 and is considering a new bistro that recently opened in their hometown. (session 2023-05-26)\n- User is training for a marathon and recently completed a 10K 'Charity Run' organized by the 'Heart Foundation' in November 2022. (session 2023-05-16)\n- User was recommended outdoor movie and concert venues in Orlando, including City of Orlando parks, Winter Park's Central Park, the Orlando Philharmonic, and the Dr. Phillips Center. (session 2023-05-26)\n- User decided to start following Kayla Itsines for HIIT workouts, specifically planning to try her 'BBG HIIT Core Blast' routine. (session 2023-05-12)\n- User was recommended picnic spots in Winter Park: Central Park, Lake Osceola Park, Ward Park, Kraft Azalea Park, and parks along the Winter Park Chain of Lakes. (session 2023-05-26)\n- User is planning a beach trip with friends and is looking for a relaxed atmosphere near a major city, specifically considering Fort Myers Beach due to its proximity to Tampa where their friend Rachel lives. (session 2023-05-27)\n- User is developing a platformer video game titled 'Bald Fury' featuring a bald man in a suit who gains powers to fight an evil corporation attempting to create an army of bald super-soldiers. (session 2023-05-24)\n- User plans to visit Augie's Front Burner at 1520 E. Repplinger Rd for a post-run breakfast after their run at the Lake Springfield Marina. (session 2023-05-16)\n- User was recommended outdoor activities in Orlando including Wekiwa Springs State Park, Lake Eola, and the Winter Park Chain of Lakes. (session 2023-05-26)\n- User lives in the same area as their maternal grandparents. (session 2023-05-26)\n- User is looking for high-intensity workout playlists and is interested in trying the 'Beast Mode' playlist on Spotify. (session 2023-05-12)\n- User plans to make roasted Brussels sprouts with lemon and garlic as a side dish for their braised short ribs. (session 2023-05-09)\n- User was recommended several Italian cookbooks, including 'The Essentials of Italian Cooking' by Marcella Hazan, 'Lidia's Italian Table' by Lidia Bastianich, and 'Pasta Grannies' by Vicky Bennison. (session 2023-05-01)\n- User is considering staying at The Outrigger Beach Resort in Fort Myers Beach and was informed they offer beachfront and beachview rooms, as well as amenities like private beach access, a heated pool, and water sports rentals. (session 2023-05-27)\n- User was provided with a step-by-step Spaghetti Carbonara recipe and tips for success, including using high-quality ingredients like guanciale or pancetta, Parmigiano-Reggiano, and room temperature eggs. (session 2023-05-01)\n- User plans to run the 6.2-mile (10 km) Lake Springfield Trail, which is a paved path with access to restrooms and parking at the Lake Springfield Marina, Tom Madonia Park, and Lions Park. (session 2023-05-16)\n- User was recommended various side dishes to pair with braised meats, including roasted Brussels sprouts, sautéed spinach, roasted carrots, creamy polenta, and roasted potatoes. (session 2023-05-09)\n- User was provided with directions from the Lake Springfield Marina to Augie's Front Burner, involving a 5-7 minute drive via E. Lake Dr., N. 11th St., and E. Repplinger Rd. (session 2023-05-16)\n- User is promoting a Pad Krapow dish for lunchtime delivery via Grubhub and requested Instagram hooks to target busy customers who cannot dine in. (session 2023-05-27)\n- User was provided with techniques for cooking bulgur (2:1 water ratio, 15-20 min cook time) and farro (4:1 water ratio, 20-25 min cook time), including the importance of rinsing and soaking. (session 2023-05-01)\n- User is planning a trip to a relaxed beach town in Florida with friends and is considering Fort Myers Beach for its suitability for water sports like paddleboarding. (session 2023-05-27)\n- User recently made a pasta salad with cherry tomatoes, mozzarella, and basil, and is interested in trying spicy pasta salad recipes with added protein. (session 2023-05-09)\n- User was provided with a recipe for Braised Beef Short Ribs with red wine and mushrooms, with instructions for adapting it to lamb shanks using lemon and rosemary. (session 2023-05-09)\n- User is interested in staying at The Outrigger Beach Resort in Fort Myers Beach and specifically inquired about rooms with beach views. (session 2023-05-27)\n- User is interested in learning braising and roasting techniques and requested a simple braising recipe for beef or lamb. (session 2023-05-09)\n- User was recommended cultural attractions in Orlando including the Orlando Museum of Art, Albin Polasek Museum & Sculpture Gardens, and the Cornell Fine Arts Museum. (session 2023-05-26)\n- User is 20 years old and planning a week-long trip to Orlando, Florida, in August 2023 to visit their paternal grandparents. (session 2023-05-26)\n- Potential bosses for 'Bald Fury' include a Mad Scientist, a Balding Giant, a genetically modified Bald Eagle, The Hair Club for Men, The Hairpiece King, The Balding Beast, The Barber, and The Wig Queen. (session 2023-05-24)\n- User has a friend named Rachel who recently moved to an apartment in Chicago. (session 2023-05-24)\n- User recently cooked a large batch of chili con carne and found it convenient for multiple meals. (session 2023-05-09)\n- User was recommended Cuban restaurants in Orlando: Café Cuba, Tropical Café, Pio Pio, and Havana Grill. (session 2023-05-26)\n- User lives in Springfield, Illinois, and prefers flat, scenic running routes with minimal traffic. (session 2023-05-16)\n- User is interested in stand-up paddleboarding and was recommended Matanzas Pass, Bowditch Point Regional Park, and Estero Bay as ideal spots in Fort Myers Beach. (session 2023-05-27)\n- User was recommended several coffee shops in Chicago: Intelligentsia Coffee, La Colombe Coffee Roasters, The Allis, Sawada Coffee, Dark Matter Coffee, The Coffee Studio, and Gaslight Coffee Roasters. (session 2023-05-24)\n- User was provided with information on the best times to visit Florida beach towns (December to April) and Colorado hiking spots (June to September). (session 2023-05-24)\n- User was recommended fitness influencers on Instagram who post HIIT and strength training routines: Michelle Lewin, Kayla Itsines, Jen Selter, Massy Arias, Natalie Jill, Anllela Sagra, and Ulisses Jr. (session 2023-05-12)\n- User plans to run early in the morning and will wear reflective clothing for safety. (session 2023-05-16)\n- User is interested in experimenting with grains like bulgur and farro in addition to new pasta dishes. (session 2023-05-01)\n- User was recommended store-bought chipotle ranch alternatives including Marie's, Bolthouse Farms, and Ken's Steak House brands, or mixing hot sauce into standard ranch. (session 2023-05-09)\n- User is interested in making authentic Spaghetti Carbonara and Fettuccine Alfredo and is seeking tips for achieving the perfect Carbonara. (session 2023-05-01)\n- User has been cooking at home more frequently for about 3 months as of May 2023 and has made Italian cuisine a staple in their kitchen. (session 2023-05-01)\n- The protagonist of 'Bald Fury' delivers bald-themed puns and one-liners such as 'I'm not bald, I'm aerodynamic' and 'I'm like a cue ball - smooth, bald, and always on target.' (session 2023-05-24)\n- User is planning a trip with friends and is considering either a beach town in Florida or a hiking trip in Colorado. (session 2023-05-24)\n- User is currently borrowing 'The Essentials of Classic Italian Cooking' by Marcella Hazan and 'Jerusalem: A Cookbook' from the library. (session 2023-05-01)\n- User was recommended Sunday-themed workout playlists including 'Sunday Funday', 'Weekend Workout', 'Sunday Sweat', 'Lazy Sunday', and 'Endurance Boost'. (session 2023-05-12)\n- User was recommended several running routes in Springfield, Illinois, including the Lincoln Park Loop, Washington Park Trail, Lake Springfield Trail, Downtown Springfield Loop, and Carpenter Park Trail. (session 2023-05-16)\n- User's maternal grandparents celebrated their 50th wedding anniversary on June 17th. (session 2023-05-26)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 60,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 38.7,
+  "total": 39.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

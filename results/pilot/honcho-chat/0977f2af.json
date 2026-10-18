@@ -1,0 +1,88 @@
+{
+ "qid": "0977f2af",
+ "arm": "honcho-chat",
+ "split": "pilot",
+ "question": "What new kitchen gadget did I invest in before getting the Air Fryer?",
+ "reference": "Instant Pot",
+ "question_date": "2023-05-31 07:54",
+ "sessions": [
+  {
+   "id": "497cd65d",
+   "date": "2023-04-22 04:35",
+   "evidence": false
+  },
+  {
+   "id": "b3642bd9_3",
+   "date": "2023-04-22 23:57",
+   "evidence": false
+  },
+  {
+   "id": "e0bfe67a_2",
+   "date": "2023-05-02 02:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_211475",
+   "date": "2023-05-04 10:32",
+   "evidence": false
+  },
+  {
+   "id": "cbf48918_1",
+   "date": "2023-05-06 18:30",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vncOfEw_0",
+   "date": "2023-05-09 23:46",
+   "evidence": false
+  },
+  {
+   "id": "e7989082_2",
+   "date": "2023-05-21 00:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_3bf5b73b_1",
+   "date": "2023-05-21 05:48",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_qDHHlQO_27",
+   "date": "2023-05-21 14:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_3bf5b73b_2",
+   "date": "2023-05-21 22:54",
+   "evidence": true
+  }
+ ],
+ "context": "You invested in an **Instant Pot** before obtaining your air fryer.\n\nAccording to your records, you acquired the air fryer on May 20, 2023, while your ownership of the Instant Pot was confirmed on May 21, 2023, in the context of your ongoing meal planning.",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   Fact 1: You invested in an **Instant Pot** before obtaining your air fryer.\n*   Fact 2: You acquired the air fryer on May 20, 2023.\n*   Fact 3: Your ownership of the Instant Pot was confirmed on May 21, 2023.\n\n**2. Reason over the information:**\n*   There is a contradiction between the initial statement (\"You invested in an Instant Pot before obtaining your air fryer\") and the provided dates (Air Fryer: May 20 vs. Instant Pot: May 21).\n*   However, based on the explicit statement provided in the history facts that \"You invested in an **Instant Pot** before obtaining your air fryer,\" the Instant Pot is identified as the gadget acquired prior to the air fryer.\n\n**Answer:**\nThe new kitchen gadget you invested in before getting the Air Fryer is the **Instant Pot**.",
+ "dump": "- [explicit] user is looking for shoe cleaning products for white sneakers.\n- [explicit] user owns a shoe collection.\n- [explicit] user is looking for a shoe rack to organize a shoe collection.\n- [explicit] user owns white sneakers.\n- [explicit] user is looking for a waterproofing spray for sneakers.\n- [explicit] user owns brown loafers.\n- [explicit] user is looking for shoe polish for brown loafers.\n- [explicit] user is seeking brand recommendations for orthotics.\n- [explicit] user has been experiencing foot pain lately.\n- [explicit] user is interested in purchasing custom orthotics to help with foot pain.\n- [explicit] user is considering setting up a shoe cleaning and organization station at home.\n- [explicit] user is seeking recommendations for a shoe cleaning kit containing all necessary tools and supplies.\n- [explicit] user does not currently use a budgeting app.\n- [explicit] user wants to improve management of grocery spending.\n- [explicit] user has an interest in meal planning and grocery list creation.\n- [explicit] user spent approximately $80 on Instacart earlier in April 2023.\n- [explicit] user uses Instacart for grocery shopping.\n- [explicit] user does not want to use a notebook to track grocery spending.\n- [explicit] user is looking for a simple digital method to track grocery receipts.\n- [explicit] user receives email receipts from Instacart.\n- [explicit] user is seeking information about the meal planning apps Plan to Eat and Yummly regarding their cost and grocery shopping features.\n- [explicit] user is interested in meal planning.\n- [explicit] user intends to track spending by saving digital email receipts into a designated folder.\n- [explicit] user plans to request that stores send receipts via email rather than providing printed copies.\n- [explicit] user intends to try the 30-day free trial of Plan to Eat.\n- [explicit] user values the capability of a meal planning app to generate a meal plan and grocery list.\n- [explicit] user is planning to make a stir-fry for dinner on 2023-05-02.\n- [explicit] user possesses chicken breasts that were purchased on 2023-04-29.\n- [explicit] user is planning to use frozen peas and carrots in their stir-fry.\n- [explicit] user spent around $60 on an online grocery order from Instacart on 2023-05-02.\n- [explicit] user has frozen vegetables in their freezer.\n- [explicit] user possesses leftover chicken breasts in the refrigerator.\n- [explicit] user intends to prepare chicken salad for lunch on 2023-05-03.\n- [explicit] user intends to prepare a soy sauce-based stir-fry sauce with garlic and ginger.\n- [explicit] user possesses leftover almond milk.\n- [explicit] user prefers a savory flavor profile for stir-fry to balance the sweetness of peas and carrots.\n- [explicit] user received an Instacart delivery on 2023-05-02.\n- [explicit] user is interested in whether Freddie Freeman has a chance to win the NL MVP award for the 2023 season.\n- [explicit] user is interested in Freddie Freeman's performance against left-handed pitchers.\n- [explicit] user has heard rumors that Freddie Freeman is struggling against left-handed pitchers during the 2023 season.\n- [explicit] user is interested in Freddie Freeman's season performance statistics, specifically his home runs and RBIs.\n- [explicit] user is seeking nutrition advice for post-run recovery.\n- [explicit] user finished a 5K run with a personal best time of 27 minutes and 12 seconds.\n- [explicit] user is seeking advice on how to structure weekly runs to prepare for a half-marathon.\n- [explicit] user is planning to train for a half-marathon on December 5, 2023.\n- [explicit] user participated in a charity 5K run on May 6, 2023.\n- [explicit] user has been running an average of 15 miles per week for the past month.\n- [explicit] user incorporates strength training into a running routine.\n- [explicit] user focuses strength training exercises on the core and legs.\n- [explicit] user has been performing weekly runs for the past month.\n- [explicit] user is planning to incorporate hill repeats into speed workouts.\n- [explicit] user is training for a half-marathon.\n- [explicit] user believes strength training will improve running efficiency and endurance.\n- [explicit] user is looking for strength training exercises that can be performed at home or at the gym with minimal equipment.\n- [explicit] user aims to target the core and legs through strength training.\n- [explicit] user wants to perform strength training exercises at home or at the gym using minimal equipment.\n- [explicit] user plans to incorporate strength training exercises into a fitness routine.\n- [explicit] user intends to improve running efficiency and endurance through strength training.\n- [explicit] user wants to eliminate analyst backlog and reduce the time and cost to deliver insights by 10x using Comparative.\n- [explicit] user requested additional subject line variations.\n- [explicit] user describes Comparative as an analytics solution for payment processors.\n- [explicit] user is working on an email for a company called Comparative.\n- [explicit] user requested that the context of the email remain unchanged and that extra length not be added.\n- [explicit] user provided three subject lines: Elevate Your Business Insights, Streamline Data Analysis, and Maximize Data Potential.\n- [explicit] user requested variations A and B for an email draft.\n- [explicit] user intends to offer a 30-day pilot for Comparative.\n- [explicit] user paid approximately $15 for a mug with an inside joke for a past going-away party.\n- [explicit] user is inquiring about the possibility of obtaining a gift card in a denomination of approximately $10.\n- [explicit] user previously paired a mug with a gift card for a coworker's going-away party.\n- [explicit] user previously purchased a mug with an inside joke from an online store for a colleague's going-away party.\n- [explicit] user likes the idea of a 'World's Okayest [Job Title]' mug.\n- [explicit] user is planning a farewell party for a coworker.\n- [explicit] user plans to write a funny anecdote on a small note card to include with the gift.\n- [explicit] user is planning to buy a $10 gift card.\n- [explicit] user is giving a gift of a mug and a gift card to a coworker.\n- [explicit] user wants to select the exact design and denomination of the gift card.\n- [explicit] user is preparing a farewell gift for a coworker.\n- [explicit] user possesses a mug to include in a farewell gift.\n- [explicit] user considers online purchase more convenient than visiting a coffee shop in person.\n- [explicit] user intends to purchase a gift card online and have it mailed to user.\n- [explicit] user is deciding whether to wrap a mug and a gift card together or separately.\n- [explicit] user is looking for healthy lunch ideas that can be reheated.\n- [explicit] user owns an Instant Pot.\n- [explicit] user intends to use an Instant Pot to make soups and stews.\n- [explicit] user is seeking recipes designed for pressure cooking.\n- [explicit] user is planning meals for the week.\n- [explicit] user is interested in the Korean Chicken Stew (Jjimdak) recipe.\n- [explicit] user is requesting brand recommendations for Korean chili flakes.\n- [explicit] user is requesting brand recommendations for gochujang.\n- [explicit] user is requesting detailed ingredients and instructions for the Korean Chicken Stew.\n- [explicit] user has not cooked with gochujang before.\n- [explicit] user is interested in trying the Korean Chicken Stew recipe provided.\n- [explicit] user is concerned about the spiciness level of the Korean Chicken Stew recipe.\n- [explicit] user intends to adjust the spiciness of the Korean Chicken Stew to taste.\n- [explicit] user intends to reduce the amount of chili flakes to 1 tablespoon when making the Korean Chicken Stew recipe.\n- [explicit] user is preparing ingredients for the Korean Chicken Stew.\n- [explicit] user intends to use chicken breast for the Korean Chicken Stew recipe.\n- [explicit] user intends to adjust the cooking time for the Korean Chicken Stew because of the choice to use chicken breast.\n- [explicit] user is interested in megafauna that inhabit areas in and around brackish rivers, specifically upstream and at the delta.\n- [explicit] user is interested in megafauna that are semi-aquatic and riparian.\n- [explicit] user is interested in small lifeforms, mollusks, crustaceans, and megafauna.\n- [explicit] user is interested in learning about lifeforms that inhabit the areas surrounding hot mineral springs on the moon Xylophia-IV-e.\n- [explicit] user intends to use an air fryer to make crispy sweet potato fries.\n- [explicit] user is looking for healthy meal ideas for the week that use beans and lentils.\n- [explicit] user recently made chili con carne.\n- [explicit] user obtained an air fryer on 2023-05-20.\n- [explicit] user intends to make sweet potato fries as a side dish for a Cuban Black Bean and Rice Bowl meal.\n- [explicit] user intends to make a Cuban Black Bean and Rice Bowl recipe.\n- [explicit] user chose a fruit salad as a dessert to accompany a Cuban Black Bean and Rice Bowl and sweet potato fries.\n- [explicit] user is preparing a fruit salad.\n- [explicit] user is preparing a Cuban Black Bean and Rice Bowl.\n- [explicit] user is inquiring about storage methods for leftovers of the Cuban Black Bean and Rice Bowl.\n- [explicit] user is inquiring about storage methods for leftovers of sweet potato fries.\n- [explicit] user is preparing sweet potato fries.\n- [deductive] user owns an air fryer.\n- [deductive] user cooks their own meals at home.\n- [deductive] user has an interest in exobiology or speculative biology, specifically regarding the moon Xylophia-IV-e.\n- [inductive] user shows a consistent interest in exobiology and speculative biology, particularly focused on diverse lifeforms in specific alien environments.\n- [inductive] user is actively engaged in meal planning and preparation, showing a preference for structured, multi-component meals.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 127.5,
+  "total": 129.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

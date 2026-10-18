@@ -1,0 +1,105 @@
+{
+ "qid": "ba61f0b9",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many women are on the team led by my former manager Rachel?",
+ "reference": "6",
+ "question_date": "2023-08-03 06:02",
+ "sessions": [
+  {
+   "id": "ultrachat_466424",
+   "date": "2022-12-24 19:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_u1AM5RT_7",
+   "date": "2023-01-02 23:47",
+   "evidence": false
+  },
+  {
+   "id": "495cf518_1",
+   "date": "2023-01-03 03:39",
+   "evidence": false
+  },
+  {
+   "id": "answer_f377cda7_1",
+   "date": "2023-01-18 13:09",
+   "evidence": true
+  },
+  {
+   "id": "bd8e7b9a_1",
+   "date": "2023-02-25 10:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_hccQjAV_0",
+   "date": "2023-05-23 23:17",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Ak1QBSt_0",
+   "date": "2023-07-20 09:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_f377cda7_2",
+   "date": "2023-07-20 16:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_245108",
+   "date": "2023-07-21 20:53",
+   "evidence": false
+  },
+  {
+   "id": "57152276_1",
+   "date": "2023-07-23 02:19",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 3 results:', 'results': [{'timestamp': '2026-10-17T16:12:40.018820+00:00', 'time_ago': '21s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-08-03 06:02] How many women are on the team led by my former manager Rachel?'}, {'timestamp': '2026-10-17T16:10:15.476658+00:00', 'time_ago': '2m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-07-20 16:38] I'm looking for some information on companies that are doing a good job of promoting gender diversity in the workplace. Do you have any examples or resources you can share? By the way, it's interesting to think about this in the context of my own experiences - for instance, my former manager Rachel's team is a great example of a diverse team, with 6 women out of 10 people.\"}, {'timestamp': '2026-10-17T16:10:03.157567+00:00', 'time_ago': '2m ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-01-18 13:09] That's really valuable information. Going back to my former manager Rachel's team, I'm curious to know more about the women on her team. Are there any specific roles or areas where the women are concentrated?\"}]}",
+ "answer": "There are 6 women on the team led by your former manager Rachel.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Rachel team members women\"})",
+   "conversation_search({\"query\": \"Rachel team\"})",
+   "conversation_search({\"query\": \"former manager Rachel\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 166.0,
+  "total": 203.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

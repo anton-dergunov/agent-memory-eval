@@ -1,0 +1,91 @@
+{
+ "qid": "5831f84d",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many Crash Course videos have I watched in the past few weeks?",
+ "reference": "15",
+ "question_date": "2023-10-05 05:19",
+ "sessions": [
+  {
+   "id": "3e53cff4",
+   "date": "2023-07-15 04:55",
+   "evidence": false
+  },
+  {
+   "id": "5cd46af9_2",
+   "date": "2023-07-19 06:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_1",
+   "date": "2023-08-11 13:55",
+   "evidence": true
+  },
+  {
+   "id": "78e6f9ee",
+   "date": "2023-08-13 14:44",
+   "evidence": false
+  },
+  {
+   "id": "14991eb7_2",
+   "date": "2023-08-22 08:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_462218",
+   "date": "2023-09-08 07:05",
+   "evidence": false
+  },
+  {
+   "id": "83dae08b",
+   "date": "2023-09-12 22:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_2",
+   "date": "2023-09-30 17:18",
+   "evidence": true
+  },
+  {
+   "id": "0df54428_4",
+   "date": "2023-09-30 19:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ofljChm_78",
+   "date": "2023-10-05 19:51",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user is currently focused on improving their organization, productivity, and energy levels.\n*   The user is of Indian heritage; their father is from the northern state of Punjab, India. The user is actively exploring this cultural background.\n*   The user recently attended a BBQ festival in the city and is actively interested in BBQ cooking, including smoking meats and making homemade sauces.\n*   The user owns a new smoker.\n*   The user is actively pursuing technical education, specifically in cloud computing (AWS), machine learning (Python-based), and computer science.\n*   The user has completed 15 Crash Course videos on computer science (as of 2023-09-30; previously 12 as of 2023-08-11).\n*   The user has previously completed a Python programming course on edX.\n*   The user is an aspiring writer currently working on a short story collection focused on themes of childhood memories and family.\n*   The user started their short story collection one month ago (as of 2023-08-13).\n*   The user is socially conscious and expresses frustration regarding systemic inequality, specifically the lack of proactive political representation and inclusion for marginalized communities.\n*   The user owns a grey velvet sectional sofa from West Elm.\n*   The user is currently in the process of redecorating their living space, specifically looking for a new mattress, a sisal rug, throw pillows, and decorative accents.\n*   The user actively engages with online communities like Kaggle and Reddit to learn, receive project feedback, and network with peers in the machine learning and NLP fields.\n*   The user has inherited a collection of rare stamps from their uncle. The user believes this collection includes an 1855 British Guiana 1c Magenta stamp (as of 2023-09-30).\n*   The user is actively working on web development projects involving JavaScript, specifically building interactive card-based arithmetic games (as of 2023-10-05).\n\n### Preferences and habits\n*   **Cleaning Routine:** The user has been maintaining a 30-minute daily cleaning routine for 3 weeks (as of 2023-07-15). They find that this routine significantly improves their productivity and energy levels.\n*   **Productivity Tools:** The user has decided to use **Habitica** to manage their tasks and habits.\n*   **One-Touch Rule:** The user is implementing the \"one-touch rule\" (handling items or tasks immediately to avoid procrastination). They plan to apply this to:\n    *   Putting away dirty dishes immediately after meals.\n    *   Responding to simple emails as soon as they are read.\n    *   Organizing digital files and documents (using the 4-box method: Delete, File, Take Action, or Delegate).\n*   **Digital Organization:** The user intends to create a \"Someday\" folder for digital files and documents that do not require immediate attention but may be useful later.\n*   **Motivation:** The user plans to use Habitica’s built-in rewards system to stay motivated, specifically by treating themselves to a favorite meal or activity after reaching milestones for completing tasks or following the one-touch rule.\n*   **Cooking/BBQ:** \n    *   The user is interested in experimenting with homemade BBQ sauce recipes, focusing on balancing sweet, tangy, and spicy elements. They are also learning to pair different wood types (Hickory, Oak, Mesquite, Applewood, Cherrywood) with specific meats. They currently favor a specific BBQ sauce purchased from a Texas vendor at a recent festival.\n    *   The user is beginning to explore traditional Punjabi cuisine to connect with their heritage, starting with the classic dish *Sarson Ka Saag* with *Makki Di Roti*.\n*   **Learning Habits:** The user enjoys educational content, specifically Crash Course videos, and is interested in podcasts about entrepreneurship and business building (e.g., \"How I Built This\").\n*   **Writing Habits:**\n    *   The user dedicates three hours every weekend to their short story collection.\n    *   The user participates in a writing community on social media to stay motivated through weekly prompts and exercises.\n    *   The user prefers writing in the park for the fresh air and quiet environment.\n    *   The user maintains a writing journal to track progress, brainstorm, and identify patterns.\n    *   The user has identified that they are most creative and fluid in the mornings and is attempting to shift their writing sessions to earlier in the day.\n*   **Reading Preferences:** The user enjoys historical fiction; they recently finished \"The Nightingale\" and are planning to read \"All the Light We Cannot See\" by Anthony Doerr.\n*   **Interior Design Preferences:** The user prefers a cohesive aesthetic for their home, favoring natural materials (sisal, linen, cotton, wood, rattan) and earthy tones (beige, taupe, oatmeal) to complement their grey velvet sofa. They are interested in mixing textures and adding metallic accents (gold, brass, copper) for sophistication.\n*   **Collectibles:** The user is currently researching methods to authenticate, appraise, and sell their inherited stamp collection (as of 2023-09-30).\n*   **Programming Habits:** The user is comfortable debugging JavaScript and is currently focused on DOM manipulation and event handling for web-based applications.\n\n### Ongoing situations and plans\n*   **Habitica Setup:** The user is in the process of setting up Habitica to track:\n    *   A general \"daily cleaning\" habit (to maintain their 30-minute routine).\n    *   A \"one-touch rule\" habit (tracked as a binary yes/no).\n*   **Digital Decluttering:** The user has an ongoing goal to organize their digital files and documents.\n*   **BBQ Plans:** The user is planning to host a backyard BBQ party and is researching recipes (specifically Smoky Baked Beans) and entertainment ideas (lawn games, DIY activities).\n*   **Smoking Techniques:** The user is actively practicing smoking meats (specifically brisket) using their new smoker and is experimenting with wood pairings.\n*   **Professional Development:**\n    *   The user is preparing for the AWS Certified Cloud Practitioner exam.\n    *   The user is planning to start a project on AWS.\n    *   The user is expanding their machine learning knowledge, specifically targeting advanced topics like reinforcement learning, generative models (GANs, VAEs), and Natural Language Processing (NLP).\n    *   The user is currently exploring deep learning frameworks (PyTorch, TensorFlow, Keras) and the Hugging Face Transformers library for text classification tasks.\n*   **Writing Goals:** The user is continuing to develop their short story collection, focusing on sensory details and emotional honesty to capture childhood experiences.\n*   **Cultural Exploration:** The user is planning to cook traditional Punjabi dishes to bond with their father and learn more about their family's cultural traditions.\n*   **Home Improvement:**\n    *   The user is researching new mattresses (considering Casper vs. Purple).\n    *   The user is planning to purchase a sisal rug to pair with their grey velvet sofa.\n    *   The user is looking for throw pillows (linen, cotton, or velvet) and decorative items (plants, metallic accents, woven baskets) to complete their living room decor.\n*   **Stamp Collection:** The user is planning to have their stamp collection authenticated and appraised by professional organizations (e.g., The Philatelic Foundation) before deciding whether to sell via auction houses (e.g., Christie's, Sotheby's) or online marketplaces (e.g., eBay) (as of 2023-09-30).\n\n### Changes over time\n*   **Crash Course Progress:** The user has watched 15 videos as of 2023-09-30; previously 12 as of 2023-08-11.",
+ "answer": "To answer your question, I will break down the information provided in your history:\n\n**Step 1: Extract relevant information**\n*   As of 2023-08-11, you had completed 12 Crash Course videos.\n*   As of 2023-09-30, you had completed 15 Crash Course videos.\n\n**Step 2: Reason over the information**\n*   To find the number of videos watched in that timeframe, I subtract the initial count from the final count: 15 - 12 = 3.\n\n**Answer:**\nYou have watched 3 Crash Course videos in the past few weeks (between August 11, 2023, and September 30, 2023).",
+ "dump": "### Personal facts\n*   The user is currently focused on improving their organization, productivity, and energy levels.\n*   The user is of Indian heritage; their father is from the northern state of Punjab, India. The user is actively exploring this cultural background.\n*   The user recently attended a BBQ festival in the city and is actively interested in BBQ cooking, including smoking meats and making homemade sauces.\n*   The user owns a new smoker.\n*   The user is actively pursuing technical education, specifically in cloud computing (AWS), machine learning (Python-based), and computer science.\n*   The user has completed 15 Crash Course videos on computer science (as of 2023-09-30; previously 12 as of 2023-08-11).\n*   The user has previously completed a Python programming course on edX.\n*   The user is an aspiring writer currently working on a short story collection focused on themes of childhood memories and family.\n*   The user started their short story collection one month ago (as of 2023-08-13).\n*   The user is socially conscious and expresses frustration regarding systemic inequality, specifically the lack of proactive political representation and inclusion for marginalized communities.\n*   The user owns a grey velvet sectional sofa from West Elm.\n*   The user is currently in the process of redecorating their living space, specifically looking for a new mattress, a sisal rug, throw pillows, and decorative accents.\n*   The user actively engages with online communities like Kaggle and Reddit to learn, receive project feedback, and network with peers in the machine learning and NLP fields.\n*   The user has inherited a collection of rare stamps from their uncle. The user believes this collection includes an 1855 British Guiana 1c Magenta stamp (as of 2023-09-30).\n*   The user is actively working on web development projects involving JavaScript, specifically building interactive card-based arithmetic games (as of 2023-10-05).\n\n### Preferences and habits\n*   **Cleaning Routine:** The user has been maintaining a 30-minute daily cleaning routine for 3 weeks (as of 2023-07-15). They find that this routine significantly improves their productivity and energy levels.\n*   **Productivity Tools:** The user has decided to use **Habitica** to manage their tasks and habits.\n*   **One-Touch Rule:** The user is implementing the \"one-touch rule\" (handling items or tasks immediately to avoid procrastination). They plan to apply this to:\n    *   Putting away dirty dishes immediately after meals.\n    *   Responding to simple emails as soon as they are read.\n    *   Organizing digital files and documents (using the 4-box method: Delete, File, Take Action, or Delegate).\n*   **Digital Organization:** The user intends to create a \"Someday\" folder for digital files and documents that do not require immediate attention but may be useful later.\n*   **Motivation:** The user plans to use Habitica’s built-in rewards system to stay motivated, specifically by treating themselves to a favorite meal or activity after reaching milestones for completing tasks or following the one-touch rule.\n*   **Cooking/BBQ:** \n    *   The user is interested in experimenting with homemade BBQ sauce recipes, focusing on balancing sweet, tangy, and spicy elements. They are also learning to pair different wood types (Hickory, Oak, Mesquite, Applewood, Cherrywood) with specific meats. They currently favor a specific BBQ sauce purchased from a Texas vendor at a recent festival.\n    *   The user is beginning to explore traditional Punjabi cuisine to connect with their heritage, starting with the classic dish *Sarson Ka Saag* with *Makki Di Roti*.\n*   **Learning Habits:** The user enjoys educational content, specifically Crash Course videos, and is interested in podcasts about entrepreneurship and business building (e.g., \"How I Built This\").\n*   **Writing Habits:**\n    *   The user dedicates three hours every weekend to their short story collection.\n    *   The user participates in a writing community on social media to stay motivated through weekly prompts and exercises.\n    *   The user prefers writing in the park for the fresh air and quiet environment.\n    *   The user maintains a writing journal to track progress, brainstorm, and identify patterns.\n    *   The user has identified that they are most creative and fluid in the mornings and is attempting to shift their writing sessions to earlier in the day.\n*   **Reading Preferences:** The user enjoys historical fiction; they recently finished \"The Nightingale\" and are planning to read \"All the Light We Cannot See\" by Anthony Doerr.\n*   **Interior Design Preferences:** The user prefers a cohesive aesthetic for their home, favoring natural materials (sisal, linen, cotton, wood, rattan) and earthy tones (beige, taupe, oatmeal) to complement their grey velvet sofa. They are interested in mixing textures and adding metallic accents (gold, brass, copper) for sophistication.\n*   **Collectibles:** The user is currently researching methods to authenticate, appraise, and sell their inherited stamp collection (as of 2023-09-30).\n*   **Programming Habits:** The user is comfortable debugging JavaScript and is currently focused on DOM manipulation and event handling for web-based applications.\n\n### Ongoing situations and plans\n*   **Habitica Setup:** The user is in the process of setting up Habitica to track:\n    *   A general \"daily cleaning\" habit (to maintain their 30-minute routine).\n    *   A \"one-touch rule\" habit (tracked as a binary yes/no).\n*   **Digital Decluttering:** The user has an ongoing goal to organize their digital files and documents.\n*   **BBQ Plans:** The user is planning to host a backyard BBQ party and is researching recipes (specifically Smoky Baked Beans) and entertainment ideas (lawn games, DIY activities).\n*   **Smoking Techniques:** The user is actively practicing smoking meats (specifically brisket) using their new smoker and is experimenting with wood pairings.\n*   **Professional Development:**\n    *   The user is preparing for the AWS Certified Cloud Practitioner exam.\n    *   The user is planning to start a project on AWS.\n    *   The user is expanding their machine learning knowledge, specifically targeting advanced topics like reinforcement learning, generative models (GANs, VAEs), and Natural Language Processing (NLP).\n    *   The user is currently exploring deep learning frameworks (PyTorch, TensorFlow, Keras) and the Hugging Face Transformers library for text classification tasks.\n*   **Writing Goals:** The user is continuing to develop their short story collection, focusing on sensory details and emotional honesty to capture childhood experiences.\n*   **Cultural Exploration:** The user is planning to cook traditional Punjabi dishes to bond with their father and learn more about their family's cultural traditions.\n*   **Home Improvement:**\n    *   The user is researching new mattresses (considering Casper vs. Purple).\n    *   The user is planning to purchase a sisal rug to pair with their grey velvet sofa.\n    *   The user is looking for throw pillows (linen, cotton, or velvet) and decorative items (plants, metallic accents, woven baskets) to complete their living room decor.\n*   **Stamp Collection:** The user is planning to have their stamp collection authenticated and appraised by professional organizations (e.g., The Philatelic Foundation) before deciding whether to sell via auction houses (e.g., Christie's, Sotheby's) or online marketplaces (e.g., eBay) (as of 2023-09-30).\n\n### Changes over time\n*   **Crash Course Progress:** The user has watched 15 videos as of 2023-09-30; previously 12 as of 2023-08-11.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 32.0,
+  "total": 33.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

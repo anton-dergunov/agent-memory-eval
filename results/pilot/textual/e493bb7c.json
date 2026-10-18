@@ -1,0 +1,95 @@
+{
+ "qid": "e493bb7c",
+ "arm": "textual",
+ "split": "pilot",
+ "question": "Where is the painting 'Ethereal Dreams' by Emma Taylor currently hanging?",
+ "reference": "in my bedroom",
+ "question_date": "2023-11-18 19:24",
+ "sessions": [
+  {
+   "id": "ultrachat_363167",
+   "date": "2023-06-18 04:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_1a374afa_1",
+   "date": "2023-07-11 09:13",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_287713",
+   "date": "2023-07-31 17:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_513900",
+   "date": "2023-08-10 11:09",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6cz1Sq6_177",
+   "date": "2023-08-14 09:15",
+   "evidence": false
+  },
+  {
+   "id": "251bd037",
+   "date": "2023-08-26 04:36",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IcXBFnH_5",
+   "date": "2023-09-18 12:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_1a374afa_2",
+   "date": "2023-10-30 16:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_247306",
+   "date": "2023-11-05 12:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LbqrSdB_0",
+   "date": "2023-11-16 16:49",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user is interested in urban development, specifically the evolution of architecture in Dubai.\n*   The user is an artist or art enthusiast who maintains a personal collection of art pieces.\n*   The user owns a painting titled \"Ethereal Dreams\" by Emma Taylor (identified as such on 2023-10-30).\n*   The user owns a digital print titled \"Moonlit Ocean\" by Jack Harris.\n*   As of 2023-10-30, the user has rearranged their bedroom: \"Moonlit Ocean\" is on the wall, and \"Ethereal Dreams\" is displayed above their bed; previously, \"Ethereal Dreams\" was displayed above the living room sofa (changed 2023-10-30).\n*   The user has a strong interest in the culture of Cardiff, Wales, and is specifically interested in learning the Welsh language.\n*   The user holds conservative political views, expressing skepticism toward revolutionary movements and prioritizing government stability over systemic change.\n*   The user is currently working on a book project and is in the process of sharing chapters with the assistant for review/discussion.\n*   The user has a friend named Rachel; they previously caught up at least once a week, but have experienced a \"dry spell\" in their communication recently.\n*   The user has a friend named Alex who hosts game nights.\n*   The user enjoys party and word-based board games, specifically mentioning an interest in games similar to *Codenames* (e.g., *Taboo*, *Pictionary*, *Deception*).\n*   The user is involved in professional or administrative work related to workforce development and policy implementation (as of 2023-09-18).\n*   The user has expressed a playful, aspirational interest in becoming a \"superhero\" (as of 2023-11-05).\n*   The user is interested in high-energy-density physics and laser research, specifically regarding the West Point Laboratory for Laser Energetics (as of 2023-11-05).\n*   The user is currently studying for the CISSP (Certified Information Systems Security Professional) exam, specifically focusing on the first domain regarding business continuity planning and its life cycle (as of 2023-11-16).\n\n### Preferences and habits\n*   The user has a strong interest in the intersection of modern technology and traditional cultural design.\n*   The user values sustainable architecture and is interested in eco-friendly building practices, such as solar energy, green roofs, and water conservation.\n*   The user is optimistic about the global adoption of sustainable building practices in urban planning.\n*   The user enjoys organizing and curating art supplies and books.\n*   The user values creating cozy, welcoming atmospheres in their home, particularly through the use of soft lighting, textiles, and curated displays.\n*   The user is interested in art journaling and intends to start their own art journal.\n*   The user enjoys attending festivals and cultural events.\n*   The user prefers to avoid political discussions regarding historical revolutions, viewing them as chaotic and unnecessary.\n*   The user is interested in physical health, specifically spinal stability, core strengthening exercises, and ergonomic posture maintenance.\n*   The user is currently feeling a sense of loneliness and is actively seeking ways to expand their social circle.\n*   The user prefers to keep personal matters, such as past scheduling conflicts with friends, private when meeting new people to avoid appearing unreliable or negative.\n*   The user appreciates creative and unconventional approaches to professional tasks, such as using music (e.g., Green Day style) to communicate policy tenets.\n*   The user is interested in exploring surrealism and lowbrow art styles (as of 2023-10-30).\n*   The user is interested in merging abstract art with figurative art (as of 2023-10-30).\n\n### Ongoing situations and plans\n*   The user is actively researching and following architectural trends and upcoming construction projects in Dubai.\n*   The user is in the process of planning an art-themed party.\n*   The user plans to set up various interactive stations for the party, including painting, collage, drawing, printmaking, mixed media, digital art, assemblage, and art journaling.\n*   The user plans to create a photo booth area with props and backdrops for the party.\n*   The user intends to display their own art collection during the party to create a welcoming ambiance.\n*   The user plans to set up a reading corner featuring art books and magazines (specifically mentioning interest in publications like *The Artisan Post* and *Creative Corner*).\n*   The user plans to start learning the Welsh language and is researching adult education courses in Cardiff (e.g., Cardiff and Vale College, Learn Welsh Cardiff, Coleg y Cymoedd, or Cardiff University).\n*   The user plans to attend Welsh cultural festivals, specifically Tafwyl and Eisteddfod Genedlaethol Cymru.\n*   The user is currently developing a book on spinal health and stability; as of 2023-08-14, they are preparing to share Chapter 10 with the assistant.\n*   The user plans to reach out to their friend Rachel to reconnect; they intend to acknowledge a canceled brunch plan from Valentine's Day and suggest meeting for coffee.\n*   The user plans to join a book club or a sports team to meet new people and improve their social life.\n*   The user is currently developing training materials and implementation strategies for WIOA Title I virtual service delivery policies (as of 2023-09-18).\n*   The user is planning a new art project: a dreamlike scene featuring a figure floating in a misty environment, utilizing glazing, soft brushstrokes, and transparent washes (as of 2023-10-30).\n\n### Changes over time\n*   The user has adopted the title \"The Power of Spinal Stability\" for Chapter 9 of their book, as of 2023-08-14.\n*   The user moved the \"Ethereal Dreams\" painting from the living room to the bedroom, as of 2023-10-30.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   According to the \"Personal facts\" section, the user owns a painting titled \"Ethereal Dreams\" by Emma Taylor.\n    *   The facts state that as of 2023-10-30, the user rearranged their bedroom.\n    *   Specifically, the facts note: \"'Ethereal Dreams' is displayed above their bed; previously, 'Ethereal Dreams' was displayed above the living room sofa (changed 2023-10-30).\"\n\n2.  **Reason over the information:**\n    *   The most recent update regarding the location of the painting is from 2023-10-30, which places it in the bedroom.\n    *   There is no information indicating that the painting has been moved since that date.\n\n3.  **Conclusion:**\n    *   The painting \"Ethereal Dreams\" by Emma Taylor is currently hanging in the user's bedroom, specifically above their bed.",
+ "dump": "### Personal facts\n*   The user is interested in urban development, specifically the evolution of architecture in Dubai.\n*   The user is an artist or art enthusiast who maintains a personal collection of art pieces.\n*   The user owns a painting titled \"Ethereal Dreams\" by Emma Taylor (identified as such on 2023-10-30).\n*   The user owns a digital print titled \"Moonlit Ocean\" by Jack Harris.\n*   As of 2023-10-30, the user has rearranged their bedroom: \"Moonlit Ocean\" is on the wall, and \"Ethereal Dreams\" is displayed above their bed; previously, \"Ethereal Dreams\" was displayed above the living room sofa (changed 2023-10-30).\n*   The user has a strong interest in the culture of Cardiff, Wales, and is specifically interested in learning the Welsh language.\n*   The user holds conservative political views, expressing skepticism toward revolutionary movements and prioritizing government stability over systemic change.\n*   The user is currently working on a book project and is in the process of sharing chapters with the assistant for review/discussion.\n*   The user has a friend named Rachel; they previously caught up at least once a week, but have experienced a \"dry spell\" in their communication recently.\n*   The user has a friend named Alex who hosts game nights.\n*   The user enjoys party and word-based board games, specifically mentioning an interest in games similar to *Codenames* (e.g., *Taboo*, *Pictionary*, *Deception*).\n*   The user is involved in professional or administrative work related to workforce development and policy implementation (as of 2023-09-18).\n*   The user has expressed a playful, aspirational interest in becoming a \"superhero\" (as of 2023-11-05).\n*   The user is interested in high-energy-density physics and laser research, specifically regarding the West Point Laboratory for Laser Energetics (as of 2023-11-05).\n*   The user is currently studying for the CISSP (Certified Information Systems Security Professional) exam, specifically focusing on the first domain regarding business continuity planning and its life cycle (as of 2023-11-16).\n\n### Preferences and habits\n*   The user has a strong interest in the intersection of modern technology and traditional cultural design.\n*   The user values sustainable architecture and is interested in eco-friendly building practices, such as solar energy, green roofs, and water conservation.\n*   The user is optimistic about the global adoption of sustainable building practices in urban planning.\n*   The user enjoys organizing and curating art supplies and books.\n*   The user values creating cozy, welcoming atmospheres in their home, particularly through the use of soft lighting, textiles, and curated displays.\n*   The user is interested in art journaling and intends to start their own art journal.\n*   The user enjoys attending festivals and cultural events.\n*   The user prefers to avoid political discussions regarding historical revolutions, viewing them as chaotic and unnecessary.\n*   The user is interested in physical health, specifically spinal stability, core strengthening exercises, and ergonomic posture maintenance.\n*   The user is currently feeling a sense of loneliness and is actively seeking ways to expand their social circle.\n*   The user prefers to keep personal matters, such as past scheduling conflicts with friends, private when meeting new people to avoid appearing unreliable or negative.\n*   The user appreciates creative and unconventional approaches to professional tasks, such as using music (e.g., Green Day style) to communicate policy tenets.\n*   The user is interested in exploring surrealism and lowbrow art styles (as of 2023-10-30).\n*   The user is interested in merging abstract art with figurative art (as of 2023-10-30).\n\n### Ongoing situations and plans\n*   The user is actively researching and following architectural trends and upcoming construction projects in Dubai.\n*   The user is in the process of planning an art-themed party.\n*   The user plans to set up various interactive stations for the party, including painting, collage, drawing, printmaking, mixed media, digital art, assemblage, and art journaling.\n*   The user plans to create a photo booth area with props and backdrops for the party.\n*   The user intends to display their own art collection during the party to create a welcoming ambiance.\n*   The user plans to set up a reading corner featuring art books and magazines (specifically mentioning interest in publications like *The Artisan Post* and *Creative Corner*).\n*   The user plans to start learning the Welsh language and is researching adult education courses in Cardiff (e.g., Cardiff and Vale College, Learn Welsh Cardiff, Coleg y Cymoedd, or Cardiff University).\n*   The user plans to attend Welsh cultural festivals, specifically Tafwyl and Eisteddfod Genedlaethol Cymru.\n*   The user is currently developing a book on spinal health and stability; as of 2023-08-14, they are preparing to share Chapter 10 with the assistant.\n*   The user plans to reach out to their friend Rachel to reconnect; they intend to acknowledge a canceled brunch plan from Valentine's Day and suggest meeting for coffee.\n*   The user plans to join a book club or a sports team to meet new people and improve their social life.\n*   The user is currently developing training materials and implementation strategies for WIOA Title I virtual service delivery policies (as of 2023-09-18).\n*   The user is planning a new art project: a dreamlike scene featuring a figure floating in a misty environment, utilizing glazing, soft brushstrokes, and transparent washes (as of 2023-10-30).\n\n### Changes over time\n*   The user has adopted the title \"The Power of Spinal Stability\" for Chapter 9 of their book, as of 2023-08-14.\n*   The user moved the \"Ethereal Dreams\" painting from the living room to the bedroom, as of 2023-10-30.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 59.3,
+  "total": 69.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

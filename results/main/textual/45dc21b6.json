@@ -1,0 +1,91 @@
+{
+ "qid": "45dc21b6",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many of Emma's recipes have I tried out?",
+ "reference": "3",
+ "question_date": "2023-06-16 17:33",
+ "sessions": [
+  {
+   "id": "b7f69a7d_2",
+   "date": "2023-05-10 06:12",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BVfC7JV_0",
+   "date": "2023-05-19 15:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yZ6yXnQ_0",
+   "date": "2023-05-19 16:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhK5G9o_0",
+   "date": "2023-05-20 08:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_1",
+   "date": "2023-05-29 04:51",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_169242",
+   "date": "2023-05-29 07:04",
+   "evidence": false
+  },
+  {
+   "id": "7caf3391_2",
+   "date": "2023-05-30 00:59",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467365",
+   "date": "2023-05-30 04:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_2",
+   "date": "2023-05-30 06:32",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_gGriMhQ_91",
+   "date": "2023-05-30 07:25",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is active on Instagram and recently received 23 comments on their posts (as of 2023-05-10).\n* The user is involved in professional or academic organizing, specifically regarding the hosting of an international conference.\n* The user is currently engaged in legal research or analysis, specifically reviewing the case *Boulus Constructions Pty Ltd v Warrumbungle Shire Council (No 2) [2022] NSWSC 1368*.\n* The user demonstrates an interest in linguistic categorization and semantic organization (as of 2023-05-20).\n* The user is a tech enthusiast who follows prominent reviewers such as Unbox Therapy (Lewis Hilsenteger), JerryRigEverything, and Marques Brownlee (MKBHD).\n* The user has an interest in cooking and has successfully tried 3 recipes from the YouTube channel \"Emma's recipes\" (as of 2023-05-30).\n* The user enjoys watching content related to history, travel, and ASMR.\n* The user is interested in the development of artificial intelligence, machine learning, electric vehicles, and sustainable energy.\n* The user has an interest in NFL history, specifically iconic Monday Night Football games, and enjoys underdog stories and comeback narratives (as of 2023-05-29).\n* The user has a backyard and has observed Blue Jays nesting there (as of 2023-05-30).\n* The user is a business owner currently exploring the possibility of relocating their business to the Plano, Texas area (as of 2023-05-30).\n* The user is a content creator known as \"ShaunPro\" who produces music-focused vlogs and late-night Twitch livestreams (as of 2023-05-30).\n\n### Preferences and habits\n* The user is social and enjoys planning group trips with friends.\n* The user prefers organized communication methods for group planning, utilizing both WhatsApp group chats and Facebook events.\n* The user values collaborative decision-making, evidenced by their plan to use polls and request feedback/reasons from friends regarding trip destinations.\n* The user has an interest in educational development and thematic event planning, specifically connecting historical scientific figures (Charles Darwin) to modern professional evolution.\n* The user demonstrates a methodical approach to complex tasks, such as breaking down long legal documents into multiple parts for analysis.\n* The user prefers precise, logical categorization and is willing to challenge the assistant to refine outputs to meet specific constraints.\n* The user enjoys trying new recipes and has a preference for vegan desserts (e.g., has tried vegan cheesecake and is planning to try Chocolate Chia Pudding).\n* The user is actively exploring vegan culinary experiences, including local vegan restaurants and cooking workshops.\n* The user conducts thorough research before making tech purchases, relying on in-depth video reviews.\n* The user prefers to watch classic sports games via streaming services like NFL Game Pass, ESPN+, Amazon Prime Video, or YouTube.\n* The user is interested in birdwatching and gardening, specifically focusing on attracting Blue Jays and hummingbirds to their backyard.\n* The user values native plants for their ecological benefits and low-maintenance nature.\n* The user is proactive in researching business environments, including tax incentives, economic development resources, and workforce programs (as of 2023-05-30).\n* The user prefers central accommodations when traveling to facilitate easy access to activities like cooking classes.\n* The user is willing to use ride-hailing services or taxis to transport equipment and ingredients for cooking classes.\n* The user prefers content structures that emphasize tension, suspense, and narrative arcs (triumph) for their vlogs and livestreams.\n\n### Ongoing situations and plans\n* The user is currently planning a weekend getaway with friends.\n* The user has an existing WhatsApp group chat for their friends to discuss trip details.\n* The user is in the process of finalizing the destination for the trip using a poll with the following options: New Orleans, LA; Austin, TX; Nashville, TN; Undecided.\n* The user plans to create a Facebook event to centralize information once the destination is finalized.\n* The user is planning an international conference to be held in Darwin, Australia, in October 2025, titled \"Evolution of the Teachers.\"\n* The user is currently working on identifying the main issues within the legal case *Boulus Constructions Pty Ltd v Warrumbungle Shire Council (No 2)*.\n* The user is considering purchasing a Google Pixel 6 for vlogging purposes.\n* The user plans to try making Chocolate Chia Pudding this weekend (as of 2023-05-29).\n* The user plans to watch the 2006 Week 3 Monday Night Football game between the New Orleans Saints and the Atlanta Falcons on NFL Game Pass (as of 2023-05-29).\n* The user is planning to set up a bird feeder for Blue Jays and is researching how to keep it clean and squirrel/raccoon-proof.\n* The user is planning to create a hummingbird garden and is researching suitable native plants and birdbath requirements (as of 2023-05-30).\n* The user is researching business relocation resources for the Plano, Texas area, including the Plano Chamber of Commerce, the Texas Enterprise Fund, and the Small Business Development Center at Collin College (as of 2023-05-30).\n* The user is planning a 5-7 day trip to Europe, specifically considering Spain (Barcelona) and Italy (Rome).\n* The user intends to book vegan cooking classes or workshops in Barcelona and Rome and is researching central, affordable accommodations for these stays.\n* The user is actively developing storyboard structures for their \"ShaunPro\" music production vlogs and late-night Twitch streams (as of 2023-05-30).\n\n### Changes over time\n* None.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   Under the \"Personal facts\" section, it is stated: \"The user has an interest in cooking and has successfully tried 3 recipes from the YouTube channel 'Emma's recipes' (as of 2023-05-30).\"\n\n2.  **Reason over the information:**\n    *   The provided history explicitly confirms the number of recipes from \"Emma's recipes\" that the user has successfully tried.\n    *   There is no information indicating that the user has tried any additional recipes from this specific channel since the date of that record (2023-05-30).\n\n3.  **Conclusion:**\n    *   You have tried 3 of Emma's recipes.",
+ "dump": "### Personal facts\n* The user is active on Instagram and recently received 23 comments on their posts (as of 2023-05-10).\n* The user is involved in professional or academic organizing, specifically regarding the hosting of an international conference.\n* The user is currently engaged in legal research or analysis, specifically reviewing the case *Boulus Constructions Pty Ltd v Warrumbungle Shire Council (No 2) [2022] NSWSC 1368*.\n* The user demonstrates an interest in linguistic categorization and semantic organization (as of 2023-05-20).\n* The user is a tech enthusiast who follows prominent reviewers such as Unbox Therapy (Lewis Hilsenteger), JerryRigEverything, and Marques Brownlee (MKBHD).\n* The user has an interest in cooking and has successfully tried 3 recipes from the YouTube channel \"Emma's recipes\" (as of 2023-05-30).\n* The user enjoys watching content related to history, travel, and ASMR.\n* The user is interested in the development of artificial intelligence, machine learning, electric vehicles, and sustainable energy.\n* The user has an interest in NFL history, specifically iconic Monday Night Football games, and enjoys underdog stories and comeback narratives (as of 2023-05-29).\n* The user has a backyard and has observed Blue Jays nesting there (as of 2023-05-30).\n* The user is a business owner currently exploring the possibility of relocating their business to the Plano, Texas area (as of 2023-05-30).\n* The user is a content creator known as \"ShaunPro\" who produces music-focused vlogs and late-night Twitch livestreams (as of 2023-05-30).\n\n### Preferences and habits\n* The user is social and enjoys planning group trips with friends.\n* The user prefers organized communication methods for group planning, utilizing both WhatsApp group chats and Facebook events.\n* The user values collaborative decision-making, evidenced by their plan to use polls and request feedback/reasons from friends regarding trip destinations.\n* The user has an interest in educational development and thematic event planning, specifically connecting historical scientific figures (Charles Darwin) to modern professional evolution.\n* The user demonstrates a methodical approach to complex tasks, such as breaking down long legal documents into multiple parts for analysis.\n* The user prefers precise, logical categorization and is willing to challenge the assistant to refine outputs to meet specific constraints.\n* The user enjoys trying new recipes and has a preference for vegan desserts (e.g., has tried vegan cheesecake and is planning to try Chocolate Chia Pudding).\n* The user is actively exploring vegan culinary experiences, including local vegan restaurants and cooking workshops.\n* The user conducts thorough research before making tech purchases, relying on in-depth video reviews.\n* The user prefers to watch classic sports games via streaming services like NFL Game Pass, ESPN+, Amazon Prime Video, or YouTube.\n* The user is interested in birdwatching and gardening, specifically focusing on attracting Blue Jays and hummingbirds to their backyard.\n* The user values native plants for their ecological benefits and low-maintenance nature.\n* The user is proactive in researching business environments, including tax incentives, economic development resources, and workforce programs (as of 2023-05-30).\n* The user prefers central accommodations when traveling to facilitate easy access to activities like cooking classes.\n* The user is willing to use ride-hailing services or taxis to transport equipment and ingredients for cooking classes.\n* The user prefers content structures that emphasize tension, suspense, and narrative arcs (triumph) for their vlogs and livestreams.\n\n### Ongoing situations and plans\n* The user is currently planning a weekend getaway with friends.\n* The user has an existing WhatsApp group chat for their friends to discuss trip details.\n* The user is in the process of finalizing the destination for the trip using a poll with the following options: New Orleans, LA; Austin, TX; Nashville, TN; Undecided.\n* The user plans to create a Facebook event to centralize information once the destination is finalized.\n* The user is planning an international conference to be held in Darwin, Australia, in October 2025, titled \"Evolution of the Teachers.\"\n* The user is currently working on identifying the main issues within the legal case *Boulus Constructions Pty Ltd v Warrumbungle Shire Council (No 2)*.\n* The user is considering purchasing a Google Pixel 6 for vlogging purposes.\n* The user plans to try making Chocolate Chia Pudding this weekend (as of 2023-05-29).\n* The user plans to watch the 2006 Week 3 Monday Night Football game between the New Orleans Saints and the Atlanta Falcons on NFL Game Pass (as of 2023-05-29).\n* The user is planning to set up a bird feeder for Blue Jays and is researching how to keep it clean and squirrel/raccoon-proof.\n* The user is planning to create a hummingbird garden and is researching suitable native plants and birdbath requirements (as of 2023-05-30).\n* The user is researching business relocation resources for the Plano, Texas area, including the Plano Chamber of Commerce, the Texas Enterprise Fund, and the Small Business Development Center at Collin College (as of 2023-05-30).\n* The user is planning a 5-7 day trip to Europe, specifically considering Spain (Barcelona) and Italy (Rome).\n* The user intends to book vegan cooking classes or workshops in Barcelona and Rome and is researching central, affordable accommodations for these stays.\n* The user is actively developing storyboard structures for their \"ShaunPro\" music production vlogs and late-night Twitch streams (as of 2023-05-30).\n\n### Changes over time\n* None.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 24.2,
+  "total": 25.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

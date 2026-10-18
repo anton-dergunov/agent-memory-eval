@@ -1,0 +1,100 @@
+{
+ "qid": "4b24c848",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many tops have I bought from H&M so far?",
+ "reference": "five",
+ "question_date": "2023-10-20 08:09",
+ "sessions": [
+  {
+   "id": "sharegpt_yK69lIT_0",
+   "date": "2023-07-15 13:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_2cec623b_1",
+   "date": "2023-08-11 03:18",
+   "evidence": true
+  },
+  {
+   "id": "f5245daf_2",
+   "date": "2023-08-13 17:19",
+   "evidence": false
+  },
+  {
+   "id": "94f0d575_1",
+   "date": "2023-08-19 20:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_244540",
+   "date": "2023-08-20 14:53",
+   "evidence": false
+  },
+  {
+   "id": "9786d553",
+   "date": "2023-08-24 16:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_234135",
+   "date": "2023-08-26 21:17",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_209858",
+   "date": "2023-09-14 15:33",
+   "evidence": false
+  },
+  {
+   "id": "4555584c_2",
+   "date": "2023-09-17 13:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_2cec623b_2",
+   "date": "2023-09-30 06:40",
+   "evidence": true
+  }
+ ],
+ "context": "- User already owns five tops from H&M and is considering purchasing more. (from a chat on 2023-09-30)\n- User recently purchased three tops from H&M and is enjoying their summer collection. (from a chat on 2023-08-11)\n- User is planning a mall trip for the weekend of September 30, 2023, and is interested in sales at H&M and Sephora. (from a chat on 2023-09-30)\n- User was informed about the H&M Member loyalty program, which offers points for purchases, exclusive discounts, early access to sales, and birthday rewards. (from a chat on 2023-08-11)\n- User is looking for sneaker deals and inquired about current promotions or sales at ASOS, noting they have placed orders there recently. (from a chat on 2023-09-30)\n- User was provided with a list of online marketplaces for vintage and second-hand clothing, including eBay, ThredUp, Poshmark, Depop, Etsy, The RealReal, ASOS Marketplace, Vestiaire Collective, and Ruby Lane. (from a chat on 2023-08-11)\n- User is seeking information on sales or promo codes for household essentials at Target. (from a chat on 2023-09-30)\n- User listens to 'The Daily' podcast during their morning workout and finds it informative. (from a chat on 2023-08-24)\n- User has been listening to podcasts for approximately 6 weeks as of August 24, 2023, and finds them to be a game-changer for their daily commute and morning workouts. (from a chat on 2023-08-24)\n- User has visited a new local thrift store called The Vault and was impressed by their selection. (from a chat on 2023-08-11)\n- User enjoys 'The Power' by Naomi Alderman and the 'How I Built This' podcast. (from a chat on 2023-09-17)\n- User is exploring bike-sharing schemes in their city center to commute from the train station to their office, needing a bike suitable for a short-to-medium distance commute. (from a chat on 2023-09-17)\n- User is a computer science professional with experience in Python and machine learning, currently looking to specialize in Natural Language Processing (NLP). (from a chat on 2023-08-13)\n- User was recommended conversational and interview-style podcasts including 'How I Built This', 'The GaryVee Audio Experience', 'The Hustle', 'Hardcore History', 'Lore and Order', 'The Dollop', 'StarTalk Radio', 'The TED Radio Hour', 'Science Vs', 'The Tim Ferriss Show', 'The School of Greatness', and 'The Happiness Lab'. (from a chat on 2023-08-24)\n- User is interested in visiting a local thrift store called The Vault near their workplace. (from a chat on 2023-09-30)\n- User was provided with examples of past summer-themed events at Disney California Adventure Park, such as 'Summer of Heroes' and 'Pixar Fest', to help manage expectations for their upcoming visit. (from a chat on 2023-08-19)\n- User plans to visit a local bookstore on the weekend of September 30, 2023, specifically to browse the sci-fi section while having coffee. (from a chat on 2023-09-30)\n- User was introduced to popular language and text generation models including BERT, Transformer-XL, and GPT-2. (from a chat on 2023-08-13)\n- User is interested in a new pedestrian path that opened in August 2023 to see if it offers a faster or more scenic route to their office. (from a chat on 2023-09-17)\n- User was recommended podcasts 'Stuff You Should Know', 'Radiolab', 'How Did This Get Made?', 'The TED Radio Hour', 'The Daily', 'The Tim Ferriss Show', 'Masters of Scale', and 'The Hustle'. (from a chat on 2023-09-17)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-08-11: \"User recently purchased three tops from H&M.\"\n    *   From the chat on 2023-09-30: \"User already owns five tops from H&M and is considering purchasing more.\"\n\n2.  **Reason over the information:**\n    *   The information from August 11th confirms a purchase of three tops.\n    *   The information from September 30th states that the user \"already owns five tops.\"\n    *   Since the user owned five tops as of September 30th, and there is no record of additional purchases between September 30th and the current date (October 20th), the total number of tops the user has bought from H&M is five. (The three mentioned in August are included in the total count of five owned by September).\n\n**Answer:** You have bought five tops from H&M so far.",
+ "dump": "- User was informed that Disney California Adventure Park typically does not have a regular fireworks show like Disneyland Park, though special displays may occur during holidays like the 4th of July. (session 2023-08-19)\n- User was recommended podcasts focused on emerging technologies like AI, blockchain, and cybersecurity, including 'AI in Industry', 'Machine Learning Mastery', 'AI Alignment', 'The Blockchain Show', 'The Cryptoconomy', 'Blockcrunch', 'The CyberWire', 'Hack Naked', 'Cybersecurity Podcast', 'The TWI Podcast', 'The Exponential View', and 'TechFirst'. (session 2023-08-24)\n- User stayed at the Grand Californian Hotel during a recent trip to the Disneyland Resort. (session 2023-08-19)\n- User was recommended the following sci-fi books: 'The Three-Body Problem' by Liu Cixin, 'Diaspora' by Greg Egan, 'The Long Way to a Small, Angry Planet' by Becky Chambers, 'Ancillary Justice' by Ann Leckie, and 'The Expanse' series by James S. A. Corey. (session 2023-09-30)\n- User is seeking information on sales or promo codes for household essentials at Target. (session 2023-09-30)\n- User was recommended the Stanford Natural Language Processing with Deep Learning Specialization on Coursera, along with courses from the University of Colorado Boulder and the University of Oxford. (session 2023-08-13)\n- User is interested in the impact of modern and future technology on the traditions, cultural practices, and agricultural methods of the Afrikaner people. (session 2023-09-14)\n- User was provided with a list of online marketplaces for vintage and second-hand clothing, including eBay, ThredUp, Poshmark, Depop, Etsy, The RealReal, ASOS Marketplace, Vestiaire Collective, and Ruby Lane. (session 2023-08-11)\n- User was recommended various podcasts for their 20-30 minute commute, including 'The Daily', 'Pod Save America', 'The Happiness Lab', 'The 5 AM Miracle', 'The Tiny Leaps Podcast', 'The Dollop', 'Ologies', 'Lars Brownworth's Historical Podcast', 'The TWI Podcast', 'StarTalk Sports Edition', '60-Second Science', 'The Magnus Archives', 'LeVar Burton Reads', and 'The Memory Place'. (session 2023-08-24)\n- User was informed about the H&M Member loyalty program, which offers points for purchases, exclusive discounts, early access to sales, and birthday rewards. (session 2023-08-11)\n- User already owns five tops from H&M and is considering purchasing more. (session 2023-09-30)\n- User is planning a mall trip for the weekend of September 30, 2023, and is interested in sales at H&M and Sephora. (session 2023-09-30)\n- User was recommended conversational and interview-style podcasts including 'How I Built This', 'The GaryVee Audio Experience', 'The Hustle', 'Hardcore History', 'Lore and Order', 'The Dollop', 'StarTalk Radio', 'The TED Radio Hour', 'Science Vs', 'The Tim Ferriss Show', 'The School of Greatness', and 'The Happiness Lab'. (session 2023-08-24)\n- User discussed potential negative impacts of technology on Afrikaner traditions, including the decline of face-to-face interactions, reduced participation in traditional storytelling and arts, and environmental concerns related to modern farming practices. (session 2023-09-14)\n- User is interested in learning about traditional Fulani culture, specifically their core values such as respect for elders, hospitality, courage, and their nomadic lifestyle. (session 2023-08-26)\n- User was provided with a code example for performing sentiment analysis using NLTK's VADER (Valence Aware Dictionary and sEntiment Reasoner) tool. (session 2023-08-13)\n- User has been listening to podcasts for approximately 6 weeks as of August 24, 2023, and finds them to be a game-changer for their daily commute and morning workouts. (session 2023-08-24)\n- User was recommended several fireworks viewing spots at Disneyland Park, including Main Street USA, 'it's a small world' Mall, Rivers of America, Mickey's Toontown, and the Disneyland Railroad station. (session 2023-08-19)\n- User was recommended current events podcasts including 'Pod Save America', 'NPR's Up First', 'The BBC's The Daily', 'The Axios Daily', 'The Washington Post's Post Reports', 'Politico's Playbook', 'The New Yorker's Politics and More', 'KCRW's Left, Right & Center', 'The Economist's The Intelligence', and 'Reuters' The Exchange'. (session 2023-08-24)\n- User is planning a trip to Disneyland with their family and is seeking advice on fireworks viewing spots. (session 2023-08-19)\n- User believes they attended an exclusive 'Summer Nights' event at Disney California Adventure Park on June 15-16, 2023, featuring a 10 PM fireworks display. (session 2023-08-19)\n- User was informed about how technology impacts Afrikaner culture through improved communication, expanded educational access, lifestyle changes like online shopping, and agricultural advancements such as mechanization and irrigation. (session 2023-09-14)\n- User's father is a tech enthusiast who holds a master's degree in Computer Science from the University of Illinois at Urbana-Champaign and encourages the user to stay updated with field developments. (session 2023-08-13)\n- The Association was a California-based band formed in 1965, known for intricate vocal harmonies, diverse musical styles, and the use of unconventional instruments like the harpsichord and trumpet. (session 2023-08-20)\n- User enjoys listening to podcasts about entrepreneurship, history, and science, and is particularly interested in exploring topics they are not already familiar with. (session 2023-08-24)\n- User was recommended resources for language modeling and text generation, including tutorials from the Stanford NLP Group, Yoav Goldberg's book chapters, and Jay Alammar's blog posts. (session 2023-08-13)\n- User has visited a new local thrift store called The Vault and was impressed by their selection. (session 2023-08-11)\n- User recently purchased three tops from H&M and is enjoying their summer collection. (session 2023-08-11)\n- User is interested in the history and inspiration behind the song 'Windy' by The Association, specifically the story of Wendi Slaton who inspired the lyrics. (session 2023-08-20)\n- User is seeking tools to optimize their 10-minute walk from the train station to their office and was recommended Google Maps, MapQuest, Walkit, Citymapper, Waze, and OpenRouteService. (session 2023-09-17)\n- User was provided with a list of NLP resources including the NLTK Book, spaCy tutorials, Kaggle NLP tutorials, the NLP Subreddit, and Papers with Code. (session 2023-08-13)\n- The Association engaged in significant political and social activism, including supporting environmental causes, the anti-war movement, the Chicano Moratorium in 1970, the United Farm Workers' grape boycott in 1973, and the Surfrider Foundation in the 1980s. (session 2023-08-20)\n- User plans to visit a local bookstore on the weekend of September 30, 2023, specifically to browse the sci-fi section while having coffee. (session 2023-09-30)\n- User was recommended podcasts 'Stuff You Should Know', 'Radiolab', 'How Did This Get Made?', 'The TED Radio Hour', 'The Daily', 'The Tim Ferriss Show', 'Masters of Scale', and 'The Hustle'. (session 2023-09-17)\n- User is interested in a new pedestrian path that opened in August 2023 to see if it offers a faster or more scenic route to their office. (session 2023-09-17)\n- Fulani culture emphasizes nature preservation through practices like grazing land rotation, water conservation using wells and windmills, use of medicinal plants, wildlife protection, and controlled fire management. (session 2023-08-26)\n- User was provided with examples of past summer-themed events at Disney California Adventure Park, such as 'Summer of Heroes' and 'Pixar Fest', to help manage expectations for their upcoming visit. (session 2023-08-19)\n- User was recommended Python libraries for NLP including NLTK, spaCy, Gensim, TextBlob, scikit-learn, OpenNLP, Stanford CoreNLP, and Hugging Face Transformers. (session 2023-08-13)\n- User was introduced to popular language and text generation models including BERT, Transformer-XL, and GPT-2. (session 2023-08-13)\n- User was recommended audiobooks 'The Three-Body Problem' by Liu Cixin, 'The Fifth Season' by N.K. Jemisin, and 'Sapiens: A Brief History of Humankind' by Yuval Noah Harari. (session 2023-09-17)\n- User is exploring bike-sharing schemes in their city center to commute from the train station to their office, needing a bike suitable for a short-to-medium distance commute. (session 2023-09-17)\n- User explored how future technologies like AI, robotics, IoT, and virtual reality might further transform Afrikaner agriculture, commerce, and cultural preservation efforts. (session 2023-09-14)\n- User enjoys 'The Power' by Naomi Alderman and the 'How I Built This' podcast. (session 2023-09-17)\n- User had a conversation with Maileen on July 15, 2023, covering topics including Meta's recent employee layoffs following a company event, a shared interest in young adult novels, and the tendency to cry while watching movies on airplanes. (session 2023-07-15)\n- User was recommended educational podcasts for learning new skills or topics, including 'Coffee Break', 'Duolingo Podcast', 'How to!', 'HBR IdeaCast', 'The Tim Ferriss Show', 'Stuff You Should Know', 'Radiolab', 'StarTalk Radio', 'The School of Greatness', 'The Happiness Lab', 'The Mindful Kind', 'Hardcore History', 'Lore', and 'The History Chicks'. (session 2023-08-24)\n- User is a computer science professional with experience in Python and machine learning, currently looking to specialize in Natural Language Processing (NLP). (session 2023-08-13)\n- User listens to 'The Daily' podcast during their morning workout and finds it informative. (session 2023-08-24)\n- User is interested in visiting a local thrift store called The Vault near their workplace. (session 2023-09-30)\n- User is looking for sneaker deals and inquired about current promotions or sales at ASOS, noting they have placed orders there recently. (session 2023-09-30)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 49,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 35.1,
+  "total": 36.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

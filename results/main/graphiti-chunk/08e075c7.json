@@ -1,0 +1,102 @@
+{
+ "qid": "08e075c7",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How long have I been using my Fitbit Charge 3?",
+ "reference": "9 months",
+ "question_date": "2023-09-04 17:07",
+ "sessions": [
+  {
+   "id": "25b3e36c_1",
+   "date": "2023-06-01 00:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_1",
+   "date": "2023-06-18 00:59",
+   "evidence": true
+  },
+  {
+   "id": "f7344cf4",
+   "date": "2023-06-30 22:55",
+   "evidence": false
+  },
+  {
+   "id": "a8ef396f_2",
+   "date": "2023-07-16 07:55",
+   "evidence": false
+  },
+  {
+   "id": "ae77c245",
+   "date": "2023-08-04 00:36",
+   "evidence": false
+  },
+  {
+   "id": "242eab28_2",
+   "date": "2023-08-05 06:23",
+   "evidence": false
+  },
+  {
+   "id": "77827bdf",
+   "date": "2023-08-12 18:01",
+   "evidence": false
+  },
+  {
+   "id": "a5808e7d_1",
+   "date": "2023-08-22 11:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_2",
+   "date": "2023-09-02 01:13",
+   "evidence": true
+  },
+  {
+   "id": "9037e55b",
+   "date": "2023-09-02 22:40",
+   "evidence": false
+  }
+ ],
+ "context": "- The user owns a yoga mat that they have been using for a while. (valid since 2023-06-18)\n- Fitbit Coach integrates with Fitbit smartwatches like the Fitbit Inspire HR to offer personalized sleep insights and guided relaxation sessions. (valid since 2023-06-01)\n- The user has been using QuickBooks for their business, CreativeSpark Marketing. (valid since 2023-09-02)\n- Garmin Connect provides sleep tracking and integrates specifically with Garmin smartwatches, not Fitbit devices like the Fitbit Inspire HR. (valid since 2023-06-01)\n- The assistant recommends the Fitbit Inspire HR as an excellent choice for sleep tracking. (valid since 2023-06-01)\n- The assistant mentions that Garmin, TomTom, and Magellan are popular brands of GPS devices designed to track long distances accurately. (valid since 2023-08-04)\n- The user started their own business called CreativeSpark Marketing three months ago. (valid since 2023-09-02)\n- The user wonders if their GPS device is capable of tracking 2,500 miles of travel distance accurately (valid since 2023-08-04)\n- The assistant provides guidance to the user on how to create engaging content that resonates with their target audience. (valid since 2023-08-22)\n- assistant recommends various sleep tracking apps that integrate with a smartwatch to provide detailed sleep analysis. (valid since 2023-06-01)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   Reviewing the provided history chats for any mention of a \"Fitbit Charge 3.\"\n*   The history mentions the \"Fitbit Inspire HR\" (valid since 2023-06-01).\n*   The history mentions the user owns a \"yoga mat\" (valid since 2023-06-18).\n*   The history mentions the user's business \"CreativeSpark Marketing\" (valid since 2023-09-02).\n*   There is no mention of the user owning or using a \"Fitbit Charge 3\" in the provided history facts.\n\n**Step 2: Reason over the information**\n*   Since there is no record in the provided history facts indicating that the user owns or has used a Fitbit Charge 3, it is impossible to determine how long the user has been using one based on this information.\n\n**Answer:**\nBased on the provided history chats, there is no information indicating that you own or use a Fitbit Charge 3; therefore, I cannot determine how long you have been using one.",
+ "dump": "- assistant recommends various sleep tracking apps that integrate with a smartwatch to provide detailed sleep analysis. (valid since 2023-06-01)\n- Fitbit Coach integrates with Fitbit smartwatches like the Fitbit Inspire HR to offer personalized sleep insights and guided relaxation sessions. (valid since 2023-06-01)\n- Garmin Connect provides sleep tracking and integrates specifically with Garmin smartwatches, not Fitbit devices like the Fitbit Inspire HR. (valid since 2023-06-01)\n- The assistant recommends the Fitbit Inspire HR as an excellent choice for sleep tracking. (valid since 2023-06-01)\n- The user owns a yoga mat that they have been using for a while. (valid since 2023-06-18)\n- The assistant recommends the 5mm thick Hugger Mugger ParaMat for knee support and cushioning. (valid since 2023-06-18)\n- The assistant describes the Manduka eKO SuperLite as a 2.2 lbs lightweight, eco-friendly, PVC-free yoga mat made from natural rubber. (valid since 2023-06-18)\n- The assistant suggests getting a yoga strap to deepen stretches, improve flexibility, and reduce joint strain during practice. (valid since 2023-06-18)\n- The assistant recommends the Hugger Mugger D-Ring Strap as a high-quality, durable option. (valid since 2023-06-18)\n- The assistant recommends the Hugger Mugger Quick Grip Strap which features a quick-release buckle and textured grip. (valid since 2023-06-18)\n- The assistant recommends the Hugger Mugger Cotton Strap which is made of soft cotton with a simple buckle. (valid since 2023-06-18)\n- The user is considering purchasing a Hugger Mugger ParaMat to help with knee issues due to its thickness. (valid since 2023-06-18)\n- The assistant recommends using checkered flags to create a racing-inspired atmosphere for a Formula 1 viewing party. (valid since 2023-06-30)\n- The assistant suggests incorporating Ferrari red into the party decor to represent a favorite racing team. (valid since 2023-06-30)\n- The assistant suggests using Mercedes silver in the party decor to represent a favorite racing team. (valid since 2023-06-30)\n- The assistant suggests incorporating Red Bull Racing's blue and red colors into the party decor. (valid since 2023-06-30)\n- The assistant recommends using F1-themed balloons shaped like F1 cars, helmets, or tires for the party. (valid since 2023-06-30)\n- The assistant suggests hanging racing-themed signs like Pit Stop, Start/Finish Line, or Grand Prix around the party area. (valid since 2023-06-30)\n- The assistant suggests displaying F1 memorabilia such as model cars, helmets, or racing suits for an authentic touch. (valid since 2023-06-30)\n- The assistant recommends serving pit stop snacks like Pit Stop Pretzels, Racing Wings, or Fuel-up Nachos. (valid since 2023-06-30)\n- The assistant suggests creating racing-themed cocktails like Checkered Flag, Pit Stop Punch, or Formula 1 Fuel. (valid since 2023-06-30)\n- The assistant recommends serving grid-themed desserts like a checkered flag cake or cookies shaped like F1 cars. (valid since 2023-06-30)\n- user purchased a Limited Edition Disney Princess doll set as a pre-order from Amazon in February 2023. (valid since 2023-06-30)\n- Limited Edition Disney Princess doll set was pre-ordered from Amazon in February 2023. (valid since 2023-06-30)\n- The user wonders if their GPS device is capable of tracking 2,500 miles of travel distance accurately (valid since 2023-08-04)\n- The assistant mentions that Garmin, TomTom, and Magellan are popular brands of GPS devices designed to track long distances accurately. (valid since 2023-08-04)\n- The assistant recommends using Waze, Google Maps, or Inrix to check for real-time traffic updates and plan routes. (valid since 2023-08-04)\n- The assistant recommends using Waze, Google Maps, or Inrix to check for real-time traffic updates and plan routes. (valid since 2023-08-04)\n- The assistant recommends using Waze, Google Maps, or Inrix to check for real-time traffic updates and plan routes. (valid since 2023-08-04)\n- Expedia offers ski package deals for trips to Breckenridge. (valid since 2023-08-05)\n- Expedia offers flights to Denver International Airport as part of their ski packages. (valid since 2023-08-05)\n- Expedia offers ski packages that include bundle discounts for booking flights and hotels together. (valid since 2023-08-05)\n- Expedia offers ski packages that include transportation from Denver International Airport to Breckenridge. (valid since 2023-08-05)\n- Expedia offers ski packages that include ski lessons or guided tours for beginners. (valid since 2023-08-05)\n- The user owns a baby grand piano that needs to be moved. (valid since 2023-08-12)\n- The user is planning to move to the Oakwood area. (valid since 2023-08-12)\n- The user is preparing the baby grand piano for a move by considering hiring a professional technician, wrapping the piano, securing the lid, removing loose items, and checking wheel locks. (valid since 2023-08-12)\n- The user is asking the movers about using a piano board to help move the baby grand piano up the stairs. (valid since 2023-08-12)\n- The user is asking the movers about using a dolly to help move the baby grand piano up the stairs. (valid since 2023-08-12)\n- The user plans to park the moving truck at their new house. (valid since 2023-08-12)\n- The user is planning to lead a marketing campaign for a new product launch. (valid since 2023-08-22)\n- The marketing campaign is for the launch of a new product. (valid since 2023-08-22)\n- The assistant recommends using Google Analytics to monitor and measure marketing campaign performance and tracking. (valid since 2023-08-22)\n- The assistant suggests using Trello as a project management tool to keep marketing campaign tasks and deadlines organized. (valid since 2023-08-22)\n- The assistant suggests using Asana as a project management tool to keep marketing campaign tasks and deadlines organized. (valid since 2023-08-22)\n- The assistant suggests using Basecamp as a project management tool to keep marketing campaign tasks and deadlines organized. (valid since 2023-08-22)\n- The assistant provides guidance to the user on how to create engaging content that resonates with their target audience. (valid since 2023-08-22)\n- The user utilizes a portable massage roller to assist with muscle relaxation and stress relief after workouts. (valid since 2023-09-02)\n- The assistant recommends trail mix as a nutritious and easy-to-prepare snack. (valid since 2023-09-02)\n- The assistant recommends fresh fruit as a convenient and healthy snack option. (valid since 2023-09-02)\n- The assistant suggests energy balls made from oats, nuts, seeds, and dried fruits as a source of sustained energy. (valid since 2023-09-02)\n- The assistant recommends hard-boiled eggs as a portable protein-packed snack. (valid since 2023-09-02)\n- The assistant recommends Greek yogurt as a good source of protein and calcium. (valid since 2023-09-02)\n- The assistant suggests veggie sticks like carrots, celery, and cucumber paired with hummus for a healthy snack. (valid since 2023-09-02)\n- The assistant recommends protein smoothies made with fruits, vegetables, and protein powder as an on-the-go snack. (valid since 2023-09-02)\n- The assistant suggests apple slices with almond butter as a classic, nutrient-dense snack. (valid since 2023-09-02)\n- The assistant recommends steamed edamame as a quick and protein-rich snack option. (valid since 2023-09-02)\n- The assistant suggests dark chocolate with at least 70% cocoa content as a healthy treat. (valid since 2023-09-02)\n- The user started their own business called CreativeSpark Marketing three months ago. (valid since 2023-09-02)\n- The user has been using QuickBooks for their business, CreativeSpark Marketing. (valid since 2023-09-02)\n- Trello offers Power-Ups that integrate with QuickBooks. (valid since 2023-09-02)\n- Trello Gold plan includes unlimited Power-Ups per board. (valid since 2023-09-02)\n- Asana Premium plan is a subscription option for Asana. (valid since 2023-09-02)\n- The Trello Gold plan supports Power-Ups that integrate with QuickBooks. (valid since 2023-09-02)\n- The Trello Gold plan supports Power-Ups that integrate with Google Calendar. (valid since 2023-09-02)\n- The Trello Gold plan supports Power-Ups that integrate with Microsoft Exchange calendar. (valid since 2023-09-02)\n- The Trello Gold plan supports Power-Ups that integrate with Slack. (valid since 2023-09-02)\n- The Trello Gold plan supports Power-Ups that integrate with Google Drive. (valid since 2023-09-02)\n- The Trello Gold plan supports Power-Ups that integrate with GitHub. (valid since 2023-09-02)\n- The Trello Gold plan supports Power-Ups that integrate with Mailchimp. (valid since 2023-09-02)\n- The Trello QuickBooks Power-Up can be used to track time and create invoices for projects involving the client Smith Consulting. (valid since 2023-09-02)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 71,
+  "invalidated": 0,
+  "episodes": 24,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 188.4,
+  "total": 190.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

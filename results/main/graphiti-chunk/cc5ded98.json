@@ -1,0 +1,102 @@
+{
+ "qid": "cc5ded98",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How much time do I dedicate to coding exercises each day?",
+ "reference": "about two hours",
+ "question_date": "2023-06-13 01:30",
+ "sessions": [
+  {
+   "id": "ultrachat_361535",
+   "date": "2023-05-20 06:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_1",
+   "date": "2023-05-20 09:04",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_221540",
+   "date": "2023-05-21 10:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_110794",
+   "date": "2023-05-22 21:07",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pyK55Br_11",
+   "date": "2023-05-25 07:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_2",
+   "date": "2023-05-29 01:53",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_245905",
+   "date": "2023-06-05 11:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_176513",
+   "date": "2023-06-05 15:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_393019",
+   "date": "2023-06-10 02:03",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_YyyF8MF_0",
+   "date": "2023-06-12 13:21",
+   "evidence": false
+  }
+ ],
+ "context": "- the user practices coding exercises with Python for one hour each day (valid since 2023-05-20)\n- The user plans to build a broad understanding of the Python programming language first before proceeding to other topics. (valid since 2023-05-20)\n- user received advice from assistant on how to deal with a toxic colleague (valid since 2023-05-22)\n- The user plans to explore data science after gaining a broad understanding of Python. (valid since 2023-05-20)\n- A Short Term Acute Care Hospital submits an application to the Centers for Medicare & Medicaid Services to convert to a Critical Access Hospital (valid since 2023-05-22)\n- The user plans to explore machine learning after gaining a broad understanding of Python. (valid since 2023-05-20)\n- The user has been using Pluralsight to learn Python through tutorials. (valid since 2023-05-29)\n- Krishna utilized the chariot to move Arjuna to strategic locations and protect him from enemy attacks. (valid since 2023-06-05)\n- The assistant recommends DataCamp's Data Science with Python course to supplement learning. (valid since 2023-05-20)\n- The user plans to explore the Lynn Museum. (valid since 2023-06-05)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   Fact: \"the user practices coding exercises with Python for one hour each day (valid since 2023-05-20)\"\n\n**2. Reason over the information:**\n*   The provided history explicitly states the duration of the user's daily coding practice.\n*   Since the fact has been valid since 2023-05-20 and there is no information indicating a change, it remains the current practice as of 2023/06/13.\n\n**Answer:**\nYou dedicate one hour each day to coding exercises.",
+ "dump": "- Boston College operates the Flynn Recreation Complex, which includes a cardio and weight training area, an indoor pool, basketball and volleyball courts, and a climbing wall. (valid since 2023-05-20)\n- The Margot Connell Recreation Center is a fitness facility located on the campus of Boston College. (valid since 2023-05-20)\n- Boston College is located near the Chestnut Hill Reservoir, which is used for outdoor recreational activities like hiking and biking. (valid since 2023-05-20)\n- Boston College is located near the Arnold Arboretum, which is used for outdoor recreational activities like hiking and biking. (valid since 2023-05-20)\n- the user practices coding exercises with Python for one hour each day (valid since 2023-05-20)\n- The user plans to build a broad understanding of the Python programming language first before proceeding to other topics. (valid since 2023-05-20)\n- The user plans to explore data science after gaining a broad understanding of Python. (valid since 2023-05-20)\n- The user plans to explore machine learning after gaining a broad understanding of Python. (valid since 2023-05-20)\n- The assistant recommends Python as an excellent language for exploring data science and machine learning. (valid since 2023-05-20)\n- The assistant identifies Pandas as an essential library for data science in Python. (valid since 2023-05-20)\n- The assistant identifies NumPy as an essential library for data science in Python. (valid since 2023-05-20)\n- The assistant identifies Matplotlib as an essential library for data science in Python. (valid since 2023-05-20)\n- The assistant suggests using Kaggle as a source for real-world datasets for data science and machine learning practice. (valid since 2023-05-20)\n- The assistant suggests using the UCI Machine Learning Repository as a source for real-world datasets for data science and machine learning practice. (valid since 2023-05-20)\n- The assistant suggests using World Bank Open Data as a source for real-world datasets for data science practice. (valid since 2023-05-20)\n- The assistant suggests using Seaborn for creating informative and interactive data visualizations. (valid since 2023-05-20)\n- The assistant suggests using Plotly for creating informative and interactive data visualizations. (valid since 2023-05-20)\n- The assistant recommends using scikit-learn for machine learning tasks like classification, regression, and clustering. (valid since 2023-05-20)\n- The assistant suggests using OpenML as a source for real-world datasets for machine learning model practice. (valid since 2023-05-20)\n- The assistant suggests using TensorFlow for exploring deep learning. (valid since 2023-05-20)\n- The assistant suggests using Keras for exploring deep learning. (valid since 2023-05-20)\n- The assistant suggests using PyTorch for exploring deep learning. (valid since 2023-05-20)\n- The assistant recommends Andrew Ng's Machine Learning course to supplement learning. (valid since 2023-05-20)\n- The assistant recommends Caltech's Learning From Data course to supplement learning. (valid since 2023-05-20)\n- The assistant recommends DataCamp's Data Science with Python course to supplement learning. (valid since 2023-05-20)\n- The assistant recommends reading Python Machine Learning by Sebastian Raschka to deepen understanding of machine learning concepts. (valid since 2023-05-20)\n- The assistant recommends reading Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron to deepen understanding of machine learning concepts. (valid since 2023-05-20)\n- The assistant recommends reading Deep Learning by Ian Goodfellow, Yoshua Bengio, and Aaron Courville to deepen understanding of machine learning concepts. (valid since 2023-05-20)\n- The user is inquiring about potential downsides to using Bacillus strains in biotechnology and other applications. (valid since 2023-05-21)\n- the assistant answered the user's question regarding potential risks and mitigation steps for using Bacillus strains (valid since 2023-05-21)\n- the assistant provided information to the user about risk assessment, containment, monitoring, and genetic engineering as steps to minimize risks associated with Bacillus strains (valid since 2023-05-21)\n- user received advice from assistant on how to deal with a toxic colleague (valid since 2023-05-22)\n- user implemented advice from assistant and feels more in control (valid since 2023-05-22)\n- The Centers for Medicare & Medicaid Services is responsible for certifying Critical Access Hospitals (valid since 2023-05-22)\n- A Short Term Acute Care Hospital submits an application to the Centers for Medicare & Medicaid Services to convert to a Critical Access Hospital (valid since 2023-05-22)\n- The user has been using Pluralsight to learn Python through tutorials. (valid since 2023-05-29)\n- The assistant discusses the user's goal of building a web scraper as a personal project. (valid since 2023-05-29)\n- The assistant discusses the user's goal of building a chatbot as a personal project. (valid since 2023-05-29)\n- Krishna served as a charioteer for Arjuna during the war. (valid since 2023-06-05)\n- Krishna served as an advisor to Arjuna during the war, guiding him through the battlefield and providing wisdom. (valid since 2023-06-05)\n- Krishna utilized the chariot to move Arjuna to strategic locations and protect him from enemy attacks. (valid since 2023-06-05)\n- Krishna used the chariot as a platform to impart the teachings of the Bhagavad Gita to Arjuna. (valid since 2023-06-05)\n- The user plans to explore the Lynn Museum. (valid since 2023-06-05)\n- The user plans to visit Cafe Moccha for a snack after exploring the Lynn Museum. (valid since 2023-06-05)\n- Cafe Moccha is located near the Lynn Museum. (valid since 2023-06-05)\n- Marriott's Warehouse is located near the Lynn Museum. (valid since 2023-06-05)\n- Market Bistro is located near the Lynn Museum. (valid since 2023-06-05)\n- The Bank House is located opposite the Lynn Museum. (valid since 2023-06-05)\n- The Gingerbread House is located near the Lynn Museum. (valid since 2023-06-05)\n- Vervet monkeys consume figs as part of their diet. (valid since 2023-06-10)\n- Vervet monkeys consume marula fruit as part of their diet. (valid since 2023-06-10)\n- Vervet monkeys consume acacia leaves as part of their diet. (valid since 2023-06-10)\n- Vervet monkeys consume caterpillars as part of their diet. (valid since 2023-06-10)\n- The gods inhabit the heavenly kingdom, a realm beyond the human world. (valid since 2023-06-12)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 54,
+  "invalidated": 0,
+  "episodes": 15,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 197.5,
+  "total": 199.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

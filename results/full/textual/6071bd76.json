@@ -1,0 +1,259 @@
+{
+ "qid": "6071bd76",
+ "arm": "textual",
+ "split": "full",
+ "question": "For the coffee-to-water ratio in my French press, did I switch to more water per tablespoon of coffee, or less?",
+ "reference": "You switched to less water (5 ounces) per tablespoon of coffee.",
+ "question_date": "2023-07-30 05:53",
+ "sessions": [
+  {
+   "id": "2c5bc8fd_3",
+   "date": "2023-02-06 22:36",
+   "evidence": false
+  },
+  {
+   "id": "answer_4dac77cb_1",
+   "date": "2023-02-11 11:41",
+   "evidence": true
+  },
+  {
+   "id": "8d0b4363",
+   "date": "2023-02-17 09:58",
+   "evidence": false
+  },
+  {
+   "id": "710833f3",
+   "date": "2023-02-25 10:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_459653",
+   "date": "2023-02-27 06:22",
+   "evidence": false
+  },
+  {
+   "id": "91156706_1",
+   "date": "2023-03-09 00:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_56513",
+   "date": "2023-03-14 06:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_69243",
+   "date": "2023-03-22 23:23",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_98076",
+   "date": "2023-04-03 22:37",
+   "evidence": false
+  },
+  {
+   "id": "a58eeaf8",
+   "date": "2023-04-04 00:00",
+   "evidence": false
+  },
+  {
+   "id": "34a230b3",
+   "date": "2023-04-13 12:45",
+   "evidence": false
+  },
+  {
+   "id": "a8899aee_1",
+   "date": "2023-04-30 01:15",
+   "evidence": false
+  },
+  {
+   "id": "8020d945_2",
+   "date": "2023-05-06 18:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_303719",
+   "date": "2023-05-14 12:19",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FlUJqkg_0",
+   "date": "2023-05-17 21:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_174856",
+   "date": "2023-05-19 12:59",
+   "evidence": false
+  },
+  {
+   "id": "9de53d68_1",
+   "date": "2023-05-27 16:08",
+   "evidence": false
+  },
+  {
+   "id": "0733ba45_3",
+   "date": "2023-06-19 16:03",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_83526",
+   "date": "2023-06-20 19:09",
+   "evidence": false
+  },
+  {
+   "id": "0b92ffe2_2",
+   "date": "2023-06-30 08:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_4dac77cb_2",
+   "date": "2023-06-30 13:14",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_395741",
+   "date": "2023-07-03 04:25",
+   "evidence": false
+  },
+  {
+   "id": "fad170b7",
+   "date": "2023-07-04 09:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_302071",
+   "date": "2023-07-05 04:30",
+   "evidence": false
+  },
+  {
+   "id": "5c18cb32_1",
+   "date": "2023-07-05 09:45",
+   "evidence": false
+  },
+  {
+   "id": "6f2c01fc_3",
+   "date": "2023-07-06 15:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_3D3oQC0_12",
+   "date": "2023-07-08 04:25",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DQV5bqZ_0",
+   "date": "2023-07-08 07:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_431164",
+   "date": "2023-07-08 18:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_224160",
+   "date": "2023-07-11 18:36",
+   "evidence": false
+  },
+  {
+   "id": "2490f2af_4",
+   "date": "2023-07-12 11:03",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_551846",
+   "date": "2023-07-13 04:18",
+   "evidence": false
+  },
+  {
+   "id": "04616813_2",
+   "date": "2023-07-13 11:22",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_35536",
+   "date": "2023-07-14 08:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7mgd8B5_0",
+   "date": "2023-07-15 07:38",
+   "evidence": false
+  },
+  {
+   "id": "f19f8b39_1",
+   "date": "2023-07-17 00:45",
+   "evidence": false
+  },
+  {
+   "id": "4e8b74ca_1",
+   "date": "2023-07-17 16:38",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Qw30cz6_0",
+   "date": "2023-07-19 18:23",
+   "evidence": false
+  },
+  {
+   "id": "e6b6353d",
+   "date": "2023-07-20 21:36",
+   "evidence": false
+  },
+  {
+   "id": "d7ca6bea_1",
+   "date": "2023-07-24 10:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_396628",
+   "date": "2023-07-24 21:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_574656",
+   "date": "2023-07-25 02:22",
+   "evidence": false
+  },
+  {
+   "id": "01ecd4fa_5",
+   "date": "2023-07-28 13:23",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_334948",
+   "date": "2023-07-28 15:41",
+   "evidence": false
+  },
+  {
+   "id": "5b4f00d1_2",
+   "date": "2023-07-29 16:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_170411",
+   "date": "2023-07-29 19:45",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   **Family:** \n    *   Has a mother (they take cooking classes together).\n    *   Has a father (recently celebrated his birthday with a low-key dinner and cake).\n    *   Has a sister who recently had a baby boy named Liam.\n    *   Has a nephew, Liam, born on March 12, 2023.\n    *   Has a niece who is interested in cooking and baking.\n    *   Has a cousin, Rachel, who recently got married at a vineyard (as of 2023-07-17). They share a close bond.\n    *   Has a cousin who is currently studying abroad; they share a close bond and recently exchanged over 200 messages discussing TV shows and personal struggles.\n*   **Physical Activity:** Is an experienced runner and hiker who is actively seeking to improve performance, prevent injury, and enhance recovery through structured routines. Recently took up cycling; planning a 20-mile bike ride for the weekend of 2023-07-22/23.\n*   **Values:** \n    *   Expresses concern regarding the environmental and social impacts of the fast fashion industry, specifically overconsumption and textile waste.\n    *   Engages in philosophical inquiry regarding morality, cultural relativism, and universal moral truths. Shows a strong interest in navigating the tension between respecting cultural diversity and addressing practices that may be harmful or oppressive. Values empathy, dialogue, and the search for common ground in cross-cultural interactions.\n    *   Deeply interested in the complexities of international relations, conflict resolution, and the impact of political leadership and civil society on peacebuilding.\n    *   Environmentally conscious; highly motivated to reduce their carbon footprint through sustainable energy solutions.\n    *   Reflective regarding the impact of social media on perceptions of justice and morality; actively trying to be more mindful of consumption and seeking diverse, nuanced perspectives to avoid echo chambers and outrage culture.\n    *   **Mental Wellbeing:** As of 2023-07-25, is actively seeking to overcome negative thinking patterns by incorporating mindfulness, gratitude, physical exercise, and self-care into their routine.\n*   **Professional/Academic Interests:** \n    *   Is currently learning about machine learning, specifically focusing on model training, hyperparameter tuning, and cross-validation techniques (as of 2023-04-03).\n    *   Watches *Brooklyn Nine-Nine* during lunch breaks at work (as of 2023-05-06).\n    *   Interested in historical analysis and probability; uses specific probability scales (e.g., \"very probable\" = 80%+, \"probable\" = 60-80%, \"even\" = 50%, \"unlikely\" = 30-40%, \"very unlikely\" = <30%) to evaluate historical outcomes like the Battle of Midway (as of 2023-05-17).\n    *   Interested in higher education demographics and international student support systems (as of 2023-07-03).\n    *   **Data Science:** As of 2023-07-15, is working on a project to predict \"Cumulative GR\" values for materials using the Temporal Fusion Transformer (TFT) model via `pytorch_forecasting`.\n    *   **Employment:** Works at a company called \"UX is Fine!\" (as of 2023-07-19).\n*   **Social Events:** Planning to attend multiple weddings in the coming months, including a destination wedding in Hawaii for friends named Emily and Mike. Hosting a dinner party next weekend (as of 2023-07-04). Recently attended cousin Rachel's vineyard wedding (as of 2023-07-17). Visited a photography museum with family on 2023-04-28.\n*   **Gaming:** \n    *   Recently upgraded PC with a new graphics card (as of 2023-04-13).\n    *   Plays *Overwatch* daily with friends; mains Reaper and experiments with Widowmaker. Reached level 50 and unlocked the \"Hero of Numbani\" spray.\n    *   Recently completed the main storyline and \"Hearts of Stone\" DLC for *The Witcher 3*.\n    *   Currently playing *Pokémon Sword* on Nintendo Switch (as of 2023-04-13).\n*   **Foot Health:** Has sensitive heels.\n*   **Interests:** \n    *   Interested in the Eurovision Song Contest and the Swedish selection process, *Melodifestivalen* (as of 2023-05-14).\n    *   Gardening: Started about 4 months ago (as of 2023-07-04). Interested in permaculture, biodynamics, and regenerative agriculture.\n    *   **Sports Memorabilia:** Collects sports memorabilia. Recently acquired a signed LeBron James jersey (acquired ~2023-06-05) and a signed Mike Trout baseball (acquired ~2023-06-12).\n    *   **Music:** Collects vinyl records. Recently acquired a rare Japanese pressing of The Beatles' *Sgt. Pepper's Lonely Hearts Club Band* (acquired ~2023-06-17). Interested in the artist Tricky and his discography/future releases (as of 2023-07-05). Deeply appreciates the use of symbolism and metaphor in music; specifically resonates with Beyoncé’s *Lemonade* for its visual storytelling and emotional depth (as of 2023-07-14).\n    *   **Renewable Energy:** Actively researching solar energy installation for their home (as of 2023-06-20).\n    *   **Tea:** Interested in exploring new tea varieties, including rose tea (introduced by sister) and herbal blends. Planning to organize their tea cabinet.\n    *   **Cooking:** Highly motivated by hosting dinner parties to impress friends and family. Enjoys Indian cuisine (curries) and making fresh pasta from scratch. Recently discovered a preference for shiitake and oyster mushrooms for their umami depth.\n    *   **TV/Media:** Interested in Japanese dramas; currently considering watching *Hana Yori Dango* and *Death Note* (as of 2023-07-05).\n    *   **Reading/Listening:** Commutes to work daily (1 hour each way, 2 hours total). An avid audiobook listener. Currently listening to *The Three-Body Problem* (about halfway through as of 2023-07-06). Has previously listened to *The Silent Patient* and *The Hitchhiker's Guide to the Galaxy*. Plans to start *The 7 1/2 Deaths of Evelyn Hardcastle*. Interested in atmospheric podcasts like *The Magnus Archives* and *The Black Tapes*.\n    *   **Health/Wellness:** As of 2023-07-08, is reading about back pain management, specifically focusing on behavioral changes and core engagement techniques. Actively seeking resources on sports nutrition and injury prevention to apply to their own running routine.\n    *   **Poetry:** Expressed interest in exploring poetry, specifically from the Arab tradition, after learning about its historical significance in preserving culture (as of 2023-07-11).\n    *   **Motorsports:** Interested in drifting and suspension tuning. Claims to have attended a workshop at an \"Auto Racking Championship\" in Las Vegas in June 2023 (Note: Assistant noted this event does not exist). Planning to participate in a \"Regional Drifting Championship\" in September 2023.\n    *   **Buddhism/Art:** Interested in Buddhist art and architecture across Asia. As of 2023-07-24, has added India (Bodhgaya, Sarnath, Kushinagar, Dhauli, Leh-Ladakh) to their travel bucket list.\n    *   **Art/Creative:** Recently became interested in art history and is exploring beginner techniques in watercolor and mixed media. Inspired by black-and-white photography. Volunteers at a local children's museum every other Thursday. Interested in street art and its impact on urban spaces (as of 2023-07-28).\n    *   **Sociopolitical Interests:** As of 2023-07-28, is actively exploring the intersection of art, literature, and sociopolitical conflict, specifically regarding the Catalan independence movement and how diverse perspectives are represented in regional culture.\n    *   **Urban Environment:** Interested in urban planning and environmental policy, specifically regarding air quality and pollution reduction strategies in major global cities like São Paulo (as of 2023-07-29).\n    *   **Shopping:** Frequent visitor to \"The Vintage Closet\" (visited three times in July 2023).\n*   **Financial:** As of 2023-07-08, is inquiring about credit card application status and procedures for adding authorized users.\n*   **Closet/Organization:** Actively decluttering and focusing on quality over quantity. Implemented a \"one in, one out\" policy for their closet as of June 2023.\n*   **Travel:** Recently returned from a trip to Paris (as of 2023-07-17). Planning a trip to Sedona, Arizona, where they intend to hike the Hangover Trail and visit the Sedona Arts Center (as of 2023-07-13).\n*   **Shopping Habits:** Recently splurged on a luxury Chanel handbag. As of 2023-07-13, has decided to transition to using more practical, durable handbags (e.g., Coach or Kate Spade) for daily use, reserving the Chanel for special occasions. Re-evaluating skincare spending; currently looking to move away from high-end subscription boxes toward more affordable, dermatologist-recommended brands. Recently joined the Sephora loyalty program (as of 2023-07-29).\n*   **Cycling Equipment:** Owns a bike; replaced the chain and cassette on 2023-02-01. Recently acquired a Garmin bike computer.\n\n### Preferences and habits\n*   **Cooking:** \n    *   Enjoys cooking and is actively taking cooking classes with their mother.\n    *   Mastered their mother's chicken parmesan recipe as of June 28, 2023.\n    *   Interested in trying new, slightly adventurous recipes at home.\n    *   Interested in virtual cooking classes; plans to explore Rouxbe (as of 2023-03-14).\n    *   Menu for upcoming dinner party: Japchae, Bulgogi, and grilled steak (appetizer), with Tteok for dessert.\n*   **Cuisine:** Currently transitioning to a more plant-based diet.\n*   **Coffee:** \n    *   Uses a French press for brewing.\n    *   Preferred ratio: 1 tablespoon of coffee for every 5 ounces of water (as of 2023-06-30).\n    *   Currently experimenting with pairing coffee with citrus notes.\n*   **Tea:** \n    *   Interested in pairing Earl Grey tea with citrus-infused coffee.\n    *   Interested in pairing rose tea with shortbread cookies.\n*   **Plant-Based Diet:**\n    *   Actively transitioning to a plant-based diet (as of February 2023).\n    *   Has replaced dairy milk with oat milk and almond milk.\n    *   Makes homemade oat milk (using rolled oats).\n    *   Makes homemade vegan yogurt using soy milk and probiotic powder.\n*   **Fashion/Footwear:** \n    *   Interested in sustainable and ethical fashion brands as an alternative to fast fashion.\n    *   Recently purchased Nike Air Force 1s, which they find very comfortable due to a perfect fit.\n    *   Prioritizes comfort for office footwear due to sensitive heels; plans to get feet professionally measured before purchasing new dress shoes.\n    *   Prefers to repair/resize existing footwear (loafers, pumps) to extend their life and reduce waste.\n    *   **Parisian Style:** Recently acquired a black vintage turtleneck sweater and distressed denim jeans from a vintage store on the Champs-Élysées in Paris. Also owns a high-waisted floral skirt from the same store.\n*   **Gift-giving:** \n    *   Selected \"The Complete Cookbook for Young Chefs\" by America's Test Kitchen as a gift for their niece.\n    *   Currently designing a personalized baby gift basket for their sister and nephew (Liam).\n    *   Planning to create a custom onesie for Liam with the text \"Liam 3/12\" and a small baby block or footprint icon placed above the text.\n    *   Considering a personalized surfboard or monogrammed beach towels as a wedding gift for Emily and Mike’s Hawaii destination wedding (as of 2023-04-04).\n    *   Planning to gift bridesmaids wine glass pendants and customized picture frames in wooden boxes (as of 2023-07-17).\n    *   Purchased a crystal vase from Bed Bath & Beyond for a cousin's wedding (as of 2023-07-29).\n*   **Running/Fitness/Cycling:**\n    *   Actively looking for workout playlists to use during runs.\n    *   Interested in post-run recovery techniques, specifically stretching and foam rolling (IT band and calves).\n    *   Interested in strength training (lower body, core, and glutes) to improve running efficiency and reduce injury risk.\n    *   Actively researching accessible sports science resources (e.g., Sports Dietitians Australia, ACE, Mayo Clinic) to improve their personal training and nutrition (as of 2023-07-08).\n    *   Cycling: Focuses on hydration (16-20oz pre-ride, 20-24oz per hour during ride) and safety (helmet, traffic rules, visibility).\n*   **Social/Mental Health:** Interested in strategies to manage social isolation, including virtual social activities like online game nights, virtual movie nights, and virtual classes. As of 2023-07-25, is interested in meeting new positive people through community events, clubs, volunteering, or classes.\n*   **Media Consumption:** \n    *   Starting to use *TV Time* to organize and track TV show progress (as of 2023-05-06).\n    *   Interested in using tools like *JustWatch* to manage streaming services across multiple platforms (as of 2023-05-06).\n*   **Gardening:**\n    *   Maintains a compost bin (started ~April 2023) using vegetable/fruit scraps, tea bags, and coffee grounds.\n    *   Uses neem oil for natural pest control (e.g., aphids on basil).\n    *   Practices companion planting and makes organic fertilizer from kitchen scraps.\n    *   Prioritizes sustainable practices and is looking to implement time-management strategies (scheduling/chunking) to maintain the garden.\n*   **Memorabilia Display:** Prefers to protect collectibles from dust and UV light. Decided to display the rare *Sgt. Pepper's* vinyl record with the cover facing inward for preservation.\n*   **Organization Habits:** Actively seeking methods to categorize and group items (belts, hats, scarves, shoes, handbags, sweaters, jeans, dresses, skirts) to maintain their \"one in, one out\" policy.\n*   **Drifting/Driving:** Practices drifting at a local track; focuses on throttle control (sensitivity, feathering, throttle-on/off oversteer) and smooth transitions.\n*   **Artistic Habits:** Interested in exploring mixed media, specifically combining paper and fabric. Interested in Shibori dyeing techniques to create textures and patterns for art projects.\n*   **Home Decor:** Developing a bohemian aesthetic for their living room, focusing on natural textures and earthy tones.\n\n### Ongoing situations and plans\n*   **Babysitting:** Actively helping with babysitting duties for their nephew, Liam.\n*   **Gift Projects:** Planning to assemble a baby-themed gift basket and create a personalized baby blanket and onesie for Liam. Planning to assemble bridesmaid gifts for cousin Rachel (wine glass pendants, frames, wooden boxes, and notes) (as of 2023-07-17).\n*   **Family Game Night:** Planning to host a family game night in the near future.\n*   **Coffee Subscription:** Recently signed up for a coffee subscription service (as of January 2023); received the first shipment of beans on February 10, 2023.\n*   **Fitness Routine:** As of February 25, 2023, is actively researching and implementing a comprehensive running support plan, including music playlists, post-run stretching, foam rolling, and strength training (2-3 times per week).\n*   **Cooking Development:** Planning to explore virtual cooking classes to improve culinary skills (as of 2023-03-14). Hosting a dinner party next weekend featuring Japchae, Bulgogi, grilled steak, and Tteok.\n*   **Learning:** Actively exploring machine learning concepts, specifically model optimization and validation (as of 2023-04-03).\n*   **Travel:** Preparing for an upcoming trip to Japan (as of 2023-07-05), a trip to Hawaii for a destination wedding, a trip to Sedona, Arizona (as of 2023-07-13), and now planning a future trip to India (as of 2023-07-24).\n*   **Gaming:** Aiming to complete the Pokédex in *Pokémon Sword*; has caught 50 Pokémon and reached the third gym (as of 2023-04-13).\n*   **Footwear Maintenance:** Plans to get feet professionally measured. Plans to take old black pumps to a cobbler for stretching. Plans to clean white Converse sneakers (as of 2023-04-30). Plans to have old loafers resized by a cobbler (as of 2023-04-30).\n*   **Media Organization:** Planning to set up *TV Time* and organize streaming service watchlists (as of 2023-05-06).\n*   **Gardening Plans:** Planning to expand the garden with a vegetable patch in a sunny backyard spot. Planning to research and incorporate permaculture and regenerative agriculture principles. Implementing a new schedule to break down gardening tasks into smaller, manageable chunks.\n*   **Memorabilia Display Plans:** Planning to set up a shadow box display for the LeBron James jersey, including a basketball and a photo of LeBron James.\n*   **Solar Energy:** Planning to research government incentives, subsidies, and maintenance requirements for installing solar panels at home (as of 2023-06-20).\n*   **Tea Exploration:** Planning to research and potentially join a tea subscription service (Adagio Teas or The Tea Spot) and organize their tea cabinet.\n*   **Reading/Listening Plans:** Plans to finish *The Three-Body Problem* and start *The 7 1/2 Deaths of Evelyn Hardcastle* for their commute. Plans to begin listening to *The Magnus Archives* and *The Black Tapes* podcasts.\n*   **Financial:** Inquiring about credit card application status and procedures for adding authorized users (as of 2023-07-08).\n*   **Poetry Exploration:** Plans to explore works by poets such as Hafez, Rumi, Khalil Gibran, Mahmoud Darwish, and Nizar Qabbani (as of 2023-07-11).\n*   **Closet Organization:** Actively researching and implementing storage solutions for accessories, shoes, handbags, and clothing to optimize space and maintain the \"one in, one out\" policy. Plans to donate old bags.\n*   **Shopping/Skincare:** Planning to cancel high-end skincare subscription box and research/test more affordable, dermatologist-recommended brands (as of 2023-07-13). Planning to purchase a practical, durable handbag for daily use (as of 2023-07-13). Planning to make a DIY face mask using honey and avocado (as of 2023-07-25). Recently purchased a new eyeshadow palette (as of 2023-07-29).\n*   **Alterations:** Planning to take a silk blouse (too loose), trousers (too long), and a leather jacket (too snug) to a tailor for professional alterations (as of 2023-07-17).\n*   **Workplace Documentation:** Recently created an IT employee offboarding checklist for their employer, \"UX is Fine!\" (as of 2023-07-19).\n*   **Cycling:** Planning a 20-mile ride for the weekend of 2023-07-22/23. Planning to purchase a new helmet from Specialized.\n*   **Drifting:** Planning to compete in a \"Regional Drifting Championship\" in September 2023.\n*   **Art Projects:** Planning to start watercolor painting and mixed media projects, specifically incorporating Shibori-dyed fabric (as of 2023-07-28).\n*   **Home Decor:** Planning to purchase throw pillows from Target to update living room; planning to update backyard with new patio furniture for an upcoming gathering.\n\n### Changes over time\n*   **Dietary Habits:** Actively transitioning to a plant-based diet as of February 2023; previously consumed dairy and meat-based products.\n*   **Family Status:** Became an aunt/uncle to Liam on March 12, 2023.\n*   **Gardening:** Started gardening hobby in February 2023.\n*   **Cooking Skills:** Mastered mother's chicken parmesan recipe as of 2023-06-28.\n*   **Coffee Brewing:** Changed French press ratio to 1:5 as of 2023-06-30; previously 1:6.\n*   **Dinner Party Plans:** Hosting dinner party next weekend (as of 2023-07-04; previously hosting this weekend as of 2023-06-30).\n*   **Closet Habits:** Implemented \"one in, one out\" policy as of June 2023.\n*   **Shopping Philosophy:** Shifted from prioritizing luxury items to seeking a balance between luxury and practicality as of 2023-07-13.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   The \"Changes over time\" section states: \"Coffee Brewing: Changed French press ratio to 1:5 as of 2023-06-30; previously 1:6.\"\n    *   The \"Preferences and habits\" section confirms: \"Preferred ratio: 1 tablespoon of coffee for every 5 ounces of water (as of 2023-06-30).\"\n\n2.  **Reason over the information:**\n    *   The previous ratio was 1 tablespoon of coffee to 6 ounces of water (1:6).\n    *   The current ratio is 1 tablespoon of coffee to 5 ounces of water (1:5).\n    *   Comparing the two, you are now using 5 ounces of water per tablespoon instead of 6 ounces. Since 5 is less than 6, you are using less water per tablespoon of coffee than you were previously.\n\n**Answer:** You switched to **less** water per tablespoon of coffee. You moved from a ratio of 1 tablespoon per 6 ounces of water to 1 tablespoon per 5 ounces of water.",
+ "dump": "### Personal facts\n*   **Family:** \n    *   Has a mother (they take cooking classes together).\n    *   Has a father (recently celebrated his birthday with a low-key dinner and cake).\n    *   Has a sister who recently had a baby boy named Liam.\n    *   Has a nephew, Liam, born on March 12, 2023.\n    *   Has a niece who is interested in cooking and baking.\n    *   Has a cousin, Rachel, who recently got married at a vineyard (as of 2023-07-17). They share a close bond.\n    *   Has a cousin who is currently studying abroad; they share a close bond and recently exchanged over 200 messages discussing TV shows and personal struggles.\n*   **Physical Activity:** Is an experienced runner and hiker who is actively seeking to improve performance, prevent injury, and enhance recovery through structured routines. Recently took up cycling; planning a 20-mile bike ride for the weekend of 2023-07-22/23.\n*   **Values:** \n    *   Expresses concern regarding the environmental and social impacts of the fast fashion industry, specifically overconsumption and textile waste.\n    *   Engages in philosophical inquiry regarding morality, cultural relativism, and universal moral truths. Shows a strong interest in navigating the tension between respecting cultural diversity and addressing practices that may be harmful or oppressive. Values empathy, dialogue, and the search for common ground in cross-cultural interactions.\n    *   Deeply interested in the complexities of international relations, conflict resolution, and the impact of political leadership and civil society on peacebuilding.\n    *   Environmentally conscious; highly motivated to reduce their carbon footprint through sustainable energy solutions.\n    *   Reflective regarding the impact of social media on perceptions of justice and morality; actively trying to be more mindful of consumption and seeking diverse, nuanced perspectives to avoid echo chambers and outrage culture.\n    *   **Mental Wellbeing:** As of 2023-07-25, is actively seeking to overcome negative thinking patterns by incorporating mindfulness, gratitude, physical exercise, and self-care into their routine.\n*   **Professional/Academic Interests:** \n    *   Is currently learning about machine learning, specifically focusing on model training, hyperparameter tuning, and cross-validation techniques (as of 2023-04-03).\n    *   Watches *Brooklyn Nine-Nine* during lunch breaks at work (as of 2023-05-06).\n    *   Interested in historical analysis and probability; uses specific probability scales (e.g., \"very probable\" = 80%+, \"probable\" = 60-80%, \"even\" = 50%, \"unlikely\" = 30-40%, \"very unlikely\" = <30%) to evaluate historical outcomes like the Battle of Midway (as of 2023-05-17).\n    *   Interested in higher education demographics and international student support systems (as of 2023-07-03).\n    *   **Data Science:** As of 2023-07-15, is working on a project to predict \"Cumulative GR\" values for materials using the Temporal Fusion Transformer (TFT) model via `pytorch_forecasting`.\n    *   **Employment:** Works at a company called \"UX is Fine!\" (as of 2023-07-19).\n*   **Social Events:** Planning to attend multiple weddings in the coming months, including a destination wedding in Hawaii for friends named Emily and Mike. Hosting a dinner party next weekend (as of 2023-07-04). Recently attended cousin Rachel's vineyard wedding (as of 2023-07-17). Visited a photography museum with family on 2023-04-28.\n*   **Gaming:** \n    *   Recently upgraded PC with a new graphics card (as of 2023-04-13).\n    *   Plays *Overwatch* daily with friends; mains Reaper and experiments with Widowmaker. Reached level 50 and unlocked the \"Hero of Numbani\" spray.\n    *   Recently completed the main storyline and \"Hearts of Stone\" DLC for *The Witcher 3*.\n    *   Currently playing *Pokémon Sword* on Nintendo Switch (as of 2023-04-13).\n*   **Foot Health:** Has sensitive heels.\n*   **Interests:** \n    *   Interested in the Eurovision Song Contest and the Swedish selection process, *Melodifestivalen* (as of 2023-05-14).\n    *   Gardening: Started about 4 months ago (as of 2023-07-04). Interested in permaculture, biodynamics, and regenerative agriculture.\n    *   **Sports Memorabilia:** Collects sports memorabilia. Recently acquired a signed LeBron James jersey (acquired ~2023-06-05) and a signed Mike Trout baseball (acquired ~2023-06-12).\n    *   **Music:** Collects vinyl records. Recently acquired a rare Japanese pressing of The Beatles' *Sgt. Pepper's Lonely Hearts Club Band* (acquired ~2023-06-17). Interested in the artist Tricky and his discography/future releases (as of 2023-07-05). Deeply appreciates the use of symbolism and metaphor in music; specifically resonates with Beyoncé’s *Lemonade* for its visual storytelling and emotional depth (as of 2023-07-14).\n    *   **Renewable Energy:** Actively researching solar energy installation for their home (as of 2023-06-20).\n    *   **Tea:** Interested in exploring new tea varieties, including rose tea (introduced by sister) and herbal blends. Planning to organize their tea cabinet.\n    *   **Cooking:** Highly motivated by hosting dinner parties to impress friends and family. Enjoys Indian cuisine (curries) and making fresh pasta from scratch. Recently discovered a preference for shiitake and oyster mushrooms for their umami depth.\n    *   **TV/Media:** Interested in Japanese dramas; currently considering watching *Hana Yori Dango* and *Death Note* (as of 2023-07-05).\n    *   **Reading/Listening:** Commutes to work daily (1 hour each way, 2 hours total). An avid audiobook listener. Currently listening to *The Three-Body Problem* (about halfway through as of 2023-07-06). Has previously listened to *The Silent Patient* and *The Hitchhiker's Guide to the Galaxy*. Plans to start *The 7 1/2 Deaths of Evelyn Hardcastle*. Interested in atmospheric podcasts like *The Magnus Archives* and *The Black Tapes*.\n    *   **Health/Wellness:** As of 2023-07-08, is reading about back pain management, specifically focusing on behavioral changes and core engagement techniques. Actively seeking resources on sports nutrition and injury prevention to apply to their own running routine.\n    *   **Poetry:** Expressed interest in exploring poetry, specifically from the Arab tradition, after learning about its historical significance in preserving culture (as of 2023-07-11).\n    *   **Motorsports:** Interested in drifting and suspension tuning. Claims to have attended a workshop at an \"Auto Racking Championship\" in Las Vegas in June 2023 (Note: Assistant noted this event does not exist). Planning to participate in a \"Regional Drifting Championship\" in September 2023.\n    *   **Buddhism/Art:** Interested in Buddhist art and architecture across Asia. As of 2023-07-24, has added India (Bodhgaya, Sarnath, Kushinagar, Dhauli, Leh-Ladakh) to their travel bucket list.\n    *   **Art/Creative:** Recently became interested in art history and is exploring beginner techniques in watercolor and mixed media. Inspired by black-and-white photography. Volunteers at a local children's museum every other Thursday. Interested in street art and its impact on urban spaces (as of 2023-07-28).\n    *   **Sociopolitical Interests:** As of 2023-07-28, is actively exploring the intersection of art, literature, and sociopolitical conflict, specifically regarding the Catalan independence movement and how diverse perspectives are represented in regional culture.\n    *   **Urban Environment:** Interested in urban planning and environmental policy, specifically regarding air quality and pollution reduction strategies in major global cities like São Paulo (as of 2023-07-29).\n    *   **Shopping:** Frequent visitor to \"The Vintage Closet\" (visited three times in July 2023).\n*   **Financial:** As of 2023-07-08, is inquiring about credit card application status and procedures for adding authorized users.\n*   **Closet/Organization:** Actively decluttering and focusing on quality over quantity. Implemented a \"one in, one out\" policy for their closet as of June 2023.\n*   **Travel:** Recently returned from a trip to Paris (as of 2023-07-17). Planning a trip to Sedona, Arizona, where they intend to hike the Hangover Trail and visit the Sedona Arts Center (as of 2023-07-13).\n*   **Shopping Habits:** Recently splurged on a luxury Chanel handbag. As of 2023-07-13, has decided to transition to using more practical, durable handbags (e.g., Coach or Kate Spade) for daily use, reserving the Chanel for special occasions. Re-evaluating skincare spending; currently looking to move away from high-end subscription boxes toward more affordable, dermatologist-recommended brands. Recently joined the Sephora loyalty program (as of 2023-07-29).\n*   **Cycling Equipment:** Owns a bike; replaced the chain and cassette on 2023-02-01. Recently acquired a Garmin bike computer.\n\n### Preferences and habits\n*   **Cooking:** \n    *   Enjoys cooking and is actively taking cooking classes with their mother.\n    *   Mastered their mother's chicken parmesan recipe as of June 28, 2023.\n    *   Interested in trying new, slightly adventurous recipes at home.\n    *   Interested in virtual cooking classes; plans to explore Rouxbe (as of 2023-03-14).\n    *   Menu for upcoming dinner party: Japchae, Bulgogi, and grilled steak (appetizer), with Tteok for dessert.\n*   **Cuisine:** Currently transitioning to a more plant-based diet.\n*   **Coffee:** \n    *   Uses a French press for brewing.\n    *   Preferred ratio: 1 tablespoon of coffee for every 5 ounces of water (as of 2023-06-30).\n    *   Currently experimenting with pairing coffee with citrus notes.\n*   **Tea:** \n    *   Interested in pairing Earl Grey tea with citrus-infused coffee.\n    *   Interested in pairing rose tea with shortbread cookies.\n*   **Plant-Based Diet:**\n    *   Actively transitioning to a plant-based diet (as of February 2023).\n    *   Has replaced dairy milk with oat milk and almond milk.\n    *   Makes homemade oat milk (using rolled oats).\n    *   Makes homemade vegan yogurt using soy milk and probiotic powder.\n*   **Fashion/Footwear:** \n    *   Interested in sustainable and ethical fashion brands as an alternative to fast fashion.\n    *   Recently purchased Nike Air Force 1s, which they find very comfortable due to a perfect fit.\n    *   Prioritizes comfort for office footwear due to sensitive heels; plans to get feet professionally measured before purchasing new dress shoes.\n    *   Prefers to repair/resize existing footwear (loafers, pumps) to extend their life and reduce waste.\n    *   **Parisian Style:** Recently acquired a black vintage turtleneck sweater and distressed denim jeans from a vintage store on the Champs-Élysées in Paris. Also owns a high-waisted floral skirt from the same store.\n*   **Gift-giving:** \n    *   Selected \"The Complete Cookbook for Young Chefs\" by America's Test Kitchen as a gift for their niece.\n    *   Currently designing a personalized baby gift basket for their sister and nephew (Liam).\n    *   Planning to create a custom onesie for Liam with the text \"Liam 3/12\" and a small baby block or footprint icon placed above the text.\n    *   Considering a personalized surfboard or monogrammed beach towels as a wedding gift for Emily and Mike’s Hawaii destination wedding (as of 2023-04-04).\n    *   Planning to gift bridesmaids wine glass pendants and customized picture frames in wooden boxes (as of 2023-07-17).\n    *   Purchased a crystal vase from Bed Bath & Beyond for a cousin's wedding (as of 2023-07-29).\n*   **Running/Fitness/Cycling:**\n    *   Actively looking for workout playlists to use during runs.\n    *   Interested in post-run recovery techniques, specifically stretching and foam rolling (IT band and calves).\n    *   Interested in strength training (lower body, core, and glutes) to improve running efficiency and reduce injury risk.\n    *   Actively researching accessible sports science resources (e.g., Sports Dietitians Australia, ACE, Mayo Clinic) to improve their personal training and nutrition (as of 2023-07-08).\n    *   Cycling: Focuses on hydration (16-20oz pre-ride, 20-24oz per hour during ride) and safety (helmet, traffic rules, visibility).\n*   **Social/Mental Health:** Interested in strategies to manage social isolation, including virtual social activities like online game nights, virtual movie nights, and virtual classes. As of 2023-07-25, is interested in meeting new positive people through community events, clubs, volunteering, or classes.\n*   **Media Consumption:** \n    *   Starting to use *TV Time* to organize and track TV show progress (as of 2023-05-06).\n    *   Interested in using tools like *JustWatch* to manage streaming services across multiple platforms (as of 2023-05-06).\n*   **Gardening:**\n    *   Maintains a compost bin (started ~April 2023) using vegetable/fruit scraps, tea bags, and coffee grounds.\n    *   Uses neem oil for natural pest control (e.g., aphids on basil).\n    *   Practices companion planting and makes organic fertilizer from kitchen scraps.\n    *   Prioritizes sustainable practices and is looking to implement time-management strategies (scheduling/chunking) to maintain the garden.\n*   **Memorabilia Display:** Prefers to protect collectibles from dust and UV light. Decided to display the rare *Sgt. Pepper's* vinyl record with the cover facing inward for preservation.\n*   **Organization Habits:** Actively seeking methods to categorize and group items (belts, hats, scarves, shoes, handbags, sweaters, jeans, dresses, skirts) to maintain their \"one in, one out\" policy.\n*   **Drifting/Driving:** Practices drifting at a local track; focuses on throttle control (sensitivity, feathering, throttle-on/off oversteer) and smooth transitions.\n*   **Artistic Habits:** Interested in exploring mixed media, specifically combining paper and fabric. Interested in Shibori dyeing techniques to create textures and patterns for art projects.\n*   **Home Decor:** Developing a bohemian aesthetic for their living room, focusing on natural textures and earthy tones.\n\n### Ongoing situations and plans\n*   **Babysitting:** Actively helping with babysitting duties for their nephew, Liam.\n*   **Gift Projects:** Planning to assemble a baby-themed gift basket and create a personalized baby blanket and onesie for Liam. Planning to assemble bridesmaid gifts for cousin Rachel (wine glass pendants, frames, wooden boxes, and notes) (as of 2023-07-17).\n*   **Family Game Night:** Planning to host a family game night in the near future.\n*   **Coffee Subscription:** Recently signed up for a coffee subscription service (as of January 2023); received the first shipment of beans on February 10, 2023.\n*   **Fitness Routine:** As of February 25, 2023, is actively researching and implementing a comprehensive running support plan, including music playlists, post-run stretching, foam rolling, and strength training (2-3 times per week).\n*   **Cooking Development:** Planning to explore virtual cooking classes to improve culinary skills (as of 2023-03-14). Hosting a dinner party next weekend featuring Japchae, Bulgogi, grilled steak, and Tteok.\n*   **Learning:** Actively exploring machine learning concepts, specifically model optimization and validation (as of 2023-04-03).\n*   **Travel:** Preparing for an upcoming trip to Japan (as of 2023-07-05), a trip to Hawaii for a destination wedding, a trip to Sedona, Arizona (as of 2023-07-13), and now planning a future trip to India (as of 2023-07-24).\n*   **Gaming:** Aiming to complete the Pokédex in *Pokémon Sword*; has caught 50 Pokémon and reached the third gym (as of 2023-04-13).\n*   **Footwear Maintenance:** Plans to get feet professionally measured. Plans to take old black pumps to a cobbler for stretching. Plans to clean white Converse sneakers (as of 2023-04-30). Plans to have old loafers resized by a cobbler (as of 2023-04-30).\n*   **Media Organization:** Planning to set up *TV Time* and organize streaming service watchlists (as of 2023-05-06).\n*   **Gardening Plans:** Planning to expand the garden with a vegetable patch in a sunny backyard spot. Planning to research and incorporate permaculture and regenerative agriculture principles. Implementing a new schedule to break down gardening tasks into smaller, manageable chunks.\n*   **Memorabilia Display Plans:** Planning to set up a shadow box display for the LeBron James jersey, including a basketball and a photo of LeBron James.\n*   **Solar Energy:** Planning to research government incentives, subsidies, and maintenance requirements for installing solar panels at home (as of 2023-06-20).\n*   **Tea Exploration:** Planning to research and potentially join a tea subscription service (Adagio Teas or The Tea Spot) and organize their tea cabinet.\n*   **Reading/Listening Plans:** Plans to finish *The Three-Body Problem* and start *The 7 1/2 Deaths of Evelyn Hardcastle* for their commute. Plans to begin listening to *The Magnus Archives* and *The Black Tapes* podcasts.\n*   **Financial:** Inquiring about credit card application status and procedures for adding authorized users (as of 2023-07-08).\n*   **Poetry Exploration:** Plans to explore works by poets such as Hafez, Rumi, Khalil Gibran, Mahmoud Darwish, and Nizar Qabbani (as of 2023-07-11).\n*   **Closet Organization:** Actively researching and implementing storage solutions for accessories, shoes, handbags, and clothing to optimize space and maintain the \"one in, one out\" policy. Plans to donate old bags.\n*   **Shopping/Skincare:** Planning to cancel high-end skincare subscription box and research/test more affordable, dermatologist-recommended brands (as of 2023-07-13). Planning to purchase a practical, durable handbag for daily use (as of 2023-07-13). Planning to make a DIY face mask using honey and avocado (as of 2023-07-25). Recently purchased a new eyeshadow palette (as of 2023-07-29).\n*   **Alterations:** Planning to take a silk blouse (too loose), trousers (too long), and a leather jacket (too snug) to a tailor for professional alterations (as of 2023-07-17).\n*   **Workplace Documentation:** Recently created an IT employee offboarding checklist for their employer, \"UX is Fine!\" (as of 2023-07-19).\n*   **Cycling:** Planning a 20-mile ride for the weekend of 2023-07-22/23. Planning to purchase a new helmet from Specialized.\n*   **Drifting:** Planning to compete in a \"Regional Drifting Championship\" in September 2023.\n*   **Art Projects:** Planning to start watercolor painting and mixed media projects, specifically incorporating Shibori-dyed fabric (as of 2023-07-28).\n*   **Home Decor:** Planning to purchase throw pillows from Target to update living room; planning to update backyard with new patio furniture for an upcoming gathering.\n\n### Changes over time\n*   **Dietary Habits:** Actively transitioning to a plant-based diet as of February 2023; previously consumed dairy and meat-based products.\n*   **Family Status:** Became an aunt/uncle to Liam on March 12, 2023.\n*   **Gardening:** Started gardening hobby in February 2023.\n*   **Cooking Skills:** Mastered mother's chicken parmesan recipe as of 2023-06-28.\n*   **Coffee Brewing:** Changed French press ratio to 1:5 as of 2023-06-30; previously 1:6.\n*   **Dinner Party Plans:** Hosting dinner party next weekend (as of 2023-07-04; previously hosting this weekend as of 2023-06-30).\n*   **Closet Habits:** Implemented \"one in, one out\" policy as of June 2023.\n*   **Shopping Philosophy:** Shifted from prioritizing luxury items to seeking a balance between luxury and practicality as of 2023-07-13.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 320.5,
+  "total": 321.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

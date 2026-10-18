@@ -1,0 +1,104 @@
+{
+ "qid": "0ddfec37",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many autographed baseballs have I added to my collection in the first three months of collection?",
+ "reference": "15",
+ "question_date": "2024-01-08 09:27",
+ "sessions": [
+  {
+   "id": "sharegpt_P4sav72_0",
+   "date": "2023-07-03 12:38",
+   "evidence": false
+  },
+  {
+   "id": "3422786d_2",
+   "date": "2023-07-07 04:17",
+   "evidence": false
+  },
+  {
+   "id": "60f9246d",
+   "date": "2023-07-09 20:11",
+   "evidence": false
+  },
+  {
+   "id": "answer_a22b654d_1",
+   "date": "2023-07-11 14:38",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cXkL3cR_45",
+   "date": "2023-10-04 08:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_gWIeryu_0",
+   "date": "2023-11-16 07:06",
+   "evidence": false
+  },
+  {
+   "id": "2878574e",
+   "date": "2023-12-09 01:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_GKjb2be_0",
+   "date": "2023-12-22 12:42",
+   "evidence": false
+  },
+  {
+   "id": "answer_a22b654d_2",
+   "date": "2023-12-30 02:28",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_139747",
+   "date": "2024-01-08 13:17",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T16:01:07.176960+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2024-01-08 09:27] How many autographed baseballs have I added to my collection in the first three months of collection?'}, {'timestamp': '2026-10-17T16:01:01.197449+00:00', 'time_ago': '8s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-12-30 02:28] Decluttering and refreshing your collection can be a great feeling!\\n\\nDetermining the value of autographed baseballs can be a bit subjective, but there are some resources that can help you estimate their value and potentially sell them:\\n\\n**Online Marketplaces:**\\n\\n1. **eBay**: eBay is a popular platform for buying and selling autographed memorabilia, including baseballs. You can research completed listings to determine the value of similar items.\\n2. **Steiner Sports**: Steiner Sports is a well-known sports memorabilia company that offers a price guide for autographed items, including baseballs.\\n3. **Fanatics**: Fanatics is another leading sports memorabilia company that provides a price guide for autographed items, including baseballs.\\n\\n**Authentication Services:**\\n\\n1. **Professional Sports Authenticator (PSA)**: PSA is a leading authentication service for sports memorabilia, including autographed baseballs. They provide a grading and authentication process that can increase the value of your item.\\n2. **James Spence Authentication (JSA)**: JSA is another reputable authentication service that provides a grading and authentication process for autographed sports memorabilia.\\n\\n**Specialized Forums and Communities:**\\n\\n1. **Sports Collectors Digest**: A online forum and community dedicated to sports memorabilia collectors, where you can ask for opinions on the value of your autographed baseballs.\\n2. **Autograph Collectors**: A online forum and community focused on autograph collecting, where you can connect with other collectors and get feedback on your items.\\n\\n**Local Sports Memorabilia Shops:**\\n\\n1. **Visit Local Sports Memorabilia Shops**: Reach out to local sports memorabilia shops in your area and ask if they're interested in buying your autographed baseballs or can help you determine their value.\\n\\n**Auction Houses:**\\n\\n1. **Heritage Auctions**: Heritage Auctions is a leading auction house that specializes in sports memorabilia, including autographed baseballs.\\n2. **Lelands**: Lelands is another reputable auction house that features sports memorabilia, including autographed baseballs.\\n\\nBefore selling, make sure to:\\n\\n* Research your autographed baseballs' authenticity, provenance, and condition to determine their value.\\n* Get your items authenticated by a reputable service like PSA or JSA, if possible.\\n* Take high-quality photos of your items from multiple angles.\\n* Write a detailed description of your items, including any flaws or defects.\\n* Set a competitive price based on your research and the condition of your items.\\n\\nRemember to stay safe when selling online by using secure payment methods and being cautious of scams.\\n\\nGood luck with selling your autographed baseballs, and happy collecting!\"}, {'timestamp': '2026-10-17T16:01:01.197430+00:00', 'time_ago': '8s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-12-30 02:28] I'm thinking of selling some of my autographed baseballs to make room for new additions to my collection. Do you know of any good resources for determining their value and potentially selling them?\"}, {'timestamp': '2026-10-17T16:01:01.197271+00:00', 'time_ago': '8s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-30 02:28] That\\'s great to hear about your growing collection! Congratulations on adding 20 autographed baseballs in just a few months. That\\'s impressive!\\n\\nRegarding upcoming sports memorabilia auctions in your city, I\\'m a large language m",
+ "answer": "Based on our previous conversation from December 30, 2023, you mentioned that you had added 20 autographed baseballs to your collection in the few months leading up to that date.",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"end_date\": \"2024-03-31\", \"query\": \"autographed baseballs collection\", \"start_date\": \"2024-01-01\"})",
+   "conversation_search({\"query\": \"autographed baseballs\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 35.9,
+  "total": 42.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "qid": "031748ae",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How many engineers do I lead when I just started my new role as Senior Software Engineer? How many engineers do I lead now?",
+ "reference": "When you just started your new role as Senior Software Engineer, you led 4 engineers. Now, you lead 5 engineers",
+ "question_date": "2023-11-10 04:20",
+ "sessions": [
+  {
+   "id": "answer_8748f791_1",
+   "date": "2023-05-11 02:02",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_362770",
+   "date": "2023-06-15 22:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_472644",
+   "date": "2023-10-24 03:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_8748f791_2",
+   "date": "2023-10-24 13:53",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_pPNVaqR_0",
+   "date": "2023-10-25 21:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LaG73Rk_0",
+   "date": "2023-10-28 10:47",
+   "evidence": false
+  },
+  {
+   "id": "b70ac29f_1",
+   "date": "2023-11-02 08:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_556006",
+   "date": "2023-11-03 04:35",
+   "evidence": false
+  },
+  {
+   "id": "6a747f2e",
+   "date": "2023-11-05 03:33",
+   "evidence": false
+  },
+  {
+   "id": "bd3880f4",
+   "date": "2023-11-05 21:53",
+   "evidence": false
+  }
+ ],
+ "context": "When you started your role as a Senior Software Engineer in May 2023, you led a team of 4 engineers. Currently, as of October 2023, you lead a team of five engineers.",
+ "answer": "**Answer (step by step):**\n\n**1. Extract relevant information:**\n*   **Start of role:** May 2023.\n*   **Team size at start:** 4 engineers.\n*   **Current date:** November 10, 2023.\n*   **Team size as of October 2023:** 5 engineers.\n\n**2. Reason over the information:**\n*   The prompt asks for the number of engineers led at the start of the role and the number led currently.\n*   Based on the extracted data, the team size at the start (May 2023) was 4.\n*   Since the most recent update provided is from October 2023 (stating a team size of 5) and no further changes have been mentioned up to the current date of November 10, 2023, the current team size remains 5.\n\n**Conclusion:**\nYou led **4** engineers when you started your role, and you lead **5** engineers now.",
+ "dump": "- [explicit] user is interested in organizing outdoor games for a team outing.\n- [explicit] user is considering giant Jenga or a similar activity for a team outing.\n- [explicit] user is planning a team outing for engineers.\n- [explicit] user is looking for a rooftop space that can accommodate a group of 5 people.\n- [explicit] user is organizing a group consisting of 5 engineers and 1 manager.\n- [explicit] user is interested in City View Rooftop as a location for a team outing.\n- [explicit] user is planning to invite a manager named Rachel to join the outing.\n- [explicit] user intends to contact Samantha at City View Rooftop to inquire about a Corporate Team Building Package for 6 people.\n- [explicit] user holds the position of Senior Software Engineer.\n- [explicit] user plans to incorporate structured activities into the team outing to encourage teamwork and collaboration.\n- [explicit] user plans to have 5 people from their team, including manager Rachel and the 4 engineers, attend the outing.\n- [explicit] user plans to contact Samantha to inquire about the Corporate Team Building Package for 6 people.\n- [explicit] user leads a team of 4 engineers.\n- [explicit] user has previously tried Dutch pancakes.\n- [explicit] user is interested in unique events to attend in Amsterdam.\n- [explicit] user is interested in trying unique desserts in Amsterdam.\n- [explicit] user is looking for recommendations for a good bakery in Amsterdam.\n- [explicit] user is interested in unique food experiences to try in Amsterdam.\n- [explicit] user is attempting to reduce their gluten intake.\n- [explicit] user is interested in finding bakeries that offer vegan desserts.\n- [explicit] user appreciates the contrasting use of darker colors in the tense and suspenseful scenes of \"The Grand Budapest Hotel\".\n- [explicit] user believes that the use of darker colors in suspenseful scenes adds depth to the overall color palette of \"The Grand Budapest Hotel\".\n- [explicit] user identifies the candy-colored scenes in \"The Grand Budapest Hotel\" as their favorite.\n- [explicit] user appreciates how the candy-colored scenes in \"The Grand Budapest Hotel\" contribute to the film's playful and whimsical atmosphere.\n- [explicit] user enjoys the color palette used in the film \"The Grand Budapest Hotel\" for the magical feel it creates.\n- [explicit] user describes their team as relatively active.\n- [explicit] user leads a team of five engineers.\n- [explicit] user is a Senior Software Engineer.\n- [explicit] user is planning a team outing for 6 people.\n- [explicit] user is based in the San Francisco Bay Area.\n- [explicit] user selected the group hike option for their team outing.\n- [explicit] user prefers a moderate trail with scenic views for their group hike.\n- [explicit] user prefers a park or nature reserve for hiking within a 30-45 minute drive from the San Francisco city center.\n- [explicit] user feels their team has a high workload.\n- [explicit] user identifies a need to delegate tasks more effectively to meet project deadlines.\n- [explicit] user plans to check trail conditions for Mount Tamalpais State Park.\n- [explicit] user intends to visit Mount Tamalpais State Park.\n- [explicit] user intends to work on providing necessary resources and support to team members.\n- [explicit] user describes their team as working well together.\n- [explicit] user intends to work on setting realistic deadlines and expectations for team members.\n- [explicit] user is proud of the progress their team has made.\n- [explicit] user plans to organize a scavenger hunt during the team hike.\n- [explicit] user is planning a team hike at Mount Tamalpais State Park.\n- [explicit] user is acting as a training facilitator.\n- [explicit] user is designing a three and a half hour workshop for middle managers on the fundamentals of coaching.\n- [explicit] user is seeking an example of a scenario for group members to practice feedback skills.\n- [explicit] user is aligning the workshop content to the book The Coaching Habit.\n- [explicit] user is seeking examples of practical active listening exercises.\n- [explicit] user is interested in 1920s gangster-themed nicknames for Amanda Van West.\n- [explicit] user requested that nicknames for Amanda Van West incorporate references to gin or lemon.\n- [explicit] user requested that nicknames for Amanda Van West have a prohibition theme.\n- [explicit] user has a friend named Amanda Van West.\n- [explicit] user requested a list of 50 prohibition-era words.\n- [explicit] user requested to keep gin-themed words while adding more.\n- [explicit] user wants a gangster style nickname for Amanda Van West using the terms hooch, speakeasy, and gin-runner as inspiration.\n- [explicit] user is interested in visiting museums in NYC.\n- [explicit] user attended the Impressionist exhibit at the Metropolitan Museum of Art with a friend named Sarah on October 28, 2023.\n- [explicit] user is planning a weekend in NYC with a friend.\n- [explicit] user enjoyed the Monet collection at the Metropolitan Museum of Art.\n- [explicit] user is interested in visiting the Museum of Modern Art.\n- [explicit] user considers Frida Kahlo's paintings to have vibrant colors and emotional depth.\n- [explicit] user was impressed by the Claude Monet collection at the Impressionist exhibit at the Metropolitan Museum of Art.\n- [explicit] user visited the Museum of Modern Art with their sister, Emily.\n- [explicit] user attended the Impressionist exhibit at the Metropolitan Museum of Art with their friend Sarah.\n- [explicit] user spent four hours at the Museum of Modern Art viewing the Frida Kahlo retrospective.\n- [explicit] user visited the Museum of Modern Art in October 2023.\n- [explicit] user is planning to visit the American Museum of Natural History.\n- [explicit] user is interested in comparing the political systems of Rome and Greece.\n- [explicit] user is interested in how different political systems affect the outcomes of civilizations.\n- [explicit] user is interested in how societal values and priorities impact the effectiveness of political systems.\n- [explicit] user is currently attempting to improve their packing habits.\n- [explicit] user intends to pack a few lighter colored items for the trip to Seattle.\n- [explicit] user intends to pack clothes that can be easily mixed and matched for the trip to Seattle.\n- [explicit] user intends to prioritize dark and neutral colors for tops and bottoms.\n- [explicit] user has been tracking items packed for their previous trips.\n- [explicit] user is planning a trip to Seattle in December 2023.\n- [explicit] user wore 3 shirts during the last trip to Chicago.\n- [explicit] user intends to pack lighter for the next trip than for the last trip to Chicago.\n- [explicit] user traveled to Chicago on the last trip.\n- [explicit] user packed 7 shirts for the last trip to Chicago.\n- [explicit] user is planning a trip to Seattle.\n- [explicit] user plans to pack a few hand-washable items, specifically a couple of quick-drying t-shirts and a pair of travel pants.\n- [explicit] user is unfamiliar with available travel-sized toiletry options.\n- [explicit] user intends to wash clothes during travel if needed.\n- [explicit] user is seeking recommendations for travel-sized toiletries.\n- [explicit] user prefers not to pack full-sized toiletries.\n- [explicit] user plans to pack some travel-sized toiletries.\n- [explicit] user is traveling to Seattle.\n- [explicit] user plans to decant favorite toiletries into smaller containers for travel.\n- [explicit] user wants to pack comfortable shoes for walking.\n- [explicit] user wants to limit the number of pairs of shoes packed for travel.\n- [explicit] user is considering going for a bike ride on Saturday, November 11, 2023.\n- [explicit] user requested a weather forecast for Saturday, November 11, 2023, for the 92109 zip code.\n- [explicit] user is looking for new workout playlists to listen to at the gym.\n- [explicit] user is located in the 92109 zip code.\n- [explicit] user is interested in learning more about the La Jolla Recreation Center's volleyball league, specifically the cost, schedule, and skill level.\n- [explicit] user is planning to go for a bike ride.\n- [explicit] user is thinking of joining a recreational volleyball league.\n- [explicit] user is considering registering a team for the La Jolla Recreation Center volleyball league.\n- [deductive] user prefers light, efficient packing for travel.\n- [deductive] user is health-conscious and values physical fitness.\n- [deductive] user is interested in athletic and recreational activities, specifically volleyball and cycling.\n- [inductive] user is a methodical and efficiency-minded traveler who prefers to pack light by using travel-sized toiletries and limiting the number of items carried.\n- [inductive] user is proactive about physical activity and exercise, showing interest in both team sports (volleyball) and individual fitness activities (cycling, gym).",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 103.5,
+  "total": 106.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

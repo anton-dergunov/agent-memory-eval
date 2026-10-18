@@ -1,0 +1,102 @@
+{
+ "qid": "c7dc5443",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What is my current record in the recreational volleyball league?",
+ "reference": "5-2",
+ "question_date": "2023-07-21 20:30",
+ "sessions": [
+  {
+   "id": "705b5399_1",
+   "date": "2023-05-27 01:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_oSemQhs_0",
+   "date": "2023-06-16 04:31",
+   "evidence": false
+  },
+  {
+   "id": "c2fb8e86_2",
+   "date": "2023-06-16 04:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_0cdbca92_1",
+   "date": "2023-06-16 12:33",
+   "evidence": true
+  },
+  {
+   "id": "8a355b36_1",
+   "date": "2023-06-17 09:15",
+   "evidence": false
+  },
+  {
+   "id": "e6b6353d",
+   "date": "2023-06-17 22:31",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6cz1Sq6_264",
+   "date": "2023-06-28 19:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_51967",
+   "date": "2023-06-28 20:16",
+   "evidence": false
+  },
+  {
+   "id": "answer_0cdbca92_2",
+   "date": "2023-06-30 14:20",
+   "evidence": true
+  },
+  {
+   "id": "6b8e8bb3_1",
+   "date": "2023-07-10 19:09",
+   "evidence": false
+  }
+ ],
+ "context": "- The user is playing in a volleyball league with a 3-2 record. (valid since 2023-06-16)\n- Participants from the volleyball league are being invited to join the mini tournament of the office basketball league. (valid since 2023-06-30)\n- The assistant provides advice on how to start and make a recreational basketball league successful. (valid since 2023-06-30)\n- The mini tournament is being hosted to wrap up the season of the office basketball league. (valid since 2023-06-30)\n- assistant suggests that Net Ninja consider offering prizes or recognition to motivate participants in the office basketball league (valid since 2023-06-30)\n- The user plays soccer on Sundays. (valid since 2023-06-16)\n- The user is thinking about signing up for a sprint triathlon in the fall, approximately 12 weeks from June 16, 2023. (valid since 2023-06-16)\n- The assistant provides guidance and recommends a bike fitting to aid the user in their triathlon training. (valid since 2023-06-16)\n- The health insurance provider updates prescription information to reflect the user's new name. (valid since 2023-06-17)\n- The assistant recommends that the user gets a bike fitting to ensure the bike is properly fitted to their body. (valid since 2023-06-16)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   The history chat dated 2023-06-16 states: \"The user is playing in a volleyball league with a 3-2 record.\"\n\n2.  **Reason over the information:**\n    *   The record provided in the history is 3-2.\n    *   There are no subsequent updates in the provided history logs indicating that the user's volleyball record has changed since June 16, 2023.\n\n3.  **Conclusion:**\n    *   The user's current record in the recreational volleyball league is 3-2.",
+ "dump": "- The user plans to set clear financial goals and create a budget to manage their finances. (valid since 2023-05-27)\n- The user intends to unfollow or mute social media accounts that trigger their desire to splurge. (valid since 2023-05-27)\n- The user plans to try out the Spendee app to help track luxury spending. (valid since 2023-05-27)\n- user receives advice and support from assistant regarding how to manage luxury spending habits (valid since 2023-05-27)\n- user plans to start keeping a feelings journal, practice delayed gratification, seek support from friends or family, and find alternative stress-relief methods like exercise or meditation as advised by assistant (valid since 2023-05-27)\n- Mahindra and Mahindra set up a TQM cell to provide training to employees on quality management techniques. (valid since 2023-06-16)\n- Mahindra and Mahindra utilizes SAP ERP to standardize processes and provide real-time information. (valid since 2023-06-16)\n- Mahindra and Mahindra set up a Six Sigma cell to provide training on Six Sigma tools and techniques. (valid since 2023-06-16)\n- Mahindra and Mahindra set up a Lean cell to provide training on Lean tools and techniques. (valid since 2023-06-16)\n- Mahindra and Mahindra set up Kaizen teams focused on improving specific processes. (valid since 2023-06-16)\n- Mahindra and Mahindra uses RFID tags to track its inventory and reduce the risk of stock-outs. (valid since 2023-06-16)\n- Mahindra and Mahindra implements Total Quality Management (TQM) as part of its operational practices. (valid since 2023-06-16)\n- Mahindra and Mahindra utilizes Business Process Reengineering (BPR) to enhance its operational efficiency. (valid since 2023-06-16)\n- Mahindra and Mahindra employs Enterprise Resource Planning (ERP) systems within its business operations. (valid since 2023-06-16)\n- Mahindra and Mahindra incorporates Six Sigma methodologies into its quality improvement initiatives. (valid since 2023-06-16)\n- Mahindra and Mahindra practices Lean manufacturing principles to reduce waste in its operations. (valid since 2023-06-16)\n- Mahindra and Mahindra fosters a culture of continuous improvement through the implementation of Kaizen. (valid since 2023-06-16)\n- The user believes that Velvet effectively explores the themes of social class and inequality, particularly through its portrayal of the contrast between the wealthy and the working class. (valid since 2023-06-16)\n- Ana Ribera is a character in the television show Velvet. (valid since 2023-06-16)\n- The user is thinking about signing up for a sprint triathlon in the fall, approximately 12 weeks from June 16, 2023. (valid since 2023-06-16)\n- The user is playing in a volleyball league with a 3-2 record. (valid since 2023-06-16)\n- The user plays soccer on Sundays. (valid since 2023-06-16)\n- The assistant recommends that the user gets a bike fitting to ensure the bike is properly fitted to their body. (valid since 2023-06-16)\n- The assistant provides guidance and recommends a bike fitting to aid the user in their triathlon training. (valid since 2023-06-16)\n- The assistant suggests using a Google search to find local bike shops that offer bike fittings. (valid since 2023-06-16)\n- The assistant recommends using USA Cycling's Bike Shop Finder to locate shops with bike fitting services. (valid since 2023-06-16)\n- The assistant recommends using the National Bicycle Dealers Association's Dealer Locator to find bike shops that offer bike fittings. (valid since 2023-06-16)\n- The user must notify their health insurance provider of a name change and provide identification documents like a driver's license or passport. (valid since 2023-06-17)\n- The user must notify their doctor of a name change and provide identification documents like a driver's license or passport to ensure prescription accuracy. (valid since 2023-06-17)\n- The user must notify their pharmacy of a name change and provide identification documents like a driver's license or passport to ensure prescription accuracy. (valid since 2023-06-17)\n- The health insurance provider updates prescription information to reflect the user's new name. (valid since 2023-06-17)\n- The assistant provides safety tips for the user's 20-mile bike ride. (valid since 2023-06-17)\n- The assistant recommends Specialized as a high-quality brand for bike helmets. (valid since 2023-06-17)\n- Chapter 13 describes the gluteus maximus as one of the glute muscles. (valid since 2023-06-28)\n- Chapter 13 describes the gluteus medius as one of the glute muscles. (valid since 2023-06-28)\n- Chapter 13 describes the gluteus minimus as one of the glute muscles. (valid since 2023-06-28)\n- The CDC recommends using hand sanitizer only when hand washing is not an option, using just enough to coat hands, and rubbing hands until they are dry. (valid since 2023-06-28)\n- The assistant provides advice on how to start and make a recreational basketball league successful. (valid since 2023-06-30)\n- assistant suggests that Net Ninja consider offering prizes or recognition to motivate participants in the office basketball league (valid since 2023-06-30)\n- The mini tournament is being hosted to wrap up the season of the office basketball league. (valid since 2023-06-30)\n- Participants from the volleyball league are being invited to join the mini tournament of the office basketball league. (valid since 2023-06-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 41,
+  "invalidated": 0,
+  "episodes": 23,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 155.6,
+  "total": 156.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

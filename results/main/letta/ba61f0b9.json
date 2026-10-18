@@ -1,0 +1,124 @@
+{
+ "qid": "ba61f0b9",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many women are on the team led by my former manager Rachel?",
+ "reference": "6",
+ "question_date": "2023-08-03 06:02",
+ "sessions": [
+  {
+   "id": "ultrachat_466424",
+   "date": "2022-12-24 19:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_u1AM5RT_7",
+   "date": "2023-01-02 23:47",
+   "evidence": false
+  },
+  {
+   "id": "495cf518_1",
+   "date": "2023-01-03 03:39",
+   "evidence": false
+  },
+  {
+   "id": "answer_f377cda7_1",
+   "date": "2023-01-18 13:09",
+   "evidence": true
+  },
+  {
+   "id": "bd8e7b9a_1",
+   "date": "2023-02-25 10:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_hccQjAV_0",
+   "date": "2023-05-23 23:17",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Ak1QBSt_0",
+   "date": "2023-07-20 09:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_f377cda7_2",
+   "date": "2023-07-20 16:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_245108",
+   "date": "2023-07-21 20:53",
+   "evidence": false
+  },
+  {
+   "id": "57152276_1",
+   "date": "2023-07-23 02:19",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is taking a philosophy course at their local community college. They are interested in exploring the concept of free will versus determinism. They have a history of reflecting on their own beliefs following a heated argument about the existence of God three months ago.\nThe user previously worked on a team managed by Rachel, which was notably diverse (6 women out of 10 people).\nThe user is planning a trip to Denver next week and is comparing driving vs. flying. They recently took 4 domestic flights last month.\nThe user is traveling from New York to Denver for 4 days (Wednesday to Sunday) next week. They are traveling alone and prefer to avoid morning flights. They own a car and would drive it if they choose to drive.\nThe user is interested in visiting local breweries in Denver and wants recommendations. They are staying near downtown and using public transportation.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T03:10:14.223084+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-08-03 06:02] How many women are on the team led by my former manager Rachel?'}]}",
+ "answer": "Based on the information in your memory, there were 6 women on the team of 10 people managed by Rachel.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is taking a philosophy course at their local community college. They are interested in exploring the concept of free will versus determinism. They have a history of reflecting on their own beliefs following a heated argument about the existence of God three months ago.\nThe user previously worked on a team managed by Rachel, which was notably diverse (6 women out of 10 people).\nThe user is planning a trip to Denver next week and is comparing driving vs. flying. They recently took 4 domestic flights last month.\nThe user is traveling from New York to Denver for 4 days (Wednesday to Sunday) next week. They are traveling alone and prefer to avoid morning flights. They own a car and would drive it if they choose to drive.\nThe user is interested in visiting local breweries in Denver and wants recommendations. They are staying near downtown and using public transportation.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Rachel team women\"})",
+   "conversation_search({\"query\": \"Rachel\"})"
+  ],
+  "blocks_chars": 1086,
+  "write_steps": 48,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 382.2,
+  "total": 389.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "qid": "e66b632c",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "What was my previous personal best time for the charity 5K run?",
+ "reference": "27 minutes and 45 seconds",
+ "question_date": "2023-08-25 05:19",
+ "sessions": [
+  {
+   "id": "answer_ac0140ce_1",
+   "date": "2023-04-11 13:31",
+   "evidence": true
+  },
+  {
+   "id": "4f51038b",
+   "date": "2023-04-14 21:55",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_TlAbjNp_7",
+   "date": "2023-04-21 05:48",
+   "evidence": false
+  },
+  {
+   "id": "1185691f_1",
+   "date": "2023-05-27 05:40",
+   "evidence": false
+  },
+  {
+   "id": "49b1d93f_2",
+   "date": "2023-06-04 02:16",
+   "evidence": false
+  },
+  {
+   "id": "84098c1b",
+   "date": "2023-06-14 07:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436858",
+   "date": "2023-06-18 06:47",
+   "evidence": false
+  },
+  {
+   "id": "49b1d93f_1",
+   "date": "2023-06-25 05:25",
+   "evidence": false
+  },
+  {
+   "id": "9b820206",
+   "date": "2023-06-27 19:40",
+   "evidence": false
+  },
+  {
+   "id": "answer_ac0140ce_2",
+   "date": "2023-07-30 18:30",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nThe user is interested in sustainability and has already made several changes to their daily routine, including using a bamboo toothbrush, reusable bags, beeswax wraps, and stainless steel straws. They recently decided to try Seventh Generation laundry detergent and are now considering purchasing a stainless steel water bottle from S'well or Hydro Flask.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T22:30:30.151923+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-08-25 05:19] What was my previous personal best time for the charity 5K run?'}, {'timestamp': '2026-10-17T22:30:27.199661+00:00', 'time_ago': '5s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-07-30 18:30] That looks like a solid plan! I'm excited to get started. One question: how does my previous charity 5K run performance factor into this plan? You know, the one where I finished with a personal best time of 26 minutes and 30 seconds? Should I adjust my expectations for the 10K based on that performance?\"}, {'timestamp': '2026-10-17T22:30:27.199593+00:00', 'time_ago': '5s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-07-30 18:30] Congratulations on beating your personal best time in the 5K run! That's a great achievement!\\n\\nNow, let's get back to planning a fantastic 20-mile bike route for your Saturday morning cycling group in Oakdale.\\n\\nSince you'd like to avoid downtown and the highway, I'll suggest a route that takes advantage of the bike trail along the river and explores some of Oakdale's quieter neighborhoods and scenic areas. Here's a possible route for you:\\n\\n**Route Suggestion:**\\n\\n**Segment 1: River Trail (4 miles)**\\n\\n* Start at the River Trail parking lot near the Oakdale Marina (or any other convenient access point).\\n* Ride north along the river trail, enjoying the scenic views and relatively flat terrain.\\n* Continue on the trail until you reach the intersection with Oakbrook Drive.\\n\\n**Segment 2: Quiet Neighborhoods (6 miles)**\\n\\n* Turn left onto Oakbrook Drive and ride west for about 1.5 miles.\\n* Turn right onto Maple Street and continue for approximately 2 miles, passing through a quiet neighborhood with minimal traffic.\\n* Turn left onto Elm Avenue and ride for about 1.5 miles, which will bring you to the edge of a small park.\\n\\n**Segment 3: Park Loop and Hill (4 miles)**\\n\\n* Enter the park and ride the loop around the perimeter, which includes a few small hills to get your legs pumping.\\n* Exit the park and ride east on Parkview Drive for about 1 mile.\\n* Turn left onto Highland Avenue, which will take you over a small hill and back down into a quiet neighborhood.\\n\\n**Segment 4: River Trail Return (6 miles)**\\n\\n* Turn right onto River Road, which will take you back to the river trail.\\n* Ride south along the river trail, retracing your route from the start, and enjoy the scenic views one more time.\\n\\nThis route should provide a pleasant, relatively flat ride with some minor hills to keep things interesting. You'll avoid downtown and the highway, while still exploring some of Oakdale's hidden gems. Feel free to adjust the route to suit your group's preferences or add any additional stops along the way.\\n\\nHow does this route sound? Would you like me to make any changes or suggest any variations?\"}, {'timestamp': '2026-10-17T22:30:27.199576+00:00', 'time_ago': '5s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-07-30 18:30] I'm in the city of Oakdale. We'd like to avoid downtown and the highway. We're familiar with the bike trail along the river, so if possible, it'd be great to incorporate that into the route. The terrain is generally flat with some small hills. Oh, and by the way, I just got back from a charity 5K run last weekend and was happy to beat my personal best time - shaved off about a minute and a half from my previous record!\"}, {'timestamp': '2026-10-17T22:30:00.696993+00:00', 'time_ago': '31s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-04-11 13:31] I'm glad you like the route! I can provide you with a map and GPS coordinates to share with your group. Since I'm a text-based AI, I don't have the capability to upload maps or images, but I can provide you with a writt",
+ "answer": "Your personal best time for the charity 5K run is 26 minutes and 30 seconds.",
+ "dump": "<human>\n\nThe user is interested in sustainability and has already made several changes to their daily routine, including using a bamboo toothbrush, reusable bags, beeswax wraps, and stainless steel straws. They recently decided to try Seventh Generation laundry detergent and are now considering purchasing a stainless steel water bottle from S'well or Hydro Flask.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"charity 5K run personal best\"})",
+   "conversation_search({\"query\": \"5K run\"})"
+  ],
+  "blocks_chars": 556
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 29.6,
+  "total": 35.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

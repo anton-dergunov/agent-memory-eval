@@ -1,0 +1,136 @@
+{
+ "qid": "603deb26",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?",
+ "reference": "10",
+ "question_date": "2023-12-05 02:37",
+ "sessions": [
+  {
+   "id": "37f66729",
+   "date": "2023-08-04 04:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_1",
+   "date": "2023-08-11 17:11",
+   "evidence": true
+  },
+  {
+   "id": "58e5adf2",
+   "date": "2023-08-12 03:22",
+   "evidence": false
+  },
+  {
+   "id": "feb5f98a_2",
+   "date": "2023-08-16 06:11",
+   "evidence": false
+  },
+  {
+   "id": "5e867c2f_2",
+   "date": "2023-08-27 17:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_69476",
+   "date": "2023-09-23 08:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_408354",
+   "date": "2023-10-01 22:47",
+   "evidence": false
+  },
+  {
+   "id": "d05d6391_3",
+   "date": "2023-10-22 11:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_etklNfN_11",
+   "date": "2023-11-23 23:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_8afdebac_2",
+   "date": "2023-11-30 01:59",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nEnjoys experimenting with cocktails, specifically gin-based drinks.\nFavorite gin: Hendrick's.\nCurrently growing herbs in the garden.\nInterested in using lavender in cocktails.\nExperimenting with Negroni recipes at home.\nUses Carpano Antica vermouth in Negronis.\nLearned to make Negronis from Emma.\nHas made Negronis 10 times so far.\nInterested in getting a lighter fly fishing rod for smaller trout.\nPlanning to enter a fishing tournament at Joe's Tackle next month with a friend.\nCaught a 3-pound trout on Lake Tahoe using a silver lure three weeks ago.\nHas caught a total of a dozen trout at Lake Tahoe with a friend.\nTargeting senior roles: Content Marketing Strategist or Digital Marketing Consultant.\nKey strengths to highlight: Managing social media, creating/scheduling posts, analyzing engagement metrics.\nWork style: Adapts to changing workloads, prioritizes tasks effectively.\nWork ethic: Increases hours by 10 hours/week during peak seasons.\nCertifications: Google Analytics, HubSpot Inbound Marketing.\nHas a blog.\nInterested in how to integrate character development and communication skills into academic curricula.\nHosted a dinner party and served a Cranberry Sparkler.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T00:59:56.613873+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-12-05 02:37] How many times have I tried making a Negroni at home since my friend Emma showed me how to make it?'}, {'timestamp': '2026-10-18T00:59:53.435275+00:00', 'time_ago': '6s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'It sounds like you have found your go-to gin with Hendrick\\'s! It is a fantastic choice—the cucumber and rose notes really set it apart from traditional London Dry gins, which is likely why it pairs so well with your creative infusions.\\n\\nSince you\\'ve mastered the Negroni and are moving into Bee\\'s Knees territory, here are three more gin-based classics that I think you’ll love. They play off different aspects of Hendrick\\'s flavor profile:\\n\\n### 1. The Last Word\\nThis is a cult favorite among gin lovers. It is a \"sour\" cocktail, but with incredible complexity.\\n*   **The Mix:** Equal parts (0.75 oz each): Gin, Green Chartreuse, Luxardo Maraschino Liqueur, and fresh lime juice.\\n*   **Why it works:** The herbal intensity of the Green Chartreuse highlights the unique botanicals in Hendrick\\'s, while the Maraschino adds a nutty, floral sweetness. It’s balanced, bold, and incredibly refreshing.\\n\\n### 2. The French 75\\nIf you want something celebratory and elegant, this is the gold standard.\\n*   **The Mix:** 1 oz Gin, 0.5 oz lemon juice, 0.5 oz simple syrup. Shake with ice, strain into a champagne flute, and top with chilled Champagne or dry sparkling wine.\\n*   **Why it works:** The effervescence of the sparkling wine opens up the aromatics of the gin. It feels very sophisticated and is perfect for a dinner party. You could even use your lavender simple syrup here instead of plain sugar to give it a floral twist!\\n\\n### 3. The Clover Club\\nThis is a pre-Prohibition classic that features a beautiful, silky texture and a stunning pink color.\\n*   **The Mix:** 1.5 oz Gin, 0.5 oz dry vermouth, 0.5 oz raspberry syrup (or fresh muddled raspberries), 0.5 oz lemon juice, and one egg white (or 1 oz of aquafaba for a vegan option).\\n*   **The Method:** \"Dry shake\" everything first (without ice) to emulsify the egg white, then add ice and shake vigorously again.\\n*   **Why it works:** The texture is velvety, and the raspberry/lemon combination is a brilliant way to experiment with fruit-forward flavors without losing the gin character.\\n\\n**A quick thought on your journey:**\\nSince you are 10 Negronis deep and now exploring infusions and classic variations, have you considered hosting a small \"cocktail tasting\" or a \"build-your-own-gin-drink\" station at your next party? With your herb garden, you could set out bowls of fresh mint, basil, and lavender, along with your homemade infusions and honey syrup, and let your friends experiment alongside you!\\n\\nBetween the **Bee’s Knees** and these new ones, which one feels like the perfect \"next project\" for your home bar?'}, {'timestamp': '2026-10-18T00:59:50.155551+00:00', 'time_ago': '9s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-30 01:59] I'm excited to try out the Bee's Knees with my homemade honey syrup. I've also been experimenting with different types of gin, and I recently picked up a bottle of Hendrick's gin, which I'm really enjoying. By the way, speaking of gin, I've tried making a Negroni at home 10 times now since my friend Emma showed me how to make it. Do you have any recommendations for other gin-based cocktails that I should try making?\"}, {'timestamp': '2026-10-18T00:59:44.276531+00:00', 'time_ago': '15s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'That sounds like a wonderful dinner party! The Cranberry Sparkler sounds like a refreshing crowd-pleaser.\\n\\nSince you have a great handle on the Negroni and are exploring gin infusions, here are a few other classic cocktails ",
+ "answer": "You have made a Negroni at home 10 times since your friend Emma showed you how to make it.",
+ "dump": "<human>\n\nEnjoys experimenting with cocktails, specifically gin-based drinks.\nFavorite gin: Hendrick's.\nCurrently growing herbs in the garden.\nInterested in using lavender in cocktails.\nExperimenting with Negroni recipes at home.\nUses Carpano Antica vermouth in Negronis.\nLearned to make Negronis from Emma.\nHas made Negronis 10 times so far.\nInterested in getting a lighter fly fishing rod for smaller trout.\nPlanning to enter a fishing tournament at Joe's Tackle next month with a friend.\nCaught a 3-pound trout on Lake Tahoe using a silver lure three weeks ago.\nHas caught a total of a dozen trout at Lake Tahoe with a friend.\nTargeting senior roles: Content Marketing Strategist or Digital Marketing Consultant.\nKey strengths to highlight: Managing social media, creating/scheduling posts, analyzing engagement metrics.\nWork style: Adapts to changing workloads, prioritizes tasks effectively.\nWork ethic: Increases hours by 10 hours/week during peak seasons.\nCertifications: Google Analytics, HubSpot Inbound Marketing.\nHas a blog.\nInterested in how to integrate character development and communication skills into academic curricula.\nHosted a dinner party and served a Cranberry Sparkler.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Negroni Emma\"})",
+   "conversation_search({\"query\": \"Negroni\"})"
+  ],
+  "blocks_chars": 1383,
+  "write_steps": 53,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_replace",
+   "conversation_search",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 367.2,
+  "total": 376.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

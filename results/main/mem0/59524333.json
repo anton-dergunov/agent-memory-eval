@@ -1,0 +1,100 @@
+{
+ "qid": "59524333",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What time do I usually go to the gym?",
+ "reference": "6:00 pm",
+ "question_date": "2023-06-06 16:35",
+ "sessions": [
+  {
+   "id": "sharegpt_Clr6oyu_0",
+   "date": "2023-01-20 19:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_1",
+   "date": "2023-02-11 07:00",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_493944",
+   "date": "2023-02-26 03:13",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_NYFuCmY_0",
+   "date": "2023-03-01 11:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_5FHWj0a_0",
+   "date": "2023-03-18 20:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_F1pXfP0_0",
+   "date": "2023-04-18 07:42",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_150151",
+   "date": "2023-05-23 10:33",
+   "evidence": false
+  },
+  {
+   "id": "e4882e09_5",
+   "date": "2023-05-24 22:03",
+   "evidence": false
+  },
+  {
+   "id": "answer_b28f2c7a_2",
+   "date": "2023-05-30 07:52",
+   "evidence": true
+  },
+  {
+   "id": "08921633",
+   "date": "2023-05-30 20:42",
+   "evidence": false
+  }
+ ],
+ "context": "- User plans to use Todoist for their gym sessions, which occur at 7:00 PM on Mondays, Wednesdays, and Fridays. (from a chat on 2023-02-11)\n- User was advised to confirm meeting logistics, including date, time, and duration, in the email sent to the potential client. (from a chat on 2023-05-30)\n- User was recommended to set up gym sessions in Todoist as a recurring task using the 'Every' feature for specific days of the week with a reminder set for 6:00 PM. (from a chat on 2023-02-11)\n- User is scheduling a meeting with a potential client for Tuesday, May 30, 2023, at 2:00 PM. (from a chat on 2023-05-30)\n- User is looking for productivity apps to help organize their weekly schedule and stay focused. (from a chat on 2023-02-11)\n- User assembled a new IKEA dresser on Saturday, March 12, 2023, with the help of their brother, which took about 3 hours to complete. (from a chat on 2023-05-30)\n- User was advised to keep the client meeting to 60 minutes or less and to prepare an agenda to ensure a focused discussion. (from a chat on 2023-05-30)\n- User recently cleaned out their closet and is now planning to organize it by categorizing clothes and installing a closet system. (from a chat on 2023-05-30)\n- User was provided with instructions on how to integrate Todoist and Trello with Google Calendar to sync tasks and events. (from a chat on 2023-02-11)\n- User is interested in participating in the Commonpoint Challenge, a fundraising event occurring between April 1 and April 21, 2023, where participants choose their own activity to support community programs like food, mental health, and employment services. (from a chat on 2023-03-18)\n- User is looking for recommendations for shoes suitable for wide feet. (from a chat on 2023-04-18)\n- User owns a Canon EOS 5D Mark IV camera and had its sensor professionally cleaned at a local camera store in April 2023. (from a chat on 2023-05-24)\n- User was advised on using Todoist's goal-setting and tracking features, including project and task goals, progress bars, and goal insights to monitor productivity. (from a chat on 2023-02-11)\n- User plans to organize their old physical photo albums and scan favorite prints to preserve memories and reflect on their photography journey. (from a chat on 2023-05-24)\n- User was recommended the New Balance 990v5, ASICS Gel-Kayano 27, and Brooks Ghost 13 as excellent shoe options for individuals with wide feet. (from a chat on 2023-04-18)\n- User was provided with a guide for cleaning camera mirrors, prisms, viewfinders, and lens contacts using soft brushes and microfiber cloths to prevent sensor contamination. (from a chat on 2023-05-24)\n- User is interested in using Todoist and Trello for task management and project organization. (from a chat on 2023-02-11)\n- User is seeking advice on organizing a large collection of digital photos currently scattered across multiple folders and hard drives. (from a chat on 2023-05-24)\n- User is interested in decorating their bedroom in a Scandinavian Minimalism style, characterized by light wood tones, functionality, and minimal ornamentation. (from a chat on 2023-05-30)\n- User was recommended several DIY sensor cleaning kits, including Visible Dust Arctic Butterfly 724, Copper Hill Images, Sensor Gel Stick, and Eclipse. (from a chat on 2023-05-24)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-02-11: \"User plans to use Todoist for their gym sessions, which occur at 7:00 PM on Mondays, Wednesdays, and Fridays.\"\n*   From the chat on 2023-02-11: \"User was recommended to set up gym sessions in Todoist as a recurring task using the 'Every' feature for specific days of the week with a reminder set for 6:00 PM.\"\n\n**2. Reason over the information:**\n*   The user explicitly stated their gym sessions are scheduled for 7:00 PM.\n*   The recurring schedule for these sessions is set for Mondays, Wednesdays, and Fridays.\n*   The 6:00 PM reminder mentioned in the chat is a notification to prepare for the session, not the session time itself.\n\n**Answer:**\nYou usually go to the gym at 7:00 PM on Mondays, Wednesdays, and Fridays.",
+ "dump": "- User is looking for productivity apps to help organize their weekly schedule and stay focused. (session 2023-02-11)\n- User is seeking advice on organizing a large collection of digital photos currently scattered across multiple folders and hard drives. (session 2023-05-24)\n- User is scheduling a meeting with a potential client for Tuesday, May 30, 2023, at 2:00 PM. (session 2023-05-30)\n- User was provided with a structured outline for their YouTube video, covering the introduction, definition of mods, finding, downloading, and installing mods, and a conclusion. (session 2023-01-20)\n- User was advised on using Todoist's goal-setting and tracking features, including project and task goals, progress bars, and goal insights to monitor productivity. (session 2023-02-11)\n- User is seeking advice on organizing multiple concurrent projects in Todoist using features like projects, labels, filters, priorities, task hierarchies, and sections. (session 2023-02-11)\n- User is exploring the theological themes of Mark's Gospel, specifically its emphasis on Jesus' identity as the Son of God, the 'Messianic secret', the urgency of his ministry, and the role of suffering in discipleship. (session 2023-05-23)\n- User explored how Mark's Gospel portrays Jesus as a divine figure with authority over sickness, death, and demons, and how this early Christology may have provided comfort to early Christians facing spiritual and physical challenges. (session 2023-05-23)\n- User is interested in participating in the Commonpoint Challenge, a fundraising event occurring between April 1 and April 21, 2023, where participants choose their own activity to support community programs like food, mental health, and employment services. (session 2023-03-18)\n- User was provided with a list of popular websites for finding Minecraft mods, including CurseForge, Minecraft Forum, Planet Minecraft, and 9Minecraft. (session 2023-01-20)\n- User finds the exploration of hospitality and the expectations of hosts and guests in The Odyssey to be a fascinating aspect of ancient Greek society. (session 2023-02-26)\n- User selected a specific hook for their video: 'Do you want to experience the game in the best way imaginable? Do you want tools that your favorite YouTubers are using? Or do you simply want to customize your Minecraft world to your heart's desire? Mods have got you covered! In this video, I'll show you how to find and install the best mods for Minecraft.' (session 2023-01-20)\n- User discussed scholarly perspectives on why Mark's Gospel emphasizes urgency and suffering, including the possibility that it was written for a community facing persecution or in the aftermath of the Roman destruction of Jerusalem in 70 AD. (session 2023-05-23)\n- User was provided with an explanation of Minecraft mods, noting they are third-party modifications not officially supported by Mojang, and that tools like Minecraft Forge facilitate their installation. (session 2023-01-20)\n- User was recommended several DIY sensor cleaning kits, including Visible Dust Arctic Butterfly 724, Copper Hill Images, Sensor Gel Stick, and Eclipse. (session 2023-05-24)\n- User plans to organize their old physical photo albums and scan favorite prints to preserve memories and reflect on their photography journey. (session 2023-05-24)\n- User appreciates how The Odyssey balances action with reflection, viewing it as a tale of personal growth and discovery rather than just an adventure story. (session 2023-02-26)\n- User is working with the ROS package 'rospy' and specifically examining the 'rospy/src/rospy/topics.py' file to understand the implementation of Subscriber and Publisher classes. (session 2023-03-01)\n- User owns a Canon EOS 5D Mark IV camera and had its sensor professionally cleaned at a local camera store in April 2023. (session 2023-05-24)\n- User is interested in using Todoist and Trello for task management and project organization. (session 2023-02-11)\n- User plans to use Todoist for their gym sessions, which occur at 7:00 PM on Mondays, Wednesdays, and Fridays. (session 2023-02-11)\n- User was advised on digital photo organization strategies, including creating hierarchical folder structures, using tags/keywords, backing up files, and utilizing software like Adobe Lightroom or Google Photos. (session 2023-05-24)\n- User received advice on creating an eye-catching YouTube thumbnail, including using high-quality images, contrasting colors, and keeping the design simple. (session 2023-01-20)\n- User plans to share meeting materials with the potential client by creating a folder in Google Drive and emailing the link. (session 2023-05-30)\n- User is interested in decorating their bedroom in a Scandinavian Minimalism style, characterized by light wood tones, functionality, and minimal ornamentation. (session 2023-05-30)\n- User assembled a new IKEA dresser on Saturday, March 12, 2023, with the help of their brother, which took about 3 hours to complete. (session 2023-05-30)\n- User was provided with simplified instructions for the Commonpoint Challenge: select a challenge, create a fundraising page on CommonpointQueens.org/Challenge, personalize the page using the link received via email, and share it on social media using #CommonpointChallenge. (session 2023-03-18)\n- User examined the Transfiguration (Mark 9:2-8) as a key moment where Jesus' divinity is emphasized through his radiant appearance, his association with Moses and Elijah, and the divine voice affirming him as God's beloved Son. (session 2023-05-23)\n- User was advised to confirm meeting logistics, including date, time, and duration, in the email sent to the potential client. (session 2023-05-30)\n- User was recommended to create a new ROS package using 'catkin_create_pkg', define custom classes inheriting from '_PublisherImpl' and '_SubscriberImpl' in a new Python file, and implement wrapper classes for 'Subscriber' and 'Publisher' to utilize these custom implementations. (session 2023-03-01)\n- User was recommended to set up gym sessions in Todoist as a recurring task using the 'Every' feature for specific days of the week with a reminder set for 6:00 PM. (session 2023-02-11)\n- User was recommended the New Balance 990v5, ASICS Gel-Kayano 27, and Brooks Ghost 13 as excellent shoe options for individuals with wide feet. (session 2023-04-18)\n- User decided to purchase the Visible Dust Arctic Butterfly 724 Sensor Cleaning Kit for DIY maintenance of their Canon EOS 5D Mark IV. (session 2023-05-24)\n- User was provided with tips for closet organization, including using double-hang rods, utilizing the back of the door for storage, storing out-of-season clothes elsewhere, and implementing a 'one in, one out' policy. (session 2023-05-30)\n- User was recommended several Minecraft mods to feature in their video: Optifine, IndustrialCraft, Twilight Forest, TooManyItems, and Minecraft Comes Alive. (session 2023-01-20)\n- User recently cleaned out their closet and is now planning to organize it by categorizing clothes and installing a closet system. (session 2023-05-30)\n- User plans to use woven baskets in their closet to store smaller items like socks and underwear to keep shelves tidy and add texture. (session 2023-05-30)\n- User was provided with instructions on how to integrate Todoist and Trello with Google Calendar to sync tasks and events. (session 2023-02-11)\n- User was provided with a guide for cleaning camera mirrors, prisms, viewfinders, and lens contacts using soft brushes and microfiber cloths to prevent sensor contamination. (session 2023-05-24)\n- User is creating a YouTube video about how to download and install Minecraft mods. (session 2023-01-20)\n- User is looking for recommendations for shoes suitable for wide feet. (session 2023-04-18)\n- User wants to create a new ROS package that inherits from 'rospy' and overrides the '_PublisherImpl.publish' and '_SubscriberImpl._invoke_callback' methods. (session 2023-03-01)\n- User plans to incorporate woven baskets and natural textiles into their bedroom and closet to add texture and warmth while maintaining a minimalist aesthetic. (session 2023-05-30)\n- User was advised to keep the client meeting to 60 minutes or less and to prepare an agenda to ensure a focused discussion. (session 2023-05-30)\n- User is interested in modern literature inspired by The Odyssey and was recommended 'Ulysses' by James Joyce, 'Circe' by Madeline Miller, 'An Odyssey: A Father, A Son, and an Epic' by Daniel Mendelsohn, 'The Penelopiad' by Margaret Atwood, and 'The Amazing Adventures of Kavalier & Clay' by Michael Chabon. (session 2023-02-26)\n- User was recommended several online furniture stores for minimalist designs, including West Elm, Crate & Barrel (and CB2), AllModern, Wayfair, Hem, Article, and Urban Outfitters Home. (session 2023-05-30)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 46,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 30.3,
+  "total": 32.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "qid": "45dc21b6",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many of Emma's recipes have I tried out?",
+ "reference": "3",
+ "question_date": "2023-06-16 17:33",
+ "sessions": [
+  {
+   "id": "b7f69a7d_2",
+   "date": "2023-05-10 06:12",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BVfC7JV_0",
+   "date": "2023-05-19 15:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yZ6yXnQ_0",
+   "date": "2023-05-19 16:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhK5G9o_0",
+   "date": "2023-05-20 08:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_1",
+   "date": "2023-05-29 04:51",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_169242",
+   "date": "2023-05-29 07:04",
+   "evidence": false
+  },
+  {
+   "id": "7caf3391_2",
+   "date": "2023-05-30 00:59",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467365",
+   "date": "2023-05-30 04:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_2",
+   "date": "2023-05-30 06:32",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_gGriMhQ_91",
+   "date": "2023-05-30 07:25",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\nThe user is planning a weekend getaway with friends, wants to use a poll to choose a destination, and is creating a Facebook event for the trip. They are also active on Instagram and recently received 23 comments on their posts. The user enjoys word categorization puzzles.\nThe user is interested in trying new vegan dessert recipes. They enjoy recipes from \"Emma's\" channel and have already tried two of them.\nThe user is interested in vlogging and is currently looking for camera recommendations.\nThe user is considering the Google Pixel 6 for vlogging, having been inspired by an Unbox Therapy review.\nThe user is a fan of tech reviewers Unbox Therapy, JerryRigEverything, and Marques Brownlee (MKBHD), often using their videos to help with purchasing decisions.\nThe user is interested in AI, machine learning, electric vehicles, and sustainable energy. They also enjoy YouTube channels focused on history, travel, and ASMR.\nThe user is interested in gardening to attract hummingbirds and is looking for plant recommendations.\nThe user is planning a trip to Barcelona and Rome, and is looking for affordable, central accommodations to easily access cooking classes and city exploration.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-18T02:56:09.773807+00:00', 'time_ago': '11s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-16 17:33] How many of Emma's recipes have I tried out?\"}, {'timestamp': '2026-10-18T02:54:25.084262+00:00', 'time_ago': '1m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'Taking a cooking class is such a brilliant way to immerse yourself in the culture—you get to learn the techniques that make the cuisine special and take those skills home with you! Both Spain and Italy have some truly immersive plant-based experiences.\\n\\nSince you\\'ve been enjoying Emma\\'s recipes, you might particularly appreciate classes that focus on fresh, market-to-table ingredients.\\n\\n### Spain: Focus on Tapas and Paella\\nSpain is famous for its communal style of eating, and you can definitely find vegan versions of these classics.\\n\\n*   **Barcelona:**\\n    *   **Vegan Food Tours & Workshops:** Barcelona has a booming plant-based scene. Look for workshops that focus on \"Vegan Tapas.\" Many local culinary schools or boutique cooking studios now offer specialized vegan sessions where you learn how to make *tortilla española* (using chickpea flour instead of eggs) and *vegan paella* using rich vegetable stocks and saffron.\\n*   **Cooking Class Search Tip:** Check **Airbnb Experiences** under \"Cooking Classes\" and filter by \"Vegan\" or search for \"Plant-based workshops.\" These are often hosted by local chefs in their own homes or small professional kitchens, offering a more intimate experience.\\n\\n### Italy: Master the Art of Pasta\\nIn Italy, the classes are often about mastering the \"peasant\" techniques—simple, high-quality ingredients transformed into magic.\\n\\n*   **Rome & Tuscany:**\\n    *   **Plant-Based Pasta Making:** You can find incredible classes that teach you how to make *pasta fresca* (fresh pasta) using only flour and water—which is naturally vegan! These classes often cover how to make rustic tomato sauces from scratch.\\n    *   **The \"Cucina Povera\" Workshop:** Look for classes specifically branded as \"Vegan Italian\" or \"Plant-Based Tuscan.\" You’ll often find yourself in a kitchen where the focus is on utilizing seasonal, local produce from the villa’s garden.\\n*   **Cooking Class Search Tip:** Websites like **Cookly** or **Eatwith** are excellent. They specifically cater to travelers looking for local, authentic, and often dietary-inclusive experiences. You can search by city and read reviews from other travelers to see how well they accommodate vegan diets.\\n\\n### How to Find the Best Experiences:\\n1.  **Search Platforms:** As mentioned, **Cookly**, **Eatwith**, and **Airbnb Experiences** are your best friends here. They allow you to filter by dietary needs, so you can specifically look for \"Vegan\" classes.\\n2.  **Contact Hosts Directly:** If you find a traditional Italian pasta class that looks perfect but isn\\'t explicitly \"vegan,\" don\\'t hesitate to send the host a message! Many traditional Italian cooks are thrilled to teach you how to make pasta by hand and can easily accommodate a vegan student by ensuring the accompanying sauce or dough ingredients are plant-based.\\n3.  **Local Vegan Facebook Groups:** If you join a Facebook group for \"Vegans in Barcelona\" or \"Vegans in Rome,\" you can ask locals for recommendations for boutique, smaller-scale workshops that might not be on the big booking platforms.\\n\\n**A quick pro-tip:** When booking, ask if the class includes a visit to a local market to pick out ingredients. It adds a whole new layer to the experience and is a great way to learn what to look for at the market when you\\'re shopping for yourself!\\n\\nAre you leaning more toward a hands-on pasta-making experience in the Italian countryside or perhaps a vibrant, spice-filled tapas workshop in a bustling Spanish city? I can help you look into specific reputable providers once you decide!'}, {'timestamp': '2026-10-18",
+ "answer": "Based on our conversation history, you have tried **three** of Emma's vegan dessert recipes so far.\n\n(Note: In a previous message, you mentioned you had tried two, but in a more recent update on May 30th, you noted that you had tried three.)",
+ "dump": "<human>\n\nThe user is planning a weekend getaway with friends, wants to use a poll to choose a destination, and is creating a Facebook event for the trip. They are also active on Instagram and recently received 23 comments on their posts. The user enjoys word categorization puzzles.\nThe user is interested in trying new vegan dessert recipes. They enjoy recipes from \"Emma's\" channel and have already tried two of them.\nThe user is interested in vlogging and is currently looking for camera recommendations.\nThe user is considering the Google Pixel 6 for vlogging, having been inspired by an Unbox Therapy review.\nThe user is a fan of tech reviewers Unbox Therapy, JerryRigEverything, and Marques Brownlee (MKBHD), often using their videos to help with purchasing decisions.\nThe user is interested in AI, machine learning, electric vehicles, and sustainable energy. They also enjoy YouTube channels focused on history, travel, and ASMR.\nThe user is interested in gardening to attract hummingbirds and is looking for plant recommendations.\nThe user is planning a trip to Barcelona and Rome, and is looking for affordable, central accommodations to easily access cooking classes and city exploration.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Emma's recipes tried\"})",
+   "conversation_search({\"query\": \"Emma's recipes\"})"
+  ],
+  "blocks_chars": 1389,
+  "write_steps": 47,
+  "write_tool_calls": [
+   "memory_insert",
+   "memory_replace",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 366.0,
+  "total": 386.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

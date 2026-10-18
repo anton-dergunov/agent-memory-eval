@@ -1,0 +1,139 @@
+{
+ "qid": "db467c8c",
+ "arm": "letta",
+ "split": "main",
+ "question": "How long have my parents been staying with me in the US?",
+ "reference": "nine months",
+ "question_date": "2023-10-22 09:15",
+ "sessions": [
+  {
+   "id": "sharegpt_wrN9uUo_53",
+   "date": "2023-06-23 06:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_165276",
+   "date": "2023-07-08 02:17",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ocf8Lud_39",
+   "date": "2023-07-11 23:49",
+   "evidence": false
+  },
+  {
+   "id": "76967d22",
+   "date": "2023-07-16 03:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_1",
+   "date": "2023-07-16 07:07",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_48690",
+   "date": "2023-07-20 20:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_497634",
+   "date": "2023-09-21 19:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_2",
+   "date": "2023-10-20 00:00",
+   "evidence": true
+  },
+  {
+   "id": "16ebc8f8_1",
+   "date": "2023-10-20 04:34",
+   "evidence": false
+  },
+  {
+   "id": "08693f68_1",
+   "date": "2023-10-20 12:15",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nUsed to live in the West Village, NYC. Interested in marketing industry networking events and conferences.\nMarketing specialist with ~9 months of experience. Interested in staying up-to-date with industry trends.\nConsidering a career transition into the non-profit marketing sector. Looking for advice on networking with professionals in this space.\nParents are currently in the US with expired visas (overstaying). This is a critical detail for the user's immigration situation.\nPlanning to take a spinning class at the gym next month. Friend named Emily recommended it. Considering switching up Tuesday routine (currently Zumba) to include spinning.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "I apologize, but I don't have a record of when your parents arrived in the US or exactly how long they have been staying with you. I only have information noting that they are currently here with expired visas.\n\nIf you can tell me when they arrived, I would be happy to help you keep track of that information for your records.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nUsed to live in the West Village, NYC. Interested in marketing industry networking events and conferences.\nMarketing specialist with ~9 months of experience. Interested in staying up-to-date with industry trends.\nConsidering a career transition into the non-profit marketing sector. Looking for advice on networking with professionals in this space.\nParents are currently in the US with expired visas (overstaying). This is a critical detail for the user's immigration situation.\nPlanning to take a spinning class at the gym next month. Friend named Emily recommended it. Considering switching up Tuesday routine (currently Zumba) to include spinning.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"parents stay US duration arrival date\"})",
+   "conversation_search({\"query\": \"parents visa expiration arrival\"})",
+   "conversation_search({\"query\": \"parents US duration\"})",
+   "conversation_search({\"query\": \"parents immigration overstay\"})",
+   "conversation_search({\"query\": \"parents visit US dates\"})"
+  ],
+  "blocks_chars": 851,
+  "write_steps": 49,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 343.1,
+  "total": 358.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

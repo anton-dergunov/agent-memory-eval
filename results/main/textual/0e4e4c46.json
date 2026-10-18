@@ -1,0 +1,95 @@
+{
+ "qid": "0e4e4c46",
+ "arm": "textual",
+ "split": "main",
+ "question": "What is my current highest score in Ticket to Ride?",
+ "reference": "132 points",
+ "question_date": "2023-06-10 16:46",
+ "sessions": [
+  {
+   "id": "e82ce7cd_3",
+   "date": "2023-04-28 20:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_1",
+   "date": "2023-05-23 03:08",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_97515",
+   "date": "2023-05-23 18:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_puvUs0e_0",
+   "date": "2023-05-24 05:56",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_59250",
+   "date": "2023-05-24 09:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_198964",
+   "date": "2023-05-24 18:40",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Wi7Op1u_39",
+   "date": "2023-05-25 00:38",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhPNTAJ_0",
+   "date": "2023-05-25 07:27",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_iUc80a8_0",
+   "date": "2023-05-25 10:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_f2f998c7_2",
+   "date": "2023-05-25 22:16",
+   "evidence": true
+  }
+ ],
+ "context": "### Personal facts\n*   **Friends:** Plays basketball weekly with friends named Tom and Alex.\n*   **Family:** Has a mother, for whom the user recently hosted a birthday party.\n*   **Gaming:** Enjoys strategy games. Achieved a high score of 132 in *Ticket to Ride* (as of 2023-05-25; previously 124). Has previously played *Codenames* and *What Do You Meme* with friends. Interested in *Scythe*, specifically the Nordic Kingdom faction for its industrialization and trade mechanics.\n*   **Fitness Mindset:** Interested in high-intensity training and pushing physical limits; expresses a preference for working out daily and enjoys the sensation of muscle soreness (DOMS) as a sign of a productive workout.\n*   **Content Creation:** Currently focused on launching and aggressively growing a beauty-themed YouTube channel.\n*   **Education:** Currently planning for or attending graduate school; expresses significant frustration with the current U.S. federal student loan limits ($20,500/year) and the necessity of relying on private loans to cover living expenses.\n*   **Geopolitical Interests:** Demonstrates a specific interest in the economic geography of Belarus, particularly the city of Vitebsk, and the impact of international trade alliances like the EAEU on its economy.\n*   **Professional Identity:** The user is operating under the persona of \"Jo Peninsulas,\" a professional networker and project leader focused on sustainability and environmental initiatives.\n*   **Professional Network:** Maintains a history of professional outreach to individuals like Bob Skeens (Sales Coach) regarding sustainability projects, including the \"Our Equator\" group and the \"For Trees Club.\"\n*   **Technical Interests:** As of 2023-05-25, the user is exploring data architecture and migration strategies, specifically inquiring about the efficiency of ETL (Extract, Transform, Load) tools like SSIS compared to ORMs like Entity Framework for database migration tasks.\n\n### Preferences and habits\n*   **Cooking:**\n    *   Enjoys cooking; recently made beef stroganoff.\n    *   Plans to cook Chicken Cacciatore, accompanied by roasted broccoli and garlic and herb roasted potatoes.\n    *   Prefers specific techniques for cooking potatoes (soaking to remove starch, using high-heat oil, preheating the pan) to achieve a crispy exterior and tender interior.\n*   **Physical Activity:**\n    *   Plays basketball every Thursday evening to stay active.\n    *   Not interested in watching professional basketball.\n    *   Interested in injury prevention and recovery, specifically warm-up/cool-down routines, stretching, and foam rolling.\n    *   Currently seeking to incorporate a structured strength training routine that combines cardio and resistance exercises.\n    *   Habitually inclined to push through pain and soreness to maximize workout frequency, despite professional advice regarding the necessity of rest days for muscle repair and injury prevention.\n*   **Nutrition/Snacks:**\n    *   Prefers energy bars and trail mix as snacks for basketball games.\n    *   Dislikes jerky.\n    *   Finds sandwiches and wraps inconvenient for eating during sports.\n    *   Values cost-effective options for energy bars (e.g., buying in bulk).\n    *   Interested in thematic snacks for game nights (e.g., Eastern European-inspired foods like pierogies or blini for *Scythe*).\n*   **Gaming:**\n    *   Enjoys strategy and resource management games.\n    *   Prefers to host game nights with a mix of new and experienced players.\n    *   Values inclusivity and creating a welcoming environment for guests.\n*   **YouTube/Business:**\n    *   Highly ambitious regarding channel growth, setting a goal of 10,000 subscribers within a 3-month timeframe (as of 2023-05-24).\n    *   Interested in rapid monetization strategies, including affiliate marketing, sponsored content, and diversifying revenue streams.\n*   **Political/Social Views:** Advocates for increased government investment in higher education and expresses strong dissatisfaction with current policies that prioritize budget balancing over student debt relief.\n*   **Environmental Advocacy:** Actively promotes sustainability and climate change initiatives, specifically targeting corporate leaders to join environmental events like Earth Day 2023.\n*   **Digital Interaction:** As of 2023-05-25, the user has requested the assistant to provide visual content (images) via Markdown using the Unsplash API.\n\n### Ongoing situations and plans\n*   **Basketball:** Continues to play basketball with Tom and Alex every Thursday evening.\n*   **Cooking:** Plans to prepare Chicken Cacciatore with roasted broccoli and garlic and herb roasted potatoes.\n*   **Gaming:**\n    *   Planning to host a game night.\n    *   Decided to purchase *Deception: Murder in Hong Kong* for the upcoming game night.\n    *   Intends to play *Carcassonne* with a smaller group (2-4 players) rather than a large group.\n    *   Considering *Scythe* for future game nights, with a specific interest in playing as the Nordic Kingdom.\n*   **Fitness:** Exploring a new weekly strength training routine (Monday/Wednesday/Friday schedule) but is currently resistant to the concept of mandatory rest days.\n*   **YouTube:** Actively seeking strategies to reach 10,000 subscribers and 40,000 watch hours within 3 months to qualify for the YouTube Partner Program and monetization.\n*   **Education:** Researching financing options for graduate school, including Grad PLUS and private loans, due to the insufficiency of federal loan caps.\n*   **Professional Outreach:** Actively managing the \"For Trees Club\" and \"Our Equator\" initiatives, currently focused on recruiting participants for Earth Day 2023 events.\n*   **Technical Research:** Investigating database migration workflows, specifically comparing SSIS ETL processes against ORM-based migrations for monolithic-to-microservice transitions.\n\n### Changes over time\n*   **Ticket to Ride High Score:** Now 132, since 2023-05-25; previously 124.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:** I will search the provided facts for mentions of *Ticket to Ride* and associated scores. Under the \"Gaming\" section of the \"Personal facts,\" it states: \"Achieved a high score of 132 in *Ticket to Ride* (as of 2023-05-25; previously 124).\" This is also confirmed in the \"Changes over time\" section.\n2.  **Reason over the information:** The records explicitly state that the high score was updated to 132 on 2023-05-25. Since there are no subsequent updates or changes to this score recorded in the provided history, 132 remains the current high score.\n3.  **Conclusion:** Your current highest score in *Ticket to Ride* is 132.",
+ "dump": "### Personal facts\n*   **Friends:** Plays basketball weekly with friends named Tom and Alex.\n*   **Family:** Has a mother, for whom the user recently hosted a birthday party.\n*   **Gaming:** Enjoys strategy games. Achieved a high score of 132 in *Ticket to Ride* (as of 2023-05-25; previously 124). Has previously played *Codenames* and *What Do You Meme* with friends. Interested in *Scythe*, specifically the Nordic Kingdom faction for its industrialization and trade mechanics.\n*   **Fitness Mindset:** Interested in high-intensity training and pushing physical limits; expresses a preference for working out daily and enjoys the sensation of muscle soreness (DOMS) as a sign of a productive workout.\n*   **Content Creation:** Currently focused on launching and aggressively growing a beauty-themed YouTube channel.\n*   **Education:** Currently planning for or attending graduate school; expresses significant frustration with the current U.S. federal student loan limits ($20,500/year) and the necessity of relying on private loans to cover living expenses.\n*   **Geopolitical Interests:** Demonstrates a specific interest in the economic geography of Belarus, particularly the city of Vitebsk, and the impact of international trade alliances like the EAEU on its economy.\n*   **Professional Identity:** The user is operating under the persona of \"Jo Peninsulas,\" a professional networker and project leader focused on sustainability and environmental initiatives.\n*   **Professional Network:** Maintains a history of professional outreach to individuals like Bob Skeens (Sales Coach) regarding sustainability projects, including the \"Our Equator\" group and the \"For Trees Club.\"\n*   **Technical Interests:** As of 2023-05-25, the user is exploring data architecture and migration strategies, specifically inquiring about the efficiency of ETL (Extract, Transform, Load) tools like SSIS compared to ORMs like Entity Framework for database migration tasks.\n\n### Preferences and habits\n*   **Cooking:**\n    *   Enjoys cooking; recently made beef stroganoff.\n    *   Plans to cook Chicken Cacciatore, accompanied by roasted broccoli and garlic and herb roasted potatoes.\n    *   Prefers specific techniques for cooking potatoes (soaking to remove starch, using high-heat oil, preheating the pan) to achieve a crispy exterior and tender interior.\n*   **Physical Activity:**\n    *   Plays basketball every Thursday evening to stay active.\n    *   Not interested in watching professional basketball.\n    *   Interested in injury prevention and recovery, specifically warm-up/cool-down routines, stretching, and foam rolling.\n    *   Currently seeking to incorporate a structured strength training routine that combines cardio and resistance exercises.\n    *   Habitually inclined to push through pain and soreness to maximize workout frequency, despite professional advice regarding the necessity of rest days for muscle repair and injury prevention.\n*   **Nutrition/Snacks:**\n    *   Prefers energy bars and trail mix as snacks for basketball games.\n    *   Dislikes jerky.\n    *   Finds sandwiches and wraps inconvenient for eating during sports.\n    *   Values cost-effective options for energy bars (e.g., buying in bulk).\n    *   Interested in thematic snacks for game nights (e.g., Eastern European-inspired foods like pierogies or blini for *Scythe*).\n*   **Gaming:**\n    *   Enjoys strategy and resource management games.\n    *   Prefers to host game nights with a mix of new and experienced players.\n    *   Values inclusivity and creating a welcoming environment for guests.\n*   **YouTube/Business:**\n    *   Highly ambitious regarding channel growth, setting a goal of 10,000 subscribers within a 3-month timeframe (as of 2023-05-24).\n    *   Interested in rapid monetization strategies, including affiliate marketing, sponsored content, and diversifying revenue streams.\n*   **Political/Social Views:** Advocates for increased government investment in higher education and expresses strong dissatisfaction with current policies that prioritize budget balancing over student debt relief.\n*   **Environmental Advocacy:** Actively promotes sustainability and climate change initiatives, specifically targeting corporate leaders to join environmental events like Earth Day 2023.\n*   **Digital Interaction:** As of 2023-05-25, the user has requested the assistant to provide visual content (images) via Markdown using the Unsplash API.\n\n### Ongoing situations and plans\n*   **Basketball:** Continues to play basketball with Tom and Alex every Thursday evening.\n*   **Cooking:** Plans to prepare Chicken Cacciatore with roasted broccoli and garlic and herb roasted potatoes.\n*   **Gaming:**\n    *   Planning to host a game night.\n    *   Decided to purchase *Deception: Murder in Hong Kong* for the upcoming game night.\n    *   Intends to play *Carcassonne* with a smaller group (2-4 players) rather than a large group.\n    *   Considering *Scythe* for future game nights, with a specific interest in playing as the Nordic Kingdom.\n*   **Fitness:** Exploring a new weekly strength training routine (Monday/Wednesday/Friday schedule) but is currently resistant to the concept of mandatory rest days.\n*   **YouTube:** Actively seeking strategies to reach 10,000 subscribers and 40,000 watch hours within 3 months to qualify for the YouTube Partner Program and monetization.\n*   **Education:** Researching financing options for graduate school, including Grad PLUS and private loans, due to the insufficiency of federal loan caps.\n*   **Professional Outreach:** Actively managing the \"For Trees Club\" and \"Our Equator\" initiatives, currently focused on recruiting participants for Earth Day 2023 events.\n*   **Technical Research:** Investigating database migration workflows, specifically comparing SSIS ETL processes against ORM-based migrations for monolithic-to-microservice transitions.\n\n### Changes over time\n*   **Ticket to Ride High Score:** Now 132, since 2023-05-25; previously 124.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 27.7,
+  "total": 28.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

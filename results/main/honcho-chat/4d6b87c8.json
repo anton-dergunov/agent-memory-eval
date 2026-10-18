@@ -1,0 +1,100 @@
+{
+ "qid": "4d6b87c8",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How many titles are currently on my to-watch list?",
+ "reference": "25",
+ "question_date": "2023-06-03 15:47",
+ "sessions": [
+  {
+   "id": "ultrachat_121715",
+   "date": "2023-05-01 21:59",
+   "evidence": false
+  },
+  {
+   "id": "5fc83435_1",
+   "date": "2023-05-15 20:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mmYyki5_0",
+   "date": "2023-05-17 11:19",
+   "evidence": false
+  },
+  {
+   "id": "d87e86f6_1",
+   "date": "2023-05-17 22:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_1",
+   "date": "2023-05-20 10:19",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cu7TYt7_57",
+   "date": "2023-05-20 17:03",
+   "evidence": false
+  },
+  {
+   "id": "85da7827",
+   "date": "2023-05-21 06:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_2",
+   "date": "2023-05-22 03:27",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_361817",
+   "date": "2023-05-22 08:42",
+   "evidence": false
+  },
+  {
+   "id": "5c85023a_1",
+   "date": "2023-05-29 06:30",
+   "evidence": false
+  }
+ ],
+ "context": "Based on your conversation history, there is contradictory information regarding the number of titles on your to-watch list:\n\n*   On **May 20, 2023**, it was noted that your list consisted of **20 titles**.\n*   On **May 22, 2023**, it was noted that your list consisted of **25 titles**.\n\nI do not have information confirming whether your list was updated or if one of these figures was recorded in error. Which of these numbers is correct?",
+ "answer": "To determine how many titles are currently on your to-watch list, we must analyze the provided history:\n\n**Step 1: Extract relevant information**\n*   Fact 1: On May 20, 2023, the list contained 20 titles.\n*   Fact 2: On May 22, 2023, the list contained 25 titles.\n*   Fact 3: There is no information confirming whether the list was updated or if one of the figures was recorded in error.\n*   Fact 4: The current date is June 3, 2023.\n\n**Step 2: Reason over the information**\n*   The records from May 20 and May 22 are contradictory, and there is no subsequent data provided to clarify which number is accurate or if the list has changed since May 22.\n*   Because there is no confirmation of an update or a correction, it is impossible to definitively state the current number of titles based solely on the provided history.\n\n**Answer:**\nIt is not possible to determine the exact number of titles currently on your to-watch list. The history contains conflicting information (20 titles on May 20 vs. 25 titles on May 22) with no clarification on which figure is correct or if the list has been updated since May 22, 2023.",
+ "dump": "- [explicit] user intends to look into the product lines of various gaming mouse brands to find a suitable option.\n- [explicit] user is considering purchasing the Logitech G502 HERO gaming mouse.\n- [explicit] user plays FPS games.\n- [explicit] user requires a gaming mouse with precision and customizability.\n- [explicit] user is interested in gaming mouse brands with extended warranty or after-sales support.\n- [explicit] user is concerned about the comfort of a gaming mouse during extended gaming sessions.\n- [explicit] user bikes to dance classes on Saturday afternoons.\n- [explicit] user takes dance classes at a studio that is reachable by bike.\n- [explicit] user is considering purchasing a U-lock.\n- [explicit] user does not know how to measure a bike to determine the correct size of U-lock to purchase.\n- [explicit] user rides a bike to a dance studio.\n- [explicit] user is inquiring about the difference between a U-lock with a 14mm shackle and an 18mm shackle.\n- [explicit] user is inquiring about whether an 18mm shackle U-lock is more secure than a 14mm shackle U-lock.\n- [explicit] user is seeking recommendations for brands that offer 18mm shackle U-locks.\n- [explicit] user owns a high-value bike.\n- [explicit] user wants to ensure their bike is well-protected.\n- [explicit] user has decided to choose an 18mm shackle U-lock.\n- [explicit] user owns a bike.\n- [explicit] user is interested in high-security bike locks with an 18mm shackle.\n- [explicit] user intends to investigate the Abus Granit X 540 U-lock.\n- [explicit] user holds a positive opinion of the brand Abus.\n- [explicit] user wants a week by week course on bot trading.\n- [explicit] user requested an example of a bot designed to trade bitcoin.\n- [explicit] user requested the course be delivered in segments of five weeks at a time.\n- [explicit] user requested to prompt the assistant with the word \"go\" to receive additional segments of the course.\n- [explicit] user wants to learn bot trading.\n- [explicit] user listens to Phoebe Bridgers music.\n- [explicit] user obtained a good spot at a recent Billie Eilish general admission concert.\n- [explicit] user recently attended a Billie Eilish concert.\n- [explicit] user has interest in listening to Lucy Dacus.\n- [explicit] user has previously been to the Greek Theatre in Los Angeles.\n- [explicit] user has attended a concert by Billie Eilish.\n- [explicit] user is planning to attend future concerts in the Los Angeles area.\n- [explicit] user has previously been to the Los Angeles Forum.\n- [explicit] user is interested in the indie and alternative music scene.\n- [explicit] user has attended the Outside Lands music festival in San Francisco.\n- [explicit] user has visited the Troubadour music venue.\n- [explicit] user saw Lucy Dacus perform at the Troubadour a few months prior to 2023-05-17.\n- [explicit] user attended the Phoebe Bridgers concert at the Greek Theatre with a coworker named Rachel.\n- [explicit] user is interested in exploring the indie and alternative music scene in Los Angeles.\n- [explicit] user has been listening to a lot of Phoebe Bridgers.\n- [explicit] user attended a live performance by Phoebe Bridgers at the Greek Theatre.\n- [explicit] user saw Phoebe Bridgers perform when she opened for the band The National.\n- [explicit] user enjoys the TV show The Crown.\n- [explicit] user wants to know if The Haunting of Hill House focuses more on jump scares or a deeper storyline.\n- [explicit] user wants to find new TV shows to watch on Netflix.\n- [explicit] user enjoys the TV show Stranger Things.\n- [explicit] user has a to-watch list consisting of 20 titles.\n- [explicit] user intends to watch 'The Haunting of Hill House' at a pace of one or two episodes per week.\n- [explicit] user values a balance between character development and plot progression in television shows.\n- [explicit] user enjoys complex, atmospheric television shows.\n- [explicit] user is currently in the mood for a horror series.\n- [explicit] user intends to watch the series 'The Haunting of Hill House'.\n- [explicit] user intends to watch 'The OA' at a future time.\n- [explicit] user is interested in historical dramas.\n- [explicit] user has previously heard good things about \"Victoria\" and \"The Last Kingdom\".\n- [explicit] user intends to add \"Poldark\", \"Outlander\", \"Medici: Masters of Florence\", and \"The White Queen\" to a watchlist.\n- [explicit] user has watched \"The Crown\".\n- [explicit] user intends to watch \"Victoria\" and \"The Last Kingdom\".\n- [explicit] user read that American forces used Native American languages for secure communication during wartime.\n- [explicit] user is interested in the history of cryptography and cipher machines.\n- [explicit] user researches or is interested in the field of modern cryptography.\n- [explicit] user is interested in the number of rotors the Enigma I machine had.\n- [explicit] user is interested in which model of the Enigma machine was the most widely deployed during World War II.\n- [explicit] user is interested in whether modern linguists could decipher modern attempts to employ the Native American code talker strategy.\n- [explicit] user is interested in the compatibility between the Enigma M3 and the Enigma I.\n- [explicit] user expresses concern about fresh flowers wilting or getting damaged during the Summer Solstice Night Market.\n- [explicit] user is participating in the Summer Solstice Night Market.\n- [explicit] user makes handmade jewelry.\n- [explicit] user intends to incorporate fresh flowers into the product display for the Summer Solstice Night Market.\n- [explicit] user makes handmade candles.\n- [explicit] user plans to use candles with herbal scents to complement fresh flowers at a night market.\n- [explicit] user intends to create a calming ambiance at a night market.\n- [explicit] user is interested in herbal scents, specifically lavender and chamomile, for candles.\n- [explicit] user is seeking sources for unique and high-quality herbal essential oils for candles.\n- [explicit] user is a craft entrepreneur\n- [explicit] user is considering offering a special promotion or discount at the Summer Solstice Night Market to attract customers\n- [explicit] user is planning to have a stall at the Summer Solstice Night Market\n- [explicit] user is considering offering a \"Summer Solstice Bundle\" including a candle, a piece of jewelry, and a small potted plant.\n- [explicit] user is considering a tiered discount structure for bundles with 10% off smaller bundles and 20% off larger bundles.\n- [explicit] user is considering a 15% fixed discount for a \"Summer Solstice Bundle\".\n- [explicit] user is planning a Summer Solstice Bundle.\n- [explicit] user is considering offering a limited-time discount to customers who share a social media post about the Summer Solstice Bundle.\n- [explicit] user aims to drive sales and increase brand visibility.\n- [explicit] user enjoys the television series The Crown.\n- [explicit] user intends to watch the television series Victoria.\n- [explicit] user has recently watched the television series The Crown.\n- [explicit] user has a to-watch list consisting of 25 titles.\n- [explicit] user is interested in historical dramas that focus on non-royal figures or ordinary people living through significant historical events.\n- [explicit] user is interested in the movies Schindler's List and 12 Years a Slave.\n- [explicit] user is looking for movies or series that explore the theme of social justice and human rights.\n- [explicit] user intends to watch the film Hotel Rwanda.\n- [explicit] user intends to watch the film Amistad.\n- [explicit] user wants to stay informed about current social justice and human rights issues.\n- [explicit] user is interested in learning more about social justice and human rights.\n- [explicit] user intends to try a warm bath and gentle stretching to relieve muscle tension.\n- [explicit] user intends to perform the 4-7-8 breathing technique before bed.\n- [explicit] user is experiencing difficulty with falling asleep and obtaining good rest at night.\n- [explicit] user struggles with staying off their phone before bed\n- [explicit] user wants tips for breaking the habit of using a phone before bed\n- [explicit] user read an article about climate change in the March 15, 2023, issue of The New Yorker.\n- [explicit] user read the December issue of National Geographic on May 29, 2023.\n- [explicit] user is interested in finding reading materials on climate change.\n- [explicit] user is planning a trip to Antarctica.\n- [explicit] user is interested in the impact of climate change on Antarctica.\n- [explicit] user previously read an article in The New Yorker on Tuesday, March 21st.\n- [explicit] user reads articles on their way to work.\n- [explicit] user is interested in learning more about the Larsen C ice shelf.\n- [explicit] user is inquiring about the current status of the Larsen C ice shelf.\n- [explicit] user is asking about the consequences of the potential collapse of the Larsen C ice shelf.\n- [explicit] user is interested in learning about glaciers located behind the Larsen C ice shelf.\n- [explicit] user wants to know which glacier is most likely to be affected by the collapse of the Larsen C ice shelf.\n- [explicit] user is interested in the implications of the Bawden Glacier's acceleration on sea-level rise.\n- [explicit] user wants to know the expected amount of sea-level rise resulting from the potential acceleration of the Bawden Glacier.\n- [deductive] user values sleep hygiene and is actively trying to improve their sleep quality.\n- [deductive] user has an academic or professional interest in glaciology and the environmental impacts of climate change in Antarctica.\n- [deductive] user is a regular reader of science and current affairs journalism.\n- [inductive] user has a sustained and focused interest in Antarctic glaciology and the environmental impacts of climate change, specifically regarding the Larsen C ice shelf and Bawden Glacier.\n- [inductive] user regularly engages with long-form journalism and science/nature publications, such as The New Yorker and National Geographic.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 106.5,
+  "total": 109.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

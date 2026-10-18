@@ -1,0 +1,91 @@
+{
+ "qid": "0f05491a",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+ "reference": 120,
+ "question_date": "2023-08-01 22:29",
+ "sessions": [
+  {
+   "id": "answer_d6d2eba8_1",
+   "date": "2023-07-11 00:07",
+   "evidence": true
+  },
+  {
+   "id": "1b205d70_2",
+   "date": "2023-07-11 13:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_cfz0d02_36",
+   "date": "2023-07-14 13:56",
+   "evidence": false
+  },
+  {
+   "id": "057cbbc4_1",
+   "date": "2023-07-17 00:41",
+   "evidence": false
+  },
+  {
+   "id": "6024b009_1",
+   "date": "2023-07-20 12:52",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_224967",
+   "date": "2023-07-22 01:05",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_447033",
+   "date": "2023-07-23 18:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_rDNsXPP_0",
+   "date": "2023-07-29 18:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_d6d2eba8_2",
+   "date": "2023-07-30 02:08",
+   "evidence": true
+  },
+  {
+   "id": "ca93550b_1",
+   "date": "2023-08-01 07:00",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is named Alyssa.\n* Alyssa is in a romantic relationship with her girlfriend, Lizzie.\n* Lizzie is a Nekomimi (cat-girl).\n* Alyssa is a dragonkin.\n* Both Alyssa and Lizzie have a habit of remaining barefoot at all times.\n* Alyssa is a Starbucks customer who actively uses the Starbucks Rewards app.\n* Alyssa enjoys reading and is interested in contemporary fiction.\n* Alyssa has a friendly demeanor and enjoys interacting with people in their community.\n* Alyssa moved to Tokyo, Japan, as of 2023-07-17.\n* Alyssa is living in the Shimokitazawa neighborhood.\n* Alyssa is working in Shibuya.\n* Alyssa is environmentally conscious and actively trying to reduce her plastic usage.\n* Alyssa shops at Costco and Walmart.\n* Alyssa is an admirer of Indian cinema, specifically appreciating the work of actor Nassar for his versatility and depth in both villainous and positive roles.\n* Alyssa appreciates music that combines personal storytelling with broader social commentary, as evidenced by her interest in Beyoncé’s \"Lemonade.\"\n* Alyssa enjoys logic puzzles and riddles.\n* Alyssa is interested in beauty and skincare products and is planning a shopping trip to Sephora.\n* Alyssa is currently researching loyalty programs and methods to organize her rewards points, moving beyond her previous spreadsheet-based system.\n* Alyssa is planning to purchase a new laptop and is considering the My Best Buy loyalty program.\n* Alyssa has been dealing with a persistent cough for three weeks (as of 2023-08-01) and was diagnosed with bronchitis.\n* Alyssa had a benign mole removed from her left forearm on 2023-01-20.\n* Alyssa is proactive about her health and vaccinations; she received a flu shot in July 2023 and completed her HPV vaccine series with a final booster in July 2023.\n\n### Preferences and habits\n* Alyssa enjoys exploring kinky play with her partner, specifically involving collars and leashes.\n* Alyssa is protective of Lizzie and prioritizes safety and consent in their relationship.\n* Alyssa drinks coffee as part of her daily routine.\n* Alyssa is interested in finding deals on coffee beans and potentially purchasing a new coffee maker.\n* Alyssa is actively trying to reach the \"Gold\" level on her Starbucks Rewards account.\n* Alyssa prefers to read highly acclaimed, thought-provoking novels; she has decided to read \"Our Missing Hearts\" by Celeste Ng.\n* Alyssa is interested in exploring local restaurants and values insider recommendations, signature dishes, and potential off-menu items.\n* Alyssa is proactive about researching dining options using online review platforms (Yelp, TripAdvisor, Google Reviews) and social media (Instagram, Facebook).\n* Alyssa is beginning to learn Japanese, starting with basic phrases like \"sumimasen\" (excuse me/sorry) and \"arigatou\" (thank you).\n* Alyssa prefers pour-over coffee or well-made cappuccinos.\n* Alyssa prefers cafes with a cozy, intimate atmosphere, natural light, and a quiet, peaceful ambiance suitable for working or reading.\n* Alyssa is interested in healthy meal prepping, specifically incorporating Greek yogurt and nuts/seeds into her breakfast routine.\n* Alyssa prefers eco-friendly shopping habits, such as buying in bulk to reduce plastic waste.\n* Alyssa appreciates actors who demonstrate range and realism, such as Kamal Haasan, Naseeruddin Shah, Manoj Bajpayee, the late Irrfan Khan, and Nawazuddin Siddiqui.\n* Alyssa is interested in optimizing her loyalty point earnings through apps like Fetch Rewards and My Best Buy.\n* Alyssa is currently tracking her digestive issues via a food diary and suspects dairy products are the cause. She is exploring dairy-free alternatives like almond milk and oat milk.\n\n### Ongoing situations and plans\n* Alyssa and Lizzie are currently living together in an apartment in Tokyo (as of 2023-07-17).\n* Alyssa is working toward a goal of earning 120 stars on the Starbucks Rewards app to achieve Gold status.\n* Alyssa plans to visit a local restaurant where an acquaintance she met at the grocery store works. She intends to ask this person for recommendations on signature dishes, specials, and potential off-menu items.\n* Alyssa is navigating her new commute from Shimokitazawa to Shibuya and plans to use the Odakyu Line to Yoyogi-Uehara, followed by the JR Yamanote Line.\n* Alyssa plans to explore ramen shops in Shibuya (specifically interested in Ichiran, Totto Ramen, Shina Sobaya, Ramen Nagi, and Afuri).\n* Alyssa is looking for quiet, cozy cafes in Shimokitazawa to work and read.\n* Alyssa is currently meal prepping and plans to use her bulk supply of Greek yogurt and almonds (which she intends to toast) for breakfast parfaits.\n* Alyssa is planning a weekend shopping trip that includes Sephora and Starbucks.\n* Alyssa is researching the best way to organize her various loyalty cards and rewards points.\n* Alyssa is recovering from bronchitis and is implementing management strategies (hydration, humidifier, rest, etc.) while continuing her prescribed antibiotics.\n* Alyssa is considering transitioning to a dairy-free diet and is evaluating almond milk versus oat milk as a starting point.\n\n### Changes over time\n* **Starbucks Gold status requirement:** Now 120 stars, since 2023-07-30; previously 125 stars (since 2023-07-11).\n* **Relationship status:** Alyssa is in a committed relationship with Lizzie, confirmed as of 2023-07-14.\n* **Location:** Now living in Shimokitazawa, Tokyo, since 2023-07-17.",
+ "answer": "To determine how many stars you need to reach the Gold level on your Starbucks Rewards app, I have analyzed the provided history chats:\n\n**Step 1: Extract relevant information**\n*   Under \"Changes over time,\" it is noted that the Starbucks Gold status requirement changed to 120 stars as of 2023-07-30.\n*   Under \"Ongoing situations and plans,\" it is confirmed that you are currently working toward a goal of earning 120 stars to achieve Gold status.\n\n**Step 2: Reason over the information**\n*   The requirement for Gold status was previously 125 stars, but it was updated to 120 stars on July 30, 2023.\n*   Since today's date is August 1, 2023, the current requirement of 120 stars is the active goal.\n\n**Answer:**\nYou need **120 stars** to reach the Gold level on your Starbucks Rewards app.",
+ "dump": "### Personal facts\n* The user is named Alyssa.\n* Alyssa is in a romantic relationship with her girlfriend, Lizzie.\n* Lizzie is a Nekomimi (cat-girl).\n* Alyssa is a dragonkin.\n* Both Alyssa and Lizzie have a habit of remaining barefoot at all times.\n* Alyssa is a Starbucks customer who actively uses the Starbucks Rewards app.\n* Alyssa enjoys reading and is interested in contemporary fiction.\n* Alyssa has a friendly demeanor and enjoys interacting with people in their community.\n* Alyssa moved to Tokyo, Japan, as of 2023-07-17.\n* Alyssa is living in the Shimokitazawa neighborhood.\n* Alyssa is working in Shibuya.\n* Alyssa is environmentally conscious and actively trying to reduce her plastic usage.\n* Alyssa shops at Costco and Walmart.\n* Alyssa is an admirer of Indian cinema, specifically appreciating the work of actor Nassar for his versatility and depth in both villainous and positive roles.\n* Alyssa appreciates music that combines personal storytelling with broader social commentary, as evidenced by her interest in Beyoncé’s \"Lemonade.\"\n* Alyssa enjoys logic puzzles and riddles.\n* Alyssa is interested in beauty and skincare products and is planning a shopping trip to Sephora.\n* Alyssa is currently researching loyalty programs and methods to organize her rewards points, moving beyond her previous spreadsheet-based system.\n* Alyssa is planning to purchase a new laptop and is considering the My Best Buy loyalty program.\n* Alyssa has been dealing with a persistent cough for three weeks (as of 2023-08-01) and was diagnosed with bronchitis.\n* Alyssa had a benign mole removed from her left forearm on 2023-01-20.\n* Alyssa is proactive about her health and vaccinations; she received a flu shot in July 2023 and completed her HPV vaccine series with a final booster in July 2023.\n\n### Preferences and habits\n* Alyssa enjoys exploring kinky play with her partner, specifically involving collars and leashes.\n* Alyssa is protective of Lizzie and prioritizes safety and consent in their relationship.\n* Alyssa drinks coffee as part of her daily routine.\n* Alyssa is interested in finding deals on coffee beans and potentially purchasing a new coffee maker.\n* Alyssa is actively trying to reach the \"Gold\" level on her Starbucks Rewards account.\n* Alyssa prefers to read highly acclaimed, thought-provoking novels; she has decided to read \"Our Missing Hearts\" by Celeste Ng.\n* Alyssa is interested in exploring local restaurants and values insider recommendations, signature dishes, and potential off-menu items.\n* Alyssa is proactive about researching dining options using online review platforms (Yelp, TripAdvisor, Google Reviews) and social media (Instagram, Facebook).\n* Alyssa is beginning to learn Japanese, starting with basic phrases like \"sumimasen\" (excuse me/sorry) and \"arigatou\" (thank you).\n* Alyssa prefers pour-over coffee or well-made cappuccinos.\n* Alyssa prefers cafes with a cozy, intimate atmosphere, natural light, and a quiet, peaceful ambiance suitable for working or reading.\n* Alyssa is interested in healthy meal prepping, specifically incorporating Greek yogurt and nuts/seeds into her breakfast routine.\n* Alyssa prefers eco-friendly shopping habits, such as buying in bulk to reduce plastic waste.\n* Alyssa appreciates actors who demonstrate range and realism, such as Kamal Haasan, Naseeruddin Shah, Manoj Bajpayee, the late Irrfan Khan, and Nawazuddin Siddiqui.\n* Alyssa is interested in optimizing her loyalty point earnings through apps like Fetch Rewards and My Best Buy.\n* Alyssa is currently tracking her digestive issues via a food diary and suspects dairy products are the cause. She is exploring dairy-free alternatives like almond milk and oat milk.\n\n### Ongoing situations and plans\n* Alyssa and Lizzie are currently living together in an apartment in Tokyo (as of 2023-07-17).\n* Alyssa is working toward a goal of earning 120 stars on the Starbucks Rewards app to achieve Gold status.\n* Alyssa plans to visit a local restaurant where an acquaintance she met at the grocery store works. She intends to ask this person for recommendations on signature dishes, specials, and potential off-menu items.\n* Alyssa is navigating her new commute from Shimokitazawa to Shibuya and plans to use the Odakyu Line to Yoyogi-Uehara, followed by the JR Yamanote Line.\n* Alyssa plans to explore ramen shops in Shibuya (specifically interested in Ichiran, Totto Ramen, Shina Sobaya, Ramen Nagi, and Afuri).\n* Alyssa is looking for quiet, cozy cafes in Shimokitazawa to work and read.\n* Alyssa is currently meal prepping and plans to use her bulk supply of Greek yogurt and almonds (which she intends to toast) for breakfast parfaits.\n* Alyssa is planning a weekend shopping trip that includes Sephora and Starbucks.\n* Alyssa is researching the best way to organize her various loyalty cards and rewards points.\n* Alyssa is recovering from bronchitis and is implementing management strategies (hydration, humidifier, rest, etc.) while continuing her prescribed antibiotics.\n* Alyssa is considering transitioning to a dairy-free diet and is evaluating almond milk versus oat milk as a starting point.\n\n### Changes over time\n* **Starbucks Gold status requirement:** Now 120 stars, since 2023-07-30; previously 125 stars (since 2023-07-11).\n* **Relationship status:** Alyssa is in a committed relationship with Lizzie, confirmed as of 2023-07-14.\n* **Location:** Now living in Shimokitazawa, Tokyo, since 2023-07-17.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 24.6,
+  "total": 25.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

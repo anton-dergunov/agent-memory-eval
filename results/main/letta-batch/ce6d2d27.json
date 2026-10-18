@@ -1,0 +1,103 @@
+{
+ "qid": "ce6d2d27",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "What day of the week do I take a cocktail-making class?",
+ "reference": "Friday",
+ "question_date": "2023-07-15 22:19",
+ "sessions": [
+  {
+   "id": "answer_73540165_1",
+   "date": "2023-06-16 13:26",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_72kPQPm_11",
+   "date": "2023-06-19 09:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1uSOnON_25",
+   "date": "2023-06-27 22:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_227355",
+   "date": "2023-06-30 15:34",
+   "evidence": false
+  },
+  {
+   "id": "cd92ac85_1",
+   "date": "2023-06-30 16:18",
+   "evidence": false
+  },
+  {
+   "id": "answer_73540165_2",
+   "date": "2023-06-30 22:49",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504309",
+   "date": "2023-07-05 17:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_306593",
+   "date": "2023-07-05 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_WQctw3k_0",
+   "date": "2023-07-06 07:34",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_206676",
+   "date": "2023-07-12 09:35",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Podcast project: \"After the Wire\".\n- Focused on early-stage founders, emphasizing substance over investment hype.\n- Unique segments being developed: \"Pivot Point,\" \"The One That Got Away,\" \"Elevator Pitch Remix,\" \"Founder's Toolbox,\" \"The Crystal Ball,\" \"Under the Radar,\" and \"The Unsung Hero.\"\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T22:14:51.112742+00:00', 'time_ago': '17s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-30 22:49] What a great opportunity to experiment with new recipes! I'd be happy to suggest some tequila-based cocktails that you could try out. Here are a few ideas to get you started:\\n\\n1. **Tequila Sunrise**: A classic cocktail made with tequila, orange juice, and grenadine, garnished with a slice of orange and a cherry.\\n2. **Paloma**: A popular Mexican cocktail made with tequila, grapefruit juice, lime juice, and a splash of soda water, garnished with a slice of grapefruit.\\n3. **Tequila Sour**: A tangy and refreshing cocktail made with tequila, lime juice, egg white, and a splash of orange liqueur, garnished with a lime wheel and a dash of nutmeg.\\n4. **El Diablo**: A spicy and smoky cocktail made with tequila, ginger beer, lime juice, and a splash of cassis, garnished with a slice of lime and a sprig of mint.\\n5. **Cucumber Collins**: A refreshing and light cocktail made with tequila, cucumber puree, lime juice, and a splash of soda water, garnished with a slice of cucumber and a sprig of mint.\\n6. **Tequila Spritz**: A fruity and bubbly cocktail made with tequila, prosecco, lime juice, and a splash of fruit juice (such as pineapple or grapefruit), garnished with a slice of fruit and a sprig of mint.\\n7. **Blood Orange Margarita**: A twist on the classic margarita made with tequila, blood orange juice, lime juice, and a splash of agave syrup, garnished with a slice of blood orange and a salt rim.\\n\\nThese are just a few ideas to get you started. Feel free to experiment with different combinations of ingredients, flavors, and garnishes to create your own unique tequila-based cocktails!\\n\\nRemember to have fun and be creative during your cocktail-making class. Don't be afraid to try new ingredients, flavor combinations, and techniques. And most importantly, enjoy the process and learn from your experiments!\"}, {'timestamp': '2026-10-17T22:14:51.112729+00:00', 'time_ago': '17s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-30 22:49] I'm really excited to try out this recipe. Speaking of cocktails, I have a cocktail-making class on Friday, and I'm thinking of experimenting with some new recipes. Do you have any other ideas for tequila-based cocktails that I could try out?\"}, {'timestamp': '2026-10-17T22:14:51.112572+00:00', 'time_ago': '17s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-30 22:49] What a great excuse to get creative with tequila! I'd be happy to help you with some inspiration for a refreshing summer cocktail. Here are a few ideas to get you started:\\n\\n1. **Cucumber Lime Refresher**: Combine tequila, fresh lime juice, cucumber syrup (made by infusing cucumber slices in simple syrup), and a splash of soda water. Garnish with a cucumber slice and a lime wheel.\\n2. **Watermelon Basil Margarita**: Blend tequila, watermelon puree, fresh lime juice, and basil leaves. Strain into a salt-rimmed glass and garnish with a watermelon slice and a basil leaf.\\n3. **Jalapeño Pineapple Spritz**: Mix tequila, pineapple juice, jalapeño pepper syrup (made by infusing sliced jalapeños in simple syrup), and a splash of lemon-lime soda. Garnish with a pineapple wedge and a slice of jalapeño.\\n4. **Grapefruit Ginger Fizz**: Combine tequila, grapefruit juice, fresh lime juice, and ginger liqueur. Top with soda water and garnish with a slice of grapefruit and a sprig of rosemary.\\n5. **Cantaloupe Agua Fresca**: Blend tequila, cantaloupe puree, fresh lime juice, and a splash of agave syrup. Strain into a glass filled with ice and garnish with a cantaloupe ball and a sprig of mint.\\n6. **Spicy Mango Mule**: Mix tequila, mango puree, lime juice, ginger beer, and a dash of cayenne pepper. Serve in a copper mug with a lime wheel and a sprig of mint.\\n\\nThese ideas should gi",
+ "answer": "You take your cocktail-making class on **Fridays**.",
+ "dump": "<human>\n\n- Podcast project: \"After the Wire\".\n- Focused on early-stage founders, emphasizing substance over investment hype.\n- Unique segments being developed: \"Pivot Point,\" \"The One That Got Away,\" \"Elevator Pitch Remix,\" \"Founder's Toolbox,\" \"The Crystal Ball,\" \"Under the Radar,\" and \"The Unsung Hero.\"\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"cocktail-making class\", \"start_date\": \"2023-01-01\"})"
+  ],
+  "blocks_chars": 497
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 30.3,
+  "total": 35.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

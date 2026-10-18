@@ -1,0 +1,96 @@
+{
+ "qid": "45dc21b6",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How many of Emma's recipes have I tried out?",
+ "reference": "3",
+ "question_date": "2023-06-16 17:33",
+ "sessions": [
+  {
+   "id": "b7f69a7d_2",
+   "date": "2023-05-10 06:12",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_BVfC7JV_0",
+   "date": "2023-05-19 15:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yZ6yXnQ_0",
+   "date": "2023-05-19 16:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xhK5G9o_0",
+   "date": "2023-05-20 08:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_1",
+   "date": "2023-05-29 04:51",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_169242",
+   "date": "2023-05-29 07:04",
+   "evidence": false
+  },
+  {
+   "id": "7caf3391_2",
+   "date": "2023-05-30 00:59",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_467365",
+   "date": "2023-05-30 04:25",
+   "evidence": false
+  },
+  {
+   "id": "answer_07664d43_2",
+   "date": "2023-05-30 06:32",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_gGriMhQ_91",
+   "date": "2023-05-30 07:25",
+   "evidence": false
+  }
+ ],
+ "context": "Based on our conversation history, you have tried **three** of Emma's recipes.\n\nYou mentioned having tried two of her recipes on May 29, 2023, and updated that count to three on May 30, 2023.",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   The history states that you have tried a total of **three** of Emma's recipes.\n*   The timeline provided confirms that you reached this count of three on May 30, 2023.\n*   There is no information indicating that you have tried any additional recipes between May 30, 2023, and the current date (June 16, 2023).\n\n**2. Reason over the information:**\n*   Since the last update to your count was on May 30, 2023, and the total was explicitly stated as three, that remains the current total.\n\n**Answer:**\nYou have tried **three** of Emma's recipes.",
+ "dump": "- [explicit] user provided the initial decision of the case regarding leave to amend a cross-claim.\n- [explicit] user provided the metadata for the case including the medium neutral citation, hearing dates of 30 September 2022 and 5 October 2022, order and decision date of 12 October 2022, jurisdiction as Equity - Technology and Construction List, and the presiding judge as Stevenson J.\n- [explicit] user intends to provide a long legal case in multiple messages for the assistant to identify the main issues.\n- [explicit] user established a protocol to signal completion by saying \"I have completed sending you the case\".\n- [explicit] user is sharing the case Boulus Constructions Pty Ltd v Warrumbungle Shire Council (No 2) [2022] NSWSC 1368.\n- [explicit] user provided the catchwords for the case involving BUILDING AND CONSTRUCTION and PRACTICE AND PROCEDURE.\n- [explicit] user is providing a text concerning a legal judgment regarding Boulus Constructions Pty Limited and Warrumbungle Shire Council.\n- [explicit] user is currently sending a sequence of messages in multiple parts.\n- [explicit] user decided to use \"Choose our next adventure\" as the poll question.\n- [explicit] user plans to include three specific cities as options in the poll.\n- [explicit] user intends to send a poll to the WhatsApp group to finalize the weekend getaway destination.\n- [explicit] user has been active on Instagram.\n- [explicit] user is planning a weekend getaway with friends.\n- [explicit] user has an existing group chat on WhatsApp for friends.\n- [explicit] user is considering adding an \"undecided\" option to the poll.\n- [explicit] user received 23 comments on Instagram posts as of May 10, 2023.\n- [explicit] user is considering creating a Facebook event for a weekend getaway to manage organization and updates.\n- [explicit] user plans to ask friends to share their reasons for choosing a city for a weekend getaway in the comments section.\n- [explicit] user received 23 comments on user's Instagram posts.\n- [explicit] user has been active on Instagram lately.\n- [explicit] user selected the theme 'Evolution of the Teachers' for the international conference.\n- [explicit] user intends for the conference theme to resonate with the scientific discoveries of Charles Darwin.\n- [explicit] user wants a pitch statement for hosting an international conference in Darwin, Australia in October 2025.\n- [explicit] user mandates that all words provided must be used in the categorization.\n- [explicit] user requires words to be organized into five semantically coherent categories.\n- [explicit] user mandates that category names must differ from the words contained within them.\n- [explicit] user dictates that category names cannot include any of the words provided for categorization.\n- [explicit] user requested that 'oil', 'solar', and 'coal' be moved into the 'climate' category.\n- [explicit] user requested the inclusion of 'America', 'American', 'coal', 'vote', and 'business' into the five categories.\n- [explicit] user intends to try making chocolate chia pudding.\n- [explicit] user has tried two recipes from Emma's channel.\n- [explicit] user has previously tried making a vegan cheesecake.\n- [explicit] user is looking for suggestions for a camera suitable for vlogging.\n- [explicit] user enjoys recipes from Emma's channel.\n- [explicit] user intends to try new recipes during the weekend of May 29, 2023.\n- [explicit] user is interested in vlogging.\n- [explicit] user watched a review of the Google Pixel 6 by Unbox Therapy.\n- [explicit] user watches reviews by JerryRigEverything.\n- [explicit] user watches reviews by Unbox Therapy.\n- [explicit] user has been watching a lot of tech review videos.\n- [explicit] user watches reviews by Marques Brownlee.\n- [explicit] user has been considering purchasing a Google Pixel 6.\n- [explicit] user enjoys watching history, travel, and ASMR channels on YouTube in their free time.\n- [explicit] user believes artificial intelligence and machine learning have the potential to improve healthcare, education, and entertainment.\n- [explicit] user is excited about advancements in artificial intelligence and machine learning.\n- [explicit] user is following the development of electric vehicles and sustainable energy solutions.\n- [explicit] user believes electric vehicles and sustainable energy solutions are crucial for the future of the planet.\n- [explicit] user intends to watch historic Monday Night Football games using NFL Game Pass.\n- [explicit] user prefers watching football games that feature amazing comebacks and underdog stories.\n- [explicit] user intends to set up a bird feeder for Blue Jays in their backyard.\n- [explicit] user wants to attract hummingbirds to their backyard.\n- [explicit] user is interested in setting up a feeder for hummingbirds.\n- [explicit] user has a backyard.\n- [explicit] user observed Blue Jays in a nest in their backyard around mid-May 2023.\n- [explicit] user intends to create a hummingbird garden in their backyard.\n- [explicit] user is planning to add native plants to a hummingbird garden.\n- [explicit] user is considering adding a birdbath to their hummingbird garden.\n- [explicit] user has a hummingbird garden.\n- [explicit] user is interested in identifying tax breaks or incentives specifically for tech companies relocating to the area.\n- [explicit] user is considering relocating their business to the area.\n- [explicit] user is planning a trip abroad.\n- [explicit] user has tried three of Emma's recipes.\n- [explicit] user is considering visiting Europe, specifically Spain or Italy.\n- [explicit] user is interested in vegan restaurant recommendations in Spain and Italy.\n- [explicit] user is seeking recommendations for vegan cooking classes or workshops in Spain and Italy.\n- [explicit] user is interested in trying more vegan restaurants.\n- [explicit] user intends to look into vegan cooking classes in Barcelona.\n- [explicit] user wants to stay in a central location in Barcelona and Rome to facilitate travel to cooking classes and exploration.\n- [explicit] user wants to find affordable accommodations near Barcelona and Rome.\n- [explicit] user intends to look into vegan cooking classes in Rome.\n- [explicit] user will be carrying cooking class ingredients and equipment while traveling in Barcelona and Rome.\n- [explicit] user is planning to spend approximately 5 to 7 days in both Barcelona and Rome.\n- [explicit] user intends to book accommodations for a duration of 5 to 7 days.\n- [explicit] user is interested in trying local specialties in Barcelona and Rome.\n- [explicit] user is interested in trying vegan dishes in Barcelona and Rome.\n- [explicit] user plans to use a taxi or ride-hailing service when transporting a large amount of cooking ingredients and equipment in Barcelona and Rome.\n- [explicit] user creates a vlog series centered around music production.\n- [explicit] user wants the previously provided storyboard example formatted as a table.\n- [explicit] user wants two additional storyboard examples similar to the one provided.\n- [explicit] user creates late-night Twitch livestreams.\n- [explicit] user wants 3 storyboards for a late-night live experience.\n- [deductive] user is a creative content producer who engages in music production and live streaming.\n- [deductive] user is interested in veganism and food preparation, as evidenced by their interest in vegan cooking classes and restaurants in Barcelona and Rome.\n- [deductive] user is an experienced cook or cooking instructor, as they travel with their own cooking class ingredients and equipment.\n- [inductive] user is deeply committed to veganism as a personal preference and lifestyle, consistently seeking vegan dining and educational experiences (classes/workshops) when traveling.\n- [inductive] user exhibits a structured and detailed planning approach when organizing trips, specifically concerning duration, location, logistics (transportation), and specialized activities (cooking classes).\n- [inductive] user maintains a consistent, iterative content creation process, often requesting structured visual aids (storyboards/tables) to refine their creative projects (vlogs/livestreams).",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 103.6,
+  "total": 107.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

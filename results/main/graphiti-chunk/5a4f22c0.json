@@ -1,0 +1,90 @@
+{
+ "qid": "5a4f22c0",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+ "reference": "TechCorp",
+ "question_date": "2023-06-21 13:02",
+ "sessions": [
+  {
+   "id": "78eda063_2",
+   "date": "2023-05-23 07:41",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yJMgmG3_0",
+   "date": "2023-05-23 10:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_1",
+   "date": "2023-05-23 20:06",
+   "evidence": true
+  },
+  {
+   "id": "af778ece_1",
+   "date": "2023-05-24 05:16",
+   "evidence": false
+  },
+  {
+   "id": "c3f945f3_1",
+   "date": "2023-05-24 16:00",
+   "evidence": false
+  },
+  {
+   "id": "a1c1739c_3",
+   "date": "2023-05-24 19:18",
+   "evidence": false
+  },
+  {
+   "id": "acb77ba4",
+   "date": "2023-05-25 16:42",
+   "evidence": false
+  },
+  {
+   "id": "88841f27_2",
+   "date": "2023-05-25 20:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dh8qvty_0",
+   "date": "2023-05-25 22:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_2",
+   "date": "2023-05-26 20:48",
+   "evidence": true
+  }
+ ],
+ "context": "- The user intends to contact Dr. Maria Hernandez again regarding her previous informative webinar. (valid since 2023-05-26)\n- The user met Alex, who is the founder of a new startup in the edtech space, at a startup mixer at WeWork. (valid since 2023-05-23)\n- The assistant suggested adding Sarah to the contact spreadsheet after meeting her at the Chamber of Commerce Speed Networking event. (valid since 2023-05-23)\n- Emily arrives at an ancient temple in Egypt to study newly discovered artifacts. (valid since 2023-05-25)\n- The user attended a startup mixer at WeWork. (valid since 2023-05-23)\n- The assistant suggested adding Emily to the contact spreadsheet after meeting her at the Chamber of Commerce Speed Networking event. (valid since 2023-05-23)\n- A startup mixer was held at WeWork. (valid since 2023-05-23)\n- The user receives feedback on their elevator pitch from Jack and provides him with insights on digital marketing. (valid since 2023-05-26)\n- Alex is the founder of a new startup in the edtech space. (valid since 2023-05-23)\n- The assistant suggested adding Michael to the contact spreadsheet after meeting him at the Chamber of Commerce Speed Networking event. (valid since 2023-05-23)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:** I have reviewed all the provided history facts regarding the user's contacts and professional interactions. The facts mention the following individuals:\n    *   Dr. Maria Hernandez (webinar contact)\n    *   Alex (founder of an edtech startup)\n    *   Sarah (met at Chamber of Commerce Speed Networking)\n    *   Emily (studying artifacts in Egypt; met at Chamber of Commerce Speed Networking)\n    *   Jack (provided feedback on elevator pitch)\n    *   Michael (met at Chamber of Commerce Speed Networking)\n\n2. **Reason over the information:** I have searched the provided history for the name \"Rachel\" and any mention of an \"old colleague from a previous company.\" None of the provided facts contain information about a person named Rachel, nor do they mention any of the user's former colleagues or their current places of employment.\n\n3. **Conclusion:** Based on the provided history chats, there is no information available to answer the question regarding where Rachel is currently working.",
+ "dump": "- The user is planning to buy new brushes for their watercolor painting projects. (valid since 2023-05-23)\n- The user is planning to buy a new palette that features built-in cups. (valid since 2023-05-23)\n- The assistant recommends the Escoda Perla Travel Set which includes 6 brushes in a compact, travel-friendly case for beginners. (valid since 2023-05-23)\n- The assistant recommends the Escoda Perla Mini Set which includes 4 brushes in a small, compact case for beginners. (valid since 2023-05-23)\n- The assistant recommends the Escoda Perla Starter Set which includes 3 brushes in a small case as an affordable introduction to the line. (valid since 2023-05-23)\n- The assistant recommends Escoda Perla Brush Sets, which are smaller collections of 2-3 brushes focused on specific techniques like detail work or washes. (valid since 2023-05-23)\n- The user met Alex, who is the founder of a new startup in the edtech space, at a startup mixer at WeWork. (valid since 2023-05-23)\n- Alex is the founder of a new startup in the edtech space. (valid since 2023-05-23)\n- The user attended a startup mixer at WeWork. (valid since 2023-05-23)\n- A startup mixer was held at WeWork. (valid since 2023-05-23)\n- The assistant advised that adding David to the contact spreadsheet will help keep track of personal and professional connections. (valid since 2023-05-23)\n- The assistant suggested adding Tom to the contact spreadsheet after meeting him at the Chamber of Commerce Speed Networking event. (valid since 2023-05-23)\n- The assistant suggested adding Sarah to the contact spreadsheet after meeting her at the Chamber of Commerce Speed Networking event. (valid since 2023-05-23)\n- The assistant suggested adding Michael to the contact spreadsheet after meeting him at the Chamber of Commerce Speed Networking event. (valid since 2023-05-23)\n- The assistant suggested adding Emily to the contact spreadsheet after meeting her at the Chamber of Commerce Speed Networking event. (valid since 2023-05-23)\n- The user owns a collection of vintage Star Wars action figures which they completed three weeks ago. (valid since 2023-05-24)\n- The user owns a 1920s-era Leica antique camera. (valid since 2023-05-24)\n- The assistant suggests using props such as lightsabers, blasters, or Star Wars-themed accessories to enhance photography of Star Wars action figures. (valid since 2023-05-24)\n- The assistant suggests incorporating props or accessories to provide context and depth when photographing antique cameras. (valid since 2023-05-24)\n- Basil is a companion plant for tomatoes, as it repels pests like whiteflies and aphids. (valid since 2023-05-24)\n- Marigold is a companion plant for basil, as it repels nematodes and attracts beneficial insects. (valid since 2023-05-24)\n- Borage is a companion plant for basil, as it attracts beneficial insects and improves the flavor and texture of basil. (valid since 2023-05-24)\n- Chives are a companion plant for basil because they share similar growing conditions. (valid since 2023-05-24)\n- Lemon balm is a companion plant for mint due to shared growing conditions and being in the same plant family. (valid since 2023-05-24)\n- Oregano is a companion plant for mint as both possess pest-repelling properties. (valid since 2023-05-24)\n- Radish is a companion plant for mint as it repels cucumber beetles that harm mint. (valid since 2023-05-24)\n- Lavender is a bee-friendly plant that should be planted near mint. (valid since 2023-05-24)\n- Coneflower is a bee-friendly plant that should be planted near mint. (valid since 2023-05-24)\n- Carrots are a companion plant for cilantro due to similar growing conditions. (valid since 2023-05-24)\n- Dill is a companion plant for cilantro as they share similar pest-repelling properties. (valid since 2023-05-24)\n- Cilantro is a companion plant for tomatoes, helping to repel spider mites and aphids. (valid since 2023-05-24)\n- Nasturtium is a companion plant for cilantro as it repels pests like aphids and whiteflies. (valid since 2023-05-24)\n- The user is planning to check out the new Everlane store that recently opened in the Westfield mall. (valid since 2023-05-24)\n- The new Everlane store is located in the Westfield mall. (valid since 2023-05-24)\n- The assistant discussed the user's purchase of Madewell ankle boots at a 40% discount during the President's Day sale. (valid since 2023-05-24)\n- The user plans to stay in Kailua-Kona to explore the town and do coffee farm tours. (valid since 2023-05-25)\n- The assistant recommends traditional Hawaiian dishes such as laulau for the user to try in Hilo. (valid since 2023-05-25)\n- The assistant recommends traditional Hawaiian dishes such as kalua pig for the user to try in Hilo. (valid since 2023-05-25)\n- Helena's Hawaiian Food serves laulau made with tender pork and beef (valid since 2023-05-25)\n- Kuhio Grille offers a laulau plate lunch with rice and macaroni salad (valid since 2023-05-25)\n- Hilo Bay Cafe serves laulau with locally-sourced ingredients and a side of poi (valid since 2023-05-25)\n- Cafe Pesto serves kalua pig slow-cooked in an underground imu oven with cabbage, rice, and poi (valid since 2023-05-25)\n- Hilo Farmers Market Food Stalls serve kalua pig with a side of cabbage and rice (valid since 2023-05-25)\n- Miyo's offers a kalua pig plate lunch served with rice and macaroni salad (valid since 2023-05-25)\n- The user is planning to create a sculpture incorporating found objects and recycled materials. (valid since 2023-05-25)\n- The user plans to incorporate plastic bottles into a sculpture. (valid since 2023-05-25)\n- The user plans to incorporate cardboard tubes into a sculpture. (valid since 2023-05-25)\n- The user plans to incorporate found objects into a sculpture. (valid since 2023-05-25)\n- Plastic bottles and cardboard tubes can be connected securely without glue or adhesives by using mechanical techniques like interlocking notches or tabs, or by creating custom joints. (valid since 2023-05-25)\n- natural materials like leaves, twigs, or seeds can be attached to plastic bottles using methods like tying, wrapping, piercing, weaving, tucking, or nesting. (valid since 2023-05-25)\n- natural materials like leaves, twigs, or seeds can be attached to cardboard tubes using methods like tying, wrapping, piercing, weaving, tucking, or nesting. (valid since 2023-05-25)\n- Emily arrives at an ancient temple in Egypt to study newly discovered artifacts. (valid since 2023-05-25)\n- Emily uncovers forbidden knowledge about an ancient deity named Nyarlathotep inside a hidden chamber in an Egyptian temple. (valid since 2023-05-25)\n- The user intends to contact Dr. Maria Hernandez again regarding her previous informative webinar. (valid since 2023-05-26)\n- The user attends weekly networking meetings organized by BNI. (valid since 2023-05-26)\n- The user receives feedback on their elevator pitch from Jack and provides him with insights on digital marketing. (valid since 2023-05-26)\n- The assistant mentions that BNI is a great way for the user to connect with entrepreneurs and small business owners. (valid since 2023-05-26)\n- The assistant recommends PitchPerfect as an online resource for guidance on crafting an elevator pitch. (valid since 2023-05-26)\n- The assistant recommends Inc.com's Elevator Pitch Guide as a comprehensive resource for creating a winning elevator pitch. (valid since 2023-05-26)\n- The assistant recommends Forbes' Elevator Pitch Articles as a collection of tips on crafting a successful elevator pitch. (valid since 2023-05-26)\n- The assistant recommends PitchBot as an online tool for practicing an elevator pitch and receiving feedback. (valid since 2023-05-26)\n- The assistant recommends Elevator Pitch Builder as a tool for creating an elevator pitch with templates and examples. (valid since 2023-05-26)\n- The assistant recommends PitchDeck as a platform for creating a visually appealing pitch deck. (valid since 2023-05-26)\n- The assistant recommends TalkMaster as a tool for practicing public speaking skills related to an elevator pitch. (valid since 2023-05-26)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 64,
+  "invalidated": 0,
+  "episodes": 22,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 152.0,
+  "total": 153.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

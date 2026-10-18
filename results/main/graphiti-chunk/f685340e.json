@@ -1,0 +1,102 @@
+{
+ "qid": "f685340e",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How often do I play tennis with my friends at the local park previously? How often do I play now?",
+ "reference": "Previously, you play tennis with your friends at the local park every week (on Sunday). Currently, you play tennis every other week (on Sunday).",
+ "question_date": "2023-07-31 11:43",
+ "sessions": [
+  {
+   "id": "4a9eb139_2",
+   "date": "2023-03-06 12:54",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_1",
+   "date": "2023-03-11 18:01",
+   "evidence": true
+  },
+  {
+   "id": "eef7c3fa_1",
+   "date": "2023-03-15 06:28",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_246155",
+   "date": "2023-04-03 16:32",
+   "evidence": false
+  },
+  {
+   "id": "ee402e51_1",
+   "date": "2023-04-12 15:32",
+   "evidence": false
+  },
+  {
+   "id": "e7dcd5df",
+   "date": "2023-05-30 12:19",
+   "evidence": false
+  },
+  {
+   "id": "e862f726_1",
+   "date": "2023-06-11 14:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_8f85nN2_0",
+   "date": "2023-06-15 19:19",
+   "evidence": false
+  },
+  {
+   "id": "answer_25df025b_2",
+   "date": "2023-07-30 04:03",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_240679",
+   "date": "2023-07-31 03:19",
+   "evidence": false
+  }
+ ],
+ "context": "- The assistant provides tips on how to keep a tennis racket in good condition, including cleaning it, storing it properly, and using a racket cover. (valid since 2023-03-11)\n- The user is working on improving their tennis net game by practicing volleys. (valid since 2023-03-11)\n- The user is working on improving their tennis net game by practicing overheads. (valid since 2023-03-11)\n- Clare Mackintosh wrote the debut novel titled I Let You Go. (valid since 2023-03-15)\n- The user is taking swim lessons at the local pool. (valid since 2023-07-30)\n- The assistant discusses with the user how Ludwig Wittgenstein challenged the concept of a private language. (valid since 2023-04-03)\n- The assistant asks the user if they have a favorite Grand Slam event they enjoy watching or attending. (valid since 2023-03-11)\n- The assistant recommends the tennis ball toss drill to improve reaction time and hand-eye coordination at the net. (valid since 2023-03-11)\n- The assistant acknowledges that the user is a big fan of Roger Federer, who is considered a legend in tennis. (valid since 2023-03-11)\n- The assistant explains that the phrase Ill know is a contraction of I will know and signifies future knowledge or certainty about an outcome. (valid since 2023-06-15)",
+ "answer": "**Answer (step by step):**\n\n**Step 1: Extract relevant information**\n*   I have reviewed the provided history chats for any mention of the user playing tennis with friends at a local park.\n*   The history chats confirm the user is working on improving their tennis net game (volleys and overheads).\n*   The history chats mention the assistant providing tips on racket maintenance and recommending a tennis ball toss drill.\n*   The history chats mention the user is taking swim lessons at the local pool.\n*   There is no mention of the user playing tennis with friends at a local park in any of the provided facts.\n\n**Step 2: Reason over the information**\n*   Since the provided history logs do not contain any information regarding the frequency of the user playing tennis with friends at a local park, it is impossible to determine how often the user played in the past or how often they play now based on these records.\n\n**Conclusion:**\nThe provided history chats do not contain information about how often you play tennis with friends at the local park, either in the past or currently.",
+ "dump": "- the user is writing a novel as a personal project (valid since 2023-03-06)\n- The assistant provides tips to the user for managing energy levels and heavy workloads on Tuesdays. (valid since 2023-03-06)\n- A morning workout can include yoga as an exercise to increase energy. (valid since 2023-03-06)\n- A morning workout can include jumping jacks as an exercise to increase energy. (valid since 2023-03-06)\n- The assistant recommends using the Pomodoro Technique to stay focused by working in 25-minute increments. (valid since 2023-03-06)\n- Almonds and cashews are energy-boosting snacks rich in healthy fats and protein. (valid since 2023-03-06)\n- Almonds and pumpkin seeds are energy-boosting snacks rich in healthy fats and protein. (valid since 2023-03-06)\n- Almonds and chia seeds are energy-boosting snacks rich in healthy fats and protein. (valid since 2023-03-06)\n- Apples and bananas are energy-boosting fresh fruits packed with vitamins and minerals. (valid since 2023-03-06)\n- Apples and berries are energy-boosting fresh fruits packed with vitamins and minerals. (valid since 2023-03-06)\n- Green tea or coffee can be consumed in moderation for a caffeine boost. (valid since 2023-03-06)\n- The assistant acknowledges that the user is a big fan of Roger Federer, who is considered a legend in tennis. (valid since 2023-03-11)\n- The assistant provides tips on how to keep a tennis racket in good condition, including cleaning it, storing it properly, and using a racket cover. (valid since 2023-03-11)\n- The user is working on improving their tennis net game by practicing volleys. (valid since 2023-03-11)\n- The user is working on improving their tennis net game by practicing overheads. (valid since 2023-03-11)\n- The assistant recommends the wall ball drill to improve reaction time and hand-eye coordination at the net. (valid since 2023-03-11)\n- The assistant recommends the reaction volley drill to improve reaction time and hand-eye coordination at the net. (valid since 2023-03-11)\n- The assistant recommends the overhead drill to improve reaction time and hand-eye coordination at the net. (valid since 2023-03-11)\n- The assistant recommends the tennis ball toss drill to improve reaction time and hand-eye coordination at the net. (valid since 2023-03-11)\n- The assistant recommends agility ladder drills to improve foot speed and reaction time. (valid since 2023-03-11)\n- The assistant recommends eye-hand coordination exercises to improve hand-eye coordination. (valid since 2023-03-11)\n- The assistant suggests using a reaction ball for eye-hand coordination exercises. (valid since 2023-03-11)\n- The assistant asks the user if they have a favorite Grand Slam event they enjoy watching or attending. (valid since 2023-03-11)\n- The user plans to read the novel The Last Mrs. Parrish next. (valid since 2023-03-15)\n- The user is inquiring about the availability of The Last Mrs. Parrish as an e-book on Libby. (valid since 2023-03-15)\n- The user is checking if the book The Last Mrs. Parrish is available as an e-book through the library platform Libby. (valid since 2023-03-15)\n- Fiona Barton wrote the debut novel titled The Widow. (valid since 2023-03-15)\n- Fiona Barton wrote the novel titled The Child. (valid since 2023-03-15)\n- Fiona Barton wrote the novel titled The Suspect. (valid since 2023-03-15)\n- Clare Mackintosh wrote the debut novel titled I Let You Go. (valid since 2023-03-15)\n- Clare Mackintosh wrote the novel titled The Farm. (valid since 2023-03-15)\n- Clare Mackintosh wrote the novel titled The Lie of You. (valid since 2023-03-15)\n- Clare Mackintosh wrote the novel titled The Other Mrs. Miller. (valid since 2023-03-15)\n- Libby uses the OverDrive digital library platform. (valid since 2023-03-15)\n- The assistant discusses with the user how Ludwig Wittgenstein challenged the concept of a private language. (valid since 2023-04-03)\n- The assistant explains to the user how languages like Japanese possess multiple words for love (ai, koi, daisuki), reflecting cultural values and norms. (valid since 2023-04-03)\n- The user is seeking an online grocery store that offers competitive pricing, discounts, promotions, and sustainable or eco-friendly practices. (valid since 2023-04-12)\n- The assistant recommends The Kitchn's Food Waste Challenge as a resource for reducing food waste and saving time. (valid since 2023-04-12)\n- The assistant recommends Save the Food as a website for reducing food waste and saving time. (valid since 2023-04-12)\n- The assistant recommends Food52's Meal Planning Guide as a resource for reducing food waste and saving time. (valid since 2023-04-12)\n- The user moved into their new apartment three weeks prior to May 30, 2023. (valid since 2023-05-30)\n- The user needs to renew their passport before their holiday trip. (valid since 2023-05-30)\n- The user plans to use the Take10 program on Headspace to get a feel for meditation. (valid since 2023-06-11)\n- The user has bookmarked guided meditations on Insight Timer that focus on anxiety and stress relief. (valid since 2023-06-11)\n- Headspace offers a Take10 program for beginners to meditation. (valid since 2023-06-11)\n- The assistant quoted Thich Nhat Hanh in the conversation. (valid since 2023-06-11)\n- The assistant explains that the phrase Ill know is a contraction of I will know and signifies future knowledge or certainty about an outcome. (valid since 2023-06-15)\n- The user has signed up for swim lessons. (valid since 2023-07-30)\n- The user is taking swim lessons at the local pool. (valid since 2023-07-30)\n- The assistant provides objective insights to the user regarding the impact of technology and social media on the Serbo-Croatian language. (valid since 2023-07-31)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 50,
+  "invalidated": 0,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 137.1,
+  "total": 138.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

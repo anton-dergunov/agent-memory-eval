@@ -1,0 +1,96 @@
+{
+ "qid": "07741c44",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "Where do I initially keep my old sneakers?",
+ "reference": "under my bed",
+ "question_date": "2023-11-30 23:52",
+ "sessions": [
+  {
+   "id": "ultrachat_319134",
+   "date": "2023-07-25 07:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_1",
+   "date": "2023-08-11 02:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_113757",
+   "date": "2023-08-20 06:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_CEWG2XW_0",
+   "date": "2023-09-06 08:19",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mUiNDhv_0",
+   "date": "2023-10-10 09:54",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_200168",
+   "date": "2023-10-26 19:12",
+   "evidence": false
+  },
+  {
+   "id": "aa71db11_1",
+   "date": "2023-11-11 14:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_2",
+   "date": "2023-11-30 11:44",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_370246",
+   "date": "2023-11-30 16:06",
+   "evidence": false
+  },
+  {
+   "id": "01d22d4d",
+   "date": "2023-11-30 23:04",
+   "evidence": false
+  }
+ ],
+ "context": "Based on the records, there is contradictory information regarding where you initially stored your old sneakers:\n\n*   On August 11, 2023, you mentioned that your old sneakers were stored **under the bed**.\n*   On November 30, 2023, it was noted that you store your old sneakers in a **shoe rack within your closet**.\n\nI notice you have provided conflicting information about this. Which location was the initial storage spot?",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   Fact 1 (August 11, 2023): You stated the sneakers were stored under the bed.\n*   Fact 2 (November 30, 2023): You stated the sneakers are stored in a shoe rack within your closet.\n\n**2. Reason over the information:**\n*   The term \"initially\" refers to the earliest point in time for which we have a record of the storage location.\n*   Comparing the two dates, August 11, 2023, precedes November 30, 2023.\n*   Therefore, the information provided on August 11 represents the initial storage location mentioned in our history.\n\n**Answer:**\nBased on the records, your initial storage spot for the old sneakers was **under the bed**.",
+ "dump": "- [explicit] user intends to provide multiple scripts for processing.\n- [explicit] user wants all provided scripts to be processed together.\n- [explicit] user has a script composed of multiple parts.\n- [explicit] user will signal to the assistant when to finish by using the word \"finish\".\n- [explicit] user intends to provide the assistant with all parts of the script to be read.\n- [explicit] user has interest in the themes of redemption in the film The Good Shepherd.\n- [explicit] user has interest in whether Edward Wilson maintained control over his life and decisions.\n- [explicit] user feels sympathy for the character Edward Wilson from the film The Good Shepherd.\n- [explicit] user perceives that Edward Wilson was frequently manipulated by other people.\n- [explicit] user has interest in whether the film The Good Shepherd offers hope or optimism regarding redemption.\n- [explicit] user questions whether the film The Good Shepherd accurately portrays the world of espionage and intelligence agencies or if it is an exaggeration.\n- [explicit] user believes that the women in the film The Good Shepherd were only used as props for the male characters.\n- [explicit] user questions if the portrayal of women in the film The Good Shepherd was accurate.\n- [explicit] user considers Teva and Merrell to be great brands.\n- [explicit] user owns old sneakers that are currently stored under the bed.\n- [explicit] user intends to have their old sneakers polished and conditioned at a cobbler this weekend.\n- [explicit] user is looking for sandals with sturdy straps.\n- [explicit] user's old sneakers have developed an odor.\n- [explicit] user plans to take an inventory of their shoe collection.\n- [explicit] user has pairs of shoes stored in their closet that have not been worn in a long time.\n- [explicit] user plans to donate old dress shoes to a local charity thrift store on Saturday, August 12, 2023.\n- [explicit] user is planning to organize their closet by shoe type.\n- [explicit] user intends to group their sneakers together.\n- [explicit] user intends to group their boots together.\n- [explicit] user has played all the Mario games.\n- [explicit] user is a fan of the Mario video game franchise.\n- [explicit] user considers Super Mario 64 to have a special place in their heart.\n- [explicit] user intends to take photographs of old buildings in a street.\n- [explicit] user is interested in the specific methods Martial used to address police brutality and inequality in France.\n- [explicit] user is interested in an assessment of the impact of Martial's advocacy and ongoing efforts in France on improving conditions for marginalized communities.\n- [explicit] user is interested in whether there have been changes or improvements in France regarding the social justice issues Martial advocates for.\n- [explicit] user is interested in learning about Martial's involvement in campaigns or projects promoting social justice.\n- [explicit] user intends to take walks during lunch breaks on Wednesdays and Thursdays.\n- [explicit] user is interested in taking a spin class on Friday evenings after work.\n- [explicit] user wants to start a new exercise routine.\n- [explicit] user wants suggestions to make lunch break walks more engaging.\n- [explicit] user gets an extra hour of sleep on Sundays.\n- [explicit] user feels more energized on Mondays compared to other days.\n- [explicit] user takes walks during their lunch break.\n- [explicit] user has a lunch break that is roughly 30 to 45 minutes long.\n- [explicit] user likes the idea of listening to podcasts or audiobooks during their walks.\n- [explicit] user is fascinated by the stories behind successful companies\n- [explicit] user is fascinated by entrepreneurship\n- [explicit] user is interested in the podcast \"How I Built This\"\n- [explicit] user intends to listen to the Airbnb episode of the podcast How I Built This.\n- [explicit] user reorganized their kitchen cabinets on Saturday, November 11, 2023.\n- [explicit] user attempted a new recipe on the morning of Saturday, November 11, 2023.\n- [explicit] user is interested in how companies like Airbnb have disrupted traditional industries.\n- [explicit] user finds the concept of the sharing economy fascinating.\n- [explicit] user's attempt at a new recipe was a failure.\n- [explicit] user is planning to buy a new pair of sandals.\n- [explicit] user is looking for a cobbler to polish and condition their old sneakers.\n- [explicit] user owns old sneakers that they intend to get rid of.\n- [explicit] user is looking for sandals with durable straps.\n- [explicit] user currently stores old sneakers in a shoe rack within their closet.\n- [explicit] user intends to donate old dress shoes to a local charity thrift store on Saturday, December 2, 2023.\n- [explicit] user owns dress shoes that are somewhat worn out but in good condition.\n- [explicit] user has been jogging on the same route for months.\n- [explicit] user plans to organize their closet on the weekend of December 2-3, 2023.\n- [explicit] user intends to store their old sneakers in a shoe rack.\n- [explicit] user plans to call a thrift store and check their website before donating dress shoes on Saturday, December 2, 2023.\n- [explicit] user is seeking recommendations for brands or stores that sell durable sandals with high-quality straps.\n- [explicit] user is interested in the global impact of the Russian Revolution beyond the Cold War.\n- [explicit] user is interested in the causes and consequences of the Russian Revolution.\n- [explicit] user considers it interesting that the Russian Revolution inspired various movements globally.\n- [explicit] user is interested in discussing the potential for revolutions in the contemporary world.\n- [explicit] user believes it is sad that millions of people suffered under the Soviet regime.\n- [explicit] user is interested in historical counterfactuals regarding the Russian Revolution.\n- [explicit] user believes that the Russian Revolution inspired many subsequent revolutionary movements.\n- [explicit] user observes that political problems seem to persist regardless of who holds power.\n- [explicit] user is skeptical that revolutions lead to long-term systemic change.\n- [explicit] user cycles and has been using their road bike a lot lately.\n- [explicit] user owns three bikes: a road bike, a mountain bike, and a commuter bike.\n- [explicit] user is considering upgrading the wheels on user's road bike to carbon fiber.\n- [explicit] user regularly uses all three of user's bikes.\n- [explicit] user owns a mountain bike with a recently replaced front wheel.\n- [explicit] user has been researching carbon fiber wheels and talking to friends about the upgrade.\n- [explicit] user uses the commuter bike at least three times a week for commuting to and from work.\n- [explicit] user is considering joining a local century ride event in a few weeks.\n- [explicit] user finds the commuter bike to be a reliable form of transport.\n- [explicit] user uses the commuter bike for shorter distances as it provides a relaxed ride.\n- [explicit] user owns a commuter bike.\n- [explicit] user owns a road bike.\n- [explicit] user has been actively training on the road bike.\n- [deductive] user engages in cycling as a regular, multifaceted hobby involving both commuting and endurance training.\n- [deductive] user is a cyclist who owns at least three bicycles: a road bike, a mountain bike, and a commuter bike.\n- [inductive] user maintains a regular and multifaceted cycling routine, balancing functional commuting with endurance-focused training and leisure.\n- [inductive] user adopts a skeptical and critical perspective when analyzing historical and contemporary political events, particularly regarding the efficacy of revolutions.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 100.5,
+  "total": 102.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

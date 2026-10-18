@@ -1,0 +1,100 @@
+{
+ "qid": "cc5ded98",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How much time do I dedicate to coding exercises each day?",
+ "reference": "about two hours",
+ "question_date": "2023-06-13 01:30",
+ "sessions": [
+  {
+   "id": "ultrachat_361535",
+   "date": "2023-05-20 06:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_1",
+   "date": "2023-05-20 09:04",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_221540",
+   "date": "2023-05-21 10:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_110794",
+   "date": "2023-05-22 21:07",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pyK55Br_11",
+   "date": "2023-05-25 07:14",
+   "evidence": false
+  },
+  {
+   "id": "answer_a5b68517_2",
+   "date": "2023-05-29 01:53",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_245905",
+   "date": "2023-06-05 11:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_176513",
+   "date": "2023-06-05 15:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_393019",
+   "date": "2023-06-10 02:03",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_YyyF8MF_0",
+   "date": "2023-06-12 13:21",
+   "evidence": false
+  }
+ ],
+ "context": "- User is actively working on their coding skills and has been dedicating about one hour each day to coding exercises. (from a chat on 2023-05-20)\n- User has increased their daily coding practice to two hours per day as of May 2023. (from a chat on 2023-05-29)\n- User was recommended various tools for tracking coding progress, including Habitica, Trello, WakaTime, LeetCode, HackerRank, Codewars, Day One, Evernote, spreadsheets, and Pomodoro timers. (from a chat on 2023-05-20)\n- User plans to use Habitica for gamified habit tracking and WakaTime for time tracking to monitor their coding progress. (from a chat on 2023-05-20)\n- User uses the Pomodoro Technique to maintain focus during their daily coding practice sessions. (from a chat on 2023-05-20)\n- User was recommended coding challenge platforms including LeetCode, HackerRank, Codewars, Codeforces, Project Euler, Python Olympiad, Code Golf, Rosalind, Codecademy, Python Challenge, W3Resource, and Python Morsels. (from a chat on 2023-05-29)\n- User is currently using Pluralsight for Python tutorials and appreciates their interactive exercises. (from a chat on 2023-05-20)\n- User plans to track their coding progress by keeping a log of completed challenges, learned concepts, and improved skills, while setting specific goals and deadlines. (from a chat on 2023-05-29)\n- User's coding goals include building a web scraper or a chatbot, contributing to open-source projects, and collaborating with other developers. (from a chat on 2023-05-29)\n- User was provided with strategies to stay motivated while coding, such as breaking problems into smaller chunks, celebrating small wins, finding an accountability partner, and practicing self-care. (from a chat on 2023-05-20)\n- User was recommended books for data structures and algorithms: 'Introduction to Algorithms' by Thomas H. Cormen, 'Data Structures and Algorithms in Python' by Michael T. Goodrich, and 'Cracking the Coding Interview' by Gayle Laakmann McDowell. (from a chat on 2023-05-29)\n- User has decided to focus on building a broad foundational understanding of Python before specializing in data science and machine learning. (from a chat on 2023-05-20)\n- User was recommended several Python resources including Codecademy, Python.org, W3Schools, Real Python, and courses like 'Python for Everybody' and 'Automate the Boring Stuff with Python'. (from a chat on 2023-05-20)\n- User was recommended resources for learning data structures and algorithms, including Coursera's 'Algorithms Specialization', edX's 'Data Structures and Algorithms', and Udemy's 'Data Structures and Algorithms in Python'. (from a chat on 2023-05-29)\n- User was recommended YouTube channels Neso Academy, freeCodeCamp, and MIT OpenCourseWare for learning data structures and algorithms. (from a chat on 2023-05-29)\n- User was provided with a roadmap for learning data science and machine learning, including focusing on libraries like Pandas, NumPy, Matplotlib, and scikit-learn, and working with real-world datasets. (from a chat on 2023-05-20)\n- User plans to visit the Lynn Museum first, as it was recommended for its interactive and educational exhibits for children, and intends to spend 1-2 hours exploring it. (from a chat on 2023-06-05)\n- User believes society often overlooks the value of elders and mentors and intends to make a conscious effort to seek out wise guidance while also aspiring to become a mentor to others. (from a chat on 2023-06-05)\n- User was informed that Boston College offers group fitness classes such as yoga, kickboxing, cycling, spin, and pilates, as well as intramural sports like basketball, flag football, soccer, and frisbee. (from a chat on 2023-05-20)\n- User is interested in the evolution of Bacillus strains, specifically how they adapt to selective pressures like temperature, pH, nutrient availability, competition, and host-microbe interactions. (from a chat on 2023-05-21)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   On 2023-05-20, the user was dedicating about one hour each day to coding exercises.\n    *   On 2023-05-29, the user increased their daily coding practice to two hours per day.\n\n2.  **Reason over the information:**\n    *   The most recent update regarding the user's daily coding schedule is from May 29, 2023, which states that the user increased their practice to two hours per day.\n    *   Since there are no further updates regarding a change in this schedule between May 29, 2023, and the current date (June 13, 2023), the two-hour duration remains the current commitment.\n\n**Answer:** You currently dedicate two hours per day to coding exercises.",
+ "dump": "- User was informed about outdoor recreational opportunities near Boston College, including hiking and biking at Chestnut Hill Reservoir and the Arnold Arboretum, and guided trips through the school's outdoor adventures program. (session 2023-05-20)\n- Vervet monkeys have a diverse diet including figs, marula fruit, acacia leaves, caterpillars, grass, seeds, and occasionally small animals like birds and rodents. (session 2023-06-10)\n- User was provided with strategies to stay motivated while coding, such as breaking problems into smaller chunks, celebrating small wins, finding an accountability partner, and practicing self-care. (session 2023-05-20)\n- User has decided to focus on building a broad foundational understanding of Python before specializing in data science and machine learning. (session 2023-05-20)\n- User was provided with a roadmap for learning data science and machine learning, including focusing on libraries like Pandas, NumPy, Matplotlib, and scikit-learn, and working with real-world datasets. (session 2023-05-20)\n- User was recommended several Python resources including Codecademy, Python.org, W3Schools, Real Python, and courses like 'Python for Everybody' and 'Automate the Boring Stuff with Python'. (session 2023-05-20)\n- User reported feeling more in control after implementing the suggested strategies for dealing with their toxic colleague as of May 22, 2023. (session 2023-05-22)\n- User was recommended various tools for tracking coding progress, including Habitica, Trello, WakaTime, LeetCode, HackerRank, Codewars, Day One, Evernote, spreadsheets, and Pomodoro timers. (session 2023-05-20)\n- The application process for converting a STACH to a CAH requires submitting documentation to CMS regarding the hospital's rural location, ownership history, current services, and a detailed plan demonstrating how the facility will meet all CAH regulatory requirements, such as staffing and diagnostic service capabilities. (session 2023-05-25)\n- User was recommended resources for learning data structures and algorithms, including Coursera's 'Algorithms Specialization', edX's 'Data Structures and Algorithms', and Udemy's 'Data Structures and Algorithms in Python'. (session 2023-05-29)\n- User learned about safety protocols for using Bacillus strains in biotechnology, including rigorous risk assessment, specialized containment facilities, continuous monitoring, and genetic engineering to enhance biosafety. (session 2023-05-21)\n- User selected Cafe Moccha as their preferred spot for a snack or lunch after visiting the Lynn Museum. (session 2023-06-05)\n- User is interested in the fitness facilities and recreational opportunities available to students at Boston College. (session 2023-05-20)\n- User was recommended YouTube channels Neso Academy, freeCodeCamp, and MIT OpenCourseWare for learning data structures and algorithms. (session 2023-05-29)\n- User believes society often overlooks the value of elders and mentors and intends to make a conscious effort to seek out wise guidance while also aspiring to become a mentor to others. (session 2023-06-05)\n- User was informed that Boston College fitness facilities include the Flynn Recreation Complex and the Margot Connell Recreation Center, which offer amenities like cardio/weight areas, pools, courts, and a climbing wall. (session 2023-05-20)\n- User is actively working on their coding skills and has been dedicating about one hour each day to coding exercises. (session 2023-05-20)\n- User is dealing with a toxic colleague in their office whose negative behavior has been impacting the workplace atmosphere and the user's own motivation. (session 2023-05-22)\n- User learned about Bacillus methanolicus, a strain capable of growing on methanol as its sole carbon source and thriving at high temperatures, making it useful for producing l-lysine and biofuels. (session 2023-05-21)\n- User was recommended books for data structures and algorithms: 'Introduction to Algorithms' by Thomas H. Cormen, 'Data Structures and Algorithms in Python' by Michael T. Goodrich, and 'Cracking the Coding Interview' by Gayle Laakmann McDowell. (session 2023-05-29)\n- User is interested in the feeding behavior and diet of vervet monkeys, specifically their opportunistic foraging, social feeding habits, and food-sharing behaviors. (session 2023-06-10)\n- User was informed that Boston College offers group fitness classes such as yoga, kickboxing, cycling, spin, and pilates, as well as intramural sports like basketball, flag football, soccer, and frisbee. (session 2023-05-20)\n- User plans to track their coding progress by keeping a log of completed challenges, learned concepts, and improved skills, while setting specific goals and deadlines. (session 2023-05-29)\n- User is currently using Pluralsight for Python tutorials and appreciates their interactive exercises. (session 2023-05-20)\n- User is interested in the evolution of Bacillus strains, specifically how they adapt to selective pressures like temperature, pH, nutrient availability, competition, and host-microbe interactions. (session 2023-05-21)\n- User has increased their daily coding practice to two hours per day as of May 2023. (session 2023-05-29)\n- User uses the Pomodoro Technique to maintain focus during their daily coding practice sessions. (session 2023-05-20)\n- User was provided with an analysis of the phrase '次元を超越した' in the context of the text '神々がつかさどる 超自然の世界. 天よりも高く人間界からは窺い知ることができない次元を超越した天の国神々はこの地から世界のすべてを見おろしている', concluding that it is used figuratively to emphasize the gods' existence beyond human comprehension and their ability to oversee the world. (session 2023-06-12)\n- User is researching the process of converting a Short Term Acute Care Hospital (STACH) into a Critical Access Hospital (CAH), including the specific Medicare Conditions of Participation (CoPs) and the application process with the Centers for Medicare & Medicaid Services (CMS). (session 2023-05-25)\n- User discussed the potential environmental and health risks of using Bacillus strains, such as ecological disruption, the emergence of antibiotic resistance, and the production of toxic byproducts. (session 2023-05-21)\n- User was provided with strategies for managing toxic colleagues, including defining clear boundaries, maintaining professional communication, ignoring or avoiding unnecessary interactions, reporting severe issues to HR, practicing self-care, and seeking guidance from a mentor or coach. (session 2023-05-22)\n- User explored the practical applications of Bacillus strains, including Bacillus thuringiensis as a biopesticide, enzyme production for industrial use, and the synthesis of antibiotics like bacitracin. (session 2023-05-21)\n- User values the role of mentorship and guidance, drawing inspiration from the relationship between Krishna and Arjuna in Hindu mythology as a model for navigating life's challenges. (session 2023-06-05)\n- User was provided with several dining options near the Lynn Museum in King's Lynn, including Marriott's Warehouse, Market Bistro, The Bank House, Cafe Moccha, and The Gingerbread House. (session 2023-06-05)\n- User is exploring the meaning and implications of the Japanese phrase '次元を超越した' (jigen wo chōetsu shita), specifically analyzing its figurative versus literal usage in the context of a text describing a supernatural heavenly kingdom. (session 2023-06-12)\n- User plans to use Habitica for gamified habit tracking and WakaTime for time tracking to monitor their coding progress. (session 2023-05-20)\n- User's coding goals include building a web scraper or a chatbot, contributing to open-source projects, and collaborating with other developers. (session 2023-05-29)\n- User is planning a family outing in the King's Lynn area with young children and was recommended several landmarks including Lynn Museum, The Walks, Sandringham Estate, Pensthorpe Natural Park, Snettisham Park, Hunstanton Beach, Tiddenfoot Lake, and RSPB Reserve Titchwell Marsh. (session 2023-06-05)\n- The Medicare Conditions of Participation for Critical Access Hospitals include requirements for rural location, a maximum of 25 inpatient beds, an average patient length of stay of 96 hours or less, 24-hour emergency services, 24-hour physician and nursing availability, quality assurance programs, and patient rights policies. (session 2023-05-25)\n- User plans to visit the Lynn Museum first, as it was recommended for its interactive and educational exhibits for children, and intends to spend 1-2 hours exploring it. (session 2023-06-05)\n- Vervet monkeys are diurnal, social foragers that do not store or hoard food, but they do engage in food-sharing with family and group members to build social bonds. (session 2023-06-10)\n- User was recommended coding challenge platforms including LeetCode, HackerRank, Codewars, Codeforces, Project Euler, Python Olympiad, Code Golf, Rosalind, Codecademy, Python Challenge, W3Resource, and Python Morsels. (session 2023-05-29)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 42,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 31.6,
+  "total": 33.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

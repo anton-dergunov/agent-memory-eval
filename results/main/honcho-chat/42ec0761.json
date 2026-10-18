@@ -1,0 +1,96 @@
+{
+ "qid": "42ec0761",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "Do I have a spare screwdriver for opening up my laptop?",
+ "reference": "Yes",
+ "question_date": "2023-08-31 00:39",
+ "sessions": [
+  {
+   "id": "6fb15dce_1",
+   "date": "2023-07-14 23:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_566635",
+   "date": "2023-07-17 11:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_17542",
+   "date": "2023-07-27 01:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_S0mG9La_54",
+   "date": "2023-07-29 07:45",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_251342",
+   "date": "2023-07-30 00:26",
+   "evidence": false
+  },
+  {
+   "id": "53acd215",
+   "date": "2023-07-31 19:01",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7HWLFTq_11",
+   "date": "2023-08-03 06:23",
+   "evidence": false
+  },
+  {
+   "id": "7746ba1b_2",
+   "date": "2023-08-08 04:15",
+   "evidence": false
+  },
+  {
+   "id": "answer_e3892371_1",
+   "date": "2023-08-11 07:22",
+   "evidence": true
+  },
+  {
+   "id": "answer_e3892371_2",
+   "date": "2023-08-15 13:22",
+   "evidence": true
+  }
+ ],
+ "context": "I do not have any information in my memory confirming that you currently own a spare screwdriver.\n\nIn fact, on August 11, 2023, you explicitly mentioned that you planned to visit an electronics store to purchase a small screwdriver, as well as plans to upgrade the RAM on your laptop. I have no subsequent record confirming that you followed through with that purchase or that you already possess one.",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   **Current status:** There is no record in memory confirming that you currently own a spare screwdriver.\n*   **Past intent:** On August 11, 2023, you stated a plan to visit an electronics store to purchase a small screwdriver for a laptop RAM upgrade.\n*   **Verification:** There is no subsequent record confirming that you actually completed the purchase or that you already possessed one prior to that date.\n\n**2. Reason over the information:**\n*   While you expressed an intention to acquire a screwdriver on August 11, 2023, an intention is not confirmation of a completed action.\n*   Since there is no evidence that the purchase was finalized or that you owned one previously, it cannot be confirmed that you have the necessary tool.\n\n**Conclusion:**\nNo, there is no information confirming that you have a spare screwdriver for opening up your laptop.",
+ "dump": "- [explicit] user needs to be at their office by 9:00 AM.\n- [explicit] user intends to get a head start on their day on 2023-07-14.\n- [explicit] user is attempting to develop a meditation habit.\n- [explicit] user seeks breakfast ideas that take 30 minutes or less to prepare.\n- [explicit] user plans to fit a 10-minute meditation session into their morning routine before eating breakfast.\n- [explicit] user wakes up at 7:30 AM every day.\n- [explicit] user finds that the meditation session helps prioritize daily tasks.\n- [explicit] user is more productive in the morning between 9:30 AM and 12:00 PM.\n- [explicit] user performs a 10-minute meditation session daily before getting ready for work.\n- [explicit] user feels more calm and focused after the 10-minute meditation session.\n- [explicit] user requires a task management tool that is accessible across multiple devices.\n- [explicit] user intends to try Trello to manage tasks.\n- [explicit] user intends to try Todoist to manage tasks.\n- [explicit] user requires a task management tool that has both mobile and web versions.\n- [explicit] user prefers visualizing tasks with boards and lists.\n- [explicit] user believes Trello seems easy to use.\n- [explicit] user likes the idea of visualizing tasks with boards and lists.\n- [explicit] user wants to know if Trello is suitable for managing both daily tasks and larger projects.\n- [explicit] user plans to start using Trello.\n- [explicit] user is interested in the role of influencer marketing in the beauty industry.\n- [explicit] user is questioning whether social media personalities hold more influence than traditional beauty experts.\n- [explicit] user is interested in the methods beauty brands use to vet influencers for partnerships.\n- [explicit] user finds the influence of social media personalities in the beauty industry interesting.\n- [explicit] user is interested in instances where beauty brand influencer partnerships have failed and how brands manage such backlashes.\n- [explicit] user is asking whether companies should provide incentives or rewards to employees for wearing branded workwear or maintaining it in good condition.\n- [explicit] user is interested in learning about the necessity of branded workwear in certain industries for safety or identification purposes.\n- [explicit] user is asking if it would be more cost-effective for companies to have employees buy their own non-branded workwear.\n- [explicit] user is considering if letting employees select their own workwear styles could encourage creativity and innovation at work.\n- [explicit] user is seeking information regarding the potential negative aspects of implementing branded workwear.\n- [explicit] user is inquiring about the impact of branded workwear on employee morale and company unity.\n- [explicit] user questions the necessity of branded workwear for employees who work remotely or off-site.\n- [explicit] user states that people obtain energy by buying or renting it from Hybrid kingdoms.\n- [explicit] user characterizes Tiamat as a type of black hole.\n- [explicit] user notes that access to energy is rapidly dwindling outside the Hybrid kingdoms.\n- [explicit] user suggests the Tiamat blast area would take out all cities east of the Rocky Mountains, west of New York, and south toward Houston, Texas.\n- [explicit] user confirms the assistant's descriptions of the Hybrids, the Tiamat zone, and societal dynamics.\n- [explicit] user observes that forests are re-growing, deserts are expanding, and rivers are flooding due to failing infrastructure.\n- [explicit] user states that huge parts of the world have a lower population due to failing infrastructure.\n- [explicit] user defines the Tiamat phenomenon as being similar to an EMP blast but consisting of subatomic particles.\n- [explicit] user states that fuel-based transportation like cars, trains, and airplanes exists outside the Tiamat zone but is limited to mid-to-higher social classes.\n- [explicit] user describes the primary energy sources as oil, coal, and lithium mines, similar to the 21st century.\n- [explicit] user states that outside the Tiamat zone, people mostly walk or ride horses because fuel is expensive.\n- [explicit] user describes the Tiamat zone as a place where people do not require fuel or electricity.\n- [explicit] user states that meetings between unspecified parties are held only through Raziel.\n- [explicit] user states that Raziel must be present for these meetings because he keeps the parties together and advises them.\n- [explicit] user describes Raziel as becoming unreliable due to Tiamat radiation.\n- [explicit] user states the Tiamat radiation zone grows by several meters every year.\n- [explicit] user characterizes the Hybrids as inconsistent due to their involvement in court dramas and other activities.\n- [explicit] user states that by the time of the events in the novel, humanity has given up on trying to stop the growth of the Tiamat zone.\n- [explicit] user describes a Tiamat radiation zone that pulses, increasing and decreasing by a few miles for years.\n- [explicit] user identifies a group called the Hybrids who occasionally send scientists to the zone.\n- [explicit] user plans to visit Bourton-on-the-Water, Stow-on-the-Wold, Sudeley Castle and Gardens, Cotswold Wildlife Park and Gardens, Bibury, and Blenheim Palace.\n- [explicit] user intends to try a hot air balloon ride over the Cotswolds.\n- [explicit] user has a desire to visit the Cotswolds someday to see the landscapes.\n- [explicit] user intends to book a hot air balloon ride with Cotswold Balloon Safaris.\n- [explicit] user enjoys drinking cider.\n- [explicit] user has been thinking about societal expectations, specifically those from family.\n- [explicit] user is focusing on hobbies.\n- [explicit] user has been meaning to catch up on reading.\n- [explicit] user has been spending a lot of time at home.\n- [explicit] user experiences pressure from family to start a family.\n- [explicit] user is single.\n- [explicit] user has chosen to read The School for Good Mothers.\n- [explicit] user experiences pressure from family to get married.\n- [explicit] user is worried that their family might think they are being too sensitive.\n- [explicit] user feels that the pressure from their family regarding their personal choices has been weighing on them for too long.\n- [explicit] user believes that preparing a script or outline for the upcoming family conversation will help them feel more confident and in control.\n- [explicit] user plans to have a conversation with their family soon about societal pressures and expectations.\n- [explicit] user intends to have the conversation with their family during the next family gathering.\n- [explicit] user believes that a script or outline will help them ensure they do not forget to express specific feelings or concerns during the conversation.\n- [explicit] user is worried that their family may not understand their perspective.\n- [explicit] user has been focusing on themselves and their hobbies for a few weeks.\n- [explicit] user has been spending a lot of time alone since approximately mid-July 2023.\n- [explicit] user feels that spending time alone has been nice for recharging and reflecting on their priorities.\n- [explicit] user wants 10 key ideas, including the post-cookie world, extracted in table form\n- [explicit] user wants information about challenges extracted in table form\n- [explicit] user wants a presentation slide created based on challenges\n- [explicit] user wants sections discussing requirements extracted in bullet form\n- [explicit] user wants 10 or more requirements extracted in table form\n- [explicit] user prefers a coastal color scheme for their landscaping design.\n- [explicit] user prefers using natural materials like bluestone or flagstone for their patio design.\n- [explicit] user is planning to landscape their backyard.\n- [explicit] user wants to include low-maintenance plants like succulents in their garden.\n- [explicit] user intends to build a vacation home on the plot of land they purchased near the beach.\n- [explicit] user recently purchased a plot of land near the beach.\n- [explicit] user desires to incorporate the sound of water into the ambiance of the user's patio and garden while maintaining a beachy vibe.\n- [explicit] user intends to use a small bubbler or fountain in the user's garden to create a soothing sound.\n- [explicit] user likes the idea of amplifying the sound of a water feature using natural or decorative elements.\n- [explicit] user is considering adding coastal sounds, specifically seagulls or ocean waves, in the background of their patio and garden.\n- [explicit] user plans to place a small, curved wall of stones behind a bubbler.\n- [explicit] user intends to add beach-inspired textiles and fabrics to their patio and garden design.\n- [explicit] user prefers using natural fabrics such as linen or canvas for throw pillows and blankets.\n- [explicit] user is considering using beach-inspired textiles and fabrics for outdoor furniture and decorations.\n- [explicit] user is planning to incorporate beachy patterns like stripes or shells into fabric designs.\n- [explicit] user likes the idea of using linen or canvas as natural fabrics for throw pillows and blankets.\n- [explicit] user is interested in learning how to set up versioning in Google Drive.\n- [explicit] user intends to use Google Drive as a cloud backup service.\n- [explicit] user wants to know if an upgrade to their Google Drive storage plan is required for versioning.\n- [explicit] user already uses Google Drive for other purposes.\n- [explicit] user needs assistance setting up automatic backups for working files on a laptop.\n- [explicit] user intends to purchase a small screwdriver during their next trip out.\n- [explicit] user plans to visit an electronics store near their residence to find a small screwdriver.\n- [explicit] user plans to upgrade the RAM on their laptop.\n- [explicit] user intends to purchase the 100 GB Google Drive storage plan.\n- [explicit] user has set up a Google Drive backup on their laptop.\n- [explicit] user has set up a Google Drive backup.\n- [explicit] user needs help setting up automatic backups for working files.\n- [explicit] user wants to know how Backblaze handles file versioning.\n- [explicit] user is considering using Backblaze for file backups.\n- [explicit] user wants recommendations for cable organizers to organize a computer bag.\n- [explicit] user intends to purchase an Anker cable organizer.\n- [explicit] user intends to clean the fans of user's laptop.\n- [explicit] user intends to use Backblaze for file versioning.\n- [explicit] user plans to reset their wireless mouse using the manufacturer's instructions.\n- [explicit] user owns a wireless mouse that is experiencing freezing issues.\n- [explicit] user plans to update their mouse drivers if resetting the wireless mouse does not resolve the freezing issue.\n- [deductive] user has experience troubleshooting computer peripherals and hardware components.\n- [inductive] user takes a systematic and proactive approach to computer maintenance and hardware troubleshooting.\n- [inductive] user is detail-oriented regarding physical workspace organization and cable management.\n- [inductive] user demonstrates a strong preference for redundant file backup solutions and data security.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 100.5,
+  "total": 103.6
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

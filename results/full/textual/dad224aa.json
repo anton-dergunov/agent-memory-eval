@@ -1,0 +1,281 @@
+{
+ "qid": "dad224aa",
+ "arm": "textual",
+ "split": "full",
+ "question": "What time do I wake up on Saturday mornings?",
+ "reference": "7:30 am",
+ "question_date": "2023-06-24 03:58",
+ "sessions": [
+  {
+   "id": "c22ded03_1",
+   "date": "2023-04-26 11:05",
+   "evidence": false
+  },
+  {
+   "id": "c86a22a2_1",
+   "date": "2023-05-17 00:50",
+   "evidence": false
+  },
+  {
+   "id": "6de8645d_1",
+   "date": "2023-05-23 01:43",
+   "evidence": false
+  },
+  {
+   "id": "1d5998ca_2",
+   "date": "2023-05-23 02:07",
+   "evidence": false
+  },
+  {
+   "id": "96e6c5de",
+   "date": "2023-05-23 07:04",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ZbXRfgJ_7",
+   "date": "2023-05-23 07:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_236936",
+   "date": "2023-05-23 09:43",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_56204",
+   "date": "2023-05-23 10:14",
+   "evidence": false
+  },
+  {
+   "id": "6ff8954a_2",
+   "date": "2023-05-23 11:57",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_1",
+   "date": "2023-05-23 14:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_fBnoUK4_4",
+   "date": "2023-05-23 16:03",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Jb45xGp_0",
+   "date": "2023-05-23 17:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_gUqDTxU_0",
+   "date": "2023-05-24 00:49",
+   "evidence": false
+  },
+  {
+   "id": "01e3c888",
+   "date": "2023-05-24 05:47",
+   "evidence": false
+  },
+  {
+   "id": "756a4a02_2",
+   "date": "2023-05-24 14:26",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7vXEdO9_99",
+   "date": "2023-05-24 18:07",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_nhdg4Fb_0",
+   "date": "2023-05-24 23:29",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_560203",
+   "date": "2023-05-25 02:44",
+   "evidence": false
+  },
+  {
+   "id": "56b5b760",
+   "date": "2023-05-25 03:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_377561",
+   "date": "2023-05-25 03:34",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_68856",
+   "date": "2023-05-25 07:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pX51ZUz_0",
+   "date": "2023-05-25 09:20",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_253720",
+   "date": "2023-05-25 13:03",
+   "evidence": false
+  },
+  {
+   "id": "91e581ad_1",
+   "date": "2023-05-25 20:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_13",
+   "date": "2023-05-25 20:50",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_258046",
+   "date": "2023-05-26 00:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_241839",
+   "date": "2023-05-26 00:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_zeew0bG_0",
+   "date": "2023-05-26 01:38",
+   "evidence": false
+  },
+  {
+   "id": "5c690047_2",
+   "date": "2023-05-26 04:58",
+   "evidence": false
+  },
+  {
+   "id": "2c4527ee_2",
+   "date": "2023-05-26 07:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_uyN23Gh_0",
+   "date": "2023-05-26 08:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_flug1q0_0",
+   "date": "2023-05-26 10:02",
+   "evidence": false
+  },
+  {
+   "id": "42234f98",
+   "date": "2023-05-26 11:11",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2Qvu6BM_34",
+   "date": "2023-05-26 15:08",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_571984",
+   "date": "2023-05-26 15:15",
+   "evidence": false
+  },
+  {
+   "id": "dd345e24_2",
+   "date": "2023-05-27 00:00",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_468289",
+   "date": "2023-05-27 00:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_2",
+   "date": "2023-05-27 02:31",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_106352",
+   "date": "2023-05-27 05:00",
+   "evidence": false
+  },
+  {
+   "id": "3dcbca49",
+   "date": "2023-05-27 05:24",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_208095",
+   "date": "2023-05-27 06:47",
+   "evidence": false
+  },
+  {
+   "id": "496a03ee",
+   "date": "2023-05-27 07:18",
+   "evidence": false
+  },
+  {
+   "id": "d9133bb0",
+   "date": "2023-05-27 09:47",
+   "evidence": false
+  },
+  {
+   "id": "d0bef272_1",
+   "date": "2023-05-27 14:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_355740",
+   "date": "2023-05-27 15:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_I900U0S_0",
+   "date": "2023-05-27 21:24",
+   "evidence": false
+  },
+  {
+   "id": "b971ed75_3",
+   "date": "2023-05-27 21:55",
+   "evidence": false
+  },
+  {
+   "id": "eda73b75",
+   "date": "2023-05-27 22:37",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   **Name:** Sara (as of 2023-05-26).\n*   **Location:** Bristol, living in a downtown area (as of 2023-05-27).\n*   **Profession:** Head of a communications team and creative brand strategist at GVI (as of 2023-05-27; previously identified as a Product Designer on 2023-05-26).\n*   **Previous Identity:** The user previously identified as an amateur photographer, angler, and student in a Data Mining class (as of 2023-05-25).\n*   **Work Environment:** Leads a communications team at GVI; under pressure from the CEO to achieve rapid growth via social media (as of 2023-05-27).\n*   **Age:** 30 years old (as of 2023-05-25).\n*   **Family:** Has a 13-year-old and a 14-year-old child (as of 2023-05-24).\n*   **Health status:** Dealing with recurring stomach issues, fatigue, muscle weakness, and a wisdom tooth infection linked to an ear infection (diagnosed 2023-03-22).\n*   **Pet:** Owns a cat named Whiskers (owned for ~5 years as of 2023-05-24).\n*   **Housing:** Lives in a 700 sq ft, one-bedroom, open-plan apartment (since 2022-10-15).\n*   **Social Media Activity:** Actively working to grow a Twitter and Instagram presence. Recently achieved 15 likes on a tweet regarding an Apple event and 20 votes on a poll about coffee creamers. Noticed a correlation between consistent posting and follower growth, specifically gaining 20 new followers during a previous Instagram challenge (as of 2023-05-27).\n*   **Sports Interests:** Interested in the strategy and physical mechanics of rugby league, specifically defensive coordination and injury prevention (as of 2023-05-27).\n*   **Intellectual Interests:** Interested in the intersection of institutional tradition and social progress (Anglican Church/LGBTQ+ rights/ordination of women). Exploring online algorithms, filter bubbles, and gender dynamics. Deep interest in Bedouin societies (community, water rights, environmental resilience) (as of 2023-05-27).\n*   **Film Interests:** Attended the Austin Film Festival (October 22–29, 2022). Enjoys comedy feature films with strong ensemble casts, witty dialogue, and light-hearted, relatable characters.\n*   **Professional Network:** Acquainted with Christine (working on a smart home security system project). Interested in the work of digital strategists Gary Vaynerchuk, Neil Patel, Jay Baer, Mari Smith, Julian Cole, Matt Navarra, Andrew Hutchinson, and Amy Porterfield (as of 2023-05-27).\n*   **Culinary Interests:** Passionate about barbecue; interested in the \"Texas Crutch\" method and experimenting with spicy mayo-based sauces (inspired by a party hosted by \"Alex\").\n\n### Preferences and habits\n*   **Work Habits:** Prioritizes work over health; willing to sacrifice sleep to advance career. Currently focused on developing a 2023 social media strategy for GVI (as of 2023-05-27).\n*   **Stress Management:** Seeking structured ways to organize life and career goals to mitigate stress caused by workplace ambiguity.\n*   **Routine:** 11:00 pm bedtime. Weekday wake-up 7:15 am. Saturday wake-up 7:30 am. Morning routine: water, stretching, 15–20 minutes of news. Sunday mornings: 30 minutes of yoga/stretching followed by meal prep.\n*   **Diet:** Values sustainable food production; loves spicy food; interested in vegan-friendly choices. Relies on coffee as a primary stimulant to compensate for sleep deprivation (as of 2023-05-27).\n*   **Fashion/Skincare:** Enjoys trendy, affordable clothing (H&M, Old Navy). Uses Drunk Elephant skincare products.\n*   **Technology Interaction:** Strong preference for voice-controlled technology. Interested in data visualization tools (Tableau, Power BI).\n*   **Entertainment:** Interested in psychological horror and fantasy (\"The Haunting of Hill House,\" \"The Witcher\"). Plans to watch \"The Umbrella Academy.\"\n*   **Reading/Media:** Enjoys comic books; believes in incorporating real-world social issues into storytelling.\n*   **Home Decor:** Prefers a cozy living room; looking to acquire multiple throw blankets (as of 2023-05-26).\n*   **Marketing/Copywriting Interests:** Interested in high-impact, persuasive marketing copy (e.g., Joe Coleman).\n*   **Social Media Strategy:** Uses polls to drive engagement. Currently researching top digital strategists to inform a new corporate strategy. Prefers a casual and motivational tone for personal content (as of 2023-05-27).\n*   **Exercise Habits:** Prefers to jog without earbuds. Plans to use online tools to find flat, shaded 30-minute routes. Interested in fitness and travel content (as of 2023-05-27).\n*   **Social Reflection:** Increasingly self-aware regarding \"filter bubbles\" and gender-imbalanced social circles.\n*   **BBQ Preferences:** Interested in deep, rich smoke flavors (Post Oak, Mesquite, Hickory).\n\n### Ongoing situations and plans\n*   **Career Development:** Developing a 2023 social media strategy for GVI. Planning to provide the assistant with business goals, audience demographics, competitor analysis, content plans, budget, and posting schedules to facilitate strategy creation (as of 2023-05-27).\n*   **Travel:** Planning a road trip to Texas in June 2023 to explore the barbecue scene.\n*   **Grilling:** Researching new grills with built-in thermometers and smoke boxes (considering brands like Weber, Kamado Joe, Green Mountain Grills, Traeger, and Broil King). Planning to experiment with new BBQ recipes and techniques.\n*   **Health:** Committed to antibiotic treatment; plans to consult a doctor before starting any supplement regimen.\n*   **Physical Training:** Planning to incorporate shoulder and neck strengthening exercises 2–3 times per week.\n*   **Jogging:** Planning a 30-minute Saturday morning jog (aiming for 8:15–8:30 am).\n*   **Pet Care:** Recently ordered a pet cam; researching interactive treat dispensers for Whiskers.\n*   **Apartment Decorating:** Budget of $2,000–$3,000 for decor, including a commissioned marathon route illustration and medal display rack.\n*   **Cooking Plans:** Chicken fajitas with homemade guacamole for the weekend of 2023-05-27/28.\n*   **Collaboration:** Planning to assist Christine with a sentiment analysis visualization in Tableau.\n*   **Social Media Project:** Planning a 7-day plank challenge on Instagram. Will create a Facebook group to centralize the challenge, post daily updates, and encourage community engagement. Plans to personally invite new followers from a previous challenge to participate (as of 2023-05-27).\n\n### Changes over time\n*   **Professional Identity:** Now \"Head of Communications/Creative Brand Strategist at GVI,\" since 2023-05-27; previously \"Product Designer\" (2023-05-26); previously \"Amateur photographer/angler/Data Mining student/Founder of Creofam LLC\" (2023-05-25).\n*   **Weekday Wake-up Time:** Now 7:15 am, since early May 2023; previously 8:30 am.\n*   **Weekend Wake-up Time:** Now 7:30 am for Saturdays, since May 2023; previously 8:30 am.\n*   **Photography Equipment:** Acquired a new lens in late March 2023.\n*   **Security:** Implemented 2FA across all online accounts on 2023-04-05.\n*   **Sleep Philosophy:** Now prioritizes work over sleep, believing that long hours and stimulants are necessary for career advancement, since 2023-05-27.",
+ "answer": "To determine your Saturday morning wake-up time, I have analyzed the provided history chats:\n\n**Step 1: Extract relevant information**\n*   Under the \"Routine\" section of the \"Preferences and habits\" category, it is stated: \"Saturday wake-up 7:30 am.\"\n*   Under the \"Changes over time\" category, it is noted: \"Weekend Wake-up Time: Now 7:30 am for Saturdays, since May 2023; previously 8:30 am.\"\n\n**Step 2: Reason over the information**\nThe records consistently indicate that as of May 2023, your established routine for Saturday mornings is to wake up at 7:30 am. There is no information suggesting this has changed since that time.\n\n**Answer:**\nYou wake up at 7:30 am on Saturday mornings.",
+ "dump": "### Personal facts\n*   **Name:** Sara (as of 2023-05-26).\n*   **Location:** Bristol, living in a downtown area (as of 2023-05-27).\n*   **Profession:** Head of a communications team and creative brand strategist at GVI (as of 2023-05-27; previously identified as a Product Designer on 2023-05-26).\n*   **Previous Identity:** The user previously identified as an amateur photographer, angler, and student in a Data Mining class (as of 2023-05-25).\n*   **Work Environment:** Leads a communications team at GVI; under pressure from the CEO to achieve rapid growth via social media (as of 2023-05-27).\n*   **Age:** 30 years old (as of 2023-05-25).\n*   **Family:** Has a 13-year-old and a 14-year-old child (as of 2023-05-24).\n*   **Health status:** Dealing with recurring stomach issues, fatigue, muscle weakness, and a wisdom tooth infection linked to an ear infection (diagnosed 2023-03-22).\n*   **Pet:** Owns a cat named Whiskers (owned for ~5 years as of 2023-05-24).\n*   **Housing:** Lives in a 700 sq ft, one-bedroom, open-plan apartment (since 2022-10-15).\n*   **Social Media Activity:** Actively working to grow a Twitter and Instagram presence. Recently achieved 15 likes on a tweet regarding an Apple event and 20 votes on a poll about coffee creamers. Noticed a correlation between consistent posting and follower growth, specifically gaining 20 new followers during a previous Instagram challenge (as of 2023-05-27).\n*   **Sports Interests:** Interested in the strategy and physical mechanics of rugby league, specifically defensive coordination and injury prevention (as of 2023-05-27).\n*   **Intellectual Interests:** Interested in the intersection of institutional tradition and social progress (Anglican Church/LGBTQ+ rights/ordination of women). Exploring online algorithms, filter bubbles, and gender dynamics. Deep interest in Bedouin societies (community, water rights, environmental resilience) (as of 2023-05-27).\n*   **Film Interests:** Attended the Austin Film Festival (October 22–29, 2022). Enjoys comedy feature films with strong ensemble casts, witty dialogue, and light-hearted, relatable characters.\n*   **Professional Network:** Acquainted with Christine (working on a smart home security system project). Interested in the work of digital strategists Gary Vaynerchuk, Neil Patel, Jay Baer, Mari Smith, Julian Cole, Matt Navarra, Andrew Hutchinson, and Amy Porterfield (as of 2023-05-27).\n*   **Culinary Interests:** Passionate about barbecue; interested in the \"Texas Crutch\" method and experimenting with spicy mayo-based sauces (inspired by a party hosted by \"Alex\").\n\n### Preferences and habits\n*   **Work Habits:** Prioritizes work over health; willing to sacrifice sleep to advance career. Currently focused on developing a 2023 social media strategy for GVI (as of 2023-05-27).\n*   **Stress Management:** Seeking structured ways to organize life and career goals to mitigate stress caused by workplace ambiguity.\n*   **Routine:** 11:00 pm bedtime. Weekday wake-up 7:15 am. Saturday wake-up 7:30 am. Morning routine: water, stretching, 15–20 minutes of news. Sunday mornings: 30 minutes of yoga/stretching followed by meal prep.\n*   **Diet:** Values sustainable food production; loves spicy food; interested in vegan-friendly choices. Relies on coffee as a primary stimulant to compensate for sleep deprivation (as of 2023-05-27).\n*   **Fashion/Skincare:** Enjoys trendy, affordable clothing (H&M, Old Navy). Uses Drunk Elephant skincare products.\n*   **Technology Interaction:** Strong preference for voice-controlled technology. Interested in data visualization tools (Tableau, Power BI).\n*   **Entertainment:** Interested in psychological horror and fantasy (\"The Haunting of Hill House,\" \"The Witcher\"). Plans to watch \"The Umbrella Academy.\"\n*   **Reading/Media:** Enjoys comic books; believes in incorporating real-world social issues into storytelling.\n*   **Home Decor:** Prefers a cozy living room; looking to acquire multiple throw blankets (as of 2023-05-26).\n*   **Marketing/Copywriting Interests:** Interested in high-impact, persuasive marketing copy (e.g., Joe Coleman).\n*   **Social Media Strategy:** Uses polls to drive engagement. Currently researching top digital strategists to inform a new corporate strategy. Prefers a casual and motivational tone for personal content (as of 2023-05-27).\n*   **Exercise Habits:** Prefers to jog without earbuds. Plans to use online tools to find flat, shaded 30-minute routes. Interested in fitness and travel content (as of 2023-05-27).\n*   **Social Reflection:** Increasingly self-aware regarding \"filter bubbles\" and gender-imbalanced social circles.\n*   **BBQ Preferences:** Interested in deep, rich smoke flavors (Post Oak, Mesquite, Hickory).\n\n### Ongoing situations and plans\n*   **Career Development:** Developing a 2023 social media strategy for GVI. Planning to provide the assistant with business goals, audience demographics, competitor analysis, content plans, budget, and posting schedules to facilitate strategy creation (as of 2023-05-27).\n*   **Travel:** Planning a road trip to Texas in June 2023 to explore the barbecue scene.\n*   **Grilling:** Researching new grills with built-in thermometers and smoke boxes (considering brands like Weber, Kamado Joe, Green Mountain Grills, Traeger, and Broil King). Planning to experiment with new BBQ recipes and techniques.\n*   **Health:** Committed to antibiotic treatment; plans to consult a doctor before starting any supplement regimen.\n*   **Physical Training:** Planning to incorporate shoulder and neck strengthening exercises 2–3 times per week.\n*   **Jogging:** Planning a 30-minute Saturday morning jog (aiming for 8:15–8:30 am).\n*   **Pet Care:** Recently ordered a pet cam; researching interactive treat dispensers for Whiskers.\n*   **Apartment Decorating:** Budget of $2,000–$3,000 for decor, including a commissioned marathon route illustration and medal display rack.\n*   **Cooking Plans:** Chicken fajitas with homemade guacamole for the weekend of 2023-05-27/28.\n*   **Collaboration:** Planning to assist Christine with a sentiment analysis visualization in Tableau.\n*   **Social Media Project:** Planning a 7-day plank challenge on Instagram. Will create a Facebook group to centralize the challenge, post daily updates, and encourage community engagement. Plans to personally invite new followers from a previous challenge to participate (as of 2023-05-27).\n\n### Changes over time\n*   **Professional Identity:** Now \"Head of Communications/Creative Brand Strategist at GVI,\" since 2023-05-27; previously \"Product Designer\" (2023-05-26); previously \"Amateur photographer/angler/Data Mining student/Founder of Creofam LLC\" (2023-05-25).\n*   **Weekday Wake-up Time:** Now 7:15 am, since early May 2023; previously 8:30 am.\n*   **Weekend Wake-up Time:** Now 7:30 am for Saturdays, since May 2023; previously 8:30 am.\n*   **Photography Equipment:** Acquired a new lens in late March 2023.\n*   **Security:** Implemented 2FA across all online accounts on 2023-04-05.\n*   **Sleep Philosophy:** Now prioritizes work over sleep, believing that long hours and stimulants are necessary for career advancement, since 2023-05-27.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 261.3,
+  "total": 262.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

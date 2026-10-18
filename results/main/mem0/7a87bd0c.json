@@ -1,0 +1,100 @@
+{
+ "qid": "7a87bd0c",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How long have I been sticking to my daily tidying routine?",
+ "reference": "4 weeks",
+ "question_date": "2023-09-30 23:15",
+ "sessions": [
+  {
+   "id": "answer_d08a934d_1",
+   "date": "2023-06-11 22:24",
+   "evidence": true
+  },
+  {
+   "id": "c15dadce_2",
+   "date": "2023-06-12 01:45",
+   "evidence": false
+  },
+  {
+   "id": "6414f676_5",
+   "date": "2023-06-27 11:24",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_r2CWKoi_7",
+   "date": "2023-07-30 23:55",
+   "evidence": false
+  },
+  {
+   "id": "37a9680a_2",
+   "date": "2023-08-05 11:50",
+   "evidence": false
+  },
+  {
+   "id": "9aaeecbf",
+   "date": "2023-08-26 05:15",
+   "evidence": false
+  },
+  {
+   "id": "b98914c6_2",
+   "date": "2023-09-19 12:58",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fnuLBKl_83",
+   "date": "2023-09-30 05:11",
+   "evidence": false
+  },
+  {
+   "id": "answer_d08a934d_2",
+   "date": "2023-09-30 17:52",
+   "evidence": true
+  },
+  {
+   "id": "55a59bc9_4",
+   "date": "2023-09-30 22:59",
+   "evidence": false
+  }
+ ],
+ "context": "- User has maintained a daily tidying routine for 4 weeks as of September 30, 2023, and reports a positive impact on their apartment. (from a chat on 2023-09-30)\n- User has been maintaining a daily tidying routine for 3 weeks as of June 11, 2023, and feels proud of this consistency. (from a chat on 2023-06-11)\n- User plans to convert the space previously occupied by the old desk into a dedicated workstation for their daily tidying routine. (from a chat on 2023-06-11)\n- User started using a new all-natural cleaning brand around June 4, 2023, and finds it effective for removing soap scum and mildew in the bathroom. (from a chat on 2023-06-11)\n- User organized their kitchen utensil drawer around the weekend of August 19-20, 2023, and is currently focused on using up older ingredients. (from a chat on 2023-08-26)\n- User's cleaning supplies include all-purpose cleaners, disinfectants, dusters, paper towels, a cordless vacuum, and a microfiber mop. (from a chat on 2023-06-11)\n- User was advised on organizing cleaning supplies using a hybrid approach: categorizing by product type first, then by room or area, and using a caddy for portability. (from a chat on 2023-09-30)\n- User was recommended the '4-Box Method' (Keep, Donate/Sell, Recycle, Toss) for decluttering and purging items. (from a chat on 2023-06-11)\n- User decided to purchase a Brother P-Touch label maker for organizing their storage bins and shelves. (from a chat on 2023-09-30)\n- User plans to organize their garage this weekend using categorization and grouping techniques, and intends to implement the 'one-touch rule' for cleaning. (from a chat on 2023-09-30)\n- User was provided with a 10-step garage organization plan, including tips on purging, categorizing, using vertical space, and labeling. (from a chat on 2023-06-11)\n- User decided on a photo file naming convention of YYYYMMDD_Location_TripName_Description.jpg to ensure easy identification and sorting. (from a chat on 2023-06-27)\n- User was advised on selecting garage storage bins based on measurements, content weight, stackability, and material, and was suggested to use clear, consistent labeling systems. (from a chat on 2023-06-11)\n- User was advised to organize photos using a hierarchical structure of top-level category folders, specific trip subfolders, and further sub-albums or folders for days/activities. (from a chat on 2023-06-27)\n- User intends to remove an old, unused desk from their garage to free up space. (from a chat on 2023-06-11)\n- User recently replaced the light fixture above their kitchen island and is seeking recommendations for further kitchen lighting improvements. (from a chat on 2023-08-26)\n- User was provided with a detailed incident response runbook, including steps for preparation, identification, containment, eradication, recovery, and lessons learned. (from a chat on 2023-07-30)\n- User is planning to take their daughter, Emily, to a nearby pond on Sundays to practice casting and learn about fish species and habitats. (from a chat on 2023-09-30)\n- User was provided with a four-step process to determine if a user account has elevated privileges, involving audit log reviews, manager verification, and checking for indicators of compromise. (from a chat on 2023-07-30)\n- User was advised on seven preparation activities for IT security analysts, such as maintaining asset inventories, conducting tabletop exercises, and implementing regular patching. (from a chat on 2023-07-30)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-06-11: The user had been maintaining a daily tidying routine for 3 weeks.\n*   From the chat on 2023-09-30: The user has been maintaining a daily tidying routine for 4 weeks as of this date.\n\n**2. Reason over the information:**\n*   The question asks how long the user has been sticking to their daily tidying routine based on the most recent information provided.\n*   The most recent update from the user (dated 2023-09-30) explicitly states that they have maintained the routine for 4 weeks as of that date.\n\n**Answer:**\nYou have been sticking to your daily tidying routine for 4 weeks as of September 30, 2023.",
+ "dump": "- User requested a Thai green curry recipe after a previous attempt failed, and was provided with a recipe including instructions for homemade curry paste. (session 2023-08-26)\n- User is considering applying for Italian citizenship through ancestry and was advised on the required documentation, including birth and marriage certificates for their great-grandfather, grandparent, parent, and themselves. (session 2023-08-05)\n- User was provided with an overview of the US civics test, including its focus on government, history, and geography, and was encouraged to use official USCIS study materials and practice tests. (session 2023-09-19)\n- User is planning to redo their kitchen island countertops and was recommended resources like Houzz, Pinterest, and design blogs for inspiration. (session 2023-08-26)\n- User was provided with six sources for collecting information on suspicious authentication attempts, including authentication, VPN, network, firewall, endpoint, and other security logs. (session 2023-07-30)\n- User was provided with a detailed incident response runbook, including steps for preparation, identification, containment, eradication, recovery, and lessons learned. (session 2023-07-30)\n- User is currently in the process of applying for citizenship and has been living in a state of uncertainty regarding their immigration status for over a year. (session 2023-09-19)\n- User was advised on selecting garage storage bins based on measurements, content weight, stackability, and material, and was suggested to use clear, consistent labeling systems. (session 2023-06-11)\n- User was recommended the '4-Box Method' (Keep, Donate/Sell, Recycle, Toss) for decluttering and purging items. (session 2023-06-11)\n- User has already submitted a request for their birth certificate from their home country and is currently waiting for it to arrive to proceed with their citizenship application. (session 2023-09-19)\n- User intends to remove an old, unused desk from their garage to free up space. (session 2023-06-11)\n- User was provided with a list of 10 common mistakes to avoid during the naturalization application process, such as ensuring personal information matches official documents and disclosing all immigration and criminal history. (session 2023-09-19)\n- User's cleaning supplies include all-purpose cleaners, disinfectants, dusters, paper towels, a cordless vacuum, and a microfiber mop. (session 2023-06-11)\n- User booked a guided duck hunting trip with a local outfitter for mid-January 2024. (session 2023-09-30)\n- User was provided with recommendations for kitchen lighting types (island, under-cabinet, recessed, task, ambient) and brands like Lumens, Halo, and Kichler. (session 2023-08-26)\n- User was informed about the English language requirement for naturalization, which involves demonstrating speaking, reading, and writing proficiency, and was provided with preparation strategies like language courses and practice. (session 2023-09-19)\n- User decided to purchase a Brother P-Touch label maker for organizing their storage bins and shelves. (session 2023-09-30)\n- User is interested in cooking and was provided with a versatile chicken and vegetable stir-fry recipe, including tips on customizing proteins and vegetables. (session 2023-08-26)\n- User was provided with a list of 10 common tools and resources for incident response teams, including communication, monitoring, forensic, and threat intelligence tools. (session 2023-07-30)\n- User decided to gift Ava a silk or brocade outfit and Chinese coins tied with red string as traditional Chinese-inspired gifts. (session 2023-06-12)\n- User is looking to use up leftover vegetables in their cooking and was advised on how to incorporate them into stir-fries based on cooking times and textures. (session 2023-08-26)\n- User was advised on organizing cleaning supplies using a hybrid approach: categorizing by product type first, then by room or area, and using a caddy for portability. (session 2023-09-30)\n- User selected the 'Journey to Ava' theme for the baby shower, which focuses on the adoption journey milestones. (session 2023-06-12)\n- User plans to organize their garage this weekend using categorization and grouping techniques, and intends to implement the 'one-touch rule' for cleaning. (session 2023-09-30)\n- User was recommended various adoption-themed shower activities, including a 'Wishing Tree', 'Passport to Ava' game, and 'Adoption Story Time'. (session 2023-06-12)\n- User was advised on the process for obtaining a foreign birth certificate, including identifying the correct civil registry, gathering required identification, and considering expedited delivery or local assistance. (session 2023-09-19)\n- User is researching the Polish migration wave to Brazil in the early 20th century and was recommended books by Dr. Janusz Czelakowski, Dr. Stanisław Szwarczewski, Dr. Luís Fernando Ceriba, and Dr. Krzysztof Urban, as well as documentaries like 'Polónia Brasileira'. (session 2023-08-05)\n- User is planning to organize their garage this weekend, specifically focusing on purging and categorizing tools, sports equipment, and old furniture. (session 2023-06-11)\n- User is planning a baby shower for their cousin Michael and his wife Sophia to celebrate the adoption of their new baby girl, Ava, from China. (session 2023-06-12)\n- User is designing baby shower invitations with a traditional Chinese red and gold color scheme, including Chinese characters and a photo of baby Ava. (session 2023-06-12)\n- User was guided on the naturalization interview process, including the importance of bringing original documents, dressing professionally, and being honest and concise with the USCIS officer. (session 2023-09-19)\n- User decided on a photo file naming convention of YYYYMMDD_Location_TripName_Description.jpg to ensure easy identification and sorting. (session 2023-06-27)\n- User has a son named Jack who participated in a local park's fishing derby with the user in August 2023. (session 2023-09-30)\n- User is planning a deer hunting trip to the Sierra National Forest in early November 2023. (session 2023-09-30)\n- User plans to use the 'Passport to Ava' game at the shower, featuring 'Journey Begins' (plane) and 'Forever Family' (puzzle piece) stamps. (session 2023-06-12)\n- User is working on a proposal for Cafe24's E-Commerce AI Solution, specifically the Edibot series, which automates product page creation and design for e-commerce businesses. (session 2023-09-30)\n- User took a weekend getaway to Napa Valley around May 23, 2023, and enjoyed wine tastings. (session 2023-06-27)\n- User was provided with a four-step process to determine if a user account has elevated privileges, involving audit log reviews, manager verification, and checking for indicators of compromise. (session 2023-07-30)\n- User was recommended several kid-friendly fish field guides: 'National Geographic Kids Ultimate Fish Guide', 'Peterson Field Guide for Young Naturalists: Fish', 'Fishes of North America' (Audubon Society), and 'Kid's Guide to Fish'. (session 2023-09-30)\n- User was advised to organize photos using a hierarchical structure of top-level category folders, specific trip subfolders, and further sub-albums or folders for days/activities. (session 2023-06-27)\n- User organized their kitchen utensil drawer around the weekend of August 19-20, 2023, and is currently focused on using up older ingredients. (session 2023-08-26)\n- User plans to convert the space previously occupied by the old desk into a dedicated workstation for their daily tidying routine. (session 2023-06-11)\n- User is developing a presentation for 'Cafe24 YouTube Shopping' using a structured 6-slide format covering introduction, mission, problem statement, proposed solution, benefits, and collaboration points. (session 2023-09-30)\n- User was recommended language resources for Polish (Duolingo, PolishPod101, italki, and books by Sławomir Żółtek and Oscar Swan) and Italian (Duolingo, ItalianPod101, italki, and books by Susie Brooks and Routledge). (session 2023-08-05)\n- User was advised on seven preparation activities for IT security analysts, such as maintaining asset inventories, conducting tabletop exercises, and implementing regular patching. (session 2023-07-30)\n- User started using a new all-natural cleaning brand around June 4, 2023, and finds it effective for removing soap scum and mildew in the bathroom. (session 2023-06-11)\n- User is considering hiring a lawyer specializing in Italian immigration law to assist with their citizenship application, following a recommendation from a friend. (session 2023-08-05)\n- User is planning to take their daughter, Emily, to a nearby pond on Sundays to practice casting and learn about fish species and habitats. (session 2023-09-30)\n- The assistant provided a detailed 6-slide proposal template for 'Cafe24 YouTube Shopping' that integrates the user's requested slide structure with specific content objectives for each section. (session 2023-09-30)\n- User has maintained a daily tidying routine for 4 weeks as of September 30, 2023, and reports a positive impact on their apartment. (session 2023-09-30)\n- User is scouting for deer hunting locations near the San Joaquin River, focusing on river corridors, benchlands, oak woodlands, and brushy areas. (session 2023-09-30)\n- User has been maintaining a daily tidying routine for 3 weeks as of June 11, 2023, and feels proud of this consistency. (session 2023-06-11)\n- User recently replaced the light fixture above their kitchen island and is seeking recommendations for further kitchen lighting improvements. (session 2023-08-26)\n- User is organizing travel photos from recent trips to Napa Valley, Hawaii, Yosemite, San Francisco, and Disney World. (session 2023-06-27)\n- User plans to organize their bookshelf by categorizing and grouping books by similar themes. (session 2023-09-30)\n- User was recommended three tools for monitoring VPN activity to identify malicious history: NordVPN Teams, Wireshark, and OpenVPN Access Server. (session 2023-07-30)\n- User is seeking advice on achieving perfect cake texture and troubleshooting overcooked cakes, specifically regarding oven temperature adjustments. (session 2023-08-26)\n- User has a history of travel including a solo trip to San Francisco in 2022 and a family trip to Disney World in 2020. (session 2023-06-27)\n- User became a naturalized US citizen in July 2023 and is planning to travel to Italy and Poland to connect with their cultural heritage. (session 2023-08-05)\n- User was provided with a 10-step garage organization plan, including tips on purging, categorizing, using vertical space, and labeling. (session 2023-06-11)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 60,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 36.6,
+  "total": 37.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

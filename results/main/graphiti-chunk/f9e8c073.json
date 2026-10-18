@@ -1,0 +1,102 @@
+{
+ "qid": "f9e8c073",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many sessions of the bereavement support group did I attend?",
+ "reference": "five",
+ "question_date": "2023-11-07 04:54",
+ "sessions": [
+  {
+   "id": "97795a16_3",
+   "date": "2023-04-14 18:41",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_Ap0jhCm_11",
+   "date": "2023-05-04 01:30",
+   "evidence": false
+  },
+  {
+   "id": "a49a1438_2",
+   "date": "2023-05-06 13:44",
+   "evidence": false
+  },
+  {
+   "id": "8a5fe67a",
+   "date": "2023-05-06 20:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_76215",
+   "date": "2023-05-08 11:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_b191df5b_1",
+   "date": "2023-05-11 02:24",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_Fhigp7F_1",
+   "date": "2023-05-13 20:39",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_483728",
+   "date": "2023-05-30 05:02",
+   "evidence": false
+  },
+  {
+   "id": "4604bc73_2",
+   "date": "2023-06-13 01:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_b191df5b_2",
+   "date": "2023-10-30 07:19",
+   "evidence": true
+  }
+ ],
+ "context": "- The user attended three sessions of the bereavement support group. (valid since 2023-05-11)\n- The user provided feedback to the assistant about finding the bereavement support group experience helpful for processing emotions and feeling less alone in grief. (valid since 2023-10-30)\n- The user plans to seek out a therapist or counselor for guidance and support (valid since 2023-10-30)\n- The assistant provides advice on how to organize and care for the memory box to ensure it remains a meaningful part of the user's life. (valid since 2023-05-11)\n- The user plans to join online forums and social media communities focused on grief, loss, and mental health (valid since 2023-10-30)\n- Zarina relates to the spiritual path and concepts of self-love, healing, and truth described in Ananda's journey. (valid since 2023-05-13)\n- Phoebe Waller-Bridge is the creator and star of the show Fleabag. (valid since 2023-06-13)\n- The user is creating a memory box to honor their grandmother. (valid since 2023-05-11)\n- The memory box contains items and mementos belonging to the user's grandmother, such as her locket and a handwritten recipe book. (valid since 2023-05-11)\n- Fleabag explores similar themes of family dynamics and identity to Schitt's Creek. (valid since 2023-06-13)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:**\n   - The history chat states: \"The user attended three sessions of the bereavement support group. (valid since 2023-05-11)\"\n\n2. **Reason over the information:**\n   - The record explicitly confirms the number of sessions attended is three. There is no information suggesting this number has changed since the entry was made.\n\n3. **Answer:**\n   - You attended three sessions of the bereavement support group.",
+ "dump": "- Miuccia Prada assumed creative control of the Prada brand in 1977. (valid since 1977-01-01)\n- The user owns a Canon EF 70-200mm f/2.8L IS III USM lens and plans to use it on an upcoming trip. (valid since 2023-04-14)\n- The user already has a lens hood for the Canon EF 70-200mm f/2.8L IS III USM lens. (valid since 2023-04-14)\n- The user plans to get a lens cap for the Canon EF 70-200mm f/2.8L IS III USM lens. (valid since 2023-04-14)\n- The user plans to get lens mount gaskets to protect the Canon EF 70-200mm f/2.8L IS III USM lens from sand. (valid since 2023-04-14)\n- The user plans to get lens mount seals to protect the Canon EF 70-200mm f/2.8L IS III USM lens from sand. (valid since 2023-04-14)\n- The user is planning to order an Op/Tech USA Rain Cover to protect their camera and lens. (valid since 2023-04-14)\n- Worlds iVue platform can be built using Cesium for 3D visualization, mapping, vehicle control, telemetry monitoring, video streaming, and data analysis tasks. (valid since 2023-05-04)\n- MAVLink commands are used in the Worlds iVue platform to enable vehicle configuration, flight planning, vehicle control, telemetry monitoring, video streaming, and data analysis. (valid since 2023-05-04)\n- Worlds iVue implements the MAV_CMD_SET_MESSAGE_INTERVAL MAVLink command to set the interval for telemetry messages. (valid since 2023-05-04)\n- Worlds iVue implements the MAV_CMD_REQUEST_MESSAGE MAVLink command to request specific data from a vehicle. (valid since 2023-05-04)\n- Worlds iVue implements the MAV_CMD_NAV_WAYPOINT MAVLink command to set flight waypoints for autonomous vehicle control. (valid since 2023-05-04)\n- Worlds iVue implements the MAV_CMD_COMPONENT_ARM_DISARM MAVLink command to control vehicle motor state. (valid since 2023-05-04)\n- Worlds iVue implements the MAV_CMD_DO_CHANGE_SPEED MAVLink command to manage vehicle flight speed. (valid since 2023-05-04)\n- Worlds iVue implements the MAV_CMD_IMAGE_START_CAPTURE MAVLink command to begin recording camera footage. (valid since 2023-05-04)\n- Worlds iVue implements the MAV_CMD_IMAGE_STOP_CAPTURE MAVLink command to cease camera recording. (valid since 2023-05-04)\n- The user can use paper coupons from the Sunday newspaper or mailers to save on toilet paper purchases at Target. (valid since 2023-05-06)\n- The user can use paper coupons from the Sunday newspaper or mailers to save on toilet paper purchases at Kroger. (valid since 2023-05-06)\n- Target matches prices from local retail competitors, including online prices from Amazon. (valid since 2023-05-06)\n- Target matches prices from local retail competitors, including online prices from Walmart. (valid since 2023-05-06)\n- Kroger matches prices from local retail competitors, including online prices from Walmart. (valid since 2023-05-06)\n- Kroger matches prices from local retail competitors, including online prices from Target. (valid since 2023-05-06)\n- The user plans to perform a deep clean on the refrigerator. (valid since 2023-05-06)\n- The user plans to give the microwave a good scrubbing. (valid since 2023-05-06)\n- The assistant recommends that the user designate a landing strip area, such as a tray or small counter near the entrance, for items like keys and mail. (valid since 2023-05-06)\n- The assistant suggests investing in a countertop organizer or tray to keep small items like coffee creamer, sugar, or spices tidy and off the counter surface. (valid since 2023-05-06)\n- The user attended three sessions of the bereavement support group. (valid since 2023-05-11)\n- The assistant provides advice on how to organize and care for the memory box to ensure it remains a meaningful part of the user's life. (valid since 2023-05-11)\n- The memory box contains items and mementos belonging to the user's grandmother, such as her locket and a handwritten recipe book. (valid since 2023-05-11)\n- The user is creating a memory box to honor their grandmother. (valid since 2023-05-11)\n- Zarina relates to the spiritual path and concepts of self-love, healing, and truth described in Ananda's journey. (valid since 2023-05-13)\n- Prada appointed its first-ever Head of Diversity, Equity, and Inclusion. (valid since 2023-05-30)\n- Phoebe Waller-Bridge is the creator and star of the show Fleabag. (valid since 2023-06-13)\n- Fleabag explores similar themes of family dynamics and identity to Schitt's Creek. (valid since 2023-06-13)\n- BoJack Horseman balances humor and emotional depth similarly to Schitt's Creek. (valid since 2023-06-13)\n- user plans to perform bodyweight exercises 10-15 minutes a day, 3 times a week. (valid since 2023-10-30)\n- The user provided feedback to the assistant about finding the bereavement support group experience helpful for processing emotions and feeling less alone in grief. (valid since 2023-10-30)\n- The user plans to seek out a therapist or counselor for guidance and support (valid since 2023-10-30)\n- The user plans to join online forums and social media communities focused on grief, loss, and mental health (valid since 2023-10-30)\n- The user plans to start a journal to process emotions and reflect on experiences (valid since 2023-10-30)\n- The user plans to reach out to friends and family members who have experienced similar life events (valid since 2023-10-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 41,
+  "invalidated": 0,
+  "episodes": 19,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 130.9,
+  "total": 132.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

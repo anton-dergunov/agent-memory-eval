@@ -1,0 +1,106 @@
+{
+ "qid": "a1eacc2a",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many short stories have I written since I started writing regularly?",
+ "reference": "seven",
+ "question_date": "2023-06-20 17:03",
+ "sessions": [
+  {
+   "id": "sharegpt_TBa5HKM_0",
+   "date": "2023-04-25 16:51",
+   "evidence": false
+  },
+  {
+   "id": "fde0ca18",
+   "date": "2023-05-05 09:39",
+   "evidence": false
+  },
+  {
+   "id": "20d6c376_2",
+   "date": "2023-05-07 04:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_269248",
+   "date": "2023-05-20 04:24",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_1",
+   "date": "2023-05-23 18:21",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_87674",
+   "date": "2023-05-23 23:10",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_50429",
+   "date": "2023-05-25 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_0eb23770_2",
+   "date": "2023-05-30 08:43",
+   "evidence": true
+  },
+  {
+   "id": "09438306_2",
+   "date": "2023-06-09 09:30",
+   "evidence": false
+  },
+  {
+   "id": "521255f7_2",
+   "date": "2023-06-16 20:47",
+   "evidence": false
+  }
+ ],
+ "context": "- The user is writing short stories and considering using prompts or themes to generate ideas for them. (valid since 2023-05-23)\n- The user wrote a short poem that they are proud of. (valid since 2023-06-16)\n- The assistant refers to the writing desk as a sacred space that serves as a sanctuary for writing. (valid since 2023-05-30)\n- The user is looking to join online writing communities to connect with other writers, get feedback, and stay motivated. (valid since 2023-06-16)\n- The user has started contributing to their company's 401(k) plan at age 32. (valid since 2023-05-05)\n- The user is planning to start a writing group with friends to share their work and receive feedback. (valid since 2023-05-30)\n- The user is interested in submitting their work to literary magazines. (valid since 2023-06-16)\n- The assistant suggests the favorite mug is used during the ritual of drinking coffee while writing. (valid since 2023-05-30)\n- The user is interested in joining online writing forums to connect with other writers, get feedback, and stay motivated. (valid since 2023-06-16)\n- The user plans to write The Spark chapter of their memoir. (valid since 2023-05-30)",
+ "answer": "**Step 1: Extract relevant information**\n*   The history chats indicate that the user is \"writing short stories and considering using prompts or themes to generate ideas for them\" (valid since 2023-05-23).\n*   The history chats mention the user wrote \"a short poem\" (valid since 2023-06-16).\n*   The history chats mention the user plans to write \"The Spark chapter of their memoir\" (valid since 2023-05-30).\n*   There is no mention of the user completing or finishing any specific number of short stories in the provided history.\n\n**Step 2: Reason over the information**\n*   While the records confirm the user is in the process of writing short stories and using prompts to generate ideas, the history does not provide a count of completed works.\n*   The only specific creative work mentioned as completed is a single short poem.\n*   The memoir chapter is listed as a plan, not a completed short story.\n\n**Answer:**\nBased on the provided history, there is no information stating how many short stories you have written. The records confirm you are currently in the process of writing short stories and using prompts for ideas, but they do not track or quantify the number of completed stories.",
+ "dump": "- The assistant explains to the user how public funds can help promote media freedom and freedom of speech through resource allocation, legal frameworks, and advocacy. (valid since 2023-04-25)\n- The user has started contributing to their company's 401(k) plan at age 32. (valid since 2023-05-05)\n- The user is considering contributing to a traditional IRA. (valid since 2023-05-05)\n- The user is considering contributing to a Roth IRA. (valid since 2023-05-05)\n- The user contributes 10 percent of their income to their company's 401(k) plan. (valid since 2023-05-05)\n- The user might consider contributing to a 403(b) plan as part of their retirement savings strategy. (valid since 2023-05-05)\n- The Four Mile Trail leads to Glacier Point. (valid since 2023-05-07)\n- The Four Mile Trail is located in Yosemite Valley. (valid since 2023-05-07)\n- The Four Mile Trail offers views of Vernal Fall. (valid since 2023-05-07)\n- The Four Mile Trail offers views of Nevada Fall. (valid since 2023-05-07)\n- Union Point is a scenic stop along the Four Mile Trail. (valid since 2023-05-07)\n- Union Point offers views of Yosemite Valley. (valid since 2023-05-07)\n- Union Point offers views of Half Dome. (valid since 2023-05-07)\n- Union Point offers views of Vernal Fall. (valid since 2023-05-07)\n- Columbia Rock is a scenic stop along the Four Mile Trail. (valid since 2023-05-07)\n- Columbia Rock offers panoramic views of the valley below. (valid since 2023-05-07)\n- Sunrise Point is a scenic stop along the Four Mile Trail. (valid since 2023-05-07)\n- Sunrise Point offers views of Yosemite Valley. (valid since 2023-05-07)\n- Sunrise Point offers views of Half Dome. (valid since 2023-05-07)\n- Sunrise Point offers views of the High Sierra. (valid since 2023-05-07)\n- Glacier Point offers views of the Sierra Nevada mountains. (valid since 2023-05-07)\n- Glacier Point offers views of Yosemite Valley. (valid since 2023-05-07)\n- Glacier Point offers views of Half Dome. (valid since 2023-05-07)\n- Glacier Point offers views of Vernal Fall. (valid since 2023-05-07)\n- Glacier Point offers views of Nevada Fall. (valid since 2023-05-07)\n- Glacier Point offers views of the High Sierra. (valid since 2023-05-07)\n- The user plans to bring a portable coffee maker to Glacier Point to enjoy coffee during sunrise. (valid since 2023-05-07)\n- The user plans to bring trekking poles to assist with navigating steep inclines and uneven terrain on the Four Mile Trail. (valid since 2023-05-07)\n- The user owns a pair of hiking boots with good traction that they plan to wear on the Four Mile Trail. (valid since 2023-05-07)\n- The user previously hiked to the top of Vernal Falls, covering a total distance of 13 miles. (valid since 2023-05-07)\n- The user is significantly influenced by The Criterion Collection's efforts in preserving and popularizing classic cinema. (valid since 2023-05-20)\n- The Criterion Collection includes the film The Battle of Algiers (1966). (valid since 2023-05-20)\n- The Criterion Collection includes the film A Brighter Summer Day (1991). (valid since 2023-05-20)\n- The Criterion Collection includes the film The Ascent (1977). (valid since 2023-05-20)\n- The Criterion Collection includes the film Black Narcissus (1947). (valid since 2023-05-20)\n- The Criterion Collection includes the film The Exterminating Angel (1962). (valid since 2023-05-20)\n- The user is writing short stories and considering using prompts or themes to generate ideas for them. (valid since 2023-05-23)\n- the mysterious library features shifting shelves that change location overnight. (valid since 2023-05-23)\n- the mysterious library is haunted by ghostly librarians who offer cryptic advice or guidance. (valid since 2023-05-23)\n- the mysterious library uses a magical cataloging system that can lead users down unexpected paths. (valid since 2023-05-23)\n- sections of the mysterious library serve as a portal to other worlds, realms, or time periods. (valid since 2023-05-23)\n- the mysterious library may be affected by a curse that causes strange transformations in patrons. (valid since 2023-05-23)\n- the mysterious library holds illuminated manuscripts containing secrets of the universe. (valid since 2023-05-23)\n- the mysterious library can manifest as a Library of the Mind reflecting the subconscious of an individual. (valid since 2023-05-23)\n- the mysterious library contains sentient books that can whisper secrets or change their contents. (valid since 2023-05-23)\n- The user considers the concept of sentient books in a library to be fascinating. (valid since 2023-05-23)\n- The assistant proposes various modes of connection between the protagonist and the sentient books, such as direct communication, intuitive connection, empathic resonance, book whispering, or resonant frequencies. (valid since 2023-05-23)\n- The assistant informs the user about the role of technological advancements like big data, machine learning, and gene editing in the future of biomedicine. (valid since 2023-05-23)\n- Tokyo is a city located in Japan. (valid since 2023-05-25)\n- Osaka is a city located in Japan. (valid since 2023-05-25)\n- Kyoto is a city located in Japan. (valid since 2023-05-25)\n- Yakushima is an island located off the coast of Japan. (valid since 2023-05-25)\n- Yakushima is an island off the coast of Kyushu. (valid since 2023-05-25)\n- Kanazawa is a city located on the coast of the Sea of Japan. (valid since 2023-05-25)\n- Kanazawa is located on the coast of the Sea of Japan. (valid since 2023-05-25)\n- Nikko is a mountain town located in Japan. (valid since 2023-05-25)\n- Aomori is located in the northern part of Honshu, Japan. (valid since 2023-05-25)\n- Aomori is located in the northern part of Honshu. (valid since 2023-05-25)\n- Tottori is a prefecture in western Japan. (valid since 2023-05-25)\n- The Snow Festival is a festival that takes place in Sapporo, Japan. (valid since 2023-05-25)\n- The Snow Festival takes place in Sapporo. (valid since 2023-05-25)\n- The Kawagoe Matsuri is a festival celebrated in Kawagoe, Japan. (valid since 2023-05-25)\n- The Kawagoe Matsuri is celebrated in Kawagoe. (valid since 2023-05-25)\n- The Gion Matsuri is a festival held in Kyoto, Japan. (valid since 2023-05-25)\n- The Gion Matsuri is held in Kyoto. (valid since 2023-05-25)\n- The Takayama Matsuri is a festival held in Hida, Gifu, Japan. (valid since 2023-05-25)\n- The Takayama Matsuri is held in Hida. (valid since 2023-05-25)\n- The Takayama Matsuri is held in Gifu. (valid since 2023-05-25)\n- The Danjiri Matsuri is a festival that takes place in Kishiwada, Japan. (valid since 2023-05-25)\n- The Danjiri Matsuri takes place in Kishiwada. (valid since 2023-05-25)\n- The user is planning to start a writing group with friends to share their work and receive feedback. (valid since 2023-05-30)\n- The user plans to write The Spark chapter of their memoir. (valid since 2023-05-30)\n- The assistant describes Sunday mornings as the time of the week characterized by a quiet world and a sense of possibility. (valid since 2023-05-30)\n- The assistant suggests the favorite mug is used during the ritual of drinking coffee while writing. (valid since 2023-05-30)\n- The assistant refers to the writing desk as a sacred space that serves as a sanctuary for writing. (valid since 2023-05-30)\n- Citymapper has a feature called GO that allows users to track their journey in real-time. (valid since 2023-06-09)\n- Citymapper has a feature called Calorie Tracker that estimates the number of calories burned while walking. (valid since 2023-06-09)\n- The user wrote a short poem that they are proud of. (valid since 2023-06-16)\n- The user is interested in submitting their work to literary magazines. (valid since 2023-06-16)\n- The user is looking to join online writing communities to connect with other writers, get feedback, and stay motivated. (valid since 2023-06-16)\n- The user is interested in joining online writing forums to connect with other writers, get feedback, and stay motivated. (valid since 2023-06-16)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 81,
+  "invalidated": 0,
+  "episodes": 22,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 163.4,
+  "total": 165.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

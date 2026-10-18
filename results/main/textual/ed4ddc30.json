@@ -1,0 +1,91 @@
+{
+ "qid": "ed4ddc30",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many dozen eggs do we currently have stocked up in our refrigerator?",
+ "reference": "20",
+ "question_date": "2023-03-16 14:24",
+ "sessions": [
+  {
+   "id": "ultrachat_342966",
+   "date": "2022-12-26 00:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_1",
+   "date": "2023-01-11 23:15",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_28013",
+   "date": "2023-01-23 04:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_fwY67m3_0",
+   "date": "2023-02-19 17:20",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_421094",
+   "date": "2023-02-26 16:09",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_76206",
+   "date": "2023-03-01 01:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436945",
+   "date": "2023-03-06 11:49",
+   "evidence": false
+  },
+  {
+   "id": "63c75b13_2",
+   "date": "2023-03-08 19:55",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_35Datf2_27",
+   "date": "2023-03-09 19:42",
+   "evidence": false
+  },
+  {
+   "id": "answer_babbaccb_2",
+   "date": "2023-03-15 08:18",
+   "evidence": true
+  }
+ ],
+ "context": "### Personal facts\n*   The user owns livestock, specifically chickens and two goats named Billy and Nibbles.\n*   As of 2023-03-15, the user has a surplus of 20 dozen eggs in their refrigerator (Now 20 dozen, since 2023-03-15; previously 30 dozen as of 2023-01-11).\n*   The user is a parent of a child with ADHD.\n*   The user is multilingual, capable of communicating in both English and French.\n*   The user has an interest in sports history, specifically regarding Olympic field hockey achievements.\n*   The user is currently navigating challenges related to workplace harassment or bullying and is actively seeking strategies to manage these power imbalances.\n*   The user is planning a cruise vacation, as of 2023-03-06.\n*   The user enjoys winter sports and successfully skied down a beginner's slope on 2023-01-17.\n*   The user is physically active, regularly taking hour-long walks to a local park.\n*   The user is currently exploring the job market and researching professional networking platforms and job board apps, specifically interested in how these platforms facilitate career advancement and employer branding.\n\n### Preferences and habits\n*   The user has an interest in biology and evolutionary science.\n*   The user prefers to critically analyze scientific concepts rather than accepting them at face value, specifically questioning the \"purpose\" or \"goal\" of natural processes like evolution.\n*   The user enjoys cooking and is interested in learning how to process raw ingredients (eggs and goat milk) into various dishes and products like cheese.\n*   The user identifies as a beginner in the craft of cheese-making and beekeeping.\n*   The user is interested in food preservation techniques, specifically regarding the shelf life and storage of bread and eggs.\n*   The user is proactive in seeking resources, apps, and strategies to support their child’s development and academic success.\n*   The user values assertive communication techniques and is committed to practicing specific phrases to maintain boundaries in professional conflicts.\n*   The user recognizes the importance of emotional regulation and self-care (such as taking breaks, seeking support, and documenting incidents) when facing high-stress workplace environments.\n*   The user is interested in travel logistics, specifically regarding motion sickness prevention and the evaluation of luxury services like cruise ship spas.\n*   The user is interested in outdoor activities for the spring season, specifically hiking and farm management.\n*   The user prefers loop trails for hiking, ideally 2-3 miles in length with scenic views and water features (lakes or streams).\n*   The user is interested in the mechanics of how digital platforms (like job boards) grow, utilize algorithms, and provide value to users through networking and branding tools.\n\n### Ongoing situations and plans\n*   The user is currently engaged in learning about the mechanisms of evolution and natural selection.\n*   The user is actively looking for ways to utilize a large surplus of fresh eggs and goat milk.\n*   The user plans to make a spinach and feta quiche.\n*   The user plans to start making goat cheese (chevre) using milk from Billy and Nibbles.\n*   The user is exploring methods to extend the shelf life of bread, including evaluating ingredient composition (fat, gluten, crust thickness) and freezing techniques.\n*   The user is actively preparing their child for the transition to middle school, which is scheduled for the upcoming school year (starting late 2023).\n*   The user intends to implement new activities and organizational strategies to support their child's ADHD management.\n*   The user plans to apply assertive communication strategies and emotional management techniques to address ongoing workplace harassment or bullying.\n*   The user is researching cruise ship amenities and health management strategies for their upcoming trip.\n*   The user plans to hike the \"Ridgeview Loop Trail\" (2.5 miles) in their local park as their first spring hiking activity.\n*   The user is researching job search strategies and professional networking tools.\n*   The user is managing pest issues (mites and flies) in their chicken coop.\n*   The user plans to build a predator-proof fence around their chicken coop starting the weekend of 2023-03-18.\n*   The user is researching beekeeping to support farm pollination.\n\n### Changes over time\n*   Egg inventory: Now 20 dozen, since 2023-03-15; previously 30 dozen as of 2023-01-11.",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   According to the \"Personal facts\" section, as of 2023-03-15, the user has a surplus of 20 dozen eggs in their refrigerator.\n    *   The \"Changes over time\" section confirms this inventory update: \"Egg inventory: Now 20 dozen, since 2023-03-15.\"\n    *   The current date is 2023-03-16.\n\n2.  **Reason over the information:**\n    *   Since the last recorded update on 2023-03-15 states the inventory is 20 dozen, and no further changes have been recorded between that date and the current date (2023-03-16), the inventory remains at 20 dozen.\n\n**Answer:** You currently have 20 dozen eggs stocked up in your refrigerator.",
+ "dump": "### Personal facts\n*   The user owns livestock, specifically chickens and two goats named Billy and Nibbles.\n*   As of 2023-03-15, the user has a surplus of 20 dozen eggs in their refrigerator (Now 20 dozen, since 2023-03-15; previously 30 dozen as of 2023-01-11).\n*   The user is a parent of a child with ADHD.\n*   The user is multilingual, capable of communicating in both English and French.\n*   The user has an interest in sports history, specifically regarding Olympic field hockey achievements.\n*   The user is currently navigating challenges related to workplace harassment or bullying and is actively seeking strategies to manage these power imbalances.\n*   The user is planning a cruise vacation, as of 2023-03-06.\n*   The user enjoys winter sports and successfully skied down a beginner's slope on 2023-01-17.\n*   The user is physically active, regularly taking hour-long walks to a local park.\n*   The user is currently exploring the job market and researching professional networking platforms and job board apps, specifically interested in how these platforms facilitate career advancement and employer branding.\n\n### Preferences and habits\n*   The user has an interest in biology and evolutionary science.\n*   The user prefers to critically analyze scientific concepts rather than accepting them at face value, specifically questioning the \"purpose\" or \"goal\" of natural processes like evolution.\n*   The user enjoys cooking and is interested in learning how to process raw ingredients (eggs and goat milk) into various dishes and products like cheese.\n*   The user identifies as a beginner in the craft of cheese-making and beekeeping.\n*   The user is interested in food preservation techniques, specifically regarding the shelf life and storage of bread and eggs.\n*   The user is proactive in seeking resources, apps, and strategies to support their child’s development and academic success.\n*   The user values assertive communication techniques and is committed to practicing specific phrases to maintain boundaries in professional conflicts.\n*   The user recognizes the importance of emotional regulation and self-care (such as taking breaks, seeking support, and documenting incidents) when facing high-stress workplace environments.\n*   The user is interested in travel logistics, specifically regarding motion sickness prevention and the evaluation of luxury services like cruise ship spas.\n*   The user is interested in outdoor activities for the spring season, specifically hiking and farm management.\n*   The user prefers loop trails for hiking, ideally 2-3 miles in length with scenic views and water features (lakes or streams).\n*   The user is interested in the mechanics of how digital platforms (like job boards) grow, utilize algorithms, and provide value to users through networking and branding tools.\n\n### Ongoing situations and plans\n*   The user is currently engaged in learning about the mechanisms of evolution and natural selection.\n*   The user is actively looking for ways to utilize a large surplus of fresh eggs and goat milk.\n*   The user plans to make a spinach and feta quiche.\n*   The user plans to start making goat cheese (chevre) using milk from Billy and Nibbles.\n*   The user is exploring methods to extend the shelf life of bread, including evaluating ingredient composition (fat, gluten, crust thickness) and freezing techniques.\n*   The user is actively preparing their child for the transition to middle school, which is scheduled for the upcoming school year (starting late 2023).\n*   The user intends to implement new activities and organizational strategies to support their child's ADHD management.\n*   The user plans to apply assertive communication strategies and emotional management techniques to address ongoing workplace harassment or bullying.\n*   The user is researching cruise ship amenities and health management strategies for their upcoming trip.\n*   The user plans to hike the \"Ridgeview Loop Trail\" (2.5 miles) in their local park as their first spring hiking activity.\n*   The user is researching job search strategies and professional networking tools.\n*   The user is managing pest issues (mites and flies) in their chicken coop.\n*   The user plans to build a predator-proof fence around their chicken coop starting the weekend of 2023-03-18.\n*   The user is researching beekeeping to support farm pollination.\n\n### Changes over time\n*   Egg inventory: Now 20 dozen, since 2023-03-15; previously 30 dozen as of 2023-01-11.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 18.6,
+  "total": 19.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

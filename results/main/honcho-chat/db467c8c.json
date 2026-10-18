@@ -1,0 +1,96 @@
+{
+ "qid": "db467c8c",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "How long have my parents been staying with me in the US?",
+ "reference": "nine months",
+ "question_date": "2023-10-22 09:15",
+ "sessions": [
+  {
+   "id": "sharegpt_wrN9uUo_53",
+   "date": "2023-06-23 06:57",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_165276",
+   "date": "2023-07-08 02:17",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ocf8Lud_39",
+   "date": "2023-07-11 23:49",
+   "evidence": false
+  },
+  {
+   "id": "76967d22",
+   "date": "2023-07-16 03:28",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_1",
+   "date": "2023-07-16 07:07",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_48690",
+   "date": "2023-07-20 20:32",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_497634",
+   "date": "2023-09-21 19:20",
+   "evidence": false
+  },
+  {
+   "id": "answer_611b6e83_2",
+   "date": "2023-10-20 00:00",
+   "evidence": true
+  },
+  {
+   "id": "16ebc8f8_1",
+   "date": "2023-10-20 04:34",
+   "evidence": false
+  },
+  {
+   "id": "08693f68_1",
+   "date": "2023-10-20 12:15",
+   "evidence": false
+  }
+ ],
+ "context": "As of October 20, 2023, your parents have been staying with you in the US for nine months.",
+ "answer": "**Step 1: Extract relevant information**\n*   Fact 1: As of October 20, 2023, your parents have been staying with you for nine months.\n*   Fact 2: The current date is October 22, 2023.\n\n**Step 2: Reason over the information**\n*   The duration of nine months was calculated up to October 20, 2023.\n*   The current date is October 22, 2023, which is only two days after the reference date.\n*   Since two days is an insignificant amount of time relative to a nine-month period, the duration remains effectively nine months.\n\n**Answer:**\nYour parents have been staying with you in the US for approximately nine months.",
+ "dump": "- [explicit] user is inquiring about the word count of the assistant's previous response.\n- [explicit] user is inquiring about the typical length of book chapters.\n- [explicit] user wants museum employees to have incomplete or fragmented knowledge regarding the mirror's history, origin, previous ownership, and acquisition.\n- [explicit] user requested the assistant to reprint the final chapter outline and summary.\n- [explicit] user requested the assistant to reprint the last book summary, chapter name, and outline.\n- [explicit] user wants the mirror's history and details revealed indirectly through dialogue.\n- [explicit] user wants dialogue containing humor about the mirror not being art.\n- [explicit] user requested that the scene focus on establishing the historical setting through descriptive details.\n- [explicit] user requested that the mirror scene be written from the perspective of movers preparing the item for shipment.\n- [explicit] user requested that any mentions of the mirror's powers remain vague and restricted to dialogue.\n- [explicit] user requested that the mirror's backstory be revealed exclusively through dialogue between the movers.\n- [explicit] user requested a 400-word expansion of the book outline section describing the mirror's history in England before being shipped to America.\n- [explicit] user wants the second and third bullets of the chapter one outline to be approximately 400 words each.\n- [explicit] user wants the writing strategy used in the provided text applied to the second and third bullets of the outline for chapter one.\n- [explicit] user does not want a closing paragraph written for the sections.\n- [explicit] user wants no closing narrative sentences regarding the power of the mirrors in the second and third bullets of the chapter one outline.\n- [explicit] user is asking if the assistant has visited Barcelona.\n- [explicit] user is interested in learning about art and heritage in outdoor public spaces like parks and plazas.\n- [explicit] user perceives Barcelona as having amazing public art and heritage.\n- [explicit] user is interested in examples of cities with impressive public art and heritage displays.\n- [explicit] user wants to know how to create a new repository on their local machine.\n- [explicit] user wants to know the steps to set up GitHub.\n- [explicit] user wants to know how to deploy a local repository to their GitHub account.\n- [explicit] user intends to use GitHub for version control.\n- [explicit] user is working on the SMC Software platform.\n- [explicit] user is interested in using Visual Studio Code with GitHub Codespaces\n- [explicit] user previously lived in New York City.\n- [explicit] user is planning a trip to New York City.\n- [explicit] user is interested in finding coffee shops in the West Village neighborhood of New York City.\n- [explicit] user is interested in finding networking events or conferences related to the marketing industry.\n- [explicit] user previously lived in the West Village neighborhood of New York City.\n- [explicit] user works in or is interested in the marketing industry.\n- [explicit] user is interested in learning more about the marketing industry.\n- [explicit] user has been working as a marketing specialist for 9 months.\n- [explicit] user is a marketing specialist.\n- [explicit] user is seeking advice on how to stay up-to-date with trends and developments in marketing.\n- [explicit] user plans to explore more industry events and conferences to learn from the experiences of other professionals.\n- [explicit] user attends webinars and online courses to improve marketing skills.\n- [explicit] user stays current on marketing trends by reading marketing blogs and websites.\n- [explicit] user plans to explore more industry events and conferences to network with other professionals.\n- [explicit] user stays current on marketing trends by following industry leaders and brands on social media.\n- [explicit] user is considering a career transition into the non-profit sector.\n- [explicit] user is looking to learn from other professionals in the industry.\n- [explicit] user is interested in connecting with people who have experience in the non-profit sector.\n- [explicit] user is looking to expand user's professional network.\n- [explicit] user intends to follow up with new connections by sharing relevant resources or articles.\n- [explicit] user intends to follow up with new connections by periodically reaching out to check in.\n- [explicit] user would like to ask new connections if they are open to follow-up conversations or meetings.\n- [explicit] user is interested in learning about marketing challenges and opportunities within the non-profit sector.\n- [explicit] user is interested in gaining insights into the non-profit sector.\n- [explicit] user intends to follow up with new connections by sending thank-you emails.\n- [explicit] user intends to follow up with new connections by connecting on LinkedIn.\n- [explicit] user is exploring potential job opportunities in the non-profit sector.\n- [explicit] user's parents have been living with user in the US for six months as of 2023-07-16.\n- [explicit] user is considering applying for a green card.\n- [explicit] user has parents living with them in the US.\n- [explicit] user's parents help user with household chores, cooking, and taking English language classes.\n- [explicit] user is concerned about the financial aspects of a green card application.\n- [explicit] user's parents are not currently working.\n- [explicit] user intends to include parents in a green card application.\n- [explicit] user's parents live with user.\n- [explicit] user has submitted a petition and supporting documents for a green card application.\n- [explicit] user is interested in preventing dryness on their hands during the winter months.\n- [explicit] user wants to maintain the softness of their hands.\n- [explicit] user is interested in the historical significance of the Emancipation Proclamation and its impact on African Americans during and after the Civil War.\n- [explicit] user observes that racial discrimination remains a major issue in society today despite the Emancipation Proclamation being issued over 150 years ago.\n- [explicit] user feels frustrated that progress has been made regarding racial discrimination but believes more needs to be done.\n- [explicit] user is seeking information on individual actions that can help fight against racism and discrimination.\n- [explicit] user is planning to apply for a green card.\n- [explicit] user's parents have been helping user prepare paperwork for a green card application.\n- [explicit] user is considering consulting an immigration attorney.\n- [explicit] user is seeking resources or websites to find an immigration attorney experienced with green card applications.\n- [explicit] user intends to ask an attorney for help addressing the issue of their parents overstaying their visa.\n- [explicit] user intends to ask an attorney about their experience with green card applications.\n- [explicit] user intends to apply for a green card.\n- [explicit] user's parents have been staying with user for nine months as of 2023-10-20.\n- [explicit] user has parents who have overstayed their visa.\n- [explicit] user has parents who have overstayed their visa in the United States by nine months.\n- [explicit] user intends to consult an attorney regarding the waiver of inadmissibility process.\n- [explicit] user prefers dinner recipes that are healthy and quick to make.\n- [explicit] user meal preps for the entire week on Sundays.\n- [explicit] user expresses interest in a recipe for quinoa and black bean chili.\n- [explicit] user prefers dinner recipes that can be reheated.\n- [explicit] user wants to make breakfast smoothies in a big batch on the weekends.\n- [explicit] user plans out meals for the week.\n- [explicit] user is looking for a breakfast smoothie recipe that is low in sugar.\n- [explicit] user is currently taking a cooking class on Wednesday evenings.\n- [explicit] user has not previously added chia seeds or hemp seeds to their smoothies.\n- [explicit] user makes smoothies using frozen berries and Greek yogurt.\n- [explicit] user plans to experiment with adding bell peppers or zucchini to Thai curry.\n- [explicit] user identifies the importance of adjusting seasonings while cooking as the most valuable concept learned in the cooking class.\n- [explicit] user intends to make Thai curry again during the weekend of October 21-22, 2023.\n- [explicit] user plans to experiment with different types of curry paste or spices in Thai curry.\n- [explicit] user has become more comfortable with cooking proteins to the correct temperature.\n- [explicit] user identifies the importance of layering flavors as the most valuable concept learned in the cooking class.\n- [explicit] user made a Thai curry in a cooking class during the week of October 13, 2023.\n- [explicit] user plans to experiment with adding shrimp or chicken to Thai curry.\n- [explicit] user attends a general cooking class that covers a variety of cuisines and techniques.\n- [explicit] user is considering trying spinning classes at the gym.\n- [explicit] user is struggling with side-to-side shimmies in salsa.\n- [explicit] user attends Zumba classes on Tuesdays.\n- [explicit] user intends to master side-to-side shimmies by October 24, 2023.\n- [explicit] user attends Zumba classes.\n- [explicit] user uses Spotify.\n- [explicit] user is trying to improve their salsa shimmy technique.\n- [explicit] user views spinning as a low-impact workout option.\n- [explicit] user perceives spinning to be an intense, focused workout.\n- [explicit] user plans to take a spinning class at the gym next month.\n- [explicit] user is considering changing their current exercise routine.\n- [explicit] user has never taken a spinning class before.\n- [explicit] user perceives Zumba as having higher-impact movements.\n- [explicit] user has a friend named Emily who participates in spinning classes.\n- [explicit] user perceives Zumba to have a high-energy atmosphere.\n- [explicit] user anticipates that spinning will be a change of pace from Zumba.\n- [explicit] user intends to mix up the spinning routine.\n- [explicit] user intends to track progress in spinning.\n- [explicit] user practices Zumba.\n- [explicit] user intends to set specific goals for spinning.\n- [explicit] user plans to start spinning classes.\n- [explicit] user intends to find a spinning buddy.\n- [deductive] user is an active participant in fitness activities.\n- [deductive] user has an interest in dance-based fitness.\n- [deductive] user is interested in diversifying their physical exercise regimen.\n- [inductive] user demonstrates a proactive tendency to seek diversification in their physical exercise regimen to balance different workout impacts and intensities.\n- [inductive] user approaches fitness goal setting in a structured manner, focusing on planning, tracking progress, and identifying specific activity types.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 127.6,
+  "total": 130.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

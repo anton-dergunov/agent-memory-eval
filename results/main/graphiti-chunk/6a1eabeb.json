@@ -1,0 +1,102 @@
+{
+ "qid": "6a1eabeb",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What was my personal best time in the charity 5K run?",
+ "reference": "25 minutes and 50 seconds (or 25:50)",
+ "question_date": "2023-06-25 13:22",
+ "sessions": [
+  {
+   "id": "6387e969",
+   "date": "2023-04-23 08:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_hcxvWC6_0",
+   "date": "2023-05-07 00:43",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_9ApEWXK_0",
+   "date": "2023-05-07 06:52",
+   "evidence": false
+  },
+  {
+   "id": "f3d43a12_2",
+   "date": "2023-05-15 17:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_a25d4a91_1",
+   "date": "2023-05-23 13:01",
+   "evidence": true
+  },
+  {
+   "id": "d8cc8b5c_5",
+   "date": "2023-05-23 23:20",
+   "evidence": false
+  },
+  {
+   "id": "5b71808d",
+   "date": "2023-05-30 06:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_a25d4a91_2",
+   "date": "2023-05-30 13:53",
+   "evidence": true
+  },
+  {
+   "id": "86b8dc6e",
+   "date": "2023-05-30 18:35",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_AScF7Wc_0",
+   "date": "2023-05-30 19:15",
+   "evidence": false
+  }
+ ],
+ "context": "- The assistant provides tips on endurance training to help the user beat their personal best time of 25:50 in a charity 5K run. (valid since 2023-05-30)\n- The user scored a soccer goal in a recreational soccer game with coworkers. (valid since 2023-05-23)\n- Jean Moulin was a prominent figure and leader in the French Resistance who united various Resistance groups. (valid since 2023-04-23)\n- The user participated in a recreational soccer game with coworkers where they scored a goal. (valid since 2023-05-23)\n- Septime La Cave is a wine bar in the 11th arrondissement of Paris run by the team behind Septime. (valid since 2023-04-23)\n- The assistant suggests including a USB drive containing digital copies of photos as a personal touch for the gift. (valid since 2023-05-23)\n- Septime La Cave is run by the team behind the restaurant Septime. (valid since 2023-04-23)\n- The user is planning to incorporate strength training into their workout routine to improve their running performance. (valid since 2023-05-30)\n- The assistant suggests including a Travel section in the photo album. (valid since 2023-05-23)\n- The user has been taking English classes at the LINC program. (valid since 2023-05-30)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:**\n   - The history chat dated 2023-05-30 states: \"The assistant provides tips on endurance training to help the user beat their personal best time of 25:50 in a charity 5K run.\"\n\n2. **Reason over the information:**\n   - The fact explicitly identifies the user's personal best time in the charity 5K run as 25:50.\n\n**Answer:** Your personal best time in the charity 5K run is 25:50.",
+ "dump": "- Mrs. Patel is a teacher at the LINC program. (valid since 2020-11-01)\n- Paris is home to historical sites and museums dedicated to the French Resistance during WWII. (valid since 2023-04-23)\n- Paris contains historical sites that provide a unique perspective on the city's role in WWII. (valid since 2023-04-23)\n- The Paris Resistance Tour is a guided walking tour that explores the history of the French Resistance in Paris. (valid since 2023-04-23)\n- The 3-hour WWII in Paris Tour covers the German occupation, the French Resistance, and the Liberation of Paris, visiting sites like the Luxembourg Gardens, Saint-Germain-des-Prés, and the Arc de Triomphe. (valid since 2023-04-23)\n- The 4-hour French Resistance and Liberation Tour delves into the history of the Resistance, including the role of women, the Free French Forces, and the Liberation of Paris. (valid since 2023-04-23)\n- The Musée de la Résistance is a museum in Paris dedicated to the history and movement of the French Resistance. (valid since 2023-04-23)\n- The Musée de l'Armée in Paris has a section dedicated to the French Resistance and the Liberation of Paris. (valid since 2023-04-23)\n- The Musée Carnavalet in Paris features a section regarding the Occupation and the French Resistance. (valid since 2023-04-23)\n- The Musée Jean Moulin in Paris is dedicated to the life and legacy of Jean Moulin. (valid since 2023-04-23)\n- Jean Moulin was a prominent figure and leader in the French Resistance who united various Resistance groups. (valid since 2023-04-23)\n- Place de la République is a square in Paris home to a monument dedicated to the French Resistance and the Liberation of Paris. (valid since 2023-04-23)\n- The Mont Valérien Memorial honors the French Resistance fighters executed by the Nazis during WWII. (valid since 2023-04-23)\n- The Cimetière de Montparnasse in Paris is the final resting place of French Resistance fighters including Jean Moulin. (valid since 2023-04-23)\n- Le Comptoir du Relais is a bistro in the 6th arrondissement of Paris serving traditional French cuisine. (valid since 2023-04-23)\n- Chez L'Ami Jean is a restaurant in the 11th arrondissement of Paris serving traditional French cuisine. (valid since 2023-04-23)\n- Le Grand Vefour is a historic restaurant in Paris serving traditional French cuisine since 1784. (valid since 2023-04-23)\n- La Réserve is a restaurant in the 8th arrondissement of Paris offering a seasonal French menu. (valid since 2023-04-23)\n- Le Petit Châtelet is a restaurant in the 5th arrondissement of Paris serving traditional French cuisine. (valid since 2023-04-23)\n- Breizh Café is a restaurant in Paris serving crepes with seasonal ingredients. (valid since 2023-04-23)\n- Le 6 Paul Bert is a bistro in the 11th arrondissement of Paris offering a seasonal French menu. (valid since 2023-04-23)\n- La Dame de Pic is a Michelin-starred restaurant in the 11th arrondissement of Paris offering a seasonal French menu. (valid since 2023-04-23)\n- La Closerie des Lilas is a wine bar in the 6th arrondissement of Paris featuring an extensive selection of French wines. (valid since 2023-04-23)\n- Le Barav is a wine bar in the 11th arrondissement of Paris with a selection of natural and organic wines. (valid since 2023-04-23)\n- Septime La Cave is a wine bar in the 11th arrondissement of Paris run by the team behind Septime. (valid since 2023-04-23)\n- Septime La Cave is run by the team behind the restaurant Septime. (valid since 2023-04-23)\n- La Maison du Vin is a wine shop chain with multiple locations throughout Paris. (valid since 2023-04-23)\n- Nicolas is a wine shop chain with several locations in Paris. (valid since 2023-04-23)\n- Le Wine Shop is a wine shop in the 6th arrondissement of Paris that offers wine tastings and workshops. (valid since 2023-04-23)\n- Marché aux Vins is a wine market in the 12th arrondissement of Paris. (valid since 2023-04-23)\n- Marché d'Aligre is a market in the 12th arrondissement of Paris offering various French wines. (valid since 2023-04-23)\n- The song Party Rock Anthem is performed by the group LMFAO. (valid since 2023-05-07)\n- Party Rock Anthem features Lauren Bennett. (valid since 2023-05-07)\n- Party Rock Anthem features GoonRock. (valid since 2023-05-07)\n- The song Yeah! is performed by Usher. (valid since 2023-05-07)\n- Yeah! features Lil Jon. (valid since 2023-05-07)\n- Yeah! features Ludacris. (valid since 2023-05-07)\n- The song Bojangles is performed by Pitbull. (valid since 2023-05-07)\n- The song Cupid Shuffle is performed by Cupid. (valid since 2023-05-07)\n- The song Cha Cha Slide is performed by DJ Casper. (valid since 2023-05-07)\n- The song Werewolves of London is performed by Warren Zevon. (valid since 2023-05-07)\n- The song Low is performed by Flo Rida. (valid since 2023-05-07)\n- Low features T-Pain. (valid since 2023-05-07)\n- The user considers the unisex heavy cotton tee as a basic wardrobe staple. (valid since 2023-05-07)\n- The unisex heavy cotton tee has features such as 100% cotton material, medium fabric weight of 5.3 oz/yd2, a classic fit, a tear-away label, and runs true to size. (valid since 2023-05-07)\n- The unisex heavy cotton tee provides a smooth surface with specially spun fibers for premium printing vividity and sharpness for the user. (valid since 2023-05-07)\n- The unisex heavy cotton tee lacks side seams to prevent itchy interruptions and has taped shoulders for improved durability. (valid since 2023-05-07)\n- Whiskers will engage in a DIY cat agility course featuring cardboard boxes and tunnels set up by her owner. (valid since 2023-05-15)\n- The assistant recommends Chewy.com as an online retailer for cat supplies, toys, and treats. (valid since 2023-05-15)\n- The assistant recommends Petco.com as an online retailer for cat toys, scratching posts, and litter boxes. (valid since 2023-05-15)\n- The assistant recommends CatLadyBox.com for its monthly subscription box service for cat toys and treats. (valid since 2023-05-15)\n- The assistant recommends the Armarkat Cat Scratching Post for cats who like to scratch vertically, available on Chewy.com and Petco.com. (valid since 2023-05-15)\n- The assistant recommends the FurHaven Pet Products Vertical Scratching Post featuring sisal rope, available on Chewy.com and Amazon.com. (valid since 2023-05-15)\n- The assistant recommends the SmartCat Multi-Level Scratching Post with sisal rope for cats who scratch and climb, available on Petco.com and Amazon.com. (valid since 2023-05-15)\n- The assistant recommends the Purrfect Post Vertical Scratching Post with sisal rope and a hammock, available on Chewy.com and Petco.com. (valid since 2023-05-15)\n- The assistant recommends the Catit Senses Vertical Scratching Post with multiple textures and surfaces, available on Chewy.com and Petco.com. (valid since 2023-05-15)\n- The user scored a soccer goal in a recreational soccer game with coworkers. (valid since 2023-05-23)\n- The user participated in a recreational soccer game with coworkers where they scored a goal. (valid since 2023-05-23)\n- The user is planning a garden-themed surprise birthday party for the user's grandma. (valid since 2023-05-23)\n- The user intends to create a custom 'Grandma's Garden' herbal tea blend for the user's grandma. (valid since 2023-05-23)\n- The user is planning to prepare a photo album or scrapbook as a gift for the birthday of the user's grandma. (valid since 2023-05-23)\n- The assistant recommends Grandma's Favorite Memories as a possible theme for a photo album or scrapbook for the user's grandmother. (valid since 2023-05-23)\n- The assistant suggests Family Moments as an appropriate theme for organizing photos in a scrapbook. (valid since 2023-05-23)\n- The assistant proposes Garden Delights as a thematic option for the grandmother's gift album. (valid since 2023-05-23)\n- The assistant suggests creating an Early Years section for the scrapbook. (valid since 2023-05-23)\n- The assistant suggests including a Travel section in the photo album. (valid since 2023-05-23)\n- The assistant suggests adding a Hobbies section to the scrapbook. (valid since 2023-05-23)\n- The assistant suggests including a USB drive containing digital copies of photos as a personal touch for the gift. (valid since 2023-05-23)\n- The user has been taking English classes at the LINC program. (valid since 2023-05-30)\n- The user has been taking English classes at the LINC program. (valid since 2023-05-30)\n- The user is planning to incorporate strength training into their workout routine to improve their running performance. (valid since 2023-05-30)\n- The assistant provides drills to help improve the consistency of a tennis serve toss. (valid since 2023-05-30)\n- The assistant provides tips on endurance training to help the user beat their personal best time of 25:50 in a charity 5K run. (valid since 2023-05-30)\n- The user is researching and crunching numbers to potentially buy a new Honda CR-V. (valid since 2023-05-30)\n- The user uses Kelley Blue Book to research the market value of vehicles. (valid since 2023-05-30)\n- The user uses Edmunds to research the market value of vehicles. (valid since 2023-05-30)\n- The user uses TrueCar to research the market value of vehicles. (valid since 2023-05-30)\n- The user is planning to sell their old SUV. (valid since 2023-05-30)\n- The user uses the National Automobile Dealers Association website to determine the fair market value of their old SUV. (valid since 2023-05-30)\n- The user considers using Autotrader to list their old SUV for sale. (valid since 2023-05-30)\n- The user considers using Cars.com to list their old SUV for sale. (valid since 2023-05-30)\n- The user considers using Craigslist to list their old SUV for sale. (valid since 2023-05-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 82,
+  "invalidated": 0,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 99.5,
+  "total": 100.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

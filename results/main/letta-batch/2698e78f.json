@@ -1,0 +1,108 @@
+{
+ "qid": "2698e78f",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How often do I see my therapist, Dr. Smith?",
+ "reference": "every week",
+ "question_date": "2023-11-10 00:38",
+ "sessions": [
+  {
+   "id": "sharegpt_4qCDHY4_17",
+   "date": "2023-03-15 12:49",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6U7TyYE_0",
+   "date": "2023-03-17 15:06",
+   "evidence": false
+  },
+  {
+   "id": "d76030af_1",
+   "date": "2023-03-23 03:11",
+   "evidence": false
+  },
+  {
+   "id": "89c1cdfa_2",
+   "date": "2023-03-27 05:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DrLV0RL_0",
+   "date": "2023-04-02 20:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_1",
+   "date": "2023-04-03 14:18",
+   "evidence": true
+  },
+  {
+   "id": "619e96bc",
+   "date": "2023-07-12 03:14",
+   "evidence": false
+  },
+  {
+   "id": "1980bbfa_5",
+   "date": "2023-11-03 14:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_2",
+   "date": "2023-11-03 19:56",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_130siyQ_0",
+   "date": "2023-11-09 13:22",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-17T16:09:05.583114+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-11-10 00:38] How often do I see my therapist, Dr. Smith?'}]}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-17T16:09:05.583114+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-11-10 00:38] How often do I see my therapist, Dr. Smith?'}, {'timestamp': '2026-10-17T16:08:59.624065+00:00', 'time_ago': '10s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-03 19:56] I think that's all for now. I'm going to go meditate and journal for a bit. It's been a helpful session with Dr. Smith this week, and I'm feeling more confident about setting those healthy boundaries. Thanks again for your help!\"}, {'timestamp': '2026-10-17T16:08:59.624045+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-03 19:56] You're welcome! I'm thrilled to have been able to help. This checklist is a great starting point for you to establish healthy habits and boundaries. Remember, it's a flexible tool to help you stay on track, not a rigid framework to restrict you.\\n\\nWeekly reviews are crucial to assess your progress, adjust your priorities, and celebrate your accomplishments. Don't hesitate to reach out to Dr. Smith if you need additional guidance or support.\\n\\nAs you work with this checklist, keep in mind that setting boundaries and prioritizing tasks is a process. Be patient with yourself, and don't be too hard on yourself if you encounter setbacks. You got this!\\n\\nIf you have any more questions or need further assistance, feel free to ask. Otherwise, I wish you all the best on your journey to prioritizing your tasks, setting healthy boundaries, and nurturing your well-being!\"}, {'timestamp': '2026-10-17T16:08:59.624001+00:00', 'time_ago': '10s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-11-03 19:56] I'm glad we could adapt the approach to fit your needs.\\n\\n**Simple Checklist: Priorities and Boundaries**\\n\\n**Daily Priorities:**\\n\\n1. **Must-Dos:** [List your top 3-5 essential tasks for the day]\\n2. **Self-Care:** [Schedule time for meditation, journaling, or other self-care activities]\\n\\n**Boundary Reminders:**\\n\\n1. **Say no to non-essential commitments:** Before committing to a new task or activity, ask yourself if it aligns with your Must-Dos or priorities.\\n2. **Communicate your priorities:** Share your priorities with colleagues, friends, and family to set clear expectations.\\n3. **Leave buffer time:** Allow for flexibility in your schedule to accommodate unexpected events or self-care activities.\\n\\n**Weekly Review:**\\n\\n1. **Review priorities:** Reflect on your Must-Dos and adjust as needed.\\n2. **Evaluate commitments:** Assess your commitments and say no to non-essential tasks that drain your energy.\\n3. **Celebrate self-care:** Reflect on your self-care activities and identify areas for improvement.\\n\\n**Additional Tips:**\\n\\n1. **Post it somewhere visible:** Place this checklist in a spot where you'll see it daily, like your fridge, desk, or mirror.\\n2. **Make it a habit:** Review your checklist daily, and adjust as needed.\\n3. **Be kind to yourself:** Remember that setting boundaries and prioritizing tasks is a process. Be gentle with yourself if you slip up, and don't give up!\\n\\nFeel free to modify this checklist to fit your personal style and needs. Remember to review it regularly with Dr. Smith to ensure you're on track with your goals.\\n\\nHow does this checklist look to you? Is there anything you'd like to add or change?\"}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "I've looked through our recent history, and while we've mentioned Dr. Smith as someone you consult, I don't see a specific note detailing your appointment frequency. You did mention having a \"helpful session with Dr. Smith this week\" on November 3rd, but I don't have a record that confirms exactly how often you see them.\n\nWould you like me to note your appointment frequency in our memory so I can keep track of it for you?",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"therapist Dr. Smith\"})",
+   "conversation_search({\"query\": \"therapist\"})",
+   "conversation_search({\"query\": \"Dr. Smith\"})",
+   "conversation_search({\"query\": \"see Dr. Smith appointment frequency\"})",
+   "conversation_search({\"query\": \"\\\"weekly\\\" Dr. Smith\"})",
+   "conversation_search({\"query\": \"schedule Dr. Smith\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 29.6,
+  "total": 42.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

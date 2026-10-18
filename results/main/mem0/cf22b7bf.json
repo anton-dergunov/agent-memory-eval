@@ -1,0 +1,100 @@
+{
+ "qid": "cf22b7bf",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How much weight have I lost since I started going to the gym consistently?",
+ "reference": "10 pounds",
+ "question_date": "2023-06-23 03:15",
+ "sessions": [
+  {
+   "id": "ultrachat_345143",
+   "date": "2023-04-23 18:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_VhAV1pG_0",
+   "date": "2023-05-08 09:19",
+   "evidence": false
+  },
+  {
+   "id": "c8fcdf5a_1",
+   "date": "2023-05-09 21:19",
+   "evidence": false
+  },
+  {
+   "id": "457e26bf",
+   "date": "2023-05-18 20:51",
+   "evidence": false
+  },
+  {
+   "id": "answer_ae3a122b_1",
+   "date": "2023-05-21 12:29",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_324101",
+   "date": "2023-06-08 01:43",
+   "evidence": false
+  },
+  {
+   "id": "8765ab16_2",
+   "date": "2023-06-10 06:02",
+   "evidence": false
+  },
+  {
+   "id": "f906baa7_1",
+   "date": "2023-06-14 15:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_ae3a122b_2",
+   "date": "2023-06-21 05:37",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_130544",
+   "date": "2023-06-21 08:33",
+   "evidence": false
+  }
+ ],
+ "context": "- User has lost 10 pounds since they started going to the gym consistently 3 months ago, around March 2023. (from a chat on 2023-06-21)\n- User has lost 5 pounds over the past month and aims to reach a goal weight by the end of summer 2023. (from a chat on 2023-05-21)\n- User is seeking strategies to make exercise a sustainable daily habit, such as scheduling workouts, starting small, varying routines, and tracking progress. (from a chat on 2023-06-21)\n- User is planning a 12-week training program to run a 10K by the end of summer 2023, starting as a complete beginner. (from a chat on 2023-05-21)\n- User participated in a local tennis tournament on April 30, 2023, where they reached the quarterfinals before losing to a college student named Sarah. (from a chat on 2023-05-18)\n- User aims to improve flexibility and range of motion, particularly in their hamstrings and hip flexors, and was advised to incorporate dynamic stretching, hold stretches for 20-30 seconds, and practice yoga or Pilates consistently. (from a chat on 2023-06-21)\n- User currently incorporates 30-minute walks during their lunch break three times a week and has been tracking fitness progress via an app, averaging 2500 calories burned per week. (from a chat on 2023-05-21)\n- User was provided with a 12-week 10K training plan, with weeks 5-8 modified for a more gradual increase in jogging time. (from a chat on 2023-05-21)\n- User believes their tennis training, specifically the explosive power developed from sprinting on the court, is helping improve their endurance and leg strength for cycling. (from a chat on 2023-05-18)\n- User is working on increasing their Instagram engagement and gained approximately 20 new followers in the first week of their campaign. (from a chat on 2023-06-14)\n- User is specifically targeting their obliques and was recommended exercises including side planks, woodchoppers, modified Russian twists, bicycle crunches with oblique focus, and cable rotations. (from a chat on 2023-06-21)\n- User was provided with tips to maintain energy levels during workouts, including proper hydration, pre-workout snacks, electrolyte intake, moderate caffeine, B vitamins, pacing, music, and adequate rest. (from a chat on 2023-06-21)\n- User was advised to drink 17-20 ounces of water 1-2 hours before a run and 4-6 ounces every 10-15 minutes during a run to maintain hydration. (from a chat on 2023-05-21)\n- User plans to perform light cardio and stretching as a warm-up for their upcoming cycling event, and static stretches for post-event recovery. (from a chat on 2023-05-18)\n- User is looking to expand their core strengthening routine beyond planks and Russian twists and was recommended exercises like leg raises, bicycle crunches, Pallof press, side planks, woodchoppers, and others. (from a chat on 2023-06-21)\n- User cross-trains with tennis, basketball, and volleyball to improve athleticism and agility. (from a chat on 2023-05-18)\n- User was recommended core exercises including Pallof Press, Side Plank variations, Russian twists, and Bird Dog, and leg exercises including step-ups, lunges with a twist, calf raises, and glute bridges. (from a chat on 2023-05-21)\n- User has observed that their Instagram videos perform better than image posts and that their morning posts receive higher engagement. (from a chat on 2023-06-14)\n- User enjoys using the Fossil Gen 5 smartwatch for tracking fitness goals and receiving notifications, and is interested in fitness apps compatible with the device. (from a chat on 2023-05-09)\n- User was recommended high-energy cardio playlists including 'Beast Mode', 'Cardio Kickstart', 'Workout Motivation', 'HIIT Workout' by Fitness Blender, 'Cardio Blast' by PopSugar Fitness, 'Sweat Session' by Nike Training Club, and various genre-specific playlists. (from a chat on 2023-06-21)",
+ "answer": "To determine how much weight you have lost since you started going to the gym consistently, let's look at the relevant information:\n\n**Step 1: Extract relevant information**\n*   From the chat on 2023-06-21: \"User has lost 10 pounds since they started going to the gym consistently 3 months ago, around March 2023.\"\n\n**Step 2: Reason over the information**\n*   The record explicitly states that the total weight loss achieved since the start of your consistent gym routine (which began approximately 3 months prior to June 2023) is 10 pounds.\n\n**Answer:**\nYou have lost 10 pounds since you started going to the gym consistently.",
+ "dump": "- Other universities recognized for sustainability leadership include UC Berkeley, the University of Copenhagen, the University of Glasgow, Wageningen University & Research, and the University of British Columbia. (session 2023-06-21)\n- KTH research centers include the Integrated Transport Research Lab, Integrated Energy System Centre, KTH Electromagnetic Engineering Laboratory, KTH Digitalization and Artificial Intelligence Centre, and the Wallenberg Wood Science Centre. (session 2023-06-21)\n- User was recommended core exercises including Pallof Press, Side Plank variations, Russian twists, and Bird Dog, and leg exercises including step-ups, lunges with a twist, calf raises, and glute bridges. (session 2023-05-21)\n- User is considering a career in journalism and is specifically interested in focusing on data journalism and multimedia journalism. (session 2023-04-23)\n- User was recommended several fitness apps for the Fossil Gen 5 smartwatch, including Google Fit, MyFitnessPal, Strava, Fitbit Coach, CardioGPS, Sleep Cycle, and Google Maps. (session 2023-05-09)\n- User was provided with tips for creating eye-catching video thumbnails, including using bold colors, high contrast, faces, text overlays, and emotional triggers. (session 2023-06-14)\n- User questioned whether modern species exhibit observable DNA changes, prompting a discussion on antibiotic resistance in bacteria and the adaptation of the peppered moth during the Industrial Revolution. (session 2023-05-08)\n- User is actively working on improving their tennis backhand slice and return game, specifically focusing on reaction time and footwork to handle strong serves. (session 2023-05-18)\n- User was provided with an overview of journalism qualifications, including the need for degrees in journalism or liberal arts, and strong writing, research, and networking skills. (session 2023-04-23)\n- User has lost 5 pounds over the past month and aims to reach a goal weight by the end of summer 2023. (session 2023-05-21)\n- User believes their tennis training, specifically the explosive power developed from sprinting on the court, is helping improve their endurance and leg strength for cycling. (session 2023-05-18)\n- User was advised to drink 17-20 ounces of water 1-2 hours before a run and 4-6 ounces every 10-15 minutes during a run to maintain hydration. (session 2023-05-21)\n- User expressed concern about the spread of misleading information in the digital age and is interested in methods to combat fake news. (session 2023-04-23)\n- User was provided with tips to maintain energy levels during workouts, including proper hydration, pre-workout snacks, electrolyte intake, moderate caffeine, B vitamins, pacing, music, and adequate rest. (session 2023-06-21)\n- User was provided with instructions for air-layering a fiddle leaf fig tree, including making an incision, wrapping it with moist sphagnum moss, and securing it with soft twine or flexible wire. (session 2023-06-10)\n- User was informed that the Dell XPS 13 offers Intel Iris Xe or NVIDIA GeForce MX 550 GPU options, and that while storage is upgradable, the RAM is soldered to the motherboard. (session 2023-05-09)\n- User asked for scientific proof of species changing over time, specifically requesting examples of one species evolving into another. (session 2023-05-08)\n- KTH maintains sustainability partnerships with the H&M Foundation, the Royal Swedish Academy of Agriculture and Forestry, Ericsson, and student organizations like Engineers Without Borders, while also receiving EU funding for sustainable development. (session 2023-06-21)\n- User is planning to purchase a new laptop and is comparing the Dell XPS 13 and the MacBook Air, ultimately leaning toward the Dell XPS 13 because they prefer Windows and want more configuration options. (session 2023-05-09)\n- User has lost 10 pounds since they started going to the gym consistently 3 months ago, around March 2023. (session 2023-06-21)\n- User is researching 4K OLED TVs from LG and Sony and plans to visit a Best Buy store the weekend of May 13-14, 2023, to compare them in person before purchasing. (session 2023-05-09)\n- KTH's sustainability recognition includes a top 50 ranking in the 2020 UI GreenMetric World University Ranking, the 2020 Solar Impulse Efficient Solution Label for its Vertical Greenhouse project, the 2019 European Green Capital Award, and the 2019 Stockholm Environmental Prize for its Green Leap initiative. (session 2023-06-21)\n- User was provided with strategies to combat fake news, including fact-checking, media literacy education, crowdsourced verification, and upholding journalistic ethics and accountability. (session 2023-04-23)\n- User was provided with a 12-week 10K training plan, with weeks 5-8 modified for a more gradual increase in jogging time. (session 2023-05-21)\n- User cross-trains with tennis, basketball, and volleyball to improve athleticism and agility. (session 2023-05-18)\n- User has successfully propagated a spider plant using cuttings and is now interested in propagating other plants, including aloe vera and a fiddle leaf fig tree. (session 2023-06-10)\n- User was provided with specific propagation methods for aloe vera, including leaf cuttings and offset separation, with an emphasis on allowing cut ends to callus before planting. (session 2023-06-10)\n- User finds the Beijing Olympics awe-inspiring, specifically admiring the discipline, skill, and dedication required by the athletes to compete at that level. (session 2023-06-08)\n- User was provided with comprehensive summer care tips for bedroom plants, including sunlight management, proper watering techniques, humidity control, and pest monitoring. (session 2023-06-10)\n- User purchased a Samsung Galaxy S22 Ultra and a Fossil Gen 5 smartwatch, the latter bought from the Fossil website during a Presidents' Day sale on February 5, 2023, for approximately $250. (session 2023-05-09)\n- KTH monitors its sustainability impact through measurable carbon and energy targets, industry-partnered research, student-driven initiatives, institutional collaborations, and annual transparency reporting. (session 2023-06-21)\n- User inquired about the scientific definition of a theory and why evolution is classified as a scientific theory despite being supported by extensive evidence from biology, genetics, paleontology, and geology. (session 2023-05-08)\n- User is interested in using Canva to design eye-catching thumbnails for their Instagram videos, despite having no prior design experience. (session 2023-06-14)\n- User has 3 plants in their bedroom and is seeking advice on maintaining their health during the summer months. (session 2023-06-10)\n- User is preparing for a cycling event taking place the weekend of May 20-21, 2023, and is focusing on carbo-loading with whole grains and fruits 1-3 days prior. (session 2023-05-18)\n- User was advised on propagation techniques for cuttings, including selecting healthy parent plants, cutting at nodes, using rooting hormone, and maintaining high humidity. (session 2023-06-10)\n- User is seeking strategies to make exercise a sustainable daily habit, such as scheduling workouts, starting small, varying routines, and tracking progress. (session 2023-06-21)\n- User aims to improve flexibility and range of motion, particularly in their hamstrings and hip flexors, and was advised to incorporate dynamic stretching, hold stretches for 20-30 seconds, and practice yoga or Pilates consistently. (session 2023-06-21)\n- User expressed a common misconception that evolution is not currently occurring, leading to an explanation of how evolution is a continuous process often observed through antibiotic and pesticide resistance. (session 2023-05-08)\n- User is looking to expand their core strengthening routine beyond planks and Russian twists and was recommended exercises like leg raises, bicycle crunches, Pallof press, side planks, woodchoppers, and others. (session 2023-06-21)\n- User has observed that their Instagram videos perform better than image posts and that their morning posts receive higher engagement. (session 2023-06-14)\n- User is comparing the Anker PowerCore 20000 and Mophie Powerstation XXL portable power banks, specifically evaluating their charging speeds and USB port configurations. (session 2023-05-09)\n- KTH engages in global sustainability partnerships with organizations like the United Nations Development Program (UNDP) and the International Energy Agency (IEA). (session 2023-06-21)\n- User enjoys using the Fossil Gen 5 smartwatch for tracking fitness goals and receiving notifications, and is interested in fitness apps compatible with the device. (session 2023-05-09)\n- User was provided with a list of journalism career paths including news reporter, investigative journalist, broadcast journalist, editorial writer, copy editor, and photojournalist. (session 2023-04-23)\n- User plans to focus on using attention-grabbing captions and asking for engagement in their videos, while scheduling posts for the morning. (session 2023-06-14)\n- User owns a 10,000mAh power bank purchased from Target on February 25, 2023, and is researching higher-capacity alternatives (20,000mAh or more). (session 2023-05-09)\n- User was recommended high-energy cardio playlists including 'Beast Mode', 'Cardio Kickstart', 'Workout Motivation', 'HIIT Workout' by Fitness Blender, 'Cardio Blast' by PopSugar Fitness, 'Sweat Session' by Nike Training Club, and various genre-specific playlists. (session 2023-06-21)\n- User is interested in the sustainability initiatives and research efforts of the Royal Institute of Technology (KTH), including its multidisciplinary education, research centers, and industry partnerships. (session 2023-06-21)\n- User plans to find a running buddy using online platforms like Meetup, Facebook, or running apps, or by joining local running groups. (session 2023-05-21)\n- User is planning a 12-week training program to run a 10K by the end of summer 2023, starting as a complete beginner. (session 2023-05-21)\n- User was informed that data, investigative, multimedia, environmental, and business journalism are currently high-demand areas in the field. (session 2023-04-23)\n- User decided to configure their future Dell XPS 13 with a 4K OLED display for better movie watching and web browsing. (session 2023-05-09)\n- User currently incorporates 30-minute walks during their lunch break three times a week and has been tracking fitness progress via an app, averaging 2500 calories burned per week. (session 2023-05-21)\n- User was provided with a comprehensive guide on Instagram Insights, including how to access account, content, audience, and reach metrics to optimize their content strategy. (session 2023-06-14)\n- User requested a clarification on the distinction between microevolution (small-scale changes within a population) and macroevolution (large-scale changes leading to new species over long periods). (session 2023-05-08)\n- User prefers consuming news online due to the convenience compared to physical newspapers or scheduled television broadcasts. (session 2023-04-23)\n- User is a fan of the Los Angeles Lakers, who recently advanced to the NBA conference finals as of May 2023. (session 2023-05-18)\n- User plans to perform light cardio and stretching as a warm-up for their upcoming cycling event, and static stretches for post-event recovery. (session 2023-05-18)\n- User participated in a local tennis tournament on April 30, 2023, where they reached the quarterfinals before losing to a college student named Sarah. (session 2023-05-18)\n- User is working on increasing their Instagram engagement and gained approximately 20 new followers in the first week of their campaign. (session 2023-06-14)\n- User is specifically targeting their obliques and was recommended exercises including side planks, woodchoppers, modified Russian twists, bicycle crunches with oblique focus, and cable rotations. (session 2023-06-21)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 62,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 45.1,
+  "total": 46.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

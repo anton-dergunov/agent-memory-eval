@@ -1,0 +1,100 @@
+{
+ "qid": "618f13b2",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+ "reference": "six",
+ "question_date": "2023-06-18 22:29",
+ "sessions": [
+  {
+   "id": "ultrachat_546105",
+   "date": "2023-05-02 00:38",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_469083",
+   "date": "2023-05-30 05:07",
+   "evidence": false
+  },
+  {
+   "id": "d2366c37",
+   "date": "2023-05-30 12:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_caf5b52e_2",
+   "date": "2023-05-30 17:45",
+   "evidence": true
+  },
+  {
+   "id": "9cea187c_1",
+   "date": "2023-05-30 18:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_558040",
+   "date": "2023-05-30 21:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_caf5b52e_1",
+   "date": "2023-05-30 22:16",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_SaUokxc_63",
+   "date": "2023-06-01 11:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dUIx8DF_0",
+   "date": "2023-06-05 10:13",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_270398",
+   "date": "2023-06-16 22:50",
+   "evidence": false
+  }
+ ],
+ "context": "- User owns a pair of black Converse Chuck Taylor All Star sneakers, which they have worn four times as of May 30, 2023, including to a friend's birthday party on May 27, 2023. (from a chat on 2023-05-30)\n- User owns a pair of black Converse sneakers which they have worn six times as of May 29, 2023. (from a chat on 2023-05-30)\n- User finds their black Converse Chuck Taylor All Star sneakers comfortable and enjoys pairing them with jeans and dresses. (from a chat on 2023-05-30)\n- User was provided with a 10-step cleaning guide for their black Converse Chuck Taylor All Star sneakers, including using mild soap, avoiding harsh chemicals, and air drying. (from a chat on 2023-05-30)\n- User was recommended waterproofing sprays such as Scotchgard, Crepe Protect, and Nikwax to protect their Converse sneakers from mud and rain. (from a chat on 2023-05-30)\n- User is considering purchasing Vans Old Skool sneakers and was advised that they are a comfortable, durable, and worthwhile investment for casual wear. (from a chat on 2023-05-30)\n- User is interested in the future trajectory of Dia de los Muertos, specifically how it may continue to adapt through global cultural exchange and new forms of public celebration. (from a chat on 2023-05-30)\n- User owns white Adidas Superstars which they wore to the gym and subsequently cleaned with a toothbrush and soap. (from a chat on 2023-05-30)\n- User was recommended time tracking tools that integrate with Asana, including Toggl, Harvest, RescueTime, Time Doctor, Clockify, and Hubstaff. (from a chat on 2023-05-30)\n- User was recommended a gentle cleaning process for white Adidas Superstars using a mild soap solution or white vinegar, avoiding harsh scrubbing. (from a chat on 2023-05-30)\n- User was recommended shoe cleaning kits including Saphir Medaille d'Or, Kiwi, Dr. Martens, and Jason Markk for maintaining their footwear. (from a chat on 2023-05-30)\n- User decided to purchase a cedar shoe tree for their brown leather boots to maintain shape and prevent creasing. (from a chat on 2023-05-30)\n- User decided to purchase a leather-specific shoe cleaning kit for their brown leather boots, with Saphir, Kiwi, and Lexol recommended as reputable brands. (from a chat on 2023-05-30)\n- User was provided with maintenance tips for leather boots, including regular conditioning, waterproofing, proper storage with shoe trees, and avoiding extreme temperatures. (from a chat on 2023-05-30)\n- User decided to organize their shoe rack by type, then by color, and plans to store out-of-season shoes in storage bins. (from a chat on 2023-05-30)\n- User decided to organize their shoe closet by categorizing shoes first by type and then by color. (from a chat on 2023-05-30)\n- User is looking for a cobbler to repair their brown leather boots and was advised to use online searches, personal recommendations, or local shoe stores to find a reputable professional. (from a chat on 2023-05-30)\n- User was advised to find a cobbler through online searches, word-of-mouth recommendations, local shoe repair associations, and review sites. (from a chat on 2023-05-30)\n- User's brown leather boots have a loose heel that requires professional repair. (from a chat on 2023-05-30)\n- User is writing a book exploring the relationship between the four elements (Earth, Water, Air, Fire) and different brain wave frequencies (delta, theta, alpha, beta) from an esoteric perspective. (from a chat on 2023-06-05)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-05-30: \"User owns a pair of black Converse Chuck Taylor All Star sneakers, which they have worn four times as of May 30, 2023.\"\n*   From the same chat: \"User owns a pair of black Converse sneakers which they have worn six times as of May 29, 2023.\"\n\n**2. Reason over the information:**\n*   There is a discrepancy in the provided history regarding the number of wears for the black Converse sneakers. \n*   The specific mention of \"Chuck Taylor All Star\" sneakers states they were worn four times as of May 30, 2023.\n*   The mention of \"black Converse sneakers\" (a broader category) states they were worn six times as of May 29, 2023.\n*   Since the question specifically asks about the \"black Converse Chuck Taylor All Star sneakers,\" the most accurate figure provided in the history is four times.\n\n**Answer:**\nAs of May 30, 2023, you have worn your black Converse Chuck Taylor All Star sneakers four times.",
+ "dump": "- User was recommended a gentle cleaning process for white Adidas Superstars using a mild soap solution or white vinegar, avoiding harsh scrubbing. (session 2023-05-30)\n- The 'Applied Plotting, Charting & Data Representation in Python' course covers visualization principles and libraries including Matplotlib, Seaborn, and Plotly. (session 2023-05-30)\n- User decided to organize their shoe closet by categorizing shoes first by type and then by color. (session 2023-05-30)\n- User is interested in the history and preservation of the Alcazaba of Málaga, including its architectural evolution, restoration projects, and cultural significance. (session 2023-06-16)\n- User owns a pair of black Converse Chuck Taylor All Star sneakers, which they have worn four times as of May 30, 2023, including to a friend's birthday party on May 27, 2023. (session 2023-05-30)\n- Must-see attractions at the Alcazaba of Málaga for tourists include the Nazrid Palace, the Islamic-Andalusian gardens, the defensive walls, the museum, and the panoramic views of the city and Mediterranean coast. (session 2023-06-16)\n- User is working on a thesis project and is currently using Asana to break down large tasks into smaller ones and set deadlines. (session 2023-05-30)\n- User was recommended several Coursera data science specializations from top universities, including programs from the University of Michigan, Stanford, the University of Illinois at Urbana-Champaign, and Duke University. (session 2023-05-30)\n- User owns a pair of black Converse sneakers which they have worn six times as of May 29, 2023. (session 2023-05-30)\n- User was recommended various online data science resources including edX, DataCamp, Kaggle, KDNuggets, the 'Python Data Science Handbook' by Jake VanderPlas, and specific books by Sebastian Raschka, Aurélien Géron, and Wes McKinney. (session 2023-05-30)\n- The 'Machine Learning for Data Science in Python' course covers supervised and unsupervised learning, regression, decision trees, random forests, model evaluation, and hyperparameter tuning using Scikit-learn. (session 2023-05-30)\n- User was recommended time tracking tools that integrate with Asana, including Toggl, Harvest, RescueTime, Time Doctor, Clockify, and Hubstaff. (session 2023-05-30)\n- User decided to purchase a leather-specific shoe cleaning kit for their brown leather boots, with Saphir, Kiwi, and Lexol recommended as reputable brands. (session 2023-05-30)\n- User decided to purchase a cedar shoe tree for their brown leather boots to maintain shape and prevent creasing. (session 2023-05-30)\n- User is looking for a cobbler to repair their brown leather boots and was advised to use online searches, personal recommendations, or local shoe stores to find a reputable professional. (session 2023-05-30)\n- User was advised to find a cobbler through online searches, word-of-mouth recommendations, local shoe repair associations, and review sites. (session 2023-05-30)\n- User is interested in learning about financial security, specifically the measures financial institutions take to maintain service standards and prevent fraud. (session 2023-05-30)\n- User is considering attending a data science conference in June 2023 and was recommended conference management tools like Conferences.io, Lanyrd, Whova, and Eventbrite to stay organized. (session 2023-05-30)\n- User was provided with maintenance tips for leather boots, including regular conditioning, waterproofing, proper storage with shoe trees, and avoiding extreme temperatures. (session 2023-05-30)\n- User is interested in the future trajectory of Dia de los Muertos, specifically how it may continue to adapt through global cultural exchange and new forms of public celebration. (session 2023-05-30)\n- User is exploring the modern commercialization of Dia de los Muertos and is reflecting on whether this trend diminishes the holiday's traditional significance. (session 2023-05-30)\n- The Nazrid Palace in the Alcazaba of Málaga dates to the 11th century, features Islamic-Andalusian architecture like intricate tilework and stucco, and is culturally significant for representing a period of religious coexistence. (session 2023-06-16)\n- User questions the value of investing resources into preserving languages with few speakers, suggesting that focus should be on languages more useful for global social and economic systems. (session 2023-05-02)\n- User is considering purchasing Vans Old Skool sneakers and was advised that they are a comfortable, durable, and worthwhile investment for casual wear. (session 2023-05-30)\n- The Nasrid dynasty expanded the Alcazaba's defensive walls, built the Puerta de los Cuartos de Granada, and added structures like the Palace of the Governor and the Torre del Homenaje. (session 2023-06-16)\n- User was provided with comprehensive tips for personal fraud protection, including securing personal information, using strong passwords, monitoring accounts, avoiding phishing, using 2FA, securing devices, and avoiding public Wi-Fi. (session 2023-05-30)\n- User is interested in the challenges of language preservation, including limited resources, lack of written materials, socio-cultural barriers, language attrition, and risks of cultural misappropriation. (session 2023-05-02)\n- User was recommended waterproofing sprays such as Scotchgard, Crepe Protect, and Nikwax to protect their Converse sneakers from mud and rain. (session 2023-05-30)\n- User is interested in the criteria for classifying languages as endangered, which include speaker count, speaker age, intergenerational transmission, language prestige, and political/economic factors. (session 2023-05-02)\n- User was recommended citation management tools that support APA style, including Mendeley, Zotero, EndNote, RefWorks, Citavi, Papers, and APA Style Central. (session 2023-05-30)\n- User is writing a book exploring the relationship between the four elements (Earth, Water, Air, Fire) and different brain wave frequencies (delta, theta, alpha, beta) from an esoteric perspective. (session 2023-06-05)\n- Assistant provided information that as of 2021, approximately 3,000 languages are classified as endangered. (session 2023-05-02)\n- Throughout its history, the Alcazaba of Málaga served as a fortress, palace, military barracks, prison, and Royal Artillery Workshop before becoming a museum and tourist attraction. (session 2023-06-16)\n- Assistant provided code to update the 'SquareIntegration' Mongoose schema with a 'syncEnabled' boolean property (defaulting to true) and modified 'createSquareIntegration' and 'updateSquareIntegration' controller methods to handle this property. (session 2023-06-01)\n- The Alcazaba of Málaga underwent a restoration project in 2012 for the Nazrid Palace and a 2020 project to rehabilitate its Islamic-Andalusian gardens using traditional techniques. (session 2023-06-16)\n- User was recommended digital calendar and planner tools for organization, including Google Calendar, Outlook, Apple Calendar, Trello, Asana, Todoist, Evernote, AnyList, Fantastical, Planner Pro, and Day One. (session 2023-05-30)\n- User's brown leather boots have a loose heel that requires professional repair. (session 2023-05-30)\n- User was recommended shoe cleaning kits including Saphir Medaille d'Or, Kiwi, Dr. Martens, and Jason Markk for maintaining their footwear. (session 2023-05-30)\n- User is interested in methods for documenting and preserving endangered languages, such as linguistic documentation, revitalization programs, digital archives, immersion schools, and community-driven efforts. (session 2023-05-02)\n- Assistant explained that preserving endangered languages maintains cultural diversity, protects traditional ecological and medicinal knowledge, and provides cognitive benefits through multilingualism. (session 2023-05-02)\n- User is interested in the historical evolution of Dia de los Muertos, noting its origins in Aztec culture blended with Spanish colonial influences and its shift to coincide with Catholic All Saints' and All Souls' Days. (session 2023-05-30)\n- User was advised on additional fraud prevention measures such as being wary of unsolicited messages, securing physical mail, checking annual credit reports, protecting their Social Security number, and staying informed about current scams. (session 2023-05-30)\n- User was provided with a 10-step cleaning guide for their black Converse Chuck Taylor All Star sneakers, including using mild soap, avoiding harsh chemicals, and air drying. (session 2023-05-30)\n- Assistant provided an esoteric framework relating Saint Peter to Water, Satan to Fire, Saint Francis of Assisi to Earth, and Saint Michael the Archangel to Air. (session 2023-06-05)\n- Assistant provided updated client-side service code for 'createSquareIntegration' and 'updateSquareIntegration' to include 'syncEnabled' in the request payload, and a revised 'ManageAPIAccessPage' React component to manage and toggle the sync status. (session 2023-06-01)\n- User is implementing a 'syncEnabled' toggle for their Square POS integration, requiring updates to the MongoDB 'SquareIntegration' schema, server-side controller methods, and client-side service and UI components. (session 2023-06-01)\n- User decided to organize their shoe rack by type, then by color, and plans to store out-of-season shoes in storage bins. (session 2023-05-30)\n- User owns white Adidas Superstars which they wore to the gym and subsequently cleaned with a toothbrush and soap. (session 2023-05-30)\n- User was recommended journals for statistics and data analysis research, including JASA, Annals of Statistics, JMLR, Biometrika, Computational Statistics & Data Analysis, Statistical Science, and Journal of Computational and Graphical Statistics. (session 2023-05-30)\n- User is researching academic sources for a paper on statistics and data analysis and was recommended databases including JSTOR, ScienceDirect, Scopus, Web of Science, and arXiv. (session 2023-05-30)\n- User was recommended project management tools for breaking down tasks and tracking progress, including Asana, Trello, ClickUp, Wrike, Basecamp, Microsoft Planner, and Smartsheet. (session 2023-05-30)\n- Notable historical events at the Alcazaba include its 11th-century construction by King Badis of Granada, its capture by King Ferdinand III in the 13th century, its use as a prison during the Spanish Civil War in 1937, and its use as a filming location for 'The Wind and the Lion' in 1975. (session 2023-06-16)\n- User is interested in learning data science and has previously completed a Python programming course from the University of Michigan on Coursera. (session 2023-05-30)\n- The University of Michigan's Data Science Specialization on Coursera consists of five courses covering the data science workflow, including Python, data cleaning, visualization, machine learning, and a capstone project. (session 2023-05-30)\n- User finds their black Converse Chuck Taylor All Star sneakers comfortable and enjoys pairing them with jeans and dresses. (session 2023-05-30)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 55,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 36.3,
+  "total": 38.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

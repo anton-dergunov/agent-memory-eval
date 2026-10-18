@@ -1,0 +1,90 @@
+{
+ "qid": "c4ea545c",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Do I go to the gym more frequently than I did previously?",
+ "reference": "Yes",
+ "question_date": "2023-09-01 19:15",
+ "sessions": [
+  {
+   "id": "sharegpt_JJu53iW_0",
+   "date": "2023-05-15 16:13",
+   "evidence": false
+  },
+  {
+   "id": "a2a8e2c9",
+   "date": "2023-05-21 05:58",
+   "evidence": false
+  },
+  {
+   "id": "60fdb334_2",
+   "date": "2023-05-31 21:13",
+   "evidence": false
+  },
+  {
+   "id": "answer_d3bf812b_1",
+   "date": "2023-06-01 09:48",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_369982",
+   "date": "2023-06-06 12:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vAsigme_0",
+   "date": "2023-07-30 09:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_21766",
+   "date": "2023-08-15 03:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_d3bf812b_2",
+   "date": "2023-08-15 20:17",
+   "evidence": true
+  },
+  {
+   "id": "6f8f4c80_1",
+   "date": "2023-08-27 12:36",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_360867",
+   "date": "2023-08-31 23:20",
+   "evidence": false
+  }
+ ],
+ "context": "- The assistant acknowledges that the user utilizes a habit tracker app to maintain consistency and track tasks, meditation, and exercise. (valid since 2023-08-15)\n- Grated ginger is frequently used in Japanese cuisine alongside miso. (valid since 2023-05-31)\n- The user is interested in learning more about white miso paste and how it is used in cooking. (valid since 2023-05-31)\n- The user has been preparing quinoa salad as part of their meal prep routine. (valid since 2023-06-01)\n- The user is planning a trip to Japan and needs to apply for a Japanese visa. (valid since 2023-05-21)\n- There was an increase in demand for low-alcohol beers during the pandemic. (valid since 2023-08-15)\n- The assistant acknowledges the requirement for the system to function similarly to an Excel table where users can update device status and owner details. (valid since 2023-07-30)\n- Grilled Chicken and Veggie Containers can include a dollop of tzatziki sauce. (valid since 2023-06-01)\n- Toasted sesame seeds are added to Miso Honey Sesame to provide a nutty flavor and crunchy texture. (valid since 2023-05-31)\n- Grilled Chicken and Veggie Containers are served with a portion of quinoa. (valid since 2023-06-01)",
+ "answer": "**Step 1: Extract relevant information**\n*   The history chats state: \"The assistant acknowledges that the user utilizes a habit tracker app to maintain consistency and track tasks, meditation, and exercise.\" (Valid since 2023-08-15).\n*   There is no information in the provided history regarding the user's historical gym attendance frequency or any comparative data regarding how often the user went to the gym in the past versus the present.\n\n**Step 2: Reason over the information**\n*   While the history confirms that the user tracks exercise using a habit tracker app, the provided facts do not contain any data points regarding the user's past gym habits or a record of current gym frequency. \n*   Because there is no baseline data or historical comparison provided in the facts, it is impossible to determine if the user is going to the gym more frequently than they did previously.\n\n**Answer:**\nBased on the provided history, it is not possible to answer this question. While the facts confirm that you track your exercise using a habit tracker app, there is no information regarding your past gym attendance or a comparison to your current frequency.",
+ "dump": "- William of Tyre wrote a historical account titled Deeds Done Beyond the Sea that supposedly includes an incident involving the Patriarch of Antioch. (valid since 2023-05-15)\n- The assistant apologized to the user for providing inaccurate information about William of Tyre's book. (valid since 2023-05-15)\n- The assistant admitted to the user that it could not find a specific quote regarding Reynald's ransom demand in William of Tyre's book. (valid since 2023-05-15)\n- The user is planning a trip to Japan and needs to apply for a Japanese visa. (valid since 2023-05-21)\n- The user is thinking about buying a Suica card online for their trip to Japan. (valid since 2023-05-21)\n- The assistant provides information about the utility and online availability of the Suica card. (valid since 2023-05-21)\n- The assistant provides estimated processing times for tourist, business, and student Japanese visa applications. (valid since 2023-05-21)\n- The user is interested in learning more about white miso paste and how it is used in cooking. (valid since 2023-05-31)\n- Grated ginger is added to Miso Honey Sesame flavor for extra warmth and depth. (valid since 2023-05-31)\n- Grated ginger is frequently used in Japanese cuisine alongside miso. (valid since 2023-05-31)\n- White miso paste is a staple ingredient in Japanese cuisine. (valid since 2023-05-31)\n- White miso paste can be used to season popcorn. (valid since 2023-05-31)\n- Honey complements the savory umami flavor of miso paste. (valid since 2023-05-31)\n- Toasted sesame seeds are added to Miso Honey Sesame to provide a nutty flavor and crunchy texture. (valid since 2023-05-31)\n- The user has been preparing quinoa salad as part of their meal prep routine. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers contain chicken breast marinated in olive oil, lemon juice, and herbs. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers use olive oil in the chicken marinade and for roasting vegetables. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers incorporate lemon juice into the chicken marinade. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers are flavored with herbs such as thyme or rosemary. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers utilize garlic in the chicken marinade. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can include roasted broccoli as part of the vegetable selection. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can include roasted bell peppers. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can include roasted zucchini. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can include roasted carrots. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can include roasted onions. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers are served with a portion of quinoa. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers may be served with a portion of brown rice. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can be garnished with cherry tomatoes. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can be topped with avocado. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can include a dollop of tzatziki sauce. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can be seasoned with red pepper flakes for heat. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can include sliced jalapeños for added heat. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can use cauliflower rice as a low-carb substitute for grains. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can swap chicken for shrimp. (valid since 2023-06-01)\n- Grilled Chicken and Veggie Containers can swap chicken for tofu. (valid since 2023-06-01)\n- assistant discusses the film's themes of human spirit, resilience, and the will to survive with the user (valid since 2023-06-06)\n- The assistant suggests building a Bluetooth device management bulletin board as a web application for company use. (valid since 2023-07-30)\n- The assistant recommends using the Python-based Flask web development framework to create the bulletin board. (valid since 2023-07-30)\n- The assistant suggests the JavaScript-based Express web development framework as an alternative for building the bulletin board. (valid since 2023-07-30)\n- The assistant acknowledges the requirement for the system to function similarly to an Excel table where users can update device status and owner details. (valid since 2023-07-30)\n- Draught beer is a type of beer that saw reduced demand during the COVID-19 pandemic. (valid since 2023-08-15)\n- Packaged beer became a focus for the beer industry during the COVID-19 pandemic. (valid since 2023-08-15)\n- Packaged beer includes formats such as beer cans. (valid since 2023-08-15)\n- Packaged beer includes formats such as beer bottles. (valid since 2023-08-15)\n- Some beer industry participants produced hand sanitizer as a charitable effort during COVID-19. (valid since 2023-08-15)\n- There was an increase in demand for low-alcohol beers during the pandemic. (valid since 2023-08-15)\n- Alex recommends the book The Silent Patient as an intriguing mystery/thriller. (valid since 2023-08-15)\n- The assistant acknowledges that the user utilizes a habit tracker app to maintain consistency and track tasks, meditation, and exercise. (valid since 2023-08-15)\n- Emma Taylor is the author of the book The Whispering Walls. (valid since 2023-08-27)\n- The assistant recommends using glue sticks for attaching heavier items like ticket stubs or photos in a book journal. (valid since 2023-08-27)\n- The assistant recommends using decoupage medium for attaching delicate papers or tissue in a book journal. (valid since 2023-08-27)\n- The assistant recommends using washi tape for adding a pop of color to a book journal, noting it can be easily removed if needed. (valid since 2023-08-27)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 52,
+  "invalidated": 0,
+  "episodes": 17,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 106.0,
+  "total": 107.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

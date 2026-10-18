@@ -1,0 +1,96 @@
+{
+ "qid": "ce6d2d27",
+ "arm": "honcho-chat",
+ "split": "main",
+ "question": "What day of the week do I take a cocktail-making class?",
+ "reference": "Friday",
+ "question_date": "2023-07-15 22:19",
+ "sessions": [
+  {
+   "id": "answer_73540165_1",
+   "date": "2023-06-16 13:26",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_72kPQPm_11",
+   "date": "2023-06-19 09:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_1uSOnON_25",
+   "date": "2023-06-27 22:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_227355",
+   "date": "2023-06-30 15:34",
+   "evidence": false
+  },
+  {
+   "id": "cd92ac85_1",
+   "date": "2023-06-30 16:18",
+   "evidence": false
+  },
+  {
+   "id": "answer_73540165_2",
+   "date": "2023-06-30 22:49",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_504309",
+   "date": "2023-07-05 17:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_306593",
+   "date": "2023-07-05 17:45",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_WQctw3k_0",
+   "date": "2023-07-06 07:34",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_206676",
+   "date": "2023-07-12 09:35",
+   "evidence": false
+  }
+ ],
+ "context": "I notice that you have mentioned contradictory information regarding your cocktail-making class.\n\nOn June 16, 2023, you mentioned having a class scheduled for **Thursday**. However, in multiple subsequent entries on June 30, 2023, you referred to attending the class on **Fridays**, specifically noting that you were attending one on Friday, July 7, 2023.\n\nWhich day is correct?",
+ "answer": "To determine the correct day of the week for your cocktail-making class, let’s break down the information provided:\n\n**Step 1: Extract relevant information**\n*   **June 16, 2023:** You mentioned a class scheduled for a **Thursday**.\n*   **June 30, 2023:** You stated that you attend classes on **Fridays**.\n*   **Specific instance:** You noted attending a class on **Friday, July 7, 2023**.\n\n**Step 2: Reason over the information**\n*   The mention of a \"Thursday\" class on June 16 appears to be an initial or potentially incorrect reference.\n*   The subsequent entries on June 30 consistently identify the class day as \"Fridays.\"\n*   The specific confirmation of attending a class on July 7, 2023, serves as a practical verification. Checking the calendar for July 2023, July 7 was indeed a Friday. \n\n**Answer:**\nBased on your consistent follow-up entries and the verified attendance on July 7, 2023, the correct day for your cocktail-making class is **Friday**.",
+ "dump": "- [explicit] user intends to serve spicy mango margaritas at a dinner party.\n- [explicit] user selected spicy shrimp ceviche as a dinner party appetizer.\n- [explicit] user is planning a dinner party menu.\n- [explicit] user selected grilled pineapple and prosciutto skewers as a dinner party appetizer.\n- [explicit] user has decided to serve grilled jerk chicken with mango salsa as a main course for the dinner party.\n- [explicit] user has been experimenting with jerk seasoning.\n- [explicit] user has a cocktail-making class scheduled for Thursday.\n- [explicit] user is considering serving roasted sweet potatoes as a side dish for the dinner party.\n- [explicit] user enjoys the flavor that jerk seasoning adds to chicken.\n- [explicit] user is planning a dinner party.\n- [explicit] user is seeking instructions on how to make mango salsa for a dessert.\n- [explicit] user prefers creamy desserts with a tangy and refreshing contrast.\n- [explicit] user intends to serve dessert after the main course.\n- [explicit] user chose coconut lime panna cotta with mango salsa as a dessert.\n- [explicit] user is inquiring whether the mango salsa for dessert should be the same recipe as the mango salsa served with jerk chicken.\n- [explicit] user noticed and appreciated aspects of a game more than before after consuming cannabis.\n- [explicit] user is interested in the philosophical topic of the ascent to the Good.\n- [explicit] user has a personal connection to a person named Graham.\n- [explicit] user consumed cannabis on 2023-06-19.\n- [explicit] user has sent an email to Graham.\n- [explicit] user is interested in the philosophical views on psychoactive substances.\n- [explicit] user is interested in Bruno Latour.\n- [explicit] user is interested in information regarding the organization Women in Renewable Energy (WiRE).\n- [explicit] user is interested in the frequency of safety protocol reviews for dangerous flight tests.\n- [explicit] user is interested in knowing if any recent major incidents have led to stricter aviation safety regulations.\n- [explicit] user is interested in how aviation authorities enforce safety regulations for flight tests.\n- [explicit] user is interested in regulations governing dangerous flight tests.\n- [explicit] user is interested in a lentil curry recipe that serves 4-6 people and uses common spices.\n- [explicit] user prepares rice for the week on Sundays.\n- [explicit] user wakes up early on Sundays to perform meal prep.\n- [explicit] user portions out rice into individual containers.\n- [explicit] user has a large quantity of mango at home.\n- [explicit] user wants to add mango to the lentil curry recipe to introduce sweetness and additional flavor.\n- [explicit] user portions out rice into individual containers for the week as part of a meal prep ritual.\n- [explicit] user meal preps every Sunday.\n- [explicit] user intends to experiment with different spices and herbs to add flavor to their meal prep.\n- [explicit] user has a ritual of waking up early on Sundays to cook a large batch of rice.\n- [explicit] user wants to learn how to store spices and herbs to preserve their flavor and aroma.\n- [explicit] user plans to add cumin and coriander to a lentil curry.\n- [explicit] user intends to experiment with adding ras el hanout to lentils.\n- [explicit] user attends a cocktail-making class on Fridays.\n- [explicit] user likes the Watermelon Basil Margarita recipe.\n- [explicit] user plans to experiment with tequila cocktail recipes during a Friday cocktail-making class.\n- [explicit] user has been experimenting with using basil in cocktails.\n- [explicit] user is interested in refreshing summer drinks that incorporate tequila.\n- [explicit] user requested a recipe for watermelon puree.\n- [explicit] user is looking for inspiration for a new cocktail recipe.\n- [explicit] user believes basil pairs well with tequila.\n- [explicit] user plans to roast watermelon before pureeing it for the margarita recipe.\n- [explicit] user is seeking recommendations for tequila that pairs well with watermelon and basil flavors.\n- [explicit] user uses Avion Silver tequila in homemade margaritas.\n- [explicit] user is attending a cocktail-making class on the upcoming Friday, July 7, 2023.\n- [explicit] user is interested in experimenting with new tequila-based cocktail recipes.\n- [explicit] user enjoys Avion Silver tequila.\n- [explicit] user has previously consumed Avion Silver tequila.\n- [explicit] user plans to try making a Tequila Sour during their cocktail-making class.\n- [explicit] user has an interest in experimenting with grapefruit juice in cocktails.\n- [explicit] user plans to try making a Paloma during their cocktail-making class.\n- [explicit] user intends to test their website for keyboard accessibility.\n- [explicit] user is interested in ensuring their website is accessible to all users regardless of their abilities.\n- [explicit] user is a web developer.\n- [explicit] user considers making their website accessible for all users to be extremely important.\n- [explicit] user owns a website.\n- [explicit] user intends to implement accessibility tips on their website.\n- [explicit] user is interested in information regarding Alexandria Ocasio-Cortez's track record on social justice and equity.\n- [explicit] user is interested in the future political priorities of Alexandria Ocasio-Cortez.\n- [explicit] user is starting a podcast with Matt tentatively titled \"After the wire\".\n- [explicit] user defines the target audience for the podcast as people in early stage tech, venture investors, and those interested in startups.\n- [explicit] user intends to eventually expand the podcast's guest pool to include other founders to build professional relationships.\n- [explicit] user plans to prioritize guests who are founders that the user and Matt have already invested in.\n- [explicit] user intends for the podcast to interview early stage founders about the real challenges, ups and downs, and substance of building a company.\n- [explicit] user likes the idea of including recurring segments in a podcast.\n- [explicit] user is working on a podcast.\n- [explicit] user identifies \"science corner\" and \"recruiting frenzy\" as examples of recurring podcast segments.\n- [explicit] user believes that striving to be more empathetic and selfless can lead to healthier relationships.\n- [explicit] user values the themes of working together and considering others in \"Into the Woods\".\n- [explicit] user appreciates the use of humor in \"Into the Woods\" to balance out heavier themes.\n- [explicit] user believes that \"Into the Woods\" helps people aspire to be better in their relationships.\n- [explicit] user appreciated that each character in \"Into the Woods\" had their own personal journey and struggles.\n- [explicit] user finds the music of \"Into the Woods\" to be fantastic.\n- [explicit] user hums the tunes from \"Into the Woods\".\n- [explicit] user finds \"Into the Woods\" to be a fun and catchy musical.\n- [explicit] user finds the blending of different fairy tale stories in \"Into the Woods\" interesting.\n- [deductive] user is a podcast producer.\n- [deductive] user is an investor in startup companies.\n- [deductive] user has an interest in musical theater.\n- [inductive] user tends to structure complex projects (like the podcast) with a mix of recurring, thematic segments and clear strategic goals for content and networking.\n- [inductive] user appreciates media that combines entertainment with thematic substance and personal growth narratives, such as the musical \"Into the Woods\".",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 85.4,
+  "total": 88.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

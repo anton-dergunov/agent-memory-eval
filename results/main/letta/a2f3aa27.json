@@ -1,0 +1,121 @@
+{
+ "qid": "a2f3aa27",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many followers do I have on Instagram now?",
+ "reference": 1300,
+ "question_date": "2023-06-15 23:26",
+ "sessions": [
+  {
+   "id": "ultrachat_59277",
+   "date": "2023-05-04 10:47",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_181699",
+   "date": "2023-05-25 03:46",
+   "evidence": false
+  },
+  {
+   "id": "b4f28f96_1",
+   "date": "2023-05-25 04:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_5126c02d_1",
+   "date": "2023-05-25 05:26",
+   "evidence": true
+  },
+  {
+   "id": "answer_5126c02d_2",
+   "date": "2023-05-25 09:28",
+   "evidence": true
+  },
+  {
+   "id": "b65f51fb_5",
+   "date": "2023-05-25 15:40",
+   "evidence": false
+  },
+  {
+   "id": "98c6946f_1",
+   "date": "2023-05-25 15:56",
+   "evidence": false
+  },
+  {
+   "id": "57bf4122_1",
+   "date": "2023-05-25 19:24",
+   "evidence": false
+  },
+  {
+   "id": "39709ef6_2",
+   "date": "2023-06-05 22:13",
+   "evidence": false
+  },
+  {
+   "id": "74ef19f0_1",
+   "date": "2023-06-08 20:21",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nUser is a student who recently moved to NYC from Kenya (arrived June 15, 2023). Currently trying to navigate the NYC subway system. \n\n(Previously living in Edinburgh for a Master's in Computer Science at the University of Edinburgh and living in Marchmont. Interested in historical figure modeling, specifically 1/16 scale WWII German soldiers, and enjoys hosting Instagram Lives.)\n\nInterested in taking affordable certification courses in NYC to improve skills and career prospects.\nUser recently bought a new smart TV (originally $700, purchased for much less). Currently shopping for a new soundbar.\nInterested in purchasing a Sonos Beam with a Sonos wireless subwoofer for their new TV setup.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "I'm sorry, I don't actually have access to your personal social media accounts or real-time data from platforms like Instagram, so I can't check your follower count for you. \n\nIf you'd like, I can help you look for tips on how to grow your audience or keep track of your growth milestones in our conversations! How has the streaming been going lately?",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nUser is a student who recently moved to NYC from Kenya (arrived June 15, 2023). Currently trying to navigate the NYC subway system. \n\n(Previously living in Edinburgh for a Master's in Computer Science at the University of Edinburgh and living in Marchmont. Interested in historical figure modeling, specifically 1/16 scale WWII German soldiers, and enjoys hosting Instagram Lives.)\n\nInterested in taking affordable certification courses in NYC to improve skills and career prospects.\nUser recently bought a new smart TV (originally $700, purchased for much less). Currently shopping for a new soundbar.\nInterested in purchasing a Sonos Beam with a Sonos wireless subwoofer for their new TV setup.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Instagram followers\"})"
+  ],
+  "blocks_chars": 896,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 455.5,
+  "total": 462.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

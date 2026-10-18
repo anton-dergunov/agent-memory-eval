@@ -1,0 +1,106 @@
+{
+ "qid": "07741c45",
+ "arm": "graphiti",
+ "split": "pilot",
+ "question": "Where do I currently keep my old sneakers?",
+ "reference": "in a shoe rack in my closet",
+ "question_date": "2023-06-23 07:31",
+ "sessions": [
+  {
+   "id": "answer_7e9ad7b4_1",
+   "date": "2023-05-25 10:04",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_unwdGag_0",
+   "date": "2023-05-25 21:12",
+   "evidence": false
+  },
+  {
+   "id": "523e716b_2",
+   "date": "2023-05-26 01:30",
+   "evidence": false
+  },
+  {
+   "id": "443688cc_2",
+   "date": "2023-05-26 03:45",
+   "evidence": false
+  },
+  {
+   "id": "66c23110_2",
+   "date": "2023-05-26 10:23",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_27772",
+   "date": "2023-05-27 10:56",
+   "evidence": false
+  },
+  {
+   "id": "df846730",
+   "date": "2023-05-27 12:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mwblaPp_96",
+   "date": "2023-05-27 23:58",
+   "evidence": false
+  },
+  {
+   "id": "af4a2fd1",
+   "date": "2023-05-28 12:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_7e9ad7b4_2",
+   "date": "2023-05-29 15:01",
+   "evidence": true
+  }
+ ],
+ "context": "- The user is planning to purchase a pair of cargo pants to wear with white sneakers. (valid since 2023-05-28)\n- The user owns a pair of white sneakers purchased at the Adidas store on May 20, 2023. (valid since 2023-05-28)\n- The user is planning to take an inventory of their shoe collection to declutter and identify pairs that they haven't worn in ages. (valid since 2023-05-25)\n- The user plans to donate their old dress shoes to a local charity thrift store this Saturday, May 27, 2023. (valid since 2023-05-25)\n- The user is planning to organize their closet by shoe type, such as grouping all boots together and all sneakers together. (valid since 2023-05-25)\n- The user plans to visit the local charity thrift store this Saturday, May 27, 2023, to donate their old dress shoes. (valid since 2023-05-25)\n- The user explains to the assistant that they bought the new backpack to replace an old messenger bag that had a broken zipper and was becoming worn out. (valid since 2023-05-27)\n- The user purchased a new backpack from an outdoor store downtown. (valid since 2023-05-27)\n- The user acquired a new backpack from an outdoor store downtown last Sunday, May 21, 2023. (valid since 2023-05-27)\n- The user owns a grey t-shirt from H&M purchased on May 20, 2023. (valid since 2023-05-28)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The user is planning to take an inventory of their shoe collection to declutter and identify pairs they haven't worn in ages (valid since 2023-05-25).\n*   The user is planning to organize their closet by shoe type, such as grouping all boots together and all sneakers together (valid since 2023-05-25).\n*   There is no information provided in the history regarding the specific location where the user currently keeps their old sneakers.\n\n**Step 2: Reason over the information**\n*   While the history indicates that the user has plans to organize their closet by grouping sneakers together, it does not state where the sneakers are currently stored.\n*   The history mentions the donation of \"old dress shoes,\" but does not mention the disposal or specific storage location of \"old sneakers.\"\n\n**Conclusion:**\nBased on the provided history, there is no information available to determine where you currently keep your old sneakers.",
+ "dump": "- The user plans to donate their old dress shoes to a local charity thrift store this Saturday, May 27, 2023. (valid since 2023-05-25)\n- The user plans to visit the local charity thrift store this Saturday, May 27, 2023, to donate their old dress shoes. (valid since 2023-05-25)\n- The user is planning to take an inventory of their shoe collection to declutter and identify pairs that they haven't worn in ages. (valid since 2023-05-25)\n- The user is planning to organize their closet by shoe type, such as grouping all boots together and all sneakers together. (valid since 2023-05-25)\n- The narrator wanted to light a firecracker on the street corner. (valid since 2023-05-25)\n- The man placed his parcels on the sidewalk to search his pockets. (valid since 2023-05-25)\n- The man thought his match might be in his waistcoat with his watch. (valid since 2023-05-25)\n- The man threw down his walking-stick on the sidewalk. (valid since 2023-05-25)\n- The man threw his letters into the snow while searching for a match. (valid since 2023-05-25)\n- The man pulled a toothpick from the lining of his overcoat. (valid since 2023-05-25)\n- The narrator pushed the man under the wheels of a trolley-car. (valid since 2023-05-25)\n- The user paid a $40 parking ticket they received on February 14th, 2023. (valid since 2023-05-26)\n- The assistant suggests Michelin as a popular tire brand to consider. (valid since 2023-05-26)\n- The assistant suggests Goodyear as a popular tire brand to consider. (valid since 2023-05-26)\n- The assistant suggests Continental as a popular tire brand to consider. (valid since 2023-05-26)\n- The assistant discusses the office Secret Santa gift exchange activities with the user. (valid since 2023-05-26)\n- The La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50 is available in a bundle set with the Toleriane Ultra Night moisturizer for approximately $45. (valid since 2023-05-26)\n- The La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50 is available in a bundle set with the Toleriane Ultra Gentle Cleanser for approximately $40. (valid since 2023-05-26)\n- The La Roche-Posay Toleriane Ultra Fluid Face Moisturizer SPF 50 is available in a bundle set with the Toleriane Ultra Toner for approximately $45. (valid since 2023-05-26)\n- perovskite solar cells act as a low-cost, high-efficiency alternative to traditional silicon solar cells (valid since 2023-05-26)\n- The user acquired a new backpack from an outdoor store downtown last Sunday, May 21, 2023. (valid since 2023-05-27)\n- The new backpack provides space for a laptop. (valid since 2023-05-27)\n- The new backpack provides space for a water bottle. (valid since 2023-05-27)\n- The user purchased a new backpack from an outdoor store downtown. (valid since 2023-05-27)\n- The user describes their new backpack, which they purchased last Sunday, as comfortable and having plenty of space for a laptop, water bottle, and other essentials. (valid since 2023-05-27)\n- The user explains to the assistant that they bought the new backpack to replace an old messenger bag that had a broken zipper and was becoming worn out. (valid since 2023-05-27)\n- The user owns a pair of white sneakers purchased at the Adidas store on May 20, 2023. (valid since 2023-05-28)\n- The user owns a grey t-shirt from H&M purchased on May 20, 2023. (valid since 2023-05-28)\n- The user is planning to purchase a pair of cargo pants to wear with white sneakers. (valid since 2023-05-28)\n- The assistant recommends Dickies for cargo pants as a workwear brand with relaxed fit and durable fabric options. (valid since 2023-05-28)\n- The assistant recommends Carhartt for rugged and durable cargo pants in relaxed or slim fit options. (valid since 2023-05-28)\n- The assistant recommends The North Face for outdoor-inspired cargo pants featuring zip pockets and adjustable cuffs. (valid since 2023-05-28)\n- The assistant recommends Levi's for fashion-forward cargo pants available in various materials like cotton and stretchy fabrics. (valid since 2023-05-28)\n- The assistant recommends Amazon as an online retailer to purchase cargo pants with free shipping and returns. (valid since 2023-05-28)\n- The assistant recommends Zappos as an online retailer offering a wide collection of cargo pants with free shipping and returns. (valid since 2023-05-28)\n- The assistant recommends ASOS as an online retailer for cargo pants in various styles and brands with fast shipping and easy returns. (valid since 2023-05-28)\n- The assistant recommends REI as a store for purchasing durable sandals. (valid since 2023-05-29)\n- The assistant recommends DSW as a store for purchasing durable sandals. (valid since 2023-05-29)\n- The assistant recommends Zappos as a store for purchasing durable sandals. (valid since 2023-05-29)\n- The assistant recommends Amazon as a store for purchasing durable sandals. (valid since 2023-05-29)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 40,
+  "invalidated": 0,
+  "episodes": 16,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 97.9,
+  "total": 99.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

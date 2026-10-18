@@ -1,0 +1,138 @@
+{
+ "qid": "9ea5eabc",
+ "arm": "letta",
+ "split": "main",
+ "question": "Where did I go on my most recent family trip?",
+ "reference": "Paris",
+ "question_date": "2023-06-08 10:33",
+ "sessions": [
+  {
+   "id": "ultrachat_40916",
+   "date": "2023-05-11 08:01",
+   "evidence": false
+  },
+  {
+   "id": "a9a88764",
+   "date": "2023-05-12 03:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_HJhlusD_32",
+   "date": "2023-05-26 02:39",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7jGo66i_151",
+   "date": "2023-05-26 15:56",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_0Qembb9_0",
+   "date": "2023-05-26 20:34",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_1",
+   "date": "2023-05-26 23:01",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_296728",
+   "date": "2023-05-27 04:48",
+   "evidence": false
+  },
+  {
+   "id": "answer_02e66dec_2",
+   "date": "2023-05-28 04:55",
+   "evidence": true
+  },
+  {
+   "id": "66cffcc7",
+   "date": "2023-05-28 16:48",
+   "evidence": false
+  },
+  {
+   "id": "14f0a8ed_2",
+   "date": "2023-05-28 17:41",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is in the Speed Dome area.\nThey drive a 2018 Mustang GT.\nThey are interested in track performance, specifically for auto racing events.\nThey recently participated in the Turbocharged event at the Speed Dome racing track, placing 3rd in the amateur category.\nThe user is planning a track day at the Riverside Speedway soon.\nThe user's upcoming track day at Riverside Speedway is scheduled for January 15th.\nThe user has already installed performance tires and tuned the suspension.\nThe user is developing #Endgame, a cryptocurrency project with a 7-year referral system, airdrop raffles, a structured tax system (currently working on the sell tax breakdown), and a Dynamic Whale Tax (1-10% to purchase reward tokens).\nThe user previously traveled to Hawaii with family and enjoyed snorkeling together, but felt constrained by the schedule.\nThe user felt that their Hawaii trip was too packed, preventing them from having time to explore Waikiki and go shopping.\nThe user attends St. Mary's Church, where they heard a memorable sermon by Father John on forgiveness on March 12th, 2023. They have an old friend named Rachel who also attends there.\n</human>\n\nTool results while answering:\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-18T03:11:11.347555+00:00', 'time_ago': '1m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': 'It is a fascinating contrast! Traveling with family—especially in a city like Paris—is an exercise in **shared discovery and logistics management**, whereas a solo trip—especially to a city like Tokyo—is an exercise in **self-discovery and sensory immersion**.\\n\\nSince you’ve recently experienced both, here is a comparison of how those two styles of travel feel, specifically considering your preference for avoiding a \"packed\" feeling:\\n\\n### 1. The Pacing: \"Syncing\" vs. \"Flowing\"\\n*   **Family Travel (Paris):** Your pace is dictated by the \"lowest common denominator\" of energy. If the kids are hungry, tired, or need a break, the itinerary must pivot. It’s a group negotiation. You are the architect of everyone else’s joy, which is rewarding but exhausting.\\n*   **Solo Travel (Tokyo):** You are in total control of your \"flow.\" If you want to spend three hours in a single bookstore in Daikanyama, you do it. If you want to skip lunch to go to an extra temple, you do it. You don\\'t have to manage anyone else’s fatigue, which allows for a much deeper, meditative exploration of the city.\\n\\n### 2. Interactions: \"Insular\" vs. \"Open\"\\n*   **Family Travel (Paris):** You tend to exist in a \"bubble.\" Your conversations are primarily with your family members. You are experiencing the world *through* them, which is beautiful, but it can sometimes limit your ability to connect with the local culture or strike up a conversation with a stranger.\\n*   **Solo Travel (Tokyo):** You are far more \"porous.\" When you are alone at a counter seat in a ramen shop or a tiny bar in Golden Gai, you are much more approachable—and more likely to approach others. Solo travel often makes you a student of the city, not just a visitor passing through.\\n\\n### 3. Navigation and Logistics: \"The Team Leader\" vs. \"The Navigator\"\\n*   **Family Travel (Paris):** You were likely the \"fixer\"—the one navigating the Metro, checking the reservation times, and making sure everyone has their tickets. You were the project manager.\\n*   **Solo Travel (Tokyo):** The stakes are much lower. You only have to worry about your own ticket, your own stomach, and your own energy levels. This frees up significant mental bandwidth, allowing you to actually look *at* the architecture instead of looking *down* at a map.\\n\\n### 4. Memory Making: \"The Narrative\" vs. \"The Reflection\"\\n*   **Family Travel (Paris):** Your memories are tied to shared moments—your kids\\' reactions, family jokes, and the collective struggle of getting from point A to point B. It’s a shared narrative that you will recount together for years.\\n*   **Solo Travel (Tokyo):** Your memories will be more internal—how the city made you *feel*, the quiet realization of how different the culture is, and the freedom of being anonymous in a bustling metropolis. It’s a period of reflection that often leads to personal growth.\\n\\n### Summary Table: How they differ for you\\n| Feature | Family Trip (Paris) | Solo Trip (Tokyo) |\\n| :--- | :--- | :--- |\\n| **Primary Goal** | Connection & Shared Joy | Immersion & Exploration |\\n| **Main Challenge** | Logistics & Compromise | Loneliness (occasional) |\\n| **Best Asset** | Togetherness | Absolute Freedom |\\n| **Your Role** | Guide / Project Manager | Explorer / Observer |\\n\\n**A thought for your Tokyo trip:**\\nSince you were the \"leader\" in Paris, my biggest tip for Tokyo is to **consciously practice \"letting go.\"** Because you are used to managing a family, you might feel the urge to \"optimize\" your Tokyo trip as well. Try to resist that! \\n\\nLet yourself be \"inefficient.\" If you find yourself in a neighborhood you like, stay there. Don\\'t worry about hitting the next sight on your list. \\n\\n**Does this resonate with how you felt in Paris? Are you looking forward to this \"solo\" aspect, or does the idea",
+ "answer": "Your most recent family trip was to Paris. You previously mentioned that you enjoyed a trip to Hawaii with your family as well, but felt it was too packed, which made you feel constrained and unable to find time to explore Waikiki or go shopping.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\nThe user is in the Speed Dome area.\nThey drive a 2018 Mustang GT.\nThey are interested in track performance, specifically for auto racing events.\nThey recently participated in the Turbocharged event at the Speed Dome racing track, placing 3rd in the amateur category.\nThe user is planning a track day at the Riverside Speedway soon.\nThe user's upcoming track day at Riverside Speedway is scheduled for January 15th.\nThe user has already installed performance tires and tuned the suspension.\nThe user is developing #Endgame, a cryptocurrency project with a 7-year referral system, airdrop raffles, a structured tax system (currently working on the sell tax breakdown), and a Dynamic Whale Tax (1-10% to purchase reward tokens).\nThe user previously traveled to Hawaii with family and enjoyed snorkeling together, but felt constrained by the schedule.\nThe user felt that their Hawaii trip was too packed, preventing them from having time to explore Waikiki and go shopping.\nThe user attends St. Mary's Church, where they heard a memorable sermon by Father John on forgiveness on March 12th, 2023. They have an old friend named Rachel who also attends there.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"family trip\"})"
+  ],
+  "blocks_chars": 1353,
+  "write_steps": 57,
+  "write_tool_calls": [
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 394.1,
+  "total": 402.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

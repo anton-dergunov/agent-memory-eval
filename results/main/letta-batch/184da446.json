@@ -1,0 +1,104 @@
+{
+ "qid": "184da446",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+ "reference": "220",
+ "question_date": "2023-06-17 04:02",
+ "sessions": [
+  {
+   "id": "answer_e2f4f947_1",
+   "date": "2023-05-20 21:24",
+   "evidence": true
+  },
+  {
+   "id": "82a89303",
+   "date": "2023-05-20 21:43",
+   "evidence": false
+  },
+  {
+   "id": "e5f08e40",
+   "date": "2023-05-21 06:32",
+   "evidence": false
+  },
+  {
+   "id": "67d1de46_2",
+   "date": "2023-05-23 08:55",
+   "evidence": false
+  },
+  {
+   "id": "ae56bcf1_1",
+   "date": "2023-05-23 19:18",
+   "evidence": false
+  },
+  {
+   "id": "928eb5fe_2",
+   "date": "2023-05-25 19:08",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84199",
+   "date": "2023-05-28 11:59",
+   "evidence": false
+  },
+  {
+   "id": "d3110bd5_2",
+   "date": "2023-05-28 23:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_e2f4f947_2",
+   "date": "2023-05-29 09:12",
+   "evidence": true
+  },
+  {
+   "id": "59115228",
+   "date": "2023-05-29 11:49",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T15:53:40.308006+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-17 04:02] How many pages of 'A Short History of Nearly Everything' have I read so far?\"}, {'timestamp': '2026-10-17T15:53:34.193429+00:00', 'time_ago': '8s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-29 09:12] What a great topic! AI-powered diagnosis of rare diseases is an area where machine learning can make a significant impact. Rare diseases are often characterized by their low prevalence, making it challenging to diagnose and treat them. AI can help bridge this gap by analyzing large amounts of genetic data, medical literature, and patient information to identify patterns and connections that may not be apparent to human clinicians.\\n\\nThe discovery of DNA structure, as you\\'ve just read about, has been a cornerstone of modern genetics. The Human Genome Project, which was completed in 2003, has enabled us to better understand the genetic basis of many diseases. However, there is still much to be discovered, and AI can play a crucial role in uncovering the underlying causes of rare genetic disorders.\\n\\n**How AI can help:**\\n\\n1. **Genomic analysis:** AI can quickly analyze large amounts of genomic data to identify potential genetic mutations associated with rare diseases. This can help researchers and clinicians identify new disease-causing genes and develop targeted therapies.\\n2. **Pattern recognition:** Machine learning algorithms can recognize patterns in medical images, lab results, and patient symptoms that may indicate a rare disease. This can help clinicians diagnose rare conditions more accurately and quickly.\\n3. **Literature review:** AI can rapidly review vast amounts of medical literature to identify relevant information on rare diseases, which can aid in diagnosis and treatment.\\n4. **Patient matching:** AI can help match patients with rare diseases to clinical trials, research studies, or specialized treatment centers that may not be readily available otherwise.\\n\\n**Examples of AI in rare disease diagnosis:**\\n\\n1. **Undiagnosed Diseases Network (UDN):** The UDN is a collaborative effort between the National Institutes of Health (NIH) and several medical centers to diagnose rare and undiagnosed diseases. AI is being used to analyze genomic data and identify potential causes of these diseases.\\n2. **Rare Genomics Institute:** This non-profit organization uses AI to analyze genomic data and provide insights to families affected by rare genetic disorders.\\n3. **DeepVariant:** This AI-powered platform, developed by Verily Life Sciences, uses machine learning to analyze genomic data and identify variants associated with rare diseases.\\n\\nIt\\'s exciting to think about the potential of AI in rare disease diagnosis, and I\\'m sure you\\'ll continue to find the intersection of AI and genetics fascinating as you continue reading \"A Short History of Nearly Everything\"!\\n\\nWhat do you think are the most significant challenges in applying AI to rare disease diagnosis, and how do you think they can be addressed?'}, {'timestamp': '2026-10-17T15:53:34.193415+00:00', 'time_ago': '8s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-29 09:12] I\\'m really interested in learning more about AI-powered diagnosis of rare diseases. I\\'ve been reading \"A Short History of Nearly Everything\" and it\\'s amazing how much we still don\\'t know about the human body. I\\'m on page 220 now, and I just finished reading about the discovery of DNA structure. It got me thinking about how AI can help diagnose rare genetic disorders.'}, {'timestamp': '2026-10-17T15:53:34.193328+00:00', 'time_ago': '8s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-29 09:12] \"A Short History of Nearly Everything\" is an excellent book! Bill Bryson\\'s writing makes complex t",
+ "answer": "The last time you mentioned your progress, you were on page 220 of *A Short History of Nearly Everything*. That was on May 29, 2023. Have you read any more since then?",
+ "dump": "<human>\n\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"A Short History of Nearly Everything pages read\"})",
+   "conversation_search({\"query\": \"A Short History of Nearly Everything\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 30.1,
+  "total": 36.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

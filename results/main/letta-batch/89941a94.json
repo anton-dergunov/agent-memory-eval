@@ -1,0 +1,98 @@
+{
+ "qid": "89941a94",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "Before I purchased the gravel bike, do I have other bikes in addition to my mountain bike and my commuter bike?",
+ "reference": "Yes. (You have a road bike too.)",
+ "question_date": "2023-06-21 02:24",
+ "sessions": [
+  {
+   "id": "sharegpt_rfvV7Pv_0",
+   "date": "2023-04-26 04:12",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_556968",
+   "date": "2023-04-26 14:33",
+   "evidence": false
+  },
+  {
+   "id": "de275215_3",
+   "date": "2023-04-29 23:29",
+   "evidence": false
+  },
+  {
+   "id": "0b0bc8ae_2",
+   "date": "2023-05-10 22:51",
+   "evidence": false
+  },
+  {
+   "id": "c6c06e6e",
+   "date": "2023-05-11 00:39",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-05-25 15:36",
+   "evidence": true
+  },
+  {
+   "id": "f2df24cd_1",
+   "date": "2023-05-26 01:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_CQ3HZO9_71",
+   "date": "2023-05-26 01:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-05-28 13:41",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_171052",
+   "date": "2023-06-15 17:26",
+   "evidence": false
+  }
+ ],
+ "context": "<human>\n\n- Enjoys watching \"The Crown\" and is interested in royal themes.\n- Enjoys \"My Favorite Murder\" podcast.\n- Plans to host a dinner party on December 22nd with a \"Royal Winter Wonderland\" theme.\n- Interested in elegant, sophisticated recipes and decor.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 2 results:', 'results': [{'timestamp': '2026-10-17T15:49:58.793192+00:00', 'time_ago': '13s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-05-28 13:41] There are several bike shops and tour operators along the route that offer bike rentals, guided tours, and other cycling services. Here are a few recommendations:\\n\\n**Lake Tahoe, CA**\\n\\n* Tahoe City Bikes: Offers bike rentals, guided tours, and shuttle services for cyclists.\\n* Mountain Bike Tahoe: Provides guided mountain bike tours and rentals.\\n\\n**Jackson Hole, WY**\\n\\n* Jackson Hole Mountain Resort Bike Park: Offers bike rentals, guided tours, and lift-serviced mountain biking.\\n* Hoback Sports: Rents bikes, offers guided tours, and provides cycling gear.\\n\\n**Mount Rushmore, SD**\\n\\n* Mount Rushmore Bike Rentals: Rents bikes and offers guided tours in the Black Hills region.\\n* Black Hills Bicycles: Provides bike rentals, guided tours, and cycling accessories.\\n\\n**Minneapolis, MN**\\n\\n* Nice Ride Minnesota: Offers bike-sharing services and guided tours in Minneapolis.\\n* The Hub Bike Co-op: Rents bikes, offers guided tours, and provides cycling gear.\\n\\n**Pittsburgh, PA**\\n\\n* Golden Triangle Bike Rentals: Rents bikes and offers guided tours in Pittsburgh.\\n* Venture Outdoors: Provides bike rentals, guided tours, and outdoor adventure programs.\\n\\nThese are just a few examples, but there are many more bike shops and tour operators along the route. I recommend searching online for \"bike rentals\" or \"guided bike tours\" in each location to find the best options for your needs.\\n\\nAdditionally, consider contacting local cycling clubs or bike advocacy groups in each area for insider knowledge on the best routes, trails, and bike-friendly attractions. They may also be able to provide recommendations for bike shops, tour operators, and cycling services.\\n\\nHave a fantastic trip, and enjoy exploring the scenic routes and local cycling scenes!'}, {'timestamp': '2026-10-17T15:49:58.793134+00:00', 'time_ago': '13s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-28 13:41] What an epic road trip adventure! I've got some fantastic bike-friendly routes and suggestions for you. Since you have 10 days, I'll break down the trip into segments, incorporating cycling days, scenic routes, and bike-friendly stops. Please find a suggested itinerary below:\\n\\nDay 1-2: San Francisco to Lake Tahoe, CA (approx. 200 miles, 3 hours)\\n\\n* Start with a scenic ride from San Francisco to Lake Tahoe, CA. Take US-50 East, which offers stunning views of the Sierra Nevada mountains.\\n* Stop in Placerville, CA, and visit the Placerville Bike Shop for any last-minute tune-ups or gear.\\n* In Lake Tahoe, enjoy a bike ride around the lake on the Tahoe City Bike Trail or the Truckee River Bike Trail. Both offer scenic views and relatively low traffic.\\n\\nDay 3-4: Lake Tahoe to Jackson Hole, WY (approx. 770 miles, 11 hours)\\n\\n* Drive to Jackson Hole, WY, and explore the scenic byways and bike paths in Grand Teton National Park.\\n* Ride the Teton Park Road, a 48-mile route with minimal traffic, or the Jackson Hole Community Path, a 20-mile paved trail.\\n* Visit the Jackson Hole Mountain Resort's bike shop for rentals or advice on local trails.\\n\\nDay 5: Jackson Hole to Mount Rushmore, SD (approx. 560 miles, 8 hours)\\n\\n* Drive to Mount Rushmore, SD, and explore the scenic Black Hills region.\\n* Ride the George S. Mickelson Trail, a 109-mile converted rail-trail with minimal traffic and stunning views.\\n* Stop in Rapid City, SD, and visit the Acme Bicycles shop for local knowledge and supplies.\\n\\nDay 6-7: Mount Rushmore to Minneapolis, MN (approx. 640 miles, 9 hours)\\n\\n* Drive to Minneapolis, MN, and explore the city's extensive bike trails and parks.\\n* Ride the Grand Rounds Scenic Byway, a 13-mile route that takes you through several parks and lakes.\\n* Visit the Freewheel Bike shop in Minneapolis for a tune-up or to e\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "I've searched through our conversation history, but I haven't been able to find a record that details the specific bikes you owned prior to purchasing your gravel bike. \n\nIt's possible that this information wasn't mentioned in our previous discussions, or it may be in a part of our history that hasn't been indexed here. If you happen to remember or would like to tell me more about your bike collection, I'd love to learn more!",
+ "dump": "<human>\n\n- Enjoys watching \"The Crown\" and is interested in royal themes.\n- Enjoys \"My Favorite Murder\" podcast.\n- Plans to host a dinner party on December 22nd with a \"Royal Winter Wonderland\" theme.\n- Interested in elegant, sophisticated recipes and decor.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"bikes I owned before gravel bike mountain bike commuter bike\"})",
+   "conversation_search({\"query\": \"list of my bikes\"})",
+   "conversation_search({\"query\": \"mountain bike commuter bike\"})",
+   "conversation_search({\"query\": \"gravel bike purchase\"})",
+   "conversation_search({\"query\": \"bike collection\"})",
+   "conversation_search({\"query\": \"bicycles\"})",
+   "conversation_search({\"query\": \"Do I own a mountain bike and a commuter bike?\"})",
+   "conversation_search({\"query\": \"my bikes gravel mountain commuter\"})"
+  ],
+  "blocks_chars": 449
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 31.7,
+  "total": 46.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

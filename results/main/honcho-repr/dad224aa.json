@@ -1,0 +1,96 @@
+{
+ "qid": "dad224aa",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "What time do I wake up on Saturday mornings?",
+ "reference": "7:30 am",
+ "question_date": "2023-06-24 03:58",
+ "sessions": [
+  {
+   "id": "ultrachat_236936",
+   "date": "2023-05-23 09:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_1",
+   "date": "2023-05-23 14:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_Jb45xGp_0",
+   "date": "2023-05-23 17:54",
+   "evidence": false
+  },
+  {
+   "id": "91e581ad_1",
+   "date": "2023-05-25 20:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_13",
+   "date": "2023-05-25 20:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2Qvu6BM_34",
+   "date": "2023-05-26 15:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_2",
+   "date": "2023-05-27 02:31",
+   "evidence": true
+  },
+  {
+   "id": "3dcbca49",
+   "date": "2023-05-27 05:24",
+   "evidence": false
+  },
+  {
+   "id": "496a03ee",
+   "date": "2023-05-27 07:18",
+   "evidence": false
+  },
+  {
+   "id": "b971ed75_3",
+   "date": "2023-05-27 21:55",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-05-23 14:14:00] user currently fits a 30-minute jog into their Saturday morning routine.\n[2023-05-23 14:14:00] user prefers not to wake up too early on weekends.\n[2023-05-23 14:14:00] user wants to establish a consistent morning routine on weekends.\n[2023-05-23 14:18:00] user is interested in performing a 30-minute yoga or stretching routine on Sundays.\n[2023-05-23 14:18:00] user wakes up at 8:30 am on Saturdays.\n[2023-05-23 14:22:00] user is attempting to establish a consistent morning routine.\n[2023-05-27 02:37:00] user wakes up at 7:30 am on Saturdays.\n[2023-05-27 02:37:00] user plans to go for a jog on Saturday, June 3, 2023.\n[2023-05-27 21:59:00] user plans to share progress from a 7-day plank challenge on Instagram.\n[2023-05-27 21:59:00] user is planning to do a 7-day plank challenge.\n[2023-05-27 22:01:00] user gained 20 new followers during a week of participating in an Instagram challenge last month.\n[2023-05-27 22:01:00] user intends to reach out to the 20 new followers gained during last month's Instagram challenge to invite them to participate in a plank challenge.\n[2023-05-27 22:01:00] user intends to create a branded hashtag for a plank challenge.\n[2023-05-27 22:03:00] user intends to ask friends and family to join a plank challenge.\n[2023-05-27 22:03:00] user is considering creating a Facebook group for the plank challenge.\n[2023-05-27 22:03:00] user is considering creating a Facebook event for the plank challenge.\n[2023-05-27 22:03:00] user intends to ask friends and family to share the plank challenge with their own friends.\n[2023-05-27 22:05:00] user plans to establish clear rules and guidelines for the Facebook group.\n[2023-05-27 22:05:00] user is organizing a 7-day challenge.\n[2023-05-27 22:05:00] user intends to post daily updates and motivation in the Facebook group.\n[2023-05-27 22:05:00] user plans to create a Facebook group for the 7-day challenge.\n\n## Deductive Observations\n\n[2023-05-27 22:03:00] user leverages social media challenges as a strategy for audience growth and engagement.\n   Premises:\n   - user gained 20 new followers during a week of participating in an Instagram challenge last month.\n   - user has observed that posting consistently on Instagram leads to an increase in followers.\n   - user is planning to do a 7-day plank challenge.\n   - user intends to ask friends and family to join a plank challenge.\n   - user intends to reach out to the 20 new followers gained during last month's Instagram challenge to invite them to participate in a plank challenge.\n\n[2023-05-27 22:03:00] user is a social media content creator focused on fitness and travel.\n   Premises:\n   - user is interested in the fitness and travel niches.\n   - user has observed that their audience responds well to content about their fitness journey and travel adventures.\n   - user wants to increase engagement on their social media content.\n   - user intends to increase their use of IGTV and Reels.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user prefers to utilize multi-platform integration (Instagram and Facebook) to maximize reach and engagement for specific initiatives.\n   **Type**: behavior\n   **Sources**:\n   - user intends to post daily updates and motivation in the Facebook group.\n   - user plans to create a Facebook group for the 7-day challenge.\n   - user plans to share progress from a 7-day plank challenge on Instagram.\n   - user is considering creating a Facebook event for the plank challenge.\n\n **Pattern** [high]: user systematically leverages social media challenges as a primary strategy for audience acquisition and community engagement.\n   **Type**: behavior\n   **Sources**:\n   - user is organizing a 7-day challenge.\n   - user plans to create a Facebook group for the 7-day challenge.\n   - user is planning to do a 7-day plank challenge.\n   - user leverages social media challenges as a strategy for audience growth and engagement.\n   - user gained 20 new followers during a week of participating in an Instagram challenge last month.\n\n",
+ "answer": "To determine what time you wake up on Saturday mornings, I will follow these steps:\n\n**Step 1: Extract relevant information**\n*   [2023-05-23 14:18:00] \"user wakes up at 8:30 am on Saturdays.\"\n*   [2023-05-27 02:37:00] \"user wakes up at 7:30 am on Saturdays.\"\n\n**Step 2: Reason over the information**\n*   The history shows two different wake-up times recorded for Saturdays. \n*   The first entry (May 23) indicates an 8:30 am wake-up time.\n*   The second entry (May 27) indicates a 7:30 am wake-up time.\n*   Since the May 27 entry is the most recent observation regarding your Saturday wake-up time, it reflects your updated routine.\n\n**Answer:**\nBased on the most recent information from May 27, 2023, you wake up at **7:30 am** on Saturday mornings.",
+ "dump": "- [explicit] user found information on their local government website regarding flood prevention and management plans.\n- [explicit] user feels relief knowing there are plans to prevent flooding in their area.\n- [explicit] user located their local government website.\n- [explicit] user searched online for local government information.\n- [explicit] user is concerned about local infrastructure and flood prevention.\n- [explicit] user intends to incorporate yoga or stretching into their Sunday morning routine to loosen up.\n- [explicit] user currently fits a 30-minute jog into their Saturday morning routine.\n- [explicit] user sits at a desk during the week.\n- [explicit] user wants to establish a consistent morning routine on weekends.\n- [explicit] user prefers not to wake up too early on weekends.\n- [explicit] user is interested in performing a 30-minute yoga or stretching routine on Sundays.\n- [explicit] user intends to read more before bed each night.\n- [explicit] user wakes up at 8:30 am on Saturdays.\n- [explicit] user is interested in the topic of entrepreneurship.\n- [explicit] user intends to start small with a yoga or stretching routine and scale up as they become more comfortable.\n- [explicit] user is interested in incorporating a quick breakfast and meal prep for the week into their Sunday morning routine.\n- [explicit] user considers \"The Lean Startup\" by Eric Ries to be a good starting point for learning about startup frameworks.\n- [explicit] user is interested in building and launching successful startups.\n- [explicit] user intends to start the nightly reading routine with \"The Lean Startup\".\n- [explicit] user is attempting to establish a consistent morning routine.\n- [explicit] user intends to read \"The Lean Startup\".\n- [explicit] user plans to apply the principles of \"The Lean Startup\" to user's own projects.\n- [explicit] user aims to read for 30 minutes each night before bed.\n- [explicit] user is interested in Bordeaux wine.\n- [explicit] user has a wine budget of less than US$300 per bottle.\n- [explicit] user prefers red wine.\n- [explicit] user enjoys wine from the Rhone valley.\n- [explicit] user is having Chinese food for dinner on 2023-05-23.\n- [explicit] user enjoys medium to full body French wine.\n- [explicit] user enjoys Napa US wine.\n- [explicit] user is interested in identifying good vintages for Château Brane-Cantenac, Château La Tour Carnet, Château Pichon Longueville Baron, Château Clos du Marquis, and Château d'Aiguilhe between the years 1995 and 2008.\n- [explicit] user has a decorating budget of $2,000 to $3,000.\n- [explicit] user has been living in their new apartment since October 15, 2022.\n- [explicit] user describes their personal style as modern and minimalist.\n- [explicit] user lives in a 700 square foot, one-bedroom apartment with an open-plan layout.\n- [explicit] user recently turned 30 years old.\n- [explicit] user wants to maximize the natural light in their apartment.\n- [explicit] user prefers a neutral color palette of beige, gray, and white for their apartment.\n- [explicit] user has completed a marathon.\n- [explicit] user intends to incorporate personal touches into their apartment space.\n- [explicit] user has completed a triathlon.\n- [explicit] user prefers a neutral background and light-filled living for their apartment design.\n- [explicit] user intends to commission personalized artwork in the form of a stylized representation of their marathon route.\n- [explicit] user has participated in marathons.\n- [explicit] user intends to install a medal display rack.\n- [explicit] user intends to use Upwork to find a freelance artist for their custom artwork project.\n- [explicit] user has participated in triathlons.\n- [explicit] user intends to write a clear and effective project description that outlines their requirements and expectations.\n- [explicit] user intends to review artists' portfolios and bids carefully to find the best fit for their project.\n- [explicit] user wants 5 new rows generated in the original table format.\n- [explicit] user wants the new rows to feature a photo style of 1980s editorial.\n- [explicit] user wants more details regarding the textures and clothing mentioned in the provided high fashion photography examples.\n- [explicit] user wants the provided table rows converted into individual sentences.\n- [explicit] user requested the removal of age-based demographic references from the marketing message.\n- [explicit] user requested an expansion on the benefits provided by the community.\n- [explicit] user wants to market a community focused on skilled trades and professional development.\n- [explicit] user wants marketing copy written in the style of copywriter Joe Coleman.\n- [explicit] user is looking for an alternative phrasing for the term mastering technology.\n- [explicit] user doubts whether it is possible to master technology.\n- [explicit] user wants the phrasing about staying up-to-date with technology to be shortened\n- [explicit] user wakes up at 7:30 am on Saturdays.\n- [explicit] user lives in a downtown area.\n- [explicit] user wants to do a 30-minute jog.\n- [explicit] user plans to go for a jog on Saturday, June 3, 2023.\n- [explicit] user likes to have a cup of coffee before going for a jog.\n- [explicit] user prefers a flat jogging route with shade.\n- [explicit] user plans to check online for water fountains or drinking water stations along their jogging route.\n- [explicit] user intends to find a route with shade for their jog.\n- [explicit] user is asking whether they should stretch or do light exercises to prevent soreness after a jog.\n- [explicit] user plans to focus on their surroundings during their jog.\n- [explicit] user is asking for the best way to cool down after a jog.\n- [explicit] user decided to leave their earbuds behind during their jog.\n- [explicit] user is interested in The Umbrella Academy.\n- [explicit] user prefers sci-fi or fantasy genres.\n- [explicit] user has watched the latest season of Stranger Things.\n- [explicit] user is interested in Locke & Key.\n- [explicit] user is looking for new shows to watch.\n- [explicit] user uses Netflix as a streaming platform.\n- [explicit] user is planning to watch The Umbrella Academy first.\n- [explicit] user is considering whether they will need to take notes to keep track of characters and plotlines in The Umbrella Academy.\n- [explicit] user is requesting information about the seven Hargreeves siblings and their powers from The Umbrella Academy.\n- [explicit] user is confident in their ability to follow complex storylines without taking notes.\n- [explicit] user attended a world premiere of a comedy feature film at the Austin Film Festival.\n- [explicit] user describes \"The Present\" as having a light-hearted and witty tone with clever dialogue and relatable characters.\n- [explicit] user attended the Austin Film Festival from October 22nd to October 29th, 2022.\n- [explicit] user found the Q&A session with the cast of \"The Present\" to be hilarious.\n- [explicit] user attended a Q&A session with the director and cast of a comedy feature film at the Austin Film Festival.\n- [explicit] user recalls that the comedy feature film \"The Present\" had a strong ensemble cast.\n- [explicit] user saw a comedy feature film that won the Audience Award for Narrative Feature at the Austin Film Festival.\n- [explicit] user watched a comedy film titled \"The Present\" at the Austin Film Festival.\n- [explicit] user is open to watching both classic comedies and more recent releases.\n- [explicit] user is interested in finding comedy films with strong ensemble casts and witty dialogue.\n- [explicit] user prefers to explore comedy films released within the past 5-10 years.\n- [explicit] user wants to increase engagement on their social media content.\n- [explicit] user has a casual and motivational tone.\n- [explicit] user has observed that their audience responds well to content about their fitness journey and travel adventures.\n- [explicit] user has observed that posting consistently on Instagram leads to an increase in followers.\n- [explicit] user intends to increase their use of IGTV and Reels.\n- [explicit] user is interested in the fitness and travel niches.\n- [explicit] user typically posts a mix of photos and videos on Instagram.\n- [explicit] user is planning to do a 7-day plank challenge.\n- [explicit] user plans to share progress from a 7-day plank challenge on Instagram.\n- [explicit] user likes the idea of doing a workout challenge.\n- [explicit] user intends to create a branded hashtag for a plank challenge.\n- [explicit] user intends to reach out to the 20 new followers gained during last month's Instagram challenge to invite them to participate in a plank challenge.\n- [explicit] user gained 20 new followers during a week of participating in an Instagram challenge last month.\n- [explicit] user is considering creating a Facebook event for the plank challenge.\n- [explicit] user is considering creating a Facebook group for the plank challenge.\n- [explicit] user intends to ask friends and family to join a plank challenge.\n- [explicit] user intends to ask friends and family to share the plank challenge with their own friends.\n- [explicit] user plans to create a Facebook group for the 7-day challenge.\n- [explicit] user plans to establish clear rules and guidelines for the Facebook group.\n- [explicit] user is organizing a 7-day challenge.\n- [explicit] user intends to post daily updates and motivation in the Facebook group.\n- [deductive] user leverages social media challenges as a strategy for audience growth and engagement.\n- [deductive] user is a social media content creator focused on fitness and travel.\n- [inductive] user systematically leverages social media challenges as a primary strategy for audience acquisition and community engagement.\n- [inductive] user prefers to utilize multi-platform integration (Instagram and Facebook) to maximize reach and engagement for specific initiatives.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 134.0,
+  "total": 137.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

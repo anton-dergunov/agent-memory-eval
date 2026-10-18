@@ -1,0 +1,100 @@
+{
+ "qid": "08e075c7",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How long have I been using my Fitbit Charge 3?",
+ "reference": "9 months",
+ "question_date": "2023-09-04 17:07",
+ "sessions": [
+  {
+   "id": "25b3e36c_1",
+   "date": "2023-06-01 00:45",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_1",
+   "date": "2023-06-18 00:59",
+   "evidence": true
+  },
+  {
+   "id": "f7344cf4",
+   "date": "2023-06-30 22:55",
+   "evidence": false
+  },
+  {
+   "id": "a8ef396f_2",
+   "date": "2023-07-16 07:55",
+   "evidence": false
+  },
+  {
+   "id": "ae77c245",
+   "date": "2023-08-04 00:36",
+   "evidence": false
+  },
+  {
+   "id": "242eab28_2",
+   "date": "2023-08-05 06:23",
+   "evidence": false
+  },
+  {
+   "id": "77827bdf",
+   "date": "2023-08-12 18:01",
+   "evidence": false
+  },
+  {
+   "id": "a5808e7d_1",
+   "date": "2023-08-22 11:59",
+   "evidence": false
+  },
+  {
+   "id": "answer_cdbe2250_2",
+   "date": "2023-09-02 01:13",
+   "evidence": true
+  },
+  {
+   "id": "9037e55b",
+   "date": "2023-09-02 22:40",
+   "evidence": false
+  }
+ ],
+ "context": "- User has been using a Fitbit Charge 3 for 9 months as of September 2023 to track health and fitness. (from a chat on 2023-09-02)\n- User has been using a Fitbit Charge 3 for 6 months to track daily steps. (from a chat on 2023-06-18)\n- User was provided with instructions on how to track specific strength training exercises like push-ups and squats on Apple Watch, Wear OS, Samsung, and Fitbit devices. (from a chat on 2023-06-01)\n- User is considering the Fitbit Inspire HR for sleep tracking; the assistant confirmed it is an excellent, affordable, and accurate choice with features like sleep stage analysis, sleep scores, and SmartWake. (from a chat on 2023-06-01)\n- User was recommended sleep tracking apps that integrate with smartwatches, including Fitbit Coach, Sleep Cycle, Pillow, Sleep Better, Garmin Connect, Huawei Health, Polar Sleep, AutoSleep, Slumber, and Sleep as Android. (from a chat on 2023-06-01)\n- User was provided with general tips for maximizing smartwatch fitness tracking, including consistent wear, GPS usage, heart rate monitoring, and syncing with third-party health apps. (from a chat on 2023-06-01)\n- User is planning to start tracking their workouts, nutrition, and sleep patterns more closely using their new smartwatch. (from a chat on 2023-06-01)\n- User was recommended several fitness apps that integrate with smartwatches, including MyFitnessPal, Strava, Nike Training Club, JEFIT, Runkeeper, MapMyFitness, Sworkit, Fitstar, Runtastic, and Garmin Connect. (from a chat on 2023-06-01)\n- User was recommended nutrition tracking apps that integrate with smartwatches, including MyFitnessPal, Lose It!, MyNetDiary, FatSecret, YAZIO, Calorie Counter, Rise, Habitica, Nutritionix, and Fooducate. (from a chat on 2023-06-01)\n- User requested tips for maintaining motivation to reach daily step goals on Sundays. (from a chat on 2023-06-18)\n- User uses a portable massage roller for muscle recovery after workouts and for stress and tension relief. (from a chat on 2023-09-02)\n- User recently read a book about intermittent fasting and is trying it out to observe its effects on energy and health. (from a chat on 2023-09-02)\n- User has been practicing yoga using Adriene's YouTube videos but is seeking apps with more variety. (from a chat on 2023-06-18)\n- User plans to replace TV time before bed with reading to improve sleep quality. (from a chat on 2023-09-02)\n- User plans to incorporate a massage roller into their bedtime routine by using it to loosen neck and shoulder tension before reading. (from a chat on 2023-09-02)\n- User is experiencing knee issues and is seeking a thicker, supportive yoga mat to improve comfort during practice. (from a chat on 2023-06-18)\n- User is working on improving sleep quality by establishing a consistent bedtime routine and creating a sleep-conducive environment. (from a chat on 2023-09-02)\n- User was recommended several yoga apps for variety: Down Dog, YogaGlo, Alo Moves, Pocket Yoga, Yoga Studio, Daily Yoga, Omstars, and Gaia. (from a chat on 2023-06-18)\n- User owns a business called CreativeSpark Marketing, which they started around June 2023. (from a chat on 2023-09-02)\n- User considers '10% Happier' by Dan Harris one of their favorite books for its relatable approach to meditation and mindfulness. (from a chat on 2023-09-02)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   From the chat on 2023-06-18, it is noted that the user had been using a Fitbit Charge 3 for 6 months.\n*   From the chat on 2023-09-02, it is noted that the user had been using a Fitbit Charge 3 for 9 months.\n\n**Step 2: Reason over the information**\n*   The most recent update regarding the duration of your Fitbit Charge 3 usage was provided on September 2, 2023.\n*   At that time, you stated you had been using the device for 9 months.\n*   Since the current date is September 4, 2023, only two days have passed since your last update.\n\n**Answer:**\nYou have been using your Fitbit Charge 3 for approximately 9 months.",
+ "dump": "- User was recommended the following piano movers in the Oakwood, GA area: Piano Movers of Atlanta, Atlanta Piano Movers, Modern Piano Moving, and Pianos & Organs Unlimited. (session 2023-08-12)\n- User decided to purchase the Hugger Mugger ParaMat due to its 5mm thickness and cushioning, which they believe will help alleviate their knee discomfort. (session 2023-06-18)\n- Mountain Travel Sobek offers 'Learn to Ski' and 'Ski & Stay' packages in Breckenridge, including options for private or group lessons and concierge services. (session 2023-08-05)\n- User owns a baby grand piano that requires specialized moving services and is researching piano movers in the Oakwood, GA area. (session 2023-08-12)\n- User has been using a Fitbit Charge 3 for 6 months to track daily steps. (session 2023-06-18)\n- User has been using a Fitbit Charge 3 for 9 months as of September 2023 to track health and fitness. (session 2023-09-02)\n- User requested music playlist recommendations for their Grand Canyon road trip, specifically asking for a mix of classic rock, pop, and country music. (session 2023-08-04)\n- User is planning to host a Formula 1 viewing party for the first race of the season and received suggestions for racing-themed decorations, food, and activities like 'Predict the Podium'. (session 2023-06-30)\n- User enjoys reading non-fiction books about health, wellness, nutrition, fitness, and mindfulness to relax and gain insights. (session 2023-09-02)\n- User recently read a book about intermittent fasting and is trying it out to observe its effects on energy and health. (session 2023-09-02)\n- User was recommended the Hugger Mugger D-Ring Strap, Quick Grip Strap, and Cotton Strap as potential accessories to assist with alignment and stretching. (session 2023-06-18)\n- User is planning a road trip to the Grand Canyon with friends during the upcoming winter holidays and will be stopping overnight in Flagstaff, Arizona. (session 2023-08-04)\n- User is preparing to lead their first marketing campaign for a new product launch and is seeking guidance on planning, execution, and content strategy. (session 2023-08-22)\n- User is moving to the Oakwood, GA area and is researching professional moving companies. (session 2023-08-12)\n- User was recommended resources for learning Facebook Ads and Google Ads, including official certification programs, HubSpot Academy courses, and industry blogs like Social Media Examiner and AdEspresso. (session 2023-08-22)\n- User has been practicing yoga using Adriene's YouTube videos but is seeking apps with more variety. (session 2023-06-18)\n- User decided to list their vintage camera collection individually rather than as a bundle to reach a wider audience and achieve more accurate pricing. (session 2023-07-16)\n- User was recommended several sports bars in Kansas City, Missouri, including Power Play, McFadden's Sports Saloon, The Brooksider, The Well, Chappell's Sports Bar & Grill, The Sports Column, and Rivals Sports Bar & Grill. (session 2023-06-30)\n- User was recommended several restaurants in Flagstaff, Arizona, for their upcoming road trip: The Farmhouse Restaurant, Proper Meats + Provisions, Lumberyard Brewing Company, Brix Restaurant & Wine Bar, Mogollon Brewing Company, Late for the Train, Weatherford Hotel's Charly's Pub & Grill, and Satchmo's BBQ & Grill. (session 2023-08-04)\n- Expedia provides options to filter for ski packages that include airport transfers from Denver International Airport to Breckenridge, or these can be booked separately as shared shuttles, private cars, or luxury SUVs. (session 2023-08-05)\n- User owns a 1960s-era Canon rangefinder inherited from their grandfather, which is in mint condition and fully functional. (session 2023-07-16)\n- User is working on improving sleep quality by establishing a consistent bedtime routine and creating a sleep-conducive environment. (session 2023-09-02)\n- User drove 2,500 miles over 7 days during their recent road trip to Yellowstone. (session 2023-08-04)\n- User was provided with an 8-step framework for developing a content strategy, including defining goals, understanding the audience, conducting audits, and measuring performance. (session 2023-08-22)\n- User is working to improve their skills in data analysis and digital marketing to prepare for a potential promotion they were considered for around May 2023. (session 2023-08-22)\n- User recently took a road trip to Yellowstone with their family a few weeks prior to August 4, 2023, and is looking for advice on organizing the photos into an album or scrapbook. (session 2023-08-04)\n- User owns a business called CreativeSpark Marketing, which they started around June 2023. (session 2023-09-02)\n- User is planning to evaluate parking logistics for the moving truck at their new home, including checking street and driveway dimensions and local parking regulations. (session 2023-08-12)\n- Ski.com offers 'Learn to Ski/Ride' and 'First Timer's' packages in Breckenridge that include lift tickets, lessons, equipment rentals, and accommodations. (session 2023-08-05)\n- User was provided with tips for organizing road trip photos, including sorting by date or location, selecting the best 10-20 photos per day, creating a storyline, adding captions, and choosing between digital or physical formats. (session 2023-08-04)\n- User was recommended several moving companies in Oakwood, GA: Bellhops Moving, Two Men and a Truck, All My Sons Moving & Storage, College Hunks Hauling Junk and Moving, and Safeway Moving Systems. (session 2023-08-12)\n- User is planning a ski vacation to Breckenridge, Colorado, for later in the winter and is researching agencies like Ski.com, Mountain Travel Sobek, and Expedia for package deals. (session 2023-08-05)\n- User was provided with a step-by-step example of using the Trello QuickBooks Power-Up to track time on a client project and automate invoice creation. (session 2023-09-02)\n- User recalls watching an NFL playoff game with friends at a sports bar on January 15, 2023, which the assistant identified as the Kansas City Chiefs vs. Houston Texans AFC Divisional Round game. (session 2023-06-30)\n- User acquired a 1950s-era Rolleiflex Twin Lens Reflex camera from a thrift store and is currently learning how to use it; the camera is in good condition but lacks accessories. (session 2023-07-16)\n- User plans to replace TV time before bed with reading to improve sleep quality. (session 2023-09-02)\n- User was provided with a detailed breakdown of Trello and Asana pricing plans and features to help them decide which tool best fits their business needs. (session 2023-09-02)\n- User was provided with 10 tips for creating engaging content, including knowing the audience, using storytelling, focusing on quality, and optimizing for SEO. (session 2023-08-22)\n- User received a Limited Edition Disney Princess doll set in the mail, which they pre-ordered from Amazon in February 2023; the set contains five dolls and is in perfect, sealed condition. (session 2023-07-16)\n- User lives in Kansas City, Missouri, and is planning to host a sports-themed party. (session 2023-06-30)\n- User was provided with a comprehensive guide on leading a marketing campaign, covering objective setting, audience identification, content strategy, execution, and leadership tips. (session 2023-08-22)\n- Expedia's ski packages can be filtered to include ski lessons or guided tours, with options for group or private instruction tailored to different skill levels. (session 2023-08-05)\n- User is interested in the Trello Gold plan due to its balance of features and affordability, particularly the unlimited Power-Ups for QuickBooks integration. (session 2023-09-02)\n- User is considering using travel rewards credit card points to book a free flight to Denver International Airport for their ski vacation. (session 2023-08-05)\n- User had a positive experience booking a last-minute weekend getaway to Boston with friends last month using Expedia. (session 2023-08-05)\n- User was recommended several fitness apps that integrate with smartwatches, including MyFitnessPal, Strava, Nike Training Club, JEFIT, Runkeeper, MapMyFitness, Sworkit, Fitstar, Runtastic, and Garmin Connect. (session 2023-06-01)\n- User is learning about Formula 1 by watching documentaries and reading articles, and specifically uses the 'Formula 1 Explained' YouTube series to understand technical aspects. (session 2023-06-30)\n- User is currently evaluating project management tools, specifically Trello and Asana, to streamline their business workflow and manage client projects. (session 2023-09-02)\n- User was advised that their 1990s Spiderman figure could be worth $50-$200, the 1950s Rolleiflex $200-$1,000, the 1960s Canon rangefinder $200-$1,500+, and the Disney Princess doll set $100-$300, depending on market demand and condition. (session 2023-07-16)\n- User is planning to start tracking their workouts, nutrition, and sleep patterns more closely using their new smartwatch. (session 2023-06-01)\n- User was recommended nutrition tracking apps that integrate with smartwatches, including MyFitnessPal, Lose It!, MyNetDiary, FatSecret, YAZIO, Calorie Counter, Rise, Habitica, Nutritionix, and Fooducate. (session 2023-06-01)\n- User is considering the Fitbit Inspire HR for sleep tracking; the assistant confirmed it is an excellent, affordable, and accurate choice with features like sleep stage analysis, sleep scores, and SmartWake. (session 2023-06-01)\n- User was provided with general tips for maximizing smartwatch fitness tracking, including consistent wear, GPS usage, heart rate monitoring, and syncing with third-party health apps. (session 2023-06-01)\n- User was provided with an overview of the 2023 Formula 1 season, including regulation changes like the $145 million cost cap, aerodynamic updates, and driver movements such as Sebastian Vettel joining Aston Martin. (session 2023-06-30)\n- User is considering using a GPS device for their upcoming Grand Canyon road trip and was advised to update maps and software beforehand to ensure accurate routing and access to the latest points of interest. (session 2023-08-04)\n- User was provided with curated music recommendations for their road trip, including artists like the Eagles, Fleetwood Mac, Taylor Swift, Katy Perry, Garth Brooks, and Carrie Underwood, among others. (session 2023-08-04)\n- User was provided with instructions on how to track specific strength training exercises like push-ups and squats on Apple Watch, Wear OS, Samsung, and Fitbit devices. (session 2023-06-01)\n- User drove to San Francisco the weekend of July 29-30, 2023, and experienced heavy traffic on Highway 101. (session 2023-08-04)\n- User was recommended several Tableau resources for data visualization, including official Tableau courses, tutorials, and community forums, as well as external courses on Coursera, Udemy, DataCamp, and edX. (session 2023-08-22)\n- User recently received mortgage pre-approval and is in the process of buying a home. (session 2023-08-12)\n- User recently purchased a smartwatch for a price lower than its original $249.99 retail value. (session 2023-06-01)\n- User is considering professional appraisal for their vintage camera collection to increase listing credibility and ensure accurate valuation, despite the potential costs involved. (session 2023-07-16)\n- User requested tips for maintaining motivation to reach daily step goals on Sundays. (session 2023-06-18)\n- User is experiencing knee issues and is seeking a thicker, supportive yoga mat to improve comfort during practice. (session 2023-06-18)\n- User considers '10% Happier' by Dan Harris one of their favorite books for its relatable approach to meditation and mindfulness. (session 2023-09-02)\n- User plans to incorporate a massage roller into their bedtime routine by using it to loosen neck and shoulder tension before reading. (session 2023-09-02)\n- User was recommended 10 healthy, portable snack options: trail mix, fresh fruit, energy balls, hard-boiled eggs, Greek yogurt, veggie sticks with hummus, protein smoothies, apple slices with almond butter, edamame, and dark chocolate. (session 2023-09-02)\n- User is prioritizing ease of use and scalability when selecting a project management tool for their business. (session 2023-09-02)\n- User is concerned about moving their baby grand piano up a narrow staircase at their new home and is planning to discuss the use of a piano board or dolly with their movers. (session 2023-08-12)\n- Expedia offers 'Bundle and Save' discounts for booking flights and ski packages together, with potential savings of $50 to $200 per person. (session 2023-08-05)\n- User is a beginner skier and needs to book ski lessons and equipment rentals for their upcoming Colorado trip. (session 2023-08-05)\n- User was provided with strategies for handling heavy traffic, including checking real-time traffic apps, traveling during off-peak hours, maintaining a safe following distance, and staying calm. (session 2023-08-04)\n- User is aware of Oakwood, GA regulations regarding parking permits for moving trucks, weight/size restrictions for vehicles, and the local Tree Ordinance. (session 2023-08-12)\n- User was recommended several yoga apps for variety: Down Dog, YogaGlo, Alo Moves, Pocket Yoga, Yoga Studio, Daily Yoga, Omstars, and Gaia. (session 2023-06-18)\n- User uses a portable massage roller for muscle recovery after workouts and for stress and tension relief. (session 2023-09-02)\n- User was recommended sleep tracking apps that integrate with smartwatches, including Fitbit Coach, Sleep Cycle, Pillow, Sleep Better, Garmin Connect, Huawei Health, Polar Sleep, AutoSleep, Slumber, and Sleep as Android. (session 2023-06-01)\n- User is planning a fantasy basketball draft and was provided with the NBA standings and top players for the Eastern and Western Conferences as of March 10, 2023. (session 2023-06-30)\n- User is decluttering their apartment and researching the resale value of various collectibles, including a rare 1990s Spiderman action figure in a window box packaging from a movie promotion. (session 2023-07-16)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 78,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 51.6,
+  "total": 52.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

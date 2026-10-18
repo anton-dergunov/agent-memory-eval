@@ -1,0 +1,90 @@
+{
+ "qid": "10e09553",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many largemouth bass did I catch with Alex on the earlier fishing trip to Lake Michigan before the 7/22 trip?",
+ "reference": "7",
+ "question_date": "2023-12-06 11:18",
+ "sessions": [
+  {
+   "id": "sharegpt_d4Csa8p_0",
+   "date": "2023-07-23 05:30",
+   "evidence": false
+  },
+  {
+   "id": "2d58d2d2",
+   "date": "2023-08-08 16:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_1",
+   "date": "2023-08-11 03:49",
+   "evidence": true
+  },
+  {
+   "id": "7d1f5395",
+   "date": "2023-08-13 10:26",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IZ5NgqD_0",
+   "date": "2023-09-20 05:22",
+   "evidence": false
+  },
+  {
+   "id": "e5f785de",
+   "date": "2023-09-22 13:37",
+   "evidence": false
+  },
+  {
+   "id": "58ab5fc5",
+   "date": "2023-10-04 13:50",
+   "evidence": false
+  },
+  {
+   "id": "238fac70_1",
+   "date": "2023-11-12 05:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_67be2c38_2",
+   "date": "2023-11-30 00:28",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_jEOqeWh_0",
+   "date": "2023-12-01 01:05",
+   "evidence": false
+  }
+ ],
+ "context": "- The assistant denies having a shared personal history with the user, such as going on a fishing trip to Lake Michigan with the user and Alex. (valid since 2023-11-30)\n- The user is exploring new lures to catch largemouth bass. (valid since 2023-08-11)\n- The assistant recommends the Curly Tail Grub as a soft plastic lure for catching largemouth bass, suggesting white, chartreuse, or brown colors. (valid since 2023-08-11)\n- The user is planning to help Alex set up more tree stands on Alex's property. (valid since 2023-11-30)\n- The user walked by the Saks Fifth Avenue department store during a trip to New York City in May. (valid since 2023-05-01)\n- The assistant recommends the Shad-Shape Crankbait for bass fishing in shad patterns like citrus shad, threadfin shad, or chartreuse shad. (valid since 2023-08-11)\n- The assistant recommends the Fat Crankbait to target larger bass, suggesting patterns like fire tiger, blue chartreuse, or citrus shad. (valid since 2023-08-11)\n- The assistant recommends the Jig and Pig combo for bass fishing, suggesting colors like black/blue, brown, or green pumpkin paired with a curly tail trailer. (valid since 2023-08-11)\n- The assistant offers to provide information and tips to the user regarding deer hunting strategies and fishing techniques. (valid since 2023-11-30)\n- The assistant recommends the Plastic Worm as a versatile soft plastic lure for bass fishing using rigs like Texas, Carolina, or wacky, with colors like green pumpkin, watermelon, or June bug. (valid since 2023-08-11)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:**\n   - The history chats state: \"The assistant denies having a shared personal history with the user, such as going on a fishing trip to Lake Michigan with the user and Alex.\"\n   - There is no record in the provided facts of the user ever going on a fishing trip to Lake Michigan with Alex, nor any mention of a \"7/22 trip.\"\n\n2. **Reason over the information:**\n   - Since the assistant explicitly denies the existence of a shared history regarding a fishing trip to Lake Michigan with the user and Alex, and there is no data confirming such an event occurred, it is impossible to determine how many fish were caught. \n\n**Answer:** There is no record of you going on a fishing trip to Lake Michigan with Alex; therefore, it is impossible to state how many largemouth bass were caught.",
+ "dump": "- The user walked by the Saks Fifth Avenue department store during a trip to New York City in May. (valid since 2023-05-01)\n- The assistant provides five promotional Instagram captions for the Gucci Guilty fragrance campaign to the user, who is a male model. (valid since 2023-07-23)\n- The user is considering enrolling in a yoga teacher training program in the future to deepen their yoga practice and share their passion for yoga with others. (valid since 2023-08-08)\n- The assistant recommends reading the Yoga Sutras of Patanjali to learn about yoga philosophy. (valid since 2023-08-08)\n- The assistant recommends reading the Bhagavad Gita to learn about yoga philosophy. (valid since 2023-08-08)\n- The assistant mentions the Upanishads as a book on yoga philosophy to read for preparation. (valid since 2023-08-08)\n- The assistant recommends looking for yoga teacher training programs registered with the Yoga Alliance. (valid since 2023-08-08)\n- The user is considering purchasing a tree stand for deer hunting this season. (valid since 2023-08-11)\n- The user is looking for resources to learn about using trail cameras for deer hunting. (valid since 2023-08-11)\n- The user is exploring new lures to catch largemouth bass. (valid since 2023-08-11)\n- The assistant recommends the Curly Tail Grub as a soft plastic lure for catching largemouth bass, suggesting white, chartreuse, or brown colors. (valid since 2023-08-11)\n- The assistant recommends the Plastic Worm as a versatile soft plastic lure for bass fishing using rigs like Texas, Carolina, or wacky, with colors like green pumpkin, watermelon, or June bug. (valid since 2023-08-11)\n- The assistant recommends the soft plastic Lizard lure for bass in colors such as green pumpkin, watermelon, or brown. (valid since 2023-08-11)\n- The assistant recommends the Shad-Shape Crankbait for bass fishing in shad patterns like citrus shad, threadfin shad, or chartreuse shad. (valid since 2023-08-11)\n- The assistant recommends the Fat Crankbait to target larger bass, suggesting patterns like fire tiger, blue chartreuse, or citrus shad. (valid since 2023-08-11)\n- The assistant recommends the Jig and Pig combo for bass fishing, suggesting colors like black/blue, brown, or green pumpkin paired with a curly tail trailer. (valid since 2023-08-11)\n- The assistant recommends the Swim Jig to imitate swimming baitfish, suggesting white, chartreuse, or shad patterns. (valid since 2023-08-11)\n- The assistant recommends the Frog topwater lure for bass in heavy cover or near vegetation, suggesting green, brown, or yellow colors. (valid since 2023-08-11)\n- The assistant recommends the Popper topwater lure to attract bass with noise, suggesting white, chartreuse, or yellow colors. (valid since 2023-08-11)\n- The assistant recommends the use of Spoon lures to imitate injured baitfish, specifically in silver, gold, or copper finishes. (valid since 2023-08-11)\n- The assistant recommends Spinnerbaits to imitate baitfish or small creatures, suggesting white, chartreuse, or shad patterns. (valid since 2023-08-11)\n- The assistant recommends Central Park as a spot for a picnic in Winter Park. (valid since 2023-08-13)\n- The assistant recommends Lake Osceola Park as a spot for a picnic in Winter Park. (valid since 2023-08-13)\n- The assistant recommends Ward Park as a spot for a picnic in Winter Park. (valid since 2023-08-13)\n- The assistant recommends Kraft Azalea Park as a spot for a picnic in Winter Park. (valid since 2023-08-13)\n- The assistant recommends visiting areas along the Winter Park Chain of Lakes, such as Park Avenue Park or Phelps Park, for a picnic. (valid since 2023-08-13)\n- The user plans to organize a surprise brunch in July to celebrate the birthday of the user's mom. (valid since 2023-08-13)\n- The user intends to ask the user's siblings to help plan a surprise brunch for the user's mom. (valid since 2023-08-13)\n- The user is considering booking a table at the new bistro downtown for a surprise brunch. (valid since 2023-08-13)\n- The user lives in the same area as the user's maternal grandparents. (valid since 2023-08-13)\n- The assistant provides a recipe for paneer bhurji that uses store-bought paneer. (valid since 2023-09-20)\n- The assistant provides a revised paneer bhurji recipe that specifically uses 400g of paneer. (valid since 2023-09-20)\n- The user has been attempting to cut back on luxury shopping. (valid since 2023-09-22)\n- Rakuten was formerly known as Ebates. (valid since 2023-09-22)\n- CamelCamelCamel is a price tracker tool that monitors price drops on Amazon products. (valid since 2023-09-22)\n- The user is the owner of Rocky. (valid since 2023-10-04)\n- Rocky played with Bella last week. (valid since 2023-10-04)\n- Rocky and Bella enjoy playing together and are candidates for dog-friendly playdates. (valid since 2023-10-04)\n- The user is planning to set up gaming stations that contain different consoles. (valid since 2023-11-12)\n- The user is planning to set up gaming stations that contain different games. (valid since 2023-11-12)\n- The Xbox One console can be used to play the game Fortnite. (valid since 2023-11-12)\n- The PlayStation 4 console can be used to play the game Call of Duty: Modern Warfare. (valid since 2023-11-12)\n- The Nintendo Switch console can be used to play the game Mario Kart 8 Deluxe. (valid since 2023-11-12)\n- The user owns a 50-inch 4K TV that was purchased from Best Buy for $350 on Black Friday. (valid since 2023-11-24)\n- The user is planning to help Alex set up more tree stands on Alex's property. (valid since 2023-11-30)\n- The assistant denies having a shared personal history with the user, such as going on a fishing trip to Lake Michigan with the user and Alex. (valid since 2023-11-30)\n- The assistant offers to provide information and tips to the user regarding deer hunting strategies and fishing techniques. (valid since 2023-11-30)\n- The Philae Temple is located on the island of Philae in Egypt. (valid since 2023-12-01)\n- The Philae Temple was dedicated to the goddess Isis. (valid since 2023-12-01)\n- The Olmec civilization is associated with Mexico. (valid since 2023-12-01)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 50,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 128.6,
+  "total": 130.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

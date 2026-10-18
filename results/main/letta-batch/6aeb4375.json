@@ -1,0 +1,110 @@
+{
+ "qid": "6aeb4375",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many Korean restaurants have I tried in my city?",
+ "reference": "four",
+ "question_date": "2023-10-22 15:38",
+ "sessions": [
+  {
+   "id": "sharegpt_I5HWvry_0",
+   "date": "2023-07-12 02:43",
+   "evidence": false
+  },
+  {
+   "id": "c625cff4_3",
+   "date": "2023-07-14 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MD0BL69_53",
+   "date": "2023-07-16 13:37",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FkabWXV_105",
+   "date": "2023-07-25 21:34",
+   "evidence": false
+  },
+  {
+   "id": "26f9a255_2",
+   "date": "2023-07-30 13:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_wbbH6cZ_0",
+   "date": "2023-08-08 23:23",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MWlvrvZ_0",
+   "date": "2023-08-09 22:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_1",
+   "date": "2023-08-11 09:09",
+   "evidence": true
+  },
+  {
+   "id": "29621a34",
+   "date": "2023-08-11 09:38",
+   "evidence": false
+  },
+  {
+   "id": "answer_3f9693b7_2",
+   "date": "2023-09-30 15:06",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nThe user is expecting a baby girl and has been asking for naming suggestions with the surname Ko (柯). They are interested in a blend of Korean-style and Chinese romantic novel character names, tailored for a Taiwanese context.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T15:45:42.655349+00:00', 'time_ago': '4s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-10-22 15:38] How many Korean restaurants have I tried in my city?'}, {'timestamp': '2026-10-17T15:45:38.481273+00:00', 'time_ago': '9s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-09-30 15:06] Kimchi and bokkeumbap are a great combination to go with your Korean-style BBQ beef.\\n\\nAs for your question, I'm afraid I'm a large language model, I don't have personal experiences or physical presence, so I haven't tried any Korean restaurants in your city or any other location. I exist solely to provide information and assist with tasks through text-based conversations. However, I can suggest a few ways to find great Korean restaurants in your area:\\n\\n1. **Online Review Sites**: Check out review platforms like Yelp, Google Reviews, or TripAdvisor to see what others have to say about Korean restaurants in your city. You can filter the results by rating, price, and location to find the best options.\\n2. **Food Blogs and Social Media**: Look for local food bloggers or social media influencers who specialize in Korean cuisine. They often share reviews, recommendations, and behind-the-scenes stories about their dining experiences.\\n3. **Korean Communities or Cultural Centers**: Reach out to local Korean communities, cultural centers, or language exchange groups. They might have recommendations or insider knowledge about authentic Korean restaurants in your area.\\n4. **Ask Around**: Ask your friends, colleagues, or acquaintances who have tried Korean food before for their recommendations. Personal referrals can be a great way to discover hidden gems.\\n\\nRemember to always check menus, prices, and hours of operation before visiting a new restaurant to ensure it fits your preferences and schedule.\\n\\nI hope these suggestions help you find an amazing Korean restaurant in your city!\"}, {'timestamp': '2026-10-17T15:45:38.481257+00:00', 'time_ago': '9s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-09-30 15:06] I think I'll go with kimchi and bokkeumbap. By the way, have you tried any good Korean restaurants in my city lately? I've tried four different ones so far, and I'm always looking for new recommendations.\"}, {'timestamp': '2026-10-17T15:45:33.025990+00:00', 'time_ago': '14s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-11 09:09] It sounds like you've been on a delicious adventure! I'm so glad you're sharing your experiences with me.\\n\\nBibimbap is a classic Korean dish, and it's great to hear that you enjoyed it at one of the restaurants. The combination of the crispy rice, savory vegetables, and runny egg is always a winner.\\n\\nThe spicy kimchi stew (Kimchi Jjigae) is another popular Korean dish that's perfect for those who love a little heat. Kimchi is such a staple in Korean cuisine, and it's amazing how different recipes can bring out unique flavors and levels of spiciness.\\n\\nAnd Japchae is a great choice too! The sweet potato noodle is a nice twist on the traditional starch noodles, and it adds a lovely sweetness to the dish. Japchae is often served as a side dish, but it's definitely worthy of being a main course.\\n\\nIt's fantastic that you're exploring different Korean restaurants and experiencing the diversity of flavors and styles. Korean cuisine is all about balance and harmony, and it's great that you're appreciating the nuances of each dish.\\n\\nKeep exploring, and don't be afraid to try new things! What's next on your Korean food adventure?\"}, {'timestamp': '2026-10-17T15:45:33.025960+00:00', 'time_ago': '14s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-11 09:09] I'm so glad you're enthusiastic about Korean food! However, I should clarify that I'm an AI, so I don't have personal experiences, tast",
+ "answer": "Based on our previous conversations, you mentioned in late September 2023 that you had tried **four** different Korean restaurants in your city. \n\nEarlier, in August 2023, you had mentioned trying three restaurants, so it seems you added another one to your list over that time!",
+ "dump": "<human>\n\nThe user is expecting a baby girl and has been asking for naming suggestions with the surname Ko (柯). They are interested in a blend of Korean-style and Chinese romantic novel character names, tailored for a Taiwanese context.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Korean restaurants visited\"})",
+   "conversation_search({\"query\": \"Korean food restaurants\"})",
+   "conversation_search({\"query\": \"restaurant city\"})",
+   "conversation_search({\"query\": \"Korean restaurant\"})"
+  ],
+  "blocks_chars": 426
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 35.7,
+  "total": 44.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "qid": "5831f84d",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "How many Crash Course videos have I watched in the past few weeks?",
+ "reference": "15",
+ "question_date": "2023-10-05 05:19",
+ "sessions": [
+  {
+   "id": "3e53cff4",
+   "date": "2023-07-15 04:55",
+   "evidence": false
+  },
+  {
+   "id": "5cd46af9_2",
+   "date": "2023-07-19 06:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_1",
+   "date": "2023-08-11 13:55",
+   "evidence": true
+  },
+  {
+   "id": "78e6f9ee",
+   "date": "2023-08-13 14:44",
+   "evidence": false
+  },
+  {
+   "id": "14991eb7_2",
+   "date": "2023-08-22 08:04",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_462218",
+   "date": "2023-09-08 07:05",
+   "evidence": false
+  },
+  {
+   "id": "83dae08b",
+   "date": "2023-09-12 22:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_8d63a897_2",
+   "date": "2023-09-30 17:18",
+   "evidence": true
+  },
+  {
+   "id": "0df54428_4",
+   "date": "2023-09-30 19:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_ofljChm_78",
+   "date": "2023-10-05 19:51",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T16:16:12.497170+00:00', 'time_ago': '19s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-09-30 17:18] Wow, 15 Crash Course videos in a few weeks is impressive! You're definitely on a roll!\\n\\nNatural Language Processing (NLP) is a fascinating field, and there are many excellent online resources and courses to help you dive in. Here are some recommendations:\\n\\n**Online Courses:**\\n\\n1. **Stanford Natural Language Processing with Deep Learning Specialization** (Coursera): This 5-course specialization, taught by Stanford professors, covers the basics of NLP and delves into deep learning techniques.\\n2. **Natural Language Processing** (edX): This course, offered by Microsoft, covers the fundamentals of NLP, including text preprocessing, sentiment analysis, and language modeling.\\n3. **Deep Learning for Natural Language Processing** (Udemy): This course focuses on using deep learning techniques, such as recurrent neural networks (RNNs) and long short-term memory (LSTM) networks, for NLP tasks.\\n4. **Natural Language Processing with Python** (DataCamp): This interactive course teaches NLP concepts using Python and popular libraries like NLTK, spaCy, and scikit-learn.\\n\\n**Online Resources:**\\n\\n1. **NLTK Book**: The official book for the Natural Language Toolkit (NLTK) library, covering topics like text processing, tokenization, and corpora.\\n2. **spaCy Documentation**: The spaCy library is known for its modern, streamlined approach to NLP. Their documentation is an excellent resource for learning about NLP concepts and implementing them in Python.\\n3. **KDNuggets NLP Tutorials**: This collection of tutorials and articles covers various NLP topics, including text classification, topic modeling, and named entity recognition.\\n4. **Machine Learning Mastery**: This website offers a range of NLP tutorials, including articles on sentiment analysis, language modeling, and text generation.\\n\\n**Blogs and Podcasts:**\\n\\n1. **The NLP Subreddit**: A community-driven forum for discussing NLP-related topics, sharing resources, and asking questions.\\n2. **The AI Alignment Podcast**: While not exclusively focused on NLP, this podcast often covers NLP-related topics and their applications in AI research.\\n3. **The Data Science Handbook**: A blog by Jake VanderPlas, covering various data science topics, including NLP.\\n\\n**Books:**\\n\\n1. **Natural Language Processing (almost) from Scratch** by Collobert et al. (PDF): A free, comprehensive book covering NLP fundamentals and deep learning techniques.\\n2. **Speech and Language Processing** by Dan Jurafsky and James H. Martin: A classic, in-depth textbook on NLP and speech processing.\\n\\nRemember, practice is key to learning NLP. Experiment with libraries like NLTK, spaCy, and scikit-learn, and work on projects that interest you. Good luck, and keep up the learning streak!\"}, {'timestamp': '2026-10-17T16:16:12.497100+00:00', 'time_ago': '19s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-09-30 17:18] I'm trying to learn more about natural language processing, can you recommend some online resources or courses that cover this topic? By the way, I've been on a learning streak lately, having watched 15 Crash Course videos in the past few weeks.\"}, {'timestamp': '2026-10-17T16:13:24.283076+00:00', 'time_ago': '3m ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-11 13:55] That's amazing to hear! I'm thrilled to hear that you're making progress on your AWS and machine learning journey! It's great that you're taking the initiative to learn and upskill yourself.\\n\\nAnd wow, 12 Crash Course videos on computer science? That's impressive! Crash Course videos are an excellent way to learn new concepts in an engaging and entertaining way. You must be building a strong foundation in computer science!\\n\\nRemember, learning is a continuous process,",
+ "answer": "Based on our conversation on September 30, 2023, you mentioned that you had watched 15 Crash Course videos in the few weeks leading up to that date.",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"Crash Course\", \"start_date\": \"2023-09-14\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 191.5,
+  "total": 199.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

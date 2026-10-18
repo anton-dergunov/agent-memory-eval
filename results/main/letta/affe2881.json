@@ -1,0 +1,124 @@
+{
+ "qid": "affe2881",
+ "arm": "letta",
+ "split": "main",
+ "question": "How many different species of birds have I seen in my local park?",
+ "reference": "32",
+ "question_date": "2023-06-07 02:42",
+ "sessions": [
+  {
+   "id": "0338df32",
+   "date": "2023-04-29 16:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_J2pQr1T_0",
+   "date": "2023-05-01 16:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_uZwFWTJ_43",
+   "date": "2023-05-04 04:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_28MOwpT_17",
+   "date": "2023-05-19 13:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_1",
+   "date": "2023-05-24 01:31",
+   "evidence": true
+  },
+  {
+   "id": "3d895af0_3",
+   "date": "2023-05-24 02:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_26212",
+   "date": "2023-05-25 11:51",
+   "evidence": false
+  },
+  {
+   "id": "1b71c896_2",
+   "date": "2023-05-29 03:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_2",
+   "date": "2023-05-29 17:18",
+   "evidence": true
+  },
+  {
+   "id": "7badf4f3_1",
+   "date": "2023-05-30 11:20",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n- The user is interested in bird photography and identification.\n- The user has spotted 32 different species of birds in their local park.\n- Interested in experimenting with different types of rice and cooking techniques.\n- Recently took a Thai cooking class with their sister; interested in Thai cuisine and cooking.\n\n- Recently completed a 5K charity run on April 17th, finishing in 27 minutes and 12 seconds (a personal best).\n- Spotted a Northern Flicker recently.\n\n- Recently lost a favorite silver necklace at the beach.\n- Currently looking for jewelry cleaner recommendations.\n\n- Planning to get engagement ring cleaned and inspected this week.\n- Lost a silver necklace at the beach; considering asking the jeweler if it was turned in.\n\n- Has a pair of grandmother's old gold earrings that need repair (loose backing on the left one).\n- Planning to bring them to the jeweler along with the engagement ring.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}",
+ "answer": "Based on our previous conversations, you have spotted **32 different species of birds** in your local park! \n\nIt's been a while since we talked about your birding adventures—have you managed to add any new species to that list lately?",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n- The user is interested in bird photography and identification.\n- The user has spotted 32 different species of birds in their local park.\n- Interested in experimenting with different types of rice and cooking techniques.\n- Recently took a Thai cooking class with their sister; interested in Thai cuisine and cooking.\n\n- Recently completed a 5K charity run on April 17th, finishing in 27 minutes and 12 seconds (a personal best).\n- Spotted a Northern Flicker recently.\n\n- Recently lost a favorite silver necklace at the beach.\n- Currently looking for jewelry cleaner recommendations.\n\n- Planning to get engagement ring cleaned and inspected this week.\n- Lost a silver necklace at the beach; considering asking the jeweler if it was turned in.\n\n- Has a pair of grandmother's old gold earrings that need repair (loose backing on the left one).\n- Planning to bring them to the jeweler along with the engagement ring.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"species of birds in my local park\"})"
+  ],
+  "blocks_chars": 1113,
+  "write_steps": 71,
+  "write_tool_calls": [
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_replace",
+   "memory_insert",
+   "memory_insert",
+   "memory_insert"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 453.7,
+  "total": 460.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

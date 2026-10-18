@@ -1,0 +1,100 @@
+{
+ "qid": "2698e78f",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How often do I see my therapist, Dr. Smith?",
+ "reference": "every week",
+ "question_date": "2023-11-10 00:38",
+ "sessions": [
+  {
+   "id": "sharegpt_4qCDHY4_17",
+   "date": "2023-03-15 12:49",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6U7TyYE_0",
+   "date": "2023-03-17 15:06",
+   "evidence": false
+  },
+  {
+   "id": "d76030af_1",
+   "date": "2023-03-23 03:11",
+   "evidence": false
+  },
+  {
+   "id": "89c1cdfa_2",
+   "date": "2023-03-27 05:46",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_DrLV0RL_0",
+   "date": "2023-04-02 20:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_1",
+   "date": "2023-04-03 14:18",
+   "evidence": true
+  },
+  {
+   "id": "619e96bc",
+   "date": "2023-07-12 03:14",
+   "evidence": false
+  },
+  {
+   "id": "1980bbfa_5",
+   "date": "2023-11-03 14:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_9282283d_2",
+   "date": "2023-11-03 19:56",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_130siyQ_0",
+   "date": "2023-11-09 13:22",
+   "evidence": false
+  }
+ ],
+ "context": "- User attends therapy sessions with Dr. Smith every two weeks and plans to discuss their progress with sleep and boundary-setting. (from a chat on 2023-04-03)\n- User attends weekly therapy sessions with Dr. Smith to work on setting healthy boundaries and prioritizing their well-being. (from a chat on 2023-11-03)\n- User was recommended Winsor & Newton Cotman, Daniel Smith, and Holbein watercolors, along with brushes from Winsor & Newton, Escoda, and Da Vinci. (from a chat on 2023-03-23)\n- User's regular commitments include a weekly yoga class and bi-weekly dinner with friends, alongside self-care practices of meditation and journaling. (from a chat on 2023-11-03)\n- User works a 9-to-5 job, Monday through Friday, and is currently struggling with burnout due to difficulty saying no to requests from colleagues and friends. (from a chat on 2023-11-03)\n- The assistant provided a framework for setting boundaries, including the '3Rs' (Reflect, Respond, Renegotiate) and tips for handling potential pushback from a partner. (from a chat on 2023-04-03)\n- The assistant provided a flexible prioritization framework for the user, categorizing tasks into 'Must-Dos', 'Should-Dos', and 'Nice-To-Dos' to help manage workload and boundaries. (from a chat on 2023-11-03)\n- User feels overwhelmed by social commitments and is planning to set boundaries with their partner to allow for more downtime at home. (from a chat on 2023-04-03)\n- The assistant provided a comprehensive list of sleep hygiene strategies, including environmental adjustments, routine building, stress management, and lifestyle changes. (from a chat on 2023-04-03)\n- User has been practicing yoga and meditation to manage anxiety levels and is interested in their impact on sleep quality. (from a chat on 2023-04-03)\n- User is taking art classes at a local studio and is interested in experimenting with different mediums, specifically watercolor painting. (from a chat on 2023-03-23)\n- User attended their niece's high school graduation ceremony on June 15, 2023. (from a chat on 2023-07-12)\n- User requested a page-by-page layout for a children's book based on the story of Timmy and Max, which the assistant organized into 15 pages. (from a chat on 2023-03-17)\n- The assistant developed a detailed, five-part narrative story featuring a prince named Rohan and his guru to serve as a framework for the user's YouTube video on Hindu mythology in spirituality and religion. (from a chat on 2023-04-02)\n- User attended an art auction at a prestigious gallery in the city around February 2023, which inspired them to start creating their own art. (from a chat on 2023-03-23)\n- The assistant summarized the user's capstone project scope: analyzing customer behavior to predict churn, developing a predictive model, identifying churn patterns, and informing retention strategies. (from a chat on 2023-03-27)\n- User purchased a sculpture by an up-and-coming artist at an art auction last month and currently displays it on their coffee table. (from a chat on 2023-03-23)\n- The assistant recommended specific books for data science: 'Python Data Science Handbook' by Jake VanderPlas, 'R for Data Science' by Hadley Wickham and Garrett Grolemund, and 'Data Analysis with Python' by Wes McKinney. (from a chat on 2023-03-27)\n- The assistant, acting as a Harvard Business School graduate and market research analyst, recommended five open-ended questions for the user to ask B2B SaaS C-level executives, focusing on growth challenges, industry future, technology evaluation, navigating disruption, and success metrics. (from a chat on 2023-11-09)\n- User asked for title suggestions for the children's book about Timmy and Max, and the assistant suggested 'Max and Timmy's Forest Adventure', 'Timmy and his Playful Dog: A Forest Vacation', and 'Max the Explorer: A Family Vacation in the Woods'. (from a chat on 2023-03-17)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-04-03: \"User attends therapy sessions with Dr. Smith every two weeks...\"\n*   From the chat on 2023-11-03: \"User attends weekly therapy sessions with Dr. Smith...\"\n\n**2. Reason over the information:**\n*   The user's therapy frequency has changed over time. While the user previously saw Dr. Smith every two weeks (as of April 2023), the most recent information from November 2023 indicates that the user has transitioned to attending therapy sessions on a weekly basis.\n\n**Answer:**\nAs of your most recent update on November 3, 2023, you attend therapy sessions with Dr. Smith weekly.",
+ "dump": "- The assistant provided an SEO-optimized, engaging intro and outro for the user's YouTube video, with the outro including a call to action for upcoming related content on Hindu mythology. (session 2023-04-02)\n- User plans to enroll in the 10-course Data Science Specialization by Johns Hopkins University on Coursera to advance their data analysis skills. (session 2023-03-27)\n- User was recommended Winsor & Newton Cotman, Daniel Smith, and Holbein watercolors, along with brushes from Winsor & Newton, Escoda, and Da Vinci. (session 2023-03-23)\n- User requested a page-by-page layout for a children's book based on the story of Timmy and Max, which the assistant organized into 15 pages. (session 2023-03-17)\n- User is planning to convert a spare room in their home into a dedicated art studio to work on projects. (session 2023-03-23)\n- The assistant, acting as a Harvard Business School graduate and market research analyst, recommended five open-ended questions for the user to ask B2B SaaS C-level executives, focusing on growth challenges, industry future, technology evaluation, navigating disruption, and success metrics. (session 2023-11-09)\n- The assistant provided guidance on preprocessing and feature engineering for the Titanic dataset, including handling missing values, encoding categorical variables, and creating features like family size and age bins. (session 2023-07-12)\n- User works a 9-to-5 job, Monday through Friday, and is currently struggling with burnout due to difficulty saying no to requests from colleagues and friends. (session 2023-11-03)\n- User is experiencing sleep difficulties and has been using journaling and a consistent sleep schedule to manage them. (session 2023-04-03)\n- User is planning to host another dinner party and wants to improve the dining room ambiance by replacing harsh overhead lighting with a mix of modern lamps and soft shades. (session 2023-11-03)\n- User decided to start their watercolor painting journey using the Winsor & Newton Cotman set. (session 2023-03-23)\n- User attended their niece's high school graduation ceremony on June 15, 2023. (session 2023-07-12)\n- The assistant provided a comprehensive list of sleep hygiene strategies, including environmental adjustments, routine building, stress management, and lifestyle changes. (session 2023-04-03)\n- User purchased a sculpture by an up-and-coming artist at an art auction last month and currently displays it on their coffee table. (session 2023-03-23)\n- The assistant explained the benefits of yoga and meditation for sleep, noting their role in reducing stress, regulating cortisol, and enhancing sleep stages. (session 2023-04-03)\n- User has been practicing yoga and meditation to manage anxiety levels and is interested in their impact on sleep quality. (session 2023-04-03)\n- User was provided with recommendations for art supply storage, including mobile carts, stackable bins, pegboards, and canvas racks, with brand suggestions like IKEA, ArtBin, and The Container Store. (session 2023-03-23)\n- User is creating a YouTube video series about the influence of Hindu mythology on modern Indian culture and society, specifically focusing on the role of mythology in Indian spirituality and religion. (session 2023-04-02)\n- User is interested in practicing data science skills through Kaggle projects, specifically the 'Titanic: Machine Learning from Disaster' project. (session 2023-07-12)\n- The assistant recommended specific books for data science: 'Python Data Science Handbook' by Jake VanderPlas, 'R for Data Science' by Hadley Wickham and Garrett Grolemund, and 'Data Analysis with Python' by Wes McKinney. (session 2023-03-27)\n- User was provided with a 10-point guide for setting up a home art studio, covering space assessment, lighting, ergonomics, and safety. (session 2023-03-23)\n- User is interested in improving their data analysis skills and is considering pursuing an MBA, though they have not yet started the application process. (session 2023-03-27)\n- User was provided with tips for finding art on Etsy and Redbubble, emphasizing checking seller reviews, using specific keywords, and verifying the authenticity of the artist. (session 2023-03-23)\n- User is exploring online marketplaces like Etsy and Redbubble to find unique and authentic art pieces for their collection. (session 2023-03-23)\n- User is seeking coaching on creating content that connects with C-level executives at B2B SaaS companies, specifically requesting uncommon, expert-level advice. (session 2023-11-09)\n- User requested a children's book story about a boy named Timmy and his playful dog Max on a family forest vacation, which the assistant generated. (session 2023-03-17)\n- User has decided to focus their Data Science Specialization capstone project on predicting customer churn using data from their current marketing role. (session 2023-03-27)\n- The assistant summarized the user's capstone project scope: analyzing customer behavior to predict churn, developing a predictive model, identifying churn patterns, and informing retention strategies. (session 2023-03-27)\n- User attends weekly therapy sessions with Dr. Smith to work on setting healthy boundaries and prioritizing their well-being. (session 2023-11-03)\n- User works in marketing and is currently experiencing a challenge with customer churn. (session 2023-03-27)\n- The assistant provided a list of tools for data visualization (Tableau, Matplotlib, Seaborn, ggplot2, Power BI) and modeling (Scikit-learn, TensorFlow, PyTorch, R's caret package, Statsmodels). (session 2023-03-27)\n- User intends to verify credentials and obtain multiple quotes before hiring a professional for their electrical and lighting projects. (session 2023-11-03)\n- User intends to use DataCamp and Kaggle to learn about machine learning tools, specifically expressing interest in scikit-learn and TensorFlow. (session 2023-03-27)\n- User is taking art classes at a local studio and is interested in experimenting with different mediums, specifically watercolor painting. (session 2023-03-23)\n- The assistant recommended various data science resources including DataCamp, Coursera, edX, Udemy, Kaggle, Khan Academy, Data.gov, Google Analytics Academy, and Towards Data Science. (session 2023-03-27)\n- User asked for title suggestions for the children's book about Timmy and Max, and the assistant suggested 'Max and Timmy's Forest Adventure', 'Timmy and his Playful Dog: A Forest Vacation', and 'Max the Explorer: A Family Vacation in the Woods'. (session 2023-03-17)\n- User's regular commitments include a weekly yoga class and bi-weekly dinner with friends, alongside self-care practices of meditation and journaling. (session 2023-11-03)\n- User plans to ask friends and family for spare lamps to borrow or buy, as well as recommendations for electricians or handymen to install dimmers and replace a fluorescent light in the laundry room with an LED fixture. (session 2023-11-03)\n- The assistant provided a structured writing guide for Narrative, Informational, Persuasive, and Poetry genres, including definitions, conflict examples, plot elements, book examples for children, and five-week action plans for each. (session 2023-03-15)\n- The assistant created a simple daily and weekly checklist for the user to track priorities, boundary-setting, and self-care activities. (session 2023-11-03)\n- The assistant developed a detailed, five-part narrative story featuring a prince named Rohan and his guru to serve as a framework for the user's YouTube video on Hindu mythology in spirituality and religion. (session 2023-04-02)\n- User attends therapy sessions with Dr. Smith every two weeks and plans to discuss their progress with sleep and boundary-setting. (session 2023-04-03)\n- User is considering pursuing a certification in data science and is exploring online resources and programs to advance their career. (session 2023-07-12)\n- User is seeking a structured writing guide for children under twelve that categorizes genres into a numbered list including definitions, internal and external conflict examples, plot structures (rising, peak, falling action, conclusion), book summaries, and a five-week working timeline and action plan. (session 2023-03-15)\n- The assistant provided a flexible prioritization framework for the user, categorizing tasks into 'Must-Dos', 'Should-Dos', and 'Nice-To-Dos' to help manage workload and boundaries. (session 2023-11-03)\n- User feels overwhelmed by social commitments and is planning to set boundaries with their partner to allow for more downtime at home. (session 2023-04-03)\n- User attended an art auction at a prestigious gallery in the city around February 2023, which inspired them to start creating their own art. (session 2023-03-23)\n- The assistant provided a list of data science resources including Coursera, edX, DataCamp, Kaggle, and the Data Science Handbook, along with certification programs like CDS by DASCA and university programs from Stanford and Harvard. (session 2023-07-12)\n- The assistant provided two sets of five YouTube playlist titles regarding Hindu mythology's influence on Indian culture, covering topics like the Ramayana, Mahabharata, Bhagavad Gita, and the role of deities in contemporary art and politics. (session 2023-04-02)\n- User requested AI image prompts for each sentence of the story about Timmy and Max, which the assistant provided. (session 2023-03-17)\n- The assistant provided a framework for setting boundaries, including the '3Rs' (Reflect, Respond, Renegotiate) and tips for handling potential pushback from a partner. (session 2023-04-03)\n- User was recommended several retailers for modern lamps with soft shades, including West Elm, Crate & Barrel, Restoration Hardware, Pottery Barn, AllModern, Amazon, Etsy, Chairish, and 1stdibs. (session 2023-11-03)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 52,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 33.8,
+  "total": 35.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "qid": "e493bb7c",
+ "arm": "honcho-repr",
+ "split": "pilot",
+ "question": "Where is the painting 'Ethereal Dreams' by Emma Taylor currently hanging?",
+ "reference": "in my bedroom",
+ "question_date": "2023-11-18 19:24",
+ "sessions": [
+  {
+   "id": "ultrachat_363167",
+   "date": "2023-06-18 04:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_1a374afa_1",
+   "date": "2023-07-11 09:13",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_287713",
+   "date": "2023-07-31 17:48",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_513900",
+   "date": "2023-08-10 11:09",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6cz1Sq6_177",
+   "date": "2023-08-14 09:15",
+   "evidence": false
+  },
+  {
+   "id": "251bd037",
+   "date": "2023-08-26 04:36",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_IcXBFnH_5",
+   "date": "2023-09-18 12:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_1a374afa_2",
+   "date": "2023-10-30 16:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_247306",
+   "date": "2023-11-05 12:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LbqrSdB_0",
+   "date": "2023-11-16 16:49",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-07-11 09:15:00] user has a painting hanging above the sofa in the user's living room.\n[2023-07-11 09:17:00] user keeps a painting titled \"Ethereal Dreams\" above the living room sofa.\n[2023-10-30 16:40:00] user has an \"Ethereal Dreams\" painting in the bedroom.\n[2023-10-30 16:46:00] user moved the 'Ethereal Dreams' painting by Emma Taylor to a position above their bed.\n[2023-10-30 16:46:00] user owns a painting titled 'Ethereal Dreams' by Emma Taylor.\n[2023-10-30 16:46:00] user is planning to create an artwork piece that incorporates a figure in a dreamlike environment.\n[2023-10-30 16:46:00] user owns a 'Moonlit Ocean' print located in their bedroom.\n[2023-10-30 16:48:00] user intends to layer transparent washes to build up atmosphere in artwork.\n[2023-10-30 16:48:00] user intends to experiment with glazing and soft brushstrokes to create a sense of mistiness in artwork.\n[2023-10-30 16:48:00] user wants to suggest a figure is floating or drifting in mist in artwork.\n[2023-10-30 16:48:00] user is seeking tips on how to create a sense of movement or flow in artwork.\n[2023-11-05 12:06:00] user finds the research being done at the West Point Laboratory for Laser Energetics fascinating.\n[2023-11-05 12:06:00] user aspires to become a superhero.\n[2023-11-05 12:06:00] user is interested in student research involvement opportunities at the West Point Laboratory for Laser Energetics.\n[2023-11-05 12:06:00] user is interested in research centers and laboratories located on the United States Military Academy campus.\n[2023-11-16 16:49:00] user is interested in learning about the business continuity planning life cycle.\n[2023-11-16 16:49:00] user is interested in learning about building business continuity planning.\n[2023-11-16 16:49:00] user is interested in the first domain of the CISSP exam.\n[2023-11-16 16:49:00] user is studying for the CISSP exam.\n\n## Deductive Observations\n\n[2023-10-30 16:48:00] user is exploring techniques for creating atmospheric or ethereal effects in visual art.\n   Premises:\n   - user intends to experiment with layering and blending techniques to create depth and atmosphere in their artwork.\n   - user intends to layer transparent washes to build up atmosphere in artwork.\n   - user intends to experiment with glazing and soft brushstrokes to create a sense of mistiness in artwork.\n\n[2023-11-16 16:49:00] user is interested in high-energy physics research environments.\n   Premises:\n   - user finds the research being done at the West Point Laboratory for Laser Energetics fascinating.\n   - user is interested in research centers and laboratories located on the United States Military Academy campus.\n\n[2023-11-16 16:49:00] user is actively preparing for the CISSP certification.\n   Premises:\n   - user is studying for the CISSP exam.\n\n[2023-11-16 16:49:00] user has a specific interest in cybersecurity management principles.\n   Premises:\n   - user is interested in learning about the business continuity planning life cycle.\n   - user is interested in learning about building business continuity planning.\n\n\n## Inductive Observations\n\n **Pattern** [medium]: user has a consistent interest in developing techniques to create atmospheric and dreamlike qualities in their artwork.\n   **Type**: preference\n   **Sources**:\n   - user intends to experiment with glazing and soft brushstrokes to create a sense of mistiness in artwork.\n   - user wants to suggest a figure is floating or drifting in mist in artwork.\n   - user is seeking tips on how to create a sense of movement or flow in artwork.\n   - user intends to layer transparent washes to build up atmosphere in artwork.\n   - user is planning to create an artwork piece that incorporates a figure in a dreamlike environment.\n\n **Pattern** [medium]: user demonstrates a focused interest in professional development and research opportunities related to scientific and security institutions.\n   **Type**: tendency\n   **Sources**:\n   - user is studying for the CISSP exam.\n   - user is interested in student research involvement opportunities at the West Point Laboratory for Laser Energetics.\n   - user is interested in research centers and laboratories located on the United States Military Academy campus.\n   - user is interested in learning about the business continuity planning life cycle.\n\n",
+ "answer": "To determine the current location of the painting \"Ethereal Dreams\" by Emma Taylor, I will follow these steps:\n\n**Step 1: Extract relevant information**\n*   [2023-07-11 09:17:00]: The user kept the painting \"Ethereal Dreams\" above the living room sofa.\n*   [2023-10-30 16:40:00]: The user has an \"Ethereal Dreams\" painting in the bedroom.\n*   [2023-10-30 16:46:00]: The user moved the \"Ethereal Dreams\" painting by Emma Taylor to a position above their bed.\n\n**Step 2: Reason over the information**\n*   The initial location of the painting was in the living room.\n*   On October 30, 2023, the user explicitly moved the painting from its previous location to a new location.\n*   The record from 16:46:00 on October 30, 2023, confirms the painting was moved to a position above the user's bed.\n*   There are no subsequent records indicating that the painting has been moved again since that date.\n\n**Answer:**\nThe painting \"Ethereal Dreams\" by Emma Taylor is currently hanging above the user's bed.",
+ "dump": "- [explicit] user is interested in upcoming architectural projects in Dubai.\n- [explicit] user is interested in sustainable architectural features popular in Dubai buildings.\n- [explicit] user is interested in the evolution of architecture in Dubai over the past 10 years.\n- [explicit] user is interested in upcoming architectural projects in Dubai that blend modernity and tradition.\n- [explicit] user finds Dubai's efforts to create sustainable buildings impressive.\n- [explicit] user owns an art box.\n- [explicit] user has a painting hanging above the sofa in the user's living room.\n- [explicit] user intends to host an art-themed party.\n- [explicit] user plans to set up art stations for guests at an art-themed party.\n- [explicit] user keeps a painting titled \"Ethereal Dreams\" above the living room sofa.\n- [explicit] user intends to move the \"Moonlit Ocean\" print to the party area to decorate.\n- [explicit] user owns a digital print of \"Moonlit Ocean\" by Jack Harris.\n- [explicit] user plans to frame the digital print of \"Moonlit Ocean\" by Jack Harris.\n- [explicit] user plans to set up a station for guests to create their own art journals at a party.\n- [explicit] user plans to set up a corner at a party with art books and magazines.\n- [explicit] user intends to display art pieces at a party.\n- [explicit] user identifies 'Creative Corner' as an art magazine or book publication.\n- [explicit] user intends to start an art journal.\n- [explicit] user identifies 'The Artisan Post' as an art magazine or book publication.\n- [explicit] user intends to provide props and art-themed backdrops for a photo station.\n- [explicit] user intends to set up a photo station for party guests.\n- [explicit] user is planning to host a party.\n- [explicit] user is interested in immersing themselves in the culture of Cardiff.\n- [explicit] user is interested in learning the Welsh language.\n- [explicit] user intends to look into Welsh language courses for adults in Cardiff.\n- [explicit] user loves attending festivals.\n- [explicit] user intends to check out the Eisteddfod Genedlaethol Cymru festival.\n- [explicit] user intends to check out the Tafwyl festival.\n- [explicit] user believes the government is performing adequately.\n- [explicit] user expresses indifference toward historical justifications for revolutions.\n- [explicit] user is interested in the role of the “Friends of the ABC” in Les Misérables.\n- [explicit] user believes that the government knows what is best for the people.\n- [explicit] user characterizes the revolutionary characters in Les Misérables as angry individuals causing trouble.\n- [explicit] user believes revolutionaries should refrain from interfering.\n- [explicit] user expresses skepticism toward the revolutionary motives of the “Friends of the ABC” in Les Misérables.\n- [explicit] user believes revolutionary actions result in chaos and destruction.\n- [explicit] user is interested in obtaining tips for maintaining good posture throughout the day.\n- [explicit] user is interested in obtaining information on exercises for bracing the spine.\n- [explicit] user intends to send chapter 10 of their original book to the assistant.\n- [explicit] user is writing a book that contains at least ten chapters.\n- [explicit] user is considering inviting Rachel to brunch, coffee, or dinner.\n- [explicit] user and Rachel used to catch up at least once a week.\n- [explicit] user played a board game similar to Codenames at Alex's game night.\n- [explicit] user attended a game night hosted by Alex.\n- [explicit] user is planning to reach out to Rachel to catch up.\n- [explicit] user plans to bring up the canceled Valentine's Day brunch plans with Rachel in a casual way.\n- [explicit] user had brunch plans with Rachel on Valentine's Day that were canceled.\n- [explicit] user intended to reach out to Rachel for weeks but has not done so yet.\n- [explicit] user describes their social life as having been a bit lonely lately.\n- [explicit] user intends to suggest grabbing coffee to Rachel.\n- [explicit] user previously canceled Valentine's Day brunch plans with Rachel.\n- [explicit] user plans to join a book club or a sports team to meet new people.\n- [explicit] user has a streak of canceled plans with Rachel\n- [explicit] user plans to have a coffee catch-up with Rachel\n- [explicit] user is considering asking Rachel about her love life or relationships\n- [explicit] user intends to keep the fact that they have canceled plans with Rachel to themself for now\n- [explicit] user wants a song written in the style of Green Day that communicates the tenets of the provided policy memorandum.\n- [explicit] user wants an outline developed for a training for staff who will implement the policy provided in the memorandum.\n- [explicit] user is developing a training for staff on implementing a policy.\n- [explicit] user wants to include practice activities for staff in the training meeting.\n- [explicit] user has an \"Ethereal Dreams\" painting in the bedroom.\n- [explicit] user is looking for inspiration for an art project.\n- [explicit] user is interested in exploring the lowbrow art style.\n- [explicit] user is interested in exploring the surrealism art style.\n- [explicit] user is considering creating an art piece that combines abstract art and the human figure\n- [explicit] user has a love of abstract art\n- [explicit] user has a fascination with the human figure\n- [explicit] user intends to depict a figure floating in a misty, ethereal environment in their artwork.\n- [explicit] user intends to experiment with layering and blending techniques to create depth and atmosphere in their artwork.\n- [explicit] user plans to use soft, pastel colors to evoke calmness and serenity in their artwork.\n- [explicit] user moved the 'Ethereal Dreams' painting by Emma Taylor to a position above their bed.\n- [explicit] user owns a 'Moonlit Ocean' print located in their bedroom.\n- [explicit] user is planning to create an artwork piece that incorporates a figure in a dreamlike environment.\n- [explicit] user owns a painting titled 'Ethereal Dreams' by Emma Taylor.\n- [explicit] user intends to layer transparent washes to build up atmosphere in artwork.\n- [explicit] user is seeking tips on how to create a sense of movement or flow in artwork.\n- [explicit] user wants to suggest a figure is floating or drifting in mist in artwork.\n- [explicit] user intends to experiment with glazing and soft brushstrokes to create a sense of mistiness in artwork.\n- [explicit] user finds the research being done at the West Point Laboratory for Laser Energetics fascinating.\n- [explicit] user is interested in research centers and laboratories located on the United States Military Academy campus.\n- [explicit] user aspires to become a superhero.\n- [explicit] user is interested in student research involvement opportunities at the West Point Laboratory for Laser Energetics.\n- [explicit] user is interested in learning about building business continuity planning.\n- [explicit] user is studying for the CISSP exam.\n- [explicit] user is interested in the first domain of the CISSP exam.\n- [explicit] user is interested in learning about the business continuity planning life cycle.\n- [deductive] user has a specific interest in cybersecurity management principles.\n- [deductive] user is interested in high-energy physics research environments.\n- [deductive] user is actively preparing for the CISSP certification.\n- [deductive] user is exploring techniques for creating atmospheric or ethereal effects in visual art.\n- [inductive] user has a consistent interest in developing techniques to create atmospheric and dreamlike qualities in their artwork.\n- [inductive] user demonstrates a focused interest in professional development and research opportunities related to scientific and security institutions.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 92.3,
+  "total": 96.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

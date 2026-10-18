@@ -1,0 +1,100 @@
+{
+ "qid": "affe2881",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How many different species of birds have I seen in my local park?",
+ "reference": "32",
+ "question_date": "2023-06-07 02:42",
+ "sessions": [
+  {
+   "id": "0338df32",
+   "date": "2023-04-29 16:59",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_J2pQr1T_0",
+   "date": "2023-05-01 16:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_uZwFWTJ_43",
+   "date": "2023-05-04 04:54",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_28MOwpT_17",
+   "date": "2023-05-19 13:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_1",
+   "date": "2023-05-24 01:31",
+   "evidence": true
+  },
+  {
+   "id": "3d895af0_3",
+   "date": "2023-05-24 02:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_26212",
+   "date": "2023-05-25 11:51",
+   "evidence": false
+  },
+  {
+   "id": "1b71c896_2",
+   "date": "2023-05-29 03:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_90de9b4d_2",
+   "date": "2023-05-29 17:18",
+   "evidence": true
+  },
+  {
+   "id": "7badf4f3_1",
+   "date": "2023-05-30 11:20",
+   "evidence": false
+  }
+ ],
+ "context": "- User has documented 27 different bird species in their local park and uses the eBird app to track sightings and submit data. (from a chat on 2023-05-24)\n- User spotted a Northern Flicker in their local park the weekend of May 20-21, 2023, bringing their total documented bird species count to 32. (from a chat on 2023-05-29)\n- User is planning a bird-friendly picnic in their local park for the weekend of June 3-4, 2023, and intends to bring suet, sunflower seeds, and fresh fruits to attract birds. (from a chat on 2023-05-29)\n- User was provided with strategies for finding new birding hotspots, including using eBird, Audubon, and BirdLife International, and consulting local birding clubs. (from a chat on 2023-05-24)\n- User is actively improving their bird photography skills, specifically focusing on capturing close-up shots of skittish species like the Northern Flicker. (from a chat on 2023-05-24)\n- User was advised that fruit preference varies by species: birds like cardinals and woodpeckers often prefer whole fruits, while robins and sparrows may prefer sliced fruits. (from a chat on 2023-05-29)\n- User was advised that suet may attract woodpecker species such as Downy, Hairy, Red-bellied, and Pileated Woodpeckers, depending on the region. (from a chat on 2023-05-29)\n- The persona's first marriage ended in divorce because he and his first wife had too many differences and could not see eye to eye. (from a chat on 2023-05-01)\n- User is working on bird identification skills, particularly for warblers and sparrows, which they find challenging to distinguish. (from a chat on 2023-05-24)\n- User is planning a birding trip to a nearby lake for the weekend of May 27-28, 2023, with the goal of spotting Ospreys and Bald Eagles. (from a chat on 2023-05-24)\n- User was advised to use resources like Trailforks, MTB Project, and TrailLink to find mountain biking trails, and to consult local bike shops for insider knowledge. (from a chat on 2023-05-29)\n- User was provided with explanations and examples for uninformed search strategies (BFS, DFS, DLS, IDS, UCS) and local search strategies (Hill climbing, Genetic Algorithms, Simulated annealing). (from a chat on 2023-05-19)\n- User is studying artificial intelligence search techniques, specifically focusing on problem-solving components, uninformed search strategies (BFS, DFS, DLS, IDS, UCS), local search strategies (Hill climbing, Genetic Algorithms, Simulated annealing), and the distinction between uninformed and informed search strategies. (from a chat on 2023-05-19)\n- User decided to bring both binoculars and a spotting scope for their upcoming lake trip to maximize their ability to observe birds at varying distances. (from a chat on 2023-05-24)\n- User was advised that birds generally prefer running water over stagnant water due to movement, sound, and freshness, but a shallow birdbath with clean water is a suitable alternative for a picnic. (from a chat on 2023-05-29)\n- User was provided with tips for photographing skittish birds, including using blinds, choosing appropriate equipment like a 200mm+ telephoto lens, and using bait like suet or fruit. (from a chat on 2023-05-24)\n- User plans to use binoculars during their picnic to observe warblers and sparrows, and was provided with tips on identifying them by habitat, movement, and physical characteristics. (from a chat on 2023-05-29)\n- User was provided with identification tips for warblers and sparrows, focusing on facial patterns, beak shape, tail patterns, wing bars, and habitat preferences. (from a chat on 2023-05-24)\n- User was provided with specific advice for spotting Ospreys and Bald Eagles, such as looking for nesting platforms, scanning tall perches, and focusing on fish-rich areas near water. (from a chat on 2023-05-24)\n- User is planning a summer vacation involving mountain biking in nearby mountains and aims to ride 20-30 miles per day at a moderate difficulty level. (from a chat on 2023-05-29)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   From the chat on 2023-05-24: The user had documented 27 different bird species in their local park.\n*   From the chat on 2023-05-29: The user spotted a Northern Flicker in their local park the weekend of May 20-21, 2023, which brought their total documented bird species count to 32.\n\n**2. Reason over the information:**\n*   The initial count was 27 species.\n*   The subsequent update explicitly states that after spotting the Northern Flicker, the total count reached 32.\n*   Since the question asks for the number of species seen in the local park and the most recent update provided in the history is 32, this is the current total.\n\n**Answer:**\nYou have documented 32 different species of birds in your local park.",
+ "dump": "- User was advised that suet may attract woodpecker species such as Downy, Hairy, Red-bellied, and Pileated Woodpeckers, depending on the region. (session 2023-05-29)\n- User is evaluating whether to invest in a high-quality leather strap for their potential watch purchase or opt for a more affordable alternative based on durability, comfort, and aesthetics. (session 2023-04-29)\n- User is working on bird identification skills, particularly for warblers and sparrows, which they find challenging to distinguish. (session 2023-05-24)\n- User was advised that fruit preference varies by species: birds like cardinals and woodpeckers often prefer whole fruits, while robins and sparrows may prefer sliced fruits. (session 2023-05-29)\n- User is interested in purchasing a luxury designer watch and is researching ways to find authenticated pre-owned options at a discount. (session 2023-04-29)\n- User completed a 5K charity run on April 17, 2023, in 27 minutes and 12 seconds, achieving a personal best. (session 2023-05-29)\n- User recently received a promotion at work and is currently navigating a balance between luxury spending and budget-conscious shopping habits. (session 2023-04-29)\n- The persona expresses that he loves all three of his children equally and enjoys spending time with them whenever his job as a truck driver allows. (session 2023-05-01)\n- User was provided with tips for photographing skittish birds, including using blinds, choosing appropriate equipment like a 200mm+ telephoto lens, and using bait like suet or fruit. (session 2023-05-24)\n- User is planning an international-themed dinner party featuring Korean-style BBQ beef, Indian butter chicken, and Middle Eastern falafel. (session 2023-05-24)\n- User intends to ask their jeweler about repairing a pair of vintage gold earrings inherited from their grandmother, specifically noting that the left earring has a loose backing. (session 2023-05-30)\n- The persona has been married twice, has three children, and finds balancing work-life demands and time away from family to be his greatest professional challenge. (session 2023-05-01)\n- The persona adopted by the assistant is a 43-year-old white male truck driver born on April 15, 1980, who identifies strictly as male. (session 2023-05-01)\n- User was recommended various international-themed appetizers, sides, desserts, drinks, and decor ideas to complement their dinner party menu. (session 2023-05-24)\n- User selected kulfi and baklava as desserts for their dinner party. (session 2023-05-24)\n- The persona describes his current marriage as having ups and downs but notes that he and his wife are working through their issues together. (session 2023-05-01)\n- User has been making Pad Thai at home for lunch on a weekly basis. (session 2023-05-24)\n- User was advised that birds generally prefer running water over stagnant water due to movement, sound, and freshness, but a shallow birdbath with clean water is a suitable alternative for a picnic. (session 2023-05-29)\n- User strongly believes that taking breaks during the workday is a sign of laziness and a waste of time, preferring to work continuously to meet deadlines and maximize productivity. (session 2023-05-25)\n- User was recommended to look for mountain bike festivals such as the Sea Otter Classic, Crankworx, and USA Cycling National Championships to meet fellow cyclists and learn skills. (session 2023-05-29)\n- User was provided with a list of ten key design issues for searching techniques, including completeness, time and space complexity, optimality, heuristics, search order, loop handling, dead-end management, multiple solutions, and uncertainty. (session 2023-05-19)\n- User recently lost a favorite silver necklace with a small pendant at the beach on the weekend of May 27-28, 2023, after leaving it on a towel while swimming. (session 2023-05-30)\n- User is planning a birding trip to a nearby lake for the weekend of May 27-28, 2023, with the goal of spotting Ospreys and Bald Eagles. (session 2023-05-24)\n- User was provided with the nine common steps of problem-solving techniques: understanding, formulating a plan, implementing, evaluating, refining, checking, learning, storing, and communicating. (session 2023-05-19)\n- User plans to set up a drink station with signature cocktails, wine, and champagne for their dinner party. (session 2023-05-24)\n- User learned that a dropper post allows for quick saddle height adjustment, improving control, clearance, and descending capabilities on technical mountain bike terrain. (session 2023-05-29)\n- The persona clarifies that he has only been married twice and does not have a third wife. (session 2023-05-01)\n- User is planning to visit a jeweler the week of May 29, 2023, to have their engagement ring professionally cleaned and inspected. (session 2023-05-30)\n- User decided to bring both binoculars and a spotting scope for their upcoming lake trip to maximize their ability to observe birds at varying distances. (session 2023-05-24)\n- User was advised to use resources like Trailforks, MTB Project, and TrailLink to find mountain biking trails, and to consult local bike shops for insider knowledge. (session 2023-05-29)\n- User recently discovered a brand of authentic Japanese short-grain rice and plans to serve it as a side dish at their dinner party. (session 2023-05-24)\n- User was provided with step-by-step Python instructions and code to estimate causal effects in a refined causal graph using linear regression with the statsmodels library. (session 2023-05-04)\n- User has documented 27 different bird species in their local park and uses the eBird app to track sightings and submit data. (session 2023-05-24)\n- User plans to use candles and string lights to create a warm and intimate ambiance for their dinner party. (session 2023-05-24)\n- User was provided with strategies for finding new birding hotspots, including using eBird, Audubon, and BirdLife International, and consulting local birding clubs. (session 2023-05-24)\n- The assistant's provided method for estimating causal effects involves converting a Tetrad graph to a NetworkX directed graph, identifying parent variables, and performing OLS regression for each variable using its parents as predictors. (session 2023-05-04)\n- The persona's first marriage ended in divorce because he and his first wife had too many differences and could not see eye to eye. (session 2023-05-01)\n- User is considering whether to purchase a luxury watch through a brand's certified pre-owned (CPO) program or a third-party reseller, weighing factors like warranty, authenticity, and price. (session 2023-04-29)\n- User is planning a summer vacation involving mountain biking in nearby mountains and aims to ride 20-30 miles per day at a moderate difficulty level. (session 2023-05-29)\n- User was advised to have their engagement ring professionally inspected and cleaned every 6-12 months to ensure the setting and prongs remain secure. (session 2023-05-30)\n- User was recommended several jewelry cleaning brands: Connoisseurs, Godfrey's, Weiman, and Tarn-X, as well as the option of using an ultrasonic jewelry cleaner. (session 2023-05-30)\n- User was advised to search for bike shops offering guided tours, rentals, and lessons via Google, online directories like Yelp or TripAdvisor, and social media. (session 2023-05-29)\n- User was advised to mention their lost silver necklace to the jeweler, providing a detailed description and the circumstances of the loss, in case it is turned in. (session 2023-05-30)\n- User recently took a Thai cooking class with their sister where they learned to make Pad Thai, Green Curry, and Tom Yum soup. (session 2023-05-24)\n- User was recommended several online retailers for authenticated pre-owned luxury watches: The RealReal, WatchBox, Bob's Watches, Chrono24, 1stdibs, Luxury Garage Sale, and the authentication service Authenticate4U. (session 2023-04-29)\n- User was provided with a detailed breakdown of problem-solving components, including initial state, goal state, actions, constraints, performance measures, problem space, search space, solution, cost, and uncertainty. (session 2023-05-19)\n- User was advised that both creamy and crunchy peanut butter are suitable for attracting birds like woodpeckers and nuthatches, provided they are offered safely on logs, branches, or in specialized feeders. (session 2023-05-29)\n- User is planning a bird-friendly picnic in their local park for the weekend of June 3-4, 2023, and intends to bring suet, sunflower seeds, and fresh fruits to attract birds. (session 2023-05-29)\n- User was provided with explanations and examples for uninformed search strategies (BFS, DFS, DLS, IDS, UCS) and local search strategies (Hill climbing, Genetic Algorithms, Simulated annealing). (session 2023-05-19)\n- User was provided with identification tips for warblers and sparrows, focusing on facial patterns, beak shape, tail patterns, wing bars, and habitat preferences. (session 2023-05-24)\n- User received a beginner's guide to buying a mountain bike, covering factors like budget, wheel size, suspension types, frame materials, and the importance of test rides. (session 2023-05-29)\n- User is exploring the trade-offs of buying previous year's models or discontinued watch styles to secure a better price. (session 2023-04-29)\n- The persona has three children, consisting of two boys and one girl. (session 2023-05-01)\n- User is actively improving their bird photography skills, specifically focusing on capturing close-up shots of skittish species like the Northern Flicker. (session 2023-05-24)\n- User selected kimchi coleslaw and basmati rice pilaf as side dishes for their dinner party. (session 2023-05-24)\n- The persona has three children: two from his first marriage and one from his second marriage. (session 2023-05-01)\n- User plans to use binoculars during their picnic to observe warblers and sparrows, and was provided with tips on identifying them by habitat, movement, and physical characteristics. (session 2023-05-29)\n- User was provided with specific advice for spotting Ospreys and Bald Eagles, such as looking for nesting platforms, scanning tall perches, and focusing on fish-rich areas near water. (session 2023-05-24)\n- The persona is a truck driver with over 20 years of experience who dislikes dogs, prefers cats, and enjoys pepperoni and sausage pizza. (session 2023-05-01)\n- The persona typically eats at truck stops, diners, or fast-food restaurants and uses rest stops or gas stations for bathroom breaks while on the road. (session 2023-05-01)\n- User was provided with a comparison between uninformed search (blind search) and informed search (heuristic search) strategies, noting that informed search uses domain-specific knowledge to prioritize exploration. (session 2023-05-19)\n- User spotted a Northern Flicker in their local park the weekend of May 20-21, 2023, bringing their total documented bird species count to 32. (session 2023-05-29)\n- User is studying artificial intelligence search techniques, specifically focusing on problem-solving components, uninformed search strategies (BFS, DFS, DLS, IDS, UCS), local search strategies (Hill climbing, Genetic Algorithms, Simulated annealing), and the distinction between uninformed and informed search strategies. (session 2023-05-19)\n- User selected Kimchi deviled eggs and hummus with pita bread as appetizers for their dinner party. (session 2023-05-24)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 64,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 37.5,
+  "total": 38.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

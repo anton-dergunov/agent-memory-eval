@@ -1,0 +1,102 @@
+{
+ "qid": "71315a70",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many hours have I spent on my abstract ocean sculpture?",
+ "reference": "10-12 hours",
+ "question_date": "2023-06-18 19:47",
+ "sessions": [
+  {
+   "id": "37d634c0_1",
+   "date": "2023-05-13 12:11",
+   "evidence": false
+  },
+  {
+   "id": "answer_c44b9df4_1",
+   "date": "2023-06-11 03:51",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_ZUxBndS_26",
+   "date": "2023-06-11 08:02",
+   "evidence": false
+  },
+  {
+   "id": "6028dbf9",
+   "date": "2023-06-12 17:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_QFmKhh1_17",
+   "date": "2023-06-12 22:37",
+   "evidence": false
+  },
+  {
+   "id": "bcd5c30f_1",
+   "date": "2023-06-14 06:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_VLn3Y3v_0",
+   "date": "2023-06-16 17:21",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_I6xL7Th_0",
+   "date": "2023-06-17 01:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_c44b9df4_2",
+   "date": "2023-06-17 09:26",
+   "evidence": true
+  },
+  {
+   "id": "41743aae_1",
+   "date": "2023-06-18 03:50",
+   "evidence": false
+  }
+ ],
+ "context": "- The user is working on an abstract ocean sculpture at home, having spent 5-6 hours on it. (valid from 2023-06-11 until 2023-06-17) [superseded]\n- The user is working on an abstract ocean sculpture, having already invested 10-12 hours into it as a work in progress. (valid since 2023-06-17)\n- The user is considering using natural materials such as seashells and driftwood in their abstract ocean sculpture. (valid since 2023-06-17)\n- The user plans to create a series of ocean-inspired sculptures. (valid since 2023-06-11)\n- The user plans to incorporate sea glass into their next sculpture. (valid since 2023-06-17)\n- The user plans to incorporate beach stones into their next sculpture. (valid since 2023-06-17)\n- The user plans to use resin as a material for their ocean-inspired sculptures. (valid since 2023-06-11)\n- found ocean objects such as sea glass and beach stones can be combined with clay in sculptures (valid since 2023-06-17)\n- beach stones are found ocean objects that can be incorporated into clay (valid since 2023-06-17)\n- The assistant suggests incorporating found ocean objects like sea glass, beach stones, shells, and driftwood into sculptures. (valid since 2023-06-17)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   The history chat states: \"The user is working on an abstract ocean sculpture, having already invested 10-12 hours into it as a work in progress. (valid since 2023-06-17)\"\n    *   The previous entry regarding 5-6 hours is marked as [superseded].\n\n2.  **Reason over the information:**\n    *   Since the 10-12 hour figure is the most recent and valid information (as of 2023-06-17), and the current date is 2023-06-18, this is the accurate duration.\n\n3.  **Answer:**\n    *   You have spent 10-12 hours on your abstract ocean sculpture.",
+ "dump": "- The user performed a 30-minute walk or jog on Saturday morning. (valid since 2023-05-13)\n- The user considers using the meal planning application Plan to Eat for managing their meal preparation. (valid since 2023-05-13)\n- The user considers using the meal planning application Yummly for managing their meal preparation. (valid since 2023-05-13)\n- The user is working on an abstract ocean sculpture at home, having spent 5-6 hours on it. (valid from 2023-06-11 until 2023-06-17) [superseded]\n- The user plans to create a series of ocean-inspired sculptures. (valid since 2023-06-11)\n- The user plans to use resin as a material for their ocean-inspired sculptures. (valid since 2023-06-11)\n- Gel medium can be mixed with epoxy resin to create a more transparent, gel-like effect. (valid since 2023-06-11)\n- Fiber optics can be added to resin to create a sense of movement and depth. (valid since 2023-06-11)\n- Iridescent powders can be used with resin to create a shimmering, ocean-like effect. (valid since 2023-06-11)\n- Crushed sea glass can be added to resin to create a sense of texture and visual interest. (valid since 2023-06-11)\n- Glow-in-the-dark pigments can be used with resin to create a bioluminescent effect in sculptures. (valid since 2023-06-11)\n- Resin dyes can be used with resin to achieve vibrant ocean-inspired colors. (valid since 2023-06-11)\n- Pigment powders can be added to resin to create subtle, nuanced colors. (valid since 2023-06-11)\n- Glass beads can be mixed with resin to create a sense of depth and dimensionality. (valid since 2023-06-11)\n- Glitters can be mixed with resin to create a sense of depth and dimensionality. (valid since 2023-06-11)\n- The user enjoys mountains and beaches and is asking for a place to stay in Bali that features these landscapes. (valid since 2023-06-11)\n- Ubud is located in the central part of Bali (valid since 2023-06-11)\n- Lovina is located in the northern part of Bali (valid since 2023-06-11)\n- Lovina is close to Mount Batur (valid since 2023-06-11)\n- Lovina is close to Mount Agung (valid since 2023-06-11)\n- Amed is located on the eastern coast of Bali (valid since 2023-06-11)\n- Amed is a starting point for hiking Mount Agung (valid since 2023-06-11)\n- Jimbaran is located on the southern coast of Bali (valid since 2023-06-11)\n- Jimbaran is a base for day trips to Bedugul (valid since 2023-06-11)\n- Jimbaran is a base for day trips to Munduk (valid since 2023-06-11)\n- social media use is correlated with mental health outcomes such as depression, anxiety, and self-esteem in young adults (valid since 2023-06-12)\n- assistant provides research on the impact of social media on self-esteem in young adults. (valid since 2023-06-12)\n- self-esteem in young adults is impacted by social media usage. (valid since 2023-06-12)\n- The assistant proposes the creation of a personalized coaching program to embed key themes and lessons from a book. (valid since 2023-06-12)\n- The assistant proposes crafting a captivating speaking presentation based on engaging narratives and expertise from a book. (valid since 2023-06-12)\n- The assistant proposes creating an enthralling course, group coaching session, or workshop centered on essential concepts from a book. (valid since 2023-06-12)\n- The assistant proposes planning a memorable event or retreat that reflects the core messages of a book. (valid since 2023-06-12)\n- The assistant proposes writing a motivating speech showcasing the most inspiring facets of a book. (valid since 2023-06-12)\n- The assistant proposes designing a TED Talk featuring inventive and influential concepts from a book. (valid since 2023-06-12)\n- The assistant proposes formulating a focused marketing approach to publicize and monetize book-related offerings. (valid since 2023-06-12)\n- The assistant proposes creating an alluring sales page or promotional materials presenting various offerings based on a book. (valid since 2023-06-12)\n- The assistant proposes developing a collection of email campaigns or social media content to introduce book-related products. (valid since 2023-06-12)\n- The assistant proposes devising a customer engagement plan to maintain rapport with clients after participating in events or workshops. (valid since 2023-06-12)\n- The assistant cites a 2020 systematic review on social media use and depression published in the Journal of Affective Disorders. (valid since 2023-06-12)\n- The assistant cites a 2019 longitudinal study on social media use and anxiety published in Computers in Human Behavior. (valid since 2023-06-12)\n- The assistant cites a 2018 study on social media, sleep, and depression published in the Journal of Clinical Psychology. (valid since 2023-06-12)\n- The assistant references a 2020 article titled 'The Social Media Depression Epidemic' published in The Atlantic. (valid since 2023-06-12)\n- The assistant references a 2019 article titled 'How Social Media Affects Mental Health in Young Adults' published in Healthline. (valid since 2023-06-12)\n- The assistant references a 2018 article titled 'The Dark Side of Social Media: How It Contributes to Depression and Anxiety' published in HuffPost. (valid since 2023-06-12)\n- The assistant recommends the National Institute of Mental Health as a resource for information on depression and anxiety in young adults. (valid since 2023-06-12)\n- The assistant recommends the American Psychological Association as a resource for research, articles, and information on social media and mental health. (valid since 2023-06-12)\n- The user wants to find information about their Italian ancestors, specifically regarding the regions they came from and what their lives were like. (valid since 2023-06-14)\n- The Amalfi Coast is located in the Campania region. (valid since 2023-06-14)\n- The assistant recommends FamilySearch.org for exploring Italian records, including civil registration, church, and notarial records. (valid since 2023-06-14)\n- The assistant recommends Ancestry.com for searching Italian birth, marriage, and death records, passenger lists, and naturalization records. (valid since 2023-06-14)\n- The assistant recommends the Italian State Archives for searching digitized civil registration, church, and notarial records. (valid since 2023-06-14)\n- The assistant discusses the Campania region as a high-probability area for Italian ancestry and explains research strategies for towns within it. (valid since 2023-06-14)\n- The assistant created a simple but emotional chord progression for a song in the style of hip-hop and pop. (valid since 2023-06-16)\n- The assistant created a counter melody to accompany the chord progression. (valid since 2023-06-16)\n- The assistant produced music in the style of hip-hop and pop. (valid since 2023-06-16)\n- A software engineer with 3 years of experience is proficient in using the Java programming language. (valid since 2023-06-17)\n- A software engineer with 3 years of experience is proficient in using the Python programming language. (valid since 2023-06-17)\n- The user is considering using natural materials such as seashells and driftwood in their abstract ocean sculpture. (valid since 2023-06-17)\n- The user is inquiring about whether natural materials like seashells or driftwood can be used directly in clay or if they require preparation. (valid since 2023-06-17)\n- The user is working on an abstract ocean sculpture, having already invested 10-12 hours into it as a work in progress. (valid since 2023-06-17)\n- found ocean objects such as sea glass and beach stones can be combined with clay in sculptures (valid since 2023-06-17)\n- sea glass is a found ocean object that can be incorporated into clay (valid since 2023-06-17)\n- beach stones are found ocean objects that can be incorporated into clay (valid since 2023-06-17)\n- The user plans to incorporate sea glass into their next sculpture. (valid since 2023-06-17)\n- The user plans to incorporate beach stones into their next sculpture. (valid since 2023-06-17)\n- The assistant suggests incorporating found ocean objects like sea glass, beach stones, shells, and driftwood into sculptures. (valid since 2023-06-17)\n- The user is planning a trip to Amsterdam for next weekend. (valid since 2023-06-18)\n- The user has heard about the Anne Frank House as a potential place to visit in Amsterdam. (valid since 2023-06-18)\n- The user has heard about the Rijksmuseum as a potential place to visit in Amsterdam. (valid since 2023-06-18)\n- The assistant recommends visiting the Albert Cuyp Market in Amsterdam. (valid since 2023-06-18)\n- The assistant recommends visiting the Waterlooplein Flea Market in Amsterdam. (valid since 2023-06-18)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 71,
+  "invalidated": 1,
+  "episodes": 22,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 158.1,
+  "total": 159.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

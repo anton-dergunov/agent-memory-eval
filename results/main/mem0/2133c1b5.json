@@ -1,0 +1,100 @@
+{
+ "qid": "2133c1b5",
+ "arm": "mem0",
+ "split": "main",
+ "question": "How long have I been living in my current apartment in Harajuku?",
+ "reference": "3 months",
+ "question_date": "2023-10-15 08:39",
+ "sessions": [
+  {
+   "id": "sharegpt_NCuLVp2_0",
+   "date": "2023-03-23 05:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_354956",
+   "date": "2023-03-26 10:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_MDDob56_0",
+   "date": "2023-04-09 10:53",
+   "evidence": false
+  },
+  {
+   "id": "answer_52382508_1",
+   "date": "2023-04-11 08:03",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_152598",
+   "date": "2023-08-30 19:54",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_311208",
+   "date": "2023-10-06 11:41",
+   "evidence": false
+  },
+  {
+   "id": "a52d98bf_2",
+   "date": "2023-10-15 11:00",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_RYhUTAL_0",
+   "date": "2023-10-15 15:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_bSlIUYf_32",
+   "date": "2023-10-15 18:31",
+   "evidence": false
+  },
+  {
+   "id": "answer_52382508_2",
+   "date": "2023-10-15 20:50",
+   "evidence": true
+  }
+ ],
+ "context": "- User moved to a studio apartment in Harajuku, Tokyo, about one month prior to April 11, 2023, and enjoys the independence and convenient commute. (from a chat on 2023-04-11)\n- User has been living in Harajuku, Tokyo, for 3 months and enjoys exploring the neighborhood for hidden gems. (from a chat on 2023-10-15)\n- User plans to visit the Kawai Shrine in Harajuku to explore its historical side. (from a chat on 2023-10-15)\n- User is currently growing tomatoes, cucumbers, and bell peppers in their vegetable garden. (from a chat on 2023-10-15)\n- User was informed about autumn-themed illuminations in the Minato Mirai 21 district, which typically run from late October to mid-December and feature displays like a Maple Leaf Tunnel and Harvest Moon Garden. (from a chat on 2023-10-15)\n- User is planning a day trip to Yokohama and intends to visit Minato Mirai 21 and the Yokohama Red Brick Warehouse to enjoy the harbor views. (from a chat on 2023-10-15)\n- User is interested in attending the Yokohama Oktoberfest and the Yokohama Autumn Leaves Festival if they align with their trip dates. (from a chat on 2023-10-15)\n- User is considering inviting friends from Tokyo to join them for part of their trip to the Japanese Alps and was provided with public transportation options including the Hokuriku Shinkansen, highway buses, and flights to Matsumoto Airport. (from a chat on 2023-04-11)\n- User is planning a trip to the Japanese Alps in November 2023 and intends to stay in Matsumoto to focus on traditional Japanese culture and history. (from a chat on 2023-04-11)\n- User has a new acquaintance named Dana who is planning to resign from her job on April 9, 2023. (from a chat on 2023-04-09)\n- User was recommended Kanemasa in Yokohama's Chinatown for kanimeshi and Tsukiji Itadori Uogashi Nihon-Ichi near the Yokohama Fish Market for namashirasu. (from a chat on 2023-10-15)\n- User intends to try local Yokohama seafood specialties, specifically kanimeshi (crab rice bowl) and namashirasu (raw sardine sushi), and is interested in trying grilled squid at the Yokohama Central Market. (from a chat on 2023-10-15)\n- User's planned itinerary for Matsumoto includes the Japanese Alps Visitor Center, Matsumoto Castle, Nawate Street, and potentially the Matsumoto Folkcraft Museum and Zenko-ji Temple. (from a chat on 2023-04-11)\n- User was recommended several onsen in the Matsumoto area, including Asama Onsen, Utsukushigahara Onsen, Hirata Onsen, and Matsumoto Onsen Hotel. (from a chat on 2023-04-11)\n- User was advised to prioritize visiting Matsumoto Castle over Zenko-ji Temple due to the castle's status as a National Treasure and its comprehensive historical and architectural significance. (from a chat on 2023-04-11)\n- User notes that in the book, Tod's mother works at a dry cleaner and the occupation of his stepfather is unknown, which the user uses to support their analysis of Tod's home life. (from a chat on 2023-03-23)\n- User enjoys listening to a wide range of music genres and has recently developed a strong interest in indie folk music. (from a chat on 2023-08-30)\n- User is analyzing the character Tod from a book, specifically interpreting the detail that Tod's house has broken windows as an indicator of his family's financial struggles and potential impact on his bullying behavior. (from a chat on 2023-03-23)\n- User was provided with strategies to help their acquaintance Dana manage nerves before resigning, including deep breathing, preparing a list of accomplishments, writing out a resignation script, and normalizing the feeling of stress. (from a chat on 2023-04-09)\n- User is interested in the luxury vehicle market and its evolution, specifically how ride-hailing services and the sharing economy influence demand. (from a chat on 2023-03-26)",
+ "answer": "To determine how long you have been living in your current apartment in Harajuku, we can look at the provided history:\n\n**Step 1: Extract relevant information**\n*   From the chat on 2023-04-11: You mentioned you moved to a studio apartment in Harajuku \"about one month prior\" to that date.\n*   From the chat on 2023-10-15: You explicitly stated, \"User has been living in Harajuku, Tokyo, for 3 months.\"\n\n**Step 2: Reason over the information**\n*   The information provided in the most recent chat (2023-10-15) serves as the current status update. While the initial move occurred around March 2023, your latest update on October 15, 2023, confirms that you have been living in your current apartment for 3 months.\n\n**Answer:**\nYou have been living in your current apartment in Harajuku for 3 months.",
+ "dump": "- User has a new acquaintance named Dana who is planning to resign from her job on April 9, 2023. (session 2023-04-09)\n- User requested information on which sections of FIRRMA might directly affect civilians or their online activities, and was provided with an analysis of sections 2(b), 4(a), 6, 8, and 9(a) regarding their potential impact on technology development, business ownership, and infrastructure. (session 2023-10-15)\n- User is planning a trip to the Japanese Alps in November 2023 and intends to stay in Matsumoto to focus on traditional Japanese culture and history. (session 2023-04-11)\n- User is considering purchasing an eco-friendly luxury vehicle and is specifically interested in the Porsche Taycan. (session 2023-03-26)\n- User was provided with a recipe for Tasmanian Pepperberry Crusted Venison with Wattleseed and Lemon Myrtle Gravy. (session 2023-10-06)\n- User enjoys listening to a wide range of music genres and has recently developed a strong interest in indie folk music. (session 2023-08-30)\n- User is interested in attending the Yokohama Oktoberfest and the Yokohama Autumn Leaves Festival if they align with their trip dates. (session 2023-10-15)\n- User was recommended Kanemasa in Yokohama's Chinatown for kanimeshi and Tsukiji Itadori Uogashi Nihon-Ichi near the Yokohama Fish Market for namashirasu. (session 2023-10-15)\n- User's planned itinerary for Matsumoto includes the Japanese Alps Visitor Center, Matsumoto Castle, Nawate Street, and potentially the Matsumoto Folkcraft Museum and Zenko-ji Temple. (session 2023-04-11)\n- User is growing tomatoes, cucumbers, and bell peppers in their vegetable garden and is seeking advice on maintaining plant health and pest management. (session 2023-10-15)\n- User identifies Fleet Foxes and Iron & Wine as two of their favorite indie folk artists. (session 2023-08-30)\n- User was provided with strategies to help their acquaintance Dana manage nerves before resigning, including deep breathing, preparing a list of accomplishments, writing out a resignation script, and normalizing the feeling of stress. (session 2023-04-09)\n- User has been living in Harajuku, Tokyo, for 3 months and enjoys exploring the neighborhood for hidden gems. (session 2023-10-15)\n- User is interested in Tasmanian cuisine and has added Tasmania to their travel list after learning about its unique local ingredients and produce. (session 2023-10-06)\n- User is planning to use companion planting by adding marigolds around their vegetables to help control nematodes, specifically considering varieties like 'Nema-Gone' or 'Nemagold'. (session 2023-10-15)\n- User is planning to create a succulent arrangement for their patio and is looking for low-maintenance, shade-tolerant varieties. (session 2023-10-15)\n- User was informed about autumn-themed illuminations in the Minato Mirai 21 district, which typically run from late October to mid-December and feature displays like a Maple Leaf Tunnel and Harvest Moon Garden. (session 2023-10-15)\n- User inquired whether the government could take action against civilians under FIRRMA, and was informed that the Act primarily targets foreign investments and transactions, with only potential indirect impacts on civilians through business operations. (session 2023-10-15)\n- User was provided with information about Tasmanian native ingredients including Tasmanian pepperberry, mountain pepper, lemon myrtle, wattleseed, and native thyme. (session 2023-10-06)\n- User is planning to create a succulent arrangement for their patio and is seeking advice on low-maintenance varieties suitable for partially shaded areas. (session 2023-10-15)\n- User was provided with a list of popular and critically acclaimed songs for various indie folk artists to help them explore the genre. (session 2023-08-30)\n- The Porsche Taycan has an EPA-estimated range of 200 miles with the 79.2 kWh battery and 225 miles with the 93.4 kWh battery, with fast-charging capabilities of 5-80% in approximately 22.5 minutes. (session 2023-03-26)\n- User was recommended artists in additional genres including indie pop, alt-country/Americana, dream pop/shoegaze, R&B/soul, and jazz. (session 2023-08-30)\n- User is researching companion planting and is considering adding marigolds to their vegetable garden to help control nematodes. (session 2023-10-15)\n- User was recommended the following shade-tolerant, low-maintenance succulents for their patio arrangement: Aloe Vera, Echeveria, Crassula (Jade Plant), Kalanchoe, Peperomia, Sansevieria (Snake Plant), and Haworthia. (session 2023-10-15)\n- User plans to visit the Kawai Shrine in Harajuku to explore its historical side. (session 2023-10-15)\n- User was provided with examples of eco-friendly luxury vehicles from Tesla (Model S, X, 3), BMW (i8, 7 series), Mercedes-Benz (EQC, GLE plug-in, S-class hybrid), and Porsche (Taycan). (session 2023-03-26)\n- User intends to try local Yokohama seafood specialties, specifically kanimeshi (crab rice bowl) and namashirasu (raw sardine sushi), and is interested in trying grilled squid at the Yokohama Central Market. (session 2023-10-15)\n- User moved to a studio apartment in Harajuku, Tokyo, about one month prior to April 11, 2023, and enjoys the independence and convenient commute. (session 2023-04-11)\n- User is planning a day trip to Yokohama and intends to visit Minato Mirai 21 and the Yokohama Red Brick Warehouse to enjoy the harbor views. (session 2023-10-15)\n- User was recommended a list of indie folk artists including Bon Iver, The Head and the Heart, The Decemberists, The Tallest Man on Earth, Laura Marling, Sufjan Stevens, Father John Misty, The Lumineers, and Hozier. (session 2023-08-30)\n- User is interested in the luxury vehicle market and its evolution, specifically how ride-hailing services and the sharing economy influence demand. (session 2023-03-26)\n- User was advised that Tasmania offers seasonal food experiences year-round, with summer highlighting seafood, autumn featuring wine and orchard produce, winter focusing on truffles, and spring showcasing fresh greens and seafood festivals. (session 2023-10-06)\n- User is considering inviting friends from Tokyo to join them for part of their trip to the Japanese Alps and was provided with public transportation options including the Hokuriku Shinkansen, highway buses, and flights to Matsumoto Airport. (session 2023-04-11)\n- User was provided with a list of popular and critically acclaimed albums for various indie folk artists to help them explore the genre. (session 2023-08-30)\n- User was provided with a recipe for Grilled Tasmanian Pepperberry Salmon using salmon fillets, olive oil, Tasmanian pepperberry, lemon juice, and honey. (session 2023-10-06)\n- User was recommended Tasmanian restaurants that feature local ingredients, including The Agrarian Kitchen Eatery in New Norfolk, Franklin Restaurant in Hobart, and Stillwater Restaurant in Launceston. (session 2023-10-06)\n- User is studying the Foreign Investment Risk Review Modernization Act (FIRRMA) and requested summaries of sections 15, 16, and 17, as well as an overall summary of all 17 sections of the Act. (session 2023-10-15)\n- User was recommended several onsen in the Matsumoto area, including Asama Onsen, Utsukushigahara Onsen, Hirata Onsen, and Matsumoto Onsen Hotel. (session 2023-04-11)\n- User is analyzing the character Tod from a book, specifically interpreting the detail that Tod's house has broken windows as an indicator of his family's financial struggles and potential impact on his bullying behavior. (session 2023-03-23)\n- User notes that in the book, Tod's mother works at a dry cleaner and the occupation of his stepfather is unknown, which the user uses to support their analysis of Tod's home life. (session 2023-03-23)\n- User was advised to prioritize visiting Matsumoto Castle over Zenko-ji Temple due to the castle's status as a National Treasure and its comprehensive historical and architectural significance. (session 2023-04-11)\n- User is currently growing tomatoes, cucumbers, and bell peppers in their vegetable garden. (session 2023-10-15)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 43,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 30.1,
+  "total": 31.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

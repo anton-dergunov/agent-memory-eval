@@ -1,0 +1,91 @@
+{
+ "qid": "618f13b2",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+ "reference": "six",
+ "question_date": "2023-06-18 22:29",
+ "sessions": [
+  {
+   "id": "ultrachat_546105",
+   "date": "2023-05-02 00:38",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_469083",
+   "date": "2023-05-30 05:07",
+   "evidence": false
+  },
+  {
+   "id": "d2366c37",
+   "date": "2023-05-30 12:22",
+   "evidence": false
+  },
+  {
+   "id": "answer_caf5b52e_2",
+   "date": "2023-05-30 17:45",
+   "evidence": true
+  },
+  {
+   "id": "9cea187c_1",
+   "date": "2023-05-30 18:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_558040",
+   "date": "2023-05-30 21:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_caf5b52e_1",
+   "date": "2023-05-30 22:16",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_SaUokxc_63",
+   "date": "2023-06-01 11:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dUIx8DF_0",
+   "date": "2023-06-05 10:13",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_270398",
+   "date": "2023-06-16 22:50",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user is currently working on a thesis project (as of 2023-05-30).\n*   The user is involved in academic research, specifically in the fields of statistics and data analysis.\n*   The user has prior experience with Coursera, having completed a Python programming course from the University of Michigan.\n*   The user is a software developer working with a MERN stack (MongoDB, Express, React, Node.js).\n*   The user is currently managing a Square POS integration for a brand, involving backend schema updates and frontend UI development.\n*   The user owns a pair of brown leather boots that require repair (heel is coming loose).\n*   The user owns a pair of black Converse Chuck Taylor All Star sneakers, which they have worn four times as of 2023-05-30 (including to a friend's birthday party on 2023-05-27).\n*   The user owns a pair of white Adidas Superstars, which they recently wore to the gym.\n*   The user has an interest in esoteric knowledge and is exploring the intersection of elemental symbolism and neuroscience (brain wave frequencies).\n*   The user has a specific interest in the history and architecture of the Alcazaba of Málaga, including its restoration history, the Nasrid dynasty's influence, and its historical usage as a fortress, prison, and museum (as of 2023-06-16).\n\n### Preferences and habits\n*   The user is interested in linguistics, specifically the status of endangered languages.\n*   The user is intellectually curious about the criteria for language classification, documentation methods, and the challenges associated with language preservation.\n*   The user holds a pragmatic perspective on language, initially questioning the utility and resource allocation for preserving languages with few speakers in a globalized, economically driven world.\n*   The user is interested in cultural evolution and traditions, specifically the historical development and modern commercialization of Dia de los Muertos.\n*   The user is proactive about personal security; as of 2023-05-30, they have expressed a commitment to implementing fraud prevention measures, such as using two-factor authentication, monitoring account activity, and securing personal information.\n*   The user prefers structured, digital approaches to productivity and organization, moving away from simple spreadsheets toward comprehensive project management and time-tracking software.\n*   The user is detail-oriented regarding academic work, seeking specific tools for citation management (APA style) and task breakdown.\n*   The user values shoe maintenance and is interested in investing in quality care products, including cedar shoe trees and leather-specific cleaning kits.\n*   The user has decided to organize their shoe collection by type, then by color within each type.\n*   The user utilizes storage bins for out-of-season footwear.\n*   The user is actively seeking to expand their data science skill set through structured online learning, specifically favoring courses from top-tier universities on the Coursera platform.\n*   The user enjoys versatile footwear that pairs well with both jeans and dresses.\n*   The user prefers functional, clean code structures for their web development projects, specifically requesting assistance with integrating state management and API communication in React.\n*   The user is interested in symbolic and esoteric associations, specifically linking the four elements (Earth, Water, Air, Fire) to brain wave states (Delta, Theta, Alpha, Beta) and religious/mythological figures (Saint Peter, Saint Francis, Saint Michael, Satan).\n\n### Ongoing situations and plans\n*   The user is currently engaging in a philosophical and practical discussion regarding the value of linguistic diversity versus economic utility.\n*   The user is exploring the tension between the preservation of cultural traditions and their modern commercialization.\n*   The user is planning to take active steps to secure their financial accounts and personal information following a discussion on fraud prevention (as of 2023-05-30).\n*   The user is actively managing a thesis project and is currently using Asana to organize tasks and deadlines.\n*   The user is seeking to improve their workflow by integrating time-tracking tools (such as Toggl, Harvest, or Clockify) with their existing project management setup.\n*   The user is considering attending a data science conference in June 2023 and is evaluating tools to manage their schedule and networking during the event.\n*   The user is planning to find a cobbler to repair their brown leather boots by checking online reviews and asking friends for recommendations.\n*   The user plans to purchase a cedar shoe tree and a leather cleaning kit for their brown leather boots.\n*   The user is considering purchasing a pair of Vans Old Skool sneakers and is researching their comfort and durability.\n*   The user plans to apply a waterproofing spray to their black Converse sneakers to protect them from the elements.\n*   The user is evaluating the \"Data Science Specialization\" from the University of Michigan on Coursera as a potential next step in their professional development.\n*   The user is currently implementing a `syncEnabled` feature for a Square POS integration, requiring updates to the MongoDB schema, controller logic, and React frontend components (as of 2023-06-01).\n*   The user is developing an outline for a book project that synthesizes esoteric elemental theory with brain wave frequencies.\n\n### Changes over time\n*   **Productivity Workflow:** The user has transitioned from using spreadsheets for project tracking to using more comprehensive task management software (Asana), as of 2023-05-30.\n*   **Converse Usage:** The user has worn their black Converse sneakers four times as of 2023-05-30; previously six times as of 2023-05-30 (Note: The user provided a corrected count of four during the 2023-05-30 conversation).",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   According to the \"Personal facts\" section, the user owns a pair of black Converse Chuck Taylor All Star sneakers.\n    *   The \"Personal facts\" section explicitly states: \"The user owns a pair of black Converse Chuck Taylor All Star sneakers, which they have worn four times as of 2023-05-30.\"\n    *   The \"Changes over time\" section clarifies: \"The user has worn their black Converse sneakers four times as of 2023-05-30; previously six times as of 2023-05-30 (Note: The user provided a corrected count of four during the 2023-05-30 conversation).\"\n\n2.  **Reason over the information:**\n    *   The user provided a correction to their own usage count during the conversation on 2023-05-30.\n    *   The final, corrected count provided by the user is four times.\n    *   There is no information provided in the history chats regarding any additional times the sneakers were worn between 2023-05-30 and the current date of 2023-06-18.\n\n3.  **Conclusion:**\n    *   Based on the most recent information provided by the user, you have worn your black Converse Chuck Taylor All Star sneakers four times.",
+ "dump": "### Personal facts\n*   The user is currently working on a thesis project (as of 2023-05-30).\n*   The user is involved in academic research, specifically in the fields of statistics and data analysis.\n*   The user has prior experience with Coursera, having completed a Python programming course from the University of Michigan.\n*   The user is a software developer working with a MERN stack (MongoDB, Express, React, Node.js).\n*   The user is currently managing a Square POS integration for a brand, involving backend schema updates and frontend UI development.\n*   The user owns a pair of brown leather boots that require repair (heel is coming loose).\n*   The user owns a pair of black Converse Chuck Taylor All Star sneakers, which they have worn four times as of 2023-05-30 (including to a friend's birthday party on 2023-05-27).\n*   The user owns a pair of white Adidas Superstars, which they recently wore to the gym.\n*   The user has an interest in esoteric knowledge and is exploring the intersection of elemental symbolism and neuroscience (brain wave frequencies).\n*   The user has a specific interest in the history and architecture of the Alcazaba of Málaga, including its restoration history, the Nasrid dynasty's influence, and its historical usage as a fortress, prison, and museum (as of 2023-06-16).\n\n### Preferences and habits\n*   The user is interested in linguistics, specifically the status of endangered languages.\n*   The user is intellectually curious about the criteria for language classification, documentation methods, and the challenges associated with language preservation.\n*   The user holds a pragmatic perspective on language, initially questioning the utility and resource allocation for preserving languages with few speakers in a globalized, economically driven world.\n*   The user is interested in cultural evolution and traditions, specifically the historical development and modern commercialization of Dia de los Muertos.\n*   The user is proactive about personal security; as of 2023-05-30, they have expressed a commitment to implementing fraud prevention measures, such as using two-factor authentication, monitoring account activity, and securing personal information.\n*   The user prefers structured, digital approaches to productivity and organization, moving away from simple spreadsheets toward comprehensive project management and time-tracking software.\n*   The user is detail-oriented regarding academic work, seeking specific tools for citation management (APA style) and task breakdown.\n*   The user values shoe maintenance and is interested in investing in quality care products, including cedar shoe trees and leather-specific cleaning kits.\n*   The user has decided to organize their shoe collection by type, then by color within each type.\n*   The user utilizes storage bins for out-of-season footwear.\n*   The user is actively seeking to expand their data science skill set through structured online learning, specifically favoring courses from top-tier universities on the Coursera platform.\n*   The user enjoys versatile footwear that pairs well with both jeans and dresses.\n*   The user prefers functional, clean code structures for their web development projects, specifically requesting assistance with integrating state management and API communication in React.\n*   The user is interested in symbolic and esoteric associations, specifically linking the four elements (Earth, Water, Air, Fire) to brain wave states (Delta, Theta, Alpha, Beta) and religious/mythological figures (Saint Peter, Saint Francis, Saint Michael, Satan).\n\n### Ongoing situations and plans\n*   The user is currently engaging in a philosophical and practical discussion regarding the value of linguistic diversity versus economic utility.\n*   The user is exploring the tension between the preservation of cultural traditions and their modern commercialization.\n*   The user is planning to take active steps to secure their financial accounts and personal information following a discussion on fraud prevention (as of 2023-05-30).\n*   The user is actively managing a thesis project and is currently using Asana to organize tasks and deadlines.\n*   The user is seeking to improve their workflow by integrating time-tracking tools (such as Toggl, Harvest, or Clockify) with their existing project management setup.\n*   The user is considering attending a data science conference in June 2023 and is evaluating tools to manage their schedule and networking during the event.\n*   The user is planning to find a cobbler to repair their brown leather boots by checking online reviews and asking friends for recommendations.\n*   The user plans to purchase a cedar shoe tree and a leather cleaning kit for their brown leather boots.\n*   The user is considering purchasing a pair of Vans Old Skool sneakers and is researching their comfort and durability.\n*   The user plans to apply a waterproofing spray to their black Converse sneakers to protect them from the elements.\n*   The user is evaluating the \"Data Science Specialization\" from the University of Michigan on Coursera as a potential next step in their professional development.\n*   The user is currently implementing a `syncEnabled` feature for a Square POS integration, requiring updates to the MongoDB schema, controller logic, and React frontend components (as of 2023-06-01).\n*   The user is developing an outline for a book project that synthesizes esoteric elemental theory with brain wave frequencies.\n\n### Changes over time\n*   **Productivity Workflow:** The user has transitioned from using spreadsheets for project tracking to using more comprehensive task management software (Asana), as of 2023-05-30.\n*   **Converse Usage:** The user has worn their black Converse sneakers four times as of 2023-05-30; previously six times as of 2023-05-30 (Note: The user provided a corrected count of four during the 2023-05-30 conversation).",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 24.1,
+  "total": 25.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

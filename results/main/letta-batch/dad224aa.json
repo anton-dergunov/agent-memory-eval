@@ -1,0 +1,105 @@
+{
+ "qid": "dad224aa",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "What time do I wake up on Saturday mornings?",
+ "reference": "7:30 am",
+ "question_date": "2023-06-24 03:58",
+ "sessions": [
+  {
+   "id": "ultrachat_236936",
+   "date": "2023-05-23 09:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_1",
+   "date": "2023-05-23 14:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_Jb45xGp_0",
+   "date": "2023-05-23 17:54",
+   "evidence": false
+  },
+  {
+   "id": "91e581ad_1",
+   "date": "2023-05-25 20:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_13",
+   "date": "2023-05-25 20:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2Qvu6BM_34",
+   "date": "2023-05-26 15:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_2",
+   "date": "2023-05-27 02:31",
+   "evidence": true
+  },
+  {
+   "id": "3dcbca49",
+   "date": "2023-05-27 05:24",
+   "evidence": false
+  },
+  {
+   "id": "496a03ee",
+   "date": "2023-05-27 07:18",
+   "evidence": false
+  },
+  {
+   "id": "b971ed75_3",
+   "date": "2023-05-27 21:55",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\nThe user enjoys sci-fi and fantasy shows like Stranger Things. They are planning to watch The Umbrella Academy and are interested in the powers of the seven Hargreeves siblings.\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-17T15:50:22.606674+00:00', 'time_ago': '36s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-23 14:12] With your existing Saturday morning routine, you can definitely fit in a 30-minute yoga or stretching routine on Sundays, followed by a quick breakfast and meal prep. Here's a possible schedule for you to consider:\\n\\n**Sunday Morning Routine**\\n\\n1. Wake up at 8:30 am (same as Saturday)\\n2. 30-minute yoga or stretching routine (8:30 - 9:00 am)\\n\\t* Start with a gentle routine, focusing on basic stretches, breathing exercises, and gentle flows\\n\\t* You can use a video or app to guide you, or create your own sequence based on your needs and preferences\\n3. Quick breakfast (9:00 - 9:20 am)\\n\\t* Prepare something simple, like oatmeal, scrambled eggs, or avocado toast\\n\\t* Take a few minutes to enjoy your breakfast and relax before diving into meal prep\\n4. Meal prep for the week (9:20 - 10:00 am)\\n\\t* Chop vegetables, cook proteins, and assemble meals for the next few days\\n\\t* This will help you save time during the week and ensure you're eating healthy, balanced meals\\n\\nThis schedule allows you to fit in a 30-minute yoga or stretching routine, followed by a quick breakfast and meal prep. You can adjust the timing as needed to fit your pace and preferences.\\n\\nTips to make the most of your Sunday morning routine:\\n\\n* Prepare your yoga or stretching space the night before to save time in the morning\\n* Choose a simple breakfast recipe that can be prepared quickly, so you can focus on meal prep\\n* Make a meal prep plan for the week to ensure you're using your time efficiently\\n* Consider prepping ingredients or cooking a big batch of a staple food, like rice or quinoa, to use throughout the week\\n\\nBy incorporating yoga or stretching into your Sunday morning routine, you'll be setting yourself up for a relaxing and productive day. Remember to listen to your body and adjust the intensity and duration of your practice as needed. Happy stretching!\"}]}",
+ "answer": "You usually wake up at 8:30 am on Saturday mornings!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\nThe user enjoys sci-fi and fantasy shows like Stranger Things. They are planning to watch The Umbrella Academy and are interested in the powers of the seven Hargreeves siblings.\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"wake up Saturday mornings\"})",
+   "conversation_search({\"query\": \"wake up time\"})",
+   "conversation_search({\"query\": \"Saturday morning routine\"})"
+  ],
+  "blocks_chars": 376
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 33.9,
+  "total": 43.3
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": true,
+   "gave_new": false
+  }
+ }
+}

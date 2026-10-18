@@ -1,0 +1,90 @@
+{
+ "qid": "89941a94",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Before I purchased the gravel bike, do I have other bikes in addition to my mountain bike and my commuter bike?",
+ "reference": "Yes. (You have a road bike too.)",
+ "question_date": "2023-06-21 02:24",
+ "sessions": [
+  {
+   "id": "sharegpt_rfvV7Pv_0",
+   "date": "2023-04-26 04:12",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_556968",
+   "date": "2023-04-26 14:33",
+   "evidence": false
+  },
+  {
+   "id": "de275215_3",
+   "date": "2023-04-29 23:29",
+   "evidence": false
+  },
+  {
+   "id": "0b0bc8ae_2",
+   "date": "2023-05-10 22:51",
+   "evidence": false
+  },
+  {
+   "id": "c6c06e6e",
+   "date": "2023-05-11 00:39",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_1",
+   "date": "2023-05-25 15:36",
+   "evidence": true
+  },
+  {
+   "id": "f2df24cd_1",
+   "date": "2023-05-26 01:22",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_CQ3HZO9_71",
+   "date": "2023-05-26 01:27",
+   "evidence": false
+  },
+  {
+   "id": "answer_e1403127_2",
+   "date": "2023-05-28 13:41",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_171052",
+   "date": "2023-06-15 17:26",
+   "evidence": false
+  }
+ ],
+ "context": "- The user owns a mountain bike along with a commuter bike, a road bike, and a new hybrid bike. (valid since 2023-05-28)\n- The user owns a commuter bike along with a new hybrid bike, a road bike, and a mountain bike. (valid since 2023-05-28)\n- The user owns a road bike along with a mountain bike, a commuter bike, and a new hybrid bike. (valid since 2023-05-28)\n- The user owns a road bike along with a new hybrid bike, a mountain bike, and a commuter bike. (valid since 2023-05-28)\n- The user owns a mountain bike along with a new hybrid bike, a road bike, and a commuter bike. (valid since 2023-05-28)\n- The user owns a road bike along with a commuter bike, a mountain bike, and a new hybrid bike. (valid since 2023-05-28)\n- The user owns a commuter bike. (valid since 2023-05-25)\n- The user owns a mountain bike. (valid since 2023-05-25)\n- The user owns a road bike which they have used for 2,000 miles. (valid since 2023-05-25)\n- The road bike is equipped with a new bike computer. (valid since 2023-05-28)",
+ "answer": "To answer your question, let's break down the information step by step:\n\n**Step 1: Extract relevant information**\n*   The history shows you own a mountain bike, a commuter bike, a road bike, and a new hybrid bike (valid since 2023-05-28).\n*   The history confirms you owned a mountain bike and a commuter bike as early as 2023-05-25.\n*   There is no mention of a \"gravel bike\" in the provided history facts.\n\n**Step 2: Reason over the information**\n*   Since the provided history does not contain any record of you purchasing or owning a \"gravel bike,\" it is impossible to determine what you owned \"before\" that purchase based on the available data.\n*   However, looking at the inventory established on 2023-05-28, you owned a **road bike** and a **new hybrid bike** in addition to your mountain bike and commuter bike.\n\n**Answer:**\nBased on the provided history, there is no record of you purchasing a gravel bike. However, as of May 28, 2023, you did own a **road bike** and a **new hybrid bike** in addition to your mountain bike and commuter bike.",
+ "dump": "- The Green Movement was a series of peaceful protests and demonstrations against the contested results of the Iranian presidential election in Iran in 2009. (valid since 2009-01-01)\n- Viktor Frankl founded a school of therapy known as logotherapy. (valid since 2023-04-26)\n- Pope Benedict wrote the book Introduction to Christianity. (valid since 2023-04-26)\n- In his book Introduction to Christianity, Pope Benedict refers to the philosophy of Martin Heidegger regarding two planes of human thought. (valid since 2023-04-26)\n- The assistant provides specific safety tips and precautions for riding a bike on roads with traffic. (valid since 2023-04-29)\n- the user tracks their cycling progress on Strava (valid since 2023-04-29)\n- the user did a 30-mile ride last weekend to a nearby state park (valid since 2023-04-29)\n- The user is considering using vegan chick'n parmesan in the Mushroom Bolognese recipe for added flavor. (valid since 2023-05-10)\n- Vegan chick'n parmesan can be added to Mushroom Bolognese sauce to enhance the flavor. (valid since 2023-05-10)\n- The user has been watching The Crown for about a month and is currently on the 12th episode. (valid since 2023-05-11)\n- The user owns a road bike which they have used for 2,000 miles. (valid since 2023-05-25)\n- The user owns a mountain bike. (valid since 2023-05-25)\n- The user owns a commuter bike. (valid since 2023-05-25)\n- The user is considering upgrading their road bike's wheels to carbon fiber wheels. (valid since 2023-05-25)\n- The Garmin Edge series of bike computers integrates with the cycling app Strava. (valid since 2023-05-25)\n- The Garmin Edge series of bike computers integrates with the cycling app Training Peaks. (valid since 2023-05-25)\n- The Wahoo Elemnt series of bike computers integrates with the cycling app Strava. (valid since 2023-05-25)\n- The Wahoo Elemnt series of bike computers integrates with the cycling app Training Peaks. (valid since 2023-05-25)\n- The Lezyne Super GPS bike computer integrates with the cycling app Strava. (valid since 2023-05-25)\n- The Lezyne Super GPS bike computer integrates with the cycling app Training Peaks. (valid since 2023-05-25)\n- A gold chain is considered a good stylistic pairing for pearl studs. (valid since 2023-05-26)\n- The user owns silver earrings that were purchased last weekend. (valid since 2023-05-26)\n- The user can clean their silver earrings using a silver polishing cloth specifically designed for silver jewelry. (valid since 2023-05-26)\n- The user can place a silver anti-tarnish strip in the storage container with their silver earrings to absorb moisture and prevent tarnish. (valid since 2023-05-26)\n- The assistant suggested the name GrindMaster 2000 for the treadmill motor controller project used for a belt grinder. (valid since 2023-05-26)\n- The user owns a road bike along with a mountain bike, a commuter bike, and a new hybrid bike. (valid since 2023-05-28)\n- The user owns a road bike along with a commuter bike, a mountain bike, and a new hybrid bike. (valid since 2023-05-28)\n- The user owns a road bike along with a new hybrid bike, a mountain bike, and a commuter bike. (valid since 2023-05-28)\n- The user owns a mountain bike along with a commuter bike, a road bike, and a new hybrid bike. (valid since 2023-05-28)\n- The user owns a mountain bike along with a new hybrid bike, a road bike, and a commuter bike. (valid since 2023-05-28)\n- The user owns a commuter bike along with a new hybrid bike, a road bike, and a mountain bike. (valid since 2023-05-28)\n- Jackson Hole offers access to challenging mountain bike trails. (valid since 2023-05-28)\n- The road bike is equipped with a new bike computer. (valid since 2023-05-28)\n- Progress on the road bike is tracked using Strava. (valid since 2023-05-28)\n- The user owns cycling shoes compatible with clipless pedals. (valid since 2023-05-28)\n- The hybrid bike is equipped with platform pedals. (valid since 2023-05-28)\n- The Network potentially uses Instagram to reach its core audience or share visual content (valid since 2023-06-15)\n- The Network potentially uses TikTok to reach its core audience or share visual content (valid since 2023-06-15)\n- The Network potentially uses Snapchat to reach its core audience (valid since 2023-06-15)\n- The Network potentially uses LinkedIn for professional or industry-related content (valid since 2023-06-15)\n- The Network potentially uses Twitter for broader outreach or industry-related content (valid since 2023-06-15)\n- The Network potentially uses Facebook for broader outreach (valid since 2023-06-15)\n- The Network potentially uses Pinterest if they produce visual content (valid since 2023-06-15)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 43,
+  "invalidated": 0,
+  "episodes": 20,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 195.5,
+  "total": 197.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

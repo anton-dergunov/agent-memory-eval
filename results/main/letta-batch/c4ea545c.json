@@ -1,0 +1,91 @@
+{
+ "qid": "c4ea545c",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "Do I go to the gym more frequently than I did previously?",
+ "reference": "Yes",
+ "question_date": "2023-09-01 19:15",
+ "sessions": [
+  {
+   "id": "sharegpt_JJu53iW_0",
+   "date": "2023-05-15 16:13",
+   "evidence": false
+  },
+  {
+   "id": "a2a8e2c9",
+   "date": "2023-05-21 05:58",
+   "evidence": false
+  },
+  {
+   "id": "60fdb334_2",
+   "date": "2023-05-31 21:13",
+   "evidence": false
+  },
+  {
+   "id": "answer_d3bf812b_1",
+   "date": "2023-06-01 09:48",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_369982",
+   "date": "2023-06-06 12:52",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vAsigme_0",
+   "date": "2023-07-30 09:01",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_21766",
+   "date": "2023-08-15 03:01",
+   "evidence": false
+  },
+  {
+   "id": "answer_d3bf812b_2",
+   "date": "2023-08-15 20:17",
+   "evidence": true
+  },
+  {
+   "id": "6f8f4c80_1",
+   "date": "2023-08-27 12:36",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_360867",
+   "date": "2023-08-31 23:20",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>\n\nTool results while answering:\n{'message': 'Showing 5 results:', 'results': [{'timestamp': '2026-10-17T16:04:01.653310+00:00', 'time_ago': '9s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-15 20:17] That's great to hear about your consistent gym routine! You definitely deserve a reward, and a post-workout smoothie sounds like a perfect treat.\\n\\nNow, let's get to meal prep for the week ahead! Here are some healthy dinner recipes that you can prep on Sunday:\\n\\n**Recipe 1: Quinoa and Roasted Vegetable Bowls**\\n\\n* Prep time: 30 minutes\\n* Cook time: 45 minutes\\n* Portion: 4-5 servings\\n\\nIngredients:\\n\\n* 1 cup quinoa\\n* 2 cups water or vegetable broth\\n* 2 tablespoons olive oil\\n* 1 large sweet potato, peeled and cubed\\n* 1 large carrot, peeled and sliced\\n* 1 large red bell pepper, seeded and sliced\\n* 1 small red onion, sliced\\n* Salt and pepper to taste\\n* Optional: Add your favorite protein like chicken, turkey, or tofu\\n\\n**Recipe 2: Lentil and Vegetable Stew**\\n\\n* Prep time: 20 minutes\\n* Cook time: 30 minutes\\n* Portion: 4-5 servings\\n\\nIngredients:\\n\\n* 1 cup brown or green lentils, rinsed and drained\\n* 2 cups vegetable broth\\n* 1 onion, chopped\\n* 2 cloves garlic, minced\\n* 1 large carrot, chopped\\n* 1 large celery stalk, chopped\\n* 1 can diced tomatoes\\n* 1 teaspoon dried thyme\\n* Salt and pepper to taste\\n\\n**Recipe 3: Grilled Chicken and Veggie Wraps**\\n\\n* Prep time: 20 minutes\\n* Cook time: 15 minutes\\n* Portion: 4-5 servings\\n\\nIngredients:\\n\\n* 1 pound boneless, skinless chicken breast\\n* 1 large zucchini, sliced\\n* 1 large bell pepper, sliced\\n* 1 large onion, sliced\\n* 2 tablespoons olive oil\\n* 4 whole wheat tortillas\\n* Hummus or avocado spread (optional)\\n\\n**Recipe 4: Baked Salmon and Roasted Asparagus**\\n\\n* Prep time: 15 minutes\\n* Cook time: 20 minutes\\n* Portion: 4 servings\\n\\nIngredients:\\n\\n* 4 salmon fillets (6 ounces each)\\n* 1 pound fresh asparagus, trimmed\\n* 2 tablespoons olive oil\\n* Salt and pepper to taste\\n* Optional: Add quinoa or brown rice and steamed broccoli for a complete meal\\n\\nThese recipes are all easy to prepare, packed with nutrients, and can be customized to suit your dietary preferences. Simply portion them out in individual containers and refrigerate or freeze for up to 3-4 days.\\n\\nFor your post-workout smoothie on Saturday, you can try a refreshing combination like:\\n\\n* 1 scoop whey protein powder\\n* 1/2 cup frozen berries\\n* 1/2 banana\\n* 1/2 cup unsweetened almond milk\\n* 1 tablespoon honey\\n* Ice cubes (as needed)\\n\\nFeel free to experiment with different ingredients and flavors to create your perfect smoothie!\\n\\nEnjoy your meal prep and your well-deserved smoothie reward!\"}, {'timestamp': '2026-10-17T16:04:01.653221+00:00', 'time_ago': '9s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-08-15 20:17] I'm trying to plan out my week ahead. Can you suggest some healthy dinner recipes I can meal prep on Sunday? By the way, I'm thinking of rewarding myself with a post-workout smoothie on Saturday, since I've been consistent with my gym routine - four times a week, actually.\"}, {'timestamp': '2026-10-17T16:03:49.591808+00:00', 'time_ago': '22s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-01 09:48] It's better now that it's aligned with my gym days. I was thinking, can you help me come up with some meal prep ideas for Sunday?\"}, {'timestamp': '2026-10-17T16:03:49.591750+00:00', 'time_ago': '22s ago', 'role': 'assistant', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-06-01 09:48] I apologize for the mistake! Thank you for correcting me.\\n\\nLet's revisit the schedule to accommodate your actual workout days:\\n\\n**Tuesday:**\\n\\n* Workout (gym day)\\n* Meditation and reading (after your workout or in the evening)\\n\\n**Thursday:**\\n\\n* Workout (gym day)\\n* Meditation and reading (after your workout or in the evening)\\n\\n**Saturday:**\\n\\n* Workout (gym day)\\n* Household chores (after your workout)\\n* F",
+ "answer": "It looks like you have indeed increased your gym frequency! \n\nLooking back at our conversations, as of early June 2023, you mentioned that you were going to the gym three times a week (Tuesdays, Thursdays, and Saturdays). By mid-August 2023, you shared that you had become more consistent and were going four times a week. \n\nIt's impressive that you've managed to keep up with that increased routine! How are you feeling with the current schedule?",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"gym\"})"
+  ],
+  "blocks_chars": 199
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 29.7,
+  "total": 35.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

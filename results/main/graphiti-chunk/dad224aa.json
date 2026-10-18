@@ -1,0 +1,102 @@
+{
+ "qid": "dad224aa",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "What time do I wake up on Saturday mornings?",
+ "reference": "7:30 am",
+ "question_date": "2023-06-24 03:58",
+ "sessions": [
+  {
+   "id": "ultrachat_236936",
+   "date": "2023-05-23 09:43",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_1",
+   "date": "2023-05-23 14:12",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_Jb45xGp_0",
+   "date": "2023-05-23 17:54",
+   "evidence": false
+  },
+  {
+   "id": "91e581ad_1",
+   "date": "2023-05-25 20:33",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_opQbgPL_13",
+   "date": "2023-05-25 20:50",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_2Qvu6BM_34",
+   "date": "2023-05-26 15:08",
+   "evidence": false
+  },
+  {
+   "id": "answer_4a97ae40_2",
+   "date": "2023-05-27 02:31",
+   "evidence": true
+  },
+  {
+   "id": "3dcbca49",
+   "date": "2023-05-27 05:24",
+   "evidence": false
+  },
+  {
+   "id": "496a03ee",
+   "date": "2023-05-27 07:18",
+   "evidence": false
+  },
+  {
+   "id": "b971ed75_3",
+   "date": "2023-05-27 21:55",
+   "evidence": false
+  }
+ ],
+ "context": "- The user plans to share progress from the daily plank challenge on Instagram. (valid since 2023-05-27)\n- user plans to read The Lean Startup for 30 minutes each night before bed (valid since 2023-05-23)\n- The film The Disaster Artist is based on the making of the film The Room. (valid since 2023-05-27)\n- The assistant recommends that the user perform static stretches for 10-15 minutes after a jog to improve recovery. (valid since 2023-05-27)\n- The user plans to perform a plank challenge where the user does a plank every day for a week and shares progress on Instagram. (valid since 2023-05-27)\n- The assistant suggests arm circles as a light exercise for the user's post-jog cool-down routine. (valid since 2023-05-27)\n- The assistant suggests calf raises as a light exercise for the user's post-jog cool-down routine. (valid since 2023-05-27)\n- The assistant recommends using YouTube for yoga or stretching practice videos. (valid since 2023-05-23)\n- user expresses interest in learning about favorite comedians. (valid since 2023-05-27)\n- The assistant suggests leg swings as a light exercise for the user's post-jog cool-down routine. (valid since 2023-05-27)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:** I have reviewed all the provided history chats regarding your plans, routines, and interests.\n2. **Reason over the information:** \n    - The history chats contain information about your plank challenge, reading habits (*The Lean Startup*), movie trivia (*The Disaster Artist*), and post-jog cool-down exercises (static stretches, arm circles, calf raises, leg swings).\n    - There is no mention of your sleep schedule, wake-up times, or specific routines for Saturday mornings in the provided history.\n3. **Conclusion:** Based on the provided facts, there is no information available to determine what time you wake up on Saturday mornings.",
+ "dump": "- The assistant recommends the Down Dog app for yoga or stretching exercises. (valid since 2023-05-23)\n- The assistant recommends using YouTube for yoga or stretching practice videos. (valid since 2023-05-23)\n- The assistant recommends using YogaGlo for yoga or stretching practice videos. (valid since 2023-05-23)\n- user plans to read The Lean Startup for 30 minutes each night before bed (valid since 2023-05-23)\n- The assistant recommends using the Pomodoro Technique to stay focused and retain information while reading by breaking the reading into 25-minute intervals followed by a 5-minute break. (valid since 2023-05-23)\n- The assistant suggests keeping a water bottle nearby while reading to stay hydrated and energized. (valid since 2023-05-23)\n- The assistant suggests using a physical book to minimize digital distractions during reading sessions. (valid since 2023-05-23)\n- The assistant suggests using an e-reader without internet access to minimize digital distractions during reading sessions. (valid since 2023-05-23)\n- Château Margaux and Château Latour are both Bordeaux wines that have good vintages between 1995 and 2008. (valid since 2023-05-23)\n- Château Margaux and Château Lafite Rothschild are both Bordeaux wines that have good vintages between 1995 and 2008. (valid since 2023-05-23)\n- Château Margaux and Château Brane-Cantenac are both Bordeaux wines that have good vintages between 1995 and 2008. (valid since 2023-05-23)\n- Château Margaux and Château La Tour Carnet are both Bordeaux wines that have good vintages between 1995 and 2008. (valid since 2023-05-23)\n- Château Margaux and Château Pichon Longueville Baron are both Bordeaux wines that have good vintages between 1995 and 2008. (valid since 2023-05-23)\n- Château Margaux and Château Clos du Marquis are both Bordeaux wines that have good vintages between 1995 and 2008. (valid since 2023-05-23)\n- Château Margaux and Château d'Aiguilhe are both Bordeaux wines that have good vintages between 1995 and 2008. (valid since 2023-05-23)\n- The assistant recommends 2000, 2005, and 2009 as good vintages for Château Margaux wine. (valid since 2023-05-23)\n- The assistant recommends 1996, 2000, and 2005 as good vintages for Château Latour wine. (valid since 2023-05-23)\n- The assistant recommends 1996, 2000, and 2005 as good vintages for Château Lafite Rothschild wine. (valid since 2023-05-23)\n- The assistant recommends 2005 and 2009 as good vintages for Château Brane-Cantenac wine. (valid since 2023-05-23)\n- The assistant recommends 2005 and 2009 as good vintages for Château La Tour Carnet wine. (valid since 2023-05-23)\n- The assistant recommends 1996, 2000, and 2005 as good vintages for Château Pichon Longueville Baron wine. (valid since 2023-05-23)\n- The assistant recommends 2005 and 2009 as good vintages for Château Clos du Marquis wine. (valid since 2023-05-23)\n- The assistant recommends 2005 and 2009 as good vintages for Château d'Aiguilhe wine. (valid since 2023-05-23)\n- The user has completed a marathon. (valid since 2023-05-25)\n- The user has completed a triathlon. (valid since 2023-05-25)\n- The user plans to use Upwork to hire a freelance artist for a custom artwork project. (valid since 2023-05-25)\n- The assistant recommends using the Hasselblad X1D II camera for capturing a high fashion image of a female model in a designer gown. (valid since 2023-05-25)\n- The assistant recommends using the Leica M10-R camera for capturing a high fashion image of a male model in a formal suit. (valid since 2023-05-25)\n- The assistant recommends using the Canon EOS R6 camera for capturing a high fashion image of a female model with bold makeup. (valid since 2023-05-25)\n- The assistant recommends using the Sony A7R IV camera for capturing a high fashion image of a couple in designer clothing. (valid since 2023-05-25)\n- The assistant recommends using the Nikon D6 camera for capturing a high fashion image of a female model in an extravagant dress. (valid since 2023-05-25)\n- The assistant recommends using the Sony A7 III camera for capturing a 1980s editorial style image of a woman with bold accessories. (valid since 2023-05-25)\n- The assistant recommends using the Canon EOS R6 camera for capturing a 1980s editorial style image of a male model with a mullet haircut. (valid since 2023-05-25)\n- The assistant recommends using the Nikon D850 camera for capturing a 1980s editorial style image of a man in a leather jacket. (valid since 2023-05-25)\n- The assistant recommends using the Fujifilm X-T4 camera for capturing a 1980s editorial style image of a woman with big hair. (valid since 2023-05-25)\n- The assistant recommends using the Pentax K-1 II camera for capturing a 1980s editorial style image of a couple with retro clothing. (valid since 2023-05-25)\n- The 21st century life skills identified as most needed today are adaptability, emotional intelligence, critical thinking, effective communication, problem-solving, creativity, and digital literacy. (valid since 2023-05-26)\n- assistant provides the user with 21st century life skills as well as lists of skills for a new tradesperson, an entrepreneur, and a leader (valid since 2023-05-26)\n- assistant provides the user with more concise alternatives for the phrasing of staying current with technology in a trade or industry (valid since 2023-05-26)\n- The assistant recommends bone conduction earbuds as a type of earbud that allows the user to hear ambient noise while jogging. (valid since 2023-05-27)\n- The assistant recommends that the user perform static stretches for 10-15 minutes after a jog to improve recovery. (valid since 2023-05-27)\n- The assistant suggests leg swings as a light exercise for the user's post-jog cool-down routine. (valid since 2023-05-27)\n- The assistant suggests arm circles as a light exercise for the user's post-jog cool-down routine. (valid since 2023-05-27)\n- The assistant suggests hip circles as a light exercise for the user's post-jog cool-down routine. (valid since 2023-05-27)\n- The assistant suggests calf raises as a light exercise for the user's post-jog cool-down routine. (valid since 2023-05-27)\n- The assistant suggests toe taps as a light exercise for the user's post-jog cool-down routine. (valid since 2023-05-27)\n- The assistant suggests that the user use a foam roller for self-myofascial release to reduce post-jog soreness. (valid since 2023-05-27)\n- The assistant suggests that the user use a lacrosse ball for self-myofascial release to reduce post-jog soreness. (valid since 2023-05-27)\n- The Umbrella Academy follows the story of the Hargreeves family, a dysfunctional family of adopted siblings with superpowers who come together to solve the mystery of their father's death and prevent an impending apocalypse. (valid since 2023-05-27)\n- Locke & Key follows the Locke family who return to their ancestral home, Keyhouse, after their father's murder and discover magical keys that provide incredible powers while attracting dark forces. (valid since 2023-05-27)\n- Locke & Key is set in the Locke family's ancestral home, Keyhouse. (valid since 2023-05-27)\n- Luther Hargreeves / Spaceboy (Number One) is a member of The Umbrella Academy. (valid since 2023-05-27)\n- Diego Hargreeves / The Kraken (Number Two) is a member of The Umbrella Academy. (valid since 2023-05-27)\n- Allison Hargreeves / The Rumor (Number Three) is a member of The Umbrella Academy. (valid since 2023-05-27)\n- Klaus Hargreeves / The Séance (Number Four) is a member of The Umbrella Academy. (valid since 2023-05-27)\n- Number Five / The Boy (Number Five) is a member of The Umbrella Academy. (valid since 2023-05-27)\n- Ben Hargreeves / The Horror (Number Six) is a member of The Umbrella Academy. (valid since 2023-05-27)\n- Vanya Hargreeves / The White Violin (Number Seven) is a member of The Umbrella Academy. (valid since 2023-05-27)\n- user is seeking recommendations for comedy films with strong ensemble casts and witty dialogue. (valid since 2023-05-27)\n- user expresses interest in learning about favorite comedians. (valid since 2023-05-27)\n- user is open to watching classic comedies as well as more recent releases. (valid since 2023-05-27)\n- assistant recommends the 1975 classic comedy film Monty Python and the Holy Grail. (valid since 2023-05-27)\n- assistant recommends the 1987 fantasy romance film The Princess Bride. (valid since 2023-05-27)\n- assistant recommends the 1984 supernatural comedy classic Ghostbusters. (valid since 2023-05-27)\n- assistant recommends the 2009 comedy film The Hangover. (valid since 2023-05-27)\n- assistant recommends the 2011 comedy film Bridesmaids. (valid since 2023-05-27)\n- assistant recommends the 2017 comedy film The Disaster Artist. (valid since 2023-05-27)\n- The film The Disaster Artist is based on the making of the film The Room. (valid since 2023-05-27)\n- assistant recommends the 2017 dark comedy film The Death of Stalin. (valid since 2023-05-27)\n- assistant recommends the 2018 comedy-thriller film Game Night. (valid since 2023-05-27)\n- assistant recommends the 2018 romantic comedy film Crazy Rich Asians. (valid since 2023-05-27)\n- assistant recommends the 2019 coming-of-age comedy film Good Boys. (valid since 2023-05-27)\n- assistant recommends the 2019 female-led comedy film Booksmart. (valid since 2023-05-27)\n- assistant recommends the 2019 political comedy film Long Shot. (valid since 2023-05-27)\n- assistant recommends the 2020 comedy film Like a Boss. (valid since 2023-05-27)\n- assistant recommends the 2020 romantic comedy film Palm Springs. (valid since 2023-05-27)\n- assistant recommends the 2020 romantic comedy film The Lovebirds. (valid since 2023-05-27)\n- assistant recommends the 2021 comedy film Barb and Star Go to Vista Del Mar. (valid since 2023-05-27)\n- The user plans to perform a plank challenge where the user does a plank every day for a week and shares progress on Instagram. (valid since 2023-05-27)\n- The user plans to share progress from the daily plank challenge on Instagram. (valid since 2023-05-27)\n- The user is considering organizing the plank challenge as a Facebook event (valid since 2023-05-27)\n- The user is considering organizing the 7-day plank challenge as a Facebook group to allow for ongoing interaction (valid from 2023-05-27 until 2023-05-27) [superseded]\n- The assistant advises the user to create a Facebook group for the plank challenge to facilitate progress sharing and community engagement. (valid since 2023-05-27)\n- The user creates a Facebook group to host the plank challenge. (valid since 2023-05-27)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 84,
+  "invalidated": 1,
+  "episodes": 21,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 217.1,
+  "total": 218.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

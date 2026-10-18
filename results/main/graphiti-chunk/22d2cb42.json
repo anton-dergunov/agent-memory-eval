@@ -1,0 +1,90 @@
+{
+ "qid": "22d2cb42",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "Where did I get my guitar serviced?",
+ "reference": "The music shop on Main St.",
+ "question_date": "2023-06-24 09:01",
+ "sessions": [
+  {
+   "id": "b0fac439",
+   "date": "2023-05-15 03:09",
+   "evidence": false
+  },
+  {
+   "id": "answer_bcce0b73_1",
+   "date": "2023-05-20 16:26",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_158642",
+   "date": "2023-05-23 01:49",
+   "evidence": false
+  },
+  {
+   "id": "2d84a7ae_1",
+   "date": "2023-05-29 02:53",
+   "evidence": false
+  },
+  {
+   "id": "answer_bcce0b73_2",
+   "date": "2023-05-29 14:10",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_2WSs9xO_0",
+   "date": "2023-05-30 19:59",
+   "evidence": false
+  },
+  {
+   "id": "a2defa66_2",
+   "date": "2023-06-05 13:38",
+   "evidence": false
+  },
+  {
+   "id": "eec72a82_4",
+   "date": "2023-06-12 19:51",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_546429",
+   "date": "2023-06-12 20:33",
+   "evidence": false
+  },
+  {
+   "id": "e1416816_1",
+   "date": "2023-06-14 12:37",
+   "evidence": false
+  }
+ ],
+ "context": "- The user is considering getting their acoustic guitar serviced around the time of the music festival (valid since 2023-05-20)\n- Rhythm Central is known for providing guitar servicing for acoustic guitars. (valid since 2023-05-20)\n- The user plans to contact the music shop Rhythm Central on Main St to inquire about guitar servicing and pricing. (valid since 2023-05-20)\n- user owns an old saxophone case (valid since 2023-05-29)\n- Rhythm Central is a music shop located on Main St. (valid since 2023-05-20)\n- The user works in the tech industry. (valid since 2023-06-05)\n- The user has completed online certification courses in Python programming. (valid since 2023-05-15)\n- The user completed a 5K charity run with a personal best time of 27 minutes and 12 seconds. (valid since 2023-05-29)\n- The user has completed online certification courses in data visualization. (valid since 2023-05-15)\n- The user is considering listing an old electronic keyboard on Craigslist. (valid since 2023-05-29)",
+ "answer": "Answer (step by step):\n\n**Step 1: Extract relevant information**\n*   The user is considering getting their acoustic guitar serviced.\n*   The user plans to contact the music shop \"Rhythm Central\" on Main St to inquire about guitar servicing and pricing.\n*   There is no information in the provided history indicating that the user has already completed the servicing.\n\n**Step 2: Reason over the information**\n*   The history shows an intention to contact Rhythm Central for servicing, but it does not confirm that the service has taken place.\n*   Since there is no record of the user having completed the guitar servicing, it is impossible to state where the guitar was serviced.\n\n**Answer:**\nBased on the provided history, you have not yet had your guitar serviced. You have only expressed a plan to contact Rhythm Central on Main St to inquire about servicing and pricing.",
+ "dump": "- The user has completed online certification courses in Python programming. (valid since 2023-05-15)\n- The user has completed online certification courses in data visualization. (valid since 2023-05-15)\n- The user has been reading books on machine learning. (valid since 2023-05-15)\n- The user has been reading books on artificial intelligence. (valid since 2023-05-15)\n- The user wants to explore more courses or certifications to build skills in data science, specifically in machine learning and deep learning. (valid since 2023-05-15)\n- The user aims to build skills in machine learning as part of their data science development. (valid since 2023-05-15)\n- The user aims to build skills in deep learning as part of their data science development. (valid since 2023-05-15)\n- Andrew Ng provides a machine learning course and a deep learning specialization on Coursera (valid since 2023-05-15)\n- DataCamp features a machine learning with Python course that covers scikit-learn (valid since 2023-05-15)\n- DataCamp features courses on machine learning and deep learning using TensorFlow (valid since 2023-05-15)\n- DataCamp features courses on machine learning and deep learning using Keras (valid since 2023-05-15)\n- DataCamp features a deep learning with Python course covering PyTorch (valid since 2023-05-15)\n- The International Association for Machine Learning and Artificial Intelligence offers a Certified Machine Learning Engineer certification (valid since 2023-05-15)\n- deeplearning.ai offers a Certified Deep Learning Developer certification (valid since 2023-05-15)\n- Google Cloud offers a Professional Machine Learning Engineer certification (valid since 2023-05-15)\n- Kaggle hosts competitions to practice machine learning and deep learning skills (valid since 2023-05-15)\n- Stanford University provides a natural language processing with deep learning course on Coursera (valid since 2023-05-15)\n- The user plans to try out the FL Studio Fruity Edition demo (valid since 2023-05-20)\n- The user is planning to go to a music festival next weekend (valid since 2023-05-20)\n- The user is considering getting their acoustic guitar serviced around the time of the music festival (valid since 2023-05-20)\n- The user plans to contact the music shop Rhythm Central on Main St to inquire about guitar servicing and pricing. (valid since 2023-05-20)\n- Rhythm Central is a music shop located on Main St. (valid since 2023-05-20)\n- Rhythm Central is known for providing guitar servicing for acoustic guitars. (valid since 2023-05-20)\n- Encompass provides trauma-informed care, individual and family therapy, mental health counseling, and support groups to immigrant and refugee communities. (valid since 2023-05-23)\n- The user completed a 5K charity run with a personal best time of 27 minutes and 12 seconds. (valid since 2023-05-29)\n- The user plans to incorporate strength training exercises 3 times a week, focusing on core, legs, and glutes. (valid since 2023-05-29)\n- The user has been performing exercises targeting their core and legs, such as squats, lunges, and deadlifts. (valid since 2023-05-29)\n- user owns an old saxophone case (valid since 2023-05-29)\n- The assistant advises the user to list their electronic keyboard for $220 or $230 instead of $250 to allow for negotiation on Craigslist. (valid since 2023-05-29)\n- The user is considering listing an old electronic keyboard on Craigslist. (valid since 2023-05-29)\n- The assistant provides advice and recommendations to a social worker regarding strategies to support Codey and address his problematic behavior. (valid since 2023-05-30)\n- The user works in the tech industry. (valid since 2023-06-05)\n- Accenture and Girls Who Code co-authored a report indicating the number of women in tech roles increased from 26% in 2016 to 38% in 2020. (valid since 2023-06-05)\n- McKinsey and LeanIn.org co-authored a study finding the number of women in senior vice president roles in tech companies grew from 18% in 2015 to 23% in 2020. (valid since 2023-06-05)\n- The user is attempting to resume posting meaningful content on Instagram. (valid since 2023-06-12)\n- The assistant provides guidance on structuring and creating engaging IGTV videos for a personal growth journey series. (valid since 2023-06-12)\n- assistant provides guidance to user on how to structure their IGTV series about personal growth. (valid since 2023-06-12)\n- user plans to create an IGTV series about their personal growth journey. (valid since 2023-06-12)\n- The user does not understand how to use the Terminal app. (valid since 2023-06-12)\n- The assistant describes the Terminal app as a command-line interface for controlling and customizing a Mac. (valid since 2023-06-12)\n- The Terminal app interacts with the Mac via text commands as opposed to a graphical user interface. (valid since 2023-06-12)\n- The user posted a recipe for a chocolate cake in the Foodie Frenzy group. (valid since 2023-06-14)\n- The user is a member of the Foodie Frenzy group. (valid since 2023-06-14)\n- The user is planning to host a book club meeting soon. (valid since 2023-06-14)\n- A fire-engine red velvet cake is a thematic dish inspired by Fahrenheit 451. (valid since 2023-06-14)\n- A Hogwarts House cupcake is a thematic dish inspired by Harry Potter. (valid since 2023-06-14)\n- The assistant recommends sharing book-themed recipes on the Instagram social media platform. (valid since 2023-06-14)\n- The assistant suggests creating Sherlock Holmes' London Fog tea sandwiches as a book-themed recipe. (valid since 2023-06-14)\n- The assistant suggests creating Elizabeth Bennet's English garden tea party treats as a book-themed recipe. (valid since 2023-06-14)\n- The assistant suggests creating a Hemingway-esque Cuban sandwich as a book-themed recipe. (valid since 2023-06-14)\n- The assistant suggests creating a Jane Austen-inspired English trifle as a book-themed recipe. (valid since 2023-06-14)\n- The assistant suggests creating Wizard Wands, made of pretzel rods with cheese and veggies, as a literary-themed snack. (valid since 2023-06-14)\n- The assistant suggests creating Gatsby's Glamour Grapes, made with a champagne and sugar drizzle, as a literary-themed snack. (valid since 2023-06-14)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 53,
+  "invalidated": 0,
+  "episodes": 22,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 138.0,
+  "total": 139.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

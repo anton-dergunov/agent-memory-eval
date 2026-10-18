@@ -1,0 +1,102 @@
+{
+ "qid": "5c40ec5b",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many times have I met up with Alex from Germany?",
+ "reference": "We've met up twice.",
+ "question_date": "2023-10-30 13:39",
+ "sessions": [
+  {
+   "id": "156988fe",
+   "date": "2023-07-12 13:46",
+   "evidence": false
+  },
+  {
+   "id": "ff2fd48c",
+   "date": "2023-07-14 00:02",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_117952",
+   "date": "2023-07-21 10:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_1cb52d0a_1",
+   "date": "2023-08-11 08:32",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_545683",
+   "date": "2023-08-14 06:21",
+   "evidence": false
+  },
+  {
+   "id": "be050ab3_2",
+   "date": "2023-08-15 22:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_e6daAMu_0",
+   "date": "2023-08-28 17:35",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_271436",
+   "date": "2023-09-14 04:47",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dBQwSJX_0",
+   "date": "2023-09-22 07:47",
+   "evidence": false
+  },
+  {
+   "id": "answer_1cb52d0a_2",
+   "date": "2023-09-30 12:23",
+   "evidence": true
+  }
+ ],
+ "context": "- The user has met their friend Alex from Germany twice before and plans to meet him again in Berlin. (valid since 2023-09-30)\n- The user attended a music festival where they met Alex a few weeks ago (valid since 2023-08-11)\n- The user reviewed the home inspection report with Alex to identify specific issues. (valid since 2023-08-15)\n- The user and Alex bond over their shared love of indie rock music. (valid since 2023-08-11)\n- The user shares a love of indie rock music with their friend Alex (valid since 2023-08-11)\n- The user plans to attend a concert with Alex when he is in town. (valid since 2023-08-11)\n- Lofrix received the Start-up Champions award from the German Federal Ministry for Economic Affairs and Energy. (valid since 2023-09-14)\n- The user is curious about experimenting with wax for future projects. (valid since 2023-07-12)\n- The user is curious about experimenting with polymer clay for future projects. (valid since 2023-07-12)\n- The user practices yoga (valid since 2023-07-14)",
+ "answer": "Answer (step by step):\n\n**1. Extract relevant information:**\n*   Fact 1: \"The user has met their friend Alex from Germany twice before and plans to meet him again in Berlin.\" (valid since 2023-09-30)\n*   Fact 2: \"The user attended a music festival where they met Alex a few weeks ago\" (valid since 2023-08-11)\n\n**2. Reason over the information:**\n*   The first fact explicitly states that the user has met Alex \"twice before.\"\n*   The second fact confirms one of these meetings occurred at a music festival, but it does not contradict or add to the total count provided in the first fact.\n*   Since the first fact is a summary statement confirming the total number of past meetings, we can conclude the user has met Alex two times.\n\n**Answer:**\nYou have met up with Alex from Germany two times.",
+ "dump": "- Tim Kröger was named Young Engineer of the Year by the German Engineering Association in 2018. (valid since 2018-01-01)\n- The user is looking to purchase new sculpting tools to help with the details on their current sculpture project. (valid since 2023-07-12)\n- The user has been working with air-dry clay for sculpting projects. (valid since 2023-07-12)\n- The user is curious about experimenting with polymer clay for future projects. (valid since 2023-07-12)\n- The user is curious about experimenting with wax for future projects. (valid since 2023-07-12)\n- assistant provides guidance and resources to user for experimenting with polymer clay and wax sculpting materials (valid since 2023-07-12)\n- The user practices yoga (valid since 2023-07-14)\n- The assistant recommends that the user invest in an outdoor yoga mat to provide grip and cushioning for yoga sessions performed on grass or pavement. (valid since 2023-07-14)\n- The assistant suggests using breathing exercises as a workplace technique to reduce stress and increase focus. (valid since 2023-07-21)\n- The assistant suggests using body scan meditation as a workplace technique to increase awareness and reduce tension. (valid since 2023-07-21)\n- The assistant suggests using walking meditation as a workplace technique to clear the mind and recharge. (valid since 2023-07-21)\n- The assistant suggests using mindful listening as a workplace technique to improve communication and build relationships with colleagues. (valid since 2023-07-21)\n- The assistant suggests taking mindful breaks as a workplace technique to step away from work and focus on the present moment. (valid since 2023-07-21)\n- The user attended a music festival where they met Alex a few weeks ago (valid since 2023-08-11)\n- The user shares a love of indie rock music with their friend Alex (valid since 2023-08-11)\n- The assistant recommended various indie rock bands and musicians to the user, including Tame Impala, Arctic Monkeys, The Black Keys, Florence + The Machine, Bon Iver, The 1975, Vampire Weekend, St. Vincent, The National, and Local Natives. (valid since 2023-08-11)\n- The user and Alex bond over their shared love of indie rock music. (valid since 2023-08-11)\n- The user plans to attend a concert with Alex when he is in town. (valid since 2023-08-11)\n- The user is preparing for the final walk-through inspection of their new property to ensure it is in the expected condition. (valid since 2023-08-15)\n- The home inspection report identified minor issues with the plumbing system. (valid since 2023-08-15)\n- The home inspection report identified minor issues with the electrical system. (valid since 2023-08-15)\n- The user reviewed the home inspection report with Alex to identify specific issues. (valid since 2023-08-15)\n- ReAct uses Wikipedia as a tool via API access to improve decision-making and question-answering capabilities. (valid since 2023-08-28)\n- The methodologies of Context-faithful prompt and ReAct can be combined into a single framework to improve the LLM's ability to use tools. (valid since 2023-08-28)\n- The vocational schools are located in North Rhine-Westphalia. (valid since 2023-09-14)\n- Vocational schools in North Rhine-Westphalia offer internship opportunities to students. (valid since 2023-09-14)\n- Vocational schools in North Rhine-Westphalia provide industry placement opportunities for students to gain hands-on experience. (valid since 2023-09-14)\n- The Vocational Qualification Pact provides funding for companies that offer apprenticeships and internships in North Rhine-Westphalia. (valid since 2023-09-14)\n- Tim Kröger is a former student of the Berufskolleg für Technik in Siegen. (valid since 2023-09-14)\n- Tim Kröger worked for KUKA as a developer of new robot models. (valid since 2023-09-14)\n- Tanja Laub is a former student of the Friedrich-List-Berufskolleg in Düsseldorf. (valid since 2023-09-14)\n- Tanja Laub founded the company Tinkerbots, which creates learning toys about robotics and mechatronics. (valid since 2023-09-14)\n- Philipp Kalweit is a former student of the Robert-Bosch-Berufskolleg in Dortmund. (valid since 2023-09-14)\n- Philipp Kalweit founded the company Lofrix, which develops industrial automation software. (valid since 2023-09-14)\n- Lofrix received the Start-up Champions award from the German Federal Ministry for Economic Affairs and Energy. (valid since 2023-09-14)\n- The user is planning to check out live music venues in the Kreuzberg neighborhood while visiting Berlin. (valid since 2023-09-30)\n- Kreuzberg is a neighborhood located in the city of Berlin. (valid since 2023-09-30)\n- SO36 is a live music venue located in Kreuzberg. (valid since 2023-09-30)\n- Schokoladen is a live music venue located in Kreuzberg. (valid since 2023-09-30)\n- Kantine am Berghain is a live music venue located in Kreuzberg. (valid since 2023-09-30)\n- Lido is a live music venue located in Kreuzberg. (valid since 2023-09-30)\n- Badehaus Szimpla is a live music venue located in Kreuzberg. (valid since 2023-09-30)\n- Urban Spree is a live music venue located in Kreuzberg. (valid since 2023-09-30)\n- Monarch is a live music venue located in Kreuzberg. (valid since 2023-09-30)\n- The Barn is a cafe located in Kreuzberg. (valid since 2023-09-30)\n- Five Elephant is a cafe located in Kreuzberg. (valid since 2023-09-30)\n- Kaffee Burger is a cafe located in Kreuzberg. (valid since 2023-09-30)\n- Schleusenkrug is a bar located in Kreuzberg. (valid since 2023-09-30)\n- Das Hotel is a bar located in Kreuzberg. (valid since 2023-09-30)\n- Würgeengel is a bar located in Kreuzberg. (valid since 2023-09-30)\n- Golgatha is a beer garden located in Kreuzberg. (valid since 2023-09-30)\n- The user has met their friend Alex from Germany twice before and plans to meet him again in Berlin. (valid since 2023-09-30)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 52,
+  "invalidated": 0,
+  "episodes": 18,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 116.0,
+  "total": 117.5
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

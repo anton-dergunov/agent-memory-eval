@@ -1,0 +1,305 @@
+{
+ "qid": "4d6b87c8",
+ "arm": "textual",
+ "split": "full",
+ "question": "How many titles are currently on my to-watch list?",
+ "reference": "25",
+ "question_date": "2023-06-03 15:47",
+ "sessions": [
+  {
+   "id": "6c51fa7e_3",
+   "date": "2023-04-20 05:18",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_43OIeUI_0",
+   "date": "2023-04-24 18:41",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_157934",
+   "date": "2023-04-25 05:27",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_408938",
+   "date": "2023-04-27 09:09",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yPCVYhX_0",
+   "date": "2023-04-29 15:08",
+   "evidence": false
+  },
+  {
+   "id": "1cf6c966_1",
+   "date": "2023-04-30 15:09",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_121715",
+   "date": "2023-05-01 21:59",
+   "evidence": false
+  },
+  {
+   "id": "8bc99ae3_1",
+   "date": "2023-05-04 11:22",
+   "evidence": false
+  },
+  {
+   "id": "4a1db06e",
+   "date": "2023-05-05 17:51",
+   "evidence": false
+  },
+  {
+   "id": "e57f4635",
+   "date": "2023-05-09 06:16",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_kFcVnSx_15",
+   "date": "2023-05-11 06:09",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_0kMM1sV_0",
+   "date": "2023-05-12 12:13",
+   "evidence": false
+  },
+  {
+   "id": "4344c2f1_2",
+   "date": "2023-05-15 00:29",
+   "evidence": false
+  },
+  {
+   "id": "5fc83435_1",
+   "date": "2023-05-15 20:14",
+   "evidence": false
+  },
+  {
+   "id": "cffde796",
+   "date": "2023-05-17 09:44",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mmYyki5_0",
+   "date": "2023-05-17 11:19",
+   "evidence": false
+  },
+  {
+   "id": "d87e86f6_1",
+   "date": "2023-05-17 22:04",
+   "evidence": false
+  },
+  {
+   "id": "fd6e6b9a_2",
+   "date": "2023-05-20 07:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_1",
+   "date": "2023-05-20 10:19",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_undG8q1_0",
+   "date": "2023-05-20 10:25",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_293116",
+   "date": "2023-05-20 10:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_553015",
+   "date": "2023-05-20 10:47",
+   "evidence": false
+  },
+  {
+   "id": "9af4e346_1",
+   "date": "2023-05-20 12:43",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_cu7TYt7_57",
+   "date": "2023-05-20 17:03",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_LtpeNAS_0",
+   "date": "2023-05-20 18:06",
+   "evidence": false
+  },
+  {
+   "id": "6d6c92fe",
+   "date": "2023-05-20 22:11",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_40253",
+   "date": "2023-05-20 22:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_7AuNZad_0",
+   "date": "2023-05-20 23:06",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_FYqt26U_0",
+   "date": "2023-05-21 00:27",
+   "evidence": false
+  },
+  {
+   "id": "85da7827",
+   "date": "2023-05-21 06:29",
+   "evidence": false
+  },
+  {
+   "id": "0159547c_1",
+   "date": "2023-05-21 07:34",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_cRXlt3L_0",
+   "date": "2023-05-21 09:10",
+   "evidence": false
+  },
+  {
+   "id": "b8c5e928_3",
+   "date": "2023-05-21 10:24",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_436945",
+   "date": "2023-05-21 10:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_105306",
+   "date": "2023-05-21 12:46",
+   "evidence": false
+  },
+  {
+   "id": "40d74f35_2",
+   "date": "2023-05-21 18:22",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_411499",
+   "date": "2023-05-21 22:08",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_xLjgprT_0",
+   "date": "2023-05-21 22:56",
+   "evidence": false
+  },
+  {
+   "id": "41d20601",
+   "date": "2023-05-21 23:47",
+   "evidence": false
+  },
+  {
+   "id": "60d4332d",
+   "date": "2023-05-22 00:41",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_2",
+   "date": "2023-05-22 03:27",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_515444",
+   "date": "2023-05-22 04:41",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_361817",
+   "date": "2023-05-22 08:42",
+   "evidence": false
+  },
+  {
+   "id": "4cbe4e20_1",
+   "date": "2023-05-22 09:07",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_NUyiNZE_0",
+   "date": "2023-05-22 11:43",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_lRGmxQF_0",
+   "date": "2023-05-22 15:24",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_101279",
+   "date": "2023-05-22 23:05",
+   "evidence": false
+  },
+  {
+   "id": "a0201607_3",
+   "date": "2023-05-22 23:41",
+   "evidence": false
+  },
+  {
+   "id": "5c85023a_1",
+   "date": "2023-05-29 06:30",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_317896",
+   "date": "2023-06-01 00:16",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_251166",
+   "date": "2023-06-01 08:07",
+   "evidence": false
+  },
+  {
+   "id": "4dd737a9_1",
+   "date": "2023-06-03 15:46",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   **Family:** Has a brother named Alex who recently started a new job in the city. Has grandparents whom the user is close to and visits. Has a niece who graduated from high school on 2023-06-15. Has parents with whom the user plans to cook dinner during the week of 2023-05-09. Has an aunt whose home is the location of an annual family gathering (as of 2023-05-15). Has a friend named Sarah who provides TV show recommendations. The user’s grandmother has passed away (as of 2023-06-03).\n*   **Pets:** Owns a cat named Luna, a dog named Max, and a rabbit named Benny.\n*   **Social Circle:** Has a coworker named Rachel with whom they attend concerts.\n*   **Health concerns:** Expressed significant anxiety and concern regarding the possibility of heart attacks in young people (as of 2023-05-20). Currently experiencing muscle tension and seeking relaxation techniques (as of 2023-05-22).\n*   **Literary interests:** Enjoys analyzing classic literature, specifically Sir Arthur Conan Doyle’s *The Hound of the Baskervilles*. As of 2023-05-22, has an interest in the philosophical and metaphysical themes of Kevin Barry’s *Night Boat to Tangier*. As of 2023-06-01, has a deep interest in Khaled Hosseini’s *The Kite Runner*. Actively collecting art history and theory books from thrift stores and garage sales.\n*   **Historical/Cryptographic interests:** Interested in the history of the Middle East, specifically the strategic and cultural significance of ancient cities like Petra, Jerusalem, Damascus, Baghdad, and Mecca. Interested in historical mysteries and cases of mass hysteria (as of 2023-05-11). Has a strong interest in the history of cryptography (as of 2023-05-20). As of 2023-06-01, has a keen interest in the history of the Troubles in Northern Ireland.\n*   **Professional activities:** Offers freelance services creating fast, AI-generated abstract art illustrations using Midjourney. Also creates handmade jewelry and candles (as of 2023-05-21). Currently employed and reports that work is going well; recently received praise from a client's CEO (as of 2023-05-21).\n*   **Educational background/interests:** Currently seeking a postdoctoral position. Previously considering a Ph.D. in Education (as of 2023-05-20). Currently planning to improve data analysis skills through online coursework (as of 2023-05-21).\n*   **Scientific interests:** Currently researching the use of computational methods to predict the anti-microbial activity of novel peptides and proteins (as of 2023-05-12). Interested in bioagriculture and biotechnology (as of 2023-05-20). Interested in ornithology and conservation efforts (as of 2023-05-22).\n*   **Gardening interests:** Actively gardening, specifically growing tomatoes. Interested in soil health, companion planting, and extending the growing season (as of 2023-05-21).\n*   **Gaming interests:** Plays FPS (First-Person Shooter) games.\n*   **Travel experiences:** Visited Castello di Amorosa in Napa Valley with family during the weekend of April 29–30, 2023. Has previously been camping in Yosemite National Park. Recently returned from a trip to Paris (as of 2023-06-03).\n*   **Music/Concert experiences:** Enjoys indie and alternative music. Recently saw Phoebe Bridgers open for The National at the Greek Theatre (as of 2023-05-17).\n*   **Hobbies:** Attends dance classes at a local studio (since 2023-02-17). Currently focused on salsa and interested in starting bachata. Commutes to classes by bike. Attends cooking classes at a local culinary school (since approximately 2023-02-20). Now actively running (as of 2023-05-22). Creates watercolor art inspired by Monet’s gardens (specifically the Japanese footbridge).\n*   **Financial/Technical interests:** Interested in cryptocurrency. Has experienced significant financial losses from investing in \"altcoins\" and \"shit coins.\" Currently seeking mentorship to improve trading outcomes (as of 2023-05-20).\n*   **Entertainment interests:** Enjoys complex, atmospheric shows that balance character development and plot progression. Deeply interested in historical dramas, social justice, and human rights themes.\n*   **Views on Healthcare:** Believes telemedicine is a vital tool for increasing healthcare accessibility (as of 2023-05-20).\n*   **Linguistic interests:** Interested in typography and punctuation (as of 2023-05-20).\n*   **Emotional state:** Currently experiencing feelings of regret and seeking strategies to process and overcome these emotions (as of 2023-05-21). Finds hope in stories of reconciliation and progress (as of 2023-06-01).\n*   **Psychological/Sociological interests:** Interested in the intersection of social psychology theories as they relate to online behavior and self-evaluation (as of 2023-05-21).\n*   **Travel Interests:** Currently researching cruise ship travel (as of 2023-05-21). As of 2023-05-29, is actively planning a trip to Antarctica.\n*   **Civic Interests:** Interested in the mechanics of democratic processes (as of 2023-05-21).\n*   **Global Music Interests:** Interested in exploring the Nigerian music scene (as of 2023-05-21).\n*   **Storytelling Interests:** Interested in storytelling as a medium for engagement (as of 2023-05-21).\n*   **Home Improvement:** Recently assembled a large bookshelf (completed weekend of 2023-05-20/21). Recently purchased a new mattress and reports improved sleep quality (as of 2023-05-22). Recently hung a painting purchased at a local art fair last summer (as of 2023-06-03).\n*   **Cybersecurity:** As of 2023-05-22, the user is actively taking steps to improve their organization's cybersecurity.\n*   **Environmental Interests:** Interested in climate change, specifically its impact on Antarctica (as of 2023-05-29).\n\n### Preferences and habits\n*   **Pet Care:** Uses a Furminator brush for daily grooming of their cat, Luna. Recently purchased an automated litter box. Plans to have Luna microchipped. Currently researching flea and tick prevention for their dog, Max, and seeking gentle, hypoallergenic shampoos.\n*   **Literary critique:** Expresses frustration with the modern overuse of irony in literature and film. Values deep character analysis and the exploration of redemption arcs.\n*   **Analytical style:** Prefers structured, argumentative writing when exploring complex moral or ethical questions.\n*   **Gift-giving:** The user is thoughtful and prefers personalized or practical gifts.\n*   **Professional approach:** Emphasizes fast turnaround, high-quality output, and client collaboration in their art services.\n*   **Academic focus:** Passionate about urban education.\n*   **Gaming hardware:** Values precision and customizability in gaming mice.\n*   **Dietary habits:** Currently transitioning from coffee to tea to reduce caffeine intake. Prefers Earl Grey tea and honey.\n*   **Daily routine:** Takes a daily tea break at 2:30 pm (since 2023-05-04). Recently shifted to a 7:00 am wake-up time (since 2023-05-20). Struggles with late-night phone usage (as of 2023-05-22).\n*   **Culinary preferences:** Enjoys cooking and values hands-on learning. Interested in fusion cuisine (Indian-Italian) and Korean cooking.\n*   **Breakfast preferences:** Adopting overnight oats and chia seed pudding.\n*   **Wine preferences:** Prefers Chianti for pairing with Italian dishes.\n*   **Cycling/Running preferences:** Prioritizes high security for their bike. Uses Strava for cycling and is now looking to use it for running (as of 2023-05-22).\n*   **Dance preferences:** Enjoys watching online dance tutorials. Values personalized instruction.\n*   **Concert habits:** Interested in strategies for securing good spots in general admission sections.\n*   **Home Maintenance:** Actively working on establishing a consistent cleaning routine. Prefers to perform laundry on Saturdays (as of 2023-05-20).\n*   **Exercise habits:** Incorporates a 30-minute morning walk into their daily routine. Now seeking to incorporate Saturday morning runs (as of 2023-05-22).\n*   **Market Display Preferences:** Interested in creating cohesive, visually appealing displays for craft markets using themes like \"Rustic Chic,\" \"Boho Luxe,\" or \"Whimsical Woodland.\"\n*   **Data Analysis Preferences:** Interested in using Tableau for interactive data visualization and storytelling.\n*   **Gardening Preferences:** Prefers sustainable and eco-friendly gardening methods.\n*   **Entertainment Preferences:** Prefers historical dramas that balance accuracy with strong character development. Currently adopting a strategy of watching one episode of a lighthearted show between episodes of intense shows (as of 2023-05-22).\n*   **Sleep/Relaxation Habits:** Interested in trying 4-7-8 breathing and warm baths to manage muscle tension and improve sleep quality (as of 2023-05-22).\n*   **Interior Design Preferences:** Favors a modern and minimalist aesthetic with \"industrial-chic\" elements.\n*   **Media Consumption:** Reads *National Geographic* and *The New Yorker*.\n*   **Artistic Habits:** Uses wet-on-wet, glazing, and transparent washes for watercolor painting.\n\n### Ongoing situations and plans\n*   **Pet Care Plans:** Plans to schedule a microchipping appointment for Luna. Researching flea/tick prevention and skin-soothing shampoos for Max. Researching durable, safe toys for Benny the rabbit.\n*   **Professional venture:** Actively promoting an art gig for AI-generated abstract illustrations. Preparing for the Summer Solstice Night Market to sell handmade jewelry and candles (as of 2023-05-21).\n*   **Scientific research:** Actively conducting a literature search on computational methods for predicting anti-microbial peptide activity (as of 2023-05-12).\n*   **Career search:** Actively seeking a postdoctoral position (as of 2023-05-21).\n*   **Family plans:** Considering catching up with their brother, Alex.\n*   **Healthcare research:** Actively looking for resources to find reliable healthcare providers for their grandmother (now deceased, as of 2023-06-03).\n*   **Academic planning:** Exploring the Ph.D. application process for programs in Education.\n*   **Shopping plans:** Researching gaming mice, high-security 18mm U-locks, cabinet organizers, high-quality essential oil suppliers, decorative items for the new bookshelf, bedside tables, and throw pillow covers.\n*   **Lifestyle adjustments:** Continuing to experiment with tea flavors and maintaining the new 2:30 pm tea break routine. Attempting to break the habit of phone usage before bed (as of 2023-05-22).\n*   **Travel plans:** Planning a future camping trip to Yosemite National Park for late August 2023. Investigating cruise travel logistics (as of 2023-05-21). Actively researching Antarctica tour operators (as of 2023-05-29). Plans to visit Giverny on a future trip to France (as of 2023-06-03).\n*   **Dance plans:** Plans to ask their salsa instructor, Maria, for bachata instructor recommendations and about the possibility of working on a choreographed routine for the studio's annual showcase.\n*   **Trading education:** Interested in the \"Blockchain Accelerator 2.0\" dynamic coaching program (as of 2023-05-20).\n*   **Music/Entertainment plans:** Interested in exploring the indie/alternative music scene in Los Angeles. Planning to explore Nigerian music artists and festivals (as of 2023-05-21).\n*   **Home Organization:** Planning to organize kitchen cabinets and the laundry room closet. Setting up a recurring reminder to vacuum stairs every two weeks. Currently arranging art books on a new shelf by artist/style, with a dedicated section for general art history and theory (as of 2023-06-03).\n*   **Viewing plans:** Watching *Stranger Things* and *The Great British Baking Show*. Starting *The Haunting of Hill House* and *Russian Doll*. Catching up on *Succession*. Planning to watch *The Good Place*.\n*   **Culinary plans:** Planning a dinner party. Planning to experiment with Korean dishes.\n*   **Market Strategy:** Planning to implement a \"Summer Solstice Bundle\" promotion.\n*   **Data Analysis Plans:** Planning to enroll in the \"Data Science for Everyone\" course by DataCamp (as of 2023-05-21).\n*   **Gardening Plans:** Planning to build a New England-style cold frame. Planning to incorporate companion plants and soil-improving plants (as of 2023-05-21).\n*   **Running Plans:** Seeking a running group or buddy for Saturday morning runs (as of 2023-05-22).\n*   **Cybersecurity Plans:** Researching centralized update management systems (as of 2023-05-22).\n*   **Art Restoration:** Currently having an old oil painting (inherited from grandmother) restored at a local conservation studio; expected completion in six weeks (as of 2023-06-03).\n\n### Changes over time\n*   **Grandmother's status:** Deceased, as of 2023-06-03; previously experiencing health issues and seeking telemedicine/experimental treatments (as of 2023-05-22).\n*   **Travel history:** Added trip to Paris, since 2023-06-03.\n*   **Home Decor:** Added information about hanging a previously stored painting, since 2023-06-03.\n*   **Artistic Hobbies:** Added interest in watercolor painting and specific techniques (wet-on-wet, glazing), since 2023-06-03.\n*   **Book Collection:** Added information about organizing art books by artist/style and creating a general art history/theory section, since 2023-06-03.\n*   **Pet Care:** Added information about cat ownership, automated litter box usage, and microchipping research, since 2023-05-21. Added information about dog (Max) and rabbit (Benny) ownership, since 2023-05-21.\n*   **Professional status:** Added information regarding the user's freelance AI art business, since 2023-04-29. Added information regarding handmade jewelry and candle business, since 2023-05-21.\n*   **Educational status:** Added interest in pursuing a Ph.D. in Education, since 2023-04-30. Now, 2023-05-21: Actively seeking a postdoctoral position. Added interest in data analysis training, since 2023-05-21.\n*   **Gaming status:** Added interest in gaming hardware and FPS gaming, since 2023-05-01.\n*   **Routine status:** Added information regarding the transition to tea and the adjustment of the daily tea break time to 2:30 pm, since 2023-05-04. Updated wake-up time to 7:00 am, since 2023-05-20. Added goal to reduce phone usage before bed, since 2023-05-22.\n*   **Travel history:** Added details about the Napa Valley trip and previous Yosemite camping experience, since 2023-05-05.\n*   **Culinary status:** Added interest in cooking specific fall-themed meals and wine pairing preferences, since 2023-05-09. Updated culinary and wine preferences to include Lasagna Bolognese and Chianti for a family gathering, since 2023-05-15. Added interest in overnight oats and chia seed pudding, since 2023-05-20. Added interest in fusion and Korean cuisine, since 2023-05-20.\n*   **Intellectual interests:** Added interest in historical mysteries and mass hysteria, since 2023-05-11. Added interest in the history of cryptography and WWII cipher machines, since 2023-05-20. Added interest in typography and punctuation, since 2023-05-20. Added interest in social psychology theories (SCAI model), since 2023-05-21. Added interest in civic engagement and democratic processes, since 2023-05-21. Added interest in Nigerian music and culture, since 2023-05-21. Added interest in bird conservation and ornithology, since 2023-05-22. Added interest in the philosophical analysis of *Night Boat to Tangier*, since 2023-05-22. Added interest in climate change and Antarctic glaciology, since 2023-05-29. Added interest in the history of the Troubles in Northern Ireland, since 2023-06-01. Added interest in the literary analysis of *The Kite Runner*, since 2023-06-01.\n*   **Scientific research status:** Added interest in computational biology and anti-microbial peptide research, since 2023-05-12. Added interest in bioagriculture and biotechnology, since 2023-05-20.\n*   **New Hobbies:** Added interest in dance classes and cycling, since 2023-05-15. Added interest in gardening, since 2023-05-21. Added interest in running, since 2023-05-22.\n*   **Dance status:** Updated to reflect 3 months of consistent dance training and specific plans to pursue bachata and performance choreography, since 2023-05-17.\n*   **Trading status:** Now, 2023-05-20: Interested in professional mentorship/coaching for crypto trading due to past losses.\n*   **Music interests:** Added interest in indie/alternative music, concert-going habits, and exploration of the LA music scene, since 2023-05-17.\n*   **Cleaning Routine:** Added focus on home organization, including laundry scheduling, bathroom maintenance, and closet/cabinet decluttering, since 2023-05-20.\n*   **Entertainment status:** Added interest in historical dramas and psychological horror series, since 2023-05-20. Updated watchlist size to 25 titles, since 2023-05-22. Added strategy for balancing show tones, since 2023-05-22.\n*   **Health status:** Added documentation of user's anxiety regarding heart health and risk factors, since 2023-05-20. Added interest in telemedicine as a healthcare solution, since 2023-05-20. Added interest in optimizing morning walks, since 2023-05-20. Added interest in relaxation techniques for muscle tension, since 2023-05-22. Added interest in experimental treatments for chronic conditions, since 2023-05-22.\n*   **Cooking Classes:** Confirmed 3 months of experience as of 2023-05-20.\n*   **Fitness Motivation:** Now interested in fitness improvement through running (as of 2023-05-22).\n*   **Emotional status:** Added interest in strategies for managing regret, since 2023-05-21. Added perspective on hope for societal reconciliation, since 2023-06-01.\n*   **Storytelling:** Added interest in storytelling, since 2023-05-21.\n*   **Home Improvement:** Added interest in interior design and furniture shopping, since 2023-05-22.\n*   **Cybersecurity:** Added interest in organizational cybersecurity best practices, since 2023-05-22.",
+ "answer": "To determine how many titles are currently on your to-watch list, I will follow these steps:\n\n**Step 1: Extract relevant information**\n*   Under the \"Changes over time\" section, specifically the \"Entertainment status\" entry, it is noted: \"Updated watchlist size to 25 titles, since 2023-05-22.\"\n*   Under the \"Ongoing situations and plans\" section, the \"Viewing plans\" entry lists several specific shows: *Stranger Things*, *The Great British Baking Show*, *The Haunting of Hill House*, *Russian Doll*, *Succession*, and *The Good Place*.\n\n**Step 2: Reason over the information**\n*   The history logs explicitly state that as of 2023-05-22, the size of your watchlist was updated to 25 titles.\n*   There is no information provided in the history logs indicating that any titles have been removed or that the total count has changed since that update on 2023-05-22.\n\n**Answer:**\nThere are currently 25 titles on your to-watch list.",
+ "dump": "### Personal facts\n*   **Family:** Has a brother named Alex who recently started a new job in the city. Has grandparents whom the user is close to and visits. Has a niece who graduated from high school on 2023-06-15. Has parents with whom the user plans to cook dinner during the week of 2023-05-09. Has an aunt whose home is the location of an annual family gathering (as of 2023-05-15). Has a friend named Sarah who provides TV show recommendations. The user’s grandmother has passed away (as of 2023-06-03).\n*   **Pets:** Owns a cat named Luna, a dog named Max, and a rabbit named Benny.\n*   **Social Circle:** Has a coworker named Rachel with whom they attend concerts.\n*   **Health concerns:** Expressed significant anxiety and concern regarding the possibility of heart attacks in young people (as of 2023-05-20). Currently experiencing muscle tension and seeking relaxation techniques (as of 2023-05-22).\n*   **Literary interests:** Enjoys analyzing classic literature, specifically Sir Arthur Conan Doyle’s *The Hound of the Baskervilles*. As of 2023-05-22, has an interest in the philosophical and metaphysical themes of Kevin Barry’s *Night Boat to Tangier*. As of 2023-06-01, has a deep interest in Khaled Hosseini’s *The Kite Runner*. Actively collecting art history and theory books from thrift stores and garage sales.\n*   **Historical/Cryptographic interests:** Interested in the history of the Middle East, specifically the strategic and cultural significance of ancient cities like Petra, Jerusalem, Damascus, Baghdad, and Mecca. Interested in historical mysteries and cases of mass hysteria (as of 2023-05-11). Has a strong interest in the history of cryptography (as of 2023-05-20). As of 2023-06-01, has a keen interest in the history of the Troubles in Northern Ireland.\n*   **Professional activities:** Offers freelance services creating fast, AI-generated abstract art illustrations using Midjourney. Also creates handmade jewelry and candles (as of 2023-05-21). Currently employed and reports that work is going well; recently received praise from a client's CEO (as of 2023-05-21).\n*   **Educational background/interests:** Currently seeking a postdoctoral position. Previously considering a Ph.D. in Education (as of 2023-05-20). Currently planning to improve data analysis skills through online coursework (as of 2023-05-21).\n*   **Scientific interests:** Currently researching the use of computational methods to predict the anti-microbial activity of novel peptides and proteins (as of 2023-05-12). Interested in bioagriculture and biotechnology (as of 2023-05-20). Interested in ornithology and conservation efforts (as of 2023-05-22).\n*   **Gardening interests:** Actively gardening, specifically growing tomatoes. Interested in soil health, companion planting, and extending the growing season (as of 2023-05-21).\n*   **Gaming interests:** Plays FPS (First-Person Shooter) games.\n*   **Travel experiences:** Visited Castello di Amorosa in Napa Valley with family during the weekend of April 29–30, 2023. Has previously been camping in Yosemite National Park. Recently returned from a trip to Paris (as of 2023-06-03).\n*   **Music/Concert experiences:** Enjoys indie and alternative music. Recently saw Phoebe Bridgers open for The National at the Greek Theatre (as of 2023-05-17).\n*   **Hobbies:** Attends dance classes at a local studio (since 2023-02-17). Currently focused on salsa and interested in starting bachata. Commutes to classes by bike. Attends cooking classes at a local culinary school (since approximately 2023-02-20). Now actively running (as of 2023-05-22). Creates watercolor art inspired by Monet’s gardens (specifically the Japanese footbridge).\n*   **Financial/Technical interests:** Interested in cryptocurrency. Has experienced significant financial losses from investing in \"altcoins\" and \"shit coins.\" Currently seeking mentorship to improve trading outcomes (as of 2023-05-20).\n*   **Entertainment interests:** Enjoys complex, atmospheric shows that balance character development and plot progression. Deeply interested in historical dramas, social justice, and human rights themes.\n*   **Views on Healthcare:** Believes telemedicine is a vital tool for increasing healthcare accessibility (as of 2023-05-20).\n*   **Linguistic interests:** Interested in typography and punctuation (as of 2023-05-20).\n*   **Emotional state:** Currently experiencing feelings of regret and seeking strategies to process and overcome these emotions (as of 2023-05-21). Finds hope in stories of reconciliation and progress (as of 2023-06-01).\n*   **Psychological/Sociological interests:** Interested in the intersection of social psychology theories as they relate to online behavior and self-evaluation (as of 2023-05-21).\n*   **Travel Interests:** Currently researching cruise ship travel (as of 2023-05-21). As of 2023-05-29, is actively planning a trip to Antarctica.\n*   **Civic Interests:** Interested in the mechanics of democratic processes (as of 2023-05-21).\n*   **Global Music Interests:** Interested in exploring the Nigerian music scene (as of 2023-05-21).\n*   **Storytelling Interests:** Interested in storytelling as a medium for engagement (as of 2023-05-21).\n*   **Home Improvement:** Recently assembled a large bookshelf (completed weekend of 2023-05-20/21). Recently purchased a new mattress and reports improved sleep quality (as of 2023-05-22). Recently hung a painting purchased at a local art fair last summer (as of 2023-06-03).\n*   **Cybersecurity:** As of 2023-05-22, the user is actively taking steps to improve their organization's cybersecurity.\n*   **Environmental Interests:** Interested in climate change, specifically its impact on Antarctica (as of 2023-05-29).\n\n### Preferences and habits\n*   **Pet Care:** Uses a Furminator brush for daily grooming of their cat, Luna. Recently purchased an automated litter box. Plans to have Luna microchipped. Currently researching flea and tick prevention for their dog, Max, and seeking gentle, hypoallergenic shampoos.\n*   **Literary critique:** Expresses frustration with the modern overuse of irony in literature and film. Values deep character analysis and the exploration of redemption arcs.\n*   **Analytical style:** Prefers structured, argumentative writing when exploring complex moral or ethical questions.\n*   **Gift-giving:** The user is thoughtful and prefers personalized or practical gifts.\n*   **Professional approach:** Emphasizes fast turnaround, high-quality output, and client collaboration in their art services.\n*   **Academic focus:** Passionate about urban education.\n*   **Gaming hardware:** Values precision and customizability in gaming mice.\n*   **Dietary habits:** Currently transitioning from coffee to tea to reduce caffeine intake. Prefers Earl Grey tea and honey.\n*   **Daily routine:** Takes a daily tea break at 2:30 pm (since 2023-05-04). Recently shifted to a 7:00 am wake-up time (since 2023-05-20). Struggles with late-night phone usage (as of 2023-05-22).\n*   **Culinary preferences:** Enjoys cooking and values hands-on learning. Interested in fusion cuisine (Indian-Italian) and Korean cooking.\n*   **Breakfast preferences:** Adopting overnight oats and chia seed pudding.\n*   **Wine preferences:** Prefers Chianti for pairing with Italian dishes.\n*   **Cycling/Running preferences:** Prioritizes high security for their bike. Uses Strava for cycling and is now looking to use it for running (as of 2023-05-22).\n*   **Dance preferences:** Enjoys watching online dance tutorials. Values personalized instruction.\n*   **Concert habits:** Interested in strategies for securing good spots in general admission sections.\n*   **Home Maintenance:** Actively working on establishing a consistent cleaning routine. Prefers to perform laundry on Saturdays (as of 2023-05-20).\n*   **Exercise habits:** Incorporates a 30-minute morning walk into their daily routine. Now seeking to incorporate Saturday morning runs (as of 2023-05-22).\n*   **Market Display Preferences:** Interested in creating cohesive, visually appealing displays for craft markets using themes like \"Rustic Chic,\" \"Boho Luxe,\" or \"Whimsical Woodland.\"\n*   **Data Analysis Preferences:** Interested in using Tableau for interactive data visualization and storytelling.\n*   **Gardening Preferences:** Prefers sustainable and eco-friendly gardening methods.\n*   **Entertainment Preferences:** Prefers historical dramas that balance accuracy with strong character development. Currently adopting a strategy of watching one episode of a lighthearted show between episodes of intense shows (as of 2023-05-22).\n*   **Sleep/Relaxation Habits:** Interested in trying 4-7-8 breathing and warm baths to manage muscle tension and improve sleep quality (as of 2023-05-22).\n*   **Interior Design Preferences:** Favors a modern and minimalist aesthetic with \"industrial-chic\" elements.\n*   **Media Consumption:** Reads *National Geographic* and *The New Yorker*.\n*   **Artistic Habits:** Uses wet-on-wet, glazing, and transparent washes for watercolor painting.\n\n### Ongoing situations and plans\n*   **Pet Care Plans:** Plans to schedule a microchipping appointment for Luna. Researching flea/tick prevention and skin-soothing shampoos for Max. Researching durable, safe toys for Benny the rabbit.\n*   **Professional venture:** Actively promoting an art gig for AI-generated abstract illustrations. Preparing for the Summer Solstice Night Market to sell handmade jewelry and candles (as of 2023-05-21).\n*   **Scientific research:** Actively conducting a literature search on computational methods for predicting anti-microbial peptide activity (as of 2023-05-12).\n*   **Career search:** Actively seeking a postdoctoral position (as of 2023-05-21).\n*   **Family plans:** Considering catching up with their brother, Alex.\n*   **Healthcare research:** Actively looking for resources to find reliable healthcare providers for their grandmother (now deceased, as of 2023-06-03).\n*   **Academic planning:** Exploring the Ph.D. application process for programs in Education.\n*   **Shopping plans:** Researching gaming mice, high-security 18mm U-locks, cabinet organizers, high-quality essential oil suppliers, decorative items for the new bookshelf, bedside tables, and throw pillow covers.\n*   **Lifestyle adjustments:** Continuing to experiment with tea flavors and maintaining the new 2:30 pm tea break routine. Attempting to break the habit of phone usage before bed (as of 2023-05-22).\n*   **Travel plans:** Planning a future camping trip to Yosemite National Park for late August 2023. Investigating cruise travel logistics (as of 2023-05-21). Actively researching Antarctica tour operators (as of 2023-05-29). Plans to visit Giverny on a future trip to France (as of 2023-06-03).\n*   **Dance plans:** Plans to ask their salsa instructor, Maria, for bachata instructor recommendations and about the possibility of working on a choreographed routine for the studio's annual showcase.\n*   **Trading education:** Interested in the \"Blockchain Accelerator 2.0\" dynamic coaching program (as of 2023-05-20).\n*   **Music/Entertainment plans:** Interested in exploring the indie/alternative music scene in Los Angeles. Planning to explore Nigerian music artists and festivals (as of 2023-05-21).\n*   **Home Organization:** Planning to organize kitchen cabinets and the laundry room closet. Setting up a recurring reminder to vacuum stairs every two weeks. Currently arranging art books on a new shelf by artist/style, with a dedicated section for general art history and theory (as of 2023-06-03).\n*   **Viewing plans:** Watching *Stranger Things* and *The Great British Baking Show*. Starting *The Haunting of Hill House* and *Russian Doll*. Catching up on *Succession*. Planning to watch *The Good Place*.\n*   **Culinary plans:** Planning a dinner party. Planning to experiment with Korean dishes.\n*   **Market Strategy:** Planning to implement a \"Summer Solstice Bundle\" promotion.\n*   **Data Analysis Plans:** Planning to enroll in the \"Data Science for Everyone\" course by DataCamp (as of 2023-05-21).\n*   **Gardening Plans:** Planning to build a New England-style cold frame. Planning to incorporate companion plants and soil-improving plants (as of 2023-05-21).\n*   **Running Plans:** Seeking a running group or buddy for Saturday morning runs (as of 2023-05-22).\n*   **Cybersecurity Plans:** Researching centralized update management systems (as of 2023-05-22).\n*   **Art Restoration:** Currently having an old oil painting (inherited from grandmother) restored at a local conservation studio; expected completion in six weeks (as of 2023-06-03).\n\n### Changes over time\n*   **Grandmother's status:** Deceased, as of 2023-06-03; previously experiencing health issues and seeking telemedicine/experimental treatments (as of 2023-05-22).\n*   **Travel history:** Added trip to Paris, since 2023-06-03.\n*   **Home Decor:** Added information about hanging a previously stored painting, since 2023-06-03.\n*   **Artistic Hobbies:** Added interest in watercolor painting and specific techniques (wet-on-wet, glazing), since 2023-06-03.\n*   **Book Collection:** Added information about organizing art books by artist/style and creating a general art history/theory section, since 2023-06-03.\n*   **Pet Care:** Added information about cat ownership, automated litter box usage, and microchipping research, since 2023-05-21. Added information about dog (Max) and rabbit (Benny) ownership, since 2023-05-21.\n*   **Professional status:** Added information regarding the user's freelance AI art business, since 2023-04-29. Added information regarding handmade jewelry and candle business, since 2023-05-21.\n*   **Educational status:** Added interest in pursuing a Ph.D. in Education, since 2023-04-30. Now, 2023-05-21: Actively seeking a postdoctoral position. Added interest in data analysis training, since 2023-05-21.\n*   **Gaming status:** Added interest in gaming hardware and FPS gaming, since 2023-05-01.\n*   **Routine status:** Added information regarding the transition to tea and the adjustment of the daily tea break time to 2:30 pm, since 2023-05-04. Updated wake-up time to 7:00 am, since 2023-05-20. Added goal to reduce phone usage before bed, since 2023-05-22.\n*   **Travel history:** Added details about the Napa Valley trip and previous Yosemite camping experience, since 2023-05-05.\n*   **Culinary status:** Added interest in cooking specific fall-themed meals and wine pairing preferences, since 2023-05-09. Updated culinary and wine preferences to include Lasagna Bolognese and Chianti for a family gathering, since 2023-05-15. Added interest in overnight oats and chia seed pudding, since 2023-05-20. Added interest in fusion and Korean cuisine, since 2023-05-20.\n*   **Intellectual interests:** Added interest in historical mysteries and mass hysteria, since 2023-05-11. Added interest in the history of cryptography and WWII cipher machines, since 2023-05-20. Added interest in typography and punctuation, since 2023-05-20. Added interest in social psychology theories (SCAI model), since 2023-05-21. Added interest in civic engagement and democratic processes, since 2023-05-21. Added interest in Nigerian music and culture, since 2023-05-21. Added interest in bird conservation and ornithology, since 2023-05-22. Added interest in the philosophical analysis of *Night Boat to Tangier*, since 2023-05-22. Added interest in climate change and Antarctic glaciology, since 2023-05-29. Added interest in the history of the Troubles in Northern Ireland, since 2023-06-01. Added interest in the literary analysis of *The Kite Runner*, since 2023-06-01.\n*   **Scientific research status:** Added interest in computational biology and anti-microbial peptide research, since 2023-05-12. Added interest in bioagriculture and biotechnology, since 2023-05-20.\n*   **New Hobbies:** Added interest in dance classes and cycling, since 2023-05-15. Added interest in gardening, since 2023-05-21. Added interest in running, since 2023-05-22.\n*   **Dance status:** Updated to reflect 3 months of consistent dance training and specific plans to pursue bachata and performance choreography, since 2023-05-17.\n*   **Trading status:** Now, 2023-05-20: Interested in professional mentorship/coaching for crypto trading due to past losses.\n*   **Music interests:** Added interest in indie/alternative music, concert-going habits, and exploration of the LA music scene, since 2023-05-17.\n*   **Cleaning Routine:** Added focus on home organization, including laundry scheduling, bathroom maintenance, and closet/cabinet decluttering, since 2023-05-20.\n*   **Entertainment status:** Added interest in historical dramas and psychological horror series, since 2023-05-20. Updated watchlist size to 25 titles, since 2023-05-22. Added strategy for balancing show tones, since 2023-05-22.\n*   **Health status:** Added documentation of user's anxiety regarding heart health and risk factors, since 2023-05-20. Added interest in telemedicine as a healthcare solution, since 2023-05-20. Added interest in optimizing morning walks, since 2023-05-20. Added interest in relaxation techniques for muscle tension, since 2023-05-22. Added interest in experimental treatments for chronic conditions, since 2023-05-22.\n*   **Cooking Classes:** Confirmed 3 months of experience as of 2023-05-20.\n*   **Fitness Motivation:** Now interested in fitness improvement through running (as of 2023-05-22).\n*   **Emotional status:** Added interest in strategies for managing regret, since 2023-05-21. Added perspective on hope for societal reconciliation, since 2023-06-01.\n*   **Storytelling:** Added interest in storytelling, since 2023-05-21.\n*   **Home Improvement:** Added interest in interior design and furniture shopping, since 2023-05-22.\n*   **Cybersecurity:** Added interest in organizational cybersecurity best practices, since 2023-05-22.",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 416.5,
+  "total": 418.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "qid": "184da446",
+ "arm": "graphiti-chunk",
+ "split": "main",
+ "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+ "reference": "220",
+ "question_date": "2023-06-17 04:02",
+ "sessions": [
+  {
+   "id": "answer_e2f4f947_1",
+   "date": "2023-05-20 21:24",
+   "evidence": true
+  },
+  {
+   "id": "82a89303",
+   "date": "2023-05-20 21:43",
+   "evidence": false
+  },
+  {
+   "id": "e5f08e40",
+   "date": "2023-05-21 06:32",
+   "evidence": false
+  },
+  {
+   "id": "67d1de46_2",
+   "date": "2023-05-23 08:55",
+   "evidence": false
+  },
+  {
+   "id": "ae56bcf1_1",
+   "date": "2023-05-23 19:18",
+   "evidence": false
+  },
+  {
+   "id": "928eb5fe_2",
+   "date": "2023-05-25 19:08",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84199",
+   "date": "2023-05-28 11:59",
+   "evidence": false
+  },
+  {
+   "id": "d3110bd5_2",
+   "date": "2023-05-28 23:17",
+   "evidence": false
+  },
+  {
+   "id": "answer_e2f4f947_2",
+   "date": "2023-05-29 09:12",
+   "evidence": true
+  },
+  {
+   "id": "59115228",
+   "date": "2023-05-29 11:49",
+   "evidence": false
+  }
+ ],
+ "context": "- St. Francis of Assisi is said to have introduced the Franciscan rosary. (valid since 2023-05-21)\n- The user has been taking painting classes for three weeks. (valid since 2023-05-29)\n- The user has established a consistent bedtime of 10:30 PM. (valid since 2023-05-23)\n- user commits to a wake-up time of 6:30 am and a consistent bedtime to get 7-8 hours of sleep (valid since 2023-05-23)\n- The user is listening to The Science Hour, which features a podcast episode on AI-powered medical diagnosis. (valid since 2023-05-29)\n- The user is learning about machine learning through a course on Coursera. (valid since 2023-05-29)\n- The user has been experimenting with different types of charcoal. (valid since 2023-05-23)\n- The user is planning a painting party and has decided to use a galaxy night sky theme. (valid since 2023-05-29)\n- The assistant describes the rosary as a traditional Catholic devotion that involves praying a series of prayers to meditate on the life, death, and resurrection of Jesus Christ and the Virgin Mary. (valid since 2023-05-21)\n- Whole foods are a source of protein and provide essential vitamins, minerals, and fiber. (valid since 2023-05-28)",
+ "answer": "Answer (step by step):\n\n1. **Extract relevant information:** I have reviewed all the provided history facts regarding your activities, interests, and learning progress. The facts cover:\n    *   Religious history (St. Francis of Assisi and the rosary).\n    *   Personal habits (bedtime, wake-up time, sleep duration).\n    *   Current learning/hobbies (painting classes, charcoal experimentation, painting party planning, Coursera machine learning course, and listening to *The Science Hour* podcast).\n    *   Nutritional information (whole foods).\n\n2. **Reason over the information:** I have searched the provided facts for any mention of the book *'A Short History of Nearly Everything'* or any record of your reading progress regarding that specific title. None of the provided history facts contain information about this book or your reading habits related to it.\n\n3. **Conclusion:** Based on the provided facts, there is no information available to determine how many pages of *'A Short History of Nearly Everything'* you have read.",
+ "dump": "- AI-powered diagnosis systems utilize natural language processing for clinical decision support (valid since 2023-05-20)\n- The American Medical Association website features articles, podcasts, and videos on AI's applications in medicine, including patient engagement, personalized medicine, and healthcare management. (valid since 2023-05-20)\n- Healthcare IT News features a section dedicated to AI applications in healthcare, including patient engagement, personalized medicine, and healthcare management. (valid since 2023-05-20)\n- The World Health Organization website features resources on AI applications in healthcare, including patient engagement, personalized medicine, and healthcare management. (valid since 2023-05-20)\n- The AMIA Annual Symposium covers the latest advances in biomedical and health informatics, including AI applications in patient engagement, personalized medicine, and healthcare management. (valid since 2023-05-20)\n- The Journal of Biomedical Informatics publishes research on biomedical informatics, including AI applications in patient engagement, personalized medicine, and healthcare management. (valid since 2023-05-20)\n- Healthcare Management Review publishes research on healthcare management, including AI applications in operational efficiency, resource allocation, and supply chain management. (valid since 2023-05-20)\n- The user wants to learn about applications of artificial intelligence in healthcare beyond diagnosis, including patient engagement, personalized medicine, and healthcare management. (valid since 2023-05-20)\n- Healthcare IT News published the article AI-Powered Patient Engagement: A Survey of the Current Landscape (valid since 2023-05-20)\n- The Lancet published the commentary article AI-Driven Personalized Medicine: Opportunities and Challenges (valid since 2023-05-20)\n- Healthcare Finance News published the article AI-Powered Healthcare Management: A Survey of the Current Landscape (valid since 2023-05-20)\n- Harvard Business Review published the case study Using Artificial Intelligence to Improve Healthcare Operations: A Case Study (valid since 2023-05-20)\n- The American Medical Association website provides resources on artificial intelligence in patient engagement (valid since 2023-05-20)\n- The American Medical Association website provides resources on personalized medicine (valid since 2023-05-20)\n- The American Medical Association website provides resources on healthcare management (valid since 2023-05-20)\n- The World Health Organization website features resources on artificial intelligence applications in patient engagement (valid since 2023-05-20)\n- The World Health Organization website features resources on artificial intelligence applications in personalized medicine (valid since 2023-05-20)\n- The World Health Organization website features resources on artificial intelligence applications in healthcare management (valid since 2023-05-20)\n- The user plans to purchase an All-Clad Non-Stick Frying Pan. (valid since 2023-05-20)\n- The user owns and successfully uses an Instant Pot to cook meals like chili. (valid since 2023-05-20)\n- The Instant Pot can be used to cook Chicken Tacos on slow cook mode for 6-8 hours (valid since 2023-05-20)\n- The Instant Pot can be used to cook Beef Stew on slow cook mode for 8-10 hours (valid since 2023-05-20)\n- The Instant Pot can be used to cook Butter Chicken on slow cook mode for 4-6 hours (valid since 2023-05-20)\n- The Instant Pot can be used to cook Black Bean Chili on slow cook mode for 6-8 hours (valid since 2023-05-20)\n- The Instant Pot can be used to cook Pulled Pork on slow cook mode for 8-10 hours (valid since 2023-05-20)\n- The assistant describes the rosary as a traditional Catholic devotion that involves praying a series of prayers to meditate on the life, death, and resurrection of Jesus Christ and the Virgin Mary. (valid since 2023-05-21)\n- St. Francis of Assisi founded the Franciscan Order. (valid since 2023-05-21)\n- St. Francis of Assisi is said to have introduced the Franciscan rosary. (valid since 2023-05-21)\n- The Servite Rosary is associated with the Servite Order. (valid since 2023-05-21)\n- The Brigittine Rosary is associated with the Brigittine Order. (valid since 2023-05-21)\n- The user adjusted their wake-up time to 6:30 am. (valid since 2023-05-23)\n- The user has established a consistent bedtime of 10:30 PM. (valid since 2023-05-23)\n- user receives advice from assistant on creating a bedtime routine with reading and journaling and adjusting sleep schedule by 15-minute increments (valid since 2023-05-23)\n- user commits to a wake-up time of 6:30 am and a consistent bedtime to get 7-8 hours of sleep (valid since 2023-05-23)\n- The user has been experimenting with different types of charcoal. (valid since 2023-05-23)\n- The user is looking for recommendations for charcoal suitable for low and slow cooking of ribs. (valid since 2023-05-23)\n- The assistant recommends using ketchup as an ingredient for a basic BBQ sauce. (valid since 2023-05-23)\n- The assistant recommends using brown sugar as an ingredient for a basic BBQ sauce. (valid since 2023-05-23)\n- The assistant recommends using apple cider vinegar as an ingredient for a basic BBQ sauce. (valid since 2023-05-23)\n- The assistant recommends using smoked paprika as an ingredient for a basic BBQ sauce. (valid since 2023-05-23)\n- The assistant recommends using garlic powder as an ingredient for a basic BBQ sauce. (valid since 2023-05-23)\n- The assistant recommends using onion powder as an ingredient for a basic BBQ sauce. (valid since 2023-05-23)\n- The assistant recommends using salt to taste in a basic BBQ sauce. (valid since 2023-05-23)\n- The assistant recommends using pepper to taste in a basic BBQ sauce. (valid since 2023-05-23)\n- The user plans to study for certification exams with Alex. (valid since 2023-05-25)\n- The assistant suggests that studying with Alex is a way to stay motivated and accountable for certification exams. (valid since 2023-05-25)\n- The assistant recommends using the Pomodoro Technique, which involves 25-minute study increments followed by 5-minute breaks, for certification exam preparation. (valid since 2023-05-25)\n- Protein supplements such as whey, casein, or plant-based powders are sources of protein. (valid since 2023-05-28)\n- Whole foods are a source of protein and provide essential vitamins, minerals, and fiber. (valid since 2023-05-28)\n- Protein intake should be balanced with other nutrients like carbohydrates. (valid since 2023-05-28)\n- Protein intake should be balanced with other nutrients like fats. (valid since 2023-05-28)\n- The user is using Google Maps to plan their transit commute and compare bus and train travel options. (valid since 2023-05-28)\n- The user is learning about machine learning through a course on Coursera. (valid since 2023-05-29)\n- The user is listening to The Science Hour, which features a podcast episode on AI-powered medical diagnosis. (valid since 2023-05-29)\n- The user is interested in the potential of artificial intelligence in medical diagnosis. (valid since 2023-05-29)\n- The user is planning a painting party and has decided to use a galaxy night sky theme. (valid since 2023-05-29)\n- The user has been taking painting classes for three weeks. (valid since 2023-05-29)\n- The user plans to implement a People's Choice award at their painting party. (valid since 2023-05-29)\n- The assistant recommends using the People's Choice award to create a positive and uplifting atmosphere at the painting party. (valid since 2023-05-29)",
+ "extra": {
+  "retrieved": 10,
+  "edges": 59,
+  "invalidated": 0,
+  "episodes": 25,
+  "episode_failures": 0
+ },
+ "settings": {
+  "graphiti-core": "0.31.1",
+  "neo4j": "5.26",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "episodes": "message episodes of at most 8000 chars per session",
+  "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
+  "entity_types": "none (library default)"
+ },
+ "seconds": {
+  "write": 165.6,
+  "total": 167.4
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

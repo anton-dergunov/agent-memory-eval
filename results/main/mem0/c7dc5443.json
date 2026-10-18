@@ -1,0 +1,100 @@
+{
+ "qid": "c7dc5443",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What is my current record in the recreational volleyball league?",
+ "reference": "5-2",
+ "question_date": "2023-07-21 20:30",
+ "sessions": [
+  {
+   "id": "705b5399_1",
+   "date": "2023-05-27 01:53",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_oSemQhs_0",
+   "date": "2023-06-16 04:31",
+   "evidence": false
+  },
+  {
+   "id": "c2fb8e86_2",
+   "date": "2023-06-16 04:49",
+   "evidence": false
+  },
+  {
+   "id": "answer_0cdbca92_1",
+   "date": "2023-06-16 12:33",
+   "evidence": true
+  },
+  {
+   "id": "8a355b36_1",
+   "date": "2023-06-17 09:15",
+   "evidence": false
+  },
+  {
+   "id": "e6b6353d",
+   "date": "2023-06-17 22:31",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_6cz1Sq6_264",
+   "date": "2023-06-28 19:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_51967",
+   "date": "2023-06-28 20:16",
+   "evidence": false
+  },
+  {
+   "id": "answer_0cdbca92_2",
+   "date": "2023-06-30 14:20",
+   "evidence": true
+  },
+  {
+   "id": "6b8e8bb3_1",
+   "date": "2023-07-10 19:09",
+   "evidence": false
+  }
+ ],
+ "context": "- User is planning to start a recreational basketball league at their office and intends to gauge interest via a survey. (from a chat on 2023-06-30)\n- User is planning to co-organize a recreational basketball league at their office, aiming to balance the time commitment with their triathlon training schedule. (from a chat on 2023-06-16)\n- User is considering hosting a mini tournament to conclude the basketball league season and is debating whether to mix teams with friends from their volleyball league or keep them separate. (from a chat on 2023-06-30)\n- User's volleyball team has a current record of 3-2 as of June 2023. (from a chat on 2023-06-16)\n- User plays volleyball for a team called the Net Ninjas, which currently has a 5-2 record. (from a chat on 2023-06-30)\n- User plans to offer group clinics and online resources to help participants in their office basketball league improve their skills. (from a chat on 2023-06-30)\n- User maintains a fitness routine including gym-based cardio and strength training, volleyball, and soccer, and recently completed a 5K run in 32:15. (from a chat on 2023-06-16)\n- Assistant provided a 12-week sprint triathlon training plan divided into base building, build/intensity, and taper phases, with a weekly schedule adjusted for the user's existing volleyball and soccer commitments. (from a chat on 2023-06-16)\n- User was instructed to notify both their doctor and pharmacy of their name change in addition to their health insurance provider to ensure accurate prescription records and insurance claim processing. (from a chat on 2023-06-17)\n- User was advised to update their name across various institutions including passport, driver's license, financial accounts, employer records, and health insurance to ensure consistency for international travel and administrative purposes. (from a chat on 2023-06-17)\n- User is training for a sprint triathlon to take place in approximately 12 weeks from June 2023, with a focus on improving swimming and biking skills. (from a chat on 2023-06-16)\n- User is planning a 20-mile bike ride for the weekend of June 17-18, 2023, and received advice on hydration, including drinking 16-20 ounces of water before the ride and sipping fluids every 10-15 minutes. (from a chat on 2023-06-17)\n- User is restocking almond milk and protein powder, noting that their previous Instacart order is running low. (from a chat on 2023-07-10)\n- User was advised to focus on endurance, transitions, and strength training for their upcoming triathlon, while also incorporating flexibility and mobility work to prevent injury. (from a chat on 2023-06-30)\n- Assistant recommended that the user prioritize swimming and biking sessions, incorporate brick workouts every 2-3 weeks, and reduce strength training to once weekly to accommodate their busy schedule. (from a chat on 2023-06-16)\n- User was recommended route planning apps including Ride with GPS, MapMyRide, Strava, and Google Maps to find bike-friendly roads for their 20-mile ride. (from a chat on 2023-06-17)\n- User intends to purchase a new bike helmet from Specialized to replace their outdated one and was advised on sizing, fit systems, and the benefits of MIPS technology. (from a chat on 2023-06-17)\n- User is researching Mahindra and Mahindra's commercial automobile operations in India, specifically focusing on light-duty vehicles, heavy-duty vehicles, 3-wheelers, and EV industry investments. (from a chat on 2023-06-16)\n- In the financial year 2021, Mahindra and Mahindra reported sales of over 98,000 light commercial vehicles, 30,000 heavy commercial vehicles, 32,000 3-wheelers, and 7,000 electric vehicles. (from a chat on 2023-06-16)\n- User is learning Spanish and has been completing two lessons per week in an online course, showing improved language grasp. (from a chat on 2023-06-16)",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-06-16: The user's volleyball team had a record of 3-2.\n    *   From the chat on 2023-06-30: The user plays for a team called the \"Net Ninjas,\" which has a record of 5-2.\n\n2.  **Reason over the information:**\n    *   The information from June 30th is more recent than the information from June 16th.\n    *   The most recent update regarding the user's volleyball team (the Net Ninjas) indicates a record of 5-2.\n\n3.  **Conclusion:**\n    *   The user's current record in the recreational volleyball league is 5-2.",
+ "dump": "- User replaced the chain and cassette on their old bike on February 1, 2023, which improved the bike's performance. (session 2023-06-17)\n- User is considering hosting a mini tournament to conclude the basketball league season and is debating whether to mix teams with friends from their volleyball league or keep them separate. (session 2023-06-30)\n- Assistant advised the user on the benefits of a professional bike fitting, including injury prevention and improved efficiency, and suggested methods for finding a certified fitter locally. (session 2023-06-16)\n- User maintains a fitness routine including gym-based cardio and strength training, volleyball, and soccer, and recently completed a 5K run in 32:15. (session 2023-06-16)\n- User intends to seek support from friends or family for accountability and celebrate small wins in their journey to change spending habits. (session 2023-05-27)\n- Mahindra and Mahindra's commercial vehicle portfolio includes light-duty models like Bolero Pickup, Jeeto, and Supro; heavy-duty models like Blazo, Furio, and Alfa; 3-wheelers like Treo, Supro, and Alfa; and EVs like e-Verito, e-KUV, and e-Alfa. (session 2023-06-16)\n- User is working on improving their financial management, specifically by reducing impulse purchases of luxury items, such as a $500 designer handbag purchased the week of May 20, 2023. (session 2023-05-27)\n- User is restocking almond milk and protein powder, noting that their previous Instacart order is running low. (session 2023-07-10)\n- User is training for a sprint triathlon to take place in approximately 12 weeks from June 2023, with a focus on improving swimming and biking skills. (session 2023-06-16)\n- User is interested in Spanish-language TV shows to improve listening and reading comprehension and was recommended titles including 'Narcos', 'La Casa de Papel', 'Gran Hotel', 'Velvet', 'Paquita Salas', 'Élite', 'La Reina del Sur', 'Bajo Sospecha', 'El Ministerio del Tiempo', and 'Vis a Vis'. (session 2023-06-16)\n- User was advised to update their name across various institutions including passport, driver's license, financial accounts, employer records, and health insurance to ensure consistency for international travel and administrative purposes. (session 2023-06-17)\n- User changed their name to Eve Rachel Lee following their engagement. (session 2023-06-17)\n- User dislikes the sensory experience of hand sanitizer, specifically finding it sticky and unpleasant-smelling, and is concerned about potential skin damage from frequent use. (session 2023-06-28)\n- User analyzed the cultural context of the Spanish series 'Gran Hotel', specifically how the luxurious hotel setting reflects early 20th-century social stratification, modernization, and the changing roles of women. (session 2023-06-16)\n- User visited Walmart on Saturday, July 8, 2023, to stock up on household and grocery essentials. (session 2023-07-10)\n- User plays volleyball for a team called the Net Ninjas, which currently has a 5-2 record. (session 2023-06-30)\n- Mahindra and Mahindra maintains distinct supply chain strategies for its agri-business versus its 3-wheeler and light commercial vehicle segments, utilizing long-term vendor relationships and advanced inventory tracking like RFID. (session 2023-06-16)\n- User received comprehensive bike safety tips for their upcoming ride, including pre-ride equipment checks, defensive riding techniques, and the importance of carrying a basic toolkit and identification. (session 2023-06-17)\n- User is exploring the themes of social class, inequality, and identity in the Spanish series 'Velvet', noting the show's effective portrayal of internalized oppression and the challenges of upward social mobility. (session 2023-06-16)\n- User decided to use the Spendee app to track their luxury spending and categorize expenses. (session 2023-05-27)\n- User is planning to purchase a bike for triathlon training and intends to get a professional bike fitting to ensure comfort and performance. (session 2023-06-16)\n- User was advised that Chapter 10 (core exercises) and Chapter 13 (glute exercises) from 'Back Mechanic' should form the foundation of their recovery routine. (session 2023-06-28)\n- Assistant provided a 12-week sprint triathlon training plan divided into base building, build/intensity, and taper phases, with a weekly schedule adjusted for the user's existing volleyball and soccer commitments. (session 2023-06-16)\n- Mahindra and Mahindra utilizes operational practices including TQM, BPR, SAP ERP, Six Sigma, Lean, and Kaizen to improve efficiency, reduce waste, and enhance quality control. (session 2023-06-16)\n- User is planning to start a recreational basketball league at their office and intends to gauge interest via a survey. (session 2023-06-30)\n- User is planning a 20-mile bike ride for the weekend of June 17-18, 2023, and received advice on hydration, including drinking 16-20 ounces of water before the ride and sipping fluids every 10-15 minutes. (session 2023-06-17)\n- User recognized that stress and boredom are primary emotional triggers for their impulse spending. (session 2023-05-27)\n- User intends to purchase a new bike helmet from Specialized to replace their outdated one and was advised on sizing, fit systems, and the benefits of MIPS technology. (session 2023-06-17)\n- User is researching Mahindra and Mahindra's commercial automobile operations in India, specifically focusing on light-duty vehicles, heavy-duty vehicles, 3-wheelers, and EV industry investments. (session 2023-06-16)\n- User is planning a shopping trip for the weekend of July 15-16, 2023, to restock pantry staples and purchase ingredients for chicken stir-fry and homemade pizza. (session 2023-07-10)\n- In the financial year 2021, Mahindra and Mahindra reported sales of over 98,000 light commercial vehicles, 30,000 heavy commercial vehicles, 32,000 3-wheelers, and 7,000 electric vehicles. (session 2023-06-16)\n- User is reading Chapter 13, 'Use the Power in Your Posterior,' from the book 'Back Mechanic' by Dr. Stuart McGill to address back pain through glute activation and strengthening. (session 2023-06-28)\n- User is planning to sign up for a triathlon in the fall of 2023 and is seeking training advice. (session 2023-06-30)\n- User was advised to focus on endurance, transitions, and strength training for their upcoming triathlon, while also incorporating flexibility and mobility work to prevent injury. (session 2023-06-30)\n- User is learning Spanish and has been completing two lessons per week in an online course, showing improved language grasp. (session 2023-06-16)\n- User plans to set clear financial goals and create a budget to better manage their spending. (session 2023-05-27)\n- User's volleyball team has a current record of 3-2 as of June 2023. (session 2023-06-16)\n- User plans to keep a 'feelings journal' to track emotions and spending triggers, practice 24-hour delayed gratification before purchases, and adopt alternative stress-relief methods like exercise or meditation. (session 2023-05-27)\n- Assistant recommended that the user prioritize swimming and biking sessions, incorporate brick workouts every 2-3 weeks, and reduce strength training to once weekly to accommodate their busy schedule. (session 2023-06-16)\n- User is planning to co-organize a recreational basketball league at their office, aiming to balance the time commitment with their triathlon training schedule. (session 2023-06-16)\n- User needs to purchase diapers for their niece. (session 2023-07-10)\n- User was instructed to notify both their doctor and pharmacy of their name change in addition to their health insurance provider to ensure accurate prescription records and insurance claim processing. (session 2023-06-17)\n- User is setting up a new Garmin bike computer and was advised to calibrate it via Garmin Express, configure wheel size, enable GPS and GLONASS, and customize data screens for accurate tracking. (session 2023-06-17)\n- User was recommended route planning apps including Ride with GPS, MapMyRide, Strava, and Google Maps to find bike-friendly roads for their 20-mile ride. (session 2023-06-17)\n- User identified that social media, particularly following fashion influencers on Instagram, triggers their desire to splurge on luxury products. (session 2023-05-27)\n- Assistant advised that frequent use of high-alcohol hand sanitizer can strip natural oils, causing dryness or irritation, and recommended using products with added moisturizers or applying hand lotion to mitigate these effects. (session 2023-06-28)\n- User recently got engaged to their partner, Alex. (session 2023-06-17)\n- Assistant explained that while hand sanitizer is convenient, traditional hand washing with soap and water is more effective at removing dirt, grime, and certain bacteria. Hand sanitizer is best used when soap and water are unavailable. (session 2023-06-28)\n- User plans to offer group clinics and online resources to help participants in their office basketball league improve their skills. (session 2023-06-30)\n- User is learning specific glute-integrated exercises, including the split squat, to improve back health and alleviate pain by relying on glute engagement rather than quads. (session 2023-06-28)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 50,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 61.1,
+  "total": 64.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": true
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

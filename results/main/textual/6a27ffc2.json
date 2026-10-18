@@ -1,0 +1,91 @@
+{
+ "qid": "6a27ffc2",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many videos of Corey Schafer's Python programming series have I completed so far?",
+ "reference": "30",
+ "question_date": "2023-06-09 01:44",
+ "sessions": [
+  {
+   "id": "sharegpt_y1IBjYa_0",
+   "date": "2023-04-24 05:03",
+   "evidence": false
+  },
+  {
+   "id": "ae00973d_5",
+   "date": "2023-04-26 23:25",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_169777",
+   "date": "2023-05-08 10:15",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_87812",
+   "date": "2023-05-09 14:23",
+   "evidence": false
+  },
+  {
+   "id": "f684ac4c_3",
+   "date": "2023-05-24 03:05",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_1",
+   "date": "2023-05-24 18:34",
+   "evidence": true
+  },
+  {
+   "id": "6ae451d1_2",
+   "date": "2023-05-24 23:56",
+   "evidence": false
+  },
+  {
+   "id": "answer_77f32504_2",
+   "date": "2023-05-26 00:03",
+   "evidence": true
+  },
+  {
+   "id": "4604bc73_3",
+   "date": "2023-05-26 04:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_505209",
+   "date": "2023-06-03 21:16",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user has a bank account and is concerned about the security of their financial information.\n*   The user is an enthusiast of analog hobbies, specifically film photography, collecting vinyl records, and stamp collecting.\n*   The user owns a 1960s film camera, acquired at an estate sale (as of 2023-04-26).\n*   The user appreciates the tactile nature of their hobbies and is drawn to the nostalgia, history, and aesthetic of the 1960s.\n*   The user admires the work of 1960s photographers Diane Arbus, Lee Friedlander, and Garry Winogrand.\n*   The user is a resident of Maryland (as of 2023-05-08).\n*   The user is an aspiring fantasy author currently working on world-building for a story (as of 2023-05-09).\n*   The user enjoys playing board games with friends and family.\n*   The user is interested in art and design.\n*   The user is actively learning Python programming for text and sentiment analysis projects.\n*   The user is currently using Corey Schafer’s YouTube programming series to learn Python and has completed 30 videos (as of 2023-05-26; previously 20 videos as of 2023-05-24).\n*   The user is a music enthusiast who enjoys attending live concerts, including recent attendance at a Glass Animals show at a local arena (as of 2023-05-24).\n*   The user listens to music regularly during their daily commute.\n*   The user is a fan of musical theater, specifically enjoying the soundtracks of *Hamilton*, *Dear Evan Hansen*, and *The Book of Mormon* during their commute (as of 2023-05-26).\n*   The user is a fan of the television show *Schitt's Creek* (as of 2023-05-26).\n*   The user takes an active interest in environmental issues and sustainability, specifically regarding the aviation industry. They are skeptical of \"band-aid\" solutions and advocate for radical, systemic changes to combat climate change (as of 2023-06-03).\n\n### Preferences and habits\n*   The user is cautious regarding unsolicited phone calls and seeks verification methods to protect themselves from potential scams.\n*   The user prefers the deliberate, intentional process of film photography over digital photography.\n*   The user enjoys developing their own black and white film at home.\n*   The user’s preferred film stock is Ilford HP5 Plus 400 for its versatility.\n*   The user’s photography subjects include portraits of friends and family, street scenes, landscapes, and still life photography featuring their vintage collections (cameras, records, etc.).\n*   The user takes an active interest in public policy, specifically healthcare systems and cost-control models.\n*   The user prefers direct, actionable advice over general or \"obvious\" guidance when seeking creative assistance.\n*   The user is currently looking for shortcuts in the creative process, expressing a desire for the assistant to handle the bulk of their world-building tasks due to time constraints.\n*   The user enjoys social, creative, and puzzle-like board games (e.g., *Dixit*, *Codenames*).\n*   The user is interested in exploring more complex, strategic board games (e.g., *Terraforming Mars*, *7 Wonders*).\n*   The user is interested in using the spaCy library for their NLP and sentiment analysis project.\n*   The user enjoys indie-folk, indie-electronic, and psychedelic rock music.\n*   The user is a fan of artists including Glass Animals, The Weeknd, The Lumineers, and Arlo Parks.\n*   The user prefers Apple Music for their personal music library and playlist curation.\n*   The user is interested in films that explore class struggle and social inequality, such as *Parasite* and *The Square* (as of 2023-05-26).\n\n### Ongoing situations and plans\n*   The user is actively looking for ways to identify and mitigate the risk of fraudulent calls claiming to be from their financial institution.\n*   The user is currently learning and practicing the process of developing black and white film at home.\n*   The user is experimenting with different types of film and techniques to capture a 1960s aesthetic.\n*   The user is in the early stages of developing a fantasy story and is seeking unique magic systems and world-building concepts.\n*   The user plans to introduce the board game *Azul* to their family and friends for game night (as of 2023-05-24).\n*   The user is working on a project involving text analysis and sentiment analysis using Python, with a focus on implementing spaCy.\n*   The user plans to start a DataCamp course on NLP to further their skills (as of 2023-05-26).\n*   The user is setting up a dedicated project environment for NLP, including installing libraries like NLTK, spaCy, gensim, scikit-learn, pandas, and numpy (as of 2023-05-26).\n*   The user plans to start with a simple sentiment analysis project using the IMDB or Amazon reviews datasets (as of 2023-05-26).\n*   The user intends to explore advanced NLP techniques like named entity recognition (NER) and topic modeling after mastering sentiment analysis (as of 2023-05-26).\n*   The user is currently curating a new Apple Music playlist titled \"Winter Vibes,\" focusing on chill electronic, indie-folk, and atmospheric soundscapes.\n*   The user plans to re-watch the film *Parasite* (as of 2023-05-26).\n*   The user is interested in exploring the soundtracks for *In the Heights* and *Dear Evan Hansen* (as of 2023-05-26).\n\n### Changes over time\n*   Python progress: Completed 30 videos of Corey Schafer's series (as of 2023-05-26; previously 20 videos as of 2023-05-24).",
+ "answer": "To determine how many videos of Corey Schafer's Python programming series you have completed, I will follow these steps:\n\n**Step 1: Extract relevant information**\n*   According to the \"Personal facts\" section, the history logs state: \"The user is currently using Corey Schafer’s YouTube programming series to learn Python and has completed 30 videos (as of 2023-05-26; previously 20 videos as of 2023-05-24).\"\n*   The \"Changes over time\" section confirms: \"Python progress: Completed 30 videos of Corey Schafer's series (as of 2023-05-26; previously 20 videos as of 2023-05-24).\"\n\n**Step 2: Reason over the information**\n*   The most recent update regarding your progress in the series was recorded on 2023-05-26, at which point you had completed 30 videos.\n*   There have been no further updates regarding your progress in the series between 2023-05-26 and the current date of 2023-06-09.\n\n**Answer:**\nYou have completed 30 videos of Corey Schafer's Python programming series.",
+ "dump": "### Personal facts\n*   The user has a bank account and is concerned about the security of their financial information.\n*   The user is an enthusiast of analog hobbies, specifically film photography, collecting vinyl records, and stamp collecting.\n*   The user owns a 1960s film camera, acquired at an estate sale (as of 2023-04-26).\n*   The user appreciates the tactile nature of their hobbies and is drawn to the nostalgia, history, and aesthetic of the 1960s.\n*   The user admires the work of 1960s photographers Diane Arbus, Lee Friedlander, and Garry Winogrand.\n*   The user is a resident of Maryland (as of 2023-05-08).\n*   The user is an aspiring fantasy author currently working on world-building for a story (as of 2023-05-09).\n*   The user enjoys playing board games with friends and family.\n*   The user is interested in art and design.\n*   The user is actively learning Python programming for text and sentiment analysis projects.\n*   The user is currently using Corey Schafer’s YouTube programming series to learn Python and has completed 30 videos (as of 2023-05-26; previously 20 videos as of 2023-05-24).\n*   The user is a music enthusiast who enjoys attending live concerts, including recent attendance at a Glass Animals show at a local arena (as of 2023-05-24).\n*   The user listens to music regularly during their daily commute.\n*   The user is a fan of musical theater, specifically enjoying the soundtracks of *Hamilton*, *Dear Evan Hansen*, and *The Book of Mormon* during their commute (as of 2023-05-26).\n*   The user is a fan of the television show *Schitt's Creek* (as of 2023-05-26).\n*   The user takes an active interest in environmental issues and sustainability, specifically regarding the aviation industry. They are skeptical of \"band-aid\" solutions and advocate for radical, systemic changes to combat climate change (as of 2023-06-03).\n\n### Preferences and habits\n*   The user is cautious regarding unsolicited phone calls and seeks verification methods to protect themselves from potential scams.\n*   The user prefers the deliberate, intentional process of film photography over digital photography.\n*   The user enjoys developing their own black and white film at home.\n*   The user’s preferred film stock is Ilford HP5 Plus 400 for its versatility.\n*   The user’s photography subjects include portraits of friends and family, street scenes, landscapes, and still life photography featuring their vintage collections (cameras, records, etc.).\n*   The user takes an active interest in public policy, specifically healthcare systems and cost-control models.\n*   The user prefers direct, actionable advice over general or \"obvious\" guidance when seeking creative assistance.\n*   The user is currently looking for shortcuts in the creative process, expressing a desire for the assistant to handle the bulk of their world-building tasks due to time constraints.\n*   The user enjoys social, creative, and puzzle-like board games (e.g., *Dixit*, *Codenames*).\n*   The user is interested in exploring more complex, strategic board games (e.g., *Terraforming Mars*, *7 Wonders*).\n*   The user is interested in using the spaCy library for their NLP and sentiment analysis project.\n*   The user enjoys indie-folk, indie-electronic, and psychedelic rock music.\n*   The user is a fan of artists including Glass Animals, The Weeknd, The Lumineers, and Arlo Parks.\n*   The user prefers Apple Music for their personal music library and playlist curation.\n*   The user is interested in films that explore class struggle and social inequality, such as *Parasite* and *The Square* (as of 2023-05-26).\n\n### Ongoing situations and plans\n*   The user is actively looking for ways to identify and mitigate the risk of fraudulent calls claiming to be from their financial institution.\n*   The user is currently learning and practicing the process of developing black and white film at home.\n*   The user is experimenting with different types of film and techniques to capture a 1960s aesthetic.\n*   The user is in the early stages of developing a fantasy story and is seeking unique magic systems and world-building concepts.\n*   The user plans to introduce the board game *Azul* to their family and friends for game night (as of 2023-05-24).\n*   The user is working on a project involving text analysis and sentiment analysis using Python, with a focus on implementing spaCy.\n*   The user plans to start a DataCamp course on NLP to further their skills (as of 2023-05-26).\n*   The user is setting up a dedicated project environment for NLP, including installing libraries like NLTK, spaCy, gensim, scikit-learn, pandas, and numpy (as of 2023-05-26).\n*   The user plans to start with a simple sentiment analysis project using the IMDB or Amazon reviews datasets (as of 2023-05-26).\n*   The user intends to explore advanced NLP techniques like named entity recognition (NER) and topic modeling after mastering sentiment analysis (as of 2023-05-26).\n*   The user is currently curating a new Apple Music playlist titled \"Winter Vibes,\" focusing on chill electronic, indie-folk, and atmospheric soundscapes.\n*   The user plans to re-watch the film *Parasite* (as of 2023-05-26).\n*   The user is interested in exploring the soundtracks for *In the Heights* and *Dear Evan Hansen* (as of 2023-05-26).\n\n### Changes over time\n*   Python progress: Completed 30 videos of Corey Schafer's series (as of 2023-05-26; previously 20 videos as of 2023-05-24).",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 23.8,
+  "total": 25.1
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

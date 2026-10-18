@@ -1,0 +1,95 @@
+{
+ "qid": "c6853660",
+ "arm": "textual",
+ "split": "main",
+ "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+ "reference": "You increased the limit (from one cup to two cups)",
+ "question_date": "2023-06-11 21:37",
+ "sessions": [
+  {
+   "id": "answer_626e93c4_1",
+   "date": "2023-05-25 12:35",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_MhyIwuj_11",
+   "date": "2023-05-26 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_626e93c4_2",
+   "date": "2023-05-26 19:25",
+   "evidence": true
+  },
+  {
+   "id": "e9ce6ef0",
+   "date": "2023-05-28 11:33",
+   "evidence": false
+  },
+  {
+   "id": "cf6f69a1",
+   "date": "2023-06-02 09:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vvCtAZS_0",
+   "date": "2023-06-03 05:57",
+   "evidence": false
+  },
+  {
+   "id": "c592e82c_2",
+   "date": "2023-06-03 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_435535",
+   "date": "2023-06-05 21:41",
+   "evidence": false
+  },
+  {
+   "id": "997bf2fb",
+   "date": "2023-06-06 06:06",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84322",
+   "date": "2023-06-09 00:06",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n* The user is currently focused on optimizing their morning routine to be more intentional and efficient.\n* The user works in a field involving property appraisal and is currently developing objective guidelines and checklists to identify \"complex properties\" to justify higher appraisal fees.\n* The user is exploring herbal teas to assist with sleep and relaxation before bed.\n* The user enjoys outdoor travel and hiking; they visited Yellowstone National Park approximately three weeks prior to 2023-05-28.\n* The user is currently planning a road trip to North Cascades National Park in Washington state with friends.\n* The user is planning a trip to Tokyo, Japan, for late November 2023.\n* The user visited New York City for a weekend approximately one month prior to 2023-06-03.\n* The user has a growing interest in cooking, specifically Italian and Korean cuisines.\n* The user recently dined at a restaurant called \"Bella Vita\" (visited the weekend of 2023-05-27/28).\n* The user is interested in the design and functionality of comprehensive leave management systems, likely for professional or organizational application.\n* The user has an intellectual interest in psychology, specifically the history and evolution of psychoanalytic theory, and is interested in its potential application to social justice and organizational contexts.\n* The user is a meticulous movie enthusiast who tracks their viewing habits.\n* In the three months leading up to 2023-06-06, the user watched 12 movies, totaling 43 hours and 12 minutes of viewing time.\n* The user has a strong interest in the Marvel Cinematic Universe (MCU), having recently watched the *Iron Man* series and *Spider-Man: Homecoming* and *Far From Home*.\n* The user enjoys nostalgic, classic films from their childhood, specifically mentioning *The Lion King* and *Back to the Future*.\n* The user is currently evaluating their investment strategy and is interested in portfolio diversification to mitigate risks associated with global economic uncertainty (as of 2023-06-09).\n\n### Preferences and habits\n* **Coffee:**\n    * Currently drinks two cups of coffee in the morning (since 2023-05-26; previously one cup).\n    * Prefers darker roasts (since 2023-05-25).\n    * Currently uses a French press for brewing (adopted 2023-05-26) and is experimenting with using it to create a strong coffee concentrate for lattes.\n    * Dislikes the aftertaste of stevia as a sweetener, though is open to experimenting with other sweeteners like honey, monk fruit, erythritol, coconut sugar, or yacon syrup.\n* **Morning Routine:**\n    * Actively trying to avoid \"mindless scrolling\" on their phone in the morning.\n    * Prefers to spend morning time reading, checking emails, or sitting outside.\n    * Prone to getting distracted by YouTube rabbit holes (e.g., lost 20 minutes on 2023-05-24).\n* **Professional Workflow:**\n    * Prefers structured, objective, and checklist-based approaches to professional tasks.\n    * Values the ability to present complex information in organized formats, such as tables.\n    * Shows a high interest in detailed, comprehensive system architecture and process documentation.\n* **Travel/Outdoor:**\n    * Enjoys scenic hiking and mountain landscapes.\n    * Prefers to travel with friends and is researching group accommodations (specifically interested in Ross Lake Resort).\n    * Conscious of gear maintenance; currently evaluating whether to repair or replace hiking boots that showed wear during a trip to Yellowstone three weeks prior to 2023-05-28.\n    * Interested in visiting Shinjuku, Tokyo, but prefers quieter, more residential areas or locations near green spaces (like Shinjuku Gyoen) to mitigate noise concerns.\n* **Culinary Interests:**\n    * Interested in learning to cook authentic Italian dishes, specifically homemade pasta from scratch and Spaghetti Carbonara.\n    * Interested in learning to cook Korean dishes, specifically Japchae and homemade Kimchi.\n    * Interested in trying authentic Japanese cuisine and seasonal \"wagashi\" (traditional sweets) during their upcoming Tokyo trip.\n* **Intellectual Interests:**\n    * Values the accessibility of psychological theory and hopes to see the field become more inclusive and less elitist.\n* **Entertainment:**\n    * Enjoys sci-fi, particularly time-travel themes.\n    * Enjoys re-watching childhood favorites.\n    * Actively tracks movie consumption metrics (time spent and total count).\n* **Financial/Investment:**\n    * Interested in long-term investment strategies and portfolio diversification across asset classes (stocks, bonds, real estate, commodities) and geographic regions.\n\n### Ongoing situations and plans\n* **Coffee Equipment:**\n    * Planning to potentially purchase a new drip coffee maker (considering models like the Bonavita BV1900TS, Technivorm Moccamaster 59614, Cuisinart DCC-3200, or Breville BDC600).\n    * Planning to purchase a milk frother to improve their latte-making (considering the Nespresso Aeroccino, Breville Milk Cafe, KitchenAid KCM0401OB, or Aerolatte).\n* **Routine Management:**\n    * Interested in strategies to maintain focus, such as setting timers for specific tasks or creating a \"no phone zone\" during the morning.\n    * Incorporating a wind-down routine involving caffeine-free herbal tea (e.g., chamomile, lavender, valerian root, or others) to improve sleep quality.\n* **Professional Development:**\n    * Currently building a formal system for their appraisal business to categorize property complexity, which includes a scoring system and a standardized checklist (Location, Property type/design, Age/condition, Zoning/land use, and Market conditions).\n    * Researching the components of a comprehensive leave management system (e.g., accrual calculations, approval workflows, integration with payroll/HR systems, and self-service portals).\n* **Travel Planning:**\n    * Planning a road trip to North Cascades National Park.\n    * Evaluating hiking gear (boots) for the upcoming trip.\n    * Considering group lodging options at Ross Lake Resort.\n    * Planning the Tokyo trip for late November 2023; intends to visit Shinjuku Gyoen National Garden to view autumn foliage (specifically Maple Tree Hill, Zelkova Tree Avenue, and Ginkgo Tree Forest).\n* **Cooking Projects:**\n    * Planning to start making homemade pasta (researching \"00\" flour, digital scales, and pasta machines like Atlas or Marcato).\n    * Planning to attempt making Spaghetti Carbonara (using guanciale/pancetta, eggs, and cheese, avoiding cream).\n    * Planning to attempt making Japchae (using sweet potato starch noodles/dangmyeon).\n    * Planning to attempt making Kimchi (researching fermentation techniques and ingredients like gochugaru and Korean salt).\n* **Entertainment Plans:**\n    * Planning a movie marathon with family for the upcoming long weekend.\n    * Intends to re-watch *Back to the Future* and *The Lion King*.\n* **Financial Planning:**\n    * Considering consulting with a financial advisor to refine their investment portfolio in light of global economic risks.\n\n### Changes over time\n* **Coffee consumption:** Increased to two cups per morning (since 2023-05-26; previously one cup since 2023-05-25).\n* **Coffee brewing method:** Switched to French press for morning coffee (since 2023-05-26; previously used a drip coffee maker).\n* **Coffee roast:** Switched to darker roasts (since 2023-05-25).",
+ "answer": "Answer (step by step):\n\n1.  **Extract relevant information:**\n    *   Under \"Coffee\" preferences: \"Currently drinks two cups of coffee in the morning (since 2023-05-26; previously one cup).\"\n    *   Under \"Changes over time\": \"Coffee consumption: Increased to two cups per morning (since 2023-05-26; previously one cup since 2023-05-25).\"\n\n2.  **Reason over the information:**\n    *   The user previously drank one cup of coffee in the morning.\n    *   As of May 26, 2023, the user increased their consumption to two cups per morning.\n    *   There is no record of any subsequent change to this limit between May 26, 2023, and the current date of June 11, 2023.\n\n3.  **Conclusion:**\n    *   You most recently **increased** the limit on the number of cups of coffee in the morning (from one cup to two).",
+ "dump": "### Personal facts\n* The user is currently focused on optimizing their morning routine to be more intentional and efficient.\n* The user works in a field involving property appraisal and is currently developing objective guidelines and checklists to identify \"complex properties\" to justify higher appraisal fees.\n* The user is exploring herbal teas to assist with sleep and relaxation before bed.\n* The user enjoys outdoor travel and hiking; they visited Yellowstone National Park approximately three weeks prior to 2023-05-28.\n* The user is currently planning a road trip to North Cascades National Park in Washington state with friends.\n* The user is planning a trip to Tokyo, Japan, for late November 2023.\n* The user visited New York City for a weekend approximately one month prior to 2023-06-03.\n* The user has a growing interest in cooking, specifically Italian and Korean cuisines.\n* The user recently dined at a restaurant called \"Bella Vita\" (visited the weekend of 2023-05-27/28).\n* The user is interested in the design and functionality of comprehensive leave management systems, likely for professional or organizational application.\n* The user has an intellectual interest in psychology, specifically the history and evolution of psychoanalytic theory, and is interested in its potential application to social justice and organizational contexts.\n* The user is a meticulous movie enthusiast who tracks their viewing habits.\n* In the three months leading up to 2023-06-06, the user watched 12 movies, totaling 43 hours and 12 minutes of viewing time.\n* The user has a strong interest in the Marvel Cinematic Universe (MCU), having recently watched the *Iron Man* series and *Spider-Man: Homecoming* and *Far From Home*.\n* The user enjoys nostalgic, classic films from their childhood, specifically mentioning *The Lion King* and *Back to the Future*.\n* The user is currently evaluating their investment strategy and is interested in portfolio diversification to mitigate risks associated with global economic uncertainty (as of 2023-06-09).\n\n### Preferences and habits\n* **Coffee:**\n    * Currently drinks two cups of coffee in the morning (since 2023-05-26; previously one cup).\n    * Prefers darker roasts (since 2023-05-25).\n    * Currently uses a French press for brewing (adopted 2023-05-26) and is experimenting with using it to create a strong coffee concentrate for lattes.\n    * Dislikes the aftertaste of stevia as a sweetener, though is open to experimenting with other sweeteners like honey, monk fruit, erythritol, coconut sugar, or yacon syrup.\n* **Morning Routine:**\n    * Actively trying to avoid \"mindless scrolling\" on their phone in the morning.\n    * Prefers to spend morning time reading, checking emails, or sitting outside.\n    * Prone to getting distracted by YouTube rabbit holes (e.g., lost 20 minutes on 2023-05-24).\n* **Professional Workflow:**\n    * Prefers structured, objective, and checklist-based approaches to professional tasks.\n    * Values the ability to present complex information in organized formats, such as tables.\n    * Shows a high interest in detailed, comprehensive system architecture and process documentation.\n* **Travel/Outdoor:**\n    * Enjoys scenic hiking and mountain landscapes.\n    * Prefers to travel with friends and is researching group accommodations (specifically interested in Ross Lake Resort).\n    * Conscious of gear maintenance; currently evaluating whether to repair or replace hiking boots that showed wear during a trip to Yellowstone three weeks prior to 2023-05-28.\n    * Interested in visiting Shinjuku, Tokyo, but prefers quieter, more residential areas or locations near green spaces (like Shinjuku Gyoen) to mitigate noise concerns.\n* **Culinary Interests:**\n    * Interested in learning to cook authentic Italian dishes, specifically homemade pasta from scratch and Spaghetti Carbonara.\n    * Interested in learning to cook Korean dishes, specifically Japchae and homemade Kimchi.\n    * Interested in trying authentic Japanese cuisine and seasonal \"wagashi\" (traditional sweets) during their upcoming Tokyo trip.\n* **Intellectual Interests:**\n    * Values the accessibility of psychological theory and hopes to see the field become more inclusive and less elitist.\n* **Entertainment:**\n    * Enjoys sci-fi, particularly time-travel themes.\n    * Enjoys re-watching childhood favorites.\n    * Actively tracks movie consumption metrics (time spent and total count).\n* **Financial/Investment:**\n    * Interested in long-term investment strategies and portfolio diversification across asset classes (stocks, bonds, real estate, commodities) and geographic regions.\n\n### Ongoing situations and plans\n* **Coffee Equipment:**\n    * Planning to potentially purchase a new drip coffee maker (considering models like the Bonavita BV1900TS, Technivorm Moccamaster 59614, Cuisinart DCC-3200, or Breville BDC600).\n    * Planning to purchase a milk frother to improve their latte-making (considering the Nespresso Aeroccino, Breville Milk Cafe, KitchenAid KCM0401OB, or Aerolatte).\n* **Routine Management:**\n    * Interested in strategies to maintain focus, such as setting timers for specific tasks or creating a \"no phone zone\" during the morning.\n    * Incorporating a wind-down routine involving caffeine-free herbal tea (e.g., chamomile, lavender, valerian root, or others) to improve sleep quality.\n* **Professional Development:**\n    * Currently building a formal system for their appraisal business to categorize property complexity, which includes a scoring system and a standardized checklist (Location, Property type/design, Age/condition, Zoning/land use, and Market conditions).\n    * Researching the components of a comprehensive leave management system (e.g., accrual calculations, approval workflows, integration with payroll/HR systems, and self-service portals).\n* **Travel Planning:**\n    * Planning a road trip to North Cascades National Park.\n    * Evaluating hiking gear (boots) for the upcoming trip.\n    * Considering group lodging options at Ross Lake Resort.\n    * Planning the Tokyo trip for late November 2023; intends to visit Shinjuku Gyoen National Garden to view autumn foliage (specifically Maple Tree Hill, Zelkova Tree Avenue, and Ginkgo Tree Forest).\n* **Cooking Projects:**\n    * Planning to start making homemade pasta (researching \"00\" flour, digital scales, and pasta machines like Atlas or Marcato).\n    * Planning to attempt making Spaghetti Carbonara (using guanciale/pancetta, eggs, and cheese, avoiding cream).\n    * Planning to attempt making Japchae (using sweet potato starch noodles/dangmyeon).\n    * Planning to attempt making Kimchi (researching fermentation techniques and ingredients like gochugaru and Korean salt).\n* **Entertainment Plans:**\n    * Planning a movie marathon with family for the upcoming long weekend.\n    * Intends to re-watch *Back to the Future* and *The Lion King*.\n* **Financial Planning:**\n    * Considering consulting with a financial advisor to refine their investment portfolio in light of global economic risks.\n\n### Changes over time\n* **Coffee consumption:** Increased to two cups per morning (since 2023-05-26; previously one cup since 2023-05-25).\n* **Coffee brewing method:** Switched to French press for morning coffee (since 2023-05-26; previously used a drip coffee maker).\n* **Coffee roast:** Switched to darker roasts (since 2023-05-25).",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 31.5,
+  "total": 32.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

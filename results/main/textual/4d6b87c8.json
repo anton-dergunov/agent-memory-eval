@@ -1,0 +1,95 @@
+{
+ "qid": "4d6b87c8",
+ "arm": "textual",
+ "split": "main",
+ "question": "How many titles are currently on my to-watch list?",
+ "reference": "25",
+ "question_date": "2023-06-03 15:47",
+ "sessions": [
+  {
+   "id": "ultrachat_121715",
+   "date": "2023-05-01 21:59",
+   "evidence": false
+  },
+  {
+   "id": "5fc83435_1",
+   "date": "2023-05-15 20:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_mmYyki5_0",
+   "date": "2023-05-17 11:19",
+   "evidence": false
+  },
+  {
+   "id": "d87e86f6_1",
+   "date": "2023-05-17 22:04",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_1",
+   "date": "2023-05-20 10:19",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_cu7TYt7_57",
+   "date": "2023-05-20 17:03",
+   "evidence": false
+  },
+  {
+   "id": "85da7827",
+   "date": "2023-05-21 06:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_766ab8da_2",
+   "date": "2023-05-22 03:27",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_361817",
+   "date": "2023-05-22 08:42",
+   "evidence": false
+  },
+  {
+   "id": "5c85023a_1",
+   "date": "2023-05-29 06:30",
+   "evidence": false
+  }
+ ],
+ "context": "### Personal facts\n*   The user is a gamer who plays FPS (First-Person Shooter) games.\n*   The user attends dance classes on Saturday afternoons.\n*   The user commutes to their dance studio by bike.\n*   The user is interested in learning about algorithmic/bot trading for cryptocurrency, specifically Bitcoin.\n*   The user has a growing interest in the history of cryptography, including cipher machines like the Enigma and the strategic use of language-based codes (e.g., Native American code talkers).\n*   The user lives in or near the Los Angeles area.\n*   The user has a coworker named Rachel.\n*   The user is a fan of indie and alternative music, specifically Phoebe Bridgers.\n*   The user has attended live concerts at the Greek Theatre, the Los Angeles Forum, the Troubadour, and has seen Billie Eilish live.\n*   The user has attended the Outside Lands music festival in San Francisco.\n*   The user is a craft entrepreneur who makes handmade jewelry and candles.\n*   The user is preparing to participate in the upcoming Summer Solstice Night Market.\n*   The user has a \"to-watch\" list for television and film that currently contains 25 titles (as of 2023-05-22).\n*   The user experiences muscle tension and is currently struggling with sleep quality and a habit of using their phone before bed.\n*   The user is interested in travel and is currently researching tour operators for a potential trip to Antarctica.\n*   The user is actively researching climate change, specifically its impact on the Antarctic region, including ice shelves and glaciers.\n\n### Preferences and habits\n*   The user prioritizes precision and customizability in gaming hardware.\n*   The user is concerned about ergonomics and comfort during extended gaming sessions.\n*   The user is currently researching gaming mice and is leaning toward the Logitech G502 HERO.\n*   The user values high-security equipment for their bike, prioritizing theft prevention.\n*   The user prefers high-security U-locks with 18mm shackles.\n*   The user prefers structured, step-by-step learning paths.\n*   The user enjoys attending live music performances and is interested in exploring the indie and alternative music scene in Los Angeles.\n*   The user enjoys complex, atmospheric television shows that balance character development with plot progression.\n*   The user prefers horror series that focus on psychological tension and storytelling rather than jump scares.\n*   The user values aesthetic presentation for their craft business, including the use of natural elements like fresh flowers and herbal scents.\n*   The user is interested in marketing strategies for craft markets, including bundle pricing and social media-driven promotions.\n*   The user has a strong interest in historical dramas, particularly those focusing on royal figures, ordinary people in significant historical events, and themes of social justice and human rights.\n*   The user is open to trying relaxation techniques, including warm baths, gentle stretching, and breathing exercises (specifically the 4-7-8 technique).\n*   The user consumes high-quality media regarding science and nature, such as *National Geographic* and *The New Yorker*.\n\n### Ongoing situations and plans\n*   The user is in the process of selecting a new gaming mouse and intends to research the product lines of various brands (Razer, Logitech, Corsair, SteelSeries, ROCCAT, HyperX, ASUS, and Finalmouse).\n*   The user is researching bike security and has decided to purchase an Abus Granit X 540 U-lock.\n*   The user is actively learning about bot trading, having completed a 10-week curriculum.\n*   The user is exploring practical implementation of trading bots, specifically using the `ccxt` library for Bitcoin trading.\n*   The user plans to explore more indie and alternative music venues and festivals in the Los Angeles area.\n*   The user has started watching \"The Haunting of Hill House,\" planning to watch one or two episodes per week.\n*   The user has a long-term watchlist including \"Victoria,\" \"The Last Kingdom,\" \"Amistad,\" \"Hotel Rwanda,\" \"Poldark,\" \"Outlander,\" \"Medici: Masters of Florence,\" \"The White Queen,\" and \"The OA.\"\n*   The user is planning their stall display for the Summer Solstice Night Market.\n*   The user is sourcing high-quality herbal essential oils for their candle-making.\n*   The user is evaluating promotional strategies for the market, specifically considering a \"Summer Solstice Bundle.\"\n*   The user is working with the assistant to categorize and organize their 25-title \"to-watch\" list.\n*   The user is attempting to improve their sleep hygiene by implementing a wind-down routine, practicing 4-7-8 breathing, and working on breaking the habit of using their phone before bed.\n*   The user is researching Antarctic travel, specifically looking for IAATO-member tour operators.\n*   The user is studying the environmental impacts of climate change on Antarctica, specifically the stability of the Larsen C ice shelf and the Bawden Glacier.\n\n### Changes over time\n*   The user's \"to-watch\" list size increased from 20 to 25 titles as of 2023-05-22.\n*   The user clarified their reading habits regarding *The New Yorker*; they read an article on Tuesday, March 21st, 2023 (not March 15th as previously thought).",
+ "answer": "To determine the number of titles currently on your to-watch list, I will follow these steps:\n\n**Step 1: Extract relevant information**\n*   Under the \"Personal facts\" section, it is stated: \"The user has a 'to-watch' list for television and film that currently contains 25 titles (as of 2023-05-22).\"\n*   Under the \"Changes over time\" section, it is confirmed: \"The user's 'to-watch' list size increased from 20 to 25 titles as of 2023-05-22.\"\n*   The current date is 2023/06/03.\n\n**Step 2: Reason over the information**\n*   The most recent update regarding the size of your to-watch list indicates it reached 25 titles on May 22, 2023.\n*   There is no information provided in the \"Ongoing situations and plans\" or \"Changes over time\" sections indicating that any titles have been added or removed since that date.\n*   Therefore, the count remains at the last recorded figure.\n\n**Answer:**\nThere are currently 25 titles on your to-watch list.",
+ "dump": "### Personal facts\n*   The user is a gamer who plays FPS (First-Person Shooter) games.\n*   The user attends dance classes on Saturday afternoons.\n*   The user commutes to their dance studio by bike.\n*   The user is interested in learning about algorithmic/bot trading for cryptocurrency, specifically Bitcoin.\n*   The user has a growing interest in the history of cryptography, including cipher machines like the Enigma and the strategic use of language-based codes (e.g., Native American code talkers).\n*   The user lives in or near the Los Angeles area.\n*   The user has a coworker named Rachel.\n*   The user is a fan of indie and alternative music, specifically Phoebe Bridgers.\n*   The user has attended live concerts at the Greek Theatre, the Los Angeles Forum, the Troubadour, and has seen Billie Eilish live.\n*   The user has attended the Outside Lands music festival in San Francisco.\n*   The user is a craft entrepreneur who makes handmade jewelry and candles.\n*   The user is preparing to participate in the upcoming Summer Solstice Night Market.\n*   The user has a \"to-watch\" list for television and film that currently contains 25 titles (as of 2023-05-22).\n*   The user experiences muscle tension and is currently struggling with sleep quality and a habit of using their phone before bed.\n*   The user is interested in travel and is currently researching tour operators for a potential trip to Antarctica.\n*   The user is actively researching climate change, specifically its impact on the Antarctic region, including ice shelves and glaciers.\n\n### Preferences and habits\n*   The user prioritizes precision and customizability in gaming hardware.\n*   The user is concerned about ergonomics and comfort during extended gaming sessions.\n*   The user is currently researching gaming mice and is leaning toward the Logitech G502 HERO.\n*   The user values high-security equipment for their bike, prioritizing theft prevention.\n*   The user prefers high-security U-locks with 18mm shackles.\n*   The user prefers structured, step-by-step learning paths.\n*   The user enjoys attending live music performances and is interested in exploring the indie and alternative music scene in Los Angeles.\n*   The user enjoys complex, atmospheric television shows that balance character development with plot progression.\n*   The user prefers horror series that focus on psychological tension and storytelling rather than jump scares.\n*   The user values aesthetic presentation for their craft business, including the use of natural elements like fresh flowers and herbal scents.\n*   The user is interested in marketing strategies for craft markets, including bundle pricing and social media-driven promotions.\n*   The user has a strong interest in historical dramas, particularly those focusing on royal figures, ordinary people in significant historical events, and themes of social justice and human rights.\n*   The user is open to trying relaxation techniques, including warm baths, gentle stretching, and breathing exercises (specifically the 4-7-8 technique).\n*   The user consumes high-quality media regarding science and nature, such as *National Geographic* and *The New Yorker*.\n\n### Ongoing situations and plans\n*   The user is in the process of selecting a new gaming mouse and intends to research the product lines of various brands (Razer, Logitech, Corsair, SteelSeries, ROCCAT, HyperX, ASUS, and Finalmouse).\n*   The user is researching bike security and has decided to purchase an Abus Granit X 540 U-lock.\n*   The user is actively learning about bot trading, having completed a 10-week curriculum.\n*   The user is exploring practical implementation of trading bots, specifically using the `ccxt` library for Bitcoin trading.\n*   The user plans to explore more indie and alternative music venues and festivals in the Los Angeles area.\n*   The user has started watching \"The Haunting of Hill House,\" planning to watch one or two episodes per week.\n*   The user has a long-term watchlist including \"Victoria,\" \"The Last Kingdom,\" \"Amistad,\" \"Hotel Rwanda,\" \"Poldark,\" \"Outlander,\" \"Medici: Masters of Florence,\" \"The White Queen,\" and \"The OA.\"\n*   The user is planning their stall display for the Summer Solstice Night Market.\n*   The user is sourcing high-quality herbal essential oils for their candle-making.\n*   The user is evaluating promotional strategies for the market, specifically considering a \"Summer Solstice Bundle.\"\n*   The user is working with the assistant to categorize and organize their 25-title \"to-watch\" list.\n*   The user is attempting to improve their sleep hygiene by implementing a wind-down routine, practicing 4-7-8 breathing, and working on breaking the habit of using their phone before bed.\n*   The user is researching Antarctic travel, specifically looking for IAATO-member tour operators.\n*   The user is studying the environmental impacts of climate change on Antarctica, specifically the stability of the Larsen C ice shelf and the Bawden Glacier.\n\n### Changes over time\n*   The user's \"to-watch\" list size increased from 20 to 25 titles as of 2023-05-22.\n*   The user clarified their reading habits regarding *The New Yorker*; they read an article on Tuesday, March 21st, 2023 (not March 15th as previously thought).",
+ "extra": {},
+ "settings": {
+  "cap_words": 3000,
+  "rewrite": "whole profile after each session"
+ },
+ "seconds": {
+  "write": 23.8,
+  "total": 25.0
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": true
+ },
+ "probe": {
+  "stored": {
+   "new_present": true,
+   "old_present": true,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": true,
+   "old_present": true
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": true
+  }
+ }
+}

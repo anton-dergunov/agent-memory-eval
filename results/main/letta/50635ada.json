@@ -1,0 +1,117 @@
+{
+ "qid": "50635ada",
+ "arm": "letta",
+ "split": "main",
+ "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+ "reference": "Premier Silver",
+ "question_date": "2023-06-29 04:09",
+ "sessions": [
+  {
+   "id": "ultrachat_363516",
+   "date": "2022-09-01 15:26",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_49611",
+   "date": "2022-09-03 01:21",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_512425",
+   "date": "2022-09-06 09:05",
+   "evidence": false
+  },
+  {
+   "id": "dcbd175f_2",
+   "date": "2022-09-10 04:58",
+   "evidence": false
+  },
+  {
+   "id": "answer_dcd74827_1",
+   "date": "2022-09-16 17:22",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_234704",
+   "date": "2022-10-27 12:43",
+   "evidence": false
+  },
+  {
+   "id": "42bcee92_2",
+   "date": "2022-11-09 21:26",
+   "evidence": false
+  },
+  {
+   "id": "2e53911b_1",
+   "date": "2023-02-03 04:40",
+   "evidence": false
+  },
+  {
+   "id": "b6f35f3a_1",
+   "date": "2023-04-20 05:37",
+   "evidence": false
+  },
+  {
+   "id": "answer_dcd74827_2",
+   "date": "2023-05-30 08:58",
+   "evidence": true
+  }
+ ],
+ "context": "<human>\n\nThe user is interested in agriculture, specifically in technologies that help small-scale, rural farmers and the initiatives that make those technologies accessible.\nThe user is interested in the challenges faced by the Maasai in preserving their traditional crafts and the transmission of this knowledge to future generations.\nThe user has goats named Luna and Leo.\nThe user's veterinarian is Dr. Thompson.\nThe user rotates their goat pasture weekly to provide fresh grass and water.\nThe user owns a horse named Comet.\nThe user has reached 20,000 miles on United Airlines and is now eligible for Premier Gold status.\nThe user is planning another visit to Disneyland and is interested in recommendations for must-try attractions or experiences.\nThe user is planning a trip to Croatia and is considering visiting Dubrovnik and Plitvice Lakes National Park.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 4 results:', 'results': [{'timestamp': '2026-10-18T03:23:59.381900+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-29 04:09] What was my previous frequent flyer status on United Airlines before I got the current status?'}, {'timestamp': '2026-10-18T03:23:29.853674+00:00', 'time_ago': '32s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 08:58] I'm flying from DC, and I'm flexible with my travel dates. I'm looking for Economy tickets and my budget is around $400. Oh, and I do have a United Airlines MileagePlus account - I just reached Premier Gold status.\"}, {'timestamp': '2026-10-18T03:23:20.735215+00:00', 'time_ago': '41s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': \"[2023-05-30 08:58] I'm planning a trip to San Francisco in a few weeks and I'm considering flying with United Airlines. Can you help me find the best deals on round-trip tickets?\"}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}",
+ "answer": "I've searched our conversation history, but I don't see a mention of your specific status prior to reaching Premier Gold. You mentioned reaching Premier Gold recently, but we haven't discussed what you held before that. \n\nDo you remember if you were Silver status, or perhaps just a general MileagePlus member? If you recall, I'd be happy to note it in your profile for you!",
+ "dump": "<human>\n\nThe user is interested in agriculture, specifically in technologies that help small-scale, rural farmers and the initiatives that make those technologies accessible.\nThe user is interested in the challenges faced by the Maasai in preserving their traditional crafts and the transmission of this knowledge to future generations.\nThe user has goats named Luna and Leo.\nThe user's veterinarian is Dr. Thompson.\nThe user rotates their goat pasture weekly to provide fresh grass and water.\nThe user owns a horse named Comet.\nThe user has reached 20,000 miles on United Airlines and is now eligible for Premier Gold status.\nThe user is planning another visit to Disneyland and is interested in recommendations for must-try attractions or experiences.\nThe user is planning a trip to Croatia and is considering visiting Dubrovnik and Plitvice Lakes National Park.\n</human>\n\n<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"United Airlines status frequent flyer\"})",
+   "conversation_search({\"query\": \"United Airlines\"})",
+   "conversation_search({\"query\": \"United Airlines status before\"})",
+   "conversation_search({\"query\": \"20,000 miles\"})"
+  ],
+  "blocks_chars": 1055,
+  "write_steps": 56,
+  "write_tool_calls": [
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "conversation_search",
+   "memory_insert",
+   "conversation_search",
+   "memory_replace"
+  ]
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, one agent step per user message",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 378.9,
+  "total": 390.2
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

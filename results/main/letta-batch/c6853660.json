@@ -1,0 +1,113 @@
+{
+ "qid": "c6853660",
+ "arm": "letta-batch",
+ "split": "main",
+ "question": "Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?",
+ "reference": "You increased the limit (from one cup to two cups)",
+ "question_date": "2023-06-11 21:37",
+ "sessions": [
+  {
+   "id": "answer_626e93c4_1",
+   "date": "2023-05-25 12:35",
+   "evidence": true
+  },
+  {
+   "id": "sharegpt_MhyIwuj_11",
+   "date": "2023-05-26 10:35",
+   "evidence": false
+  },
+  {
+   "id": "answer_626e93c4_2",
+   "date": "2023-05-26 19:25",
+   "evidence": true
+  },
+  {
+   "id": "e9ce6ef0",
+   "date": "2023-05-28 11:33",
+   "evidence": false
+  },
+  {
+   "id": "cf6f69a1",
+   "date": "2023-06-02 09:14",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_vvCtAZS_0",
+   "date": "2023-06-03 05:57",
+   "evidence": false
+  },
+  {
+   "id": "c592e82c_2",
+   "date": "2023-06-03 14:33",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_435535",
+   "date": "2023-06-05 21:41",
+   "evidence": false
+  },
+  {
+   "id": "997bf2fb",
+   "date": "2023-06-06 06:06",
+   "evidence": false
+  },
+  {
+   "id": "ultrachat_84322",
+   "date": "2023-06-09 00:06",
+   "evidence": false
+  }
+ ],
+ "context": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n- Morning coffee limit: 2 cups.\n- Interested in French press brewing for dark roasts and latte concentrate.\n- Open to trying various sweeteners for coffee (e.g., honey, stevia, monk fruit).\n- Interested in calming herbal teas for nighttime (e.g., chamomile, lavender, valerian root).\n</human>\n\nTool results while answering:\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-17T15:41:34.032783+00:00', 'time_ago': '2s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-11 21:37] Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?'}]}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-17T15:41:34.032783+00:00', 'time_ago': '3s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-11 21:37] Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?'}]}\n{'message': 'No results found.', 'results': []}\n{'message': 'No results found.', 'results': []}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-17T15:41:34.032783+00:00', 'time_ago': '7s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-11 21:37] Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?'}]}\n{'message': 'Showing 1 results:', 'results': [{'timestamp': '2026-10-17T15:41:34.032783+00:00', 'time_ago': '8s ago', 'role': 'user', 'relevance': {'search_mode': 'sql'}, 'content': '[2023-06-11 21:37] Did I mostly recently increase or decrease the limit on the number of cups of coffee in the morning?'}]}",
+ "answer": "It looks like I don't have enough specific history in our current conversation log to track the exact timing of changes to your morning coffee limit, even though the current memory reflects a limit of two cups. \n\nSince I'm unable to retrieve the record of that previous adjustment from our conversation history, I can't confirm if you recently increased or decreased it. If you remember mentioning a previous limit (like one cup or three cups), I might be able to piece it together!",
+ "dump": "<persona>\nThe following is a blank slate starter persona, I need to expand this to develop my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.\n</persona>\n\n<human>\n\n- Morning coffee limit: 2 cups.\n- Interested in French press brewing for dark roasts and latte concentrate.\n- Open to trying various sweeteners for coffee (e.g., honey, stevia, monk fruit).\n- Interested in calming herbal teas for nighttime (e.g., chamomile, lavender, valerian root).\n</human>",
+ "extra": {
+  "tool_calls": [
+   "conversation_search({\"query\": \"limit coffee morning\"})",
+   "conversation_search({\"query\": \"coffee\"})",
+   "conversation_search({\"query\": \"cups of coffee\", \"start_date\": \"2023-01-01\"})",
+   "conversation_search({\"query\": \"morning coffee limit\", \"start_date\": \"2023-01-01\"})",
+   "conversation_search({\"query\": \"coffee limit\", \"start_date\": \"2023-01-01\"})",
+   "conversation_search({\"query\": \"cups\", \"start_date\": \"2023-01-01\"})",
+   "conversation_search({\"query\": \"coffee\", \"start_date\": \"2023-01-01\"})"
+  ],
+  "blocks_chars": 483
+ },
+ "settings": {
+  "server": "letta 0.16.8",
+  "client": "letta-client 1.11.0",
+  "agent_type": "letta_v1_agent (default)",
+  "context_window": 128000,
+  "blocks": "persona=memgpt_starter, human=empty",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "sessions": "one conversation per session, messages sent in one request",
+  "dates": "prefixed to each message"
+ },
+ "seconds": {
+  "write": 31.1,
+  "total": 43.7
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": false
+ },
+ "judge_check": {
+  "model": "gemini-3.8-flash",
+  "correct": false
+ },
+ "probe": {
+  "stored": {
+   "new_present": false,
+   "old_present": false,
+   "old_as_current": false
+  },
+  "delivered": {
+   "new_present": false,
+   "old_present": false
+  },
+  "stale": {
+   "gave_old": false,
+   "gave_new": false
+  }
+ }
+}

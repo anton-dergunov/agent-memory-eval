@@ -1,0 +1,84 @@
+{
+ "qid": "9bbe84a2",
+ "arm": "honcho-repr",
+ "split": "main",
+ "question": "What was my previous goal for my Apex Legends level before I updated my goal?",
+ "reference": "level 100",
+ "question_date": "2023-10-08 15:29",
+ "sessions": [
+  {
+   "id": "d3941533_1",
+   "date": "2023-05-27 10:29",
+   "evidence": false
+  },
+  {
+   "id": "answer_c6a0c6c2_1",
+   "date": "2023-06-16 04:38",
+   "evidence": true
+  },
+  {
+   "id": "ultrachat_200580",
+   "date": "2023-07-05 14:57",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_pvqY6bN_13",
+   "date": "2023-07-30 15:46",
+   "evidence": false
+  },
+  {
+   "id": "answer_c6a0c6c2_2",
+   "date": "2023-09-30 12:45",
+   "evidence": true
+  },
+  {
+   "id": "cd81a69b",
+   "date": "2023-10-01 16:48",
+   "evidence": false
+  },
+  {
+   "id": "1b26bdd5_6",
+   "date": "2023-10-01 20:22",
+   "evidence": false
+  },
+  {
+   "id": "e697b2dd_3",
+   "date": "2023-10-02 07:10",
+   "evidence": false
+  },
+  {
+   "id": "ff0bb7fd_2",
+   "date": "2023-10-03 22:25",
+   "evidence": false
+  },
+  {
+   "id": "92b1f663_2",
+   "date": "2023-10-06 08:47",
+   "evidence": false
+  }
+ ],
+ "context": "## Explicit Observations\n\n[2023-06-16 04:40:00] user plays the game Apex Legends.\n[2023-06-16 04:40:00] user has a goal to reach level 100 in Apex Legends before the end of 2023.\n[2023-06-16 04:48:00] user plays Apex Legends competitively.\n[2023-06-16 04:48:00] user wants to improve their aim in Apex Legends.\n[2023-09-30 12:49:00] user has a goal to eventually reach level 150 in Apex Legends.\n[2023-09-30 12:49:00] user intends to play Apex Legends for fun rather than focusing on leveling up this weekend.\n[2023-09-30 12:51:00] user is considering focusing on completing daily and weekly challenges to earn experience points and level up faster in Apex Legends\n[2023-09-30 12:53:00] user has a goal to reach level 150.\n[2023-10-03 22:35:00] user experiences negative self-talk related to their writing.\n[2023-10-06 08:51:00] user has a favorite moisturizer.\n[2023-10-06 08:51:00] user has a $10 credit at Ulta equivalent to the 500 points earned.\n[2023-10-06 08:51:00] user has a favorite facial cleanser.\n[2023-10-06 08:51:00] user recently purchased products during an Ulta buy one get one free deal.\n[2023-10-06 08:51:00] user intends to use a $10 credit to purchase sheet masks.\n[2023-10-06 08:51:00] user is interested in trying sheet masks.\n[2023-10-06 08:51:00] user earned 500 points from a recent purchase at Ulta.\n[2023-10-06 08:55:00] user has decided to purchase the Laneige Water Bank Moisturizing Gel Cream as a travel-sized moisturizer.\n[2023-10-06 08:55:00] user has had a great experience with the Ulta loyalty program.\n[2023-10-06 08:55:00] user intends to purchase 2 sheet masks and a travel-sized moisturizer.\n[2023-10-06 08:57:00] user shops occasionally at Sephora.\n[2023-10-06 08:57:00] user intends to look into the Sephora Beauty Insider loyalty program.\n\n## Deductive Observations\n\n[2023-10-06 08:55:00] user uses skincare products.\n   Premises:\n   - user intends to purchase 2 sheet masks and a travel-sized moisturizer.\n   - user has a favorite facial cleanser.\n\n[2023-10-06 08:55:00] user identifies as a writer.\n   Premises:\n   - user is a writer.\n\n\n## Inductive Observations\n\n **Pattern** [high]: user struggles with significant self-doubt and critical self-talk regarding their creative writing process, often experiencing imposter syndrome.\n   **Type**: personality\n   **Sources**:\n   - user experiences negative self-talk related to their writing.\n   - user experiences self-doubt and imposter syndrome regarding their writing.\n   - user often thinks 'This is terrible, I'm not a real writer' while writing.\n   - user has observed that narratives they hold about themselves are affecting their writing.\n\n **Pattern** [medium]: user is highly motivated by loyalty programs and incentives when shopping for beauty products, often planning purchases to maximize these benefits.\n   **Type**: behavior\n   **Sources**:\n   - user has had a great experience with the Ulta loyalty program.\n   - user recently purchased products during an Ulta buy one get one free deal.\n   - user has a $10 credit at Ulta equivalent to the 500 points earned.\n   - user intends to look into the Sephora Beauty Insider loyalty program.\n\n",
+ "answer": "To determine your previous goal for your Apex Legends level, I will follow these steps:\n\n**Step 1: Extract relevant information regarding Apex Legends level goals.**\n*   [2023-06-16 04:40:00]: \"user has a goal to reach level 100 in Apex Legends before the end of 2023.\"\n*   [2023-09-30 12:49:00]: \"user has a goal to eventually reach level 150 in Apex Legends.\"\n*   [2023-09-30 12:53:00]: \"user has a goal to reach level 150.\"\n\n**Step 2: Reason over the information.**\n*   The earliest recorded goal for your Apex Legends level was to reach level 100 (established on 2023-06-16).\n*   On 2023-09-30, you established a new, higher goal of reaching level 150.\n*   Therefore, the goal you held prior to updating it to level 150 was level 100.\n\n**Answer:**\nYour previous goal for your Apex Legends level was to reach level 100.",
+ "dump": "- [explicit] user started yoga classes to help with stress and flexibility.\n- [explicit] user attends yoga classes three times a week.\n- [explicit] user has a new job.\n- [explicit] user explores their new neighborhood on weekends.\n- [explicit] user experiences improved mood and energy levels due to yoga.\n- [explicit] user attends dance classes on Fridays.\n- [explicit] user feels more grounded and calm after practicing downward-facing dog and child's pose.\n- [explicit] user practices downward-facing dog and child's pose to stretch hamstrings and relax back.\n- [explicit] user performs yoga after a long day of work and commuting.\n- [explicit] user uses downward-facing dog and child's pose to feel more relaxed and centered.\n- [explicit] user attempts to prioritize self-care by scheduling yoga into their daily routine like an important appointment.\n- [explicit] user feels exhausted on some days and prefers to collapse on the couch rather than practice yoga.\n- [explicit] user intends to use yoga props to assist with their flexibility and alignment.\n- [explicit] user has found that a 10-15 minute yoga practice makes a difference in how they feel.\n- [explicit] user is trying to commit to practicing yoga at least a few times a week.\n- [explicit] user is considering trying new yoga props such as blocks and straps.\n- [explicit] user finds it challenging to find time and energy to practice yoga regularly when having a lot of work or other commitments.\n- [explicit] user is planning to buy a new gaming mouse.\n- [explicit] user has a goal to reach level 100 in Apex Legends before the end of 2023.\n- [explicit] user plays the game Apex Legends.\n- [explicit] user is interested in the SteelSeries Rival 600 gaming mouse.\n- [explicit] user recently acquired a new keyboard.\n- [explicit] user uses a PC.\n- [explicit] user intends to purchase a new gaming headset.\n- [explicit] user has heard reports that the HyperX Cloud II's surround sound performance can be inconsistent in certain games.\n- [explicit] user is considering purchasing the HyperX Cloud II gaming headset.\n- [explicit] user values comfort in a gaming headset.\n- [explicit] user values microphone quality in a gaming headset.\n- [explicit] user is interested in the HyperX Cloud II headset.\n- [explicit] user wants to improve their aim in Apex Legends.\n- [explicit] user plays Apex Legends competitively.\n- [explicit] user is looking for advice on how to acquire skills or credentials for employment in the industrial sector.\n- [explicit] user intends to research the industrial automation course offered on the platform Udemy.\n- [explicit] user is seeking information regarding job opportunities in the industrial sector of a city.\n- [explicit] user is interested in obtaining information regarding the labor force and working conditions in the industrial sector of a city.\n- [explicit] user is interested in finding online courses or programs to develop industrial skills.\n- [explicit] user is interested in finding job openings within the field of industrial automation in the user's city.\n- [explicit] user is interested in the analysis methods for the festival evaluation.\n- [explicit] user is interested in the future evaluation of the festival.\n- [explicit] user plans to organize a gaming session with friends for the weekend of September 30, 2023.\n- [explicit] user is interested in playing the game Apex Legends with friends during the weekend of September 30, 2023.\n- [explicit] user intends to play Apex Legends for fun rather than focusing on leveling up this weekend.\n- [explicit] user has a goal to eventually reach level 150 in Apex Legends.\n- [explicit] user is seeking tips to improve gameplay and communication with their team in Apex Legends.\n- [explicit] user intends to focus on improving their overall gameplay\n- [explicit] user intends to communicate more effectively with their team\n- [explicit] user is considering focusing on completing daily and weekly challenges to earn experience points and level up faster in Apex Legends\n- [explicit] user intends to complete daily and weekly challenges to earn more experience points and level up faster.\n- [explicit] user has a goal to reach level 150.\n- [explicit] user is interested in the Gitzo GT3543LS tripod.\n- [explicit] user acquired the Sony FE 24-70mm f/2.8 GM lens on 2023-02-10.\n- [explicit] user is interested in the F-Stop Loka UL 40L camera backpack.\n- [explicit] user went on a weekend trip to Yosemite returning on 2023-10-01.\n- [explicit] user is looking for a new camera backpack.\n- [explicit] user owns photography filters\n- [explicit] user owns photography remotes\n- [explicit] user needs storage solutions for photography gear\n- [explicit] user traveled to Yosemite\n- [explicit] user owns extra photography batteries\n- [explicit] user owns a Sony FE 24-70mm f/2.8 GM lens\n- [explicit] user observes dust spots appearing in photos.\n- [explicit] user intends to look into Stack-On Cabinets for photography gear storage.\n- [explicit] user intends to look into Pelican Cases for photography gear storage.\n- [explicit] user has been meaning to clean camera sensors for weeks.\n- [explicit] user has put off cleaning camera sensors for weeks.\n- [explicit] user intends to clean their camera sensor using an air blower.\n- [explicit] user owns a Sony RX100 Mark IV camera.\n- [explicit] user has not used their Sony RX100 Mark IV camera in over a year.\n- [explicit] user intends to sell their Sony RX100 Mark IV camera online.\n- [explicit] user intends to sell the Sony RX100 Mark IV on eBay.\n- [explicit] user intends to sell the Sony RX100 Mark IV on Facebook Marketplace.\n- [explicit] user is taking a business trip to Montreal, Canada on October 1, 2023.\n- [explicit] user traveled to Los Angeles on June 15, 2023 for a friend's birthday party.\n- [explicit] user attended a music festival in Philadelphia on April 24, 2023.\n- [explicit] user had a job interview in Washington D.C. on April 10, 2023.\n- [explicit] user traveled to the Hamptons on June 5, 2023 for a beach weekend with friends.\n- [explicit] user traveled to Denver, Colorado for a family vacation from May 1 to May 5, 2023.\n- [explicit] user paid $25 for a 3-month supply of flea and tick prevention medication for Lola.\n- [explicit] user has a dog named Max.\n- [explicit] user is looking for a mid-range dog bed priced around $40.\n- [explicit] user wants a dog bed with a 3-inch thick cushion for Max's joints.\n- [explicit] user purchased flea and tick prevention medication for Lola on approximately September 25, 2023.\n- [explicit] user adds steamed vegetables to the dog food for Max.\n- [explicit] user saw a dog bed for $40 at a pet store.\n- [explicit] user is monitoring Max's digestion to see if the addition of steamed vegetables makes a difference.\n- [explicit] user has been feeding Max steamed vegetables.\n- [explicit] user is interested in natural alternatives for flea and tick prevention medication for Lola.\n- [explicit] user intends to monitor Max's digestion for a few more weeks.\n- [explicit] user has been using flea and tick prevention medication on Lola.\n- [explicit] user owns a cat named Lola.\n- [explicit] user considers $25 for a 3-month supply of flea and tick prevention medication a good deal.\n- [explicit] user aims to write 500 words per day for 5 days a week.\n- [explicit] user is currently on week 4 of a writing challenge.\n- [explicit] user is participating in a writing challenge.\n- [explicit] user is interested in exploring the theme of self-discovery in their writing.\n- [explicit] user wants to explore the concept of personal mythology and the stories they tell themselves.\n- [explicit] user has observed that narratives they hold about themselves are affecting their writing.\n- [explicit] user has been participating in a daily writing challenge for 4 weeks.\n- [explicit] user is interested in exploring personal mythology in the context of their writing.\n- [explicit] user often thinks 'This is terrible, I'm not a real writer' while writing.\n- [explicit] user experiences self-doubt and imposter syndrome regarding their writing.\n- [explicit] user is a writer.\n- [explicit] user experiences negative self-talk related to their writing.\n- [explicit] user has a favorite moisturizer.\n- [explicit] user recently purchased products during an Ulta buy one get one free deal.\n- [explicit] user earned 500 points from a recent purchase at Ulta.\n- [explicit] user intends to use a $10 credit to purchase sheet masks.\n- [explicit] user has a $10 credit at Ulta equivalent to the 500 points earned.\n- [explicit] user has a favorite facial cleanser.\n- [explicit] user is interested in trying sheet masks.\n- [explicit] user intends to purchase 2 sheet masks and a travel-sized moisturizer.\n- [explicit] user has decided to purchase the Laneige Water Bank Moisturizing Gel Cream as a travel-sized moisturizer.\n- [explicit] user has had a great experience with the Ulta loyalty program.\n- [explicit] user shops occasionally at Sephora.\n- [explicit] user intends to look into the Sephora Beauty Insider loyalty program.\n- [deductive] user identifies as a writer.\n- [deductive] user uses skincare products.\n- [inductive] user is highly motivated by loyalty programs and incentives when shopping for beauty products, often planning purchases to maximize these benefits.\n- [inductive] user struggles with significant self-doubt and critical self-talk regarding their creative writing process, often experiencing imposter syndrome.",
+ "extra": {},
+ "settings": {
+  "server": "honcho v3.3.0 (608aec8)",
+  "sdk": "honcho-ai 2.6.0",
+  "models": "gemini-3.1-flash-lite for every role; gemini-embedding-001@1536",
+  "dream": "one scheduled after the history",
+  "chat": "peer.chat(question), server-default reasoning level",
+  "representation": "peer.representation(search_query=question), server defaults",
+  "env": "infra/honcho/honcho.env.template"
+ },
+ "seconds": {
+  "write": 133.8,
+  "total": 137.8
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}

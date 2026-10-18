@@ -1,0 +1,88 @@
+{
+ "qid": "5a4f22c0",
+ "arm": "mem0",
+ "split": "main",
+ "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+ "reference": "TechCorp",
+ "question_date": "2023-06-21 13:02",
+ "sessions": [
+  {
+   "id": "78eda063_2",
+   "date": "2023-05-23 07:41",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_yJMgmG3_0",
+   "date": "2023-05-23 10:26",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_1",
+   "date": "2023-05-23 20:06",
+   "evidence": true
+  },
+  {
+   "id": "af778ece_1",
+   "date": "2023-05-24 05:16",
+   "evidence": false
+  },
+  {
+   "id": "c3f945f3_1",
+   "date": "2023-05-24 16:00",
+   "evidence": false
+  },
+  {
+   "id": "a1c1739c_3",
+   "date": "2023-05-24 19:18",
+   "evidence": false
+  },
+  {
+   "id": "acb77ba4",
+   "date": "2023-05-25 16:42",
+   "evidence": false
+  },
+  {
+   "id": "88841f27_2",
+   "date": "2023-05-25 20:20",
+   "evidence": false
+  },
+  {
+   "id": "sharegpt_dh8qvty_0",
+   "date": "2023-05-25 22:55",
+   "evidence": false
+  },
+  {
+   "id": "answer_b0f3dfff_2",
+   "date": "2023-05-26 20:48",
+   "evidence": true
+  }
+ ],
+ "context": "- User plans to catch up with their old colleague Rachel, who currently works at TechCorp, to discuss marketing strategies and challenges. (from a chat on 2023-05-26)\n- User met Rachel, an old colleague from a previous company, at the TechConnect conference on February 10-11, 2023, and plans to catch up with her. (from a chat on 2023-05-23)\n- User is exploring the applications of AI in the education sector and is interested in identifying startups and companies working on AI-powered edtech solutions. (from a chat on 2023-05-26)\n- User plans to reach out to Alex, an edtech startup founder they previously met, to discuss his startup and explore potential collaboration opportunities. (from a chat on 2023-05-26)\n- User met their friend David at a WeWork startup mixer on February 15, 2023, who introduced the user to colleagues from Google. (from a chat on 2023-05-23)\n- User is interested in AI and machine learning trends and previously attended a webinar hosted by Women in Tech featuring Dr. Maria Hernandez. (from a chat on 2023-05-26)\n- User was provided with a contact tracker spreadsheet template including columns for Name, Email, Phone, Event, Date, Company, Notes, Follow-up Date, and Last Contacted. (from a chat on 2023-05-23)\n- User was recommended several companies for high-quality display cases for their collectibles, including IKEA, Diamond Comic Distributors, Gentle Giant Ltd., BCW Supplies, Crystal Castle, Mirage Studio, and GeekOn!. (from a chat on 2023-05-24)\n- User was provided with a list of AI-powered edtech companies and research institutions, including DreamBox Learning, Knewton, IBM Watson Education, and Stanford's NLP Group. (from a chat on 2023-05-26)\n- User met Sarah (finance firm), Michael (tech firm), and Emily (design studio) at a Chamber of Commerce speed networking event on February 22, 2023. (from a chat on 2023-05-23)\n- User met Alex, the founder of an edtech startup, at a WeWork startup mixer on February 15, 2023, and is considering a potential partnership. (from a chat on 2023-05-23)\n- User met Jason, the CEO of StartupX, at the TechConnect conference on February 10-11, 2023, and is planning to follow up regarding potential collaboration opportunities. (from a chat on 2023-05-23)\n- User has been attending weekly BNI networking meetings where they exchange feedback on elevator pitches and digital marketing insights with a member named Jack. (from a chat on 2023-05-26)\n- User was provided with a follow-up email template to send to Jason at StartupX regarding potential collaboration opportunities. (from a chat on 2023-05-23)\n- User met Tom, a marketing expert, at a Chamber of Commerce speed networking event on February 22, 2023, who offered to provide feedback on the user's startup marketing strategy. (from a chat on 2023-05-23)\n- User intends to visit the new Everlane store at the Westfield mall to shop for a denim jacket, specifically looking to use a birthday gift card from their sister. (from a chat on 2023-05-24)\n- User is seeking additional marketing resources and experts to complement the feedback they are receiving from Tom, a marketing expert. (from a chat on 2023-05-26)\n- User is creating a contact tracker spreadsheet to manage professional and personal connections met at various events. (from a chat on 2023-05-23)\n- User attended a gardening workshop at their local community center during the first week of June 2023, where they learned about composting and creating natural fertilizer. (from a chat on 2023-05-24)\n- User was provided with a story outline titled 'The Awakening of Nyarlathotep' featuring an archaeologist named Emily who uncovers forbidden knowledge about an ancient deity in an Egyptian temple. (from a chat on 2023-05-25)",
+ "answer": "**Answer (step by step):**\n\n1.  **Extract relevant information:**\n    *   From the chat on 2023-05-26: \"User plans to catch up with their old colleague Rachel, who currently works at TechCorp, to discuss marketing strategies and challenges.\"\n    *   From the chat on 2023-05-23: \"User met Rachel, an old colleague from a previous company, at the TechConnect conference on February 10-11, 2023...\"\n\n2.  **Reason over the information:**\n    *   The information explicitly states that Rachel is an old colleague from a previous company.\n    *   The information explicitly identifies her current place of employment as \"TechCorp.\"\n\n**Answer:** Rachel is currently working at TechCorp.",
+ "dump": "- User is exploring the applications of AI in the education sector and is interested in identifying startups and companies working on AI-powered edtech solutions. (session 2023-05-26)\n- User is considering various creative themes for their collectible photoshoot, such as a 'Galactic Explorer's Study' or 'Retro-Futuristic Laboratory', and plans to use props like lightsabers and vintage photography equipment. (session 2023-05-24)\n- User was provided with a contact tracker spreadsheet template including columns for Name, Email, Phone, Event, Date, Company, Notes, Follow-up Date, and Last Contacted. (session 2023-05-23)\n- User plans to take a day trip from Kailua-Kona to Hilo on a Saturday to visit the Hilo Farmers Market and see Rainbow Falls. (session 2023-05-25)\n- User is seeking additional marketing resources and experts to complement the feedback they are receiving from Tom, a marketing expert. (session 2023-05-26)\n- User was recommended several accommodation options in Kailua-Kona for solo travelers with a local vibe, including Kona Tiki Hotel, Kona Inn, Kona Hostel, Coffee Shack, and Kona Village Inn. (session 2023-05-25)\n- User is planning to start watercolor painting and recently organized their painting supplies and workspace on May 22, 2023. (session 2023-05-23)\n- User was provided with techniques for cleaning and preparing recycled materials like plastic bottles and cardboard tubes, including using soap, vinegar, and degreasers. (session 2023-05-25)\n- User was advised on various mechanical, tension-based, and friction-based methods to connect sculpture components without adhesives, such as interlocking tabs, sliding connections, and using twine or wire. (session 2023-05-25)\n- User is learning to identify languages and tested the assistant's capability with the Esperanto phrase 'Kiel vi fartas? Kiel iras via tago?' (session 2023-05-23)\n- User was provided with a list of AI-powered edtech companies and research institutions, including DreamBox Learning, Knewton, IBM Watson Education, and Stanford's NLP Group. (session 2023-05-26)\n- User is interested in trying traditional Hawaiian dishes like laulau and kalua pig during their visit to Hilo. (session 2023-05-25)\n- User was recommended heirloom (Brandywine, Cherokee Purple, San Marzano) and hybrid (Better Boy, Early Girl, Patio) tomato varieties for their disease resistance. (session 2023-05-24)\n- User attended a gardening workshop at their local community center during the first week of June 2023, where they learned about composting and creating natural fertilizer. (session 2023-05-24)\n- User was provided with a list of marketing resources (HubSpot, Moz, MarketingProfs, Social Media Examiner, Growth Hackers) and experts (Neil Patel, Gary Vaynerchuk, Seth Godin, Ann Handley, Brian Balfour) to assist with their startup. (session 2023-05-26)\n- User is planning a trip to the Big Island of Hawaii and intends to stay in Kailua-Kona to explore the town and visit coffee farms. (session 2023-05-25)\n- User was recommended Hilo lunch spots including Cafe Pesto, Hilo Bay Cafe, Kuhio Grille, The Fish and The Hog, Hilo Town Tavern, and Miyo's. (session 2023-05-25)\n- User recently acquired a 1920s-era Leica camera and is seeking advice on its proper storage and preservation. (session 2023-05-24)\n- User was recommended several companies for high-quality display cases for their collectibles, including IKEA, Diamond Comic Distributors, Gentle Giant Ltd., BCW Supplies, Crystal Castle, Mirage Studio, and GeekOn!. (session 2023-05-24)\n- User was provided with AI and machine learning learning resources, including courses by Andrew Ng, MIT OpenCourseWare, and various webinars and communities like Kaggle. (session 2023-05-26)\n- User was provided with a story outline titled 'The Awakening of Nyarlathotep' featuring an archaeologist named Emily who uncovers forbidden knowledge about an ancient deity in an Egyptian temple. (session 2023-05-25)\n- User was provided with resources and tools to improve their elevator pitch, including PitchBot, Elevator Pitch Builder, and guides from Inc. and Forbes. (session 2023-05-26)\n- User is interested in writing their own Lovecraftian horror story and was provided with a list of core elements, including ancient malevolent forces, protagonists uncovering forbidden knowledge, and themes of cosmic horror. (session 2023-05-25)\n- User was recommended Helena's Hawaiian Food, Kuhio Grille, and Hilo Bay Cafe for traditional laulau, and Cafe Pesto, Hilo Farmers Market stalls, and Miyo's for kalua pig in Hilo. (session 2023-05-25)\n- User values sustainable fashion and transparent pricing, which motivated their interest in shopping at Everlane. (session 2023-05-24)\n- User is interested in trying Escoda brushes and was recommended the 'Perla' line, which is specifically designed for watercolor. (session 2023-05-23)\n- User met Jason, the CEO of StartupX, at the TechConnect conference on February 10-11, 2023, and is planning to follow up regarding potential collaboration opportunities. (session 2023-05-23)\n- User intends to visit the new Everlane store at the Westfield mall to shop for a denim jacket, specifically looking to use a birthday gift card from their sister. (session 2023-05-24)\n- User was recommended several Escoda Perla brush sets for beginners, including the Travel Set, Mini Set, Starter Set, and smaller technique-focused sets. (session 2023-05-23)\n- User met their friend David at a WeWork startup mixer on February 15, 2023, who introduced the user to colleagues from Google. (session 2023-05-23)\n- User was recommended the following watercolor paper brands for beginners: Winsor & Newton (Cotman series), Arches (140lb cold press), Strathmore (500 Series), and Canson (XL series). (session 2023-05-23)\n- User plans to catch up with their old colleague Rachel, who currently works at TechCorp, to discuss marketing strategies and challenges. (session 2023-05-26)\n- User is planning a photoshoot for their Star Wars action figures and antique cameras and received advice on lighting, composition, and necessary equipment like macro lenses and tripods. (session 2023-05-24)\n- User is creating a contact tracker spreadsheet to manage professional and personal connections met at various events. (session 2023-05-23)\n- User met Rachel, an old colleague from a previous company, at the TechConnect conference on February 10-11, 2023, and plans to catch up with her. (session 2023-05-23)\n- User was provided with a follow-up email template to send to Jason at StartupX regarding potential collaboration opportunities. (session 2023-05-23)\n- User was advised to track Everlane's sales by signing up for their email newsletter, following them on social media, and checking their website for seasonal or clearance promotions. (session 2023-05-24)\n- User is interested in the plot of H.P. Lovecraft's 'The Call of Cthulhu' and requested a summary of its key elements. (session 2023-05-25)\n- User acquired a new set of sculpting tools on May 25, 2023, including a modeling tool set, a wire cutter, and a sculpting mat. (session 2023-05-25)\n- User is interested in AI and machine learning trends and previously attended a webinar hosted by Women in Tech featuring Dr. Maria Hernandez. (session 2023-05-26)\n- User plans to style their new Madewell ankle boots for spring by pairing them with a subtle floral dress and a denim jacket to create a balanced look. (session 2023-05-24)\n- User met Sarah (finance firm), Michael (tech firm), and Emily (design studio) at a Chamber of Commerce speed networking event on February 22, 2023. (session 2023-05-23)\n- User plans to reach out to Alex, an edtech startup founder they previously met, to discuss his startup and explore potential collaboration opportunities. (session 2023-05-26)\n- User received guidance on maintaining a compost pile, including balancing carbon-to-nitrogen ratios, maintaining moisture, aerating every 7-10 days, and avoiding meat, dairy, pet waste, weeds with seeds, diseased plants, and synthetic materials. (session 2023-05-24)\n- User was recommended the following watercolor palettes with built-in cups: Winsor & Newton Cotman, Daniel Smith Essential, Schmincke Horadam, and Holbein. (session 2023-05-23)\n- User has been attending weekly BNI networking meetings where they exchange feedback on elevator pitches and digital marketing insights with a member named Jack. (session 2023-05-26)\n- User is planning to enter a local art competition in the sculpture category and is exploring eco-friendly materials and techniques. (session 2023-05-25)\n- User met Tom, a marketing expert, at a Chamber of Commerce speed networking event on February 22, 2023, who offered to provide feedback on the user's startup marketing strategy. (session 2023-05-23)\n- User is designing a sculpture using plastic bottles and cardboard tubes as the base structure, incorporating found objects and natural materials like leaves, twigs, and seeds. (session 2023-05-25)\n- User was recommended Kona Coffee Living History Farm, Mountain Thunder Coffee, and Greenwell Farms for coffee farm tours in the Kailua-Kona area. (session 2023-05-25)\n- User was provided with detailed guidelines for preserving an antique camera, including maintaining a consistent temperature of 60-70°F, using acid-free storage materials, and avoiding direct sunlight. (session 2023-05-24)\n- User was provided with tips for styling ankle boots for spring, including pairing them with flowy dresses, skirts, distressed denim, and using layers like denim jackets or cardigans to add texture and negative space. (session 2023-05-24)\n- User was recommended flowers to attract bees (sunflowers, zinnias, lavender, coneflower, bee balm) and butterflies (butterfly bush, lantana, milkweed, cosmos, honeysuckle) to their garden. (session 2023-05-24)\n- User was advised that eggshells are beneficial for compost as a calcium source and pest deterrent, provided they are crushed and optionally baked at 300°F to eliminate pathogens. (session 2023-05-24)\n- User was recommended several brands for denim jackets, including Levi's, Madewell, J.Crew, Gap, ASOS, and Everlane, with advice to consider fit, wash, and fabric quality. (session 2023-05-24)\n- User recently purchased a pair of ankle boots from Madewell at 40% off during their President's Day sale in February 2023 and has been wearing them frequently. (session 2023-05-24)\n- User completed their vintage Star Wars action figure set around May 3, 2023, and is very proud of this accomplishment. (session 2023-05-24)\n- User is expanding their herb garden and was recommended companion plants for basil (tomatoes, marigold, borage, chives), mint (lemon balm, oregano, radish), and cilantro (carrots, dill, tomatoes, nasturtium). (session 2023-05-24)\n- User met Alex, the founder of an edtech startup, at a WeWork startup mixer on February 15, 2023, and is considering a potential partnership. (session 2023-05-23)",
+ "extra": {
+  "retrieved": 20,
+  "stored": 59,
+  "parse_failures": 0
+ },
+ "settings": {
+  "mem0ai": "2.2.1",
+  "llm": "gemini-3.1-flash-lite",
+  "embedder": "gemini-embedding-001@1536",
+  "llm_max_tokens": 2000,
+  "llm_temperature": 0.1,
+  "search": "library defaults (top_k=20, threshold=0.1)",
+  "add": "one call per session (split above 20 messages), session date injected"
+ },
+ "seconds": {
+  "write": 42.2,
+  "total": 43.9
+ },
+ "judge": {
+  "model": "gemini-3.1-pro-preview",
+  "correct": true
+ },
+ "probe": {
+  "skipped": "no old value in the first evidence session"
+ }
+}
