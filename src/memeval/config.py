@@ -37,6 +37,9 @@ PRICES = {
 
 CACHE_DIR = Path(os.environ.get("MEMEVAL_CACHE_DIR", REPO / ".cache" / "llm"))
 LEDGER_DIR = Path(os.environ.get("MEMEVAL_LEDGER_DIR", REPO / ".cache" / "ledger"))
+# Every chat request and its reply, cache hits included, for reading what the
+# systems actually sent (the cache keeps only replies, keyed by a hash).
+CALLS_DIR = Path(os.environ.get("MEMEVAL_CALLS_DIR", REPO / ".cache" / "calls"))
 DATA_FILE = REPO / "data" / "longmemeval_s_cleaned.json"
 DATA_SHA256 = "d6f21ea9d60a0d56f34a05b609c79c88a451d2ae03597821ea3d5a9678c3a442"
 RESULTS_DIR = REPO / "results"

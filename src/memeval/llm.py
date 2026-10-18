@@ -92,6 +92,16 @@ def record(model: str, input_tokens: int, output_tokens: int, *, cached_tokens: 
     return usd
 
 
+def log_call(source: str, request, reply, *, cache_hit: bool) -> None:
+    """Append one chat request and its reply to the raw call log."""
+    config.CALLS_DIR.mkdir(parents=True, exist_ok=True)
+    line = {"at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "source": source,
+            "cache_hit": cache_hit, **(getattr(_local, "tags", None) or TAGS),
+            "request": request, "reply": reply}
+    with _lock, open(config.CALLS_DIR / f"calls-{os.getpid()}.jsonl", "a") as fh:
+        fh.write(json.dumps(line, default=str) + "\n")
+
+
 def spent() -> float:
     """Total spend across every process, re-read at most every 20 seconds."""
     now = time.time()
@@ -197,6 +207,7 @@ def generate(prompt: str, *, system: str | None = None, model: str | None = None
             reply = Reply(**hit, cache_hit=True)
             record(model, reply.input_tokens, reply.output_tokens,
                    thinking_tokens=reply.thinking_tokens, finish=reply.finish, cache_hit=True)
+            log_call("generate", {"model": model, "system": system, "prompt": prompt}, hit, cache_hit=True)
             return reply
         check_budget()
         cfg = {"temperature": temperature}
@@ -221,6 +232,8 @@ def generate(prompt: str, *, system: str | None = None, model: str | None = None
         truncated = finish is not None and finish.endswith("MAX_TOKENS")
         if reply.text and not truncated:
             cache_put(key, {k: v for k, v in reply.__dict__.items() if k != "cache_hit"})
+            log_call("generate", {"model": model, "system": system, "prompt": prompt},
+                     {k: v for k, v in reply.__dict__.items() if k != "cache_hit"}, cache_hit=False)
             return reply
     raise EmptyReply(f"{model} returned an empty or truncated reply twice (finish={reply.finish})")
 

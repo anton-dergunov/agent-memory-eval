@@ -61,7 +61,9 @@ class LettaArm(Arm):
                 "agent_type": "letta_v1_agent (default)", "context_window": CONTEXT_WINDOW,
                 "blocks": "persona=memgpt_starter, human=empty", "llm": config.CHAT_MODEL,
                 "embedder": f"{config.EMBED_MODEL}@{config.EMBED_DIMS}",
-                "sessions": "one conversation per session, messages sent in one request",
+                "sessions": ("one conversation per session, the whole session in one request"
+                             if os.environ.get("MEMEVAL_LETTA_INGEST", "turns") == "batch" else
+                             "one conversation per session, one agent step per user message"),
                 "dates": "prefixed to each message"}
 
     def reset(self, q: Question) -> None:
@@ -76,6 +78,7 @@ class LettaArm(Arm):
                               "embedding_endpoint": self.url, "embedding_dim": config.EMBED_DIMS,
                               "embedding_chunk_size": 300})
         self.steps = 0
+        self.events = []
 
     def _send(self, messages: list[dict]) -> list:
         """Send messages into a new conversation and wait for the agent's whole
@@ -88,7 +91,24 @@ class LettaArm(Arm):
         return out
 
     def ingest(self, session: Session) -> None:
-        self._send([{"role": t.role, "content": _stamp(session.date, t.content)} for t in session.turns])
+        if os.environ.get("MEMEVAL_LETTA_INGEST", "turns") == "batch":
+            # The first main run: the whole session in one request. Sessions end
+            # with an assistant message, so the agent had nothing to answer and
+            # mostly took no step at all, and so never edited its memory.
+            self._send([{"role": t.role, "content": _stamp(session.date, t.content)}
+                        for t in session.turns])
+            return
+        # One agent step per user message, in one conversation per session: the
+        # agent is the assistant, writes its own replies, and decides at every
+        # step what to keep. The recorded assistant replies are not sent.
+        conversation = self.client.conversations.create(agent_id=self.agent.id)
+        for t in session.turns:
+            if t.role != "user":
+                continue
+            stream = self.client.conversations.messages.create(
+                conversation.id, messages=[{"role": "user", "content": _stamp(session.date, t.content)}])
+            self.events.extend(e for e in stream if getattr(e, "message_type", None))
+            self.steps += 1
 
     def _blocks(self) -> str:
         blocks = self.client.agents.blocks.list(self.agent.id)
@@ -112,7 +132,10 @@ class LettaArm(Arm):
                             if tool_results else "")
         answer = "\n".join(replies).strip() or "(no reply)"
         return Read(context=context, answer=answer,
-                    extra={"tool_calls": tool_calls, "blocks_chars": len(blocks)})
+                    extra={"tool_calls": tool_calls, "blocks_chars": len(blocks),
+                           "write_steps": self.steps - 1,
+                           "write_tool_calls": [e.tool_call.name for e in self.events
+                                                if getattr(e, "message_type", "") == "tool_call_message"]})
 
     def dump(self) -> str:
         return self._blocks()

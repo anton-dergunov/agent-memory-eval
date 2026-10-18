@@ -147,6 +147,7 @@ class Handler(BaseHTTPRequestHandler):
                 _signatures[call["id"]] = call["extra_content"]
         if not cache_hit and finish != "length" and (message.get("content") or message.get("tool_calls")):
             llm.cache_put(key, reply)
+        llm.log_call("proxy", payload, reply, cache_hit=cache_hit)
         if stream:
             return self._stream(reply)
         self._send(200, reply)

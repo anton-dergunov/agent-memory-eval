@@ -5,10 +5,12 @@ when it became true (`valid_at`) and, once a later fact contradicts it, when it
 stopped (`invalid_at`). That is the property a knowledge-update question tests:
 the old value should be an edge that has been closed.
 
-* **Write:** each session becomes one or more `message` episodes of at most
-  8,000 characters, cut at turn boundaries, each with the session's date as
-  `reference_time`. Graphiti dates every fact from it; without it every fact
-  would start on the day of the run and none could supersede another.
+* **Write:** every message becomes one `message` episode ("user: ..." or
+  "assistant: ..."), as Graphiti's own chat examples add a conversation, each
+  with the session's date as `reference_time`. Graphiti dates every fact from
+  it; without it every fact would start on the day of the run and none could
+  supersede another. (The first main run cut sessions into 8,000-character
+  episodes instead: `MEMEVAL_GRAPHITI_EPISODES=chunk`.)
 * **Read:** `graphiti.search(question)` with the library's defaults (hybrid
   BM25 and embedding search over edges, fused by reciprocal rank, 10 results).
   Each fact is shown with its validity window, and closed ones are labelled.
@@ -31,6 +33,8 @@ from .. import config, llm
 from ..data import Question, Session
 from .base import Arm, Read
 
+# "message" (one episode per message) or "chunk" (the first main run).
+EPISODES = os.environ.get("MEMEVAL_GRAPHITI_EPISODES", "message")
 MAX_EPISODE_CHARS = 8000
 os.environ.setdefault("GRAPHITI_TELEMETRY_ENABLED", "false")
 logging.getLogger("neo4j.notifications").setLevel(logging.ERROR)
@@ -74,6 +78,8 @@ class _Models:
         hit = llm.cache_get(key)
         if hit is not None:
             response = types.GenerateContentResponse.model_validate_json(hit)
+            llm.log_call("graphiti", {"model": model, "contents": _jsonable(contents),
+                                      "config": _jsonable(config)}, response.text, cache_hit=True)
             usage = response.usage_metadata
             llm.record(model, usage.prompt_token_count or 0,
                        (usage.candidates_token_count or 0) + (usage.thoughts_token_count or 0),
@@ -90,6 +96,8 @@ class _Models:
                    finish=finish)
         if response.text and not (finish or "").endswith("MAX_TOKENS"):
             llm.cache_put(key, response.model_dump_json(exclude_none=True))
+        llm.log_call("graphiti", {"model": model, "contents": _jsonable(contents), "config": _jsonable(config)},
+                     response.text, cache_hit=False)
         return response
 
     async def embed_content(self, *, model, contents, config=None, **kwargs):
@@ -140,7 +148,8 @@ class GraphitiArm(Arm):
     def settings(self) -> dict:
         return {"graphiti-core": "0.31.1", "neo4j": "5.26", "llm": config.CHAT_MODEL,
                 "embedder": f"{config.EMBED_MODEL}@{config.EMBED_DIMS}",
-                "episodes": f"message episodes of at most {MAX_EPISODE_CHARS} chars per session",
+                "episodes": (f"message episodes of at most {MAX_EPISODE_CHARS} chars per session"
+                             if EPISODES == "chunk" else "one message episode per message"),
                 "search": "graphiti.search(question) defaults: hybrid RRF over edges, 10 results",
                 "entity_types": "none (library default)"}
 
@@ -152,17 +161,25 @@ class GraphitiArm(Arm):
     def ingest(self, session: Session) -> None:
         from graphiti_core.nodes import EpisodeType
 
-        chunks, current = [], ""
-        for turn in session.turns:
-            line = f"{turn.role}: {turn.content}"
-            if current and len(current) + len(line) > MAX_EPISODE_CHARS:
-                chunks.append(current)
-                current = ""
-            current = f"{current}\n{line}" if current else line
-        if current:
-            chunks.append(current)
+        if EPISODES == "chunk":
+            # The first main run: several turns per episode, up to 8,000 characters.
+            # Graphiti's extraction prompts are written for one message, and it
+            # adds the previous 10 episodes as context, so each call carried
+            # 60-80k characters and most updates were never extracted.
+            bodies, current = [], ""
+            for turn in session.turns:
+                line = f"{turn.role}: {turn.content}"
+                if current and len(current) + len(line) > MAX_EPISODE_CHARS:
+                    bodies.append(current)
+                    current = ""
+                current = f"{current}\n{line}" if current else line
+            if current:
+                bodies.append(current)
+        else:
+            # One episode per message, as Graphiti's own chat examples do.
+            bodies = [f"{turn.role}: {turn.content}" for turn in session.turns]
         start = session.date.replace(tzinfo=timezone.utc)
-        for i, body in enumerate(chunks):
+        for i, body in enumerate(bodies):
             when = start + timedelta(minutes=i)
             try:
                 self.loop.run_until_complete(self.graphiti.add_episode(
