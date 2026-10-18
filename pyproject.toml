@@ -24,7 +24,11 @@ dependencies = [
 experiment = [
     "google-genai==2.31.0",
     "rank-bm25==0.2.2",
-    "mem0ai==2.2.1",
+    # The nlp extra is spaCy, which Mem0 uses for entity boosting and
+    # lemmatised keyword search; without it both silently switch off.
+    "mem0ai[nlp]==2.2.1",
+    "spacy==3.8.16",
+    "en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl",
     "fastembed==0.9.0",
     "qdrant-client==1.19.1",
     "honcho-ai==2.6.0",
