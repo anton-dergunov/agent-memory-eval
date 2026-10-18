@@ -28,11 +28,15 @@ PREVIOUS = {"07741c44", "0ddfec37", "10e09553", "50635ada", "89941a94", "9bbe84a
 BOTH = {"031748ae", "c4ea545c", "f685340e"}
 
 MEMORY_ARMS = {"textual", "mem0", "honcho-chat", "honcho-repr", "graphiti", "graphiti-chunk",
-               "letta", "letta-batch"}
+               "letta", "letta-batch", "letta-persona"}
 SERVERS = {"full-context": "none", "retrieval": "none", "textual": "none",
            "mem0": "none (local Qdrant files)", "honcho-chat": "Honcho API + deriver, Postgres, Redis",
            "honcho-repr": "Honcho API + deriver, Postgres, Redis", "graphiti": "Neo4j",
-           "graphiti-chunk": "Neo4j", "letta": "Letta server, Postgres", "letta-batch": "Letta server, Postgres"}
+           "graphiti-chunk": "Neo4j", "letta": "Letta server, Postgres", "letta-batch": "Letta server, Postgres",
+           "letta-persona": "Letta server, Postgres"}
+# Variants of an arm, each kept as its own row but left out of the cross-arm
+# count of who missed which question.
+VARIANTS = ("graphiti-chunk", "letta-batch", "letta-persona")
 
 
 def load(split: str) -> dict[str, dict[str, dict]]:
@@ -104,8 +108,9 @@ def connecting(res, cost) -> list[str]:
     fed = {"graphiti-chunk": "sessions cut into episodes of up to 8,000 characters",
            "graphiti": "one episode per message (Graphiti's own examples)",
            "letta-batch": "each session in one request, ending on an assistant message",
-           "letta": "one agent step per user message"}
-    for arm in ("graphiti-chunk", "graphiti", "letta-batch", "letta"):
+           "letta": "one agent step per user message",
+           "letta-persona": "one agent step per user message; persona asks it to keep facts current"}
+    for arm in ("graphiti-chunk", "graphiti", "letta-batch", "letta", "letta-persona"):
         rows = res.get(arm)
         if not rows:
             continue
@@ -123,7 +128,7 @@ def connecting(res, cost) -> list[str]:
             edits = _mean(sum(1 for t in (r.get("extra") or {}).get("write_tool_calls", [])
                               if t.startswith(("memory_", "core_memory"))) for r in rows.values())
             holds = f"human block empty in {empty}/{n}" + (f"; {edits:.1f} memory edits while reading the history"
-                                                           if arm == "letta" else "")
+                                                           if arm != "letta-batch" else "")
         lines.append(f"| {arm} | {fed[arm]} | {_pct(k, n)} | {lost} | {per_q(cost, arm, rows, 'calls'):.0f} | "
                      f"{per_q(cost, arm, rows, 'tokens'):,.0f} | {usd:.3f} | {holds} |")
     return lines + [""]
@@ -175,7 +180,7 @@ def by_intent(res) -> list[str]:
 
 def failures(res, facts_dir: Path) -> list[str]:
     """Point 4: every wrong answer, grouped by how many arms missed the question."""
-    arms = [a for a in res if a not in ("graphiti-chunk", "letta-batch")]
+    arms = [a for a in res if a not in VARIANTS]
     qids = sorted({q for a in arms for q in res[a]})
     wrong = {q: [a for a in arms if q in res[a] and not res[a][q]["judge"]["correct"]] for q in qids}
     lines = ["## 4. Every wrong answer", "",

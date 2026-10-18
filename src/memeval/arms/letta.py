@@ -24,6 +24,14 @@ It runs from `infra/letta/up.sh` with its model calls going through
   its session's date and time.
 * Letta's default context window (128,000 tokens) and every other setting are
   left as they are.
+
+`letta-persona` is the same arm with one change: the persona block adds a few
+lines on keeping the user's facts current (`PERSONA_INSTRUCTED`). The persona
+is the block Letta expects its users to write. The failure analysis
+(docs/findings/letta.md) found three links: the agent noticed revisions
+without writing them, its memory lines carried no dates, and it searched with
+phrases that the server's literal substring match never finds. The lines
+address each in turn. The result is kept as its own row.
 """
 
 from __future__ import annotations
@@ -39,6 +47,18 @@ PROXY_PORT = int(os.environ.get("MEMEVAL_LETTA_PROXY_PORT", "8101"))
 # letta/personas/examples/memgpt_starter.txt in Letta 0.16.8 (Apache-2.0).
 PERSONA = ("The following is a blank slate starter persona, I need to expand this to develop "
            "my own personality.\n\nMy name is Letta.\nI am kind, thoughtful, and inquisitive.")
+# The starter persona plus how to keep the user's facts current. The example is
+# deliberately about nothing any question asks.
+PERSONA_INSTRUCTED = PERSONA + (
+    "\n\nHow I keep my memory of the user:\n"
+    "- Every message starts with its date. I write that date on each fact I save about the user.\n"
+    "- When the user mentions a new value for something already in my memory (a count, a time, "
+    "a place, a status), even in passing, I update that line at once with memory_replace and keep "
+    "the earlier value with its date, for example \"has 4 herb plants on the balcony (2024-03-02; "
+    "earlier 2, 2024-01-15)\".\n"
+    "- When the user asks about themselves, I check my memory and also search past messages. "
+    "The search matches my query word for word, so I search with one or two distinctive words, "
+    "not a whole phrase.")
 CONTEXT_WINDOW = 128_000  # letta.constants.DEFAULT_CONTEXT_WINDOW
 
 
@@ -48,6 +68,7 @@ def _stamp(when, text: str) -> str:
 
 class LettaArm(Arm):
     name = "letta"
+    persona, persona_name = PERSONA, "memgpt_starter"
 
     def __init__(self):
         from letta_client import Letta
@@ -60,7 +81,7 @@ class LettaArm(Arm):
     def settings(self) -> dict:
         return {"server": "letta 0.16.8", "client": "letta-client 1.11.0",
                 "agent_type": "letta_v1_agent (default)", "context_window": CONTEXT_WINDOW,
-                "blocks": "persona=memgpt_starter, human=empty", "llm": config.CHAT_MODEL,
+                "blocks": f"persona={self.persona_name}, human=empty", "llm": config.CHAT_MODEL,
                 "embedder": f"{config.EMBED_MODEL}@{config.EMBED_DIMS}",
                 "sessions": ("one conversation per session, the whole session in one request"
                              if os.environ.get("MEMEVAL_LETTA_INGEST", "turns") == "batch" else
@@ -71,7 +92,7 @@ class LettaArm(Arm):
         self.close()
         self.agent = self.client.agents.create(
             name=f"lme-{q.qid}",
-            memory_blocks=[{"label": "persona", "value": PERSONA},
+            memory_blocks=[{"label": "persona", "value": self.persona},
                            {"label": "human", "value": ""}],
             llm_config={"model": config.CHAT_MODEL, "model_endpoint_type": "openai",
                         "model_endpoint": self.url, "context_window": CONTEXT_WINDOW},
@@ -148,3 +169,10 @@ class LettaArm(Arm):
             except Exception:  # noqa: BLE001
                 pass
             self.agent = None
+
+
+class LettaPersonaArm(LettaArm):
+    """The same agent with a persona that asks it to keep the user's facts current."""
+
+    name = "letta-persona"
+    persona, persona_name = PERSONA_INSTRUCTED, "memgpt_starter + memory instructions (PERSONA_INSTRUCTED)"

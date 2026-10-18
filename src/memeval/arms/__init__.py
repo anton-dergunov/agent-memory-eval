@@ -10,6 +10,7 @@ ARMS = {
     "honcho": ("honcho", "HonchoArm"),
     "graphiti": ("graphiti", "GraphitiArm"),
     "letta": ("letta", "LettaArm"),
+    "letta-persona": ("letta", "LettaPersonaArm"),
 }
 
 

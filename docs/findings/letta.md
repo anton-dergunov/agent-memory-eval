@@ -694,7 +694,11 @@ What the logs support, not a tuned configuration:
   and the history was reachable only through a phrase match limited to five
   messages. The tool description promises hybrid text and semantic search;
   that is what Letta's hosted service provides (through Turbopuffer) and what
-  this self-hosted server does not. With a search that ranks by meaning over
+  this self-hosted server does not. A self-hosted server can turn it on only
+  with a Turbopuffer account (a paid hosted service) and an OpenAI key: the
+  message index embeds with OpenAI's `text-embedding-3-small`, which is fixed
+  in the Turbopuffer client rather than taken from the agent's embedding
+  settings, so every other seat would stay on Gemini and this one would not. With a search that ranks by meaning over
   all messages, most of the 14 would likely have been found, as the first run
   found several of them.
 - **An instruction to revise.** Nothing in the prompt asks the agent to check

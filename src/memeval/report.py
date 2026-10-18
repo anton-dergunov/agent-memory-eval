@@ -13,7 +13,7 @@ from collections import defaultdict
 from . import config
 
 ORDER = ["full-context", "retrieval", "textual", "mem0", "honcho-chat", "honcho-repr",
-         "graphiti", "graphiti-chunk", "letta", "letta-batch"]
+         "graphiti", "graphiti-chunk", "letta", "letta-batch", "letta-persona"]
 
 
 def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:

@@ -29,10 +29,13 @@ def result_path(split: str, arm: str, qid: str) -> Path:
 
 
 def build(split: str, arm_name: str, limit: int | None = None, reverse: bool = False,
-          shard: str | None = None) -> None:
+          shard: str | None = None, qids: list[str] | None = None) -> None:
     from .arms import build as build_arm
 
     ids = data.split(split)[:limit]
+    if qids:
+        # A pilot on chosen questions; their results count towards the full run.
+        ids = [q for q in ids if q in set(qids)]
     if shard:
         # "i/n": every n-th question from the i-th, so n processes split the work.
         i, n = (int(x) for x in shard.split("/"))
@@ -101,6 +104,8 @@ def main(argv=None) -> int:
                     help="work through the questions from the last one backwards")
     ap.add_argument("--shard", default=None,
                     help="i/n: build only every n-th question starting at the i-th (1-based)")
+    ap.add_argument("--qids", nargs="*", default=None,
+                    help="build only these questions of the split")
     args = ap.parse_args(argv)
     config.ensure_credentials()
 
@@ -108,7 +113,7 @@ def main(argv=None) -> int:
         failed = []
         for arm in args.arms or []:
             try:
-                build(args.split, arm, args.limit, args.reverse, args.shard)
+                build(args.split, arm, args.limit, args.reverse, args.shard, args.qids)
             except llm.BudgetExceeded as exc:
                 print(f"STOPPED: {exc}")
                 return 2
