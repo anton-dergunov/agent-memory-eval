@@ -4,6 +4,14 @@ A skeleton for the post, with the material gathered so far placed under the
 section where it will be used. Nothing here is final prose. The experiment and
 its plan are in [../tasks/blog-post-plan.md](../tasks/blog-post-plan.md).
 
+**Update, 18 October 2026.** The post became a series of nine parts, drafted
+outside this repository: 1 why memory and the running example; 2 the map
+(sections 3 and the literature); 3 what ChatGPT, Claude and Gemini ship
+(section 5); 4–8 one part per system (textual memory, Mem0, Zep/Graphiti,
+Letta, Honcho); 9 the experiment, what memory does not fix, and the decision
+guide (sections 6–9). The [verify] items below were checked against the
+vendors' own pages or repositories for the drafts.
+
 Items marked **[verify]** come from third-party write-ups or from memory and
 must be checked against a primary source before they go into the post.
 

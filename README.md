@@ -13,7 +13,7 @@ a larger scale on the knowledge-update questions of
 
 **Status: work in progress.** The notebooks run today. The benchmark experiment
 has run; its results are below and in
-[docs/experiment-results.md](docs/experiment-results.md). The write-up is planned
+[docs/experiment-results.md](docs/experiment-results.md). The write-up is a nine-part blog series, in draft; its plan is
 in [docs/tasks/blog-post-plan.md](docs/tasks/blog-post-plan.md).
 
 ## Systems covered
@@ -27,10 +27,10 @@ memory?
 | A pipeline, into a dated graph | Zep / Graphiti | [zep-graphiti](notebooks/zep-graphiti.ipynb) | Graphiti's prompts, driven by local code |
 | The agent itself | Letta (MemGPT) | [letta](notebooks/letta.ipynb) | Letta's prompts and tool descriptions, driven by local code |
 | A background reasoner | Honcho | [honcho](notebooks/honcho.ipynb) | our prompts, written from Honcho's published definitions |
-| A background rewriter of one text file | Textual memory | experiment only | our code, about 50 lines |
+| A background rewriter of one text file | Textual memory | [textual](notebooks/textual.ipynb) | our code, about 50 lines; the same prompt as the experiment |
 | Nobody | Full context; plain retrieval over raw turns | experiment only | our code |
 
-Three of the four notebooks are re-implementations made so that every step can
+Three of the five notebooks are re-implementations made so that every step can
 be read. Each notebook says at the top what it takes from the original system
 and what it leaves out. The experiment runs the real systems: Mem0 2.2.1,
 Graphiti 0.31.1 on Neo4j, Honcho v3.3.0 and Letta 0.16.8, all on the same

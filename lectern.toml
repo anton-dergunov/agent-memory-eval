@@ -1,4 +1,4 @@
 # Settings for `lectern build`, which renders the notebooks for GitHub Pages.
 title = "Agent memory, call by call"
-description = "The same short conversation run through four agent memory systems, with every model call shown: what each one stores, what it does when the user changes their mind, and what it costs."
+description = "The same short conversation run through five agent memory systems, with every model call shown: what each one stores, what it does when the user changes their mind, and what it costs."
 repo_url = "https://github.com/anton-dergunov/agent-memory-eval"
