@@ -30,20 +30,21 @@ from memeval.report import wilson  # noqa: E402
 
 FIGURES = REPO / "docs" / "figures"
 
-# The README's rows, in its order and under its names, in two groups.
+# The README's rows, in its order, in two groups: arm, system, and the variant
+# shown under the system's name.
 GROUPS = [
     ("Without memory", [
-        ("full-context", "Full context"),
-        ("retrieval", "Retrieval (BM25 over raw turns)"),
+        ("full-context", "Full context", ""),
+        ("retrieval", "Retrieval", "BM25 over raw turns"),
     ]),
     ("Memory systems", [
-        ("textual", "Textual memory"),
-        ("mem0", "Mem0"),
-        ("honcho-chat", "Honcho, dialectic chat"),
-        ("honcho-repr", "Honcho, representation"),
-        ("graphiti", "Graphiti"),
-        ("letta", "Letta"),
-        ("letta-persona", "Letta, persona that keeps facts current"),
+        ("textual", "Textual memory", ""),
+        ("mem0", "Mem0", ""),
+        ("honcho-chat", "Honcho", "dialectic chat"),
+        ("honcho-repr", "Honcho", "representation"),
+        ("graphiti", "Graphiti", ""),
+        ("letta", "Letta", ""),
+        ("letta-persona", "Letta", "persona that keeps facts current"),
     ]),
 ]
 
@@ -74,14 +75,14 @@ def read_main_run() -> Data:
     return out
 
 
-def layout() -> tuple[list[tuple[float, str, str]], list[tuple[float, str]]]:
-    """Each row's y (top row highest), arm and label, and each group heading's y."""
+def layout() -> tuple[list[tuple[float, str, str, str]], list[tuple[float, str]]]:
+    """Each row's y (top row highest), arm, system and variant, and each group heading's y."""
     rows, headings, y = [], [], 0.0
     for heading, members in GROUPS:
         headings.append((y, heading))
         y -= 0.85
-        for arm, label in members:
-            rows.append((y, arm, label))
+        for arm, system, variant in members:
+            rows.append((y, arm, system, variant))
             y -= 1.0
         y -= 0.35
     return rows, headings
@@ -101,8 +102,14 @@ def draw_labels(ax, c: dict, rows, headings) -> None:
     for y, heading in headings:
         ax.text(0.97, y, heading.upper(), ha="right", va="center", fontsize=8.5, color=c["ink_3"],
                 fontweight="bold")
-    for y, _arm, label in rows:
-        ax.text(0.97, y, label, ha="right", va="center", fontsize=11, color=c["ink"])
+    for y, _arm, system, variant in rows:
+        if not variant:
+            ax.text(0.97, y, system, ha="right", va="center", fontsize=11, color=c["ink"],
+                    fontweight="bold")
+            continue
+        ax.text(0.97, y + 0.15, system, ha="right", va="center", fontsize=11, color=c["ink"],
+                fontweight="bold")
+        ax.text(0.97, y - 0.21, variant, ha="right", va="center", fontsize=9.5, color=c["ink_2"])
 
 
 def draw_accuracy(ax, c: dict, data: Data, rows, top: float) -> None:
@@ -116,7 +123,7 @@ def draw_accuracy(ax, c: dict, data: Data, rows, top: float) -> None:
     ax.axvspan(low, high, color=c["band"], zorder=0, linewidth=0)
     ax.text((low + high) / 2, top - 0.1, "full context's\ninterval", ha="center", va="top",
             fontsize=8, color=c["ink_3"], linespacing=1.1)
-    for y, arm, _label in rows:
+    for y, arm, _system, _variant in rows:
         acc, low, high, _cost = data[arm]
         ax.plot([low, high], [y, y], color=c["accuracy"], linewidth=2.4, solid_capstyle="round",
                 alpha=0.45, zorder=2)
@@ -128,19 +135,19 @@ def draw_accuracy(ax, c: dict, data: Data, rows, top: float) -> None:
 
 def draw_cost(ax, c: dict, data: Data, rows) -> None:
     # A bar from zero, so a bar twice as long costs twice as much.
-    most = max(data[arm][3] for _y, arm, _label in rows)
+    most = max(data[row[1]][3] for row in rows)
     ax.set_xlim(0, most * 1.3)
     ticks = [0, 0.2, 0.4, 0.6]
     ax.set_xticks(ticks, ["$0" if t == 0 else f"${t:.2f}" for t in ticks])
     ax.grid(axis="x", color=c["grid"], linewidth=1)
     ax.set_axisbelow(True)
-    for y, arm, _label in rows:
+    for y, arm, _system, _variant in rows:
         cost = data[arm][3]
         ax.barh(y, cost, height=0.52, color=c["cost"], edgecolor="none")
         ax.text(cost + most * 0.025, y, f"${cost:.3f}", ha="left", va="center", fontsize=9.5,
                 color=c["ink"], fontweight="bold")
     # How many times full context's cost the most expensive arm spends.
-    y, arm, _label = max(rows, key=lambda row: data[row[1]][3])
+    y, arm, _system, _variant = max(rows, key=lambda row: data[row[1]][3])
     times = data[arm][3] / data["full-context"][3]
     ax.text(most * 1.025, y - 0.36, f"{times:.0f}× full context", ha="left", va="center",
             fontsize=8.5, color=c["ink_2"])
@@ -151,6 +158,10 @@ def draw(data: Data, theme: str) -> plt.Figure:
     plt.rcParams.update({
         "font.family": ["Helvetica Neue", "Helvetica", "Arial", "DejaVu Sans"],
         "svg.fonttype": "path",
+        # No hinting: snapping glyphs to the pixel grid squashes small letters
+        # such as "a" in the PNG. Unhinted, it matches how the SVG is drawn.
+        "text.hinting": "none",
+        "text.hinting_factor": 1,
     })
     rows, headings = layout()
     # Room above the first heading for the band's caption.
@@ -180,7 +191,7 @@ def draw(data: Data, theme: str) -> plt.Figure:
     fig.text(left, 0.912, "LongMemEval: 67 knowledge-update questions, 10 sessions of history each, "
              "every arm on gemini-3.1-flash-lite", fontsize=10.5, color=c["ink_2"], ha="left", va="center")
     for ax, title, note in (
-        (acc_ax, "Accuracy", "share answered correctly, with 95% interval"),
+        (acc_ax, "Accuracy", "questions answered correctly, with 95% interval"),
         (cost_ax, "Cost per question", "USD: building the memory, reading it, answering"),
     ):
         ax.text(0, 1.07, title, transform=ax.transAxes, fontsize=12.5, fontweight="bold", color=c["ink"],
@@ -192,7 +203,7 @@ def draw(data: Data, theme: str) -> plt.Figure:
 
 def main() -> None:
     data = read_main_run()
-    missing = [arm for _h, members in GROUPS for arm, _l in members if arm not in data]
+    missing = [arm for _h, members in GROUPS for arm, *_ in members if arm not in data]
     if missing:
         raise SystemExit(f"no results for {', '.join(missing)}")
     FIGURES.mkdir(parents=True, exist_ok=True)

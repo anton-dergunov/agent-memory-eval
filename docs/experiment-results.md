@@ -51,10 +51,12 @@ agree: `gemini-3.1-pro-preview` and `gemini-3.8-flash` gave the same verdict on
 
 With 67 questions only large gaps mean anything. Seven arms sit between 82%
 and 97%. Their intervals overlap except at the two ends (Graphiti's 71%–89%
-against retrieval's 90%–99%), and compared question by question even the
-clearest gap among them, retrieval over Mem0 by 9 questions to 0 (p = 0.004 on
-its own), does not survive a correction for making 21 comparisons at once. The
-order among them is not a result.
+against retrieval's 90%–99%). Tested pair by pair on the same questions
+(McNemar's test, one test for each of the 21 pairs), even the clearest gap,
+retrieval over Mem0, does not hold up: 9 questions only retrieval got right and
+none only Mem0 got right gives p = 0.004 on its own, short of the 0.05 / 21 ≈
+0.0024 that a Bonferroni correction asks of 21 tests. The order among them is
+not a result.
 Letta at its defaults is the one arm clearly below. With three lines added to
 its persona block, the part of Letta its users are meant to write, it scores
 90% and joins the others (point 4 and [findings/letta.md](findings/letta.md)). Between the arms that work, the
