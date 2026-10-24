@@ -82,9 +82,9 @@ notices a revision without writing it down and its search rarely finds the
 message again. Three lines in its persona block, asking it to date facts,
 update them and search with short words, bring it to 90%.
 
-Why keep a memory at all, then? Because the two pay at different times. A
-memory system pays once, to build its memory, and then each answer reads far
-less than the whole history. Full context pays for the whole history on every
+Why keep a memory at all, then? Because a memory system and full context pay
+at different times. A memory system pays once, to build its memory, and then
+each answer reads far less than the whole history. Full context pays for the whole history on every
 question, and a history only grows.
 
 <picture>
