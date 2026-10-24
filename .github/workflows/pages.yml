@@ -25,10 +25,12 @@ jobs:
 
       - uses: astral-sh/setup-uv@v6
 
-      # Pinned to a tag, so the site only changes its look when this line does.
+      # Lectern's latest commit on main, fetched afresh on every run, so the site
+      # picks up each improvement to the reader. A lectern change shows up here at
+      # the next push, or on "Run workflow".
       # Title, description and what to leave out are in lectern.toml.
       - name: Render notebooks
-        run: uvx --from "git+https://github.com/anton-dergunov/lectern@v0.2.0" lectern build . -o _site
+        run: uvx --refresh-package lectern --from "git+https://github.com/anton-dergunov/lectern@main" lectern build . -o _site
 
       - uses: actions/configure-pages@v5
 

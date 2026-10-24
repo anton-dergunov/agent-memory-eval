@@ -11,15 +11,10 @@ was retrieved, and how many calls it took. It then checks the same behaviour at
 a larger scale on the knowledge-update questions of
 [LongMemEval](https://arxiv.org/abs/2410.10813).
 
-Each notebook is rendered to a page at
-**[anton-dergunov.github.io/agent-memory-eval](https://anton-dergunov.github.io/agent-memory-eval/)**.
-GitHub's own notebook view works well on a desktop but often gives up on a
-tablet or phone, so the rendered page is the better link to follow and to share.
-
 ## Systems covered
 
 What sets the systems apart is one question: who decides what gets written to
-memory? The system names link to the rendered notebooks.
+memory?
 
 | System | Who writes | What is run |
 |---|---|---|
@@ -35,6 +30,10 @@ be read. Each notebook says at the top what it takes from the original system
 and what it leaves out. The experiment runs the real systems: Mem0 2.2.1,
 Graphiti 0.31.1 on Neo4j, Honcho v3.3.0 and Letta 0.16.8, all on the same
 model.
+
+The notebooks are in [notebooks/](notebooks/). The system names above link to
+their rendered pages, which read better on a tablet or phone than GitHub's
+notebook view.
 
 ## What each notebook shows
 
@@ -58,6 +57,8 @@ answerer make, `gemini-3.1-pro-preview` as judge. Not comparable to published
 LongMemEval results: each history is cut from about 48 sessions to 10, only
 one of the benchmark's question types is used (67 of its 500 questions), and
 the answering and judging models differ from the paper's.
+
+![Accuracy with its 95% interval, and cost per question on a log scale, for each arm](docs/figures/results.svg)
 
 | Arm | Accuracy | 95% interval | Cost per question | Model calls to write |
 |---|--:|---|--:|--:|

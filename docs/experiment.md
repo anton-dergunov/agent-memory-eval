@@ -3,8 +3,7 @@
 The notebooks run one hand-written conversation through each memory system.
 This experiment checks the same behaviour on real data: LongMemEval's
 knowledge-update questions, where the user states a fact and later revises it.
-The code is in `src/memeval`; results are in `results/`. The design and the
-decisions behind it are in [tasks/blog-post-plan.md](tasks/blog-post-plan.md).
+The code is in `src/memeval`; results are in `results/`.
 
 ## What is compared
 
@@ -84,12 +83,12 @@ repeated model call is served from `.cache/llm`.
   ledger elsewhere.
 - `python -m memeval.findings` rebuilds the tables behind the write-up
   (`docs/findings/`) from the result files.
+  `python3 scripts/plot_results.py` then redraws the README's chart from them.
 - The first main run fed Graphiti 8,000-character episodes and Letta whole
   sessions in one request; both are kept in `results/main/graphiti-chunk` and
   `letta-batch` and can be reproduced with `MEMEVAL_GRAPHITI_EPISODES=chunk`
   and `MEMEVAL_LETTA_INGEST=batch`. `letta-persona` is an arm of its own
-  (`LettaPersonaArm`); how it was run is in
-  [tasks/letta-persona-rerun.md](tasks/letta-persona-rerun.md).
+  (`LettaPersonaArm`).
 
 ## What is measured
 
