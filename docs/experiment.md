@@ -16,7 +16,7 @@ decisions behind it are in [tasks/blog-post-plan.md](tasks/blog-post-plan.md).
 | `mem0` | an extraction pipeline | mem0ai 2.2.1 (real library) | `search()` defaults |
 | `honcho-chat` | a background reasoner | Honcho v3.3.0 (real server) | the dialectic agent |
 | `honcho-repr` | the same store | the same server | `representation()` retrieval, no model |
-| `graphiti` | a pipeline into a dated graph, one episode per message | graphiti-core 0.31.1 on Neo4j 5.26 (real library) | `search()` defaults |
+| `graphiti` | a pipeline into a dated graph, one episode per message | graphiti-core 0.31.1 on Neo4j 5.26.31 (real library) | `search()` defaults |
 | `letta` | the answering agent, with tools, one step per user message | Letta 0.16.8 (real server, its last Python release) | the agent answers itself |
 | `letta-persona` | the same agent, with three lines in its persona on keeping facts current | the same | the agent answers itself |
 

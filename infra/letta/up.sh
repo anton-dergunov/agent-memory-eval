@@ -15,6 +15,8 @@ repo="$(cd "$here/../.." && pwd)"
 dir="$repo/vendor/letta"
 proxy="${MEMEVAL_LETTA_PROXY:-http://127.0.0.1:8101/v1}"
 pg=postgresql://postgres:postgres@127.0.0.1:5433/letta
+# pgvector 0.8.7 on Postgres 15, what the pg15 tag pointed to on 17-18 Oct 2026.
+pg_image=pgvector/pgvector:0.8.7-pg15@sha256:47af0b65960b14f1c6945aa4ccae37836c632e9a6fe0eea9160936e616e5b2e9
 mkdir -p "$dir/logs" "$dir/home"
 
 if [ "${1:-}" = "--reset" ]; then docker rm -f memeval-letta-db >/dev/null 2>&1 || true; docker volume rm -f memeval-letta-db >/dev/null; fi
@@ -22,7 +24,7 @@ if ! docker ps --format '{{.Names}}' | grep -qx memeval-letta-db; then
   docker rm -f memeval-letta-db >/dev/null 2>&1 || true
   docker run -d --name memeval-letta-db -p 127.0.0.1:5433:5432 \
     -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=letta \
-    -v memeval-letta-db:/var/lib/postgresql/data pgvector/pgvector:pg15 >/dev/null
+    -v memeval-letta-db:/var/lib/postgresql/data "$pg_image" >/dev/null
 fi
 for _ in $(seq 30); do docker exec memeval-letta-db pg_isready -U postgres >/dev/null 2>&1 && break; sleep 2; done
 docker exec memeval-letta-db psql -U postgres -d letta -qc "CREATE EXTENSION IF NOT EXISTS vector" >/dev/null
