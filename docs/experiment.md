@@ -83,7 +83,7 @@ repeated model call is served from `.cache/llm`.
   ledger elsewhere.
 - `python -m memeval.findings` rebuilds the tables behind the write-up
   (`docs/findings/`) from the result files.
-  `python3 scripts/plot_results.py` then redraws the README's chart from them.
+  `uv run scripts/plot_results.py` then redraws the README's two charts.
 - The first main run fed Graphiti 8,000-character episodes and Letta whole
   sessions in one request; both are kept in `results/main/graphiti-chunk` and
   `letta-batch` and can be reproduced with `MEMEVAL_GRAPHITI_EPISODES=chunk`

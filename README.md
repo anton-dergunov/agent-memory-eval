@@ -60,10 +60,10 @@ the answering and judging models differ from the paper's.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/figures/results-dark.svg">
-  <img alt="Accuracy with its 95% interval, and cost per question, for each arm: accuracy sits between 82% and 97% for all but Letta at its defaults, while cost ranges from $0.002 to $0.640 per question" src="docs/figures/results.svg">
+  <img alt="Accuracy with its 95% interval, and the cost of building the memory and answering, for each arm: accuracy sits between 82% and 97% for all but Letta at its defaults, while cost ranges from $0.002 to $0.640 per question" src="docs/figures/results.svg">
 </picture>
 
-| Arm | Accuracy | 95% interval | Cost per question | Model calls to write |
+| Arm | Accuracy | 95% interval | Cost to build and answer | Model calls to write |
 |---|--:|---|--:|--:|
 | Full context | 90% | 80%–95% | $0.007 | 0 |
 | Retrieval (BM25 over raw turns) | 97% | 90%–99% | $0.002 | 0 |
@@ -79,9 +79,18 @@ On a history this short most memory systems lose little against reading the
 whole thing, and what separates them is cost: Graphiti spends 30 times what
 textual memory spends. At its defaults Letta trails, because its agent often
 notices a revision without writing it down and its search rarely finds the
-message again. Three lines in its persona block,
-asking it to date facts, update them and search with short words, bring it to
-90%.
+message again. Three lines in its persona block, asking it to date facts,
+update them and search with short words, bring it to 90%.
+
+Why keep a memory at all, then? Because the two pay at different times. A
+memory system pays once, to build its memory, and then each answer reads far
+less than the whole history. Full context pays for the whole history on every
+question, and a history only grows.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/figures/answering-dark.svg">
+  <img alt="Once the memory is built, the tokens each answer reads and what it costs: full context reads about 25,000 tokens for $0.0065 per question, most memory systems read 500 to 1,500 tokens for under $0.001" src="docs/figures/answering.svg">
+</picture>
 
 The analysis, the failure breakdown and the
 full-history run are in [docs/experiment-results.md](docs/experiment-results.md),
