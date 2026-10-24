@@ -11,24 +11,24 @@ was retrieved, and how many calls it took. It then checks the same behaviour at
 a larger scale on the knowledge-update questions of
 [LongMemEval](https://arxiv.org/abs/2410.10813).
 
-**Status: work in progress.** The notebooks run today. The benchmark experiment
-has run; its results are below and in
-[docs/experiment-results.md](docs/experiment-results.md). The write-up is a nine-part blog series, in draft; its plan is
-in [docs/tasks/blog-post-plan.md](docs/tasks/blog-post-plan.md).
+Each notebook is rendered to a page at
+**[anton-dergunov.github.io/agent-memory-eval](https://anton-dergunov.github.io/agent-memory-eval/)**.
+GitHub's own notebook view works well on a desktop but often gives up on a
+tablet or phone, so the rendered page is the better link to follow and to share.
 
 ## Systems covered
 
-The systems are grouped by one question: who decides what gets written to
-memory?
+What sets the systems apart is one question: who decides what gets written to
+memory? The system names link to the rendered notebooks.
 
-| Who writes | System | Notebook | What is run |
-|---|---|---|---|
-| An extraction pipeline | Mem0 | [mem0](notebooks/mem0.ipynb) | the real library |
-| A pipeline, into a dated graph | Zep / Graphiti | [zep-graphiti](notebooks/zep-graphiti.ipynb) | Graphiti's prompts, driven by local code |
-| The agent itself | Letta (MemGPT) | [letta](notebooks/letta.ipynb) | Letta's prompts and tool descriptions, driven by local code |
-| A background reasoner | Honcho | [honcho](notebooks/honcho.ipynb) | our prompts, written from Honcho's published definitions |
-| A background rewriter of one text file | Textual memory | [textual](notebooks/textual.ipynb) | our code, about 50 lines; the same prompt as the experiment |
-| Nobody | Full context; plain retrieval over raw turns | experiment only | our code |
+| System | Who writes | What is run |
+|---|---|---|
+| [Mem0](https://anton-dergunov.github.io/agent-memory-eval/notebooks/mem0.html) | An extraction pipeline | the real library |
+| [Zep / Graphiti](https://anton-dergunov.github.io/agent-memory-eval/notebooks/zep-graphiti.html) | A pipeline, into a dated graph | Graphiti's prompts, driven by local code |
+| [Letta (MemGPT)](https://anton-dergunov.github.io/agent-memory-eval/notebooks/letta.html) | The agent itself | Letta's prompts and tool descriptions, driven by local code |
+| [Honcho](https://anton-dergunov.github.io/agent-memory-eval/notebooks/honcho.html) | A background reasoner | our prompts, written from Honcho's published definitions |
+| [Textual memory](https://anton-dergunov.github.io/agent-memory-eval/notebooks/textual.html) | A background rewriter of one text file | our code, about 50 lines; the same prompt as the experiment |
+| Full context; plain retrieval over raw turns | Nobody | our code, in the experiment only |
 
 Three of the five notebooks are re-implementations made so that every step can
 be read. Each notebook says at the top what it takes from the original system
@@ -53,8 +53,11 @@ facts.
 ## Results on LongMemEval
 
 67 knowledge-update questions, history trimmed to 10 sessions (about 28,000
-tokens), `gemini-3.1-flash-lite` in every seat, `gemini-3.1-pro-preview` as
-judge. Not comparable to published LongMemEval results.
+tokens), `gemini-3.1-flash-lite` for every model call the systems and the
+answerer make, `gemini-3.1-pro-preview` as judge. Not comparable to published
+LongMemEval results: each history is cut from about 48 sessions to 10, only
+one of the benchmark's question types is used (67 of its 500 questions), and
+the answering and judging models differ from the paper's.
 
 | Arm | Accuracy | 95% interval | Cost per question | Model calls to write |
 |---|--:|---|--:|--:|
@@ -64,17 +67,24 @@ judge. Not comparable to published LongMemEval results.
 | Mem0 | 84% | 73%–91% | $0.040 | 10 |
 | Honcho, dialectic chat | 87% | 76%–93% | $0.029 | 38 |
 | Honcho, representation | 93% | 84%–97% | $0.028 | 38 |
-| Graphiti | 82% | 71%–89% | $0.640 | 720 |
-| Letta | 69% | 57%–78% | $0.132 | 81 |
-| Letta, persona that keeps facts current | 90% | 80%–95% | $0.152 | 88 |
+| Graphiti, sessions cut into 8,000-character episodes | 18% | 11%–29% | $0.238 | 121 |
+| Graphiti, one episode per message | 82% | 71%–89% | $0.640 | 720 |
+| Letta, each session in one request | 58% | 46%–69% | $0.029 | 11 |
+| Letta, one agent step per user message | 69% | 57%–78% | $0.132 | 81 |
+| Letta, the same, with a persona that keeps facts current | 90% | 80%–95% | $0.152 | 88 |
 
 On a history this short most memory systems lose little against reading the
 whole thing, and what separates them is cost: Graphiti spends 30 times what
 textual memory spends. How a system is fed matters as much as which system it
-is: Graphiti scored 18% and Letta 58% until the conversation was handed to
-them the way they were built for (one message per episode; one agent turn
-per user message). At its defaults Letta still trails, because its agent often notices a revision
-without writing it down and its search rarely finds the message again. Three lines in its persona block, asking it to date facts, update them and search with short words, bring it to 90%. The analysis, the failure breakdown and the
+is: the first Graphiti and Letta rows are the same systems before the
+conversation was handed to them the way they were built for, one message per
+episode and one agent step per user message. At its defaults Letta still
+trails, because its agent often notices a revision without writing it down and
+its search rarely finds the message again. Three lines in its persona block,
+asking it to date facts, update them and search with short words, bring it to
+90%.
+
+The analysis, the failure breakdown and the
 full-history run are in [docs/experiment-results.md](docs/experiment-results.md),
 with the tables in [docs/findings/](docs/findings/); how to run it is in
 [docs/experiment.md](docs/experiment.md).
@@ -82,10 +92,13 @@ with the tables in [docs/findings/](docs/findings/); how to run it is in
 ## Running the notebooks
 
 ```bash
-uv venv --python 3.12 .venv
-uv pip install --python .venv/bin/python -e .
-.venv/bin/python -m ipykernel install --user --name agent-memory-eval --display-name agent-memory-eval
+uv sync --python 3.12
+uv run python -m ipykernel install --user --name agent-memory-eval --display-name agent-memory-eval
 ```
+
+`uv sync` creates `.venv` with the versions pinned in `uv.lock`; add
+`--extra experiment` if the same environment should also run the experiment,
+since a plain `uv sync` removes the experiment's packages.
 
 Put `GEMINI_API_KEY` in a `.env` file at the top of the repository, open a
 notebook in VS Code or JupyterLab, and pick the **agent-memory-eval** kernel.
@@ -132,17 +145,7 @@ lectern serve
 ```
 
 run at the top of the repository, then open the address it prints (for example
-`http://<your-mac>.local:8642/`) on the tablet. For the rare time a cell has to
-be run from the tablet, `lectern lab notebooks` starts JupyterLab behind its
-password.
-
-Every push to `main` also renders the notebooks with lectern and publishes them
-to GitHub Pages (`.github/workflows/pages.yml`). Nothing is executed during that
-build. To preview it locally:
-
-```bash
-lectern build . -o _site --clean && open _site/index.html
-```
+`http://<your-mac>.local:8642/`) on the tablet.
 
 ## Layout
 
@@ -153,6 +156,3 @@ lectern build . -o _site --clean && open _site/index.html
 | [infra/](infra/) | Scripts that start the Honcho, Neo4j and Letta servers |
 | [results/](results/) | Every result of the pilot, main and full-history runs, with the call ledgers |
 | [docs/](docs/) | [experiment.md](docs/experiment.md) (how it runs), [experiment-results.md](docs/experiment-results.md) (what it found) |
-| [docs/tasks/](docs/tasks/) | The plan from these notebooks to the finished post |
-| [docs/blog/](docs/blog/) | The outline of the post, with the material collected for it |
-| [docs/history/](docs/history/) | The original project idea, with notes on how it aged |

@@ -39,3 +39,6 @@ results/*/_logs/
 
 # Written by the Letta server into its working directory at startup
 openapi_letta.json
+
+# Notes taken in lectern while reading. Personal, never published.
+*.notes.json

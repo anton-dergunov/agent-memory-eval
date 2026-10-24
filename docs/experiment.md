@@ -55,7 +55,7 @@ Needs Python 3.12+ with [uv](https://docs.astral.sh/uv/), Docker, a Google Cloud
 project with Vertex AI, and Application Default Credentials.
 
 ```bash
-uv venv --python 3.12 .venv && uv pip install -e ".[experiment]"
+uv sync --python 3.12 --extra experiment
 mkdir -p data && curl -L -o data/longmemeval_s_cleaned.json \
   https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned/resolve/main/longmemeval_s_cleaned.json
 export GOOGLE_CLOUD_PROJECT=<your project>      # and gcloud auth application-default login
@@ -64,7 +64,7 @@ infra/honcho/up.sh       # Honcho API + deriver on :8000 (Postgres, Redis in Doc
 infra/graphiti/up.sh     # Neo4j on :7687
 infra/letta/up.sh        # Letta server on :8283
 
-.venv/bin/python infra/check_arm.py honcho     # smoke-test one arm (a few cents)
+uv run python infra/check_arm.py honcho        # smoke-test one arm (a few cents)
 scripts/run-split.sh pilot                     # every arm on the pilot, then score and report
 scripts/run-split.sh main
 ARMS="full-context retrieval textual mem0" scripts/run-split.sh full
