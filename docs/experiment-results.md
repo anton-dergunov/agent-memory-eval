@@ -37,7 +37,7 @@ history is trimmed, there is one question type, and the models differ.
 | full context | 90% | 80%–95% | 0.007 | 0 | 0 | none |
 | retrieval (BM25, top 10 rounds) | 97% | 90%–99% | 0.002 | 0 | 0 | none |
 | textual memory | 93% | 84%–97% | 0.022 | 10 | 27 | none |
-| Mem0 | 84% | 73%–91% | 0.040 | 10 | 38 | none |
+| Mem0 | 84% | 73%–91% | 0.039 | 10 | 38 | none |
 | Honcho, dialectic chat | 87% | 76%–93% | 0.029 | 38 | 115 | API, deriver, Postgres, Redis |
 | Honcho, representation | 93% | 84%–97% | 0.028 | 38 | 115 | (the same) |
 | Graphiti | 82% | 71%–89% | 0.640 | 720 | 839 | Neo4j |
@@ -50,7 +50,11 @@ agree: `gemini-3.1-pro-preview` and `gemini-3.8-flash` gave the same verdict on
 130 of 132 answers judged by both.
 
 With 67 questions only large gaps mean anything. Seven arms sit between 82%
-and 97% with overlapping intervals, and the order among them is not a result.
+and 97%. Their intervals overlap except at the two ends (Graphiti's 71%–89%
+against retrieval's 90%–99%), and compared question by question even the
+clearest gap among them, retrieval over Mem0 by 9 questions to 0 (p = 0.004 on
+its own), does not survive a correction for making 21 comparisons at once. The
+order among them is not a result.
 Letta at its defaults is the one arm clearly below. With three lines added to
 its persona block, the part of Letta its users are meant to write, it scores
 90% and joins the others (point 4 and [findings/letta.md](findings/letta.md)). Between the arms that work, the

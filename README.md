@@ -58,30 +58,28 @@ LongMemEval results: each history is cut from about 48 sessions to 10, only
 one of the benchmark's question types is used (67 of its 500 questions), and
 the answering and judging models differ from the paper's.
 
-![Accuracy with its 95% interval, and cost per question on a log scale, for each arm](docs/figures/results.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/figures/results-dark.svg">
+  <img alt="Accuracy with its 95% interval, and cost per question, for each arm: accuracy sits between 82% and 97% for all but Letta at its defaults, while cost ranges from $0.002 to $0.640 per question" src="docs/figures/results.svg">
+</picture>
 
 | Arm | Accuracy | 95% interval | Cost per question | Model calls to write |
 |---|--:|---|--:|--:|
 | Full context | 90% | 80%–95% | $0.007 | 0 |
 | Retrieval (BM25 over raw turns) | 97% | 90%–99% | $0.002 | 0 |
 | Textual memory | 93% | 84%–97% | $0.022 | 10 |
-| Mem0 | 84% | 73%–91% | $0.040 | 10 |
+| Mem0 | 84% | 73%–91% | $0.039 | 10 |
 | Honcho, dialectic chat | 87% | 76%–93% | $0.029 | 38 |
 | Honcho, representation | 93% | 84%–97% | $0.028 | 38 |
-| Graphiti, sessions cut into 8,000-character episodes | 18% | 11%–29% | $0.238 | 121 |
-| Graphiti, one episode per message | 82% | 71%–89% | $0.640 | 720 |
-| Letta, each session in one request | 58% | 46%–69% | $0.029 | 11 |
-| Letta, one agent step per user message | 69% | 57%–78% | $0.132 | 81 |
-| Letta, the same, with a persona that keeps facts current | 90% | 80%–95% | $0.152 | 88 |
+| Graphiti | 82% | 71%–89% | $0.640 | 720 |
+| Letta | 69% | 57%–78% | $0.132 | 81 |
+| Letta, persona that keeps facts current | 90% | 80%–95% | $0.152 | 88 |
 
 On a history this short most memory systems lose little against reading the
 whole thing, and what separates them is cost: Graphiti spends 30 times what
-textual memory spends. How a system is fed matters as much as which system it
-is: the first Graphiti and Letta rows are the same systems before the
-conversation was handed to them the way they were built for, one message per
-episode and one agent step per user message. At its defaults Letta still
-trails, because its agent often notices a revision without writing it down and
-its search rarely finds the message again. Three lines in its persona block,
+textual memory spends. At its defaults Letta trails, because its agent often
+notices a revision without writing it down and its search rarely finds the
+message again. Three lines in its persona block,
 asking it to date facts, update them and search with short words, bring it to
 90%.
 
