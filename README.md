@@ -13,28 +13,30 @@ a larger scale on the knowledge-update questions of
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/figures/architecture/overview-dark.svg">
-  <img alt="The loop every memory system in the series is built on. Write: a conversation is turned into memory (consolidation, updating), and the question is who writes: nobody, a pipeline, a background process or the answering agent. Memory: what is kept, in a shape that differs per system (a text profile, a list of facts, a dated graph, blocks in the prompt, conclusions at levels). Read: a new question gets what it needs (retrieval, condensation), and the question is whether everything is inserted or a search selects. Use: the answering model gets instructions, what memory returned, and the question." src="docs/figures/architecture/overview.svg">
+  <img alt="The loop every memory system in the series is built on. Write: a conversation is turned into memory (consolidation, updating), and the question is who writes: nobody, a pipeline, the answering agent or a background process. Memory: what is kept, in a shape that differs per system (a text profile, a list of facts, a dated graph, blocks in the prompt, conclusions at levels). Read: a new question gets what it needs (retrieval, condensation), and the question is whether everything is inserted or a search selects. Use: the answering model gets instructions, what memory returned, and the question." src="docs/figures/architecture/overview.svg">
 </picture>
 
 ## Systems covered
 
 What sets the systems apart is one question: who decides what gets written to
-memory?
+memory? The notebooks are numbered in reading order, from the simplest system
+to the most elaborate.
 
-| System | Who writes | What is run |
-|---|---|---|
-| [Mem0](https://anton-dergunov.github.io/agent-memory-eval/notebooks/mem0.html) | An extraction pipeline | the real library |
-| [Zep / Graphiti](https://anton-dergunov.github.io/agent-memory-eval/notebooks/zep-graphiti.html) | A pipeline, into a dated graph | Graphiti's prompts, driven by local code |
-| [Letta (MemGPT)](https://anton-dergunov.github.io/agent-memory-eval/notebooks/letta.html) | The agent itself | Letta's prompts and tool descriptions, driven by local code |
-| [Honcho](https://anton-dergunov.github.io/agent-memory-eval/notebooks/honcho.html) | A background reasoner | our prompts, written from Honcho's published definitions |
-| [Textual memory](https://anton-dergunov.github.io/agent-memory-eval/notebooks/textual.html) | A background rewriter of one text file | our code, about 50 lines; the same prompt as the experiment |
-| Full context; plain retrieval over raw turns | Nobody | our code, in the experiment only |
+| | System | Who writes | What is run |
+|--:|---|---|---|
+| 0 | [No memory, and full context](https://anton-dergunov.github.io/agent-memory-eval/notebooks/00-introduction.html) | Nobody | our code: the conversation, and the two baselines |
+| 1 | [Textual memory](https://anton-dergunov.github.io/agent-memory-eval/notebooks/01-textual.html) | A background rewriter of one text file | our code, about 50 lines; the same prompt as the experiment |
+| 2 | [Mem0](https://anton-dergunov.github.io/agent-memory-eval/notebooks/02-mem0.html) | An extraction pipeline | the real library |
+| 3 | [Zep / Graphiti](https://anton-dergunov.github.io/agent-memory-eval/notebooks/03-zep-graphiti.html) | A pipeline, into a dated graph | Graphiti's prompts, driven by local code |
+| 4 | [Letta (MemGPT)](https://anton-dergunov.github.io/agent-memory-eval/notebooks/04-letta.html) | The agent itself | Letta's prompts and tool descriptions, driven by local code |
+| 5 | [Honcho](https://anton-dergunov.github.io/agent-memory-eval/notebooks/05-honcho.html) | A background reasoner | our prompts, written from Honcho's published definitions |
+| | Plain retrieval over raw turns | Nobody | our code, in the experiment only |
 
-Three of the five notebooks are re-implementations made so that every step can
-be read. Each notebook says at the top what it takes from the original system
-and what it leaves out. The experiment runs the real systems: Mem0 2.2.1,
-Graphiti 0.31.1 on Neo4j, Honcho v3.3.0 and Letta 0.16.8, all on the same
-model.
+Three of the five system notebooks are re-implementations made so that every
+step can be read. Each notebook says at the top what it takes from the
+original system and what it leaves out. The experiment runs the real systems:
+Mem0 2.2.1, Graphiti 0.31.1 on Neo4j, Letta 0.16.8 and Honcho v3.3.0, all on
+the same model.
 
 The notebooks are in [notebooks/](notebooks/). The system names above link to
 their rendered pages, which read better on a tablet or phone than GitHub's
@@ -43,15 +45,16 @@ notebook view.
 ## What each notebook shows
 
 Every notebook starts with one screen that explains the idea, with a diagram,
-and then uses the same hand-written conversation: two sessions four months
-apart and a question in a third. The user states a diet in the first session,
-reverses it in the second, and introduces two other people with constraints of
-their own. The closing question can only be answered correctly from the updated
-facts.
+and then uses the same hand-written conversation, introduced in notebook 0: two
+sessions four months apart and a question in a third. The user states a diet in
+the first session, reverses it in the second, and introduces two other people
+with constraints of their own. The closing question can only be answered
+correctly from the updated facts. Each system notebook then follows four
+stages:
 
-1. **Write.** What the system keeps from a conversation and what it drops.
-2. **Revise.** What happens to the old fact when a new one contradicts it.
-3. **Read.** What a new session gets back, and whether the answer changes.
+1. **Writing.** What the system keeps from a conversation and what it drops.
+2. **Revising.** What happens to the old fact when a new one contradicts it.
+3. **Reading.** What a new session gets back, and whether the answer changes.
 4. **Cost.** Model calls and tokens for the same two sessions.
 
 The five runs side by side:
@@ -81,11 +84,11 @@ the answering and judging models differ from the paper's.
 | Retrieval (BM25 over raw turns) | 97% | 90%–99% | $0.002 | 0 |
 | Textual memory | 93% | 84%–97% | $0.022 | 10 |
 | Mem0 | 84% | 73%–91% | $0.039 | 10 |
-| Honcho, dialectic chat | 87% | 76%–93% | $0.029 | 38 |
-| Honcho, representation | 93% | 84%–97% | $0.028 | 38 |
 | Graphiti | 82% | 71%–89% | $0.640 | 720 |
 | Letta | 69% | 57%–78% | $0.132 | 81 |
 | Letta, persona that keeps facts current | 90% | 80%–95% | $0.152 | 88 |
+| Honcho, dialectic chat | 87% | 76%–93% | $0.029 | 38 |
+| Honcho, representation | 93% | 84%–97% | $0.028 | 38 |
 
 On a history this short most memory systems lose little against reading the
 whole thing, and what separates them is cost: Graphiti spends 30 times what
@@ -144,7 +147,7 @@ generated and gitignored. The pairing is declared in `jupytext.toml`, so any
 clone can recreate it:
 
 ```bash
-jupytext --sync notebooks/mem0.ipynb
+jupytext --sync notebooks/02-mem0.ipynb
 ```
 
 VS Code users get both directions as tasks (`.vscode/tasks.json`), each guarded
@@ -171,8 +174,8 @@ run at the top of the repository, then open the address it prints (for example
 
 | Path | Contents |
 |---|---|
-| [notebooks/](notebooks/) | One notebook per system, `config.py` for the models, `letta_source.py` for fetching Letta's prompts |
+| [notebooks/](notebooks/) | Notebook 0 (the conversation and the two baselines), then one numbered notebook per system; `config.py` for the models, `letta_source.py` for fetching Letta's prompts |
 | [src/memeval/](src/memeval/) | The LongMemEval experiment: data, model calls, one module per arm, judge, report |
-| [infra/](infra/) | Scripts that start the Honcho, Neo4j and Letta servers |
+| [infra/](infra/) | Scripts that start the Neo4j (Graphiti), Letta and Honcho servers |
 | [results/](results/) | Every result of the pilot, main and full-history runs, with the call ledgers |
 | [docs/](docs/) | [experiment.md](docs/experiment.md) (how it runs), [experiment-results.md](docs/experiment-results.md) (what it found) |

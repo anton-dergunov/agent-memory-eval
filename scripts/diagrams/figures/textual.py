@@ -1,6 +1,6 @@
 """Textual memory: an LLM rewrites one text profile after each session; all of it is read.
 
-Every example below is from the committed run of notebooks/textual.ipynb, shortened to fit:
+Every example below is from the committed run of notebooks/01-textual.ipynb, shortened to fit:
 the profile after session 2 (section 2), the cost table (section 4), the answer (section 3).
 """
 
@@ -103,7 +103,7 @@ def draw(theme: Theme) -> Canvas:
     answer = answer_card(c, wx, band + 22, ww, ANSWER, NEEDS)
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)
 
-    footer(c, max(prompt.bottom, answer.bottom) + 24, "Example from notebooks/textual.ipynb, shortened")
+    footer(c, max(prompt.bottom, answer.bottom) + 24, "Example from notebooks/01-textual.ipynb, shortened")
     return c
 
 

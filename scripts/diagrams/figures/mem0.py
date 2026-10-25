@@ -1,6 +1,6 @@
 """Mem0: an LLM extracts short facts into a vector store; a similarity search reads them.
 
-Every example below is from the committed run of notebooks/mem0.ipynb, shortened to fit:
+Every example below is from the committed run of notebooks/02-mem0.ipynb, shortened to fit:
 the stored facts from section 1 and 2 (the `add()` results and the store dump), the scores
 from section 3, the answer from "Does it change the answer?".
 """
@@ -114,7 +114,7 @@ def draw(theme: Theme) -> Canvas:
     answer = answer_card(c, wx, band + 22, ww, ANSWER, NEEDS)
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)
 
-    footer(c, max(prompt.bottom, answer.bottom) + 24, "Example from notebooks/mem0.ipynb, shortened")
+    footer(c, max(prompt.bottom, answer.bottom) + 24, "Example from notebooks/02-mem0.ipynb, shortened")
     return c
 
 

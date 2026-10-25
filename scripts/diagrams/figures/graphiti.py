@@ -1,6 +1,6 @@
 """Zep / Graphiti: four LLM steps turn each message into dated facts in a graph; a hybrid search reads them.
 
-Every example below is from the committed run of notebooks/zep-graphiti.ipynb, shortened to fit:
+Every example below is from the committed run of notebooks/03-zep-graphiti.ipynb, shortened to fit:
 the graph after session 2 (section 3, the facts table), the calls per step (section 7), the
 default search and its answer (sections 4 and 6).
 """
@@ -126,7 +126,7 @@ def draw(theme: Theme) -> Canvas:
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)
 
     footer(c, max(prompt.bottom, answer.bottom) + 24,
-           "Example from notebooks/zep-graphiti.ipynb, shortened")
+           "Example from notebooks/03-zep-graphiti.ipynb, shortened")
     return c
 
 

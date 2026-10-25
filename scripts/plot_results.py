@@ -46,11 +46,11 @@ GROUPS = [
     ("Memory systems", [
         ("textual", "Textual memory", ""),
         ("mem0", "Mem0", ""),
-        ("honcho-chat", "Honcho", "dialectic chat"),
-        ("honcho-repr", "Honcho", "representation"),
         ("graphiti", "Graphiti", ""),
         ("letta", "Letta", ""),
         ("letta-persona", "Letta", "persona that keeps facts current"),
+        ("honcho-chat", "Honcho", "dialectic chat"),
+        ("honcho-repr", "Honcho", "representation"),
     ]),
 ]
 ARMS = [arm for _heading, members in GROUPS for arm, *_ in members]

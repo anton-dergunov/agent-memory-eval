@@ -15,7 +15,7 @@ NAME = "overview"
 TITLE = "How a memory system works"
 ALT = ("The loop every memory system in the series is built on. Write: a conversation is turned "
        "into memory (consolidation, updating), and the question is who writes: nobody, a "
-       "pipeline, a background process or the answering agent. Memory: what is kept, in a shape "
+       "pipeline, the answering agent or a background process. Memory: what is kept, in a shape "
        "that differs per system (a text profile, a list of facts, a dated graph, blocks in the "
        "prompt, conclusions at levels). Read: a new question gets what it needs (retrieval, "
        "condensation), and the question is whether everything is inserted or a search selects. "
@@ -63,7 +63,7 @@ def draw(theme: Theme) -> Canvas:
     arrow(c, [(wx + 30, b1.bottom + 4), (wx + 30, write.y)], t["person"].accent)
     arrow(c, [(rx + 30, q.bottom + 4), (rx + 30, read.y)], t["person"].accent)
     w_q = _question(c, wx, write.bottom + 14, ww, "Who writes?",
-                    "nobody · a pipeline · a background process · the answering agent")
+                    "nobody · a pipeline · the answering agent · a background process")
     r_q = _question(c, rx, read.bottom + 14, rw, "Insert all, or select?",
                     "the whole memory goes in, or a search picks part of it")
 

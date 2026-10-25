@@ -12,13 +12,13 @@ Main run: 67 knowledge-update questions, 10 sessions each. Generated from the re
 | retrieval | 67 | 97% | 90%–99% | 0.0017 | 0 | 0 | none |
 | textual | 67 | 93% | 84%–97% | 0.0219 | 10 | 27 | none |
 | mem0 | 67 | 84% | 73%–91% | 0.0395 | 10 | 38 | none (local Qdrant files) |
-| honcho-chat | 67 | 87% | 76%–93% | 0.0291 | 38 | 115 | Honcho API + deriver, Postgres, Redis |
-| honcho-repr | 67 | 93% | 84%–97% | 0.0281 | 38 | 115 | Honcho API + deriver, Postgres, Redis |
 | graphiti | 67 | 82% | 71%–89% | 0.6405 | 720 | 839 | Neo4j |
 | graphiti-chunk | 67 | 18% | 11%–29% | 0.2380 | 121 | 145 | Neo4j |
 | letta | 67 | 69% | 57%–78% | 0.1324 | 81 | 379 | Letta server, Postgres |
 | letta-batch | 67 | 58% | 46%–69% | 0.0288 | 11 | 43 | Letta server, Postgres |
 | letta-persona | 67 | 90% | 80%–95% | 0.1518 | 88 | 265 | Letta server, Postgres |
+| honcho-chat | 67 | 87% | 76%–93% | 0.0291 | 38 | 115 | Honcho API + deriver, Postgres, Redis |
+| honcho-repr | 67 | 93% | 84%–97% | 0.0281 | 38 | 115 | Honcho API + deriver, Postgres, Redis |
 
 ## 1. How a system is fed decides whether it remembers
 
@@ -40,13 +40,13 @@ Share of questions. *Stored* columns read the whole memory; *delivered* columns 
 | retrieval | n/a | n/a | n/a | 84% | 84% | 54 | 52/54 | 5,761 |
 | textual | 85% | 64% | 7% | 85% | 60% | 39 | 37/39 | 1,513 |
 | mem0 | 78% | 81% | 37% | 78% | 76% | 45 | 41/45 | 930 |
-| honcho-chat | 82% | 81% | 64% | 82% | 60% | 39 | 33/39 | 77 |
-| honcho-repr | 82% | 81% | 64% | 84% | 81% | 53 | 51/53 | 935 |
 | graphiti | 78% | 70% | 21% | 75% | 69% | 39 | 37/39 | 284 |
 | graphiti-chunk | 19% | 25% | 22% | 19% | 25% | 3 | 2/3 | 292 |
 | letta | 42% | 33% | 24% | 63% | 36% | 15 | 12/15 | 884 |
 | letta-batch | 1% | 1% | 1% | 54% | 16% | 5 | 5/5 | 1,074 |
 | letta-persona | 79% | 66% | 9% | 82% | 67% | 43 | 42/43 | 1,288 |
+| honcho-chat | 82% | 81% | 64% | 82% | 60% | 39 | 33/39 | 77 |
+| honcho-repr | 82% | 81% | 64% | 84% | 81% | 53 | 51/53 | 935 |
 
 ## 3. Asking for the current value or an earlier one
 
@@ -58,13 +58,13 @@ Hand-labelled from the question text: 8 questions ask for an earlier value (0774
 | retrieval | 54/56 | 8/8 | 3/3 |
 | textual | 52/56 | 7/8 | 3/3 |
 | mem0 | 48/56 | 6/8 | 2/3 |
-| honcho-chat | 48/56 | 7/8 | 3/3 |
-| honcho-repr | 52/56 | 7/8 | 3/3 |
 | graphiti | 46/56 | 8/8 | 1/3 |
 | graphiti-chunk | 11/56 | 1/8 | 0/3 |
 | letta | 39/56 | 6/8 | 1/3 |
 | letta-batch | 37/56 | 1/8 | 1/3 |
 | letta-persona | 50/56 | 8/8 | 2/3 |
+| honcho-chat | 48/56 | 7/8 | 3/3 |
+| honcho-repr | 52/56 | 7/8 | 3/3 |
 
 ## Accuracy, cost and time (full)
 

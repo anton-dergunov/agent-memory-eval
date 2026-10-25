@@ -13,11 +13,11 @@ The code is in `src/memeval`; results are in `results/`.
 | `retrieval` | nobody | BM25 over raw rounds (user turn + reply) | top 10 rounds |
 | `textual` | a separate rewrite call after each session | our ~50 lines, after PersonaMem-v3's Textual Memory | the whole profile |
 | `mem0` | an extraction pipeline | mem0ai 2.2.1 (real library) | `search()` defaults |
-| `honcho-chat` | a background reasoner | Honcho v3.3.0 (real server) | the dialectic agent |
-| `honcho-repr` | the same store | the same server | `representation()` retrieval, no model |
 | `graphiti` | a pipeline into a dated graph, one episode per message | graphiti-core 0.31.1 on Neo4j 5.26.31 (real library) | `search()` defaults |
 | `letta` | the answering agent, with tools, one step per user message | Letta 0.16.8 (real server, its last Python release) | the agent answers itself |
 | `letta-persona` | the same agent, with three lines in its persona on keeping facts current | the same | the agent answers itself |
+| `honcho-chat` | a background reasoner | Honcho v3.3.0 (real server) | the dialectic agent |
+| `honcho-repr` | the same store | the same server | `representation()` retrieval, no model |
 
 Every system runs on the same models, on Vertex AI:
 
@@ -29,7 +29,7 @@ Every system runs on the same models, on Vertex AI:
 - `gemini-3.8-flash` for the probes, and as a second judge on a subset so the
   agreement between judges can be reported.
 
-Systems that call their models themselves (Mem0, Honcho, Letta) reach Vertex
+Systems that call their models themselves (Mem0, Letta, Honcho) reach Vertex
 through `memeval.proxy`, an OpenAI-compatible endpoint. Graphiti uses its own
 Gemini client, wrapped. Either way every call goes through one disk cache, one
 cost ledger and one budget stop, so every arm's cost is measured the same way.

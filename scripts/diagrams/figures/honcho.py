@@ -1,7 +1,7 @@
 """Honcho: conclusions at four levels of certainty, derived on arrival and in the background;
 read through Honcho's own agent (dialectic) or as the conclusions themselves (representation).
 
-Every example below is from the committed run of notebooks/honcho.ipynb, shortened to fit: the
+Every example below is from the committed run of notebooks/05-honcho.ipynb, shortened to fit: the
 live store and what was retired (section 4), the induction (section 5), the dialectic call and
 its answer (section 7), the cost (section 8). The two read paths are Honcho's API, described in
 section 0 and in the experiment's findings; the notebook re-implements the dialectic one.
@@ -135,7 +135,7 @@ def draw(theme: Theme) -> Canvas:
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)
 
     footer(c, max(prompt.bottom, answer.bottom) + 24,
-           "Example from notebooks/honcho.ipynb, a re-implementation, shortened")
+           "Example from notebooks/05-honcho.ipynb, a re-implementation, shortened")
     return c
 
 

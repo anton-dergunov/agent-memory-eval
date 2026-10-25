@@ -11,11 +11,11 @@ The numbers come from three generated or hand-written companions:
   answer read and sorted by cause;
 - one account per system, following each wrong answer through the model calls
   and saying how the right ones were reached:
-  [Letta](findings/letta.md), [Graphiti](findings/graphiti.md),
-  [Mem0](findings/mem0.md), [Honcho](findings/honcho.md),
-  [textual memory](findings/textual.md),
-  [full context](findings/full-context.md) and
-  [retrieval](findings/retrieval.md).
+  [full context](findings/full-context.md),
+  [retrieval](findings/retrieval.md),
+  [textual memory](findings/textual.md), [Mem0](findings/mem0.md),
+  [Graphiti](findings/graphiti.md), [Letta](findings/letta.md) and
+  [Honcho](findings/honcho.md).
 
 Every number can be traced to `results/<split>/<arm>/<qid>.json` and the call
 ledgers saved next to them. The raw model calls (requests and replies) are
@@ -25,7 +25,8 @@ Runs: 17–18 October 2026. 67 knowledge-update questions (the 72 without
 abstention, minus 5 pilot questions used for checking), each history trimmed
 to both evidence sessions plus 8 distractors, about 28,000 tokens; then 25 of
 them again with the whole history, about 124,000 tokens. One model,
-`gemini-3.1-flash-lite`, in every seat; `gemini-3.1-pro-preview` as judge.
+`gemini-3.1-flash-lite`, for every model call the systems and the answerer
+make; `gemini-3.1-pro-preview` as judge.
 
 **These numbers are not comparable to published LongMemEval results.** The
 history is trimmed, there is one question type, and the models differ.
@@ -38,11 +39,11 @@ history is trimmed, there is one question type, and the models differ.
 | retrieval (BM25, top 10 rounds) | 97% | 90%–99% | 0.002 | 0 | 0 | none |
 | textual memory | 93% | 84%–97% | 0.022 | 10 | 27 | none |
 | Mem0 | 84% | 73%–91% | 0.039 | 10 | 38 | none |
-| Honcho, dialectic chat | 87% | 76%–93% | 0.029 | 38 | 115 | API, deriver, Postgres, Redis |
-| Honcho, representation | 93% | 84%–97% | 0.028 | 38 | 115 | (the same) |
 | Graphiti | 82% | 71%–89% | 0.640 | 720 | 839 | Neo4j |
 | Letta | 69% | 57%–78% | 0.132 | 81 | 379 | Letta server, Postgres |
 | Letta, persona that keeps facts current | 90% | 80%–95% | 0.152 | 88 | 265 | (the same) |
+| Honcho, dialectic chat | 87% | 76%–93% | 0.029 | 38 | 115 | API, deriver, Postgres, Redis |
+| Honcho, representation | 93% | 84%–97% | 0.028 | 38 | 115 | (the same) |
 
 Cost is what the system spent writing, reading and answering, from the call
 ledger; judging and probes are extra and the same for every arm. The judges
@@ -114,11 +115,11 @@ every question:
 | retrieval | n/a | n/a | n/a | 54 | 52/54 | 5,761 |
 | textual memory | 85% | 64% | 7% | 39 | 37/39 | 1,513 |
 | Mem0 | 78% | 81% | 37% | 45 | 41/45 | 930 |
-| Honcho chat | 82% | 81% | 64% | 39 | 33/39 | 77 |
-| Honcho repr | 82% | 81% | 64% | 53 | 51/53 | 935 |
 | Graphiti | 78% | 70% | 21% | 39 | 37/39 | 284 |
 | Letta | 42% | 33% | 24% | 15 | 12/15 | 884 |
 | Letta, persona | 79% | 66% | 9% | 43 | 42/43 | 1,288 |
+| Honcho chat | 82% | 81% | 64% | 39 | 33/39 | 77 |
+| Honcho repr | 82% | 81% | 64% | 53 | 51/53 | 935 |
 
 Three readings:
 
@@ -156,11 +157,11 @@ overwrite would lose the earlier value:
 | retrieval | 54 | 8 | 3 |
 | textual memory | 52 | 7 | 3 |
 | Mem0 | 48 | 6 | 2 |
-| Honcho chat | 48 | 7 | 3 |
-| Honcho repr | 52 | 7 | 3 |
 | Graphiti | 46 | 8 | 1 |
 | Letta | 39 | 6 | 1 |
 | Letta, persona | 50 | 8 | 2 |
+| Honcho chat | 48 | 7 | 3 |
+| Honcho repr | 52 | 7 | 3 |
 
 It does not show here. Textual memory, which rewrites its profile, answers 7
 of the 8, and its rewrites often keep the history in the line itself ("15 …
@@ -182,17 +183,12 @@ system next to it):
   with a write step: 4 of Mem0's 11 wrong answers, 6 of Graphiti's 12, 14 of
   Letta's 21. Typically the revision was mentioned in passing ("By the way, I
   just finished my 5th project since starting painting classes").
-- **Honcho's dialectic agent refuses to choose.** Five of its nine wrong
-  answers decline to pick between two dated values ("there is conflicting
-  information… clarification is required"). Given the same conclusions
-  directly, the representation path answers; this is most of the six-point gap
-  between the two.
-- **Mem0 adds instead of replacing.** "Attended three sessions" and "attended
-  five sessions" come back as two facts, and the answer is 3 + 5 = 8.
 - **Textual memory invites subtraction.** Its profile records running counts
   with their history ("The user has 25 postcards in their collection as of
   2023-11-30 (up from 17 items reported on 2023-08-11)"), and the answer to
   "how many new postcards have I added" becomes 25 − 17 = 8 (the key: 25).
+- **Mem0 adds instead of replacing.** "Attended three sessions" and "attended
+  five sessions" come back as two facts, and the answer is 3 + 5 = 8.
 - **Graphiti's dates can close the wrong fact.** It dates a fact by when it
   became true, not when it was said. "The user visited Paris with their family
   last month", said in May, became valid from April 1; "a recent family trip to Hawaii"
@@ -225,6 +221,11 @@ system next to it):
   `finish_reason=content_filter` with no message while the agent read a
   history about a named book, and Letta stops on such a reply. It is counted
   as wrong.
+- **Honcho's dialectic agent refuses to choose.** Five of its nine wrong
+  answers decline to pick between two dated values ("there is conflicting
+  information… clarification is required"). Given the same conclusions
+  directly, the representation path answers; this is most of the six-point gap
+  between the two.
 
 ## 5. What trimming hid: the full history
 
@@ -248,15 +249,17 @@ to run on 124,000-token histories:
 - **The cost of memory grows with the history at write time.** Textual memory
   costs 13 times more per question on the full history (one rewrite per
   session, of a growing profile), Mem0 4.5 times; retrieval costs the same,
-  because it does nothing until asked. Read-time context stays flat for every
-  memory system.
+  because it does nothing until asked. What an answer reads stays flat for
+  Mem0 and retrieval. Textual memory's profile, read whole by every answer,
+  grew from about 1,500 tokens to 5,600, still a twentieth of what full
+  context reads.
 
 ## Limits
 
 - Trimmed history for the main run, one question type, 67 questions, one
-  model in every seat. In Graphiti's extraction and Letta's agent the model's
-  judgement is the memory policy; a stronger model would change those two
-  rows most. For Letta the persona moved the row further than feeding it
+  model for every call but the judge's. In Graphiti's extraction and Letta's
+  agent the model's judgement is the memory policy; a stronger model would
+  change those two rows most. For Letta the persona moved the row further than feeding it
   correctly did (69% → 90%, against 58% → 69%).
 - Each fact is stated once and revised once. A system whose value is inferring
   patterns from repetition (Honcho's claim) has nothing to work on here.

@@ -1,6 +1,6 @@
 """Models and the Gemini calls shared by every notebook in this directory.
 
-Change the model names here and all four notebooks follow.
+Change the model names here and every notebook follows.
 
 `generate` and `embed` are thin wrappers over the google-genai client. They add
 what a notebook should not have to show: pacing for the free tier, a retry when

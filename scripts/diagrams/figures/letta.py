@@ -1,6 +1,6 @@
 """Letta (MemGPT): the answering agent edits memory blocks that sit in its own prompt.
 
-Every example below is from the committed run of notebooks/letta.ipynb: the `human` block after
+Every example below is from the committed run of notebooks/04-letta.ipynb: the `human` block after
 session 2 (section 2, verbatim), the tool calls and their cost (sections 1, 2 and 4), the
 September turn (section 3).
 """
@@ -110,7 +110,7 @@ def draw(theme: Theme) -> Canvas:
     answer = answer_card(c, wx, band + 22, ww, ANSWER, NEEDS)
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)
 
-    footer(c, max(prompt.bottom, answer.bottom) + 24, "Example from notebooks/letta.ipynb")
+    footer(c, max(prompt.bottom, answer.bottom) + 24, "Example from notebooks/04-letta.ipynb")
     return c
 
 
