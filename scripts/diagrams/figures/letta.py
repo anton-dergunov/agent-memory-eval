@@ -8,7 +8,7 @@ September turn (section 3).
 from __future__ import annotations
 
 from ..kit import (BOLD, ITALIC, MONO, SANS, Box, Canvas, W, answer_card, arrow, bubble, chip, column,
-                   footer, frame, heading, node, panel, prompt_card, wrap)
+                   footer, frame, heading, node, panel, prompt_card, segment, wrap)
 from ..theme import SMALL, TINY, Theme
 
 NAME = "letta"
@@ -16,10 +16,10 @@ TITLE = "Letta (MemGPT)"
 ALT = ("Letta's architecture, with the running example. Writing: the answering agent itself "
        "decides mid-turn what to remember and edits its human memory block with a tool call "
        "(memory_replace); a sleep-time agent can do this in the background instead. Memory: "
-       "small text blocks that are in the agent's prompt on every call, plus a recall log of "
+       "small text blocks that are in the agent's prompt on every call, plus a history of "
        "every message. In July the vegetarian line was replaced in place, with no history "
-       "kept. Reading: no search is needed for the blocks; the agent may search recall with a "
-       "tool. All six constraints were in the prompt.")
+       "kept. Reading: no search is needed for the blocks; the agent may search the message "
+       "history (recall) with a tool. All six constraints were in the prompt.")
 
 SESSION_1 = ("“I've been strictly vegetarian for eight years, and I have a severe peanut "
              "allergy … Indian, usually.”")
@@ -83,7 +83,8 @@ def draw(theme: Theme) -> Canvas:
     arrow(c, [(rx + 30, q.bottom + 4), (rx + 30, reader.y)], t["person"].accent)
 
     sx, sw = column("store")
-    blocks, recall = _memory(c, sx, top, sw)
+    # the history sits below the reading agent, so the search arrow can turn up into it
+    blocks, recall = _memory(c, sx, top, sw, history_top=reader.bottom + 14)
 
     y_write = writer.y + 34
     arrow(c, [(writer.right, y_write), (sx, y_write)], t.ink, label="edits")
@@ -91,17 +92,20 @@ def draw(theme: Theme) -> Canvas:
               (sx, blocks.bottom - 22)], t.muted, label="edits", at=0, offset=(-4, 0))
     y_read = reader.y + 34
     arrow(c, [(blocks.right, y_read), (reader.x, y_read)], t.muted, dashed=True, label="in the\nprompt")
-    y_search = min(recall.y + 30, reader.bottom - 14)
-    arrow(c, [(recall.right, y_search), (reader.x, y_search)], t.muted, dashed=True, label="searched")
+    arrow(c, [(recall.right, recall.cy), (reader.x + 28, recall.cy), (reader.x + 28, reader.bottom)],
+          t.muted, dashed=True, label="searched", at=0)
 
     band = max(sleeper.bottom, reader.bottom, recall.bottom) + 30
     heading(c, wx, band, W - 2 * wx, "USE", "what the answering model is given, and what it replies")
     px = sx
     prompt = prompt_card(
         c, px, band + 22, W - wx - px, "Letta's base prompt, then the persona block.",
-        "then the human block, as the agent left it",
-        "The five lines of the human block, 349 characters. The September turn also searched "
-        "recall once before it answered.", QUESTION)
+        [segment("the human block, always in the prompt", " ".join(HUMAN), icon="layers"),
+         segment("what conversation_search() returned",
+                 "Searched for “restaurant recommendations Berlin Kreuzberg paneer shellfish "
+                 "coeliac peanut allergy”: up to 10 past messages sharing those words, with "
+                 "their dates.", outlined=True, icon="history")],
+        QUESTION)
     arrow(c, [(reader.cx, reader.bottom), (reader.cx, prompt.y)], t.muted, dashed=True)
     answer = answer_card(c, wx, band + 22, ww, ANSWER, NEEDS)
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)
@@ -110,8 +114,9 @@ def draw(theme: Theme) -> Canvas:
     return c
 
 
-def _memory(c: Canvas, x: float, y: float, w: float) -> tuple[Box, Box]:
-    """The blocks, in the prompt on every call, with the July edit; then recall, outside it."""
+def _memory(c: Canvas, x: float, y: float, w: float, history_top: float) -> tuple[Box, Box]:
+    """The blocks, in the prompt on every call, with the July edit; then the message history,
+    outside the prompt, which Letta calls recall."""
     t = c.theme
     s, stale, both = t["store"], t["stale"], t["both"]
     inner = w - 12 - 20
@@ -146,8 +151,10 @@ def _memory(c: Canvas, x: float, y: float, w: float) -> tuple[Box, Box]:
         yy += 4
     chip(c, human.x + 10, human.bottom - 30, "replaced in place, no history", "stale", icon="x")
 
-    recall = panel(c, x, blocks.bottom + 16, w, 64, "history", "Recall", "outside the prompt")
-    c.text(x + 12, recall.y + 50, "every message, as it was said", TINY, SANS, s.ink)
+    recall = panel(c, x, max(blocks.bottom + 16, history_top), w, 70, "history", "Message history",
+                   outlined=True)
+    c.text(x + 12, recall.y + 46, "Every past message, outside the prompt.", TINY, SANS, s.ink)
+    c.text(x + 12, recall.y + 61, "Letta calls it recall.", TINY, ITALIC, t.muted)
     return blocks, recall
 
 

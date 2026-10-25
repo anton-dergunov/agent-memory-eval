@@ -8,7 +8,7 @@ default search and its answer (sections 4 and 6).
 from __future__ import annotations
 
 from ..kit import (BOLD, MEDIUM, SANS, Box, Canvas, W, answer_card, arrow, bubble, column, footer, frame,
-                   heading, measure, node, panel, prompt_card)
+                   heading, measure, node, panel, prompt_card, segment)
 from ..theme import TINY, Theme
 
 NAME = "graphiti"
@@ -64,8 +64,9 @@ HITS = [
     ("", "paneer dishes", None), ("", "vegetarian, ended", "stale"),
     ("", "peanut allergy", None),
 ]
-MISSED = ("Under the 0.6 floor, so left out: pescatarian 0.599, Jonas coeliac 0.596, Kreuzberg "
-          "0.542. The closed vegetarian fact passed at 0.608.")
+FLOOR = ("The search drops facts that score under 0.6. The closed vegetarian fact passed, at "
+         "0.608; the three below did not.", "stale")
+MISSED = ["pescatarian 0.599", "Jonas: coeliac 0.596", "Kreuzberg 0.542"]
 
 ANSWER = ("Will book a table for three: Indian with paneer, €40 a head, noting Anton's peanut "
           "allergy and that Lena eats no shellfish.")
@@ -118,8 +119,8 @@ def draw(theme: Theme) -> Canvas:
     prompt = prompt_card(
         c, px, band + 22, W - wx - px,
         "Facts are valid between their valid_at and invalid_at dates.",
-        "what search() returned, each with its dates", HITS, QUESTION, columns=3,
-        note=(MISSED, "stale"))
+        [segment("what search() returned, each with its dates", HITS, columns=3, note=FLOOR,
+                 missing=MISSED)], QUESTION)
     arrow(c, [(search.cx, search.bottom), (search.cx, prompt.y)], t.muted, dashed=True)
     answer = answer_card(c, wx, band + 22, ww, ANSWER, NEEDS)
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)

@@ -6,8 +6,8 @@ the profile after session 2 (section 2), the cost table (section 4), the answer 
 
 from __future__ import annotations
 
-from ..kit import (BOLD, ITALIC, MEDIUM, SANS, Box, Canvas, W, answer_card, arrow, bubble, column, footer,
-                   frame, heading, node, panel, prompt_card, wrap)
+from ..kit import (BOLD, ITALIC, MEDIUM, SANS, Box, Canvas, W, answer_card, arrow, bubble, chip, column, footer,
+                   frame, heading, measure, node, panel, prompt_card, segment, wrap)
 from ..theme import SMALL, TINY, Theme
 
 NAME = "textual"
@@ -96,9 +96,9 @@ def draw(theme: Theme) -> Canvas:
     px = sx
     prompt = prompt_card(
         c, px, band + 22, W - wx - px, "You are a booking assistant. Be brief and concrete.",
-        "what you remember about this user",
-        "The whole profile above, under its four headings: 153 words. The answer call read "
-        "365 tokens in all.", QUESTION)
+        [segment("what you remember about this user",
+                 "The whole profile above, under its four headings: 153 words. The answer call "
+                 "read 365 tokens in all.")], QUESTION)
     arrow(c, [(nothing.cx, nothing.bottom), (nothing.cx, prompt.y)], t.muted, dashed=True)
     answer = answer_card(c, wx, band + 22, ww, ANSWER, NEEDS)
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)
@@ -108,10 +108,11 @@ def draw(theme: Theme) -> Canvas:
 
 
 def _profile(c: Canvas, x: float, y: float, w: float) -> Box:
-    """The profile as a page, with the March version behind it: each rewrite replaces the page."""
+    """The profile as one page, under a line of its versions: each rewrite replaces the whole
+    page, so the March version is gone and only July's is kept."""
     t = c.theme
     s = t["store"]
-    page_w = w - 30
+    page_w = w - 20
     # measure the page first
     rows, h = [], 0.0
     for heading_text, lines in PROFILE:
@@ -124,12 +125,17 @@ def _profile(c: Canvas, x: float, y: float, w: float) -> Box:
             h += 2
         h += 6
     page_h = h + 16
-    box = panel(c, x, y, w, 48 + 16 + page_h + 32, "file-text", "Text profile", "153 words")
-    # the March page, replaced, peeking out behind
-    old = Box(x + 20, y + 48, w - 34, page_h)
-    c.rect(old, fill=t.card, stroke=t.line, r=6, opacity=0.55)
-    c.text(old.right - 8, old.y + 13, "March: 91 words, replaced", TINY - 1.5, ITALIC, t.muted, anchor="end")
-    page = Box(x + 10, y + 48 + 18, page_w, page_h)
+    box = panel(c, x, y, w, 48 + 56 + page_h + 32, "file-text", "Text profile", "one page")
+    # the March page, replaced whole by July's: a struck line above the page, an arrow into it
+    st = t["stale"]
+    vy = y + 50
+    c.icon("file-text", x + 12, vy, 15, st.accent, stroke=1.6)
+    label = "March page, 91 words"
+    c.text(x + 32, vy + 12, label, TINY, MEDIUM, st.accent)
+    c.line(x + 32, vy + 7.5, x + 32 + measure(label, TINY, MEDIUM), vy + 7.5, st.accent, 1.1)
+    arrow(c, [(x + 19, vy + 20), (x + 19, y + 48 + 56)], s.accent, width=1.3)
+    c.text(x + 32, vy + 38, "rewritten whole after July", TINY, ITALIC, s.ink)
+    page = Box(x + 10, y + 48 + 56, page_w, page_h)
     c.rect(page, fill=t.card, stroke=t.line, r=6)
     headings = {name for name, _ in PROFILE}
     for text, mark, first, ry in rows:
@@ -142,5 +148,5 @@ def _profile(c: Canvas, x: float, y: float, w: float) -> Box:
         if first:
             c.text(page.x + 18, ty + 12, "·", TINY, BOLD, t.muted)
         c.text(page.x + 26, ty + 12, text, TINY, MEDIUM if mark else SANS, t["both"].ink if mark else t.ink)
-    c.text(x + 12, box.bottom - 12, "July: rewritten whole, 153 of 3,000 words", TINY, SANS, s.ink)
+    c.text(x + 12, box.bottom - 12, "The July page, 153 of 3,000 words", TINY, SANS, s.ink)
     return box

@@ -10,7 +10,7 @@ section 0 and in the experiment's findings; the notebook re-implements the diale
 from __future__ import annotations
 
 from ..kit import (BOLD, ITALIC, MEDIUM, MONO, SANS, Box, Canvas, W, answer_card, arrow, bubble, column,
-                   footer, frame, heading, measure, node, panel, prompt_card, wrap)
+                   footer, frame, heading, measure, node, panel, prompt_card, segment, wrap)
 from ..theme import TINY, Theme
 
 NAME = "honcho"
@@ -52,8 +52,8 @@ CITES = ("d21", ["e11", "e1"])   # d21's premises, drawn as links
 # The answering call's input: every live conclusion with its level (section 7), a few of 23.
 PACKET = [
     ("EXPLICIT ", "Anton is pescatarian", None), ("EXPLICIT ", "Jonas is coeliac", None),
-    ("EXPLICIT ", "Lena: no shellfish", None), ("DEDUCTIVE", "no longer vegetarian", None),
-    ("DEDUCTIVE", "avoid peanuts in Indian", None), ("INDUCTIVE", "strict accommodations", None),
+    ("EXPLICIT ", "Lena: no shellfish", None), ("DEDUCTIVE", "No longer vegetarian", None),
+    ("DEDUCTIVE", "Allergy is anaphylactic", None), ("INDUCTIVE", "Needs strict accommodations", None),
 ]
 
 ANSWER = ("Will book Indian in or near Kreuzberg, about 40 € a head, with paneer: no peanuts, "
@@ -92,13 +92,14 @@ def draw(theme: Theme) -> Canvas:
 
     # read: one of two paths, in a group
     group_top = row
-    c.text(rx, group_top + 12, "one of:", TINY, BOLD, t.muted)
+    c.text(rx + 42, group_top + 19, "one of two read paths", TINY, BOLD, t.muted)
     chat = node(
-        c, rx + 8, group_top + 22, rw - 16, "llm", "bot", "Dialectic", api="peer.chat(question)",
+        c, rx + 8, group_top + 40, rw - 16, "llm", "bot", "Dialectic", api="peer.chat(question)",
         body="Honcho's agent searches the conclusions and writes a short answer.",
         tags=[{"text": "the path this run takes", "role": "llm"}], pad=12)
+    c.text(rx + rw / 2, chat.bottom + 22, "or", TINY, ITALIC, t.muted, anchor="middle")
     rep = node(
-        c, rx + 8, chat.bottom + 10, rw - 16, "code", "list", "Representation",
+        c, rx + 8, chat.bottom + 40, rw - 16, "code", "list", "Representation",
         api="peer.representation()",
         body="Returns the matching conclusions themselves, with their dates.", pad=12)
     group = Box(rx, group_top, rw, rep.bottom + 10 - group_top)
@@ -115,8 +116,9 @@ def draw(theme: Theme) -> Canvas:
           t.ink, label="new levels", at=0, offset=(4, 0))
     arrow(c, [(sx + 90, store.bottom), (sx + 90, dreamer.y + 80), (dreamer.right, dreamer.y + 80)],
           t.muted, dashed=True, label="what is stored", at=1, offset=(10, 0))
-    arrow(c, [(store.right, chat.y + 34), (chat.x, chat.y + 34)], t.muted, dashed=True)
-    arrow(c, [(store.right, rep.y + 34), (rep.x, rep.y + 34)], t.muted, dashed=True)
+    # one arrow into the group: whichever path is used reads the same conclusions
+    y_read = min(group.y + 60, store.bottom - 30)
+    arrow(c, [(store.right, y_read), (group.x, y_read)], t.muted, dashed=True, label="conclusions")
 
     band = max(dreamer.bottom, group.bottom, store.bottom) + 30
     heading(c, wx, band, W - 2 * wx, "USE", "what the answering model is given, and what it replies")
@@ -125,8 +127,9 @@ def draw(theme: Theme) -> Canvas:
         c, px, band + 22, W - wx - px,
         "Act on EXPLICIT and DEDUCTIVE. Treat INDUCTIVE as a soft preference. Never assert "
         "an ABDUCTIVE claim.",
-        "every live conclusion, tagged with its level", PACKET, QUESTION, columns=2,
-        note=("6 of the 23 lines. The two retired conclusions are not among them.", None))
+        [segment("every live conclusion, tagged with its level", PACKET, columns=2,
+                 note=("6 of the 23 lines. The two retired conclusions are not among them.", None))],
+        QUESTION)
     arrow(c, [(group.cx, group.bottom), (group.cx, prompt.y)], t.muted, dashed=True)
     answer = answer_card(c, wx, band + 22, ww, ANSWER, NEEDS)
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)

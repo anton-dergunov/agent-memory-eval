@@ -8,7 +8,7 @@ from section 3, the answer from "Does it change the answer?".
 from __future__ import annotations
 
 from ..kit import (BOLD, SANS, Box, Canvas, W, answer_card, arrow, bubble, chip, column, footer, frame,
-                   heading, node, prompt_card, vector_strip)
+                   heading, node, prompt_card, segment, vector_strip)
 from ..theme import SMALL, TINY, Theme
 
 NAME = "mem0"
@@ -109,7 +109,7 @@ def draw(theme: Theme) -> Canvas:
     px = sx
     prompt = prompt_card(
         c, px, band + 22, W - wx - px, "You are a booking assistant. Be brief and concrete.",
-        "what search() returned, closest first", HITS, QUESTION, columns=3)
+        [segment("what search() returned, closest first", HITS, columns=3)], QUESTION)
     arrow(c, [(search.cx, search.bottom), (search.cx, prompt.y)], t.muted, dashed=True)
     answer = answer_card(c, wx, band + 22, ww, ANSWER, NEEDS)
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)

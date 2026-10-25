@@ -8,7 +8,7 @@ pinned to the write and read steps are the two axes of the series.
 from __future__ import annotations
 
 from ..kit import (BOLD, ITALIC, SANS, Box, Canvas, W, answer_card, arrow, bubble, chips, column, footer,
-                   frame, heading, icon_tile, node, panel, prompt_card)
+                   frame, heading, icon_tile, node, panel, prompt_card, segment)
 from ..theme import SMALL, TINY, Theme
 
 NAME = "overview"
@@ -20,6 +20,11 @@ ALT = ("The loop every memory system in the series is built on. Write: a convers
        "prompt, conclusions at levels). Read: a new question gets what it needs (retrieval, "
        "condensation), and the question is whether everything is inserted or a search selects. "
        "Use: the answering model gets instructions, what memory returned, and the question.")
+
+# Where the six operations are named (arXiv 2505.00675).
+CITATION = [("Operations as named in Du et al., ", SANS),
+            ("Rethinking Memory in LLM based Agents: Representations, Operations, and Emerging "
+             "Topics", ITALIC), (", 2025", SANS)]
 
 # The shape of the memory in each system of the series, in the order of the parts.
 SHAPES = [
@@ -72,9 +77,10 @@ def draw(theme: Theme) -> Canvas:
     heading(c, wx, band, W - 2 * wx, "USE", "what the answering model is given, and what it replies")
     px = sx
     prompt = prompt_card(
-        c, px, band + 22, W - wx - px, "The instructions.", "what memory returned",
-        "A profile, some facts, some conclusions: whatever the read step selected, and nothing "
-        "else from the past.", "“The new question.”")
+        c, px, band + 22, W - wx - px, "The instructions.",
+        [segment("what memory returned",
+                 "A profile, some facts, some conclusions: whatever the read step selected, and "
+                 "nothing else from the past.")], "“The new question.”")
     arrow(c, [(r_q.cx, r_q.bottom), (r_q.cx, prompt.y)], t.muted, dashed=True)
     answer = answer_card(c, wx, band + 22, ww, "The reply, which becomes part of the next "
                          "conversation, and so of what is written next.")
@@ -83,8 +89,7 @@ def draw(theme: Theme) -> Canvas:
     ay = band + 22 + 13
     arrow(c, [(wx - 4, ay + 26), (14, ay + 26), (14, b1.y + 50), (wx, b1.y + 50)],
           t["person"].accent, radius=8, width=1.2)
-    footer(c, max(prompt.bottom, answer.bottom) + 24,
-           "Operations as named in Rethinking Memory in LLM-based Agents")
+    footer(c, max(prompt.bottom, answer.bottom) + 24, CITATION)
     return c
 
 

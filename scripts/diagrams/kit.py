@@ -372,11 +372,17 @@ def _chips_height(specs: list[dict], width: float, gap: float = 6) -> float:
 
 
 def panel(c: Canvas, x: float, y: float, w: float, h: float, icon: str, title: str,
-          count: str | None = None, role: str = "store") -> Box:
-    """The box a memory is drawn in: the store's colours, its icon, name and size."""
+          count: str | None = None, role: str = "store", outlined: bool = False) -> Box:
+    """The box a memory is drawn in: the store's colours, its icon, name and size.
+
+    `outlined` draws only a dashed edge: memory kept outside the prompt, reached by a search.
+    """
     r = c.theme[role]
     box = Box(x, y, w, h)
-    c.rect(box, fill=r.wash, r=14)
+    if outlined:
+        c.rect(box, fill=c.theme.paper, stroke=r.accent, r=14, dash="5 4", width=1.2)
+    else:
+        c.rect(box, fill=r.wash, r=14)
     c.icon(icon, x + 12, y + 13, 18, r.accent, stroke=1.7)
     c.text(x + 38, y + 27, title, 15, BOLD, r.ink)
     if count:
@@ -539,63 +545,91 @@ def frame(c: Canvas, name: str, tagline: str, captions: dict[str, str] | None = 
     return bottom + 22
 
 
-def prompt_card(c: Canvas, x: float, y: float, w: float, instructions: str, memory_label: str,
-                memory: list[tuple[str, str, str | None]] | str, question: str, columns: int = 1,
-                note: tuple[str, str | None] | None = None) -> Box:
-    """The prompt the answering model gets: instructions, the memory part, the question.
+def segment(label: str, content: str | list[tuple[str, str, str | None]], columns: int = 1,
+            note: tuple[str, str | None] | None = None, missing: list[str] | None = None,
+            outlined: bool = False, icon: str = "database") -> dict:
+    """One part of the memory in a prompt, for prompt_card.
 
-    `memory` is a paragraph, or rows of (lead, text, role): a short lead such as a score or a
-    date in mono, then the text, tinted by role when given (e.g. "both" for a stale value).
-    `note` is a line under the memory, such as what a search left out, tinted by its role.
+    `content` is a paragraph, or rows of (lead, text, role): a short lead such as a score in
+    mono, then the text, tinted by role when given. `note` is a line under it. `missing` lists
+    what a search did not return, drawn as crossed-out chips. `outlined` draws the part with a
+    dashed edge, for memory that is kept outside the prompt and only searched.
     """
+    return dict(label=label, content=content, columns=columns, note=note, missing=missing,
+                outlined=outlined, icon=icon)
+
+
+def _segment_layout(seg: dict, inner: float) -> tuple[float, dict]:
+    content = seg["content"]
+    out = {}
+    if isinstance(content, str):
+        out["lines"] = wrap(content, SMALL, inner)
+        h = len(out["lines"]) * SMALL * 1.4
+    else:
+        out["col_w"] = (inner - (seg["columns"] - 1) * 14) / seg["columns"]
+        out["rows"] = -(-len(content) // seg["columns"])
+        h = out["rows"] * SMALL * 1.5
+    if seg["note"]:
+        out["note_lines"] = wrap(seg["note"][0], TINY, inner, ITALIC)
+        h += 6 + len(out["note_lines"]) * TINY * 1.35
+    if seg["missing"]:
+        out["missing_specs"] = [{"text": m, "role": "stale", "icon": "x", "outline": True}
+                                for m in seg["missing"]]
+        out["missing_h"] = _chips_height(out["missing_specs"], inner - 96)
+        h += 10 + out["missing_h"]
+    return 30 + h + 10, out
+
+
+def prompt_card(c: Canvas, x: float, y: float, w: float, instructions: str, segments: list[dict],
+                question: str) -> Box:
+    """The prompt the answering model gets: instructions, the memory parts, the question."""
     t = c.theme
     p, s = t["prompt"], t["store"]
     pad = 12
-    # measure every part first
+    inner = w - 2 * pad - 8
     ins = wrap(instructions, SMALL * 0.93, w - 2 * pad, MONO)
     q = wrap(question, SMALL, w - 2 * pad, ITALIC)
-    inner = w - 2 * pad - 8
-    if isinstance(memory, str):
-        mem_lines = wrap(memory, SMALL, inner)
-        mem_h = len(mem_lines) * SMALL * 1.4
-    else:
-        col_w = (inner - (columns - 1) * 14) / columns
-        rows = -(-len(memory) // columns)
-        mem_h = rows * SMALL * 1.5
-    note_lines = wrap(note[0], TINY, inner, ITALIC) if note else []
-    mem_h += len(note_lines) * TINY * 1.35 + (6 if note else 0)
+    layouts = [_segment_layout(seg, inner) for seg in segments]
     h_ins = 22 + len(ins) * SMALL * 1.35 + 6
-    h_mem = 30 + mem_h + 10
+    h_mem = sum(h for h, _ in layouts) + 6 * (len(layouts) - 1)
     h_q = len(q) * SMALL * 1.38 + 16
     box = Box(x, y, w, h_ins + h_mem + h_q + 6)
     c.rect(box, fill=p.wash, r=12)
     c.icon("scroll-text", x + pad, y + 9, 14, p.accent)
-    c.text(x + pad + 20, y + 20, "the prompt", SMALL, BOLD, p.ink)
+    c.text(x + pad + 20, y + 20, "The prompt", SMALL, BOLD, p.ink)
     for i, line in enumerate(ins):
         c.text(x + pad, y + 24 + SMALL + i * SMALL * 1.35, line, SMALL * 0.93, MONO, p.ink)
     my = y + h_ins
-    mem = Box(x + 5, my, w - 10, h_mem)
-    c.rect(mem, fill=t.card, stroke=s.accent, r=9, width=1.2)
-    c.icon("database", x + pad + 1, my + 9, 14, s.accent)
-    c.text(x + pad + 21, my + 20, memory_label, SMALL, BOLD, s.ink)
-    top = my + 30
-    if isinstance(memory, str):
-        for i, line in enumerate(mem_lines):
-            c.text(x + pad + 4, top + SMALL + i * SMALL * 1.4, line, SMALL, SANS, t.ink)
-    else:
-        for i, (lead, text, role) in enumerate(memory):
-            col, row = divmod(i, rows)
-            tx = x + pad + 4 + col * (col_w + 14)
-            ty = top + SMALL + row * SMALL * 1.5
-            lead_w = c.text(tx, ty, lead, SMALL * 0.9, MONO, t.muted) + 6 if lead else 0
-            colour = t[role].accent if role else t.ink
-            c.text(tx + lead_w, ty, text, SMALL, MEDIUM if role else SANS, colour)
-    if note:
-        ny = my + h_mem - 10 - len(note_lines) * TINY * 1.35
-        colour = t[note[1]].accent if note[1] else t.muted
-        for i, line in enumerate(note_lines):
-            c.text(x + pad + 4, ny + TINY + i * TINY * 1.35, line, TINY, ITALIC, colour)
-    qy = my + h_mem + 4
+    for seg, (seg_h, lay) in zip(segments, layouts):
+        c.rect(Box(x + 5, my, w - 10, seg_h), fill=t.card, stroke=s.accent, r=9, width=1.2,
+               dash="5 4" if seg["outlined"] else None)
+        c.icon(seg["icon"], x + pad + 1, my + 9, 14, s.accent)
+        c.text(x + pad + 21, my + 20, seg["label"][:1].upper() + seg["label"][1:], SMALL, BOLD, s.ink)
+        top = my + 30
+        content = seg["content"]
+        if isinstance(content, str):
+            for i, line in enumerate(lay["lines"]):
+                c.text(x + pad + 4, top + SMALL + i * SMALL * 1.4, line, SMALL, SANS, t.ink)
+            top += len(lay["lines"]) * SMALL * 1.4
+        else:
+            for i, (lead, text, role) in enumerate(content):
+                col, row = divmod(i, lay["rows"])
+                tx = x + pad + 4 + col * (lay["col_w"] + 14)
+                ty = top + SMALL + row * SMALL * 1.5
+                lead_w = c.text(tx, ty, lead, SMALL * 0.9, MONO, t.muted) + 6 if lead else 0
+                colour = t[role].accent if role else t.ink
+                c.text(tx + lead_w, ty, text, SMALL, MEDIUM if role else SANS, colour)
+            top += lay["rows"] * SMALL * 1.5
+        if seg["note"]:
+            colour = t[seg["note"][1]].accent if seg["note"][1] else t.muted
+            for i, line in enumerate(lay["note_lines"]):
+                c.text(x + pad + 4, top + 6 + TINY + i * TINY * 1.35, line, TINY, ITALIC, colour)
+            top += 6 + len(lay["note_lines"]) * TINY * 1.35
+        if seg["missing"]:
+            c.text(x + pad + 4, top + 10 + TINY + 4, "Not returned:", TINY, BOLD, t["stale"].accent)
+            chips(c, x + pad + 96, top + 10, lay["missing_specs"], gap=5, width=inner - 96)
+        my += seg_h + 6
+    qy = my - 6 + 4
     for i, line in enumerate(q):
         c.text(x + pad, qy + 6 + SMALL + i * SMALL * 1.38, line, SMALL, ITALIC, t["person"].ink)
     return box
@@ -606,7 +640,7 @@ def answer_card(c: Canvas, x: float, y: float, w: float, answer: str,
     """What the model replied, and which of the six things it needed reached the prompt."""
     t = c.theme
     icon_tile(c, x, y, "llm", "sparkles", 26)
-    c.text(x + 34, y + 18, "the answer", SMALL, BOLD, t["llm"].ink)
+    c.text(x + 34, y + 18, "The answer", SMALL, BOLD, t["llm"].ink)
     used = c.paragraph(x, y + 32, answer, w, SMALL, SANS, t.ink)
     bottom = y + 32 + used
     if needs:
@@ -642,8 +676,13 @@ def scorecard(c: Canvas, x: float, y: float, needs: list[tuple[str, str]], width
     return chips(c, x, y, specs, gap=5, width=width)
 
 
-def footer(c: Canvas, y: float, source: str, extra: list[tuple[str, str, str]] = ()) -> None:
-    """The legend, the same in every figure, and where the example came from."""
+def footer(c: Canvas, y: float, source: str | list[tuple[str, Face]],
+           extra: list[tuple[str, str, str]] = ()) -> None:
+    """The legend, the same in every figure, and where the example came from, at the right edge.
+
+    `source` is plain text, or runs of (text, face), e.g. to set a paper's title in italics.
+    It goes on the legend's line when there is room, and on a line of its own when not.
+    """
     t = c.theme
     c.line(M, y, W - M, y, t.line)
     x = M
@@ -655,9 +694,9 @@ def footer(c: Canvas, y: float, source: str, extra: list[tuple[str, str, str]] =
     x += 32 + c.text(x + 32, y + 13, "writes memory", TINY, SANS, t.muted) + 14
     c.line(x, y + 9, x + 26, y + 9, t.ink, 1.5, dash="5 4")
     x += 32 + c.text(x + 32, y + 13, "reads memory", TINY, SANS, t.muted) + 14
-    if x + 20 + measure(source, TINY) > W - M:
+    runs = [(source, SANS)] if isinstance(source, str) else source
+    width = sum(measure(text, TINY, face) for text, face in runs)
+    if x + 20 + width > W - M:
         y += 24
-        c.text(M, y + 13, source, TINY, SANS, t.muted)
-    else:
-        c.text(W - M, y + 13, source, TINY, SANS, t.muted, anchor="end")
+    c.runs(W - M - width, y + 13, [(text, face, t.muted) for text, face in runs], TINY)
     c.height = int(y + 34)
