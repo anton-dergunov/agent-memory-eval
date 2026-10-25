@@ -11,6 +11,11 @@ was retrieved, and how many calls it took. It then checks the same behaviour at
 a larger scale on the knowledge-update questions of
 [LongMemEval](https://arxiv.org/abs/2410.10813).
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/figures/architecture/overview-dark.svg">
+  <img alt="The loop every memory system in the series is built on. Write: a conversation is turned into memory (consolidation, updating), and the question is who writes: nobody, a pipeline, a background process or the answering agent. Memory: what is kept, in a shape that differs per system (a text profile, a list of facts, a dated graph, blocks in the prompt, conclusions at levels). Read: a new question gets what it needs (retrieval, condensation), and the question is whether everything is inserted or a search selects. Use: the answering model gets instructions, what memory returned, and the question." src="docs/figures/architecture/overview.svg">
+</picture>
+
 ## Systems covered
 
 What sets the systems apart is one question: who decides what gets written to
@@ -48,6 +53,13 @@ facts.
 2. **Revise.** What happens to the old fact when a new one contradicts it.
 3. **Read.** What a new session gets back, and whether the answer changes.
 4. **Cost.** Model calls and tokens for the same two sessions.
+
+The five runs side by side:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/figures/architecture/series-dark.svg">
+  <img alt="The same three sessions run through five memory systems. In March the user states a diet, an allergy and a cuisine; in July they change the diet, move, and name two guests with their own needs; in September they ask for a booking. Textual memory rewrote its profile with the old diet as &#x27;previously&#x27; (2 LLM calls to write; all six needs in the prompt). Mem0 added the new fact and kept the old one live (2 calls; both diets in the prompt). Graphiti closed the old fact and opened the new one (36 calls; its search returned only the old diet and missed gluten and the area). Letta&#x27;s agent overwrote the line in place (5 extra calls inside its turns; all six). Honcho retired the old fact and a conclusion drawn from it (6 calls; all six)." src="docs/figures/architecture/series.svg">
+</picture>
 
 ## Results on LongMemEval
 

@@ -27,17 +27,22 @@ QUESTION = ("“My sister and her partner are in town tonight. Book the three of
             "dinner — you know what we can and can't eat.”")
 
 # The store after both sessions, in the order the facts were added (section 2, the dump),
-# each cut to a line. The two facts about the diet are tagged: both are still live.
+# each cut to a line, grouped by the session that added them. The two facts about the diet
+# are tagged: both are still live.
 FACTS = [
-    ("Dinner for their sister's visit", None),
-    ("Strict vegetarian, eight years", "old, still live"),
-    ("Severe peanut allergy", None),
-    ("Likes Indian, paneer dishes", None),
-    ("Budget about 40 € a head", None),
-    ("Now pescatarian", "new"),
-    ("Moved to Kreuzberg in May", None),
-    ("Sister Lena: no shellfish", None),
-    ("Her partner Jonas: coeliac", None),
+    ("added in March · session 1", [
+        ("Dinner for their sister's visit", None),
+        ("Strict vegetarian, eight years", "old, still live"),
+        ("Severe peanut allergy", None),
+        ("Likes Indian, paneer dishes", None),
+        ("Budget about 40 € a head", None),
+    ]),
+    ("added in July · session 2", [
+        ("Now pescatarian", "new"),
+        ("Moved to Kreuzberg in May", None),
+        ("Sister Lena: no shellfish", None),
+        ("Her partner Jonas: coeliac", None),
+    ]),
 ]
 
 # What search() returned for the question, best first (section 3).
@@ -75,7 +80,7 @@ def draw(theme: Theme) -> Canvas:
     row = max(b2.bottom, q.bottom) + 34
     extractor = node(
         c, wx, row, ww, "llm", "sparkles", "Extractor", api="add(messages)",
-        body="Rewrites the session as short standalone facts. It only adds: nothing stored "
+        body="Distils the session into short standalone facts. It only adds: nothing stored "
              "is ever updated or deleted.",
         tags=[{"text": "1 LLM call per session", "role": "llm", "icon": "sparkles"}])
     search = node(
@@ -114,22 +119,29 @@ def draw(theme: Theme) -> Canvas:
 
 
 def _store(c: Canvas, x: float, y: float, w: float) -> Box:
-    """The vector store: each fact as one row with its embedding, in the order it was added."""
+    """The vector store: each fact as one row with its embedding, under the session that added it."""
     t = c.theme
     s, both = t["store"], t["both"]
     pad = 12
     text_x = 44
     rows, h = [], 48
-    for text, tag in FACTS:
-        row_h = 30 + (24 if tag else 0)
-        rows.append((text, tag, h, row_h))
-        h += row_h + 5
+    for when, facts in FACTS:
+        rows.append((when, None, h, 0))
+        h += 22
+        for text, tag in facts:
+            row_h = 30 + (24 if tag else 0)
+            rows.append((text, tag, h, row_h))
+            h += row_h + 5
     box = Box(x, y, w, h + 3)
     c.rect(box, fill=s.wash, r=14)
     c.icon("database", x + pad, y + 13, 18, s.accent, stroke=1.7)
     c.text(x + pad + 26, y + 27, "Vector store", 15, BOLD, s.ink)
-    c.text(x + w - pad, y + 27, f"{len(FACTS)} facts", TINY, SANS, s.ink, anchor="end")
+    count = sum(len(facts) for _, facts in FACTS)
+    c.text(x + w - pad, y + 27, f"{count} facts", TINY, SANS, s.ink, anchor="end")
     for text, tag, ry, row_h in rows:
+        if not row_h:   # a session's heading
+            c.text(x + pad, y + ry + 13, text, TINY, SANS, s.ink)
+            continue
         card = Box(x + 6, y + ry, w - 12, row_h)
         c.rect(card, fill=t.card, stroke=both.accent if tag else None, r=8, width=1.3)
         vector_strip(c, card.x + 8, card.y + 9, text, both.accent if tag else s.accent)
