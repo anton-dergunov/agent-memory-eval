@@ -274,31 +274,69 @@ def chips(c: Canvas, x: float, y: float, specs: list[dict], gap: float = 6, widt
     return cy + h - y
 
 
+# What each kind of step is called on its badge, and its icon.
+KIND = {"llm": ("LLM", "sparkles"), "code": ("code", "code-xml")}
+
+
+def kind_badge(c: Canvas, right: float, y: float, role: str) -> Box:
+    """The badge in a step's corner that says what runs there: an LLM call or plain code.
+
+    An LLM step's badge is filled, so the steps that cost a model call stand out.
+    """
+    r = c.theme[role]
+    label, icon = KIND[role]
+    size = TINY
+    h = size + 10
+    w = measure(label, size, BOLD) + 16 + size + 4
+    box = Box(right - w, y, w, h)
+    if role == "llm":
+        c.rect(box, fill=r.accent, r=h / 2)
+        colour = c.theme.paper
+    else:
+        c.rect(box, fill=c.theme.card, stroke=r.accent, r=h / 2)
+        colour = r.accent
+    c.icon(icon, box.x + 7, y + (h - size) / 2, size, colour, stroke=1.8)
+    c.text(box.x + 7 + size + 4, y + h / 2 + size * 0.36, label, size, BOLD, colour)
+    return box
+
+
 def node(c: Canvas, x: float, y: float, w: float, role: str, icon: str, title: str,
          body: str | None = None, api: str | None = None, tags: list[dict] | None = None,
          dashed: bool = False, pad: float = 14) -> Box:
-    """A step: icon tile and title, an optional API name, a description, then chips."""
+    """A step: icon tile and title, a badge for its kind, an optional API name, a description, chips.
+
+    A step that calls an LLM gets a border in the LLM colour, so it reads as one at a glance.
+    """
     t = c.theme
     inner = w - 2 * pad
+    badge_w = measure(KIND[role][0], TINY, BOLD) + 36 if role in KIND else 0
     # lay the content out once to know the height, then draw the card under it
-    title_lines = wrap(title, HEAD, inner - 40, BOLD)
+    title_lines = wrap(title, HEAD, inner - 40 - badge_w, BOLD)
     body_lines = wrap(body, SMALL, inner) if body else []
-    h = pad + max(30, len(title_lines) * HEAD * 1.25 + (16 if api else 0)) + 8
+    head_h = max(30, len(title_lines) * HEAD * 1.25 + (16 if api else 0))
+    h = pad + head_h + 8
     h += len(body_lines) * SMALL * 1.4 + (6 if body_lines else 0)
     tag_h = _chips_height(tags or [], inner)
     h += tag_h + (8 if tags else 0) + pad - 8
     box = Box(x, y, w, h)
-    c.rect(box, fill=t.paper if dashed else t.card, stroke=t[role].accent if dashed else t.line,
-           r=12, dash="5 4" if dashed else None, width=1.2 if dashed else 1.0)
+    if dashed:
+        c.rect(box, fill=t.paper, stroke=t[role].accent, r=12, dash="5 4", width=1.2)
+    elif role == "llm":
+        c.rect(box, fill=t.card, stroke=t[role].accent, r=12, width=1.6)
+    else:
+        c.rect(box, fill=t.card, stroke=t.line, r=12)
     icon_tile(c, x + pad, y + pad, role, icon)
-    ty = y + pad + HEAD * 0.95 + (2 if len(title_lines) == 1 and not api else 0)
+    if role in KIND:
+        kind_badge(c, box.right - 10, y + 10, role)
     if len(title_lines) == 1 and not api:
         ty = y + pad + 15 + HEAD * 0.36
+    else:
+        ty = y + pad + HEAD * 0.95
     for i, line in enumerate(title_lines):
         c.text(x + pad + 40, ty + i * HEAD * 1.25, line, HEAD, BOLD)
     if api:
         c.text(x + pad + 40, ty + len(title_lines) * HEAD * 1.25 - 2, api, SMALL * 0.95, MONO, t[role].accent)
-    by = y + pad + max(30, len(title_lines) * HEAD * 1.25 + (16 if api else 0)) + 8
+    by = y + pad + head_h + 8
     for i, line in enumerate(body_lines):
         c.text(x + pad, by + SMALL + i * SMALL * 1.4, line, SMALL, SANS, t.muted)
     if tags:
@@ -319,8 +357,11 @@ def _chips_height(specs: list[dict], width: float, gap: float = 6) -> float:
     return rows * (TINY + 10) + (rows - 1) * gap
 
 
-def bubble(c: Canvas, x: float, y: float, w: float, when: str, text: str, side: str = "left") -> Box:
-    """What the user said: a speech bubble with the date above it."""
+def bubble(c: Canvas, x: float, y: float, w: float, when: str, text: str, target: bool = False) -> Box:
+    """What the user said: a speech bubble with the date above it.
+
+    `target` marks the question the memory has to answer: outlined, and labelled as such.
+    """
     t = c.theme
     r = t["person"]
     c.icon("user", x, y, 15, r.accent, stroke=1.7)
@@ -331,10 +372,19 @@ def bubble(c: Canvas, x: float, y: float, w: float, when: str, text: str, side: 
     box = Box(x, top, w, h)
     # the tail points up at the person icon
     tail = x + 8
-    c.path(f"M{tail} {top + 1} L{tail + 3} {top - 6} L{tail + 13} {top + 1} Z", fill=r.wash)
-    c.rect(box, fill=r.wash, r=12)
+    stroke = dict(stroke=r.accent, width=1.6) if target else {}
+    c.rect(box, fill=r.wash, r=12, **stroke)
+    c.path(f"M{tail} {top + (1.6 if target else 1)} L{tail + 3} {top - 6} L{tail + 13} {top + (1.6 if target else 1)}",
+           fill=r.wash, **stroke)
+    if target:   # cover the outline where the tail joins the bubble
+        c.line(tail + 1.2, top + 0.9, tail + 11.8, top + 0.9, r.wash, 2.2, cap="butt")
     for i, line in enumerate(lines):
         c.text(x + 12, top + 9 + SMALL + i * SMALL * 1.4, line, SMALL, ITALIC, r.ink)
+    if target:   # a badge sitting on the bottom edge
+        badge = chip(c, box.right - 12, box.bottom - 11, "the question", "person", icon="target",
+                     face=BOLD, anchor="end")
+        c.rect(badge, stroke=r.accent, r=badge.h / 2, width=1.2)
+        return Box(x, y, w, badge.bottom - y)
     return Box(x, y, w, box.bottom - y)
 
 
@@ -435,21 +485,31 @@ def heading(c: Canvas, x: float, y: float, w: float, label: str, caption: str | 
     c.line(x, y + 7, x + w, y + 7, t.line)
 
 
-def frame(c: Canvas, name: str, tagline: str, write: list[dict], store: list[dict], read: list[dict]) -> float:
-    """The title, and the three column headings with chips saying who and when.
+# What each column means. The same words in every figure, so the frame is learnt once; a
+# figure passes its own where a system breaks the pattern (Letta writes while the user waits).
+CAPTIONS = {
+    "write": "Turns a conversation into memory. Runs once per session, so it can run in the background.",
+    "store": "What is kept from one session to the next.",
+    "read": "Finds what a new question needs. Runs on every question, while the user waits.",
+}
+
+
+def frame(c: Canvas, name: str, tagline: str, captions: dict[str, str] | None = None) -> float:
+    """The title, and the three column headings, each with a sentence saying what it is.
 
     Returns the y where the columns' content starts.
     """
     t = c.theme
+    captions = {**CAPTIONS, **(captions or {})}
     c.text(M, 52, name, TITLE, BOLD)
     used = c.paragraph(M, 62, tagline, W - 2 * M, SUBTITLE, SANS, t.muted)
     y = 62 + used + 26
     bottom = y
-    for key, label, specs in (("write", "WRITE", write), ("store", "MEMORY", store), ("read", "READ", read)):
+    for key, label in (("write", "WRITE"), ("store", "MEMORY"), ("read", "READ")):
         x, w = COLUMNS[key]
         heading(c, x, y, w, label)
-        bottom = max(bottom, y + 16 + chips(c, x, y + 16, specs, width=w))
-    return bottom + 20
+        bottom = max(bottom, y + 10 + c.paragraph(x, y + 10, captions[key], w, TINY, SANS, t.muted, 1.35))
+    return bottom + 22
 
 
 def prompt_card(c: Canvas, x: float, y: float, w: float, instructions: str, memory_label: str,
@@ -551,7 +611,7 @@ def footer(c: Canvas, y: float, source: str, extra: list[tuple[str, str, str]] =
     c.line(M, y, W - M, y, t.line)
     x = M
     y += 14
-    for role, icon, label in [("llm", "sparkles", "a model call"), ("code", "code-xml", "plain code"), *extra]:
+    for role, icon, label in [("llm", "sparkles", "an LLM call"), ("code", "code-xml", "plain code, no LLM"), *extra]:
         icon_tile(c, x, y, role, icon, 18)
         x += 24 + c.text(x + 24, y + 13, label, TINY, SANS, t.muted) + 14
     c.line(x, y + 9, x + 26, y + 9, t.ink, 1.5)
