@@ -21,8 +21,8 @@ ALT = ("The same three sessions run through five memory systems. In March the us
        "Mem0 added the new fact and kept the old one live (2 calls; both diets in the prompt). "
        "Graphiti closed the old fact and opened the new one (38 calls; its search returned only "
        "the old diet and missed the allergy, gluten and the area). Letta's agent overwrote the line in place "
-       "(5 extra calls inside its turns; all six). Honcho retired the old fact and a conclusion "
-       "drawn from it (6 calls; all six).")
+       "(5 extra calls inside its turns; all six). Honcho's background dream deleted the old fact, "
+       "but conclusions drawn from it stayed live (19 calls; both diets in the prompt).")
 
 NEEDS = ["diet", "peanuts", "shellfish", "gluten", "cuisine", "area"]
 ROWS = [
@@ -38,9 +38,9 @@ ROWS = [
     ("layers", "Letta", "The answering agent edits its own memory block.",
      "Overwrote the line in place. No history kept.", 5, "mid-turn",
      ["yes"] * 6),
-    ("list", "Honcho", "An LLM extracts; a background reasoner derives.",
-     "Retired the old fact, and a conclusion drawn from it.", 6, "",
-     ["yes"] * 6),
+    ("list", "Honcho", "An LLM extracts; background agents reason over the store.",
+     "Deleted the old fact. Conclusions drawn from it stay live.", 19, "",
+     ["both", "yes", "yes", "yes", "yes", "yes"]),
 ]
 
 SESSIONS = [
