@@ -1,0 +1,46 @@
+a. as in the notebook: memory edited in 2 of 10
+     memory_insert({"label": "human", "new_string": "Dietary requirements: Strictly vegetarian (8 years); severe, anaphylactic peanut allergy."})
+     no tool call
+     no tool call
+     memory_insert({"new_string": "User is strictly vegetarian (8 years) and has a severe, anaphylactic peanut allergy.", "label": "human"})
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+b. persona lines + dated message: memory edited in 0 of 10
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+
+Second run of the same replay (2026-11-15, the script was imported by the revision replay by mistake):
+a. as in the notebook: memory edited in 3 of 10
+     no tool call
+     no tool call
+     memory_insert({"new_string": "User is strictly vegetarian (8 years).\nUser has a severe (anaphylactic) peanut allergy.", "label": "human"})
+     no tool call
+     memory_replace({"old_string": "", "label": "human", "new_string": "User is strictly vegetarian (8 years).\nUser has a severe, anaphylactic peanut allergy."})
+     memory_insert({"label": "human", "new_string": "Dietary restrictions: Strictly vegetarian (8 years). Severe, anaphylactic peanut allergy."})
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+b. persona lines + dated message: memory edited in 0 of 10
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call
+     no tool call

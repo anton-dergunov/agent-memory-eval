@@ -1,7 +1,7 @@
 """Honcho: what each model call read, in the first real-server run of the series' example.
 
-Input tokens of all 19 calls, as the server's provider reported them (the blog's
-replays/honcho_server_runs/run1.json). For a dream agent, the first round's input is what every
+Input tokens of all 19 calls, as the server's provider reported them
+(scripts/replays/honcho_server_runs/run1.json). For a dream agent, the first round's input is what every
 round sends again (instructions, tool descriptions, the opening message); the rest of a later
 round is what the agent has read and called since. The deriver and the dialectic make one call
 each, drawn whole.

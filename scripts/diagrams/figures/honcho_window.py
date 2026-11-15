@@ -7,7 +7,7 @@ cache: 13 such calls, 10 with 20; no search_memory call at all), so the newest t
 The old value ("20 titles") is row 48 and the new one ("25 titles") row 88 of 114.
 
 Bottom: the same count for every store where both values could be located by their text (41 of
-67; the blog's replays/honcho_dream_window.py), and what the 67 stores held by level.
+67; scripts/replays/honcho_dream_window.py), and what the 67 stores held by level.
 """
 
 from __future__ import annotations

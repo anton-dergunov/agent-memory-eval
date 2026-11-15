@@ -2,7 +2,7 @@
 
 The message tags and the rules are Honcho 3.3.0's (src/deriver/prompts.py, create_documents in
 src/crud/document.py). The batch and the six rows are session 1 of the first real-server run of the
-series' example (the blog's replays/honcho_server_runs/run1.json).
+series' example (scripts/replays/honcho_server_runs/run1.json).
 """
 
 from __future__ import annotations

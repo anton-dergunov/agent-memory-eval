@@ -2,7 +2,7 @@
 
 Levels and writers are Honcho 3.3.0's (the deriver, src/dreamer/specialists.py, the tools in
 src/utils/agent_tools.py). The conclusions are from the first real-server run of the series'
-example (the blog's replays/honcho_server_runs/run1.json); the ids are short labels for this figure,
+example (scripts/replays/honcho_server_runs/run1.json); the ids are short labels for this figure,
 in the order the rows were stored (the server's own ids are 21-character random strings).
 """
 

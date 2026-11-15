@@ -1,0 +1,17 @@
+A. the 0.30 run's comparison under the 0.31.1 prompt
+  {'duplicate_facts': [], 'contradicted_facts': [0]}
+  {'duplicate_facts': [], 'contradicted_facts': [0]}
+  {'duplicate_facts': [], 'contradicted_facts': [0]}
+
+B. step 3 for s1.1 with the default entities
+  run 1: Anton -[PLANS_DINNER_FOR]-> Anton's sister | Anton is planning a dinner for his sister's visit to Berlin next week. | valid_at 2026-03-14T19:00:00Z
+  run 1: Anton's sister -[VISITS]-> Berlin | Anton's sister is visiting Berlin next week. | valid_at 2026-03-14T19:00:00Z
+  run 2: Anton -[PLANS_DINNER_FOR]-> Anton's sister | Anton is planning a dinner for his sister's visit to Berlin next week. | valid_at 2026-03-14T19:00:00Z
+  run 2: Anton's sister -[VISITS]-> Berlin | Anton's sister is visiting Berlin next week. | valid_at 2026-03-14T19:00:00Z
+  run 3: Anton -[PLANS_DINNER_FOR]-> Anton's sister | Anton is planning a dinner for his sister's visit to Berlin next week. | valid_at 2026-03-14T19:00:00Z
+  run 3: Anton's sister -[VISITS]-> Berlin | Anton's sister is visiting Berlin next week. | valid_at 2026-03-14T19:00:00Z
+
+D. name similarities
+  Lena ~ Anton's sister: 0.595
+  Lena ~ Anton's sister Lena: 0.779
+  Lena ~ Lena's partner Jonas: 0.787

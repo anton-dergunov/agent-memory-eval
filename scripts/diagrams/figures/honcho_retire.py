@@ -1,6 +1,6 @@
 """Honcho: what happened to the vegetarian fact, and to what rested on it, in the first server run.
 
-Rows, links and states from the blog's replays/honcho_server_runs/run1.json: the stored rows
+Rows, links and states from scripts/replays/honcho_server_runs/run1.json: the stored rows
 (deleted_at), the premise links (document_sources) and the peer card. The two rules at the bottom
 are delete_observations (src/utils/agent_tools.py) and the scope-removal cascade
 (src/deriver/scope_backfill.py) in Honcho 3.3.0.

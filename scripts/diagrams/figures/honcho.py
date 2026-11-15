@@ -1,8 +1,8 @@
 """Honcho: conclusions at levels, extracted on arrival and reasoned over later, in the background;
 read through Honcho's own agent (dialectic) or as the conclusions themselves (representation).
 
-Every example below is from the first run of a Honcho 3.3.0 server on the series' example (the
-blog's replays/honcho_server_runs/run1.json), shortened to fit: what the deriver stored, what the
+Every example below is from the first run of a Honcho 3.3.0 server on the series' example
+(scripts/replays/honcho_server_runs/run1.json), shortened to fit: what the deriver stored, what the
 two dreams added and deleted, the dialectic's prefetch and its reply. Counts are that run's.
 """
 

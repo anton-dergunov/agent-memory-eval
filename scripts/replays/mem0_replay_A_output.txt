@@ -1,0 +1,189 @@
+USER PROMPT SENT:
+## Summary
+
+
+## Last k Messages
+user: I'm planning a dinner for my sister's visit to Berlin next week. Worth saying up front: I've been strictly vegetarian for eight years, and I have a severe peanut allergy — anaphylactic, not a preference.
+assistant: Understood — no meat, and peanuts are a hard exclusion. Any cuisine you lean towards?
+user: Indian, usually. Paneer dishes especially. And I'd rather not spend more than about 40 euros a head.
+
+
+## Recently Extracted Memories
+[]
+
+## Existing Memories
+[{"id": "0", "text": "User is planning a dinner in Berlin for their sister's visit during the week of October 12, 2026."}, {"id": "1", "text": "User has been a strict vegetarian for eight years."}, {"id": "2", "text": "User has a budget of approximately 40 euros per person for the dinner."}, {"id": "3", "text": "User has a severe, anaphylactic peanut allergy."}, {"id": "4", "text": "User prefers Indian cuisine, specifically paneer dishes."}]
+
+## New Messages
+user: Small update on the food thing — I started eating fish about a month ago. So I'm pescatarian now, not vegetarian. Still no meat, and the peanut situation obviously hasn't changed.
+assistant: Noted, fish is in. Anything else shifted?
+user: I moved to Kreuzberg in May, so anything walkable from there is a plus.
+assistant: Kreuzberg, noted. Anything else for next time?
+user: Yes — my sister Lena is coming back in the autumn, and she's bringing her partner, Jonas.
+assistant: Lovely. Anything I should know about what they eat?
+user: Lena can't eat shellfish, and Jonas is coeliac.
+
+
+## Observation Date
+2026-10-07
+
+## Current Date
+2026-10-07
+
+# Output:
+============================================================
+--- reply 1 ---
+{
+  "memory": [
+    {
+      "id": "0",
+      "text": "User transitioned from a strict vegetarian diet to a pescatarian diet in September 2026, meaning they now eat fish but continue to avoid meat.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "1",
+      "text": "User relocated to the Kreuzberg neighborhood in Berlin in May 2026 and prefers restaurant options that are walkable from their new home.",
+      "attributed_to": "user"
+    },
+    {
+      "id": "2",
+      "text": "User's sister, Lena, is visiting in autumn 2026 and has a shellfish allergy.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "0"
+      ]
+    },
+    {
+      "id": "3",
+      "text": "User's sister Lena is bringing her partner, Jonas, for the autumn 2026 visit, and Jonas has coeliac disease, requiring a gluten-free diet.",
+      "attributed_to": "user"
+    }
+  ]
+}
+--- reply 2 ---
+{
+  "memory": [
+    {
+      "id": "0",
+      "text": "User transitioned from a strict vegetarian diet to a pescatarian diet in September 2026, meaning they now eat fish but continue to avoid meat.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "1",
+      "text": "User relocated to the Kreuzberg neighborhood in Berlin in May 2026 and prefers restaurant options that are walkable from their new home.",
+      "attributed_to": "user"
+    },
+    {
+      "id": "2",
+      "text": "User's sister, Lena, is visiting in autumn 2026 and has a shellfish allergy.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "0"
+      ]
+    },
+    {
+      "id": "3",
+      "text": "User's sister Lena is bringing her partner, Jonas, for the autumn 2026 visit, and Jonas has coeliac disease, requiring a gluten-free diet.",
+      "attributed_to": "user"
+    }
+  ]
+}
+--- reply 3 ---
+{
+  "memory": [
+    {
+      "id": "0",
+      "text": "User transitioned from a strict vegetarian diet to a pescatarian diet in September 2026, meaning they now eat fish but continue to avoid meat.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "1",
+      "text": "User relocated to the Kreuzberg neighborhood in Berlin in May 2026 and prefers restaurant options that are walkable from their new home.",
+      "attributed_to": "user"
+    },
+    {
+      "id": "2",
+      "text": "User's sister, Lena, is visiting in autumn 2026 and has a shellfish allergy.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "0"
+      ]
+    },
+    {
+      "id": "3",
+      "text": "User's sister Lena is bringing her partner, Jonas, for the autumn 2026 visit, and Jonas has coeliac disease, requiring a gluten-free diet.",
+      "attributed_to": "user"
+    }
+  ]
+}
+--- reply 4 ---
+{
+  "memory": [
+    {
+      "id": "0",
+      "text": "User transitioned from a strict vegetarian diet to a pescatarian diet in September 2026, meaning they now eat fish but continue to avoid meat.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "1",
+      "text": "User relocated to the Kreuzberg neighborhood in Berlin in May 2026 and prefers restaurant options that are walkable from their new home.",
+      "attributed_to": "user"
+    },
+    {
+      "id": "2",
+      "text": "User's sister, Lena, is visiting in autumn 2026 and has a shellfish allergy.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "0"
+      ]
+    },
+    {
+      "id": "3",
+      "text": "User's sister Lena is bringing her partner, Jonas, for the autumn 2026 visit, and Jonas has coeliac disease, requiring a gluten-free diet.",
+      "attributed_to": "user"
+    }
+  ]
+}
+--- reply 5 ---
+{
+  "memory": [
+    {
+      "id": "0",
+      "text": "User transitioned from a strict vegetarian diet to a pescatarian diet in September 2026, meaning they now eat fish but continue to avoid meat.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "1"
+      ]
+    },
+    {
+      "id": "1",
+      "text": "User relocated to the Kreuzberg neighborhood in Berlin in May 2026 and prefers restaurant options that are walkable from their new home.",
+      "attributed_to": "user"
+    },
+    {
+      "id": "2",
+      "text": "User's sister, Lena, is visiting in autumn 2026 and has a shellfish allergy.",
+      "attributed_to": "user",
+      "linked_memory_ids": [
+        "0"
+      ]
+    },
+    {
+      "id": "3",
+      "text": "User's sister Lena is bringing her partner, Jonas, for the autumn 2026 visit, and Jonas has coeliac disease, requiring a gluten-free diet.",
+      "attributed_to": "user"
+    }
+  ]
+}

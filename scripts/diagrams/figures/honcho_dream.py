@@ -1,7 +1,7 @@
 """Honcho: when a dream runs, and what its two agents did, round by round.
 
 The trigger is DREAM settings and check_and_schedule_dream in Honcho 3.3.0. The rounds are dream 2
-of the first real-server run of the series' example (the blog's replays/honcho_server_runs/run1.json):
+of the first real-server run of the series' example (scripts/replays/honcho_server_runs/run1.json):
 each round's tool call, what it returned, and the round's input tokens.
 """
 

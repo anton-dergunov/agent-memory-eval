@@ -2,7 +2,7 @@
 
 The rules are Honcho 3.3.0's: get_working_representation (src/crud/representation.py) and the
 dialectic agent (src/dialectic/core.py, prompts.py) at its default reasoning level. The outputs are
-excerpts from the blog's replays/honcho_server_runs/run1.json.
+excerpts from scripts/replays/honcho_server_runs/run1.json.
 """
 
 from __future__ import annotations

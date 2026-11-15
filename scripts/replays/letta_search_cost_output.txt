@@ -1,0 +1,8 @@
+letta: 66 answers; calls per answer: median 3.0, mean 3.33, one call only in 1
+   first call: median 2,457 tokens; whole answer turn: median 8,112
+   whole turn / first call: median 3.2, pooled 4.0
+   tokens of tool calls and results: median 574 per answer, 16% of all tokens read while answering
+letta-persona: 66 answers; calls per answer: median 3.0, mean 3.64, one call only in 0
+   first call: median 2,904 tokens; whole answer turn: median 8,855
+   whole turn / first call: median 3.1, pooled 4.7
+   tokens of tool calls and results: median 568 per answer, 22% of all tokens read while answering

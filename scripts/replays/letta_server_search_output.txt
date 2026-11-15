@@ -1,0 +1,66 @@
+agent    query='restaurant recommendations Berlin Kreuzberg paneer shellfish coeliac peanut allergy'
+         notebook rule: 10 of 13 messages returned; server rule: 0 returned ("No results found.")
+primary  query='Indian restaurants Berlin vegetarian peanut allergy safe'
+         notebook rule: 2 of 3 messages returned; server rule: 0 returned ("No results found.")
+primary  query='dietary restrictions update'
+         notebook rule: 3 of 5 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block update'
+         notebook rule: 1 of 5 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block content'
+         notebook rule: 0 of 5 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block'
+         notebook rule: 0 of 5 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human'
+         notebook rule: 0 of 5 messages returned; server rule: 0 returned ("No results found.")
+primary  query='dietary'
+         notebook rule: 2 of 5 messages returned; server rule: 2 returned -> ['That is very helpful! Indian cuisine is a fantastic choice f', 'It is lovely to meet you! I am Letta, and I would be delight']
+primary  query='human block'
+         notebook rule: 0 of 7 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block content'
+         notebook rule: 0 of 7 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human'
+         notebook rule: 0 of 7 messages returned; server rule: 0 returned ("No results found.")
+primary  query='memory blocks'
+         notebook rule: 0 of 7 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block details'
+         notebook rule: 0 of 7 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block value'
+         notebook rule: 0 of 7 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block metadata'
+         notebook rule: 0 of 7 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block persona'
+         notebook rule: 0 of 7 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block'
+         notebook rule: 0 of 9 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block content'
+         notebook rule: 0 of 9 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block value'
+         notebook rule: 0 of 9 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block metadata'
+         notebook rule: 0 of 9 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block persona'
+         notebook rule: 0 of 9 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block details'
+         notebook rule: 0 of 9 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block description'
+         notebook rule: 0 of 9 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block label'
+         notebook rule: 0 of 9 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block'
+         notebook rule: 0 of 11 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block content'
+         notebook rule: 0 of 11 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block value'
+         notebook rule: 0 of 11 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block metadata'
+         notebook rule: 0 of 11 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block persona'
+         notebook rule: 0 of 11 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block details'
+         notebook rule: 0 of 11 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block description'
+         notebook rule: 0 of 11 messages returned; server rule: 0 returned ("No results found.")
+primary  query='human block label'
+         notebook rule: 0 of 11 messages returned; server rule: 0 returned ("No results found.")
+primary  query='Berlin restaurant recommendations Indian paneer pescatarian coeliac peanut allergy'
+         notebook rule: 6 of 13 messages returned; server rule: 0 returned ("No results found.")

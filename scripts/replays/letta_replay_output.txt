@@ -1,0 +1,31 @@
+R1. session 2, first message, first step of the in-line agent
+   the notebook's own call: ['memory_replace(old_string 184 chars, the whole block)']
+   notebook descriptions, temperature 0.0:
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+   notebook descriptions, temperature 1.0:
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+   server descriptions, temperature 0.0:
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+   server descriptions, temperature 1.0:
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+      memory_replace(old_string 184 chars, the whole block)
+
+R2. session 1, first message, first step, temperature 1.0
+   a. as in the notebook: memory edited in 0 of 10 -> [['no tool call'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call']]
+   b. server descriptions: memory edited in 2 of 10 -> [['no tool call'], ['memory_insert'], ['memory_insert'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call'], ['no tool call']]
+   c. server descriptions + persona lines + dated message: memory edited in 7 of 10 -> [['memory_insert'], ['memory_insert'], ['no tool call'], ['memory_insert'], ['no tool call'], ['memory_insert'], ['memory_insert'], ['memory_insert'], ['no tool call'], ['memory_insert']]
