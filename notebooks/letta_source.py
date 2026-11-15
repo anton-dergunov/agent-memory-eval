@@ -36,6 +36,24 @@ _JSON_TYPE = {"str": "string", "int": "integer", "bool": "boolean"}
 _functions = None
 
 
+def _examples_section(docstring):
+    """letta.functions.schema_generator.extract_examples_section, unchanged in behaviour."""
+    if not docstring or "Examples:" not in docstring:
+        return None
+    lines, inside, out = docstring.strip().splitlines(), False, []
+    for line in lines:
+        stripped = line.strip()
+        if not inside and stripped.startswith("Examples:"):
+            inside = True
+            out.append(line)
+            continue
+        if inside:
+            if stripped and not line.startswith(" ") and stripped.endswith(":"):
+                break
+            out.append(line)
+    return "\n".join(out).strip()
+
+
 def tool_declaration(name: str) -> dict:
     """Build a tool's description for the model from its Python docstring, as Letta does."""
     global _functions
@@ -45,6 +63,7 @@ def tool_declaration(name: str) -> dict:
                       if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef))}
     function = _functions[name]
     description, _, rest = ast.get_docstring(function).partition("Args:")
+    raw = ast.get_docstring(function, clean=False)
     arguments_text = re.split(r"\n\s*(Returns|Examples):", rest)[0]
 
     arguments = [a for a in function.args.args if a.arg not in ("self", "agent_state")]
@@ -66,9 +85,16 @@ def tool_declaration(name: str) -> dict:
         else:
             spec["type"] = _JSON_TYPE.get(re.sub(r"Optional\[(.*)\]", r"\1", annotation), "string")
 
+    # Letta's generate_schema: the summary line, then the rest of the description, then the
+    # docstring's Examples section, copied as it stands (letta/functions/schema_generator.py).
+    summary, _, more = description.strip().partition("\n")
+    description = summary.strip() + ("\n\n" + more.strip() if more.strip() else "")
+    examples = _examples_section(raw)
+    if examples:
+        description += "\n\n" + examples
     return {
         "name": name,
-        "description": description.strip(),
+        "description": description,
         "parameters_json_schema": {
             "type": "object",
             "properties": properties,

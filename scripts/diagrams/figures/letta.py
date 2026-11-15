@@ -17,9 +17,10 @@ ALT = ("Letta's architecture, with the running example. Writing: the answering a
        "decides mid-turn what to remember and edits its human memory block with a tool call "
        "(memory_replace); a sleep-time agent can do this in the background instead. Memory: "
        "small text blocks that are in the agent's prompt on every call, plus a history of "
-       "every message. In July the vegetarian line was replaced in place, with no history "
-       "kept. Reading: no search is needed for the blocks; the agent may search the message "
-       "history (recall) with a tool. All six constraints were in the prompt.")
+       "every message. In July the sentence with the old diet was replaced in place, with no "
+       "history kept. Reading: no search is needed for the blocks; the agent may search the "
+       "message history (recall) with a tool, which matches whole phrases only. All six "
+       "constraints were in the prompt.")
 
 SESSION_1 = ("“I've been strictly vegetarian for eight years, and I have a severe peanut "
              "allergy … Indian, usually.”")
@@ -28,19 +29,19 @@ SESSION_2 = ("“So I'm pescatarian now, not vegetarian … I moved to Kreuzberg
 QUESTION = ("“My sister and her partner are in town tonight. Book the three of us somewhere for "
             "dinner — you know what we can and can't eat.”")
 
-# The `human` block after session 2, verbatim (section 2), and the line its first edit replaced.
-REPLACED = "The user is a vegetarian (8 years) and has a severe, anaphylactic peanut allergy."
+# The `human` block after session 2, verbatim (section 2), and the first sentence of the paragraph
+# that its first edit replaced (the edit sent the whole paragraph; the rest of it is unchanged).
+REPLACED = "The user is a strict vegetarian (8 years) with a severe, anaphylactic peanut allergy. […]"
 HUMAN = [
-    "The user is a pescatarian (started eating fish one month ago) and has a severe, "
-    "anaphylactic peanut allergy.",
-    "They enjoy Indian cuisine, specifically paneer dishes.",
-    "Budget: ~40 euros per person.",
-    "Location: Berlin (Kreuzberg).",
-    "Family: Sister (Lena) and her partner (Jonas) are visiting in the autumn. Lena has a "
+    "The user is a pescatarian (recently started eating fish) with a severe, anaphylactic peanut "
+    "allergy. They are planning a dinner in Berlin for their sister's visit. They prefer Indian "
+    "cuisine, specifically paneer dishes, and have a budget of around 40 euros per person.",
+    "They recently moved to Kreuzberg (May), so restaurants within walking distance are preferred.",
+    "The user's sister, Lena, is visiting in the autumn with her partner, Jonas. Lena has a "
     "shellfish allergy, and Jonas is coeliac.",
 ]
 
-ANSWER = ("Suggests Chutnify near Kreuzberg, South Indian and naturally gluten-free, and says to "
+ANSWER = ("Suggests Amrit and Chutnify, Indian restaurants in or near Kreuzberg, and says to "
           "call ahead about the peanut, coeliac and shellfish needs.")
 NEEDS = [("diet", "yes"), ("peanuts", "yes"), ("shellfish", "yes"), ("gluten", "yes"),
          ("cuisine", "yes"), ("area", "yes")]
@@ -102,9 +103,10 @@ def draw(theme: Theme) -> Canvas:
         c, px, band + 22, W - wx - px, "Letta's base prompt, then the persona block.",
         [segment("the human block, always in the prompt", " ".join(HUMAN), icon="layers"),
          segment("what conversation_search() returned",
-                 "Searched for “restaurant recommendations Berlin Kreuzberg paneer shellfish "
-                 "coeliac peanut allergy”: up to 10 past messages sharing those words, with "
-                 "their dates.", outlined=True, icon="history")],
+                 "Five searches, shorter each time, from “Berlin Kreuzberg Indian restaurant "
+                 "paneer peanut allergy shellfish allergy coeliac” to “Kreuzberg”. A message "
+                 "must contain the whole query: three found nothing, and the last two found "
+                 "mostly the agent's own earlier replies.", outlined=True, icon="history")],
         QUESTION)
     arrow(c, [(reader.cx, reader.bottom), (reader.cx, prompt.y)], t.muted, dashed=True)
     answer = answer_card(c, wx, band + 22, ww, ANSWER, NEEDS)
@@ -135,7 +137,7 @@ def _memory(c: Canvas, x: float, y: float, w: float, history_top: float) -> tupl
     human = Box(x + 6, persona.bottom + 8, w - 12, human_h)
     c.rect(human, fill=t.card, stroke=s.accent, r=8, width=1.3)
     c.text(human.x + 10, human.y + 18, "human", TINY, BOLD, s.ink)
-    c.text(human.right - 10, human.y + 18, "349 of 20,000 characters", TINY, SANS, t.muted, anchor="end")
+    c.text(human.right - 10, human.y + 18, "490 of 20,000 characters", TINY, SANS, t.muted, anchor="end")
     yy = human.y + 30
     for line in old_lines:   # the line memory_replace overwrote in July
         c.text(human.x + 10, yy + 11, line, TINY, MONO, stale.accent)
