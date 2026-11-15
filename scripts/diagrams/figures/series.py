@@ -19,8 +19,8 @@ ALT = ("The same three sessions run through five memory systems. In March the us
        "their own needs; in September they ask for a booking. Textual memory rewrote its profile "
        "with the old diet as 'previously' (2 LLM calls to write; all six needs in the prompt). "
        "Mem0 added the new fact and kept the old one live (2 calls; both diets in the prompt). "
-       "Graphiti closed the old fact and opened the new one (36 calls; its search returned only "
-       "the old diet and missed gluten and the area). Letta's agent overwrote the line in place "
+       "Graphiti closed the old fact and opened the new one (38 calls; its search returned only "
+       "the old diet and missed the allergy, gluten and the area). Letta's agent overwrote the line in place "
        "(5 extra calls inside its turns; all six). Honcho retired the old fact and a conclusion "
        "drawn from it (6 calls; all six).")
 
@@ -33,8 +33,8 @@ ROWS = [
      "Added the new fact. The old one stays live beside it.", 2, "",
      ["both", "yes", "yes", "yes", "yes", "yes"]),
     ("network", "Zep / Graphiti", "Four LLM steps per message, into a graph with dates.",
-     "Closed the old fact on 20 June and opened the new one.", 36, "",
-     ["old", "yes", "yes", "no", "yes", "no"]),
+     "Closed the old fact on 20 July and opened the new one.", 38, "",
+     ["old", "no", "yes", "no", "yes", "no"]),
     ("layers", "Letta", "The answering agent edits its own memory block.",
      "Overwrote the line in place. No history kept.", 5, "mid-turn",
      ["yes"] * 6),
