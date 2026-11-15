@@ -170,6 +170,11 @@ a separate episode (`f9e8c073`).
 - **Answer:** "To find the total number of sessions attended, add the two
   amounts together: 3 + 5 = 8." The "last year" in the second memory, faithful
   to the user's words, made the two look like separate episodes.
+- **The link was there, and dropped.** The October extraction was shown the
+  "three sessions" memory as related fact 0, and returned the new memory with
+  `"linked_memory_ids": ["0"]`. The library does not store links. (The store
+  was rebuilt with all ten extractions served from the reply cache, so with
+  the run's own prompts: `scripts/replays/mem0_fact0_from_cache.py`.)
 - Other arms: all seven correct.
 
 #### `dad224aa` — "What time do I wake up on Saturday mornings?" (7:30 am)

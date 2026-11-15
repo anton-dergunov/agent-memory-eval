@@ -89,8 +89,8 @@ def draw(theme: Theme) -> Canvas:
     rows = [("stale", "stored after session 1", "User has been a strict vegetarian for eight years.",
              "still stored, still searchable"),
             ("store", "added after session 2", "User transitioned from a strict vegetarian diet to a "
-             "pescatarian diet in September 2026, meaning they now eat fish but no other meat.",
-             "added; the new fact names the old value in its own sentence")]
+             "pescatarian diet around October 2026, meaning they now eat fish but no other meat.",
+             "added; it names the old value, and the model's link to it is not stored")]
     for role, when, text, note in rows:
         r = t[role]
         lines = _wrap(text, W - 2 * M - 2 * PAD - 170, MONO)

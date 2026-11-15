@@ -2,7 +2,7 @@
 
 Tokens read and calls to store the same two sessions, from the committed notebook runs:
 notebooks/01-textual.ipynb (two rewrites, 357 + 559 tokens), notebooks/02-mem0.ipynb (two
-extraction calls, 16,857 tokens), notebooks/03-zep-graphiti.ipynb section 7 (by step, and the
+extraction calls, 16,862 tokens), notebooks/03-zep-graphiti.ipynb section 7 (by step, and the
 calls per message). Answering calls are not counted.
 """
 
@@ -15,7 +15,7 @@ from .graphiti_graph import source_line
 NAME = "graphiti-cost"
 TITLE = "What it costs to store two sessions"
 ALT = ("Tokens read to store the example's two sessions. Textual memory: 916 tokens in 2 LLM calls. "
-       "Mem0: 16,857 tokens in 2 LLM calls and 4 embedding calls. Zep / Graphiti: 60,374 tokens in "
+       "Mem0: 16,862 tokens in 2 LLM calls and 4 embedding calls. Zep / Graphiti: 60,374 tokens in "
        "38 LLM calls and 25 embedding calls, split by step: finding entities 24,118 tokens in 10 "
        "calls, matching them 7,194 in 7, extracting facts 19,166 in 10, comparing with stored facts "
        "9,896 in 11. Below, Graphiti's LLM calls for each of the ten messages: 2, 3, 6 in session 1 "
@@ -23,7 +23,7 @@ ALT = ("Tokens read to store the example's two sessions. Textual memory: 916 tok
        "and produced one fact.")
 
 SYSTEMS = [("Textual memory", 916, "2 LLM calls", None),
-           ("Mem0", 16857, "2 LLM calls, 4 embeddings", None),
+           ("Mem0", 16862, "2 LLM calls, 4 embeddings", None),
            ("Zep / Graphiti", 60374, "38 LLM calls, 25 embeddings",
             [("find entities", 24118, 10), ("match", 7194, 7), ("extract facts", 19166, 10),
              ("compare", 9896, 11)])]

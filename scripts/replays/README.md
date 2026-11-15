@@ -6,7 +6,7 @@ Run them from the top of the repository. Several need the experiment's reply cac
 
 | Files | Part | What they check |
 |---|---|---|
-| `mem0_*` | 4, Mem0 | replays of the notebook's extraction prompt with parts emptied; how often the model's links to related facts appear in the experiment's cache |
+| `mem0_*` | 4, Mem0 | the notebook's nine facts scored with the optional packages on (`mem0_replay.py`); the store of benchmark question `f9e8c073` rebuilt with every extraction from the cache, to read the prompt that the run did not log (`mem0_fact0_from_cache.py`, embeddings only); how often the model's links to related facts appear in the experiment's cache |
 | `graphiti_*` | 5, Zep and Graphiti | a dump of every call of notebook 03; the prompts quoted in the post against graphiti-core; a replay of the contradiction step under the newer prompt; invented ids in the experiment's logs |
 | `letta_*` | 6, Letta | a dump of notebook 04 from the cache; replays of the agent's first message and of the change, at the server's temperature; the server's search rule applied offline; the cost of searching, from the ledger; the post's quotes against the server's source |
 | `honcho_server_run.py`, `honcho_server_runs/` | 7, Honcho | three runs of a real Honcho 3.3.0 server (`infra/honcho/up.sh`) on the series' example: every request and reply, the stored rows with their links, the peer card and both read outputs |

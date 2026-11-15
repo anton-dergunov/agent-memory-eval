@@ -1,10 +1,11 @@
 """Mem0: the order in which a search returns the example's nine facts.
 
 Column 1 is the scored list from the committed run of notebooks/02-mem0.ipynb (section 3).
-Columns 2 and 3 are from a replay that stored the same nine facts and searched them again
-(the similarity scores came out the same to three decimals): column 2 with the library's
-keyword scoring switched on (the `nlp` extra and fastembed), column 3 for another question,
-whose first three rows are also in the notebook.
+Columns 2 and 3 are from scripts/replays/mem0_replay.py, which stored the same nine facts and
+searched them again (the similarity scores came out the same to three decimals): column 2 with
+the library's keyword scoring switched on (the `nlp` extra and fastembed), column 3 for another
+question, which shares no keyword with any fact, so its scores are the similarity alone; its
+first three rows are also in the notebook.
 """
 
 from __future__ import annotations
@@ -16,16 +17,16 @@ NAME = "mem0-ranking"
 TITLE = "The order the search returns"
 ALT = ("Three ranked lists of the same nine stored facts, each with a line after the sixth row. "
        "First list, the example's question scored by embedding similarity only: Lena and "
-       "shellfish 0.740, Jonas and coeliac 0.732, the dinner plan 0.725, the budget 0.663, "
-       "Kreuzberg 0.623, Indian food 0.616, then below the line the peanut allergy 0.612, the "
-       "replaced fact 'strict vegetarian' 0.589 and the fact that replaced it 0.588. Second "
-       "list, the same question with keyword scores added: Jonas 0.553, the dinner plan 0.480, "
-       "Lena 0.392, the budget 0.366, the fact that replaced the old one 0.357, Kreuzberg 0.312, "
-       "then below the line Indian food 0.308, the peanut allergy 0.306 and the replaced fact "
-       "0.295. Third list, the question 'what should I cook tonight?': Indian food 0.607, the "
-       "budget 0.586, the dinner plan 0.564, Kreuzberg 0.564, Lena 0.550, the replaced fact "
-       "0.545, then below the line the fact that replaced it 0.542, Jonas 0.524 and the peanut "
-       "allergy 0.509, in last place.")
+       "shellfish 0.743, Jonas and coeliac 0.736, the dinner plan 0.729, Indian food 0.680, the "
+       "budget 0.663, the peanut allergy 0.612, then below the line Kreuzberg 0.609, the "
+       "replaced fact 'strict vegetarian' 0.589 and the fact that replaced it 0.589. Second "
+       "list, the same question with keyword scores added: Jonas 0.555, the dinner plan 0.446, "
+       "Lena 0.394, Indian food 0.362, the fact that replaced the old one 0.357, the budget "
+       "0.354, then below the line the peanut allergy 0.306, Kreuzberg 0.305 and the replaced "
+       "fact 0.295. Third list, the question 'what should I cook tonight?': Indian food 0.643, "
+       "the budget 0.586, the dinner plan 0.572, the fact that replaced the old one 0.551, "
+       "Kreuzberg 0.548, Lena 0.547, then below the line the replaced fact 0.545, Jonas 0.540 "
+       "and the peanut allergy 0.509, in last place.")
 
 FACTS = {
     "lena": ("Lena … has a shellfish allergy", None),
@@ -40,14 +41,14 @@ FACTS = {
 }
 COLUMNS = [
     ("The example's question", "similarity only, as in the notebook",
-     [("lena", .740), ("jonas", .732), ("dinner", .725), ("budget", .663), ("kreuzberg", .623),
-      ("indian", .616), ("peanut", .612), ("old", .589), ("new", .588)]),
+     [("lena", .743), ("jonas", .736), ("dinner", .729), ("indian", .680), ("budget", .663),
+      ("peanut", .612), ("kreuzberg", .609), ("old", .589), ("new", .589)]),
     ("The same question", "with keyword scores added",
-     [("jonas", .553), ("dinner", .480), ("lena", .392), ("budget", .366), ("new", .357),
-      ("kreuzberg", .312), ("indian", .308), ("peanut", .306), ("old", .295)]),
+     [("jonas", .555), ("dinner", .446), ("lena", .394), ("indian", .362), ("new", .357),
+      ("budget", .354), ("peanut", .306), ("kreuzberg", .305), ("old", .295)]),
     ("“What should I cook tonight?”", "similarity only",
-     [("indian", .607), ("budget", .586), ("dinner", .564), ("kreuzberg", .564), ("lena", .550),
-      ("old", .545), ("new", .542), ("jonas", .524), ("peanut", .509)]),
+     [("indian", .643), ("budget", .586), ("dinner", .572), ("new", .551), ("kreuzberg", .548),
+      ("lena", .547), ("old", .545), ("jonas", .540), ("peanut", .509)]),
 ]
 GAP = 22
 ROW = 30
@@ -60,7 +61,7 @@ def draw(theme: Theme) -> Canvas:
     c.text(M, 52, TITLE, TITLE_SIZE, BOLD)
     used = c.paragraph(M, 62, "The same nine stored facts, ranked three times. A caller that "
                        "keeps the first six gets a different six each time, and the hard "
-                       "constraint is never among them.", W - 2 * M, SUBTITLE, SANS, t.muted)
+                       "constraint is among them once, by 0.003.", W - 2 * M, SUBTITLE, SANS, t.muted)
     y = 62 + used + 32
     cw = (W - 2 * M - 2 * GAP) / 3
     top = y
@@ -92,9 +93,9 @@ def draw(theme: Theme) -> Canvas:
     heading(c, M, y, W - 2 * M, "THE THREE FACTS TO WATCH")
     y += 24
     for role, label, text in (
-            ("both", "the hard constraint", "rank 7, 8 and 9: outside the first six every time"),
-            ("stale", "the replaced fact", "still stored, and inside the first six for the third question"),
-            ("store", "the fact that replaced it", "inside the first six only when keyword scores are added")):
+            ("both", "the hard constraint", "rank 6, 7 and 9: inside the first six only once, just above the line"),
+            ("stale", "the replaced fact", "still stored, and just below the line for the third question"),
+            ("store", "the fact that replaced it", "inside the first six with keyword scores, and for the third question")):
         c.rect(Box(M, y - 11, 14, 14), fill=t[role].wash, stroke=t[role].accent, r=3)
         width = c.text(M + 22, y, label, TINY, BOLD, t[role].ink)
         c.text(M + 22 + width + 10, y, text, TINY, SANS, t.muted)

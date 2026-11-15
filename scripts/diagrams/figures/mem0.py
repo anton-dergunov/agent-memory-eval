@@ -15,9 +15,10 @@ NAME = "mem0"
 TITLE = "Mem0"
 ALT = ("Mem0's architecture, with the running example. Writing: after each session, an LLM "
        "call extracts short standalone facts, seeing the related facts already stored, and "
-       "only adds. Memory: a vector store of nine facts; the old and the new diet are both "
-       "kept. Reading: a similarity search embeds the question and returns all nine facts, "
-       "which go into the prompt; the answer covers every constraint.")
+       "only adds. Memory: a vector store of nine facts; the old and the new value of the "
+       "changed fact are both kept. Reading: a similarity search embeds the question and "
+       "returns all nine facts, which go into the prompt; the answer covers every constraint, "
+       "but gives the old value of the changed fact to the two guests.")
 
 SESSION_1 = ("“I've been strictly vegetarian for eight years, and I have a severe peanut "
              "allergy … Indian, usually.”")
@@ -47,15 +48,16 @@ FACTS = [
 
 # What search() returned for the question, best first (section 3).
 HITS = [
-    ("0.74", "Lena: shellfish", None), ("0.73", "Jonas: coeliac", None),
-    ("0.73", "dinner plan", None), ("0.66", "40 € a head", None),
-    ("0.62", "Kreuzberg", None), ("0.62", "Indian, paneer", None),
-    ("0.61", "peanut allergy", None), ("0.59", "vegetarian", "both"),
+    ("0.74", "Lena: shellfish", None), ("0.74", "Jonas: coeliac", None),
+    ("0.73", "dinner plan", None), ("0.68", "Indian, paneer", None),
+    ("0.66", "40 € a head", None), ("0.61", "peanut allergy", None),
+    ("0.61", "Kreuzberg", None), ("0.59", "vegetarian", "both"),
     ("0.59", "pescatarian", "both"),
 ]
 
-ANSWER = ("Booked Chutnify in Kreuzberg: Indian, within 40 € a head, with the peanut and "
-          "shellfish allergies and gluten-free passed on.")
+ANSWER = ("Amrit in Kreuzberg: paneer dishes, within the budget, with the peanut and "
+          "shellfish allergies and gluten-free passed on. But it lists Lena and Jonas as "
+          "vegetarian.")
 NEEDS = [("diet", "both"), ("peanuts", "yes"), ("shellfish", "yes"), ("gluten", "yes"),
          ("cuisine", "yes"), ("area", "yes")]
 

@@ -1,7 +1,7 @@
 """Mem0: what one extraction call reads, to scale.
 
 The token counts are from the committed run of notebooks/02-mem0.ipynb (section 4): a system
-prompt of 8,131 tokens on every add(), and user prompts of 161 and 434 tokens. The split of the
+prompt of 8,131 tokens on every add(), and user prompts of 161 and 439 tokens. The split of the
 system prompt is by characters of `ADDITIVE_EXTRACTION_PROMPT` in mem0ai 2.2.1
 (`mem0/configs/prompts.py`), 33,653 characters between its top-level headings.
 """
@@ -18,7 +18,7 @@ ALT = ("Two bars drawn to the same scale, one for each of the two extraction cal
        "is 2.5% role, 11.6% a description of the inputs, 40.1% guidelines on what to extract and "
        "how to write a memory, 38.5% eleven worked examples, 3.5% a final checklist and 3.7% the "
        "output format. Next to it, the user prompt with the conversation is a thin slice: 161 "
-       "tokens for the first session and 434 tokens for the second, which also carries the five "
+       "tokens for the first session and 439 tokens for the second, which also carries the five "
        "stored facts and the earlier messages.")
 
 SYSTEM = 8131
@@ -32,7 +32,7 @@ SECTIONS = [
     ("Output", 3.7, "the JSON format"),
 ]
 CALLS = [("Session 1", 161, "3 messages"),
-         ("Session 2", 434, "7 messages, the 5 stored facts and the 3 earlier messages")]
+         ("Session 2", 439, "7 messages, the 5 stored facts and the 3 earlier messages")]
 SHADES = ("llm", "code", "llm", "code", "llm", "code")
 BAR_H = 34
 

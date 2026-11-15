@@ -121,7 +121,9 @@ uv run python -m ipykernel install --user --name agent-memory-eval --display-nam
 
 `uv sync` creates `.venv` with the versions pinned in `uv.lock`; add
 `--extra experiment` if the same environment should also run the experiment,
-since a plain `uv sync` removes the experiment's packages.
+since a plain `uv sync` removes the experiment's packages. The experiment's
+packages include Mem0's optional ones (spaCy, fastembed), which change how Mem0
+scores a search; the Mem0 notebook's outputs are from a plain `uv sync`.
 
 Put `GEMINI_API_KEY` in a `.env` file at the top of the repository, open a
 notebook in VS Code or JupyterLab, and pick the **agent-memory-eval** kernel.
@@ -133,6 +135,11 @@ The models are set in one place, [notebooks/config.py](notebooks/config.py):
 free tier of the Gemini API is enough. It allows 15 chat requests a minute, and
 the notebooks wait between calls to stay under that, so the longest one takes
 about five minutes.
+
+A rerun will not reproduce the committed outputs word for word. Model replies
+vary between runs, even at temperature 0, and more so with another model, so
+the wording, the dates and the order of results can differ from what is shown.
+The mechanisms the notebooks show stay the same.
 
 ## How the notebooks are stored
 
