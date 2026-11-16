@@ -1,0 +1,63 @@
+=== 2026-11-16-6a1eabeb: question asked with the newest sessions still unobserved (the default flow)
+question: What was my personal best time in the charity 5K run?  (asked 2023/06/25 (Sun) 13:22)
+expected: 25 minutes and 50 seconds (or 25:50)
+answer:   According to your past records from May 23, 2023, you set a personal best time of **27:12** in your 5K charity run.
+model: gemini-3.1-flash-lite; packages: {'@ai-sdk/google': '4.0.121', '@mastra/core': '1.83.0', '@mastra/libsql': '1.30.0', '@mastra/memory': '1.41.1', 'ai': '7.0.173', 'dotenv': '18.0.10', 'tsx': '4.23.15'}
+sessions fed: 40; turns: 413
+
+calls:
+   1 Observer        feed:3:e32f5666_3            in  10377 out  1774  Apr 23 2023 to Apr 27 2023 saw [] wrote []
+   2 Observer        feed:5:6c456a5d              in  10027 out  1353  Apr 27 2023 to May 5 2023 saw [] wrote []
+   3 Observer        feed:6:59a6150d_1            in  10891 out  1852  May 5 2023 to May 6 2023 saw [] wrote []
+   4 Observer        feed:10:ultrachat_313633     in  10138 out  2091  May 6 2023 to May 8 2023 saw [] wrote []
+   5 Observer        feed:12:sharegpt_Lz31LpH_0   in   8908 out  2007  May 8 2023 to May 10 2023 saw [] wrote []
+   6 Observer        feed:21:d8cc8b5c_5           in  34103 out  2179  May 14 2023 to May 23 2023 saw ['27:12'] wrote ['27:12']
+   7 Observer        feed:31:6da0bba2_1           in  35753 out  2653  May 23 2023 to May 28 2023 saw ['27:12'] wrote []
+   8 answering agent answer                       in  28583 out    39                           saw ['27:12', '25:50'] wrote ['27:12']
+   9 Reflector       reflect                      in   8993 out  1921                           saw ['27:12'] wrote ['27:12']
+totals by agent (calls, tokens in, tokens out):
+  Observer         7  120197  13909
+  answering agent  1   28583     39
+  Reflector        1    8993   1921
+
+afterAnswer: log 2652 tokens, 9086 characters, generation 0, unobserved 28703 tokens
+  * ✅ (13:01) User set a personal best time of 27:12 in a 5K charity run.
+afterReflect: log 986 tokens, 3495 characters, generation 1, unobserved 28703 tokens
+  * 🔴 User plays soccer (bi-weekly); set 5K PR (27:12).
+
+answer prompt: 8 system messages (11808 chars), 104 raw messages (116289 chars), 28583 tokens in
+  raw message with the new value (user): I'm training for another charity 5K run coming up and I was wondering if you could give me some tips on how to improve my endurance. By the way, I'm hoping to beat my personal best time of 25:50 this 
+
+=== 2026-11-16-6a1eabeb-observed-tail: the unobserved tail observed before the question
+question: What was my personal best time in the charity 5K run?  (asked 2023/06/25 (Sun) 13:22)
+expected: 25 minutes and 50 seconds (or 25:50)
+answer:   Your personal best time for the charity 5K run is 25:50. 
+
+Good luck with your ongoing training—it looks like you've been putting in a lot of effort between your marathon prep and those regular soccer matches! Let me know if you want to look into more tips for your training or if you'd like to get back to the details of that leave management system.
+model: gemini-3.1-flash-lite; packages: {'@ai-sdk/google': '4.0.121', '@mastra/core': '1.83.0', '@mastra/libsql': '1.30.0', '@mastra/memory': '1.41.1', 'ai': '7.0.173', 'dotenv': '18.0.10', 'tsx': '4.23.15'}
+sessions fed: 40; turns: 413
+
+calls:
+   1 Observer        feed:3:e32f5666_3            in  10377 out  1595  Apr 23 2023 to Apr 27 2023 saw [] wrote []
+   2 Observer        feed:5:6c456a5d              in   9894 out  1763  Apr 27 2023 to May 5 2023 saw [] wrote []
+   3 Observer        feed:6:59a6150d_1            in  10631 out  1756  May 5 2023 to May 6 2023 saw [] wrote []
+   4 Observer        feed:10:ultrachat_313633     in   9956 out  1911  May 6 2023 to May 8 2023 saw [] wrote []
+   5 Observer        feed:12:sharegpt_Lz31LpH_0   in   8730 out  1961  May 8 2023 to May 10 2023 saw [] wrote []
+   6 Observer        feed:21:d8cc8b5c_5           in  33804 out  2771  May 14 2023 to May 23 2023 saw ['27:12'] wrote ['27:12']
+   7 Observer        feed:31:6da0bba2_1           in  35526 out  2025  May 23 2023 to May 28 2023 saw ['27:12'] wrote []
+   8 Observer        observe-tail                 in  32609 out  2360  May 28 2023 to May 30 2023 saw ['27:12', '25:50'] wrote ['25:50']
+   9 answering agent answer                       in   4040 out    83                           saw ['27:12', '25:50'] wrote ['25:50']
+  10 Reflector       reflect                      in   9535 out   930                           saw ['27:12', '25:50'] wrote ['25:50']
+totals by agent (calls, tokens in, tokens out):
+  Observer         8  151527  16142
+  answering agent  1    4040     83
+  Reflector        1    9535    930
+
+afterAnswer: log 3154 tokens, 11025 characters, generation 0, unobserved 132 tokens
+  * -> User is a runner (5K personal best: 27:12).
+  * 🔴 (13:53) User is training for a charity 5K (PB: 25:50).
+afterReflect: log 777 tokens, 2611 characters, generation 1, unobserved 132 tokens
+  * 🔴 User is training for a marathon (goal: improve 4:15 time by 15 mins) and a charity 5K (PB: 25:50).
+
+answer prompt: 11 system messages (14312 chars), 2 raw messages (543 chars), 4040 tokens in
+

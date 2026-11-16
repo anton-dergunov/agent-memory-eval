@@ -1,0 +1,2370 @@
+{
+  "question_id": "6a1eabeb",
+  "question": "What was my personal best time in the charity 5K run?",
+  "question_date": "2023/06/25 (Sun) 13:22",
+  "expected": "25 minutes and 50 seconds (or 25:50)",
+  "model": "gemini-3.1-flash-lite",
+  "packages": {
+    "@ai-sdk/google": "4.0.121",
+    "@mastra/core": "1.83.0",
+    "@mastra/libsql": "1.30.0",
+    "@mastra/memory": "1.41.1",
+    "ai": "7.0.173",
+    "dotenv": "18.0.10",
+    "tsx": "4.23.15"
+  },
+  "settings": {
+    "observation": {},
+    "reflection": {},
+    "scope": "default (thread)"
+  },
+  "events": [
+    {
+      "at": "3:e32f5666_3:3",
+      "did": "buffer",
+      "pendingTokens": 6493,
+      "observationTokens": 0,
+      "generation": 0
+    },
+    {
+      "at": "5:6c456a5d:1",
+      "did": "buffer",
+      "pendingTokens": 12336,
+      "observationTokens": 0,
+      "generation": 0
+    },
+    {
+      "at": "5:6c456a5d:2",
+      "did": "buffer",
+      "pendingTokens": 12845,
+      "observationTokens": 0,
+      "generation": 0
+    },
+    {
+      "at": "6:59a6150d_1:5",
+      "did": "buffer",
+      "pendingTokens": 18733,
+      "observationTokens": 0,
+      "generation": 0
+    },
+    {
+      "at": "6:59a6150d_1:6",
+      "did": "buffer",
+      "pendingTokens": 19436,
+      "observationTokens": 0,
+      "generation": 0
+    },
+    {
+      "at": "10:ultrachat_313633:1",
+      "did": "buffer",
+      "pendingTokens": 23764,
+      "observationTokens": 0,
+      "generation": 0
+    },
+    {
+      "at": "10:ultrachat_313633:2",
+      "did": "buffer",
+      "pendingTokens": 24214,
+      "observationTokens": 0,
+      "generation": 0
+    },
+    {
+      "at": "12:sharegpt_Lz31LpH_0:1",
+      "did": "buffer",
+      "pendingTokens": 27446,
+      "observationTokens": 0,
+      "generation": 0
+    },
+    {
+      "at": "13:ultrachat_440339:1",
+      "did": "buffer",
+      "pendingTokens": 27875,
+      "observationTokens": 0,
+      "generation": 0
+    },
+    {
+      "at": "14:sharegpt_ZWqMvoL_178:3",
+      "did": "activate",
+      "pendingTokens": 30563,
+      "observationTokens": 1489,
+      "generation": 0
+    },
+    {
+      "at": "20:answer_a25d4a91_1:4",
+      "did": "activate",
+      "pendingTokens": 30395,
+      "observationTokens": 1836,
+      "generation": 0
+    },
+    {
+      "at": "21:d8cc8b5c_5:3",
+      "did": "buffer",
+      "pendingTokens": 30516,
+      "observationTokens": 1836,
+      "generation": 0
+    },
+    {
+      "at": "21:d8cc8b5c_5:4",
+      "did": "activate",
+      "pendingTokens": 30988,
+      "observationTokens": 2255,
+      "generation": 0
+    },
+    {
+      "at": "31:6da0bba2_1:4",
+      "did": "buffer",
+      "pendingTokens": 33071,
+      "observationTokens": 2255,
+      "generation": 0
+    },
+    {
+      "at": "31:6da0bba2_1:5",
+      "did": "activate",
+      "pendingTokens": 33713,
+      "observationTokens": 2652,
+      "generation": 0
+    }
+  ],
+  "sessions": [
+    {
+      "id": "6387e969",
+      "date": "2023-04-23T08:57:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "sharegpt_wsUEkMN_0",
+      "date": "2023-04-24T09:36:00.000Z",
+      "turns": 2
+    },
+    {
+      "id": "e32f5666_3",
+      "date": "2023-04-27T13:38:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "4b637e89_4",
+      "date": "2023-05-05T03:48:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "6c456a5d",
+      "date": "2023-05-05T05:36:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "59a6150d_1",
+      "date": "2023-05-06T02:58:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "sharegpt_hcxvWC6_0",
+      "date": "2023-05-07T00:43:00.000Z",
+      "turns": 16
+    },
+    {
+      "id": "sharegpt_9ApEWXK_0",
+      "date": "2023-05-07T06:52:00.000Z",
+      "turns": 2
+    },
+    {
+      "id": "sharegpt_3Jpu3tr_13",
+      "date": "2023-05-08T12:15:00.000Z",
+      "turns": 13
+    },
+    {
+      "id": "ultrachat_313633",
+      "date": "2023-05-08T22:55:00.000Z",
+      "turns": 8
+    },
+    {
+      "id": "ultrachat_561259",
+      "date": "2023-05-10T05:13:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "sharegpt_Lz31LpH_0",
+      "date": "2023-05-10T23:14:00.000Z",
+      "turns": 2
+    },
+    {
+      "id": "ultrachat_440339",
+      "date": "2023-05-14T09:02:00.000Z",
+      "turns": 8
+    },
+    {
+      "id": "sharegpt_ZWqMvoL_178",
+      "date": "2023-05-15T01:50:00.000Z",
+      "turns": 9
+    },
+    {
+      "id": "131ff17e",
+      "date": "2023-05-15T05:38:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "f3d43a12_2",
+      "date": "2023-05-15T17:17:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "sharegpt_YjDWRhe_0",
+      "date": "2023-05-16T19:02:00.000Z",
+      "turns": 2
+    },
+    {
+      "id": "d3ee5958_2",
+      "date": "2023-05-19T04:25:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "9b3a7f2c_1",
+      "date": "2023-05-23T05:18:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "answer_a25d4a91_1",
+      "date": "2023-05-23T13:01:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "d8cc8b5c_5",
+      "date": "2023-05-23T23:20:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "6399f4dd_2",
+      "date": "2023-05-24T01:14:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "51a529d2_2",
+      "date": "2023-05-25T05:50:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "9f80607d",
+      "date": "2023-05-25T18:13:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "4c49e37f",
+      "date": "2023-05-25T21:22:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "2ea6fda4_2",
+      "date": "2023-05-26T05:56:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "sharegpt_AtYlMSy_15",
+      "date": "2023-05-26T16:19:00.000Z",
+      "turns": 7
+    },
+    {
+      "id": "0b0bc8ae_2",
+      "date": "2023-05-27T00:33:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "sharegpt_tKytRbH_0",
+      "date": "2023-05-27T09:35:00.000Z",
+      "turns": 6
+    },
+    {
+      "id": "4aaf678f_3",
+      "date": "2023-05-27T14:54:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "6da0bba2_1",
+      "date": "2023-05-28T05:27:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "sharegpt_kIqZ0wa_0",
+      "date": "2023-05-28T22:04:00.000Z",
+      "turns": 2
+    },
+    {
+      "id": "ultrachat_242441",
+      "date": "2023-05-29T08:11:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "d03995c6",
+      "date": "2023-05-29T09:17:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "0a7c4f1c_1",
+      "date": "2023-05-29T23:29:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "5b71808d",
+      "date": "2023-05-30T06:09:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "answer_a25d4a91_2",
+      "date": "2023-05-30T13:53:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "afe04238_7",
+      "date": "2023-05-30T15:35:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "86b8dc6e",
+      "date": "2023-05-30T18:35:00.000Z",
+      "turns": 12
+    },
+    {
+      "id": "sharegpt_AScF7Wc_0",
+      "date": "2023-05-30T19:15:00.000Z",
+      "turns": 12
+    }
+  ],
+  "answer": "According to your past records from May 23, 2023, you set a personal best time of **27:12** in your 5K charity run.",
+  "calls": 9,
+  "afterAnswer": {
+    "record": {
+      "id": "ae213ae9-bbac-4c91-92a6-f554cb30c86d",
+      "scope": "thread",
+      "threadId": "lme-6a1eabeb",
+      "resourceId": "lme-user",
+      "createdAt": "2026-11-16T19:26:30.210Z",
+      "updatedAt": "2023-06-25T13:22:00.030Z",
+      "lastObservedAt": "2023-05-28T05:27:35.001Z",
+      "originType": "initial",
+      "generationCount": 0,
+      "activeObservations": "Date: Apr 23, 2023\n* 🔴 (08:57) User planning a trip to Europe in the fall (considering Paris or Rome).\n* 🔴 (08:57) User interested in historical sites, cultural experiences, and Broadway-style shows in Paris and Rome.\n* 🔴 (08:57) User specifically interested in the French Resistance during WWII.\n* 🔴 (08:57) User requested recommendations for traditional French restaurants in Paris (seasonal, cozy).\n* 🔴 (08:57) User requested recommendations for wine bars and shops in Paris.\n\nDate: Apr 24, 2023\n* 🔴 (09:36) User requested statistical calculations for a frequency distribution (continuous variable X, substitution U = (X-130)/20).\n* ✅ (09:36) Assistant provided calculations: median (136.25), lower quartile (127.67), upper quartile (134), 3rd decile (131.67), 98th percentile (128.33).\n\nDate: Apr 27, 2023\n* 🔴 (13:38) User enjoys Italian food.\n* 🔴 (13:38) User enjoyed \"Spaghetti Carbonara\" at restaurant \"Bella Vita\".\n* 🔴 (13:38) User prepared fettuccine with arrabbiata sauce on April 20, 2023. (meaning April 20, 2023)\n* 🔴 (13:38) User requested a recipe for Spaghetti alla Bolognese and wine pairing recommendations.\n* 🔴 (13:38) User asked for advice on ground beef fat ratios (specifically 80/20 vs 70/30) for Bolognese sauce.\n\nDate: Apr 27, 2023\n* 🔴 (13:38) User decided to use 80/20 lean-to-fat ratio for ground beef in Bolognese.\n* 🔴 (13:38) User plans to make garlic bread with Parmesan cheese.\n* 🔴 (13:38) User asked for tips and resources on making pasta from scratch.\n* ✅ (13:38) Assistant provided pasta-making tips, resources (Marcella Hazan's \"The Essentials of Classic Italian Cooking\", YouTube channel \"Pasta Grannies\", The Kitchn, Jamie Oliver's recipe), and machine recommendations (Marcato Atlas 150, KitchenAid attachment, hand-cranked machine).\n\nDate: May 5, 2023\n* 🔴 (03:48) User finished holiday shopping.\n* 🔴 (03:48) User is using a monochromatic red and green theme for gift wrapping.\n* 🔴 (03:48) User selected red velvet ribbon for gift wrapping.\n* 🔴 (03:48) User selected \"simple red and green labels\" for gift tags.\n* 🔴 (03:48) User selected specific holiday message: \"Wishing you a holiday season filled with love, laughter, and all your favorite things\".\n* 🔴 (03:48) User asked for tips on prioritizing and managing holiday schedule.\n* 🔴 (05:36) User asked for app and tool recommendations for tracking cleaning schedules and tasks.\n\nDate: May 5, 2023\n* 🔴 (05:36) User has been maintaining a 30-minute daily cleaning routine for 3 weeks (started ~April 14, 2023).\n* 🔴 (05:36) User reports the daily cleaning routine has significantly improved their productivity and energy levels.\n* 🔴 (05:36) User is adopting \"Habitica\" to manage daily and weekly tasks.\n* 🔴 (05:36) User is implementing the \"one-touch rule\" for tasks (dishes, emails) and digital file organization.\n* 🔴 (05:36) User plans to use Habitica's rewards system to track progress and stay motivated.\n* 🔴 (05:36) User intends to use a \"Someday\" folder for non-urgent digital files and documents.\n\nDate: May 6, 2023\n* 🔴 (02:58) User is planning a birding trip to Costa Rica, specifically targeting Quetzals.\n* 🔴 (02:58) User has been training with a \"portable hide\" at home (successfully stayed in it for 3+ hours).\n* 🔴 (02:58) User is researching birding tour operators in Costa Rica, with a specific interest in \"Tropical Birding Tours\".\n* 🔴 (02:58) User requested recommendations for bird photography gear and settings for capturing birds in flight (uses a Nikon camera).\n\nDate: May 6, 2023\n* 🔴 (02:58) User requested birding apps and field guides for Costa Rica trip.\n  * ✅ Assistant provided recommendations:\n    * Apps: Merlin Bird ID, iBird Pro, Audubon Birds of a Feather, eBird Mobile.\n    * Field Guides: The Sibley Guide to Birds, National Audubon Society Field Guide to Birds, Birds of Costa Rica (by Richard Garrigues and Robert Dean).\n    * Other: Xeno-canto, BirdNote.\n\nDate: May 7, 2023\n* 🔴 (00:43) User asked for identification of a rock song with \"hey\" adlib featured in *Happy Gilmore*.\n  * ✅ Assistant identified \"Werewolves of London\" by Warren Zevon.\n* 🔴 (00:43) User asked about a Redfoo remix of \"Werewolves of London\".\n* 🟡 (00:43) User provided a YouTube link to a Redfoo DJ set.\n  * ✅ Assistant identified 13 songs in the Redfoo DJ set: \"Party Rock Anthem\", \"Yeah!\", \"Bojangles\", \"Cupid Shuffle\", \"Cha Cha Slide\", \"Werewolves of London\", \"Low\", \"Shots\", \"Tik Tok\", \"Poker Face\", \"I Like to Move It\", \"Calabria\", \"Sexy and I Know It\".\n* 🔴 (06:52) User is developing product copy for a \"unisex heavy cotton tee\".\n  * ✅ Assistant summarized benefits and specs (100% cotton, 5.3 oz/yd², classic fit, tear-away label).\n\nDate: May 8, 2023\n* 🔴 (12:15) User requested picture book title ideas inspired by Japanese authors: Shinsuke Yoshitake, Keiko Sena, and Tatsuya Miyanishi.\n  * ✅ Assistant generated 30 title ideas for each author.\n* 🔴 (22:55) User asked about challenges in resolving conflicts between international organizations.\n  * ✅ Assistant listed 10 challenges (e.g., diverse interests, competing agendas, cultural differences, lack of consensus).\n\n--- message boundary (2023-05-10T23:14:05.001Z) ---\n\nDate: May 8, 2023\n* 🔴 (22:55) User asked about conflicts between international organizations and examples of successful collaborations.\n  * ✅ Assistant provided examples of conflicts (UN/ICC, WHO/WTO, IMF/World Bank, UNESCO/ICOM, ILO/ICC) and collaborations (Paris Agreement, UNAIDS, Global Polio Eradication Initiative, ICBL).\n\nDate: May 10, 2023\n* 🔴 (05:13) User requested healthy, plant-based meal ideas for their children.\n* 🔴 (05:13) User stated their children are \"picky eaters.\"\n* 🔴 (05:13) User intends to try the suggested plant-based meal ideas for themselves.\n  * ✅ Assistant provided meal ideas, tips for sneaking in vegetables, and strategies for picky eaters (make it fun, involve them, small portions, role modeling, patience).\n\nDate: May 10, 2023\n* 🔴 (23:14) User is involved in an Evangelical church that holds to \"traditional Evangelical teachings.\"\n* 🔴 (23:14) User requested a draft statement of faith covering 8 specific topics: (1) The Scriptures, (2) The Triune God, (3) Jesus Christ, (4) The Holy Spirit, (5) Man, (6) Salvation, (7) The Church, and (8) The Things to Come.\n  * ✅ Assistant provided a draft statement of faith covering the requested topics.\n\n--- message boundary (2023-05-23T23:20:25.001Z) ---\n\nDate: May 14, 2023\n* 🔴 (09:02) User is interested in medical technology advancements, specifically nanotechnology and its ethical implications (safety, cost, equity, transparency).\n\nDate: May 15, 2023\n* 🔴 (01:50) User is collaborating on a story involving characters Mei, MK, and Bai Long Ma.\n\nDate: May 16, 2023\n* 🔴 (19:02) User is researching keywords for a potential small business involving custom dog tags and pet accessories.\n\nDate: May 19, 2023\n* ✅ (04:25) User finalized house purchase agreement for $500,000.\n* 🔴 (04:25) User is setting up home utilities and homeowner's insurance.\n* 🔴 (04:25) User decided to select \"Replacement Cost Value\" (RCV) coverage for homeowner's insurance.\n\nDate: May 23, 2023\n* 🔴 (05:18) User is working on improving productivity, specifically reducing social media usage (previously 3 hours/day) and establishing a daily routine.\n* 🔴 (05:18) User started journaling to process thoughts and emotions.\n* 🔴 (05:18) User is interested in photography as a new hobby.\n* 🔴 (13:01) User plays soccer with coworkers (games every two weeks).\n* ✅ (13:01) User set a personal best time of 27:12 in a 5K charity run.\n* 🔴 (13:01) User is interested in entering a tennis tournament (referenced May 6th).\n* 🔴 (23:20) User is planning a surprise garden-themed birthday party for their grandma.\n* 🔴 (23:20) User calls their grandma every other day; grandma is currently stressed.\n\n--- message boundary (2023-05-28T05:27:35.001Z) ---\n\nDate: May 26, 2023\n* 🔴 (05:56) User experiencing rattling noise in bathroom fan (ongoing for few weeks).\n* 🔴 (05:56) User purchased 4 new bathroom towels (blue and white) from Bed Bath & Beyond.\n* 🔴 (05:56) User experiencing hair loss, currently using a hair mask once a week.\n* ✅ (05:56) User decided to troubleshoot bathroom fan (clean and check screws) before replacing.\n\nDate: May 27, 2023\n* 🔴 (00:33) User requested vegan pasta sauce recipes.\n* 🔴 (00:33) User decided to make Mushroom Bolognese using cremini mushrooms and vegan \"chick'n\" parmesan.\n* 🔴 (00:33) User prefers oat milk (no other plant-based milk mentioned).\n* 🔴 (09:35) User requested information on \"Dots\" (no-code community automation) and \"Spatial Canvas\".\n* 🔴 (14:54) User training for a marathon (current PR 4:15, goal: -15 mins).\n* 🔴 (14:54) User committed to incorporating strength training (3x/week) and consistent post-run stretching.\n* 🔴 (14:54) User plans to use a daily planner and a running log to track stretching consistency.\n\nDate: May 28, 2023\n* 🔴 (05:27) User planning a 3-4 day trip to Greenville, SC.\n* 🔴 (05:27) User attended college roommate's PhD graduation. (meaning May 28, 2023)\n* 🔴 (05:27) User interested in professional development/certification opportunities in Greenville.",
+      "totalTokensObserved": 0,
+      "observationTokenCount": 2652,
+      "pendingMessageTokens": 28663,
+      "isReflecting": false,
+      "isObserving": false,
+      "isBufferingObservation": false,
+      "isBufferingReflection": false,
+      "lastBufferedAtTokens": 33071,
+      "lastBufferedAtTime": "2023-05-28T05:27:35.001Z",
+      "config": {
+        "observation": {
+          "model": {
+            "specificationVersion": "v4",
+            "provider": "google.generative-ai",
+            "modelId": "gemini-3.1-flash-lite",
+            "supportedUrls": {
+              "*": [
+                {},
+                {},
+                {},
+                {}
+              ],
+              "text/html": [
+                {}
+              ],
+              "text/css": [
+                {}
+              ],
+              "text/plain": [
+                {}
+              ],
+              "text/xml": [
+                {}
+              ],
+              "text/csv": [
+                {}
+              ],
+              "text/rtf": [
+                {}
+              ],
+              "text/javascript": [
+                {}
+              ],
+              "application/json": [
+                {}
+              ],
+              "application/pdf": [
+                {}
+              ],
+              "image/bmp": [
+                {}
+              ],
+              "image/jpeg": [
+                {}
+              ],
+              "image/png": [
+                {}
+              ],
+              "image/webp": [
+                {}
+              ],
+              "video/mp4": [
+                {}
+              ],
+              "video/mpeg": [
+                {}
+              ],
+              "video/quicktime": [
+                {}
+              ],
+              "video/avi": [
+                {}
+              ],
+              "video/x-flv": [
+                {}
+              ],
+              "video/mpg": [
+                {}
+              ],
+              "video/webm": [
+                {}
+              ],
+              "video/wmv": [
+                {}
+              ],
+              "video/3gpp": [
+                {}
+              ]
+            }
+          },
+          "maxRetries": 8,
+          "failurePolicy": "abort",
+          "messageTokens": 30000,
+          "shareTokenBudget": false,
+          "modelSettings": {
+            "temperature": 0.3
+          },
+          "providerOptions": {
+            "google": {
+              "thinkingConfig": {
+                "thinkingBudget": 215
+              }
+            }
+          },
+          "maxTokensPerBatch": 10000,
+          "bufferTokens": 6000,
+          "bufferOnIdle": false,
+          "observeOnContextOverflow": true,
+          "bufferActivation": 0.8,
+          "activateOnProviderChange": false,
+          "blockAfter": 36000,
+          "previousObserverTokens": false,
+          "threadTitle": false,
+          "observeAttachments": [
+            "image/*",
+            "application/pdf"
+          ],
+          "extractors": [
+            {
+              "name": "current-task",
+              "slug": "current-task",
+              "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "currentTask",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            },
+            {
+              "name": "suggested-response",
+              "slug": "suggested-response",
+              "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "suggestedResponse",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "reflection": {
+          "model": {
+            "specificationVersion": "v4",
+            "provider": "google.generative-ai",
+            "modelId": "gemini-3.1-flash-lite",
+            "supportedUrls": {
+              "*": [
+                {},
+                {},
+                {},
+                {}
+              ],
+              "text/html": [
+                {}
+              ],
+              "text/css": [
+                {}
+              ],
+              "text/plain": [
+                {}
+              ],
+              "text/xml": [
+                {}
+              ],
+              "text/csv": [
+                {}
+              ],
+              "text/rtf": [
+                {}
+              ],
+              "text/javascript": [
+                {}
+              ],
+              "application/json": [
+                {}
+              ],
+              "application/pdf": [
+                {}
+              ],
+              "image/bmp": [
+                {}
+              ],
+              "image/jpeg": [
+                {}
+              ],
+              "image/png": [
+                {}
+              ],
+              "image/webp": [
+                {}
+              ],
+              "video/mp4": [
+                {}
+              ],
+              "video/mpeg": [
+                {}
+              ],
+              "video/quicktime": [
+                {}
+              ],
+              "video/avi": [
+                {}
+              ],
+              "video/x-flv": [
+                {}
+              ],
+              "video/mpg": [
+                {}
+              ],
+              "video/webm": [
+                {}
+              ],
+              "video/wmv": [
+                {}
+              ],
+              "video/3gpp": [
+                {}
+              ]
+            }
+          },
+          "maxRetries": 8,
+          "failurePolicy": "abort",
+          "observationTokens": 40000,
+          "shareTokenBudget": false,
+          "modelSettings": {
+            "temperature": 0
+          },
+          "providerOptions": {
+            "google": {
+              "thinkingConfig": {
+                "thinkingBudget": 1024
+              }
+            }
+          },
+          "bufferActivation": 0.5,
+          "activateOnProviderChange": false,
+          "blockAfter": 48000,
+          "extractors": [
+            {
+              "name": "current-task",
+              "slug": "current-task",
+              "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "currentTask",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            },
+            {
+              "name": "suggested-response",
+              "slug": "suggested-response",
+              "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "suggestedResponse",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "scope": "thread"
+      },
+      "observedTimezone": "UTC",
+      "supersededBy": null
+    },
+    "status": {
+      "record": {
+        "id": "ae213ae9-bbac-4c91-92a6-f554cb30c86d",
+        "scope": "thread",
+        "threadId": "lme-6a1eabeb",
+        "resourceId": "lme-user",
+        "createdAt": "2026-11-16T19:26:30.210Z",
+        "updatedAt": "2023-06-25T13:22:00.030Z",
+        "lastObservedAt": "2023-05-28T05:27:35.001Z",
+        "originType": "initial",
+        "generationCount": 0,
+        "activeObservations": "Date: Apr 23, 2023\n* 🔴 (08:57) User planning a trip to Europe in the fall (considering Paris or Rome).\n* 🔴 (08:57) User interested in historical sites, cultural experiences, and Broadway-style shows in Paris and Rome.\n* 🔴 (08:57) User specifically interested in the French Resistance during WWII.\n* 🔴 (08:57) User requested recommendations for traditional French restaurants in Paris (seasonal, cozy).\n* 🔴 (08:57) User requested recommendations for wine bars and shops in Paris.\n\nDate: Apr 24, 2023\n* 🔴 (09:36) User requested statistical calculations for a frequency distribution (continuous variable X, substitution U = (X-130)/20).\n* ✅ (09:36) Assistant provided calculations: median (136.25), lower quartile (127.67), upper quartile (134), 3rd decile (131.67), 98th percentile (128.33).\n\nDate: Apr 27, 2023\n* 🔴 (13:38) User enjoys Italian food.\n* 🔴 (13:38) User enjoyed \"Spaghetti Carbonara\" at restaurant \"Bella Vita\".\n* 🔴 (13:38) User prepared fettuccine with arrabbiata sauce on April 20, 2023. (meaning April 20, 2023)\n* 🔴 (13:38) User requested a recipe for Spaghetti alla Bolognese and wine pairing recommendations.\n* 🔴 (13:38) User asked for advice on ground beef fat ratios (specifically 80/20 vs 70/30) for Bolognese sauce.\n\nDate: Apr 27, 2023\n* 🔴 (13:38) User decided to use 80/20 lean-to-fat ratio for ground beef in Bolognese.\n* 🔴 (13:38) User plans to make garlic bread with Parmesan cheese.\n* 🔴 (13:38) User asked for tips and resources on making pasta from scratch.\n* ✅ (13:38) Assistant provided pasta-making tips, resources (Marcella Hazan's \"The Essentials of Classic Italian Cooking\", YouTube channel \"Pasta Grannies\", The Kitchn, Jamie Oliver's recipe), and machine recommendations (Marcato Atlas 150, KitchenAid attachment, hand-cranked machine).\n\nDate: May 5, 2023\n* 🔴 (03:48) User finished holiday shopping.\n* 🔴 (03:48) User is using a monochromatic red and green theme for gift wrapping.\n* 🔴 (03:48) User selected red velvet ribbon for gift wrapping.\n* 🔴 (03:48) User selected \"simple red and green labels\" for gift tags.\n* 🔴 (03:48) User selected specific holiday message: \"Wishing you a holiday season filled with love, laughter, and all your favorite things\".\n* 🔴 (03:48) User asked for tips on prioritizing and managing holiday schedule.\n* 🔴 (05:36) User asked for app and tool recommendations for tracking cleaning schedules and tasks.\n\nDate: May 5, 2023\n* 🔴 (05:36) User has been maintaining a 30-minute daily cleaning routine for 3 weeks (started ~April 14, 2023).\n* 🔴 (05:36) User reports the daily cleaning routine has significantly improved their productivity and energy levels.\n* 🔴 (05:36) User is adopting \"Habitica\" to manage daily and weekly tasks.\n* 🔴 (05:36) User is implementing the \"one-touch rule\" for tasks (dishes, emails) and digital file organization.\n* 🔴 (05:36) User plans to use Habitica's rewards system to track progress and stay motivated.\n* 🔴 (05:36) User intends to use a \"Someday\" folder for non-urgent digital files and documents.\n\nDate: May 6, 2023\n* 🔴 (02:58) User is planning a birding trip to Costa Rica, specifically targeting Quetzals.\n* 🔴 (02:58) User has been training with a \"portable hide\" at home (successfully stayed in it for 3+ hours).\n* 🔴 (02:58) User is researching birding tour operators in Costa Rica, with a specific interest in \"Tropical Birding Tours\".\n* 🔴 (02:58) User requested recommendations for bird photography gear and settings for capturing birds in flight (uses a Nikon camera).\n\nDate: May 6, 2023\n* 🔴 (02:58) User requested birding apps and field guides for Costa Rica trip.\n  * ✅ Assistant provided recommendations:\n    * Apps: Merlin Bird ID, iBird Pro, Audubon Birds of a Feather, eBird Mobile.\n    * Field Guides: The Sibley Guide to Birds, National Audubon Society Field Guide to Birds, Birds of Costa Rica (by Richard Garrigues and Robert Dean).\n    * Other: Xeno-canto, BirdNote.\n\nDate: May 7, 2023\n* 🔴 (00:43) User asked for identification of a rock song with \"hey\" adlib featured in *Happy Gilmore*.\n  * ✅ Assistant identified \"Werewolves of London\" by Warren Zevon.\n* 🔴 (00:43) User asked about a Redfoo remix of \"Werewolves of London\".\n* 🟡 (00:43) User provided a YouTube link to a Redfoo DJ set.\n  * ✅ Assistant identified 13 songs in the Redfoo DJ set: \"Party Rock Anthem\", \"Yeah!\", \"Bojangles\", \"Cupid Shuffle\", \"Cha Cha Slide\", \"Werewolves of London\", \"Low\", \"Shots\", \"Tik Tok\", \"Poker Face\", \"I Like to Move It\", \"Calabria\", \"Sexy and I Know It\".\n* 🔴 (06:52) User is developing product copy for a \"unisex heavy cotton tee\".\n  * ✅ Assistant summarized benefits and specs (100% cotton, 5.3 oz/yd², classic fit, tear-away label).\n\nDate: May 8, 2023\n* 🔴 (12:15) User requested picture book title ideas inspired by Japanese authors: Shinsuke Yoshitake, Keiko Sena, and Tatsuya Miyanishi.\n  * ✅ Assistant generated 30 title ideas for each author.\n* 🔴 (22:55) User asked about challenges in resolving conflicts between international organizations.\n  * ✅ Assistant listed 10 challenges (e.g., diverse interests, competing agendas, cultural differences, lack of consensus).\n\n--- message boundary (2023-05-10T23:14:05.001Z) ---\n\nDate: May 8, 2023\n* 🔴 (22:55) User asked about conflicts between international organizations and examples of successful collaborations.\n  * ✅ Assistant provided examples of conflicts (UN/ICC, WHO/WTO, IMF/World Bank, UNESCO/ICOM, ILO/ICC) and collaborations (Paris Agreement, UNAIDS, Global Polio Eradication Initiative, ICBL).\n\nDate: May 10, 2023\n* 🔴 (05:13) User requested healthy, plant-based meal ideas for their children.\n* 🔴 (05:13) User stated their children are \"picky eaters.\"\n* 🔴 (05:13) User intends to try the suggested plant-based meal ideas for themselves.\n  * ✅ Assistant provided meal ideas, tips for sneaking in vegetables, and strategies for picky eaters (make it fun, involve them, small portions, role modeling, patience).\n\nDate: May 10, 2023\n* 🔴 (23:14) User is involved in an Evangelical church that holds to \"traditional Evangelical teachings.\"\n* 🔴 (23:14) User requested a draft statement of faith covering 8 specific topics: (1) The Scriptures, (2) The Triune God, (3) Jesus Christ, (4) The Holy Spirit, (5) Man, (6) Salvation, (7) The Church, and (8) The Things to Come.\n  * ✅ Assistant provided a draft statement of faith covering the requested topics.\n\n--- message boundary (2023-05-23T23:20:25.001Z) ---\n\nDate: May 14, 2023\n* 🔴 (09:02) User is interested in medical technology advancements, specifically nanotechnology and its ethical implications (safety, cost, equity, transparency).\n\nDate: May 15, 2023\n* 🔴 (01:50) User is collaborating on a story involving characters Mei, MK, and Bai Long Ma.\n\nDate: May 16, 2023\n* 🔴 (19:02) User is researching keywords for a potential small business involving custom dog tags and pet accessories.\n\nDate: May 19, 2023\n* ✅ (04:25) User finalized house purchase agreement for $500,000.\n* 🔴 (04:25) User is setting up home utilities and homeowner's insurance.\n* 🔴 (04:25) User decided to select \"Replacement Cost Value\" (RCV) coverage for homeowner's insurance.\n\nDate: May 23, 2023\n* 🔴 (05:18) User is working on improving productivity, specifically reducing social media usage (previously 3 hours/day) and establishing a daily routine.\n* 🔴 (05:18) User started journaling to process thoughts and emotions.\n* 🔴 (05:18) User is interested in photography as a new hobby.\n* 🔴 (13:01) User plays soccer with coworkers (games every two weeks).\n* ✅ (13:01) User set a personal best time of 27:12 in a 5K charity run.\n* 🔴 (13:01) User is interested in entering a tennis tournament (referenced May 6th).\n* 🔴 (23:20) User is planning a surprise garden-themed birthday party for their grandma.\n* 🔴 (23:20) User calls their grandma every other day; grandma is currently stressed.\n\n--- message boundary (2023-05-28T05:27:35.001Z) ---\n\nDate: May 26, 2023\n* 🔴 (05:56) User experiencing rattling noise in bathroom fan (ongoing for few weeks).\n* 🔴 (05:56) User purchased 4 new bathroom towels (blue and white) from Bed Bath & Beyond.\n* 🔴 (05:56) User experiencing hair loss, currently using a hair mask once a week.\n* ✅ (05:56) User decided to troubleshoot bathroom fan (clean and check screws) before replacing.\n\nDate: May 27, 2023\n* 🔴 (00:33) User requested vegan pasta sauce recipes.\n* 🔴 (00:33) User decided to make Mushroom Bolognese using cremini mushrooms and vegan \"chick'n\" parmesan.\n* 🔴 (00:33) User prefers oat milk (no other plant-based milk mentioned).\n* 🔴 (09:35) User requested information on \"Dots\" (no-code community automation) and \"Spatial Canvas\".\n* 🔴 (14:54) User training for a marathon (current PR 4:15, goal: -15 mins).\n* 🔴 (14:54) User committed to incorporating strength training (3x/week) and consistent post-run stretching.\n* 🔴 (14:54) User plans to use a daily planner and a running log to track stretching consistency.\n\nDate: May 28, 2023\n* 🔴 (05:27) User planning a 3-4 day trip to Greenville, SC.\n* 🔴 (05:27) User attended college roommate's PhD graduation. (meaning May 28, 2023)\n* 🔴 (05:27) User interested in professional development/certification opportunities in Greenville.",
+        "totalTokensObserved": 0,
+        "observationTokenCount": 2652,
+        "pendingMessageTokens": 28663,
+        "isReflecting": false,
+        "isObserving": false,
+        "isBufferingObservation": false,
+        "isBufferingReflection": false,
+        "lastBufferedAtTokens": 33071,
+        "lastBufferedAtTime": "2023-05-28T05:27:35.001Z",
+        "config": {
+          "observation": {
+            "model": {
+              "specificationVersion": "v4",
+              "provider": "google.generative-ai",
+              "modelId": "gemini-3.1-flash-lite",
+              "supportedUrls": {
+                "*": [
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "text/html": [
+                  {}
+                ],
+                "text/css": [
+                  {}
+                ],
+                "text/plain": [
+                  {}
+                ],
+                "text/xml": [
+                  {}
+                ],
+                "text/csv": [
+                  {}
+                ],
+                "text/rtf": [
+                  {}
+                ],
+                "text/javascript": [
+                  {}
+                ],
+                "application/json": [
+                  {}
+                ],
+                "application/pdf": [
+                  {}
+                ],
+                "image/bmp": [
+                  {}
+                ],
+                "image/jpeg": [
+                  {}
+                ],
+                "image/png": [
+                  {}
+                ],
+                "image/webp": [
+                  {}
+                ],
+                "video/mp4": [
+                  {}
+                ],
+                "video/mpeg": [
+                  {}
+                ],
+                "video/quicktime": [
+                  {}
+                ],
+                "video/avi": [
+                  {}
+                ],
+                "video/x-flv": [
+                  {}
+                ],
+                "video/mpg": [
+                  {}
+                ],
+                "video/webm": [
+                  {}
+                ],
+                "video/wmv": [
+                  {}
+                ],
+                "video/3gpp": [
+                  {}
+                ]
+              }
+            },
+            "maxRetries": 8,
+            "failurePolicy": "abort",
+            "messageTokens": 30000,
+            "shareTokenBudget": false,
+            "modelSettings": {
+              "temperature": 0.3
+            },
+            "providerOptions": {
+              "google": {
+                "thinkingConfig": {
+                  "thinkingBudget": 215
+                }
+              }
+            },
+            "maxTokensPerBatch": 10000,
+            "bufferTokens": 6000,
+            "bufferOnIdle": false,
+            "observeOnContextOverflow": true,
+            "bufferActivation": 0.8,
+            "activateOnProviderChange": false,
+            "blockAfter": 36000,
+            "previousObserverTokens": false,
+            "threadTitle": false,
+            "observeAttachments": [
+              "image/*",
+              "application/pdf"
+            ],
+            "extractors": [
+              {
+                "name": "current-task",
+                "slug": "current-task",
+                "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+                "schema": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                },
+                "mode": "inline",
+                "includePreviousExtraction": true,
+                "metadataKeyPath": "currentTask",
+                "retryStructuredExtractionOnEmptyObject": false,
+                "required": false,
+                "internal": true,
+                "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+                "schemaConfig": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                }
+              },
+              {
+                "name": "suggested-response",
+                "slug": "suggested-response",
+                "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+                "schema": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                },
+                "mode": "inline",
+                "includePreviousExtraction": true,
+                "metadataKeyPath": "suggestedResponse",
+                "retryStructuredExtractionOnEmptyObject": false,
+                "required": false,
+                "internal": true,
+                "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+                "schemaConfig": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "reflection": {
+            "model": {
+              "specificationVersion": "v4",
+              "provider": "google.generative-ai",
+              "modelId": "gemini-3.1-flash-lite",
+              "supportedUrls": {
+                "*": [
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "text/html": [
+                  {}
+                ],
+                "text/css": [
+                  {}
+                ],
+                "text/plain": [
+                  {}
+                ],
+                "text/xml": [
+                  {}
+                ],
+                "text/csv": [
+                  {}
+                ],
+                "text/rtf": [
+                  {}
+                ],
+                "text/javascript": [
+                  {}
+                ],
+                "application/json": [
+                  {}
+                ],
+                "application/pdf": [
+                  {}
+                ],
+                "image/bmp": [
+                  {}
+                ],
+                "image/jpeg": [
+                  {}
+                ],
+                "image/png": [
+                  {}
+                ],
+                "image/webp": [
+                  {}
+                ],
+                "video/mp4": [
+                  {}
+                ],
+                "video/mpeg": [
+                  {}
+                ],
+                "video/quicktime": [
+                  {}
+                ],
+                "video/avi": [
+                  {}
+                ],
+                "video/x-flv": [
+                  {}
+                ],
+                "video/mpg": [
+                  {}
+                ],
+                "video/webm": [
+                  {}
+                ],
+                "video/wmv": [
+                  {}
+                ],
+                "video/3gpp": [
+                  {}
+                ]
+              }
+            },
+            "maxRetries": 8,
+            "failurePolicy": "abort",
+            "observationTokens": 40000,
+            "shareTokenBudget": false,
+            "modelSettings": {
+              "temperature": 0
+            },
+            "providerOptions": {
+              "google": {
+                "thinkingConfig": {
+                  "thinkingBudget": 1024
+                }
+              }
+            },
+            "bufferActivation": 0.5,
+            "activateOnProviderChange": false,
+            "blockAfter": 48000,
+            "extractors": [
+              {
+                "name": "current-task",
+                "slug": "current-task",
+                "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+                "schema": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                },
+                "mode": "inline",
+                "includePreviousExtraction": true,
+                "metadataKeyPath": "currentTask",
+                "retryStructuredExtractionOnEmptyObject": false,
+                "required": false,
+                "internal": true,
+                "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+                "schemaConfig": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                }
+              },
+              {
+                "name": "suggested-response",
+                "slug": "suggested-response",
+                "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+                "schema": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                },
+                "mode": "inline",
+                "includePreviousExtraction": true,
+                "metadataKeyPath": "suggestedResponse",
+                "retryStructuredExtractionOnEmptyObject": false,
+                "required": false,
+                "internal": true,
+                "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+                "schemaConfig": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "scope": "thread"
+        },
+        "observedTimezone": "UTC",
+        "supersededBy": null
+      },
+      "pendingTokens": 28703,
+      "threshold": 30000,
+      "effectiveObservationTokensThreshold": 40000,
+      "unbufferedPendingTokens": 28703,
+      "shouldObserve": false,
+      "shouldBuffer": false,
+      "shouldReflect": false,
+      "bufferedChunkCount": 0,
+      "bufferedChunkTokens": 0,
+      "canActivate": false,
+      "asyncObservationEnabled": true,
+      "asyncReflectionEnabled": true,
+      "observationBlockAfter": 36000,
+      "inAsyncObservationBand": false,
+      "scope": "thread"
+    }
+  },
+  "afterReflect": {
+    "reflected": true,
+    "usage": {
+      "inputTokens": 8993,
+      "outputTokens": 1921,
+      "totalTokens": 10914
+    },
+    "record": {
+      "id": "717b473d-4135-4a34-8048-afe253afda1c",
+      "scope": "thread",
+      "threadId": "lme-6a1eabeb",
+      "resourceId": "lme-user",
+      "createdAt": "2023-06-25T13:22:13.317Z",
+      "updatedAt": "2023-06-25T13:22:13.317Z",
+      "lastObservedAt": "2023-05-28T05:27:35.001Z",
+      "originType": "reflection",
+      "generationCount": 1,
+      "activeObservations": "Date: Apr 23, 2023\n* 🔴 User planning Europe trip for fall (Paris/Rome); interested in WWII French Resistance, historical sites, cultural experiences, and Broadway-style shows.\n* 🔴 User requested recommendations for traditional French restaurants (cozy/seasonal) and wine bars/shops in Paris.\n\nDate: Apr 24, 2023\n* ✅ Statistical calculations for frequency distribution completed (median 136.25, quartiles/deciles provided).\n\nDate: Apr 27, 2023\n* 🔴 User enjoys Italian food; enjoyed \"Spaghetti Carbonara\" at \"Bella Vita\".\n* 🔴 User prepared fettuccine with arrabbiata sauce (Apr 20, 2023).\n* 🔴 User requested Bolognese recipe, wine pairings, and advice on ground beef fat ratios (decided on 80/20).\n* 🔴 User plans to make garlic bread with Parmesan.\n* ✅ Pasta-making tips, resources (Hazan, Pasta Grannies, etc.), and machine recommendations provided.\n\nDate: May 5, 2023\n* 🔴 User finished holiday shopping; theme: red/green, red velvet ribbon, specific holiday message provided.\n* 🔴 User maintaining 30-minute daily cleaning routine (started ~Apr 14, 2023); reports improved productivity.\n* 🔴 User adopting \"Habitica\" for task management, \"one-touch rule\" for chores/emails, and \"Someday\" folder for digital files.\n\nDate: May 6, 2023\n* 🔴 User planning birding trip to Costa Rica (targeting Quetzals); researching \"Tropical Birding Tours\".\n* 🔴 User training with \"portable hide\" (3+ hours); requested bird photography gear/settings for Nikon.\n* ✅ Birding apps (Merlin, eBird, etc.) and field guides for Costa Rica provided.\n\nDate: May 7, 2023\n* ✅ Identified \"Werewolves of London\" (Warren Zevon) and 13 songs in Redfoo DJ set.\n* ✅ Product copy for \"unisex heavy cotton tee\" (100% cotton, 5.3 oz/yd²) completed.\n\nDate: May 8, 2023\n* ✅ 30 picture book title ideas generated for authors Shinsuke Yoshitake, Keiko Sena, and Tatsuya Miyanishi.\n* ✅ Provided 10 challenges and examples of conflicts/collaborations between international organizations.\n\nDate: May 10, 2023\n* ✅ Provided plant-based meal ideas and strategies for picky eaters.\n* 🔴 User involved in Evangelical church; requested and received draft statement of faith covering 8 core theological topics.\n\nDate: May 14-16, 2023\n* 🔴 User interested in medical nanotechnology and ethical implications.\n* 🔴 User collaborating on story with characters Mei, MK, and Bai Long Ma.\n* 🔴 User researching keywords for custom dog tag/pet accessory business.\n\nDate: May 19, 2023\n* ✅ House purchase agreement finalized ($500,000).\n* 🔴 User setting up utilities and homeowner's insurance (selected RCV coverage).\n\nDate: May 23, 2023\n* 🔴 User reducing social media (goal: <3 hrs/day), journaling, and learning photography.\n* 🔴 User plays soccer (bi-weekly); set 5K PR (27:12).\n* 🔴 User interested in tennis tournament.\n* 🔴 User planning surprise garden-themed birthday party for grandma; calls grandma every other day (grandma currently stressed).\n\nDate: May 26-28, 2023\n* 🔴 User experiencing hair loss (using mask 1x/week).\n* 🔴 User purchased 4 blue/white towels from Bed Bath & Beyond.\n* ✅ Troubleshooting bathroom fan (cleaning/screws) prioritized over replacement.\n* 🔴 User making Mushroom Bolognese (cremini mushrooms, vegan \"chick'n\" parmesan); prefers oat milk.\n* 🔴 User researching \"Dots\" (no-code automation) and \"Spatial Canvas\".\n* 🔴 Marathon training (PR 4:15, goal -15 mins); committed to 3x/week strength training and daily stretching log.\n* 🔴 User planning 3-4 day trip to Greenville, SC; attended college roommate's PhD graduation (May 28, 2023).",
+      "totalTokensObserved": 0,
+      "observationTokenCount": 986,
+      "pendingMessageTokens": 28663,
+      "isReflecting": false,
+      "isObserving": false,
+      "isBufferingObservation": false,
+      "isBufferingReflection": false,
+      "lastBufferedAtTokens": 33071,
+      "lastBufferedAtTime": "2023-05-28T05:27:35.001Z",
+      "config": {
+        "observation": {
+          "model": {
+            "specificationVersion": "v4",
+            "provider": "google.generative-ai",
+            "modelId": "gemini-3.1-flash-lite",
+            "supportedUrls": {
+              "*": [
+                {},
+                {},
+                {},
+                {}
+              ],
+              "text/html": [
+                {}
+              ],
+              "text/css": [
+                {}
+              ],
+              "text/plain": [
+                {}
+              ],
+              "text/xml": [
+                {}
+              ],
+              "text/csv": [
+                {}
+              ],
+              "text/rtf": [
+                {}
+              ],
+              "text/javascript": [
+                {}
+              ],
+              "application/json": [
+                {}
+              ],
+              "application/pdf": [
+                {}
+              ],
+              "image/bmp": [
+                {}
+              ],
+              "image/jpeg": [
+                {}
+              ],
+              "image/png": [
+                {}
+              ],
+              "image/webp": [
+                {}
+              ],
+              "video/mp4": [
+                {}
+              ],
+              "video/mpeg": [
+                {}
+              ],
+              "video/quicktime": [
+                {}
+              ],
+              "video/avi": [
+                {}
+              ],
+              "video/x-flv": [
+                {}
+              ],
+              "video/mpg": [
+                {}
+              ],
+              "video/webm": [
+                {}
+              ],
+              "video/wmv": [
+                {}
+              ],
+              "video/3gpp": [
+                {}
+              ]
+            }
+          },
+          "maxRetries": 8,
+          "failurePolicy": "abort",
+          "messageTokens": 30000,
+          "shareTokenBudget": false,
+          "modelSettings": {
+            "temperature": 0.3
+          },
+          "providerOptions": {
+            "google": {
+              "thinkingConfig": {
+                "thinkingBudget": 215
+              }
+            }
+          },
+          "maxTokensPerBatch": 10000,
+          "bufferTokens": 6000,
+          "bufferOnIdle": false,
+          "observeOnContextOverflow": true,
+          "bufferActivation": 0.8,
+          "activateOnProviderChange": false,
+          "blockAfter": 36000,
+          "previousObserverTokens": false,
+          "threadTitle": false,
+          "observeAttachments": [
+            "image/*",
+            "application/pdf"
+          ],
+          "extractors": [
+            {
+              "name": "current-task",
+              "slug": "current-task",
+              "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "currentTask",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            },
+            {
+              "name": "suggested-response",
+              "slug": "suggested-response",
+              "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "suggestedResponse",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "reflection": {
+          "model": {
+            "specificationVersion": "v4",
+            "provider": "google.generative-ai",
+            "modelId": "gemini-3.1-flash-lite",
+            "supportedUrls": {
+              "*": [
+                {},
+                {},
+                {},
+                {}
+              ],
+              "text/html": [
+                {}
+              ],
+              "text/css": [
+                {}
+              ],
+              "text/plain": [
+                {}
+              ],
+              "text/xml": [
+                {}
+              ],
+              "text/csv": [
+                {}
+              ],
+              "text/rtf": [
+                {}
+              ],
+              "text/javascript": [
+                {}
+              ],
+              "application/json": [
+                {}
+              ],
+              "application/pdf": [
+                {}
+              ],
+              "image/bmp": [
+                {}
+              ],
+              "image/jpeg": [
+                {}
+              ],
+              "image/png": [
+                {}
+              ],
+              "image/webp": [
+                {}
+              ],
+              "video/mp4": [
+                {}
+              ],
+              "video/mpeg": [
+                {}
+              ],
+              "video/quicktime": [
+                {}
+              ],
+              "video/avi": [
+                {}
+              ],
+              "video/x-flv": [
+                {}
+              ],
+              "video/mpg": [
+                {}
+              ],
+              "video/webm": [
+                {}
+              ],
+              "video/wmv": [
+                {}
+              ],
+              "video/3gpp": [
+                {}
+              ]
+            }
+          },
+          "maxRetries": 8,
+          "failurePolicy": "abort",
+          "observationTokens": 40000,
+          "shareTokenBudget": false,
+          "modelSettings": {
+            "temperature": 0
+          },
+          "providerOptions": {
+            "google": {
+              "thinkingConfig": {
+                "thinkingBudget": 1024
+              }
+            }
+          },
+          "bufferActivation": 0.5,
+          "activateOnProviderChange": false,
+          "blockAfter": 48000,
+          "extractors": [
+            {
+              "name": "current-task",
+              "slug": "current-task",
+              "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "currentTask",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            },
+            {
+              "name": "suggested-response",
+              "slug": "suggested-response",
+              "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "suggestedResponse",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "scope": "thread"
+      },
+      "observedTimezone": "UTC",
+      "supersededBy": null
+    },
+    "status": {
+      "record": {
+        "id": "717b473d-4135-4a34-8048-afe253afda1c",
+        "scope": "thread",
+        "threadId": "lme-6a1eabeb",
+        "resourceId": "lme-user",
+        "createdAt": "2023-06-25T13:22:13.317Z",
+        "updatedAt": "2023-06-25T13:22:13.317Z",
+        "lastObservedAt": "2023-05-28T05:27:35.001Z",
+        "originType": "reflection",
+        "generationCount": 1,
+        "activeObservations": "Date: Apr 23, 2023\n* 🔴 User planning Europe trip for fall (Paris/Rome); interested in WWII French Resistance, historical sites, cultural experiences, and Broadway-style shows.\n* 🔴 User requested recommendations for traditional French restaurants (cozy/seasonal) and wine bars/shops in Paris.\n\nDate: Apr 24, 2023\n* ✅ Statistical calculations for frequency distribution completed (median 136.25, quartiles/deciles provided).\n\nDate: Apr 27, 2023\n* 🔴 User enjoys Italian food; enjoyed \"Spaghetti Carbonara\" at \"Bella Vita\".\n* 🔴 User prepared fettuccine with arrabbiata sauce (Apr 20, 2023).\n* 🔴 User requested Bolognese recipe, wine pairings, and advice on ground beef fat ratios (decided on 80/20).\n* 🔴 User plans to make garlic bread with Parmesan.\n* ✅ Pasta-making tips, resources (Hazan, Pasta Grannies, etc.), and machine recommendations provided.\n\nDate: May 5, 2023\n* 🔴 User finished holiday shopping; theme: red/green, red velvet ribbon, specific holiday message provided.\n* 🔴 User maintaining 30-minute daily cleaning routine (started ~Apr 14, 2023); reports improved productivity.\n* 🔴 User adopting \"Habitica\" for task management, \"one-touch rule\" for chores/emails, and \"Someday\" folder for digital files.\n\nDate: May 6, 2023\n* 🔴 User planning birding trip to Costa Rica (targeting Quetzals); researching \"Tropical Birding Tours\".\n* 🔴 User training with \"portable hide\" (3+ hours); requested bird photography gear/settings for Nikon.\n* ✅ Birding apps (Merlin, eBird, etc.) and field guides for Costa Rica provided.\n\nDate: May 7, 2023\n* ✅ Identified \"Werewolves of London\" (Warren Zevon) and 13 songs in Redfoo DJ set.\n* ✅ Product copy for \"unisex heavy cotton tee\" (100% cotton, 5.3 oz/yd²) completed.\n\nDate: May 8, 2023\n* ✅ 30 picture book title ideas generated for authors Shinsuke Yoshitake, Keiko Sena, and Tatsuya Miyanishi.\n* ✅ Provided 10 challenges and examples of conflicts/collaborations between international organizations.\n\nDate: May 10, 2023\n* ✅ Provided plant-based meal ideas and strategies for picky eaters.\n* 🔴 User involved in Evangelical church; requested and received draft statement of faith covering 8 core theological topics.\n\nDate: May 14-16, 2023\n* 🔴 User interested in medical nanotechnology and ethical implications.\n* 🔴 User collaborating on story with characters Mei, MK, and Bai Long Ma.\n* 🔴 User researching keywords for custom dog tag/pet accessory business.\n\nDate: May 19, 2023\n* ✅ House purchase agreement finalized ($500,000).\n* 🔴 User setting up utilities and homeowner's insurance (selected RCV coverage).\n\nDate: May 23, 2023\n* 🔴 User reducing social media (goal: <3 hrs/day), journaling, and learning photography.\n* 🔴 User plays soccer (bi-weekly); set 5K PR (27:12).\n* 🔴 User interested in tennis tournament.\n* 🔴 User planning surprise garden-themed birthday party for grandma; calls grandma every other day (grandma currently stressed).\n\nDate: May 26-28, 2023\n* 🔴 User experiencing hair loss (using mask 1x/week).\n* 🔴 User purchased 4 blue/white towels from Bed Bath & Beyond.\n* ✅ Troubleshooting bathroom fan (cleaning/screws) prioritized over replacement.\n* 🔴 User making Mushroom Bolognese (cremini mushrooms, vegan \"chick'n\" parmesan); prefers oat milk.\n* 🔴 User researching \"Dots\" (no-code automation) and \"Spatial Canvas\".\n* 🔴 Marathon training (PR 4:15, goal -15 mins); committed to 3x/week strength training and daily stretching log.\n* 🔴 User planning 3-4 day trip to Greenville, SC; attended college roommate's PhD graduation (May 28, 2023).",
+        "totalTokensObserved": 0,
+        "observationTokenCount": 986,
+        "pendingMessageTokens": 28663,
+        "isReflecting": false,
+        "isObserving": false,
+        "isBufferingObservation": false,
+        "isBufferingReflection": false,
+        "lastBufferedAtTokens": 33071,
+        "lastBufferedAtTime": "2023-05-28T05:27:35.001Z",
+        "config": {
+          "observation": {
+            "model": {
+              "specificationVersion": "v4",
+              "provider": "google.generative-ai",
+              "modelId": "gemini-3.1-flash-lite",
+              "supportedUrls": {
+                "*": [
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "text/html": [
+                  {}
+                ],
+                "text/css": [
+                  {}
+                ],
+                "text/plain": [
+                  {}
+                ],
+                "text/xml": [
+                  {}
+                ],
+                "text/csv": [
+                  {}
+                ],
+                "text/rtf": [
+                  {}
+                ],
+                "text/javascript": [
+                  {}
+                ],
+                "application/json": [
+                  {}
+                ],
+                "application/pdf": [
+                  {}
+                ],
+                "image/bmp": [
+                  {}
+                ],
+                "image/jpeg": [
+                  {}
+                ],
+                "image/png": [
+                  {}
+                ],
+                "image/webp": [
+                  {}
+                ],
+                "video/mp4": [
+                  {}
+                ],
+                "video/mpeg": [
+                  {}
+                ],
+                "video/quicktime": [
+                  {}
+                ],
+                "video/avi": [
+                  {}
+                ],
+                "video/x-flv": [
+                  {}
+                ],
+                "video/mpg": [
+                  {}
+                ],
+                "video/webm": [
+                  {}
+                ],
+                "video/wmv": [
+                  {}
+                ],
+                "video/3gpp": [
+                  {}
+                ]
+              }
+            },
+            "maxRetries": 8,
+            "failurePolicy": "abort",
+            "messageTokens": 30000,
+            "shareTokenBudget": false,
+            "modelSettings": {
+              "temperature": 0.3
+            },
+            "providerOptions": {
+              "google": {
+                "thinkingConfig": {
+                  "thinkingBudget": 215
+                }
+              }
+            },
+            "maxTokensPerBatch": 10000,
+            "bufferTokens": 6000,
+            "bufferOnIdle": false,
+            "observeOnContextOverflow": true,
+            "bufferActivation": 0.8,
+            "activateOnProviderChange": false,
+            "blockAfter": 36000,
+            "previousObserverTokens": false,
+            "threadTitle": false,
+            "observeAttachments": [
+              "image/*",
+              "application/pdf"
+            ],
+            "extractors": [
+              {
+                "name": "current-task",
+                "slug": "current-task",
+                "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+                "schema": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                },
+                "mode": "inline",
+                "includePreviousExtraction": true,
+                "metadataKeyPath": "currentTask",
+                "retryStructuredExtractionOnEmptyObject": false,
+                "required": false,
+                "internal": true,
+                "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+                "schemaConfig": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                }
+              },
+              {
+                "name": "suggested-response",
+                "slug": "suggested-response",
+                "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+                "schema": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                },
+                "mode": "inline",
+                "includePreviousExtraction": true,
+                "metadataKeyPath": "suggestedResponse",
+                "retryStructuredExtractionOnEmptyObject": false,
+                "required": false,
+                "internal": true,
+                "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+                "schemaConfig": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "reflection": {
+            "model": {
+              "specificationVersion": "v4",
+              "provider": "google.generative-ai",
+              "modelId": "gemini-3.1-flash-lite",
+              "supportedUrls": {
+                "*": [
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
+                "text/html": [
+                  {}
+                ],
+                "text/css": [
+                  {}
+                ],
+                "text/plain": [
+                  {}
+                ],
+                "text/xml": [
+                  {}
+                ],
+                "text/csv": [
+                  {}
+                ],
+                "text/rtf": [
+                  {}
+                ],
+                "text/javascript": [
+                  {}
+                ],
+                "application/json": [
+                  {}
+                ],
+                "application/pdf": [
+                  {}
+                ],
+                "image/bmp": [
+                  {}
+                ],
+                "image/jpeg": [
+                  {}
+                ],
+                "image/png": [
+                  {}
+                ],
+                "image/webp": [
+                  {}
+                ],
+                "video/mp4": [
+                  {}
+                ],
+                "video/mpeg": [
+                  {}
+                ],
+                "video/quicktime": [
+                  {}
+                ],
+                "video/avi": [
+                  {}
+                ],
+                "video/x-flv": [
+                  {}
+                ],
+                "video/mpg": [
+                  {}
+                ],
+                "video/webm": [
+                  {}
+                ],
+                "video/wmv": [
+                  {}
+                ],
+                "video/3gpp": [
+                  {}
+                ]
+              }
+            },
+            "maxRetries": 8,
+            "failurePolicy": "abort",
+            "observationTokens": 40000,
+            "shareTokenBudget": false,
+            "modelSettings": {
+              "temperature": 0
+            },
+            "providerOptions": {
+              "google": {
+                "thinkingConfig": {
+                  "thinkingBudget": 1024
+                }
+              }
+            },
+            "bufferActivation": 0.5,
+            "activateOnProviderChange": false,
+            "blockAfter": 48000,
+            "extractors": [
+              {
+                "name": "current-task",
+                "slug": "current-task",
+                "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+                "schema": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                },
+                "mode": "inline",
+                "includePreviousExtraction": true,
+                "metadataKeyPath": "currentTask",
+                "retryStructuredExtractionOnEmptyObject": false,
+                "required": false,
+                "internal": true,
+                "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+                "schemaConfig": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                }
+              },
+              {
+                "name": "suggested-response",
+                "slug": "suggested-response",
+                "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+                "schema": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                },
+                "mode": "inline",
+                "includePreviousExtraction": true,
+                "metadataKeyPath": "suggestedResponse",
+                "retryStructuredExtractionOnEmptyObject": false,
+                "required": false,
+                "internal": true,
+                "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+                "schemaConfig": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "scope": "thread"
+        },
+        "observedTimezone": "UTC",
+        "supersededBy": null
+      },
+      "pendingTokens": 28703,
+      "threshold": 30000,
+      "effectiveObservationTokensThreshold": 40000,
+      "unbufferedPendingTokens": 28703,
+      "shouldObserve": false,
+      "shouldBuffer": false,
+      "shouldReflect": false,
+      "bufferedChunkCount": 0,
+      "bufferedChunkTokens": 0,
+      "canActivate": false,
+      "asyncObservationEnabled": true,
+      "asyncReflectionEnabled": true,
+      "observationBlockAfter": 36000,
+      "inAsyncObservationBand": false,
+      "scope": "thread"
+    }
+  },
+  "history": [
+    {
+      "id": "717b473d-4135-4a34-8048-afe253afda1c",
+      "scope": "thread",
+      "threadId": "lme-6a1eabeb",
+      "resourceId": "lme-user",
+      "createdAt": "2023-06-25T13:22:13.317Z",
+      "updatedAt": "2023-06-25T13:22:13.317Z",
+      "lastObservedAt": "2023-05-28T05:27:35.001Z",
+      "originType": "reflection",
+      "generationCount": 1,
+      "activeObservations": "Date: Apr 23, 2023\n* 🔴 User planning Europe trip for fall (Paris/Rome); interested in WWII French Resistance, historical sites, cultural experiences, and Broadway-style shows.\n* 🔴 User requested recommendations for traditional French restaurants (cozy/seasonal) and wine bars/shops in Paris.\n\nDate: Apr 24, 2023\n* ✅ Statistical calculations for frequency distribution completed (median 136.25, quartiles/deciles provided).\n\nDate: Apr 27, 2023\n* 🔴 User enjoys Italian food; enjoyed \"Spaghetti Carbonara\" at \"Bella Vita\".\n* 🔴 User prepared fettuccine with arrabbiata sauce (Apr 20, 2023).\n* 🔴 User requested Bolognese recipe, wine pairings, and advice on ground beef fat ratios (decided on 80/20).\n* 🔴 User plans to make garlic bread with Parmesan.\n* ✅ Pasta-making tips, resources (Hazan, Pasta Grannies, etc.), and machine recommendations provided.\n\nDate: May 5, 2023\n* 🔴 User finished holiday shopping; theme: red/green, red velvet ribbon, specific holiday message provided.\n* 🔴 User maintaining 30-minute daily cleaning routine (started ~Apr 14, 2023); reports improved productivity.\n* 🔴 User adopting \"Habitica\" for task management, \"one-touch rule\" for chores/emails, and \"Someday\" folder for digital files.\n\nDate: May 6, 2023\n* 🔴 User planning birding trip to Costa Rica (targeting Quetzals); researching \"Tropical Birding Tours\".\n* 🔴 User training with \"portable hide\" (3+ hours); requested bird photography gear/settings for Nikon.\n* ✅ Birding apps (Merlin, eBird, etc.) and field guides for Costa Rica provided.\n\nDate: May 7, 2023\n* ✅ Identified \"Werewolves of London\" (Warren Zevon) and 13 songs in Redfoo DJ set.\n* ✅ Product copy for \"unisex heavy cotton tee\" (100% cotton, 5.3 oz/yd²) completed.\n\nDate: May 8, 2023\n* ✅ 30 picture book title ideas generated for authors Shinsuke Yoshitake, Keiko Sena, and Tatsuya Miyanishi.\n* ✅ Provided 10 challenges and examples of conflicts/collaborations between international organizations.\n\nDate: May 10, 2023\n* ✅ Provided plant-based meal ideas and strategies for picky eaters.\n* 🔴 User involved in Evangelical church; requested and received draft statement of faith covering 8 core theological topics.\n\nDate: May 14-16, 2023\n* 🔴 User interested in medical nanotechnology and ethical implications.\n* 🔴 User collaborating on story with characters Mei, MK, and Bai Long Ma.\n* 🔴 User researching keywords for custom dog tag/pet accessory business.\n\nDate: May 19, 2023\n* ✅ House purchase agreement finalized ($500,000).\n* 🔴 User setting up utilities and homeowner's insurance (selected RCV coverage).\n\nDate: May 23, 2023\n* 🔴 User reducing social media (goal: <3 hrs/day), journaling, and learning photography.\n* 🔴 User plays soccer (bi-weekly); set 5K PR (27:12).\n* 🔴 User interested in tennis tournament.\n* 🔴 User planning surprise garden-themed birthday party for grandma; calls grandma every other day (grandma currently stressed).\n\nDate: May 26-28, 2023\n* 🔴 User experiencing hair loss (using mask 1x/week).\n* 🔴 User purchased 4 blue/white towels from Bed Bath & Beyond.\n* ✅ Troubleshooting bathroom fan (cleaning/screws) prioritized over replacement.\n* 🔴 User making Mushroom Bolognese (cremini mushrooms, vegan \"chick'n\" parmesan); prefers oat milk.\n* 🔴 User researching \"Dots\" (no-code automation) and \"Spatial Canvas\".\n* 🔴 Marathon training (PR 4:15, goal -15 mins); committed to 3x/week strength training and daily stretching log.\n* 🔴 User planning 3-4 day trip to Greenville, SC; attended college roommate's PhD graduation (May 28, 2023).",
+      "totalTokensObserved": 0,
+      "observationTokenCount": 986,
+      "pendingMessageTokens": 28663,
+      "isReflecting": false,
+      "isObserving": false,
+      "isBufferingObservation": false,
+      "isBufferingReflection": false,
+      "lastBufferedAtTokens": 33071,
+      "lastBufferedAtTime": "2023-05-28T05:27:35.001Z",
+      "config": {
+        "observation": {
+          "model": {
+            "specificationVersion": "v4",
+            "provider": "google.generative-ai",
+            "modelId": "gemini-3.1-flash-lite",
+            "supportedUrls": {
+              "*": [
+                {},
+                {},
+                {},
+                {}
+              ],
+              "text/html": [
+                {}
+              ],
+              "text/css": [
+                {}
+              ],
+              "text/plain": [
+                {}
+              ],
+              "text/xml": [
+                {}
+              ],
+              "text/csv": [
+                {}
+              ],
+              "text/rtf": [
+                {}
+              ],
+              "text/javascript": [
+                {}
+              ],
+              "application/json": [
+                {}
+              ],
+              "application/pdf": [
+                {}
+              ],
+              "image/bmp": [
+                {}
+              ],
+              "image/jpeg": [
+                {}
+              ],
+              "image/png": [
+                {}
+              ],
+              "image/webp": [
+                {}
+              ],
+              "video/mp4": [
+                {}
+              ],
+              "video/mpeg": [
+                {}
+              ],
+              "video/quicktime": [
+                {}
+              ],
+              "video/avi": [
+                {}
+              ],
+              "video/x-flv": [
+                {}
+              ],
+              "video/mpg": [
+                {}
+              ],
+              "video/webm": [
+                {}
+              ],
+              "video/wmv": [
+                {}
+              ],
+              "video/3gpp": [
+                {}
+              ]
+            }
+          },
+          "maxRetries": 8,
+          "failurePolicy": "abort",
+          "messageTokens": 30000,
+          "shareTokenBudget": false,
+          "modelSettings": {
+            "temperature": 0.3
+          },
+          "providerOptions": {
+            "google": {
+              "thinkingConfig": {
+                "thinkingBudget": 215
+              }
+            }
+          },
+          "maxTokensPerBatch": 10000,
+          "bufferTokens": 6000,
+          "bufferOnIdle": false,
+          "observeOnContextOverflow": true,
+          "bufferActivation": 0.8,
+          "activateOnProviderChange": false,
+          "blockAfter": 36000,
+          "previousObserverTokens": false,
+          "threadTitle": false,
+          "observeAttachments": [
+            "image/*",
+            "application/pdf"
+          ],
+          "extractors": [
+            {
+              "name": "current-task",
+              "slug": "current-task",
+              "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "currentTask",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            },
+            {
+              "name": "suggested-response",
+              "slug": "suggested-response",
+              "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "suggestedResponse",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "reflection": {
+          "model": {
+            "specificationVersion": "v4",
+            "provider": "google.generative-ai",
+            "modelId": "gemini-3.1-flash-lite",
+            "supportedUrls": {
+              "*": [
+                {},
+                {},
+                {},
+                {}
+              ],
+              "text/html": [
+                {}
+              ],
+              "text/css": [
+                {}
+              ],
+              "text/plain": [
+                {}
+              ],
+              "text/xml": [
+                {}
+              ],
+              "text/csv": [
+                {}
+              ],
+              "text/rtf": [
+                {}
+              ],
+              "text/javascript": [
+                {}
+              ],
+              "application/json": [
+                {}
+              ],
+              "application/pdf": [
+                {}
+              ],
+              "image/bmp": [
+                {}
+              ],
+              "image/jpeg": [
+                {}
+              ],
+              "image/png": [
+                {}
+              ],
+              "image/webp": [
+                {}
+              ],
+              "video/mp4": [
+                {}
+              ],
+              "video/mpeg": [
+                {}
+              ],
+              "video/quicktime": [
+                {}
+              ],
+              "video/avi": [
+                {}
+              ],
+              "video/x-flv": [
+                {}
+              ],
+              "video/mpg": [
+                {}
+              ],
+              "video/webm": [
+                {}
+              ],
+              "video/wmv": [
+                {}
+              ],
+              "video/3gpp": [
+                {}
+              ]
+            }
+          },
+          "maxRetries": 8,
+          "failurePolicy": "abort",
+          "observationTokens": 40000,
+          "shareTokenBudget": false,
+          "modelSettings": {
+            "temperature": 0
+          },
+          "providerOptions": {
+            "google": {
+              "thinkingConfig": {
+                "thinkingBudget": 1024
+              }
+            }
+          },
+          "bufferActivation": 0.5,
+          "activateOnProviderChange": false,
+          "blockAfter": 48000,
+          "extractors": [
+            {
+              "name": "current-task",
+              "slug": "current-task",
+              "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "currentTask",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            },
+            {
+              "name": "suggested-response",
+              "slug": "suggested-response",
+              "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "suggestedResponse",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "scope": "thread"
+      },
+      "observedTimezone": "UTC",
+      "supersededBy": null
+    },
+    {
+      "id": "ae213ae9-bbac-4c91-92a6-f554cb30c86d",
+      "scope": "thread",
+      "threadId": "lme-6a1eabeb",
+      "resourceId": "lme-user",
+      "createdAt": "2026-11-16T19:26:30.210Z",
+      "updatedAt": "2023-06-25T13:22:13.320Z",
+      "lastObservedAt": "2023-05-28T05:27:35.001Z",
+      "originType": "initial",
+      "generationCount": 0,
+      "activeObservations": "Date: Apr 23, 2023\n* 🔴 (08:57) User planning a trip to Europe in the fall (considering Paris or Rome).\n* 🔴 (08:57) User interested in historical sites, cultural experiences, and Broadway-style shows in Paris and Rome.\n* 🔴 (08:57) User specifically interested in the French Resistance during WWII.\n* 🔴 (08:57) User requested recommendations for traditional French restaurants in Paris (seasonal, cozy).\n* 🔴 (08:57) User requested recommendations for wine bars and shops in Paris.\n\nDate: Apr 24, 2023\n* 🔴 (09:36) User requested statistical calculations for a frequency distribution (continuous variable X, substitution U = (X-130)/20).\n* ✅ (09:36) Assistant provided calculations: median (136.25), lower quartile (127.67), upper quartile (134), 3rd decile (131.67), 98th percentile (128.33).\n\nDate: Apr 27, 2023\n* 🔴 (13:38) User enjoys Italian food.\n* 🔴 (13:38) User enjoyed \"Spaghetti Carbonara\" at restaurant \"Bella Vita\".\n* 🔴 (13:38) User prepared fettuccine with arrabbiata sauce on April 20, 2023. (meaning April 20, 2023)\n* 🔴 (13:38) User requested a recipe for Spaghetti alla Bolognese and wine pairing recommendations.\n* 🔴 (13:38) User asked for advice on ground beef fat ratios (specifically 80/20 vs 70/30) for Bolognese sauce.\n\nDate: Apr 27, 2023\n* 🔴 (13:38) User decided to use 80/20 lean-to-fat ratio for ground beef in Bolognese.\n* 🔴 (13:38) User plans to make garlic bread with Parmesan cheese.\n* 🔴 (13:38) User asked for tips and resources on making pasta from scratch.\n* ✅ (13:38) Assistant provided pasta-making tips, resources (Marcella Hazan's \"The Essentials of Classic Italian Cooking\", YouTube channel \"Pasta Grannies\", The Kitchn, Jamie Oliver's recipe), and machine recommendations (Marcato Atlas 150, KitchenAid attachment, hand-cranked machine).\n\nDate: May 5, 2023\n* 🔴 (03:48) User finished holiday shopping.\n* 🔴 (03:48) User is using a monochromatic red and green theme for gift wrapping.\n* 🔴 (03:48) User selected red velvet ribbon for gift wrapping.\n* 🔴 (03:48) User selected \"simple red and green labels\" for gift tags.\n* 🔴 (03:48) User selected specific holiday message: \"Wishing you a holiday season filled with love, laughter, and all your favorite things\".\n* 🔴 (03:48) User asked for tips on prioritizing and managing holiday schedule.\n* 🔴 (05:36) User asked for app and tool recommendations for tracking cleaning schedules and tasks.\n\nDate: May 5, 2023\n* 🔴 (05:36) User has been maintaining a 30-minute daily cleaning routine for 3 weeks (started ~April 14, 2023).\n* 🔴 (05:36) User reports the daily cleaning routine has significantly improved their productivity and energy levels.\n* 🔴 (05:36) User is adopting \"Habitica\" to manage daily and weekly tasks.\n* 🔴 (05:36) User is implementing the \"one-touch rule\" for tasks (dishes, emails) and digital file organization.\n* 🔴 (05:36) User plans to use Habitica's rewards system to track progress and stay motivated.\n* 🔴 (05:36) User intends to use a \"Someday\" folder for non-urgent digital files and documents.\n\nDate: May 6, 2023\n* 🔴 (02:58) User is planning a birding trip to Costa Rica, specifically targeting Quetzals.\n* 🔴 (02:58) User has been training with a \"portable hide\" at home (successfully stayed in it for 3+ hours).\n* 🔴 (02:58) User is researching birding tour operators in Costa Rica, with a specific interest in \"Tropical Birding Tours\".\n* 🔴 (02:58) User requested recommendations for bird photography gear and settings for capturing birds in flight (uses a Nikon camera).\n\nDate: May 6, 2023\n* 🔴 (02:58) User requested birding apps and field guides for Costa Rica trip.\n  * ✅ Assistant provided recommendations:\n    * Apps: Merlin Bird ID, iBird Pro, Audubon Birds of a Feather, eBird Mobile.\n    * Field Guides: The Sibley Guide to Birds, National Audubon Society Field Guide to Birds, Birds of Costa Rica (by Richard Garrigues and Robert Dean).\n    * Other: Xeno-canto, BirdNote.\n\nDate: May 7, 2023\n* 🔴 (00:43) User asked for identification of a rock song with \"hey\" adlib featured in *Happy Gilmore*.\n  * ✅ Assistant identified \"Werewolves of London\" by Warren Zevon.\n* 🔴 (00:43) User asked about a Redfoo remix of \"Werewolves of London\".\n* 🟡 (00:43) User provided a YouTube link to a Redfoo DJ set.\n  * ✅ Assistant identified 13 songs in the Redfoo DJ set: \"Party Rock Anthem\", \"Yeah!\", \"Bojangles\", \"Cupid Shuffle\", \"Cha Cha Slide\", \"Werewolves of London\", \"Low\", \"Shots\", \"Tik Tok\", \"Poker Face\", \"I Like to Move It\", \"Calabria\", \"Sexy and I Know It\".\n* 🔴 (06:52) User is developing product copy for a \"unisex heavy cotton tee\".\n  * ✅ Assistant summarized benefits and specs (100% cotton, 5.3 oz/yd², classic fit, tear-away label).\n\nDate: May 8, 2023\n* 🔴 (12:15) User requested picture book title ideas inspired by Japanese authors: Shinsuke Yoshitake, Keiko Sena, and Tatsuya Miyanishi.\n  * ✅ Assistant generated 30 title ideas for each author.\n* 🔴 (22:55) User asked about challenges in resolving conflicts between international organizations.\n  * ✅ Assistant listed 10 challenges (e.g., diverse interests, competing agendas, cultural differences, lack of consensus).\n\n--- message boundary (2023-05-10T23:14:05.001Z) ---\n\nDate: May 8, 2023\n* 🔴 (22:55) User asked about conflicts between international organizations and examples of successful collaborations.\n  * ✅ Assistant provided examples of conflicts (UN/ICC, WHO/WTO, IMF/World Bank, UNESCO/ICOM, ILO/ICC) and collaborations (Paris Agreement, UNAIDS, Global Polio Eradication Initiative, ICBL).\n\nDate: May 10, 2023\n* 🔴 (05:13) User requested healthy, plant-based meal ideas for their children.\n* 🔴 (05:13) User stated their children are \"picky eaters.\"\n* 🔴 (05:13) User intends to try the suggested plant-based meal ideas for themselves.\n  * ✅ Assistant provided meal ideas, tips for sneaking in vegetables, and strategies for picky eaters (make it fun, involve them, small portions, role modeling, patience).\n\nDate: May 10, 2023\n* 🔴 (23:14) User is involved in an Evangelical church that holds to \"traditional Evangelical teachings.\"\n* 🔴 (23:14) User requested a draft statement of faith covering 8 specific topics: (1) The Scriptures, (2) The Triune God, (3) Jesus Christ, (4) The Holy Spirit, (5) Man, (6) Salvation, (7) The Church, and (8) The Things to Come.\n  * ✅ Assistant provided a draft statement of faith covering the requested topics.\n\n--- message boundary (2023-05-23T23:20:25.001Z) ---\n\nDate: May 14, 2023\n* 🔴 (09:02) User is interested in medical technology advancements, specifically nanotechnology and its ethical implications (safety, cost, equity, transparency).\n\nDate: May 15, 2023\n* 🔴 (01:50) User is collaborating on a story involving characters Mei, MK, and Bai Long Ma.\n\nDate: May 16, 2023\n* 🔴 (19:02) User is researching keywords for a potential small business involving custom dog tags and pet accessories.\n\nDate: May 19, 2023\n* ✅ (04:25) User finalized house purchase agreement for $500,000.\n* 🔴 (04:25) User is setting up home utilities and homeowner's insurance.\n* 🔴 (04:25) User decided to select \"Replacement Cost Value\" (RCV) coverage for homeowner's insurance.\n\nDate: May 23, 2023\n* 🔴 (05:18) User is working on improving productivity, specifically reducing social media usage (previously 3 hours/day) and establishing a daily routine.\n* 🔴 (05:18) User started journaling to process thoughts and emotions.\n* 🔴 (05:18) User is interested in photography as a new hobby.\n* 🔴 (13:01) User plays soccer with coworkers (games every two weeks).\n* ✅ (13:01) User set a personal best time of 27:12 in a 5K charity run.\n* 🔴 (13:01) User is interested in entering a tennis tournament (referenced May 6th).\n* 🔴 (23:20) User is planning a surprise garden-themed birthday party for their grandma.\n* 🔴 (23:20) User calls their grandma every other day; grandma is currently stressed.\n\n--- message boundary (2023-05-28T05:27:35.001Z) ---\n\nDate: May 26, 2023\n* 🔴 (05:56) User experiencing rattling noise in bathroom fan (ongoing for few weeks).\n* 🔴 (05:56) User purchased 4 new bathroom towels (blue and white) from Bed Bath & Beyond.\n* 🔴 (05:56) User experiencing hair loss, currently using a hair mask once a week.\n* ✅ (05:56) User decided to troubleshoot bathroom fan (clean and check screws) before replacing.\n\nDate: May 27, 2023\n* 🔴 (00:33) User requested vegan pasta sauce recipes.\n* 🔴 (00:33) User decided to make Mushroom Bolognese using cremini mushrooms and vegan \"chick'n\" parmesan.\n* 🔴 (00:33) User prefers oat milk (no other plant-based milk mentioned).\n* 🔴 (09:35) User requested information on \"Dots\" (no-code community automation) and \"Spatial Canvas\".\n* 🔴 (14:54) User training for a marathon (current PR 4:15, goal: -15 mins).\n* 🔴 (14:54) User committed to incorporating strength training (3x/week) and consistent post-run stretching.\n* 🔴 (14:54) User plans to use a daily planner and a running log to track stretching consistency.\n\nDate: May 28, 2023\n* 🔴 (05:27) User planning a 3-4 day trip to Greenville, SC.\n* 🔴 (05:27) User attended college roommate's PhD graduation. (meaning May 28, 2023)\n* 🔴 (05:27) User interested in professional development/certification opportunities in Greenville.",
+      "totalTokensObserved": 0,
+      "observationTokenCount": 2652,
+      "pendingMessageTokens": 28663,
+      "isReflecting": false,
+      "isObserving": false,
+      "isBufferingObservation": false,
+      "isBufferingReflection": false,
+      "lastBufferedAtTokens": 33071,
+      "lastBufferedAtTime": "2023-05-28T05:27:35.001Z",
+      "config": {
+        "observation": {
+          "model": {
+            "specificationVersion": "v4",
+            "provider": "google.generative-ai",
+            "modelId": "gemini-3.1-flash-lite",
+            "supportedUrls": {
+              "*": [
+                {},
+                {},
+                {},
+                {}
+              ],
+              "text/html": [
+                {}
+              ],
+              "text/css": [
+                {}
+              ],
+              "text/plain": [
+                {}
+              ],
+              "text/xml": [
+                {}
+              ],
+              "text/csv": [
+                {}
+              ],
+              "text/rtf": [
+                {}
+              ],
+              "text/javascript": [
+                {}
+              ],
+              "application/json": [
+                {}
+              ],
+              "application/pdf": [
+                {}
+              ],
+              "image/bmp": [
+                {}
+              ],
+              "image/jpeg": [
+                {}
+              ],
+              "image/png": [
+                {}
+              ],
+              "image/webp": [
+                {}
+              ],
+              "video/mp4": [
+                {}
+              ],
+              "video/mpeg": [
+                {}
+              ],
+              "video/quicktime": [
+                {}
+              ],
+              "video/avi": [
+                {}
+              ],
+              "video/x-flv": [
+                {}
+              ],
+              "video/mpg": [
+                {}
+              ],
+              "video/webm": [
+                {}
+              ],
+              "video/wmv": [
+                {}
+              ],
+              "video/3gpp": [
+                {}
+              ]
+            }
+          },
+          "maxRetries": 8,
+          "failurePolicy": "abort",
+          "messageTokens": 30000,
+          "shareTokenBudget": false,
+          "modelSettings": {
+            "temperature": 0.3
+          },
+          "providerOptions": {
+            "google": {
+              "thinkingConfig": {
+                "thinkingBudget": 215
+              }
+            }
+          },
+          "maxTokensPerBatch": 10000,
+          "bufferTokens": 6000,
+          "bufferOnIdle": false,
+          "observeOnContextOverflow": true,
+          "bufferActivation": 0.8,
+          "activateOnProviderChange": false,
+          "blockAfter": 36000,
+          "previousObserverTokens": false,
+          "threadTitle": false,
+          "observeAttachments": [
+            "image/*",
+            "application/pdf"
+          ],
+          "extractors": [
+            {
+              "name": "current-task",
+              "slug": "current-task",
+              "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "currentTask",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            },
+            {
+              "name": "suggested-response",
+              "slug": "suggested-response",
+              "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "suggestedResponse",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "reflection": {
+          "model": {
+            "specificationVersion": "v4",
+            "provider": "google.generative-ai",
+            "modelId": "gemini-3.1-flash-lite",
+            "supportedUrls": {
+              "*": [
+                {},
+                {},
+                {},
+                {}
+              ],
+              "text/html": [
+                {}
+              ],
+              "text/css": [
+                {}
+              ],
+              "text/plain": [
+                {}
+              ],
+              "text/xml": [
+                {}
+              ],
+              "text/csv": [
+                {}
+              ],
+              "text/rtf": [
+                {}
+              ],
+              "text/javascript": [
+                {}
+              ],
+              "application/json": [
+                {}
+              ],
+              "application/pdf": [
+                {}
+              ],
+              "image/bmp": [
+                {}
+              ],
+              "image/jpeg": [
+                {}
+              ],
+              "image/png": [
+                {}
+              ],
+              "image/webp": [
+                {}
+              ],
+              "video/mp4": [
+                {}
+              ],
+              "video/mpeg": [
+                {}
+              ],
+              "video/quicktime": [
+                {}
+              ],
+              "video/avi": [
+                {}
+              ],
+              "video/x-flv": [
+                {}
+              ],
+              "video/mpg": [
+                {}
+              ],
+              "video/webm": [
+                {}
+              ],
+              "video/wmv": [
+                {}
+              ],
+              "video/3gpp": [
+                {}
+              ]
+            }
+          },
+          "maxRetries": 8,
+          "failurePolicy": "abort",
+          "observationTokens": 40000,
+          "shareTokenBudget": false,
+          "modelSettings": {
+            "temperature": 0
+          },
+          "providerOptions": {
+            "google": {
+              "thinkingConfig": {
+                "thinkingBudget": 1024
+              }
+            }
+          },
+          "bufferActivation": 0.5,
+          "activateOnProviderChange": false,
+          "blockAfter": 48000,
+          "extractors": [
+            {
+              "name": "current-task",
+              "slug": "current-task",
+              "instructions": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "currentTask",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "State the current task(s) explicitly. Can be single or multiple:\n- Primary: What the agent is currently working on\n- Secondary: Other pending tasks (mark as \"waiting for user\" if appropriate)\n\nIf the agent started doing something without user approval, note that it's off-task.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            },
+            {
+              "name": "suggested-response",
+              "slug": "suggested-response",
+              "instructions": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schema": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              },
+              "mode": "inline",
+              "includePreviousExtraction": true,
+              "metadataKeyPath": "suggestedResponse",
+              "retryStructuredExtractionOnEmptyObject": false,
+              "required": false,
+              "internal": true,
+              "instructionsConfig": "Hint for the agent's immediate next message. Examples:\n- \"I've updated the navigation model. Let me walk you through the changes...\"\n- \"The assistant should wait for the user to respond before continuing.\"\n- Call the view tool on src/example.ts to continue debugging.",
+              "schemaConfig": {
+                "def": {
+                  "type": "string"
+                },
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "scope": "thread"
+      },
+      "observedTimezone": "UTC",
+      "supersededBy": "717b473d-4135-4a34-8048-afe253afda1c"
+    }
+  ]
+}

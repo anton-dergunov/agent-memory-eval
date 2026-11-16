@@ -46,3 +46,8 @@ openapi_letta.json
 
 # Notes taken in lectern while reading. Personal, never published.
 *.notes.json
+
+# Mastra Observational Memory runs (scripts/mastra): packages, and the run's database
+# (rebuilt by a rerun; the calls and results next to it are kept)
+scripts/mastra/node_modules/
+scripts/mastra/runs/*/memory.db*
