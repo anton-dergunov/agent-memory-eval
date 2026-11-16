@@ -11,8 +11,8 @@ the result.
 Textual memory answers 62 of 67 (93%, 95% interval 84–97%), at 10 model calls
 and $0.022 per question. It is the one memory system that resolves conflicts
 when it writes, because its prompt tells it to: the probe finds the old value
-still presented as current in only 7% of questions, against 21–64% for the
-others. Its five failures come from the same rewrite that makes it work:
+still presented as current in only 9% of the 58 probed questions, against
+24–74% for the others. Its five failures come from the same rewrite that makes it work:
 
 | Cause | answers | questions |
 |---|--:|---|

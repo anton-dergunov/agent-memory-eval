@@ -32,21 +32,21 @@ Main run: 67 knowledge-update questions, 10 sessions each. Generated from the re
 
 ## 2. What memory looks like after an update
 
-Share of questions. *Stored* columns read the whole memory; *delivered* columns read what the answering model was given. Questions that ask for an earlier value count the asked value as "new" (see point 3).
+Share of the questions that were probed. 9 questions have no probes, because the probe model found no earlier value in the first evidence session (six of them ask for the earlier value, or both); for Letta, so has the one question whose build the provider's content filter stopped. *Stored* columns read the whole memory; *delivered* columns read what the answering model was given. Questions that ask for an earlier value count the asked value as "new" (see point 3). Context is estimated as characters / 4.
 
-| Arm | new value stored | old value still stored | old value still presented as current | new value delivered | old value delivered | both delivered | correct when both delivered | context given to the answer (tokens) |
-|---|--:|--:|--:|--:|--:|--:|--:|--:|
-| full-context | n/a | n/a | n/a | 87% | 87% | 58 | 52/58 | 27,890 |
-| retrieval | n/a | n/a | n/a | 84% | 84% | 54 | 52/54 | 5,761 |
-| textual | 85% | 64% | 7% | 85% | 60% | 39 | 37/39 | 1,513 |
-| mem0 | 78% | 81% | 37% | 78% | 76% | 45 | 41/45 | 930 |
-| graphiti | 78% | 70% | 21% | 75% | 69% | 39 | 37/39 | 284 |
-| graphiti-chunk | 19% | 25% | 22% | 19% | 25% | 3 | 2/3 | 292 |
-| letta | 42% | 33% | 24% | 63% | 36% | 15 | 12/15 | 884 |
-| letta-batch | 1% | 1% | 1% | 54% | 16% | 5 | 5/5 | 1,074 |
-| letta-persona | 79% | 66% | 9% | 82% | 67% | 43 | 42/43 | 1,288 |
-| honcho-chat | 82% | 81% | 64% | 82% | 60% | 39 | 33/39 | 77 |
-| honcho-repr | 82% | 81% | 64% | 84% | 81% | 53 | 51/53 | 935 |
+| Arm | probed | new value stored | old value still stored | old value still presented as current | new value delivered | old value delivered | both delivered | correct when both delivered | context given to the answer (tokens, est.) |
+|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| full-context | 58 | n/a | n/a | n/a | 100% | 100% | 58 | 52/58 | 27,890 |
+| retrieval | 58 | n/a | n/a | n/a | 97% | 97% | 54 | 52/54 | 5,761 |
+| textual | 58 | 98% | 74% | 9% | 98% | 69% | 39 | 37/39 | 1,513 |
+| mem0 | 58 | 90% | 93% | 43% | 90% | 88% | 45 | 41/45 | 930 |
+| graphiti | 58 | 90% | 81% | 24% | 86% | 79% | 39 | 37/39 | 284 |
+| graphiti-chunk | 58 | 22% | 29% | 26% | 22% | 29% | 3 | 2/3 | 292 |
+| letta | 57 | 49% | 39% | 28% | 74% | 42% | 15 | 12/15 | 884 |
+| letta-batch | 58 | 2% | 2% | 2% | 62% | 19% | 5 | 5/5 | 1,074 |
+| letta-persona | 57 | 93% | 77% | 11% | 96% | 79% | 43 | 42/43 | 1,288 |
+| honcho-chat | 58 | 95% | 93% | 74% | 95% | 69% | 39 | 33/39 | 77 |
+| honcho-repr | 58 | 95% | 93% | 74% | 97% | 93% | 53 | 51/53 | 935 |
 
 ## 3. Asking for the current value or an earlier one
 

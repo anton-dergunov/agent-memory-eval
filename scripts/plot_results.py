@@ -238,7 +238,7 @@ def dollars(t: float) -> str:
 def draw_results(data, theme: str) -> plt.Figure:
     c = THEMES[theme]
     fig, acc_ax, cost_ax, rows, top = figure(
-        c, "Accuracy is close. Cost is not.",
+        c, "Accuracy and cost per question",
         "LongMemEval: 67 knowledge-update questions, 10 sessions of history each, "
         "every arm on gemini-3.1-flash-lite",
         [("Accuracy", "questions answered correctly, with 95% interval"),
@@ -254,8 +254,8 @@ def draw_results(data, theme: str) -> plt.Figure:
 def draw_answering(data, theme: str) -> plt.Figure:
     c = THEMES[theme]
     fig, tok_ax, cost_ax, rows, _top = figure(
-        c, "Pay once, or pay every question.",
-        "Once the memory is built, what each answer reads and costs",
+        c, "What one answer reads and costs",
+        "Once the memory is built: the model input to search the memory and answer, per question",
         [("Tokens read per answer", "model input: searching the memory and answering"),
          ("Cost to answer", "USD per question, memory already built")])
     tokens = {arm: data[arm][0] for arm in ARMS}

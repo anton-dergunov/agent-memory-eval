@@ -17,8 +17,8 @@ from the stored conclusions, what each read path returned, and the answers.
 Honcho's deriver turns each user message into explicit conclusions with
 minute-level timestamps, about 111 per question; a scheduled "dream" adds
 about two deductive and two inductive ones. It does not close old conclusions:
-the probe finds the old value still stored in 81% of questions and still
-current in 64%, the highest of any system. Both read paths therefore depend on
+the probe finds the old value still stored in 93% of the 58 probed questions
+and still current in 74%, the highest of any system. Both read paths therefore depend on
 the answering model to choose the newer value, and they hand it the choice in
 different shapes:
 

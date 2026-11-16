@@ -50,13 +50,13 @@ ledger; judging and probes are extra and the same for every arm. The judges
 agree: `gemini-3.1-pro-preview` and `gemini-3.8-flash` gave the same verdict on
 130 of 132 answers judged by both.
 
-With 67 questions only large gaps mean anything. Seven arms sit between 82%
+With 67 questions only large gaps mean anything. Eight arms sit between 82%
 and 97%. Their intervals overlap except at the two ends (Graphiti's 71%–89%
 against retrieval's 90%–99%). Tested pair by pair on the same questions
-(McNemar's test, one test for each of the 21 pairs), even the clearest gap,
+(McNemar's test, one test for each of the 28 pairs), even the clearest gap,
 retrieval over Mem0, does not hold up: 9 questions only retrieval got right and
-none only Mem0 got right gives p = 0.004 on its own, short of the 0.05 / 21 ≈
-0.0024 that a Bonferroni correction asks of 21 tests. The order among them is
+none only Mem0 got right gives p = 0.004 on its own, short of the 0.05 / 28 ≈
+0.0018 that a Bonferroni correction asks of 28 tests. The order among them is
 not a result.
 Letta at its defaults is the one arm clearly below. With three lines added to
 its persona block, the part of Letta its users are meant to write, it scores
@@ -106,41 +106,45 @@ times.
 
 ## 2. What memory looks like after an update
 
-The probes read the whole memory and the context given to the answer, for
-every question:
+The probes read the whole memory and the context given to the answer. They
+need the value before the revision, and in 9 questions the probe model found
+none in the first evidence session (six of them ask for the earlier value, or
+both), so the shares below are out of the 58 questions that were probed (57 for Letta, whose build of one question was stopped by the
+provider's content filter). Context is estimated as characters / 4.
 
-| Arm | new value stored | old value still stored | old value still current | both values delivered | correct when both delivered | context given to the answer (tokens) |
+| Arm | new value stored | old value still stored | old value still current | both values delivered | correct when both delivered | context given to the answer (tokens, est.) |
 |---|--:|--:|--:|--:|--:|--:|
 | full context | n/a | n/a | n/a | 58 | 52/58 | 27,890 |
 | retrieval | n/a | n/a | n/a | 54 | 52/54 | 5,761 |
-| textual memory | 85% | 64% | 7% | 39 | 37/39 | 1,513 |
-| Mem0 | 78% | 81% | 37% | 45 | 41/45 | 930 |
-| Graphiti | 78% | 70% | 21% | 39 | 37/39 | 284 |
-| Letta | 42% | 33% | 24% | 15 | 12/15 | 884 |
-| Letta, persona | 79% | 66% | 9% | 43 | 42/43 | 1,288 |
-| Honcho chat | 82% | 81% | 64% | 39 | 33/39 | 77 |
-| Honcho repr | 82% | 81% | 64% | 53 | 51/53 | 935 |
+| textual memory | 98% | 74% | 9% | 39 | 37/39 | 1,513 |
+| Mem0 | 90% | 93% | 43% | 45 | 41/45 | 930 |
+| Graphiti | 90% | 81% | 24% | 39 | 37/39 | 284 |
+| Letta | 49% | 39% | 28% | 15 | 12/15 | 884 |
+| Letta, persona | 93% | 77% | 11% | 43 | 42/43 | 1,288 |
+| Honcho chat | 95% | 93% | 74% | 39 | 33/39 | 77 |
+| Honcho repr | 95% | 93% | 74% | 53 | 51/53 | 935 |
 
 Three readings:
 
 - **Almost nobody resolves the conflict at write time, and with dates it
-  mostly does not matter.** Mem0 keeps the old value as a current fact in a
-  third of the questions, Honcho in two thirds; Graphiti, the system built to
-  close superseded facts, still presents the old one as current in a fifth.
+  mostly does not matter.** Mem0 keeps the old value as a current fact in
+  more than two fifths of the questions, Honcho in three quarters; Graphiti,
+  the system built to close superseded facts, still presents the old one as
+  current in a quarter.
   When both values reach the answering model with their dates, it picks the
   newer one about nine times in ten (51 of 53 for Honcho's representation).
 - **The systems that overwrite keep less, not better.** Textual memory
-  rewrites its profile and keeps the old value as current in only 7% of
+  rewrites its profile and keeps the old value as current in only 9% of
   questions, at the cost of occasionally dropping a detail. Letta's memory
-  holds the new value in only 42% of questions. Its agent writes about ten
+  holds the new value in only 49% of questions. Its agent writes about ten
   times per history, but at the message carrying the revision it recorded the
   new value in only 31 of 64 questions, and when the value is missing its
   search rarely finds the message again
   ([findings/letta.md](findings/letta.md)). Asked in its persona to update
   the line and keep the earlier value with its date, it writes 57 of 64
-  revisions and holds the new value in 79% of questions. It also keeps the old
-  value in the line more often (66%) while presenting it as current less
-  often (9%).
+  revisions and holds the new value in 93% of questions. It also keeps the old
+  value in the line more often (77%) while presenting it as current less
+  often (11%).
 - **The amount delivered differs by a factor of 360** between Honcho's
   dialectic summary (77 tokens) and full context (27,890), with accuracy
   within the same interval.

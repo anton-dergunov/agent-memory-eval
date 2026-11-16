@@ -8,13 +8,16 @@ It runs from `infra/letta/up.sh` with its model calls going through
 * **One agent per question**, `letta_v1_agent` (the server's default), with
   Letta's two default memory blocks: `persona` (Letta's `memgpt_starter`
   text) and an empty `human` block.
-* **Each session is a new conversation with that agent.** The session's
-  messages, user and assistant, are sent in one request; the agent then takes
-  its turn, which is when it decides what to write into its blocks. A new
-  conversation starts with the blocks and nothing else in context, so what
-  reaches the next session is what the agent wrote, plus whatever it finds
-  with `conversation_search` over past messages. This is the setting MemGPT
-  was designed for.
+* **Each session is a new conversation with that agent, one agent step per
+  user message.** The agent is the assistant: it replies to each user message
+  itself (the recorded assistant replies are not sent), and at every step it
+  decides what to write into its blocks. A new conversation starts with the
+  blocks and nothing else in context, so what reaches the next session is what
+  the agent wrote, plus whatever it finds with `conversation_search` over past
+  messages. This is the setting MemGPT was designed for. (The first main run
+  sent each session's messages, user and assistant, in one request instead:
+  `MEMEVAL_LETTA_INGEST=batch`, kept as `letta-batch`. Ending on an assistant
+  message, the agent had nothing to answer and mostly took no step.)
 * **The question is asked in a new conversation** and the agent's reply is the
   answer. Answering is part of this system, so it does not use the shared
   answer prompt. The context recorded for the probes is the memory blocks

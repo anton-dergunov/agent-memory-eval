@@ -1,0 +1,195 @@
+
+## Dataset: LongMemEval S, cleaned
+
+questions: 500 {'single-session-user': 70, 'multi-session': 133, 'single-session-preference': 30, 'temporal-reasoning': 133, 'knowledge-update': 78, 'single-session-assistant': 56}
+abstention questions in all types: 30 Counter({'multi-session': 12, 'single-session-user': 6, 'temporal-reasoning': 6, 'knowledge-update': 6})
+knowledge-update: 78 of which abstention: 6
+[all 500] n=500 sessions/question mean 47.7 min 38 max 62
+[all 500] turns/session mean 10.3 median 12
+[all 500] chars/question mean 489,298 -> chars/4 122,324
+[all 500] chars/session mean 10,251 -> /4 2,563
+[all 500] user share of characters 12.6%
+[all 500] evidence sessions per question: {1: 176, 3: 41, 4: 19, 2: 250, 5: 11, 6: 3}
+[KU, 72 without abstention] n=72 sessions/question mean 47.6 min 39 max 55
+[KU, 72 without abstention] turns/session mean 10.3 median 12.0
+[KU, 72 without abstention] chars/question mean 488,862 -> chars/4 122,215
+[KU, 72 without abstention] chars/session mean 10,280 -> /4 2,570
+[KU, 72 without abstention] user share of characters 12.8%
+[KU, 72 without abstention] evidence sessions per question: {2: 72}
+days between the two evidence sessions: median 50.0, min 0, max 255, same day 4
+days from the second evidence session to the question: median 15.0, min -1, max 30
+evidence position in the dated history (0 first, 1 last): first mean 0.27, second mean 0.75
+abstention examples:
+   6aeb4375_abs | How many Italian restaurants have I tried in my city? | The information provided is not enough. You mentioned trying Korean restaurants but not Italian restaurants.
+   031748ae_abs | How many engineers do I lead when I just started my new role as Software Engineer Manager? | The information provided is not enough. You mentioned starting the role as Senior Software Engineer but not Software Engineer Manager.
+   2698e78f_abs | How often do I see Dr. Johnson? | The information provided is not enough. You mentioned seeing Dr. Smith but not Dr. Johnson.
+   2133c1b5_abs | How long have I been living in my current apartment in Shinjuku? | The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.
+   0ddfec37_abs | How many autographed football have I added to my collection in the first three months of collection? | The information provided is not enough. You mentioned collecting autographed baseball but not football.
+   f685340e_abs | How often do I play table tennis with my friends at the local park? | The information provided is not enough. You mentioned playing tennis but not table tennis.
+session id kinds in the 72 KU histories: {'simulated': 1555, 'sharegpt': 890, 'ultrachat': 835, 'answer': 144}
+
+## Splits
+
+pilot 5
+main 67
+full 25
+previous-value questions: 8 both: 3
+6a1eabeb in main: True in full: True
+
+## The 5K question, trimmed and full
+
+full=False: 10 sessions, chars/4 30,460, first 2023-04-23 08:57:00, last 2023-05-30 19:15:00, asked 2023-06-25 13:22:00
+   2023-04-23 08:57          6387e969 turns=12
+   2023-05-07 00:43          sharegpt_hcxvWC6_0 turns=16
+   2023-05-07 06:52          sharegpt_9ApEWXK_0 turns=2
+   2023-05-15 17:17          f3d43a12_2 turns=12
+   2023-05-23 13:01 EVIDENCE answer_a25d4a91_1 turns=12
+   2023-05-23 23:20          d8cc8b5c_5 turns=12
+   2023-05-30 06:09          5b71808d turns=12
+   2023-05-30 13:53 EVIDENCE answer_a25d4a91_2 turns=12
+   2023-05-30 18:35          86b8dc6e turns=12
+   2023-05-30 19:15          sharegpt_AScF7Wc_0 turns=12
+full=True: 40 sessions, chars/4 120,215, first 2023-04-23 08:57:00, last 2023-05-30 19:15:00, asked 2023-06-25 13:22:00
+trimmed main histories, chars/4: mean 27,550, min 18,221, max 38,405
+full histories (25), chars/4: mean 122,067
+
+## Accuracy (main)
+
+full-context       60/67 = 89.6%  95% 80.0%-94.8%  half-width ~7.4%
+retrieval          65/67 = 97.0%  95% 89.8%-99.2%  half-width ~4.7%
+textual            62/67 = 92.5%  95% 83.7%-96.8%  half-width ~6.5%
+mem0               56/67 = 83.6%  95% 72.9%-90.6%  half-width ~8.8%
+graphiti           55/67 = 82.1%  95% 71.3%-89.4%  half-width ~9.1%
+graphiti-chunk     12/67 = 17.9%  95% 10.6%-28.7%  half-width ~9.1%
+letta              46/67 = 68.7%  95% 56.8%-78.5%  half-width ~10.8%
+letta-batch        39/67 = 58.2%  95% 46.3%-69.3%  half-width ~11.5%
+letta-persona      60/67 = 89.6%  95% 80.0%-94.8%  half-width ~7.4%
+honcho-chat        58/67 = 86.6%  95% 76.4%-92.8%  half-width ~8.2%
+honcho-repr        62/67 = 92.5%  95% 83.7%-96.8%  half-width ~6.5%
+
+## McNemar, every pair of the arms between 82% and 97% (main)
+
+arms in the band: ['full-context', 'retrieval', 'textual', 'mem0', 'graphiti', 'letta-persona', 'honcho-chat', 'honcho-repr'] pairs: 28
+retrieval vs mem0: only retrieval 9, only mem0 0, p=0.0039 (Bonferroni threshold 0.05/28=0.0018)
+retrieval vs graphiti: only retrieval 12, only graphiti 2, p=0.0129 (Bonferroni threshold 0.05/28=0.0018)
+retrieval vs honcho-chat: only retrieval 8, only honcho-chat 1, p=0.0391 (Bonferroni threshold 0.05/28=0.0018)
+full-context vs retrieval: only full-context 0, only retrieval 5, p=0.0625 (Bonferroni threshold 0.05/28=0.0018)
+textual vs graphiti: only textual 11, only graphiti 4, p=0.1185 (Bonferroni threshold 0.05/28=0.0018)
+retrieval vs letta-persona: only retrieval 6, only letta-persona 1, p=0.1250 (Bonferroni threshold 0.05/28=0.0018)
+graphiti vs honcho-repr: only graphiti 5, only honcho-repr 12, p=0.1435 (Bonferroni threshold 0.05/28=0.0018)
+mem0 vs honcho-repr: only mem0 3, only honcho-repr 9, p=0.1460 (Bonferroni threshold 0.05/28=0.0018)
+[main] judge agreement: 130/132
+[pilot] judge agreement: 39/40
+
+## Cost and time per question (main)
+
+full-context    USD/q 0.0065  write calls 0.0  write input tokens 0  write secs 0  context chars/4 27,890  read+answer input tokens/q 24,706
+retrieval       USD/q 0.0017  write calls 0.0  write input tokens 0  write secs 0  context chars/4 5,761  read+answer input tokens/q 5,389
+textual         USD/q 0.0219  write calls 10.1  write input tokens 34,269  write secs 27  context chars/4 1,513  read+answer input tokens/q 1,495
+mem0            USD/q 0.0395  write calls 10.1  write input tokens 116,073  write secs 38  context chars/4 930  read+answer input tokens/q 1,127
+graphiti        USD/q 0.6405  write calls 720.1  write input tokens 2,345,801  write secs 839  context chars/4 284  read+answer input tokens/q 456
+graphiti-chunk  USD/q 0.2380  write calls 120.6  write input tokens 897,212  write secs 145  context chars/4 292  read+answer input tokens/q 456
+letta           USD/q 0.1324  write calls 81.2  write input tokens 325,687  write secs 379  context chars/4 884  read+answer input tokens/q 9,926
+letta-batch     USD/q 0.0288  write calls 10.8  write input tokens 51,712  write secs 43  context chars/4 1,074  read+answer input tokens/q 14,894
+letta-persona   USD/q 0.1518  write calls 87.8  write input tokens 398,307  write secs 265  context chars/4 1,288  read+answer input tokens/q 13,850
+honcho-chat     USD/q 0.0291  write calls 38.3  write input tokens 70,661  write secs 115  context chars/4 77  read+answer input tokens/q 5,284
+honcho-repr     USD/q 0.0281  write calls 38.3  write input tokens 70,661  write secs 115  context chars/4 935  read+answer input tokens/q 1,328
+split total $92.66, of which judging/probes/other $6.17
+  arm total letta-persona: $10.68
+  arm total graphiti: $43.93
+  arm total graphiti-chunk: $16.40
+
+## Probes (main): what memory held, what was delivered, where answers were lost
+
+full-context    probed 58  both delivered 58, correct 52
+   outcomes: {'correct': 60, 'delivered, answered old value': 5, 'delivered, other error': 1, 'wrong, unclassified': 1}
+retrieval       probed 58  both delivered 54, correct 52
+   outcomes: {'correct': 65, 'delivered, answered old value': 2}
+textual         probed 58  new stored 57/58 = 98.3%  old stored 43/58 = 74.1%  old as current 5/58 = 8.6%  both delivered 39, correct 37
+   outcomes: {'delivered, other error': 3, 'correct': 62, 'update never stored': 1, 'delivered, answered old value': 1}
+mem0            probed 58  new stored 52/58 = 89.7%  old stored 54/58 = 93.1%  old as current 25/58 = 43.1%  both delivered 45, correct 41
+   outcomes: {'correct': 56, 'update never stored': 6, 'delivered, answered old value': 2, 'wrong, unclassified': 1, 'delivered, other error': 2}
+graphiti        probed 58  new stored 52/58 = 89.7%  old stored 47/58 = 81.0%  old as current 14/58 = 24.1%  both delivered 39, correct 37
+   outcomes: {'correct': 55, 'delivered, other error': 3, 'stored, not delivered': 2, 'update never stored': 5, 'delivered, answered old value': 1, 'wrong, unclassified': 1}
+graphiti-chunk  probed 58  new stored 13/58 = 22.4%  old stored 17/58 = 29.3%  old as current 15/58 = 25.9%  both delivered 3, correct 2
+   outcomes: {'update never stored': 45, 'correct': 12, 'wrong, unclassified': 9, 'delivered, other error': 1}
+letta           probed 57  new stored 28/57 = 49.1%  old stored 22/57 = 38.6%  old as current 16/57 = 28.1%  both delivered 15, correct 12
+   outcomes: {'correct': 46, 'update never stored': 15, 'delivered, other error': 2, 'wrong, unclassified': 4}
+letta-batch     probed 58  new stored 1/58 = 1.7%  old stored 1/58 = 1.7%  old as current 1/58 = 1.7%  both delivered 5, correct 5
+   outcomes: {'correct': 39, 'update never stored': 22, 'wrong, unclassified': 6}
+letta-persona   probed 57  new stored 53/57 = 93.0%  old stored 44/57 = 77.2%  old as current 6/57 = 10.5%  both delivered 43, correct 42
+   outcomes: {'correct': 60, 'wrong, unclassified': 2, 'delivered, other error': 2, 'update never stored': 3}
+honcho-chat     probed 58  new stored 55/58 = 94.8%  old stored 54/58 = 93.1%  old as current 43/58 = 74.1%  both delivered 39, correct 33
+   outcomes: {'correct': 58, 'stored, not delivered': 1, 'delivered, other error': 4, 'update never stored': 1, 'delivered, answered old value': 3}
+honcho-repr     probed 58  new stored 55/58 = 94.8%  old stored 54/58 = 93.1%  old as current 43/58 = 74.1%  both delivered 53, correct 51
+   outcomes: {'correct': 62, 'update never stored': 2, 'delivered, answered old value': 1, 'delivered, other error': 1, 'wrong, unclassified': 1}
+questions with no old value (probes skipped): 9 ['10e09553', '22d2cb42', '50635ada', '5a4f22c0', '6071bd76', '89941a94', '9bbe84a2', 'c4ea545c', 'e66b632c']
+
+## Current value / earlier value / both (main)
+
+full-context    {'current': '50/56', 'both': '3/3', 'previous': '7/8'}
+retrieval       {'current': '54/56', 'both': '3/3', 'previous': '8/8'}
+textual         {'current': '52/56', 'both': '3/3', 'previous': '7/8'}
+mem0            {'current': '48/56', 'both': '2/3', 'previous': '6/8'}
+graphiti        {'current': '46/56', 'both': '1/3', 'previous': '8/8'}
+graphiti-chunk  {'current': '11/56', 'both': '0/3', 'previous': '1/8'}
+letta           {'current': '39/56', 'both': '1/3', 'previous': '6/8'}
+letta-batch     {'current': '37/56', 'both': '1/3', 'previous': '1/8'}
+letta-persona   {'current': '50/56', 'both': '2/3', 'previous': '8/8'}
+honcho-chat     {'current': '48/56', 'both': '3/3', 'previous': '7/8'}
+honcho-repr     {'current': '52/56', 'both': '3/3', 'previous': '7/8'}
+
+## Accuracy (full)
+
+full-context       21/25 = 84.0%  95% 65.3%-93.6%  half-width ~14.1%
+retrieval          24/25 = 96.0%  95% 80.5%-99.3%  half-width ~9.4%
+textual            23/25 = 92.0%  95% 75.0%-97.8%  half-width ~11.4%
+mem0               21/25 = 84.0%  95% 65.3%-93.6%  half-width ~14.1%
+
+## Cost and time per question (full)
+
+full-context    USD/q 0.0275  write calls 0.0  write input tokens 0  write secs 0  context chars/4 123,631  read+answer input tokens/q 108,567
+retrieval       USD/q 0.0016  write calls 0.0  write input tokens 0  write secs 0  context chars/4 5,881  read+answer input tokens/q 5,519
+textual         USD/q 0.2773  write calls 58.8  write input tokens 312,253  write secs 312  context chars/4 5,567  read+answer input tokens/q 6,212
+mem0            USD/q 0.1806  write calls 51.4  write input tokens 586,310  write secs 195  context chars/4 910  read+answer input tokens/q 1,117
+split total $13.26, of which judging/probes/other $1.09
+  arm total letta-persona: $0.00
+  arm total graphiti: $0.00
+  arm total graphiti-chunk: $0.00
+
+## Full history against trimmed, same 25 questions
+
+full-context  10 sessions 23/25 = 92.0%  full 21/25 = 84.0%  ctx 27,677 -> 123,631  USD 0.0065 -> 0.0275 (x4.2)  lost ['0f05491a', '6a1eabeb'] gained []
+    full-context wrong on full history: 0f05491a How many stars do I need to reach the gold level on my Starbucks Rewards app? | key: 120 | outcome: delivered, answered old value
+    full-context wrong on full history: 6a1eabeb What was my personal best time in the charity 5K run? | key: 25 minutes and 50 seconds (or 25:50) | outcome: delivered, answered old value
+    full-context wrong on full history: 7401057b How many free night's stays can I redeem at any Hilton property with my accumulated points? | key: Two | outcome: delivered, answered old value
+    full-context wrong on full history: 830ce83f Where did Rachel move to after her recent relocation? | key: the suburbs | outcome: delivered, answered old value
+retrieval     10 sessions 25/25 = 100.0%  full 24/25 = 96.0%  ctx 5,825 -> 5,881  USD 0.0016 -> 0.0016 (x1.0)  lost ['4d6b87c8'] gained []
+textual       10 sessions 24/25 = 96.0%  full 23/25 = 92.0%  ctx 1,515 -> 5,567  USD 0.0218 -> 0.2773 (x12.7)  lost ['830ce83f'] gained []
+mem0          10 sessions 21/25 = 84.0%  full 21/25 = 84.0%  ctx 919 -> 910  USD 0.0396 -> 0.1806 (x4.6)  lost ['4d6b87c8', '6a1eabeb'] gained ['dad224aa', 'eace081b']
+full-context answer input tokens on full histories: mean 108,567
+full-context answer input tokens on trimmed histories: mean 24,706, min 15,237, max 34,226
+
+## Spend by split
+
+pilot $2.63
+main $92.66
+full $13.26
+
+## The 5K question across arms (main and full)
+
+[main] full-context    correct=True  probe={"delivered": {"new_present": true, "old_present": true, "by_construction": true}, "stale": {"gave_old": false, "gave_new": true}}
+[main] graphiti        correct=True  probe={"stored": {"new_present": true, "old_present": true, "old_as_current": false}, "delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": false, "gave_new": true}}
+[main] graphiti-chunk  correct=True  probe={"stored": {"new_present": true, "old_present": false, "old_as_current": false}, "delivered": {"new_present": true, "old_present": false}, "stale": {"gave_old": false, "gave_new": true}}
+[main] honcho-chat     correct=False  probe={"stored": {"new_present": true, "old_present": true, "old_as_current": false}, "delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": true, "gave_new": false}}
+[main] honcho-repr     correct=True  probe={"stored": {"new_present": true, "old_present": true, "old_as_current": false}, "delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": false, "gave_new": true}}
+[main] letta           correct=True  probe={"stored": {"new_present": false, "old_present": true, "old_as_current": true}, "delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": false, "gave_new": true}}
+[main] letta-batch     correct=True  probe={"stored": {"new_present": false, "old_present": false, "old_as_current": false}, "delivered": {"new_present": true, "old_present": false}, "stale": {"gave_old": false, "gave_new": true}}
+[main] letta-persona   correct=True  probe={"stored": {"new_present": true, "old_present": true, "old_as_current": false}, "delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": false, "gave_new": true}}
+[main] mem0            correct=True  probe={"stored": {"new_present": true, "old_present": true, "old_as_current": false}, "delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": false, "gave_new": true}}
+[main] retrieval       correct=True  probe={"delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": false, "gave_new": true}}
+[main] textual         correct=True  probe={"stored": {"new_present": true, "old_present": true, "old_as_current": false}, "delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": false, "gave_new": true}}
+[full] full-context    correct=False  probe={"delivered": {"new_present": true, "old_present": true, "by_construction": true}, "stale": {"gave_old": true, "gave_new": false}}
+[full] mem0            correct=False  probe={"stored": {"new_present": true, "old_present": true, "old_as_current": false}, "delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": true, "gave_new": false}}
+[full] retrieval       correct=True  probe={"delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": false, "gave_new": true}}
+[full] textual         correct=True  probe={"stored": {"new_present": true, "old_present": true, "old_as_current": false}, "delivered": {"new_present": true, "old_present": true}, "stale": {"gave_old": false, "gave_new": true}}

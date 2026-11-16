@@ -58,7 +58,7 @@ and, for existing memories:
 > "linked_memory_ids" array.
 
 So nothing is closed or replaced. The probe finds the old value still stored in
-81% of questions and still presented as current in 37%; the reader is left to
+93% of the 58 probed questions and still presented as current in 43%; the reader is left to
 order the two values by their dates.
 
 ## The mechanisms

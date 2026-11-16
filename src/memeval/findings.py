@@ -137,24 +137,28 @@ def connecting(res, cost) -> list[str]:
 def after_update(res) -> list[str]:
     """Point 2: the state of memory once the update has been read."""
     lines = ["## 2. What memory looks like after an update", "",
-             "Share of questions. *Stored* columns read the whole memory; *delivered* columns read what the "
+             "Share of the questions that were probed. 9 questions have no probes, because the probe "
+             "model found no earlier value in the first evidence session (six of them ask for the earlier "
+             "value, or both); for Letta, so has the one question whose build the provider's content filter "
+             "stopped. *Stored* columns read the whole memory; *delivered* columns read what the "
              "answering model was given. Questions that ask for an earlier value count the asked value as "
-             "\"new\" (see point 3).", "",
-             "| Arm | new value stored | old value still stored | old value still presented as current | "
+             "\"new\" (see point 3). Context is estimated as characters / 4.", "",
+             "| Arm | probed | new value stored | old value still stored | old value still presented as current | "
              "new value delivered | old value delivered | both delivered | correct when both delivered | "
-             "context given to the answer (tokens) |",
-             "|---|--:|--:|--:|--:|--:|--:|--:|--:|"]
+             "context given to the answer (tokens, est.) |",
+             "|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|"]
     for arm, rows in res.items():
-        n = len(rows)
-        p = [r.get("probe") or {} for r in rows.values()]
+        probed = {q: r for q, r in rows.items() if r.get("probe") and "skipped" not in r["probe"]}
+        n = len(probed)
+        p = [r["probe"] for r in probed.values()]
         st = [x.get("stored") or {} for x in p]
         de = [x.get("delivered") or {} for x in p]
-        both = [r for r, d in zip(rows.values(), de) if d.get("new_present") and d.get("old_present")]
+        both = [r for r, d in zip(probed.values(), de) if d.get("new_present") and d.get("old_present")]
         stored_cols = (" | ".join(_pct(sum(bool(s.get(k)) for s in st), n)
                                   for k in ("new_present", "old_present", "old_as_current"))
                        if arm in MEMORY_ARMS else "n/a | n/a | n/a")
         ctx = _mean(len(r["context"]) for r in rows.values()) / 4
-        lines.append(f"| {arm} | {stored_cols} | {_pct(sum(bool(d.get('new_present')) for d in de), n)} | "
+        lines.append(f"| {arm} | {n} | {stored_cols} | {_pct(sum(bool(d.get('new_present')) for d in de), n)} | "
                      f"{_pct(sum(bool(d.get('old_present')) for d in de), n)} | {len(both)} | "
                      f"{sum(r['judge']['correct'] for r in both)}/{len(both)} | {ctx:,.0f} |")
     return lines + [""]

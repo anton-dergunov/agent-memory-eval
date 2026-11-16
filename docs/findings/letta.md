@@ -729,9 +729,9 @@ the bracketed date instead.
 |---|--:|--:|
 | correct | 46 of 67 (69%, 57–78%) | 60 of 67 (90%, 80–95%) |
 | new value written at the revision message | 31 of 64 | 57 of 64 |
-| new value stored at the end (probe) | 42% | 79% |
-| old value still presented as current (probe) | 24% | 9% |
-| old value still stored (probe) | 33% | 66% |
+| new value stored at the end (probe, of 57) | 49% | 93% |
+| old value still presented as current (probe, of 57) | 28% | 11% |
+| old value still stored (probe, of 57) | 39% | 77% |
 | memory edits while reading a history | 9.4 | 15.5 |
 | USD per question | 0.132 | 0.152 |
 
