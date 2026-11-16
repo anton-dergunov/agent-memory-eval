@@ -15,7 +15,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from . import config
-from .report import ORDER, ledger, outcome, wilson
+from .report import ORDER, context_tokens, ledger, outcome, wilson
 
 OUT = config.REPO / "docs" / "findings"
 
@@ -142,10 +142,10 @@ def after_update(res) -> list[str]:
              "value, or both); for Letta, so has the one question whose build the provider's content filter "
              "stopped. *Stored* columns read the whole memory; *delivered* columns read what the "
              "answering model was given. Questions that ask for an earlier value count the asked value as "
-             "\"new\" (see point 3). Context is estimated as characters / 4.", "",
+             "\"new\" (see point 3). Context is counted with the answering model's tokenizer.", "",
              "| Arm | probed | new value stored | old value still stored | old value still presented as current | "
              "new value delivered | old value delivered | both delivered | correct when both delivered | "
-             "context given to the answer (tokens, est.) |",
+             "context given to the answer (tokens) |",
              "|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|"]
     for arm, rows in res.items():
         probed = {q: r for q, r in rows.items() if r.get("probe") and "skipped" not in r["probe"]}
@@ -157,7 +157,7 @@ def after_update(res) -> list[str]:
         stored_cols = (" | ".join(_pct(sum(bool(s.get(k)) for s in st), n)
                                   for k in ("new_present", "old_present", "old_as_current"))
                        if arm in MEMORY_ARMS else "n/a | n/a | n/a")
-        ctx = _mean(len(r["context"]) for r in rows.values()) / 4
+        ctx = _mean(context_tokens(r) for r in rows.values())
         lines.append(f"| {arm} | {n} | {stored_cols} | {_pct(sum(bool(d.get('new_present')) for d in de), n)} | "
                      f"{_pct(sum(bool(d.get('old_present')) for d in de), n)} | {len(both)} | "
                      f"{sum(r['judge']['correct'] for r in both)}/{len(both)} | {ctx:,.0f} |")
@@ -227,8 +227,8 @@ def history_length(main, full, cost_main, cost_full) -> list[str]:
             return per_q(cost, arm, rows)
         lines.append(f"| {arm} | {n} | {_pct(sum(r['judge']['correct'] for r in mrows.values()), len(mrows))} | "
                      f"{_pct(sum(r['judge']['correct'] for r in frows.values()), n)} | "
-                     f"{_mean(len(r['context']) for r in mrows.values()) / 4:,.0f} | "
-                     f"{_mean(len(r['context']) for r in frows.values()) / 4:,.0f} | "
+                     f"{_mean(context_tokens(r) for r in mrows.values()):,.0f} | "
+                     f"{_mean(context_tokens(r) for r in frows.values()):,.0f} | "
                      f"{usd(cost_main, mrows):.4f} | {usd(cost_full, frows):.4f} |")
     return lines + [""]
 

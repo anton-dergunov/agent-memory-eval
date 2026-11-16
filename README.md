@@ -66,7 +66,7 @@ The five runs side by side:
 
 ## Results on LongMemEval
 
-67 knowledge-update questions, history trimmed to 10 sessions (about 28,000
+67 knowledge-update questions, history trimmed to 10 sessions (about 25,000
 tokens), `gemini-3.1-flash-lite` for every model call the systems and the
 answerer make, `gemini-3.1-pro-preview` as judge. Not comparable to published
 LongMemEval results: each history is cut from about 48 sessions to 10, only

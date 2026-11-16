@@ -3,7 +3,8 @@
 Question 6a1eabeb ("What was my personal best time in the charity 5K run?"), from
 data/longmemeval_s_cleaned.json through memeval.data: its 40 sessions in date order, which
 kind each is (from the session id), and which 10 the main run kept (memeval.data.question with
-seed 0). Token counts are characters / 4 (scripts/replays/experiment_numbers_output.txt).
+seed 0). Token counts are from the answering model's tokenizer
+(scripts/replays/token_counts_output.txt).
 """
 
 from __future__ import annotations
@@ -114,7 +115,7 @@ def draw(theme: Theme) -> Canvas:
         ink = t.paper if kind == "evidence" else t.ink
         c.text(bx + w2 / 2, row2 + 20, _label(date), TINY - 1, MEDIUM, ink, anchor="middle")
     # drawn after the curves, on the paper colour, so the curves pass behind them
-    caption1 = ("The whole history, as LongMemEval's S version has it: 40 sessions, about 120,000 tokens. "
+    caption1 = ("The whole history, as LongMemEval's S version has it: 40 sessions, about 108,000 tokens. "
                 "The full-history run used it.")
     c.rect(Box(M - 4, row1 + 52, measure(caption1, TINY, MEDIUM) + 8, 20), fill=t.paper, r=0)
     c.text(M, row1 + 66, caption1, TINY, MEDIUM, t.ink)
@@ -124,7 +125,7 @@ def draw(theme: Theme) -> Canvas:
         c.rect(Box(cx[i] - lw / 2 - 3, row1 + 31, lw + 6, 16), fill=t.paper, r=0)
         c.text(cx[i], row1 + 43, label, TINY - 1, SANS, t.faint, anchor="middle")
     c.text(M, row2 + 52, "The trimmed history of the main run: the 2 evidence sessions and 8 others drawn "
-           "at random, in date order, about 30,000 tokens.", TINY, MEDIUM, t.ink)
+           "at random, in date order, about 28,000 tokens.", TINY, MEDIUM, t.ink)
 
     # the question
     y = row2 + 72

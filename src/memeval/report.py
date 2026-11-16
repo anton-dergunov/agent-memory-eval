@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import math
 from collections import defaultdict
+from functools import cache
 
 from . import config
 
@@ -52,6 +53,19 @@ def ledger(split: str) -> list[dict]:
     return rows
 
 
+@cache
+def _token_counts(split: str) -> dict:
+    path = config.RESULTS_DIR / split / "_context_tokens.json"
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
+def context_tokens(r: dict) -> float:
+    """Tokens of the context a read path handed to the answering model, counted with the
+    model's tokenizer by scripts/replays/token_counts.py; characters / 4 if not counted."""
+    counted = _token_counts(r["split"]).get(r["arm"], {}).get(r["qid"])
+    return counted if counted is not None else len(r["context"] or "") / 4
+
+
 def outcome(r: dict) -> str:
     """Where a wrong answer was lost, from the probes."""
     if r["judge"]["correct"]:
@@ -88,7 +102,7 @@ def system_stats(arm: str, rows: list[dict]) -> dict:
                 if line.startswith("- ["):
                     levels[line[3:line.index("]")]] += 1
         out = {f"{level} conclusions": f"{count / n:.0f}" for level, count in sorted(levels.items())}
-        out["context tokens"] = f"{sum(len(r['context']) for r in rows) / n / 4:.0f}"
+        out["context tokens"] = f"{sum(context_tokens(r) for r in rows) / n:,.0f}"
     elif arm.startswith("letta"):
         empty = sum(1 for r in rows if "<human>\n\n</human>" in (r.get("dump") or "")
                     or "<human>\n</human>" in (r.get("dump") or ""))
@@ -97,9 +111,9 @@ def system_stats(arm: str, rows: list[dict]) -> dict:
                "tool calls while answering": f"{sum(len((r.get('extra') or {}).get('tool_calls', [])) for r in rows) / n:.1f}",
                "no reply": f"{sum(1 for r in rows if r['answer'] == '(no reply)')}/{len(rows)}"}
     elif arm == "textual":
-        out = {"profile tokens": f"{sum(len(r['context']) for r in rows) / n / 4:.0f}"}
+        out = {"profile tokens": f"{sum(context_tokens(r) for r in rows) / n:,.0f}"}
     elif arm in ("retrieval", "full-context"):
-        out = {"context tokens": f"{sum(len(r['context']) for r in rows) / n / 4:,.0f}"}
+        out = {"context tokens": f"{sum(context_tokens(r) for r in rows) / n:,.0f}"}
     return out
 
 

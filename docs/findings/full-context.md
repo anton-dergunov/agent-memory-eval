@@ -2,7 +2,7 @@
 
 Hand-written, from the replayed model calls of the full-context arm and the
 result files in `results/main/full-context/` and `results/full/full-context/`.
-Full context is the control: the whole trimmed history (about 28,000 tokens)
+Full context is the control: the whole trimmed history (about 25,000 tokens)
 goes into the prompt, so every value said is in front of the answering model.
 What it gets wrong is therefore about the questions and about the answering
 model, not about memory.
@@ -77,7 +77,7 @@ value, and it chose correctly in 52.
 
 ## The full history
 
-With all ~48 sessions (about 124,000 tokens) on 25 questions, accuracy goes from
+With all ~48 sessions (about 108,000 tokens) on 25 questions, accuracy goes from
 92% to 84%. All four errors have the new value in the prompt and the old one in
 the answer:
 

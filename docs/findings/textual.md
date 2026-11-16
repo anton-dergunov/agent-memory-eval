@@ -29,7 +29,7 @@ correct), only the new one in 18 (16 correct), only the old one in 1 (0), and
 
 One plain-text profile per question, rewritten whole after every session by
 one model call, under a 3,000-word cap; the answer reads the whole profile
-(about 1,500 tokens). The rewrite prompt is ours, after PersonaMem-v3's textual
+(about 1,400 tokens). The rewrite prompt is ours, after PersonaMem-v3's textual
 memory baseline. Two of its rules matter here:
 
 > When the new conversation changes or contradicts something in the profile,

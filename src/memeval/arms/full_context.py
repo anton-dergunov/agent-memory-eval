@@ -1,6 +1,6 @@
 """Full context: no memory system. Every session goes into the prompt.
 
-The control row. At about 28,000 tokens per question the whole trimmed history
+The control row. At about 25,000 tokens per question the whole trimmed history
 fits easily, so this is close to the ceiling a memory layer can only lose to.
 """
 

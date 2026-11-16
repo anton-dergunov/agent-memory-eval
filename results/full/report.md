@@ -27,9 +27,9 @@
 
 ### What each system stored and returned (mean per question)
 
-- **full-context**: context tokens 123,631
-- **retrieval**: context tokens 5,881
-- **textual**: profile tokens 5567
+- **full-context**: context tokens 108,474
+- **retrieval**: context tokens 5,419
+- **textual**: profile tokens 5,631
 - **mem0**: facts stored 250; facts returned 20; unparsed extraction replies 0.00
 
 Judge agreement (gemini-3.1-pro-preview vs gemini-3.8-flash): 48/48 (100%).

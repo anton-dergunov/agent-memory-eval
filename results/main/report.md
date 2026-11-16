@@ -48,12 +48,12 @@
 
 ### What each system stored and returned (mean per question)
 
-- **full-context**: context tokens 27,890
-- **retrieval**: context tokens 5,761
-- **textual**: profile tokens 1513
+- **full-context**: context tokens 24,609
+- **retrieval**: context tokens 5,290
+- **textual**: profile tokens 1,393
 - **mem0**: facts stored 54; facts returned 20; unparsed extraction replies 0.00
-- **honcho-chat**: deductive conclusions 2; explicit conclusions 111; inductive conclusions 2; context tokens 77
-- **honcho-repr**: deductive conclusions 2; explicit conclusions 111; inductive conclusions 2; context tokens 935
+- **honcho-chat**: deductive conclusions 2; explicit conclusions 111; inductive conclusions 2; context tokens 78
+- **honcho-repr**: deductive conclusions 2; explicit conclusions 111; inductive conclusions 2; context tokens 1,190
 - **graphiti**: edges 319; edges closed (superseded) 4.8; episodes 107; failed episodes 0.00; facts returned 10
 - **graphiti-chunk**: edges 57; edges closed (superseded) 0.2; episodes 20; failed episodes 0.00; facts returned 10
 - **letta**: human block chars 1322; questions with an empty human block 0/67; tool calls while answering 2.3; no reply 0/67

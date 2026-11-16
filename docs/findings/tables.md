@@ -32,21 +32,21 @@ Main run: 67 knowledge-update questions, 10 sessions each. Generated from the re
 
 ## 2. What memory looks like after an update
 
-Share of the questions that were probed. 9 questions have no probes, because the probe model found no earlier value in the first evidence session (six of them ask for the earlier value, or both); for Letta, so has the one question whose build the provider's content filter stopped. *Stored* columns read the whole memory; *delivered* columns read what the answering model was given. Questions that ask for an earlier value count the asked value as "new" (see point 3). Context is estimated as characters / 4.
+Share of the questions that were probed. 9 questions have no probes, because the probe model found no earlier value in the first evidence session (six of them ask for the earlier value, or both); for Letta, so has the one question whose build the provider's content filter stopped. *Stored* columns read the whole memory; *delivered* columns read what the answering model was given. Questions that ask for an earlier value count the asked value as "new" (see point 3). Context is counted with the answering model's tokenizer.
 
-| Arm | probed | new value stored | old value still stored | old value still presented as current | new value delivered | old value delivered | both delivered | correct when both delivered | context given to the answer (tokens, est.) |
+| Arm | probed | new value stored | old value still stored | old value still presented as current | new value delivered | old value delivered | both delivered | correct when both delivered | context given to the answer (tokens) |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| full-context | 58 | n/a | n/a | n/a | 100% | 100% | 58 | 52/58 | 27,890 |
-| retrieval | 58 | n/a | n/a | n/a | 97% | 97% | 54 | 52/54 | 5,761 |
-| textual | 58 | 98% | 74% | 9% | 98% | 69% | 39 | 37/39 | 1,513 |
-| mem0 | 58 | 90% | 93% | 43% | 90% | 88% | 45 | 41/45 | 930 |
-| graphiti | 58 | 90% | 81% | 24% | 86% | 79% | 39 | 37/39 | 284 |
-| graphiti-chunk | 58 | 22% | 29% | 26% | 22% | 29% | 3 | 2/3 | 292 |
-| letta | 57 | 49% | 39% | 28% | 74% | 42% | 15 | 12/15 | 884 |
-| letta-batch | 58 | 2% | 2% | 2% | 62% | 19% | 5 | 5/5 | 1,074 |
-| letta-persona | 57 | 93% | 77% | 11% | 96% | 79% | 43 | 42/43 | 1,288 |
-| honcho-chat | 58 | 95% | 93% | 74% | 95% | 69% | 39 | 33/39 | 77 |
-| honcho-repr | 58 | 95% | 93% | 74% | 97% | 93% | 53 | 51/53 | 935 |
+| full-context | 58 | n/a | n/a | n/a | 100% | 100% | 58 | 52/58 | 24,609 |
+| retrieval | 58 | n/a | n/a | n/a | 97% | 97% | 54 | 52/54 | 5,290 |
+| textual | 58 | 98% | 74% | 9% | 98% | 69% | 39 | 37/39 | 1,393 |
+| mem0 | 58 | 90% | 93% | 43% | 90% | 88% | 45 | 41/45 | 1,026 |
+| graphiti | 58 | 90% | 81% | 24% | 86% | 79% | 39 | 37/39 | 354 |
+| graphiti-chunk | 58 | 22% | 29% | 26% | 22% | 29% | 3 | 2/3 | 348 |
+| letta | 57 | 49% | 39% | 28% | 74% | 42% | 15 | 12/15 | 890 |
+| letta-batch | 58 | 2% | 2% | 2% | 62% | 19% | 5 | 5/5 | 1,180 |
+| letta-persona | 57 | 93% | 77% | 11% | 96% | 79% | 43 | 42/43 | 1,507 |
+| honcho-chat | 58 | 95% | 93% | 74% | 95% | 69% | 39 | 33/39 | 78 |
+| honcho-repr | 58 | 95% | 93% | 74% | 97% | 93% | 53 | 51/53 | 1,190 |
 
 ## 3. Asking for the current value or an earlier one
 
@@ -79,7 +79,7 @@ Hand-labelled from the question text: 8 questions ask for an earlier value (0774
 
 | Arm | n | accuracy, 10 sessions | accuracy, full history | context tokens, 10 | context tokens, full | USD per question, 10 | USD per question, full |
 |---|--:|--:|--:|--:|--:|--:|--:|
-| full-context | 25 | 92% | 84% | 27,677 | 123,631 | 0.0065 | 0.0275 |
-| retrieval | 25 | 100% | 96% | 5,825 | 5,881 | 0.0016 | 0.0016 |
-| textual | 25 | 96% | 92% | 1,515 | 5,567 | 0.0218 | 0.2773 |
-| mem0 | 25 | 84% | 84% | 919 | 910 | 0.0396 | 0.1806 |
+| full-context | 25 | 92% | 84% | 24,553 | 108,474 | 0.0065 | 0.0275 |
+| retrieval | 25 | 100% | 96% | 5,365 | 5,419 | 0.0016 | 0.0016 |
+| textual | 25 | 96% | 92% | 1,398 | 5,631 | 0.0218 | 0.2773 |
+| mem0 | 25 | 84% | 84% | 1,029 | 1,015 | 0.0396 | 0.1806 |

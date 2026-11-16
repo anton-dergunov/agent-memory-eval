@@ -23,8 +23,8 @@ kept, but not published with the repository.
 
 Runs: 17–18 October 2026. 67 knowledge-update questions (the 72 without
 abstention, minus 5 pilot questions used for checking), each history trimmed
-to both evidence sessions plus 8 distractors, about 28,000 tokens; then 25 of
-them again with the whole history, about 124,000 tokens. One model,
+to both evidence sessions plus 8 distractors, about 25,000 tokens; then 25 of
+them again with the whole history, about 108,000 tokens. One model,
 `gemini-3.1-flash-lite`, for every model call the systems and the answerer
 make; `gemini-3.1-pro-preview` as judge.
 
@@ -110,19 +110,20 @@ The probes read the whole memory and the context given to the answer. They
 need the value before the revision, and in 9 questions the probe model found
 none in the first evidence session (six of them ask for the earlier value, or
 both), so the shares below are out of the 58 questions that were probed (57 for Letta, whose build of one question was stopped by the
-provider's content filter). Context is estimated as characters / 4.
+provider's content filter). Context is counted with the answering model's
+tokenizer (`scripts/replays/token_counts.py`).
 
-| Arm | new value stored | old value still stored | old value still current | both values delivered | correct when both delivered | context given to the answer (tokens, est.) |
+| Arm | new value stored | old value still stored | old value still current | both values delivered | correct when both delivered | context given to the answer (tokens) |
 |---|--:|--:|--:|--:|--:|--:|
-| full context | n/a | n/a | n/a | 58 | 52/58 | 27,890 |
-| retrieval | n/a | n/a | n/a | 54 | 52/54 | 5,761 |
-| textual memory | 98% | 74% | 9% | 39 | 37/39 | 1,513 |
-| Mem0 | 90% | 93% | 43% | 45 | 41/45 | 930 |
-| Graphiti | 90% | 81% | 24% | 39 | 37/39 | 284 |
-| Letta | 49% | 39% | 28% | 15 | 12/15 | 884 |
-| Letta, persona | 93% | 77% | 11% | 43 | 42/43 | 1,288 |
-| Honcho chat | 95% | 93% | 74% | 39 | 33/39 | 77 |
-| Honcho repr | 95% | 93% | 74% | 53 | 51/53 | 935 |
+| full context | n/a | n/a | n/a | 58 | 52/58 | 24,609 |
+| retrieval | n/a | n/a | n/a | 54 | 52/54 | 5,290 |
+| textual memory | 98% | 74% | 9% | 39 | 37/39 | 1,393 |
+| Mem0 | 90% | 93% | 43% | 45 | 41/45 | 1,026 |
+| Graphiti | 90% | 81% | 24% | 39 | 37/39 | 354 |
+| Letta | 49% | 39% | 28% | 15 | 12/15 | 890 |
+| Letta, persona | 93% | 77% | 11% | 43 | 42/43 | 1,507 |
+| Honcho chat | 95% | 93% | 74% | 39 | 33/39 | 78 |
+| Honcho repr | 95% | 93% | 74% | 53 | 51/53 | 1,190 |
 
 Three readings:
 
@@ -145,8 +146,8 @@ Three readings:
   revisions and holds the new value in 93% of questions. It also keeps the old
   value in the line more often (77%) while presenting it as current less
   often (11%).
-- **The amount delivered differs by a factor of 360** between Honcho's
-  dialectic summary (77 tokens) and full context (27,890), with accuracy
+- **The amount delivered differs by a factor of about 300** between Honcho's
+  dialectic summary (78 tokens) and full context (24,609), with accuracy
   within the same interval.
 
 ## 3. Asking for the current value or an earlier one
@@ -234,20 +235,20 @@ system next to it):
 ## 5. What trimming hid: the full history
 
 The same 25 questions with all ~48 sessions, for the four arms cheap enough
-to run on 124,000-token histories:
+to run on 108,000-token histories:
 
 | Arm | accuracy, 10 sessions | accuracy, full history | context tokens | USD per question, 10 → full |
 |---|--:|--:|---|---|
-| full context | 92% | 84% | 27,677 → 123,631 | 0.007 → 0.028 |
-| retrieval | 100% | 96% | 5,825 → 5,881 | 0.002 → 0.002 |
-| textual memory | 96% | 92% | 1,515 → 5,567 | 0.022 → 0.277 |
-| Mem0 | 84% | 84% | 919 → 910 | 0.040 → 0.181 |
+| full context | 92% | 84% | 24,553 → 108,474 | 0.007 → 0.028 |
+| retrieval | 100% | 96% | 5,365 → 5,419 | 0.002 → 0.002 |
+| textual memory | 96% | 92% | 1,398 → 5,631 | 0.022 → 0.277 |
+| Mem0 | 84% | 84% | 1,029 → 1,015 | 0.040 → 0.181 |
 
 - **Full context slips, it does not collapse.** All four of its errors on the
   full history are the new value in the prompt and the old one in the answer
   (for example 27:12 instead of the later 25:50). On 25 questions the drop
   from 92% to 84% is two answers and inside the interval; the paper's GPT-4o
-  fell from 0.87 to 0.61 on the same histories. A model that reads 124,000
+  fell from 0.87 to 0.61 on the same histories. A model that reads 108,000
   tokens well removes most of the capacity argument for memory on this
   benchmark.
 - **The cost of memory grows with the history at write time.** Textual memory
@@ -255,7 +256,7 @@ to run on 124,000-token histories:
   session, of a growing profile), Mem0 4.5 times; retrieval costs the same,
   because it does nothing until asked. What an answer reads stays flat for
   Mem0 and retrieval. Textual memory's profile, read whole by every answer,
-  grew from about 1,500 tokens to 5,600, still a twentieth of what full
+  grew from about 1,400 tokens to 5,600, still a twentieth of what full
   context reads.
 
 ## Limits

@@ -1,0 +1,50 @@
+
+## main
+
+Check: rebuilt answer prompt (local count) against the model's reported input tokens
+  full-context    n=67  exact 65  mean |diff| 2.0  max 72
+  graphiti        n=67  exact 67  mean |diff| 0.0  max 0
+  graphiti-chunk  n=67  exact 67  mean |diff| 0.0  max 0
+  honcho-chat     n=67  exact 67  mean |diff| 0.0  max 0
+  honcho-repr     n=67  exact 67  mean |diff| 0.0  max 0
+  mem0            n=67  exact 67  mean |diff| 0.0  max 0
+  retrieval       n=67  exact 67  mean |diff| 0.0  max 0
+  textual         n=67  exact 67  mean |diff| 0.0  max 0
+
+Context handed to the answering model, tokens (mean; chars/4 for comparison)
+  full-context       24,609   (min 15,140, max 34,129)   chars/4    27,890
+  graphiti              354   (min 293, max 477)   chars/4       284
+  graphiti-chunk        348   (min 294, max 450)   chars/4       292
+  honcho-chat            78   (min 8, max 210)   chars/4        77
+  honcho-repr         1,190   (min 996, max 1,623)   chars/4       935
+  letta                 890   (min 0, max 2,799)   chars/4       884
+  letta-batch         1,180   (min 87, max 3,730)   chars/4     1,074
+  letta-persona       1,507   (min 0, max 5,804)   chars/4     1,288
+  mem0                1,026   (min 902, max 1,175)   chars/4       930
+  retrieval           5,290   (min 3,416, max 7,277)   chars/4     5,761
+  textual             1,393   (min 983, max 1,784)   chars/4     1,513
+
+Question 6a1eabeb, full-context history: 27,718 tokens
+
+## full
+
+Check: rebuilt answer prompt (local count) against the model's reported input tokens
+  full-context    n=25  exact 22  mean |diff| 6.5  max 82
+  mem0            n=25  exact 25  mean |diff| 0.0  max 0
+  retrieval       n=25  exact 25  mean |diff| 0.0  max 0
+  textual         n=25  exact 25  mean |diff| 0.0  max 0
+
+Context handed to the answering model, tokens (mean; chars/4 for comparison)
+  full-context      108,474   (min 105,843, max 110,456)   chars/4   123,631
+  mem0                1,015   (min 840, max 1,183)   chars/4       910
+  retrieval           5,419   (min 3,529, max 6,824)   chars/4     5,881
+  textual             5,631   (min 1,905, max 8,015)   chars/4     5,567
+
+Question 6a1eabeb, full-context history: 108,177 tokens
+
+## Same 25 questions, trimmed and whole (context tokens, mean)
+
+  full-context       24,553 ->   108,474
+  mem0                1,029 ->     1,015
+  retrieval           5,365 ->     5,419
+  textual             1,398 ->     5,631
