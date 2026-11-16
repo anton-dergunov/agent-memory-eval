@@ -22,7 +22,7 @@ ALT = ("A grid. Rows say who writes the memory: the user; the model, during its 
        "AI are not documented. A process writes: "
        "ChatGPT's dreaming summary, Codex's memory summary, Mastra's Observational Memory and the "
        "Claude app's earlier daily summary are inserted; Codex's rollout summaries are read on "
-       "demand. Nobody writes: Claude's search over past chats, Grok's referenced chats and "
+       "demand. Nobody writes: ChatGPT's and Claude's searches over past chats, Grok's referenced chats and "
        "Gemini's Personal Intelligence search what is already there. Not documented who writes: "
        "Perplexity searches its memory store; Gemini's memory of past chats is not documented "
        "either way.")
@@ -50,7 +50,8 @@ ROWS = [
      []),
     ("Nobody", "the past chats themselves are searched",
      [],
-     [("Claude", "search over past chats", "V"), ("Grok", "referenced chats", "C"),
+     [("ChatGPT", "search over past chats (2026)", "V"), ("Claude", "search over past chats", "V"),
+      ("Grok", "referenced chats", "C"),
       ("Gemini", "Personal Intelligence", "V")],
      []),
     ("Not documented", "the vendor does not say who writes",
