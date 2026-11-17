@@ -16,7 +16,7 @@ ALT = ("A map of memory systems on two axes: who writes the memory (nobody, a pi
        "selects. Nobody writes: full context inserts everything; plain retrieval, and Claude's "
        "and ChatGPT's search over past chats, select. A pipeline writes: Mem0 and Zep/Graphiti "
        "select. The answering agent writes: Letta's core memory blocks and ChatGPT's saved "
-       "memories are inserted; Letta's archival store and Claude's API memory tool select. A "
+       "memories are inserted; Letta's search over its message log and Claude's API memory tool select. A "
        "background process writes: textual memory, Mastra's Observational Memory and ChatGPT's "
        "dreaming summary are inserted; Honcho selects.")
 
@@ -35,7 +35,7 @@ ROWS = [
        ("network", "Zep / Graphiti", "dated facts in a graph")], [])),
     ("The answering agent", "edits memory with tool calls, mid-turn",
      ([("layers", "Letta", "core memory blocks")], ["ChatGPT's saved memories (2024)"]),
-     ([], ["Letta's archival store", "Claude's API memory tool"])),
+     ([], ["Letta's search over past messages", "Claude's API memory tool"])),
     ("A background process", "rewrites or reasons between conversations",
      ([("file-text", "Textual memory", "one profile, rewritten")],
       ["Mastra's Observational Memory", "ChatGPT's “dreaming” summary"]),

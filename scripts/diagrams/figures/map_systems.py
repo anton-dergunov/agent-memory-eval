@@ -15,8 +15,8 @@ ALT = ("The five memory systems of this series and the two baselines, on two axe
        "memory (nobody, a pipeline, the answering agent, a background process) and whether the read "
        "path inserts everything or selects. Nobody writes: full context inserts the whole history; "
        "plain retrieval selects with BM25 over the raw turns. A pipeline writes: Mem0 and Zep/Graphiti "
-       "select. The answering agent writes: Letta inserts its core memory blocks, and its archival "
-       "store is searched. A background process writes: textual memory inserts one profile; Honcho "
+       "select. The answering agent writes: Letta inserts its core memory blocks, and the agent "
+       "searches its log of past messages. A background process writes: textual memory inserts one profile; Honcho "
        "selects among its conclusions.")
 
 ROWS = [
@@ -29,7 +29,7 @@ ROWS = [
        ("network", "Zep / Graphiti", "dated facts in a graph")], [])),
     ("The answering agent", "edits memory with tool calls, mid-turn",
      ([("layers", "Letta", "core memory blocks")], []),
-     ([], ["Letta's archival store, which the agent searches"])),
+     ([], ["Letta's log of past messages, which the agent searches"])),
     ("A background process", "rewrites or reasons between conversations",
      ([("file-text", "Textual memory", "one profile, rewritten")], []),
      ([("list", "Honcho", "conclusions at levels")], [])),

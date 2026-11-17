@@ -18,9 +18,10 @@ a larger scale on the knowledge-update questions of
 
 ## Systems covered
 
-What sets the systems apart is one question: who decides what gets written to
-memory? The notebooks are numbered in reading order, from the simplest system
-to the most elaborate.
+Two choices place each system: who writes the memory (nobody, a pipeline, the
+answering agent, or a background process), and whether the read path puts all
+of it into the prompt or a search selects part of it. The notebooks are
+numbered in reading order, from the simplest system to the most elaborate.
 
 | | System | Who writes | What is run |
 |--:|---|---|---|
@@ -29,7 +30,7 @@ to the most elaborate.
 | 2 | [Mem0](https://anton-dergunov.github.io/agent-memory-eval/notebooks/02-mem0.html) | An extraction pipeline | the real library |
 | 3 | [Zep / Graphiti](https://anton-dergunov.github.io/agent-memory-eval/notebooks/03-zep-graphiti.html) | A pipeline, into a dated graph | Graphiti's prompts, driven by local code |
 | 4 | [Letta (MemGPT)](https://anton-dergunov.github.io/agent-memory-eval/notebooks/04-letta.html) | The agent itself | Letta's prompts and tool descriptions, driven by local code |
-| 5 | [Honcho](https://anton-dergunov.github.io/agent-memory-eval/notebooks/05-honcho.html) | A background reasoner | our prompts, written from Honcho's published definitions |
+| 5 | [Honcho](https://anton-dergunov.github.io/agent-memory-eval/notebooks/05-honcho.html) | A background reasoner | Honcho 3.3.0's own prompts and tools, driven by local code |
 | | Plain retrieval over raw turns | Nobody | our code, in the experiment only |
 
 Three of the five system notebooks are re-implementations made so that every
