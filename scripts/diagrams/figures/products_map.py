@@ -18,14 +18,14 @@ ALT = ("A grid. Rows say who writes the memory: the user; the model, during its 
        "Claude Code and saved info in Gemini are inserted. The model during its turn: ChatGPT's "
        "saved memories, Claude Code's MEMORY.md index and Gemini CLI's memory files are inserted; "
        "Claude Code's topic files, Gemini CLI's detail files and the API memory tool are read on "
-       "demand, and Le Chat recalls its Memories when relevant; the Claude app's topics and Meta "
-       "AI are not documented. A process writes: "
+       "demand, and Le Chat recalls its Memories when relevant; the Claude app's topics are not "
+       "documented. A process writes: "
        "ChatGPT's dreaming summary, Codex's memory summary, Mastra's Observational Memory and the "
        "Claude app's earlier daily summary are inserted; Codex's rollout summaries are read on "
        "demand. Nobody writes: ChatGPT's and Claude's searches over past chats, Grok's referenced chats and "
        "Gemini's Personal Intelligence search what is already there. Not documented who writes: "
-       "Perplexity searches its memory store; Gemini's memory of past chats is not documented "
-       "either way.")
+       "Perplexity searches its memory store; Gemini's memory of past chats and Meta AI's "
+       "remembered details are not documented either way.")
 
 COLUMNS = [("layers", "Put into the prompt", "all of it, every time"),
            ("search", "Searched", "a search or a tool picks part of it"),
@@ -41,7 +41,7 @@ ROWS = [
       ("Gemini CLI", "memory files", "C")],
      [("Claude Code", "topic files", "V"), ("Gemini CLI", "detail files", "C"),
       ("Claude API", "memory tool", "V"), ("Le Chat", "Memories", "V")],
-     [("Claude app", "topics (2026)", "V"), ("Meta AI", "saved details", "V")]),
+     [("Claude app", "topics (2026)", "V")]),
     ("A process, after or between conversations", "reads past chats, rewrites the memory",
      [("ChatGPT", "dreaming summary (2026)", "V"), ("ChatGPT", "chat-history summary (2025)", "R"),
       ("Codex", "memory_summary.md", "C"), ("Claude app", "daily summary (2025)", "V"),
@@ -57,7 +57,7 @@ ROWS = [
     ("Not documented", "the vendor does not say who writes",
      [],
      [("Perplexity", "memory store", "V")],
-     [("Gemini app", "memory of past chats", "V")]),
+     [("Gemini app", "memory of past chats", "V"), ("Meta AI", "remembered details", "V")]),
 ]
 
 X_ROW, W_ROW = M, 168

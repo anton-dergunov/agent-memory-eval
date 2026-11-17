@@ -22,7 +22,7 @@ ALT = ("A timeline from 2024 to 2026 with one row per product, grouped by vendor
        "September 2025. Gemini app: recalls past chats in February 2025, on by default in August "
        "2025, Personal Intelligence in January 2026, renamed memory with an import in March 2026. "
        "Gemini CLI: a save_memory tool in June 2025, plain files in four tiers and Auto Memory in "
-       "April 2026. Grok: April 2025. Le Chat: September 2025. Perplexity: November 2025. A marker "
+       "April 2026. Meta AI: January 2025. Grok: April 2025. Le Chat: September 2025. Perplexity: November 2025. A marker "
        "shows November 2026, the date of this description.")
 
 START, END = (2024, 1), (2027, 1)  # the axis runs from January 2024 to the end of 2026
@@ -46,6 +46,7 @@ GROUPS = [
         ("Gemini CLI", "code", [(2025, 6, "save_memory tool", "C"), (2026, 4, "files in four tiers", "C")]),
     ]),
     ("Others", [
+        ("Meta AI", "prompt", [(2025, 1, "memory", "T")]),
         ("Grok", "prompt", [(2025, 4, "memory (beta)", "T")]),
         ("Le Chat", "prompt", [(2025, 9, "Memories (beta)", "V")]),
         ("Perplexity", "prompt", [(2025, 11, "memory", "V")]),
