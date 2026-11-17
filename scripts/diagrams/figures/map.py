@@ -48,10 +48,16 @@ W_CELL = (W - M - (X_ROW + W_ROW + GAP) - GAP) / 2
 
 
 def draw(theme: Theme) -> Canvas:
-    c = Canvas(W, theme, TITLE, ALT)
+    return draw_map(theme, TITLE, ALT, ROWS,
+                    "Other systems and products, as described in the series")
+
+
+def draw_map(theme: Theme, title: str, alt: str, rows, others_key: str | None) -> Canvas:
+    """The map with the given rows; `others_key` explains the italic entries, if there are any."""
+    c = Canvas(W, theme, title, alt)
     t = theme
     s = t["store"]
-    c.text(M, 52, TITLE, TITLE_SIZE, BOLD)
+    c.text(M, 52, title, TITLE_SIZE, BOLD)
     used = c.paragraph(M, 62, "Two choices place every system: who writes the memory, and whether "
                        "the read path puts all of it into the prompt or selects part of it.",
                        W - 2 * M, SUBTITLE, SANS, t.muted)
@@ -68,7 +74,7 @@ def draw(theme: Theme) -> Canvas:
         c.text(x + 34, y + 35, meaning, TINY, SANS, t.muted)
     y += 50
 
-    for who, meaning, *cells in ROWS:
+    for who, meaning, *cells in rows:
         layouts = [_cell_height(cell) for cell in cells]
         h = max(64, *layouts)
         c.line(X_ROW, y, W - M, y, t.line)
@@ -85,7 +91,8 @@ def draw(theme: Theme) -> Canvas:
     y += 22
     icon_tile(c, M, y - 13, "store", "database", 18)
     x = M + 24 + c.text(M + 24, y, "run in this series, in the notebooks or the experiment", TINY, SANS, t.muted)
-    c.text(x + 22, y, "Other systems and products, as described in the series", TINY, ITALIC, t.muted)
+    if others_key:
+        c.text(x + 22, y, others_key, TINY, ITALIC, t.muted)
     c.height = int(y + 22)
     return c
 
