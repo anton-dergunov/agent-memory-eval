@@ -13,13 +13,14 @@ from ..theme import SMALL, TINY, Theme
 
 NAME = "overview"
 TITLE = "How a memory system works"
-ALT = ("The loop every memory system in the series is built on. Write: a conversation is turned "
+ALT = ("The two paths every memory system in the series is built on, around a model that does not "
+       "change. Write: a conversation is turned "
        "into memory (consolidation, updating), and the question is who writes: nobody, a "
        "pipeline, the answering agent or a background process. Memory: what is kept, in a shape "
        "that differs per system (a text profile, a list of facts, a dated graph, blocks in the "
        "prompt, conclusions at levels). Read: a new question gets what it needs (retrieval, "
        "condensation), and the question is whether everything is inserted or a search selects. "
-       "Use: the answering model gets instructions, what memory returned, and the question.")
+       "Use: the answering model gets instructions, what memory returned, and the question, and replies.")
 
 # Where the six operations are named (arXiv 2505.00675).
 CITATION = [("Operations as named in Du et al., ", SANS),
@@ -41,8 +42,8 @@ def draw(theme: Theme) -> Canvas:
     t = theme
     top = frame(
         c, "How a memory system works",
-        "Every system in this series is the same loop around a model that does not change: "
-        "write, keep, read, use. They differ in what fills each slot.")
+        "Every system in this series has a write path and a read path around a model that does "
+        "not change. They differ in what fills each step.")
 
     wx, ww = column("write")
     b1 = bubble(c, wx, top, ww, "a session", "“… what the user says, and what the assistant "
@@ -82,13 +83,9 @@ def draw(theme: Theme) -> Canvas:
                  "A profile, some facts, some conclusions: whatever the read step selected, and "
                  "nothing else from the past.")], "“The new question.”")
     arrow(c, [(r_q.cx, r_q.bottom), (r_q.cx, prompt.y)], t.muted, dashed=True)
-    answer = answer_card(c, wx, band + 22, ww, "The reply, which becomes part of the next "
-                         "conversation, and so of what is written next.")
+    answer = answer_card(c, wx, band + 22, ww, "The reply to the user. It is part of the "
+                         "conversation that the write path stores.")
     arrow(c, [(prompt.x, band + 22 + 13), (answer.right + 4, band + 22 + 13)], t["prompt"].accent)
-    # the loop closes: the answer goes back into the conversation, up the left margin
-    ay = band + 22 + 13
-    arrow(c, [(wx - 4, ay + 26), (14, ay + 26), (14, b1.y + 50), (wx, b1.y + 50)],
-          t["person"].accent, radius=8, width=1.2)
     footer(c, max(prompt.bottom, answer.bottom) + 24, CITATION)
     return c
 

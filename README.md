@@ -13,7 +13,7 @@ a larger scale on the knowledge-update questions of
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/figures/architecture/overview-dark.svg">
-  <img alt="The loop every memory system in the series is built on. Write: a conversation is turned into memory (consolidation, updating), and the question is who writes: nobody, a pipeline, the answering agent or a background process. Memory: what is kept, in a shape that differs per system (a text profile, a list of facts, a dated graph, blocks in the prompt, conclusions at levels). Read: a new question gets what it needs (retrieval, condensation), and the question is whether everything is inserted or a search selects. Use: the answering model gets instructions, what memory returned, and the question." src="docs/figures/architecture/overview.svg">
+  <img alt="The two paths every memory system in the series is built on, around a model that does not change. Write: a conversation is turned into memory (consolidation, updating), and the question is who writes: nobody, a pipeline, the answering agent or a background process. Memory: what is kept, in a shape that differs per system (a text profile, a list of facts, a dated graph, blocks in the prompt, conclusions at levels). Read: a new question gets what it needs (retrieval, condensation), and the question is whether everything is inserted or a search selects. Use: the answering model gets instructions, what memory returned, and the question." src="docs/figures/architecture/overview.svg">
 </picture>
 
 ## Systems covered

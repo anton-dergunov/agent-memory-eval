@@ -497,8 +497,8 @@ def vector_strip(c: Canvas, x: float, y: float, seed: str, colour: str, bars: in
 # ---- The shared frame ----
 #
 # Write on the left, the memory between, read on the right; under them, the prompt the read
-# feeds and the answer it produces. Read clockwise, it is the loop of Part 2: a conversation
-# is written to memory, a later question reads it, and the answer becomes conversation again.
+# feeds and the answer it produces: the write path and the read path of Part 2. A conversation
+# is written to memory, and a later question reads what it needs from it.
 
 W = 880
 M = 30
